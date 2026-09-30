@@ -739,7 +739,7 @@ function toast(msg, kind){
   toastEl.textContent = msg;
   toastEl.className = 'toast show ' + (kind === 'bad' ? 'bad' : 'ok');
   clearTimeout(toast._t);
-  toast._t = setTimeout(() => { toastEl.classList.remove('show'); }, 3000);
+  toast._t = setTimeout(() => { toastEl.classList.remove('show'); }, 3500);
 }
 
 /* ============================================================
@@ -812,6 +812,11 @@ async function loadTabData(grp, tabId, force){
   }
 }
 function currentTabData(){ return DATA[group][tab]; }
+function refreshCurrentTab(){
+  LOAD_STATE[group][tab] = 'idle';
+  DATA[group][tab] = null;
+  renderContent();
+}
 
 /* ============================================================
    ADMIN AUTH
@@ -825,16 +830,11 @@ async function verifyToken(token){
     const res = await fetch('https://api.github.com/user', {
       headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
     });
-    if(res.status === 200){
-      const data = await res.json();
-      return { ok: true, login: data.login };
-    }
-    if(res.status === 401) return { ok: false, err: 'Invalid or expired token' };
-    if(res.status === 403) return { ok: false, err: 'Token rejected' };
-    return { ok: false, err: 'GitHub API error HTTP ' + res.status };
-  }catch(e){
-    return { ok: false, err: 'Network error: ' + e.message };
-  }
+    if(res.status === 200){ const data = await res.json(); return { ok:true, login: data.login }; }
+    if(res.status === 401) return { ok:false, err:'Invalid or expired token' };
+    if(res.status === 403) return { ok:false, err:'Token rejected' };
+    return { ok:false, err:'GitHub API HTTP ' + res.status };
+  }catch(e){ return { ok:false, err:'Network error: ' + e.message }; }
 }
 function showTokenPrompt(){
   tokenSlot.innerHTML = `
@@ -977,6 +977,145 @@ async function checkLbdbStatus(){
 lbdbBtn.addEventListener('click', () => { if(lbdbPollTimer) return; triggerLbdbUpdate(); });
 
 /* ============================================================
+   GITHUB FILE WRITE (Contents API)
+   ============================================================ */
+async function getFileContent(path){
+  const token = getToken();
+  if(!token) throw new Error('Not signed in');
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?t=${Date.now()}`;
+  const res = await fetch(url, {
+    headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
+  });
+  if(res.status === 404) return { sha: null, json: null };
+  if(!res.ok) throw new Error('getFile HTTP ' + res.status);
+  const data = await res.json();
+  // GitHub returns base64 with newlines
+  const cleaned = data.content.replace(/\s/g, '');
+  const bin = atob(cleaned);
+  const bytes = new Uint8Array(bin.length);
+  for(let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  const text = new TextDecoder('utf-8').decode(bytes);
+  return { sha: data.sha, json: JSON.parse(text) };
+}
+
+async function putFileContent(path, json, sha, message){
+  const token = getToken();
+  if(!token) throw new Error('Not signed in');
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
+  const content = JSON.stringify(json, null, 2) + '\n';
+  // UTF-8 safe base64
+  const bytes = new TextEncoder().encode(content);
+  let bin = '';
+  bytes.forEach(b => bin += String.fromCharCode(b));
+  const b64 = btoa(bin);
+
+  const body = { message, content: b64, branch: 'main' };
+  if(sha) body.sha = sha;
+
+  const res = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      'Authorization': 'Bearer ' + token,
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  });
+  if(!res.ok){
+    const txt = await res.text();
+    throw new Error('putFile HTTP ' + res.status + ': ' + txt.slice(0, 200));
+  }
+  return await res.json();
+}
+
+function emptyShapeFor(tabId){
+  if(tabId === 'backlog') return { mirror: [], seriesLeftovers: [] };
+  if(tabId === 'backlog-series') return { series: [] };
+  return { games: [] };
+}
+
+function upsertGameInFile(json, tabId, game){
+  if(tabId === 'backlog'){
+    if(!Array.isArray(json.mirror)) json.mirror = [];
+    if(!Array.isArray(json.seriesLeftovers)) json.seriesLeftovers = [];
+    const idxM = json.mirror.findIndex(x => x.id === game.id);
+    if(idxM >= 0){ json.mirror[idxM] = game; return; }
+    const idxS = json.seriesLeftovers.findIndex(x => x.id === game.id);
+    if(idxS >= 0){ json.seriesLeftovers[idxS] = game; return; }
+    json.mirror.push(game);
+    return;
+  }
+  if(tabId === 'backlog-series'){
+    throw new Error('Series entries cannot be edited from this form');
+  }
+  if(!Array.isArray(json.games)) json.games = [];
+  const idx = json.games.findIndex(x => x.id === game.id);
+  if(idx >= 0) json.games[idx] = game;
+  else json.games.push(game);
+}
+
+function removeGameFromFile(json, tabId, gameId){
+  if(tabId === 'backlog'){
+    if(Array.isArray(json.mirror)) json.mirror = json.mirror.filter(x => x.id !== gameId);
+    if(Array.isArray(json.seriesLeftovers)) json.seriesLeftovers = json.seriesLeftovers.filter(x => x.id !== gameId);
+    return;
+  }
+  if(tabId === 'backlog-series') return;
+  if(Array.isArray(json.games)) json.games = json.games.filter(x => x.id !== gameId);
+}
+
+async function saveGame(game, original){
+  const newTab = game.tab;
+  const oldTab = original?._tab || null;
+  const isNew = !original;
+
+  if(isNew){
+    const path = TAB_FILES[newTab];
+    const { sha, json } = await getFileContent(path);
+    const fileJson = json || emptyShapeFor(newTab);
+    upsertGameInFile(fileJson, newTab, game);
+    await putFileContent(path, fileJson, sha, `Add game: ${game.name}`);
+    return { added: true };
+  }
+
+  const tabChanged = oldTab && oldTab !== newTab;
+
+  if(!tabChanged){
+    const path = TAB_FILES[newTab];
+    const { sha, json } = await getFileContent(path);
+    const fileJson = json || emptyShapeFor(newTab);
+    upsertGameInFile(fileJson, newTab, game);
+    await putFileContent(path, fileJson, sha, `Update game: ${game.name}`);
+    return { updated: true };
+  }
+
+  // Tab changed: remove from old, add to new
+  const oldPath = TAB_FILES[oldTab];
+  const newPath = TAB_FILES[newTab];
+  const oldFile = await getFileContent(oldPath);
+  if(oldFile.json){
+    removeGameFromFile(oldFile.json, oldTab, game.id);
+    await putFileContent(oldPath, oldFile.json, oldFile.sha, `Move game out: ${game.name}`);
+  }
+  const newFile = await getFileContent(newPath);
+  const newJson = newFile.json || emptyShapeFor(newTab);
+  upsertGameInFile(newJson, newTab, game);
+  await putFileContent(newPath, newJson, newFile.sha, `Move game in: ${game.name}`);
+  return { moved: true };
+}
+
+async function deleteGame(game){
+  const gameTab = game._tab;
+  if(!gameTab) throw new Error('Missing tab reference');
+  if(gameTab === 'backlog-series') throw new Error('Series entries cannot be deleted from this form');
+  const path = TAB_FILES[gameTab];
+  const { sha, json } = await getFileContent(path);
+  if(!json) throw new Error('File not found');
+  removeGameFromFile(json, gameTab, game.id);
+  await putFileContent(path, json, sha, `Delete game: ${game.name}`);
+}
+
+/* ============================================================
    IGDB  (via Apps Script proxy)
    ============================================================ */
 async function igdbSearch(name){
@@ -1082,7 +1221,7 @@ function hltbMapToFields(d){
 }
 
 /* ============================================================
-   PCGW  (via Corsfix SDK — bypasses CORS)
+   PCGW  (via Corsfix SDK)
    ============================================================ */
 async function pcgwSearch(name){
   const target = 'https://www.pcgamingwiki.com/w/api.php'
@@ -2345,7 +2484,8 @@ function openEditor(g){
     $('#delete-btn').addEventListener('click', () => openConfirmDelete(g));
   }
 
-  $('#save-btn').addEventListener('click', () => {
+  // ---- SAVE (writes to GitHub) ----
+  $('#save-btn').addEventListener('click', async () => {
     const name = $('#f-name').value.trim();
     if(!name){ toast('Name is required', 'bad'); return; }
     const fgroup = $('#f-group input:checked').value;
@@ -2382,8 +2522,27 @@ function openEditor(g){
       screenshot: $('#f-screenshot').value.trim(),
       logo: $('#f-logo').value.trim(),
     };
-    console.log('Save payload:', out);
-    toast('Save not wired yet — GitHub write API comes next', 'bad');
+
+    if(!getToken()){ showTokenPrompt(); return; }
+
+    const btn = $('#save-btn');
+    const orig = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span>Saving…';
+
+    try{
+      const result = await saveGame(out, isNew ? null : { _tab: editTab, id: draft.id });
+      closeAll();
+      refreshCurrentTab();
+      if(result.moved) toast('Saved — moved to ' + ftab);
+      else if(result.added) toast('Created');
+      else toast('Saved');
+    }catch(e){
+      console.error('Save failed:', e);
+      toast('Save failed: ' + e.message, 'bad');
+      btn.disabled = false;
+      btn.innerHTML = orig;
+    }
   });
 }
 function openConfirmDelete(g){
@@ -2398,9 +2557,23 @@ function openConfirmDelete(g){
       </div>
     </div>`;
   backdrop.classList.add('open');
-  modalSlot.querySelector('#confirm-delete').addEventListener('click', () => {
-    console.log('Delete payload:', g);
-    toast('Delete not wired yet — GitHub write API comes next', 'bad');
+  modalSlot.querySelector('#confirm-delete').addEventListener('click', async () => {
+    if(!getToken()){ showTokenPrompt(); return; }
+    const btn = modalSlot.querySelector('#confirm-delete');
+    const orig = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span>Deleting…';
+    try{
+      await deleteGame(g);
+      closeAll();
+      refreshCurrentTab();
+      toast('Deleted');
+    }catch(e){
+      console.error('Delete failed:', e);
+      toast('Delete failed: ' + e.message, 'bad');
+      btn.disabled = false;
+      btn.innerHTML = orig;
+    }
   });
 }
 function tabLabelFor(g){
@@ -2421,6 +2594,11 @@ contentEl.addEventListener('click', e => {
     e.stopPropagation();
     const g = findGameById(adminBtnEl.dataset.id);
     if(!g) return;
+    // Block series entries from the standard editor (different data shape)
+    if(g.source === 'series'){
+      toast('Series entries are edited in the JSON directly', 'bad');
+      return;
+    }
     g._group = group; g._tab = tab;
     if(adminBtnEl.dataset.act === 'edit') openEditor(g);
     else if(adminBtnEl.dataset.act === 'del') openConfirmDelete(g);
