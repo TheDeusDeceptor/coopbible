@@ -1,0 +1,23 @@
+{
+  "games": [
+    {
+      "id": "portal-2",
+      "name": "Portal 2",
+      "group": "coop",
+      "tab": "released",
+      "platform": "PC",
+      "release": "18.04.2011",
+      "size": "8 GB",
+      "hltb": "Main: 9, +Extra: 14",
+      "dev": "Valve",
+      "pub": "Valve",
+      "notes": "",
+      "ready": true,
+      "onDisk": false,
+      "links": [],
+      "extraTags": [],
+      "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_f3f6787d74739d3b2ec8a484b5c994b3d31ef325.1920x1080.jpg?t=1790187113",
+      "logo": ""
+    }
+  ]
+}
