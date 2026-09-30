@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vault — Proxy Tester</title>
+<title>Vault — Corsfix PCGW Test</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -24,7 +24,7 @@
   .panel h2{font-family:var(--font-head);font-weight:700;font-size:.95rem;letter-spacing:.04em;color:#fff;margin-bottom:.9rem;display:flex;align-items:center;gap:.6rem}
   .panel h2 .badge{font-size:.55rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent-line)}
   .panel h2 .badge.proxy{background:rgba(167,139,250,.15);color:var(--purple);border-color:rgba(167,139,250,.4)}
-  .panel h2 .badge.direct{background:rgba(74,222,128,.12);color:var(--green);border-color:rgba(74,222,128,.35)}
+  .panel h2 .badge.corsfix{background:rgba(56,189,248,.15);color:#38bdf8;border-color:rgba(56,189,248,.4)}
   .panel h2 .badge.hltb{background:rgba(251,113,133,.12);color:var(--hltb);border-color:rgba(251,113,133,.4)}
   .row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:.6rem}
   .row label{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);min-width:90px}
@@ -34,11 +34,9 @@
   button:hover{color:#fff;border-color:var(--accent-line);background:var(--accent-soft)}
   button.primary{background:var(--accent);color:#0a0d14;border-color:var(--accent)}
   button.primary:hover{filter:brightness(1.1);color:#0a0d14}
-  button.hltb{background:rgba(251,113,133,.14);color:var(--hltb);border-color:rgba(251,113,133,.4)}
-  button.hltb:hover{background:rgba(251,113,133,.24);color:#fff}
   button:disabled{opacity:.5;cursor:wait}
   .tiny{font-size:.75rem;color:var(--muted);line-height:1.55;margin-top:.4rem}
-  #log{background:#060810;border:1px solid var(--border);border-radius:8px;padding:1rem;font-family:ui-monospace,SFMono-Regular,monospace;font-size:.78rem;line-height:1.55;color:#c8d1de;height:600px;overflow-y:auto;white-space:pre-wrap;word-break:break-word}
+  #log{background:#060810;border:1px solid var(--border);border-radius:8px;padding:1rem;font-family:ui-monospace,SFMono-Regular,monospace;font-size:.78rem;line-height:1.55;color:#c8d1de;height:640px;overflow-y:auto;white-space:pre-wrap;word-break:break-word}
   .log-line{padding:.15rem 0;border-bottom:1px solid rgba(255,255,255,.03)}
   .log-time{color:#4a5468;margin-right:.5rem}
   .log-ok{color:var(--green)}
@@ -46,23 +44,24 @@
   .log-warn{color:var(--amber)}
   .log-info{color:var(--accent)}
   .log-src{color:var(--purple);font-weight:600}
-  .log-hltb{color:var(--hltb)}
   .log-payload{color:#8b94a5;display:block;padding-left:1rem;font-size:.72rem;margin-top:.2rem;max-height:280px;overflow:auto;white-space:pre-wrap}
-  .clear-btn{font-size:.55rem;padding:.35rem .7rem;margin-left:auto}
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <h1>Co-Op Vault — Source Tester</h1>
-  <div class="sub">Diagnostic page. Everything is logged with timestamps and raw responses.</div>
+  <h1>Co-Op Vault — Corsfix PCGW Test</h1>
+  <div class="sub">Confirming PCGW now works via Corsfix proxy. Other sources re-tested for regression.</div>
 
-  <!-- CONFIG -->
   <div class="panel">
     <h2><span class="badge">config</span> Endpoints</h2>
     <div class="row">
-      <label>Proxy URL</label>
+      <label>Apps Script</label>
       <input type="url" id="proxy-url" value="https://script.google.com/macros/s/AKfycbx53crSCIWCDRVuAtNpL4D2E_kBJXwRQTa5gUXY9LMAVSGwjdBWPE3gvh8Acvmao1kr/exec">
+    </div>
+    <div class="row">
+      <label>Corsfix</label>
+      <input type="url" id="corsfix-url" value="https://proxy.corsfix.com/?">
     </div>
     <div class="row">
       <label>Test game</label>
@@ -72,72 +71,41 @@
       <button class="primary" id="run-all">▶ Run everything</button>
       <button id="clear-log">Clear log</button>
     </div>
-    <div class="tiny">"Run everything" fires every test in order and logs the results.</div>
   </div>
 
-  <!-- PING -->
   <div class="panel">
-    <h2><span class="badge proxy">proxy</span> Ping</h2>
-    <div class="row">
-      <button id="t-ping">Test ping</button>
-    </div>
+    <h2><span class="badge corsfix">corsfix</span> PCGW SEARCH</h2>
+    <div class="row"><button class="primary" id="t-pcgw-search">Test PCGW search</button></div>
+    <div class="tiny">Should return 5+ search hits for the test game.</div>
   </div>
 
-  <!-- IGDB -->
   <div class="panel">
-    <h2><span class="badge proxy">proxy</span> IGDB</h2>
-    <div class="row">
-      <button id="t-igdb">Test IGDB</button>
-    </div>
+    <h2><span class="badge corsfix">corsfix</span> PCGW PAGE</h2>
+    <div class="row"><button class="primary" id="t-pcgw-page">Test PCGW page wikitext</button></div>
+    <div class="tiny">Fetches the actual wikitext for the first hit — should return 30+ KB.</div>
   </div>
 
-  <!-- STEAM -->
   <div class="panel">
-    <h2><span class="badge proxy">proxy</span> Steam</h2>
-    <div class="row">
-      <button id="t-steam">Test Steam (with size)</button>
-    </div>
-    <div class="tiny">Known issue: 403 from Google servers. Headers + retry added. Watch the log.</div>
+    <h2><span class="badge corsfix">corsfix</span> PCGW FULL PARSE</h2>
+    <div class="row"><button class="primary" id="t-pcgw-full">Test PCGW full parse</button></div>
+    <div class="tiny">Search → pick best → fetch → extract dev/pub/date/size. This is what the admin does.</div>
   </div>
 
-  <!-- HLTB -->
   <div class="panel">
-    <h2><span class="badge hltb">proxy</span> HLTB</h2>
+    <h2><span class="badge proxy">apps script</span> IGDB / Steam / HLTB</h2>
     <div class="row">
-      <button class="hltb" id="t-hltb">Test HLTB</button>
+      <button id="t-igdb">IGDB</button>
+      <button id="t-steam">Steam</button>
+      <button id="t-hltb">HLTB</button>
     </div>
+    <div class="tiny">Regression check — these were working before.</div>
   </div>
 
-  <!-- PCGW direct -->
   <div class="panel">
-    <h2><span class="badge direct">browser-direct</span> PCGW</h2>
-    <div class="row">
-      <button id="t-pcgw-search">Test PCGW search</button>
-      <button id="t-pcgw-page">Test PCGW page fetch</button>
-      <button id="t-pcgw-full">Test PCGW full flow</button>
-    </div>
-    <div class="tiny">This is the path index.html uses — direct from browser, not via proxy. Should work.</div>
+    <h2><span class="badge">direct</span> LBDB</h2>
+    <div class="row"><button id="t-lbdb">Test LBDB lookup</button></div>
   </div>
 
-  <!-- PCGW via proxy (expected fail) -->
-  <div class="panel">
-    <h2><span class="badge proxy">proxy</span> PCGW via proxy (expected 403)</h2>
-    <div class="row">
-      <button id="t-pcgw-proxy">Test PCGW proxy</button>
-    </div>
-    <div class="tiny">Cloudflare blocks Google's IP range. Expecting HTTP 403 — informational only.</div>
-  </div>
-
-  <!-- LBDB direct -->
-  <div class="panel">
-    <h2><span class="badge direct">browser-direct</span> LBDB</h2>
-    <div class="row">
-      <button id="t-lbdb">Test LBDB (load + lookup)</button>
-    </div>
-    <div class="tiny">Loads LBDB/metadata.json, builds an index, looks up the test game.</div>
-  </div>
-
-  <!-- LOG -->
   <div class="panel">
     <h2>Log</h2>
     <div id="log"></div>
@@ -149,15 +117,15 @@
 /* ============================================================ */
 const logEl = document.getElementById('log');
 const proxyInput = document.getElementById('proxy-url');
+const corsfixInput = document.getElementById('corsfix-url');
 const gameInput = document.getElementById('game-name');
 
 function tstamp(){
   const d = new Date();
-  const hh = String(d.getHours()).padStart(2,'0');
-  const mm = String(d.getMinutes()).padStart(2,'0');
-  const ss = String(d.getSeconds()).padStart(2,'0');
-  const ms = String(d.getMilliseconds()).padStart(3,'0');
-  return `${hh}:${mm}:${ss}.${ms}`;
+  return String(d.getHours()).padStart(2,'0') + ':' +
+         String(d.getMinutes()).padStart(2,'0') + ':' +
+         String(d.getSeconds()).padStart(2,'0') + '.' +
+         String(d.getMilliseconds()).padStart(3,'0');
 }
 function log(msg, cls){
   const line = document.createElement('div');
@@ -197,104 +165,25 @@ function hr(label){
   logEl.appendChild(line);
   logEl.scrollTop = logEl.scrollHeight;
 }
-
 document.getElementById('clear-log').onclick = () => { logEl.innerHTML = ''; log('Log cleared', 'log-info'); };
 
-function proxyBase(){
-  return proxyInput.value.trim().replace(/\/+$/, '');
+function proxyBase(){ return proxyInput.value.trim().replace(/\/+$/, ''); }
+function corsfixBase(){
+  const v = corsfixInput.value.trim();
+  // Ensure trailing '?' so we can just append target URL
+  if(v.endsWith('?')) return v;
+  return v.replace(/\/+$/, '') + '/?';
 }
-function testGame(){
-  return gameInput.value.trim() || 'Portal 2';
-}
+function testGame(){ return gameInput.value.trim() || 'Portal 2'; }
 
 /* ============================================================ */
-async function testPing(){
-  hr('PING');
-  const url = proxyBase() + '?action=ping';
-  log('GET ' + url, 'log-src');
-  try{
-    const res = await fetch(url);
-    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
-    const txt = await res.text();
-    logPayload('  response', txt);
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-  }
-}
-
-async function testIgdb(){
-  hr('IGDB');
-  const url = proxyBase() + '?action=igdb&q=' + encodeURIComponent(testGame());
-  log('GET ' + url, 'log-src');
-  const t0 = performance.now();
-  try{
-    const res = await fetch(url);
-    const dt = Math.round(performance.now() - t0);
-    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
-    const data = await res.json();
-    if(data && data.error){ log('  ✗ error: ' + data.error, 'log-bad'); return; }
-    log('  ✓ ' + (Array.isArray(data) ? data.length + ' results' : 'non-array response'), 'log-ok');
-    if(Array.isArray(data)){
-      data.slice(0, 6).forEach((h, i) => {
-        log('    ' + (i+1) + '. ' + (h.name || '(unnamed)') + (h.first_release_date ? '  (' + new Date(h.first_release_date*1000).getFullYear() + ')' : ''), 'log-info');
-      });
-    }
-    logPayload('  full body', data);
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-  }
-}
-
-async function testSteam(){
-  hr('STEAM');
-  const url = proxyBase() + '?action=steam&q=' + encodeURIComponent(testGame());
-  log('GET ' + url, 'log-src');
-  const t0 = performance.now();
-  try{
-    const res = await fetch(url);
-    const dt = Math.round(performance.now() - t0);
-    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
-    const data = await res.json();
-    if(data && data.error){ log('  ✗ error: ' + data.error, 'log-bad'); return; }
-    log('  ✓ name: ' + (data.name || ''), 'log-ok');
-    log('  ✓ appId: ' + (data.appId || ''), 'log-ok');
-    log('  ✓ developer: ' + (data.developer || '(empty)'), data.developer ? 'log-ok' : 'log-warn');
-    log('  ✓ publisher: ' + (data.publisher || '(empty)'), data.publisher ? 'log-ok' : 'log-warn');
-    log('  ✓ release: ' + (data.release || '(empty)'), data.release ? 'log-ok' : 'log-warn');
-    log('  ✓ size: ' + (data.size || '(empty)'), data.size ? 'log-ok' : 'log-warn');
-    log('  ✓ screenshots: ' + ((data.screenshots||[]).length), (data.screenshots||[]).length ? 'log-ok' : 'log-warn');
-    logPayload('  full body', data);
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-  }
-}
-
-async function testHltb(){
-  hr('HLTB');
-  const url = proxyBase() + '?action=hltb&q=' + encodeURIComponent(testGame());
-  log('GET ' + url, 'log-src');
-  const t0 = performance.now();
-  try{
-    const res = await fetch(url);
-    const dt = Math.round(performance.now() - t0);
-    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
-    const data = await res.json();
-    if(data && data.error){ log('  ✗ error: ' + data.error, 'log-bad'); return; }
-    log('  ✓ story: ' + (data.story != null ? data.story : '(none)'), data.story != null ? 'log-hltb' : 'log-warn');
-    log('  ✓ extras: ' + (data.extras != null ? data.extras : '(none)'), data.extras != null ? 'log-hltb' : 'log-warn');
-    log('  ✓ completionist: ' + (data.completionist != null ? data.completionist : '(none)'), data.completionist != null ? 'log-hltb' : 'log-warn');
-    logPayload('  full body', data);
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-  }
-}
-
 async function testPcgwSearch(){
-  hr('PCGW SEARCH (direct browser)');
-  const url = 'https://www.pcgamingwiki.com/w/api.php'
+  hr('PCGW SEARCH via Corsfix');
+  const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
     + '&srsearch=' + encodeURIComponent(testGame())
-    + '&srlimit=5&format=json&origin=*';
+    + '&srlimit=5&format=json';
+  const url = corsfixBase() + target;
   log('GET ' + url, 'log-src');
   const t0 = performance.now();
   try{
@@ -302,68 +191,76 @@ async function testPcgwSearch(){
     const dt = Math.round(performance.now() - t0);
     log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
     log('  CORS header: ' + (res.headers.get('access-control-allow-origin') || '(none)'), 'log-info');
-    const data = await res.json();
+    const txt = await res.text();
+    if(!res.ok){ logPayload('  body', txt.slice(0, 400)); return; }
+    let data;
+    try { data = JSON.parse(txt); }
+    catch(e){ log('  ✗ not JSON: ' + e.message, 'log-bad'); logPayload('  body', txt.slice(0, 400)); return; }
+    if(data.error){ log('  ✗ API error: ' + data.error.info, 'log-bad'); return; }
     const hits = (data.query && data.query.search) || [];
     log('  ✓ ' + hits.length + ' results', hits.length ? 'log-ok' : 'log-warn');
     hits.forEach((h, i) => log('    ' + (i+1) + '. ' + h.title, 'log-info'));
-    logPayload('  full body', data);
   }catch(e){
     log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
   }
 }
 
 async function testPcgwPage(){
-  hr('PCGW PAGE (direct browser)');
-  // First search to get a page title, then fetch it
-  const searchUrl = 'https://www.pcgamingwiki.com/w/api.php'
+  hr('PCGW PAGE via Corsfix');
+  // Get a title first
+  const searchTarget = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
     + '&srsearch=' + encodeURIComponent(testGame())
-    + '&srlimit=1&format=json&origin=*';
+    + '&srlimit=1&format=json';
   log('Step 1: search for page title', 'log-src');
   let title = null;
   try{
-    const res = await fetch(searchUrl);
+    const res = await fetch(corsfixBase() + searchTarget);
     const data = await res.json();
     const hits = (data.query && data.query.search) || [];
     if(hits.length) title = hits[0].title;
-    log('  picked title: ' + (title || '(none)'), title ? 'log-ok' : 'log-bad');
-  }catch(e){
-    log('  ✗ search failed: ' + e.message, 'log-bad');
-    return;
-  }
+    log('  picked: ' + (title || '(none)'), title ? 'log-ok' : 'log-bad');
+  }catch(e){ log('  ✗ search failed: ' + e.message, 'log-bad'); return; }
   if(!title) return;
 
-  log('Step 2: fetch wikitext for "' + title + '"', 'log-src');
-  const url = 'https://www.pcgamingwiki.com/w/api.php'
+  log('Step 2: fetch wikitext', 'log-src');
+  const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=parse&page=' + encodeURIComponent(title)
-    + '&prop=wikitext&format=json&origin=*';
+    + '&prop=wikitext&format=json';
+  const url = corsfixBase() + target;
   const t0 = performance.now();
   try{
     const res = await fetch(url);
     const dt = Math.round(performance.now() - t0);
     log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
+    if(data.error){ log('  ✗ API error: ' + data.error.info, 'log-bad'); return; }
     const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
-    log('  ✓ wikitext length: ' + wt.length, wt.length ? 'log-ok' : 'log-bad');
-    log('  first 500 chars:', 'log-info');
-    logPayload('  preview', wt.slice(0, 500));
+    log('  ✓ wikitext: ' + wt.length + ' chars', wt.length ? 'log-ok' : 'log-bad');
+    log('  preview (500 chars):', 'log-info');
+    logPayload('  raw', wt.slice(0, 500));
   }catch(e){
     log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
   }
 }
 
 async function testPcgwFull(){
-  hr('PCGW FULL FLOW');
+  hr('PCGW FULL PARSE via Corsfix');
   const name = testGame();
-  // search
+
+  // Search
   let title = null;
   try{
-    const res = await fetch('https://www.pcgamingwiki.com/w/api.php?action=query&list=search&srsearch=' + encodeURIComponent(name) + '&srlimit=5&format=json&origin=*');
+    const target = 'https://www.pcgamingwiki.com/w/api.php'
+      + '?action=query&list=search'
+      + '&srsearch=' + encodeURIComponent(name)
+      + '&srlimit=5&format=json';
+    const res = await fetch(corsfixBase() + target);
     const data = await res.json();
     const hits = (data.query && data.query.search) || [];
     log('  search hits: ' + hits.length, hits.length ? 'log-ok' : 'log-bad');
     if(!hits.length) return;
-    // pick closest by lowercase exact match
+    // pick closest lowercase-exact
     const nl = name.toLowerCase();
     let best = hits[0];
     for(const h of hits){ if((h.title||'').toLowerCase() === nl){ best = h; break; } }
@@ -371,14 +268,17 @@ async function testPcgwFull(){
     log('  picked: ' + title, 'log-info');
   }catch(e){ log('  ✗ search failed: ' + e.message, 'log-bad'); return; }
 
-  // page
+  // Page
   try{
-    const res = await fetch('https://www.pcgamingwiki.com/w/api.php?action=parse&page=' + encodeURIComponent(title) + '&prop=wikitext&format=json&origin=*');
+    const target = 'https://www.pcgamingwiki.com/w/api.php'
+      + '?action=parse&page=' + encodeURIComponent(title)
+      + '&prop=wikitext&format=json';
+    const res = await fetch(corsfixBase() + target);
     const data = await res.json();
     const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
     log('  wikitext: ' + wt.length + ' chars', wt.length ? 'log-ok' : 'log-bad');
 
-    // extract dev/pub
+    // Dev / pub
     const devsRe = /\{\{\s*Infobox game\/row\/developer\s*\|\s*([^\}\|]+?)\s*(?:\||\}\})/gi;
     const pubsRe = /\{\{\s*Infobox game\/row\/publisher\s*\|\s*([^\}\|]+?)\s*(?:\||\}\})/gi;
     const devs = [], pubs = [];
@@ -388,57 +288,108 @@ async function testPcgwFull(){
     log('  developers: ' + (devs.join(', ') || '(none)'), devs.length ? 'log-ok' : 'log-warn');
     log('  publishers: ' + (pubs.join(', ') || '(none)'), pubs.length ? 'log-ok' : 'log-warn');
 
-    // extract dates
+    // Dates
     const datesRe = /\{\{\s*Infobox game\/row\/date\s*\|\s*([^\|\}]+?)\s*\|\s*([^\|\}]+?)\s*(?:\||\}\})/gi;
     const dates = [];
-    while((m = datesRe.exec(wt)) !== null){ dates.push(m[2].trim()); }
+    while((m = datesRe.exec(wt)) !== null){
+      const dateStr = m[2].trim();
+      const d = new Date(dateStr);
+      if(isNaN(d.getTime())) continue;
+      const dd = String(d.getDate()).padStart(2,'0');
+      const mm = String(d.getMonth()+1).padStart(2,'0');
+      dates.push(dd + '.' + mm + '.' + d.getFullYear());
+    }
     log('  dates: ' + (dates.slice(0,4).join(' | ') || '(none)'), dates.length ? 'log-ok' : 'log-warn');
 
-    // extract size
+    // Size
     const sizeRe = /\|minHD\s*=\s*([^\|\}\n]+)/gi;
     let sizeBest = '';
-    while((m = sizeRe.exec(wt)) !== null){ if(!sizeBest || m[1].trim().length < sizeBest.length) sizeBest = m[1].trim(); }
+    while((m = sizeRe.exec(wt)) !== null){
+      const v = m[1].trim();
+      if(v && (!sizeBest || v.length < sizeBest.length)) sizeBest = v;
+    }
     log('  minHD: ' + (sizeBest || '(none)'), sizeBest ? 'log-ok' : 'log-warn');
+
+    // What the admin would extract
+    const fields = {};
+    if(devs.length) fields.dev = devs.join(', ');
+    if(pubs.length) fields.pub = pubs.join(', ');
+    if(dates.length) fields.release = dates[0];
+    if(sizeBest){
+      const sz = sizeBest.match(/(\d+(?:[.,]\d+)?)\s*(GB|MB|TB)/i);
+      if(sz){
+        let num = parseFloat(sz[1].replace(',', '.'));
+        let unit = sz[2].toUpperCase();
+        if(unit === 'MB'){ num = num / 1024; unit = 'GB'; }
+        num = Math.round(num * 10) / 10;
+        fields.size = num + ' ' + unit;
+      }
+    }
+    log('  ── extracted fields ──', 'log-src');
+    logPayload('  ', fields);
   }catch(e){ log('  ✗ page failed: ' + e.message, 'log-bad'); }
 }
 
-async function testPcgwProxy(){
-  hr('PCGW VIA PROXY (informational)');
-  const url = proxyBase() + '?action=pcgw&q=' + encodeURIComponent(testGame());
-  log('GET ' + url, 'log-src');
+async function testIgdb(){
+  hr('IGDB via Apps Script');
+  const url = proxyBase() + '?action=igdb&q=' + encodeURIComponent(testGame());
+  const t0 = performance.now();
   try{
     const res = await fetch(url);
-    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
-    const txt = await res.text();
-    logPayload('  response', txt.slice(0, 500));
-    if(res.status === 403) log('  → expected: Cloudflare blocks Google IPs. index.html uses direct browser instead.', 'log-warn');
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-  }
+    const dt = Math.round(performance.now() - t0);
+    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    const data = await res.json();
+    if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
+    log('  ✓ ' + (data.length || 0) + ' results', 'log-ok');
+    (data || []).slice(0, 3).forEach((h,i) => log('    ' + (i+1) + '. ' + h.name, 'log-info'));
+  }catch(e){ log('  ✗ ' + e.message, 'log-bad'); }
+}
+
+async function testSteam(){
+  hr('Steam via Apps Script');
+  const url = proxyBase() + '?action=steam&q=' + encodeURIComponent(testGame());
+  const t0 = performance.now();
+  try{
+    const res = await fetch(url);
+    const dt = Math.round(performance.now() - t0);
+    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    const data = await res.json();
+    if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
+    log('  ✓ ' + data.name + ' (appId ' + data.appId + ')', 'log-ok');
+    log('  ✓ dev/pub: ' + data.developer + ' / ' + data.publisher, 'log-ok');
+    log('  ✓ release: ' + data.release, 'log-ok');
+    log('  ✓ size: ' + (data.size || '(empty)'), data.size ? 'log-ok' : 'log-warn');
+  }catch(e){ log('  ✗ ' + e.message, 'log-bad'); }
+}
+
+async function testHltb(){
+  hr('HLTB via Apps Script');
+  const url = proxyBase() + '?action=hltb&q=' + encodeURIComponent(testGame());
+  const t0 = performance.now();
+  try{
+    const res = await fetch(url);
+    const dt = Math.round(performance.now() - t0);
+    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    const data = await res.json();
+    if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
+    log('  ✓ story: ' + data.story + '  extras: ' + data.extras + '  completionist: ' + data.completionist, 'log-ok');
+  }catch(e){ log('  ✗ ' + e.message, 'log-bad'); }
 }
 
 let LBDB_CACHE = null;
 async function testLbdb(){
-  hr('LBDB (direct browser)');
+  hr('LBDB direct');
   if(!LBDB_CACHE){
-    log('Loading LBDB/metadata.json (may take a moment)…', 'log-src');
     const t0 = performance.now();
     try{
       const res = await fetch('LBDB/metadata.json', { cache: 'no-cache' });
       log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
-      if(!res.ok){ log('  ✗ file not reachable', 'log-bad'); return; }
-      const cl = res.headers.get('content-length');
-      if(cl) log('  content-length: ' + (parseInt(cl)/1024/1024).toFixed(2) + ' MB', 'log-info');
+      if(!res.ok) return;
       const data = await res.json();
       const dt = Math.round(performance.now() - t0);
-      log('  ✓ parsed in ' + dt + 'ms', 'log-ok');
-      log('  generated: ' + (data.generated || '(no field)'), 'log-info');
       const games = data.games || (Array.isArray(data) ? data : []);
-      log('  count: ' + games.length, 'log-ok');
-      // build index
-      const t1 = performance.now();
-      const norm = s => String(s||'').toLowerCase().trim()
-        .replace(/[^\w\s]/g, ' ').replace(/\s+/g, ' ').trim();
+      log('  ✓ ' + games.length + ' games parsed in ' + dt + 'ms', 'log-ok');
+      const norm = s => String(s||'').toLowerCase().trim().replace(/[^\w\s]/g,' ').replace(/\s+/g,' ').trim();
       const map = new Map();
       for(const g of games){
         const n = g.n || g.name;
@@ -448,57 +399,39 @@ async function testLbdb(){
         if(!map.has(key)) map.set(key, []);
         map.get(key).push(g);
       }
-      const dtIdx = Math.round(performance.now() - t1);
-      log('  ✓ index built in ' + dtIdx + 'ms  (' + map.size + ' unique keys)', 'log-ok');
       LBDB_CACHE = { map };
-    }catch(e){
-      log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-      return;
-    }
+    }catch(e){ log('  ✗ ' + e.message, 'log-bad'); return; }
   }
-
-  // lookup
-  const norm = s => String(s||'').toLowerCase().trim()
-    .replace(/[^\w\s]/g, ' ').replace(/\s+/g, ' ').trim();
-  const q = testGame();
-  const key = norm(q);
-  const t0 = performance.now();
-  const hits = LBDB_CACHE.map.get(key) || [];
-  const dt = Math.round(performance.now() - t0);
-  log('  lookup "' + q + '" (normalized: "' + key + '")', 'log-src');
-  log('  ✓ ' + hits.length + ' matches in ' + dt + 'ms', hits.length ? 'log-ok' : 'log-warn');
-  hits.slice(0, 10).forEach((g, i) => {
-    log('    ' + (i+1) + '. ' + (g.n||g.name) + '  [' + (g.p||'') + ']' + (g.rel ? '  ' + g.rel : ''), 'log-info');
-  });
+  const norm = s => String(s||'').toLowerCase().trim().replace(/[^\w\s]/g,' ').replace(/\s+/g,' ').trim();
+  const hits = LBDB_CACHE.map.get(norm(testGame())) || [];
+  log('  ✓ ' + hits.length + ' matches for "' + testGame() + '"', hits.length ? 'log-ok' : 'log-warn');
+  hits.slice(0, 5).forEach((g,i) => log('    ' + (i+1) + '. ' + (g.n||g.name) + '  [' + (g.p||'') + ']', 'log-info'));
 }
 
 /* ============================================================ */
-document.getElementById('t-ping').onclick        = testPing;
-document.getElementById('t-igdb').onclick        = testIgdb;
-document.getElementById('t-steam').onclick       = testSteam;
-document.getElementById('t-hltb').onclick        = testHltb;
 document.getElementById('t-pcgw-search').onclick = testPcgwSearch;
 document.getElementById('t-pcgw-page').onclick   = testPcgwPage;
 document.getElementById('t-pcgw-full').onclick   = testPcgwFull;
-document.getElementById('t-pcgw-proxy').onclick  = testPcgwProxy;
+document.getElementById('t-igdb').onclick        = testIgdb;
+document.getElementById('t-steam').onclick       = testSteam;
+document.getElementById('t-hltb').onclick        = testHltb;
 document.getElementById('t-lbdb').onclick        = testLbdb;
 
 document.getElementById('run-all').onclick = async () => {
   hr('RUN ALL — START');
-  await testPing();
+  await testPcgwSearch();
+  await testPcgwFull();
   await testIgdb();
   await testSteam();
   await testHltb();
-  await testPcgwFull();
-  await testPcgwProxy();
   await testLbdb();
   hr('RUN ALL — DONE');
 };
 
 /* ============================================================ */
 log('Tester ready.', 'log-info');
-log('Make sure this page is on GitHub Pages (not file://) — file:// breaks most of these.', 'log-warn');
-log('Tip: press F12 → Console for hidden CORS errors the browser does not surface in JavaScript.', 'log-warn');
+log('This page tests PCGW via Corsfix (main change) + regression of other sources.', 'log-info');
+log('Tip: F12 → Console for hidden errors.', 'log-warn');
 </script>
 </body>
 </html>
