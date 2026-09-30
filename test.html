@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vault — Source Tester</title>
+<title>Vault — Proxy Tester</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -11,101 +11,135 @@
     --bg:#0a0d14;--card:#101624;--border:#1e2836;
     --accent:#38bdf8;--accent-soft:rgba(56,189,248,.14);--accent-line:rgba(56,189,248,.35);
     --text:#e6ebf2;--muted:#7d8798;
-    --green:#4ade80;--amber:#f59e0b;--red:#ef4444;--purple:#a78bfa;
+    --green:#4ade80;--amber:#f59e0b;--red:#ef4444;--purple:#a78bfa;--hltb:#fb7185;
     --font-head:'Chakra Petch',system-ui,sans-serif;
     --font-body:'Inter',system-ui,sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-height:100vh;padding:2rem;}
-  .wrap{max-width:1000px;margin:0 auto}
+  .wrap{max-width:1100px;margin:0 auto}
   h1{font-family:var(--font-head);font-weight:700;font-size:1.4rem;letter-spacing:.06em;margin-bottom:.3rem}
   .sub{color:var(--muted);font-size:.9rem;margin-bottom:1.75rem}
-  .panel{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.25rem;margin-bottom:1.25rem}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.25rem;margin-bottom:1.1rem}
   .panel h2{font-family:var(--font-head);font-weight:700;font-size:.95rem;letter-spacing:.04em;color:#fff;margin-bottom:.9rem;display:flex;align-items:center;gap:.6rem}
   .panel h2 .badge{font-size:.55rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent-line)}
+  .panel h2 .badge.proxy{background:rgba(167,139,250,.15);color:var(--purple);border-color:rgba(167,139,250,.4)}
+  .panel h2 .badge.direct{background:rgba(74,222,128,.12);color:var(--green);border-color:rgba(74,222,128,.35)}
+  .panel h2 .badge.hltb{background:rgba(251,113,133,.12);color:var(--hltb);border-color:rgba(251,113,133,.4)}
   .row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:.6rem}
-  .row label{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);min-width:80px}
-  input[type=text],input[type=password]{flex:1;min-width:180px;font-family:ui-monospace,monospace;font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.55rem .7rem;outline:none}
+  .row label{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);min-width:90px}
+  input[type=text],input[type=url]{flex:1;min-width:180px;font-family:ui-monospace,monospace;font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.55rem .7rem;outline:none}
   input:focus{border-color:var(--accent-line)}
   button{font-family:var(--font-head);font-weight:700;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;padding:.55rem 1rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:#cbd5e1;cursor:pointer;transition:all .15s ease;white-space:nowrap}
   button:hover{color:#fff;border-color:var(--accent-line);background:var(--accent-soft)}
   button.primary{background:var(--accent);color:#0a0d14;border-color:var(--accent)}
   button.primary:hover{filter:brightness(1.1);color:#0a0d14}
+  button.hltb{background:rgba(251,113,133,.14);color:var(--hltb);border-color:rgba(251,113,133,.4)}
+  button.hltb:hover{background:rgba(251,113,133,.24);color:#fff}
   button:disabled{opacity:.5;cursor:wait}
-  #log{background:#060810;border:1px solid var(--border);border-radius:8px;padding:1rem;font-family:ui-monospace,SFMono-Regular,monospace;font-size:.78rem;line-height:1.55;color:#c8d1de;height:520px;overflow-y:auto;white-space:pre-wrap;word-break:break-all}
+  .tiny{font-size:.75rem;color:var(--muted);line-height:1.55;margin-top:.4rem}
+  #log{background:#060810;border:1px solid var(--border);border-radius:8px;padding:1rem;font-family:ui-monospace,SFMono-Regular,monospace;font-size:.78rem;line-height:1.55;color:#c8d1de;height:600px;overflow-y:auto;white-space:pre-wrap;word-break:break-word}
   .log-line{padding:.15rem 0;border-bottom:1px solid rgba(255,255,255,.03)}
   .log-time{color:#4a5468;margin-right:.5rem}
   .log-ok{color:var(--green)}
   .log-bad{color:var(--red)}
   .log-warn{color:var(--amber)}
   .log-info{color:var(--accent)}
-  .log-src{color:var(--purple)}
-  .log-payload{color:#8b94a5;display:block;padding-left:1rem;font-size:.72rem;margin-top:.2rem;max-height:200px;overflow:auto}
+  .log-src{color:var(--purple);font-weight:600}
+  .log-hltb{color:var(--hltb)}
+  .log-payload{color:#8b94a5;display:block;padding-left:1rem;font-size:.72rem;margin-top:.2rem;max-height:280px;overflow:auto;white-space:pre-wrap}
   .clear-btn{font-size:.55rem;padding:.35rem .7rem;margin-left:auto}
-  .tiny{font-size:.75rem;color:var(--muted);line-height:1.55;margin-top:.5rem}
 </style>
 </head>
 <body>
 <div class="wrap">
 
   <h1>Co-Op Vault — Source Tester</h1>
-  <div class="sub">Diagnostic page for IGDB, PCGW and LBDB. Log window shows every request and response.</div>
+  <div class="sub">Diagnostic page. Everything is logged with timestamps and raw responses.</div>
+
+  <!-- CONFIG -->
+  <div class="panel">
+    <h2><span class="badge">config</span> Endpoints</h2>
+    <div class="row">
+      <label>Proxy URL</label>
+      <input type="url" id="proxy-url" value="https://script.google.com/macros/s/AKfycbx53crSCIWCDRVuAtNpL4D2E_kBJXwRQTa5gUXY9LMAVSGwjdBWPE3gvh8Acvmao1kr/exec">
+    </div>
+    <div class="row">
+      <label>Test game</label>
+      <input type="text" id="game-name" value="Portal 2">
+    </div>
+    <div class="row">
+      <button class="primary" id="run-all">▶ Run everything</button>
+      <button id="clear-log">Clear log</button>
+    </div>
+    <div class="tiny">"Run everything" fires every test in order and logs the results.</div>
+  </div>
+
+  <!-- PING -->
+  <div class="panel">
+    <h2><span class="badge proxy">proxy</span> Ping</h2>
+    <div class="row">
+      <button id="t-ping">Test ping</button>
+    </div>
+  </div>
 
   <!-- IGDB -->
   <div class="panel">
-    <h2><span class="badge">IGDB</span> Twitch credentials + lookup test</h2>
+    <h2><span class="badge proxy">proxy</span> IGDB</h2>
     <div class="row">
-      <label>Client ID</label>
-      <input type="text" id="igdb-id" placeholder="from dev.twitch.tv/console/apps">
+      <button id="t-igdb">Test IGDB</button>
     </div>
-    <div class="row">
-      <label>Secret</label>
-      <input type="password" id="igdb-secret" placeholder="Client Secret">
-    </div>
-    <div class="row">
-      <label>Test game</label>
-      <input type="text" id="igdb-q" value="Portal 2" placeholder="game name">
-    </div>
-    <div class="row">
-      <button id="igdb-save">Save to localStorage</button>
-      <button id="igdb-load">Load from localStorage</button>
-      <button class="primary" id="igdb-test-auth">1. Test auth</button>
-      <button class="primary" id="igdb-test-search">2. Test search</button>
-    </div>
-    <div class="tiny">Auth first — if it passes, search uses the cached bearer token.</div>
   </div>
 
-  <!-- PCGW -->
+  <!-- STEAM -->
   <div class="panel">
-    <h2><span class="badge">PCGW</span> Search test</h2>
+    <h2><span class="badge proxy">proxy</span> Steam</h2>
     <div class="row">
-      <label>Test game</label>
-      <input type="text" id="pcgw-q" value="Portal 2" placeholder="game name">
+      <button id="t-steam">Test Steam (with size)</button>
     </div>
-    <div class="row">
-      <button class="primary" id="pcgw-search">Test search</button>
-      <button id="pcgw-raw">Test CORS (raw fetch)</button>
-    </div>
-    <div class="tiny">"Test search" runs the same query the admin uses. "Test CORS" is a bare fetch to see if the server sends Access-Control-Allow-Origin.</div>
+    <div class="tiny">Known issue: 403 from Google servers. Headers + retry added. Watch the log.</div>
   </div>
 
-  <!-- LBDB -->
+  <!-- HLTB -->
   <div class="panel">
-    <h2><span class="badge">LBDB</span> Lookup test</h2>
+    <h2><span class="badge hltb">proxy</span> HLTB</h2>
     <div class="row">
-      <label>Test game</label>
-      <input type="text" id="lbdb-q" value="Donkey Kong" placeholder="game name">
+      <button class="hltb" id="t-hltb">Test HLTB</button>
     </div>
+  </div>
+
+  <!-- PCGW direct -->
+  <div class="panel">
+    <h2><span class="badge direct">browser-direct</span> PCGW</h2>
     <div class="row">
-      <button class="primary" id="lbdb-search">Test lookup</button>
-      <button id="lbdb-file">Test file only</button>
+      <button id="t-pcgw-search">Test PCGW search</button>
+      <button id="t-pcgw-page">Test PCGW page fetch</button>
+      <button id="t-pcgw-full">Test PCGW full flow</button>
     </div>
-    <div class="tiny">"Test lookup" fetches LBDB/metadata.json (if not yet loaded) then does a normalised search.</div>
+    <div class="tiny">This is the path index.html uses — direct from browser, not via proxy. Should work.</div>
+  </div>
+
+  <!-- PCGW via proxy (expected fail) -->
+  <div class="panel">
+    <h2><span class="badge proxy">proxy</span> PCGW via proxy (expected 403)</h2>
+    <div class="row">
+      <button id="t-pcgw-proxy">Test PCGW proxy</button>
+    </div>
+    <div class="tiny">Cloudflare blocks Google's IP range. Expecting HTTP 403 — informational only.</div>
+  </div>
+
+  <!-- LBDB direct -->
+  <div class="panel">
+    <h2><span class="badge direct">browser-direct</span> LBDB</h2>
+    <div class="row">
+      <button id="t-lbdb">Test LBDB (load + lookup)</button>
+    </div>
+    <div class="tiny">Loads LBDB/metadata.json, builds an index, looks up the test game.</div>
   </div>
 
   <!-- LOG -->
   <div class="panel">
-    <h2>Log <button class="clear-btn" id="clear-log">Clear</button></h2>
+    <h2>Log</h2>
     <div id="log"></div>
   </div>
 
@@ -114,6 +148,8 @@
 <script>
 /* ============================================================ */
 const logEl = document.getElementById('log');
+const proxyInput = document.getElementById('proxy-url');
+const gameInput = document.getElementById('game-name');
 
 function tstamp(){
   const d = new Date();
@@ -136,7 +172,7 @@ function log(msg, cls){
 }
 function logPayload(label, obj){
   const s = typeof obj === 'string' ? obj : JSON.stringify(obj, null, 2);
-  const truncated = s.length > 1500 ? s.slice(0, 1500) + '\n…[truncated ' + (s.length - 1500) + ' more chars]' : s;
+  const truncated = s.length > 2500 ? s.slice(0, 2500) + '\n…[truncated ' + (s.length - 2500) + ' more chars]' : s;
   const line = document.createElement('div');
   line.className = 'log-line';
   const t = document.createElement('span');
@@ -151,195 +187,318 @@ function logPayload(label, obj){
   logEl.appendChild(line);
   logEl.scrollTop = logEl.scrollHeight;
 }
+function hr(label){
+  const line = document.createElement('div');
+  line.className = 'log-line log-src';
+  line.style.borderTop = '1px solid rgba(255,255,255,.08)';
+  line.style.marginTop = '.5rem';
+  line.style.paddingTop = '.5rem';
+  line.textContent = '─── ' + label + ' ───';
+  logEl.appendChild(line);
+  logEl.scrollTop = logEl.scrollHeight;
+}
+
 document.getElementById('clear-log').onclick = () => { logEl.innerHTML = ''; log('Log cleared', 'log-info'); };
 
-/* ============================================================
-   IGDB
-   ============================================================ */
-document.getElementById('igdb-save').onclick = () => {
-  const clientId = document.getElementById('igdb-id').value.trim();
-  const clientSecret = document.getElementById('igdb-secret').value.trim();
-  localStorage.setItem('igdb_cfg', JSON.stringify({ clientId, clientSecret }));
-  localStorage.removeItem('igdb_token');
-  log('IGDB credentials saved (and cached token cleared)', 'log-ok');
-};
-document.getElementById('igdb-load').onclick = () => {
-  try{
-    const c = JSON.parse(localStorage.getItem('igdb_cfg') || '{}');
-    document.getElementById('igdb-id').value = c.clientId || '';
-    document.getElementById('igdb-secret').value = c.clientSecret || '';
-    log('Loaded IGDB credentials from localStorage: ' + (c.clientId ? 'present' : '(empty)'), 'log-info');
-  }catch(e){ log('Failed to load: ' + e.message, 'log-bad'); }
-};
+function proxyBase(){
+  return proxyInput.value.trim().replace(/\/+$/, '');
+}
+function testGame(){
+  return gameInput.value.trim() || 'Portal 2';
+}
 
-document.getElementById('igdb-test-auth').onclick = async () => {
-  const clientId = document.getElementById('igdb-id').value.trim();
-  const clientSecret = document.getElementById('igdb-secret').value.trim();
-  if(!clientId || !clientSecret){ log('Missing credentials', 'log-bad'); return; }
-  const url = 'https://id.twitch.tv/oauth2/token'
-    + '?client_id=' + encodeURIComponent(clientId)
-    + '&client_secret=' + encodeURIComponent(clientSecret)
-    + '&grant_type=client_credentials';
-  log('IGDB AUTH → POST ' + url.replace(clientSecret, '***'), 'log-src');
-  log('  origin: ' + location.origin + '  (should match the Origin the browser sends)', 'log-info');
-  try{
-    const res = await fetch(url, { method: 'POST' });
-    log('  ← HTTP ' + res.status + ' ' + res.statusText, res.ok ? 'log-ok' : 'log-bad');
-    const txt = await res.text();
-    logPayload('  response body', txt);
-    if(res.ok){
-      const data = JSON.parse(txt);
-      if(data.access_token){
-        localStorage.setItem('igdb_token', JSON.stringify({
-          token: data.access_token,
-          expires: Date.now() + (data.expires_in || 3600) * 1000
-        }));
-        log('  ✓ access token acquired (expires in ' + data.expires_in + 's), cached in localStorage', 'log-ok');
-      } else {
-        log('  ✗ no access_token in response', 'log-bad');
-      }
-    }
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-    log('  → this is almost always CORS. Check console for preflight errors.', 'log-warn');
-    log('  → Twitch requires the OAuth endpoint to be called from a registered redirect URL context.', 'log-warn');
-  }
-};
-
-document.getElementById('igdb-test-search').onclick = async () => {
-  const q = document.getElementById('igdb-q').value.trim();
-  if(!q){ log('Enter a game name to search', 'log-bad'); return; }
-  const c = JSON.parse(localStorage.getItem('igdb_cfg') || '{}');
-  if(!c.clientId){ log('No client ID — save credentials first', 'log-bad'); return; }
-  let tok;
-  try{
-    const cached = JSON.parse(localStorage.getItem('igdb_token') || '{}');
-    tok = cached.token;
-    if(!tok){ log('No cached token — run auth test first', 'log-bad'); return; }
-    log('IGDB SEARCH → POST https://api.igdb.com/v4/games  (search "' + q + '")', 'log-src');
-    log('  body: search "' + q + '"; fields name,first_release_date,summary,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,platforms.name,screenshots.url; limit 6;', 'log-info');
-    const res = await fetch('https://api.igdb.com/v4/games', {
-      method:'POST',
-      headers:{
-        'Client-ID': c.clientId,
-        'Authorization': 'Bearer ' + tok,
-        'Content-Type': 'text/plain'
-      },
-      body: 'search "' + q + '"; fields name,first_release_date,summary,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,platforms.name,screenshots.url; limit 6;'
-    });
-    log('  ← HTTP ' + res.status + ' ' + res.statusText, res.ok ? 'log-ok' : 'log-bad');
-    const txt = await res.text();
-    logPayload('  response body', txt);
-    if(res.ok){
-      const hits = JSON.parse(txt);
-      log('  ✓ ' + hits.length + ' results', 'log-ok');
-      hits.forEach((h, i) => {
-        const devs = (h.involved_companies||[]).filter(ic=>ic.developer).map(ic=>ic.company&&ic.company.name).filter(Boolean).join(', ');
-        log('    ' + (i+1) + '. ' + h.name + (h.first_release_date ? '  (' + new Date(h.first_release_date*1000).getFullYear() + ')' : '') + (devs ? ' — ' + devs : ''), 'log-info');
-      });
-    }
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-    log('  → check console for the actual CORS/preflight error', 'log-warn');
-  }
-};
-
-/* ============================================================
-   PCGW
-   ============================================================ */
-document.getElementById('pcgw-search').onclick = async () => {
-  const q = document.getElementById('pcgw-q').value.trim();
-  if(!q){ log('Enter a game name', 'log-bad'); return; }
-  const url = 'https://www.pcgamingwiki.com/w/api.php?action=query&list=search&srsearch='
-    + encodeURIComponent(q) + '&srlimit=5&format=json&origin=*';
-  log('PCGW SEARCH → GET ' + url, 'log-src');
-  try{
-    const res = await fetch(url);
-    log('  ← HTTP ' + res.status + ' ' + res.statusText, res.ok ? 'log-ok' : 'log-bad');
-    log('  access-control-allow-origin: ' + (res.headers.get('access-control-allow-origin') || '(none)'), 'log-info');
-    const txt = await res.text();
-    logPayload('  response body', txt);
-    if(res.ok){
-      const data = JSON.parse(txt);
-      const hits = (data.query && data.query.search) || [];
-      log('  ✓ ' + hits.length + ' results', 'log-ok');
-      hits.forEach((h, i) => log('    ' + (i+1) + '. ' + h.title, 'log-info'));
-    }
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-    log('  → CORS likely blocked. Try "Test CORS (raw fetch)" next.', 'log-warn');
-  }
-};
-
-document.getElementById('pcgw-raw').onclick = async () => {
-  const url = 'https://www.pcgamingwiki.com/w/api.php?action=query&meta=siteinfo&format=json&origin=*';
-  log('PCGW RAW → GET ' + url, 'log-src');
+/* ============================================================ */
+async function testPing(){
+  hr('PING');
+  const url = proxyBase() + '?action=ping';
+  log('GET ' + url, 'log-src');
   try{
     const res = await fetch(url);
     log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
-    log('  access-control-allow-origin: ' + (res.headers.get('access-control-allow-origin') || '(none)'), 'log-info');
-    log('  access-control-allow-headers: ' + (res.headers.get('access-control-allow-headers') || '(none)'), 'log-info');
     const txt = await res.text();
-    logPayload('  body', txt.slice(0, 400));
-    if(res.headers.get('access-control-allow-origin')){
-      log('  ✓ CORS headers present — the site should be able to call this endpoint', 'log-ok');
-    } else {
-      log('  ✗ no CORS header — browser will block reads from other origins', 'log-bad');
-    }
+    logPayload('  response', txt);
   }catch(e){
     log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
   }
-};
+}
 
-/* ============================================================
-   LBDB
-   ============================================================ */
-let LBDB_INDEX_TEST = null;
-
-document.getElementById('lbdb-file').onclick = async () => {
-  log('LBDB → GET LBDB/metadata.json', 'log-src');
-  try{
-    const res = await fetch('LBDB/metadata.json', { cache: 'no-cache' });
-    log('  ← HTTP ' + res.status + ' ' + res.statusText, res.ok ? 'log-ok' : 'log-bad');
-    const size = res.headers.get('content-length');
-    if(size) log('  content-length: ' + (parseInt(size)/1024/1024).toFixed(2) + ' MB', 'log-info');
-    if(!res.ok){ log('  ✗ file not reachable', 'log-bad'); return; }
-    const t0 = performance.now();
-    const data = await res.json();
-    const dt = Math.round(performance.now() - t0);
-    log('  ✓ parsed in ' + dt + 'ms', 'log-ok');
-    log('  generated: ' + (data.generated || '(no field)'), 'log-info');
-    log('  count: ' + (data.count || (data.games||[]).length), 'log-info');
-    LBDB_INDEX_TEST = data.games || (Array.isArray(data) ? data : []);
-  }catch(e){
-    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
-  }
-};
-
-document.getElementById('lbdb-search').onclick = async () => {
-  const q = document.getElementById('lbdb-q').value.trim();
-  if(!q){ log('Enter a game name', 'log-bad'); return; }
-  if(!LBDB_INDEX_TEST){
-    log('Loading LBDB file first…', 'log-info');
-    await document.getElementById('lbdb-file').onclick();
-    if(!LBDB_INDEX_TEST){ log('File did not load — cannot search', 'log-bad'); return; }
-  }
-  const norm = s => String(s||'').toLowerCase().trim().replace(/[^\w\s]/g,' ').replace(/\s+/g,' ').trim();
-  const key = norm(q);
-  log('LBDB SEARCH → "' + q + '" (normalised: "' + key + '")', 'log-src');
+async function testIgdb(){
+  hr('IGDB');
+  const url = proxyBase() + '?action=igdb&q=' + encodeURIComponent(testGame());
+  log('GET ' + url, 'log-src');
   const t0 = performance.now();
-  const hits = LBDB_INDEX_TEST.filter(g => norm(g.n || g.name) === key);
+  try{
+    const res = await fetch(url);
+    const dt = Math.round(performance.now() - t0);
+    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    const data = await res.json();
+    if(data && data.error){ log('  ✗ error: ' + data.error, 'log-bad'); return; }
+    log('  ✓ ' + (Array.isArray(data) ? data.length + ' results' : 'non-array response'), 'log-ok');
+    if(Array.isArray(data)){
+      data.slice(0, 6).forEach((h, i) => {
+        log('    ' + (i+1) + '. ' + (h.name || '(unnamed)') + (h.first_release_date ? '  (' + new Date(h.first_release_date*1000).getFullYear() + ')' : ''), 'log-info');
+      });
+    }
+    logPayload('  full body', data);
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+  }
+}
+
+async function testSteam(){
+  hr('STEAM');
+  const url = proxyBase() + '?action=steam&q=' + encodeURIComponent(testGame());
+  log('GET ' + url, 'log-src');
+  const t0 = performance.now();
+  try{
+    const res = await fetch(url);
+    const dt = Math.round(performance.now() - t0);
+    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    const data = await res.json();
+    if(data && data.error){ log('  ✗ error: ' + data.error, 'log-bad'); return; }
+    log('  ✓ name: ' + (data.name || ''), 'log-ok');
+    log('  ✓ appId: ' + (data.appId || ''), 'log-ok');
+    log('  ✓ developer: ' + (data.developer || '(empty)'), data.developer ? 'log-ok' : 'log-warn');
+    log('  ✓ publisher: ' + (data.publisher || '(empty)'), data.publisher ? 'log-ok' : 'log-warn');
+    log('  ✓ release: ' + (data.release || '(empty)'), data.release ? 'log-ok' : 'log-warn');
+    log('  ✓ size: ' + (data.size || '(empty)'), data.size ? 'log-ok' : 'log-warn');
+    log('  ✓ screenshots: ' + ((data.screenshots||[]).length), (data.screenshots||[]).length ? 'log-ok' : 'log-warn');
+    logPayload('  full body', data);
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+  }
+}
+
+async function testHltb(){
+  hr('HLTB');
+  const url = proxyBase() + '?action=hltb&q=' + encodeURIComponent(testGame());
+  log('GET ' + url, 'log-src');
+  const t0 = performance.now();
+  try{
+    const res = await fetch(url);
+    const dt = Math.round(performance.now() - t0);
+    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    const data = await res.json();
+    if(data && data.error){ log('  ✗ error: ' + data.error, 'log-bad'); return; }
+    log('  ✓ story: ' + (data.story != null ? data.story : '(none)'), data.story != null ? 'log-hltb' : 'log-warn');
+    log('  ✓ extras: ' + (data.extras != null ? data.extras : '(none)'), data.extras != null ? 'log-hltb' : 'log-warn');
+    log('  ✓ completionist: ' + (data.completionist != null ? data.completionist : '(none)'), data.completionist != null ? 'log-hltb' : 'log-warn');
+    logPayload('  full body', data);
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+  }
+}
+
+async function testPcgwSearch(){
+  hr('PCGW SEARCH (direct browser)');
+  const url = 'https://www.pcgamingwiki.com/w/api.php'
+    + '?action=query&list=search'
+    + '&srsearch=' + encodeURIComponent(testGame())
+    + '&srlimit=5&format=json&origin=*';
+  log('GET ' + url, 'log-src');
+  const t0 = performance.now();
+  try{
+    const res = await fetch(url);
+    const dt = Math.round(performance.now() - t0);
+    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    log('  CORS header: ' + (res.headers.get('access-control-allow-origin') || '(none)'), 'log-info');
+    const data = await res.json();
+    const hits = (data.query && data.query.search) || [];
+    log('  ✓ ' + hits.length + ' results', hits.length ? 'log-ok' : 'log-warn');
+    hits.forEach((h, i) => log('    ' + (i+1) + '. ' + h.title, 'log-info'));
+    logPayload('  full body', data);
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+  }
+}
+
+async function testPcgwPage(){
+  hr('PCGW PAGE (direct browser)');
+  // First search to get a page title, then fetch it
+  const searchUrl = 'https://www.pcgamingwiki.com/w/api.php'
+    + '?action=query&list=search'
+    + '&srsearch=' + encodeURIComponent(testGame())
+    + '&srlimit=1&format=json&origin=*';
+  log('Step 1: search for page title', 'log-src');
+  let title = null;
+  try{
+    const res = await fetch(searchUrl);
+    const data = await res.json();
+    const hits = (data.query && data.query.search) || [];
+    if(hits.length) title = hits[0].title;
+    log('  picked title: ' + (title || '(none)'), title ? 'log-ok' : 'log-bad');
+  }catch(e){
+    log('  ✗ search failed: ' + e.message, 'log-bad');
+    return;
+  }
+  if(!title) return;
+
+  log('Step 2: fetch wikitext for "' + title + '"', 'log-src');
+  const url = 'https://www.pcgamingwiki.com/w/api.php'
+    + '?action=parse&page=' + encodeURIComponent(title)
+    + '&prop=wikitext&format=json&origin=*';
+  const t0 = performance.now();
+  try{
+    const res = await fetch(url);
+    const dt = Math.round(performance.now() - t0);
+    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    const data = await res.json();
+    const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
+    log('  ✓ wikitext length: ' + wt.length, wt.length ? 'log-ok' : 'log-bad');
+    log('  first 500 chars:', 'log-info');
+    logPayload('  preview', wt.slice(0, 500));
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+  }
+}
+
+async function testPcgwFull(){
+  hr('PCGW FULL FLOW');
+  const name = testGame();
+  // search
+  let title = null;
+  try{
+    const res = await fetch('https://www.pcgamingwiki.com/w/api.php?action=query&list=search&srsearch=' + encodeURIComponent(name) + '&srlimit=5&format=json&origin=*');
+    const data = await res.json();
+    const hits = (data.query && data.query.search) || [];
+    log('  search hits: ' + hits.length, hits.length ? 'log-ok' : 'log-bad');
+    if(!hits.length) return;
+    // pick closest by lowercase exact match
+    const nl = name.toLowerCase();
+    let best = hits[0];
+    for(const h of hits){ if((h.title||'').toLowerCase() === nl){ best = h; break; } }
+    title = best.title;
+    log('  picked: ' + title, 'log-info');
+  }catch(e){ log('  ✗ search failed: ' + e.message, 'log-bad'); return; }
+
+  // page
+  try{
+    const res = await fetch('https://www.pcgamingwiki.com/w/api.php?action=parse&page=' + encodeURIComponent(title) + '&prop=wikitext&format=json&origin=*');
+    const data = await res.json();
+    const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
+    log('  wikitext: ' + wt.length + ' chars', wt.length ? 'log-ok' : 'log-bad');
+
+    // extract dev/pub
+    const devsRe = /\{\{\s*Infobox game\/row\/developer\s*\|\s*([^\}\|]+?)\s*(?:\||\}\})/gi;
+    const pubsRe = /\{\{\s*Infobox game\/row\/publisher\s*\|\s*([^\}\|]+?)\s*(?:\||\}\})/gi;
+    const devs = [], pubs = [];
+    let m;
+    while((m = devsRe.exec(wt)) !== null){ if(!devs.includes(m[1].trim())) devs.push(m[1].trim()); }
+    while((m = pubsRe.exec(wt)) !== null){ if(!pubs.includes(m[1].trim())) pubs.push(m[1].trim()); }
+    log('  developers: ' + (devs.join(', ') || '(none)'), devs.length ? 'log-ok' : 'log-warn');
+    log('  publishers: ' + (pubs.join(', ') || '(none)'), pubs.length ? 'log-ok' : 'log-warn');
+
+    // extract dates
+    const datesRe = /\{\{\s*Infobox game\/row\/date\s*\|\s*([^\|\}]+?)\s*\|\s*([^\|\}]+?)\s*(?:\||\}\})/gi;
+    const dates = [];
+    while((m = datesRe.exec(wt)) !== null){ dates.push(m[2].trim()); }
+    log('  dates: ' + (dates.slice(0,4).join(' | ') || '(none)'), dates.length ? 'log-ok' : 'log-warn');
+
+    // extract size
+    const sizeRe = /\|minHD\s*=\s*([^\|\}\n]+)/gi;
+    let sizeBest = '';
+    while((m = sizeRe.exec(wt)) !== null){ if(!sizeBest || m[1].trim().length < sizeBest.length) sizeBest = m[1].trim(); }
+    log('  minHD: ' + (sizeBest || '(none)'), sizeBest ? 'log-ok' : 'log-warn');
+  }catch(e){ log('  ✗ page failed: ' + e.message, 'log-bad'); }
+}
+
+async function testPcgwProxy(){
+  hr('PCGW VIA PROXY (informational)');
+  const url = proxyBase() + '?action=pcgw&q=' + encodeURIComponent(testGame());
+  log('GET ' + url, 'log-src');
+  try{
+    const res = await fetch(url);
+    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
+    const txt = await res.text();
+    logPayload('  response', txt.slice(0, 500));
+    if(res.status === 403) log('  → expected: Cloudflare blocks Google IPs. index.html uses direct browser instead.', 'log-warn');
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+  }
+}
+
+let LBDB_CACHE = null;
+async function testLbdb(){
+  hr('LBDB (direct browser)');
+  if(!LBDB_CACHE){
+    log('Loading LBDB/metadata.json (may take a moment)…', 'log-src');
+    const t0 = performance.now();
+    try{
+      const res = await fetch('LBDB/metadata.json', { cache: 'no-cache' });
+      log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
+      if(!res.ok){ log('  ✗ file not reachable', 'log-bad'); return; }
+      const cl = res.headers.get('content-length');
+      if(cl) log('  content-length: ' + (parseInt(cl)/1024/1024).toFixed(2) + ' MB', 'log-info');
+      const data = await res.json();
+      const dt = Math.round(performance.now() - t0);
+      log('  ✓ parsed in ' + dt + 'ms', 'log-ok');
+      log('  generated: ' + (data.generated || '(no field)'), 'log-info');
+      const games = data.games || (Array.isArray(data) ? data : []);
+      log('  count: ' + games.length, 'log-ok');
+      // build index
+      const t1 = performance.now();
+      const norm = s => String(s||'').toLowerCase().trim()
+        .replace(/[^\w\s]/g, ' ').replace(/\s+/g, ' ').trim();
+      const map = new Map();
+      for(const g of games){
+        const n = g.n || g.name;
+        if(!n) continue;
+        const key = norm(n);
+        if(!key) continue;
+        if(!map.has(key)) map.set(key, []);
+        map.get(key).push(g);
+      }
+      const dtIdx = Math.round(performance.now() - t1);
+      log('  ✓ index built in ' + dtIdx + 'ms  (' + map.size + ' unique keys)', 'log-ok');
+      LBDB_CACHE = { map };
+    }catch(e){
+      log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+      return;
+    }
+  }
+
+  // lookup
+  const norm = s => String(s||'').toLowerCase().trim()
+    .replace(/[^\w\s]/g, ' ').replace(/\s+/g, ' ').trim();
+  const q = testGame();
+  const key = norm(q);
+  const t0 = performance.now();
+  const hits = LBDB_CACHE.map.get(key) || [];
   const dt = Math.round(performance.now() - t0);
+  log('  lookup "' + q + '" (normalized: "' + key + '")', 'log-src');
   log('  ✓ ' + hits.length + ' matches in ' + dt + 'ms', hits.length ? 'log-ok' : 'log-warn');
   hits.slice(0, 10).forEach((g, i) => {
-    log('    ' + (i+1) + '. ' + (g.n||g.name) + '  [' + (g.p||'') + ']' + (g.dev ? ' — ' + g.dev : '') + (g.rel ? ' (' + g.rel + ')' : ''), 'log-info');
+    log('    ' + (i+1) + '. ' + (g.n||g.name) + '  [' + (g.p||'') + ']' + (g.rel ? '  ' + g.rel : ''), 'log-info');
   });
+}
+
+/* ============================================================ */
+document.getElementById('t-ping').onclick        = testPing;
+document.getElementById('t-igdb').onclick        = testIgdb;
+document.getElementById('t-steam').onclick       = testSteam;
+document.getElementById('t-hltb').onclick        = testHltb;
+document.getElementById('t-pcgw-search').onclick = testPcgwSearch;
+document.getElementById('t-pcgw-page').onclick   = testPcgwPage;
+document.getElementById('t-pcgw-full').onclick   = testPcgwFull;
+document.getElementById('t-pcgw-proxy').onclick  = testPcgwProxy;
+document.getElementById('t-lbdb').onclick        = testLbdb;
+
+document.getElementById('run-all').onclick = async () => {
+  hr('RUN ALL — START');
+  await testPing();
+  await testIgdb();
+  await testSteam();
+  await testHltb();
+  await testPcgwFull();
+  await testPcgwProxy();
+  await testLbdb();
+  hr('RUN ALL — DONE');
 };
 
 /* ============================================================ */
-log('Source Tester ready.', 'log-info');
-log('Make sure this page is served over HTTPS from GitHub Pages — a file:// or http:// origin will fail CORS checks differently.', 'log-warn');
-log('Tip: press F12 → Console for any CORS errors the browser is hiding from JavaScript.', 'log-warn');
+log('Tester ready.', 'log-info');
+log('Make sure this page is on GitHub Pages (not file://) — file:// breaks most of these.', 'log-warn');
+log('Tip: press F12 → Console for hidden CORS errors the browser does not surface in JavaScript.', 'log-warn');
 </script>
 </body>
 </html>
