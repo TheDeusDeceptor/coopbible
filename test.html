@@ -3,1756 +3,343 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Co-Op Vault</title>
+<title>Vault — Source Tester</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#0a0d14;--bg-glow:#0f1622;--card:#101624;--border:#1e2836;
+    --bg:#0a0d14;--card:#101624;--border:#1e2836;
     --accent:#38bdf8;--accent-soft:rgba(56,189,248,.14);--accent-line:rgba(56,189,248,.35);
     --text:#e6ebf2;--muted:#7d8798;
-    --green:#4ade80;--blue:#3b82f6;--amber:#f59e0b;--red:#ef4444;
+    --green:#4ade80;--amber:#f59e0b;--red:#ef4444;--purple:#a78bfa;
     --font-head:'Chakra Petch',system-ui,sans-serif;
     --font-body:'Inter',system-ui,sans-serif;
   }
-  body[data-group="single"]{
-    --bg:#0d0708;--bg-glow:#1a0b0e;--card:#160d10;--border:#2a161b;
-    --accent:#e11d48;--accent-soft:rgba(225,29,72,.14);--accent-line:rgba(225,29,72,.38);
-  }
-  *{box-sizing:border-box;margin:0;padding:0;scrollbar-width:thin;scrollbar-color:var(--border) transparent;}
-  ::-webkit-scrollbar{width:10px;height:10px}
-  ::-webkit-scrollbar-track{background:transparent}
-  ::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;border:2px solid transparent;background-clip:padding-box}
-  ::-webkit-scrollbar-thumb:hover{background:var(--accent-line);background-clip:padding-box}
-  html{scroll-behavior:smooth}
-  body{
-    background:radial-gradient(ellipse 80% 55% at 50% -10%, var(--bg-glow) 0%, transparent 60%),var(--bg);
-    background-attachment:fixed;color:var(--text);font-family:var(--font-body);min-height:100vh;padding:1.75rem;
-  }
-  .icon{display:inline-block;width:.85em;height:.85em;background-color:currentColor;-webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;flex-shrink:0;vertical-align:middle;}
-  .icon-steam{-webkit-mask-image:url(icons/steam.png);mask-image:url(icons/steam.png);}
-  .icon-pcgw{-webkit-mask-image:url(icons/wrench.svg);mask-image:url(icons/wrench.svg);}
-  .icon-nexus{-webkit-mask-image:url(icons/nexus.svg);mask-image:url(icons/nexus.svg);}
-  .icon-generic{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");}
-  .icon-search{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");}
-  .icon-hltb{-webkit-mask-image:url(icons/clock.svg);mask-image:url(icons/clock.svg);}
-  .icon-size{-webkit-mask-image:url(icons/hdd.svg);mask-image:url(icons/hdd.svg);}
-  .icon-date{-webkit-mask-image:url(icons/calendar.svg);mask-image:url(icons/calendar.svg);}
-  .icon-platform{-webkit-mask-image:url(icons/monitor.svg);mask-image:url(icons/monitor.svg);}
-  .icon-dev{-webkit-mask-image:url(icons/code.svg);mask-image:url(icons/code.svg);}
-  .icon-pub{-webkit-mask-image:url(icons/briefcase.svg);mask-image:url(icons/briefcase.svg);}
-  .icon-pencil{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4z'/%3E%3C/svg%3E");}
-  .icon-trash{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='3 6 5 6 21 6'/%3E%3Cpath d='M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6'/%3E%3Cpath d='M10 11v6M14 11v6'/%3E%3Cpath d='M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='3 6 5 6 21 6'/%3E%3Cpath d='M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6'/%3E%3Cpath d='M10 11v6M14 11v6'/%3E%3Cpath d='M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E");}
-  .icon-plus{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");}
-  header{max-width:1400px;margin:0 auto 1.75rem;display:flex;justify-content:center;position:relative;}
-  .admin-toggle{
-    position:absolute;right:0;top:50%;transform:translateY(-50%);
-    display:inline-flex;align-items:center;gap:.5rem;
-    font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
-    padding:.55rem .85rem;border:1px solid var(--border);border-radius:8px;
-    background:rgba(255,255,255,.015);color:var(--muted);cursor:pointer;transition:all .18s ease;
-    white-space:nowrap;
-  }
-  .admin-toggle:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .admin-toggle .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
-  body.admin-on .admin-toggle{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08)}
-  body.admin-on .admin-toggle .lamp{background:var(--red);box-shadow:0 0 8px var(--red)}
-  .lbdb-btn{
-    position:absolute;left:0;top:50%;transform:translateY(-50%);
-    display:none;align-items:center;gap:.5rem;
-    font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
-    padding:.55rem .85rem;border:1px solid var(--border);border-radius:8px;
-    background:rgba(255,255,255,.015);color:var(--muted);cursor:pointer;transition:all .18s ease;
-    white-space:nowrap;
-  }
-  body.admin-on .lbdb-btn{display:inline-flex;}
-  .lbdb-btn:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .lbdb-btn .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
-  .lbdb-btn.running .lamp{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.4s ease-in-out infinite;}
-  .lbdb-btn.running{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08)}
-  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-  .switch{
-    position:relative;width:280px;height:58px;padding:5px;display:flex;cursor:pointer;user-select:none;border-radius:29px;
-    background:linear-gradient(180deg,rgba(0,0,0,.55) 0%, rgba(255,255,255,.02) 100%);
-    box-shadow:inset 0 2px 6px rgba(0,0,0,.85),inset 0 -1px 0 rgba(255,255,255,.03),0 1px 0 rgba(255,255,255,.03);
-    border:1px solid var(--border);transition:border-color .25s ease;
-  }
-  .switch:hover{border-color:var(--accent-line)}
-  .switch-knob{position:absolute;top:5px;left:5px;width:calc(50% - 5px);height:calc(100% - 10px);border-radius:24px;background:linear-gradient(180deg,#2a3444 0%,#1b2330 55%,#141b26 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),inset 0 -1px 0 rgba(0,0,0,.5),0 4px 10px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.6);transition:transform .32s cubic-bezier(.34,1.15,.4,1);z-index:1;}
-  .switch-knob::after{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(ellipse at 50% 0%, var(--accent-soft), transparent 60%);transition:background .35s ease;}
-  body[data-group="single"] .switch-knob{transform:translateX(100%)}
-  .switch-label{position:relative;z-index:2;flex:1;display:flex;align-items:center;justify-content:center;font-family:var(--font-head);font-weight:700;font-size:.82rem;letter-spacing:.12em;color:#4a5468;transition:color .22s ease,text-shadow .22s ease;pointer-events:none;}
-  .switch[data-active="coop"] .switch-label[data-side="coop"],.switch[data-active="single"] .switch-label[data-side="single"]{color:#e8f6ff;text-shadow:0 0 10px var(--accent-line);}
-  .tabbar{max-width:1400px;margin:0 auto 1rem;display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;}
-  .tabbar button{font-family:var(--font-head);font-weight:600;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;padding:.5rem .9rem;border:1px solid var(--border);border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;transition:all .2s ease;}
-  .tabbar button:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .tabbar button.active{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  .toolbar{max-width:1400px;margin:0 auto 1.25rem;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;}
-  .toolbar.empty{display:none}
-  .tb-left{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
-  .tb-right{margin-left:auto;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;}
-  .dd{position:relative}
-  .dd-btn{display:inline-flex;align-items:center;gap:.55rem;font-family:var(--font-head);font-weight:600;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;padding:.6rem .9rem;border:1px solid var(--border);border-radius:8px;background:rgba(255,255,255,.015);color:#cbd5e1;cursor:pointer;transition:all .18s ease;white-space:nowrap;}
-  .dd-btn:hover{color:#fff;border-color:var(--accent-line);background:var(--accent-soft)}
-  .dd.open .dd-btn{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
-  .dd-btn .chev{font-size:.7rem;line-height:1;opacity:.7;transition:transform .18s ease;}
-  .dd.open .dd-btn .chev{transform:rotate(180deg)}
-  .dd-btn .val{color:var(--muted);font-weight:500;text-transform:none;letter-spacing:.02em;font-family:var(--font-body);font-size:.82rem;}
-  .dd.open .dd-btn .val,.dd-btn:hover .val{color:#e6ebf2}
-  .dd-menu{position:absolute;top:calc(100% + .35rem);left:0;z-index:50;min-width:200px;background:#0c1017;border:1px solid var(--border);border-radius:9px;padding:.35rem;box-shadow:0 12px 32px rgba(0,0,0,.55);display:none;flex-direction:column;gap:.1rem;animation:menuIn .13s ease-out;}
-  .dd.open .dd-menu{display:flex}
-  @keyframes menuIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
-  .dd-item{display:flex;align-items:center;gap:.6rem;padding:.5rem .7rem;border-radius:6px;font-family:var(--font-body);font-size:.86rem;font-weight:500;color:#cbd5e1;background:transparent;border:none;cursor:pointer;text-align:left;width:100%;transition:background .12s ease,color .12s ease;white-space:nowrap;}
-  .dd-item:hover{background:rgba(255,255,255,.04);color:#fff}
-  .dd-item.active{color:var(--accent)}
-  .dd-item.active .dd-tick{opacity:1}
-  .dd-tick{margin-left:auto;font-size:.85rem;line-height:1;opacity:0;color:var(--accent);}
-  .dd-item .dir{font-size:.75rem;line-height:1;opacity:.45;color:var(--muted);}
-  .dd-item.active .dir{opacity:1;color:var(--accent)}
-  .search-box{position:relative;display:flex;align-items:center;}
-  .search-box .s-icon{position:absolute;left:10px;width:14px;height:14px;color:var(--muted);pointer-events:none;}
-  .search-box input{font-family:var(--font-body);font-size:.85rem;color:#e6ebf2;background:rgba(255,255,255,.015);border:1px solid var(--border);border-radius:8px;padding:.6rem .8rem .6rem 2.1rem;width:220px;outline:none;transition:border-color .18s ease,background .18s ease;}
-  .search-box input::placeholder{color:#4a5468}
-  .search-box input:focus{border-color:var(--accent-line);background:var(--accent-soft);}
-  .chk{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.4rem .6rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap;transition:all .16s ease;appearance:none;-webkit-appearance:none;}
-  .chk:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .chk .dot{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .16s ease;}
-  .chk.on{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  .chk.on .dot{background:var(--accent);box-shadow:0 0 6px var(--accent);}
-  .btn-add{
-    display:none;align-items:center;gap:.45rem;
-    font-family:var(--font-head);font-weight:700;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
-    padding:.6rem .95rem;border:1px solid var(--red);border-radius:8px;
-    background:rgba(239,68,68,.1);color:var(--red);cursor:pointer;transition:all .18s ease;
-  }
-  body.admin-on .btn-add{display:inline-flex;}
-  .btn-add:hover{background:rgba(239,68,68,.18);color:#fff;border-color:#fff}
-  .section-header{max-width:1400px;margin:2rem auto 1rem;display:flex;align-items:center;gap:.85rem;scroll-margin-top:1.5rem;}
-  .section-header:first-child{margin-top:0}
-  .section-header .bar{width:3px;height:18px;background:var(--accent);border-radius:2px;flex-shrink:0;}
-  .section-header .label{font-family:var(--font-head);font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);white-space:nowrap;}
-  .section-header .line{flex:1;height:1px;background:var(--border);}
-  .jump-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .18s ease;}
-  .jump-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  .jump-btn .arw{font-size:.85rem;line-height:1}
-  .grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,580px),1fr));gap:1.25rem;}
-  .grid-empty{max-width:1400px;margin:1.5rem auto;padding:2rem 1rem;text-align:center;font-family:var(--font-head);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--border);border-radius:9px;line-height:1.8;}
-  .grid-empty code{font-family:ui-monospace,monospace;background:rgba(255,255,255,.04);padding:.15rem .4rem;border-radius:4px;color:#cbd5e1;font-size:.85em;letter-spacing:0;text-transform:none;}
-  .card{display:flex;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
-  .card:hover{border-color:var(--accent-line)}
-  .shot{width:70%;aspect-ratio:16 / 9;background:#000;flex-shrink:0;position:relative;display:grid;place-items:center;overflow:hidden;}
-  .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;}
-  .overlay{position:absolute;left:.55rem;right:.55rem;top:.5rem;bottom:.5rem;z-index:2;pointer-events:none;}
-  .overlay-top{position:absolute;left:0;right:0;top:0;display:flex;justify-content:space-between;align-items:flex-start;gap:.4rem;}
-  .status-tag{display:inline-flex;align-items:center;padding:.3rem .6rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;font-family:var(--font-head);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--green);white-space:nowrap;line-height:1;}
-  .steam-tag{display:inline-flex;align-items:center;justify-content:center;padding:.3rem .5rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;line-height:1;}
-  .steam-tag .icon-steam{width:1.05em;height:1.05em;background-color:#cbd5e1;}
-  .overlay-chips{position:absolute;left:0;right:0;bottom:0;display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;}
-  .ov-chip{display:inline-flex;align-items:center;padding:.32rem .65rem;background:rgba(8,10,16,.72);border:1px solid rgba(255,255,255,.08);border-radius:6px;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);font-family:var(--font-body);font-size:.78rem;font-weight:500;color:#e6ebf2;white-space:nowrap;line-height:1;}
-  .logo-panel{width:30%;background:rgba(255,255,255,.015);border-left:1px solid var(--border);display:grid;place-items:center;padding:.75rem;}
-  .logo-box{aspect-ratio:504 / 562;max-width:100%;max-height:100%;display:grid;place-items:center;}
-  .ph{font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.14em;color:#3a4356;text-transform:uppercase;text-align:center;line-height:1.6;}
-  .ph small{display:block;font-size:.6rem;letter-spacing:.1em;color:#2b3243;margin-top:.35rem}
-  .card-admin{position:absolute;top:.5rem;right:.5rem;z-index:5;display:none;gap:.35rem;}
-  body.admin-on .card-admin{display:flex;}
-  .card-admin button{width:30px;height:30px;border-radius:6px;border:1px solid rgba(255,255,255,.14);background:rgba(10,13,18,.85);color:#cbd5e1;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);transition:all .16s ease;}
-  .card-admin button:hover{background:rgba(0,0,0,.95);color:#fff;}
-  .card-admin button.edit:hover{border-color:var(--accent);color:var(--accent);}
-  .card-admin button.del:hover{border-color:var(--red);color:var(--red);}
-  .card-admin .icon{width:14px;height:14px;}
-  .beaten-list{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
-  .row-wrap{display:grid;grid-template-columns:86px 1fr;gap:.9rem;align-items:center;position:relative;}
-  .rank{font-family:var(--font-head);font-weight:700;font-size:1.6rem;letter-spacing:.02em;color:var(--muted);text-align:right;padding-right:.2rem;transition:color .2s ease,text-shadow .2s ease;user-select:none;line-height:1;font-variant-numeric:tabular-nums;}
-  .row-wrap:hover .rank{color:var(--accent);text-shadow:0 0 12px var(--accent-soft);}
-  .rowD{display:grid;grid-template-columns:1fr 1fr;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
-  .rowD:hover{border-color:var(--accent-line)}
-  .shot-cell{aspect-ratio:16/9;align-self:center;background:linear-gradient(135deg,#1a2230 0%,#0f1620 100%);display:grid;place-items:center;color:#3a4356;font-family:var(--font-head);font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;text-align:center;line-height:1.5;}
-  .shot-cell small{display:block;font-size:.5rem;color:#2b3243;letter-spacing:.1em}
-  .info-cell{padding:1.5rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-width:0;}
-  .logo{width:180px;aspect-ratio:504/562;display:grid;place-items:center;border:1px dashed #2b3243;border-radius:8px;color:#3a4356;font-family:var(--font-head);font-weight:700;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;text-align:center;line-height:1.4;padding:.5rem;transition:transform .25s cubic-bezier(.3,.7,.3,1);}
-  .logo small{display:block;font-size:.5rem;color:#2b3243;letter-spacing:.08em;margin-top:.2rem}
-  .rowD:hover .logo{transform:translateY(-6px);}
-  .hover-text{opacity:0;transform:translateY(6px);transition:opacity .22s ease,transform .22s ease;margin-top:.9rem;pointer-events:none;min-height:0;}
-  .rowD:hover .hover-text{opacity:1;transform:none;}
-  .hover-text .name{font-family:var(--font-head);font-weight:700;font-size:1.05rem;letter-spacing:.03em;color:#cbd5e1;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-  .hover-text .meta{margin-top:.35rem;font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
-  .hover-text .meta .sep{margin:0 .6em;opacity:.5}
-  .series-blocks{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1.75rem;}
-  .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;}
-  .series-banner{position:relative;background:#000;border-bottom:1px solid var(--border);padding:1.25rem;display:flex;align-items:center;justify-content:center;min-height:110px;}
-  .series-banner .logo-slot{display:flex;align-items:center;justify-content:center;max-height:80px;}
-  .series-banner .logo-slot .ph{font-size:.62rem;letter-spacing:.16em}
-  .series-totals{position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);text-align:right;font-family:var(--font-head);font-weight:600;font-size:1.05rem;color:#fff;letter-spacing:.04em;line-height:1.1;}
-  .series-totals .sep{color:var(--muted);font-weight:400;margin:0 .35em;font-size:.9em;}
-  .series-totals .unit{color:var(--muted);font-weight:400;font-size:.8em;margin-left:.35em;}
-  .series-games{display:flex;flex-direction:column;}
-  .series-game-row{display:grid;grid-template-columns:minmax(200px,1.6fr) 100px 100px 150px 80px 32px minmax(160px,1.4fr);gap:.9rem;align-items:center;padding:.6rem 1.25rem;border-bottom:1px solid var(--border);font-size:.88rem;cursor:pointer;transition:background .15s ease;}
-  .series-game-row:last-child{border-bottom:none}
-  .series-game-row:hover{background:rgba(255,255,255,.03)}
-  .series-game-row .g-title{color:#e6ebf2;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-  .series-game-row .g-year,.series-game-row .g-platform{color:var(--muted);font-family:var(--font-head);font-size:.72rem;font-weight:600;letter-spacing:.04em;}
-  .series-game-row .g-hltb{color:#c8d1de;font-family:var(--font-body);font-size:.82rem;font-weight:500;letter-spacing:.01em;}
-  .series-game-row .g-hltb .sep{color:var(--muted);font-weight:400;margin:0 .3em;font-size:.88em;}
-  .series-game-row .g-hltb .unit{color:var(--muted);font-weight:400;font-size:.85em;margin-left:.3em;}
-  .series-game-row .g-status{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;text-align:center;width:fit-content;border:1px solid transparent;white-space:nowrap;}
-  .series-game-row .g-status.done{color:var(--green);border-color:rgba(74,222,128,.35);background:rgba(74,222,128,.08);}
-  .series-game-row .g-status.rerun{color:var(--amber);border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.08);}
-  .series-game-row .g-color{display:flex;align-items:center;justify-content:center;}
-  .series-game-row .g-color .sq{width:14px;height:14px;border-radius:3px;box-shadow:0 0 0 1px rgba(255,255,255,.08);}
-  .series-game-row .g-color .sq.green{background:var(--green);}
-  .series-game-row .g-color .sq.blue{background:var(--blue);}
-  .series-game-row .g-note{color:var(--muted);font-size:.78rem;font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-  .re-part{font-style:italic;color:var(--muted);opacity:.75;filter:blur(.35px);font-weight:400;margin-left:.25em;letter-spacing:0;text-transform:none;font-family:var(--font-body);font-size:.92em;}
-  .g-title .re-part{color:#8a94a6;opacity:.85;}
-  [data-tooltip]{cursor:help;}
-  .backdrop{position:fixed;inset:0;z-index:200;background:rgba(4,5,8,.78);display:none;align-items:center;justify-content:center;padding:1.5rem;}
-  .backdrop.open{display:flex}
-  #modal-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;max-height:100%}
-  .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:760px;max-height:88vh;overflow-y:auto;position:relative;}
-  .modal::-webkit-scrollbar{width:8px}
-  .modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;border:2px solid transparent;background-clip:padding-box;}
-  .modal::-webkit-scrollbar-thumb:hover{background:var(--accent);background-clip:padding-box}
-  .modal-hero{position:relative;width:100%;aspect-ratio:21/9;background:#000;border-bottom:1px solid var(--border);display:grid;place-items:center;}
-  .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.75));pointer-events:none;}
-  .modal-logo .ph{font-size:.5rem;letter-spacing:.14em;color:#3a4356}
-  .modal-logo .ph small{font-size:.45rem}
-  .modal-rank-badge{position:absolute;top:.75rem;left:.9rem;font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.06em;color:var(--accent);background:rgba(0,0,0,.6);padding:.22rem .6rem;border-radius:5px;border:1px solid var(--accent-line);font-variant-numeric:tabular-nums;}
-  .modal-close{position:absolute;top:.6rem;right:.6rem;width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:rgba(0,0,0,.55);color:var(--muted);cursor:pointer;font-size:.85rem;line-height:1;display:grid;place-items:center;z-index:3;}
-  .modal-close:hover{color:#fff}
-  .modal-body{padding:1.5rem 1.25rem 1.25rem}
-  .modal-title{font-family:var(--font-head);font-weight:700;font-size:1.25rem;letter-spacing:.02em;color:#fff;line-height:1.25;}
-  .chips{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.65rem}
-  .chip{font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.26rem .6rem;border-radius:5px;border:1px solid var(--accent-line);color:var(--accent);background:var(--accent-soft);white-space:nowrap;}
-  .chip.coop{border-color:rgba(56,189,248,.4);color:#38bdf8;background:rgba(56,189,248,.08);}
-  .chip.vault{border-color:rgba(225,29,72,.42);color:#f43f5e;background:rgba(225,29,72,.09);}
-  .chip.green{border-color:rgba(74,222,128,.4);color:var(--green);background:rgba(74,222,128,.08);}
-  .info-list{margin-top:1rem;display:grid;grid-template-columns:1fr 1fr;column-gap:1.25rem;row-gap:0;border-top:1px solid var(--border);}
-  .info-row{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;padding:.55rem 0;border-bottom:1px solid var(--border);font-size:.9rem;}
-  .info-row dt{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:inline-flex;align-items:center;gap:.45rem;white-space:nowrap;}
-  .info-row dt .icon{color:var(--accent);width:.95em;height:.95em;}
-  .info-row dd{font-weight:500;color:#dbe3ee;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;}
-  .info-row dd .sep{color:var(--muted);font-weight:400;margin:0 .3em;font-size:.88em;}
-  .info-row dd .unit{color:var(--muted);font-weight:400;font-size:.85em;margin-left:.3em;}
-  .notes{margin-top:.9rem;padding:.7rem .85rem;background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:7px;font-size:.9rem;line-height:1.55;color:#b3bdcc;}
-  .notes::before{content:"NOTES";display:block;font-family:var(--font-head);font-size:.56rem;font-weight:600;letter-spacing:.14em;color:var(--muted);margin-bottom:.35rem;}
-  .modal-links{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.9rem;}
-  .link-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.45rem .8rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);text-decoration:none;transition:all .18s ease;}
-  .link-btn .icon{width:1em;height:1em}
-  .link-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  .link-btn .icon-steam{background-color:currentColor;}
-  .token-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:480px;padding:1.6rem;position:relative;border-color:rgba(239,68,68,.35);}
-  .token-modal h2{font-family:var(--font-head);font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:.6rem;display:flex;align-items:center;gap:.55rem;}
-  .token-modal h2 .lamp{width:9px;height:9px;border-radius:50%;background:var(--red);box-shadow:0 0 10px var(--red);}
-  .token-modal p{font-size:.88rem;color:#b3bdcc;line-height:1.6;margin-bottom:1rem;}
-  .token-modal p a{color:var(--accent);text-decoration:none}
-  .token-modal p a:hover{text-decoration:underline}
-  .token-modal input[type="password"],.token-modal input[type="text"]{
-    font-family:ui-monospace,monospace;font-size:.86rem;color:#e6ebf2;
-    background:#0a0e15;border:1px solid var(--border);border-radius:7px;
-    padding:.65rem .8rem;width:100%;outline:none;transition:border-color .18s ease;
-  }
-  .token-modal input:focus{border-color:var(--accent-line)}
-  .token-actions{display:flex;gap:.6rem;justify-content:flex-end;margin-top:1.1rem}
-  .admin-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:900px;max-height:92vh;overflow-y:auto;position:relative;}
-  .admin-modal::-webkit-scrollbar{width:10px}
-  .admin-modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
-  .admin-modal::-webkit-scrollbar-thumb:hover{background:var(--accent);}
-  .admin-head{position:sticky;top:0;z-index:10;background:linear-gradient(180deg,#0d1219 0%,#0b1016 100%);border-bottom:1px solid var(--border);padding:1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;}
-  .admin-head h2{font-family:var(--font-head);font-weight:700;font-size:1.1rem;letter-spacing:.02em;color:#fff;display:flex;align-items:center;gap:.6rem;}
-  .admin-head h2 .tag{font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding:.24rem .5rem;border-radius:5px;background:rgba(239,68,68,.12);color:var(--red);border:1px solid rgba(239,68,68,.4);}
-  .admin-head .close-x{width:30px;height:30px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;font-size:.9rem;display:grid;place-items:center;}
-  .admin-head .close-x:hover{color:#fff;border-color:var(--accent-line)}
-  .admin-body{padding:1.4rem}
-  .form-section + .form-section{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid var(--border);}
-  .form-section .sec-title{font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.9rem;display:flex;align-items:center;gap:.6rem;}
-  .form-section .sec-title::after{content:"";flex:1;height:1px;background:var(--border);}
-  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:.9rem 1.1rem;}
-  .form-grid .span-2{grid-column:1 / -1;}
-  .field{display:flex;flex-direction:column;gap:.35rem;min-width:0}
-  .field label{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:.4rem;}
-  .field input,.field select,.field textarea{font-family:var(--font-body);font-size:.9rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:7px;padding:.6rem .75rem;outline:none;transition:border-color .18s ease,background .18s ease;width:100%;}
-  .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
-  .field textarea{resize:vertical;min-height:80px;font-size:.88rem;line-height:1.5;}
-  .field select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237d8798' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .6rem center;background-size:14px;padding-right:2rem;cursor:pointer;}
-  .radio-row{display:flex;gap:.4rem;flex-wrap:wrap}
-  .radio-row label{cursor:pointer;font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.4rem .7rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);transition:all .16s ease;user-select:none;}
-  .radio-row input{display:none}
-  .radio-row label:has(input:checked){color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  .radio-row label.coop-on:has(input:checked){color:#38bdf8;border-color:rgba(56,189,248,.4);background:rgba(56,189,248,.08);}
-  .radio-row label.vault-on:has(input:checked){color:#f43f5e;border-color:rgba(225,29,72,.42);background:rgba(225,29,72,.09);}
-  .img-input{display:flex;gap:.9rem;align-items:flex-start;}
-  .img-input .preview{flex-shrink:0;width:100px;height:100px;border:1px dashed var(--border);border-radius:8px;background:#0a0e15;display:grid;place-items:center;color:#4a5468;font-family:var(--font-head);font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;text-align:center;line-height:1.4;padding:.4rem;overflow:hidden;}
-  .img-input .preview img{max-width:100%;max-height:100%;object-fit:contain}
-  .img-input .preview.shot-preview{width:180px;height:100px}
-  .img-input .controls{flex:1;display:flex;flex-direction:column;gap:.4rem;min-width:0;}
-  .upload-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px dashed var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;align-self:flex-start;}
-  .upload-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
-  .upload-btn input{display:none}
-  .tag-cloud{display:flex;gap:.4rem;flex-wrap:wrap}
-  .tag-cloud label{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.4rem .65rem;border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;user-select:none;transition:all .16s ease;}
-  .tag-cloud label input{display:none}
-  .tag-cloud label.coop:has(input:checked){color:#38bdf8;border-color:rgba(56,189,248,.4);background:rgba(56,189,248,.08);}
-  .tag-cloud label.vault:has(input:checked){color:#f43f5e;border-color:rgba(225,29,72,.42);background:rgba(225,29,72,.09);}
-  .tag-cloud label:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .flag-row{display:flex;gap:.75rem;flex-wrap:wrap}
-  .flag-btn{display:inline-flex;align-items:center;gap:.55rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.55rem .9rem;border:1px solid var(--border);border-radius:8px;background:transparent;color:var(--muted);cursor:pointer;transition:all .18s ease;}
-  .flag-btn .lamp{width:8px;height:8px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
-  .flag-btn.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
-  .flag-btn.on .lamp{background:var(--green);box-shadow:0 0 8px var(--green);}
-  .links-list{display:flex;flex-direction:column;gap:.5rem;margin-bottom:.6rem}
-  .link-row{display:grid;grid-template-columns:140px 1fr 32px;gap:.5rem;align-items:center;}
-  .link-row input{padding:.5rem .6rem;font-size:.85rem}
-  .link-row .remove-link{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;}
-  .link-row .remove-link:hover{color:var(--red);border-color:var(--red)}
-  .add-link-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px dashed var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;align-self:flex-start;}
-  .add-link-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
-  .admin-foot{position:sticky;bottom:0;background:linear-gradient(0deg,#0b1016 0%,#0d1219 100%);border-top:1px solid var(--border);padding:1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;}
-  .admin-foot .left-actions{display:flex;gap:.5rem}
-  .admin-foot .right-actions{display:flex;gap:.6rem;margin-left:auto}
-  .btn{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-weight:700;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;padding:.65rem 1.1rem;border:1px solid var(--border);border-radius:8px;background:transparent;color:var(--muted);cursor:pointer;transition:all .18s ease;white-space:nowrap;}
-  .btn:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .btn.primary{color:#0a0d14;background:var(--accent);border-color:var(--accent)}
-  .btn.primary:hover{filter:brightness(1.1);color:#0a0d14}
-  .btn.danger{color:var(--red);border-color:rgba(239,68,68,.4);background:rgba(239,68,68,.06)}
-  .btn.danger:hover{color:#fff;border-color:var(--red);background:rgba(239,68,68,.18)}
-  .btn .icon{width:.9em;height:.9em}
-  .confirm{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:420px;padding:1.5rem;position:relative;border-color:rgba(239,68,68,.4);}
-  .confirm h3{font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.02em;color:var(--red);display:flex;align-items:center;gap:.55rem;margin-bottom:.7rem;}
-  .confirm p{font-size:.92rem;line-height:1.55;color:#cbd5e1;margin-bottom:.4rem}
-  .confirm p .gname{color:#fff;font-weight:600}
-  .confirm .warn{font-size:.82rem;color:var(--muted);font-style:italic;margin-bottom:1.25rem}
-  .confirm .btns{display:flex;gap:.6rem;justify-content:flex-end;margin-top:1rem}
-  .toast{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(10px);z-index:500;padding:.75rem 1.2rem;background:#0c1017;border:1px solid var(--border);border-radius:8px;font-family:var(--font-head);font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#fff;box-shadow:0 12px 32px rgba(0,0,0,.55);opacity:0;transition:opacity .22s ease,transform .22s ease;pointer-events:none;}
-  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-  .toast.ok{border-color:rgba(74,222,128,.5)}
-  .toast.ok::before{content:"✓";color:var(--green);margin-right:.5rem}
-  .toast.bad{border-color:rgba(239,68,68,.5)}
-  .toast.bad::before{content:"✕";color:var(--red);margin-right:.5rem}
-  .loader{max-width:1400px;margin:2rem auto;padding:2rem;text-align:center;font-family:var(--font-head);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
-  .loader::after{content:"";display:inline-block;width:8px;height:8px;margin-left:.5rem;background:var(--accent);border-radius:50%;animation:pulse 1s ease-in-out infinite;}
-  @media (max-width:1100px){
-    .tb-right{width:100%;margin-left:0;padding-top:.6rem;border-top:1px solid var(--border)}
-    .search-box input{width:100%;max-width:280px}
-  }
-  @media (max-width:1000px){
-    .series-game-row{grid-template-columns:minmax(180px,1.5fr) 90px 90px 140px 70px 28px minmax(140px,1.3fr);gap:.65rem;padding:.55rem 1rem;font-size:.82rem;}
-  }
-  @media (max-width:820px){
-    .series-game-row{grid-template-columns:1fr;gap:.3rem;padding:.75rem 1rem;}
-    .series-game-row .g-note{white-space:normal}
-    .series-game-row .g-color{justify-content:flex-start}
-    .series-banner{flex-direction:column;gap:.75rem;padding:1.25rem 1rem}
-    .series-totals{position:static;transform:none;text-align:center}
-    .row-wrap{grid-template-columns:56px 1fr;gap:.6rem}
-    .rank{font-size:1.3rem}
-    .rowD{grid-template-columns:1fr}
-    .shot-cell{width:100%}
-    .logo{width:150px}
-    .hover-text{opacity:1;transform:none}
-    .form-grid{grid-template-columns:1fr}
-    .admin-toggle,.lbdb-btn{position:static;transform:none;order:-1;margin:0 .25rem}
-    header{flex-wrap:wrap;gap:.5rem}
-  }
-  @media (max-width:640px){
-    body{padding:1rem}
-    .switch{width:220px;height:50px}
-    .switch-label{font-size:.72rem;letter-spacing:.1em}
-    .modal-body{padding:1.5rem 1rem 1rem}
-    .modal-title{font-size:1.1rem}
-    .modal-logo{width:70px;bottom:.75rem;right:.75rem}
-    .info-list{grid-template-columns:1fr}
-    .ov-chip{font-size:.72rem;padding:.26rem .55rem}
-    .status-tag{font-size:.62rem;padding:.26rem .52rem}
-    .section-header{flex-wrap:wrap;gap:.6rem}
-    .search-box input{width:100%}
-    .chk{padding:.34rem .5rem;font-size:.55rem}
-    .admin-head h2{font-size:.95rem}
-    .admin-body{padding:1rem}
-    .admin-foot{padding:.85rem 1rem}
-    .link-row{grid-template-columns:1fr 1fr 32px}
-  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-height:100vh;padding:2rem;}
+  .wrap{max-width:1000px;margin:0 auto}
+  h1{font-family:var(--font-head);font-weight:700;font-size:1.4rem;letter-spacing:.06em;margin-bottom:.3rem}
+  .sub{color:var(--muted);font-size:.9rem;margin-bottom:1.75rem}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.25rem;margin-bottom:1.25rem}
+  .panel h2{font-family:var(--font-head);font-weight:700;font-size:.95rem;letter-spacing:.04em;color:#fff;margin-bottom:.9rem;display:flex;align-items:center;gap:.6rem}
+  .panel h2 .badge{font-size:.55rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent-line)}
+  .row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:.6rem}
+  .row label{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);min-width:80px}
+  input[type=text],input[type=password]{flex:1;min-width:180px;font-family:ui-monospace,monospace;font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.55rem .7rem;outline:none}
+  input:focus{border-color:var(--accent-line)}
+  button{font-family:var(--font-head);font-weight:700;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;padding:.55rem 1rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:#cbd5e1;cursor:pointer;transition:all .15s ease;white-space:nowrap}
+  button:hover{color:#fff;border-color:var(--accent-line);background:var(--accent-soft)}
+  button.primary{background:var(--accent);color:#0a0d14;border-color:var(--accent)}
+  button.primary:hover{filter:brightness(1.1);color:#0a0d14}
+  button:disabled{opacity:.5;cursor:wait}
+  #log{background:#060810;border:1px solid var(--border);border-radius:8px;padding:1rem;font-family:ui-monospace,SFMono-Regular,monospace;font-size:.78rem;line-height:1.55;color:#c8d1de;height:520px;overflow-y:auto;white-space:pre-wrap;word-break:break-all}
+  .log-line{padding:.15rem 0;border-bottom:1px solid rgba(255,255,255,.03)}
+  .log-time{color:#4a5468;margin-right:.5rem}
+  .log-ok{color:var(--green)}
+  .log-bad{color:var(--red)}
+  .log-warn{color:var(--amber)}
+  .log-info{color:var(--accent)}
+  .log-src{color:var(--purple)}
+  .log-payload{color:#8b94a5;display:block;padding-left:1rem;font-size:.72rem;margin-top:.2rem;max-height:200px;overflow:auto}
+  .clear-btn{font-size:.55rem;padding:.35rem .7rem;margin-left:auto}
+  .tiny{font-size:.75rem;color:var(--muted);line-height:1.55;margin-top:.5rem}
 </style>
 </head>
-<body data-group="coop">
+<body>
+<div class="wrap">
 
-<header>
-  <button class="lbdb-btn" id="lbdbBtn" type="button">
-    <span class="lamp"></span>
-    <span id="lbdbBtnLabel">Update LBDB</span>
-  </button>
-  <div class="switch" id="switch" data-active="coop" role="tablist">
-    <div class="switch-knob"></div>
-    <span class="switch-label" data-side="coop">CO-OP</span>
-    <span class="switch-label" data-side="single">VAULT</span>
+  <h1>Co-Op Vault — Source Tester</h1>
+  <div class="sub">Diagnostic page for IGDB, PCGW and LBDB. Log window shows every request and response.</div>
+
+  <!-- IGDB -->
+  <div class="panel">
+    <h2><span class="badge">IGDB</span> Twitch credentials + lookup test</h2>
+    <div class="row">
+      <label>Client ID</label>
+      <input type="text" id="igdb-id" placeholder="from dev.twitch.tv/console/apps">
+    </div>
+    <div class="row">
+      <label>Secret</label>
+      <input type="password" id="igdb-secret" placeholder="Client Secret">
+    </div>
+    <div class="row">
+      <label>Test game</label>
+      <input type="text" id="igdb-q" value="Portal 2" placeholder="game name">
+    </div>
+    <div class="row">
+      <button id="igdb-save">Save to localStorage</button>
+      <button id="igdb-load">Load from localStorage</button>
+      <button class="primary" id="igdb-test-auth">1. Test auth</button>
+      <button class="primary" id="igdb-test-search">2. Test search</button>
+    </div>
+    <div class="tiny">Auth first — if it passes, search uses the cached bearer token.</div>
   </div>
-  <button class="admin-toggle" id="adminToggle" type="button">
-    <span class="lamp"></span>
-    <span id="adminToggleLabel">Admin</span>
-  </button>
-</header>
 
-<nav class="tabbar" id="tabbar"></nav>
+  <!-- PCGW -->
+  <div class="panel">
+    <h2><span class="badge">PCGW</span> Search test</h2>
+    <div class="row">
+      <label>Test game</label>
+      <input type="text" id="pcgw-q" value="Portal 2" placeholder="game name">
+    </div>
+    <div class="row">
+      <button class="primary" id="pcgw-search">Test search</button>
+      <button id="pcgw-raw">Test CORS (raw fetch)</button>
+    </div>
+    <div class="tiny">"Test search" runs the same query the admin uses. "Test CORS" is a bare fetch to see if the server sends Access-Control-Allow-Origin.</div>
+  </div>
 
-<div class="toolbar" id="toolbar"></div>
+  <!-- LBDB -->
+  <div class="panel">
+    <h2><span class="badge">LBDB</span> Lookup test</h2>
+    <div class="row">
+      <label>Test game</label>
+      <input type="text" id="lbdb-q" value="Donkey Kong" placeholder="game name">
+    </div>
+    <div class="row">
+      <button class="primary" id="lbdb-search">Test lookup</button>
+      <button id="lbdb-file">Test file only</button>
+    </div>
+    <div class="tiny">"Test lookup" fetches LBDB/metadata.json (if not yet loaded) then does a normalised search.</div>
+  </div>
 
-<main id="content"></main>
+  <!-- LOG -->
+  <div class="panel">
+    <h2>Log <button class="clear-btn" id="clear-log">Clear</button></h2>
+    <div id="log"></div>
+  </div>
 
-<div class="backdrop" id="backdrop">
-  <div id="modal-slot"></div>
 </div>
-
-<div class="backdrop" id="token-backdrop" style="z-index:300">
-  <div id="token-slot"></div>
-</div>
-
-<div class="toast" id="toast"></div>
 
 <script>
+/* ============================================================ */
+const logEl = document.getElementById('log');
+
+function tstamp(){
+  const d = new Date();
+  const hh = String(d.getHours()).padStart(2,'0');
+  const mm = String(d.getMinutes()).padStart(2,'0');
+  const ss = String(d.getSeconds()).padStart(2,'0');
+  const ms = String(d.getMilliseconds()).padStart(3,'0');
+  return `${hh}:${mm}:${ss}.${ms}`;
+}
+function log(msg, cls){
+  const line = document.createElement('div');
+  line.className = 'log-line ' + (cls || '');
+  const t = document.createElement('span');
+  t.className = 'log-time';
+  t.textContent = tstamp();
+  line.appendChild(t);
+  line.appendChild(document.createTextNode(msg));
+  logEl.appendChild(line);
+  logEl.scrollTop = logEl.scrollHeight;
+}
+function logPayload(label, obj){
+  const s = typeof obj === 'string' ? obj : JSON.stringify(obj, null, 2);
+  const truncated = s.length > 1500 ? s.slice(0, 1500) + '\n…[truncated ' + (s.length - 1500) + ' more chars]' : s;
+  const line = document.createElement('div');
+  line.className = 'log-line';
+  const t = document.createElement('span');
+  t.className = 'log-time';
+  t.textContent = tstamp();
+  line.appendChild(t);
+  line.appendChild(document.createTextNode(label + ':'));
+  const pre = document.createElement('span');
+  pre.className = 'log-payload';
+  pre.textContent = truncated;
+  line.appendChild(pre);
+  logEl.appendChild(line);
+  logEl.scrollTop = logEl.scrollHeight;
+}
+document.getElementById('clear-log').onclick = () => { logEl.innerHTML = ''; log('Log cleared', 'log-info'); };
+
 /* ============================================================
-   TAB CONFIG (real config, not data)
+   IGDB
    ============================================================ */
-const TABS = {
-  coop: [
-    { id:'released',     label:'Released' },
-    { id:'early-access', label:'Early Access' },
-    { id:'unreleased',   label:'Unreleased' },
-    { id:'mods',         label:'Mods' },
-    { id:'coop-beaten',  label:'COOP-BEATEN' },
-  ],
-  single: [
-    { id:'backlog',        label:'Backlog' },
-    { id:'backlog-series', label:'Backlog Series' },
-    { id:'gamearchive',    label:'Game Archive' },
-    { id:'mainpc',         label:'Main PC' },
-    { id:'beaten',         label:'Beaten' },
-  ]
+document.getElementById('igdb-save').onclick = () => {
+  const clientId = document.getElementById('igdb-id').value.trim();
+  const clientSecret = document.getElementById('igdb-secret').value.trim();
+  localStorage.setItem('igdb_cfg', JSON.stringify({ clientId, clientSecret }));
+  localStorage.removeItem('igdb_token');
+  log('IGDB credentials saved (and cached token cleared)', 'log-ok');
 };
-const ALL_TABS = [...TABS.coop, ...TABS.single];
-const BEATEN_TABS   = new Set(['coop-beaten','beaten']);
-const NO_CHIPS_TABS = new Set(['early-access','unreleased']);
-const NO_SIZE_TABS  = new Set(['early-access']);
-
-/* Which data file each tab reads from. Matches the folder layout. */
-const TAB_FILES = {
-  'released':      'data/coop-released.json',
-  'early-access':  'data/coop-early-access.json',
-  'unreleased':    'data/coop-unreleased.json',
-  'mods':          'data/coop-mods.json',
-  'coop-beaten':   'data/coop-beaten.json',
-  'backlog':       'data/single-backlog.json',
-  'backlog-series':'data/single-backlog-series.json',
-  'gamearchive':   'data/single-gamearchive.json',
-  'mainpc':        'data/single-mainpc.json',
-  'beaten':        'data/single-beaten.json',
+document.getElementById('igdb-load').onclick = () => {
+  try{
+    const c = JSON.parse(localStorage.getItem('igdb_cfg') || '{}');
+    document.getElementById('igdb-id').value = c.clientId || '';
+    document.getElementById('igdb-secret').value = c.clientSecret || '';
+    log('Loaded IGDB credentials from localStorage: ' + (c.clientId ? 'present' : '(empty)'), 'log-info');
+  }catch(e){ log('Failed to load: ' + e.message, 'log-bad'); }
 };
 
-/* ============================================================
-   DATA CACHE — populated by fetch on first view of each tab
-   ============================================================ */
-const DATA = {
-  coop:   { released:null, 'early-access':null, unreleased:null, mods:null, 'coop-beaten':null },
-  single: { backlog:null, 'backlog-series':null, gamearchive:null, mainpc:null, beaten:null }
-};
-const LOAD_STATE = {
-  coop:   { released:'idle', 'early-access':'idle', unreleased:'idle', mods:'idle', 'coop-beaten':'idle' },
-  single: { backlog:'idle', 'backlog-series':'idle', gamearchive:'idle', mainpc:'idle', beaten:'idle' }
-};
-
-/* ============================================================
-   TAG SYSTEM
-   ============================================================ */
-const TAG_LABELS = {
-  coop:'Co-op', single:'Vault', released:'Released', 'early-access':'Early Access', unreleased:'Unreleased',
-  mods:'Mods', 'coop-beaten':'Co-op Beaten', backlog:'Backlog', 'backlog-series':'Backlog Series',
-  gamearchive:'Game Archive', mainpc:'Main PC', beaten:'Beaten', ready:'Ready', ondisk:'On Disk',
-};
-const COOP_TAGS   = new Set(['coop','released','early-access','unreleased','mods','coop-beaten']);
-const VAULT_TAGS  = new Set(['single','backlog','backlog-series','gamearchive','mainpc','beaten']);
-const STATUS_TAGS = new Set(['ready','ondisk']);
-const CROSS_TAGS  = ['released','early-access','unreleased','mods','coop-beaten','backlog','backlog-series','gamearchive','mainpc','beaten'];
-
-function expandExtraTags(extraTags){
-  const out = new Set();
-  (extraTags||[]).forEach(t => {
-    if(!t) return;
-    out.add(t);
-    if(COOP_TAGS.has(t)  && t !== 'coop')   out.add('coop');
-    if(VAULT_TAGS.has(t) && t !== 'single') out.add('single');
-  });
-  return [...out];
-}
-function buildTags(g){
-  const set = new Set();
-  set.add(group); set.add(tab);
-  if(group === 'coop'   && g.ready)  set.add('ready');
-  if(group === 'single' && g.onDisk) set.add('ondisk');
-  expandExtraTags(g.extraTags || []).forEach(t => set.add(t));
-  return [...set];
-}
-function chipHTML(t){
-  const label = TAG_LABELS[t] || t;
-  let cls = 'chip';
-  if(STATUS_TAGS.has(t))     cls += ' green';
-  else if(COOP_TAGS.has(t))  cls += ' coop';
-  else if(VAULT_TAGS.has(t)) cls += ' vault';
-  return `<span class="${cls}">${label}</span>`;
-}
-function renderTags(g){ return buildTags(g).map(chipHTML).join(''); }
-
-/* ============================================================
-   FORMATTERS
-   ============================================================ */
-function fmtHltbMain(str){
-  if(!str || str === '—') return '—';
-  const s = String(str).trim();
-  const m = s.match(/^Main:\s*([\d.]+)/i);
-  if(m) return `${m[1]} hrs`;
-  return s;
-}
-function fmtHltb(str, html){
-  if(!str || str === '—') return '—';
-  const s = String(str).trim();
-  const m = s.match(/^Main:\s*([\d.]+)(?:\s*,\s*\+Extra:\s*([\d.]+))?$/i);
-  if(m){
-    const main = m[1], extra = m[2];
-    if(html){
-      if(extra && extra !== main) return `${main}<span class="sep">to</span>${extra}<span class="unit">hrs</span>`;
-      return `${main}<span class="unit">hrs</span>`;
-    }
-    if(extra && extra !== main) return `${main} to ${extra} hrs`;
-    return `${main} hrs`;
-  }
-  return s;
-}
-function fmtHltbRange(main, extra, html){
-  if(main === undefined || main === null || main === '') return '—';
-  const same = (extra === undefined || extra === null || extra === main);
-  if(html){
-    if(same) return `${main}<span class="unit">hrs</span>`;
-    return `${main}<span class="sep">to</span>${extra}<span class="unit">hrs</span>`;
-  }
-  if(same) return `${main} hrs`;
-  return `${main} to ${extra} hrs`;
-}
-function fmtSize(str, html){
-  if(!str || str === '—') return str || '—';
-  const s = String(str).trim();
-  if(!html) return s;
-  const m = s.match(/^([\d.]+)\s*(GB|MB|TB|KB)$/i);
-  if(!m) return s;
-  return `${m[1]}<span class="unit">${m[2]}</span>`;
-}
-function parseEADates(str){
-  if(!str) return { initial:null, target:null };
-  const s = String(str).trim();
-  const m = s.match(/^Init\.\s*([^→]+?)(?:\s*→\s*(.+))?$/);
-  if(m) return { initial: m[1].trim(), target: m[2] ? m[2].trim() : null };
-  return { initial:null, target:null };
-}
-function releaseKey(str){
-  if(!str) return 0;
-  let s = String(str).trim();
-  s = s.replace(/^Init\.\s*/i, '').split('→')[0].trim();
-  const full = s.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})/);
-  if(full) return +full[3]*10000 + +full[2]*100 + +full[1];
-  const y = s.match(/(\d{4})/);
-  if(y) return +y[1]*10000;
-  return 0;
-}
-function sizeKey(str){
-  if(!str || str === '—') return -1;
-  const m = String(str).match(/([\d.]+)\s*(TB|GB|MB|KB)/i);
-  if(!m) return -1;
-  const v = parseFloat(m[1]); const u = m[2].toUpperCase();
-  if(u==='TB') return v*1024;
-  if(u==='GB') return v;
-  if(u==='MB') return v/1024;
-  if(u==='KB') return v/1024/1024;
-  return v;
-}
-function hltbMainKey(str){
-  if(!str || str === '—') return -1;
-  const s = String(str);
-  if(/unending|ongoing/i.test(s)) return 999999;
-  const m = s.match(/Main:\s*([\d.]+)/i);
-  return m ? parseFloat(m[1]) : -1;
-}
-function hltbExtraKey(str){
-  if(!str || str === '—') return -1;
-  const s = String(str);
-  if(/unending|ongoing/i.test(s)) return 999999;
-  const m = s.match(/\+Extra:\s*([\d.]+)/i);
-  if(m) return parseFloat(m[1]);
-  const main = s.match(/Main:\s*([\d.]+)/i);
-  return main ? parseFloat(main[1]) : -1;
-}
-function nameKey(str){ return String(str||'').toLowerCase(); }
-
-/* ============================================================
-   SORT / FILTER STATE
-   ============================================================ */
-let sortKey = 'natural';
-let sortDir = 'asc';
-let filterKey = 'all';
-let searchTerm = '';
-const searchFields = { name: true, dev: false, pub: false };
-const defaultDir = { natural:'asc', name:'asc', size:'desc', release:'desc', main:'asc', extra:'asc' };
-const SORT_LABELS = { natural:'Date Added', name:'Name', size:'Size', release:'Released', main:'HLTB Main', extra:'HLTB Extra' };
-
-/* ============================================================
-   ELEMENT REFS + RUNTIME STATE
-   ============================================================ */
-let group = 'coop';
-let tab = 'released';
-let adminMode = false;
-let adminBusy = false;
-
-const bodyEl   = document.body;
-const contentEl= document.getElementById('content');
-const tabbarEl = document.getElementById('tabbar');
-const switchEl = document.getElementById('switch');
-const toolbarEl= document.getElementById('toolbar');
-const backdrop = document.getElementById('backdrop');
-const modalSlot= document.getElementById('modal-slot');
-const toastEl  = document.getElementById('toast');
-const tokenBackdrop = document.getElementById('token-backdrop');
-const tokenSlot= document.getElementById('token-slot');
-const adminToggleBtn = document.getElementById('adminToggle');
-const adminToggleLabel = document.getElementById('adminToggleLabel');
-const lbdbBtn = document.getElementById('lbdbBtn');
-const lbdbBtnLabel = document.getElementById('lbdbBtnLabel');
-
-const seriesGameIndex = new Map();
-
-/* ============================================================
-   TOAST
-   ============================================================ */
-function toast(msg, kind){
-  toastEl.textContent = msg;
-  toastEl.className = 'toast show ' + (kind === 'bad' ? 'bad' : 'ok');
-  clearTimeout(toast._t);
-  toast._t = setTimeout(() => { toastEl.classList.remove('show'); }, 2600);
-}
-
-/* ============================================================
-   DATA LOADER
-   ============================================================ */
-function normaliseFileData(tabId, raw){
-  // The file shape must match the tab type.
-  if(tabId === 'backlog'){
-    return {
-      mirror: Array.isArray(raw.mirror) ? raw.mirror : [],
-      seriesLeftovers: Array.isArray(raw.seriesLeftovers) ? raw.seriesLeftovers : [],
-    };
-  }
-  if(tabId === 'backlog-series'){
-    return { series: Array.isArray(raw.series) ? raw.series : [] };
-  }
-  // Regular tabs: expect { games: [...] }
-  return Array.isArray(raw.games) ? raw.games : [];
-}
-
-async function loadTabData(grp, tabId, force){
-  if(!force && LOAD_STATE[grp][tabId] === 'loaded') return;
-  if(!force && LOAD_STATE[grp][tabId] === 'loading') return;
-  LOAD_STATE[grp][tabId] = 'loading';
-  const file = TAB_FILES[tabId];
+document.getElementById('igdb-test-auth').onclick = async () => {
+  const clientId = document.getElementById('igdb-id').value.trim();
+  const clientSecret = document.getElementById('igdb-secret').value.trim();
+  if(!clientId || !clientSecret){ log('Missing credentials', 'log-bad'); return; }
+  const url = 'https://id.twitch.tv/oauth2/token'
+    + '?client_id=' + encodeURIComponent(clientId)
+    + '&client_secret=' + encodeURIComponent(clientSecret)
+    + '&grant_type=client_credentials';
+  log('IGDB AUTH → POST ' + url.replace(clientSecret, '***'), 'log-src');
+  log('  origin: ' + location.origin + '  (should match the Origin the browser sends)', 'log-info');
   try{
-    const res = await fetch(file, { cache: 'no-cache' });
-    if(res.status === 404){
-      DATA[grp][tabId] = normaliseFileData(tabId, tabId === 'backlog' ? {} : tabId === 'backlog-series' ? {} : { games: [] });
-      LOAD_STATE[grp][tabId] = 'missing';
-      return;
-    }
-    if(!res.ok) throw new Error('HTTP ' + res.status);
-    const raw = await res.json();
-    DATA[grp][tabId] = normaliseFileData(tabId, raw);
-    LOAD_STATE[grp][tabId] = 'loaded';
-  }catch(e){
-    console.error('loadTabData failed for', file, e);
-    DATA[grp][tabId] = normaliseFileData(tabId, tabId === 'backlog' ? {} : tabId === 'backlog-series' ? {} : { games: [] });
-    LOAD_STATE[grp][tabId] = 'error';
-  }
-}
-function currentTabData(){
-  return DATA[group][tab];
-}
-
-/* ============================================================
-   ADMIN AUTH
-   ============================================================ */
-function getToken(){ return localStorage.getItem('gh_admin_token') || ''; }
-function setToken(t){ localStorage.setItem('gh_admin_token', t); }
-function clearToken(){ localStorage.removeItem('gh_admin_token'); }
-
-async function verifyToken(token){
-  try{
-    const res = await fetch('https://api.github.com/user', {
-      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
-    });
-    if(res.status === 200){
-      const data = await res.json();
-      return { ok: true, login: data.login };
-    }
-    if(res.status === 401) return { ok: false, err: 'Invalid or expired token' };
-    if(res.status === 403) return { ok: false, err: 'Token rejected (rate limit or insufficient scope)' };
-    return { ok: false, err: 'GitHub API error HTTP ' + res.status };
-  }catch(e){
-    return { ok: false, err: 'Network error: ' + e.message };
-  }
-}
-
-function showTokenPrompt(){
-  tokenSlot.innerHTML = `
-    <div class="token-modal">
-      <button class="modal-close" data-close>✕</button>
-      <h2><span class="lamp"></span>Admin access</h2>
-      <p>
-        Paste a GitHub personal access token. It's stored only in this browser's
-        localStorage and is never sent anywhere except
-        <code style="background:rgba(255,255,255,.05);padding:.1rem .35rem;border-radius:4px;font-family:ui-monospace,monospace;font-size:.78rem;color:#cbd5e1">api.github.com</code>.
-      </p>
-      <p>
-        Generate one at <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">github.com/settings/tokens</a>
-        with <strong>Contents</strong> and <strong>Actions: read &amp; write</strong> permissions on
-        <code style="background:rgba(255,255,255,.05);padding:.1rem .35rem;border-radius:4px;font-family:ui-monospace,monospace;font-size:.78rem;color:#cbd5e1">TheDeusDeceptor/coopbible</code>.
-      </p>
-      <input type="password" id="token-input" placeholder="ghp_… or github_pat_…" autocomplete="off" spellcheck="false">
-      <div class="token-actions">
-        <button type="button" class="btn" data-close>Cancel</button>
-        <button type="button" class="btn primary" id="token-verify">Verify &amp; Save</button>
-      </div>
-    </div>`;
-  tokenBackdrop.classList.add('open');
-  setTimeout(() => tokenSlot.querySelector('#token-input').focus(), 50);
-  tokenSlot.querySelector('#token-verify').onclick = async () => {
-    const t = tokenSlot.querySelector('#token-input').value.trim();
-    if(!t){ toast('Paste a token first', 'bad'); return; }
-    const btn = tokenSlot.querySelector('#token-verify');
-    btn.disabled = true; btn.textContent = 'Checking…';
-    const r = await verifyToken(t);
-    if(r.ok){
-      setToken(t);
-      closeTokenPrompt();
-      enterAdmin();
-      toast('Signed in as ' + r.login);
-    } else {
-      toast(r.err, 'bad');
-      btn.disabled = false; btn.textContent = 'Verify & Save';
-    }
-  };
-  tokenSlot.querySelector('#token-input').addEventListener('keydown', e => {
-    if(e.key === 'Enter') tokenSlot.querySelector('#token-verify').click();
-  });
-}
-function closeTokenPrompt(){ tokenBackdrop.classList.remove('open'); tokenSlot.innerHTML = ''; }
-
-function enterAdmin(){
-  adminMode = true;
-  bodyEl.classList.add('admin-on');
-  adminToggleLabel.textContent = 'Exit Admin';
-  renderContent();
-}
-function exitAdmin(){
-  adminMode = false;
-  bodyEl.classList.remove('admin-on');
-  adminToggleLabel.textContent = 'Admin';
-  renderContent();
-}
-
-async function bootAdminFlow(){
-  const tok = getToken();
-  if(!tok) return;
-  try{
-    const r = await verifyToken(tok);
-    if(!r.ok) clearToken();
-  }catch(e){ /* re-checked on click */ }
-}
-
-adminToggleBtn.addEventListener('click', async () => {
-  if(adminBusy) return;
-  if(adminMode){ exitAdmin(); return; }
-  const tok = getToken();
-  if(!tok){ showTokenPrompt(); return; }
-  adminBusy = true;
-  adminToggleLabel.textContent = 'Checking…';
-  const r = await verifyToken(tok);
-  if(r.ok){ enterAdmin(); }
-  else {
-    clearToken();
-    adminToggleLabel.textContent = 'Admin';
-    toast(r.err, 'bad');
-    showTokenPrompt();
-  }
-  adminBusy = false;
-});
-adminToggleBtn.addEventListener('contextmenu', e => {
-  e.preventDefault();
-  if(!getToken()) return;
-  if(confirm('Sign out? This removes the saved token from this browser.')){
-    clearToken();
-    bodyEl.classList.remove('admin-on');
-    adminMode = false;
-    adminToggleLabel.textContent = 'Admin';
-    renderContent();
-    toast('Signed out');
-  }
-});
-tokenBackdrop.addEventListener('click', e => { if(e.target === tokenBackdrop) closeTokenPrompt(); });
-tokenSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeTokenPrompt(); });
-
-/* ============================================================
-   LBDB UPDATE BUTTON
-   ============================================================ */
-const GITHUB_OWNER = 'TheDeusDeceptor';
-const GITHUB_REPO  = 'coopbible';
-const LBDB_WORKFLOW = 'update-lbdb.yml';
-let lbdbPollTimer = null;
-let lbdbStartTime = 0;
-
-async function ghFetch(url, opts = {}){
-  const tok = getToken();
-  if(!tok) throw new Error('No token');
-  const headers = {
-    'Authorization': 'Bearer ' + tok,
-    'Accept': 'application/vnd.github+json',
-    ...(opts.headers || {}),
-  };
-  return fetch(url, { ...opts, headers });
-}
-
-async function triggerLbdbUpdate(){
-  if(!getToken()){ showTokenPrompt(); return; }
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${LBDB_WORKFLOW}/dispatches`;
-  try{
-    const res = await ghFetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ref: 'main' }),
-    });
-    if(res.status === 204){
-      toast('LBDB update queued');
-      startLbdbPolling();
-    } else if(res.status === 404){
-      toast('Workflow not found — did you push update-lbdb.yml?', 'bad');
-    } else if(res.status === 403 || res.status === 401){
-      toast('Token needs Actions: write permission', 'bad');
-    } else {
-      toast('Trigger failed: HTTP ' + res.status, 'bad');
-    }
-  }catch(e){ toast('Trigger failed: ' + e.message, 'bad'); }
-}
-function startLbdbPolling(){
-  lbdbStartTime = Date.now();
-  lbdbBtn.classList.add('running');
-  lbdbBtnLabel.textContent = 'Running…';
-  clearInterval(lbdbPollTimer);
-  lbdbPollTimer = setInterval(checkLbdbStatus, 8000);
-  checkLbdbStatus();
-}
-async function checkLbdbStatus(){
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${LBDB_WORKFLOW}/runs?per_page=1`;
-  try{
-    const res = await ghFetch(url);
-    if(!res.ok) return;
-    const data = await res.json();
-    const run = (data.workflow_runs || [])[0];
-    if(!run) return;
-    const startedAt = new Date(run.created_at).getTime();
-    if(startedAt < lbdbStartTime - 30000) return;
-    const elapsed = Math.round((Date.now() - lbdbStartTime) / 1000);
-    lbdbBtnLabel.textContent = `Running… ${elapsed}s`;
-    if(run.status === 'completed'){
-      clearInterval(lbdbPollTimer);
-      lbdbPollTimer = null;
-      lbdbBtn.classList.remove('running');
-      if(run.conclusion === 'success'){
-        lbdbBtnLabel.textContent = 'LBDB up to date';
-        toast('LBDB updated — reload to use fresh data');
+    const res = await fetch(url, { method: 'POST' });
+    log('  ← HTTP ' + res.status + ' ' + res.statusText, res.ok ? 'log-ok' : 'log-bad');
+    const txt = await res.text();
+    logPayload('  response body', txt);
+    if(res.ok){
+      const data = JSON.parse(txt);
+      if(data.access_token){
+        localStorage.setItem('igdb_token', JSON.stringify({
+          token: data.access_token,
+          expires: Date.now() + (data.expires_in || 3600) * 1000
+        }));
+        log('  ✓ access token acquired (expires in ' + data.expires_in + 's), cached in localStorage', 'log-ok');
       } else {
-        lbdbBtnLabel.textContent = 'Update failed';
-        toast('LBDB update failed: ' + run.conclusion, 'bad');
-      }
-      setTimeout(() => { lbdbBtnLabel.textContent = 'Update LBDB'; }, 8000);
-    }
-  }catch(e){ /* keep polling quietly */ }
-}
-lbdbBtn.addEventListener('click', () => {
-  if(lbdbPollTimer) return;
-  triggerLbdbUpdate();
-});
-
-/* ============================================================
-   RENDER — SHELL
-   ============================================================ */
-function renderTabs(){
-  tabbarEl.innerHTML = TABS[group].map(t => `
-    <button data-tab="${t.id}" class="${t.id === tab ? 'active' : ''}">${t.label}</button>
-  `).join('');
-}
-
-function applyTooltips(){
-  contentEl.querySelectorAll('[data-tooltip]').forEach(el => {
-    el.removeAttribute('title');
-    const truncated = el.scrollWidth > el.clientWidth + 1;
-    if(truncated) el.setAttribute('title', el.dataset.tooltip);
-  });
-}
-
-/* ============================================================
-   RENDER — FILTERS / SORT
-   ============================================================ */
-function statusFlag(g){ return group === 'coop' ? !!g.ready : !!g.onDisk; }
-function passesFilter(g){
-  if(filterKey === 'all')       return true;
-  if(filterKey === 'status')    return statusFlag(g);
-  if(filterKey === 'no-status') return !statusFlag(g);
-  return true;
-}
-function passesSearch(g){
-  if(!searchTerm) return true;
-  const q = searchTerm.toLowerCase().trim();
-  if(!q) return true;
-  const name = String(g.name||'').toLowerCase();
-  const dev  = String(g.dev ||'').toLowerCase();
-  const pub  = String(g.pub ||'').toLowerCase();
-  if(searchFields.name && name.includes(q)) return true;
-  if(searchFields.dev  && dev.includes(q))  return true;
-  if(searchFields.pub  && pub.includes(q))  return true;
-  return false;
-}
-function passesAll(g){ return passesFilter(g) && passesSearch(g); }
-function getComparator(){
-  switch(sortKey){
-    case 'name':    return (a,b)=> nameKey(a.name).localeCompare(nameKey(b.name));
-    case 'size':    return (a,b)=> sizeKey(a.size) - sizeKey(b.size);
-    case 'release': return (a,b)=> releaseKey(a.release) - releaseKey(b.release);
-    case 'main':    return (a,b)=> hltbMainKey(a.hltb) - hltbMainKey(b.hltb);
-    case 'extra':   return (a,b)=> hltbExtraKey(a.hltb) - hltbExtraKey(b.hltb);
-    default:        return null;
-  }
-}
-function applySort(arr){
-  const cmp = getComparator();
-  if(!cmp) return sortDir === 'desc' ? arr.slice().reverse() : arr;
-  const copy = arr.slice();
-  copy.sort((a,b)=>{ const r = cmp(a,b); return sortDir === 'asc' ? r : -r; });
-  return copy;
-}
-
-/* ============================================================
-   RENDER — TOOLBAR
-   ============================================================ */
-let openDD = null;
-function filterLabels(){
-  return group === 'coop'
-    ? { all:'All', status:'Ready', noStatus:'Not Ready' }
-    : { all:'All', status:'On Disk', noStatus:'Not On Disk' };
-}
-function renderToolbar(){
-  const fl = filterLabels();
-  toolbarEl.classList.remove('empty');
-  toolbarEl.innerHTML = `
-    <div class="tb-left">
-      <div class="dd" data-dd="filter">
-        <button class="dd-btn" type="button">Filter <span class="val">${fl[filterKey]}</span><span class="chev">▾</span></button>
-        <div class="dd-menu">
-          <button class="dd-item ${filterKey==='all'?'active':''}" data-filter="all">${fl.all}<span class="dd-tick">✓</span></button>
-          <button class="dd-item ${filterKey==='status'?'active':''}" data-filter="status">${fl.status}<span class="dd-tick">✓</span></button>
-          <button class="dd-item ${filterKey==='no-status'?'active':''}" data-filter="noStatus">${fl.noStatus}<span class="dd-tick">✓</span></button>
-        </div>
-      </div>
-      <div class="dd" data-dd="sort">
-        <button class="dd-btn" type="button">Sort <span class="val">${SORT_LABELS[sortKey]}</span><span class="chev">▾</span></button>
-        <div class="dd-menu">
-          ${Object.keys(SORT_LABELS).map(k=>{
-            const active = sortKey === k;
-            const dir = active ? sortDir : defaultDir[k];
-            const arw = dir === 'asc' ? '↑' : '↓';
-            return `<button class="dd-item ${active?'active':''}" data-sort="${k}">${SORT_LABELS[k]}<span class="dir">${arw}</span><span class="dd-tick">✓</span></button>`;
-          }).join('')}
-        </div>
-      </div>
-      <button type="button" class="btn-add" id="addGameBtn"><span class="icon icon-plus"></span>Add Game</button>
-    </div>
-    <div class="tb-right">
-      <div class="search-box">
-        <span class="icon icon-search s-icon"></span>
-        <input type="search" id="searchInput" placeholder="Search…" autocomplete="off" spellcheck="false" value="${String(searchTerm).replace(/"/g,'&quot;')}">
-      </div>
-      <button type="button" class="chk ${searchFields.name?'on':''}" data-field="name"><span class="dot"></span>Name</button>
-      <button type="button" class="chk ${searchFields.dev?'on':''}" data-field="dev"><span class="dot"></span>Developer</button>
-      <button type="button" class="chk ${searchFields.pub?'on':''}" data-field="pub"><span class="dot"></span>Publisher</button>
-    </div>`;
-}
-function hideToolbar(){ toolbarEl.classList.add('empty'); toolbarEl.innerHTML=''; openDD=null; }
-function closeAllDropdowns(){
-  toolbarEl.querySelectorAll('.dd.open').forEach(el => el.classList.remove('open'));
-  openDD = null;
-}
-
-/* ============================================================
-   RENDER — CARD PARTS
-   ============================================================ */
-function ovChip(value){
-  if(!value || value === '—') return '';
-  return `<span class="ov-chip">${value}</span>`;
-}
-function statusTag(g){
-  if(group === 'coop' && g.ready)    return `<span class="status-tag">Ready</span>`;
-  if(group === 'single' && g.onDisk) return `<span class="status-tag">On Disk</span>`;
-  return '';
-}
-function steamTag(g){
-  const hasSteam = (g.links||[]).some(l => l.icon === 'steam');
-  if(!hasSteam) return '';
-  return `<span class="steam-tag"><span class="icon icon-steam"></span></span>`;
-}
-function adminControlsHTML(id){
-  if(!adminMode) return '';
-  return `<div class="card-admin">
-    <button class="edit" data-act="edit" data-id="${id}" title="Edit"><span class="icon icon-pencil"></span></button>
-    <button class="del"  data-act="del"  data-id="${id}" title="Delete"><span class="icon icon-trash"></span></button>
-  </div>`;
-}
-function cardHTML(g){
-  const isSeries = g.source === 'series';
-  const clean = NO_CHIPS_TABS.has(tab);
-  const chips = clean ? '' : `
-    <div class="overlay-chips">
-      ${ovChip(fmtHltbMain(g.hltb))}${ovChip(g.size)}${ovChip(g.release)}${isSeries ? ovChip(g.platform) : ''}
-    </div>`;
-  return `
-    <article class="card" data-id="${g.id}">
-      ${adminControlsHTML(g.id)}
-      <div class="shot">
-        <div class="ph">1280 × 720<small>screenshot</small></div>
-        <div class="overlay">
-          <div class="overlay-top"><div>${statusTag(g)}</div><div>${steamTag(g)}</div></div>
-          ${chips}
-        </div>
-      </div>
-      <div class="logo-panel"><div class="logo-box"><div class="ph">504 × 562<small>logo</small></div></div></div>
-    </article>`;
-}
-function beatenRowHTML(g, rank){
-  return `
-    <div class="row-wrap">
-      <div class="rank">${rank}</div>
-      <div class="rowD" data-id="${g.id}">
-        ${adminControlsHTML(g.id)}
-        <div class="shot-cell"><div class="ph">1280 × 720<small>screenshot</small></div></div>
-        <div class="info-cell">
-          <div class="logo"><div class="ph">${g.name}<small>logo</small></div></div>
-          <div class="hover-text">
-            <div class="name">${g.name}</div>
-            <div class="meta">${g.dev || ''}${g.dev && g.release ? ' <span class="sep">·</span> ' : ''}${g.release || ''}</div>
-          </div>
-        </div>
-      </div>
-    </div>`;
-}
-function sectionHeader(label, jump){
-  const jumpHTML = jump ? `<button class="jump-btn" data-jump="${jump.target}">${jump.label}<span class="arw">${jump.dir === 'down' ? '↓' : '↑'}</span></button>` : '';
-  return `
-    <div class="section-header" id="sec-${label.toLowerCase().replace(/\s+/g,'-')}">
-      <div class="bar"></div><div class="label">${label}</div><div class="line"></div>${jumpHTML}
-    </div>`;
-}
-function seriesTitleHTML(g){
-  const re = g.titleRe ? ` <span class="re-part">(${g.titleRe})</span>` : '';
-  return `${g.title}${re}`;
-}
-function seriesYearHTML(g){
-  const re = g.yearRe ? ` <span class="re-part">${g.yearRe}</span>` : '';
-  return `${g.year}${re}`;
-}
-function statusCell(g){
-  if(g.done === 'done')  return `<div class="g-status done">Done</div>`;
-  if(g.done === 'rerun') return `<div class="g-status rerun">Rerun</div>`;
-  return `<div></div>`;
-}
-function colorCell(g){
-  if(!g.color) return `<div class="g-color"></div>`;
-  return `<div class="g-color"><span class="sq ${g.color}"></span></div>`;
-}
-function seriesBlockHTML(series){
-  return `
-    <div class="series-block">
-      <div class="series-banner">
-        <div class="logo-slot"><div class="ph">${series.name} logo<small>series logo</small></div></div>
-        <div class="series-totals">${fmtHltbRange(series.main, series.extra, true)}</div>
-      </div>
-      <div class="series-games">
-        ${series.games.map((g, idx)=>{
-          const rowId = `${series.id}-${idx}`;
-          seriesGameIndex.set(rowId, { ...g, seriesName: series.name });
-          const plainTitle = g.title + (g.titleRe ? ` (${g.titleRe})` : '');
-          const plainNote = g.note || '';
-          return `
-          <div class="series-game-row" data-row-id="${rowId}">
-            <div class="g-title" data-tooltip="${plainTitle.replace(/"/g,'&quot;')}">${seriesTitleHTML(g)}</div>
-            <div class="g-year">${seriesYearHTML(g)}</div>
-            <div class="g-platform">${g.platform}</div>
-            <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
-            ${statusCell(g)}${colorCell(g)}
-            <div class="g-note" data-tooltip="${plainNote.replace(/"/g,'&quot;')}">${plainNote}</div>
-          </div>`;
-        }).join('')}
-      </div>
-    </div>`;
-}
-
-/* ============================================================
-   RENDER — CONTENT
-   ============================================================ */
-function emptyHTML(file){
-  return `<div class="grid-empty">
-    No data yet.<br>
-    Add <code>${file}</code> to the repo and refresh.
-  </div>`;
-}
-function loadingHTML(){
-  return `<div class="loader">Loading</div>`;
-}
-function renderContent(){
-  seriesGameIndex.clear();
-  const state = LOAD_STATE[group][tab];
-  const file = TAB_FILES[tab];
-
-  if(state === 'loading'){ hideToolbar(); contentEl.innerHTML = loadingHTML(); return; }
-  if(state === 'idle'){
-    hideToolbar();
-    contentEl.innerHTML = loadingHTML();
-    loadTabData(group, tab).then(() => { if(LOAD_STATE[group][tab] !== 'loading') renderContent(); });
-    return;
-  }
-
-  const list = currentTabData();
-
-  // --- Backlog: two sections ---
-  if(tab === 'backlog'){
-    const data = list || { mirror: [], seriesLeftovers: [] };
-    const mirror = applySort((data.mirror||[]).filter(passesAll));
-    const series = filterKey === 'all' ? (data.seriesLeftovers||[]) : [];
-    renderToolbar();
-    if(!data.mirror.length && !data.seriesLeftovers.length){
-      contentEl.innerHTML = emptyHTML(file);
-      return;
-    }
-    contentEl.innerHTML = `
-      ${sectionHeader('Backloggd', { target:'sec-series', label:'To series', dir:'down' })}
-      ${mirror.length ? `<div class="grid">${mirror.map(cardHTML).join('')}</div>` : `<div class="grid-empty">No games match</div>`}
-      ${sectionHeader('Series', { target:'sec-backloggd', label:'To main list', dir:'up' })}
-      ${series.length ? `<div class="grid">${series.map(cardHTML).join('')}</div>` : `<div class="grid-empty">Hidden by current filter</div>`}`;
-    applyTooltips();
-    return;
-  }
-
-  // --- Backlog Series: blocks ---
-  if(tab === 'backlog-series'){
-    const data = list || { series: [] };
-    hideToolbar();
-    if(!data.series.length){ contentEl.innerHTML = emptyHTML(file); return; }
-    contentEl.innerHTML = `<div class="series-blocks">${data.series.map(seriesBlockHTML).join('')}</div>`;
-    applyTooltips();
-    return;
-  }
-
-  // --- Regular tabs ---
-  const arr = Array.isArray(list) ? list : [];
-  const filtered = applySort(arr.filter(passesAll));
-  renderToolbar();
-  if(!arr.length){ contentEl.innerHTML = emptyHTML(file); return; }
-
-  // Beaten tabs use the single-column layout
-  if(BEATEN_TABS.has(tab)){
-    const rankMap = new Map();
-    arr.forEach((g, i) => rankMap.set(g.id, i + 1));
-    contentEl.innerHTML = filtered.length
-      ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, rankMap.get(g.id))).join('')}</div>`
-      : `<div class="grid-empty">No games match</div>`;
-    applyTooltips();
-    return;
-  }
-
-  contentEl.innerHTML = filtered.length
-    ? `<div class="grid">${filtered.map(cardHTML).join('')}</div>`
-    : `<div class="grid-empty">No games match</div>`;
-  applyTooltips();
-}
-function refreshGrid(){
-  const list = currentTabData();
-  if(!Array.isArray(list)){ renderContent(); return; }
-  if(BEATEN_TABS.has(tab)){
-    const rankMap = new Map();
-    list.forEach((g, i) => rankMap.set(g.id, i + 1));
-    const filtered = applySort(list.filter(passesAll));
-    contentEl.innerHTML = filtered.length
-      ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, rankMap.get(g.id))).join('')}</div>`
-      : `<div class="grid-empty">No games match</div>`;
-    applyTooltips();
-    return;
-  }
-  const filtered = applySort(list.filter(passesAll));
-  contentEl.innerHTML = filtered.length
-    ? `<div class="grid">${filtered.map(cardHTML).join('')}</div>`
-    : `<div class="grid-empty">No games match</div>`;
-  applyTooltips();
-}
-
-/* ============================================================
-   READ-ONLY MODAL
-   ============================================================ */
-function renderLinks(links){
-  const arr = links || [];
-  if(!arr.length) return '';
-  return arr.map(l => {
-    const iconClass = l.icon ? `icon-${l.icon}` : 'icon-generic';
-    const safeUrl = String(l.url||'').replace(/"/g,'&quot;');
-    const safeLabel = String(l.label||'Link').replace(/</g,'&lt;');
-    return `<a class="link-btn" href="${safeUrl}" target="_blank" rel="noopener"><span class="icon ${iconClass}"></span>${safeLabel}</a>`;
-  }).join('');
-}
-function infoRow(iconClass, label, value){
-  return `<div class="info-row"><dt>${iconClass ? `<span class="icon ${iconClass}"></span>` : ''}${label}</dt><dd>${value || '—'}</dd></div>`;
-}
-function modalInfoRows(g){
-  const rows = [];
-  if(tab === 'early-access'){
-    const d = parseEADates(g.release);
-    if(d.initial) rows.push(infoRow('icon-date','Initial Release', d.initial));
-    rows.push(infoRow('icon-date','Release', d.target || 'TBA'));
-  } else if(tab === 'unreleased'){
-    rows.push(infoRow('icon-date','Expected Release', (g.release && g.release !== '—') ? g.release : 'TBA'));
-  } else {
-    rows.push(infoRow('icon-date','Released', g.release));
-  }
-  rows.push(infoRow('icon-platform','Platform', g.platform));
-  if(!NO_SIZE_TABS.has(tab)) rows.push(infoRow('icon-size','Size', fmtSize(g.size, true)));
-  rows.push(infoRow('icon-hltb','HLTB', fmtHltb(g.hltb, true)));
-  rows.push(infoRow('icon-dev','Developer', g.dev));
-  rows.push(infoRow('icon-pub','Publisher', g.pub));
-  return rows.join('');
-}
-function openSeriesModal(sg){
-  const chips = [];
-  chips.push(renderTags(sg));
-  if(sg.seriesName) chips.push(`<span class="chip">${sg.seriesName}</span>`);
-  if(sg.done === 'done')  chips.push(`<span class="chip green">Done</span>`);
-  if(sg.done === 'rerun') chips.push(`<span class="chip green">Rerun</span>`);
-  if(sg.color === 'green') chips.push(`<span class="chip green">Installed</span>`);
-  if(sg.color === 'blue')  chips.push(`<span class="chip coop">On Steam</span>`);
-  const fullTitle = sg.title + (sg.titleRe ? ` (${sg.titleRe})` : '');
-  const yearStr   = sg.year + (sg.yearRe ? ` ${sg.yearRe}` : '');
-  const linksHTML = renderLinks(sg.links);
-  modalSlot.innerHTML = `
-    <div class="modal">
-      <button class="modal-close" aria-label="Close" data-close>✕</button>
-      <div class="modal-hero"><div class="ph">Series title<small>no screenshot</small></div></div>
-      <div class="modal-body">
-        <h2 class="modal-title">${fullTitle}</h2>
-        <div class="chips">${chips.join('')}</div>
-        <dl class="info-list">
-          ${infoRow('icon-date','Released', yearStr)}
-          ${infoRow('icon-platform','Platform', sg.platform)}
-          ${infoRow('icon-size','Size', fmtSize(sg.size, true))}
-          ${infoRow('icon-hltb','HLTB', fmtHltb(sg.hltb, true))}
-          ${infoRow('icon-dev','Developer', sg.dev)}
-          ${infoRow('icon-pub','Publisher', sg.pub)}
-        </dl>
-        ${sg.note ? `<div class="notes">${sg.note}</div>` : ''}
-        ${linksHTML ? `<div class="modal-links">${linksHTML}</div>` : ''}
-      </div>
-    </div>`;
-  backdrop.classList.add('open');
-}
-function openModal(g, rank){
-  const linksHTML = renderLinks(g.links);
-  const rankBadge = rank ? `<span class="modal-rank-badge">#${rank}</span>` : '';
-  modalSlot.innerHTML = `
-    <div class="modal">
-      <button class="modal-close" aria-label="Close" data-close>✕</button>
-      <div class="modal-hero">
-        ${rankBadge}
-        <div class="ph">1280 × 720<small>screenshot</small></div>
-        <div class="modal-logo"><div class="ph">504 × 562<small>logo</small></div></div>
-      </div>
-      <div class="modal-body">
-        <h2 class="modal-title">${g.name}</h2>
-        <div class="chips">${renderTags(g)}</div>
-        <dl class="info-list">${modalInfoRows(g)}</dl>
-        ${g.notes ? `<div class="notes">${g.notes}</div>` : ''}
-        ${linksHTML ? `<div class="modal-links">${linksHTML}</div>` : ''}
-      </div>
-    </div>`;
-  backdrop.classList.add('open');
-}
-function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = ''; }
-
-backdrop.addEventListener('click', e => { if(e.target === backdrop) closeModal(); });
-document.addEventListener('keydown', e => {
-  if(e.key === 'Escape'){ closeModal(); closeAllDropdowns(); closeTokenPrompt(); }
-});
-
-/* ============================================================
-   EVENTS — SWITCH / TABS
-   ============================================================ */
-switchEl.addEventListener('click', () => {
-  group = group === 'coop' ? 'single' : 'coop';
-  switchEl.dataset.active = group;
-  bodyEl.dataset.group = group;
-  tab = TABS[group][0].id;
-  filterKey = 'all'; sortKey = 'natural';
-  sortDir = BEATEN_TABS.has(tab) ? 'desc' : 'asc';
-  searchTerm = '';
-  renderTabs(); renderContent();
-});
-tabbarEl.addEventListener('click', e => {
-  const btn = e.target.closest('button');
-  if(!btn) return;
-  tab = btn.dataset.tab;
-  filterKey = 'all';
-  sortKey = 'natural';
-  sortDir = BEATEN_TABS.has(tab) ? 'desc' : 'asc';
-  renderTabs(); renderContent();
-});
-
-/* ============================================================
-   EVENTS — TOOLBAR
-   ============================================================ */
-toolbarEl.addEventListener('click', e => {
-  const chk = e.target.closest('.chk');
-  if(chk){
-    const field = chk.dataset.field;
-    if(field in searchFields){
-      searchFields[field] = !searchFields[field];
-      chk.classList.toggle('on', searchFields[field]);
-      refreshGrid();
-    }
-    return;
-  }
-  if(e.target.closest('#addGameBtn')){ openEditor(null); return; }
-  const db = e.target.closest('.dd-btn');
-  if(db){
-    const dd = db.closest('.dd');
-    const wasOpen = dd.classList.contains('open');
-    closeAllDropdowns();
-    if(!wasOpen){ dd.classList.add('open'); openDD = dd.dataset.dd; }
-    return;
-  }
-  const fo = e.target.closest('[data-filter]');
-  if(fo){
-    const map = { all:'all', status:'status', noStatus:'no-status' };
-    filterKey = map[fo.dataset.filter] || 'all';
-    closeAllDropdowns();
-    renderContent();
-    return;
-  }
-  const so = e.target.closest('[data-sort]');
-  if(so){
-    const k = so.dataset.sort;
-    if(k === sortKey) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
-    else { sortKey = k; sortDir = defaultDir[k] || 'asc'; }
-    closeAllDropdowns();
-    renderContent();
-    return;
-  }
-});
-toolbarEl.addEventListener('input', e => {
-  if(e.target.id !== 'searchInput') return;
-  searchTerm = e.target.value || '';
-  refreshGrid();
-});
-document.addEventListener('click', e => {
-  if(!e.target.closest('.dd') && !e.target.closest('.toolbar')) closeAllDropdowns();
-});
-let resizeTimer;
-window.addEventListener('resize', () => {
-  clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(applyTooltips, 150);
-});
-
-/* ============================================================
-   FIND BY ID
-   ============================================================ */
-function findGameById(id){
-  const list = currentTabData();
-  if(Array.isArray(list)) return list.find(x => x.id === id) || null;
-  if(list && list.mirror){
-    const a = list.mirror.find(x => x.id === id); if(a) return a;
-    const b = (list.seriesLeftovers||[]).find(x => x.id === id); if(b) return b;
-  }
-  return null;
-}
-
-/* ============================================================
-   ADMIN FORM
-   ============================================================ */
-function hltbToParts(str){
-  if(!str || str === '—') return { main:'', extra:'' };
-  const s = String(str);
-  const mm = s.match(/Main:\s*([\d.]+)/i);
-  const me = s.match(/\+Extra:\s*([\d.]+)/i);
-  if(mm) return { main: mm[1] || '', extra: me ? me[1] : '' };
-  return { main: s, extra: '' };
-}
-function partsToHltb(main, extra){
-  main = String(main||'').trim();
-  extra = String(extra||'').trim();
-  if(!main) return '—';
-  if(/^\d/.test(main) && extra && /^\d/.test(extra)) return `Main: ${main}, +Extra: ${extra}`;
-  if(/^\d/.test(main)) return `Main: ${main}`;
-  return main;
-}
-function hltbIsNumeric(str){ return !str || str === '—' || /^\d/.test(String(str).replace(/^Main:\s*/i,'')); }
-function linkIconGuess(label){
-  const l = String(label||'').toLowerCase();
-  if(l.includes('steam')) return 'steam';
-  if(l.includes('pcgw') || l.includes('pcgamingwiki')) return 'pcgw';
-  if(l.includes('nexus')) return 'nexus';
-  return '';
-}
-function openEditor(g){
-  const isNew = !g;
-  const draft = isNew
-    ? { id:'', name:'', release:'', platform:'PC', size:'', hltb:'', dev:'', pub:'', notes:'',
-        ready:false, onDisk:false, links:[], extraTags:[], screenshot:'', logo:'' }
-    : { ...g, screenshot: g.screenshot || '', logo: g.logo || '', links: [...(g.links||[])], extraTags: [...(g.extraTags||[])] };
-  const editGroup = isNew ? group : (g._group || group);
-  const editTab   = isNew ? tab   : (g._tab   || tab);
-  const hp = hltbToParts(draft.hltb);
-  const numericHltb = hltbIsNumeric(draft.hltb);
-
-  const tabOptions = (grp) => TABS[grp].map(t =>
-    `<option value="${t.id}" ${t.id === editTab && grp === editGroup ? 'selected' : ''}>${t.label}</option>`
-  ).join('');
-
-  const crossTagsHTML = CROSS_TAGS.map(t => {
-    const on = draft.extraTags.includes(t);
-    const side = COOP_TAGS.has(t) ? 'coop' : 'vault';
-    return `<label class="${side}"><input type="checkbox" data-tag="${t}" ${on ? 'checked' : ''}>${TAG_LABELS[t]}</label>`;
-  }).join('');
-
-  const linksHTML = draft.links.length ? draft.links.map((l, i) => `
-    <div class="link-row" data-link-idx="${i}">
-      <input type="text" class="link-label" placeholder="Label" value="${String(l.label||'').replace(/"/g,'&quot;')}">
-      <input type="text" class="link-url" placeholder="https://…" value="${String(l.url||'').replace(/"/g,'&quot;')}">
-      <button type="button" class="remove-link" title="Remove">✕</button>
-    </div>`).join('') : '';
-
-  modalSlot.innerHTML = `
-    <div class="admin-modal">
-      <div class="admin-head">
-        <h2><span class="tag">${isNew ? 'NEW' : 'EDIT'}</span>${isNew ? 'Add game' : (draft.name || 'Untitled')}</h2>
-        <button class="close-x" data-close>✕</button>
-      </div>
-      <div class="admin-body">
-        <div class="form-section">
-          <div class="sec-title">Identity</div>
-          <div class="form-grid">
-            <div class="field span-2">
-              <label>Name</label>
-              <input type="text" id="f-name" value="${String(draft.name||'').replace(/"/g,'&quot;')}" placeholder="Game title">
-            </div>
-            <div class="field">
-              <label>Group</label>
-              <div class="radio-row" id="f-group">
-                <label class="coop-on"><input type="radio" name="fgroup" value="coop" ${editGroup==='coop'?'checked':''}> Co-op</label>
-                <label class="vault-on"><input type="radio" name="fgroup" value="single" ${editGroup==='single'?'checked':''}> Vault</label>
-              </div>
-            </div>
-            <div class="field">
-              <label>Tab</label>
-              <select id="f-tab">${tabOptions(editGroup)}</select>
-            </div>
-          </div>
-        </div>
-
-        <div class="form-section">
-          <div class="sec-title">Info</div>
-          <div class="form-grid">
-            <div class="field">
-              <label>Platform</label>
-              <input type="text" id="f-platform" value="${String(draft.platform||'').replace(/"/g,'&quot;')}" placeholder="PC / PS2 / Switch / HTPC…">
-            </div>
-            <div class="field">
-              <label>Release</label>
-              <input type="text" id="f-release" value="${String(draft.release||'').replace(/"/g,'&quot;')}" placeholder="24.01.2024 or Q4 2027 or TBA">
-            </div>
-            <div class="field">
-              <label>Size</label>
-              <input type="text" id="f-size" value="${String(draft.size||'').replace(/"/g,'&quot;')}" placeholder="3.2 GB">
-            </div>
-            <div class="field">
-              <label>HLTB type</label>
-              <div class="radio-row" id="f-hltb-type">
-                <label><input type="radio" name="fhltb" value="numeric" ${numericHltb?'checked':''}> Numeric</label>
-                <label><input type="radio" name="fhltb" value="text" ${!numericHltb?'checked':''}> Text</label>
-              </div>
-            </div>
-            <div class="field span-2" id="hltb-numeric" style="${numericHltb?'':'display:none'}">
-              <label>HLTB</label>
-              <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem">
-                <input type="number" id="f-hltb-main" placeholder="Main hrs" value="${hp.main}">
-                <input type="number" id="f-hltb-extra" placeholder="+ Extra hrs (optional)" value="${hp.extra}">
-              </div>
-            </div>
-            <div class="field span-2" id="hltb-text" style="${numericHltb?'display:none':''}">
-              <label>HLTB (free text)</label>
-              <input type="text" id="f-hltb-raw" placeholder="Unending / Ongoing / Endless…" value="${!numericHltb ? String(draft.hltb||'').replace(/"/g,'&quot;') : ''}">
-            </div>
-            <div class="field">
-              <label>Developer</label>
-              <input type="text" id="f-dev" value="${String(draft.dev||'').replace(/"/g,'&quot;')}" placeholder="Studio name">
-            </div>
-            <div class="field">
-              <label>Publisher</label>
-              <input type="text" id="f-pub" value="${String(draft.pub||'').replace(/"/g,'&quot;')}" placeholder="Publisher">
-            </div>
-          </div>
-        </div>
-
-        <div class="form-section">
-          <div class="sec-title">Media</div>
-          <div class="form-grid">
-            <div class="field span-2">
-              <label>Screenshot</label>
-              <div class="img-input">
-                <div class="preview shot-preview" id="shot-preview">${draft.screenshot ? `<img src="${draft.screenshot}" alt="">` : '1280 × 720'}</div>
-                <div class="controls">
-                  <input type="text" id="f-screenshot" placeholder="images/xyz.jpg or https://…" value="${String(draft.screenshot||'').replace(/"/g,'&quot;')}">
-                  <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" id="f-screenshot-file"></label>
-                </div>
-              </div>
-            </div>
-            <div class="field span-2">
-              <label>Logo</label>
-              <div class="img-input">
-                <div class="preview" id="logo-preview">${draft.logo ? `<img src="${draft.logo}" alt="">` : '504 × 562'}</div>
-                <div class="controls">
-                  <input type="text" id="f-logo" placeholder="images/xyz-logo.png or https://…" value="${String(draft.logo||'').replace(/"/g,'&quot;')}">
-                  <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" id="f-logo-file"></label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="form-section">
-          <div class="sec-title">Links</div>
-          <div class="links-list" id="links-list">${linksHTML}</div>
-          <button type="button" class="add-link-btn" id="add-link-btn"><span class="icon icon-plus"></span>Add link</button>
-        </div>
-
-        <div class="form-section">
-          <div class="sec-title">Cross-references</div>
-          <div class="tag-cloud" id="cross-tags">${crossTagsHTML}</div>
-        </div>
-
-        <div class="form-section">
-          <div class="sec-title">Status</div>
-          <div class="flag-row" id="flag-row">
-            <button type="button" class="flag-btn ${draft.ready?'on':''}" data-flag="ready"><span class="lamp"></span>Ready</button>
-            <button type="button" class="flag-btn ${draft.onDisk?'on':''}" data-flag="onDisk"><span class="lamp"></span>On Disk</button>
-          </div>
-        </div>
-
-        <div class="form-section">
-          <div class="sec-title">Notes</div>
-          <div class="field">
-            <textarea id="f-notes" placeholder="Any notes about this game…">${String(draft.notes||'').replace(/</g,'&lt;')}</textarea>
-          </div>
-        </div>
-      </div>
-
-      <div class="admin-foot">
-        <div class="left-actions">
-          ${!isNew ? `<button type="button" class="btn danger" id="delete-btn"><span class="icon icon-trash"></span>Delete</button>` : ''}
-        </div>
-        <div class="right-actions">
-          <button type="button" class="btn" data-close>Cancel</button>
-          <button type="button" class="btn primary" id="save-btn">${isNew ? 'Create' : 'Save changes'}</button>
-        </div>
-      </div>
-    </div>`;
-  backdrop.classList.add('open');
-
-  const $ = sel => modalSlot.querySelector(sel);
-
-  $('#f-group').addEventListener('change', e => {
-    const grp = e.target.value;
-    $('#f-tab').innerHTML = TABS[grp].map(t => `<option value="${t.id}">${t.label}</option>`).join('');
-  });
-
-  $('#f-hltb-type').addEventListener('change', e => {
-    const v = e.target.value;
-    $('#hltb-numeric').style.display = v === 'numeric' ? '' : 'none';
-    $('#hltb-text').style.display    = v === 'numeric' ? 'none' : '';
-  });
-
-  $('#f-screenshot').addEventListener('input', e => {
-    const v = e.target.value.trim();
-    $('#shot-preview').innerHTML = v ? `<img src="${v}" alt="">` : '1280 × 720';
-  });
-  $('#f-logo').addEventListener('input', e => {
-    const v = e.target.value.trim();
-    $('#logo-preview').innerHTML = v ? `<img src="${v}" alt="">` : '504 × 562';
-  });
-  $('#f-screenshot-file').addEventListener('change', () => toast('File upload not wired yet — paste a URL instead', 'bad'));
-  $('#f-logo-file').addEventListener('change', () => toast('File upload not wired yet — paste a URL instead', 'bad'));
-
-  $('#flag-row').addEventListener('click', e => {
-    const btn = e.target.closest('.flag-btn');
-    if(!btn) return;
-    btn.classList.toggle('on');
-  });
-
-  const linksList = $('#links-list');
-  $('#add-link-btn').addEventListener('click', () => {
-    const row = document.createElement('div');
-    row.className = 'link-row';
-    row.innerHTML = `<input type="text" class="link-label" placeholder="Label"><input type="text" class="link-url" placeholder="https://…"><button type="button" class="remove-link">✕</button>`;
-    linksList.appendChild(row);
-    row.querySelector('.link-label').focus();
-  });
-  linksList.addEventListener('click', e => {
-    if(!e.target.closest('.remove-link')) return;
-    e.target.closest('.link-row').remove();
-  });
-
-  if(!isNew){
-    $('#delete-btn').addEventListener('click', () => openConfirmDelete(g));
-  }
-
-  $('#save-btn').addEventListener('click', () => {
-    const name = $('#f-name').value.trim();
-    if(!name){ toast('Name is required', 'bad'); return; }
-    const fgroup = $('#f-group input:checked').value;
-    const ftab = $('#f-tab').value;
-    const hltbType = $('#f-hltb-type input:checked').value;
-    const hltb = hltbType === 'numeric'
-      ? partsToHltb($('#f-hltb-main').value, $('#f-hltb-extra').value)
-      : ($('#f-hltb-raw').value.trim() || '—');
-    const links = [...linksList.querySelectorAll('.link-row')].map(row => {
-      const label = row.querySelector('.link-label').value.trim();
-      const url   = row.querySelector('.link-url').value.trim();
-      if(!label && !url) return null;
-      const obj = { label: label || 'Link', url };
-      const guess = linkIconGuess(label);
-      if(guess) obj.icon = guess;
-      return obj;
-    }).filter(Boolean);
-    const extraTags = [...$('#cross-tags').querySelectorAll('input[type=checkbox]:checked')]
-      .map(cb => cb.dataset.tag).filter(t => t !== ftab);
-    const ready  = $('#flag-row [data-flag="ready"]').classList.contains('on');
-    const onDisk = $('#flag-row [data-flag="onDisk"]').classList.contains('on');
-
-    const out = {
-      id: draft.id || name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),
-      name, group: fgroup, tab: ftab,
-      platform: $('#f-platform').value.trim(),
-      release: $('#f-release').value.trim(),
-      size: $('#f-size').value.trim(),
-      hltb,
-      dev: $('#f-dev').value.trim(),
-      pub: $('#f-pub').value.trim(),
-      notes: $('#f-notes').value.trim(),
-      ready, onDisk, links, extraTags,
-      screenshot: $('#f-screenshot').value.trim(),
-      logo: $('#f-logo').value.trim(),
-    };
-    console.log('Save payload:', out);
-    toast('Save not wired yet — GitHub write API comes next', 'bad');
-  });
-}
-function openConfirmDelete(g){
-  modalSlot.innerHTML = `
-    <div class="confirm">
-      <h3><span class="icon icon-trash" style="width:1em;height:1em"></span>Delete game?</h3>
-      <p>You're about to remove <span class="gname">${g.name}</span> from <strong>${tabLabelFor(g)}</strong>.</p>
-      <p class="warn">This edits the repo JSON directly. A commit is created — you can always recover via git history, but the site updates immediately.</p>
-      <div class="btns">
-        <button type="button" class="btn" data-close>Cancel</button>
-        <button type="button" class="btn danger" id="confirm-delete"><span class="icon icon-trash"></span>Delete</button>
-      </div>
-    </div>`;
-  backdrop.classList.add('open');
-  modalSlot.querySelector('#confirm-delete').addEventListener('click', () => {
-    console.log('Delete payload:', g);
-    toast('Delete not wired yet — GitHub write API comes next', 'bad');
-  });
-}
-function tabLabelFor(g){
-  const tb = g._tab || tab;
-  const t = ALL_TABS.find(x => x.id === tb);
-  return t ? t.label : tb;
-}
-function closeAll(){
-  backdrop.classList.remove('open');
-  modalSlot.innerHTML = '';
-  closeAllDropdowns();
-}
-modalSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeAll(); });
-
-/* ============================================================
-   CONTENT CLICKS
-   ============================================================ */
-contentEl.addEventListener('click', e => {
-  const adminBtnEl = e.target.closest('.card-admin button');
-  if(adminBtnEl){
-    e.stopPropagation();
-    const g = findGameById(adminBtnEl.dataset.id);
-    if(!g) return;
-    g._group = group; g._tab = tab;
-    if(adminBtnEl.dataset.act === 'edit') openEditor(g);
-    else if(adminBtnEl.dataset.act === 'del') openConfirmDelete(g);
-    return;
-  }
-  const jb = e.target.closest('.jump-btn');
-  if(jb){
-    const t = document.getElementById(jb.dataset.jump);
-    if(t) t.scrollIntoView({ behavior:'smooth', block:'start' });
-    return;
-  }
-  const sr = e.target.closest('.series-game-row');
-  if(sr){
-    const sg = seriesGameIndex.get(sr.dataset.rowId);
-    if(sg) openSeriesModal(sg);
-    return;
-  }
-  const rowD = e.target.closest('.rowD');
-  if(rowD){
-    const arr = currentTabData();
-    if(Array.isArray(arr)){
-      const g = arr.find(x => x.id === rowD.dataset.id);
-      if(g){
-        const rankMap = new Map();
-        arr.forEach((x,i) => rankMap.set(x.id, i+1));
-        openModal(g, rankMap.get(g.id));
+        log('  ✗ no access_token in response', 'log-bad');
       }
     }
-    return;
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+    log('  → this is almost always CORS. Check console for preflight errors.', 'log-warn');
+    log('  → Twitch requires the OAuth endpoint to be called from a registered redirect URL context.', 'log-warn');
   }
-  const card = e.target.closest('.card');
-  if(card){
-    const g = findGameById(card.dataset.id);
-    if(!g) return;
-    if(g.source === 'series'){
-      openSeriesModal({ ...g, seriesName: g.series, note: g.notes || '' });
+};
+
+document.getElementById('igdb-test-search').onclick = async () => {
+  const q = document.getElementById('igdb-q').value.trim();
+  if(!q){ log('Enter a game name to search', 'log-bad'); return; }
+  const c = JSON.parse(localStorage.getItem('igdb_cfg') || '{}');
+  if(!c.clientId){ log('No client ID — save credentials first', 'log-bad'); return; }
+  let tok;
+  try{
+    const cached = JSON.parse(localStorage.getItem('igdb_token') || '{}');
+    tok = cached.token;
+    if(!tok){ log('No cached token — run auth test first', 'log-bad'); return; }
+    log('IGDB SEARCH → POST https://api.igdb.com/v4/games  (search "' + q + '")', 'log-src');
+    log('  body: search "' + q + '"; fields name,first_release_date,summary,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,platforms.name,screenshots.url; limit 6;', 'log-info');
+    const res = await fetch('https://api.igdb.com/v4/games', {
+      method:'POST',
+      headers:{
+        'Client-ID': c.clientId,
+        'Authorization': 'Bearer ' + tok,
+        'Content-Type': 'text/plain'
+      },
+      body: 'search "' + q + '"; fields name,first_release_date,summary,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,platforms.name,screenshots.url; limit 6;'
+    });
+    log('  ← HTTP ' + res.status + ' ' + res.statusText, res.ok ? 'log-ok' : 'log-bad');
+    const txt = await res.text();
+    logPayload('  response body', txt);
+    if(res.ok){
+      const hits = JSON.parse(txt);
+      log('  ✓ ' + hits.length + ' results', 'log-ok');
+      hits.forEach((h, i) => {
+        const devs = (h.involved_companies||[]).filter(ic=>ic.developer).map(ic=>ic.company&&ic.company.name).filter(Boolean).join(', ');
+        log('    ' + (i+1) + '. ' + h.name + (h.first_release_date ? '  (' + new Date(h.first_release_date*1000).getFullYear() + ')' : '') + (devs ? ' — ' + devs : ''), 'log-info');
+      });
+    }
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+    log('  → check console for the actual CORS/preflight error', 'log-warn');
+  }
+};
+
+/* ============================================================
+   PCGW
+   ============================================================ */
+document.getElementById('pcgw-search').onclick = async () => {
+  const q = document.getElementById('pcgw-q').value.trim();
+  if(!q){ log('Enter a game name', 'log-bad'); return; }
+  const url = 'https://www.pcgamingwiki.com/w/api.php?action=query&list=search&srsearch='
+    + encodeURIComponent(q) + '&srlimit=5&format=json&origin=*';
+  log('PCGW SEARCH → GET ' + url, 'log-src');
+  try{
+    const res = await fetch(url);
+    log('  ← HTTP ' + res.status + ' ' + res.statusText, res.ok ? 'log-ok' : 'log-bad');
+    log('  access-control-allow-origin: ' + (res.headers.get('access-control-allow-origin') || '(none)'), 'log-info');
+    const txt = await res.text();
+    logPayload('  response body', txt);
+    if(res.ok){
+      const data = JSON.parse(txt);
+      const hits = (data.query && data.query.search) || [];
+      log('  ✓ ' + hits.length + ' results', 'log-ok');
+      hits.forEach((h, i) => log('    ' + (i+1) + '. ' + h.title, 'log-info'));
+    }
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+    log('  → CORS likely blocked. Try "Test CORS (raw fetch)" next.', 'log-warn');
+  }
+};
+
+document.getElementById('pcgw-raw').onclick = async () => {
+  const url = 'https://www.pcgamingwiki.com/w/api.php?action=query&meta=siteinfo&format=json&origin=*';
+  log('PCGW RAW → GET ' + url, 'log-src');
+  try{
+    const res = await fetch(url);
+    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
+    log('  access-control-allow-origin: ' + (res.headers.get('access-control-allow-origin') || '(none)'), 'log-info');
+    log('  access-control-allow-headers: ' + (res.headers.get('access-control-allow-headers') || '(none)'), 'log-info');
+    const txt = await res.text();
+    logPayload('  body', txt.slice(0, 400));
+    if(res.headers.get('access-control-allow-origin')){
+      log('  ✓ CORS headers present — the site should be able to call this endpoint', 'log-ok');
     } else {
-      openModal(g);
+      log('  ✗ no CORS header — browser will block reads from other origins', 'log-bad');
     }
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
   }
-});
+};
 
 /* ============================================================
-   BOOT
+   LBDB
    ============================================================ */
-renderTabs();
-renderContent();
-bootAdminFlow();
+let LBDB_INDEX_TEST = null;
+
+document.getElementById('lbdb-file').onclick = async () => {
+  log('LBDB → GET LBDB/metadata.json', 'log-src');
+  try{
+    const res = await fetch('LBDB/metadata.json', { cache: 'no-cache' });
+    log('  ← HTTP ' + res.status + ' ' + res.statusText, res.ok ? 'log-ok' : 'log-bad');
+    const size = res.headers.get('content-length');
+    if(size) log('  content-length: ' + (parseInt(size)/1024/1024).toFixed(2) + ' MB', 'log-info');
+    if(!res.ok){ log('  ✗ file not reachable', 'log-bad'); return; }
+    const t0 = performance.now();
+    const data = await res.json();
+    const dt = Math.round(performance.now() - t0);
+    log('  ✓ parsed in ' + dt + 'ms', 'log-ok');
+    log('  generated: ' + (data.generated || '(no field)'), 'log-info');
+    log('  count: ' + (data.count || (data.games||[]).length), 'log-info');
+    LBDB_INDEX_TEST = data.games || (Array.isArray(data) ? data : []);
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+  }
+};
+
+document.getElementById('lbdb-search').onclick = async () => {
+  const q = document.getElementById('lbdb-q').value.trim();
+  if(!q){ log('Enter a game name', 'log-bad'); return; }
+  if(!LBDB_INDEX_TEST){
+    log('Loading LBDB file first…', 'log-info');
+    await document.getElementById('lbdb-file').onclick();
+    if(!LBDB_INDEX_TEST){ log('File did not load — cannot search', 'log-bad'); return; }
+  }
+  const norm = s => String(s||'').toLowerCase().trim().replace(/[^\w\s]/g,' ').replace(/\s+/g,' ').trim();
+  const key = norm(q);
+  log('LBDB SEARCH → "' + q + '" (normalised: "' + key + '")', 'log-src');
+  const t0 = performance.now();
+  const hits = LBDB_INDEX_TEST.filter(g => norm(g.n || g.name) === key);
+  const dt = Math.round(performance.now() - t0);
+  log('  ✓ ' + hits.length + ' matches in ' + dt + 'ms', hits.length ? 'log-ok' : 'log-warn');
+  hits.slice(0, 10).forEach((g, i) => {
+    log('    ' + (i+1) + '. ' + (g.n||g.name) + '  [' + (g.p||'') + ']' + (g.dev ? ' — ' + g.dev : '') + (g.rel ? ' (' + g.rel + ')' : ''), 'log-info');
+  });
+};
+
+/* ============================================================ */
+log('Source Tester ready.', 'log-info');
+log('Make sure this page is served over HTTPS from GitHub Pages — a file:// or http:// origin will fail CORS checks differently.', 'log-warn');
+log('Tip: press F12 → Console for any CORS errors the browser is hiding from JavaScript.', 'log-warn');
 </script>
 </body>
 </html>
