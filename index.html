@@ -13,7 +13,7 @@
     --accent:#38bdf8;--accent-soft:rgba(56,189,248,.14);--accent-line:rgba(56,189,248,.35);
     --text:#e6ebf2;--muted:#7d8798;
     --green:#4ade80;--blue:#3b82f6;--amber:#f59e0b;--red:#ef4444;
-    --purple:#a78bfa;
+    --purple:#a78bfa;--hltb:#fb7185;
     --font-head:'Chakra Petch',system-ui,sans-serif;
     --font-body:'Inter',system-ui,sans-serif;
   }
@@ -130,7 +130,8 @@
   .card{display:flex;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
   .card:hover{border-color:var(--accent-line)}
   .shot{width:70%;aspect-ratio:16 / 9;background:#000;flex-shrink:0;position:relative;display:grid;place-items:center;overflow:hidden;}
-  .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;}
+  .shot img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0;}
+  .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
   .overlay{position:absolute;left:.55rem;right:.55rem;top:.5rem;bottom:.5rem;z-index:2;pointer-events:none;}
   .overlay-top{position:absolute;left:0;right:0;top:0;display:flex;justify-content:space-between;align-items:flex-start;gap:.4rem;}
   .status-tag{display:inline-flex;align-items:center;padding:.3rem .6rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;font-family:var(--font-head);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--green);white-space:nowrap;line-height:1;}
@@ -140,6 +141,7 @@
   .ov-chip{display:inline-flex;align-items:center;padding:.32rem .65rem;background:rgba(8,10,16,.72);border:1px solid rgba(255,255,255,.08);border-radius:6px;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);font-family:var(--font-body);font-size:.78rem;font-weight:500;color:#e6ebf2;white-space:nowrap;line-height:1;}
   .logo-panel{width:30%;background:rgba(255,255,255,.015);border-left:1px solid var(--border);display:grid;place-items:center;padding:.75rem;}
   .logo-box{aspect-ratio:504 / 562;max-width:100%;max-height:100%;display:grid;place-items:center;}
+  .logo-box img{max-width:100%;max-height:100%;object-fit:contain;display:block}
   .ph{font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.14em;color:#3a4356;text-transform:uppercase;text-align:center;line-height:1.6;}
   .ph small{display:block;font-size:.6rem;letter-spacing:.1em;color:#2b3243;margin-top:.35rem}
   .card-admin{position:absolute;top:.5rem;right:.5rem;z-index:5;display:none;gap:.35rem;}
@@ -155,10 +157,12 @@
   .row-wrap:hover .rank{color:var(--accent);text-shadow:0 0 12px var(--accent-soft);}
   .rowD{display:grid;grid-template-columns:1fr 1fr;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
   .rowD:hover{border-color:var(--accent-line)}
-  .shot-cell{aspect-ratio:16/9;align-self:center;background:linear-gradient(135deg,#1a2230 0%,#0f1620 100%);display:grid;place-items:center;color:#3a4356;font-family:var(--font-head);font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;text-align:center;line-height:1.5;}
+  .shot-cell{aspect-ratio:16/9;align-self:center;background:linear-gradient(135deg,#1a2230 0%,#0f1620 100%);display:grid;place-items:center;color:#3a4356;font-family:var(--font-head);font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;text-align:center;line-height:1.5;position:relative;overflow:hidden;}
+  .shot-cell img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0}
   .shot-cell small{display:block;font-size:.5rem;color:#2b3243;letter-spacing:.1em}
   .info-cell{padding:1.5rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-width:0;}
-  .logo{width:180px;aspect-ratio:504/562;display:grid;place-items:center;border:1px dashed #2b3243;border-radius:8px;color:#3a4356;font-family:var(--font-head);font-weight:700;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;text-align:center;line-height:1.4;padding:.5rem;transition:transform .25s cubic-bezier(.3,.7,.3,1);}
+  .logo{width:180px;aspect-ratio:504/562;display:grid;place-items:center;border:1px dashed #2b3243;border-radius:8px;color:#3a4356;font-family:var(--font-head);font-weight:700;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;text-align:center;line-height:1.4;padding:.5rem;transition:transform .25s cubic-bezier(.3,.7,.3,1);overflow:hidden;}
+  .logo img{max-width:100%;max-height:100%;object-fit:contain;display:block}
   .logo small{display:block;font-size:.5rem;color:#2b3243;letter-spacing:.08em;margin-top:.2rem}
   .rowD:hover .logo{transform:translateY(-6px);}
   .hover-text{opacity:0;transform:translateY(6px);transition:opacity .22s ease,transform .22s ease;margin-top:.9rem;pointer-events:none;min-height:0;}
@@ -201,12 +205,15 @@
   .modal::-webkit-scrollbar{width:8px}
   .modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;border:2px solid transparent;background-clip:padding-box;}
   .modal::-webkit-scrollbar-thumb:hover{background:var(--accent);background-clip:padding-box}
-  .modal-hero{position:relative;width:100%;aspect-ratio:21/9;background:#000;border-bottom:1px solid var(--border);display:grid;place-items:center;}
-  .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.75));pointer-events:none;}
+  .modal-hero{position:relative;width:100%;aspect-ratio:21/9;background:#000;border-bottom:1px solid var(--border);display:grid;place-items:center;overflow:hidden;}
+  .modal-hero > img.modal-shot-img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;z-index:0;}
+  .modal-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
+  .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
+  .modal-logo img{max-width:100%;max-height:100%;object-fit:contain}
   .modal-logo .ph{font-size:.5rem;letter-spacing:.14em;color:#3a4356}
   .modal-logo .ph small{font-size:.45rem}
-  .modal-rank-badge{position:absolute;top:.75rem;left:.9rem;font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.06em;color:var(--accent);background:rgba(0,0,0,.6);padding:.22rem .6rem;border-radius:5px;border:1px solid var(--accent-line);font-variant-numeric:tabular-nums;}
-  .modal-close{position:absolute;top:.6rem;right:.6rem;width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:rgba(0,0,0,.55);color:var(--muted);cursor:pointer;font-size:.85rem;line-height:1;display:grid;place-items:center;z-index:3;}
+  .modal-rank-badge{position:absolute;top:.75rem;left:.9rem;z-index:3;font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.06em;color:var(--accent);background:rgba(0,0,0,.6);padding:.22rem .6rem;border-radius:5px;border:1px solid var(--accent-line);font-variant-numeric:tabular-nums;}
+  .modal-close{position:absolute;top:.6rem;right:.6rem;width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:rgba(0,0,0,.55);color:var(--muted);cursor:pointer;font-size:.85rem;line-height:1;display:grid;place-items:center;z-index:4;}
   .modal-close:hover{color:#fff}
   .modal-body{padding:1.5rem 1.25rem 1.25rem}
   .modal-title{font-family:var(--font-head);font-weight:700;font-size:1.25rem;letter-spacing:.02em;color:#fff;line-height:1.25;}
@@ -243,13 +250,11 @@
   }
   .token-modal input:focus{border-color:var(--accent-line)}
   .token-actions{display:flex;gap:.6rem;justify-content:flex-end;margin-top:1.1rem}
-  /* PICKER */
   .picker-list{display:flex;flex-direction:column;gap:.4rem;max-height:50vh;overflow-y:auto;margin-bottom:1rem;}
   .picker-list button{display:flex;flex-direction:column;gap:.15rem;align-items:flex-start;padding:.7rem .85rem;background:#0a0e15;border:1px solid var(--border);border-radius:8px;color:#e6ebf2;cursor:pointer;text-align:left;width:100%;transition:all .15s ease;font-family:var(--font-body);}
   .picker-list button:hover{border-color:var(--accent-line);background:rgba(56,189,248,.06)}
   .picker-list .pk-name{font-weight:600;font-size:.92rem;}
   .picker-list .pk-meta{font-size:.75rem;color:var(--muted);}
-  /* ADMIN FORM */
   .admin-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:900px;max-height:92vh;overflow-y:auto;position:relative;}
   .admin-modal::-webkit-scrollbar{width:10px}
   .admin-modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
@@ -313,27 +318,24 @@
   .btn.danger{color:var(--red);border-color:rgba(239,68,68,.4);background:rgba(239,68,68,.06)}
   .btn.danger:hover{color:#fff;border-color:var(--red);background:rgba(239,68,68,.18)}
   .btn .icon{width:.9em;height:.9em}
-  /* PARSE BAR */
-  .parse-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;padding:.8rem 1rem;background:linear-gradient(180deg,rgba(56,189,248,.04) 0%,transparent 100%);border:1px solid rgba(56,189,248,.22);border-radius:9px;margin-bottom:1.2rem;}
+  .btn .spinner{display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;animation:spin .7s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .parse-bar{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.8rem 1rem;background:linear-gradient(180deg,rgba(56,189,248,.04) 0%,transparent 100%);border:1px solid rgba(56,189,248,.22);border-radius:9px;margin-bottom:1.2rem;}
   .parse-bar .parse-title{font-family:var(--font-head);font-size:.56rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-right:.2rem;}
-  .src-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.45rem .7rem;border:1px solid var(--border);border-radius:6px;background:rgba(255,255,255,.01);color:#cbd5e1;cursor:default;white-space:nowrap;}
+  .src-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .65rem;border:1px solid var(--border);border-radius:6px;background:rgba(255,255,255,.01);color:#cbd5e1;cursor:default;white-space:nowrap;}
   .src-btn .dot{width:8px;height:8px;border-radius:50%;background:#4a5468;transition:all .2s ease;flex-shrink:0;}
   .src-btn.loading .dot{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.2s ease-in-out infinite;}
   .src-btn.found .dot{background:var(--green);box-shadow:0 0 8px var(--green);}
-  .src-btn.notfound .dot{background:var(--red);box-shadow:0 0 8px var(--red);}
-  .src-btn.error .dot{background:var(--red);box-shadow:0 0 8px var(--red);}
+  .src-btn.notfound .dot,.src-btn.error .dot{background:var(--red);box-shadow:0 0 8px var(--red);}
   .src-btn.loading{color:var(--amber);border-color:rgba(245,158,11,.4)}
   .src-btn.found{color:var(--green);border-color:rgba(74,222,128,.4)}
   .src-btn.notfound,.src-btn.error{color:var(--red);border-color:rgba(239,68,68,.4)}
-  .src-btn[data-src-dot="igdb"].found{color:var(--purple);border-color:rgba(167,139,250,.5)}
-  .src-btn[data-src-dot="igdb"].found .dot{background:var(--purple);box-shadow:0 0 8px var(--purple);}
   .go-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .95rem;border:1px solid var(--accent);border-radius:7px;background:var(--accent);color:#0a0d14;cursor:pointer;transition:all .18s ease;}
   .go-btn:hover{filter:brightness(1.12)}
   .go-btn:disabled{opacity:.5;cursor:wait;filter:none}
   .go-btn.loading::after{content:"";display:inline-block;width:8px;height:8px;margin-left:.5rem;border-radius:50%;background:#0a0d14;animation:pulse 1s ease-in-out infinite;}
   .overwrite-toggle{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.58rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);cursor:pointer;margin-left:auto;}
   .overwrite-toggle input{accent-color:var(--accent)}
-  /* VARIANT PILLS */
   .pills{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.15rem;}
   .pills:empty{display:none}
   .pill{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-body);font-size:.72rem;font-weight:500;padding:.3rem .55rem;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.02);color:#cbd5e1;cursor:pointer;transition:all .14s ease;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
@@ -347,6 +349,8 @@
   .pill.src-pcgw:hover{border-color:rgba(74,222,128,.5);}
   .pill.src-lbdb .p-src{background:rgba(245,158,11,.15);color:var(--amber);}
   .pill.src-lbdb:hover{border-color:rgba(245,158,11,.5);}
+  .pill.src-hltb .p-src{background:rgba(251,113,133,.15);color:var(--hltb);}
+  .pill.src-hltb:hover{border-color:rgba(251,113,133,.5);}
   .confirm{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:420px;padding:1.5rem;position:relative;border-color:rgba(239,68,68,.4);}
   .confirm h3{font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.02em;color:var(--red);display:flex;align-items:center;gap:.55rem;margin-bottom:.7rem;}
   .confirm p{font-size:.92rem;line-height:1.55;color:#cbd5e1;margin-bottom:.4rem}
@@ -423,22 +427,12 @@
 </header>
 
 <nav class="tabbar" id="tabbar"></nav>
-
 <div class="toolbar" id="toolbar"></div>
-
 <main id="content"></main>
 
-<div class="backdrop" id="backdrop">
-  <div id="modal-slot"></div>
-</div>
-
-<div class="backdrop" id="token-backdrop" style="z-index:300">
-  <div id="token-slot"></div>
-</div>
-
-<div class="backdrop" id="picker-backdrop" style="z-index:320">
-  <div id="picker-slot"></div>
-</div>
+<div class="backdrop" id="backdrop"><div id="modal-slot"></div></div>
+<div class="backdrop" id="token-backdrop" style="z-index:300"><div id="token-slot"></div></div>
+<div class="backdrop" id="picker-backdrop" style="z-index:320"><div id="picker-slot"></div></div>
 
 <div class="toast" id="toast"></div>
 
@@ -449,8 +443,11 @@
 const PROXY_URL = 'https://script.google.com/macros/s/AKfycbx53crSCIWCDRVuAtNpL4D2E_kBJXwRQTa5gUXY9LMAVSGwjdBWPE3gvh8Acvmao1kr/exec';
 const GITHUB_OWNER = 'TheDeusDeceptor';
 const GITHUB_REPO  = 'coopbible';
+const PAGES_BASE   = 'https://thedeusdeceptor.github.io/coopbible/';
 const LBDB_WORKFLOW = 'update-lbdb.yml';
 const LBDB_FILE = 'LBDB/metadata.json';
+const CLOUDINARY_CLOUD = 'nistzwxd';
+const CLOUDINARY_CANVAS = 'https://i.ibb.co/xSsxpFMp/blank.png';
 
 const TABS = {
   coop: [
@@ -625,7 +622,7 @@ function hltbExtraKey(str){
 }
 function nameKey(str){ return String(str||'').toLowerCase(); }
 
-/* Levenshtein similarity (0..1), ported from Apps Script */
+/* Levenshtein similarity (0..1) */
 function levSimilarity(a, b){
   let longer = String(a||'').toLowerCase().trim();
   let shorter = String(b||'').toLowerCase().trim();
@@ -644,6 +641,63 @@ function levSimilarity(a, b){
   }
   return Math.round(((m - prev[n]) / m) * 100) / 100;
 }
+
+/* ============================================================
+   LBDB TITLE NORMALIZATION (ported from Apps Script)
+   ============================================================ */
+const ROM_EXTENSIONS = [
+  "chd","zip","7z","rar","iso","cue","bin","gdi","cdi","mdf","ccd","img",
+  "nes","fds","sfc","smc","gb","gbc","gba","n64","z64","v64","nds","3ds",
+  "cso","pbp","wbfs","rvz","wad","elf","pkg","xex","wsc","ws","ngp","ngc",
+  "vec","col","a26","a52","a78","lnx","pce","sgx","md","gen","32x","gg",
+  "sms","dsk","d64","adf","ipf","hdf","st",
+  "m3u","nsp","zcci","singe","j64","ndd","sv","vb","min","int","hdi","wux","cpr"
+];
+const ROM_EXT_REGEX = new RegExp("\\.(" + ROM_EXTENSIONS.join("|") + ")$", "i");
+const ROM_REGION_WORDS = new Set([
+  "usa","europe","japan","world","asia","korea","china","taiwan","brazil",
+  "australia","canada","germany","france","spain","italy","netherlands",
+  "sweden","pal","ntsc","ntscu","ntscj","unl","proto","beta","demo","sample"
+]);
+const ROM_LANG_BLOB_RE = /^(en|fr|de|es|it|ja|ko|zh|nl|sv|pt|ru|pl|da|no|fi){2,}$/;
+const ROM_VERSION_RE = /^v\d+(\.\d+)*$/;
+
+function stripTrailingRomTags_(tokens){
+  while(tokens.length > 1){
+    const last = tokens[tokens.length - 1];
+    const secondLast = tokens[tokens.length - 2];
+    if(ROM_REGION_WORDS.has(last) || ROM_LANG_BLOB_RE.test(last) || ROM_VERSION_RE.test(last)){
+      tokens.pop();
+      continue;
+    }
+    if(/^\d+$/.test(last) && secondLast === "rev"){
+      tokens.pop(); tokens.pop();
+      continue;
+    }
+    if(last === "rev"){
+      tokens.pop();
+      continue;
+    }
+    break;
+  }
+  return tokens;
+}
+function normalizeLBDBTitle_(str){
+  const cleaned = String(str || '')
+    .replace(ROM_EXT_REGEX, "")
+    .toLowerCase()
+    .replace(/\[.*?\]/g, " ")
+    .replace(/\(.*?\)/g, " ")
+    .replace(/[_]/g, " ")
+    .replace(/['’]/g, "")
+    .replace(/[:\-–—.,!®™]/g, " ")
+    .replace(/\b(the|a|an)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const tokens = stripTrailingRomTags_(cleaned.split(" ").filter(Boolean));
+  return tokens.join(" ");
+}
+function normKey(s){ return normalizeLBDBTitle_(String(s || '')); }
 
 /* ============================================================
    STATE
@@ -691,6 +745,38 @@ function toast(msg, kind){
 }
 
 /* ============================================================
+   MEDIA SOURCE HELPERS
+   ============================================================ */
+function resolveImgUrl(url){
+  if(!url) return '';
+  const s = String(url);
+  if(/^https?:|^data:|^\/\//.test(s)) return s;
+  return PAGES_BASE + s.replace(/^\/+/, '');
+}
+function b64url(str){
+  const bytes = new TextEncoder().encode(str);
+  let bin = '';
+  bytes.forEach(b => bin += String.fromCharCode(b));
+  return btoa(bin).replace(/=+$/,'').replace(/\+/g,'-').replace(/\//g,'_');
+}
+function screenshotSrc(url){
+  const u = resolveImgUrl(url);
+  if(!u) return '';
+  if(u.startsWith('data:')) return u;
+  return 'https://images.weserv.nl/?url=' + encodeURIComponent(u) + '&h=720';
+}
+function logoSrc(url){
+  const u = resolveImgUrl(url);
+  if(!u) return '';
+  if(u.startsWith('data:')) return u;
+  const b64 = b64url(u);
+  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD +
+    '/image/fetch/l_fetch:' + b64 +
+    ',w_400,h_400,c_limit,g_center/fl_layer_apply/' +
+    CLOUDINARY_CANVAS;
+}
+
+/* ============================================================
    DATA LOADER
    ============================================================ */
 function normaliseFileData(tabId, raw){
@@ -705,7 +791,6 @@ function normaliseFileData(tabId, raw){
   }
   return Array.isArray(raw.games) ? raw.games : [];
 }
-
 async function loadTabData(grp, tabId, force){
   if(!force && LOAD_STATE[grp][tabId] === 'loaded') return;
   if(!force && LOAD_STATE[grp][tabId] === 'loading') return;
@@ -753,21 +838,15 @@ async function verifyToken(token){
     return { ok: false, err: 'Network error: ' + e.message };
   }
 }
-
 function showTokenPrompt(){
   tokenSlot.innerHTML = `
     <div class="token-modal">
       <button class="modal-close" data-close>✕</button>
       <h2><span class="lamp"></span>Admin access</h2>
-      <p>
-        Paste a GitHub personal access token. It's stored only in this browser's
-        localStorage.
-      </p>
-      <p>
-        Generate one at <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">github.com/settings/tokens</a>
-        with <strong>Contents</strong> and <strong>Actions: read &amp; write</strong> on
-        <code style="background:rgba(255,255,255,.05);padding:.1rem .35rem;border-radius:4px;font-family:ui-monospace,monospace;font-size:.78rem;color:#cbd5e1">${GITHUB_OWNER}/${GITHUB_REPO}</code>.
-      </p>
+      <p>Paste a GitHub personal access token. It's stored only in this browser's localStorage.</p>
+      <p>Generate one at <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">github.com/settings/tokens</a>
+         with <strong>Contents</strong> and <strong>Actions: read &amp; write</strong> on
+         <code style="background:rgba(255,255,255,.05);padding:.1rem .35rem;border-radius:4px;font-family:ui-monospace,monospace;font-size:.78rem;color:#cbd5e1">${GITHUB_OWNER}/${GITHUB_REPO}</code>.</p>
       <input type="password" id="token-input" placeholder="ghp_… or github_pat_…" autocomplete="off" spellcheck="false">
       <div class="token-actions">
         <button type="button" class="btn" data-close>Cancel</button>
@@ -782,15 +861,8 @@ function showTokenPrompt(){
     const btn = tokenSlot.querySelector('#token-verify');
     btn.disabled = true; btn.textContent = 'Checking…';
     const r = await verifyToken(t);
-    if(r.ok){
-      setToken(t);
-      closeTokenPrompt();
-      enterAdmin();
-      toast('Signed in as ' + r.login);
-    } else {
-      toast(r.err, 'bad');
-      btn.disabled = false; btn.textContent = 'Verify & Save';
-    }
+    if(r.ok){ setToken(t); closeTokenPrompt(); enterAdmin(); toast('Signed in as ' + r.login); }
+    else { toast(r.err, 'bad'); btn.disabled = false; btn.textContent = 'Verify & Save'; }
   };
   tokenSlot.querySelector('#token-input').addEventListener('keydown', e => {
     if(e.key === 'Enter') tokenSlot.querySelector('#token-verify').click();
@@ -810,16 +882,11 @@ function exitAdmin(){
   adminToggleLabel.textContent = 'Admin';
   renderContent();
 }
-
 async function bootAdminFlow(){
   const tok = getToken();
   if(!tok) return;
-  try{
-    const r = await verifyToken(tok);
-    if(!r.ok) clearToken();
-  }catch(e){}
+  try{ const r = await verifyToken(tok); if(!r.ok) clearToken(); }catch(e){}
 }
-
 adminToggleBtn.addEventListener('click', async () => {
   if(adminBusy) return;
   if(adminMode){ exitAdmin(); return; }
@@ -829,12 +896,7 @@ adminToggleBtn.addEventListener('click', async () => {
   adminToggleLabel.textContent = 'Checking…';
   const r = await verifyToken(tok);
   if(r.ok){ enterAdmin(); }
-  else {
-    clearToken();
-    adminToggleLabel.textContent = 'Admin';
-    toast(r.err, 'bad');
-    showTokenPrompt();
-  }
+  else { clearToken(); adminToggleLabel.textContent = 'Admin'; toast(r.err, 'bad'); showTokenPrompt(); }
   adminBusy = false;
 });
 adminToggleBtn.addEventListener('contextmenu', e => {
@@ -861,14 +923,9 @@ let lbdbStartTime = 0;
 async function ghFetch(url, opts = {}){
   const tok = getToken();
   if(!tok) throw new Error('No token');
-  const headers = {
-    'Authorization': 'Bearer ' + tok,
-    'Accept': 'application/vnd.github+json',
-    ...(opts.headers || {}),
-  };
+  const headers = { 'Authorization': 'Bearer ' + tok, 'Accept': 'application/vnd.github+json', ...(opts.headers || {}) };
   return fetch(url, { ...opts, headers });
 }
-
 async function triggerLbdbUpdate(){
   if(!getToken()){ showTokenPrompt(); return; }
   const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${LBDB_WORKFLOW}/dispatches`;
@@ -876,7 +933,7 @@ async function triggerLbdbUpdate(){
     const res = await ghFetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ref: 'main' }),
+      body: JSON.stringify({ ref: 'main' })
     });
     if(res.status === 204){ toast('LBDB update queued'); startLbdbPolling(); }
     else if(res.status === 404){ toast('Workflow not found', 'bad'); }
@@ -919,10 +976,7 @@ async function checkLbdbStatus(){
     }
   }catch(e){}
 }
-lbdbBtn.addEventListener('click', () => {
-  if(lbdbPollTimer) return;
-  triggerLbdbUpdate();
-});
+lbdbBtn.addEventListener('click', () => { if(lbdbPollTimer) return; triggerLbdbUpdate(); });
 
 /* ============================================================
    IGDB  (via Apps Script proxy)
@@ -966,6 +1020,13 @@ function igdbMapToFields(hit){
   }
   return out;
 }
+function igdbPlatformString(hit){
+  return (hit.platforms || []).map(p => p.name).join(', ');
+}
+function igdbReleaseYear(hit){
+  if(!hit.first_release_date) return '';
+  return String(new Date(hit.first_release_date * 1000).getFullYear());
+}
 
 /* ============================================================
    STEAM  (via Apps Script proxy)
@@ -981,7 +1042,7 @@ async function steamSearch(name){
 function steamFmtDate(str){
   if(!str) return '';
   const d = new Date(str);
-  if(isNaN(d.getTime())) return str;
+  if(isNaN(d.getTime())) return String(str);
   const dd = String(d.getDate()).padStart(2,'0');
   const mm = String(d.getMonth()+1).padStart(2,'0');
   return dd + '.' + mm + '.' + d.getFullYear();
@@ -1000,29 +1061,61 @@ function steamMapToFields(data){
 }
 
 /* ============================================================
-   PCGW  (direct browser — action=parse works without proxy)
+   HLTB  (via Apps Script proxy)
+   ============================================================ */
+async function hltbSearch(name){
+  const url = PROXY_URL + '?action=hltb&q=' + encodeURIComponent(name);
+  const res = await fetch(url);
+  if(!res.ok) throw new Error('HLTB proxy HTTP ' + res.status);
+  const data = await res.json();
+  if(data && data.error) throw new Error(data.error);
+  return data;
+}
+function hltbMapToFields(d){
+  if(!d) return {};
+  const story = d.story != null ? Math.max(1, Math.round(d.story)) : null;
+  const extras = d.extras != null ? Math.max(1, Math.round(d.extras)) : null;
+  const comp = d.completionist != null ? Math.max(1, Math.round(d.completionist)) : null;
+  let hltb = '';
+  if(story && extras && extras !== story) hltb = `Main: ${story}, +Extra: ${extras}`;
+  else if(story) hltb = `Main: ${story}`;
+  else if(comp) hltb = `Main: ${comp}`;
+  return hltb ? { hltb } : {};
+}
+
+/* ============================================================
+   PCGW  (direct browser, wikitext)
    ============================================================ */
 async function pcgwSearch(name){
   const url = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
     + '&srsearch=' + encodeURIComponent(name)
     + '&srlimit=5&format=json&origin=*';
+  console.log('[PCGW] search URL:', url);
   const res = await fetch(url);
+  console.log('[PCGW] search HTTP:', res.status);
   if(!res.ok) throw new Error('search HTTP ' + res.status);
   const data = await res.json();
-  return (data.query && data.query.search) || [];
+  const hits = (data.query && data.query.search) || [];
+  console.log('[PCGW] hits:', hits.length, hits.map(h => h.title));
+  return hits;
 }
 async function pcgwGetWikitext(pageTitle){
   const url = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=parse&page=' + encodeURIComponent(pageTitle)
     + '&prop=wikitext&format=json&origin=*';
+  console.log('[PCGW] fetch page:', pageTitle);
   const res = await fetch(url);
+  console.log('[PCGW] page HTTP:', res.status);
   if(!res.ok) throw new Error('page HTTP ' + res.status);
   const data = await res.json();
-  return (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
+  const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
+  console.log('[PCGW] wikitext length:', wt.length, 'first 300:', wt.slice(0, 300));
+  return wt;
 }
 function pcgwExtractTemplateField(wikitext, field){
-  const re = new RegExp('\\{\\{\\s*Infobox game\\/row\\/' + field + '\\s*\\|\\s*([^\\}\\|\\n]+)', 'gi');
+  // relaxed: allow any character except closing braces and pipe separators
+  const re = new RegExp('\\{\\{\\s*Infobox game\\/row\\/' + field + '\\s*\\|\\s*([^\\}\\|]+?)\\s*(?:\\||\\}\\})', 'gi');
   const out = []; let m;
   while((m = re.exec(wikitext)) !== null){
     const v = m[1].trim();
@@ -1031,7 +1124,8 @@ function pcgwExtractTemplateField(wikitext, field){
   return out;
 }
 function pcgwExtractDates(wikitext){
-  const re = /\{\{\s*Infobox game\/row\/date\s*\|\s*([^\|\}\n]+)\s*\|\s*([^\|\}\n]+)/gi;
+  // {{Infobox game/row/date|Platform|Date}} — group 1 platform, group 2 date
+  const re = /\{\{\s*Infobox game\/row\/date\s*\|\s*([^\|\}]+?)\s*\|\s*([^\|\}]+?)\s*(?:\||\}\})/gi;
   const out = []; let m;
   while((m = re.exec(wikitext)) !== null){
     const dateStr = m[2].trim();
@@ -1072,21 +1166,21 @@ function pcgwMapToFields(wikitext){
 }
 
 /* ============================================================
-   LBDB
+   LBDB  (direct browser)
    ============================================================ */
 let LBDB_INDEX = null;
 let LBDB_LOADING = null;
 
-function normKey(s){
-  return String(s || '').toLowerCase().trim()
-    .replace(/[^\w\s]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
+function lbdbFmtDate(str){
+  if(!str) return '';
+  const s = String(str);
+  const m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if(m) return m[3] + '.' + m[2] + '.' + m[1];
+  return s;
 }
-async function lbdbEnsure(onStatus){
+async function lbdbEnsure(){
   if(LBDB_INDEX) return LBDB_INDEX;
   if(LBDB_LOADING) return LBDB_LOADING;
-  if(onStatus) onStatus('loading');
   LBDB_LOADING = (async () => {
     const res = await fetch(LBDB_FILE);
     if(!res.ok) throw new Error('LBDB file missing (' + res.status + ')');
@@ -1119,10 +1213,38 @@ function lbdbMapToFields(entry){
   if(entry.p) out.platform = entry.p;
   if(entry.dev) out.dev = entry.dev;
   if(entry.pub) out.pub = entry.pub;
-  if(entry.rel) out.release = entry.rel;
+  if(entry.rel) out.release = lbdbFmtDate(entry.rel);
   if(entry.logo) out.logo = 'https://images.launchbox-app.com/' + entry.logo;
   if(entry.screenshot) out.screenshot = 'https://images.launchbox-app.com/' + entry.screenshot;
   return out;
+}
+
+/* ============================================================
+   SCORING (name + platform + release)
+   ============================================================ */
+function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
+  let score = levSimilarity(cName || '', fName || '');
+  // Platform: strong secondary signal, only when the form has one filled
+  if(fPlatform && String(fPlatform).trim()){
+    const cp = String(cPlatform || '').toLowerCase().trim();
+    const fp = String(fPlatform).toLowerCase().trim();
+    if(cp){
+      if(cp === fp || cp.includes(fp) || fp.includes(cp)) score += 0.4;
+      else score -= 0.3;
+    }
+  }
+  // Release year: tie-breaker, only when the form has one filled
+  if(fRelease && String(fRelease).trim() && cRelease){
+    const fy = String(fRelease).match(/\d{4}/);
+    const cy = String(cRelease).match(/\d{4}/);
+    if(fy && cy){
+      const diff = Math.abs(+fy[0] - +cy[0]);
+      if(diff === 0) score += 0.15;
+      else if(diff <= 1) score += 0.05;
+      else if(diff >= 3) score -= 0.1;
+    }
+  }
+  return score;
 }
 
 /* ============================================================
@@ -1157,6 +1279,58 @@ function showIgdbPicker(hits, onPick){
 pickerBackdrop.addEventListener('click', e => {
   if(e.target === pickerBackdrop){ pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
 });
+
+/* ============================================================
+   GITHUB MEDIA UPLOAD
+   ============================================================ */
+function fileToBase64(file){
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const result = reader.result;
+      const idx = result.indexOf(',');
+      resolve(result.slice(idx + 1));
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+async function uploadFileToRepo(file, gameId, kind){
+  const token = getToken();
+  if(!token) throw new Error('Not signed in');
+  const ext = (file.name.split('.').pop() || 'png').toLowerCase();
+  const filename = kind + '.' + ext;
+  const path = 'images/' + gameId + '/' + filename;
+  const b64 = await fileToBase64(file);
+  const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
+
+  // Get existing file SHA (needed for overwrite)
+  let sha;
+  try{
+    const check = await fetch(apiUrl, {
+      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
+    });
+    if(check.ok){ const d = await check.json(); sha = d.sha; }
+  }catch(e){}
+
+  const body = { message: (sha ? 'Update ' : 'Add ') + path, content: b64, branch: 'main' };
+  if(sha) body.sha = sha;
+
+  const res = await fetch(apiUrl, {
+    method: 'PUT',
+    headers: {
+      'Authorization': 'Bearer ' + token,
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  });
+  if(!res.ok){
+    const txt = await res.text();
+    throw new Error('Upload HTTP ' + res.status + ': ' + txt.slice(0, 200));
+  }
+  return path;
+}
 
 /* ============================================================
    RENDER — SHELL / FILTERS / TOOLBAR
@@ -1282,6 +1456,14 @@ function adminControlsHTML(id){
     <button class="del"  data-act="del"  data-id="${id}" title="Delete"><span class="icon icon-trash"></span></button>
   </div>`;
 }
+function shotImgHTML(g){
+  if(g.screenshot) return `<img src="${screenshotSrc(g.screenshot)}" alt="">`;
+  return `<div class="ph">1280 × 720<small>screenshot</small></div>`;
+}
+function logoImgHTML(g){
+  if(g.logo) return `<img src="${logoSrc(g.logo)}" alt="">`;
+  return `<div class="ph">504 × 562<small>logo</small></div>`;
+}
 function cardHTML(g){
   const isSeries = g.source === 'series';
   const clean = NO_CHIPS_TABS.has(tab);
@@ -1293,13 +1475,13 @@ function cardHTML(g){
     <article class="card" data-id="${g.id}">
       ${adminControlsHTML(g.id)}
       <div class="shot">
-        <div class="ph">1280 × 720<small>screenshot</small></div>
+        ${shotImgHTML(g)}
         <div class="overlay">
           <div class="overlay-top"><div>${statusTag(g)}</div><div>${steamTag(g)}</div></div>
           ${chips}
         </div>
       </div>
-      <div class="logo-panel"><div class="logo-box"><div class="ph">504 × 562<small>logo</small></div></div></div>
+      <div class="logo-panel"><div class="logo-box">${logoImgHTML(g)}</div></div>
     </article>`;
 }
 function beatenRowHTML(g, rank){
@@ -1308,9 +1490,9 @@ function beatenRowHTML(g, rank){
       <div class="rank">${rank}</div>
       <div class="rowD" data-id="${g.id}">
         ${adminControlsHTML(g.id)}
-        <div class="shot-cell"><div class="ph">1280 × 720<small>screenshot</small></div></div>
+        <div class="shot-cell">${g.screenshot ? `<img src="${screenshotSrc(g.screenshot)}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}</div>
         <div class="info-cell">
-          <div class="logo"><div class="ph">${g.name}<small>logo</small></div></div>
+          <div class="logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="">` : `<div class="ph">${g.name}<small>logo</small></div>`}</div>
           <div class="hover-text">
             <div class="name">${g.name}</div>
             <div class="meta">${g.dev || ''}${g.dev && g.release ? ' <span class="sep">·</span> ' : ''}${g.release || ''}</div>
@@ -1374,10 +1556,7 @@ function seriesBlockHTML(series){
    RENDER — CONTENT
    ============================================================ */
 function emptyHTML(file){
-  return `<div class="grid-empty">
-    No data yet.<br>
-    Add <code>${file}</code> to the repo and refresh.
-  </div>`;
+  return `<div class="grid-empty">No data yet.<br>Add <code>${file}</code> to the repo and refresh.</div>`;
 }
 function loadingHTML(){ return `<div class="loader">Loading</div>`; }
 
@@ -1533,9 +1712,9 @@ function openModal(g, rank){
     <div class="modal">
       <button class="modal-close" aria-label="Close" data-close>✕</button>
       <div class="modal-hero">
+        ${g.screenshot ? `<img class="modal-shot-img" src="${screenshotSrc(g.screenshot)}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}
         ${rankBadge}
-        <div class="ph">1280 × 720<small>screenshot</small></div>
-        <div class="modal-logo"><div class="ph">504 × 562<small>logo</small></div></div>
+        <div class="modal-logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="">` : `<div class="ph">504 × 562<small>logo</small></div>`}</div>
       </div>
       <div class="modal-body">
         <h2 class="modal-title">${g.name}</h2>
@@ -1668,7 +1847,7 @@ function linkIconGuess(label){
 /* ============================================================
    PARSE ORCHESTRATION
    ============================================================ */
-const PARSE_SOURCES = ['igdb','steam','pcgw','lbdb'];
+const PARSE_SOURCES = ['igdb','steam','pcgw','lbdb','hltb'];
 
 function setSrcDot(btn, state){
   if(!btn) return;
@@ -1687,11 +1866,11 @@ function renderVariantPills(results){
     size:       '#f-size',
     dev:        '#f-dev',
     pub:        '#f-pub',
-    notes:      '#f-notes',
     screenshot: '#f-screenshot',
     logo:       '#f-logo',
   };
   const overwrite = modalSlot.querySelector('#parse-overwrite')?.checked;
+
   for(const [field, sel] of Object.entries(fieldMap)){
     const input = modalSlot.querySelector(sel);
     if(!input) continue;
@@ -1710,23 +1889,63 @@ function renderVariantPills(results){
     }
     pillsHost.innerHTML = pills.join('');
   }
+
+  // HLTB pills — special (two inputs)
+  const hltbHost = modalSlot.querySelector('.pills[data-field="hltb"]');
+  if(hltbHost){
+    const mainVal = (modalSlot.querySelector('#f-hltb-main')?.value || '').trim();
+    const rawVal = (modalSlot.querySelector('#f-hltb-raw')?.value || '').trim();
+    const current = mainVal || rawVal;
+    if(current && !overwrite){
+      hltbHost.innerHTML = '';
+    } else {
+      const pills = [];
+      for(const src of PARSE_SOURCES){
+        const r = results[src];
+        if(!r || !r.fields || r.fields.hltb === undefined) continue;
+        const val = r.fields.hltb;
+        if(!val) continue;
+        const short = String(val).slice(0, 80);
+        pills.push(`<button type="button" class="pill src-${src}" data-field="hltb" data-value="${String(val).replace(/"/g,'&quot;')}"><span class="p-src">${src}</span>${short}</button>`);
+      }
+      hltbHost.innerHTML = pills.join('');
+    }
+  }
 }
 
 function attachPillHandlers(){
-  modalSlot.querySelector('.pills-all')?.addEventListener('click', e => {
+  // Attach to whole modal slot — no scoping issues for the Media section
+  modalSlot.addEventListener('click', e => {
     const pill = e.target.closest('.pill');
-    if(!pill) return;
+    if(!pill || !pill.dataset.field) return;
     const field = pill.dataset.field;
-    const value = pill.dataset.value;
+    const value = pill.dataset.value || '';
+    const srcLabel = pill.querySelector('.p-src')?.textContent || '?';
+
+    if(field === 'hltb'){
+      const parts = hltbToParts(value);
+      const numericRadio = modalSlot.querySelector('#f-hltb-type input[value="numeric"]');
+      if(numericRadio){
+        numericRadio.checked = true;
+        numericRadio.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+      modalSlot.querySelector('#hltb-numeric').style.display = '';
+      modalSlot.querySelector('#hltb-text').style.display = 'none';
+      modalSlot.querySelector('#f-hltb-main').value = parts.main || '';
+      modalSlot.querySelector('#f-hltb-extra').value = parts.extra || '';
+      toast('HLTB filled from ' + srcLabel);
+      return;
+    }
+
     const map = {
-      name: '#f-name', release: '#f-release', platform: '#f-platform', size: '#f-size',
-      dev: '#f-dev', pub: '#f-pub', notes: '#f-notes', screenshot: '#f-screenshot', logo: '#f-logo'
+      name:'#f-name', release:'#f-release', platform:'#f-platform', size:'#f-size',
+      dev:'#f-dev', pub:'#f-pub', screenshot:'#f-screenshot', logo:'#f-logo'
     };
     const input = modalSlot.querySelector(map[field]);
     if(!input) return;
     input.value = value;
     input.dispatchEvent(new Event('input', { bubbles: true }));
-    toast('Filled from ' + pill.querySelector('.p-src').textContent);
+    toast('Filled from ' + srcLabel);
   });
 }
 
@@ -1735,18 +1954,22 @@ async function runParse(){
   const name = (nameInput?.value || '').trim();
   if(!name){ toast('Enter a name first', 'bad'); return; }
 
+  const formPlatform = (modalSlot.querySelector('#f-platform')?.value || '').trim();
+  const formRelease = (modalSlot.querySelector('#f-release')?.value || '').trim();
+
   const goBtn = modalSlot.querySelector('#parse-go');
   const dots = {
     igdb:  modalSlot.querySelector('[data-src-dot="igdb"]'),
     steam: modalSlot.querySelector('[data-src-dot="steam"]'),
     pcgw:  modalSlot.querySelector('[data-src-dot="pcgw"]'),
     lbdb:  modalSlot.querySelector('[data-src-dot="lbdb"]'),
+    hltb:  modalSlot.querySelector('[data-src-dot="hltb"]'),
   };
   PARSE_SOURCES.forEach(s => setSrcDot(dots[s], 'loading'));
   goBtn.disabled = true; goBtn.classList.add('loading');
   goBtn.textContent = 'Working';
 
-  const results = { igdb:null, steam:null, pcgw:null, lbdb:null };
+  const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null };
 
   /* -------- IGDB -------- */
   const igdbTask = (async () => {
@@ -1757,13 +1980,13 @@ async function runParse(){
         setSrcDot(dots.igdb, 'notfound');
         return;
       }
-      // Score by name similarity; auto-pick if exact/unique, otherwise ask.
-      let best = hits[0], bestScore = -1;
+      let best = hits[0], bestScore = -Infinity;
       for(const h of hits){
-        const s = levSimilarity(h.name || '', name);
+        const s = scoreCandidate(h.name, igdbPlatformString(h), igdbReleaseYear(h), name, formPlatform, formRelease);
         if(s > bestScore){ bestScore = s; best = h; }
       }
-      if(bestScore < 0.95 && hits.length > 1){
+      const nameOnly = levSimilarity(best.name || '', name);
+      if(nameOnly < 0.95 && hits.length > 1){
         const picked = await new Promise(resolve => showIgdbPicker(hits, hit => resolve(hit)));
         if(picked) best = picked;
       }
@@ -1798,9 +2021,9 @@ async function runParse(){
         setSrcDot(dots.pcgw, 'notfound');
         return;
       }
-      let best = hits[0], bestScore = -1;
+      let best = hits[0], bestScore = -Infinity;
       for(const h of hits){
-        const s = levSimilarity(h.title || '', name);
+        const s = scoreCandidate(h.title, '', '', name, formPlatform, formRelease);
         if(s > bestScore){ bestScore = s; best = h; }
       }
       const wt = await pcgwGetWikitext(best.title);
@@ -1822,15 +2045,10 @@ async function runParse(){
         setSrcDot(dots.lbdb, 'notfound');
         return;
       }
-      let best = entries[0], bestScore = -1;
+      let best = entries[0], bestScore = -Infinity;
       for(const e of entries){
-        let score = 0;
-        if(e.dev) score++;
-        if(e.pub) score++;
-        if(e.rel) score++;
-        if(e.logo) score++;
-        if(e.screenshot) score++;
-        if(score > bestScore){ bestScore = score; best = e; }
+        const s = scoreCandidate(e.n || e.name, e.p || '', e.rel || '', name, formPlatform, formRelease);
+        if(s > bestScore){ bestScore = s; best = e; }
       }
       results.lbdb = { fields: lbdbMapToFields(best) };
       setSrcDot(dots.lbdb, 'found');
@@ -1841,7 +2059,26 @@ async function runParse(){
     }
   })();
 
-  await Promise.all([igdbTask, steamTask, pcgwTask, lbdbTask]);
+  /* -------- HLTB -------- */
+  const hltbTask = (async () => {
+    try{
+      const data = await hltbSearch(name);
+      const fields = hltbMapToFields(data);
+      if(!fields.hltb){
+        results.hltb = { fields:{} };
+        setSrcDot(dots.hltb, 'notfound');
+        return;
+      }
+      results.hltb = { fields };
+      setSrcDot(dots.hltb, 'found');
+    }catch(e){
+      console.error('HLTB parse failed:', e);
+      results.hltb = { error: e.message };
+      setSrcDot(dots.hltb, 'error');
+    }
+  })();
+
+  await Promise.all([igdbTask, steamTask, pcgwTask, lbdbTask, hltbTask]);
   renderVariantPills(results);
 
   goBtn.disabled = false; goBtn.classList.remove('loading');
@@ -1897,11 +2134,12 @@ function openEditor(g){
           <span class="src-btn" data-src-dot="steam"><span class="dot"></span>Steam</span>
           <span class="src-btn" data-src-dot="pcgw"><span class="dot"></span>PCGW</span>
           <span class="src-btn" data-src-dot="lbdb"><span class="dot"></span>LBDB</span>
+          <span class="src-btn" data-src-dot="hltb"><span class="dot"></span>HLTB</span>
           <button type="button" class="go-btn" id="parse-go">GO</button>
           <label class="overwrite-toggle"><input type="checkbox" id="parse-overwrite"> Overwrite</label>
         </div>
 
-        <div class="form-section pills-all">
+        <div class="form-section">
           <div class="sec-title">Identity</div>
           <div class="form-grid">
             <div class="field span-2">
@@ -1959,6 +2197,7 @@ function openEditor(g){
               <label>HLTB (free text)</label>
               <input type="text" id="f-hltb-raw" placeholder="Unending / Ongoing / Endless…" value="${!numericHltb ? String(draft.hltb||'').replace(/"/g,'&quot;') : ''}">
             </div>
+            <div class="pills" data-field="hltb" style="grid-column:1/-1"></div>
             <div class="field">
               <label>Developer</label>
               <input type="text" id="f-dev" value="${String(draft.dev||'').replace(/"/g,'&quot;')}" placeholder="Studio name">
@@ -1978,10 +2217,10 @@ function openEditor(g){
             <div class="field span-2">
               <label>Screenshot</label>
               <div class="img-input">
-                <div class="preview shot-preview" id="shot-preview">${draft.screenshot ? `<img src="${draft.screenshot}" alt="">` : '1280 × 720'}</div>
+                <div class="preview shot-preview" id="shot-preview">${draft.screenshot ? `<img src="${screenshotSrc(draft.screenshot)}" alt="">` : '1280 × 720'}</div>
                 <div class="controls">
                   <input type="text" id="f-screenshot" placeholder="images/xyz.jpg or https://…" value="${String(draft.screenshot||'').replace(/"/g,'&quot;')}">
-                  <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" id="f-screenshot-file"></label>
+                  <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" data-upload-kind="screenshot" id="f-screenshot-file"></label>
                   <div class="pills" data-field="screenshot"></div>
                 </div>
               </div>
@@ -1989,10 +2228,10 @@ function openEditor(g){
             <div class="field span-2">
               <label>Logo</label>
               <div class="img-input">
-                <div class="preview" id="logo-preview">${draft.logo ? `<img src="${draft.logo}" alt="">` : '504 × 562'}</div>
+                <div class="preview" id="logo-preview">${draft.logo ? `<img src="${logoSrc(draft.logo)}" alt="">` : '504 × 562'}</div>
                 <div class="controls">
                   <input type="text" id="f-logo" placeholder="images/xyz-logo.png or https://…" value="${String(draft.logo||'').replace(/"/g,'&quot;')}">
-                  <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" id="f-logo-file"></label>
+                  <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" data-upload-kind="logo" id="f-logo-file"></label>
                   <div class="pills" data-field="logo"></div>
                 </div>
               </div>
@@ -2023,7 +2262,6 @@ function openEditor(g){
           <div class="sec-title">Notes</div>
           <div class="field">
             <textarea id="f-notes" placeholder="Any notes about this game…">${String(draft.notes||'').replace(/</g,'&lt;')}</textarea>
-            <div class="pills" data-field="notes"></div>
           </div>
         </div>
       </div>
@@ -2055,14 +2293,46 @@ function openEditor(g){
 
   $('#f-screenshot').addEventListener('input', e => {
     const v = e.target.value.trim();
-    $('#shot-preview').innerHTML = v ? `<img src="${v}" alt="">` : '1280 × 720';
+    $('#shot-preview').innerHTML = v ? `<img src="${screenshotSrc(v)}" alt="">` : '1280 × 720';
   });
   $('#f-logo').addEventListener('input', e => {
     const v = e.target.value.trim();
-    $('#logo-preview').innerHTML = v ? `<img src="${v}" alt="">` : '504 × 562';
+    $('#logo-preview').innerHTML = v ? `<img src="${logoSrc(v)}" alt="">` : '504 × 562';
   });
-  $('#f-screenshot-file').addEventListener('change', () => toast('File upload not wired yet — paste a URL instead', 'bad'));
-  $('#f-logo-file').addEventListener('change', () => toast('File upload not wired yet — paste a URL instead', 'bad'));
+
+  // Upload buttons — real GitHub Contents API commits
+  async function handleUpload(file, kind){
+    if(!file) return;
+    const nameVal = ($('#f-name').value || '').trim();
+    if(!nameVal){ toast('Enter a name first — needed for the image path', 'bad'); return; }
+    const gameId = draft.id || nameVal.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    if(!getToken()){ showTokenPrompt(); return; }
+    const uploadBtn = file.__btn;
+    const origHTML = uploadBtn ? uploadBtn.innerHTML : '';
+    if(uploadBtn){ uploadBtn.disabled = true; uploadBtn.innerHTML = 'Uploading…'; }
+    try{
+      const path = await uploadFileToRepo(file, gameId, kind);
+      const field = kind === 'screenshot' ? $('#f-screenshot') : $('#f-logo');
+      field.value = path;
+      field.dispatchEvent(new Event('input', { bubbles: true }));
+      toast('Uploaded ' + path);
+    }catch(err){
+      console.error('Upload failed:', err);
+      toast('Upload failed: ' + err.message, 'bad');
+    }finally{
+      if(uploadBtn){ uploadBtn.disabled = false; uploadBtn.innerHTML = origHTML; }
+    }
+  }
+  const shotFile = $('#f-screenshot-file');
+  const logoFile = $('#f-logo-file');
+  if(shotFile){
+    shotFile.__btn = shotFile.closest('.upload-btn');
+    shotFile.addEventListener('change', e => handleUpload(e.target.files[0], 'screenshot'));
+  }
+  if(logoFile){
+    logoFile.__btn = logoFile.closest('.upload-btn');
+    logoFile.addEventListener('change', e => handleUpload(e.target.files[0], 'logo'));
+  }
 
   $('#flag-row').addEventListener('click', e => {
     const btn = e.target.closest('.flag-btn');
