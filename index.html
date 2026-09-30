@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/corsfix"></script>
 <style>
   :root{
     --bg:#0a0d14;--bg-glow:#0f1622;--card:#101624;--border:#1e2836;
@@ -318,8 +319,6 @@
   .btn.danger{color:var(--red);border-color:rgba(239,68,68,.4);background:rgba(239,68,68,.06)}
   .btn.danger:hover{color:#fff;border-color:var(--red);background:rgba(239,68,68,.18)}
   .btn .icon{width:.9em;height:.9em}
-  .btn .spinner{display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;animation:spin .7s linear infinite;}
-  @keyframes spin{to{transform:rotate(360deg)}}
   .parse-bar{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.8rem 1rem;background:linear-gradient(180deg,rgba(56,189,248,.04) 0%,transparent 100%);border:1px solid rgba(56,189,248,.22);border-radius:9px;margin-bottom:1.2rem;}
   .parse-bar .parse-title{font-family:var(--font-head);font-size:.56rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-right:.2rem;}
   .src-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .65rem;border:1px solid var(--border);border-radius:6px;background:rgba(255,255,255,.01);color:#cbd5e1;cursor:default;white-space:nowrap;}
@@ -622,7 +621,6 @@ function hltbExtraKey(str){
 }
 function nameKey(str){ return String(str||'').toLowerCase(); }
 
-/* Levenshtein similarity (0..1) */
 function levSimilarity(a, b){
   let longer = String(a||'').toLowerCase().trim();
   let shorter = String(b||'').toLowerCase().trim();
@@ -643,7 +641,7 @@ function levSimilarity(a, b){
 }
 
 /* ============================================================
-   LBDB TITLE NORMALIZATION (ported from Apps Script)
+   LBDB TITLE NORMALIZATION
    ============================================================ */
 const ROM_EXTENSIONS = [
   "chd","zip","7z","rar","iso","cue","bin","gdi","cdi","mdf","ccd","img",
@@ -1084,15 +1082,15 @@ function hltbMapToFields(d){
 }
 
 /* ============================================================
-   PCGW  (direct browser, wikitext)
+   PCGW  (via Corsfix SDK — bypasses CORS)
    ============================================================ */
 async function pcgwSearch(name){
-  const url = 'https://www.pcgamingwiki.com/w/api.php'
+  const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
     + '&srsearch=' + encodeURIComponent(name)
-    + '&srlimit=5&format=json&origin=*';
-  console.log('[PCGW] search URL:', url);
-  const res = await fetch(url);
+    + '&srlimit=5&format=json';
+  console.log('[PCGW] search target:', target);
+  const res = await corsfix.fetch(target);
   console.log('[PCGW] search HTTP:', res.status);
   if(!res.ok) throw new Error('search HTTP ' + res.status);
   const data = await res.json();
@@ -1101,11 +1099,11 @@ async function pcgwSearch(name){
   return hits;
 }
 async function pcgwGetWikitext(pageTitle){
-  const url = 'https://www.pcgamingwiki.com/w/api.php'
+  const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=parse&page=' + encodeURIComponent(pageTitle)
-    + '&prop=wikitext&format=json&origin=*';
+    + '&prop=wikitext&format=json';
   console.log('[PCGW] fetch page:', pageTitle);
-  const res = await fetch(url);
+  const res = await corsfix.fetch(target);
   console.log('[PCGW] page HTTP:', res.status);
   if(!res.ok) throw new Error('page HTTP ' + res.status);
   const data = await res.json();
@@ -1114,7 +1112,6 @@ async function pcgwGetWikitext(pageTitle){
   return wt;
 }
 function pcgwExtractTemplateField(wikitext, field){
-  // relaxed: allow any character except closing braces and pipe separators
   const re = new RegExp('\\{\\{\\s*Infobox game\\/row\\/' + field + '\\s*\\|\\s*([^\\}\\|]+?)\\s*(?:\\||\\}\\})', 'gi');
   const out = []; let m;
   while((m = re.exec(wikitext)) !== null){
@@ -1124,7 +1121,6 @@ function pcgwExtractTemplateField(wikitext, field){
   return out;
 }
 function pcgwExtractDates(wikitext){
-  // {{Infobox game/row/date|Platform|Date}} — group 1 platform, group 2 date
   const re = /\{\{\s*Infobox game\/row\/date\s*\|\s*([^\|\}]+?)\s*\|\s*([^\|\}]+?)\s*(?:\||\}\})/gi;
   const out = []; let m;
   while((m = re.exec(wikitext)) !== null){
@@ -1224,7 +1220,6 @@ function lbdbMapToFields(entry){
    ============================================================ */
 function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
   let score = levSimilarity(cName || '', fName || '');
-  // Platform: strong secondary signal, only when the form has one filled
   if(fPlatform && String(fPlatform).trim()){
     const cp = String(cPlatform || '').toLowerCase().trim();
     const fp = String(fPlatform).toLowerCase().trim();
@@ -1233,7 +1228,6 @@ function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
       else score -= 0.3;
     }
   }
-  // Release year: tie-breaker, only when the form has one filled
   if(fRelease && String(fRelease).trim() && cRelease){
     const fy = String(fRelease).match(/\d{4}/);
     const cy = String(cRelease).match(/\d{4}/);
@@ -1304,7 +1298,6 @@ async function uploadFileToRepo(file, gameId, kind){
   const b64 = await fileToBase64(file);
   const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
 
-  // Get existing file SHA (needed for overwrite)
   let sha;
   try{
     const check = await fetch(apiUrl, {
@@ -1890,7 +1883,6 @@ function renderVariantPills(results){
     pillsHost.innerHTML = pills.join('');
   }
 
-  // HLTB pills — special (two inputs)
   const hltbHost = modalSlot.querySelector('.pills[data-field="hltb"]');
   if(hltbHost){
     const mainVal = (modalSlot.querySelector('#f-hltb-main')?.value || '').trim();
@@ -1914,7 +1906,6 @@ function renderVariantPills(results){
 }
 
 function attachPillHandlers(){
-  // Attach to whole modal slot — no scoping issues for the Media section
   modalSlot.addEventListener('click', e => {
     const pill = e.target.closest('.pill');
     if(!pill || !pill.dataset.field) return;
@@ -1971,7 +1962,6 @@ async function runParse(){
 
   const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null };
 
-  /* -------- IGDB -------- */
   const igdbTask = (async () => {
     try{
       const hits = await igdbSearch(name);
@@ -1999,7 +1989,6 @@ async function runParse(){
     }
   })();
 
-  /* -------- Steam -------- */
   const steamTask = (async () => {
     try{
       const data = await steamSearch(name);
@@ -2012,7 +2001,6 @@ async function runParse(){
     }
   })();
 
-  /* -------- PCGW -------- */
   const pcgwTask = (async () => {
     try{
       const hits = await pcgwSearch(name);
@@ -2036,7 +2024,6 @@ async function runParse(){
     }
   })();
 
-  /* -------- LBDB -------- */
   const lbdbTask = (async () => {
     try{
       const entries = await lbdbLookup(name);
@@ -2059,7 +2046,6 @@ async function runParse(){
     }
   })();
 
-  /* -------- HLTB -------- */
   const hltbTask = (async () => {
     try{
       const data = await hltbSearch(name);
@@ -2300,7 +2286,6 @@ function openEditor(g){
     $('#logo-preview').innerHTML = v ? `<img src="${logoSrc(v)}" alt="">` : '504 × 562';
   });
 
-  // Upload buttons — real GitHub Contents API commits
   async function handleUpload(file, kind){
     if(!file) return;
     const nameVal = ($('#f-name').value || '').trim();
