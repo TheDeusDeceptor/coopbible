@@ -1,0 +1,42 @@
+name: Update LBDB metadata
+
+on:
+  workflow_dispatch:   # triggered manually from the admin panel
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit the result back
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download LaunchBox Metadata.zip
+        run: |
+          echo "Downloading Metadata.zip..."
+          curl -L --fail --retry 3 -o /tmp/Metadata.zip \
+            https://gamesdb.launchbox-app.com/Metadata.zip
+          ls -lh /tmp/Metadata.zip
+
+      - name: Convert to lean JSON
+        run: |
+          python LBDB/convert.py /tmp/Metadata.zip LBDB/metadata.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add LBDB/metadata.json
+          if git diff --quiet --cached; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update LBDB metadata ($(date -u +%Y-%m-%d))"
+            git push
+          fi
