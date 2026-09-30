@@ -3,16 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vault — Corsfix SDK Test</title>
+<title>Vault — SGDB + SaveImage Test</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/corsfix"></script>
 <style>
   :root{
     --bg:#0a0d14;--card:#101624;--border:#1e2836;
     --accent:#38bdf8;--accent-soft:rgba(56,189,248,.14);--accent-line:rgba(56,189,248,.35);
     --text:#e6ebf2;--muted:#7d8798;
-    --green:#4ade80;--amber:#f59e0b;--red:#ef4444;--purple:#a78bfa;--hltb:#fb7185;
+    --green:#4ade80;--amber:#f59e0b;--red:#ef4444;--purple:#a78bfa;
     --font-head:'Chakra Petch',system-ui,sans-serif;
     --font-body:'Inter',system-ui,sans-serif;
   }
@@ -24,8 +23,6 @@
   .panel{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.25rem;margin-bottom:1.1rem}
   .panel h2{font-family:var(--font-head);font-weight:700;font-size:.95rem;letter-spacing:.04em;color:#fff;margin-bottom:.9rem;display:flex;align-items:center;gap:.6rem}
   .panel h2 .badge{font-size:.55rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent-line)}
-  .panel h2 .badge.proxy{background:rgba(167,139,250,.15);color:var(--purple);border-color:rgba(167,139,250,.4)}
-  .panel h2 .badge.corsfix{background:rgba(56,189,248,.15);color:#38bdf8;border-color:rgba(56,189,248,.4)}
   .row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:.6rem}
   .row label{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);min-width:90px}
   input[type=text],input[type=url]{flex:1;min-width:180px;font-family:ui-monospace,monospace;font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.55rem .7rem;outline:none}
@@ -35,22 +32,24 @@
   button.primary{background:var(--accent);color:#0a0d14;border-color:var(--accent)}
   button.primary:hover{filter:brightness(1.1);color:#0a0d14}
   .tiny{font-size:.75rem;color:var(--muted);line-height:1.55;margin-top:.4rem}
-  #log{background:#060810;border:1px solid var(--border);border-radius:8px;padding:1rem;font-family:ui-monospace,SFMono-Regular,monospace;font-size:.78rem;line-height:1.55;color:#c8d1de;height:640px;overflow-y:auto;white-space:pre-wrap;word-break:break-word}
+  #log{background:#060810;border:1px solid var(--border);border-radius:8px;padding:1rem;font-family:ui-monospace,SFMono-Regular,monospace;font-size:.78rem;line-height:1.55;color:#c8d1de;height:500px;overflow-y:auto;white-space:pre-wrap;word-break:break-word}
   .log-line{padding:.15rem 0;border-bottom:1px solid rgba(255,255,255,.03)}
   .log-time{color:#4a5468;margin-right:.5rem}
-  .log-ok{color:var(--green)}
-  .log-bad{color:var(--red)}
-  .log-warn{color:var(--amber)}
-  .log-info{color:var(--accent)}
-  .log-src{color:var(--purple);font-weight:600}
+  .log-ok{color:var(--green)} .log-bad{color:var(--red)} .log-warn{color:var(--amber)}
+  .log-info{color:var(--accent)} .log-src{color:var(--purple);font-weight:600}
   .log-payload{color:#8b94a5;display:block;padding-left:1rem;font-size:.72rem;margin-top:.2rem;max-height:280px;overflow:auto;white-space:pre-wrap}
+  .logo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.75rem;margin-top:.75rem}
+  .logo-tile{background:#0a0e15;border:1px solid var(--border);border-radius:8px;padding:.5rem;cursor:pointer;transition:all .15s ease;text-align:center}
+  .logo-tile:hover{border-color:var(--accent-line);background:rgba(56,189,248,.04)}
+  .logo-tile img{width:100%;height:80px;object-fit:contain;background:#000;border-radius:4px}
+  .logo-tile .meta{font-size:.62rem;color:var(--muted);margin-top:.35rem;font-family:var(--font-head);letter-spacing:.06em;text-transform:uppercase}
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <h1>Co-Op Vault — Corsfix SDK Test</h1>
-  <div class="sub">PCGW via <code>corsfix.fetch()</code> + regression of other sources.</div>
+  <h1>Co-Op Vault — SGDB &amp; SaveImage Test</h1>
+  <div class="sub">Tests the two new endpoints. Everything logs below.</div>
 
   <div class="panel">
     <h2><span class="badge">config</span> Endpoints</h2>
@@ -63,47 +62,47 @@
       <input type="text" id="game-name" value="Portal 2">
     </div>
     <div class="row">
+      <label>Game ID</label>
+      <input type="text" id="game-id" value="portal-2">
+    </div>
+    <div class="row">
       <button class="primary" id="run-all">▶ Run everything</button>
       <button id="clear-log">Clear log</button>
     </div>
   </div>
 
   <div class="panel">
-    <h2><span class="badge corsfix">corsfix</span> SDK check</h2>
-    <div class="row"><button id="t-sdk">Check window.corsfix exists</button></div>
-    <div class="tiny">Confirms the CDN script loaded and exposes corsfix.fetch.</div>
+    <h2><span class="badge">sgdb</span> SGDB Search</h2>
+    <div class="row"><button class="primary" id="t-sgdb">Search SGDB</button></div>
+    <div class="tiny">Returns game match + top 10 logos. Click any tile below to feed it into saveimage.</div>
+    <div class="logo-grid" id="logo-grid"></div>
   </div>
 
   <div class="panel">
-    <h2><span class="badge corsfix">corsfix</span> PCGW SEARCH</h2>
-    <div class="row"><button class="primary" id="t-pcgw-search">Test PCGW search</button></div>
-    <div class="tiny">corsfix.fetch to PCGW's action=query&list=search endpoint.</div>
-  </div>
-
-  <div class="panel">
-    <h2><span class="badge corsfix">corsfix</span> PCGW PAGE</h2>
-    <div class="row"><button class="primary" id="t-pcgw-page">Test PCGW page wikitext</button></div>
-    <div class="tiny">Fetches the actual wikitext — should return 30+ KB.</div>
-  </div>
-
-  <div class="panel">
-    <h2><span class="badge corsfix">corsfix</span> PCGW FULL PARSE</h2>
-    <div class="row"><button class="primary" id="t-pcgw-full">Test PCGW full parse</button></div>
-    <div class="tiny">Same pipeline index.html uses. Expected: dev/pub/dates/size populated.</div>
-  </div>
-
-  <div class="panel">
-    <h2><span class="badge proxy">apps script</span> IGDB / Steam / HLTB</h2>
+    <h2><span class="badge">save</span> Save Image to Repo</h2>
     <div class="row">
-      <button id="t-igdb">IGDB</button>
-      <button id="t-steam">Steam</button>
-      <button id="t-hltb">HLTB</button>
+      <label>Kind</label>
+      <input type="text" id="save-kind" value="logo" style="max-width:120px">
     </div>
+    <div class="row">
+      <label>Source URL</label>
+      <input type="text" id="save-url" placeholder="click a logo tile above, or paste a URL">
+    </div>
+    <div class="row">
+      <button class="primary" id="t-save">Save to repo</button>
+      <button id="t-save-screenshot">Test screenshot save</button>
+    </div>
+    <div class="tiny">Screenshot test uses a fixed Steam screenshot URL for Portal 2. Logo test uses whatever's in the URL field.</div>
   </div>
 
   <div class="panel">
-    <h2><span class="badge">direct</span> LBDB</h2>
-    <div class="row"><button id="t-lbdb">Test LBDB lookup</button></div>
+    <h2><span class="badge">regression</span> Existing sources</h2>
+    <div class="row">
+      <button id="t-ping">ping</button>
+      <button id="t-igdb">igdb</button>
+      <button id="t-steam">steam</button>
+      <button id="t-hltb">hltb</button>
+    </div>
   </div>
 
   <div class="panel">
@@ -118,6 +117,7 @@
 const logEl = document.getElementById('log');
 const proxyInput = document.getElementById('proxy-url');
 const gameInput = document.getElementById('game-name');
+const gameIdInput = document.getElementById('game-id');
 
 function tstamp(){
   const d = new Date();
@@ -139,7 +139,7 @@ function log(msg, cls){
 }
 function logPayload(label, obj){
   const s = typeof obj === 'string' ? obj : JSON.stringify(obj, null, 2);
-  const truncated = s.length > 2500 ? s.slice(0, 2500) + '\n…[truncated ' + (s.length - 2500) + ' more chars]' : s;
+  const trunc = s.length > 2500 ? s.slice(0, 2500) + '\n…[truncated ' + (s.length - 2500) + ' more]' : s;
   const line = document.createElement('div');
   line.className = 'log-line';
   const t = document.createElement('span');
@@ -149,7 +149,7 @@ function logPayload(label, obj){
   line.appendChild(document.createTextNode(label + ':'));
   const pre = document.createElement('span');
   pre.className = 'log-payload';
-  pre.textContent = truncated;
+  pre.textContent = trunc;
   line.appendChild(pre);
   logEl.appendChild(line);
   logEl.scrollTop = logEl.scrollHeight;
@@ -168,264 +168,143 @@ document.getElementById('clear-log').onclick = () => { logEl.innerHTML = ''; log
 
 function proxyBase(){ return proxyInput.value.trim().replace(/\/+$/, ''); }
 function testGame(){ return gameInput.value.trim() || 'Portal 2'; }
+function testGameId(){ return gameIdInput.value.trim() || 'portal-2'; }
 
 /* ============================================================ */
-function testSdk(){
-  hr('SDK CHECK');
-  if(typeof window.corsfix === 'undefined'){
-    log('  ✗ window.corsfix is undefined — CDN script did not load', 'log-bad');
-    log('  → check <script src="https://unpkg.com/corsfix"> in <head>', 'log-warn');
-    return false;
-  }
-  log('  ✓ window.corsfix present', 'log-ok');
-  log('  type: ' + typeof window.corsfix, 'log-info');
-  log('  has .fetch: ' + (typeof window.corsfix.fetch === 'function'), 'log-info');
-  if(window.corsfix.version) log('  version: ' + window.corsfix.version, 'log-info');
-  return true;
-}
-
-async function testPcgwSearch(){
-  hr('PCGW SEARCH via corsfix.fetch');
-  if(!testSdk()) return;
-  const target = 'https://www.pcgamingwiki.com/w/api.php'
-    + '?action=query&list=search'
-    + '&srsearch=' + encodeURIComponent(testGame())
-    + '&srlimit=5&format=json';
-  log('  target: ' + target, 'log-src');
+async function testSgdb(){
+  hr('SGDB SEARCH');
+  const url = proxyBase() + '?action=sgdb&q=' + encodeURIComponent(testGame());
+  log('GET ' + url, 'log-src');
   const t0 = performance.now();
+  const grid = document.getElementById('logo-grid');
+  grid.innerHTML = '';
   try{
-    const res = await corsfix.fetch(target);
+    const res = await fetch(url);
     const dt = Math.round(performance.now() - t0);
     log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
-    log('  CORS header: ' + (res.headers.get('access-control-allow-origin') || '(none)'), 'log-info');
-    const txt = await res.text();
-    if(!res.ok){ logPayload('  body', txt.slice(0, 400)); return; }
-    let data;
-    try { data = JSON.parse(txt); }
-    catch(e){ log('  ✗ not JSON: ' + e.message, 'log-bad'); logPayload('  body', txt.slice(0, 400)); return; }
-    if(data.error){ log('  ✗ API error: ' + data.error.info, 'log-bad'); return; }
-    const hits = (data.query && data.query.search) || [];
-    log('  ✓ ' + hits.length + ' results', hits.length ? 'log-ok' : 'log-warn');
-    hits.forEach((h, i) => log('    ' + (i+1) + '. ' + h.title, 'log-info'));
+    const data = await res.json();
+    if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
+    log('  ✓ game: ' + data.gameName + ' (SGDB id ' + data.gameId + ')', 'log-ok');
+    log('  ✓ ' + data.logos.length + ' logos', data.logos.length ? 'log-ok' : 'log-warn');
+    data.logos.forEach((l, i) => {
+      log('    ' + (i+1) + '. style=' + (l.style||'-') + '  ' + l.width + '×' + l.height + '  ' + l.url.slice(-30), 'log-info');
+      const tile = document.createElement('div');
+      tile.className = 'logo-tile';
+      tile.innerHTML = `<img src="${l.thumb || l.url}" alt=""><div class="meta">${l.style || 'logo'}</div>`;
+      tile.onclick = () => {
+        document.getElementById('save-url').value = l.url;
+        document.getElementById('save-kind').value = 'logo';
+        log('  → picked logo URL into save field: ' + l.url.slice(-40), 'log-ok');
+      };
+      grid.appendChild(tile);
+    });
   }catch(e){
     log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
   }
 }
 
-async function testPcgwPage(){
-  hr('PCGW PAGE via corsfix.fetch');
-  if(!testSdk()) return;
-  const searchTarget = 'https://www.pcgamingwiki.com/w/api.php'
-    + '?action=query&list=search'
-    + '&srsearch=' + encodeURIComponent(testGame())
-    + '&srlimit=1&format=json';
-  log('Step 1: search for page title', 'log-src');
-  let title = null;
-  try{
-    const res = await corsfix.fetch(searchTarget);
-    const data = await res.json();
-    const hits = (data.query && data.query.search) || [];
-    if(hits.length) title = hits[0].title;
-    log('  picked: ' + (title || '(none)'), title ? 'log-ok' : 'log-bad');
-  }catch(e){ log('  ✗ search failed: ' + e.message, 'log-bad'); return; }
-  if(!title) return;
-
-  log('Step 2: fetch wikitext', 'log-src');
-  const target = 'https://www.pcgamingwiki.com/w/api.php'
-    + '?action=parse&page=' + encodeURIComponent(title)
-    + '&prop=wikitext&format=json';
+async function testSave(){
+  hr('SAVE IMAGE');
+  const kind = (document.getElementById('save-kind').value || 'logo').trim();
+  const url = (document.getElementById('save-url').value || '').trim();
+  if(!url){ log('  ✗ no source URL — click a logo tile first', 'log-bad'); return; }
+  const full = proxyBase() + '?action=saveimage'
+    + '&kind=' + encodeURIComponent(kind)
+    + '&gameId=' + encodeURIComponent(testGameId())
+    + '&url=' + encodeURIComponent(url);
+  log('GET ' + full, 'log-src');
   const t0 = performance.now();
   try{
-    const res = await corsfix.fetch(target);
+    const res = await fetch(full);
     const dt = Math.round(performance.now() - t0);
     log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
-    if(data.error){ log('  ✗ API error: ' + data.error.info, 'log-bad'); return; }
-    const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
-    log('  ✓ wikitext: ' + wt.length + ' chars', wt.length ? 'log-ok' : 'log-bad');
-    logPayload('  preview (500 chars)', wt.slice(0, 500));
+    if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
+    log('  ✓ saved: ' + data.path + ' (' + Math.round(data.size/1024) + ' KB)', 'log-ok');
   }catch(e){
     log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
   }
 }
 
-async function testPcgwFull(){
-  hr('PCGW FULL PARSE via corsfix.fetch');
-  if(!testSdk()) return;
-  const name = testGame();
-
-  let title = null;
+async function testSaveScreenshot(){
+  hr('SAVE SCREENSHOT (fixed test URL)');
+  const testUrl = 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_f3f6787d74739d3b2ec8a484b5c994b3d31ef325.1920x1080.jpg';
+  const full = proxyBase() + '?action=saveimage'
+    + '&kind=screenshot'
+    + '&gameId=' + encodeURIComponent(testGameId())
+    + '&url=' + encodeURIComponent(testUrl);
+  log('GET ' + full, 'log-src');
   try{
-    const target = 'https://www.pcgamingwiki.com/w/api.php'
-      + '?action=query&list=search'
-      + '&srsearch=' + encodeURIComponent(name)
-      + '&srlimit=5&format=json';
-    const res = await corsfix.fetch(target);
+    const res = await fetch(full);
+    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
-    const hits = (data.query && data.query.search) || [];
-    log('  search hits: ' + hits.length, hits.length ? 'log-ok' : 'log-bad');
-    if(!hits.length) return;
-    const nl = name.toLowerCase();
-    let best = hits[0];
-    for(const h of hits){ if((h.title||'').toLowerCase() === nl){ best = h; break; } }
-    title = best.title;
-    log('  picked: ' + title, 'log-info');
-  }catch(e){ log('  ✗ search failed: ' + e.message, 'log-bad'); return; }
-
-  try{
-    const target = 'https://www.pcgamingwiki.com/w/api.php'
-      + '?action=parse&page=' + encodeURIComponent(title)
-      + '&prop=wikitext&format=json';
-    const res = await corsfix.fetch(target);
-    const data = await res.json();
-    const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
-    log('  wikitext: ' + wt.length + ' chars', wt.length ? 'log-ok' : 'log-bad');
-
-    const devsRe = /\{\{\s*Infobox game\/row\/developer\s*\|\s*([^\}\|]+?)\s*(?:\||\}\})/gi;
-    const pubsRe = /\{\{\s*Infobox game\/row\/publisher\s*\|\s*([^\}\|]+?)\s*(?:\||\}\})/gi;
-    const devs = [], pubs = [];
-    let m;
-    while((m = devsRe.exec(wt)) !== null){ if(!devs.includes(m[1].trim())) devs.push(m[1].trim()); }
-    while((m = pubsRe.exec(wt)) !== null){ if(!pubs.includes(m[1].trim())) pubs.push(m[1].trim()); }
-    log('  developers: ' + (devs.join(', ') || '(none)'), devs.length ? 'log-ok' : 'log-warn');
-    log('  publishers: ' + (pubs.join(', ') || '(none)'), pubs.length ? 'log-ok' : 'log-warn');
-
-    const datesRe = /\{\{\s*Infobox game\/row\/date\s*\|\s*([^\|\}]+?)\s*\|\s*([^\|\}]+?)\s*(?:\||\}\})/gi;
-    const dates = [];
-    while((m = datesRe.exec(wt)) !== null){
-      const dateStr = m[2].trim();
-      const d = new Date(dateStr);
-      if(isNaN(d.getTime())) continue;
-      const dd = String(d.getDate()).padStart(2,'0');
-      const mm = String(d.getMonth()+1).padStart(2,'0');
-      dates.push(dd + '.' + mm + '.' + d.getFullYear());
-    }
-    log('  dates: ' + (dates.slice(0,4).join(' | ') || '(none)'), dates.length ? 'log-ok' : 'log-warn');
-
-    const sizeRe = /\|minHD\s*=\s*([^\|\}\n]+)/gi;
-    let sizeBest = '';
-    while((m = sizeRe.exec(wt)) !== null){
-      const v = m[1].trim();
-      if(v && (!sizeBest || v.length < sizeBest.length)) sizeBest = v;
-    }
-    log('  minHD: ' + (sizeBest || '(none)'), sizeBest ? 'log-ok' : 'log-warn');
-
-    const fields = {};
-    if(devs.length) fields.dev = devs.join(', ');
-    if(pubs.length) fields.pub = pubs.join(', ');
-    if(dates.length) fields.release = dates[0];
-    if(sizeBest){
-      const sz = sizeBest.match(/(\d+(?:[.,]\d+)?)\s*(GB|MB|TB)/i);
-      if(sz){
-        let num = parseFloat(sz[1].replace(',', '.'));
-        let unit = sz[2].toUpperCase();
-        if(unit === 'MB'){ num = num / 1024; unit = 'GB'; }
-        num = Math.round(num * 10) / 10;
-        fields.size = num + ' ' + unit;
-      }
-    }
-    log('  ── extracted fields ──', 'log-src');
-    logPayload('  ', fields);
-  }catch(e){ log('  ✗ page failed: ' + e.message, 'log-bad'); }
+    if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
+    log('  ✓ saved: ' + data.path + ' (' + Math.round(data.size/1024) + ' KB)', 'log-ok');
+  }catch(e){
+    log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
+  }
 }
 
+async function testPing(){
+  hr('PING');
+  try{
+    const res = await fetch(proxyBase() + '?action=ping');
+    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
+    logPayload('  ', await res.json());
+  }catch(e){ log('  ✗ ' + e.message, 'log-bad'); }
+}
 async function testIgdb(){
-  hr('IGDB via Apps Script');
-  const url = proxyBase() + '?action=igdb&q=' + encodeURIComponent(testGame());
+  hr('IGDB');
   try{
-    const res = await fetch(url);
+    const res = await fetch(proxyBase() + '?action=igdb&q=' + encodeURIComponent(testGame()));
     log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
     if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
-    log('  ✓ ' + (data.length || 0) + ' results', 'log-ok');
-    (data || []).slice(0, 3).forEach((h,i) => log('    ' + (i+1) + '. ' + h.name, 'log-info'));
+    log('  ✓ ' + data.length + ' results', 'log-ok');
   }catch(e){ log('  ✗ ' + e.message, 'log-bad'); }
 }
-
 async function testSteam(){
-  hr('Steam via Apps Script');
-  const url = proxyBase() + '?action=steam&q=' + encodeURIComponent(testGame());
+  hr('STEAM');
   try{
-    const res = await fetch(url);
+    const res = await fetch(proxyBase() + '?action=steam&q=' + encodeURIComponent(testGame()));
     log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
     if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
-    log('  ✓ ' + data.name + ' (appId ' + data.appId + ')', 'log-ok');
-    log('  ✓ dev/pub: ' + data.developer + ' / ' + data.publisher, 'log-ok');
-    log('  ✓ release: ' + data.release, 'log-ok');
-    log('  ✓ size: ' + (data.size || '(empty)'), data.size ? 'log-ok' : 'log-warn');
+    log('  ✓ ' + data.name + '  size=' + (data.size||'-'), 'log-ok');
   }catch(e){ log('  ✗ ' + e.message, 'log-bad'); }
 }
-
 async function testHltb(){
-  hr('HLTB via Apps Script');
-  const url = proxyBase() + '?action=hltb&q=' + encodeURIComponent(testGame());
+  hr('HLTB');
   try{
-    const res = await fetch(url);
+    const res = await fetch(proxyBase() + '?action=hltb&q=' + encodeURIComponent(testGame()));
     log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
     if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
-    log('  ✓ story ' + data.story + ' / extras ' + data.extras + ' / completionist ' + data.completionist, 'log-ok');
+    log('  ✓ story=' + data.story + '  extras=' + data.extras, 'log-ok');
   }catch(e){ log('  ✗ ' + e.message, 'log-bad'); }
-}
-
-let LBDB_CACHE = null;
-async function testLbdb(){
-  hr('LBDB direct');
-  if(!LBDB_CACHE){
-    const t0 = performance.now();
-    try{
-      const res = await fetch('LBDB/metadata.json', { cache: 'no-cache' });
-      log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
-      if(!res.ok) return;
-      const data = await res.json();
-      const dt = Math.round(performance.now() - t0);
-      const games = data.games || (Array.isArray(data) ? data : []);
-      log('  ✓ ' + games.length + ' games parsed in ' + dt + 'ms', 'log-ok');
-      const norm = s => String(s||'').toLowerCase().trim().replace(/[^\w\s]/g,' ').replace(/\s+/g,' ').trim();
-      const map = new Map();
-      for(const g of games){
-        const n = g.n || g.name;
-        if(!n) continue;
-        const key = norm(n);
-        if(!key) continue;
-        if(!map.has(key)) map.set(key, []);
-        map.get(key).push(g);
-      }
-      LBDB_CACHE = { map };
-    }catch(e){ log('  ✗ ' + e.message, 'log-bad'); return; }
-  }
-  const norm = s => String(s||'').toLowerCase().trim().replace(/[^\w\s]/g,' ').replace(/\s+/g,' ').trim();
-  const hits = LBDB_CACHE.map.get(norm(testGame())) || [];
-  log('  ✓ ' + hits.length + ' matches for "' + testGame() + '"', hits.length ? 'log-ok' : 'log-warn');
-  hits.slice(0, 5).forEach((g,i) => log('    ' + (i+1) + '. ' + (g.n||g.name) + '  [' + (g.p||'') + ']', 'log-info'));
 }
 
 /* ============================================================ */
-document.getElementById('t-sdk').onclick         = testSdk;
-document.getElementById('t-pcgw-search').onclick = testPcgwSearch;
-document.getElementById('t-pcgw-page').onclick   = testPcgwPage;
-document.getElementById('t-pcgw-full').onclick   = testPcgwFull;
-document.getElementById('t-igdb').onclick        = testIgdb;
-document.getElementById('t-steam').onclick       = testSteam;
-document.getElementById('t-hltb').onclick        = testHltb;
-document.getElementById('t-lbdb').onclick        = testLbdb;
+document.getElementById('t-sgdb').onclick = testSgdb;
+document.getElementById('t-save').onclick = testSave;
+document.getElementById('t-save-screenshot').onclick = testSaveScreenshot;
+document.getElementById('t-ping').onclick = testPing;
+document.getElementById('t-igdb').onclick = testIgdb;
+document.getElementById('t-steam').onclick = testSteam;
+document.getElementById('t-hltb').onclick = testHltb;
 
 document.getElementById('run-all').onclick = async () => {
   hr('RUN ALL — START');
-  testSdk();
-  await testPcgwSearch();
-  await testPcgwFull();
+  await testPing();
+  await testSgdb();
   await testIgdb();
   await testSteam();
   await testHltb();
-  await testLbdb();
-  hr('RUN ALL — DONE');
+  hr('RUN ALL — DONE (pick a logo tile, then click "Save to repo")');
 };
 
-/* ============================================================ */
 log('Tester ready.', 'log-info');
-log('PCGW via corsfix.fetch (SDK). Other sources via Apps Script + LBDB direct.', 'log-info');
+log('Run all → pick a logo tile below SGDB → click Save to repo.', 'log-info');
 </script>
 </body>
 </html>
