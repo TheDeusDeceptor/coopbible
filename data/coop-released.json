@@ -1,3 +1,23 @@
 {
-  "games": []
+  "games": [
+    {
+      "id": "helldivers-2",
+      "name": "Helldivers 2",
+      "group": "coop",
+      "tab": "released",
+      "platform": "PC",
+      "release": "08.02.2024",
+      "size": "135 GB",
+      "hltb": "Main: 32, +Extra: 65",
+      "dev": "Arrowhead Game Studios",
+      "pub": "Sony Interactive Entertainment",
+      "notes": "",
+      "ready": false,
+      "onDisk": false,
+      "links": [],
+      "extraTags": [],
+      "screenshot": "images/screenshots/helldivers-2.jpg",
+      "logo": "images/logos/helldivers-2.png"
+    }
+  ]
 }
