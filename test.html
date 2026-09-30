@@ -3,9 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vault — Corsfix PCGW Test</title>
+<title>Vault — Corsfix SDK Test</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/corsfix"></script>
 <style>
   :root{
     --bg:#0a0d14;--card:#101624;--border:#1e2836;
@@ -25,7 +26,6 @@
   .panel h2 .badge{font-size:.55rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent-line)}
   .panel h2 .badge.proxy{background:rgba(167,139,250,.15);color:var(--purple);border-color:rgba(167,139,250,.4)}
   .panel h2 .badge.corsfix{background:rgba(56,189,248,.15);color:#38bdf8;border-color:rgba(56,189,248,.4)}
-  .panel h2 .badge.hltb{background:rgba(251,113,133,.12);color:var(--hltb);border-color:rgba(251,113,133,.4)}
   .row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:.6rem}
   .row label{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);min-width:90px}
   input[type=text],input[type=url]{flex:1;min-width:180px;font-family:ui-monospace,monospace;font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.55rem .7rem;outline:none}
@@ -34,7 +34,6 @@
   button:hover{color:#fff;border-color:var(--accent-line);background:var(--accent-soft)}
   button.primary{background:var(--accent);color:#0a0d14;border-color:var(--accent)}
   button.primary:hover{filter:brightness(1.1);color:#0a0d14}
-  button:disabled{opacity:.5;cursor:wait}
   .tiny{font-size:.75rem;color:var(--muted);line-height:1.55;margin-top:.4rem}
   #log{background:#060810;border:1px solid var(--border);border-radius:8px;padding:1rem;font-family:ui-monospace,SFMono-Regular,monospace;font-size:.78rem;line-height:1.55;color:#c8d1de;height:640px;overflow-y:auto;white-space:pre-wrap;word-break:break-word}
   .log-line{padding:.15rem 0;border-bottom:1px solid rgba(255,255,255,.03)}
@@ -50,18 +49,14 @@
 <body>
 <div class="wrap">
 
-  <h1>Co-Op Vault — Corsfix PCGW Test</h1>
-  <div class="sub">Confirming PCGW now works via Corsfix proxy. Other sources re-tested for regression.</div>
+  <h1>Co-Op Vault — Corsfix SDK Test</h1>
+  <div class="sub">PCGW via <code>corsfix.fetch()</code> + regression of other sources.</div>
 
   <div class="panel">
     <h2><span class="badge">config</span> Endpoints</h2>
     <div class="row">
       <label>Apps Script</label>
       <input type="url" id="proxy-url" value="https://script.google.com/macros/s/AKfycbx53crSCIWCDRVuAtNpL4D2E_kBJXwRQTa5gUXY9LMAVSGwjdBWPE3gvh8Acvmao1kr/exec">
-    </div>
-    <div class="row">
-      <label>Corsfix</label>
-      <input type="url" id="corsfix-url" value="https://proxy.corsfix.com/?">
     </div>
     <div class="row">
       <label>Test game</label>
@@ -74,21 +69,27 @@
   </div>
 
   <div class="panel">
+    <h2><span class="badge corsfix">corsfix</span> SDK check</h2>
+    <div class="row"><button id="t-sdk">Check window.corsfix exists</button></div>
+    <div class="tiny">Confirms the CDN script loaded and exposes corsfix.fetch.</div>
+  </div>
+
+  <div class="panel">
     <h2><span class="badge corsfix">corsfix</span> PCGW SEARCH</h2>
     <div class="row"><button class="primary" id="t-pcgw-search">Test PCGW search</button></div>
-    <div class="tiny">Should return 5+ search hits for the test game.</div>
+    <div class="tiny">corsfix.fetch to PCGW's action=query&list=search endpoint.</div>
   </div>
 
   <div class="panel">
     <h2><span class="badge corsfix">corsfix</span> PCGW PAGE</h2>
     <div class="row"><button class="primary" id="t-pcgw-page">Test PCGW page wikitext</button></div>
-    <div class="tiny">Fetches the actual wikitext for the first hit — should return 30+ KB.</div>
+    <div class="tiny">Fetches the actual wikitext — should return 30+ KB.</div>
   </div>
 
   <div class="panel">
     <h2><span class="badge corsfix">corsfix</span> PCGW FULL PARSE</h2>
     <div class="row"><button class="primary" id="t-pcgw-full">Test PCGW full parse</button></div>
-    <div class="tiny">Search → pick best → fetch → extract dev/pub/date/size. This is what the admin does.</div>
+    <div class="tiny">Same pipeline index.html uses. Expected: dev/pub/dates/size populated.</div>
   </div>
 
   <div class="panel">
@@ -98,7 +99,6 @@
       <button id="t-steam">Steam</button>
       <button id="t-hltb">HLTB</button>
     </div>
-    <div class="tiny">Regression check — these were working before.</div>
   </div>
 
   <div class="panel">
@@ -117,7 +117,6 @@
 /* ============================================================ */
 const logEl = document.getElementById('log');
 const proxyInput = document.getElementById('proxy-url');
-const corsfixInput = document.getElementById('corsfix-url');
 const gameInput = document.getElementById('game-name');
 
 function tstamp(){
@@ -168,26 +167,34 @@ function hr(label){
 document.getElementById('clear-log').onclick = () => { logEl.innerHTML = ''; log('Log cleared', 'log-info'); };
 
 function proxyBase(){ return proxyInput.value.trim().replace(/\/+$/, ''); }
-function corsfixBase(){
-  const v = corsfixInput.value.trim();
-  // Ensure trailing '?' so we can just append target URL
-  if(v.endsWith('?')) return v;
-  return v.replace(/\/+$/, '') + '/?';
-}
 function testGame(){ return gameInput.value.trim() || 'Portal 2'; }
 
 /* ============================================================ */
+function testSdk(){
+  hr('SDK CHECK');
+  if(typeof window.corsfix === 'undefined'){
+    log('  ✗ window.corsfix is undefined — CDN script did not load', 'log-bad');
+    log('  → check <script src="https://unpkg.com/corsfix"> in <head>', 'log-warn');
+    return false;
+  }
+  log('  ✓ window.corsfix present', 'log-ok');
+  log('  type: ' + typeof window.corsfix, 'log-info');
+  log('  has .fetch: ' + (typeof window.corsfix.fetch === 'function'), 'log-info');
+  if(window.corsfix.version) log('  version: ' + window.corsfix.version, 'log-info');
+  return true;
+}
+
 async function testPcgwSearch(){
-  hr('PCGW SEARCH via Corsfix');
+  hr('PCGW SEARCH via corsfix.fetch');
+  if(!testSdk()) return;
   const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
     + '&srsearch=' + encodeURIComponent(testGame())
     + '&srlimit=5&format=json';
-  const url = corsfixBase() + target;
-  log('GET ' + url, 'log-src');
+  log('  target: ' + target, 'log-src');
   const t0 = performance.now();
   try{
-    const res = await fetch(url);
+    const res = await corsfix.fetch(target);
     const dt = Math.round(performance.now() - t0);
     log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
     log('  CORS header: ' + (res.headers.get('access-control-allow-origin') || '(none)'), 'log-info');
@@ -206,8 +213,8 @@ async function testPcgwSearch(){
 }
 
 async function testPcgwPage(){
-  hr('PCGW PAGE via Corsfix');
-  // Get a title first
+  hr('PCGW PAGE via corsfix.fetch');
+  if(!testSdk()) return;
   const searchTarget = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
     + '&srsearch=' + encodeURIComponent(testGame())
@@ -215,7 +222,7 @@ async function testPcgwPage(){
   log('Step 1: search for page title', 'log-src');
   let title = null;
   try{
-    const res = await fetch(corsfixBase() + searchTarget);
+    const res = await corsfix.fetch(searchTarget);
     const data = await res.json();
     const hits = (data.query && data.query.search) || [];
     if(hits.length) title = hits[0].title;
@@ -227,40 +234,37 @@ async function testPcgwPage(){
   const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=parse&page=' + encodeURIComponent(title)
     + '&prop=wikitext&format=json';
-  const url = corsfixBase() + target;
   const t0 = performance.now();
   try{
-    const res = await fetch(url);
+    const res = await corsfix.fetch(target);
     const dt = Math.round(performance.now() - t0);
     log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
     if(data.error){ log('  ✗ API error: ' + data.error.info, 'log-bad'); return; }
     const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
     log('  ✓ wikitext: ' + wt.length + ' chars', wt.length ? 'log-ok' : 'log-bad');
-    log('  preview (500 chars):', 'log-info');
-    logPayload('  raw', wt.slice(0, 500));
+    logPayload('  preview (500 chars)', wt.slice(0, 500));
   }catch(e){
     log('  ✗ FETCH FAILED: ' + e.message, 'log-bad');
   }
 }
 
 async function testPcgwFull(){
-  hr('PCGW FULL PARSE via Corsfix');
+  hr('PCGW FULL PARSE via corsfix.fetch');
+  if(!testSdk()) return;
   const name = testGame();
 
-  // Search
   let title = null;
   try{
     const target = 'https://www.pcgamingwiki.com/w/api.php'
       + '?action=query&list=search'
       + '&srsearch=' + encodeURIComponent(name)
       + '&srlimit=5&format=json';
-    const res = await fetch(corsfixBase() + target);
+    const res = await corsfix.fetch(target);
     const data = await res.json();
     const hits = (data.query && data.query.search) || [];
     log('  search hits: ' + hits.length, hits.length ? 'log-ok' : 'log-bad');
     if(!hits.length) return;
-    // pick closest lowercase-exact
     const nl = name.toLowerCase();
     let best = hits[0];
     for(const h of hits){ if((h.title||'').toLowerCase() === nl){ best = h; break; } }
@@ -268,17 +272,15 @@ async function testPcgwFull(){
     log('  picked: ' + title, 'log-info');
   }catch(e){ log('  ✗ search failed: ' + e.message, 'log-bad'); return; }
 
-  // Page
   try{
     const target = 'https://www.pcgamingwiki.com/w/api.php'
       + '?action=parse&page=' + encodeURIComponent(title)
       + '&prop=wikitext&format=json';
-    const res = await fetch(corsfixBase() + target);
+    const res = await corsfix.fetch(target);
     const data = await res.json();
     const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
     log('  wikitext: ' + wt.length + ' chars', wt.length ? 'log-ok' : 'log-bad');
 
-    // Dev / pub
     const devsRe = /\{\{\s*Infobox game\/row\/developer\s*\|\s*([^\}\|]+?)\s*(?:\||\}\})/gi;
     const pubsRe = /\{\{\s*Infobox game\/row\/publisher\s*\|\s*([^\}\|]+?)\s*(?:\||\}\})/gi;
     const devs = [], pubs = [];
@@ -288,7 +290,6 @@ async function testPcgwFull(){
     log('  developers: ' + (devs.join(', ') || '(none)'), devs.length ? 'log-ok' : 'log-warn');
     log('  publishers: ' + (pubs.join(', ') || '(none)'), pubs.length ? 'log-ok' : 'log-warn');
 
-    // Dates
     const datesRe = /\{\{\s*Infobox game\/row\/date\s*\|\s*([^\|\}]+?)\s*\|\s*([^\|\}]+?)\s*(?:\||\}\})/gi;
     const dates = [];
     while((m = datesRe.exec(wt)) !== null){
@@ -301,7 +302,6 @@ async function testPcgwFull(){
     }
     log('  dates: ' + (dates.slice(0,4).join(' | ') || '(none)'), dates.length ? 'log-ok' : 'log-warn');
 
-    // Size
     const sizeRe = /\|minHD\s*=\s*([^\|\}\n]+)/gi;
     let sizeBest = '';
     while((m = sizeRe.exec(wt)) !== null){
@@ -310,7 +310,6 @@ async function testPcgwFull(){
     }
     log('  minHD: ' + (sizeBest || '(none)'), sizeBest ? 'log-ok' : 'log-warn');
 
-    // What the admin would extract
     const fields = {};
     if(devs.length) fields.dev = devs.join(', ');
     if(pubs.length) fields.pub = pubs.join(', ');
@@ -333,11 +332,9 @@ async function testPcgwFull(){
 async function testIgdb(){
   hr('IGDB via Apps Script');
   const url = proxyBase() + '?action=igdb&q=' + encodeURIComponent(testGame());
-  const t0 = performance.now();
   try{
     const res = await fetch(url);
-    const dt = Math.round(performance.now() - t0);
-    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
     if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
     log('  ✓ ' + (data.length || 0) + ' results', 'log-ok');
@@ -348,11 +345,9 @@ async function testIgdb(){
 async function testSteam(){
   hr('Steam via Apps Script');
   const url = proxyBase() + '?action=steam&q=' + encodeURIComponent(testGame());
-  const t0 = performance.now();
   try{
     const res = await fetch(url);
-    const dt = Math.round(performance.now() - t0);
-    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
     if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
     log('  ✓ ' + data.name + ' (appId ' + data.appId + ')', 'log-ok');
@@ -365,14 +360,12 @@ async function testSteam(){
 async function testHltb(){
   hr('HLTB via Apps Script');
   const url = proxyBase() + '?action=hltb&q=' + encodeURIComponent(testGame());
-  const t0 = performance.now();
   try{
     const res = await fetch(url);
-    const dt = Math.round(performance.now() - t0);
-    log('  ← HTTP ' + res.status + ' in ' + dt + 'ms', res.ok ? 'log-ok' : 'log-bad');
+    log('  ← HTTP ' + res.status, res.ok ? 'log-ok' : 'log-bad');
     const data = await res.json();
     if(data.error){ log('  ✗ ' + data.error, 'log-bad'); return; }
-    log('  ✓ story: ' + data.story + '  extras: ' + data.extras + '  completionist: ' + data.completionist, 'log-ok');
+    log('  ✓ story ' + data.story + ' / extras ' + data.extras + ' / completionist ' + data.completionist, 'log-ok');
   }catch(e){ log('  ✗ ' + e.message, 'log-bad'); }
 }
 
@@ -409,6 +402,7 @@ async function testLbdb(){
 }
 
 /* ============================================================ */
+document.getElementById('t-sdk').onclick         = testSdk;
 document.getElementById('t-pcgw-search').onclick = testPcgwSearch;
 document.getElementById('t-pcgw-page').onclick   = testPcgwPage;
 document.getElementById('t-pcgw-full').onclick   = testPcgwFull;
@@ -419,6 +413,7 @@ document.getElementById('t-lbdb').onclick        = testLbdb;
 
 document.getElementById('run-all').onclick = async () => {
   hr('RUN ALL — START');
+  testSdk();
   await testPcgwSearch();
   await testPcgwFull();
   await testIgdb();
@@ -430,8 +425,7 @@ document.getElementById('run-all').onclick = async () => {
 
 /* ============================================================ */
 log('Tester ready.', 'log-info');
-log('This page tests PCGW via Corsfix (main change) + regression of other sources.', 'log-info');
-log('Tip: F12 → Console for hidden errors.', 'log-warn');
+log('PCGW via corsfix.fetch (SDK). Other sources via Apps Script + LBDB direct.', 'log-info');
 </script>
 </body>
 </html>
