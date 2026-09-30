@@ -291,6 +291,13 @@
   .upload-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px dashed var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;align-self:flex-start;}
   .upload-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
   .upload-btn input{display:none}
+  .media-btn-row{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.15rem;}
+  .media-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
+  .media-btn:hover{color:#cbd5e1;border-color:var(--accent-line);background:var(--accent-soft);}
+  .media-btn:disabled{opacity:.5;cursor:wait;}
+  .media-btn.google:hover{border-color:#4285f4;color:#4285f4;background:rgba(66,133,244,.08);}
+  .media-btn.sgdb:hover{border-color:var(--purple);color:var(--purple);background:rgba(167,139,250,.08);}
+  .media-btn.lbdb:hover{border-color:var(--amber);color:var(--amber);background:rgba(245,158,11,.08);}
   .tag-cloud{display:flex;gap:.4rem;flex-wrap:wrap}
   .tag-cloud label{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.4rem .65rem;border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;user-select:none;transition:all .16s ease;}
   .tag-cloud label input{display:none}
@@ -329,12 +336,10 @@
   .src-btn.loading{color:var(--amber);border-color:rgba(245,158,11,.4)}
   .src-btn.found{color:var(--green);border-color:rgba(74,222,128,.4)}
   .src-btn.notfound,.src-btn.error{color:var(--red);border-color:rgba(239,68,68,.4)}
-  .go-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .95rem;border:1px solid var(--accent);border-radius:7px;background:var(--accent);color:#0a0d14;cursor:pointer;transition:all .18s ease;}
+  .go-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .95rem;border:1px solid var(--accent);border-radius:7px;background:var(--accent);color:#0a0d14;cursor:pointer;transition:all .18s ease;margin-left:auto;}
   .go-btn:hover{filter:brightness(1.12)}
   .go-btn:disabled{opacity:.5;cursor:wait;filter:none}
   .go-btn.loading::after{content:"";display:inline-block;width:8px;height:8px;margin-left:.5rem;border-radius:50%;background:#0a0d14;animation:pulse 1s ease-in-out infinite;}
-  .overwrite-toggle{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.58rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);cursor:pointer;margin-left:auto;}
-  .overwrite-toggle input{accent-color:var(--accent)}
   .pills{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.15rem;}
   .pills:empty{display:none}
   .pill{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-body);font-size:.72rem;font-weight:500;padding:.3rem .55rem;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.02);color:#cbd5e1;cursor:pointer;transition:all .14s ease;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
@@ -350,6 +355,17 @@
   .pill.src-lbdb:hover{border-color:rgba(245,158,11,.5);}
   .pill.src-hltb .p-src{background:rgba(251,113,133,.15);color:var(--hltb);}
   .pill.src-hltb:hover{border-color:rgba(251,113,133,.5);}
+  .pill.src-sgdb .p-src{background:rgba(167,139,250,.15);color:var(--purple);}
+  .pill.src-sgdb:hover{border-color:rgba(167,139,250,.5);}
+  .pill.picker::after{content:"▾";margin-left:.25rem;font-size:.7em;opacity:.6;}
+  .logo-picker{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:820px;padding:1.4rem;position:relative;}
+  .logo-picker h2{font-family:var(--font-head);font-weight:700;font-size:1rem;color:#fff;margin-bottom:.4rem;display:flex;align-items:center;gap:.55rem;}
+  .logo-picker .sub{font-size:.8rem;color:var(--muted);margin-bottom:1rem;}
+  .logo-picker-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.7rem;max-height:60vh;overflow-y:auto;}
+  .logo-picker-tile{background:#060810;border:1px solid var(--border);border-radius:8px;padding:.5rem;cursor:pointer;transition:all .15s ease;display:flex;flex-direction:column;gap:.35rem;align-items:center;}
+  .logo-picker-tile:hover{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
+  .logo-picker-tile img{width:100%;height:90px;object-fit:contain;background:#000;border-radius:4px;display:block;}
+  .logo-picker-tile .lpt-meta{font-family:var(--font-head);font-size:.55rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .confirm{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:420px;padding:1.5rem;position:relative;border-color:rgba(239,68,68,.4);}
   .confirm h3{font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.02em;color:var(--red);display:flex;align-items:center;gap:.55rem;margin-bottom:.7rem;}
   .confirm p{font-size:.92rem;line-height:1.55;color:#cbd5e1;margin-bottom:.4rem}
@@ -432,6 +448,7 @@
 <div class="backdrop" id="backdrop"><div id="modal-slot"></div></div>
 <div class="backdrop" id="token-backdrop" style="z-index:300"><div id="token-slot"></div></div>
 <div class="backdrop" id="picker-backdrop" style="z-index:320"><div id="picker-slot"></div></div>
+<div class="backdrop" id="logopicker-backdrop" style="z-index:330"><div id="logopicker-slot"></div></div>
 
 <div class="toast" id="toast"></div>
 
@@ -725,6 +742,8 @@ const tokenBackdrop = document.getElementById('token-backdrop');
 const tokenSlot= document.getElementById('token-slot');
 const pickerBackdrop = document.getElementById('picker-backdrop');
 const pickerSlot = document.getElementById('picker-slot');
+const logopickerBackdrop = document.getElementById('logopicker-backdrop');
+const logopickerSlot = document.getElementById('logopicker-slot');
 const adminToggleBtn = document.getElementById('adminToggle');
 const adminToggleLabel = document.getElementById('adminToggleLabel');
 const lbdbBtn = document.getElementById('lbdbBtn');
@@ -761,12 +780,15 @@ function screenshotSrc(url){
   const u = resolveImgUrl(url);
   if(!u) return '';
   if(u.startsWith('data:')) return u;
+  // Local image — already processed, no re-wrap
+  if(/\/images\//.test(u)) return u;
   return 'https://images.weserv.nl/?url=' + encodeURIComponent(u) + '&h=720';
 }
 function logoSrc(url){
   const u = resolveImgUrl(url);
   if(!u) return '';
   if(u.startsWith('data:')) return u;
+  if(/\/images\//.test(u)) return u;
   const b64 = b64url(u);
   return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD +
     '/image/fetch/l_fetch:' + b64 +
@@ -989,7 +1011,6 @@ async function getFileContent(path){
   if(res.status === 404) return { sha: null, json: null };
   if(!res.ok) throw new Error('getFile HTTP ' + res.status);
   const data = await res.json();
-  // GitHub returns base64 with newlines
   const cleaned = data.content.replace(/\s/g, '');
   const bin = atob(cleaned);
   const bytes = new Uint8Array(bin.length);
@@ -997,21 +1018,17 @@ async function getFileContent(path){
   const text = new TextDecoder('utf-8').decode(bytes);
   return { sha: data.sha, json: JSON.parse(text) };
 }
-
 async function putFileContent(path, json, sha, message){
   const token = getToken();
   if(!token) throw new Error('Not signed in');
   const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
   const content = JSON.stringify(json, null, 2) + '\n';
-  // UTF-8 safe base64
   const bytes = new TextEncoder().encode(content);
   let bin = '';
   bytes.forEach(b => bin += String.fromCharCode(b));
   const b64 = btoa(bin);
-
   const body = { message, content: b64, branch: 'main' };
   if(sha) body.sha = sha;
-
   const res = await fetch(url, {
     method: 'PUT',
     headers: {
@@ -1027,13 +1044,11 @@ async function putFileContent(path, json, sha, message){
   }
   return await res.json();
 }
-
 function emptyShapeFor(tabId){
   if(tabId === 'backlog') return { mirror: [], seriesLeftovers: [] };
   if(tabId === 'backlog-series') return { series: [] };
   return { games: [] };
 }
-
 function upsertGameInFile(json, tabId, game){
   if(tabId === 'backlog'){
     if(!Array.isArray(json.mirror)) json.mirror = [];
@@ -1045,15 +1060,12 @@ function upsertGameInFile(json, tabId, game){
     json.mirror.push(game);
     return;
   }
-  if(tabId === 'backlog-series'){
-    throw new Error('Series entries cannot be edited from this form');
-  }
+  if(tabId === 'backlog-series') throw new Error('Series entries cannot be edited from this form');
   if(!Array.isArray(json.games)) json.games = [];
   const idx = json.games.findIndex(x => x.id === game.id);
   if(idx >= 0) json.games[idx] = game;
   else json.games.push(game);
 }
-
 function removeGameFromFile(json, tabId, gameId){
   if(tabId === 'backlog'){
     if(Array.isArray(json.mirror)) json.mirror = json.mirror.filter(x => x.id !== gameId);
@@ -1063,7 +1075,6 @@ function removeGameFromFile(json, tabId, gameId){
   if(tabId === 'backlog-series') return;
   if(Array.isArray(json.games)) json.games = json.games.filter(x => x.id !== gameId);
 }
-
 async function saveGame(game, original){
   const newTab = game.tab;
   const oldTab = original?._tab || null;
@@ -1089,7 +1100,6 @@ async function saveGame(game, original){
     return { updated: true };
   }
 
-  // Tab changed: remove from old, add to new
   const oldPath = TAB_FILES[oldTab];
   const newPath = TAB_FILES[newTab];
   const oldFile = await getFileContent(oldPath);
@@ -1103,7 +1113,6 @@ async function saveGame(game, original){
   await putFileContent(newPath, newJson, newFile.sha, `Move game in: ${game.name}`);
   return { moved: true };
 }
-
 async function deleteGame(game){
   const gameTab = game._tab;
   if(!gameTab) throw new Error('Missing tab reference');
@@ -1116,7 +1125,7 @@ async function deleteGame(game){
 }
 
 /* ============================================================
-   IGDB  (via Apps Script proxy)
+   IGDB
    ============================================================ */
 async function igdbSearch(name){
   const url = PROXY_URL + '?action=igdb&q=' + encodeURIComponent(name);
@@ -1166,7 +1175,7 @@ function igdbReleaseYear(hit){
 }
 
 /* ============================================================
-   STEAM  (via Apps Script proxy)
+   STEAM
    ============================================================ */
 async function steamSearch(name){
   const url = PROXY_URL + '?action=steam&q=' + encodeURIComponent(name);
@@ -1198,7 +1207,7 @@ function steamMapToFields(data){
 }
 
 /* ============================================================
-   HLTB  (via Apps Script proxy)
+   HLTB
    ============================================================ */
 async function hltbSearch(name){
   const url = PROXY_URL + '?action=hltb&q=' + encodeURIComponent(name);
@@ -1221,34 +1230,39 @@ function hltbMapToFields(d){
 }
 
 /* ============================================================
-   PCGW  (via Corsfix SDK)
+   SGDB
+   ============================================================ */
+async function sgdbSearch(name){
+  const url = PROXY_URL + '?action=sgdb&q=' + encodeURIComponent(name);
+  const res = await fetch(url);
+  if(!res.ok) throw new Error('SGDB proxy HTTP ' + res.status);
+  const data = await res.json();
+  if(data && data.error) throw new Error(data.error);
+  return data;
+}
+
+/* ============================================================
+   PCGW (via Corsfix SDK)
    ============================================================ */
 async function pcgwSearch(name){
   const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
     + '&srsearch=' + encodeURIComponent(name)
     + '&srlimit=5&format=json';
-  console.log('[PCGW] search target:', target);
   const res = await corsfix.fetch(target);
-  console.log('[PCGW] search HTTP:', res.status);
   if(!res.ok) throw new Error('search HTTP ' + res.status);
   const data = await res.json();
   const hits = (data.query && data.query.search) || [];
-  console.log('[PCGW] hits:', hits.length, hits.map(h => h.title));
   return hits;
 }
 async function pcgwGetWikitext(pageTitle){
   const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=parse&page=' + encodeURIComponent(pageTitle)
     + '&prop=wikitext&format=json';
-  console.log('[PCGW] fetch page:', pageTitle);
   const res = await corsfix.fetch(target);
-  console.log('[PCGW] page HTTP:', res.status);
   if(!res.ok) throw new Error('page HTTP ' + res.status);
   const data = await res.json();
-  const wt = (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
-  console.log('[PCGW] wikitext length:', wt.length, 'first 300:', wt.slice(0, 300));
-  return wt;
+  return (data.parse && data.parse.wikitext && data.parse.wikitext['*']) || '';
 }
 function pcgwExtractTemplateField(wikitext, field){
   const re = new RegExp('\\{\\{\\s*Infobox game\\/row\\/' + field + '\\s*\\|\\s*([^\\}\\|]+?)\\s*(?:\\||\\}\\})', 'gi');
@@ -1301,7 +1315,7 @@ function pcgwMapToFields(wikitext){
 }
 
 /* ============================================================
-   LBDB  (direct browser)
+   LBDB
    ============================================================ */
 let LBDB_INDEX = null;
 let LBDB_LOADING = null;
@@ -1355,7 +1369,7 @@ function lbdbMapToFields(entry){
 }
 
 /* ============================================================
-   SCORING (name + platform + release)
+   SCORING
    ============================================================ */
 function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
   let score = levSimilarity(cName || '', fName || '');
@@ -1414,7 +1428,58 @@ pickerBackdrop.addEventListener('click', e => {
 });
 
 /* ============================================================
-   GITHUB MEDIA UPLOAD
+   LOGO PICKER (SGDB / LBDB)
+   ============================================================ */
+function showLogoPicker(title, items, onPick){
+  if(!items || !items.length){ toast('No logos found', 'bad'); return; }
+  logopickerSlot.innerHTML = `
+    <div class="logo-picker">
+      <button class="modal-close" data-close>✕</button>
+      <h2>${title}</h2>
+      <p class="sub">${items.length} result${items.length === 1 ? '' : 's'} — click one to use it</p>
+      <div class="logo-picker-grid" id="logopicker-grid">
+        ${items.map((it, i) => `
+          <div class="logo-picker-tile" data-idx="${i}">
+            <img src="${it.thumb || it.url}" alt="" loading="lazy">
+            <div class="lpt-meta">${it.label || ''}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>`;
+  logopickerBackdrop.classList.add('open');
+  const close = () => { logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; };
+  logopickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = close);
+  logopickerSlot.querySelector('#logopicker-grid').addEventListener('click', e => {
+    const tile = e.target.closest('.logo-picker-tile');
+    if(!tile) return;
+    const picked = items[+tile.dataset.idx];
+    close();
+    onPick(picked);
+  });
+}
+logopickerBackdrop.addEventListener('click', e => {
+  if(e.target === logopickerBackdrop){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; }
+});
+
+/* ============================================================
+   SAVE IMAGE LOCALLY (via Apps Script)
+   ============================================================ */
+async function saveImageLocally(kind, gameId, sourceUrl){
+  if(!gameId) throw new Error('gameId required');
+  if(!sourceUrl) throw new Error('no source URL');
+  const url = PROXY_URL + '?action=saveimage'
+    + '&kind=' + encodeURIComponent(kind)
+    + '&gameId=' + encodeURIComponent(gameId)
+    + '&url=' + encodeURIComponent(sourceUrl);
+  const res = await fetch(url);
+  if(!res.ok) throw new Error('saveimage HTTP ' + res.status);
+  const data = await res.json();
+  if(data && data.error) throw new Error(data.error);
+  return data.path;
+}
+
+/* ============================================================
+   GITHUB MEDIA UPLOAD (file input → repo)
    ============================================================ */
 function fileToBase64(file){
   return new Promise((resolve, reject) => {
@@ -1436,7 +1501,6 @@ async function uploadFileToRepo(file, gameId, kind){
   const path = 'images/' + gameId + '/' + filename;
   const b64 = await fileToBase64(file);
   const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
-
   let sha;
   try{
     const check = await fetch(apiUrl, {
@@ -1444,10 +1508,8 @@ async function uploadFileToRepo(file, gameId, kind){
     });
     if(check.ok){ const d = await check.json(); sha = d.sha; }
   }catch(e){}
-
   const body = { message: (sha ? 'Update ' : 'Add ') + path, content: b64, branch: 'main' };
   if(sha) body.sha = sha;
-
   const res = await fetch(apiUrl, {
     method: 'PUT',
     headers: {
@@ -1465,7 +1527,7 @@ async function uploadFileToRepo(file, gameId, kind){
 }
 
 /* ============================================================
-   RENDER — SHELL / FILTERS / TOOLBAR
+   RENDER — SHELL
    ============================================================ */
 function renderTabs(){
   tabbarEl.innerHTML = TABS[group].map(t => `
@@ -1865,6 +1927,7 @@ document.addEventListener('keydown', e => {
   if(e.key === 'Escape'){
     closeModal(); closeAllDropdowns(); closeTokenPrompt();
     pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
+    logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
   }
 });
 
@@ -1979,7 +2042,7 @@ function linkIconGuess(label){
 /* ============================================================
    PARSE ORCHESTRATION
    ============================================================ */
-const PARSE_SOURCES = ['igdb','steam','pcgw','lbdb','hltb'];
+const PARSE_SOURCES = ['igdb','steam','pcgw','lbdb','hltb','sgdb'];
 
 function setSrcDot(btn, state){
   if(!btn) return;
@@ -1991,6 +2054,8 @@ function setSrcDot(btn, state){
 }
 
 function renderVariantPills(results){
+  modalSlot._parseResults = results;
+
   const fieldMap = {
     name:       '#f-name',
     release:    '#f-release',
@@ -2001,19 +2066,34 @@ function renderVariantPills(results){
     screenshot: '#f-screenshot',
     logo:       '#f-logo',
   };
-  const overwrite = modalSlot.querySelector('#parse-overwrite')?.checked;
 
   for(const [field, sel] of Object.entries(fieldMap)){
     const input = modalSlot.querySelector(sel);
     if(!input) continue;
     const pillsHost = modalSlot.querySelector(`.pills[data-field="${field}"]`);
     if(!pillsHost) continue;
-    const current = String(input.value || '').trim();
-    if(current && !overwrite){ pillsHost.innerHTML = ''; continue; }
     const pills = [];
+
     for(const src of PARSE_SOURCES){
       const r = results[src];
-      if(!r || !r.fields || r.fields[field] === undefined) continue;
+      if(!r || !r.fields) continue;
+
+      // Logo field special-case: emit picker pills for SGDB / LBDB
+      if(field === 'logo'){
+        if(src === 'sgdb' && r.logos && r.logos.length){
+          pills.push(`<button type="button" class="pill src-sgdb picker" data-field="logo" data-picker="sgdb"><span class="p-src">sgdb</span>${r.logos.length} logos</button>`);
+          continue;
+        }
+        if(src === 'lbdb' && r.entries){
+          const withLogos = r.entries.filter(e => e.logo);
+          if(withLogos.length){
+            pills.push(`<button type="button" class="pill src-lbdb picker" data-field="logo" data-picker="lbdb"><span class="p-src">lbdb</span>${withLogos.length} logos</button>`);
+            continue;
+          }
+        }
+      }
+
+      if(r.fields[field] === undefined) continue;
       const val = r.fields[field];
       if(val === null || val === undefined || val === '') continue;
       const short = String(val).replace(/\s+/g,' ').slice(0, 120);
@@ -2022,35 +2102,65 @@ function renderVariantPills(results){
     pillsHost.innerHTML = pills.join('');
   }
 
+  // HLTB pills
   const hltbHost = modalSlot.querySelector('.pills[data-field="hltb"]');
   if(hltbHost){
-    const mainVal = (modalSlot.querySelector('#f-hltb-main')?.value || '').trim();
-    const rawVal = (modalSlot.querySelector('#f-hltb-raw')?.value || '').trim();
-    const current = mainVal || rawVal;
-    if(current && !overwrite){
-      hltbHost.innerHTML = '';
-    } else {
-      const pills = [];
-      for(const src of PARSE_SOURCES){
-        const r = results[src];
-        if(!r || !r.fields || r.fields.hltb === undefined) continue;
-        const val = r.fields.hltb;
-        if(!val) continue;
-        const short = String(val).slice(0, 80);
-        pills.push(`<button type="button" class="pill src-${src}" data-field="hltb" data-value="${String(val).replace(/"/g,'&quot;')}"><span class="p-src">${src}</span>${short}</button>`);
-      }
-      hltbHost.innerHTML = pills.join('');
+    const pills = [];
+    for(const src of PARSE_SOURCES){
+      const r = results[src];
+      if(!r || !r.fields || r.fields.hltb === undefined) continue;
+      const val = r.fields.hltb;
+      if(!val) continue;
+      pills.push(`<button type="button" class="pill src-${src}" data-field="hltb" data-value="${String(val).replace(/"/g,'&quot;')}"><span class="p-src">${src}</span>${String(val).slice(0, 80)}</button>`);
     }
+    hltbHost.innerHTML = pills.join('');
   }
 }
 
 function attachPillHandlers(){
+  if(modalSlot._pillsBound) return;
+  modalSlot._pillsBound = true;
+
   modalSlot.addEventListener('click', e => {
     const pill = e.target.closest('.pill');
     if(!pill || !pill.dataset.field) return;
     const field = pill.dataset.field;
-    const value = pill.dataset.value || '';
     const srcLabel = pill.querySelector('.p-src')?.textContent || '?';
+
+    // Picker pill — open the logo picker
+    if(pill.dataset.picker){
+      const kind = pill.dataset.picker;
+      const results = modalSlot._parseResults || {};
+      let items = [];
+      let title = '';
+      if(kind === 'sgdb' && results.sgdb && results.sgdb.logos){
+        items = results.sgdb.logos.map(l => ({
+          url: l.url,
+          thumb: l.thumb || l.url,
+          label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height
+        }));
+        title = 'SGDB — ' + (results.sgdb.gameName || '');
+      } else if(kind === 'lbdb' && results.lbdb && results.lbdb.entries){
+        items = results.lbdb.entries.filter(x => x.logo).map(x => ({
+          url: 'https://images.launchbox-app.com/' + x.logo,
+          thumb: 'https://images.launchbox-app.com/' + x.logo,
+          label: (x.p || 'unknown') + (x.rel ? ' · ' + x.rel : '')
+        }));
+        title = 'LBDB — ' + (modalSlot.querySelector('#f-name')?.value || '');
+      }
+      showLogoPicker(title, items, picked => {
+        const input = modalSlot.querySelector('#f-logo');
+        if(input){
+          input.value = picked.url;
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+          toast('Selected — click "↓ Save locally" to commit');
+        }
+      });
+      return;
+    }
+
+    // Regular pill
+    const value = pill.dataset.value || '';
 
     if(field === 'hltb'){
       const parts = hltbToParts(value);
@@ -2094,12 +2204,13 @@ async function runParse(){
     pcgw:  modalSlot.querySelector('[data-src-dot="pcgw"]'),
     lbdb:  modalSlot.querySelector('[data-src-dot="lbdb"]'),
     hltb:  modalSlot.querySelector('[data-src-dot="hltb"]'),
+    sgdb:  modalSlot.querySelector('[data-src-dot="sgdb"]'),
   };
   PARSE_SOURCES.forEach(s => setSrcDot(dots[s], 'loading'));
   goBtn.disabled = true; goBtn.classList.add('loading');
   goBtn.textContent = 'Working';
 
-  const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null };
+  const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null, sgdb:null };
 
   const igdbTask = (async () => {
     try{
@@ -2176,7 +2287,7 @@ async function runParse(){
         const s = scoreCandidate(e.n || e.name, e.p || '', e.rel || '', name, formPlatform, formRelease);
         if(s > bestScore){ bestScore = s; best = e; }
       }
-      results.lbdb = { fields: lbdbMapToFields(best) };
+      results.lbdb = { fields: lbdbMapToFields(best), entries: entries };
       setSrcDot(dots.lbdb, 'found');
     }catch(e){
       console.error('LBDB parse failed:', e);
@@ -2203,7 +2314,24 @@ async function runParse(){
     }
   })();
 
-  await Promise.all([igdbTask, steamTask, pcgwTask, lbdbTask, hltbTask]);
+  const sgdbTask = (async () => {
+    try{
+      const data = await sgdbSearch(name);
+      if(!data.logos || !data.logos.length){
+        results.sgdb = { fields:{} };
+        setSrcDot(dots.sgdb, 'notfound');
+        return;
+      }
+      results.sgdb = { fields:{}, logos: data.logos, gameName: data.gameName };
+      setSrcDot(dots.sgdb, 'found');
+    }catch(e){
+      console.error('SGDB parse failed:', e);
+      results.sgdb = { error: e.message };
+      setSrcDot(dots.sgdb, 'error');
+    }
+  })();
+
+  await Promise.all([igdbTask, steamTask, pcgwTask, lbdbTask, hltbTask, sgdbTask]);
   renderVariantPills(results);
 
   goBtn.disabled = false; goBtn.classList.remove('loading');
@@ -2245,6 +2373,8 @@ function openEditor(g){
       <button type="button" class="remove-link" title="Remove">✕</button>
     </div>`).join('') : '';
 
+  modalSlot._pillsBound = false;
+
   modalSlot.innerHTML = `
     <div class="admin-modal">
       <div class="admin-head">
@@ -2260,8 +2390,8 @@ function openEditor(g){
           <span class="src-btn" data-src-dot="pcgw"><span class="dot"></span>PCGW</span>
           <span class="src-btn" data-src-dot="lbdb"><span class="dot"></span>LBDB</span>
           <span class="src-btn" data-src-dot="hltb"><span class="dot"></span>HLTB</span>
+          <span class="src-btn" data-src-dot="sgdb"><span class="dot"></span>SGDB</span>
           <button type="button" class="go-btn" id="parse-go">GO</button>
-          <label class="overwrite-toggle"><input type="checkbox" id="parse-overwrite"> Overwrite</label>
         </div>
 
         <div class="form-section">
@@ -2344,8 +2474,12 @@ function openEditor(g){
               <div class="img-input">
                 <div class="preview shot-preview" id="shot-preview">${draft.screenshot ? `<img src="${screenshotSrc(draft.screenshot)}" alt="">` : '1280 × 720'}</div>
                 <div class="controls">
-                  <input type="text" id="f-screenshot" placeholder="images/xyz.jpg or https://…" value="${String(draft.screenshot||'').replace(/"/g,'&quot;')}">
-                  <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" data-upload-kind="screenshot" id="f-screenshot-file"></label>
+                  <input type="text" id="f-screenshot" placeholder="images/screenshots/xyz.jpg or https://…" value="${String(draft.screenshot||'').replace(/"/g,'&quot;')}">
+                  <div class="media-btn-row">
+                    <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" data-upload-kind="screenshot" id="f-screenshot-file"></label>
+                    <button type="button" class="media-btn" id="save-screenshot-local">↓ Save locally</button>
+                    <button type="button" class="media-btn google" id="google-screenshot">🔍 Google</button>
+                  </div>
                   <div class="pills" data-field="screenshot"></div>
                 </div>
               </div>
@@ -2355,8 +2489,13 @@ function openEditor(g){
               <div class="img-input">
                 <div class="preview" id="logo-preview">${draft.logo ? `<img src="${logoSrc(draft.logo)}" alt="">` : '504 × 562'}</div>
                 <div class="controls">
-                  <input type="text" id="f-logo" placeholder="images/xyz-logo.png or https://…" value="${String(draft.logo||'').replace(/"/g,'&quot;')}">
-                  <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" data-upload-kind="logo" id="f-logo-file"></label>
+                  <input type="text" id="f-logo" placeholder="images/logos/xyz.png or https://…" value="${String(draft.logo||'').replace(/"/g,'&quot;')}">
+                  <div class="media-btn-row">
+                    <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" data-upload-kind="logo" id="f-logo-file"></label>
+                    <button type="button" class="media-btn" id="save-logo-local">↓ Save locally</button>
+                    <button type="button" class="media-btn sgdb" id="sgdb-logo">🔍 SGDB</button>
+                    <button type="button" class="media-btn lbdb" id="lbdb-logo">🔍 LBDB</button>
+                  </div>
                   <div class="pills" data-field="logo"></div>
                 </div>
               </div>
@@ -2425,10 +2564,11 @@ function openEditor(g){
     $('#logo-preview').innerHTML = v ? `<img src="${logoSrc(v)}" alt="">` : '504 × 562';
   });
 
+  // -- Upload handlers
   async function handleUpload(file, kind){
     if(!file) return;
     const nameVal = ($('#f-name').value || '').trim();
-    if(!nameVal){ toast('Enter a name first — needed for the image path', 'bad'); return; }
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     const gameId = draft.id || nameVal.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
     if(!getToken()){ showTokenPrompt(); return; }
     const uploadBtn = file.__btn;
@@ -2458,6 +2598,99 @@ function openEditor(g){
     logoFile.addEventListener('change', e => handleUpload(e.target.files[0], 'logo'));
   }
 
+  // -- Save locally
+  function currentGameId(){
+    const nameVal = ($('#f-name').value || '').trim();
+    return draft.id || nameVal.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  }
+  async function saveLocal(kind){
+    const fieldSel = kind === 'screenshot' ? '#f-screenshot' : '#f-logo';
+    const url = ($(fieldSel).value || '').trim();
+    if(!url){ toast('Nothing to save — paste a URL or pick a source first', 'bad'); return; }
+    if(/^images\//.test(url)){ toast('Already local'); return; }
+    if(!/^https?:/.test(url)){ toast('Only http(s) URLs can be downloaded', 'bad'); return; }
+    if(!getToken()){ showTokenPrompt(); return; }
+    const gameId = currentGameId();
+    if(!gameId){ toast('Enter a name first', 'bad'); return; }
+    const btn = kind === 'screenshot' ? $('#save-screenshot-local') : $('#save-logo-local');
+    const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Saving';
+    try{
+      const path = await saveImageLocally(kind, gameId, url);
+      $(fieldSel).value = path;
+      $(fieldSel).dispatchEvent(new Event('input', { bubbles: true }));
+      toast('Saved → ' + path);
+    }catch(err){
+      console.error('saveLocally failed:', err);
+      toast('Save failed: ' + err.message, 'bad');
+    }finally{
+      btn.disabled = false; btn.innerHTML = orig;
+    }
+  }
+  $('#save-screenshot-local')?.addEventListener('click', () => saveLocal('screenshot'));
+  $('#save-logo-local')?.addEventListener('click', () => saveLocal('logo'));
+
+  // -- Google
+  $('#google-screenshot')?.addEventListener('click', () => {
+    const nameVal = ($('#f-name').value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    window.open('https://www.google.com/search?q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
+  });
+
+  // -- SGDB button
+  $('#sgdb-logo')?.addEventListener('click', async () => {
+    const nameVal = ($('#f-name').value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    const btn = $('#sgdb-logo');
+    const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Loading';
+    try{
+      const data = await sgdbSearch(nameVal);
+      const items = (data.logos || []).map(l => ({
+        url: l.url,
+        thumb: l.thumb || l.url,
+        label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height
+      }));
+      showLogoPicker('SGDB — ' + data.gameName, items, picked => {
+        $('#f-logo').value = picked.url;
+        $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
+        toast('SGDB logo selected — click "↓ Save locally" to commit');
+      });
+    }catch(err){
+      console.error('SGDB search failed:', err);
+      toast('SGDB: ' + err.message, 'bad');
+    }finally{
+      btn.disabled = false; btn.innerHTML = orig;
+    }
+  });
+
+  // -- LBDB button
+  $('#lbdb-logo')?.addEventListener('click', async () => {
+    const nameVal = ($('#f-name').value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    const btn = $('#lbdb-logo');
+    const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Loading';
+    try{
+      const entries = await lbdbLookup(nameVal);
+      const items = entries.filter(e => e.logo).map(e => ({
+        url: 'https://images.launchbox-app.com/' + e.logo,
+        thumb: 'https://images.launchbox-app.com/' + e.logo,
+        label: (e.p || 'unknown') + (e.rel ? ' · ' + e.rel : '')
+      }));
+      showLogoPicker('LBDB — ' + nameVal, items, picked => {
+        $('#f-logo').value = picked.url;
+        $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
+        toast('LBDB logo selected — click "↓ Save locally" to commit');
+      });
+    }catch(err){
+      console.error('LBDB search failed:', err);
+      toast('LBDB: ' + err.message, 'bad');
+    }finally{
+      btn.disabled = false; btn.innerHTML = orig;
+    }
+  });
+
   $('#flag-row').addEventListener('click', e => {
     const btn = e.target.closest('.flag-btn');
     if(!btn) return;
@@ -2484,7 +2717,6 @@ function openEditor(g){
     $('#delete-btn').addEventListener('click', () => openConfirmDelete(g));
   }
 
-  // ---- SAVE (writes to GitHub) ----
   $('#save-btn').addEventListener('click', async () => {
     const name = $('#f-name').value.trim();
     if(!name){ toast('Name is required', 'bad'); return; }
@@ -2528,7 +2760,7 @@ function openEditor(g){
     const btn = $('#save-btn');
     const orig = btn.innerHTML;
     btn.disabled = true;
-    btn.innerHTML = '<span class="spinner"></span>Saving…';
+    btn.innerHTML = '…Saving';
 
     try{
       const result = await saveGame(out, isNew ? null : { _tab: editTab, id: draft.id });
@@ -2562,7 +2794,7 @@ function openConfirmDelete(g){
     const btn = modalSlot.querySelector('#confirm-delete');
     const orig = btn.innerHTML;
     btn.disabled = true;
-    btn.innerHTML = '<span class="spinner"></span>Deleting…';
+    btn.innerHTML = '…Deleting';
     try{
       await deleteGame(g);
       closeAll();
@@ -2584,6 +2816,8 @@ function tabLabelFor(g){
 function closeAll(){
   backdrop.classList.remove('open');
   modalSlot.innerHTML = '';
+  modalSlot._pillsBound = false;
+  modalSlot._parseResults = null;
   closeAllDropdowns();
 }
 modalSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeAll(); });
@@ -2594,7 +2828,6 @@ contentEl.addEventListener('click', e => {
     e.stopPropagation();
     const g = findGameById(adminBtnEl.dataset.id);
     if(!g) return;
-    // Block series entries from the standard editor (different data shape)
     if(g.source === 'series'){
       toast('Series entries are edited in the JSON directly', 'bad');
       return;
