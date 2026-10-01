@@ -336,6 +336,10 @@
   .src-btn.loading{color:var(--amber);border-color:rgba(245,158,11,.4)}
   .src-btn.found{color:var(--green);border-color:rgba(74,222,128,.4)}
   .src-btn.notfound,.src-btn.error{color:var(--red);border-color:rgba(239,68,68,.4)}
+  .src-btn .lock-toggle{background:transparent;border:0;padding:0 0 0 .3rem;margin:0;color:#4a5468;cursor:pointer;font-size:.75rem;line-height:1;transition:color .15s ease;font-family:inherit;}
+  .src-btn .lock-toggle:hover{color:#cbd5e1;}
+  .src-btn.locked{background:rgba(245,158,11,.05);}
+  .src-btn.locked .lock-toggle{color:var(--amber);}
   .go-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .95rem;border:1px solid var(--accent);border-radius:7px;background:var(--accent);color:#0a0d14;cursor:pointer;transition:all .18s ease;margin-left:auto;}
   .go-btn:hover{filter:brightness(1.12)}
   .go-btn:disabled{opacity:.5;cursor:wait;filter:none}
@@ -780,7 +784,6 @@ function screenshotSrc(url){
   const u = resolveImgUrl(url);
   if(!u) return '';
   if(u.startsWith('data:')) return u;
-  // Local image — already processed, no re-wrap
   if(/\/images\//.test(u)) return u;
   return 'https://images.weserv.nl/?url=' + encodeURIComponent(u) + '&h=720';
 }
@@ -999,7 +1002,7 @@ async function checkLbdbStatus(){
 lbdbBtn.addEventListener('click', () => { if(lbdbPollTimer) return; triggerLbdbUpdate(); });
 
 /* ============================================================
-   GITHUB FILE WRITE (Contents API)
+   GITHUB FILE WRITE
    ============================================================ */
 async function getFileContent(path){
   const token = getToken();
@@ -1125,7 +1128,7 @@ async function deleteGame(game){
 }
 
 /* ============================================================
-   IGDB
+   SOURCE APIS
    ============================================================ */
 async function igdbSearch(name){
   const url = PROXY_URL + '?action=igdb&q=' + encodeURIComponent(name);
@@ -1161,22 +1164,15 @@ function igdbMapToFields(hit){
   if(pubs.length) out.pub = pubs.join(', ');
   if(hit.screenshots && hit.screenshots.length) out.screenshot = igdbImg(hit.screenshots[0].url, 't_1080p');
   if(hit.summary) out.notes = hit.summary;
-  if(hit.platforms && hit.platforms.length){
-    out.platform = hit.platforms.slice(0,4).map(p => p.name).join(', ');
-  }
+  if(hit.platforms && hit.platforms.length) out.platform = hit.platforms.slice(0,4).map(p => p.name).join(', ');
   return out;
 }
-function igdbPlatformString(hit){
-  return (hit.platforms || []).map(p => p.name).join(', ');
-}
+function igdbPlatformString(hit){ return (hit.platforms || []).map(p => p.name).join(', '); }
 function igdbReleaseYear(hit){
   if(!hit.first_release_date) return '';
   return String(new Date(hit.first_release_date * 1000).getFullYear());
 }
 
-/* ============================================================
-   STEAM
-   ============================================================ */
 async function steamSearch(name){
   const url = PROXY_URL + '?action=steam&q=' + encodeURIComponent(name);
   const res = await fetch(url);
@@ -1206,9 +1202,6 @@ function steamMapToFields(data){
   return out;
 }
 
-/* ============================================================
-   HLTB
-   ============================================================ */
 async function hltbSearch(name){
   const url = PROXY_URL + '?action=hltb&q=' + encodeURIComponent(name);
   const res = await fetch(url);
@@ -1229,9 +1222,6 @@ function hltbMapToFields(d){
   return hltb ? { hltb } : {};
 }
 
-/* ============================================================
-   SGDB
-   ============================================================ */
 async function sgdbSearch(name){
   const url = PROXY_URL + '?action=sgdb&q=' + encodeURIComponent(name);
   const res = await fetch(url);
@@ -1241,9 +1231,6 @@ async function sgdbSearch(name){
   return data;
 }
 
-/* ============================================================
-   PCGW (via Corsfix SDK)
-   ============================================================ */
 async function pcgwSearch(name){
   const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
@@ -1252,8 +1239,7 @@ async function pcgwSearch(name){
   const res = await corsfix.fetch(target);
   if(!res.ok) throw new Error('search HTTP ' + res.status);
   const data = await res.json();
-  const hits = (data.query && data.query.search) || [];
-  return hits;
+  return (data.query && data.query.search) || [];
 }
 async function pcgwGetWikitext(pageTitle){
   const target = 'https://www.pcgamingwiki.com/w/api.php'
@@ -1428,7 +1414,7 @@ pickerBackdrop.addEventListener('click', e => {
 });
 
 /* ============================================================
-   LOGO PICKER (SGDB / LBDB)
+   LOGO PICKER
    ============================================================ */
 function showLogoPicker(title, items, onPick){
   if(!items || !items.length){ toast('No logos found', 'bad'); return; }
@@ -1462,7 +1448,7 @@ logopickerBackdrop.addEventListener('click', e => {
 });
 
 /* ============================================================
-   SAVE IMAGE LOCALLY (via Apps Script)
+   SAVE IMAGE LOCALLY
    ============================================================ */
 async function saveImageLocally(kind, gameId, sourceUrl){
   if(!gameId) throw new Error('gameId required');
@@ -1479,7 +1465,7 @@ async function saveImageLocally(kind, gameId, sourceUrl){
 }
 
 /* ============================================================
-   GITHUB MEDIA UPLOAD (file input → repo)
+   GITHUB MEDIA UPLOAD
    ============================================================ */
 function fileToBase64(file){
   return new Promise((resolve, reject) => {
@@ -1497,8 +1483,7 @@ async function uploadFileToRepo(file, gameId, kind){
   const token = getToken();
   if(!token) throw new Error('Not signed in');
   const ext = (file.name.split('.').pop() || 'png').toLowerCase();
-  const filename = kind + '.' + ext;
-  const path = 'images/' + gameId + '/' + filename;
+  const path = 'images/' + kind + 's/' + gameId + '.' + ext;
   const b64 = await fileToBase64(file);
   const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
   let sha;
@@ -1625,10 +1610,6 @@ function closeAllDropdowns(){
   toolbarEl.querySelectorAll('.dd.open').forEach(el => el.classList.remove('open'));
   openDD = null;
 }
-
-/* ============================================================
-   RENDER — CARDS
-   ============================================================ */
 function ovChip(value){
   if(!value || value === '—') return '';
   return `<span class="ov-chip">${value}</span>`;
@@ -1746,9 +1727,6 @@ function seriesBlockHTML(series){
     </div>`;
 }
 
-/* ============================================================
-   RENDER — CONTENT
-   ============================================================ */
 function emptyHTML(file){
   return `<div class="grid-empty">No data yet.<br>Add <code>${file}</code> to the repo and refresh.</div>`;
 }
@@ -1833,9 +1811,6 @@ function refreshGrid(){
   applyTooltips();
 }
 
-/* ============================================================
-   READ-ONLY MODAL
-   ============================================================ */
 function renderLinks(links){
   const arr = links || [];
   if(!arr.length) return '';
@@ -2078,7 +2053,7 @@ function renderVariantPills(results){
       const r = results[src];
       if(!r || !r.fields) continue;
 
-      // Logo field special-case: emit picker pills for SGDB / LBDB
+      // Logo field special-case: picker pills for SGDB / LBDB
       if(field === 'logo'){
         if(src === 'sgdb' && r.logos && r.logos.length){
           pills.push(`<button type="button" class="pill src-sgdb picker" data-field="logo" data-picker="sgdb"><span class="p-src">sgdb</span>${r.logos.length} logos</button>`);
@@ -2117,6 +2092,29 @@ function renderVariantPills(results){
   }
 }
 
+function autoAddKeyLinks(results){
+  const list = modalSlot.querySelector('#links-list');
+  if(!list) return;
+  const existing = new Set();
+  list.querySelectorAll('.link-label').forEach(inp => {
+    const v = (inp.value || '').toLowerCase();
+    if(v.includes('steam')) existing.add('steam');
+    if(v.includes('pcgw') || v.includes('pcgamingwiki')) existing.add('pcgw');
+  });
+  const addRow = (label, url) => {
+    const row = document.createElement('div');
+    row.className = 'link-row';
+    row.innerHTML = `<input type="text" class="link-label" value="${label.replace(/"/g,'&quot;')}"><input type="text" class="link-url" value="${url.replace(/"/g,'&quot;')}"><button type="button" class="remove-link">✕</button>`;
+    list.appendChild(row);
+  };
+  if(!existing.has('steam') && results.steam && results.steam.storeUrl){
+    addRow('Steam', results.steam.storeUrl);
+  }
+  if(!existing.has('pcgw') && results.pcgw && results.pcgw.page){
+    addRow('PCGW', 'https://www.pcgamingwiki.com/wiki/' + encodeURIComponent(results.pcgw.page.replace(/ /g, '_')));
+  }
+}
+
 function attachPillHandlers(){
   if(modalSlot._pillsBound) return;
   modalSlot._pillsBound = true;
@@ -2127,7 +2125,6 @@ function attachPillHandlers(){
     const field = pill.dataset.field;
     const srcLabel = pill.querySelector('.p-src')?.textContent || '?';
 
-    // Picker pill — open the logo picker
     if(pill.dataset.picker){
       const kind = pill.dataset.picker;
       const results = modalSlot._parseResults || {};
@@ -2159,7 +2156,6 @@ function attachPillHandlers(){
       return;
     }
 
-    // Regular pill
     const value = pill.dataset.value || '';
 
     if(field === 'hltb'){
@@ -2206,13 +2202,18 @@ async function runParse(){
     hltb:  modalSlot.querySelector('[data-src-dot="hltb"]'),
     sgdb:  modalSlot.querySelector('[data-src-dot="sgdb"]'),
   };
-  PARSE_SOURCES.forEach(s => setSrcDot(dots[s], 'loading'));
+  const locked = modalSlot._lockedSources || new Set();
+  const prevResults = modalSlot._parseResults || {};
+
+  PARSE_SOURCES.forEach(s => { if(!locked.has(s)) setSrcDot(dots[s], 'loading'); });
   goBtn.disabled = true; goBtn.classList.add('loading');
   goBtn.textContent = 'Working';
 
   const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null, sgdb:null };
+  locked.forEach(s => { results[s] = prevResults[s] || { fields:{} }; });
 
   const igdbTask = (async () => {
+    if(locked.has('igdb')) return;
     try{
       const hits = await igdbSearch(name);
       if(!hits || !hits.length){
@@ -2240,9 +2241,10 @@ async function runParse(){
   })();
 
   const steamTask = (async () => {
+    if(locked.has('steam')) return;
     try{
       const data = await steamSearch(name);
-      results.steam = { fields: steamMapToFields(data) };
+      results.steam = { fields: steamMapToFields(data), storeUrl: data.storeUrl || '' };
       setSrcDot(dots.steam, 'found');
     }catch(e){
       console.error('Steam parse failed:', e);
@@ -2252,6 +2254,7 @@ async function runParse(){
   })();
 
   const pcgwTask = (async () => {
+    if(locked.has('pcgw')) return;
     try{
       const hits = await pcgwSearch(name);
       if(!hits || !hits.length){
@@ -2275,6 +2278,7 @@ async function runParse(){
   })();
 
   const lbdbTask = (async () => {
+    if(locked.has('lbdb')) return;
     try{
       const entries = await lbdbLookup(name);
       if(!entries || !entries.length){
@@ -2297,6 +2301,7 @@ async function runParse(){
   })();
 
   const hltbTask = (async () => {
+    if(locked.has('hltb')) return;
     try{
       const data = await hltbSearch(name);
       const fields = hltbMapToFields(data);
@@ -2315,6 +2320,7 @@ async function runParse(){
   })();
 
   const sgdbTask = (async () => {
+    if(locked.has('sgdb')) return;
     try{
       const data = await sgdbSearch(name);
       if(!data.logos || !data.logos.length){
@@ -2333,6 +2339,7 @@ async function runParse(){
 
   await Promise.all([igdbTask, steamTask, pcgwTask, lbdbTask, hltbTask, sgdbTask]);
   renderVariantPills(results);
+  autoAddKeyLinks(results);
 
   goBtn.disabled = false; goBtn.classList.remove('loading');
   goBtn.textContent = 'GO';
@@ -2374,6 +2381,8 @@ function openEditor(g){
     </div>`).join('') : '';
 
   modalSlot._pillsBound = false;
+  modalSlot._lockedSources = new Set();
+  modalSlot._parseResults = null;
 
   modalSlot.innerHTML = `
     <div class="admin-modal">
@@ -2385,12 +2394,12 @@ function openEditor(g){
 
         <div class="parse-bar">
           <span class="parse-title">Fetch from source</span>
-          <span class="src-btn" data-src-dot="igdb"><span class="dot"></span>IGDB</span>
-          <span class="src-btn" data-src-dot="steam"><span class="dot"></span>Steam</span>
-          <span class="src-btn" data-src-dot="pcgw"><span class="dot"></span>PCGW</span>
-          <span class="src-btn" data-src-dot="lbdb"><span class="dot"></span>LBDB</span>
-          <span class="src-btn" data-src-dot="hltb"><span class="dot"></span>HLTB</span>
-          <span class="src-btn" data-src-dot="sgdb"><span class="dot"></span>SGDB</span>
+          <span class="src-btn" data-src-dot="igdb"><span class="dot"></span>IGDB<button type="button" class="lock-toggle" data-lock="igdb" title="Lock results">🔓</button></span>
+          <span class="src-btn" data-src-dot="steam"><span class="dot"></span>Steam<button type="button" class="lock-toggle" data-lock="steam" title="Lock results">🔓</button></span>
+          <span class="src-btn" data-src-dot="pcgw"><span class="dot"></span>PCGW<button type="button" class="lock-toggle" data-lock="pcgw" title="Lock results">🔓</button></span>
+          <span class="src-btn" data-src-dot="lbdb"><span class="dot"></span>LBDB<button type="button" class="lock-toggle" data-lock="lbdb" title="Lock results">🔓</button></span>
+          <span class="src-btn" data-src-dot="hltb"><span class="dot"></span>HLTB<button type="button" class="lock-toggle" data-lock="hltb" title="Lock results">🔓</button></span>
+          <span class="src-btn" data-src-dot="sgdb"><span class="dot"></span>SGDB<button type="button" class="lock-toggle" data-lock="sgdb" title="Lock results">🔓</button></span>
           <button type="button" class="go-btn" id="parse-go">GO</button>
         </div>
 
@@ -2564,7 +2573,25 @@ function openEditor(g){
     $('#logo-preview').innerHTML = v ? `<img src="${logoSrc(v)}" alt="">` : '504 × 562';
   });
 
-  // -- Upload handlers
+  // Lock toggles
+  modalSlot.querySelectorAll('.lock-toggle').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const src = btn.dataset.lock;
+      const set = modalSlot._lockedSources;
+      if(set.has(src)){
+        set.delete(src);
+        btn.textContent = '🔓';
+        btn.closest('.src-btn').classList.remove('locked');
+      } else {
+        set.add(src);
+        btn.textContent = '🔒';
+        btn.closest('.src-btn').classList.add('locked');
+      }
+    });
+  });
+
+  // Upload
   async function handleUpload(file, kind){
     if(!file) return;
     const nameVal = ($('#f-name').value || '').trim();
@@ -2598,7 +2625,7 @@ function openEditor(g){
     logoFile.addEventListener('change', e => handleUpload(e.target.files[0], 'logo'));
   }
 
-  // -- Save locally
+  // Save-locally
   function currentGameId(){
     const nameVal = ($('#f-name').value || '').trim();
     return draft.id || nameVal.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -2630,14 +2657,14 @@ function openEditor(g){
   $('#save-screenshot-local')?.addEventListener('click', () => saveLocal('screenshot'));
   $('#save-logo-local')?.addEventListener('click', () => saveLocal('logo'));
 
-  // -- Google
+  // Google
   $('#google-screenshot')?.addEventListener('click', () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     window.open('https://www.google.com/search?q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
   });
 
-  // -- SGDB button
+  // SGDB button
   $('#sgdb-logo')?.addEventListener('click', async () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
@@ -2664,7 +2691,7 @@ function openEditor(g){
     }
   });
 
-  // -- LBDB button
+  // LBDB button
   $('#lbdb-logo')?.addEventListener('click', async () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
@@ -2818,6 +2845,7 @@ function closeAll(){
   modalSlot.innerHTML = '';
   modalSlot._pillsBound = false;
   modalSlot._parseResults = null;
+  modalSlot._lockedSources = null;
   closeAllDropdowns();
 }
 modalSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeAll(); });
