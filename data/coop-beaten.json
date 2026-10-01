@@ -4506,15 +4506,17 @@
     {
       "id": "left-4-dead",
       "name": "Left 4 Dead",
-      "release": "17.11.2008",
+      "group": "coop",
+      "tab": "coop-beaten",
       "platform": "",
+      "release": "17.11.2008",
       "size": "7.5 GB",
       "hltb": "Main: 7, +Extra: 19",
       "dev": "Valve",
       "pub": "Valve",
+      "notes": "",
       "ready": true,
       "onDisk": false,
-      "notes": "",
       "links": [
         {
           "label": "Steam",
