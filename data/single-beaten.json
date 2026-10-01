@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T01:41:07.110079Z",
+  "updated": "2026-10-01T11:07:45.208544Z",
   "games": [
     {
       "id": "heavenly-sword",
@@ -220,8 +220,8 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
-      "logo": ""
+      "screenshot": "images/screenshots/how-to-fish.jpg",
+      "logo": "images/logos/how-to-fish.png"
     },
     {
       "id": "crash-time-4",
@@ -407,7 +407,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/happy-s-humble-burger-cult.jpg",
       "logo": "images/logos/happy-s-humble-burger-cult.png"
     },
     {
@@ -713,7 +713,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/old-market-simulator.jpg",
       "logo": "images/logos/old-market-simulator.png"
     },
     {
@@ -730,7 +730,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/hammerwatch-anniversary-edition.jpg",
       "logo": "images/logos/hammerwatch-anniversary-edition.png"
     },
     {
@@ -1071,7 +1071,7 @@
       "links": [],
       "extraTags": [],
       "screenshot": "images/screenshots/hellpoint-the-thespian-feast.jpg",
-      "logo": ""
+      "logo": "images/logos/hellpoint-the-thespian-feast.png"
     },
     {
       "id": "hellpoint",
@@ -1393,7 +1393,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/escape-the-backrooms.jpg",
       "logo": "images/logos/escape-the-backrooms.png"
     },
     {
@@ -1597,7 +1597,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/night-of-the-dead.jpg",
       "logo": "images/logos/night-of-the-dead.png"
     },
     {
@@ -1699,7 +1699,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/heroes-of-hammerwatch.jpg",
       "logo": "images/logos/heroes-of-hammerwatch.png"
     },
     {
@@ -2022,7 +2022,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "images/screenshots/medal-of-honor-allied-assault.jpg",
+      "screenshot": "",
       "logo": "images/logos/medal-of-honor-allied-assault.png"
     },
     {
@@ -2056,7 +2056,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/rv-there-yet.jpg",
       "logo": "images/logos/rv-there-yet.png"
     },
     {
@@ -2107,7 +2107,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/necesse.jpg",
       "logo": "images/logos/necesse.png"
     },
     {
@@ -2243,7 +2243,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/brazilian-drug-dealer-3-i-opened-a-portal-to-hell-in-the-favela-trying-to-revive-mit-aia-i-need-to-close-it.jpg",
       "logo": "images/logos/brazilian-drug-dealer-3-i-opened-a-portal-to-hell-in-the-favela-trying-to-revive-mit-aia-i-need-to-close-it.png"
     },
     {
@@ -2260,7 +2260,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/borderlands-game-of-the-year-enhanced.jpg",
       "logo": "images/logos/borderlands-game-of-the-year-enhanced.png"
     },
     {
@@ -2515,7 +2515,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/lords-of-the-fallen.jpg",
       "logo": "images/logos/lords-of-the-fallen.png"
     },
     {
@@ -2668,7 +2668,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/lords-of-the-fallen.jpg",
       "logo": "images/logos/lords-of-the-fallen.png"
     },
     {
@@ -2719,7 +2719,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/ghost-of-tsushima-legends.jpg",
       "logo": "images/logos/ghost-of-tsushima-legends.png"
     },
     {
@@ -2736,7 +2736,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/sengoku-dynasty.jpg",
       "logo": "images/logos/sengoku-dynasty.png"
     },
     {
@@ -2753,7 +2753,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/r-e-p-o.jpg",
       "logo": "images/logos/r-e-p-o.png"
     },
     {
@@ -2787,7 +2787,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/house-flipper-2.jpg",
       "logo": "images/logos/house-flipper-2.png"
     },
     {
@@ -2889,7 +2889,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/the-headliners.jpg",
       "logo": "images/logos/the-headliners.png"
     },
     {
@@ -3756,7 +3756,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/helldivers-2.jpg",
       "logo": "images/logos/helldivers-2.png"
     },
     {
@@ -3790,7 +3790,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/redfall.jpg",
       "logo": "images/logos/redfall.png"
     },
     {
@@ -4198,7 +4198,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/the-dark-pictures-anthology-house-of-ashes.jpg",
       "logo": "images/logos/the-dark-pictures-anthology-house-of-ashes.png"
     },
     {
@@ -6051,7 +6051,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/delta-force-2.jpg",
       "logo": "images/logos/delta-force-2.png"
     },
     {
@@ -6799,7 +6799,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/rainbow-six-siege.jpg",
       "logo": "images/logos/rainbow-six-siege.png"
     },
     {
@@ -7785,7 +7785,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/resident-evil-4-ultimate-hd-edition.jpg",
       "logo": "images/logos/resident-evil-4-ultimate-hd-edition.png"
     },
     {
@@ -9315,7 +9315,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/minecraft-java-edition.jpg",
       "logo": "images/logos/minecraft-java-edition.png"
     },
     {
@@ -9706,7 +9706,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/f-e-a-r-3.jpg",
       "logo": "images/logos/f-e-a-r-3.png"
     },
     {
@@ -9757,7 +9757,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/red-faction-armageddon.jpg",
       "logo": "images/logos/red-faction-armageddon.png"
     },
     {
@@ -9774,7 +9774,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/operation-flashpoint-red-river.jpg",
       "logo": "images/logos/operation-flashpoint-red-river.png"
     },
     {
@@ -9978,7 +9978,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/magicka.jpg",
       "logo": "images/logos/magicka.png"
     },
     {
@@ -10233,7 +10233,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/kane-lynch-2-dog-days.jpg",
       "logo": "images/logos/kane-lynch-2-dog-days.png"
     },
     {
@@ -10250,7 +10250,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/need-for-speed-world.jpg",
       "logo": "images/logos/need-for-speed-world.png"
     },
     {
@@ -10675,7 +10675,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/flatout-ultimate-carnage.jpg",
       "logo": "images/logos/flatout-ultimate-carnage.png"
     },
     {
@@ -10947,7 +10947,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/fuel.jpg",
       "logo": "images/logos/fuel.png"
     },
     {
@@ -11032,7 +11032,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/battlestations-pacific.jpg",
       "logo": "images/logos/battlestations-pacific.png"
     },
     {
@@ -11508,8 +11508,8 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
-      "logo": ""
+      "screenshot": "images/screenshots/rainbow-six-lone-wolf.jpg",
+      "logo": "images/logos/rainbow-six-lone-wolf.png"
     },
     {
       "id": "tom-clancy-s-rainbow-six",

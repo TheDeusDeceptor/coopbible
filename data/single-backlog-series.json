@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T01:41:07.024446Z",
+  "updated": "2026-10-01T11:07:45.128138Z",
   "series": [
     {
       "id": "yakuza",
@@ -5725,7 +5725,7 @@
           "note": ""
         }
       ],
-      "logo": "images/series/platinum-games.png"
+      "logo": ""
     },
     {
       "id": "bayonetta",
@@ -7370,7 +7370,7 @@
           "note": ""
         }
       ],
-      "logo": "images/series/legacy-of-kain.png"
+      "logo": ""
     },
     {
       "id": "bloodrayne",
@@ -8138,7 +8138,7 @@
           "note": ""
         }
       ],
-      "logo": "images/series/007.png"
+      "logo": ""
     },
     {
       "id": "gran-turismo",
@@ -9042,7 +9042,7 @@
           "note": "Sequel to X\\Y."
         }
       ],
-      "logo": "images/series/pok-mon.png"
+      "logo": ""
     },
     {
       "id": "tokyo-xtreme-racer",

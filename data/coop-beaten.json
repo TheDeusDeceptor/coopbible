@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T01:41:07.043352Z",
+  "updated": "2026-10-01T11:07:45.148473Z",
   "games": [
     {
       "id": "operation-flashpoint-red-river",
@@ -11,7 +11,7 @@
       "hltb": "Main: 11, +Extra: 13",
       "dev": "Codemasters",
       "pub": "Codemasters Software",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -34,7 +34,7 @@
       "hltb": "Main: 12, +Extra: 15",
       "dev": "Codemasters",
       "pub": "Codemasters, Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -57,7 +57,7 @@
       "hltb": "Main: 20, +Extra: 22",
       "dev": "Crackshell",
       "pub": "Maximum Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -80,7 +80,7 @@
       "hltb": "Main: 5",
       "dev": "Quad Head",
       "pub": "Quad Head",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -103,7 +103,7 @@
       "hltb": "Main: 4, +Extra: 8",
       "dev": "TEAM GWYF",
       "pub": "TENSTACK",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -126,7 +126,7 @@
       "hltb": "Main: 5",
       "dev": "Dazed Games",
       "pub": "Dazed Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -149,7 +149,7 @@
       "hltb": "Main: 4, +Extra: 7",
       "dev": "Bun Muen",
       "pub": "Kwalee",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -172,7 +172,7 @@
       "hltb": "Main: 11",
       "dev": "House House",
       "pub": "Panic",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -195,7 +195,7 @@
       "hltb": "Main: 3",
       "dev": "Rayll",
       "pub": "Rayll Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -218,7 +218,7 @@
       "hltb": "",
       "dev": "Scythe Dev Team",
       "pub": "tinyBuild",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -241,7 +241,7 @@
       "hltb": "Main: 42, +Extra: 76",
       "dev": "Pocketpair",
       "pub": "Pocketpair",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -264,7 +264,7 @@
       "hltb": "Main: 20, +Extra: 36",
       "dev": "Tribute Games Inc.",
       "pub": "Tribute Games Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -287,7 +287,7 @@
       "hltb": "Main: 11, +Extra: 19",
       "dev": "Deck13",
       "pub": "Focus Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -310,7 +310,7 @@
       "hltb": "Main: 4, +Extra: 5",
       "dev": "Dlala Studios",
       "pub": "Xbox Game Studios, Rare Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -333,7 +333,7 @@
       "hltb": "Main+Sides: 29",
       "dev": "Crackshell",
       "pub": "Maximum Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -356,7 +356,7 @@
       "hltb": "Main: 11, +Extra: 13",
       "dev": "Ubisoft Paris, Red Storm Entertainment",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Raven Strike",
       "links": [
@@ -379,7 +379,7 @@
       "hltb": "Main: 9, +Extra: 27",
       "dev": "Capcom Production Studio 1",
       "pub": "Capcom",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -402,7 +402,7 @@
       "hltb": "Main: 8, +Extra: 12",
       "dev": "Capcom Production Studio 1",
       "pub": "Capcom",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -425,7 +425,7 @@
       "hltb": "Main: 25, +Extra: 42",
       "dev": "Ubisoft Toronto, Ubisoft Montreal, Ubisoft Kyiv, Ubisoft Shanghai, Ubisoft Berlin",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Vaas:Insanity\n\n     + Pagan:Control\n\n     + Joseph:Collapse",
       "links": [
@@ -448,7 +448,7 @@
       "hltb": "Main: 7",
       "dev": "Hydravision Entertainment",
       "pub": "Ignition Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -471,7 +471,7 @@
       "hltb": "Main: 6, +Extra: 7",
       "dev": "Hydravision Entertainment",
       "pub": "MC2-Microïds",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -494,7 +494,7 @@
       "hltb": "Main: 32, +Extra: 71",
       "dev": "Obsidian Entertainment",
       "pub": "Xbox Game Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -517,7 +517,7 @@
       "hltb": "Main: 1",
       "dev": "Cradle Games",
       "pub": "tinyBuild",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -540,7 +540,7 @@
       "hltb": "Main: 17, +Extra: 24",
       "dev": "Cradle Games",
       "pub": "tinyBuild",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Blue Sun",
       "links": [
@@ -563,7 +563,7 @@
       "hltb": "Main: 14, +Extra: 19",
       "dev": "Dead Mage",
       "pub": "11 bit studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -586,7 +586,7 @@
       "hltb": "Main: 6, +Extra: 8",
       "dev": "The Gentlebros",
       "pub": "Kepler Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -609,7 +609,7 @@
       "hltb": "Main: 9, +Extra: 14",
       "dev": "Raccoon Logic Studios Inc.",
       "pub": "Raccoon Logic Studios Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -632,7 +632,7 @@
       "hltb": "Main: 7, +Extra: 11",
       "dev": "Typhoon",
       "pub": "505 Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -655,7 +655,7 @@
       "hltb": "Main: 5, +Extra: 8",
       "dev": "Vicious Cycle Software, Inc.",
       "pub": "D3PUBLISHER",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -678,7 +678,7 @@
       "hltb": "Main: 9, +Extra: 11",
       "dev": "Ubisoft",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -701,7 +701,7 @@
       "hltb": "Main: 9, +Extra: 10",
       "dev": "Ubisoft",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -724,7 +724,7 @@
       "hltb": "Main: 6, +Extra: 10",
       "dev": "OSome Studio",
       "pub": "Microids",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -747,7 +747,7 @@
       "hltb": "Main: 14, +Extra: 15",
       "dev": "Hazelight Studios",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -770,7 +770,7 @@
       "hltb": "Main: 2",
       "dev": "Other Tales Interactive",
       "pub": "Other Tales Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -793,7 +793,7 @@
       "hltb": "Main: 17, +Extra: 26",
       "dev": "Games Farm",
       "pub": "Kalypso Media Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -816,7 +816,7 @@
       "hltb": "Main: 10, +Extra: 12",
       "dev": "Red Storm Entertainment",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Desert Siege\n     \n     + Island Thunder",
       "links": [
@@ -839,7 +839,7 @@
       "hltb": "Main: 23, +Extra: 26",
       "dev": "Jackto Studios",
       "pub": "Jackto Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -862,7 +862,7 @@
       "hltb": "Main: 20, +Extra: 43",
       "dev": "Crackshell",
       "pub": "Team17",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -885,7 +885,7 @@
       "hltb": "Main: 8, +Extra: 10",
       "dev": "The Gentlebros",
       "pub": "PQube",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -908,7 +908,7 @@
       "hltb": "Main: 44, +Extra: 72",
       "dev": "Pixel Sprout Studios",
       "pub": "Pixel Sprout Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -931,7 +931,7 @@
       "hltb": "Main: 9, +Extra: 12",
       "dev": "Nuggets Entertainment",
       "pub": "Nuggets Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Mt. Yurbuttsk\n\n      + St. Búttin Bay",
       "links": [
@@ -954,7 +954,7 @@
       "hltb": "Main: 24, +Extra: 39",
       "dev": "Fair Games ApS",
       "pub": "Fair Games ApS",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -977,7 +977,7 @@
       "hltb": "Main: 6",
       "dev": "Supermassive Games",
       "pub": "Bandai Namco Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "- The Backstage",
       "links": [
@@ -1000,7 +1000,7 @@
       "hltb": "Main: 3, +Extra: 4",
       "dev": "Joeveno",
       "pub": "Joeveno, NoQuarter",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1023,7 +1023,7 @@
       "hltb": "Main: 21, +Extra: 36",
       "dev": "Gearbox Software, Blind Squirrel Games",
       "pub": "2K",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ The Zombie Island of Dr. Ned\n\n     + Mad Moxxi's Underdome Riot\n\n     + The Secret Armory of General Knoxx\n\n     + Claptrap's New Robot Revolution",
       "links": [
@@ -1046,7 +1046,7 @@
       "hltb": "Main: 14, +Extra: 20",
       "dev": "Airship Syndicate",
       "pub": "THQ Nordic",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1069,7 +1069,7 @@
       "hltb": "Main: 16, +Extra: 29",
       "dev": "Gearbox Software",
       "pub": "2K",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1092,7 +1092,7 @@
       "hltb": "Main: 42, +Extra: 75",
       "dev": "Deep Field Games",
       "pub": "Playstack",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1115,7 +1115,7 @@
       "hltb": "Main: 47, +Extra: 64",
       "dev": "Stunlock Studios",
       "pub": "Stunlock Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1138,7 +1138,7 @@
       "hltb": "Main: 28, +Extra: 44",
       "dev": "CI Games",
       "pub": "CI Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1161,7 +1161,7 @@
       "hltb": "Main: 25, +Extra: 36",
       "dev": "Redbeet Interactive",
       "pub": "Axolot Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1184,7 +1184,7 @@
       "hltb": "Main: 37, +Extra: 51",
       "dev": "Pugstorm",
       "pub": "Fireshine Games, bilibili",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1207,7 +1207,7 @@
       "hltb": "Main: 5, +Extra: 28",
       "dev": "Sucker Punch Productions, Nixxes Software",
       "pub": "PlayStation Publishing LLC",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1230,7 +1230,7 @@
       "hltb": "Main: 28, +Extra: 68",
       "dev": "Superkami",
       "pub": "Toplitz Productions",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1253,7 +1253,7 @@
       "hltb": "Main: 9, +Extra: 10",
       "dev": "semiwork",
       "pub": "semiwork",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1276,7 +1276,7 @@
       "hltb": "Main: 6, +Extra: 16",
       "dev": "Team PEAK",
       "pub": "Aggro Crab, Evil Landfall?",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1299,7 +1299,7 @@
       "hltb": "Main: 14, +Extra: 23",
       "dev": "Frozen District",
       "pub": "Frozen District",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "- Scooby-Doo DLC\n\n     - Sakura DLC\n\n     - Pets DLC (upcoming 2026)",
       "links": [
@@ -1322,7 +1322,7 @@
       "hltb": "Main: 28, +Extra: 40",
       "dev": "FromSoftware, Inc.",
       "pub": "FromSoftware, Inc., Bandai Namco Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "- The Forsaken Hollows",
       "links": [
@@ -1345,7 +1345,7 @@
       "hltb": "Main: 95",
       "dev": "SimsMultiplayer",
       "pub": "SimsMultiplayer",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1367,7 +1367,7 @@
       "hltb": "Main: 2",
       "dev": "Deadline Games",
       "pub": "Warner Bros. Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1390,7 +1390,7 @@
       "hltb": "Main: 3",
       "dev": "Deadline Games",
       "pub": "Warner Bros. Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1413,7 +1413,7 @@
       "hltb": "Main: 13",
       "dev": "AttritoM7 Productions",
       "pub": "AttritoM7 Productions",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1436,7 +1436,7 @@
       "hltb": "Main: 12, +Extra: 20",
       "dev": "Arkane Austin",
       "pub": "Bethesda Softworks",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1459,7 +1459,7 @@
       "hltb": "Main: 10, +Extra: 19",
       "dev": "Saber Interactive Inc",
       "pub": "Saber Interactive Inc",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Aftermath\n\n     + Marseille Episode\n\n     + Valley of the Zeke Episode\n\n     + Las Vegas Episode\n\n     + The Walking Dead",
       "links": [
@@ -1482,7 +1482,7 @@
       "hltb": "Main: 7, +Extra: 8",
       "dev": "Saber Interactive",
       "pub": "BANDAI NAMCO Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1505,7 +1505,7 @@
       "hltb": "Main: 106, +Extra: 146",
       "dev": "Coffee Stain Studios",
       "pub": "Coffee Stain Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1528,7 +1528,7 @@
       "hltb": "Main: 4",
       "dev": "BG Productions",
       "pub": "BG Productions",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1551,7 +1551,7 @@
       "hltb": "Main: 12, +Extra: 18",
       "dev": "INGAME STUDIOS",
       "pub": "505 Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1574,7 +1574,7 @@
       "hltb": "Main: 36, +Extra: 47",
       "dev": "Free Range Games",
       "pub": "North Beach Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "- Durin's Folk",
       "links": [
@@ -1597,7 +1597,7 @@
       "hltb": "",
       "dev": "ZTEK Studio",
       "pub": "ZTEK Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1620,7 +1620,7 @@
       "hltb": "Main: 7, +Extra: 20",
       "dev": "Starbreeze Studios",
       "pub": "Starbreeze Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "- Chapter 1 Syntax Error\n\n     - Chapter 2 Boys in Blue\n\n     - Chapter 3 Houston Breakout\n\n     - Chapter 4 Fear & Greed\n\n     - [3] separate heists",
       "links": [
@@ -1643,7 +1643,7 @@
       "hltb": "Main: 16, +Extra: 27",
       "dev": "Dambuster Studios",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Haus\n\n     + SoLA",
       "links": [
@@ -1666,7 +1666,7 @@
       "hltb": "Full: 15",
       "dev": "RANELA GAMES",
       "pub": "RANELA GAMES",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1689,7 +1689,7 @@
       "hltb": "Main: 4",
       "dev": "eduweb",
       "pub": "eduweb",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1712,7 +1712,7 @@
       "hltb": "Main: 23, +Extra: 55",
       "dev": "Ubisoft Paris",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Episode 2: Deep State\n\n     + Episode 3: Red Patriots\n\n     + Operation Motherland",
       "links": [
@@ -1735,7 +1735,7 @@
       "hltb": "Main: 27, +Extra: 54",
       "dev": "Ubisoft Paris, Ubisoft Annecy, Ubisoft Bucharest, Ubisoft Montpellier, Ubisoft Milan, Reflections, Ubisoft Belgrade",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Fallen Ghosts\n\n     + Narco Road\n\n     + Last Rites",
       "links": [
@@ -1758,7 +1758,7 @@
       "hltb": "Main: 14, +Extra: 27",
       "dev": "lamedeveloper",
       "pub": "lamedeveloper",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1781,7 +1781,7 @@
       "hltb": "Main: 15, +Extra: 24",
       "dev": "GSC Game World",
       "pub": "GSC Game World",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1804,7 +1804,7 @@
       "hltb": "Main: 5, +Extra: 6",
       "dev": "ArtDock",
       "pub": "Dreland Enterprises",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1827,7 +1827,7 @@
       "hltb": "Main: 22, +Extra: 29",
       "dev": "Stumpy🐙Squid, Fury Studios, Coatsink",
       "pub": "Raw Fury",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1850,7 +1850,7 @@
       "hltb": "Main: 7, +Extra: 12",
       "dev": "Coffee Stain North",
       "pub": "Coffee Stain Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1873,7 +1873,7 @@
       "hltb": "Main: 3, +Extra: 5",
       "dev": "Highwire Games",
       "pub": "Victura",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1896,7 +1896,7 @@
       "hltb": "Main: 4, +Extra: 6",
       "dev": "Modern Dream",
       "pub": "SEGA",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1919,7 +1919,7 @@
       "hltb": "Main: 60, +Extra: 101",
       "dev": "FromSoftware, Inc.",
       "pub": "FromSoftware, Inc., Bandai Namco Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Shadow of the Erdtree",
       "links": [
@@ -1942,7 +1942,7 @@
       "hltb": "Main: 30",
       "dev": "EXPERIMENT ONE",
       "pub": "EXPERIMENT ONE",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1965,7 +1965,7 @@
       "hltb": "Main: 17, +Extra: 38",
       "dev": "TVGS",
       "pub": "TVGS",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1988,7 +1988,7 @@
       "hltb": "Main: 12, +Extra: 23",
       "dev": "Turtle Rock Studios",
       "pub": "Warner Bros. Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Tunnels of Terror\n\n     + Children of the Worm\n\n     + River of Blood",
       "links": [
@@ -2011,7 +2011,7 @@
       "hltb": "Main: 2, +Extra: 5",
       "dev": "WayForward",
       "pub": "KONAMI",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2034,7 +2034,7 @@
       "hltb": "Main: 6, +Extra: 8",
       "dev": "Questions Factory",
       "pub": "Questions Factory",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "previously known as Bonding Ambivalence",
       "links": [
@@ -2057,7 +2057,7 @@
       "hltb": "Main: 30, +Extra: 57",
       "dev": "Render Cube",
       "pub": "Toplitz Productions",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2080,7 +2080,7 @@
       "hltb": "Main: 21, +Extra: 30",
       "dev": "Toxic Dog",
       "pub": "Excalibur Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2103,7 +2103,7 @@
       "hltb": "Main: 16, +Extra: 36",
       "dev": "People Can Fly",
       "pub": "Square Enix",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ WORLDSLAYER",
       "links": [
@@ -2126,7 +2126,7 @@
       "hltb": "Main: 28, +Extra: 70",
       "dev": "Fatshark",
       "pub": "Fatshark",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2149,7 +2149,7 @@
       "hltb": "Main: 22, +Extra: 48",
       "dev": "Crate Entertainment",
       "pub": "Crate Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Ashes of Malmouth\n\n     ? Forgotten Gods\n\n     - Fangs of Asterkarn (upcoming)",
       "links": [
@@ -2172,7 +2172,7 @@
       "hltb": "Main: 7, +Extra: 9",
       "dev": "Gearbox Software",
       "pub": "SEGA",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2195,7 +2195,7 @@
       "hltb": "Main: 12, +Extra: 19",
       "dev": "Rebellion",
       "pub": "Rebellion",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "- Hell Cult (Missions 1-3)\n\n     - Dead War (Missions 4-6)\n\n     - Return to Hell (Missions 7-9)\n\n     - Ragnarök (Part I + Part II)",
       "links": [
@@ -2218,7 +2218,7 @@
       "hltb": "Main: 9, +Extra: 12",
       "dev": "Scienart Games",
       "pub": "GrabTheGames, UpgradePoint",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2241,7 +2241,7 @@
       "hltb": "Main: 20",
       "dev": "Alcedo Games",
       "pub": "Alcedo Games, Gamersky Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2264,7 +2264,7 @@
       "hltb": "Main: 12, +Extra: 19",
       "dev": "DeadDevsTellNoLies",
       "pub": "DeadDevsTellNoLies",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2287,7 +2287,7 @@
       "hltb": "Main: 1",
       "dev": "Business Tycoon",
       "pub": "Business Tycoon",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2310,7 +2310,7 @@
       "hltb": "Main: 17, +Extra: 24",
       "dev": "Biotech Gameworks",
       "pub": "Biotech Gameworks",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Bakery DLC",
       "links": [
@@ -2333,7 +2333,7 @@
       "hltb": "Main: 2, +Extra: 3",
       "dev": "ExamlGuy",
       "pub": "ExamlGuy",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2356,7 +2356,7 @@
       "hltb": "",
       "dev": "AIKUN",
       "pub": "AIKUN",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2379,7 +2379,7 @@
       "hltb": "Main: 9, +Extra: 11",
       "dev": "Supermassive Games",
       "pub": "2K Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2402,7 +2402,7 @@
       "hltb": "Main: 9, +Extra: 11",
       "dev": "Fancy Games, Blackbird Interactive",
       "pub": "Secret Mode",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2425,7 +2425,7 @@
       "hltb": "Main: 5, +Extra: 6",
       "dev": "Coin Crew Games",
       "pub": "iam8bit Presents",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Escape From Anti-Escape Island\n\n     + Escape From the Past",
       "links": [
@@ -2448,7 +2448,7 @@
       "hltb": "Main: 3",
       "dev": "Nightstuff Games",
       "pub": "Nightstuff Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2471,7 +2471,7 @@
       "hltb": "Main: 8, +Extra: 11",
       "dev": "Pine Studio",
       "pub": "Pine Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Steampunk DLC\n\n     + Wild West DLC\n\n     + Portal Escape Chamber\n\n     + Among Us DLC\n\n     + Magic DLC\n\n     + PowerWash DLC\n\n     - The Talos Principle\n\n     - Mayan DLC\n\n     - Spy DLC",
       "links": [
@@ -2494,7 +2494,7 @@
       "hltb": "Main: 2",
       "dev": "Rusty Lake",
       "pub": "Rusty Lake",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2517,7 +2517,7 @@
       "hltb": "Main: 4, +Extra: 5",
       "dev": "Bossa Studios",
       "pub": "Infogrames, Atari",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2540,7 +2540,7 @@
       "hltb": "Main: 53, +Extra: 114",
       "dev": "The Fun Pimps",
       "pub": "The Fun Pimps Entertainment LLC",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2563,7 +2563,7 @@
       "hltb": "Main: 11, +Extra: 13",
       "dev": "Flying Wild Hog",
       "pub": "Focus Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2586,7 +2586,7 @@
       "hltb": "Main: 10, +Extra: 19",
       "dev": "Catobyte",
       "pub": "Catobyte Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2609,7 +2609,7 @@
       "hltb": "Main: 6, +Extra: 12",
       "dev": "No Brakes Games",
       "pub": "Curve Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2632,7 +2632,7 @@
       "hltb": "Main: 14, +Extra: 35",
       "dev": "Shiro Games",
       "pub": "Shiro Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2655,7 +2655,7 @@
       "hltb": "Main: 60, +Extra: 157",
       "dev": "The Indie Stone",
       "pub": "The Indie Stone",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2678,7 +2678,7 @@
       "hltb": "Main: 12, +Extra: 16",
       "dev": "Snowblind Studios",
       "pub": "Warner Bros. Interactive Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2701,7 +2701,7 @@
       "hltb": "Main: 3, +Extra: 11",
       "dev": "KAFI",
       "pub": "KAFI",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2724,7 +2724,7 @@
       "hltb": "Main: 9, +Extra: 19",
       "dev": "Zeekerss",
       "pub": "Zeekerss",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2747,7 +2747,7 @@
       "hltb": "Main: 18, +Extra: 49",
       "dev": "Systemic Reaction™",
       "pub": "Avalanche Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2770,7 +2770,7 @@
       "hltb": "Main: 6, +Extra: 12",
       "dev": "Ndemic Creations",
       "pub": "Hooded Horse, Ndemic Creations",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2793,7 +2793,7 @@
       "hltb": "Main: 40, +Extra: 116",
       "dev": "Funcom, Inflexion Games",
       "pub": "Funcom",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Isle of Siptah",
       "links": [
@@ -2816,7 +2816,7 @@
       "hltb": "Main: 53, +Extra: 95",
       "dev": "ConcernedApe",
       "pub": "ConcernedApe",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2839,7 +2839,7 @@
       "hltb": "Main: 5, +Extra: 7",
       "dev": "Coldwood Interactive",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2862,7 +2862,7 @@
       "hltb": "Main: 15, +Extra: 18",
       "dev": "Crowbar Collective",
       "pub": "Crowbar Collective",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2885,7 +2885,7 @@
       "hltb": "Main: 10, +Extra: 16",
       "dev": "id Software",
       "pub": "Bethesda Softworks",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2908,7 +2908,7 @@
       "hltb": "Main: 8, +Extra: 16",
       "dev": "Flying Wild Hog",
       "pub": "Devolver Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2931,7 +2931,7 @@
       "hltb": "Main: 16, +Extra: 32",
       "dev": "Undead Labs",
       "pub": "Xbox Game Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2954,7 +2954,7 @@
       "hltb": "Main: 3, +Extra: 4",
       "dev": "House House",
       "pub": "Panic",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2977,7 +2977,7 @@
       "hltb": "Main: 5, +Extra: 7",
       "dev": "Anegar Games",
       "pub": "Secret Mode",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3000,7 +3000,7 @@
       "hltb": "Main: 13, +Extra: 14",
       "dev": "Hazelight Studios",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3023,7 +3023,7 @@
       "hltb": "Main: 15, +Extra: 20",
       "dev": "Clock Wizard Games",
       "pub": "Clock Wizard Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3046,7 +3046,7 @@
       "hltb": "Main: 20, +Extra: 42",
       "dev": "Kinetic Games",
       "pub": "Kinetic Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3069,7 +3069,7 @@
       "hltb": "Main: 4, +Extra: 22",
       "dev": "Straight Back Games",
       "pub": "Straight Back Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3092,7 +3092,7 @@
       "hltb": "Main: 9, +Extra: 100",
       "dev": "10 Chambers",
       "pub": "10 Chambers",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3115,7 +3115,7 @@
       "hltb": "Main: 11, +Extra: 16",
       "dev": "Studio MDHR Entertainment Inc.",
       "pub": "Studio MDHR Entertainment Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ The Delicious Last Course",
       "links": [
@@ -3138,7 +3138,7 @@
       "hltb": "Main: 13, +Extra: 16",
       "dev": "Visceral Games",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Awakened",
       "links": [
@@ -3161,7 +3161,7 @@
       "hltb": "Main: 33, +Extra: 52",
       "dev": "Nine Dots Studio",
       "pub": "Prime Matter, Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ The Soroboreans\n\n     - The Three Brothers",
       "links": [
@@ -3184,7 +3184,7 @@
       "hltb": "Main: 18, +Extra: 29",
       "dev": "Gunfire Games",
       "pub": "Arc Games, THQ Nordic",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ The Awakened King\n\n     + The Forgotten Kingdom\n\n     + The Dark Horizon",
       "links": [
@@ -3207,7 +3207,7 @@
       "hltb": "Main: 13, +Extra: 21",
       "dev": "Gunfire Games",
       "pub": "Arc Games, THQ Nordic",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Swamps Of Corsus\n\n     + Subject 2923",
       "links": [
@@ -3230,7 +3230,7 @@
       "hltb": "Main: 32, +Extra: 65",
       "dev": "Arrowhead Game Studios",
       "pub": "PlayStation Publishing LLC",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3253,7 +3253,7 @@
       "hltb": "Main: 17, +Extra: 26",
       "dev": "Endnight Games Ltd",
       "pub": "Newnight",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3276,7 +3276,7 @@
       "hltb": "Main: 16, +Extra: 28",
       "dev": "Endnight Games Ltd",
       "pub": "Endnight Games Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3299,7 +3299,7 @@
       "hltb": "Main: 18, +Extra: 29",
       "dev": "Square Enix, KOEI TECMO GAMES CO., LTD.",
       "pub": "Square Enix",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "- Trials of the Dragon King\n\n     - Wanderer of the Rift\n\n     - DIFFERENT FUTURE",
       "links": [
@@ -3322,7 +3322,7 @@
       "hltb": "Main: 25, +Extra: 35",
       "dev": "KOEI TECMO GAMES CO., LTD.",
       "pub": "KOEI TECMO GAMES CO., LTD., CE-Asia(Asia)",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "- Battle of Zhongyuan\n\n     - Conqueror of Jiangdong\n\n     - Upheaval in Jingxiang",
       "links": [
@@ -3345,7 +3345,7 @@
       "hltb": "Main: 43, +Extra: 85",
       "dev": "KOEI TECMO GAMES CO., LTD.",
       "pub": "KOEI TECMO GAMES CO., LTD.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ The Tengu's Disciple\n\n     + Darkness in the Capital\n\n     + The First Samurai",
       "links": [
@@ -3368,7 +3368,7 @@
       "hltb": "Main: 42, +Extra: 73",
       "dev": "KOEI TECMO GAMES CO., LTD.",
       "pub": "KOEI TECMO GAMES CO., LTD.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Dragon of the North(?)\n\n     - Defiant Honour\n\n     - Bloodshed's End",
       "links": [
@@ -3391,7 +3391,7 @@
       "hltb": "Main: 25, +Extra: 26",
       "dev": "stillalive studios",
       "pub": "astragon Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3414,7 +3414,7 @@
       "hltb": "Main: 4, +Extra: 7",
       "dev": "Croteam, Timelock Studio",
       "pub": "Devolver Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3437,7 +3437,7 @@
       "hltb": "Main: 4, +Extra: 7",
       "dev": "CyberLight Game Studio",
       "pub": "CyberLight Game Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3460,7 +3460,7 @@
       "hltb": "Main: 30, +Extra: 43",
       "dev": "Blizzard Entertainment",
       "pub": "Blizzard Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3483,7 +3483,7 @@
       "hltb": "Main: 24, +Extra: 49",
       "dev": "Techland",
       "pub": "Techland",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Bloody Ties",
       "links": [
@@ -3506,7 +3506,7 @@
       "hltb": "Main: 27, +Extra: 40",
       "dev": "Eggcode",
       "pub": "Eggcode",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3529,7 +3529,7 @@
       "hltb": "Main: 7, +Extra: 9",
       "dev": "Techland",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3552,7 +3552,7 @@
       "hltb": "Main: 25, +Extra: 58",
       "dev": "Chucklefish",
       "pub": "Chucklefish",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3575,7 +3575,7 @@
       "hltb": "Main: 16, +Extra: 28",
       "dev": "VOID Interactive",
       "pub": "VOID Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3598,7 +3598,7 @@
       "hltb": "Main: 7, +Extra: 12",
       "dev": "Running With Scissors",
       "pub": "Running With Scissors",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Apocalypse Weekend\n\n     + Paradise Lost",
       "links": [
@@ -3621,7 +3621,7 @@
       "hltb": "Main: 18, +Extra: 32",
       "dev": "NeocoreGames",
       "pub": "NeocoreGames",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3644,7 +3644,7 @@
       "hltb": "Main: 9, +Extra: 12",
       "dev": "2015.0",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "via OpenMoHAA + HaZardModding Coop",
       "links": [
@@ -3655,7 +3655,7 @@
         }
       ],
       "extraTags": [],
-      "screenshot": "images/screenshots/medal-of-honor-allied-assault.jpg",
+      "screenshot": "",
       "logo": "images/logos/medal-of-honor-allied-assault.png"
     },
     {
@@ -3667,7 +3667,7 @@
       "hltb": "Main: 43, +Extra: 135",
       "dev": "World's Edge, Forgotten Empires, CaptureAge, Tantalus Media, Wicked Witch, Feral Interactive",
       "pub": "Xbox Game Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3690,7 +3690,7 @@
       "hltb": "Main: 8, +Extra: 10",
       "dev": "Gray Matter Studios",
       "pub": "Bethesda Softworks",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "via RealRTCW",
       "links": [
@@ -3713,7 +3713,7 @@
       "hltb": "Main: 11, +Extra: 17",
       "dev": "CAPCOM Co., Ltd.",
       "pub": "CAPCOM Co., Ltd.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3736,7 +3736,7 @@
       "hltb": "Main: 12, +Extra: 14",
       "dev": "inXile Entertainment",
       "pub": "Bethesda Softworks",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3759,7 +3759,7 @@
       "hltb": "Main: 10, +Extra: 15",
       "dev": "CAPCOM CO., LTD.",
       "pub": "Capcom",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3782,7 +3782,7 @@
       "hltb": "Main: 23, +Extra: 46",
       "dev": "Gearbox Software",
       "pub": "2K",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Moxxi's Heist of the Handsome Jackpot\n\n     + Guns, Love, and Tentacles\n\n     + Bounty of Blood\n\n     + Psycho Krieg and the Fantastic Fustercluck",
       "links": [
@@ -3805,7 +3805,7 @@
       "hltb": "Main: 7, +Extra: 9",
       "dev": "Supermassive Games",
       "pub": "Bandai Namco Entertainment Europe",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3828,7 +3828,7 @@
       "hltb": "Main: 6, +Extra: 7",
       "dev": "Supermassive Games",
       "pub": "BANDAI NAMCO Entertainment Europe",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3851,7 +3851,7 @@
       "hltb": "Main: 4, +Extra: 6",
       "dev": "Supermassive Games",
       "pub": "BANDAI NAMCO Entertainment Europe",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3874,7 +3874,7 @@
       "hltb": "Main: 3",
       "dev": "Team Psykskallar",
       "pub": "Team Psykskallar",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3897,7 +3897,7 @@
       "hltb": "Main: 22, +Extra: 48",
       "dev": "Crate Entertainment",
       "pub": "Crate Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Ashes of Malmouth\n\n     + Forgotten Gods\n\n     - Fangs of Asterkarn (upcoming)",
       "links": [],
@@ -3914,7 +3914,7 @@
       "hltb": "Main: 22, +Extra: 49",
       "dev": "SANDLOT",
       "pub": "D3PUBLISHER",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3937,7 +3937,7 @@
       "hltb": "Main: 4, +Extra: 5",
       "dev": "IO Interactive",
       "pub": "Square Enix",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3960,7 +3960,7 @@
       "hltb": "Main: 23, +Extra: 99",
       "dev": "Firaxis Games, Aspyr (Mac), Aspyr (Linux)",
       "pub": "2K, Aspyr (Mac), Aspyr (Linux)",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Rise and Fall\n\n     + Gathering Storm",
       "links": [
@@ -3983,7 +3983,7 @@
       "hltb": "Main: 24, +Extra: 37",
       "dev": "2K Australia, Gearbox Software, Aspyr (Linux)",
       "pub": "2K, Aspyr (Linux)",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ The Holodome Onslaught\n\n     + Claptastic Voyage",
       "links": [
@@ -4006,7 +4006,7 @@
       "hltb": "Main: 22, +Extra: 42",
       "dev": "Techland",
       "pub": "Techland",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ The Following",
       "links": [
@@ -4029,7 +4029,7 @@
       "hltb": "Main: 10, +Extra: 17",
       "dev": "Techland",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4052,7 +4052,7 @@
       "hltb": "Main: 31, +Extra: 46",
       "dev": "Iron Lore Entertainment, THQ Nordic",
       "pub": "THQ Nordic",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4075,7 +4075,7 @@
       "hltb": "Main: 8, +Extra: 12",
       "dev": "Ubisoft Montreal",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4098,7 +4098,7 @@
       "hltb": "Main: 8, +Extra: 12",
       "dev": "Ubisoft Montreal",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4121,7 +4121,7 @@
       "hltb": "Main: 14",
       "dev": "Synergy Team",
       "pub": "Synergy Team",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4144,7 +4144,7 @@
       "hltb": "Main: 8, +Extra: 31",
       "dev": "Digital Illusions",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4167,7 +4167,7 @@
       "hltb": "Main: 7, +Extra: 23",
       "dev": "Digital Illusions",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4190,7 +4190,7 @@
       "hltb": "Main: 18, +Extra: 31",
       "dev": "Ubisoft Montreal, Red Storm, Ubisoft Shanghai, Ubisoft Toronto, Ubisoft Kiev",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4213,7 +4213,7 @@
       "hltb": "Main: 5, +Extra: 6",
       "dev": "Supermassive Games",
       "pub": "BANDAI NAMCO Entertainment Europe",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4236,7 +4236,7 @@
       "hltb": "Main: 6",
       "dev": "Serellan LLC",
       "pub": "505 Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4259,7 +4259,7 @@
       "hltb": "Main: 9",
       "dev": "Sven Co-op team",
       "pub": "Sven Co-op team",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4282,7 +4282,7 @@
       "hltb": "Main: 7",
       "dev": "Ubisoft Montreal",
       "pub": "Ubisoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4305,7 +4305,7 @@
       "hltb": "Main: 15, +Extra: 27",
       "dev": "Volition",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4328,7 +4328,7 @@
       "hltb": "Main: 7, +Extra: 11",
       "dev": "Treyarch",
       "pub": "Activision",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4351,7 +4351,7 @@
       "hltb": "Main: 6, +Extra: 10",
       "dev": "Infinity Ward, Sledgehammer Games",
       "pub": "Activision",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Spec Ops only",
       "links": [
@@ -4374,7 +4374,7 @@
       "hltb": "Main: 6, +Extra: 10",
       "dev": "Infinity Ward",
       "pub": "Activision",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Spec Ops\n\n     + Co-op Campaign Mod",
       "links": [
@@ -4397,7 +4397,7 @@
       "hltb": "Main: 6, +Extra: 8",
       "dev": "Day 1 Studios",
       "pub": "Warner Bros. Interactive Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4420,7 +4420,7 @@
       "hltb": "---",
       "dev": "Rockstar Games",
       "pub": "Rockstar Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4443,7 +4443,7 @@
       "hltb": "Main: 39, +Extra: 123",
       "dev": "Firaxis Games, Aspyr (Mac), Aspyr (Linux)",
       "pub": "2K, Aspyr (Mac), Aspyr (Linux)",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Gods & Kings\n\n     + Brave New World",
       "links": [
@@ -4466,7 +4466,7 @@
       "hltb": "Main: 10, +Extra: 32",
       "dev": "OVERKILL - a Starbreeze Studio.",
       "pub": "Starbreeze Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Wolfpack",
       "links": [
@@ -4489,7 +4489,7 @@
       "hltb": "Main: 10, +Extra: 28",
       "dev": "Valve",
       "pub": "Valve",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4506,17 +4506,15 @@
     {
       "id": "left-4-dead",
       "name": "Left 4 Dead",
-      "group": "coop",
-      "tab": "coop-beaten",
-      "platform": "",
       "release": "17.11.2008",
+      "platform": "",
       "size": "7.5 GB",
       "hltb": "Main: 7, +Extra: 19",
       "dev": "Valve",
       "pub": "Valve",
-      "notes": "",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
+      "notes": "",
       "links": [
         {
           "label": "Steam",
@@ -4537,7 +4535,7 @@
       "hltb": "Main: 30, +Extra: 60",
       "dev": "Gearbox Software, Aspyr (Mac), Aspyr (Linux)",
       "pub": "2K, Aspyr (Mac), Aspyr (Linux)",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Captain Scarlett and Her Pirate's Booty\n\n     + Mr. Torgue's Campaign of Carnage\n\n     + Natural Selection Annex\n\n     + Sir Hammerlock's Big Game Hunt\n\n     + Tiny Tina's Assault on Dragon Keep\n\n     + Commander Lilith & the Fight for Sanctuary",
       "links": [
@@ -4560,7 +4558,7 @@
       "hltb": "Main: 18, +Extra: 28",
       "dev": "Techland",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4583,7 +4581,7 @@
       "hltb": "Main: 13, +Extra: 20",
       "dev": "Rebellion",
       "pub": "Rebellion",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4606,7 +4604,7 @@
       "hltb": "Main: 134, +Extra: 425",
       "dev": "Mojang",
       "pub": "Mojang",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4629,7 +4627,7 @@
       "hltb": "Main: 21, +Extra: 27",
       "dev": "Capcom",
       "pub": "Capcom",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4652,7 +4650,7 @@
       "hltb": "Main: 11, +Extra: 15",
       "dev": "Capcom",
       "pub": "Capcom",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "+ Lost in Nightmares\n\n     + Desperate Escape",
       "links": [
@@ -4675,7 +4673,7 @@
       "hltb": "Main: 11",
       "dev": "Valve",
       "pub": "Valve",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [

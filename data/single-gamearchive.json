@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T01:41:07.094137Z",
+  "updated": "2026-10-01T11:07:45.196911Z",
   "games": [
     {
       "id": "outrun-2006-coast-2-coast",
@@ -4589,7 +4589,7 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
+      "screenshot": "images/screenshots/italian-job-the-usa-chd.jpg",
       "logo": "images/logos/italian-job-the-usa-chd.png"
     },
     {
@@ -18172,8 +18172,8 @@
       "notes": "",
       "links": [],
       "extraTags": [],
-      "screenshot": "",
-      "logo": ""
+      "screenshot": "images/screenshots/18-wheeler-american-pro-trucker-usa-chd.jpg",
+      "logo": "images/logos/18-wheeler-american-pro-trucker-usa-chd.png"
     },
     {
       "id": "4-wheel-thunder-usa-chd",

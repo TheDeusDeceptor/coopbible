@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T01:41:07.033867Z",
+  "updated": "2026-10-01T11:07:45.139208Z",
   "games": [
     {
       "id": "deep-rock-galactic",
@@ -11,7 +11,7 @@
       "hltb": "Main: 45, +Extra: 135",
       "dev": "Ghost Ship Games",
       "pub": "Coffee Stain Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -34,7 +34,7 @@
       "hltb": "Main: 72, +Extra: 115",
       "dev": "Larian Studios",
       "pub": "Larian Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -80,7 +80,7 @@
       "hltb": "Main: 14, +Extra: 20",
       "dev": "Massive Monster",
       "pub": "Devolver Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -126,7 +126,7 @@
       "hltb": "Main: 10, +Extra: 12",
       "dev": "Gardenfiend Games",
       "pub": "SOEDESCO",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -149,7 +149,7 @@
       "hltb": "Main: 1, +Extra: 2",
       "dev": "The MIX Games",
       "pub": "The MIX Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Local Co-op (RemotePlay)\npending...",
       "links": [
@@ -172,7 +172,7 @@
       "hltb": "",
       "dev": "Pow Pixel Games",
       "pub": "JanduSoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "FREE (Steam)\nLocal Co-op (RemotePlay)",
       "links": [
@@ -425,7 +425,7 @@
       "hltb": "Main: 11, +Extra: 21",
       "dev": "Counterplay Games Inc",
       "pub": "Gearbox Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "ALWAYS ONLINE SINGLEPLAYER  w/ CO-OP & MATCHMAKING SERVER WAS SHUTDOWN  \nRANDY PITCHFORD MOMENT🤪\n\n\n\n\n\n\n\nfor historical purpose...",
       "links": [
@@ -471,7 +471,7 @@
       "hltb": "Main: 9, +Extra: 24",
       "dev": "Super Evil Megacorp",
       "pub": "Super Evil Megacorp",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -494,7 +494,7 @@
       "hltb": "Main: 33, +Extra: 43",
       "dev": "Feel Free Games",
       "pub": "Feel Free Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -517,7 +517,7 @@
       "hltb": "Main: 8, +Extra: 9",
       "dev": "Atomic Elbow",
       "pub": "Atomic Elbow",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -586,7 +586,7 @@
       "hltb": "Main: 24",
       "dev": "Atypical Games",
       "pub": "Gaijin Network Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -609,7 +609,7 @@
       "hltb": "Main: 10, +Extra: 25",
       "dev": "Windwalk Games",
       "pub": "Team17",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -655,7 +655,7 @@
       "hltb": "Main: 10, +Extra: 17",
       "dev": "INTI CREATES CO., LTD.",
       "pub": "INTI CREATES CO., LTD.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -678,7 +678,7 @@
       "hltb": "Main: 3",
       "dev": "Targon Studios",
       "pub": "Playstack",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -701,7 +701,7 @@
       "hltb": "Main: 31, +Extra: 53",
       "dev": "James Bendon",
       "pub": "KRAFTON, Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -724,7 +724,7 @@
       "hltb": "",
       "dev": "Bossa Studios",
       "pub": "Humble Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -747,7 +747,7 @@
       "hltb": "Main: 24",
       "dev": "Far From Home",
       "pub": "Far From Home",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -770,7 +770,7 @@
       "hltb": "Main: 6",
       "dev": "GhostJam Games",
       "pub": "GhostJam Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -793,7 +793,7 @@
       "hltb": "",
       "dev": "Cleversan Games",
       "pub": "Sim Farm S.A.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -862,7 +862,7 @@
       "hltb": "Main: 11, +Extra: 19",
       "dev": "Crackshell",
       "pub": "Team17",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -885,7 +885,7 @@
       "hltb": "Main: 5",
       "dev": "Clever Plays",
       "pub": "Team17",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM (Friends Pass)",
       "links": [
@@ -908,7 +908,7 @@
       "hltb": "Main: 5, +Extra: 8",
       "dev": "Studio Saizensen",
       "pub": "Nicalis, Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "files missing",
       "links": [
@@ -931,7 +931,7 @@
       "hltb": "Main: 100",
       "dev": "GIANTS Software",
       "pub": "GIANTS Software",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -954,7 +954,7 @@
       "hltb": "Main: 3",
       "dev": "Milkstone Studios",
       "pub": "Milkstone Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -977,7 +977,7 @@
       "hltb": "",
       "dev": "Broken Lyre Entertainment",
       "pub": "PlayWay S.A.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1000,7 +1000,7 @@
       "hltb": "Main: 78, +Extra: 153",
       "dev": "Saber Interactive",
       "pub": "Focus Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Developer server authorization required",
       "links": [
@@ -1023,7 +1023,7 @@
       "hltb": "",
       "dev": "Alice Games",
       "pub": "Alice Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1046,7 +1046,7 @@
       "hltb": "Main: 31, +Extra: 68",
       "dev": "LEVEL5 Inc.",
       "pub": "LEVEL5 Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1069,7 +1069,7 @@
       "hltb": "Main: 5",
       "dev": "Eleven Puzzles",
       "pub": "Eleven Puzzles",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1092,7 +1092,7 @@
       "hltb": "Main: 25",
       "dev": "Crimson Tales",
       "pub": "Shoreline Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -1115,7 +1115,7 @@
       "hltb": "",
       "dev": "Strange Scaffold",
       "pub": "Strange Scaffold",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1138,7 +1138,7 @@
       "hltb": "Main: 3",
       "dev": "Gravity Lagoon",
       "pub": "HypeTrain Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1161,7 +1161,7 @@
       "hltb": "",
       "dev": "Nick Reinche",
       "pub": "PRO//CYON",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1184,7 +1184,7 @@
       "hltb": "Main: 4, +Extra: 25",
       "dev": "DoubleMoose Games",
       "pub": "The Arcade Crew",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1207,7 +1207,7 @@
       "hltb": "Main: 8, +Extra: 11",
       "dev": "Rebellion",
       "pub": "Rebellion",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -1230,7 +1230,7 @@
       "hltb": "Main: 12, +Extra: 17",
       "dev": "Chronos Unterhaltungssoftware",
       "pub": "astragon Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "GAMEPASS\n\n\n\nDENUVO 💀",
       "links": [
@@ -1253,7 +1253,7 @@
       "hltb": "Main: 26, +Extra: 28",
       "dev": "weltenbauer. Software Entwicklung GmbH",
       "pub": "astragon Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1276,7 +1276,7 @@
       "hltb": "Main: 1, +Extra: 3",
       "dev": "Wild Dog",
       "pub": "Wild Dog",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1299,7 +1299,7 @@
       "hltb": "Main: 2",
       "dev": "To The Sky",
       "pub": "Thunderful Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1322,7 +1322,7 @@
       "hltb": "Main: 2",
       "dev": "?",
       "pub": "ִ",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1345,7 +1345,7 @@
       "hltb": "Main: 2",
       "dev": "TECOPARK",
       "pub": "TECOPARK",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -1368,7 +1368,7 @@
       "hltb": "Main: 3",
       "dev": "TECOPARK",
       "pub": "TECOPARK",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "PP1 on PP2 engine? (preferable...)",
       "links": [
@@ -1391,7 +1391,7 @@
       "hltb": "Main: 4",
       "dev": "TECOPARK",
       "pub": "TECOPARK",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1414,7 +1414,7 @@
       "hltb": "Main: 21, +Extra: 49",
       "dev": "Nokta Games",
       "pub": "Nokta Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1437,7 +1437,7 @@
       "hltb": "",
       "dev": "Pangea Game Studios",
       "pub": "indie.io",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1460,7 +1460,7 @@
       "hltb": "Main: 4, +Extra: 15",
       "dev": "Prophecy Games",
       "pub": "Prophecy Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1483,7 +1483,7 @@
       "hltb": "Main: 11, +Extra: 15",
       "dev": "YUKE'S",
       "pub": "D3PUBLISHER",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -1552,7 +1552,7 @@
       "hltb": "Main: 8, +Extra: 16",
       "dev": "Cold Iron Studios",
       "pub": "Cold Iron Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "emulation issues",
       "links": [
@@ -1621,7 +1621,7 @@
       "hltb": "Main: 19, +Extra: 43",
       "dev": "Bohemia Interactive",
       "pub": "Bohemia Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1667,7 +1667,7 @@
       "hltb": "Main: 2",
       "dev": "Total Mayhem Games",
       "pub": "Total Mayhem Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -1690,7 +1690,7 @@
       "hltb": "Main: 3",
       "dev": "Total Mayhem Games",
       "pub": "Total Mayhem Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -1713,7 +1713,7 @@
       "hltb": "Main: 7",
       "dev": "Total Mayhem Games",
       "pub": "Total Mayhem Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -1736,7 +1736,7 @@
       "hltb": "Main: 11",
       "dev": "Total Mayhem Games",
       "pub": "Total Mayhem Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "ONLINE ONLY\n\n\n\nunsteam?",
       "links": [
@@ -1759,7 +1759,7 @@
       "hltb": "Main: 2",
       "dev": "Total Mayhem Games",
       "pub": "Total Mayhem Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "pending...",
       "links": [
@@ -1782,7 +1782,7 @@
       "hltb": "",
       "dev": "MYM Games Studios",
       "pub": "FiftyEight Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1805,7 +1805,7 @@
       "hltb": "Main: 15, +Extra: 32",
       "dev": "It's happening",
       "pub": "Yogscast Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -1828,7 +1828,7 @@
       "hltb": "Main: 9, +Extra: 15",
       "dev": "Saber Interactive",
       "pub": "Focus Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "GAMEPASS",
       "links": [
@@ -1851,7 +1851,7 @@
       "hltb": "Main: 50, +Extra: 91",
       "dev": "Wube Software LTD.",
       "pub": "Wube Software LTD.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -1874,7 +1874,7 @@
       "hltb": "Main: 2",
       "dev": "Vellichor Games",
       "pub": "Vellichor Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1920,7 +1920,7 @@
       "hltb": "Main: 22, +Extra: 32",
       "dev": "MeanAstronauts",
       "pub": "PlayWay S.A.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -1943,7 +1943,7 @@
       "hltb": "Main: 30, +Extra: 36",
       "dev": "Merge Games",
       "pub": "Maximum Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -1966,7 +1966,7 @@
       "hltb": "Main: 31, +Extra: 76",
       "dev": "Hello Games",
       "pub": "Hello Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -1989,7 +1989,7 @@
       "hltb": "",
       "dev": "Piece of Cake studios",
       "pub": "Piece of Cake studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2012,7 +2012,7 @@
       "hltb": "Main: 28, +Extra: 36",
       "dev": "RocketWerkz",
       "pub": "RocketWerkz",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -2058,7 +2058,7 @@
       "hltb": "Main: 35, +Extra: 40",
       "dev": "FuturLab",
       "pub": "FuturLab",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2081,7 +2081,7 @@
       "hltb": "Main: 17, +Extra: 30",
       "dev": "Techland",
       "pub": "Techland",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2104,7 +2104,7 @@
       "hltb": "Main: 10",
       "dev": "Platypus Entertainment",
       "pub": "Ytopia",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2127,7 +2127,7 @@
       "hltb": "Main: 8, +Extra: 10",
       "dev": "Pine Studio",
       "pub": "Pine Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2150,7 +2150,7 @@
       "hltb": "Main: 23, +Extra: 34",
       "dev": "EXOR Studios",
       "pub": "EXOR Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally\n\n\n\n\nuse GOG\nSteam version problematic...",
       "links": [
@@ -2173,7 +2173,7 @@
       "hltb": "Main: 22",
       "dev": "Gamepires",
       "pub": "Gamepires",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2196,7 +2196,7 @@
       "hltb": "Main: 12, +Extra: 65",
       "dev": "Digitalmindsoft",
       "pub": "Digitalmindsoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM\n\n(dlc files missing)",
       "links": [
@@ -2219,7 +2219,7 @@
       "hltb": "Main+Sides: 111",
       "dev": "Barbedwire Studios",
       "pub": "Digitalmindsoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -2242,7 +2242,7 @@
       "hltb": "Main: 15, +Extra: 22",
       "dev": "Marvelous Inc.",
       "pub": "XSEED Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2265,7 +2265,7 @@
       "hltb": "Main: 16, +Extra: 88",
       "dev": "Tripwire Interactive",
       "pub": "Tripwire Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -2288,7 +2288,7 @@
       "hltb": "Main: 39, +Extra: 52",
       "dev": "KOEI TECMO GAMES CO., LTD.",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "🅱️enuvo + Origin",
       "links": [
@@ -2311,7 +2311,7 @@
       "hltb": "Main: 25, +Extra: 50",
       "dev": "System Era Softworks",
       "pub": "System Era Softworks",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -2334,7 +2334,7 @@
       "hltb": "Main: 4, +Extra: 8",
       "dev": "Anshar Studios",
       "pub": "3D Realms",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2357,7 +2357,7 @@
       "hltb": "Main+Sides: 27",
       "dev": "Hutlihut Games",
       "pub": "Focus Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -2380,7 +2380,7 @@
       "hltb": "Main: 14, +Extra: 23",
       "dev": "Flow Studio",
       "pub": "Flow Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2403,7 +2403,7 @@
       "hltb": "Main+Sides: 295",
       "dev": "Studio Wildcard",
       "pub": "Studio Wildcard",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -2472,7 +2472,7 @@
       "hltb": "",
       "dev": "Permadeath",
       "pub": "Permadeath",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -2495,7 +2495,7 @@
       "hltb": "Main: 28, +Extra: 35",
       "dev": "Sabotage Studio",
       "pub": "Sabotage Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2518,7 +2518,7 @@
       "hltb": "Main: 7, +Extra: 23",
       "dev": "Lizard Smoothie",
       "pub": "NEOWIZ",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2564,7 +2564,7 @@
       "hltb": "Main: 15, +Extra: 23",
       "dev": "Echtra Inc.",
       "pub": "XD",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2587,7 +2587,7 @@
       "hltb": "Main: 8, +Extra: 25",
       "dev": "Fatshark",
       "pub": "Fatshark",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -2610,7 +2610,7 @@
       "hltb": "Main+Sides: 55",
       "dev": "Fatshark",
       "pub": "Fatshark",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM\n\n(EAC anal penetration against DLC unlockers)",
       "links": [
@@ -2633,7 +2633,7 @@
       "hltb": "Main: 54, +Extra: 76",
       "dev": "BANDAI NAMCO Studio",
       "pub": "BANDAI NAMCO Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -2656,7 +2656,7 @@
       "hltb": "Main: 22, +Extra: 35",
       "dev": "BANDAI NAMCO Studios Inc.",
       "pub": "BANDAI NAMCO Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -2748,7 +2748,7 @@
       "hltb": "Main: 8, +Extra: 20",
       "dev": "Robot Entertainment",
       "pub": "Robot Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM\nOMD!1 campaign included",
       "links": [
@@ -2794,7 +2794,7 @@
       "hltb": "Main: 15, +Extra: 30",
       "dev": "Robot Entertainment",
       "pub": "Robot Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -2817,7 +2817,7 @@
       "hltb": "Main: 10, +Extra: 16",
       "dev": "Arrowhead Game Studios",
       "pub": "Paradox Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -2840,7 +2840,7 @@
       "hltb": "Main: 6, +Extra: 10",
       "dev": "Pieces Interactive",
       "pub": "Paradox Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -3001,7 +3001,7 @@
       "hltb": "Main: 4",
       "dev": "Light Brick Studio",
       "pub": "Annapurna Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3024,7 +3024,7 @@
       "hltb": "Main: 11, +Extra: 17",
       "dev": "Sumo Digital",
       "pub": "PlayStation Publishing LLC",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "pending...\n\n\n(via OnlineFix probably)",
       "links": [
@@ -3093,7 +3093,7 @@
       "hltb": "Main: 10, +Extra: 18",
       "dev": "Rebellion",
       "pub": "Rebellion",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -3116,7 +3116,7 @@
       "hltb": "Main: 11, +Extra: 20",
       "dev": "Rebellion",
       "pub": "Rebellion",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -3139,7 +3139,7 @@
       "hltb": "Main: 9, +Extra: 13",
       "dev": "Rebellion",
       "pub": "Rebellion",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "GAMEPASS",
       "links": [
@@ -3162,7 +3162,7 @@
       "hltb": "Main: 12, +Extra: 19",
       "dev": "Rebellion",
       "pub": "Rebellion",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "🅱️enuvo",
       "links": [
@@ -3185,7 +3185,7 @@
       "hltb": "Main: 20",
       "dev": "CookieDev",
       "pub": "Ultimate Games S.A.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "updates occasionally",
       "links": [
@@ -3208,7 +3208,7 @@
       "hltb": "Main: 3, +Extra: 5",
       "dev": "Tribute Games Inc.",
       "pub": "Dotemu",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3231,7 +3231,7 @@
       "hltb": "Main: 3",
       "dev": "Dreambyte Games",
       "pub": "Dreambyte Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -3254,7 +3254,7 @@
       "hltb": "Main: 20, +Extra: 29",
       "dev": "Volition",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM\n\n\n\n\nRequires\nKobraworks \nJuiced Patch",
       "links": [
@@ -3300,7 +3300,7 @@
       "hltb": "Main: 15, +Extra: 26",
       "dev": "Deep Silver Volition",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -3323,7 +3323,7 @@
       "hltb": "Main: 4, +Extra: 8",
       "dev": "Deep Silver Volition",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -3346,7 +3346,7 @@
       "hltb": "Main: 12, +Extra: 27",
       "dev": "Volition",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3369,7 +3369,7 @@
       "hltb": "Main: 28, +Extra: 56",
       "dev": "Ryu Ga Gotoku Studio",
       "pub": "SEGA",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "The Red Light Raid (wave-based enemy survival)",
       "links": [
@@ -3392,7 +3392,7 @@
       "hltb": "Main: 30, +Extra: 38",
       "dev": "Envision Entertainment",
       "pub": "Envision Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3415,7 +3415,7 @@
       "hltb": "",
       "dev": "Reky Studios",
       "pub": "Reky Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3438,7 +3438,7 @@
       "hltb": "Main: 1",
       "dev": "WIRED FEELINGS",
       "pub": "WIRED FEELINGS",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3484,7 +3484,7 @@
       "hltb": "",
       "dev": "A.P.S",
       "pub": "A.P.S",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3576,7 +3576,7 @@
       "hltb": "",
       "dev": "Fire Foot Studios",
       "pub": "Fire Foot Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3599,7 +3599,7 @@
       "hltb": "",
       "dev": "Wappen Games",
       "pub": "Wappen Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3622,7 +3622,7 @@
       "hltb": "Main: 16, +Extra: 24",
       "dev": "Pandemic Studios, LTI Gray Matter",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3645,7 +3645,7 @@
       "hltb": "Main: 8, +Extra: 13",
       "dev": "EA Redwood Shores",
       "pub": "EA Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3668,7 +3668,7 @@
       "hltb": "Main: 6, +Extra: 9",
       "dev": "Pandemic Studios",
       "pub": "Electronic Arts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3691,7 +3691,7 @@
       "hltb": "Main: 22, +Extra: 40",
       "dev": "Haemimont Games",
       "pub": "Kalypso Media Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Developer server authorization required",
       "links": [
@@ -3760,7 +3760,7 @@
       "hltb": "Main: 33, +Extra: 45",
       "dev": "Miju Games",
       "pub": "Miju Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3783,7 +3783,7 @@
       "hltb": "Main: 30",
       "dev": "Offworld",
       "pub": "Offworld",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "PvE Co-op",
       "links": [
@@ -3806,7 +3806,7 @@
       "hltb": "Main: 56, +Extra: 109",
       "dev": "Stairway Games",
       "pub": "Humble Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3829,7 +3829,7 @@
       "hltb": "Main: 7, +Extra: 10",
       "dev": "Stormfront Studios",
       "pub": "Vivendi Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3852,7 +3852,7 @@
       "hltb": "",
       "dev": "Castle Games",
       "pub": "Castle Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3875,7 +3875,7 @@
       "hltb": "Main: 3",
       "dev": "Laumania ApS",
       "pub": "Laumania ApS",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3898,7 +3898,7 @@
       "hltb": "Main: 24, +Extra: 30",
       "dev": "Games Incubator",
       "pub": "Games Incubator, PlayWay S.A.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -3921,7 +3921,7 @@
       "hltb": "Main: 6, +Extra: 10",
       "dev": "Seethingswarm",
       "pub": "Pretty Soon",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4013,7 +4013,7 @@
       "hltb": "",
       "dev": "Asmodev",
       "pub": "Ultimate Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4036,7 +4036,7 @@
       "hltb": "Main: 14, +Extra: 28",
       "dev": "Red Barrels",
       "pub": "Red Barrels",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Developer server authorization required",
       "links": [
@@ -4059,7 +4059,7 @@
       "hltb": "Main: 14, +Extra: 40",
       "dev": "Duoyi Games",
       "pub": "Duoyi Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4105,7 +4105,7 @@
       "hltb": "Main: 12, +Extra: 32",
       "dev": "Coffee Stain Studios",
       "pub": "Coffee Stain Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4128,7 +4128,7 @@
       "hltb": "Main: 10, +Extra: 17",
       "dev": "The Behemoth",
       "pub": "The Behemoth",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4151,7 +4151,7 @@
       "hltb": "Main: 14, +Extra: 29",
       "dev": "Flashbulb",
       "pub": "Flashbulb",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4174,7 +4174,7 @@
       "hltb": "Main: 1",
       "dev": "No more Sleep",
       "pub": "No more Sleep",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4197,7 +4197,7 @@
       "hltb": "Main: 14, +Extra: 62",
       "dev": "Chromatic Games",
       "pub": "Chromatic Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4220,7 +4220,7 @@
       "hltb": "Main: 21, +Extra: 57",
       "dev": "Chromatic Games",
       "pub": "Chromatic Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4243,7 +4243,7 @@
       "hltb": "Main: 24, +Extra: 50",
       "dev": "Chromatic Games",
       "pub": "Chromatic Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4289,7 +4289,7 @@
       "hltb": "Main: 0.5",
       "dev": "Dream Toaster Games",
       "pub": "Dream Toaster Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4404,7 +4404,7 @@
       "hltb": "Main: 2",
       "dev": "0 Deer Soft",
       "pub": "0 Deer Soft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4427,7 +4427,7 @@
       "hltb": "Main: 2",
       "dev": "0 Deer Soft",
       "pub": "0 Deer Soft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4496,7 +4496,7 @@
       "hltb": "Main: 6",
       "dev": "Ctrl Freak",
       "pub": "Super Rare Originals",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4542,7 +4542,7 @@
       "hltb": "Main: 2, +Extra: 3",
       "dev": "Timeless Tale",
       "pub": "Timeless Tale",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4588,7 +4588,7 @@
       "hltb": "Main: 8",
       "dev": "Breakfirst Games",
       "pub": "Maximum Entertainment, Breakfirst Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4611,7 +4611,7 @@
       "hltb": "Main: 3",
       "dev": "Breakfirst Games",
       "pub": "Maximum Entertainment, Breakfirst Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4657,7 +4657,7 @@
       "hltb": "",
       "dev": "TreekSamrix",
       "pub": "TreekSamrix",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4680,7 +4680,7 @@
       "hltb": "",
       "dev": "Johnny Dale Lonack",
       "pub": "Thorrnet Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4703,7 +4703,7 @@
       "hltb": "",
       "dev": "Pontus Karlsson",
       "pub": "Pontus Karlsson",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4772,7 +4772,7 @@
       "hltb": "Main: 10, +Extra: 17",
       "dev": "Eko Software",
       "pub": "Nacon",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4795,7 +4795,7 @@
       "hltb": "Main: 2, +Extra: 3",
       "dev": "It's Anecdotal",
       "pub": "It's Anecdotal",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4818,7 +4818,7 @@
       "hltb": "",
       "dev": "Fruits of Yggdrasil Studio",
       "pub": "Fruits of Yggdrasil Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -4910,7 +4910,7 @@
       "hltb": "#ERROR!",
       "dev": "Mark Lara Devs",
       "pub": "Mark Lara Devs",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4933,7 +4933,7 @@
       "hltb": "Full: 6",
       "dev": "DVD Unicorns",
       "pub": "Anshar Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -4956,7 +4956,7 @@
       "hltb": "Main: 2",
       "dev": "Tyci",
       "pub": "Tyci",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM\n(Friend's Pass)",
       "links": [
@@ -5002,7 +5002,7 @@
       "hltb": "",
       "dev": "TreekSamrix",
       "pub": "TreekSamrix",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5048,7 +5048,7 @@
       "hltb": "",
       "dev": "Smug Marmot Studios",
       "pub": "Smug Marmot Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5094,7 +5094,7 @@
       "hltb": "",
       "dev": "Drifter®",
       "pub": "Gala Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Developer server authorization required",
       "links": [
@@ -5186,7 +5186,7 @@
       "hltb": "Main: 1, +Extra: 2",
       "dev": "Barzda",
       "pub": "Barzda",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5209,7 +5209,7 @@
       "hltb": "Main: 15, +Extra: 22",
       "dev": "Autoexec Games",
       "pub": "Autoexec Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM\n(Friend's Pass)",
       "links": [
@@ -5232,7 +5232,7 @@
       "hltb": "",
       "dev": "Doky",
       "pub": "Doky",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5255,7 +5255,7 @@
       "hltb": "",
       "dev": "Big Red Eight",
       "pub": "",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5278,7 +5278,7 @@
       "hltb": "",
       "dev": "Atmosphere Studio",
       "pub": "Atmosphere Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5301,7 +5301,7 @@
       "hltb": "+Sides: 11",
       "dev": "Simon Eriksson",
       "pub": "Simon Eriksson",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -5324,7 +5324,7 @@
       "hltb": "Main: 2",
       "dev": "RuniQ",
       "pub": "indie.io",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5347,7 +5347,7 @@
       "hltb": "",
       "dev": "KJXX GAME",
       "pub": "KJXX GAME",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5370,7 +5370,7 @@
       "hltb": "Main+Sides: 1",
       "dev": "Kondoorsoft",
       "pub": "Kondoorsoft",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -5393,7 +5393,7 @@
       "hltb": "",
       "dev": "NPK Games",
       "pub": "Pretty Soon",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5416,7 +5416,7 @@
       "hltb": "",
       "dev": "Penguin's Autumn",
       "pub": "Penguin's Autumn",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5485,7 +5485,7 @@
       "hltb": "Main: 7",
       "dev": "Question",
       "pub": "Question",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "PLAYFAB",
       "links": [
@@ -5508,7 +5508,7 @@
       "hltb": "Main: 4, +Extra: 8",
       "dev": "Duhndal",
       "pub": "Duhndal",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -5554,7 +5554,7 @@
       "hltb": "Main: 19, +Extra: 22",
       "dev": "Foulball Hangover",
       "pub": "Foulball Hangover",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "emulation issues",
       "links": [
@@ -5600,7 +5600,7 @@
       "hltb": "Co-op: 7",
       "dev": "Wilnyl, Philip, thePetHen, Skog, Zorro",
       "pub": "Landfall",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -5623,7 +5623,7 @@
       "hltb": "Co-op: 23",
       "dev": "No More Room in Hell Team",
       "pub": "Lever Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -5646,7 +5646,7 @@
       "hltb": "Main: 4, +Extra: 20",
       "dev": "RubberBandGames",
       "pub": "RubberBandGames",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5669,7 +5669,7 @@
       "hltb": "Co-op: 13",
       "dev": "Hypergryph",
       "pub": "GRYPHLINE, Fireshine Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5692,7 +5692,7 @@
       "hltb": "Main: 4, +Extra: 9",
       "dev": "DANKIE",
       "pub": "DANKIE",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -5715,7 +5715,7 @@
       "hltb": "Main: 3, +Extra: 10",
       "dev": "DANKIE",
       "pub": "DANKIE",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5738,7 +5738,7 @@
       "hltb": "Main: 5, +Extra: 7",
       "dev": "Mighty Rocket Studio",
       "pub": "Focus Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5807,7 +5807,7 @@
       "hltb": "",
       "dev": "A2 Softworks",
       "pub": "A2 Softworks",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5830,7 +5830,7 @@
       "hltb": "Main: 8, +Extra: 17",
       "dev": "Doom Turtle",
       "pub": "Twin Sails Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5853,7 +5853,7 @@
       "hltb": "Main: 9, +Extra: 14",
       "dev": "Croteam",
       "pub": "Devolver Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5876,7 +5876,7 @@
       "hltb": "Main: 5, +Extra: 64",
       "dev": "Ammobox Studios",
       "pub": "Ammobox Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5922,7 +5922,7 @@
       "hltb": "Main: 9, +Extra: 14",
       "dev": "Wales Interactive",
       "pub": "Wales Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -5968,7 +5968,7 @@
       "hltb": "Main: 5, +Extra: 13",
       "dev": "Bitfall Studios",
       "pub": "Stray Fawn Publishing, Sidekick Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6014,7 +6014,7 @@
       "hltb": "Main: 60",
       "dev": "Eleon Game Studios",
       "pub": "Eleon Game Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6037,7 +6037,7 @@
       "hltb": "Main: 8, +Extra: 13",
       "dev": "Old School Games",
       "pub": "ATLUS USA",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6106,7 +6106,7 @@
       "hltb": "Main: 5, +Extra: 7",
       "dev": "Avalanche Studios",
       "pub": "SEGA",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -6152,7 +6152,7 @@
       "hltb": "Main: 9, +Extra: 13",
       "dev": "Logic Artists",
       "pub": "Logic Artists",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6175,7 +6175,7 @@
       "hltb": "Main: 1, +Extra: 3",
       "dev": "Zoroarts",
       "pub": "Assemble Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6221,7 +6221,7 @@
       "hltb": "Main: 15, +Extra: 35",
       "dev": "Behaviour Interactive Inc.",
       "pub": "Behaviour Interactive Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6267,7 +6267,7 @@
       "hltb": "Main: 6, +Extra: 13",
       "dev": "BlueEagle Productions",
       "pub": "Paul Schneider",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -6290,7 +6290,7 @@
       "hltb": "Main: 5, +Extra: 26",
       "dev": "Lion game Lion",
       "pub": "Starbreeze Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6313,7 +6313,7 @@
       "hltb": "Main: 5, +Extra: 9",
       "dev": "Exit Plan Games",
       "pub": "Untold Tales, CouchPlay Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6336,7 +6336,7 @@
       "hltb": "Main: 5, +Extra: 8",
       "dev": "Recreate Games",
       "pub": "Source Technology",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6382,7 +6382,7 @@
       "hltb": "Main: 18, +Extra: 24",
       "dev": "Leafy Games",
       "pub": "Leafy Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6405,7 +6405,7 @@
       "hltb": "Main: 2, +Extra: 3",
       "dev": "Geoff 'Zag' Keene, Deep Field Games",
       "pub": "Deep Field Games, New Blood Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -6428,7 +6428,7 @@
       "hltb": "Main: 5, +Extra: 8",
       "dev": "Delayed Victory",
       "pub": "Delayed Victory",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6451,7 +6451,7 @@
       "hltb": "Main: 4, +Extra: 11",
       "dev": "Mika Mobile, Inc.",
       "pub": "Mika Mobile, Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6474,7 +6474,7 @@
       "hltb": "",
       "dev": "Harebrained Schemes",
       "pub": "Paradox Interactive, Bandai Namco",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6497,7 +6497,7 @@
       "hltb": "Main: 7",
       "dev": "Galactic Workshop",
       "pub": "Galactic Workshop",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6520,7 +6520,7 @@
       "hltb": "Main: 6, +Extra: 12",
       "dev": "Valko Game Studios",
       "pub": "Valko Game Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6543,7 +6543,7 @@
       "hltb": "Main: 2",
       "dev": "Casus Ludi",
       "pub": "Gearbox Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6566,7 +6566,7 @@
       "hltb": "Main: 8, +Extra: 13",
       "dev": "BetaDwarf",
       "pub": "BetaDwarf",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -6589,7 +6589,7 @@
       "hltb": "",
       "dev": "M4DOOM",
       "pub": "M4DOOM",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -6612,7 +6612,7 @@
       "hltb": "Main: 8, +Extra: 15",
       "dev": "Dotemu, Guard Crush Games, Supamonks",
       "pub": "Dotemu, Gamirror Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6635,7 +6635,7 @@
       "hltb": "Main: 12, +Extra: 17",
       "dev": "Over The Moon",
       "pub": "Coatsink",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6658,7 +6658,7 @@
       "hltb": "Main: 5, +Extra: 7",
       "dev": "Tuque Games",
       "pub": "Arc Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6681,7 +6681,7 @@
       "hltb": "Main: 4, +Extra: 5",
       "dev": "Claudio Norori, Antonio Vargas",
       "pub": "",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6704,7 +6704,7 @@
       "hltb": "Main: 5, +Extra: 6",
       "dev": "Rone Vine",
       "pub": "Rone Vine",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6727,7 +6727,7 @@
       "hltb": "Main: 1, +Extra: 2",
       "dev": "Artless Gallery",
       "pub": "Umbra Evolution",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -6773,7 +6773,7 @@
       "hltb": "+Sides: 19",
       "dev": "Novarama",
       "pub": "Novarama",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6796,7 +6796,7 @@
       "hltb": "Main: 21, +Extra: 35",
       "dev": "Sean Young",
       "pub": "SmashGames",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6819,7 +6819,7 @@
       "hltb": "Main: 23, +Extra: 91",
       "dev": "Sean Young",
       "pub": "SmashGames",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6842,7 +6842,7 @@
       "hltb": "Main: 5, +Extra: 10",
       "dev": "SMG Studio, Devm Games",
       "pub": "Team17",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6865,7 +6865,7 @@
       "hltb": "Full: 4",
       "dev": "FoodWithoutTaste, Shinok",
       "pub": "HeartstuckStudios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6888,7 +6888,7 @@
       "hltb": "Main: 6, +Extra: 7",
       "dev": "Team17 Software Ltd.",
       "pub": "Team17 Digital Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -6911,7 +6911,7 @@
       "hltb": "Main: 6, +Extra: 7",
       "dev": "Team17 Digital Ltd",
       "pub": "Team17 Digital Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6934,7 +6934,7 @@
       "hltb": "Main: 5, +Extra: 6",
       "dev": "Team17 Digital Ltd",
       "pub": "Team17 Digital Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6957,7 +6957,7 @@
       "hltb": "Main: 12, +Extra: 19",
       "dev": "Dambuster Studios",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -6980,7 +6980,7 @@
       "hltb": "Main: 7, +Extra: 8",
       "dev": "INTERIOR/NIGHT",
       "pub": "Xbox Game Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7003,7 +7003,7 @@
       "hltb": "",
       "dev": "The Wall Productions Inc., Meridian4",
       "pub": "The Wall Productions Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -7026,7 +7026,7 @@
       "hltb": "",
       "dev": "Devotion Interactive",
       "pub": "Devotion Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7049,7 +7049,7 @@
       "hltb": "",
       "dev": "Casey Donnellan Games LLC",
       "pub": "tinyBuild",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7072,7 +7072,7 @@
       "hltb": "Main: 8, +Extra: 12",
       "dev": "Petroglyph",
       "pub": "Funcom",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7095,7 +7095,7 @@
       "hltb": "",
       "dev": "Haemimont Games",
       "pub": "Kalypso Media Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Developer server authorization required",
       "links": [
@@ -7118,7 +7118,7 @@
       "hltb": "",
       "dev": "Reverie World Studios",
       "pub": "indie.io",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7141,7 +7141,7 @@
       "hltb": "",
       "dev": "WYLDERZONE",
       "pub": "WYLDERZONE",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7164,7 +7164,7 @@
       "hltb": "Main: 12, +Extra: 19",
       "dev": "Tuque Games",
       "pub": "Wizards of the Coast",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7187,7 +7187,7 @@
       "hltb": "+Sides: 82",
       "dev": "Chasing Carrots",
       "pub": "Chasing Carrots",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7210,7 +7210,7 @@
       "hltb": "",
       "dev": "Ascension Studio",
       "pub": "Ascension Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7233,7 +7233,7 @@
       "hltb": "",
       "dev": "Chreseeba Games",
       "pub": "Chreseeba Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7256,7 +7256,7 @@
       "hltb": "Main: 5, +Extra: 10",
       "dev": "Team Ranger",
       "pub": "Lightning Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7279,7 +7279,7 @@
       "hltb": "Main: 1",
       "dev": "Viswanath Atlu, Laurie Banks, Rohan Bhukan, Nick Burnham, Avinash Kalapala, Yash Kapani, Katharine Marsh, Ankur Rathore, Hardit Singh, Anoop Nihar Srinivas, Ryan Guanyuhao Jiang, Robert Zhu",
       "pub": "Good Vibration Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -7302,7 +7302,7 @@
       "hltb": "Main: 28, +Extra: 41",
       "dev": "Dimps Corporation",
       "pub": "Bandai Namco Entertainment Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7325,7 +7325,7 @@
       "hltb": "Main: 9, +Extra: 13",
       "dev": "Streum On Studio",
       "pub": "Focus Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7348,7 +7348,7 @@
       "hltb": "Main: 17, +Extra: 28",
       "dev": "INTI CREATES CO., LTD.",
       "pub": "INTI CREATES CO., LTD.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7371,7 +7371,7 @@
       "hltb": "Main: 9, +Extra: 13",
       "dev": "Aftnareld",
       "pub": "Anshar Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7394,7 +7394,7 @@
       "hltb": "Main: 2",
       "dev": "OnSkull Games",
       "pub": "OnSkull Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7417,7 +7417,7 @@
       "hltb": "Main: 3",
       "dev": "OnSkull Games",
       "pub": "OnSkull Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7440,7 +7440,7 @@
       "hltb": "Main: 2",
       "dev": "OnSkull Games",
       "pub": "OnSkull Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7463,7 +7463,7 @@
       "hltb": "Main: 2",
       "dev": "OnSkull Games",
       "pub": "OnSkull Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7486,7 +7486,7 @@
       "hltb": "",
       "dev": "Endless Loop Studios, Code Monkey",
       "pub": "Endless Loop Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7509,7 +7509,7 @@
       "hltb": "",
       "dev": "Pugsy Studios",
       "pub": "GameDev.ist",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7532,7 +7532,7 @@
       "hltb": "Main: 3, +Extra: 5",
       "dev": "VARSAV Game Studios",
       "pub": "Untold Tales",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7555,7 +7555,7 @@
       "hltb": "Main: 8, +Extra: 10",
       "dev": "Volition",
       "pub": "Deep Silver",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -7578,7 +7578,7 @@
       "hltb": "",
       "dev": "Psytec Games Ltd",
       "pub": "Psytec Games Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7601,7 +7601,7 @@
       "hltb": "#ERROR!",
       "dev": "Eko Software",
       "pub": "Nacon",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7624,7 +7624,7 @@
       "hltb": "",
       "dev": "Robot Riot UG (haftungsbeschränkt)",
       "pub": "Robot Riot UG (haftungsbeschränkt)",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -7647,7 +7647,7 @@
       "hltb": "",
       "dev": "Slimebox",
       "pub": "Slimebox",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7670,7 +7670,7 @@
       "hltb": "",
       "dev": "GoldKnights",
       "pub": "Prime Matter",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7693,7 +7693,7 @@
       "hltb": "",
       "dev": "Moju Games",
       "pub": "Moju Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7716,7 +7716,7 @@
       "hltb": "Main: 2, +Extra: 3",
       "dev": "Spearhead Games",
       "pub": "Spearhead Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7739,7 +7739,7 @@
       "hltb": "",
       "dev": "Infinity Ape Studios",
       "pub": "Iceberg Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7762,7 +7762,7 @@
       "hltb": "Main: 26, +Extra: 33",
       "dev": "CoffeeMonster",
       "pub": "CoffeeMonster",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7785,7 +7785,7 @@
       "hltb": "Main: 7, +Extra: 8",
       "dev": "Systemic Reaction™",
       "pub": "Systemic Reaction™",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7808,7 +7808,7 @@
       "hltb": "Main: 16, +Extra: 21",
       "dev": "Square Enix",
       "pub": "Square Enix",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7831,7 +7831,7 @@
       "hltb": "Main: 4, +Extra: 6",
       "dev": "WayForward",
       "pub": "Outright Games Ltd.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7854,7 +7854,7 @@
       "hltb": "Main: 6, +Extra: 7",
       "dev": "Tragnarion Studios",
       "pub": "Bitbox S.L.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7877,7 +7877,7 @@
       "hltb": "Full: 39",
       "dev": "Preferred Networks",
       "pub": "Preferred Networks",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7900,7 +7900,7 @@
       "hltb": "",
       "dev": "Kusa Games",
       "pub": "Kusa Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7923,7 +7923,7 @@
       "hltb": "Main: 6, +Extra: 8",
       "dev": "Slant Six Games",
       "pub": "Capcom",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7946,7 +7946,7 @@
       "hltb": "Main: 1, +Extra: 3",
       "dev": "Team Soupvision",
       "pub": "Breda University of Applied Sciences",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -7969,7 +7969,7 @@
       "hltb": "Main: 4",
       "dev": "Stray Bombay",
       "pub": "Stray Bombay",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -7992,7 +7992,7 @@
       "hltb": "Main: 34",
       "dev": "azndesserts, justjayem, wolfbyte131",
       "pub": "azndesserts",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8015,7 +8015,7 @@
       "hltb": "",
       "dev": "Exit Plan Games",
       "pub": "Exit Plan Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8038,7 +8038,7 @@
       "hltb": "",
       "dev": "Sixteen Tons Entertainment",
       "pub": "Sixteen Tons Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -8061,7 +8061,7 @@
       "hltb": "Main: 2",
       "dev": "Venturous",
       "pub": "Venturous",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8084,7 +8084,7 @@
       "hltb": "Main: 5, +Extra: 10",
       "dev": "Beamdog",
       "pub": "Beamdog",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8107,7 +8107,7 @@
       "hltb": "Main: 1",
       "dev": "MalumGames",
       "pub": "MalumGames",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8130,7 +8130,7 @@
       "hltb": "Main: 14, +Extra: 20",
       "dev": "Aesir Interactive",
       "pub": "astragon Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8153,7 +8153,7 @@
       "hltb": "Full: 52",
       "dev": "Uuvana Studios",
       "pub": "Uuvana Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8176,7 +8176,7 @@
       "hltb": "",
       "dev": "Admiral Games",
       "pub": "indie.io",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8199,7 +8199,7 @@
       "hltb": "Main: 2",
       "dev": "AIx2 Games",
       "pub": "AIx2 Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8222,7 +8222,7 @@
       "hltb": "",
       "dev": "AIx2 Games",
       "pub": "AIx2 Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8245,7 +8245,7 @@
       "hltb": "",
       "dev": "Coletivo Vaca Roxa, Vee, JoyMasher, PKO Game Studio, Spookids Team, Calangames, Expresso Studios, Pastel Studios, Heavy Sheep, LASTONE, Asteristic Game Studio",
       "pub": "Estúdio Vaca Roxa",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8268,7 +8268,7 @@
       "hltb": "Full: 3",
       "dev": "Asteristic Game Studio",
       "pub": "Ratalaika Games S.L.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8291,7 +8291,7 @@
       "hltb": "",
       "dev": "CHEST BOX",
       "pub": "CHEST BOX",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8314,7 +8314,7 @@
       "hltb": "Main: 1, +Extra: 2",
       "dev": "Studio Popote",
       "pub": "Rubika Supinfogame",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM",
       "links": [
@@ -8337,7 +8337,7 @@
       "hltb": "",
       "dev": "Celeritas Games",
       "pub": "Celeritas Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8360,7 +8360,7 @@
       "hltb": "",
       "dev": "Gample",
       "pub": "Gample",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8383,7 +8383,7 @@
       "hltb": "Main: 3",
       "dev": "Ares Dragonis",
       "pub": "Dragonis Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8406,7 +8406,7 @@
       "hltb": "",
       "dev": "2Brains&Coffee, Seedlers Interactive",
       "pub": "Seedlers Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8429,7 +8429,7 @@
       "hltb": "Main: 1",
       "dev": "Lumiere Studios",
       "pub": "Lumiere Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8452,7 +8452,7 @@
       "hltb": "",
       "dev": "ZweiBier Indie",
       "pub": "Reality Twist GmbH",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8475,7 +8475,7 @@
       "hltb": "Main: 60, +Extra: 83",
       "dev": "Larian Studios",
       "pub": "Larian Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8498,7 +8498,7 @@
       "hltb": "Main: 59",
       "dev": "Larian Studios",
       "pub": "Larian Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8521,7 +8521,7 @@
       "hltb": "Main: 29, +Extra: 50",
       "dev": "Gearbox Software",
       "pub": "2K",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "🅱️enuvo",
       "links": [
@@ -8544,7 +8544,7 @@
       "hltb": "Main: 9, +Extra: 24",
       "dev": "Tripwire Interactive",
       "pub": "Tripwire Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Developer server authorization required",
       "links": [
@@ -8567,7 +8567,7 @@
       "hltb": "Main: 26, +Extra: 47",
       "dev": "KOEI TECMO GAMES CO., LTD.",
       "pub": "KOEI TECMO GAMES CO., LTD.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8590,7 +8590,7 @@
       "hltb": "Main: 6, +Extra: 13",
       "dev": "AQUAPLUS",
       "pub": "DMM GAMES, Shiravune",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8613,7 +8613,7 @@
       "hltb": "",
       "dev": "Army Troop Studios",
       "pub": "Army Troop Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8636,7 +8636,7 @@
       "hltb": "",
       "dev": "Vector Interactive",
       "pub": "Vector Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8659,7 +8659,7 @@
       "hltb": "",
       "dev": "Haylaz Games",
       "pub": "Haylaz Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8682,7 +8682,7 @@
       "hltb": "Main: 12",
       "dev": "Positive Concept Games",
       "pub": "indie.io, Levelup Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8705,7 +8705,7 @@
       "hltb": "Main: 41, +Extra: 45",
       "dev": "Nuke Nine",
       "pub": "Nuke Nine",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8728,7 +8728,7 @@
       "hltb": "Full: 68",
       "dev": "a2z Interactive",
       "pub": "a2z Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8751,7 +8751,7 @@
       "hltb": "Main: 23, +Extra: 30",
       "dev": "Yodubzz Studios",
       "pub": "indie.io",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8774,7 +8774,7 @@
       "hltb": "+Sides: 47",
       "dev": "Firefly Studios",
       "pub": "Firefly Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8797,7 +8797,7 @@
       "hltb": "Main: 9, +Extra: 40",
       "dev": "Firefly Studios",
       "pub": "Firefly Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8820,7 +8820,7 @@
       "hltb": "Main: 19, +Extra: 47",
       "dev": "Firefly Studios",
       "pub": "Firefly Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8843,7 +8843,7 @@
       "hltb": "",
       "dev": "Say2Sun",
       "pub": "Grejuva",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8866,7 +8866,7 @@
       "hltb": "Main: 4, +Extra: 5",
       "dev": "Sobaka Studio",
       "pub": "ESDigital Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8889,7 +8889,7 @@
       "hltb": "Main: 33, +Extra: 84",
       "dev": "Dekovir Entertainment",
       "pub": "Dekovir Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8912,7 +8912,7 @@
       "hltb": "Main: 5",
       "dev": "Tarsier Studios",
       "pub": "THQ Nordic, Amplifier Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM \n(Friends Pass)",
       "links": [
@@ -8935,7 +8935,7 @@
       "hltb": "",
       "dev": "Sound Games, Lightfox Games",
       "pub": "Sound Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM\n(free)",
       "links": [
@@ -8958,7 +8958,7 @@
       "hltb": "Main: 3",
       "dev": "Deluded Games",
       "pub": "Deluded Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -8981,7 +8981,7 @@
       "hltb": "Main: 3",
       "dev": "Second Reality",
       "pub": "RockGame S.A.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9004,7 +9004,7 @@
       "hltb": "Main: 17, +Extra: 28",
       "dev": "Warner Bros. Games Montréal, QLOC",
       "pub": "Warner Bros. Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Developer server \nauthorization required\n\n\nGAMEPASS",
       "links": [
@@ -9027,7 +9027,7 @@
       "hltb": "",
       "dev": "FailCake (HyenaQuest)",
       "pub": "HyenaQuest",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM\n(free)",
       "links": [
@@ -9050,7 +9050,7 @@
       "hltb": "Main: 3, +Extra: 10",
       "dev": "Remedy Entertainment",
       "pub": "Remedy Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "STEAM \n(Friends Pass)\n\n\n\nPerformance demands\ndifferent OS...",
       "links": [
@@ -9073,7 +9073,7 @@
       "hltb": "+Sides: 16",
       "dev": "AQUAPLUS",
       "pub": "DMM GAMES, Shiravune",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9096,7 +9096,7 @@
       "hltb": "Main: 32, +Extra: 61",
       "dev": "Games Incubator, Hypnotic Ants",
       "pub": "Games Incubator, PlayWay S.A.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9119,7 +9119,7 @@
       "hltb": "Main: 52, +Extra: 55",
       "dev": "Texel Raptor",
       "pub": "Texel Raptor",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9142,7 +9142,7 @@
       "hltb": "+Sides: 68",
       "dev": "Stage Games Inc.",
       "pub": "Forklift Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9165,7 +9165,7 @@
       "hltb": "Main: 6, +Extra: 8",
       "dev": "ACE Team",
       "pub": "SEGA",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9188,7 +9188,7 @@
       "hltb": "Main: 4, +Extra: 6",
       "dev": "ACE Team",
       "pub": "SEGA",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9211,7 +9211,7 @@
       "hltb": "Main: 5",
       "dev": "Little Bird Studios",
       "pub": "Cathedral Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9234,7 +9234,7 @@
       "hltb": "Main: 4, +Extra: 6",
       "dev": "Tribute Games Inc.",
       "pub": "Tribute Games Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9257,7 +9257,7 @@
       "hltb": "",
       "dev": "VIWESA GAMES",
       "pub": "VIWESA GAMES",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9280,7 +9280,7 @@
       "hltb": "Full: 10",
       "dev": "itamu",
       "pub": "Oro Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9303,7 +9303,7 @@
       "hltb": "Main: 21, +Extra: 86",
       "dev": "Eko Software",
       "pub": "Nacon",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9326,7 +9326,7 @@
       "hltb": "",
       "dev": "Nils Jakrins",
       "pub": "Excalibur Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9349,7 +9349,7 @@
       "hltb": "Main: 1, +Extra: 3",
       "dev": "Funsolve LTD",
       "pub": "Outright Games Ltd.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9372,7 +9372,7 @@
       "hltb": "Main: 9, +Extra: 13",
       "dev": "Landfall",
       "pub": "Landfall",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9395,7 +9395,7 @@
       "hltb": "",
       "dev": "Mardonpol Inc.",
       "pub": "Mardonpol Inc.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9418,7 +9418,7 @@
       "hltb": "",
       "dev": "FiftyEight Studios",
       "pub": "FiftyEight Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9441,7 +9441,7 @@
       "hltb": "",
       "dev": "Quest Craft, Gaming Factory",
       "pub": "Gaming Factory, Ultimate Games S.A., Ultimate Publishing, PlayWay S.A.",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9464,7 +9464,7 @@
       "hltb": "",
       "dev": "Big Cheese Studio",
       "pub": "Big Cheese Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9487,7 +9487,7 @@
       "hltb": "Main: 12",
       "dev": "CampFire Studio",
       "pub": "Qooland Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9510,7 +9510,7 @@
       "hltb": "Main: 5",
       "dev": "CarlosGameDev",
       "pub": "CarlosGameDev, CouchPlay Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9533,7 +9533,7 @@
       "hltb": "",
       "dev": "Çağatay Demir, Doğukan Şahin",
       "pub": "SlugShot Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9556,7 +9556,7 @@
       "hltb": "Main: 4",
       "dev": "Square Glade Games",
       "pub": "Square Glade Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9579,7 +9579,7 @@
       "hltb": "Main: 8, +Extra: 10",
       "dev": "Supermassive Games",
       "pub": "Supermassive Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9602,7 +9602,7 @@
       "hltb": "Sides: 15",
       "dev": "Poor Locke",
       "pub": "Poor Locke",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9625,7 +9625,7 @@
       "hltb": "Main: 2",
       "dev": "Maison Bap",
       "pub": "Maison Bap",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9648,7 +9648,7 @@
       "hltb": "Main: 3",
       "dev": "Karga Games",
       "pub": "Teneke Kafalar Spotlight, Karga Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9671,7 +9671,7 @@
       "hltb": "",
       "dev": "Ocean's Call Studios",
       "pub": "Ocean's Call Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9694,7 +9694,7 @@
       "hltb": "",
       "dev": "Bunker Brothers LLC",
       "pub": "Bunker Brothers LLC",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9717,7 +9717,7 @@
       "hltb": "",
       "dev": "Harmonia Games",
       "pub": "Aiolos Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9740,7 +9740,7 @@
       "hltb": "Main: 12",
       "dev": "Toxic Studio",
       "pub": "Toxic Studio, Polden Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9763,7 +9763,7 @@
       "hltb": "",
       "dev": "BAA Games",
       "pub": "BAA Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9786,7 +9786,7 @@
       "hltb": "",
       "dev": "Magic Pockets",
       "pub": "Magic Pockets",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9809,7 +9809,7 @@
       "hltb": "",
       "dev": "toR Studio",
       "pub": "Polden Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9832,7 +9832,7 @@
       "hltb": "",
       "dev": "DreamStudios, Sandstorm in a Bottle",
       "pub": "DreamStudios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9855,7 +9855,7 @@
       "hltb": "Main: 4, +Extra: 7",
       "dev": "Billy Goat Entertainment Ltd",
       "pub": "PQube",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9878,7 +9878,7 @@
       "hltb": "Main: 4, +Extra: 14",
       "dev": "Bolt Blaster Games",
       "pub": "Bolt Blaster Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9901,7 +9901,7 @@
       "hltb": "",
       "dev": "Hoki Wolf Studio",
       "pub": "Hoki Wolf Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9924,7 +9924,7 @@
       "hltb": "",
       "dev": "Absam Studios",
       "pub": "Absam Studios",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9947,7 +9947,7 @@
       "hltb": "Main: 20, +Extra: 31",
       "dev": "Nexile",
       "pub": "Nexile",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9970,7 +9970,7 @@
       "hltb": "Main: 25, +Extra: 40",
       "dev": "Airship Syndicate",
       "pub": "Airship Syndicate",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -9993,7 +9993,7 @@
       "hltb": "",
       "dev": "Panic Stations",
       "pub": "Panic Stations",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "Photon Fusion",
       "links": [
@@ -10016,7 +10016,7 @@
       "hltb": "Main: 35",
       "dev": "ACE Team",
       "pub": "Nacon",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10039,7 +10039,7 @@
       "hltb": "",
       "dev": "Business Tycoon",
       "pub": "Business Tycoon, Gamersky Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10062,7 +10062,7 @@
       "hltb": "Main: 3",
       "dev": "Embers",
       "pub": "Embers",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10085,7 +10085,7 @@
       "hltb": "",
       "dev": "ISIT Studio",
       "pub": "ISIT Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10108,7 +10108,7 @@
       "hltb": "",
       "dev": "cnsgames",
       "pub": "cnsgames",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10131,7 +10131,7 @@
       "hltb": "",
       "dev": "Next Big Game Studio",
       "pub": "Next Big Game Studio, UGC90",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10154,7 +10154,7 @@
       "hltb": "Main: 17, +Extra: 20",
       "dev": "Cyberwave",
       "pub": "rokaplay, Metaroot",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10177,7 +10177,7 @@
       "hltb": "",
       "dev": "Beardroid Games",
       "pub": "Beardroid Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10200,7 +10200,7 @@
       "hltb": "",
       "dev": "Beck & Branch Games",
       "pub": "Neem Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10223,7 +10223,7 @@
       "hltb": "Main: 5",
       "dev": "Straight Back Games",
       "pub": "Straight Back Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10246,7 +10246,7 @@
       "hltb": "",
       "dev": "Broken Lyre Entertainment, Wendigo Games",
       "pub": "Devotion Interactive",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10269,7 +10269,7 @@
       "hltb": "Main: 18",
       "dev": "KONAMI",
       "pub": "KONAMI",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10292,7 +10292,7 @@
       "hltb": "Main: 15",
       "dev": "Pebbledust Games",
       "pub": "Pretty Soon",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10315,7 +10315,7 @@
       "hltb": "",
       "dev": "polyperfect",
       "pub": "indie.io",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10338,7 +10338,7 @@
       "hltb": "Main: 24",
       "dev": "Osaris Games",
       "pub": "Osaris Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10361,7 +10361,7 @@
       "hltb": "",
       "dev": "Soldak Entertainment",
       "pub": "Soldak Entertainment",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10384,7 +10384,7 @@
       "hltb": "",
       "dev": "Zoë Mode",
       "pub": "Activision",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10407,7 +10407,7 @@
       "hltb": "",
       "dev": "Zoë Mode",
       "pub": "Activision",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10430,7 +10430,7 @@
       "hltb": "",
       "dev": "ProbablyMonsters",
       "pub": "ProbablyMonsters",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10453,7 +10453,7 @@
       "hltb": "",
       "dev": "BitBorne Studio",
       "pub": "BitBorne Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10476,7 +10476,7 @@
       "hltb": "",
       "dev": "Emirhan ÇAT, Bedirhan ÇAT",
       "pub": "RedCat Studio",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10499,7 +10499,7 @@
       "hltb": "Main: 3",
       "dev": "doinksoft",
       "pub": "Devolver Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10522,7 +10522,7 @@
       "hltb": "",
       "dev": "Games Together",
       "pub": "Games Together, Gamersky Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10545,7 +10545,7 @@
       "hltb": "Main: 12",
       "dev": "Behaviour Interactive Inc.",
       "pub": "Devolver Digital",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10568,7 +10568,7 @@
       "hltb": "",
       "dev": "Iron Gate AB",
       "pub": "Coffee Stain Publishing",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "emulation issues",
       "links": [
@@ -10591,7 +10591,7 @@
       "hltb": "Main: 20",
       "dev": "Jagex Ltd",
       "pub": "Jagex Ltd",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [
@@ -10614,7 +10614,7 @@
       "hltb": "Main: 154",
       "dev": "D5 Copperhead",
       "pub": "Gamirror Games",
-      "ready": true,
+      "ready": false,
       "onDisk": false,
       "notes": "",
       "links": [

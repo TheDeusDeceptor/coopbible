@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T01:41:07.094430Z",
+  "updated": "2026-10-01T11:07:45.197154Z",
   "games": [
     {
       "id": "binary-domain",
@@ -22,8 +22,8 @@
         }
       ],
       "extraTags": [],
-      "screenshot": "",
-      "logo": ""
+      "screenshot": "images/screenshots/binary-domain.jpg",
+      "logo": "images/logos/binary-domain.png"
     }
   ]
 }
