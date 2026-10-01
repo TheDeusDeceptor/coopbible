@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T11:07:45.143370Z",
+  "updated": "2026-10-01T16:17:35.335300Z",
   "games": [
     {
       "id": "devil-may-cry-3-crimson",
@@ -11,8 +11,11 @@
       "hltb": "Main: 11, +Extra: 16",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": true,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Local Co-op (RemotePlay)  |  Version: BETA 0.5a (playable)",
       "links": [
         {
@@ -33,8 +36,11 @@
       "hltb": "Main: 28, +Extra: 36",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: v1.1.0-BETA\n\nREADY",
       "links": [
         {
@@ -55,8 +61,11 @@
       "hltb": "Main: 24, +Extra: 32",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: FINISHED",
       "links": [
         {
@@ -77,8 +86,11 @@
       "hltb": "Main: 13, +Extra: 16",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: CBT",
       "links": [
         {
@@ -99,8 +111,11 @@
       "hltb": "Main: 38, +Extra: 48",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: Released\n\n😠😠😠",
       "links": [
         {
@@ -121,8 +136,11 @@
       "hltb": "Main: 26, +Extra: 112",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: 1.8.2 (20.09.2026)",
       "links": [
         {
@@ -143,8 +161,11 @@
       "hltb": "Main: 30, +Extra: 45",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: 4/100 missions adapted",
       "links": [
         {
@@ -165,8 +186,11 @@
       "hltb": "Main: 29, +Extra: 44",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: 0.0.4 Alpha",
       "links": [
         {
@@ -187,8 +211,11 @@
       "hltb": "Main: 35, +Extra: 61",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: 0.0.1",
       "links": [
         {
@@ -209,8 +236,11 @@
       "hltb": "Main: 31, +Extra: 48",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: 0.1.1 Alpha",
       "links": [
         {
@@ -231,8 +261,11 @@
       "hltb": "Main: 60",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Seamless Co-op supported  |  Version: READY",
       "links": [
         {
@@ -253,8 +286,11 @@
       "hltb": "...",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Seamless Co-op supported  |  Version: 2.3.5.3\n\nREADY",
       "links": [
         {
@@ -275,8 +311,11 @@
       "hltb": "Main: 60, +Extra: 101",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Seamless Co-op supported  |  Version: 1.9.1\n\n(still on me2)",
       "links": [
         {
@@ -297,8 +336,11 @@
       "hltb": "...",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Seamless Co-op supported  |  Version: 3.0.2\n\nREADY",
       "links": [
         {
@@ -319,8 +361,11 @@
       "hltb": "Main: 45, +Extra: 81",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: 0.6.0",
       "links": [
         {
@@ -341,8 +386,11 @@
       "hltb": "Main: 10, +Extra: 15",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: 1.3.2",
       "links": [
         {
@@ -363,8 +411,11 @@
       "hltb": "...",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "first person perspective  |  Version: 0.61.2 (development stopped, support only)",
       "links": [
         {
@@ -385,8 +436,11 @@
       "hltb": "Main: 63, +Extra: 119",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "same settlement co-op  |  Version: 0.11.5",
       "links": [
         {
@@ -407,8 +461,11 @@
       "hltb": "Main: 31, +Extra: 64",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Version: 01.11.2025",
       "links": [
         {
@@ -429,8 +486,11 @@
       "hltb": "Main: 36, +Extra: 64",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Co-op  |  Version: 1.14",
       "links": [
         {
@@ -451,8 +511,11 @@
       "hltb": "Main: 52, +Extra: 82",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Co-op  |  Version: 02.03.2000",
       "links": [
         {
@@ -473,8 +536,11 @@
       "hltb": "Main: 16, +Extra: 21",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Co-op  |  Version: BETA 4",
       "links": [
         {
@@ -495,8 +561,11 @@
       "hltb": "Main: 6, +Extra: 7",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Co-op",
       "links": [
         {
@@ -517,8 +586,11 @@
       "hltb": "Main: 7, +Extra: 8",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Co-op  |  Version: 0.0.2",
       "links": [
         {
@@ -539,8 +611,11 @@
       "hltb": "Main: 28, +Extra: 86",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "Co-op  |  Version: 01.01.2026",
       "links": [
         {

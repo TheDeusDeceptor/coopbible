@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T11:07:45.197154Z",
+  "updated": "2026-10-01T16:17:35.402858Z",
   "games": [
     {
       "id": "binary-domain",
@@ -11,8 +11,11 @@
       "hltb": "",
       "dev": "",
       "pub": "",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {

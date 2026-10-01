@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-01T11:07:45.142684Z",
+  "updated": "2026-10-01T16:17:35.334446Z",
   "games": [
     {
       "id": "blind-descent",
@@ -11,8 +11,11 @@
       "hltb": "",
       "dev": "Pokuch",
       "pub": "META Publishing",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -34,8 +37,11 @@
       "hltb": "",
       "dev": "ynoham",
       "pub": "ynoham",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -57,8 +63,11 @@
       "hltb": "",
       "dev": "Red Axe Games",
       "pub": "Red Axe Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -80,8 +89,11 @@
       "hltb": "",
       "dev": "UDevLemon",
       "pub": "tinyBuild",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -103,8 +115,11 @@
       "hltb": "",
       "dev": "Chucklefish, Robotality",
       "pub": "Chucklefish",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -126,8 +141,11 @@
       "hltb": "",
       "dev": "Fearem",
       "pub": "Fearem",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -149,8 +167,11 @@
       "hltb": "",
       "dev": "Mr. Podunkian",
       "pub": "Mr. Podunkian",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -172,8 +193,11 @@
       "hltb": "",
       "dev": "PST Games",
       "pub": "PST Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -195,8 +219,11 @@
       "hltb": "",
       "dev": "Envar Games",
       "pub": "Envar Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -218,8 +245,11 @@
       "hltb": "",
       "dev": "Redemption Road",
       "pub": "tinyBuild",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -241,8 +271,11 @@
       "hltb": "",
       "dev": "Pequi studios",
       "pub": "indie.io",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -264,8 +297,11 @@
       "hltb": "",
       "dev": "Nine Dots Studio",
       "pub": "Nine Dots Publishing",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -287,8 +323,11 @@
       "hltb": "",
       "dev": "Behold Studios",
       "pub": "Raw Fury",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -310,8 +349,11 @@
       "hltb": "",
       "dev": "Yacht Club Games",
       "pub": "Yacht Club Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -333,8 +375,11 @@
       "hltb": "",
       "dev": "Kraken Ink Studio",
       "pub": "Kraken Ink Studio",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -356,8 +401,11 @@
       "hltb": "",
       "dev": "No more Sleep",
       "pub": "No more Sleep",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -379,8 +427,11 @@
       "hltb": "",
       "dev": "Pebbles Games, PlayTogether Studio",
       "pub": "PlayTogether Studio, Pebbles Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -402,8 +453,11 @@
       "hltb": "",
       "dev": "HUXGE Games",
       "pub": "HUXGE Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -425,8 +479,11 @@
       "hltb": "",
       "dev": "Freedom Burger Games",
       "pub": "Artex",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -448,8 +505,11 @@
       "hltb": "",
       "dev": "EverFlow Games",
       "pub": "EverFlow Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -471,8 +531,11 @@
       "hltb": "",
       "dev": "Johnny Dale Lonack",
       "pub": "Johnny Dale Lonack",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -494,8 +557,11 @@
       "hltb": "",
       "dev": "Kondoorsoft",
       "pub": "Kondoorsoft",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -517,8 +583,11 @@
       "hltb": "",
       "dev": "AddRaiser",
       "pub": "AddRaiser",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -540,8 +609,11 @@
       "hltb": "",
       "dev": "Tea & Cake Games",
       "pub": "Tea & Cake Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -563,8 +635,11 @@
       "hltb": "",
       "dev": "Polygoose Studio",
       "pub": "Polygoose Studio",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -586,8 +661,11 @@
       "hltb": "",
       "dev": "Jonas Kastner",
       "pub": "Jonas Kastner",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -609,8 +687,11 @@
       "hltb": "",
       "dev": "Hooyarium Games",
       "pub": "Hooyarium Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -632,8 +713,11 @@
       "hltb": "",
       "dev": "Grossly Incandescent Games",
       "pub": "Grossly Incandescent Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -655,8 +739,11 @@
       "hltb": "",
       "dev": "Kyroware Games",
       "pub": "Kyroware Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -678,8 +765,11 @@
       "hltb": "",
       "dev": "314 Arts",
       "pub": "Maximum Entertainment",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -701,8 +791,11 @@
       "hltb": "",
       "dev": "游戏学家老许",
       "pub": "自己发行",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -724,8 +817,11 @@
       "hltb": "",
       "dev": "Noble Muffins",
       "pub": "PlayWay S.A.",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -747,8 +843,11 @@
       "hltb": "",
       "dev": "Matt Dabrowski",
       "pub": "tinyBuild",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -770,8 +869,11 @@
       "hltb": "",
       "dev": "Double Dusk Inc.",
       "pub": "Double Dusk Inc.",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -793,8 +895,11 @@
       "hltb": "",
       "dev": "Firevolt",
       "pub": "Firevolt",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -816,8 +921,11 @@
       "hltb": "",
       "dev": "Fobri",
       "pub": "Fobri",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -839,8 +947,11 @@
       "hltb": "",
       "dev": "TARA GAMING LIMITED",
       "pub": "TARA GAMING LIMITED",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -862,8 +973,11 @@
       "hltb": "",
       "dev": "WakaStudio",
       "pub": "WakaStudio",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -885,8 +999,11 @@
       "hltb": "",
       "dev": "Longpines Games",
       "pub": "Polden Publishing",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -908,8 +1025,11 @@
       "hltb": "",
       "dev": "Saber Interactive",
       "pub": "Saber Interactive",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -931,8 +1051,11 @@
       "hltb": "",
       "dev": "17-BIT",
       "pub": "17-BIT",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -954,8 +1077,11 @@
       "hltb": "",
       "dev": "Jumbo Jumps",
       "pub": "Jumbo Jumps",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -977,8 +1103,11 @@
       "hltb": "",
       "dev": "PlayMud Studio",
       "pub": "Paras Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1000,8 +1129,11 @@
       "hltb": "",
       "dev": "Shiro Games",
       "pub": "Shiro Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1023,8 +1155,11 @@
       "hltb": "",
       "dev": "Sagestone Games",
       "pub": "Sagestone Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1046,8 +1181,11 @@
       "hltb": "",
       "dev": "Quantum Box",
       "pub": "Quantum Box",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1069,8 +1207,11 @@
       "hltb": "",
       "dev": "Fearwoods",
       "pub": "GrabTheGames",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1092,8 +1233,11 @@
       "hltb": "",
       "dev": "Grip Jaw",
       "pub": "Grip Jaw",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1115,8 +1259,11 @@
       "hltb": "",
       "dev": "Dango Dynamics",
       "pub": "Dango Dynamics",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1138,8 +1285,11 @@
       "hltb": "",
       "dev": "Nova Telum Studio",
       "pub": "Nova Telum Studio",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1161,8 +1311,11 @@
       "hltb": "",
       "dev": "Faceless Smile Corp.",
       "pub": "Faceless Smile Corp.",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1184,8 +1337,11 @@
       "hltb": "",
       "dev": "DWS Interactive",
       "pub": "DWS Interactive",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1207,8 +1363,11 @@
       "hltb": "",
       "dev": "MM88",
       "pub": "MM88",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1230,8 +1389,11 @@
       "hltb": "",
       "dev": "Alkame Games",
       "pub": "Alkame Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1253,8 +1415,11 @@
       "hltb": "",
       "dev": "Wayanjo",
       "pub": "Wayanjo",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1276,8 +1441,11 @@
       "hltb": "",
       "dev": "HopeGames",
       "pub": "HopeGames",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1299,8 +1467,11 @@
       "hltb": "",
       "dev": "Ricotoni Games",
       "pub": "Ricotoni Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1322,8 +1493,11 @@
       "hltb": "",
       "dev": "Double Stallion",
       "pub": "Double Stallion",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1345,8 +1519,11 @@
       "hltb": "",
       "dev": "Reikon Games",
       "pub": "Reikon Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1368,8 +1545,11 @@
       "hltb": "",
       "dev": "Supernova Studios LLC",
       "pub": "Supernova Studios LLC",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1391,8 +1571,11 @@
       "hltb": "",
       "dev": "Nullhusk Company",
       "pub": "Nullhusk Company",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1414,8 +1597,11 @@
       "hltb": "",
       "dev": "Garage51",
       "pub": "Garage51",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1437,8 +1623,11 @@
       "hltb": "",
       "dev": "Haenir Studio",
       "pub": "Behaviour Interactive",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1460,8 +1649,11 @@
       "hltb": "",
       "dev": "Red Thread Games",
       "pub": "Megabit Publishing",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1483,8 +1675,11 @@
       "hltb": "",
       "dev": "PocketGame",
       "pub": "NETWORKGO",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1506,8 +1701,11 @@
       "hltb": "",
       "dev": "Glass Revolver",
       "pub": "Annapurna Interactive",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1529,8 +1727,11 @@
       "hltb": "",
       "dev": "Total Mayhem Games",
       "pub": "Total Mayhem Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1552,8 +1753,11 @@
       "hltb": "",
       "dev": "OldYacht",
       "pub": "Polden Publishing",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1575,8 +1779,11 @@
       "hltb": "",
       "dev": "Big Fish, Little Fish Studio",
       "pub": "Big Fish, Little Fish Studio",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1598,8 +1805,11 @@
       "hltb": "",
       "dev": "Firevolt",
       "pub": "Firevolt",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1621,8 +1831,11 @@
       "hltb": "",
       "dev": "Washbear Studio",
       "pub": "Washbear Studio",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1644,8 +1857,11 @@
       "hltb": "",
       "dev": "Antediluvian Interactive",
       "pub": "Antediluvian Interactive",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1667,8 +1883,11 @@
       "hltb": "",
       "dev": "Juggler Games, PJ Games",
       "pub": "PJ Games, Crytivo",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1690,8 +1909,11 @@
       "hltb": "",
       "dev": "Alcedo Games",
       "pub": "Alcedo Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1713,8 +1935,11 @@
       "hltb": "",
       "dev": "Vampire Squid",
       "pub": "Polden Publishing",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1736,8 +1961,11 @@
       "hltb": "",
       "dev": "Red Dot Games",
       "pub": "PlayWay S.A.",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1759,8 +1987,11 @@
       "hltb": "",
       "dev": "Parodie Games",
       "pub": "Parodie Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1782,8 +2013,11 @@
       "hltb": "",
       "dev": "Fake Moon",
       "pub": "rokaplay select",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1805,8 +2039,11 @@
       "hltb": "",
       "dev": "Digital Confectioners",
       "pub": "Digital Confectioners",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1828,8 +2065,11 @@
       "hltb": "",
       "dev": "Destructive Creations",
       "pub": "Bohemia Interactive",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1851,8 +2091,11 @@
       "hltb": "",
       "dev": "Ludogram",
       "pub": "Ludogram",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1874,8 +2117,11 @@
       "hltb": "",
       "dev": "Banana Tiger Studio",
       "pub": "Banana Tiger Studio",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1897,8 +2143,11 @@
       "hltb": "",
       "dev": "BLAST ZERO",
       "pub": "Red Dunes Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1920,8 +2169,11 @@
       "hltb": "",
       "dev": "Moka Sphere, SCON",
       "pub": "Moka Sphere",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1943,8 +2195,11 @@
       "hltb": "",
       "dev": "AremixInteractive",
       "pub": "AremixInteractive",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1966,8 +2221,11 @@
       "hltb": "",
       "dev": "Rone Vine",
       "pub": "Rone Vine",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -1989,8 +2247,11 @@
       "hltb": "",
       "dev": "Antediluvian Interactive",
       "pub": "Antediluvian Interactive",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2012,8 +2273,11 @@
       "hltb": "",
       "dev": "FLEXUS",
       "pub": "FLEXUS",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2035,8 +2299,11 @@
       "hltb": "",
       "dev": "RedPad Games",
       "pub": "RedPad Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2058,8 +2325,11 @@
       "hltb": "",
       "dev": "Play2Chill S.A.",
       "pub": "Garage Monkeys",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2081,8 +2351,11 @@
       "hltb": "",
       "dev": "Little Bird Studios",
       "pub": "Cathedral Studios",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2104,8 +2377,11 @@
       "hltb": "",
       "dev": "Studio Bitdot",
       "pub": "Studio Bitdot",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2127,8 +2403,11 @@
       "hltb": "",
       "dev": "North Beach Games",
       "pub": "North Beach Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "🅱️emuva.",
       "links": [
         {
@@ -2150,8 +2429,11 @@
       "hltb": "",
       "dev": "Vespertine Game",
       "pub": "Vespertine Game",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2173,8 +2455,11 @@
       "hltb": "",
       "dev": "Moonmilk Games",
       "pub": "Moonmilk Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2196,8 +2481,11 @@
       "hltb": "",
       "dev": "Vasilii Privalov",
       "pub": "Vasilii Privalov",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2219,8 +2507,11 @@
       "hltb": "",
       "dev": "Estoty",
       "pub": "Estoty",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2242,8 +2533,11 @@
       "hltb": "",
       "dev": "Off by One Games",
       "pub": "Off by One Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
@@ -2265,8 +2559,11 @@
       "hltb": "",
       "dev": "Ghost Town Games Ltd.",
       "pub": "Hello Games",
-      "ready": false,
-      "onDisk": false,
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
       "notes": "",
       "links": [
         {
