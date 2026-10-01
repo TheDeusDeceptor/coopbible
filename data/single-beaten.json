@@ -15221,6 +15221,32 @@
       "extraTags": [],
       "screenshot": "images/screenshots/super-c.jpg",
       "logo": "images/logos/super-c.png"
+    },
+    {
+      "id": "deep-rock-galactic",
+      "name": "Deep Rock Galactic",
+      "release": "13.05.2020",
+      "platform": "",
+      "size": "3 GB",
+      "hltb": "Main: 45, +Extra: 135",
+      "dev": "Ghost Ship Games",
+      "pub": "Coffee Stain Publishing",
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
+      "notes": "updates occasionally",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/548430",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/deep-rock-galactic.jpg",
+      "logo": "images/logos/deep-rock-galactic.png"
     }
   ]
 }
