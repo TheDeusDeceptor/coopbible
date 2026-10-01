@@ -1,0 +1,556 @@
+{
+  "version": 1,
+  "updated": "2026-10-01T01:41:07.038710Z",
+  "games": [
+    {
+      "id": "devil-may-cry-3-crimson",
+      "name": "Devil May Cry 3 Crimson",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 11, +Extra: 16",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Local Co-op (RemotePlay)  |  Version: BETA 0.5a (playable)",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://github.com/berthrage/DMC3-Crimson"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/devil-may-cry-3-crimson.jpg",
+      "logo": "images/logos/devil-may-cry-3-crimson.png"
+    },
+    {
+      "id": "lies-of-p-seamless-co-op",
+      "name": "Lies of P Seamless Co-op",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 28, +Extra: 36",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: v1.1.0-BETA\n\nREADY",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.patreon.com/EmberWaveTeam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/lies-of-p-seamless-co-op.jpg",
+      "logo": "images/logos/lies-of-p-seamless-co-op.png"
+    },
+    {
+      "id": "age-of-mythology-retold-co-op",
+      "name": "Age of Mythology Retold Co-op",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 24, +Extra: 32",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: FINISHED",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.ageofempires.com/mods/details/309279"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/age-of-mythology-retold-co-op.jpg",
+      "logo": "images/logos/age-of-mythology-retold-co-op.png"
+    },
+    {
+      "id": "far-cry-advanced-version",
+      "name": "Far Cry Advanced Version",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 13, +Extra: 16",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: CBT",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://farcry1.itch.io/far-cry-advanced-version"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/far-cry-advanced-version.jpg",
+      "logo": "images/logos/far-cry-advanced-version.png"
+    },
+    {
+      "id": "wukongmp-black-myth-wukong",
+      "name": "WukongMP \n(Black Myth: Wukong)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 38, +Extra: 48",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: Released\n\n😠😠😠",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/blackmythwukong/mods/1205"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/wukongmp-black-myth-wukong.jpg",
+      "logo": "images/logos/wukongmp-black-myth-wukong.png"
+    },
+    {
+      "id": "skyrim-together-reborn-the-elder-scrolls-v-skyrim",
+      "name": "Skyrim Together Reborn\n(The Elder Scrolls V: Skyrim)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 26, +Extra: 112",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: 1.8.2 (20.09.2026)",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/69993"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/skyrim-together-reborn-the-elder-scrolls-v-skyrim.jpg",
+      "logo": "images/logos/skyrim-together-reborn-the-elder-scrolls-v-skyrim.png"
+    },
+    {
+      "id": "coopandreas-gta-san-andreas",
+      "name": "CoopAndreas\n(GTA San Andreas)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 30, +Extra: 45",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: 4/100 missions adapted",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://github.com/Tornamic/CoopAndreas"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/coopandreas-gta-san-andreas.jpg",
+      "logo": "images/logos/coopandreas-gta-san-andreas.png"
+    },
+    {
+      "id": "dark-souls-remastered-seamless-co-op",
+      "name": "Dark Souls Remastered \n\nSeamless Co-op",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 29, +Extra: 44",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: 0.0.4 Alpha",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/darksoulsremastered/mods/899"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dark-souls-remastered-seamless-co-op.jpg",
+      "logo": "images/logos/dark-souls-remastered-seamless-co-op.png"
+    },
+    {
+      "id": "dark-souls-ii-scholar-of-the-first-sin-seamless-co-op",
+      "name": "Dark Souls II \nScholar of the First Sin \n\nSeamless Co-op",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 35, +Extra: 61",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: 0.0.1",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/darksouls2/mods/1468"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dark-souls-ii-scholar-of-the-first-sin-seamless-co-op.jpg",
+      "logo": "images/logos/dark-souls-ii-scholar-of-the-first-sin-seamless-co-op.png"
+    },
+    {
+      "id": "dark-souls-iii-seamless-co-op",
+      "name": "Dark Souls III \n\nSeamless Co-op",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 31, +Extra: 48",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: 0.1.1 Alpha",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/darksouls3/mods/1895"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dark-souls-iii-seamless-co-op.jpg",
+      "logo": "images/logos/dark-souls-iii-seamless-co-op.png"
+    },
+    {
+      "id": "elden-ring-randomizer",
+      "name": "Elden Ring Randomizer",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 60",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Seamless Co-op supported  |  Version: READY",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/eldenring/mods/428"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/elden-ring-randomizer.jpg",
+      "logo": "images/logos/elden-ring-randomizer.png"
+    },
+    {
+      "id": "elden-ring-reforged",
+      "name": "Elden Ring Reforged",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "...",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Seamless Co-op supported  |  Version: 2.3.5.3\n\nREADY",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/eldenring/mods/541"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/elden-ring-reforged.jpg",
+      "logo": "images/logos/elden-ring-reforged.png"
+    },
+    {
+      "id": "elden-vins",
+      "name": "Elden Vins",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 60, +Extra: 101",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Seamless Co-op supported  |  Version: 1.9.1\n\n(still on me2)",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/eldenring/mods/4709"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "",
+      "logo": "images/logos/elden-vins.png"
+    },
+    {
+      "id": "elden-ring-the-convergence",
+      "name": "Elden Ring\nThe Convergence",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "...",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Seamless Co-op supported  |  Version: 3.0.2\n\nREADY",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/eldenring/mods/3419"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/elden-ring-the-convergence.jpg",
+      "logo": "images/logos/elden-ring-the-convergence.png"
+    },
+    {
+      "id": "dynamite-metal-gear-solid-v-the-phantom-pain",
+      "name": "dynamite\n(Metal Gear Solid V: The Phantom Pain)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 45, +Extra: 81",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: 0.6.0",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://github.com/unknown321/dynamite"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dynamite-metal-gear-solid-v-the-phantom-pain.jpg",
+      "logo": "images/logos/dynamite-metal-gear-solid-v-the-phantom-pain.png"
+    },
+    {
+      "id": "painkiller-black-edition",
+      "name": "Painkiller: Black Edition",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 10, +Extra: 15",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: 1.3.2",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.moddb.com/mods/painkiller-cooperative-mode"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/painkiller-black-edition.jpg",
+      "logo": "images/logos/painkiller-black-edition.png"
+    },
+    {
+      "id": "pokemon-3d",
+      "name": "Pokemon 3D",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "...",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "first person perspective  |  Version: 0.61.2 (development stopped, support only)",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://pokemon3d.net/"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/pokemon-3d.jpg",
+      "logo": "images/logos/pokemon-3d.png"
+    },
+    {
+      "id": "zetrith-s-multiplayer-rimworld",
+      "name": "Zetrith's Multiplayer \n(RimWorld)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 63, +Extra: 119",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "same settlement co-op  |  Version: 0.11.5",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://github.com/rwmt/Multiplayer"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/zetrith-s-multiplayer-rimworld.jpg",
+      "logo": "images/logos/zetrith-s-multiplayer-rimworld.png"
+    },
+    {
+      "id": "yakuza-0-co-op",
+      "name": "Yakuza 0 Co-op",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 31, +Extra: 64",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Version: 01.11.2025",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/yakuza0/mods/1276"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/yakuza-0-co-op.jpg",
+      "logo": "images/logos/yakuza-0-co-op.png"
+    },
+    {
+      "id": "intertwined-fates-yakuza-5-remastered",
+      "name": "Intertwined Fates \n(Yakuza 5 Remastered)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 36, +Extra: 64",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Co-op  |  Version: 1.14",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/yakuza5remastered/mods/245"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/intertwined-fates-yakuza-5-remastered.jpg",
+      "logo": "images/logos/intertwined-fates-yakuza-5-remastered.png"
+    },
+    {
+      "id": "bannerlord-together-mount-blade-ii-bannerlord",
+      "name": "Bannerlord Together \n(Mount & Blade II: Bannerlord)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 52, +Extra: 82",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Co-op  |  Version: 02.03.2000",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/mountandblade2bannerlord/mods/10426"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/bannerlord-together-mount-blade-ii-bannerlord.jpg",
+      "logo": "images/logos/bannerlord-together-mount-blade-ii-bannerlord.png"
+    },
+    {
+      "id": "resident-evil-4-multiplayer-mod",
+      "name": "Resident Evil 4 Multiplayer Mod",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 16, +Extra: 21",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Co-op  |  Version: BETA 4",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.nexusmods.com/residentevil42023/mods/6539"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/resident-evil-4-multiplayer-mod.jpg",
+      "logo": "images/logos/resident-evil-4-multiplayer-mod.png"
+    },
+    {
+      "id": "resident-evil-3-multiplayer-mod",
+      "name": "Resident Evil 3 Multiplayer Mod",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Co-op",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://heysnippy.com/mods/re3coop/"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/resident-evil-3-multiplayer-mod.jpg",
+      "logo": "images/logos/resident-evil-3-multiplayer-mod.png"
+    },
+    {
+      "id": "silent-hill-united-silent-hill",
+      "name": "Silent Hill: United\n(Silent Hill)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Co-op  |  Version: 0.0.2",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://github.com/Depmify/Silent-Hill-United-Public-"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/silent-hill-united-silent-hill.jpg",
+      "logo": "images/logos/silent-hill-united-silent-hill.png"
+    },
+    {
+      "id": "xrrazom-s-t-a-l-k-e-r-anomaly",
+      "name": "xrRazom\n(S.T.A.L.K.E.R. Anomaly)",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "Main: 28, +Extra: 86",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": false,
+      "notes": "Co-op  |  Version: 01.01.2026",
+      "links": [
+        {
+          "label": "Store",
+          "url": "https://www.moddb.com/mods/xrrazom-stalker-anomaly-co-op"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/xrrazom-s-t-a-l-k-e-r-anomaly.jpg",
+      "logo": "images/logos/xrrazom-s-t-a-l-k-e-r-anomaly.png"
+    }
+  ]
+}

@@ -1,0 +1,2628 @@
+{
+  "version": 1,
+  "updated": "2026-10-01T01:41:07.036563Z",
+  "games": [
+    {
+      "id": "enshrouded",
+      "name": "Enshrouded",
+      "release": "24.01.2024",
+      "platform": "",
+      "size": "60 GB",
+      "hltb": "",
+      "dev": "Keen Games GmbH",
+      "pub": "Keen Games GmbH",
+      "ready": true,
+      "onDisk": false,
+      "notes": "emulation issues",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1203620",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/enshrouded.jpg",
+      "logo": "images/logos/enshrouded.png"
+    },
+    {
+      "id": "bellwright",
+      "name": "Bellwright",
+      "release": "23.04.2024",
+      "platform": "",
+      "size": "24 GB",
+      "hltb": "",
+      "dev": "Donkey Crew",
+      "pub": "Donkey Crew, Snail Games USA",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1812450",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/bellwright.jpg",
+      "logo": "images/logos/bellwright.png"
+    },
+    {
+      "id": "survival-machine",
+      "name": "Survival Machine",
+      "release": "07.05.2025",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "Grape Pickers",
+      "pub": "Games Operators, PlayWay S.A.",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1601330",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/survival-machine.jpg",
+      "logo": "images/logos/survival-machine.png"
+    },
+    {
+      "id": "ifsunsets",
+      "name": "IfSunSets",
+      "release": "04.11.2024",
+      "platform": "",
+      "size": "30 GB",
+      "hltb": "",
+      "dev": "POLYMORPH",
+      "pub": "Smilegate",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2271930",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/ifsunsets.jpg",
+      "logo": "images/logos/ifsunsets.png"
+    },
+    {
+      "id": "tinkerlands",
+      "name": "Tinkerlands",
+      "release": "23.05.2025",
+      "platform": "",
+      "size": "1 GB",
+      "hltb": "",
+      "dev": "CodeManu, Endless Coffee",
+      "pub": "HypeTrain Digital",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2617700",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/tinkerlands.jpg",
+      "logo": "images/logos/tinkerlands.png"
+    },
+    {
+      "id": "odd-remedy",
+      "name": "Odd Remedy",
+      "release": "06.11.2024",
+      "platform": "",
+      "size": "1 GB",
+      "hltb": "",
+      "dev": "Oddscure",
+      "pub": "Oddscure",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1745680",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/odd-remedy.jpg",
+      "logo": "images/logos/odd-remedy.png"
+    },
+    {
+      "id": "aska",
+      "name": "ASKA",
+      "release": "20.06.2024",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Sand Sailor Studio",
+      "pub": "Thunderful Publishing",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1898300",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/aska.jpg",
+      "logo": "images/logos/aska.png"
+    },
+    {
+      "id": "godsworn",
+      "name": "Godsworn",
+      "release": "28.03.2024",
+      "platform": "",
+      "size": "5 GB",
+      "hltb": "",
+      "dev": "Thunderoak Interactive",
+      "pub": "Thunderoak Interactive",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1328990",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/godsworn.jpg",
+      "logo": "images/logos/godsworn.png"
+    },
+    {
+      "id": "gone-fishing",
+      "name": "GONE Fishing",
+      "release": "15.06.2025",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "GONE Studios",
+      "pub": "GONE Studios",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3645890",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/gone-fishing.jpg",
+      "logo": "images/logos/gone-fishing.png"
+    },
+    {
+      "id": "mimesis",
+      "name": "MIMESIS",
+      "release": "27.10.2025",
+      "platform": "",
+      "size": "4 GB",
+      "hltb": "",
+      "dev": "ReLU Games, Inc.",
+      "pub": "ReLU Games, Inc., KRAFTON, Inc.",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2827200",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/mimesis.jpg",
+      "logo": "images/logos/mimesis.png"
+    },
+    {
+      "id": "night-club-simulator",
+      "name": "Night Club Simulator",
+      "release": "30.07.2025",
+      "platform": "",
+      "size": "20 GB",
+      "hltb": "",
+      "dev": "Clock Wizard Games",
+      "pub": "Clock Wizard Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2943670",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/night-club-simulator.jpg",
+      "logo": "images/logos/night-club-simulator.png"
+    },
+    {
+      "id": "swat-commander",
+      "name": "SWAT Commander",
+      "release": "31.07.2025",
+      "platform": "",
+      "size": "30 GB",
+      "hltb": "",
+      "dev": "Red Mountain Games, Ritual Interactive",
+      "pub": "Ritual Interactive",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1619310",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/swat-commander.jpg",
+      "logo": "images/logos/swat-commander.png"
+    },
+    {
+      "id": "outbrk",
+      "name": "OUTBRK",
+      "release": "28.06.2024",
+      "platform": "",
+      "size": "60 GB",
+      "hltb": "",
+      "dev": "Sublime",
+      "pub": "Sublime",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1107320",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/outbrk.jpg",
+      "logo": "images/logos/outbrk.png"
+    },
+    {
+      "id": "long-drive-north-co-op-rv-simulator",
+      "name": "Long Drive North: Co-Op RV Simulator",
+      "release": "18.11.2025",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Mindflair Games LTD",
+      "pub": "Excalibur Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3179350",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/long-drive-north-co-op-rv-simulator.jpg",
+      "logo": "images/logos/long-drive-north-co-op-rv-simulator.png"
+    },
+    {
+      "id": "jump-space",
+      "name": "Jump Space",
+      "release": "19.09.2025",
+      "platform": "",
+      "size": "30 GB",
+      "hltb": "",
+      "dev": "Keepsake Games",
+      "pub": "Keepsake Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1757300",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/jump-space.jpg",
+      "logo": "images/logos/jump-space.png"
+    },
+    {
+      "id": "vein",
+      "name": "VEIN",
+      "release": "24.10.2025",
+      "platform": "",
+      "size": "60 GB",
+      "hltb": "",
+      "dev": "Ramjet Studios",
+      "pub": "Ramjet Studios",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1857950",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/vein.jpg",
+      "logo": "images/logos/vein.png"
+    },
+    {
+      "id": "species-unknown",
+      "name": "Species: Unknown",
+      "release": "23.10.2025",
+      "platform": "",
+      "size": "5 GB",
+      "hltb": "",
+      "dev": "WanadevStudio",
+      "pub": "WanadevStudio",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2747330",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/species-unknown.jpg",
+      "logo": "images/logos/species-unknown.png"
+    },
+    {
+      "id": "titan-quest-ii",
+      "name": "Titan Quest II",
+      "release": "01.08.2025",
+      "platform": "",
+      "size": "50 GB",
+      "hltb": "",
+      "dev": "Grimlore Games",
+      "pub": "THQ Nordic",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1154030",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/titan-quest-ii.jpg",
+      "logo": "images/logos/titan-quest-ii.png"
+    },
+    {
+      "id": "ratatan",
+      "name": "Ratatan",
+      "release": "18.09.2025",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "TVT Co. Ltd., Ratata Arts",
+      "pub": "Game Source Entertainment",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2949320",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/ratatan.jpg",
+      "logo": "images/logos/ratatan.png"
+    },
+    {
+      "id": "scp-5k",
+      "name": "SCP: 5K",
+      "release": "22.02.2022",
+      "platform": "",
+      "size": "30 GB",
+      "hltb": "",
+      "dev": "Affray Interactive",
+      "pub": "Affray Interactive",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/872670",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/scp-5k.jpg",
+      "logo": "images/logos/scp-5k.png"
+    },
+    {
+      "id": "grounded-2",
+      "name": "Grounded 2",
+      "release": "29.07.2025",
+      "platform": "",
+      "size": "40 GB",
+      "hltb": "",
+      "dev": "Obsidian Entertainment, Eidos-Montréal",
+      "pub": "Xbox Game Studios",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2661300",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/grounded-2.jpg",
+      "logo": "images/logos/grounded-2.png"
+    },
+    {
+      "id": "whiskerwood",
+      "name": "Whiskerwood",
+      "release": "06.11.2025",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Minakata Dynamics",
+      "pub": "Hooded Horse",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2489330",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/whiskerwood.jpg",
+      "logo": "images/logos/whiskerwood.png"
+    },
+    {
+      "id": "synthetik-2",
+      "name": "SYNTHETIK 2",
+      "release": "11.11.2021",
+      "platform": "",
+      "size": "9 GB",
+      "hltb": "",
+      "dev": "Flow Fire Games",
+      "pub": "Flow Fire Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1471410",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/synthetik-2.jpg",
+      "logo": "images/logos/synthetik-2.png"
+    },
+    {
+      "id": "noble-legacy",
+      "name": "Noble Legacy",
+      "release": "12.08.2025",
+      "platform": "",
+      "size": "20 GB",
+      "hltb": "",
+      "dev": "Studio 369",
+      "pub": "Ultimus Rex LLC",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3372710",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/noble-legacy.jpg",
+      "logo": "images/logos/noble-legacy.png"
+    },
+    {
+      "id": "colony-survival",
+      "name": "Colony Survival",
+      "release": "16.06.2017",
+      "platform": "",
+      "size": "0.3 GB",
+      "hltb": "",
+      "dev": "Pipliz",
+      "pub": "Pipliz",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/366090/Colony_Survival/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/colony-survival.jpg",
+      "logo": "images/logos/colony-survival.png"
+    },
+    {
+      "id": "wasted-world",
+      "name": "Wasted World",
+      "release": "06.05.2020",
+      "platform": "",
+      "size": "3 GB",
+      "hltb": "",
+      "dev": "Achrony",
+      "pub": "Achrony",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1281390/Wasted_World/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/wasted-world.jpg",
+      "logo": "images/logos/wasted-world.png"
+    },
+    {
+      "id": "atlyss",
+      "name": "ATLYSS",
+      "release": "22.11.2024",
+      "platform": "",
+      "size": "2 GB",
+      "hltb": "",
+      "dev": "KisSoft",
+      "pub": "KisSoft",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2768430/ATLYSS/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/atlyss.jpg",
+      "logo": "images/logos/atlyss.png"
+    },
+    {
+      "id": "scrap-mechanic",
+      "name": "Scrap Mechanic",
+      "release": "19.01.2016",
+      "platform": "",
+      "size": "30 GB",
+      "hltb": "",
+      "dev": "Axolot Games",
+      "pub": "Axolot Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/387990/Scrap_Mechanic/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/scrap-mechanic.jpg",
+      "logo": "images/logos/scrap-mechanic.png"
+    },
+    {
+      "id": "neon-abyss-2",
+      "name": "Neon Abyss 2",
+      "release": "17.07.2025",
+      "platform": "",
+      "size": "2 GB",
+      "hltb": "",
+      "dev": "Veewo Games",
+      "pub": "Veewo Games, Kepler Ghost",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2235200/Neon_Abyss_2/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/neon-abyss-2.jpg",
+      "logo": "images/logos/neon-abyss-2.png"
+    },
+    {
+      "id": "the-forever-winter",
+      "name": "The Forever Winter",
+      "release": "24.09.2024",
+      "platform": "",
+      "size": "60 GB",
+      "hltb": "",
+      "dev": "Fun Dog Studios",
+      "pub": "Fun Dog Studios",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2828860/The_Forever_Winter/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/the-forever-winter.jpg",
+      "logo": "images/logos/the-forever-winter.png"
+    },
+    {
+      "id": "sunkenland",
+      "name": "Sunkenland",
+      "release": "26.08.2023",
+      "platform": "",
+      "size": "",
+      "hltb": "",
+      "dev": "Vector3 Studio",
+      "pub": "Vector3 Studio",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2080690/Sunkenland/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/sunkenland.jpg",
+      "logo": "images/logos/sunkenland.png"
+    },
+    {
+      "id": "starrupture",
+      "name": "StarRupture",
+      "release": "06.01.2026",
+      "platform": "",
+      "size": "45 GB",
+      "hltb": "",
+      "dev": "Creepy Jar",
+      "pub": "Creepy Jar",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1631270/StarRupture/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/starrupture.jpg",
+      "logo": "images/logos/starrupture.png"
+    },
+    {
+      "id": "alpha-response",
+      "name": "Alpha Response",
+      "release": "08.10.2024",
+      "platform": "",
+      "size": "20 GB",
+      "hltb": "",
+      "dev": "Ultimo Ratio Games",
+      "pub": "Ultimo Ratio Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2089250/Alpha_Response/",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/alpha-response.jpg",
+      "logo": "images/logos/alpha-response.png"
+    },
+    {
+      "id": "sapiens",
+      "name": "Sapiens",
+      "release": "26.07.2022",
+      "platform": "",
+      "size": "2 GB",
+      "hltb": "",
+      "dev": "Majic Jungle",
+      "pub": "Majic Jungle",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1060230",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/sapiens.jpg",
+      "logo": "images/logos/sapiens.png"
+    },
+    {
+      "id": "varthos-heir-to-the-throne",
+      "name": "Varthos - Heir to the Throne",
+      "release": "16.12.2025",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "Nightshift Game Development",
+      "pub": "Nightshift Game Development,  Three River Games (3RG)",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3065870",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/varthos-heir-to-the-throne.jpg",
+      "logo": "images/logos/varthos-heir-to-the-throne.png"
+    },
+    {
+      "id": "atlas",
+      "name": "ATLAS",
+      "release": "22.12.2018",
+      "platform": "",
+      "size": "120 GB",
+      "hltb": "",
+      "dev": "Grapeshot Games, Instinct Games",
+      "pub": "Grapeshot Games, Snail Games USA",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/834910",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/atlas.jpg",
+      "logo": "images/logos/atlas.png"
+    },
+    {
+      "id": "dead-containment",
+      "name": "Dead Containment",
+      "release": "21.10.2022",
+      "platform": "",
+      "size": "8 GB",
+      "hltb": "",
+      "dev": "Grump Dog Games",
+      "pub": "Grump Dog Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1302230",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dead-containment.jpg",
+      "logo": "images/logos/dead-containment.png"
+    },
+    {
+      "id": "dungeon-crowley",
+      "name": "Dungeon Crowley",
+      "release": "11.10.2018",
+      "platform": "",
+      "size": "25 GB",
+      "hltb": "",
+      "dev": "Animvs Game Studio",
+      "pub": "Animvs Game Studio",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/937530",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dungeon-crowley.jpg",
+      "logo": "images/logos/dungeon-crowley.png"
+    },
+    {
+      "id": "la-quimera",
+      "name": "La Quimera",
+      "release": "07.05.2025",
+      "platform": "",
+      "size": "55 GB",
+      "hltb": "",
+      "dev": "Reburn",
+      "pub": "Reburn",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2282350",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/la-quimera.jpg",
+      "logo": "images/logos/la-quimera.png"
+    },
+    {
+      "id": "war-islands-a-co-op-adventure",
+      "name": "War Islands: A Co-op Adventure",
+      "release": "29.06.2020",
+      "platform": "",
+      "size": "4 GB",
+      "hltb": "",
+      "dev": "Biduba Version",
+      "pub": "Biduba Version",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1268100",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/war-islands-a-co-op-adventure.jpg",
+      "logo": "images/logos/war-islands-a-co-op-adventure.png"
+    },
+    {
+      "id": "solar-purge",
+      "name": "Solar Purge",
+      "release": "29.07.2020",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Hitscan Games",
+      "pub": "Hitscan Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/931450",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/solar-purge.jpg",
+      "logo": "images/logos/solar-purge.png"
+    },
+    {
+      "id": "urbex-murder",
+      "name": "Urbex Murder",
+      "release": "24.10.2025",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Rantabl",
+      "pub": "Rantabl",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3282980",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/urbex-murder.jpg",
+      "logo": "images/logos/urbex-murder.png"
+    },
+    {
+      "id": "cloak-and-coin",
+      "name": "Cloak And Coin",
+      "release": "05.12.2025",
+      "platform": "",
+      "size": "3 GB",
+      "hltb": "",
+      "dev": "netDOT",
+      "pub": "netDOT",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3525440",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/cloak-and-coin.jpg",
+      "logo": "images/logos/cloak-and-coin.png"
+    },
+    {
+      "id": "cure-a-hospital-simulator",
+      "name": "CURE - A Hospital Simulator",
+      "release": "20.11.2025",
+      "platform": "",
+      "size": "5 GB",
+      "hltb": "",
+      "dev": "Sentinel Games",
+      "pub": "Sentinel Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2786550",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/cure-a-hospital-simulator.jpg",
+      "logo": "images/logos/cure-a-hospital-simulator.png"
+    },
+    {
+      "id": "robbing-time",
+      "name": "Robbing Time",
+      "release": "13.11.2025",
+      "platform": "",
+      "size": "9 GB",
+      "hltb": "",
+      "dev": "Monday Squid",
+      "pub": "Monday Squid",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3626560",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/robbing-time.jpg",
+      "logo": "images/logos/robbing-time.png"
+    },
+    {
+      "id": "no-more-room-in-hell-2",
+      "name": "No More Room in Hell 2",
+      "release": "22.10.2024",
+      "platform": "",
+      "size": "35 GB",
+      "hltb": "",
+      "dev": "Torn Banner Studios",
+      "pub": "Torn Banner Studios",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/292000",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/no-more-room-in-hell-2.jpg",
+      "logo": "images/logos/no-more-room-in-hell-2.png"
+    },
+    {
+      "id": "no-rest-for-the-wicked",
+      "name": "No Rest for the Wicked",
+      "release": "18.04.2024",
+      "platform": "",
+      "size": "46 GB",
+      "hltb": "",
+      "dev": "Moon Studios GmbH",
+      "pub": "Moon Studios GmbH",
+      "ready": true,
+      "onDisk": false,
+      "notes": "Developer server authorization required",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1371980",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/no-rest-for-the-wicked.jpg",
+      "logo": "images/logos/no-rest-for-the-wicked.png"
+    },
+    {
+      "id": "trapped-souls",
+      "name": "Trapped Souls",
+      "release": "04.01.2017",
+      "platform": "",
+      "size": "2 GB",
+      "hltb": "",
+      "dev": "Fullmetal Developer",
+      "pub": "Fullmetal Developer",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/568670",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/trapped-souls.jpg",
+      "logo": "images/logos/trapped-souls.png"
+    },
+    {
+      "id": "echoes-of-elysium",
+      "name": "Echoes of Elysium",
+      "release": "27.01.2026",
+      "platform": "",
+      "size": "5 GB",
+      "hltb": "",
+      "dev": "Loric Games, Inc.",
+      "pub": "Snail Games USA",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2644050",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/echoes-of-elysium.jpg",
+      "logo": "images/logos/echoes-of-elysium.png"
+    },
+    {
+      "id": "zort",
+      "name": "Zort",
+      "release": "07.12.2024",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Londer Software",
+      "pub": "Londer Software",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3121110",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/zort.jpg",
+      "logo": "images/logos/zort.png"
+    },
+    {
+      "id": "crab-champions",
+      "name": "Crab Champions",
+      "release": "01.04.2023",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Noisestorm",
+      "pub": "Noisestorm",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/774801",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/crab-champions.jpg",
+      "logo": "images/logos/crab-champions.png"
+    },
+    {
+      "id": "stick-it-to-the-stickman",
+      "name": "Stick It to the Stickman",
+      "release": "18.08.2025",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Free Lives",
+      "pub": "Devolver Digital",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2085540",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/stick-it-to-the-stickman.jpg",
+      "logo": "images/logos/stick-it-to-the-stickman.png"
+    },
+    {
+      "id": "beavers-be-dammed",
+      "name": "Beavers Be Dammed",
+      "release": "16.01.2018",
+      "platform": "",
+      "size": "0.2 GB",
+      "hltb": "",
+      "dev": "Wallflower Games",
+      "pub": "Wallflower Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/764570",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/beavers-be-dammed.jpg",
+      "logo": "images/logos/beavers-be-dammed.png"
+    },
+    {
+      "id": "wild-woods",
+      "name": "Wild Woods",
+      "release": "09.12.2024",
+      "platform": "",
+      "size": "1 GB",
+      "hltb": "",
+      "dev": "Octofox Games",
+      "pub": "Daedalic Entertainment",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1975580",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/wild-woods.jpg",
+      "logo": "images/logos/wild-woods.png"
+    },
+    {
+      "id": "sketchy-s-contract",
+      "name": "Sketchy's Contract",
+      "release": "09.04.2024",
+      "platform": "",
+      "size": "13 GB",
+      "hltb": "",
+      "dev": "Dimensionless Games",
+      "pub": "Dimensionless Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2823080",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/sketchy-s-contract.jpg",
+      "logo": "images/logos/sketchy-s-contract.png"
+    },
+    {
+      "id": "mycopunk",
+      "name": "Mycopunk",
+      "release": "10.07.2025",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Pigeons at Play",
+      "pub": "Devolver Digital",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3247750",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/mycopunk.jpg",
+      "logo": "images/logos/mycopunk.png"
+    },
+    {
+      "id": "interstellar-marines",
+      "name": "Interstellar Marines",
+      "release": "02.07.2013",
+      "platform": "",
+      "size": "3 GB",
+      "hltb": "",
+      "dev": "Zero Point Software",
+      "pub": "Zero Point Software",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/236370",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/interstellar-marines.jpg",
+      "logo": "images/logos/interstellar-marines.png"
+    },
+    {
+      "id": "nightingale",
+      "name": "Nightingale",
+      "release": "20.02.2024",
+      "platform": "",
+      "size": "70 GB",
+      "hltb": "",
+      "dev": "Inflexion Games",
+      "pub": "Inflexion Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1928980",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/nightingale.jpg",
+      "logo": "images/logos/nightingale.png"
+    },
+    {
+      "id": "lost-rift",
+      "name": "Lost Rift",
+      "release": "25.09.2025",
+      "platform": "",
+      "size": "30 GB",
+      "hltb": "",
+      "dev": "People Can Fly",
+      "pub": "People Can Fly",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3494520",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/lost-rift.jpg",
+      "logo": "images/logos/lost-rift.png"
+    },
+    {
+      "id": "bodyrecords",
+      "name": "BodyRecords",
+      "release": "17.04.2025",
+      "platform": "",
+      "size": "16 GB",
+      "hltb": "",
+      "dev": "MIROWIN",
+      "pub": "MIROWIN",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3232040",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/bodyrecords.jpg",
+      "logo": "images/logos/bodyrecords.png"
+    },
+    {
+      "id": "undermine-2",
+      "name": "UnderMine 2",
+      "release": "22.07.2025",
+      "platform": "",
+      "size": "1 GB",
+      "hltb": "",
+      "dev": "Thorium",
+      "pub": "Thorium",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1869780",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/undermine-2.jpg",
+      "logo": "images/logos/undermine-2.png"
+    },
+    {
+      "id": "pit-of-goblin",
+      "name": "PIT OF GOBLIN",
+      "release": "17.12.2024",
+      "platform": "",
+      "size": "2 GB",
+      "hltb": "",
+      "dev": "Friendly Foe",
+      "pub": "Friendly Foe, Bright Gambit",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3253530",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/pit-of-goblin.jpg",
+      "logo": "images/logos/pit-of-goblin.png"
+    },
+    {
+      "id": "moonminers",
+      "name": "MoonMiners",
+      "release": "17.07.2025",
+      "platform": "",
+      "size": "20 GB",
+      "hltb": "",
+      "dev": "MIROWIN",
+      "pub": "PM Studio",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3681820",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/moonminers.jpg",
+      "logo": "images/logos/moonminers.png"
+    },
+    {
+      "id": "stellar-survivor",
+      "name": "Stellar Survivor",
+      "release": "20.06.2019",
+      "platform": "",
+      "size": "3.4 GB",
+      "hltb": "",
+      "dev": "Sticks & Stones",
+      "pub": "Sticks & Stones, Breda University of Applied Sciences",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1032120",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/stellar-survivor.jpg",
+      "logo": "images/logos/stellar-survivor.png"
+    },
+    {
+      "id": "pizza-bandit",
+      "name": "Pizza Bandit",
+      "release": "25.08.2025",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "JOFSOFT",
+      "pub": "JOFSOFT, KRAFTON, Inc.",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2475010",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/pizza-bandit.jpg",
+      "logo": "images/logos/pizza-bandit.png"
+    },
+    {
+      "id": "obsideo",
+      "name": "Obsideo",
+      "release": "27.08.2021",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "Kyle's Garage",
+      "pub": "Kyle's Garage",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1708460",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/obsideo.jpg",
+      "logo": "images/logos/obsideo.png"
+    },
+    {
+      "id": "orebound",
+      "name": "Orebound",
+      "release": "24.10.2024",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Emberforge",
+      "pub": "Emberforge",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2467810",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/orebound.jpg",
+      "logo": "images/logos/orebound.png"
+    },
+    {
+      "id": "swapmeat",
+      "name": "SWAPMEAT",
+      "release": "21.10.2025",
+      "platform": "",
+      "size": "4 GB",
+      "hltb": "",
+      "dev": "One More Game",
+      "pub": "One More Game",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2790700",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/swapmeat.jpg",
+      "logo": "images/logos/swapmeat.png"
+    },
+    {
+      "id": "afterblast",
+      "name": "AFTERBLAST",
+      "release": "26.11.2025",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Lumino Games",
+      "pub": "Lumino Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1338490",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/afterblast.jpg",
+      "logo": "images/logos/afterblast.png"
+    },
+    {
+      "id": "dreadzone",
+      "name": "DREADZONE",
+      "release": "17.07.2025",
+      "platform": "",
+      "size": "50 GB",
+      "hltb": "",
+      "dev": "Eshed",
+      "pub": "Eshed",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3484300",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dreadzone.jpg",
+      "logo": "images/logos/dreadzone.png"
+    },
+    {
+      "id": "bum-revenge",
+      "name": "Bum: Revenge",
+      "release": "30.07.2025",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "Patologgia Interactive",
+      "pub": "Patologgia Interactive",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3702930",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/bum-revenge.jpg",
+      "logo": "images/logos/bum-revenge.png"
+    },
+    {
+      "id": "mycorelic",
+      "name": "MycoRelic",
+      "release": "24.09.2025",
+      "platform": "",
+      "size": "2 GB",
+      "hltb": "",
+      "dev": "Sandy Dingo Games",
+      "pub": "Sandy Dingo Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2624080",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/mycorelic.jpg",
+      "logo": "images/logos/mycorelic.png"
+    },
+    {
+      "id": "first-dwarf",
+      "name": "First Dwarf",
+      "release": "19.06.2024",
+      "platform": "",
+      "size": "25 GB",
+      "hltb": "",
+      "dev": "Star Drifters",
+      "pub": "Star Drifters, 4Divinity",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1714900",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/first-dwarf.jpg",
+      "logo": "images/logos/first-dwarf.png"
+    },
+    {
+      "id": "shamania",
+      "name": "Shamania",
+      "release": "01.09.2025",
+      "platform": "",
+      "size": "",
+      "hltb": "",
+      "dev": "Totem Keepers Games",
+      "pub": "Totem Keepers Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2868100",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/shamania.jpg",
+      "logo": "images/logos/shamania.png"
+    },
+    {
+      "id": "dragonhold",
+      "name": "Dragonhold",
+      "release": "10.11.2025",
+      "platform": "",
+      "size": "73 GB",
+      "hltb": "",
+      "dev": "Exis Games",
+      "pub": "Exis Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1510330",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dragonhold.jpg",
+      "logo": "images/logos/dragonhold.png"
+    },
+    {
+      "id": "car-service-together",
+      "name": "Car Service Together",
+      "release": "04.02.2026",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "V12 Studio",
+      "pub": "V12 Studio",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3501070",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/car-service-together.jpg",
+      "logo": "images/logos/car-service-together.png"
+    },
+    {
+      "id": "dig-island",
+      "name": "Dig Island",
+      "release": "30.01.2026",
+      "platform": "",
+      "size": "5 GB",
+      "hltb": "",
+      "dev": "FiftyEight Studios",
+      "pub": "FiftyEight Studios",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3919360",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dig-island.jpg",
+      "logo": "images/logos/dig-island.png"
+    },
+    {
+      "id": "roadside-research",
+      "name": "Roadside Research",
+      "release": "12.02.2026",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Cybernetic Walrus",
+      "pub": "Oro Interactive",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3643170",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/roadside-research.jpg",
+      "logo": "images/logos/roadside-research.png"
+    },
+    {
+      "id": "subsistence",
+      "name": "Subsistence",
+      "release": "25.10.2016",
+      "platform": "",
+      "size": "1.5 GB",
+      "hltb": "",
+      "dev": "ColdGames",
+      "pub": "ColdGames",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/418030",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/subsistence.jpg",
+      "logo": "images/logos/subsistence.png"
+    },
+    {
+      "id": "dysplaced",
+      "name": "DYSPLACED",
+      "release": "05.03.2026",
+      "platform": "",
+      "size": "1 GB",
+      "hltb": "",
+      "dev": "10tons Ltd",
+      "pub": "10tons Ltd",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2430390",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dysplaced.jpg",
+      "logo": "images/logos/dysplaced.png"
+    },
+    {
+      "id": "lightyear-frontier",
+      "name": "Lightyear Frontier",
+      "release": "19.03.2024",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "FRAME BREAK",
+      "pub": "FRAME BREAK, Coffee Stain Publishing",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1677110",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/lightyear-frontier.jpg",
+      "logo": "images/logos/lightyear-frontier.png"
+    },
+    {
+      "id": "nuclear-nightmare",
+      "name": "Nuclear Nightmare",
+      "release": "20.10.2024",
+      "platform": "",
+      "size": "13 GB",
+      "hltb": "",
+      "dev": "BG Productions",
+      "pub": "BG Productions",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2909110",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/nuclear-nightmare.jpg",
+      "logo": "images/logos/nuclear-nightmare.png"
+    },
+    {
+      "id": "vampires-bloodlord-rising",
+      "name": "Vampires: Bloodlord Rising",
+      "release": "30.01.2026",
+      "platform": "",
+      "size": "20 GB",
+      "hltb": "",
+      "dev": "Mehuman Games",
+      "pub": "Toplitz Productions",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2191500",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/vampires-bloodlord-rising.jpg",
+      "logo": "images/logos/vampires-bloodlord-rising.png"
+    },
+    {
+      "id": "remote-reaper-fpv-combat-drone-simulator",
+      "name": "Remote Reaper: FPV Combat Drone Simulator",
+      "release": "04.04.2025",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "Vladyslav Fomenko",
+      "pub": "Vladyslav Fomenko",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3295810",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/remote-reaper-fpv-combat-drone-simulator.jpg",
+      "logo": "images/logos/remote-reaper-fpv-combat-drone-simulator.png"
+    },
+    {
+      "id": "ars-notoria",
+      "name": "Ars Notoria",
+      "release": "27.11.2025",
+      "platform": "",
+      "size": "20 GB",
+      "hltb": "",
+      "dev": "XRON Software",
+      "pub": "Lilith Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2074620",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/ars-notoria.jpg",
+      "logo": "images/logos/ars-notoria.png"
+    },
+    {
+      "id": "incursion-red-river",
+      "name": "Incursion Red River",
+      "release": "10.04.2024",
+      "platform": "",
+      "size": "65 GB",
+      "hltb": "",
+      "dev": "Games Of Tomorrow GmbH",
+      "pub": "Games Of Tomorrow GmbH",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2116120",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/incursion-red-river.jpg",
+      "logo": "images/logos/incursion-red-river.png"
+    },
+    {
+      "id": "eco",
+      "name": "Eco",
+      "release": "06.02.2018",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Strange Loop Games",
+      "pub": "Strange Loop Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/382310",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/eco.jpg",
+      "logo": "images/logos/eco.png"
+    },
+    {
+      "id": "rosalie",
+      "name": "Rosalie",
+      "release": "21.03.2026",
+      "platform": "",
+      "size": "4 GB",
+      "hltb": "",
+      "dev": "Articho Games",
+      "pub": "Articho Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4268470",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/rosalie.jpg",
+      "logo": "images/logos/rosalie.png"
+    },
+    {
+      "id": "far-far-west",
+      "name": "Far Far West",
+      "release": "28.04.2026",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Evil Raptor",
+      "pub": "Fireshine Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3124540",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/far-far-west.jpg",
+      "logo": "images/logos/far-far-west.png"
+    },
+    {
+      "id": "endalor",
+      "name": "ENDALOR",
+      "release": "30.03.2026",
+      "platform": "",
+      "size": "7 GB",
+      "hltb": "",
+      "dev": "Diorite Games",
+      "pub": "Diorite Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2265990",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/endalor.jpg",
+      "logo": "images/logos/endalor.png"
+    },
+    {
+      "id": "windrose",
+      "name": "Windrose",
+      "release": "14.04.2026",
+      "platform": "",
+      "size": "30 GB",
+      "hltb": "",
+      "dev": "Kraken Express",
+      "pub": "Kraken Express, Pocketpair Publishing (Japan)",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3041230",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/windrose.jpg",
+      "logo": "images/logos/windrose.png"
+    },
+    {
+      "id": "subnautica-2",
+      "name": "Subnautica 2",
+      "release": "14.05.2026",
+      "platform": "",
+      "size": "50 GB",
+      "hltb": "",
+      "dev": "Unknown Worlds Entertainment",
+      "pub": "Unknown Worlds Entertainment",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1962700",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/subnautica-2.jpg",
+      "logo": "images/logos/subnautica-2.png"
+    },
+    {
+      "id": "another-try-2",
+      "name": "Another Try 2",
+      "release": "17.04.2025",
+      "platform": "",
+      "size": "8 GB",
+      "hltb": "",
+      "dev": "Hoki Wolf Studio",
+      "pub": "Hoki Wolf Studio",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2788040",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/another-try-2.jpg",
+      "logo": "images/logos/another-try-2.png"
+    },
+    {
+      "id": "nested-lands",
+      "name": "Nested Lands",
+      "release": "25.02.2026",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "1M Bits Horde",
+      "pub": "META Publishing",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2553040",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/nested-lands.jpg",
+      "logo": "images/logos/nested-lands.png"
+    },
+    {
+      "id": "everwind",
+      "name": "Everwind",
+      "release": "17.03.2026",
+      "platform": "",
+      "size": "5 GB",
+      "hltb": "",
+      "dev": "Enjoy Studio S.A.",
+      "pub": "Bohemia Interactive",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2253100",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/everwind.jpg",
+      "logo": "images/logos/everwind.png"
+    },
+    {
+      "id": "moonshiner-simulator",
+      "name": "Moonshiner Simulator",
+      "release": "20.05.2026",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Goosix Games",
+      "pub": "Goosix Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4179280",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/moonshiner-simulator.jpg",
+      "logo": "images/logos/moonshiner-simulator.png"
+    },
+    {
+      "id": "hatters",
+      "name": "Hatters",
+      "release": "15.04.2026",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Moon",
+      "pub": "Moon",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3612660",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/hatters.jpg",
+      "logo": "images/logos/hatters.png"
+    },
+    {
+      "id": "codex-mortis",
+      "name": "CODEX MORTIS",
+      "release": "26.03.2026",
+      "platform": "",
+      "size": "0.1 GB",
+      "hltb": "",
+      "dev": "GROLAF",
+      "pub": "CRUNCHFEST",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4084120",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/codex-mortis.jpg",
+      "logo": "images/logos/codex-mortis.png"
+    },
+    {
+      "id": "farever",
+      "name": "Farever",
+      "release": "06.05.2026",
+      "platform": "",
+      "size": "25 GB",
+      "hltb": "",
+      "dev": "Shiro Games",
+      "pub": "Shiro Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3672400",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/farever.jpg",
+      "logo": "images/logos/farever.png"
+    },
+    {
+      "id": "deep-rock-galactic-rogue-core",
+      "name": "Deep Rock Galactic: Rogue Core",
+      "release": "20.05.2026",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Ghost Ship Games",
+      "pub": "Ghost Ship Publishing, Coffee Stain Publishing",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2605790",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/deep-rock-galactic-rogue-core.jpg",
+      "logo": "images/logos/deep-rock-galactic-rogue-core.png"
+    },
+    {
+      "id": "sledding-game",
+      "name": "Sledding Game",
+      "release": "30.04.2026",
+      "platform": "",
+      "size": "8 GB",
+      "hltb": "",
+      "dev": "The Sledding Corporation",
+      "pub": "The Sledding Corporation",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3438850",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/sledding-game.jpg",
+      "logo": "images/logos/sledding-game.png"
+    },
+    {
+      "id": "romestead",
+      "name": "Romestead",
+      "release": "25.05.2026",
+      "platform": "",
+      "size": "2 GB",
+      "hltb": "",
+      "dev": "Beartwigs",
+      "pub": "Three Friends",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1805320",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/romestead.jpg",
+      "logo": "images/logos/romestead.png"
+    },
+    {
+      "id": "serpent-s-gaze",
+      "name": "Serpent's Gaze",
+      "release": "25.05.2026",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "Feeble Minds",
+      "pub": "Feeble Minds",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3069050",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/serpent-s-gaze.jpg",
+      "logo": "images/logos/serpent-s-gaze.png"
+    },
+    {
+      "id": "fumes",
+      "name": "FUMES",
+      "release": "28.07.2025",
+      "platform": "",
+      "size": "0.4 GB",
+      "hltb": "",
+      "dev": "FUMES team",
+      "pub": "FUMES team",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1920430",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/fumes.jpg",
+      "logo": "images/logos/fumes.png"
+    },
+    {
+      "id": "i-know-a-guy-shady-life-simulator",
+      "name": "I Know a Guy: Shady Life Simulator",
+      "release": "01.04.2026",
+      "platform": "",
+      "size": "6 GB",
+      "hltb": "",
+      "dev": "Bunch'o'Nerds",
+      "pub": "Bunch'o'Nerds",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4173620",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/i-know-a-guy-shady-life-simulator.jpg",
+      "logo": "images/logos/i-know-a-guy-shady-life-simulator.png"
+    },
+    {
+      "id": "stoneguard",
+      "name": "Stoneguard",
+      "release": "09.04.2026",
+      "platform": "",
+      "size": "16 GB",
+      "hltb": "",
+      "dev": "Thorn Spire Games",
+      "pub": "Wandering Wizard",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2704450",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/stoneguard.jpg",
+      "logo": "images/logos/stoneguard.png"
+    },
+    {
+      "id": "separated",
+      "name": "Separated",
+      "release": "29.07.2026",
+      "platform": "",
+      "size": "8 GB",
+      "hltb": "",
+      "dev": "Twisted Realm",
+      "pub": "Twisted Realm",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2976110",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/separated.jpg",
+      "logo": "images/logos/separated.png"
+    },
+    {
+      "id": "backrooms-the-wrong-reality",
+      "name": "Backrooms: The Wrong Reality",
+      "release": "30.07.2026",
+      "platform": "",
+      "size": "5 GB",
+      "hltb": "",
+      "dev": "SUDT Games",
+      "pub": "SUDT Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4720850",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/backrooms-the-wrong-reality.jpg",
+      "logo": "images/logos/backrooms-the-wrong-reality.png"
+    },
+    {
+      "id": "dirty-business",
+      "name": "Dirty Business",
+      "release": "22.07.2026",
+      "platform": "",
+      "size": "9 GB",
+      "hltb": "",
+      "dev": "Plan Dirty Games",
+      "pub": "Plan Dirty Games",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4324480",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/dirty-business.jpg",
+      "logo": "images/logos/dirty-business.png"
+    },
+    {
+      "id": "tears-of-metal",
+      "name": "Tears of Metal",
+      "release": "22.07.2026",
+      "platform": "",
+      "size": "10 GB",
+      "hltb": "",
+      "dev": "Paper Cult",
+      "pub": "Paper Cult",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1913120",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/tears-of-metal.jpg",
+      "logo": "images/logos/tears-of-metal.png"
+    },
+    {
+      "id": "expeditions-samurai",
+      "name": "Expeditions: Samurai",
+      "release": "07.08.2026",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "Campfire Cabal",
+      "pub": "THQ Nordic",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2212910",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/expeditions-samurai.jpg",
+      "logo": "images/logos/expeditions-samurai.png"
+    },
+    {
+      "id": "the-lantern-of-the-laughless-saint",
+      "name": "The Lantern of the Laughless Saint",
+      "release": "17.08.2026",
+      "platform": "",
+      "size": "8 GB",
+      "hltb": "",
+      "dev": "NerveLabs",
+      "pub": "NerveLabs",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3849000",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/the-lantern-of-the-laughless-saint.jpg",
+      "logo": "images/logos/the-lantern-of-the-laughless-saint.png"
+    },
+    {
+      "id": "fear-of-faith",
+      "name": "FEAR OF FAITH",
+      "release": "21.08.2026",
+      "platform": "",
+      "size": "15 GB",
+      "hltb": "",
+      "dev": "UNBREAKABLE ARK",
+      "pub": "UNBREAKABLE ARK",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3312250",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/fear-of-faith.jpg",
+      "logo": "images/logos/fear-of-faith.png"
+    },
+    {
+      "id": "keep-it-contained",
+      "name": "Keep It Contained",
+      "release": "01.04.2026",
+      "platform": "",
+      "size": "1 GB",
+      "hltb": "",
+      "dev": "Triarch Interactive",
+      "pub": "Triarch Interactive",
+      "ready": true,
+      "onDisk": false,
+      "notes": "",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4251090",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/keep-it-contained.jpg",
+      "logo": "images/logos/keep-it-contained.png"
+    }
+  ]
+}

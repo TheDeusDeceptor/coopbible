@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "updated": "2026-10-01T01:41:07.094430Z",
+  "games": [
+    {
+      "id": "binary-domain",
+      "name": "Binary Domain",
+      "release": "",
+      "platform": "",
+      "size": "",
+      "hltb": "",
+      "dev": "",
+      "pub": "",
+      "ready": false,
+      "onDisk": true,
+      "notes": "",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Binary_Domain",
+          "icon": "pcgw"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "",
+      "logo": ""
+    }
+  ]
+}
