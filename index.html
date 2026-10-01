@@ -89,7 +89,6 @@
   .tabbar button:hover{color:#cbd5e1;border-color:var(--accent-line)}
   .tabbar button.active{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
 
-  /* commit status badge — fixed top-right, visible only in admin mode */
   .commit-badge{
     position:fixed;top:1.5rem;right:1.5rem;z-index:450;
     display:none;align-items:center;gap:.5rem;
@@ -188,7 +187,11 @@
   body[data-cols="5"] .grid{grid-template-columns:repeat(5,minmax(0,1fr))}
   .grid-empty{max-width:1400px;margin:1.5rem auto;padding:2rem 1rem;text-align:center;font-family:var(--font-head);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--border);border-radius:9px;line-height:1.8;}
   .grid-empty code{font-family:ui-monospace,monospace;background:rgba(255,255,255,.04);padding:.15rem .4rem;border-radius:4px;color:#cbd5e1;font-size:.85em;letter-spacing:0;text-transform:none;}
-  .card{display:flex;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
+  .card{
+    display:flex;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;
+    content-visibility:auto;
+    contain-intrinsic-size:auto 260px;
+  }
   .card:hover{border-color:var(--accent-line)}
   .card.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
   .card.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.22)}
@@ -218,7 +221,11 @@
   .card-admin button.del:hover{border-color:var(--red);color:var(--red);}
   .card-admin .icon{width:14px;height:14px;}
   .beaten-list{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
-  .row-wrap{display:grid;grid-template-columns:86px 1fr;gap:.9rem;align-items:center;position:relative;}
+  .row-wrap{
+    display:grid;grid-template-columns:86px 1fr;gap:.9rem;align-items:center;position:relative;
+    content-visibility:auto;
+    contain-intrinsic-size:auto 340px;
+  }
   .rank{font-family:var(--font-head);font-weight:700;font-size:1.6rem;letter-spacing:.02em;color:var(--muted);text-align:right;padding-right:.2rem;transition:color .2s ease,text-shadow .2s ease;user-select:none;line-height:1;font-variant-numeric:tabular-nums;}
   .row-wrap:hover .rank{color:var(--accent);text-shadow:0 0 12px var(--accent-soft);}
   .rowD{display:grid;grid-template-columns:1fr 1fr;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
@@ -266,6 +273,35 @@
   .re-part{font-style:italic;color:var(--muted);opacity:.75;filter:blur(.35px);font-weight:400;margin-left:.25em;letter-spacing:0;text-transform:none;font-family:var(--font-body);font-size:.92em;}
   .g-title .re-part{color:#8a94a6;opacity:.85;}
   [data-tooltip]{cursor:help;}
+
+  /* ============================================================
+     SMOOTH LOADING
+     ============================================================ */
+  /* Tab panes — persistent per-tab containers, only active one visible */
+  #content > .tab-pane{display:none}
+  #content > .tab-pane.active{display:block}
+
+  /* Fade-in for lazy-loaded images */
+  .card .shot img,
+  .card .logo-box img,
+  .rowD .shot-cell img,
+  .rowD .logo img{
+    opacity:0;
+    transition:opacity .28s ease;
+  }
+  .card .shot img.img-loaded,
+  .card .logo-box img.img-loaded,
+  .rowD .shot-cell img.img-loaded,
+  .rowD .logo img.img-loaded{
+    opacity:1;
+  }
+  @media (prefers-reduced-motion: reduce){
+    .card .shot img,
+    .card .logo-box img,
+    .rowD .shot-cell img,
+    .rowD .logo img{transition:none}
+  }
+
   .backdrop{position:fixed;inset:0;z-index:200;background:rgba(4,5,8,.78);display:none;align-items:center;justify-content:center;padding:1.5rem;}
   .backdrop.open{display:flex}
   #modal-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;max-height:100%}
@@ -481,7 +517,6 @@
   .move-check input:checked ~ .label{color:#fff;font-weight:500;}
   .move-check.loading{color:var(--muted);cursor:wait;}
 
-  /* pending modal */
   .pending-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:620px;padding:1.5rem;position:relative;max-height:82vh;display:flex;flex-direction:column;}
   .pending-modal h2{font-family:var(--font-head);font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:.4rem;}
   .pending-modal .sub{font-size:.85rem;color:var(--muted);margin-bottom:1rem;}
@@ -888,14 +923,10 @@ let tab = 'released';
 let adminMode = false;
 let adminBusy = false;
 
-/* pending changes — keyed by `${tabId}:${id}` for JSON ops, `asset:${path}` for files */
 const pendingOps = new Map();
-/* staged asset data URLs for local preview until commit */
 const stagedAssetUrls = new Map();
-/* view settings */
 let viewCols = localStorage.getItem('view_cols') || 'auto';
 let viewZoom = parseInt(localStorage.getItem('view_zoom') || '100', 10);
-/* modal navigation */
 let modalNavList = [];
 let modalNavIdx  = -1;
 let currentRankMap = null;
@@ -1365,8 +1396,7 @@ function upsertGameInFile(json, tabId, game){
   if(idx >= 0){
     json.games[idx] = game;
   } else if(BEATEN_TABS.has(tabId)){
-    // Beaten JSONs are stored newest-first. A newly beaten game belongs
-    // at index 0 so it displays at the top and gets the highest rank.
+    // Beaten JSONs are stored newest-first — a new beaten game belongs at index 0.
     json.games.unshift(game);
   } else {
     json.games.push(game);
@@ -1405,14 +1435,12 @@ async function commitPending(){
       else jsonOps.push(op);
     }
 
-    // group JSON ops by tabId
     const byTab = new Map();
     for(const op of jsonOps){
       if(!byTab.has(op.tabId)) byTab.set(op.tabId, []);
       byTab.get(op.tabId).push(op);
     }
 
-    // read each affected JSON file, apply ops, capture content
     const writes = [];
     for(const [tabId, ops] of byTab){
       const path = TAB_FILES[tabId];
@@ -1425,7 +1453,6 @@ async function commitPending(){
       writes.push({ path, content: JSON.stringify(fileJson, null, 2) + '\n' });
     }
 
-    // build tree — JSON blobs first, then asset blobs
     const headSha = await ghGetHeadSha();
     const baseTree = await ghGetCommitTree(headSha);
     const tree = [];
@@ -1439,7 +1466,6 @@ async function commitPending(){
     }
     const newTree = await ghCreateTree(baseTree, tree);
 
-    // commit message
     let adds = 0, edits = 0, dels = 0, assets = 0;
     for(const op of pendingOps.values()){
       if(op.action === 'delete') dels++;
@@ -1500,7 +1526,6 @@ function updatePendingStrip(){
     toast('Discarded');
   };
 }
-function hasPending(tabId, id){ return pendingOps.has(`${tabId}:${id}`); }
 function pendingAction(tabId, id){
   const op = pendingOps.get(`${tabId}:${id}`);
   return op ? op.action : null;
@@ -1539,7 +1564,7 @@ function openPendingModal(){
       key = 'asset:' + op.path;
     } else if(op.action === 'delete'){
       const cur = findGameAnywhere(op.id);
-      name = cur ? cur.name : op.id;
+      name = (op.name || (cur && cur.name)) || op.id;
       action = 'Delete';
       actionClass = 'pr-action-delete';
       key = op.tabId + ':' + op.id;
@@ -1894,7 +1919,7 @@ function showLogoPicker(title, items, onPick){
       <div class="logo-picker-grid" id="logopicker-grid">
         ${items.map((it, i) => `
           <div class="logo-picker-tile" data-idx="${i}">
-            <img src="${it.thumb || it.url}" alt="" loading="lazy">
+            <img src="${it.thumb || it.url}" alt="" loading="lazy" decoding="async">
             <div class="lpt-meta">${it.label || ''}</div>
           </div>
         `).join('')}
@@ -2093,8 +2118,8 @@ function statusTagsHTML(g){
 }
 function ownedBadgesHTML(g){
   const badges = [];
-  if(g.ownedSteam) badges.push(`<span class="icon-badge" title="Owned on Steam"><img src="${STEAM_ICON}" alt="Steam"></span>`);
-  if(g.gamepass)   badges.push(`<span class="icon-badge" title="Available on GamePass"><img src="${GAMEPASS_ICON}" alt="GamePass"></span>`);
+  if(g.ownedSteam) badges.push(`<span class="icon-badge" title="Owned on Steam"><img src="${STEAM_ICON}" alt="Steam" decoding="async"></span>`);
+  if(g.gamepass)   badges.push(`<span class="icon-badge" title="Available on GamePass"><img src="${GAMEPASS_ICON}" alt="GamePass" decoding="async"></span>`);
   return badges.join('');
 }
 function adminControlsHTML(id){
@@ -2111,12 +2136,12 @@ function pendingClass(id){
   return '';
 }
 function shotImgHTML(g){
-  if(g.screenshot) return `<img src="${screenshotSrc(g.screenshot)}" alt="">`;
+  if(g.screenshot) return `<img src="${screenshotSrc(g.screenshot)}" alt="" loading="lazy" decoding="async">`;
   return `<div class="ph">1280 × 720<small>screenshot</small></div>`;
 }
 function logoImgHTML(g, titleAttr){
   const t = titleAttr ? ` title="${String(titleAttr).replace(/"/g,'&quot;')}"` : '';
-  if(g.logo) return `<img src="${logoSrc(g.logo)}" alt=""${t}>`;
+  if(g.logo) return `<img src="${logoSrc(g.logo)}" alt=""${t} loading="lazy" decoding="async">`;
   return `<div class="ph">504 × 562<small>logo</small></div>`;
 }
 function cardHTML(g){
@@ -2151,9 +2176,9 @@ function beatenRowHTML(g, rank){
       <div class="rank">${rank}</div>
       <div class="rowD${pcls}" data-id="${g.id}">
         ${adminControlsHTML(g.id)}
-        <div class="shot-cell">${g.screenshot ? `<img src="${screenshotSrc(g.screenshot)}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}</div>
+        <div class="shot-cell">${g.screenshot ? `<img src="${screenshotSrc(g.screenshot)}" alt="" loading="lazy" decoding="async">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}</div>
         <div class="info-cell">
-          <div class="logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="" title="${nameAttr}">` : `<div class="ph">${g.name}<small>logo</small></div>`}</div>
+          <div class="logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="" title="${nameAttr}" loading="lazy" decoding="async">` : `<div class="ph">${g.name}<small>logo</small></div>`}</div>
           <div class="hover-text">
             <div class="name" title="${nameAttr}">${g.name}</div>
             <div class="meta">${g.dev || ''}${g.dev && g.release ? ' <span class="sep">·</span> ' : ''}${g.release || ''}</div>
@@ -2226,103 +2251,161 @@ function buildRankMap(arr){
   return map;
 }
 
-/* render only the grids for current tab — no toolbar rebuild.
-   Used by search / filter updates so the search input keeps focus. */
-function renderArraysGrid(arr){
-  if(BEATEN_TABS.has(tab)){
-    currentRankMap = buildRankMap(arr);
-    const filtered = applySort(arr.filter(passesAll));
-    contentEl.innerHTML = filtered.length
-      ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, currentRankMap.get(g.id))).join('')}</div>`
-      : `<div class="grid-empty">No games match</div>`;
-    applyTooltips();
-    return;
+/* ============================================================
+   TAB PANES — persistent per-tab containers
+   ============================================================ */
+const TAB_PANES = new Map();
+let renderVersion = 0;
+
+function bumpRenderVersion(){ renderVersion++; }
+
+function getPane(tabId){
+  if(!TAB_PANES.has(tabId)){
+    const el = document.createElement('section');
+    el.className = 'tab-pane';
+    el.dataset.tab = tabId;
+    contentEl.appendChild(el);
+    TAB_PANES.set(tabId, { el, signature: null });
   }
-  const filtered = applySort(arr.filter(passesAll));
-  contentEl.innerHTML = filtered.length
-    ? `<div class="grid">${filtered.map(cardHTML).join('')}</div>`
-    : `<div class="grid-empty">No games match</div>`;
-  applyTooltips();
-}
-function renderBacklogGrids(data){
-  const mirror = applySort((data.mirror||[]).filter(passesAll));
-  const series = filterKey === 'all' ? (data.seriesLeftovers||[]) : [];
-  const mg = contentEl.querySelector('#backlog-mirror-grid');
-  const sg = contentEl.querySelector('#backlog-series-grid');
-  if(mg) mg.innerHTML = mirror.length ? `<div class="grid">${mirror.map(cardHTML).join('')}</div>` : `<div class="grid-empty">No games match</div>`;
-  if(sg) sg.innerHTML = series.length ? `<div class="grid">${series.map(cardHTML).join('')}</div>` : `<div class="grid-empty">Hidden by current filter</div>`;
-  applyTooltips();
+  return TAB_PANES.get(tabId);
 }
 
-function renderContent(){
-  seriesGameIndex.clear();
-  currentRankMap = null;
-  const state = LOAD_STATE[group][tab];
-  const file = TAB_FILES[tab];
+/* Snapshot of all inputs that affect a pane's rendered content.
+   When this changes, the pane must be rebuilt. */
+function paneSignature(){
+  return [
+    adminMode ? 'A' : '-',
+    pendingOps.size,
+    sortKey,
+    sortDir,
+    filterKey,
+    searchTerm,
+  ].join('|');
+}
 
-  if(state === 'loading'){ hideToolbar(); contentEl.innerHTML = loadingHTML(); return; }
-  if(state === 'idle'){
-    hideToolbar();
-    contentEl.innerHTML = loadingHTML();
-    loadTabData(group, tab).then(() => { if(LOAD_STATE[group][tab] !== 'loading') renderContent(); });
-    return;
-  }
+/* Invalidate all cached panes (call after any global change). */
+function invalidateAllPanes(){
+  TAB_PANES.forEach(p => { p.signature = null; });
+}
 
+/* Render the pane's inner HTML from current DATA + filter/sort state. */
+function buildPaneInner(pane){
   const list = currentTabData();
+  const file = TAB_FILES[tab];
 
   if(tab === 'backlog'){
     const data = list || { mirror: [], seriesLeftovers: [] };
     const mirror = applySort((data.mirror||[]).filter(passesAll));
     const series = filterKey === 'all' ? (data.seriesLeftovers||[]) : [];
-    renderToolbar();
-    if(!data.mirror.length && !data.seriesLeftovers.length){ contentEl.innerHTML = emptyHTML(file); return; }
-    contentEl.innerHTML = `
+    if(!data.mirror.length && !data.seriesLeftovers.length){
+      pane.el.innerHTML = emptyHTML(file);
+      return;
+    }
+    pane.el.innerHTML = `
       ${sectionHeader('Backloggd', { target:'sec-series', label:'To series', dir:'down' })}
-      <div id="backlog-mirror-grid">${mirror.length ? `<div class="grid">${mirror.map(cardHTML).join('')}</div>` : `<div class="grid-empty">No games match</div>`}</div>
+      <div class="grid">${mirror.length ? mirror.map(cardHTML).join('') : ''}</div>
+      ${!mirror.length ? `<div class="grid-empty">No games match</div>` : ''}
       ${sectionHeader('Series', { target:'sec-backloggd', label:'To main list', dir:'up' })}
-      <div id="backlog-series-grid">${series.length ? `<div class="grid">${series.map(cardHTML).join('')}</div>` : `<div class="grid-empty">Hidden by current filter</div>`}</div>`;
-    applyTooltips();
+      <div class="grid">${series.length ? series.map(cardHTML).join('') : ''}</div>
+      ${!series.length ? `<div class="grid-empty">Hidden by current filter</div>` : ''}`;
     return;
   }
 
   if(tab === 'backlog-series'){
     const data = list || { series: [] };
-    hideToolbar();
-    if(!data.series.length){ contentEl.innerHTML = emptyHTML(file); return; }
-    contentEl.innerHTML = `<div class="series-blocks">${data.series.map(seriesBlockHTML).join('')}</div>`;
-    applyTooltips();
+    if(!data.series.length){
+      pane.el.innerHTML = emptyHTML(file);
+      return;
+    }
+    seriesGameIndex.clear();
+    pane.el.innerHTML = `<div class="series-blocks">${data.series.map(seriesBlockHTML).join('')}</div>`;
     return;
   }
 
   const arr = Array.isArray(list) ? list : [];
   const filtered = applySort(arr.filter(passesAll));
-  renderToolbar();
-  if(!arr.length){ contentEl.innerHTML = emptyHTML(file); return; }
+  if(!arr.length){
+    pane.el.innerHTML = emptyHTML(file);
+    return;
+  }
 
   if(BEATEN_TABS.has(tab)){
     currentRankMap = buildRankMap(arr);
-    contentEl.innerHTML = filtered.length
+    pane.el.innerHTML = filtered.length
       ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, currentRankMap.get(g.id))).join('')}</div>`
       : `<div class="grid-empty">No games match</div>`;
+    return;
+  }
+
+  pane.el.innerHTML = filtered.length
+    ? `<div class="grid">${filtered.map(cardHTML).join('')}</div>`
+    : `<div class="grid-empty">No games match</div>`;
+}
+
+/* Mark all currently-complete images in a subtree as loaded. */
+function markLoadedImages(root){
+  root.querySelectorAll('img').forEach(img => {
+    if(img.complete) img.classList.add('img-loaded');
+  });
+}
+
+/* ============================================================
+   RENDER — CONTENT
+   ============================================================ */
+function renderContent(){
+  const pane = getPane(tab);
+
+  // hide all other panes, show this one
+  TAB_PANES.forEach((p, id) => {
+    if(id !== tab) p.el.classList.remove('active');
+  });
+  pane.el.classList.add('active');
+
+  const state = LOAD_STATE[group][tab];
+
+  if(state === 'loading' || state === 'idle'){
+    hideToolbar();
+    pane.el.innerHTML = loadingHTML();
+    pane.signature = null;
+    if(state === 'idle'){
+      loadTabData(group, tab).then(() => {
+        if(LOAD_STATE[group][tab] !== 'loading') renderContent();
+      });
+    }
+    return;
+  }
+
+  // toolbar reflects current tab state
+  if(tab === 'backlog-series') hideToolbar();
+  else renderToolbar();
+
+  // cache hit — pane content still matches current inputs
+  const sig = paneSignature();
+  if(pane.signature === sig){
     applyTooltips();
     return;
   }
 
-  contentEl.innerHTML = filtered.length
-    ? `<div class="grid">${filtered.map(cardHTML).join('')}</div>`
-    : `<div class="grid-empty">No games match</div>`;
+  // rebuild pane content
+  buildPaneInner(pane);
+  pane.signature = sig;
+  markLoadedImages(pane.el);
   applyTooltips();
 }
 
-/* refresh only the grids (search / filter changes) — does NOT rebuild toolbar
-   so the search input keeps focus. */
+/* refresh only the current pane (search / filter changes) — does not
+   touch the toolbar, so the search input keeps focus. */
 function refreshGrid(){
-  const list = currentTabData();
-  if(Array.isArray(list)){ renderArraysGrid(list); return; }
-  if(list && list.mirror){ renderBacklogGrids(list); return; }
-  renderContent();
+  const pane = getPane(tab);
+  buildPaneInner(pane);
+  pane.signature = paneSignature();
+  markLoadedImages(pane.el);
+  applyTooltips();
 }
 
+/* ============================================================
+   MODAL
+   ============================================================ */
 function renderLinks(links){
   const arr = links || [];
   if(!arr.length) return '';
@@ -2330,7 +2413,7 @@ function renderLinks(links){
     const safeUrl = String(l.url||'').replace(/"/g,'&quot;');
     const safeLabel = String(l.label||'Link').replace(/</g,'&lt;');
     if(l.icon === 'steam'){
-      return `<a class="link-btn" href="${safeUrl}" target="_blank" rel="noopener"><img class="link-icon-img" src="${STEAM_ICON}" alt="">${safeLabel}</a>`;
+      return `<a class="link-btn" href="${safeUrl}" target="_blank" rel="noopener"><img class="link-icon-img" src="${STEAM_ICON}" alt="" decoding="async">${safeLabel}</a>`;
     }
     const iconClass = l.icon ? `icon-${l.icon}` : 'icon-generic';
     return `<a class="link-btn" href="${safeUrl}" target="_blank" rel="noopener"><span class="icon ${iconClass}"></span>${safeLabel}</a>`;
@@ -2493,6 +2576,7 @@ tabbarEl.addEventListener('click', e => {
   if(!btn) return;
   tab = btn.dataset.tab;
   filterKey = 'all';
+  searchTerm = '';
   applySortForTab(tab);
   saveLastTab();
   renderTabs(); renderContent();
@@ -2525,6 +2609,8 @@ toolbarEl.addEventListener('click', e => {
   if(fo){
     filterKey = fo.dataset.filter || 'all';
     closeAllDropdowns();
+    // filters are global; invalidate all panes so visiting another tab rebuilds correctly
+    invalidateAllPanes();
     renderContent();
     return;
   }
@@ -2535,6 +2621,7 @@ toolbarEl.addEventListener('click', e => {
     else { sortKey = k; sortDir = defaultDir[k] || 'asc'; }
     saveSortForTab(tab, sortKey, sortDir);
     closeAllDropdowns();
+    invalidateAllPanes();
     renderContent();
     return;
   }
@@ -2561,6 +2648,16 @@ function findGameById(id){
   }
   return null;
 }
+
+/* Image load/error capture — adds .img-loaded to any image in #content
+   when it finishes (either way). Works for cached images too via
+   markLoadedImages() called after each render. */
+contentEl.addEventListener('load', e => {
+  if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded');
+}, true);
+contentEl.addEventListener('error', e => {
+  if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded');
+}, true);
 
 /* ============================================================
    ADMIN FORM HELPERS
@@ -2968,6 +3065,7 @@ async function openMovePicker(game, ctxTab){
     }
     moveBackdrop.classList.remove('open'); moveSlot.innerHTML = '';
     closeAll();
+    invalidateAllPanes();
     updatePendingStrip();
     refreshCurrentTab();
     toast('Staged move — commit when ready');
@@ -3393,6 +3491,7 @@ function openEditor(g){
     }
 
     closeAll();
+    invalidateAllPanes();
     updatePendingStrip();
     refreshCurrentTab();
     toast(isNew ? 'Staged new game' : 'Staged changes');
@@ -3414,6 +3513,7 @@ function openConfirmDelete(g){
     const gTab = g._tab || tab;
     pendingOps.set(`${gTab}:${g.id}`, { tabId: gTab, id: g.id, action:'delete', name: g.name });
     closeAll();
+    invalidateAllPanes();
     updatePendingStrip();
     refreshCurrentTab();
     toast('Staged delete');
