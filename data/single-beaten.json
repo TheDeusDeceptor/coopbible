@@ -3,6 +3,32 @@
   "updated": "2026-10-01T16:17:35.415739Z",
   "games": [
     {
+      "id": "cult-of-the-lamb",
+      "name": "Cult of the Lamb",
+      "release": "11.08.2022",
+      "platform": "",
+      "size": "4 GB",
+      "hltb": "Main: 14, +Extra: 20",
+      "dev": "Massive Monster",
+      "pub": "Devolver Digital",
+      "installed": false,
+      "ownedSteam": false,
+      "localCoop": false,
+      "authRequired": false,
+      "gamepass": false,
+      "notes": "updates occasionally",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1313140",
+          "icon": "steam"
+        }
+      ],
+      "extraTags": [],
+      "screenshot": "images/screenshots/cult-of-the-lamb.jpg",
+      "logo": "images/logos/cult-of-the-lamb.png"
+    },
+    {
       "id": "heavenly-sword",
       "name": "Heavenly Sword",
       "release": "12.09.2007",

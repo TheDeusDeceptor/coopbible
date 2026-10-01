@@ -55,32 +55,6 @@
       "logo": "images/logos/styx-shards-of-darkness.png"
     },
     {
-      "id": "cult-of-the-lamb",
-      "name": "Cult of the Lamb",
-      "release": "11.08.2022",
-      "platform": "",
-      "size": "4 GB",
-      "hltb": "Main: 14, +Extra: 20",
-      "dev": "Massive Monster",
-      "pub": "Devolver Digital",
-      "installed": false,
-      "ownedSteam": false,
-      "localCoop": false,
-      "authRequired": false,
-      "gamepass": false,
-      "notes": "updates occasionally",
-      "links": [
-        {
-          "label": "Steam",
-          "url": "https://store.steampowered.com/app/1313140",
-          "icon": "steam"
-        }
-      ],
-      "extraTags": [],
-      "screenshot": "images/screenshots/cult-of-the-lamb.jpg",
-      "logo": "images/logos/cult-of-the-lamb.png"
-    },
-    {
       "id": "the-casting-of-frank-stone",
       "name": "The Casting of Frank Stone™",
       "release": "03.09.2024",
