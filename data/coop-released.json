@@ -2,7 +2,7 @@
   "games": [
     {
       "id": "helldivers-2",
-      "name": "Helldivers 2",
+      "name": "Helldivers II",
       "group": "coop",
       "tab": "released",
       "platform": "PC",
@@ -14,7 +14,18 @@
       "notes": "",
       "ready": false,
       "onDisk": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/553850",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/HELLDIVERS_2",
+          "icon": "pcgw"
+        }
+      ],
       "extraTags": [],
       "screenshot": "images/screenshots/helldivers-2.jpg",
       "logo": "images/logos/helldivers-2.png"
