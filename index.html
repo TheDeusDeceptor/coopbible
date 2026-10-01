@@ -146,8 +146,13 @@
   .dd.open .dd-btn .chev{transform:rotate(180deg)}
   .dd-btn .val{color:var(--muted);font-weight:500;text-transform:none;letter-spacing:.02em;font-family:var(--font-body);font-size:.82rem;}
   .dd.open .dd-btn .val,.dd-btn:hover .val{color:#e6ebf2}
+  /* Non-default sort indicator — outlined like the search-field chips */
+  .dd-btn.non-default{
+    color:var(--accent);
+    border-color:var(--accent-line);
+    background:var(--accent-soft);
+  }
   .dd-btn.non-default .val{color:var(--accent);}
-  .dd-btn.non-default::after{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 6px var(--accent);margin-left:.35rem;vertical-align:middle;}
   .dd-menu{position:absolute;top:calc(100% + .35rem);left:0;z-index:50;min-width:200px;background:#0c1017;border:1px solid var(--border);border-radius:9px;padding:.35rem;box-shadow:0 12px 32px rgba(0,0,0,.55);display:none;flex-direction:column;gap:.1rem;animation:menuIn .13s ease-out;}
   .dd.open .dd-menu{display:flex}
   @keyframes menuIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
@@ -274,14 +279,9 @@
   .g-title .re-part{color:#8a94a6;opacity:.85;}
   [data-tooltip]{cursor:help;}
 
-  /* ============================================================
-     SMOOTH LOADING
-     ============================================================ */
-  /* Tab panes — persistent per-tab containers, only active one visible */
+  /* SMOOTH LOADING */
   #content > .tab-pane{display:none}
   #content > .tab-pane.active{display:block}
-
-  /* Fade-in for lazy-loaded images */
   .card .shot img,
   .card .logo-box img,
   .rowD .shot-cell img,
@@ -356,7 +356,6 @@
   .modal-nav:active{transform:scale(.96)}
   .modal-nav.prev:hover svg{transform:translateX(-2px)}
   .modal-nav.next:hover svg{transform:translateX(2px)}
-  .modal-counter{position:absolute;bottom:.6rem;right:2.9rem;z-index:3;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.1em;color:#cbd5e1;background:rgba(0,0,0,.62);padding:.2rem .5rem;border-radius:5px;border:1px solid rgba(255,255,255,.08);font-variant-numeric:tabular-nums}
   @media (max-width:820px){
     .modal-wrap{gap:.5rem}
     .modal-nav{width:40px;height:40px}
@@ -926,7 +925,6 @@ let adminBusy = false;
 const pendingOps = new Map();
 const stagedAssetUrls = new Map();
 let viewCols = localStorage.getItem('view_cols') || 'auto';
-let viewZoom = parseInt(localStorage.getItem('view_zoom') || '100', 10);
 let modalNavList = [];
 let modalNavIdx  = -1;
 let currentRankMap = null;
@@ -1010,21 +1008,17 @@ function logoSrc(url){
 }
 
 /* ============================================================
-   VIEW — columns + zoom
+   VIEW — columns
    ============================================================ */
 function applyView(){
   document.body.dataset.cols = viewCols;
-  document.documentElement.style.fontSize = (viewZoom / 100 * 16) + 'px';
 }
 function setViewCols(v){
   viewCols = v;
   localStorage.setItem('view_cols', v);
   applyView();
-}
-function setViewZoom(v){
-  viewZoom = v;
-  localStorage.setItem('view_zoom', String(v));
-  applyView();
+  // Rebuild the toolbar so the View dropdown's active state updates.
+  renderToolbar();
 }
 
 /* ============================================================
@@ -2052,7 +2046,6 @@ function renderToolbar(){
   const fl = filterLabels();
   toolbarEl.classList.remove('empty');
   const colOpts = ['auto','1','2','3','4','5'];
-  const zoomOpts = [80, 90, 100, 110, 125, 150];
   const nonDefault = sortIsNonDefault();
   toolbarEl.innerHTML = `
     <div class="tb-left">
@@ -2077,14 +2070,9 @@ function renderToolbar(){
       </div>
       <div class="dd" data-dd="view">
         <button class="dd-btn" type="button"><span class="icon icon-cols" style="width:1em;height:1em"></span>View</button>
-        <div class="dd-menu" style="min-width:230px">
-          <div style="padding:.55rem .7rem .3rem;font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)">Columns</div>
-          <div style="display:flex;gap:.3rem;flex-wrap:wrap;padding:.25rem .7rem .7rem">
+        <div class="dd-menu" style="min-width:auto;padding:.4rem">
+          <div style="display:flex;gap:.3rem">
             ${colOpts.map(c => `<button type="button" class="dd-item ${viewCols===c?'active':''}" data-view-cols="${c}" style="padding:.35rem .6rem;width:auto;border-radius:5px;background:${viewCols===c?'var(--accent-soft)':'rgba(255,255,255,.02)'};border:1px solid ${viewCols===c?'var(--accent-line)':'var(--border)'};color:${viewCols===c?'var(--accent)':'#cbd5e1'};font-size:.75rem;font-family:var(--font-head);font-weight:600;letter-spacing:.08em;cursor:pointer">${c === 'auto' ? 'Auto' : c}</button>`).join('')}
-          </div>
-          <div style="padding:.55rem .7rem .3rem;font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border)">Zoom</div>
-          <div style="display:flex;gap:.3rem;flex-wrap:wrap;padding:.25rem .7rem .7rem">
-            ${zoomOpts.map(z => `<button type="button" class="dd-item ${viewZoom===z?'active':''}" data-view-zoom="${z}" style="padding:.35rem .6rem;width:auto;border-radius:5px;background:${viewZoom===z?'var(--accent-soft)':'rgba(255,255,255,.02)'};border:1px solid ${viewZoom===z?'var(--accent-line)':'var(--border)'};color:${viewZoom===z?'var(--accent)':'#cbd5e1'};font-size:.75rem;font-family:var(--font-head);font-weight:600;letter-spacing:.08em;cursor:pointer">${z}%</button>`).join('')}
           </div>
         </div>
       </div>
@@ -2255,9 +2243,6 @@ function buildRankMap(arr){
    TAB PANES — persistent per-tab containers
    ============================================================ */
 const TAB_PANES = new Map();
-let renderVersion = 0;
-
-function bumpRenderVersion(){ renderVersion++; }
 
 function getPane(tabId){
   if(!TAB_PANES.has(tabId)){
@@ -2270,8 +2255,6 @@ function getPane(tabId){
   return TAB_PANES.get(tabId);
 }
 
-/* Snapshot of all inputs that affect a pane's rendered content.
-   When this changes, the pane must be rebuilt. */
 function paneSignature(){
   return [
     adminMode ? 'A' : '-',
@@ -2283,12 +2266,10 @@ function paneSignature(){
   ].join('|');
 }
 
-/* Invalidate all cached panes (call after any global change). */
 function invalidateAllPanes(){
   TAB_PANES.forEach(p => { p.signature = null; });
 }
 
-/* Render the pane's inner HTML from current DATA + filter/sort state. */
 function buildPaneInner(pane){
   const list = currentTabData();
   const file = TAB_FILES[tab];
@@ -2342,7 +2323,6 @@ function buildPaneInner(pane){
     : `<div class="grid-empty">No games match</div>`;
 }
 
-/* Mark all currently-complete images in a subtree as loaded. */
 function markLoadedImages(root){
   root.querySelectorAll('img').forEach(img => {
     if(img.complete) img.classList.add('img-loaded');
@@ -2355,7 +2335,6 @@ function markLoadedImages(root){
 function renderContent(){
   const pane = getPane(tab);
 
-  // hide all other panes, show this one
   TAB_PANES.forEach((p, id) => {
     if(id !== tab) p.el.classList.remove('active');
   });
@@ -2375,26 +2354,21 @@ function renderContent(){
     return;
   }
 
-  // toolbar reflects current tab state
   if(tab === 'backlog-series') hideToolbar();
   else renderToolbar();
 
-  // cache hit — pane content still matches current inputs
   const sig = paneSignature();
   if(pane.signature === sig){
     applyTooltips();
     return;
   }
 
-  // rebuild pane content
   buildPaneInner(pane);
   pane.signature = sig;
   markLoadedImages(pane.el);
   applyTooltips();
 }
 
-/* refresh only the current pane (search / filter changes) — does not
-   touch the toolbar, so the search input keeps focus. */
 function refreshGrid(){
   const pane = getPane(tab);
   buildPaneInner(pane);
@@ -2477,7 +2451,6 @@ function openSeriesModal(sg){
 function modalHTML(g, rank){
   const linksHTML = renderLinks(g.links);
   const rankBadge = rank ? `<span class="modal-rank-badge">#${rank}</span>` : '';
-  const counter = modalNavList.length > 1 ? `<div class="modal-counter">${modalNavIdx + 1} / ${modalNavList.length}</div>` : '';
   const canNav = modalNavList.length > 1;
   const prevBtn = canNav ? `<button class="modal-nav prev" id="modal-prev" title="Previous (←)"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg></button>` : '';
   const nextBtn = canNav ? `<button class="modal-nav next" id="modal-next" title="Next (→)"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></button>` : '';
@@ -2488,7 +2461,6 @@ function modalHTML(g, rank){
       <div class="modal-hero">
         ${g.screenshot ? `<img class="modal-shot-img" src="${screenshotSrc(g.screenshot)}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}
         ${rankBadge}
-        ${counter}
         <div class="modal-logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="" title="${titleAttr}">` : `<div class="ph">504 × 562<small>logo</small></div>`}</div>
       </div>
       <div class="modal-body">
@@ -2545,7 +2517,15 @@ function closeModal(){
   modalNavList = []; modalNavIdx = -1;
 }
 
-backdrop.addEventListener('click', e => { if(e.target === backdrop) closeModal(); });
+/* Close the main modal on any click that isn't inside a modal surface.
+   Prev/next arrows stopPropagation so they never reach here. */
+backdrop.addEventListener('click', e => {
+  if(e.target.closest('.modal')) return;
+  if(e.target.closest('.admin-modal')) return;
+  if(e.target.closest('.confirm')) return;
+  closeAll();
+});
+
 document.addEventListener('keydown', e => {
   if(e.key === 'Escape'){
     closeModal(); closeAllDropdowns(); closeTokenPrompt();
@@ -2595,8 +2575,6 @@ toolbarEl.addEventListener('click', e => {
   if(e.target.closest('#addGameBtn')){ openEditor(null); return; }
   const colBtn = e.target.closest('[data-view-cols]');
   if(colBtn){ setViewCols(colBtn.dataset.viewCols); closeAllDropdowns(); return; }
-  const zoomBtn = e.target.closest('[data-view-zoom]');
-  if(zoomBtn){ setViewZoom(parseInt(zoomBtn.dataset.viewZoom, 10)); closeAllDropdowns(); return; }
   const db = e.target.closest('.dd-btn');
   if(db){
     const dd = db.closest('.dd');
@@ -2609,7 +2587,6 @@ toolbarEl.addEventListener('click', e => {
   if(fo){
     filterKey = fo.dataset.filter || 'all';
     closeAllDropdowns();
-    // filters are global; invalidate all panes so visiting another tab rebuilds correctly
     invalidateAllPanes();
     renderContent();
     return;
@@ -2649,9 +2626,6 @@ function findGameById(id){
   return null;
 }
 
-/* Image load/error capture — adds .img-loaded to any image in #content
-   when it finishes (either way). Works for cached images too via
-   markLoadedImages() called after each render. */
 contentEl.addEventListener('load', e => {
   if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded');
 }, true);
