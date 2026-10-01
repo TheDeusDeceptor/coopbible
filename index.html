@@ -15,6 +15,9 @@
     --text:#e6ebf2;--muted:#7d8798;
     --green:#4ade80;--blue:#3b82f6;--amber:#f59e0b;--red:#ef4444;
     --purple:#a78bfa;--hltb:#fb7185;
+    --pink:#f472b6;
+    --steam:#66c0f4;
+    --xbox:#4ade80;
     --font-head:'Chakra Petch',system-ui,sans-serif;
     --font-body:'Inter',system-ui,sans-serif;
   }
@@ -33,7 +36,6 @@
     background-attachment:fixed;color:var(--text);font-family:var(--font-body);min-height:100vh;padding:1.75rem;
   }
   .icon{display:inline-block;width:.85em;height:.85em;background-color:currentColor;-webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;flex-shrink:0;vertical-align:middle;}
-  .icon-steam{-webkit-mask-image:url(icons/steam.png);mask-image:url(icons/steam.png);}
   .icon-pcgw{-webkit-mask-image:url(icons/wrench.svg);mask-image:url(icons/wrench.svg);}
   .icon-nexus{-webkit-mask-image:url(icons/nexus.svg);mask-image:url(icons/nexus.svg);}
   .icon-generic{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");}
@@ -134,10 +136,13 @@
   .shot img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0;}
   .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
   .overlay{position:absolute;left:.55rem;right:.55rem;top:.5rem;bottom:.5rem;z-index:2;pointer-events:none;}
-  .overlay-top{position:absolute;left:0;right:0;top:0;display:flex;justify-content:space-between;align-items:flex-start;gap:.4rem;}
+  .overlay-tl{position:absolute;left:0;top:0;display:flex;flex-direction:column;gap:.3rem;align-items:flex-start;}
+  .overlay-tr{position:absolute;right:0;top:0;display:flex;flex-direction:column;gap:.3rem;align-items:flex-end;}
   .status-tag{display:inline-flex;align-items:center;padding:.3rem .6rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;font-family:var(--font-head);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--green);white-space:nowrap;line-height:1;}
-  .steam-tag{display:inline-flex;align-items:center;justify-content:center;padding:.3rem .5rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;line-height:1;}
-  .steam-tag .icon-steam{width:1.05em;height:1.05em;background-color:#cbd5e1;}
+  .status-tag.localcoop{color:var(--green);}
+  .status-tag.auth{color:var(--pink);border-color:rgba(244,114,182,.45);}
+  .icon-badge{display:inline-flex;align-items:center;justify-content:center;padding:.32rem .5rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;line-height:1;}
+  .icon-badge img{width:16px;height:16px;object-fit:contain;display:block;}
   .overlay-chips{position:absolute;left:0;right:0;bottom:0;display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;}
   .ov-chip{display:inline-flex;align-items:center;padding:.32rem .65rem;background:rgba(8,10,16,.72);border:1px solid rgba(255,255,255,.08);border-radius:6px;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);font-family:var(--font-body);font-size:.78rem;font-weight:500;color:#e6ebf2;white-space:nowrap;line-height:1;}
   .logo-panel{width:30%;background:rgba(255,255,255,.015);border-left:1px solid var(--border);display:grid;place-items:center;padding:.75rem;}
@@ -206,7 +211,7 @@
   .modal::-webkit-scrollbar{width:8px}
   .modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;border:2px solid transparent;background-clip:padding-box;}
   .modal::-webkit-scrollbar-thumb:hover{background:var(--accent);background-clip:padding-box}
-  .modal-hero{position:relative;width:100%;aspect-ratio:21/9;background:#000;border-bottom:1px solid var(--border);display:grid;place-items:center;overflow:hidden;}
+  .modal-hero{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-bottom:1px solid var(--border);display:grid;place-items:center;overflow:hidden;}
   .modal-hero > img.modal-shot-img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;z-index:0;}
   .modal-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
   .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
@@ -223,6 +228,9 @@
   .chip.coop{border-color:rgba(56,189,248,.4);color:#38bdf8;background:rgba(56,189,248,.08);}
   .chip.vault{border-color:rgba(225,29,72,.42);color:#f43f5e;background:rgba(225,29,72,.09);}
   .chip.green{border-color:rgba(74,222,128,.4);color:var(--green);background:rgba(74,222,128,.08);}
+  .chip.auth{border-color:rgba(244,114,182,.45);color:var(--pink);background:rgba(244,114,182,.08);}
+  .chip.steam{border-color:rgba(102,192,244,.45);color:var(--steam);background:rgba(102,192,244,.08);}
+  .chip.gamepass{border-color:rgba(74,222,128,.4);color:var(--xbox);background:rgba(74,222,128,.08);}
   .info-list{margin-top:1rem;display:grid;grid-template-columns:1fr 1fr;column-gap:1.25rem;row-gap:0;border-top:1px solid var(--border);}
   .info-row{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;padding:.55rem 0;border-bottom:1px solid var(--border);font-size:.9rem;}
   .info-row dt{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:inline-flex;align-items:center;gap:.45rem;white-space:nowrap;}
@@ -235,8 +243,8 @@
   .modal-links{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.9rem;}
   .link-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.45rem .8rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);text-decoration:none;transition:all .18s ease;}
   .link-btn .icon{width:1em;height:1em}
+  .link-btn .link-icon-img{width:14px;height:14px;object-fit:contain;display:block;}
   .link-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  .link-btn .icon-steam{background-color:currentColor;}
   .token-modal,.picker-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:520px;padding:1.6rem;position:relative;}
   .token-modal{border-color:rgba(239,68,68,.35);max-width:480px;}
   .picker-modal h2,.token-modal h2{font-family:var(--font-head);font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:.6rem;display:flex;align-items:center;gap:.55rem;}
@@ -309,6 +317,10 @@
   .flag-btn .lamp{width:8px;height:8px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
   .flag-btn.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
   .flag-btn.on .lamp{background:var(--green);box-shadow:0 0 8px var(--green);}
+  .flag-btn.on[data-flag="authRequired"]{color:var(--pink);border-color:rgba(244,114,182,.5);background:rgba(244,114,182,.08);}
+  .flag-btn.on[data-flag="authRequired"] .lamp{background:var(--pink);box-shadow:0 0 8px var(--pink);}
+  .flag-btn.on[data-flag="ownedSteam"]{color:var(--steam);border-color:rgba(102,192,244,.5);background:rgba(102,192,244,.08);}
+  .flag-btn.on[data-flag="ownedSteam"] .lamp{background:var(--steam);box-shadow:0 0 8px var(--steam);}
   .links-list{display:flex;flex-direction:column;gap:.5rem;margin-bottom:.6rem}
   .link-row{display:grid;grid-template-columns:140px 1fr 32px;gap:.5rem;align-items:center;}
   .link-row input{padding:.5rem .6rem;font-size:.85rem}
@@ -468,6 +480,8 @@ const LBDB_WORKFLOW = 'update-lbdb.yml';
 const LBDB_FILE = 'LBDB/metadata.json';
 const CLOUDINARY_CLOUD = 'nistzwxd';
 const CLOUDINARY_CANVAS = 'https://i.ibb.co/xSsxpFMp/blank.png';
+const STEAM_ICON = 'images/icons/steam.png';
+const GAMEPASS_ICON = 'images/icons/gamepass.png';
 
 const TABS = {
   coop: [
@@ -516,14 +530,20 @@ const LOAD_STATE = {
    TAG SYSTEM
    ============================================================ */
 const TAG_LABELS = {
-  coop:'Co-op', single:'Vault', released:'Released', 'early-access':'Early Access', unreleased:'Unreleased',
-  mods:'Mods', 'coop-beaten':'Co-op Beaten', backlog:'Backlog', 'backlog-series':'Backlog Series',
-  gamearchive:'Game Archive', mainpc:'Main PC', beaten:'Beaten', ready:'Ready', ondisk:'On Disk',
+  coop:'Co-op', single:'Vault',
+  released:'Released', 'early-access':'Early Access', unreleased:'Unreleased',
+  mods:'Mods', 'coop-beaten':'Co-op Beaten',
+  backlog:'Backlog', 'backlog-series':'Backlog Series',
+  gamearchive:'Game Archive', mainpc:'Main PC', beaten:'Beaten',
+  installed:'Installed',
+  localcoop:'Local Co-op',
+  authrequired:'AUTH',
+  ownedsteam:'On Steam',
+  gamepass:'GamePass',
 };
-const COOP_TAGS   = new Set(['coop','released','early-access','unreleased','mods','coop-beaten']);
-const VAULT_TAGS  = new Set(['single','backlog','backlog-series','gamearchive','mainpc','beaten']);
-const STATUS_TAGS = new Set(['ready','ondisk']);
-const CROSS_TAGS  = ['released','early-access','unreleased','mods','coop-beaten','backlog','backlog-series','gamearchive','mainpc','beaten'];
+const COOP_TAGS  = new Set(['coop','released','early-access','unreleased','mods','coop-beaten']);
+const VAULT_TAGS = new Set(['single','backlog','backlog-series','gamearchive','mainpc','beaten']);
+const CROSS_TAGS = ['released','early-access','unreleased','mods','coop-beaten','backlog','backlog-series','gamearchive','mainpc','beaten'];
 
 function expandExtraTags(extraTags){
   const out = new Set();
@@ -538,17 +558,23 @@ function expandExtraTags(extraTags){
 function buildTags(g){
   const set = new Set();
   set.add(group); set.add(tab);
-  if(group === 'coop'   && g.ready)  set.add('ready');
-  if(group === 'single' && g.onDisk) set.add('ondisk');
+  if(g.installed)    set.add('installed');
+  if(g.localCoop)    set.add('localcoop');
+  if(g.authRequired) set.add('authrequired');
+  if(g.ownedSteam)   set.add('ownedsteam');
+  if(g.gamepass)     set.add('gamepass');
   expandExtraTags(g.extraTags || []).forEach(t => set.add(t));
   return [...set];
 }
 function chipHTML(t){
   const label = TAG_LABELS[t] || t;
   let cls = 'chip';
-  if(STATUS_TAGS.has(t))     cls += ' green';
-  else if(COOP_TAGS.has(t))  cls += ' coop';
-  else if(VAULT_TAGS.has(t)) cls += ' vault';
+  if(t === 'installed' || t === 'localcoop') cls += ' green';
+  else if(t === 'authrequired')              cls += ' auth';
+  else if(t === 'ownedsteam')                cls += ' steam';
+  else if(t === 'gamepass')                  cls += ' gamepass';
+  else if(COOP_TAGS.has(t))                  cls += ' coop';
+  else if(VAULT_TAGS.has(t))                 cls += ' vault';
   return `<span class="${cls}">${label}</span>`;
 }
 function renderTags(g){ return buildTags(g).map(chipHTML).join(''); }
@@ -1526,7 +1552,7 @@ function applyTooltips(){
     if(truncated) el.setAttribute('title', el.dataset.tooltip);
   });
 }
-function statusFlag(g){ return group === 'coop' ? !!g.ready : !!g.onDisk; }
+function statusFlag(g){ return !!g.installed; }
 function passesFilter(g){
   if(filterKey === 'all')       return true;
   if(filterKey === 'status')    return statusFlag(g);
@@ -1565,9 +1591,7 @@ function applySort(arr){
 }
 let openDD = null;
 function filterLabels(){
-  return group === 'coop'
-    ? { all:'All', status:'Ready', noStatus:'Not Ready' }
-    : { all:'All', status:'On Disk', noStatus:'Not On Disk' };
+  return { all:'All', status:'Installed', noStatus:'Not Installed' };
 }
 function renderToolbar(){
   const fl = filterLabels();
@@ -1614,15 +1638,18 @@ function ovChip(value){
   if(!value || value === '—') return '';
   return `<span class="ov-chip">${value}</span>`;
 }
-function statusTag(g){
-  if(group === 'coop' && g.ready)    return `<span class="status-tag">Ready</span>`;
-  if(group === 'single' && g.onDisk) return `<span class="status-tag">On Disk</span>`;
-  return '';
+function statusTagsHTML(g){
+  const tags = [];
+  if(g.installed)    tags.push(`<span class="status-tag">Installed</span>`);
+  if(g.localCoop)    tags.push(`<span class="status-tag localcoop">Local Co-op</span>`);
+  if(g.authRequired) tags.push(`<span class="status-tag auth">AUTH</span>`);
+  return tags.join('');
 }
-function steamTag(g){
-  const hasSteam = (g.links||[]).some(l => l.icon === 'steam');
-  if(!hasSteam) return '';
-  return `<span class="steam-tag"><span class="icon icon-steam"></span></span>`;
+function ownedBadgesHTML(g){
+  const badges = [];
+  if(g.ownedSteam) badges.push(`<span class="icon-badge" title="Owned on Steam"><img src="${STEAM_ICON}" alt="Steam"></span>`);
+  if(g.gamepass)   badges.push(`<span class="icon-badge" title="Available on GamePass"><img src="${GAMEPASS_ICON}" alt="GamePass"></span>`);
+  return badges.join('');
 }
 function adminControlsHTML(id){
   if(!adminMode) return '';
@@ -1635,8 +1662,9 @@ function shotImgHTML(g){
   if(g.screenshot) return `<img src="${screenshotSrc(g.screenshot)}" alt="">`;
   return `<div class="ph">1280 × 720<small>screenshot</small></div>`;
 }
-function logoImgHTML(g){
-  if(g.logo) return `<img src="${logoSrc(g.logo)}" alt="">`;
+function logoImgHTML(g, titleAttr){
+  const t = titleAttr ? ` title="${String(titleAttr).replace(/"/g,'&quot;')}"` : '';
+  if(g.logo) return `<img src="${logoSrc(g.logo)}" alt=""${t}>`;
   return `<div class="ph">504 × 562<small>logo</small></div>`;
 }
 function cardHTML(g){
@@ -1646,17 +1674,20 @@ function cardHTML(g){
     <div class="overlay-chips">
       ${ovChip(fmtHltbMain(g.hltb))}${ovChip(g.size)}${ovChip(g.release)}${isSeries ? ovChip(g.platform) : ''}
     </div>`;
+  const tl = statusTagsHTML(g);
+  const tr = ownedBadgesHTML(g);
   return `
     <article class="card" data-id="${g.id}">
       ${adminControlsHTML(g.id)}
       <div class="shot">
         ${shotImgHTML(g)}
         <div class="overlay">
-          <div class="overlay-top"><div>${statusTag(g)}</div><div>${steamTag(g)}</div></div>
+          ${tl ? `<div class="overlay-tl">${tl}</div>` : ''}
+          ${tr ? `<div class="overlay-tr">${tr}</div>` : ''}
           ${chips}
         </div>
       </div>
-      <div class="logo-panel"><div class="logo-box">${logoImgHTML(g)}</div></div>
+      <div class="logo-panel"><div class="logo-box">${logoImgHTML(g, g.name)}</div></div>
     </article>`;
 }
 function beatenRowHTML(g, rank){
@@ -1667,7 +1698,7 @@ function beatenRowHTML(g, rank){
         ${adminControlsHTML(g.id)}
         <div class="shot-cell">${g.screenshot ? `<img src="${screenshotSrc(g.screenshot)}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}</div>
         <div class="info-cell">
-          <div class="logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="">` : `<div class="ph">${g.name}<small>logo</small></div>`}</div>
+          <div class="logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="" title="${String(g.name||'').replace(/"/g,'&quot;')}">` : `<div class="ph">${g.name}<small>logo</small></div>`}</div>
           <div class="hover-text">
             <div class="name">${g.name}</div>
             <div class="meta">${g.dev || ''}${g.dev && g.release ? ' <span class="sep">·</span> ' : ''}${g.release || ''}</div>
@@ -1778,7 +1809,7 @@ function renderContent(){
 
   if(BEATEN_TABS.has(tab)){
     const rankMap = new Map();
-    arr.forEach((g, i) => rankMap.set(g.id, i + 1));
+    filtered.forEach((g, i) => rankMap.set(g.id, i + 1));
     contentEl.innerHTML = filtered.length
       ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, rankMap.get(g.id))).join('')}</div>`
       : `<div class="grid-empty">No games match</div>`;
@@ -1795,9 +1826,9 @@ function refreshGrid(){
   const list = currentTabData();
   if(!Array.isArray(list)){ renderContent(); return; }
   if(BEATEN_TABS.has(tab)){
-    const rankMap = new Map();
-    list.forEach((g, i) => rankMap.set(g.id, i + 1));
     const filtered = applySort(list.filter(passesAll));
+    const rankMap = new Map();
+    filtered.forEach((g, i) => rankMap.set(g.id, i + 1));
     contentEl.innerHTML = filtered.length
       ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, rankMap.get(g.id))).join('')}</div>`
       : `<div class="grid-empty">No games match</div>`;
@@ -1815,9 +1846,12 @@ function renderLinks(links){
   const arr = links || [];
   if(!arr.length) return '';
   return arr.map(l => {
-    const iconClass = l.icon ? `icon-${l.icon}` : 'icon-generic';
     const safeUrl = String(l.url||'').replace(/"/g,'&quot;');
     const safeLabel = String(l.label||'Link').replace(/</g,'&lt;');
+    if(l.icon === 'steam'){
+      return `<a class="link-btn" href="${safeUrl}" target="_blank" rel="noopener"><img class="link-icon-img" src="${STEAM_ICON}" alt="">${safeLabel}</a>`;
+    }
+    const iconClass = l.icon ? `icon-${l.icon}` : 'icon-generic';
     return `<a class="link-btn" href="${safeUrl}" target="_blank" rel="noopener"><span class="icon ${iconClass}"></span>${safeLabel}</a>`;
   }).join('');
 }
@@ -1849,7 +1883,7 @@ function openSeriesModal(sg){
   if(sg.done === 'done')  chips.push(`<span class="chip green">Done</span>`);
   if(sg.done === 'rerun') chips.push(`<span class="chip green">Rerun</span>`);
   if(sg.color === 'green') chips.push(`<span class="chip green">Installed</span>`);
-  if(sg.color === 'blue')  chips.push(`<span class="chip coop">On Steam</span>`);
+  if(sg.color === 'blue')  chips.push(`<span class="chip steam">On Steam</span>`);
   const fullTitle = sg.title + (sg.titleRe ? ` (${sg.titleRe})` : '');
   const yearStr   = sg.year + (sg.yearRe ? ` ${sg.yearRe}` : '');
   const linksHTML = renderLinks(sg.links);
@@ -1883,7 +1917,7 @@ function openModal(g, rank){
       <div class="modal-hero">
         ${g.screenshot ? `<img class="modal-shot-img" src="${screenshotSrc(g.screenshot)}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}
         ${rankBadge}
-        <div class="modal-logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="">` : `<div class="ph">504 × 562<small>logo</small></div>`}</div>
+        <div class="modal-logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="" title="${String(g.name||'').replace(/"/g,'&quot;')}">` : `<div class="ph">504 × 562<small>logo</small></div>`}</div>
       </div>
       <div class="modal-body">
         <h2 class="modal-title">${g.name}</h2>
@@ -2053,7 +2087,6 @@ function renderVariantPills(results){
       const r = results[src];
       if(!r || !r.fields) continue;
 
-      // Logo field special-case: picker pills for SGDB / LBDB
       if(field === 'logo'){
         if(src === 'sgdb' && r.logos && r.logos.length){
           pills.push(`<button type="button" class="pill src-sgdb picker" data-field="logo" data-picker="sgdb"><span class="p-src">sgdb</span>${r.logos.length} logos</button>`);
@@ -2077,7 +2110,6 @@ function renderVariantPills(results){
     pillsHost.innerHTML = pills.join('');
   }
 
-  // HLTB pills
   const hltbHost = modalSlot.querySelector('.pills[data-field="hltb"]');
   if(hltbHost){
     const pills = [];
@@ -2356,7 +2388,8 @@ function openEditor(g){
   const isNew = !g;
   const draft = isNew
     ? { id:'', name:'', release:'', platform:'PC', size:'', hltb:'', dev:'', pub:'', notes:'',
-        ready:false, onDisk:false, links:[], extraTags:[], screenshot:'', logo:'' }
+        installed:false, ownedSteam:false, gamepass:false, localCoop:false, authRequired:false,
+        links:[], extraTags:[], screenshot:'', logo:'' }
     : { ...g, screenshot: g.screenshot || '', logo: g.logo || '', links: [...(g.links||[])], extraTags: [...(g.extraTags||[])] };
   const editGroup = isNew ? group : (g._group || group);
   const editTab   = isNew ? tab   : (g._tab   || tab);
@@ -2526,8 +2559,11 @@ function openEditor(g){
         <div class="form-section">
           <div class="sec-title">Status</div>
           <div class="flag-row" id="flag-row">
-            <button type="button" class="flag-btn ${draft.ready?'on':''}" data-flag="ready"><span class="lamp"></span>Ready</button>
-            <button type="button" class="flag-btn ${draft.onDisk?'on':''}" data-flag="onDisk"><span class="lamp"></span>On Disk</button>
+            <button type="button" class="flag-btn ${draft.installed?'on':''}" data-flag="installed"><span class="lamp"></span>Installed</button>
+            <button type="button" class="flag-btn ${draft.localCoop?'on':''}" data-flag="localCoop"><span class="lamp"></span>Local Co-op</button>
+            <button type="button" class="flag-btn ${draft.authRequired?'on':''}" data-flag="authRequired"><span class="lamp"></span>AUTH</button>
+            <button type="button" class="flag-btn ${draft.ownedSteam?'on':''}" data-flag="ownedSteam"><span class="lamp"></span>On Steam</button>
+            <button type="button" class="flag-btn ${draft.gamepass?'on':''}" data-flag="gamepass"><span class="lamp"></span>GamePass</button>
           </div>
         </div>
 
@@ -2573,7 +2609,6 @@ function openEditor(g){
     $('#logo-preview').innerHTML = v ? `<img src="${logoSrc(v)}" alt="">` : '504 × 562';
   });
 
-  // Lock toggles
   modalSlot.querySelectorAll('.lock-toggle').forEach(btn => {
     btn.addEventListener('click', e => {
       e.stopPropagation();
@@ -2591,7 +2626,6 @@ function openEditor(g){
     });
   });
 
-  // Upload
   async function handleUpload(file, kind){
     if(!file) return;
     const nameVal = ($('#f-name').value || '').trim();
@@ -2625,7 +2659,6 @@ function openEditor(g){
     logoFile.addEventListener('change', e => handleUpload(e.target.files[0], 'logo'));
   }
 
-  // Save-locally
   function currentGameId(){
     const nameVal = ($('#f-name').value || '').trim();
     return draft.id || nameVal.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -2657,14 +2690,12 @@ function openEditor(g){
   $('#save-screenshot-local')?.addEventListener('click', () => saveLocal('screenshot'));
   $('#save-logo-local')?.addEventListener('click', () => saveLocal('logo'));
 
-  // Google
   $('#google-screenshot')?.addEventListener('click', () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     window.open('https://www.google.com/search?q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
   });
 
-  // SGDB button
   $('#sgdb-logo')?.addEventListener('click', async () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
@@ -2691,7 +2722,6 @@ function openEditor(g){
     }
   });
 
-  // LBDB button
   $('#lbdb-logo')?.addEventListener('click', async () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
@@ -2764,8 +2794,6 @@ function openEditor(g){
     }).filter(Boolean);
     const extraTags = [...$('#cross-tags').querySelectorAll('input[type=checkbox]:checked')]
       .map(cb => cb.dataset.tag).filter(t => t !== ftab);
-    const ready  = $('#flag-row [data-flag="ready"]').classList.contains('on');
-    const onDisk = $('#flag-row [data-flag="onDisk"]').classList.contains('on');
 
     const out = {
       id: draft.id || name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),
@@ -2777,7 +2805,12 @@ function openEditor(g){
       dev: $('#f-dev').value.trim(),
       pub: $('#f-pub').value.trim(),
       notes: $('#f-notes').value.trim(),
-      ready, onDisk, links, extraTags,
+      installed:    $('#flag-row [data-flag="installed"]').classList.contains('on'),
+      localCoop:    $('#flag-row [data-flag="localCoop"]').classList.contains('on'),
+      authRequired: $('#flag-row [data-flag="authRequired"]').classList.contains('on'),
+      ownedSteam:   $('#flag-row [data-flag="ownedSteam"]').classList.contains('on'),
+      gamepass:     $('#flag-row [data-flag="gamepass"]').classList.contains('on'),
+      links, extraTags,
       screenshot: $('#f-screenshot').value.trim(),
       logo: $('#f-logo').value.trim(),
     };
@@ -2883,8 +2916,9 @@ contentEl.addEventListener('click', e => {
     if(Array.isArray(arr)){
       const g = arr.find(x => x.id === rowD.dataset.id);
       if(g){
+        const filtered = applySort(arr.filter(passesAll));
         const rankMap = new Map();
-        arr.forEach((x,i) => rankMap.set(x.id, i+1));
+        filtered.forEach((x,i) => rankMap.set(x.id, i+1));
         openModal(g, rankMap.get(g.id));
       }
     }
