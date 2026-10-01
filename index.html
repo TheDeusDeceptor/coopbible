@@ -20,11 +20,13 @@
     --xbox:#4ade80;
     --font-head:'Chakra Petch',system-ui,sans-serif;
     --font-body:'Inter',system-ui,sans-serif;
+    --cols:auto;
   }
   body[data-group="single"]{
     --bg:#0d0708;--bg-glow:#1a0b0e;--card:#160d10;--border:#2a161b;
     --accent:#e11d48;--accent-soft:rgba(225,29,72,.14);--accent-line:rgba(225,29,72,.38);
   }
+  html{font-size:16px}
   *{box-sizing:border-box;margin:0;padding:0;scrollbar-width:thin;scrollbar-color:var(--border) transparent;}
   ::-webkit-scrollbar{width:10px;height:10px}
   ::-webkit-scrollbar-track{background:transparent}
@@ -49,6 +51,8 @@
   .icon-pencil{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4z'/%3E%3C/svg%3E");}
   .icon-trash{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='3 6 5 6 21 6'/%3E%3Cpath d='M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6'/%3E%3Cpath d='M10 11v6M14 11v6'/%3E%3Cpath d='M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='3 6 5 6 21 6'/%3E%3Cpath d='M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6'/%3E%3Cpath d='M10 11v6M14 11v6'/%3E%3Cpath d='M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E");}
   .icon-plus{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");}
+  .icon-move{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='5 9 2 12 5 15'/%3E%3Cpolyline points='9 5 12 2 15 5'/%3E%3Cpolyline points='15 19 12 22 9 19'/%3E%3Cpolyline points='19 9 22 12 19 15'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cline x1='12' y1='2' x2='12' y2='22'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='5 9 2 12 5 15'/%3E%3Cpolyline points='9 5 12 2 15 5'/%3E%3Cpolyline points='15 19 12 22 9 19'/%3E%3Cpolyline points='19 9 22 12 19 15'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cline x1='12' y1='2' x2='12' y2='22'/%3E%3C/svg%3E");}
+  .icon-cols{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='18' rx='1'/%3E%3Crect x='14' y='3' width='7' height='18' rx='1'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='18' rx='1'/%3E%3Crect x='14' y='3' width='7' height='18' rx='1'/%3E%3C/svg%3E");}
   header{max-width:1400px;margin:0 auto 1.75rem;display:flex;justify-content:center;position:relative;}
   .admin-toggle,.lbdb-btn{
     position:absolute;top:50%;transform:translateY(-50%);
@@ -84,6 +88,22 @@
   .tabbar button{font-family:var(--font-head);font-weight:600;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;padding:.5rem .9rem;border:1px solid var(--border);border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;transition:all .2s ease;}
   .tabbar button:hover{color:#cbd5e1;border-color:var(--accent-line)}
   .tabbar button.active{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
+  .pending-strip{
+    max-width:1400px;margin:0 auto 1rem;
+    display:none;align-items:center;gap:1rem;
+    padding:.6rem 1rem;
+    background:linear-gradient(180deg,rgba(74,222,128,.06) 0%,transparent 100%);
+    border:1px solid rgba(74,222,128,.35);border-radius:9px;
+  }
+  .pending-strip.on{display:flex}
+  .pending-strip .count{font-family:var(--font-head);font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);}
+  .pending-strip .count .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);margin-right:.5rem;vertical-align:middle;animation:pulse 1.6s ease-in-out infinite;}
+  .pending-strip .btns{margin-left:auto;display:flex;gap:.5rem;}
+  .pending-strip button{font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.45rem .85rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .18s ease;}
+  .pending-strip button:hover{color:#cbd5e1;border-color:var(--accent-line)}
+  .pending-strip button.commit{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
+  .pending-strip button.commit:hover{color:#fff;background:rgba(74,222,128,.2)}
+  .pending-strip button:disabled{opacity:.5;cursor:wait}
   .toolbar{max-width:1400px;margin:0 auto 1.25rem;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;}
   .toolbar.empty{display:none}
   .tb-left{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
@@ -127,11 +147,18 @@
   .jump-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .18s ease;}
   .jump-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
   .jump-btn .arw{font-size:.85rem;line-height:1}
-  .grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,580px),1fr));gap:1.25rem;}
+  .grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,36rem),1fr));gap:1.25rem;}
+  body[data-cols="1"] .grid{grid-template-columns:1fr}
+  body[data-cols="2"] .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  body[data-cols="3"] .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  body[data-cols="4"] .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  body[data-cols="5"] .grid{grid-template-columns:repeat(5,minmax(0,1fr))}
   .grid-empty{max-width:1400px;margin:1.5rem auto;padding:2rem 1rem;text-align:center;font-family:var(--font-head);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--border);border-radius:9px;line-height:1.8;}
   .grid-empty code{font-family:ui-monospace,monospace;background:rgba(255,255,255,.04);padding:.15rem .4rem;border-radius:4px;color:#cbd5e1;font-size:.85em;letter-spacing:0;text-transform:none;}
   .card{display:flex;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
   .card:hover{border-color:var(--accent-line)}
+  .card.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
+  .card.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.22)}
   .shot{width:70%;aspect-ratio:16 / 9;background:#000;flex-shrink:0;position:relative;display:grid;place-items:center;overflow:hidden;}
   .shot img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0;}
   .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
@@ -163,6 +190,8 @@
   .row-wrap:hover .rank{color:var(--accent);text-shadow:0 0 12px var(--accent-soft);}
   .rowD{display:grid;grid-template-columns:1fr 1fr;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
   .rowD:hover{border-color:var(--accent-line)}
+  .rowD.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
+  .rowD.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.22)}
   .shot-cell{aspect-ratio:16/9;align-self:center;background:linear-gradient(135deg,#1a2230 0%,#0f1620 100%);display:grid;place-items:center;color:#3a4356;font-family:var(--font-head);font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;text-align:center;line-height:1.5;position:relative;overflow:hidden;}
   .shot-cell img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0}
   .shot-cell small{display:block;font-size:.5rem;color:#2b3243;letter-spacing:.1em}
@@ -211,8 +240,8 @@
   .modal::-webkit-scrollbar{width:8px}
   .modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;border:2px solid transparent;background-clip:padding-box;}
   .modal::-webkit-scrollbar-thumb:hover{background:var(--accent);background-clip:padding-box}
-  .modal-hero{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-bottom:1px solid var(--border);display:grid;place-items:center;overflow:hidden;}
-  .modal-hero > img.modal-shot-img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;z-index:0;}
+  .modal-hero{position:relative;width:100%;min-height:200px;background:#000;border-bottom:1px solid var(--border);display:grid;place-items:center;overflow:hidden;}
+  .modal-hero > img.modal-shot-img{width:100%;height:auto;display:block;max-height:70vh;object-fit:contain;background:#000;}
   .modal-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
   .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
   .modal-logo img{max-width:100%;max-height:100%;object-fit:contain}
@@ -245,6 +274,30 @@
   .link-btn .icon{width:1em;height:1em}
   .link-btn .link-icon-img{width:14px;height:14px;object-fit:contain;display:block;}
   .link-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
+  /* modal nav arrows */
+  .modal-wrap{position:relative;width:100%;max-width:760px;display:flex;align-items:center;gap:1rem}
+  .modal-nav{
+    flex-shrink:0;width:48px;height:48px;border-radius:50%;
+    border:1px solid var(--border);background:rgba(16,22,36,.85);
+    color:var(--muted);cursor:pointer;display:grid;place-items:center;
+    backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+    transition:all .22s cubic-bezier(.3,.7,.3,1);position:relative;
+  }
+  .modal-nav svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;transition:transform .22s cubic-bezier(.3,.7,.3,1)}
+  .modal-nav:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);transform:scale(1.08)}
+  .modal-nav:active{transform:scale(.96)}
+  .modal-nav.prev:hover svg{transform:translateX(-2px)}
+  .modal-nav.next:hover svg{transform:translateX(2px)}
+  .modal-counter{position:absolute;bottom:.6rem;right:2.9rem;z-index:3;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.1em;color:#cbd5e1;background:rgba(0,0,0,.62);padding:.2rem .5rem;border-radius:5px;border:1px solid rgba(255,255,255,.08);font-variant-numeric:tabular-nums}
+  @media (max-width:820px){
+    .modal-wrap{gap:.5rem}
+    .modal-nav{width:40px;height:40px}
+  }
+  @media (max-width:640px){
+    .modal-wrap{flex-direction:column-reverse;gap:.6rem}
+    .modal-wrap .modal-nav:first-child{order:2}
+    .modal-wrap .modal-nav:last-child{order:1}
+  }
   .token-modal,.picker-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:520px;padding:1.6rem;position:relative;}
   .token-modal{border-color:rgba(239,68,68,.35);max-width:480px;}
   .picker-modal h2,.token-modal h2{font-family:var(--font-head);font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:.6rem;display:flex;align-items:center;gap:.55rem;}
@@ -382,6 +435,20 @@
   .logo-picker-tile:hover{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .logo-picker-tile img{width:100%;height:90px;object-fit:contain;background:#000;border-radius:4px;display:block;}
   .logo-picker-tile .lpt-meta{font-family:var(--font-head);font-size:.55rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  /* move picker */
+  .move-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:520px;padding:1.5rem;position:relative;}
+  .move-modal h2{font-family:var(--font-head);font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:.4rem;display:flex;align-items:center;gap:.55rem;}
+  .move-modal p.sub{font-size:.85rem;color:var(--muted);margin-bottom:1rem;line-height:1.5}
+  .move-groups{display:flex;flex-direction:column;gap:1rem;margin-bottom:1.2rem;max-height:50vh;overflow-y:auto;}
+  .move-group .mg-title{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem;padding-bottom:.3rem;border-bottom:1px solid var(--border);}
+  .move-check{display:flex;align-items:center;gap:.55rem;padding:.5rem .7rem;border-radius:6px;cursor:pointer;font-family:var(--font-body);font-size:.88rem;color:#cbd5e1;transition:background .12s ease;user-select:none;}
+  .move-check:hover{background:rgba(255,255,255,.03);}
+  .move-check input{display:none;}
+  .move-check .box{width:16px;height:16px;border-radius:4px;border:1px solid var(--border);background:transparent;display:grid;place-items:center;flex-shrink:0;transition:all .15s}
+  .move-check input:checked ~ .box{background:var(--accent);border-color:var(--accent);}
+  .move-check input:checked ~ .box::after{content:"✓";font-size:.7rem;color:#0a0d14;font-weight:700;line-height:1;}
+  .move-check input:checked ~ .label{color:#fff;font-weight:500;}
+  .move-check.loading{color:var(--muted);cursor:wait;}
   .confirm{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:420px;padding:1.5rem;position:relative;border-color:rgba(239,68,68,.4);}
   .confirm h3{font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.02em;color:var(--red);display:flex;align-items:center;gap:.55rem;margin-bottom:.7rem;}
   .confirm p{font-size:.92rem;line-height:1.55;color:#cbd5e1;margin-bottom:.4rem}
@@ -439,7 +506,7 @@
   }
 </style>
 </head>
-<body data-group="coop">
+<body data-group="coop" data-cols="auto">
 
 <header>
   <button class="lbdb-btn" id="lbdbBtn" type="button">
@@ -458,6 +525,7 @@
 </header>
 
 <nav class="tabbar" id="tabbar"></nav>
+<div class="pending-strip" id="pendingStrip"></div>
 <div class="toolbar" id="toolbar"></div>
 <main id="content"></main>
 
@@ -465,6 +533,7 @@
 <div class="backdrop" id="token-backdrop" style="z-index:300"><div id="token-slot"></div></div>
 <div class="backdrop" id="picker-backdrop" style="z-index:320"><div id="picker-slot"></div></div>
 <div class="backdrop" id="logopicker-backdrop" style="z-index:330"><div id="logopicker-slot"></div></div>
+<div class="backdrop" id="move-backdrop" style="z-index:340"><div id="move-slot"></div></div>
 
 <div class="toast" id="toast"></div>
 
@@ -500,6 +569,9 @@ const TABS = {
   ]
 };
 const ALL_TABS = [...TABS.coop, ...TABS.single];
+const TAB_GROUP = {};
+TABS.coop.forEach(t => TAB_GROUP[t.id] = 'coop');
+TABS.single.forEach(t => TAB_GROUP[t.id] = 'single');
 const BEATEN_TABS   = new Set(['coop-beaten','beaten']);
 const NO_CHIPS_TABS = new Set(['early-access','unreleased']);
 const NO_SIZE_TABS  = new Set(['early-access']);
@@ -760,6 +832,16 @@ let tab = 'released';
 let adminMode = false;
 let adminBusy = false;
 
+/* pending changes — keyed by `${tabId}:${id}` */
+const pendingOps = new Map(); // value: { tabId, id, action:'upsert'|'delete', game? }
+/* view settings */
+let viewCols = localStorage.getItem('view_cols') || 'auto';
+let viewZoom = parseInt(localStorage.getItem('view_zoom') || '100', 10);
+/* modal navigation */
+let modalNavList = [];
+let modalNavIdx  = -1;
+let currentRankMap = null;
+
 const bodyEl   = document.body;
 const contentEl= document.getElementById('content');
 const tabbarEl = document.getElementById('tabbar');
@@ -774,10 +856,13 @@ const pickerBackdrop = document.getElementById('picker-backdrop');
 const pickerSlot = document.getElementById('picker-slot');
 const logopickerBackdrop = document.getElementById('logopicker-backdrop');
 const logopickerSlot = document.getElementById('logopicker-slot');
+const moveBackdrop = document.getElementById('move-backdrop');
+const moveSlot = document.getElementById('move-slot');
 const adminToggleBtn = document.getElementById('adminToggle');
 const adminToggleLabel = document.getElementById('adminToggleLabel');
 const lbdbBtn = document.getElementById('lbdbBtn');
 const lbdbBtnLabel = document.getElementById('lbdbBtnLabel');
+const pendingStrip = document.getElementById('pendingStrip');
 
 const seriesGameIndex = new Map();
 
@@ -826,6 +911,26 @@ function logoSrc(url){
 }
 
 /* ============================================================
+   VIEW — columns + zoom
+   ============================================================ */
+function applyView(){
+  document.body.dataset.cols = viewCols;
+  document.documentElement.style.fontSize = (viewZoom / 100 * 16) + 'px';
+}
+function setViewCols(v){
+  viewCols = v;
+  localStorage.setItem('view_cols', v);
+  applyView();
+  renderToolbar();
+}
+function setViewZoom(v){
+  viewZoom = v;
+  localStorage.setItem('view_zoom', String(v));
+  applyView();
+  renderToolbar();
+}
+
+/* ============================================================
    DATA LOADER
    ============================================================ */
 function normaliseFileData(tabId, raw){
@@ -867,6 +972,14 @@ function refreshCurrentTab(){
   LOAD_STATE[group][tab] = 'idle';
   DATA[group][tab] = null;
   renderContent();
+}
+async function forceLoadAll(){
+  const tasks = [];
+  for(const t of ALL_TABS){
+    const g = TAB_GROUP[t.id];
+    tasks.push(loadTabData(g, t.id));
+  }
+  await Promise.all(tasks);
 }
 
 /* ============================================================
@@ -1028,7 +1141,7 @@ async function checkLbdbStatus(){
 lbdbBtn.addEventListener('click', () => { if(lbdbPollTimer) return; triggerLbdbUpdate(); });
 
 /* ============================================================
-   GITHUB FILE WRITE
+   GITHUB FILE READ (for staging)
    ============================================================ */
 async function getFileContent(path){
   const token = getToken();
@@ -1047,32 +1160,57 @@ async function getFileContent(path){
   const text = new TextDecoder('utf-8').decode(bytes);
   return { sha: data.sha, json: JSON.parse(text) };
 }
-async function putFileContent(path, json, sha, message){
-  const token = getToken();
-  if(!token) throw new Error('Not signed in');
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
-  const content = JSON.stringify(json, null, 2) + '\n';
-  const bytes = new TextEncoder().encode(content);
-  let bin = '';
-  bytes.forEach(b => bin += String.fromCharCode(b));
-  const b64 = btoa(bin);
-  const body = { message, content: b64, branch: 'main' };
-  if(sha) body.sha = sha;
-  const res = await fetch(url, {
-    method: 'PUT',
-    headers: {
-      'Authorization': 'Bearer ' + token,
-      'Accept': 'application/vnd.github+json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(body)
-  });
-  if(!res.ok){
-    const txt = await res.text();
-    throw new Error('putFile HTTP ' + res.status + ': ' + txt.slice(0, 200));
-  }
-  return await res.json();
+
+/* ============================================================
+   ATOMIC COMMIT (Git Data API)
+   ============================================================ */
+async function ghGetHeadSha(){
+  const r = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/ref/heads/main`);
+  if(!r.ok) throw new Error('ref HTTP ' + r.status);
+  const d = await r.json();
+  return d.object.sha;
 }
+async function ghGetCommitTree(sha){
+  const r = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/commits/${sha}`);
+  if(!r.ok) throw new Error('commit HTTP ' + r.status);
+  const d = await r.json();
+  return d.tree.sha;
+}
+async function ghCreateBlob(content){
+  const r = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/blobs`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content, encoding: 'utf-8' })
+  });
+  if(!r.ok) throw new Error('blob HTTP ' + r.status);
+  const d = await r.json();
+  return d.sha;
+}
+async function ghCreateTree(baseTree, tree){
+  const r = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/trees`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ base_tree: baseTree, tree })
+  });
+  if(!r.ok) throw new Error('tree HTTP ' + r.status);
+  const d = await r.json();
+  return d.sha;
+}
+async function ghCreateCommit(message, treeSha, parentSha){
+  const r = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/commits`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message, tree: treeSha, parents: [parentSha] })
+  });
+  if(!r.ok) throw new Error('commit-create HTTP ' + r.status);
+  const d = await r.json();
+  return d.sha;
+}
+async function ghUpdateRef(sha){
+  const r = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/refs/heads/main`, {
+    method: 'PATCH', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ sha, force: false })
+  });
+  if(!r.ok) throw new Error('ref-update HTTP ' + r.status);
+}
+
 function emptyShapeFor(tabId){
   if(tabId === 'backlog') return { mirror: [], seriesLeftovers: [] };
   if(tabId === 'backlog-series') return { series: [] };
@@ -1089,7 +1227,7 @@ function upsertGameInFile(json, tabId, game){
     json.mirror.push(game);
     return;
   }
-  if(tabId === 'backlog-series') throw new Error('Series entries cannot be edited from this form');
+  if(tabId === 'backlog-series') throw new Error('Series entries cannot be edited');
   if(!Array.isArray(json.games)) json.games = [];
   const idx = json.games.findIndex(x => x.id === game.id);
   if(idx >= 0) json.games[idx] = game;
@@ -1104,53 +1242,108 @@ function removeGameFromFile(json, tabId, gameId){
   if(tabId === 'backlog-series') return;
   if(Array.isArray(json.games)) json.games = json.games.filter(x => x.id !== gameId);
 }
-async function saveGame(game, original){
-  const newTab = game.tab;
-  const oldTab = original?._tab || null;
-  const isNew = !original;
-
-  if(isNew){
-    const path = TAB_FILES[newTab];
-    const { sha, json } = await getFileContent(path);
-    const fileJson = json || emptyShapeFor(newTab);
-    upsertGameInFile(fileJson, newTab, game);
-    await putFileContent(path, fileJson, sha, `Add game: ${game.name}`);
-    return { added: true };
-  }
-
-  const tabChanged = oldTab && oldTab !== newTab;
-
-  if(!tabChanged){
-    const path = TAB_FILES[newTab];
-    const { sha, json } = await getFileContent(path);
-    const fileJson = json || emptyShapeFor(newTab);
-    upsertGameInFile(fileJson, newTab, game);
-    await putFileContent(path, fileJson, sha, `Update game: ${game.name}`);
-    return { updated: true };
-  }
-
-  const oldPath = TAB_FILES[oldTab];
-  const newPath = TAB_FILES[newTab];
-  const oldFile = await getFileContent(oldPath);
-  if(oldFile.json){
-    removeGameFromFile(oldFile.json, oldTab, game.id);
-    await putFileContent(oldPath, oldFile.json, oldFile.sha, `Move game out: ${game.name}`);
-  }
-  const newFile = await getFileContent(newPath);
-  const newJson = newFile.json || emptyShapeFor(newTab);
-  upsertGameInFile(newJson, newTab, game);
-  await putFileContent(newPath, newJson, newFile.sha, `Move game in: ${game.name}`);
-  return { moved: true };
+function stripInternal(game){
+  const out = { ...game };
+  delete out._group; delete out._tab; delete out.group; delete out.tab; delete out.source; delete out.series;
+  return out;
 }
-async function deleteGame(game){
-  const gameTab = game._tab;
-  if(!gameTab) throw new Error('Missing tab reference');
-  if(gameTab === 'backlog-series') throw new Error('Series entries cannot be deleted from this form');
-  const path = TAB_FILES[gameTab];
-  const { sha, json } = await getFileContent(path);
-  if(!json) throw new Error('File not found');
-  removeGameFromFile(json, gameTab, game.id);
-  await putFileContent(path, json, sha, `Delete game: ${game.name}`);
+async function commitPending(){
+  if(pendingOps.size === 0){ toast('Nothing to commit', 'bad'); return; }
+  if(!getToken()){ showTokenPrompt(); return; }
+
+  const strip = pendingStrip.querySelector('.commit');
+  const disc = pendingStrip.querySelector('.discard');
+  if(strip){ strip.disabled = true; strip.textContent = '…Committing'; }
+  if(disc) disc.disabled = true;
+
+  try{
+    // group ops by tabId
+    const byTab = new Map();
+    for(const op of pendingOps.values()){
+      if(!byTab.has(op.tabId)) byTab.set(op.tabId, []);
+      byTab.get(op.tabId).push(op);
+    }
+
+    // read each affected file, apply ops, capture content
+    const writes = [];
+    for(const [tabId, ops] of byTab){
+      const path = TAB_FILES[tabId];
+      const { json } = await getFileContent(path);
+      const fileJson = json || emptyShapeFor(tabId);
+      for(const op of ops){
+        if(op.action === 'upsert' && op.game) upsertGameInFile(fileJson, tabId, stripInternal(op.game));
+        else if(op.action === 'delete') removeGameFromFile(fileJson, tabId, op.id);
+      }
+      writes.push({ path, content: JSON.stringify(fileJson, null, 2) + '\n' });
+    }
+
+    // build tree
+    const headSha = await ghGetHeadSha();
+    const baseTree = await ghGetCommitTree(headSha);
+    const tree = [];
+    for(const w of writes){
+      const blobSha = await ghCreateBlob(w.content);
+      tree.push({ path: w.path, mode: '100644', type: 'blob', sha: blobSha });
+    }
+    const newTree = await ghCreateTree(baseTree, tree);
+
+    // commit
+    let adds = 0, edits = 0, dels = 0;
+    for(const op of pendingOps.values()){
+      if(op.action === 'delete') dels++;
+      else if(op.original) edits++;
+      else adds++;
+    }
+    const parts = [];
+    if(adds) parts.push(`${adds} added`);
+    if(edits) parts.push(`${edits} edited`);
+    if(dels) parts.push(`${dels} deleted`);
+    const msg = 'Batch: ' + (parts.join(', ') || 'update');
+
+    const newCommit = await ghCreateCommit(msg, newTree, headSha);
+    await ghUpdateRef(newCommit);
+
+    pendingOps.clear();
+    updatePendingStrip();
+    refreshCurrentTab();
+    toast('Committed');
+  }catch(e){
+    console.error('commit failed', e);
+    toast('Commit failed: ' + e.message, 'bad');
+    updatePendingStrip();
+  }
+}
+
+/* ============================================================
+   PENDING UI
+   ============================================================ */
+function updatePendingStrip(){
+  const n = pendingOps.size;
+  if(n === 0 || !adminMode){
+    pendingStrip.classList.remove('on');
+    pendingStrip.innerHTML = '';
+    return;
+  }
+  pendingStrip.classList.add('on');
+  pendingStrip.innerHTML = `
+    <span class="count"><span class="dot"></span>${n} unsaved change${n === 1 ? '' : 's'}</span>
+    <div class="btns">
+      <button type="button" class="discard">Discard all</button>
+      <button type="button" class="commit">Commit</button>
+    </div>`;
+  pendingStrip.querySelector('.commit').onclick = commitPending;
+  pendingStrip.querySelector('.discard').onclick = () => {
+    if(!confirm('Discard all unsaved changes?')) return;
+    pendingOps.clear();
+    updatePendingStrip();
+    refreshCurrentTab();
+    toast('Discarded');
+  };
+}
+function hasPending(tabId, id){ return pendingOps.has(`${tabId}:${id}`); }
+function pendingAction(tabId, id){
+  const op = pendingOps.get(`${tabId}:${id}`);
+  return op ? op.action : null;
 }
 
 /* ============================================================
@@ -1198,7 +1391,6 @@ function igdbReleaseYear(hit){
   if(!hit.first_release_date) return '';
   return String(new Date(hit.first_release_date * 1000).getFullYear());
 }
-
 async function steamSearch(name){
   const url = PROXY_URL + '?action=steam&q=' + encodeURIComponent(name);
   const res = await fetch(url);
@@ -1227,7 +1419,6 @@ function steamMapToFields(data){
   if(data.size)             out.size = data.size;
   return out;
 }
-
 async function hltbSearch(name){
   const url = PROXY_URL + '?action=hltb&q=' + encodeURIComponent(name);
   const res = await fetch(url);
@@ -1247,7 +1438,6 @@ function hltbMapToFields(d){
   else if(comp) hltb = `Main: ${comp}`;
   return hltb ? { hltb } : {};
 }
-
 async function sgdbSearch(name){
   const url = PROXY_URL + '?action=sgdb&q=' + encodeURIComponent(name);
   const res = await fetch(url);
@@ -1256,7 +1446,6 @@ async function sgdbSearch(name){
   if(data && data.error) throw new Error(data.error);
   return data;
 }
-
 async function pcgwSearch(name){
   const target = 'https://www.pcgamingwiki.com/w/api.php'
     + '?action=query&list=search'
@@ -1596,6 +1785,8 @@ function filterLabels(){
 function renderToolbar(){
   const fl = filterLabels();
   toolbarEl.classList.remove('empty');
+  const colOpts = ['auto','1','2','3','4','5'];
+  const zoomOpts = [80, 90, 100, 110, 125, 150];
   toolbarEl.innerHTML = `
     <div class="tb-left">
       <div class="dd" data-dd="filter">
@@ -1615,6 +1806,19 @@ function renderToolbar(){
             const arw = dir === 'asc' ? '↑' : '↓';
             return `<button class="dd-item ${active?'active':''}" data-sort="${k}">${SORT_LABELS[k]}<span class="dir">${arw}</span><span class="dd-tick">✓</span></button>`;
           }).join('')}
+        </div>
+      </div>
+      <div class="dd" data-dd="view">
+        <button class="dd-btn" type="button"><span class="icon icon-cols" style="width:1em;height:1em"></span>View</button>
+        <div class="dd-menu" style="min-width:230px">
+          <div style="padding:.55rem .7rem .3rem;font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)">Columns</div>
+          <div style="display:flex;gap:.3rem;flex-wrap:wrap;padding:.25rem .7rem .7rem">
+            ${colOpts.map(c => `<button type="button" class="dd-item ${viewCols===c?'active':''}" data-cols="${c}" style="padding:.35rem .6rem;width:auto;border-radius:5px;background:${viewCols===c?'var(--accent-soft)':'rgba(255,255,255,.02)'};border:1px solid ${viewCols===c?'var(--accent-line)':'var(--border)'};color:${viewCols===c?'var(--accent)':'#cbd5e1'};font-size:.75rem;font-family:var(--font-head);font-weight:600;letter-spacing:.08em;cursor:pointer">${c === 'auto' ? 'Auto' : c}</button>`).join('')}
+          </div>
+          <div style="padding:.55rem .7rem .3rem;font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border)">Zoom</div>
+          <div style="display:flex;gap:.3rem;flex-wrap:wrap;padding:.25rem .7rem .7rem">
+            ${zoomOpts.map(z => `<button type="button" class="dd-item ${viewZoom===z?'active':''}" data-zoom="${z}" style="padding:.35rem .6rem;width:auto;border-radius:5px;background:${viewZoom===z?'var(--accent-soft)':'rgba(255,255,255,.02)'};border:1px solid ${viewZoom===z?'var(--accent-line)':'var(--border)'};color:${viewZoom===z?'var(--accent)':'#cbd5e1'};font-size:.75rem;font-family:var(--font-head);font-weight:600;letter-spacing:.08em;cursor:pointer">${z}%</button>`).join('')}
+          </div>
         </div>
       </div>
       <button type="button" class="btn-add" id="addGameBtn"><span class="icon icon-plus"></span>Add Game</button>
@@ -1658,6 +1862,12 @@ function adminControlsHTML(id){
     <button class="del"  data-act="del"  data-id="${id}" title="Delete"><span class="icon icon-trash"></span></button>
   </div>`;
 }
+function pendingClass(id){
+  const act = pendingAction(tab, id);
+  if(act === 'upsert') return ' pending';
+  if(act === 'delete') return ' pending-del';
+  return '';
+}
 function shotImgHTML(g){
   if(g.screenshot) return `<img src="${screenshotSrc(g.screenshot)}" alt="">`;
   return `<div class="ph">1280 × 720<small>screenshot</small></div>`;
@@ -1676,8 +1886,9 @@ function cardHTML(g){
     </div>`;
   const tl = statusTagsHTML(g);
   const tr = ownedBadgesHTML(g);
+  const pcls = pendingClass(g.id);
   return `
-    <article class="card" data-id="${g.id}">
+    <article class="card${pcls}" data-id="${g.id}">
       ${adminControlsHTML(g.id)}
       <div class="shot">
         ${shotImgHTML(g)}
@@ -1691,10 +1902,11 @@ function cardHTML(g){
     </article>`;
 }
 function beatenRowHTML(g, rank){
+  const pcls = pendingClass(g.id);
   return `
     <div class="row-wrap">
       <div class="rank">${rank}</div>
-      <div class="rowD" data-id="${g.id}">
+      <div class="rowD${pcls}" data-id="${g.id}">
         ${adminControlsHTML(g.id)}
         <div class="shot-cell">${g.screenshot ? `<img src="${screenshotSrc(g.screenshot)}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}</div>
         <div class="info-cell">
@@ -1757,14 +1969,23 @@ function seriesBlockHTML(series){
       </div>
     </div>`;
 }
-
 function emptyHTML(file){
   return `<div class="grid-empty">No data yet.<br>Add <code>${file}</code> to the repo and refresh.</div>`;
 }
 function loadingHTML(){ return `<div class="loader">Loading</div>`; }
 
+/* Build rank map from raw array (sheet order = newest first).
+   Rank = intrinsic "nth game beaten". Oldest in sheet = rank 1. */
+function buildRankMap(arr){
+  const map = new Map();
+  const n = arr.length;
+  arr.forEach((g, i) => map.set(g.id, n - i));
+  return map;
+}
+
 function renderContent(){
   seriesGameIndex.clear();
+  currentRankMap = null;
   const state = LOAD_STATE[group][tab];
   const file = TAB_FILES[tab];
 
@@ -1808,10 +2029,9 @@ function renderContent(){
   if(!arr.length){ contentEl.innerHTML = emptyHTML(file); return; }
 
   if(BEATEN_TABS.has(tab)){
-    const rankMap = new Map();
-    filtered.forEach((g, i) => rankMap.set(g.id, i + 1));
+    currentRankMap = buildRankMap(arr);
     contentEl.innerHTML = filtered.length
-      ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, rankMap.get(g.id))).join('')}</div>`
+      ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, currentRankMap.get(g.id))).join('')}</div>`
       : `<div class="grid-empty">No games match</div>`;
     applyTooltips();
     return;
@@ -1826,11 +2046,10 @@ function refreshGrid(){
   const list = currentTabData();
   if(!Array.isArray(list)){ renderContent(); return; }
   if(BEATEN_TABS.has(tab)){
+    currentRankMap = buildRankMap(list);
     const filtered = applySort(list.filter(passesAll));
-    const rankMap = new Map();
-    filtered.forEach((g, i) => rankMap.set(g.id, i + 1));
     contentEl.innerHTML = filtered.length
-      ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, rankMap.get(g.id))).join('')}</div>`
+      ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g, currentRankMap.get(g.id))).join('')}</div>`
       : `<div class="grid-empty">No games match</div>`;
     applyTooltips();
     return;
@@ -1877,6 +2096,7 @@ function modalInfoRows(g){
   return rows.join('');
 }
 function openSeriesModal(sg){
+  modalNavList = []; modalNavIdx = -1;
   const chips = [];
   chips.push(renderTags(sg));
   if(sg.seriesName) chips.push(`<span class="chip">${sg.seriesName}</span>`);
@@ -1908,16 +2128,23 @@ function openSeriesModal(sg){
     </div>`;
   backdrop.classList.add('open');
 }
-function openModal(g, rank){
+
+function modalHTML(g, rank){
   const linksHTML = renderLinks(g.links);
   const rankBadge = rank ? `<span class="modal-rank-badge">#${rank}</span>` : '';
-  modalSlot.innerHTML = `
+  const counter = modalNavList.length > 1 ? `<div class="modal-counter">${modalNavIdx + 1} / ${modalNavList.length}</div>` : '';
+  const canNav = modalNavList.length > 1;
+  const prevBtn = canNav ? `<button class="modal-nav prev" id="modal-prev" title="Previous (←)"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg></button>` : '';
+  const nextBtn = canNav ? `<button class="modal-nav next" id="modal-next" title="Next (→)"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></button>` : '';
+  const titleAttr = String(g.name||'').replace(/"/g,'&quot;');
+  const modalBlock = `
     <div class="modal">
       <button class="modal-close" aria-label="Close" data-close>✕</button>
       <div class="modal-hero">
         ${g.screenshot ? `<img class="modal-shot-img" src="${screenshotSrc(g.screenshot)}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}
         ${rankBadge}
-        <div class="modal-logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="" title="${String(g.name||'').replace(/"/g,'&quot;')}">` : `<div class="ph">504 × 562<small>logo</small></div>`}</div>
+        ${counter}
+        <div class="modal-logo">${g.logo ? `<img src="${logoSrc(g.logo)}" alt="" title="${titleAttr}">` : `<div class="ph">504 × 562<small>logo</small></div>`}</div>
       </div>
       <div class="modal-body">
         <h2 class="modal-title">${g.name}</h2>
@@ -1927,9 +2154,51 @@ function openModal(g, rank){
         ${linksHTML ? `<div class="modal-links">${linksHTML}</div>` : ''}
       </div>
     </div>`;
+  return `<div class="modal-wrap">${prevBtn}${modalBlock}${nextBtn}</div>`;
+}
+
+function renderModal(g){
+  const rank = currentRankMap ? currentRankMap.get(g.id) : null;
+  modalSlot.innerHTML = modalHTML(g, rank);
+  const p = modalSlot.querySelector('#modal-prev');
+  const n = modalSlot.querySelector('#modal-next');
+  if(p) p.onclick = (e) => { e.stopPropagation(); navigateModal(-1); };
+  if(n) n.onclick = (e) => { e.stopPropagation(); navigateModal(+1); };
+}
+
+function getCurrentDisplayList(){
+  const list = currentTabData();
+  if(Array.isArray(list)){
+    return applySort(list.filter(passesAll));
+  }
+  if(list && list.mirror){
+    const data = list;
+    const mirror = applySort((data.mirror||[]).filter(passesAll));
+    const series = filterKey === 'all' ? (data.seriesLeftovers||[]) : [];
+    return [...mirror, ...series];
+  }
+  return [];
+}
+function openModal(g){
+  const list = getCurrentDisplayList();
+  modalNavList = list.length ? list : [g];
+  modalNavIdx = modalNavList.findIndex(x => x.id === g.id);
+  if(modalNavIdx < 0){ modalNavList = [g]; modalNavIdx = 0; }
+  renderModal(modalNavList[modalNavIdx]);
   backdrop.classList.add('open');
 }
-function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = ''; }
+function navigateModal(delta){
+  if(modalNavList.length < 2) return;
+  modalNavIdx = (modalNavIdx + delta + modalNavList.length) % modalNavList.length;
+  renderModal(modalNavList[modalNavIdx]);
+  const m = modalSlot.querySelector('.modal');
+  if(m) m.scrollTop = 0;
+}
+function closeModal(){
+  backdrop.classList.remove('open');
+  modalSlot.innerHTML = '';
+  modalNavList = []; modalNavIdx = -1;
+}
 
 backdrop.addEventListener('click', e => { if(e.target === backdrop) closeModal(); });
 document.addEventListener('keydown', e => {
@@ -1937,6 +2206,11 @@ document.addEventListener('keydown', e => {
     closeModal(); closeAllDropdowns(); closeTokenPrompt();
     pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
     logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
+    moveBackdrop.classList.remove('open'); moveSlot.innerHTML = '';
+  }
+  if(backdrop.classList.contains('open')){
+    if(e.key === 'ArrowRight'){ e.preventDefault(); navigateModal(+1); }
+    if(e.key === 'ArrowLeft'){  e.preventDefault(); navigateModal(-1); }
   }
 });
 
@@ -1945,8 +2219,7 @@ switchEl.addEventListener('click', () => {
   switchEl.dataset.active = group;
   bodyEl.dataset.group = group;
   tab = TABS[group][0].id;
-  filterKey = 'all'; sortKey = 'natural';
-  sortDir = BEATEN_TABS.has(tab) ? 'desc' : 'asc';
+  filterKey = 'all'; sortKey = 'natural'; sortDir = 'asc';
   searchTerm = '';
   renderTabs(); renderContent();
 });
@@ -1956,7 +2229,7 @@ tabbarEl.addEventListener('click', e => {
   tab = btn.dataset.tab;
   filterKey = 'all';
   sortKey = 'natural';
-  sortDir = BEATEN_TABS.has(tab) ? 'desc' : 'asc';
+  sortDir = 'asc';
   renderTabs(); renderContent();
 });
 toolbarEl.addEventListener('click', e => {
@@ -1971,6 +2244,10 @@ toolbarEl.addEventListener('click', e => {
     return;
   }
   if(e.target.closest('#addGameBtn')){ openEditor(null); return; }
+  const colBtn = e.target.closest('[data-cols]');
+  if(colBtn){ setViewCols(colBtn.dataset.cols); return; }
+  const zoomBtn = e.target.closest('[data-zoom]');
+  if(zoomBtn){ setViewZoom(parseInt(zoomBtn.dataset.zoom, 10)); return; }
   const db = e.target.closest('.dd-btn');
   if(db){
     const dd = db.closest('.dd');
@@ -2064,29 +2341,19 @@ function setSrcDot(btn, state){
 
 function renderVariantPills(results){
   modalSlot._parseResults = results;
-
   const fieldMap = {
-    name:       '#f-name',
-    release:    '#f-release',
-    platform:   '#f-platform',
-    size:       '#f-size',
-    dev:        '#f-dev',
-    pub:        '#f-pub',
-    screenshot: '#f-screenshot',
-    logo:       '#f-logo',
+    name:'#f-name', release:'#f-release', platform:'#f-platform', size:'#f-size',
+    dev:'#f-dev', pub:'#f-pub', screenshot:'#f-screenshot', logo:'#f-logo',
   };
-
   for(const [field, sel] of Object.entries(fieldMap)){
     const input = modalSlot.querySelector(sel);
     if(!input) continue;
     const pillsHost = modalSlot.querySelector(`.pills[data-field="${field}"]`);
     if(!pillsHost) continue;
     const pills = [];
-
     for(const src of PARSE_SOURCES){
       const r = results[src];
       if(!r || !r.fields) continue;
-
       if(field === 'logo'){
         if(src === 'sgdb' && r.logos && r.logos.length){
           pills.push(`<button type="button" class="pill src-sgdb picker" data-field="logo" data-picker="sgdb"><span class="p-src">sgdb</span>${r.logos.length} logos</button>`);
@@ -2100,7 +2367,6 @@ function renderVariantPills(results){
           }
         }
       }
-
       if(r.fields[field] === undefined) continue;
       const val = r.fields[field];
       if(val === null || val === undefined || val === '') continue;
@@ -2109,7 +2375,6 @@ function renderVariantPills(results){
     }
     pillsHost.innerHTML = pills.join('');
   }
-
   const hltbHost = modalSlot.querySelector('.pills[data-field="hltb"]');
   if(hltbHost){
     const pills = [];
@@ -2123,7 +2388,6 @@ function renderVariantPills(results){
     hltbHost.innerHTML = pills.join('');
   }
 }
-
 function autoAddKeyLinks(results){
   const list = modalSlot.querySelector('#links-list');
   if(!list) return;
@@ -2146,17 +2410,14 @@ function autoAddKeyLinks(results){
     addRow('PCGW', 'https://www.pcgamingwiki.com/wiki/' + encodeURIComponent(results.pcgw.page.replace(/ /g, '_')));
   }
 }
-
 function attachPillHandlers(){
   if(modalSlot._pillsBound) return;
   modalSlot._pillsBound = true;
-
   modalSlot.addEventListener('click', e => {
     const pill = e.target.closest('.pill');
     if(!pill || !pill.dataset.field) return;
     const field = pill.dataset.field;
     const srcLabel = pill.querySelector('.p-src')?.textContent || '?';
-
     if(pill.dataset.picker){
       const kind = pill.dataset.picker;
       const results = modalSlot._parseResults || {};
@@ -2164,8 +2425,7 @@ function attachPillHandlers(){
       let title = '';
       if(kind === 'sgdb' && results.sgdb && results.sgdb.logos){
         items = results.sgdb.logos.map(l => ({
-          url: l.url,
-          thumb: l.thumb || l.url,
+          url: l.url, thumb: l.thumb || l.url,
           label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height
         }));
         title = 'SGDB — ' + (results.sgdb.gameName || '');
@@ -2187,9 +2447,7 @@ function attachPillHandlers(){
       });
       return;
     }
-
     const value = pill.dataset.value || '';
-
     if(field === 'hltb'){
       const parts = hltbToParts(value);
       const numericRadio = modalSlot.querySelector('#f-hltb-type input[value="numeric"]');
@@ -2204,7 +2462,6 @@ function attachPillHandlers(){
       toast('HLTB filled from ' + srcLabel);
       return;
     }
-
     const map = {
       name:'#f-name', release:'#f-release', platform:'#f-platform', size:'#f-size',
       dev:'#f-dev', pub:'#f-pub', screenshot:'#f-screenshot', logo:'#f-logo'
@@ -2216,15 +2473,12 @@ function attachPillHandlers(){
     toast('Filled from ' + srcLabel);
   });
 }
-
 async function runParse(){
   const nameInput = modalSlot.querySelector('#f-name');
   const name = (nameInput?.value || '').trim();
   if(!name){ toast('Enter a name first', 'bad'); return; }
-
   const formPlatform = (modalSlot.querySelector('#f-platform')?.value || '').trim();
   const formRelease = (modalSlot.querySelector('#f-release')?.value || '').trim();
-
   const goBtn = modalSlot.querySelector('#parse-go');
   const dots = {
     igdb:  modalSlot.querySelector('[data-src-dot="igdb"]'),
@@ -2236,14 +2490,11 @@ async function runParse(){
   };
   const locked = modalSlot._lockedSources || new Set();
   const prevResults = modalSlot._parseResults || {};
-
   PARSE_SOURCES.forEach(s => { if(!locked.has(s)) setSrcDot(dots[s], 'loading'); });
   goBtn.disabled = true; goBtn.classList.add('loading');
   goBtn.textContent = 'Working';
-
   const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null, sgdb:null };
   locked.forEach(s => { results[s] = prevResults[s] || { fields:{} }; });
-
   const igdbTask = (async () => {
     if(locked.has('igdb')) return;
     try{
@@ -2271,7 +2522,6 @@ async function runParse(){
       setSrcDot(dots.igdb, 'error');
     }
   })();
-
   const steamTask = (async () => {
     if(locked.has('steam')) return;
     try{
@@ -2284,7 +2534,6 @@ async function runParse(){
       setSrcDot(dots.steam, 'error');
     }
   })();
-
   const pcgwTask = (async () => {
     if(locked.has('pcgw')) return;
     try{
@@ -2308,7 +2557,6 @@ async function runParse(){
       setSrcDot(dots.pcgw, 'error');
     }
   })();
-
   const lbdbTask = (async () => {
     if(locked.has('lbdb')) return;
     try{
@@ -2331,7 +2579,6 @@ async function runParse(){
       setSrcDot(dots.lbdb, 'error');
     }
   })();
-
   const hltbTask = (async () => {
     if(locked.has('hltb')) return;
     try{
@@ -2350,7 +2597,6 @@ async function runParse(){
       setSrcDot(dots.hltb, 'error');
     }
   })();
-
   const sgdbTask = (async () => {
     if(locked.has('sgdb')) return;
     try{
@@ -2368,18 +2614,106 @@ async function runParse(){
       setSrcDot(dots.sgdb, 'error');
     }
   })();
-
   await Promise.all([igdbTask, steamTask, pcgwTask, lbdbTask, hltbTask, sgdbTask]);
   renderVariantPills(results);
   autoAddKeyLinks(results);
-
   goBtn.disabled = false; goBtn.classList.remove('loading');
   goBtn.textContent = 'GO';
-
   const found = PARSE_SOURCES.filter(s => dots[s]?.classList.contains('found'));
   if(found.length === 0) toast('No matches from any source', 'bad');
   else toast('Found on: ' + found.join(', '));
 }
+
+/* ============================================================
+   MOVE PICKER
+   ============================================================ */
+async function findGameEverywhere(id){
+  await forceLoadAll();
+  const found = [];
+  for(const t of ALL_TABS){
+    const g = TAB_GROUP[t.id];
+    const list = DATA[g][t.id];
+    if(Array.isArray(list)){
+      if(list.find(x => x.id === id)) found.push(t.id);
+    } else if(list && list.mirror){
+      if(list.mirror.find(x => x.id === id) || (list.seriesLeftovers||[]).find(x => x.id === id)){
+        found.push(t.id);
+      }
+    }
+  }
+  return found;
+}
+async function openMovePicker(game, ctxTab){
+  moveSlot.innerHTML = `
+    <div class="move-modal">
+      <button class="modal-close" data-close>✕</button>
+      <h2>Move game</h2>
+      <p class="sub">Check every tab where <strong>${game.name}</strong> should live. Unchecked tabs will have it removed.</p>
+      <div class="move-groups"><div style="padding:1.5rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase">Loading…</div></div>
+      <div class="token-actions">
+        <button type="button" class="btn" data-close>Cancel</button>
+        <button type="button" class="btn primary" id="move-apply" disabled>Apply</button>
+      </div>
+    </div>`;
+  moveBackdrop.classList.add('open');
+  moveSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = () => {
+    moveBackdrop.classList.remove('open'); moveSlot.innerHTML = '';
+  });
+
+  let existing = [];
+  try{
+    existing = await findGameEverywhere(game.id);
+  }catch(e){
+    console.error('findGameEverywhere failed:', e);
+  }
+  if(!existing.includes(ctxTab)) existing.push(ctxTab);
+
+  const groupHTML = (grp, label) => `
+    <div class="move-group">
+      <div class="mg-title">${label}</div>
+      ${TABS[grp].map(t => `
+        <label class="move-check">
+          <input type="checkbox" data-tab="${t.id}" ${existing.includes(t.id) ? 'checked' : ''}>
+          <span class="box"></span>
+          <span class="label">${t.label}</span>
+        </label>
+      `).join('')}
+    </div>`;
+  moveSlot.querySelector('.move-groups').innerHTML = groupHTML('coop','Co-op') + groupHTML('single','Vault');
+  moveSlot.querySelector('#move-apply').disabled = false;
+
+  moveSlot.querySelector('#move-apply').onclick = () => {
+    const checked = [...moveSlot.querySelectorAll('input[type=checkbox]:checked')].map(i => i.dataset.tab);
+    // for each tab: if should be there and wasn't → upsert; if was there and shouldn't → delete
+    for(const t of ALL_TABS){
+      const tabId = t.id;
+      const shouldBe = checked.includes(tabId);
+      const wasThere = existing.includes(tabId);
+      const key = `${tabId}:${game.id}`;
+      if(shouldBe){
+        if(!wasThere || tabId === ctxTab){
+          pendingOps.set(key, {
+            tabId, id: game.id, action:'upsert',
+            game: { ...stripInternal(game), group: TAB_GROUP[tabId], tab: tabId },
+            original: wasThere
+          });
+        } else {
+          // already there, user left it checked, no-op
+        }
+      } else if(wasThere){
+        pendingOps.set(key, { tabId, id: game.id, action:'delete' });
+      }
+    }
+    moveBackdrop.classList.remove('open'); moveSlot.innerHTML = '';
+    closeAll();
+    updatePendingStrip();
+    refreshCurrentTab();
+    toast('Staged move — commit when ready');
+  };
+}
+moveBackdrop.addEventListener('click', e => {
+  if(e.target === moveBackdrop){ moveBackdrop.classList.remove('open'); moveSlot.innerHTML = ''; }
+});
 
 /* ============================================================
    ADMIN EDITOR
@@ -2399,13 +2733,11 @@ function openEditor(g){
   const tabOptions = (grp) => TABS[grp].map(t =>
     `<option value="${t.id}" ${t.id === editTab && grp === editGroup ? 'selected' : ''}>${t.label}</option>`
   ).join('');
-
   const crossTagsHTML = CROSS_TAGS.map(t => {
     const on = draft.extraTags.includes(t);
     const side = COOP_TAGS.has(t) ? 'coop' : 'vault';
     return `<label class="${side}"><input type="checkbox" data-tag="${t}" ${on ? 'checked' : ''}>${TAG_LABELS[t]}</label>`;
   }).join('');
-
   const linksHTML = draft.links.length ? draft.links.map((l, i) => `
     <div class="link-row" data-link-idx="${i}">
       <input type="text" class="link-label" placeholder="Label" value="${String(l.label||'').replace(/"/g,'&quot;')}">
@@ -2424,7 +2756,6 @@ function openEditor(g){
         <button class="close-x" data-close>✕</button>
       </div>
       <div class="admin-body">
-
         <div class="parse-bar">
           <span class="parse-title">Fetch from source</span>
           <span class="src-btn" data-src-dot="igdb"><span class="dot"></span>IGDB<button type="button" class="lock-toggle" data-lock="igdb" title="Lock results">🔓</button></span>
@@ -2435,7 +2766,6 @@ function openEditor(g){
           <span class="src-btn" data-src-dot="sgdb"><span class="dot"></span>SGDB<button type="button" class="lock-toggle" data-lock="sgdb" title="Lock results">🔓</button></span>
           <button type="button" class="go-btn" id="parse-go">GO</button>
         </div>
-
         <div class="form-section">
           <div class="sec-title">Identity</div>
           <div class="form-grid">
@@ -2457,7 +2787,6 @@ function openEditor(g){
             </div>
           </div>
         </div>
-
         <div class="form-section">
           <div class="sec-title">Info</div>
           <div class="form-grid">
@@ -2507,7 +2836,6 @@ function openEditor(g){
             </div>
           </div>
         </div>
-
         <div class="form-section">
           <div class="sec-title">Media</div>
           <div class="form-grid">
@@ -2544,18 +2872,15 @@ function openEditor(g){
             </div>
           </div>
         </div>
-
         <div class="form-section">
           <div class="sec-title">Links</div>
           <div class="links-list" id="links-list">${linksHTML}</div>
           <button type="button" class="add-link-btn" id="add-link-btn"><span class="icon icon-plus"></span>Add link</button>
         </div>
-
         <div class="form-section">
           <div class="sec-title">Cross-references</div>
           <div class="tag-cloud" id="cross-tags">${crossTagsHTML}</div>
         </div>
-
         <div class="form-section">
           <div class="sec-title">Status</div>
           <div class="flag-row" id="flag-row">
@@ -2566,7 +2891,6 @@ function openEditor(g){
             <button type="button" class="flag-btn ${draft.gamepass?'on':''}" data-flag="gamepass"><span class="lamp"></span>GamePass</button>
           </div>
         </div>
-
         <div class="form-section">
           <div class="sec-title">Notes</div>
           <div class="field">
@@ -2574,14 +2898,14 @@ function openEditor(g){
           </div>
         </div>
       </div>
-
       <div class="admin-foot">
         <div class="left-actions">
+          ${!isNew ? `<button type="button" class="btn" id="move-btn"><span class="icon icon-move"></span>Move</button>` : ''}
           ${!isNew ? `<button type="button" class="btn danger" id="delete-btn"><span class="icon icon-trash"></span>Delete</button>` : ''}
         </div>
         <div class="right-actions">
           <button type="button" class="btn" data-close>Cancel</button>
-          <button type="button" class="btn primary" id="save-btn">${isNew ? 'Create' : 'Save changes'}</button>
+          <button type="button" class="btn primary" id="save-btn">${isNew ? 'Create' : 'Stage changes'}</button>
         </div>
       </div>
     </div>`;
@@ -2593,13 +2917,11 @@ function openEditor(g){
     const grp = e.target.value;
     $('#f-tab').innerHTML = TABS[grp].map(t => `<option value="${t.id}">${t.label}</option>`).join('');
   });
-
   $('#f-hltb-type').addEventListener('change', e => {
     const v = e.target.value;
     $('#hltb-numeric').style.display = v === 'numeric' ? '' : 'none';
     $('#hltb-text').style.display    = v === 'numeric' ? 'none' : '';
   });
-
   $('#f-screenshot').addEventListener('input', e => {
     const v = e.target.value.trim();
     $('#shot-preview').innerHTML = v ? `<img src="${screenshotSrc(v)}" alt="">` : '1280 × 720';
@@ -2608,24 +2930,15 @@ function openEditor(g){
     const v = e.target.value.trim();
     $('#logo-preview').innerHTML = v ? `<img src="${logoSrc(v)}" alt="">` : '504 × 562';
   });
-
   modalSlot.querySelectorAll('.lock-toggle').forEach(btn => {
     btn.addEventListener('click', e => {
       e.stopPropagation();
       const src = btn.dataset.lock;
       const set = modalSlot._lockedSources;
-      if(set.has(src)){
-        set.delete(src);
-        btn.textContent = '🔓';
-        btn.closest('.src-btn').classList.remove('locked');
-      } else {
-        set.add(src);
-        btn.textContent = '🔒';
-        btn.closest('.src-btn').classList.add('locked');
-      }
+      if(set.has(src)){ set.delete(src); btn.textContent = '🔓'; btn.closest('.src-btn').classList.remove('locked'); }
+      else { set.add(src); btn.textContent = '🔒'; btn.closest('.src-btn').classList.add('locked'); }
     });
   });
-
   async function handleUpload(file, kind){
     if(!file) return;
     const nameVal = ($('#f-name').value || '').trim();
@@ -2650,14 +2963,8 @@ function openEditor(g){
   }
   const shotFile = $('#f-screenshot-file');
   const logoFile = $('#f-logo-file');
-  if(shotFile){
-    shotFile.__btn = shotFile.closest('.upload-btn');
-    shotFile.addEventListener('change', e => handleUpload(e.target.files[0], 'screenshot'));
-  }
-  if(logoFile){
-    logoFile.__btn = logoFile.closest('.upload-btn');
-    logoFile.addEventListener('change', e => handleUpload(e.target.files[0], 'logo'));
-  }
+  if(shotFile){ shotFile.__btn = shotFile.closest('.upload-btn'); shotFile.addEventListener('change', e => handleUpload(e.target.files[0], 'screenshot')); }
+  if(logoFile){ logoFile.__btn = logoFile.closest('.upload-btn'); logoFile.addEventListener('change', e => handleUpload(e.target.files[0], 'logo')); }
 
   function currentGameId(){
     const nameVal = ($('#f-name').value || '').trim();
@@ -2689,13 +2996,11 @@ function openEditor(g){
   }
   $('#save-screenshot-local')?.addEventListener('click', () => saveLocal('screenshot'));
   $('#save-logo-local')?.addEventListener('click', () => saveLocal('logo'));
-
   $('#google-screenshot')?.addEventListener('click', () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     window.open('https://www.google.com/search?q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
   });
-
   $('#sgdb-logo')?.addEventListener('click', async () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
@@ -2705,8 +3010,7 @@ function openEditor(g){
     try{
       const data = await sgdbSearch(nameVal);
       const items = (data.logos || []).map(l => ({
-        url: l.url,
-        thumb: l.thumb || l.url,
+        url: l.url, thumb: l.thumb || l.url,
         label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height
       }));
       showLogoPicker('SGDB — ' + data.gameName, items, picked => {
@@ -2721,7 +3025,6 @@ function openEditor(g){
       btn.disabled = false; btn.innerHTML = orig;
     }
   });
-
   $('#lbdb-logo')?.addEventListener('click', async () => {
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
@@ -2747,13 +3050,11 @@ function openEditor(g){
       btn.disabled = false; btn.innerHTML = orig;
     }
   });
-
   $('#flag-row').addEventListener('click', e => {
     const btn = e.target.closest('.flag-btn');
     if(!btn) return;
     btn.classList.toggle('on');
   });
-
   const linksList = $('#links-list');
   $('#add-link-btn').addEventListener('click', () => {
     const row = document.createElement('div');
@@ -2766,15 +3067,18 @@ function openEditor(g){
     if(!e.target.closest('.remove-link')) return;
     e.target.closest('.link-row').remove();
   });
-
   $('#parse-go').addEventListener('click', runParse);
   attachPillHandlers();
 
   if(!isNew){
     $('#delete-btn').addEventListener('click', () => openConfirmDelete(g));
+    $('#move-btn').addEventListener('click', () => {
+      g._group = editGroup; g._tab = editTab;
+      openMovePicker(g, editTab);
+    });
   }
 
-  $('#save-btn').addEventListener('click', async () => {
+  $('#save-btn').addEventListener('click', () => {
     const name = $('#f-name').value.trim();
     if(!name){ toast('Name is required', 'bad'); return; }
     const fgroup = $('#f-group input:checked').value;
@@ -2797,7 +3101,7 @@ function openEditor(g){
 
     const out = {
       id: draft.id || name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),
-      name, group: fgroup, tab: ftab,
+      name,
       platform: $('#f-platform').value.trim(),
       release: $('#f-release').value.trim(),
       size: $('#f-size').value.trim(),
@@ -2815,26 +3119,21 @@ function openEditor(g){
       logo: $('#f-logo').value.trim(),
     };
 
-    if(!getToken()){ showTokenPrompt(); return; }
+    const key = `${ftab}:${out.id}`;
+    const originalTab = !isNew ? editTab : null;
 
-    const btn = $('#save-btn');
-    const orig = btn.innerHTML;
-    btn.disabled = true;
-    btn.innerHTML = '…Saving';
-
-    try{
-      const result = await saveGame(out, isNew ? null : { _tab: editTab, id: draft.id });
-      closeAll();
-      refreshCurrentTab();
-      if(result.moved) toast('Saved — moved to ' + ftab);
-      else if(result.added) toast('Created');
-      else toast('Saved');
-    }catch(e){
-      console.error('Save failed:', e);
-      toast('Save failed: ' + e.message, 'bad');
-      btn.disabled = false;
-      btn.innerHTML = orig;
+    if(!isNew && originalTab && originalTab !== ftab){
+      // moved tabs via editor — remove old, add new
+      pendingOps.set(`${originalTab}:${out.id}`, { tabId: originalTab, id: out.id, action:'delete' });
+      pendingOps.set(key, { tabId: ftab, id: out.id, action:'upsert', game: out, original: true });
+    } else {
+      pendingOps.set(key, { tabId: ftab, id: out.id, action:'upsert', game: out, original: !isNew });
     }
+
+    closeAll();
+    updatePendingStrip();
+    refreshCurrentTab();
+    toast(isNew ? 'Staged new game' : 'Staged changes');
   });
 }
 function openConfirmDelete(g){
@@ -2842,30 +3141,20 @@ function openConfirmDelete(g){
     <div class="confirm">
       <h3><span class="icon icon-trash" style="width:1em;height:1em"></span>Delete game?</h3>
       <p>You're about to remove <span class="gname">${g.name}</span> from <strong>${tabLabelFor(g)}</strong>.</p>
-      <p class="warn">This edits the repo JSON directly. A commit is created — you can always recover via git history, but the site updates immediately.</p>
+      <p class="warn">This stages the removal. Nothing is committed to GitHub until you press Commit.</p>
       <div class="btns">
         <button type="button" class="btn" data-close>Cancel</button>
-        <button type="button" class="btn danger" id="confirm-delete"><span class="icon icon-trash"></span>Delete</button>
+        <button type="button" class="btn danger" id="confirm-delete"><span class="icon icon-trash"></span>Stage delete</button>
       </div>
     </div>`;
   backdrop.classList.add('open');
-  modalSlot.querySelector('#confirm-delete').addEventListener('click', async () => {
-    if(!getToken()){ showTokenPrompt(); return; }
-    const btn = modalSlot.querySelector('#confirm-delete');
-    const orig = btn.innerHTML;
-    btn.disabled = true;
-    btn.innerHTML = '…Deleting';
-    try{
-      await deleteGame(g);
-      closeAll();
-      refreshCurrentTab();
-      toast('Deleted');
-    }catch(e){
-      console.error('Delete failed:', e);
-      toast('Delete failed: ' + e.message, 'bad');
-      btn.disabled = false;
-      btn.innerHTML = orig;
-    }
+  modalSlot.querySelector('#confirm-delete').addEventListener('click', () => {
+    const gTab = g._tab || tab;
+    pendingOps.set(`${gTab}:${g.id}`, { tabId: gTab, id: g.id, action:'delete' });
+    closeAll();
+    updatePendingStrip();
+    refreshCurrentTab();
+    toast('Staged delete');
   });
 }
 function tabLabelFor(g){
@@ -2916,10 +3205,8 @@ contentEl.addEventListener('click', e => {
     if(Array.isArray(arr)){
       const g = arr.find(x => x.id === rowD.dataset.id);
       if(g){
-        const filtered = applySort(arr.filter(passesAll));
-        const rankMap = new Map();
-        filtered.forEach((x,i) => rankMap.set(x.id, i+1));
-        openModal(g, rankMap.get(g.id));
+        currentRankMap = buildRankMap(arr);
+        openModal(g);
       }
     }
     return;
@@ -2939,8 +3226,10 @@ contentEl.addEventListener('click', e => {
 /* ============================================================
    BOOT
    ============================================================ */
+applyView();
 renderTabs();
 renderContent();
+updatePendingStrip();
 bootAdminFlow();
 </script>
 </body>
