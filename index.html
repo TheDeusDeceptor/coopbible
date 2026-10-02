@@ -53,8 +53,9 @@
   .icon-plus{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");}
   .icon-move{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='5 9 2 12 5 15'/%3E%3Cpolyline points='9 5 12 2 15 5'/%3E%3Cpolyline points='15 19 12 22 9 19'/%3E%3Cpolyline points='19 9 22 12 19 15'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cline x1='12' y1='2' x2='12' y2='22'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='5 9 2 12 5 15'/%3E%3Cpolyline points='9 5 12 2 15 5'/%3E%3Cpolyline points='15 19 12 22 9 19'/%3E%3Cpolyline points='19 9 22 12 19 15'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cline x1='12' y1='2' x2='12' y2='22'/%3E%3C/svg%3E");}
   .icon-cols{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='18' rx='1'/%3E%3Crect x='14' y='3' width='7' height='18' rx='1'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='18' rx='1'/%3E%3Crect x='14' y='3' width='7' height='18' rx='1'/%3E%3C/svg%3E");}
+  .icon-tools{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/%3E%3C/svg%3E");}
   header{max-width:1400px;margin:0 auto 1.75rem;display:flex;justify-content:center;position:relative;}
-  .admin-toggle,.lbdb-btn{
+  .admin-toggle,.tools-btn{
     position:absolute;top:50%;transform:translateY(-50%);
     display:none;align-items:center;gap:.5rem;
     font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
@@ -62,15 +63,16 @@
     background:rgba(255,255,255,.015);color:var(--muted);cursor:pointer;transition:all .18s ease;
     white-space:nowrap;
   }
-  body.admin-on .lbdb-btn{display:inline-flex;}
-  .lbdb-btn{left:0;}
+  body.admin-on .tools-btn{display:inline-flex;}
+  .tools-btn{left:0;}
+  .tools-btn .icon{width:14px;height:14px;}
   .admin-toggle{right:0;display:inline-flex;}
-  .admin-toggle:hover,.lbdb-btn:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .admin-toggle .lamp,.lbdb-btn .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
+  .admin-toggle:hover,.tools-btn:hover{color:#cbd5e1;border-color:var(--accent-line)}
+  .admin-toggle .lamp,.tools-btn .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
   body.admin-on .admin-toggle{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08)}
   body.admin-on .admin-toggle .lamp{background:var(--red);box-shadow:0 0 8px var(--red)}
-  .lbdb-btn.running .lamp{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.4s ease-in-out infinite;}
-  .lbdb-btn.running{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08)}
+  .tools-btn.running .lamp{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.4s ease-in-out infinite;}
+  .tools-btn.running{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08)}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
   .switch{
     position:relative;width:280px;height:58px;padding:5px;display:flex;cursor:pointer;user-select:none;border-radius:29px;
@@ -146,7 +148,6 @@
   .dd.open .dd-btn .chev{transform:rotate(180deg)}
   .dd-btn .val{color:var(--muted);font-weight:500;text-transform:none;letter-spacing:.02em;font-family:var(--font-body);font-size:.82rem;}
   .dd.open .dd-btn .val,.dd-btn:hover .val{color:#e6ebf2}
-  /* Non-default sort indicator — outlined like the search-field chips */
   .dd-btn.non-default{
     color:var(--accent);
     border-color:var(--accent-line);
@@ -209,6 +210,7 @@
   .status-tag{display:inline-flex;align-items:center;padding:.3rem .6rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;font-family:var(--font-head);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--green);white-space:nowrap;line-height:1;}
   .status-tag.localcoop{color:var(--green);}
   .status-tag.auth{color:var(--pink);border-color:rgba(244,114,182,.45);}
+  .status-tag.platform{color:var(--accent);border-color:var(--accent-line);}
   .icon-badge{display:inline-flex;align-items:center;justify-content:center;padding:.32rem .5rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;line-height:1;}
   .icon-badge img{width:16px;height:16px;object-fit:contain;display:block;}
   .overlay-chips{position:absolute;left:0;right:0;bottom:0;display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;}
@@ -279,7 +281,6 @@
   .g-title .re-part{color:#8a94a6;opacity:.85;}
   [data-tooltip]{cursor:help;}
 
-  /* SMOOTH LOADING */
   #content > .tab-pane{display:none}
   #content > .tab-pane.active{display:block}
   .card .shot img,
@@ -528,6 +529,7 @@
   .pr-action-upsert{color:var(--green);background:rgba(74,222,128,.08);border-color:rgba(74,222,128,.35);}
   .pr-action-delete{color:var(--red);background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.35);}
   .pr-action-asset{color:var(--amber);background:rgba(245,158,11,.08);border-color:rgba(245,158,11,.35);}
+  .pr-action-file{color:var(--purple);background:rgba(167,139,250,.08);border-color:rgba(167,139,250,.35);}
   .pr-name{color:#e6ebf2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;}
   .pr-discard{width:26px;height:26px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;font-size:.75rem;line-height:1;}
   .pr-discard:hover{color:var(--red);border-color:var(--red);}
@@ -546,6 +548,44 @@
   .toast.bad::before{content:"✕";color:var(--red);margin-right:.5rem}
   .loader{max-width:1400px;margin:2rem auto;padding:2rem;text-align:center;font-family:var(--font-head);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
   .loader::after{content:"";display:inline-block;width:8px;height:8px;margin-left:.5rem;background:var(--accent);border-radius:50%;animation:pulse 1s ease-in-out infinite;}
+
+  /* ---------- Tools modal ---------- */
+  .tools-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:820px;max-height:92vh;overflow-y:auto;position:relative;}
+  .tools-modal::-webkit-scrollbar{width:10px}
+  .tools-modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
+  .tools-modal::-webkit-scrollbar-thumb:hover{background:var(--accent);}
+  .lbdb-status{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:.55rem .75rem;border:1px solid var(--border);border-radius:7px;background:rgba(255,255,255,.015);display:flex;align-items:center;gap:.5rem;}
+  .lbdb-status .dot{width:8px;height:8px;border-radius:50%;background:#4a5468;flex-shrink:0;}
+  .lbdb-status.running .dot{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.2s ease-in-out infinite;}
+  .lbdb-status.running{color:var(--amber);border-color:rgba(245,158,11,.4);}
+  .lbdb-status.done .dot{background:var(--green);box-shadow:0 0 8px var(--green);}
+  .lbdb-status.done{color:var(--green);border-color:rgba(74,222,128,.4);}
+  .lbdb-status.error .dot{background:var(--red);box-shadow:0 0 8px var(--red);}
+  .lbdb-status.error{color:var(--red);border-color:rgba(239,68,68,.4);}
+
+  .plat-hint{font-size:.76rem;color:var(--muted);line-height:1.5;margin-bottom:.9rem;padding:.6rem .8rem;background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.18);border-radius:7px;}
+  .plat-hint code{font-family:ui-monospace,monospace;background:rgba(255,255,255,.05);padding:.1rem .35rem;border-radius:4px;font-size:.85em;color:#cbd5e1;}
+
+  .plat-row{display:grid;grid-template-columns:1fr 1fr 1fr 34px 60px;gap:.5rem;align-items:center;padding:.55rem .7rem;background:#0a0e15;border:1px solid var(--border);border-radius:7px;margin-bottom:.4rem;transition:border-color .18s ease;}
+  .plat-row.new{border-color:rgba(74,222,128,.55);box-shadow:0 0 0 1px rgba(74,222,128,.25);}
+  .plat-row.edited{border-color:rgba(245,158,11,.55);box-shadow:0 0 0 1px rgba(245,158,11,.22);}
+  .plat-row input{font-family:var(--font-body);font-size:.82rem;color:#e6ebf2;background:transparent;border:1px solid transparent;border-radius:5px;padding:.35rem .5rem;outline:none;transition:all .15s ease;width:100%;}
+  .plat-row input:hover{border-color:var(--border);background:rgba(255,255,255,.02);}
+  .plat-row input:focus{border-color:var(--accent-line);background:rgba(56,189,248,.05);}
+  .plat-row input.key-input{font-family:ui-monospace,monospace;font-size:.78rem;color:#cbd5e1;}
+  .plat-row .plat-icon-preview{width:28px;height:28px;border-radius:5px;background:#060810;border:1px solid var(--border);display:grid;place-items:center;overflow:hidden;flex-shrink:0;}
+  .plat-row .plat-icon-preview img{max-width:100%;max-height:100%;object-fit:contain;display:block;}
+  .plat-row .plat-icon-preview.empty::after{content:"—";color:#3a4356;font-size:.7rem;}
+  .plat-row .plat-badge{font-family:var(--font-head);font-size:.5rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.2rem .45rem;border-radius:4px;text-align:center;white-space:nowrap;}
+  .plat-row .plat-badge.new{color:var(--green);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.4);}
+  .plat-row .plat-badge.edited{color:var(--amber);background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.4);}
+  .plat-row .plat-badge.empty{color:transparent;}
+  .plat-row .plat-del{width:28px;height:28px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;font-size:.85rem;line-height:1;padding:0;}
+  .plat-row .plat-del:hover{color:var(--red);border-color:var(--red);}
+  .plat-actions{display:flex;gap:.5rem;justify-content:space-between;align-items:center;margin-top:.9rem;flex-wrap:wrap;}
+  .plat-actions-left{display:flex;gap:.5rem;}
+  .plat-actions-right{display:flex;gap:.6rem;margin-left:auto;}
+
   @media (max-width:1100px){
     .tb-right{width:100%;margin-left:0;padding-top:.6rem;border-top:1px solid var(--border)}
     .search-box input{width:100%;max-width:280px}
@@ -566,9 +606,11 @@
     .logo{width:150px}
     .hover-text{opacity:1;transform:none}
     .form-grid{grid-template-columns:1fr}
-    .admin-toggle,.lbdb-btn{position:static;transform:none;margin:0 .25rem}
+    .admin-toggle,.tools-btn{position:static;transform:none;margin:0 .25rem}
     header{flex-wrap:wrap;gap:.5rem}
     .commit-badge{top:auto;bottom:1.5rem;}
+    .plat-row{grid-template-columns:1fr 1fr 34px 54px;}
+    .plat-row .plat-icon-preview{grid-column:1 / -1;justify-self:start;}
   }
   @media (max-width:640px){
     body{padding:1rem}
@@ -593,9 +635,10 @@
 <body data-group="coop" data-cols="auto">
 
 <header>
-  <button class="lbdb-btn" id="lbdbBtn" type="button">
+  <button class="tools-btn" id="toolsBtn" type="button">
     <span class="lamp"></span>
-    <span id="lbdbBtnLabel">Update LBDB</span>
+    <span class="icon icon-tools"></span>
+    <span id="toolsBtnLabel">Tools</span>
   </button>
   <div class="switch" id="switch" data-active="coop" role="tablist">
     <div class="switch-knob"></div>
@@ -624,6 +667,7 @@
 <div class="backdrop" id="logopicker-backdrop" style="z-index:330"><div id="logopicker-slot"></div></div>
 <div class="backdrop" id="move-backdrop" style="z-index:340"><div id="move-slot"></div></div>
 <div class="backdrop" id="pending-backdrop" style="z-index:310"><div id="pending-slot"></div></div>
+<div class="backdrop" id="tools-backdrop" style="z-index:305"><div id="tools-slot"></div></div>
 
 <div class="toast" id="toast"></div>
 
@@ -641,6 +685,8 @@ const CLOUDINARY_CLOUD = 'nistzwxd';
 const CLOUDINARY_CANVAS = 'https://i.ibb.co/xSsxpFMp/blank.png';
 const STEAM_ICON = 'images/icons/steam.png';
 const GAMEPASS_ICON = 'images/icons/gamepass.png';
+const PLATFORMS_FILE = 'data/platforms.json';
+const PLATFORM_ICON_BASE = 'images/icons/';
 
 const TABS = {
   coop: [
@@ -687,6 +733,42 @@ const LOAD_STATE = {
   coop:   { released:'idle', 'early-access':'idle', unreleased:'idle', mods:'idle', 'coop-beaten':'idle' },
   single: { backlog:'idle', 'backlog-series':'idle', gamearchive:'idle', mainpc:'idle', beaten:'idle' }
 };
+
+/* ============================================================
+   PLATFORMS
+   ============================================================ */
+let PLATFORMS = {};          // { key: { label, icon } }
+let PLATFORMS_ORIGINAL = {}; // snapshot for editor diffs
+
+async function loadPlatforms(){
+  try{
+    const res = await fetch(PLATFORMS_FILE, { cache: 'no-cache' });
+    if(res.status === 404){ PLATFORMS = {}; PLATFORMS_ORIGINAL = {}; return; }
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    const raw = await res.json();
+    PLATFORMS = (raw && typeof raw === 'object' && !Array.isArray(raw)) ? raw : {};
+    PLATFORMS_ORIGINAL = JSON.parse(JSON.stringify(PLATFORMS));
+  }catch(e){
+    console.warn('platforms.json load failed:', e);
+    PLATFORMS = {};
+    PLATFORMS_ORIGINAL = {};
+  }
+}
+
+function platformLabel(key){
+  if(!key) return '';
+  const p = PLATFORMS[key];
+  return (p && p.label) ? p.label : key;
+}
+function platformIcon(key){
+  if(!key) return '';
+  const p = PLATFORMS[key];
+  return (p && p.icon) ? p.icon : '';
+}
+function isPlatformPC(key){
+  if(!key) return true;
+  return String(key).trim().toLowerCase() === 'pc';
+}
 
 /* ============================================================
    TAG SYSTEM
@@ -923,6 +1005,7 @@ let adminMode = false;
 let adminBusy = false;
 
 const pendingOps = new Map();
+const pendingFileWrites = new Map();   // path -> content string
 const stagedAssetUrls = new Map();
 let viewCols = localStorage.getItem('view_cols') || 'auto';
 let modalNavList = [];
@@ -947,10 +1030,12 @@ const moveBackdrop = document.getElementById('move-backdrop');
 const moveSlot = document.getElementById('move-slot');
 const pendingBackdrop = document.getElementById('pending-backdrop');
 const pendingSlot = document.getElementById('pending-slot');
+const toolsBackdrop = document.getElementById('tools-backdrop');
+const toolsSlot = document.getElementById('tools-slot');
 const adminToggleBtn = document.getElementById('adminToggle');
 const adminToggleLabel = document.getElementById('adminToggleLabel');
-const lbdbBtn = document.getElementById('lbdbBtn');
-const lbdbBtnLabel = document.getElementById('lbdbBtnLabel');
+const toolsBtn = document.getElementById('toolsBtn');
+const toolsBtnLabel = document.getElementById('toolsBtnLabel');
 const pendingStrip = document.getElementById('pendingStrip');
 const commitBadge = document.getElementById('commitBadge');
 const commitBadgeLabel = commitBadge.querySelector('.label');
@@ -1017,7 +1102,6 @@ function setViewCols(v){
   viewCols = v;
   localStorage.setItem('view_cols', v);
   applyView();
-  // Rebuild the toolbar so the View dropdown's active state updates.
   renderToolbar();
 }
 
@@ -1225,10 +1309,44 @@ commitBadge.addEventListener('click', () => {
 setCommitState('idle');
 
 /* ============================================================
-   LBDB UPDATE BUTTON
+   TOOLS MODAL (LBDB + Platforms editor)
    ============================================================ */
+let lbdbState = 'idle';   // 'idle' | 'running' | 'done' | 'error'
+let lbdbMessage = '';
 let lbdbPollTimer = null;
 let lbdbStartTime = 0;
+
+function renderToolsBtn(){
+  toolsBtn.classList.remove('running');
+  if(lbdbState === 'running'){ toolsBtn.classList.add('running'); toolsBtnLabel.textContent = 'Tools · LBDB'; }
+  else toolsBtnLabel.textContent = 'Tools';
+}
+function renderLbdbStatusInModal(){
+  const el = toolsSlot.querySelector('#lbdb-status');
+  if(!el) return;
+  el.classList.remove('running','done','error');
+  if(lbdbState === 'running'){ el.classList.add('running'); }
+  else if(lbdbState === 'done'){ el.classList.add('done'); }
+  else if(lbdbState === 'error'){ el.classList.add('error'); }
+  const label = toolsSlot.querySelector('#lbdb-status-label');
+  if(label){
+    if(lbdbState === 'idle')         label.textContent = 'Idle';
+    else if(lbdbState === 'running') label.textContent = lbdbMessage || 'Running…';
+    else if(lbdbState === 'done')    label.textContent = lbdbMessage || 'Up to date';
+    else if(lbdbState === 'error')   label.textContent = lbdbMessage || 'Failed';
+  }
+  const btn = toolsSlot.querySelector('#lbdb-run');
+  if(btn){
+    btn.disabled = (lbdbState === 'running');
+    btn.textContent = lbdbState === 'running' ? 'Running…' : 'Update LBDB';
+  }
+}
+function setLbdbState(state, msg){
+  lbdbState = state;
+  lbdbMessage = msg || '';
+  renderToolsBtn();
+  renderLbdbStatusInModal();
+}
 
 async function ghFetch(url, opts = {}){
   const tok = getToken();
@@ -1246,15 +1364,14 @@ async function triggerLbdbUpdate(){
       body: JSON.stringify({ ref: 'main' })
     });
     if(res.status === 204){ toast('LBDB update queued'); startLbdbPolling(); }
-    else if(res.status === 404){ toast('Workflow not found', 'bad'); }
-    else if(res.status === 403 || res.status === 401){ toast('Token needs Actions: write', 'bad'); }
-    else { toast('Trigger failed: HTTP ' + res.status, 'bad'); }
-  }catch(e){ toast('Trigger failed: ' + e.message, 'bad'); }
+    else if(res.status === 404){ toast('Workflow not found', 'bad'); setLbdbState('error', 'Workflow not found'); }
+    else if(res.status === 403 || res.status === 401){ toast('Token needs Actions: write', 'bad'); setLbdbState('error', 'Token needs Actions: write'); }
+    else { toast('Trigger failed: HTTP ' + res.status, 'bad'); setLbdbState('error', 'HTTP ' + res.status); }
+  }catch(e){ toast('Trigger failed: ' + e.message, 'bad'); setLbdbState('error', e.message); }
 }
 function startLbdbPolling(){
   lbdbStartTime = Date.now();
-  lbdbBtn.classList.add('running');
-  lbdbBtnLabel.textContent = 'Running…';
+  setLbdbState('running', 'Running…');
   clearInterval(lbdbPollTimer);
   lbdbPollTimer = setInterval(checkLbdbStatus, 8000);
   checkLbdbStatus();
@@ -1270,23 +1387,239 @@ async function checkLbdbStatus(){
     const startedAt = new Date(run.created_at).getTime();
     if(startedAt < lbdbStartTime - 30000) return;
     const elapsed = Math.round((Date.now() - lbdbStartTime) / 1000);
-    lbdbBtnLabel.textContent = `Running… ${elapsed}s`;
+    setLbdbState('running', `Running… ${elapsed}s`);
     if(run.status === 'completed'){
       clearInterval(lbdbPollTimer); lbdbPollTimer = null;
-      lbdbBtn.classList.remove('running');
       if(run.conclusion === 'success'){
-        lbdbBtnLabel.textContent = 'LBDB up to date';
+        setLbdbState('done', 'Up to date');
         LBDB_INDEX = null; LBDB_LOADING = null;
         toast('LBDB updated — reload to use fresh data');
       } else {
-        lbdbBtnLabel.textContent = 'Update failed';
+        setLbdbState('error', 'Failed: ' + run.conclusion);
         toast('LBDB update failed: ' + run.conclusion, 'bad');
       }
-      setTimeout(() => { lbdbBtnLabel.textContent = 'Update LBDB'; }, 8000);
+      setTimeout(() => { if(lbdbState === 'done' || lbdbState === 'error') setLbdbState('idle', ''); }, 8000);
     }
   }catch(e){}
 }
-lbdbBtn.addEventListener('click', () => { if(lbdbPollTimer) return; triggerLbdbUpdate(); });
+
+/* ---------- Platform editor state ---------- */
+let platDraft = null;   // working copy of PLATFORMS while modal is open
+let platDeleted = null; // Set of keys removed during this editing session
+
+function clonePlatforms(o){ return JSON.parse(JSON.stringify(o || {})); }
+
+function platRowStatus(key){
+  const orig = PLATFORMS_ORIGINAL[key];
+  if(!orig) return 'new';
+  const cur = platDraft[key];
+  if(!cur) return 'edited';
+  if((orig.label || '') !== (cur.label || '') || (orig.icon || '') !== (cur.icon || '')) return 'edited';
+  return '';
+}
+
+function platRowHTML(key){
+  const p = platDraft[key] || { label: '', icon: '' };
+  const status = platRowStatus(key);
+  const badgeCls = status === 'new' ? 'new' : (status === 'edited' ? 'edited' : 'empty');
+  const badgeTxt = status === 'new' ? 'NEW' : (status === 'edited' ? 'EDITED' : ' ');
+  const iconFile = (p.icon || '').trim();
+  const iconUrl = iconFile ? (PLATFORM_ICON_BASE + iconFile) : '';
+  return `
+    <div class="plat-row ${status}" data-key="${String(key).replace(/"/g,'&quot;')}">
+      <input type="text" class="key-input" value="${String(key).replace(/"/g,'&quot;')}" placeholder="key" data-field="key">
+      <input type="text" value="${String(p.label||'').replace(/"/g,'&quot;')}" placeholder="Label" data-field="label">
+      <input type="text" value="${String(p.icon||'').replace(/"/g,'&quot;')}" placeholder="icon filename" data-field="icon">
+      <div class="plat-icon-preview ${iconUrl ? '' : 'empty'}">${iconUrl ? `<img src="${iconUrl}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">` : ''}</div>
+      <div style="display:flex;align-items:center;gap:.35rem;justify-content:flex-end;">
+        <span class="plat-badge ${badgeCls}">${badgeTxt}</span>
+        <button type="button" class="plat-del" title="Remove">✕</button>
+      </div>
+    </div>`;
+}
+
+function renderPlatformRows(){
+  const host = toolsSlot.querySelector('#plat-rows');
+  if(!host) return;
+  const keys = Object.keys(platDraft).sort();
+  if(!keys.length){
+    host.innerHTML = '<div style="padding:1rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase">No platforms yet — click "Add platform"</div>';
+    return;
+  }
+  host.innerHTML = keys.map(platRowHTML).join('');
+}
+
+function toolsModalHTML(){
+  return `
+    <div class="tools-modal">
+      <div class="admin-head">
+        <h2><span class="icon icon-tools" style="width:1em;height:1em"></span>Tools</h2>
+        <button class="close-x" data-close>✕</button>
+      </div>
+      <div class="admin-body">
+
+        <div class="form-section">
+          <div class="sec-title">LaunchBox DB</div>
+          <div style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;">
+            <button type="button" class="btn primary" id="lbdb-run">Update LBDB</button>
+            <div class="lbdb-status" id="lbdb-status"><span class="dot"></span><span id="lbdb-status-label">Idle</span></div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-title">Platforms</div>
+          <div class="plat-hint">
+            <strong>Key</strong> matches the folder name from <code>roms.txt</code> (e.g. <code>nes</code>, <code>ps2</code>, <code>amigacd32</code>).<br>
+            <strong>Label</strong> is what shows on the site. <strong>Icon</strong> is a filename inside <code>images/icons/</code>.
+            Missing icon = text badge with the label. Missing entry entirely = raw key shown.
+          </div>
+          <div id="plat-rows"></div>
+          <div class="plat-actions">
+            <div class="plat-actions-left">
+              <button type="button" class="add-link-btn" id="plat-add"><span class="icon icon-plus"></span>Add platform</button>
+            </div>
+            <div class="plat-actions-right">
+              <button type="button" class="btn" id="plat-reset">Reset</button>
+              <button type="button" class="btn primary" id="plat-save">Stage changes</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>`;
+}
+
+function openToolsModal(){
+  platDraft = clonePlatforms(PLATFORMS);
+  platDeleted = new Set();
+  toolsSlot.innerHTML = toolsModalHTML();
+  toolsBackdrop.classList.add('open');
+  renderLbdbStatusInModal();
+  renderPlatformRows();
+
+  toolsSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeToolsModal);
+  toolsSlot.querySelector('#lbdb-run').onclick = () => { if(lbdbState !== 'running') triggerLbdbUpdate(); };
+
+  // Platforms editor handlers
+  const rowsHost = toolsSlot.querySelector('#plat-rows');
+  rowsHost.addEventListener('input', e => {
+    const row = e.target.closest('.plat-row');
+    if(!row) return;
+    const key = row.dataset.key;
+    const field = e.target.dataset.field;
+    if(!field || !platDraft[key]) return;
+    if(field === 'key'){
+      // rename key: move the entry
+      const newKey = e.target.value.trim().toLowerCase().replace(/\s+/g,'_');
+      if(!newKey || newKey === key) return;
+      const entry = platDraft[key];
+      delete platDraft[key];
+      platDraft[newKey] = entry;
+      row.dataset.key = newKey;
+      // re-render badges (compare against original)
+      // simplest: re-render rows after blur
+    } else {
+      platDraft[key][field] = e.target.value;
+      // update icon preview live
+      if(field === 'icon'){
+        const prev = row.querySelector('.plat-icon-preview');
+        const v = e.target.value.trim();
+        if(v){
+          prev.classList.remove('empty');
+          prev.innerHTML = `<img src="${PLATFORM_ICON_BASE + v}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">`;
+        } else {
+          prev.classList.add('empty');
+          prev.innerHTML = '';
+        }
+      }
+      // update row status badge
+      const status = platRowStatus(key);
+      row.classList.remove('new','edited');
+      if(status) row.classList.add(status);
+      const badge = row.querySelector('.plat-badge');
+      badge.classList.remove('new','edited','empty');
+      if(status === 'new'){ badge.classList.add('new'); badge.textContent = 'NEW'; }
+      else if(status === 'edited'){ badge.classList.add('edited'); badge.textContent = 'EDITED'; }
+      else { badge.classList.add('empty'); badge.textContent = ' '; }
+    }
+  });
+  rowsHost.addEventListener('blur', e => {
+    if(e.target.dataset && e.target.dataset.field === 'key'){
+      // After key rename, re-render the whole list so order/keys normalize
+      renderPlatformRows();
+    }
+  }, true);
+  rowsHost.addEventListener('click', e => {
+    const del = e.target.closest('.plat-del');
+    if(!del) return;
+    const row = del.closest('.plat-row');
+    const key = row.dataset.key;
+    delete platDraft[key];
+    platDeleted.add(key);
+    renderPlatformRows();
+  });
+
+  toolsSlot.querySelector('#plat-add').onclick = () => {
+    // generate a unique placeholder key
+    let n = 1;
+    let key = 'new_platform';
+    while(platDraft[key]){
+      key = 'new_platform_' + (++n);
+    }
+    platDraft[key] = { label: '', icon: '' };
+    renderPlatformRows();
+    const row = toolsSlot.querySelector(`.plat-row[data-key="${key}"]`);
+    if(row){
+      const ki = row.querySelector('.key-input');
+      if(ki){ ki.focus(); ki.select(); }
+    }
+  };
+  toolsSlot.querySelector('#plat-reset').onclick = () => {
+    if(!confirm('Reset platform edits (unsaved)?')) return;
+    platDraft = clonePlatforms(PLATFORMS);
+    platDeleted = new Set();
+    renderPlatformRows();
+  };
+  toolsSlot.querySelector('#plat-save').onclick = () => {
+    // prune empty rows (both key and label empty and no icon)
+    const cleaned = {};
+    for(const k of Object.keys(platDraft)){
+      const v = platDraft[k] || {};
+      const key = String(k).trim();
+      const label = String(v.label || '').trim();
+      const icon = String(v.icon || '').trim();
+      if(!key && !label && !icon) continue;
+      cleaned[key] = { label: label || key, icon };
+    }
+    const newStr = JSON.stringify(cleaned, null, 2);
+    const oldStr = JSON.stringify(PLATFORMS, null, 2);
+    if(newStr === oldStr && platDeleted.size === 0){
+      toast('No platform changes to stage', 'bad');
+      return;
+    }
+    pendingFileWrites.set(PLATFORMS_FILE, newStr + '\n');
+    // Apply optimistically so the site sees it immediately
+    PLATFORMS = cleaned;
+    updatePendingStrip();
+    invalidateAllPanes();
+    renderContent();
+    closeToolsModal();
+    toast('Platforms staged — commit to push');
+  };
+}
+function closeToolsModal(){
+  toolsBackdrop.classList.remove('open');
+  toolsSlot.innerHTML = '';
+  platDraft = null;
+  platDeleted = null;
+}
+toolsBackdrop.addEventListener('click', e => { if(e.target === toolsBackdrop) closeToolsModal(); });
+toolsBtn.addEventListener('click', () => {
+  if(!adminMode){ showTokenPrompt(); return; }
+  if(toolsBackdrop.classList.contains('open')) closeToolsModal();
+  else openToolsModal();
+});
+renderToolsBtn();
 
 /* ============================================================
    GITHUB FILE READ (for staging)
@@ -1390,7 +1723,6 @@ function upsertGameInFile(json, tabId, game){
   if(idx >= 0){
     json.games[idx] = game;
   } else if(BEATEN_TABS.has(tabId)){
-    // Beaten JSONs are stored newest-first — a new beaten game belongs at index 0.
     json.games.unshift(game);
   } else {
     json.games.push(game);
@@ -1410,8 +1742,13 @@ function stripInternal(game){
   delete out._group; delete out._tab; delete out.group; delete out.tab; delete out.source; delete out.series;
   return out;
 }
+function totalPendingCount(){
+  return pendingOps.size + pendingFileWrites.size;
+}
+
 async function commitPending(){
-  if(pendingOps.size === 0){ toast('Nothing to commit', 'bad'); return; }
+  const total = totalPendingCount();
+  if(total === 0){ toast('Nothing to commit', 'bad'); return; }
   if(!getToken()){ showTokenPrompt(); return; }
 
   const stripCommit = pendingStrip.querySelector('.commit');
@@ -1447,6 +1784,11 @@ async function commitPending(){
       writes.push({ path, content: JSON.stringify(fileJson, null, 2) + '\n' });
     }
 
+    // Arbitrary file writes (platforms.json etc.)
+    for(const [path, content] of pendingFileWrites){
+      writes.push({ path, content });
+    }
+
     const headSha = await ghGetHeadSha();
     const baseTree = await ghGetCommitTree(headSha);
     const tree = [];
@@ -1460,25 +1802,30 @@ async function commitPending(){
     }
     const newTree = await ghCreateTree(baseTree, tree);
 
-    let adds = 0, edits = 0, dels = 0, assets = 0;
+    let adds = 0, edits = 0, dels = 0, assets = 0, files = 0;
     for(const op of pendingOps.values()){
       if(op.action === 'delete') dels++;
       else if(op.action === 'asset') assets++;
       else if(op.original) edits++;
       else adds++;
     }
+    files = pendingFileWrites.size;
+
     const parts = [];
     if(adds) parts.push(`${adds} added`);
     if(edits) parts.push(`${edits} edited`);
     if(dels) parts.push(`${dels} deleted`);
     if(assets) parts.push(`${assets} asset${assets === 1 ? '' : 's'}`);
+    if(files) parts.push(`${files} file${files === 1 ? '' : 's'}`);
     const msg = 'Batch: ' + (parts.join(', ') || 'update');
 
     const newCommit = await ghCreateCommit(msg, newTree, headSha);
     await ghUpdateRef(newCommit);
 
     pendingOps.clear();
+    pendingFileWrites.clear();
     stagedAssetUrls.clear();
+    PLATFORMS_ORIGINAL = JSON.parse(JSON.stringify(PLATFORMS));
     updatePendingStrip();
     refreshCurrentTab();
     setCommitState('accepted');
@@ -1495,7 +1842,7 @@ async function commitPending(){
    PENDING UI
    ============================================================ */
 function updatePendingStrip(){
-  const n = pendingOps.size;
+  const n = totalPendingCount();
   if(n === 0 || !adminMode){
     pendingStrip.classList.remove('on');
     pendingStrip.innerHTML = '';
@@ -1514,9 +1861,12 @@ function updatePendingStrip(){
     e.stopPropagation();
     if(!confirm('Discard all unsaved changes?')) return;
     pendingOps.clear();
+    pendingFileWrites.clear();
     stagedAssetUrls.clear();
+    PLATFORMS = JSON.parse(JSON.stringify(PLATFORMS_ORIGINAL));
     updatePendingStrip();
     refreshCurrentTab();
+    renderContent();
     toast('Discarded');
   };
 }
@@ -1543,7 +1893,9 @@ function findGameAnywhere(id){
 }
 function openPendingModal(){
   const ops = [...pendingOps.values()];
-  if(!ops.length){ toast('No pending changes', 'bad'); return; }
+  const fileEntries = [...pendingFileWrites.keys()];
+  const total = ops.length + fileEntries.length;
+  if(!total){ toast('No pending changes', 'bad'); return; }
   const rows = ops.map(op => {
     const tabInfo = ALL_TABS.find(t => t.id === op.tabId);
     const tabLabel = tabInfo ? tabInfo.label : (op.tabId || '?');
@@ -1574,12 +1926,19 @@ function openPendingModal(){
       <button type="button" class="pr-discard" title="Discard this change">✕</button>
     </div>`;
   }).join('');
+  const fileRows = fileEntries.map(path => `
+    <div class="pending-row" data-file-path="${String(path).replace(/"/g,'&quot;')}">
+      <span class="pr-tab">File</span>
+      <span class="pr-action pr-action-file">Edit</span>
+      <span class="pr-name" title="${path}">${path}</span>
+      <button type="button" class="pr-discard" data-file-discard="${String(path).replace(/"/g,'&quot;')}" title="Discard this change">✕</button>
+    </div>`).join('');
   pendingSlot.innerHTML = `
     <div class="pending-modal">
       <button class="modal-close" data-close>✕</button>
-      <h2>Pending changes (${ops.length})</h2>
+      <h2>Pending changes (${total})</h2>
       <p class="sub">These will be committed to GitHub in a single atomic commit.</p>
-      <div class="pending-list">${rows}</div>
+      <div class="pending-list">${rows}${fileRows}</div>
       <div class="token-actions">
         <button type="button" class="btn" data-close>Close</button>
         <button type="button" class="btn danger" id="pm-discard-all">Discard all</button>
@@ -1589,22 +1948,35 @@ function openPendingModal(){
   pendingBackdrop.classList.add('open');
   pendingSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closePendingModal);
   pendingSlot.querySelectorAll('.pr-discard').forEach(btn => btn.onclick = () => {
+    const filePath = btn.dataset.fileDiscard;
+    if(filePath){
+      pendingFileWrites.delete(filePath);
+      PLATFORMS = JSON.parse(JSON.stringify(PLATFORMS_ORIGINAL));
+      updatePendingStrip();
+      renderContent();
+      if(totalPendingCount() === 0) closePendingModal();
+      else openPendingModal();
+      return;
+    }
     const key = btn.closest('.pending-row').dataset.key;
     const op = pendingOps.get(key);
     pendingOps.delete(key);
     if(op && op.action === 'asset') stagedAssetUrls.delete(op.path);
     updatePendingStrip();
     refreshCurrentTab();
-    if(pendingOps.size === 0) closePendingModal();
+    if(totalPendingCount() === 0) closePendingModal();
     else openPendingModal();
   });
   pendingSlot.querySelector('#pm-discard-all').onclick = () => {
     if(!confirm('Discard all pending changes?')) return;
     pendingOps.clear();
+    pendingFileWrites.clear();
     stagedAssetUrls.clear();
+    PLATFORMS = JSON.parse(JSON.stringify(PLATFORMS_ORIGINAL));
     updatePendingStrip();
     closePendingModal();
     refreshCurrentTab();
+    renderContent();
     toast('Discarded all');
   };
   pendingSlot.querySelector('#pm-commit').onclick = () => {
@@ -2104,10 +2476,24 @@ function statusTagsHTML(g){
   if(g.authRequired) tags.push(`<span class="status-tag auth">AUTH</span>`);
   return tags.join('');
 }
+function platformBadgeHTML(g){
+  const key = (g.platform || '').trim();
+  if(!key) return '';
+  if(isPlatformPC(key)) return '';
+  const label = platformLabel(key);
+  const icon = platformIcon(key);
+  if(icon){
+    const safeLabel = String(label).replace(/"/g,'&quot;');
+    return `<span class="icon-badge" title="${safeLabel}"><img src="${PLATFORM_ICON_BASE + icon}" alt="${safeLabel}" decoding="async" onerror="this.parentElement.style.display='none'"></span>`;
+  }
+  return `<span class="status-tag platform">${label}</span>`;
+}
 function ownedBadgesHTML(g){
   const badges = [];
   if(g.ownedSteam) badges.push(`<span class="icon-badge" title="Owned on Steam"><img src="${STEAM_ICON}" alt="Steam" decoding="async"></span>`);
   if(g.gamepass)   badges.push(`<span class="icon-badge" title="Available on GamePass"><img src="${GAMEPASS_ICON}" alt="GamePass" decoding="async"></span>`);
+  const pb = platformBadgeHTML(g);
+  if(pb) badges.push(pb);
   return badges.join('');
 }
 function adminControlsHTML(id){
@@ -2230,8 +2616,6 @@ function emptyHTML(file){
 }
 function loadingHTML(){ return `<div class="loader">Loading</div>`; }
 
-/* Build rank map from raw array (sheet order = newest first).
-   Rank = intrinsic "nth game beaten". Oldest in sheet = rank 1. */
 function buildRankMap(arr){
   const map = new Map();
   const n = arr.length;
@@ -2259,6 +2643,7 @@ function paneSignature(){
   return [
     adminMode ? 'A' : '-',
     pendingOps.size,
+    pendingFileWrites.size,
     sortKey,
     sortDir,
     filterKey,
@@ -2407,7 +2792,7 @@ function modalInfoRows(g){
   } else {
     rows.push(infoRow('icon-date','Released', g.release));
   }
-  rows.push(infoRow('icon-platform','Platform', g.platform));
+  rows.push(infoRow('icon-platform','Platform', platformLabel(g.platform) || g.platform));
   if(!NO_SIZE_TABS.has(tab)) rows.push(infoRow('icon-size','Size', fmtSize(g.size, true)));
   rows.push(infoRow('icon-hltb','HLTB', fmtHltb(g.hltb, true)));
   rows.push(infoRow('icon-dev','Developer', g.dev));
@@ -2517,19 +2902,18 @@ function closeModal(){
   modalNavList = []; modalNavIdx = -1;
 }
 
-/* Close the main modal on any click that isn't inside a modal surface.
-   Prev/next arrows stopPropagation so they never reach here. */
 backdrop.addEventListener('click', e => {
   if(e.target.closest('.modal')) return;
   if(e.target.closest('.admin-modal')) return;
   if(e.target.closest('.confirm')) return;
+  if(e.target.closest('.tools-modal')) return;
   closeAll();
 });
 
 document.addEventListener('keydown', e => {
   if(e.key === 'Escape'){
     closeModal(); closeAllDropdowns(); closeTokenPrompt();
-    closePendingModal();
+    closePendingModal(); closeToolsModal();
     pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
     logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
     moveBackdrop.classList.remove('open'); moveSlot.innerHTML = '';
@@ -3567,30 +3951,35 @@ contentEl.addEventListener('click', e => {
    ============================================================ */
 pendingStrip.addEventListener('click', e => {
   if(e.target.closest('.btns')) return;
-  if(!pendingOps.size) return;
+  if(!totalPendingCount()) return;
   openPendingModal();
 });
 
-(function restoreLastTab(){
-  try{
-    const saved = JSON.parse(localStorage.getItem('view_last_tab') || 'null');
-    if(saved && saved.group && saved.tab
-       && TABS[saved.group]
-       && TABS[saved.group].some(t => t.id === saved.tab)){
-      group = saved.group;
-      tab = saved.tab;
-    }
-  }catch(e){}
-  switchEl.dataset.active = group;
-  bodyEl.dataset.group = group;
-  applySortForTab(tab);
-})();
+(async function boot(){
+  // Load platforms first so badges render correct on first paint.
+  await loadPlatforms();
 
-applyView();
-renderTabs();
-renderContent();
-updatePendingStrip();
-bootAdminFlow();
+  (function restoreLastTab(){
+    try{
+      const saved = JSON.parse(localStorage.getItem('view_last_tab') || 'null');
+      if(saved && saved.group && saved.tab
+         && TABS[saved.group]
+         && TABS[saved.group].some(t => t.id === saved.tab)){
+        group = saved.group;
+        tab = saved.tab;
+      }
+    }catch(e){}
+    switchEl.dataset.active = group;
+    bodyEl.dataset.group = group;
+    applySortForTab(tab);
+  })();
+
+  applyView();
+  renderTabs();
+  renderContent();
+  updatePendingStrip();
+  bootAdminFlow();
+})();
 </script>
 </body>
 </html>
