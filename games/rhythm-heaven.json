@@ -9,8 +9,8 @@
   "dev": "Nintendo",
   "pub": "Nintendo",
   "notes": "Touch controls only. Better use my phone...",
-  "screenshot": "images/screenshots/rhythm-heaven.jpg",
-  "logo": "images/logos/rhythm-heaven.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": false,

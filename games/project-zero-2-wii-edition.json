@@ -9,8 +9,8 @@
   "dev": "Koei Tecmo Games",
   "pub": "Nintendo",
   "notes": "Optional.",
-  "screenshot": "images/screenshots/project-zero-2-wii-edition.jpg",
-  "logo": "images/logos/project-zero-2-wii-edition.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": false,

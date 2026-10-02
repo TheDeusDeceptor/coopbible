@@ -9,8 +9,8 @@
   "dev": "Sanzaru Games",
   "pub": "Sony Interactive Entertainment America",
   "notes": "Optional, minigames compilation.",
-  "screenshot": "images/screenshots/bentley-s-hackpack.jpg",
-  "logo": "images/logos/bentley-s-hackpack.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": false,

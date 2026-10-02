@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-02T19:06:13Z",
+  "updated": "2026-10-02T21:14:58Z",
   "ids": [
     "yakuza",
     "yakuza-2",
@@ -211,10 +211,8 @@
     "silent-hill-downpour",
     "silent-hill-book-of-memories",
     "p-t",
-    "silent-hill-2",
     "silent-hill-f",
     "silent-hill-townfall",
-    "silent-hill",
     "medal-of-honor-1",
     "medal-of-honor-underground",
     "medal-of-honor-allied-assault",
@@ -789,7 +787,6 @@
     "delta-force-urban-warfare",
     "delta-force-black-hawk-down",
     "delta-force-xtreme",
-    "delta-force-xtreme-2",
-    "delta-force-black-hawk-down"
+    "delta-force-xtreme-2"
   ]
 }

@@ -9,8 +9,8 @@
   "dev": "Nintendo EAD",
   "pub": "Nintendo",
   "notes": "60 fps.",
-  "screenshot": "images/screenshots/super-mario-sunshine.jpg",
-  "logo": "images/logos/super-mario-sunshine.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": false,
