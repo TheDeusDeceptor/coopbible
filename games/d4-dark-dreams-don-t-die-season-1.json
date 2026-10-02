@@ -1,0 +1,26 @@
+{
+  "id": "d4-dark-dreams-don-t-die-season-1",
+  "name": "D4: Dark Dreams Don't Die - Season 1",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/d4-dark-dreams-don-t-die-season-1.jpg",
+  "logo": "images/logos/d4-dark-dreams-don-t-die-season-1.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "monster-in-my-pocket",
+  "name": "Monster in My Pocket",
+  "year": "1992",
+  "platform": "",
+  "release": "01.01.1992",
+  "size": "",
+  "hltb": "",
+  "dev": "Konami",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/monster-in-my-pocket.jpg",
+  "logo": "images/logos/monster-in-my-pocket.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

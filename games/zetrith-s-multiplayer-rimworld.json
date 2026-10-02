@@ -1,0 +1,32 @@
+{
+  "id": "zetrith-s-multiplayer-rimworld",
+  "name": "Zetrith's Multiplayer \n(RimWorld)",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 63, +Extra: 119",
+  "dev": "",
+  "pub": "",
+  "notes": "same settlement co-op  |  Version: 0.11.5",
+  "screenshot": "images/screenshots/zetrith-s-multiplayer-rimworld.jpg",
+  "logo": "images/logos/zetrith-s-multiplayer-rimworld.png",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/rwmt/Multiplayer",
+      "icon": "github"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

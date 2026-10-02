@@ -1,0 +1,32 @@
+{
+  "id": "kingdom-two-crowns",
+  "name": "Kingdom Two Crowns",
+  "year": "2018",
+  "platform": "",
+  "release": "11.12.2018",
+  "size": "4 GB",
+  "hltb": "Main: 22, +Extra: 29",
+  "dev": "Stumpy🐙Squid, Fury Studios, Coatsink",
+  "pub": "Raw Fury",
+  "notes": "",
+  "screenshot": "images/screenshots/kingdom-two-crowns.jpg",
+  "logo": "images/logos/kingdom-two-crowns.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/701160",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

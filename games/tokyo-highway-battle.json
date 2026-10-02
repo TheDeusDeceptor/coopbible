@@ -1,0 +1,26 @@
+{
+  "id": "tokyo-highway-battle",
+  "name": "Tokyo Highway Battle",
+  "year": "1996",
+  "platform": "PSX",
+  "release": "03.05.1996",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "Genki",
+  "pub": "Jaleco",
+  "notes": "",
+  "screenshot": "images/screenshots/tokyo-highway-battle.jpg",
+  "logo": "images/logos/tokyo-highway-battle.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tokyo-xtreme-racer",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

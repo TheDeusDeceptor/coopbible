@@ -1,0 +1,26 @@
+{
+  "id": "downhill-domination-usa-chd",
+  "name": "Downhill Domination (USA).chd",
+  "year": "2003",
+  "platform": "ps2",
+  "release": "22.07.2003",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Incognito Entertainment",
+  "pub": "Codemasters",
+  "notes": "",
+  "screenshot": "images/screenshots/downhill-domination-usa-chd.jpg",
+  "logo": "images/logos/downhill-domination-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

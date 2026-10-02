@@ -1,0 +1,26 @@
+{
+  "id": "gun",
+  "name": "Gun",
+  "year": "2005",
+  "platform": "",
+  "release": "08.11.2005",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "Neversoft Entertainment",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/gun.jpg",
+  "logo": "images/logos/gun.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

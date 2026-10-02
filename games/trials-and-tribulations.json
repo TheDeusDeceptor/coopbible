@@ -1,0 +1,26 @@
+{
+  "id": "trials-and-tribulations",
+  "name": "Trials and Tribulations",
+  "year": "2004",
+  "platform": "PC",
+  "release": "2004 (2019)",
+  "size": "",
+  "hltb": "Main: 21, +Extra: 25",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-attorney",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

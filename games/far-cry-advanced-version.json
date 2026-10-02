@@ -1,0 +1,31 @@
+{
+  "id": "far-cry-advanced-version",
+  "name": "Far Cry Advanced Version",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 16",
+  "dev": "",
+  "pub": "",
+  "notes": "Version: CBT",
+  "screenshot": "images/screenshots/far-cry-advanced-version.jpg",
+  "logo": "images/logos/far-cry-advanced-version.png",
+  "links": [
+    {
+      "label": "Store",
+      "url": "https://farcry1.itch.io/far-cry-advanced-version"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "parasite-eve-ii-usa-canada-disc-2-chd",
+  "name": "Parasite Eve II (USA, Canada) (Disc 2).chd",
+  "year": "2000",
+  "platform": "psx",
+  "release": "12.09.2000",
+  "size": "",
+  "hltb": "Main: 12",
+  "dev": "Squaresoft",
+  "pub": "Squaresoft",
+  "notes": "",
+  "screenshot": "images/screenshots/parasite-eve-ii-usa-canada-disc-2-chd.jpg",
+  "logo": "images/logos/parasite-eve-ii-usa-canada-disc-2-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

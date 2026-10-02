@@ -1,0 +1,26 @@
+{
+  "id": "starsky-hutch-usa-chd",
+  "name": "Starsky & Hutch (USA).chd",
+  "year": "2003",
+  "platform": "ps2",
+  "release": "09.09.2003",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "Minds Eye Productions",
+  "pub": "Empire Interactive",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/starsky-hutch-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

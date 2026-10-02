@@ -1,0 +1,26 @@
+{
+  "id": "tenchu-fatal-shadows",
+  "name": "Tenchu: Fatal Shadows",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "22.07.2004",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "FromSoftware",
+  "pub": "FromSoftware",
+  "notes": "",
+  "screenshot": "images/screenshots/tenchu-fatal-shadows.jpg",
+  "logo": "images/logos/tenchu-fatal-shadows.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tenchu",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "test-drive-4",
+  "name": "Test Drive 4",
+  "year": "1997",
+  "platform": "PC",
+  "release": "03.11.1997",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Pitbull Syndicate",
+  "pub": "Accolade",
+  "notes": "",
+  "screenshot": "images/screenshots/test-drive-4.png",
+  "logo": "images/logos/test-drive-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "test-drive",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

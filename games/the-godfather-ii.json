@@ -1,0 +1,26 @@
+{
+  "id": "the-godfather-ii",
+  "name": "The Godfather II",
+  "year": "2009",
+  "platform": "",
+  "release": "07.04.2009",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 14",
+  "dev": "Electronic Arts Redwood Shores Studio",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/the-godfather-ii.jpg",
+  "logo": "images/logos/the-godfather-ii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rainbow-six-lone-wolf",
+  "name": "Rainbow Six: Lone Wolf",
+  "year": "2002",
+  "platform": "PSX",
+  "release": "2002.0",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/rainbow-six-lone-wolf.jpg",
+  "logo": "images/logos/rainbow-six-lone-wolf.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-rainbow-six",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

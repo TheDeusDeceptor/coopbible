@@ -1,0 +1,32 @@
+{
+  "id": "borderlands-3",
+  "name": "Borderlands 3",
+  "year": "2020",
+  "platform": "",
+  "release": "13.03.2020",
+  "size": "75 GB",
+  "hltb": "Main: 23, +Extra: 46",
+  "dev": "Gearbox Software",
+  "pub": "2K",
+  "notes": "+ Moxxi's Heist of the Handsome Jackpot\n\n     + Guns, Love, and Tentacles\n\n     + Bounty of Blood\n\n     + Psycho Krieg and the Fantastic Fustercluck",
+  "screenshot": "images/screenshots/borderlands-3.jpg",
+  "logo": "images/logos/borderlands-3.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/397540",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

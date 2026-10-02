@@ -1,0 +1,32 @@
+{
+  "id": "moonminers",
+  "name": "MoonMiners",
+  "year": "2025",
+  "platform": "",
+  "release": "17.07.2025",
+  "size": "20 GB",
+  "hltb": "",
+  "dev": "MIROWIN",
+  "pub": "PM Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/moonminers.jpg",
+  "logo": "images/logos/moonminers.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3681820",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

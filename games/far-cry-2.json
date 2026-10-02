@@ -1,0 +1,26 @@
+{
+  "id": "far-cry-2",
+  "name": "Far Cry 2",
+  "year": "2008",
+  "platform": "",
+  "release": "21.10.2008",
+  "size": "",
+  "hltb": "",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/far-cry-2.jpg",
+  "logo": "images/logos/far-cry-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

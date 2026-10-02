@@ -1,0 +1,32 @@
+{
+  "id": "we-were-here",
+  "name": "We Were Here",
+  "year": "2017",
+  "platform": "",
+  "release": "03.02.2017",
+  "size": "4 GB",
+  "hltb": "Main: 2",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/we-were-here.jpg",
+  "logo": "images/logos/we-were-here.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/582500",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

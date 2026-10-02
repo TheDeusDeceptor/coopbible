@@ -1,0 +1,32 @@
+{
+  "id": "infernal-radiation",
+  "name": "Infernal Radiation",
+  "year": "2020",
+  "platform": "",
+  "release": "28.12.2020",
+  "size": "3 GB",
+  "hltb": "",
+  "dev": "Asmodev",
+  "pub": "Ultimate Games",
+  "notes": "",
+  "screenshot": "images/screenshots/infernal-radiation.jpg",
+  "logo": "images/logos/infernal-radiation.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/832140",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

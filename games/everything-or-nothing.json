@@ -1,0 +1,26 @@
+{
+  "id": "everything-or-nothing",
+  "name": "Everything or Nothing",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "2004.0",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/everything-or-nothing.jpg",
+  "logo": "images/logos/everything-or-nothing.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "007",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

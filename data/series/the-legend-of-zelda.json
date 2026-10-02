@@ -1,0 +1,16 @@
+{
+  "id": "the-legend-of-zelda",
+  "name": "The Legend of Zelda",
+  "logo": "",
+  "main": 245,
+  "extra": 387,
+  "order": [
+    "zelda-64-recompiled-the-legend-of-zelda-ocarina-of-time",
+    "zelda-64-recompiled-the-legend-of-zelda-majora-s-mask",
+    "the-legend-of-zelda-the-wind-waker-hd",
+    "dusklight-the-legend-of-zelda-twilight-princess",
+    "the-legend-of-zelda-skyward-sword",
+    "the-legend-of-zelda-breath-of-the-wild",
+    "the-legend-of-zelda-tears-of-the-kingdom"
+  ]
+}

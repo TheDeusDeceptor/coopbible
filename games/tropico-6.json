@@ -1,0 +1,32 @@
+{
+  "id": "tropico-6",
+  "name": "Tropico 6",
+  "year": "2019",
+  "platform": "",
+  "release": "29.03.2019",
+  "size": "16 GB",
+  "hltb": "Main: 35, +Extra: 56",
+  "dev": "Limbic Entertainment",
+  "pub": "Kalypso Media",
+  "notes": "READY",
+  "screenshot": "images/screenshots/tropico-6.jpg",
+  "logo": "images/logos/tropico-6.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/492720",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

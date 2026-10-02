@@ -1,0 +1,26 @@
+{
+  "id": "the-hell-in-vietnam",
+  "name": "The Hell in Vietnam",
+  "year": "2007",
+  "platform": "PC",
+  "release": "2007.0",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/the-hell-in-vietnam.jpg",
+  "logo": "images/logos/the-hell-in-vietnam.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "city-interactive",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

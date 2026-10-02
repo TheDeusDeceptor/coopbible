@@ -1,0 +1,26 @@
+{
+  "id": "tekken-3-usa-chd",
+  "name": "Tekken 3 (USA).chd",
+  "year": "1998",
+  "platform": "psx",
+  "release": "29.04.1998",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "Namco",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/tekken-3-usa-chd.jpg",
+  "logo": "images/logos/tekken-3-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

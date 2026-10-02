@@ -1,0 +1,26 @@
+{
+  "id": "ridge-racer-v-usa-chd",
+  "name": "Ridge Racer V (USA).chd",
+  "year": "2000",
+  "platform": "ps2",
+  "release": "04.03.2000",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/ridge-racer-v-usa-chd.jpg",
+  "logo": "images/logos/ridge-racer-v-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

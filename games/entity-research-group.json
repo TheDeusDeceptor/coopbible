@@ -1,0 +1,32 @@
+{
+  "id": "entity-research-group",
+  "name": "Entity Research Group",
+  "year": "2026",
+  "platform": "",
+  "release": "Q2 2026",
+  "size": "",
+  "hltb": "",
+  "dev": "Faceless Smile Corp.",
+  "pub": "Faceless Smile Corp.",
+  "notes": "",
+  "screenshot": "images/screenshots/entity-research-group.jpg",
+  "logo": "images/logos/entity-research-group.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4038080",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

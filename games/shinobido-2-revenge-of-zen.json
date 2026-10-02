@@ -1,0 +1,26 @@
+{
+  "id": "shinobido-2-revenge-of-zen",
+  "name": "Shinobido 2: Revenge of Zen",
+  "year": "2012",
+  "platform": "PSVita",
+  "release": "21.02.2012",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Acquire",
+  "pub": "Namco Bandai Games",
+  "notes": "",
+  "screenshot": "images/screenshots/shinobido-2-revenge-of-zen.jpg",
+  "logo": "images/logos/shinobido-2-revenge-of-zen.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "shinobido",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "the-witcher-3-wild-hunt",
+  "name": "The Witcher 3: Wild Hunt",
+  "year": "2015",
+  "platform": "",
+  "release": "18.05.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "CD Projekt RED",
+  "pub": "CD Projekt Red",
+  "notes": "",
+  "screenshot": "images/screenshots/the-witcher-3-wild-hunt.jpg",
+  "logo": "images/logos/the-witcher-3-wild-hunt.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

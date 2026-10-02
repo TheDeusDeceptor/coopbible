@@ -1,0 +1,26 @@
+{
+  "id": "double-dragon",
+  "name": "Double Dragon",
+  "year": "1988",
+  "platform": "",
+  "release": "01.01.1988",
+  "size": "",
+  "hltb": "",
+  "dev": "Animagic",
+  "pub": "Dro Soft",
+  "notes": "",
+  "screenshot": "images/screenshots/double-dragon.jpg",
+  "logo": "images/logos/double-dragon.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

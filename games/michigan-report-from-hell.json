@@ -1,0 +1,26 @@
+{
+  "id": "michigan-report-from-hell",
+  "name": "Michigan: Report from Hell",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "05.08.2004",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Grasshopper Manufacture",
+  "pub": "505 Gamestreet",
+  "notes": "",
+  "screenshot": "images/screenshots/michigan-report-from-hell.jpg",
+  "logo": "images/logos/michigan-report-from-hell.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "grasshopper-manufacture",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

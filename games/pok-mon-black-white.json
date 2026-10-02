@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-black-white",
+  "name": "Pokémon Black (White)",
+  "year": "2010",
+  "platform": "DS",
+  "release": "2010.0",
+  "size": "",
+  "hltb": "Main: 31, +Extra: 60",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "pok-mon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": ""
+}

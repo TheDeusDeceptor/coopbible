@@ -1,0 +1,32 @@
+{
+  "id": "eco",
+  "name": "Eco",
+  "year": "2018",
+  "platform": "",
+  "release": "06.02.2018",
+  "size": "6 GB",
+  "hltb": "",
+  "dev": "Strange Loop Games",
+  "pub": "Strange Loop Games",
+  "notes": "",
+  "screenshot": "images/screenshots/eco.jpg",
+  "logo": "images/logos/eco.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/382310",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

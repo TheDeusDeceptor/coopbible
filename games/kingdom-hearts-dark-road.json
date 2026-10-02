@@ -1,0 +1,26 @@
+{
+  "id": "kingdom-hearts-dark-road",
+  "name": "Kingdom Hearts Dark Road",
+  "year": "2020",
+  "platform": "Android",
+  "release": "2020.0",
+  "size": "",
+  "hltb": "Main: 47, +Extra: 50",
+  "dev": "",
+  "pub": "",
+  "notes": "Optional.",
+  "screenshot": "images/screenshots/kingdom-hearts-dark-road.jpg",
+  "logo": "images/logos/kingdom-hearts-dark-road.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "kingdom-hearts",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Optional."
+}

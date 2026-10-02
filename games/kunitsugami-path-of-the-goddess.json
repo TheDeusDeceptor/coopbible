@@ -1,0 +1,26 @@
+{
+  "id": "kunitsugami-path-of-the-goddess",
+  "name": "KunitsuGami Path of the Goddess",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "16 GB",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/kunitsugami-path-of-the-goddess.jpg",
+  "logo": "images/logos/kunitsugami-path-of-the-goddess.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

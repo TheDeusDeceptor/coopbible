@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-village",
+  "name": "Resident Evil Village",
+  "year": "2021",
+  "platform": "PC",
+  "release": "2021.0",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-village.jpg",
+  "logo": "images/logos/resident-evil-village.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

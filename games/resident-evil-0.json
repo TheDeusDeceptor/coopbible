@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-0",
+  "name": "Resident Evil 0",
+  "year": "2019",
+  "platform": "",
+  "release": "21.05.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-0.jpg",
+  "logo": "images/logos/resident-evil-0.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dig-island",
+  "name": "Dig Island",
+  "year": "2026",
+  "platform": "",
+  "release": "30.01.2026",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "FiftyEight Studios",
+  "pub": "FiftyEight Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/dig-island.jpg",
+  "logo": "images/logos/dig-island.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3919360",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

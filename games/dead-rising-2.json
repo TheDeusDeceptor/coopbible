@@ -1,0 +1,26 @@
+{
+  "id": "dead-rising-2",
+  "name": "Dead Rising 2",
+  "year": "2010",
+  "platform": "",
+  "release": "24.09.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Blue Castle Games",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/dead-rising-2.jpg",
+  "logo": "images/logos/dead-rising-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

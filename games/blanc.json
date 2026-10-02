@@ -1,0 +1,32 @@
+{
+  "id": "blanc",
+  "name": "Blanc",
+  "year": "2023",
+  "platform": "",
+  "release": "14.02.2023",
+  "size": "2 GB",
+  "hltb": "Main: 2",
+  "dev": "Casus Ludi",
+  "pub": "Gearbox Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/blanc.jpg",
+  "logo": "images/logos/blanc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1982340",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

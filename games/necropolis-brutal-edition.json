@@ -1,0 +1,32 @@
+{
+  "id": "necropolis-brutal-edition",
+  "name": "NECROPOLIS: BRUTAL EDITION",
+  "year": "2016",
+  "platform": "",
+  "release": "12.07.2016",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Harebrained Schemes",
+  "pub": "Paradox Interactive, Bandai Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/necropolis-brutal-edition.jpg",
+  "logo": "images/logos/necropolis-brutal-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/384490",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

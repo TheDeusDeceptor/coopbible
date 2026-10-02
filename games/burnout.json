@@ -1,0 +1,26 @@
+{
+  "id": "burnout",
+  "name": "Burnout",
+  "year": "1996",
+  "platform": "PS2",
+  "release": "01.01.1996",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Scorpius Software",
+  "pub": "Vulcan Software",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout.jpg",
+  "logo": "images/logos/burnout.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "burnout",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

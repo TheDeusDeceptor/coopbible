@@ -1,0 +1,14 @@
+{
+  "id": "trauma-center",
+  "name": "Trauma Center",
+  "logo": "",
+  "main": 61,
+  "extra": 75,
+  "order": [
+    "trauma-center-under-the-knife",
+    "trauma-center-second-opinion",
+    "trauma-center-new-blood",
+    "trauma-center-under-the-knife-2",
+    "trauma-team"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "painkiller-black-edition",
+  "name": "Painkiller: Black Edition",
+  "year": "2025",
+  "platform": "PC",
+  "release": "21.10.2025",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 15",
+  "dev": "Saber Interactive",
+  "pub": "3D Realms",
+  "notes": "Version: 1.3.2",
+  "screenshot": "images/screenshots/painkiller-black-edition.jpg",
+  "logo": "images/logos/painkiller-black-edition.png",
+  "links": [
+    {
+      "label": "ModDB",
+      "url": "https://www.moddb.com/mods/painkiller-cooperative-mode",
+      "icon": "moddb"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "painkiller",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Black Edition includes Out of Hell expansion."
+}

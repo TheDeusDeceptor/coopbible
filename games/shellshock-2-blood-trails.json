@@ -1,0 +1,26 @@
+{
+  "id": "shellshock-2-blood-trails",
+  "name": "Shellshock 2: Blood Trails",
+  "year": "2009",
+  "platform": "",
+  "release": "24.02.2009",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Rebellion Derby",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/shellshock-2-blood-trails.jpg",
+  "logo": "images/logos/shellshock-2-blood-trails.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

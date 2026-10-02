@@ -1,0 +1,26 @@
+{
+  "id": "another-world-20th-anniversary-edition",
+  "name": "Another World – 20th Anniversary Edition",
+  "year": "2006",
+  "platform": "",
+  "release": "13.04.2006",
+  "size": "",
+  "hltb": "",
+  "dev": "Eric Chahi",
+  "pub": "Digital Lounge",
+  "notes": "",
+  "screenshot": "images/screenshots/another-world-20th-anniversary-edition.jpg",
+  "logo": "images/logos/another-world-20th-anniversary-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

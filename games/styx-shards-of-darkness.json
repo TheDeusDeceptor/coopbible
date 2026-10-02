@@ -1,0 +1,32 @@
+{
+  "id": "styx-shards-of-darkness",
+  "name": "Styx: Shards of Darkness",
+  "year": "2017",
+  "platform": "",
+  "release": "14.03.2017",
+  "size": "11 GB",
+  "hltb": "Main: 12, +Extra: 17",
+  "dev": "Cyanide Studio",
+  "pub": "Nacon",
+  "notes": "READY",
+  "screenshot": "images/screenshots/styx-shards-of-darkness.jpg",
+  "logo": "images/logos/styx-shards-of-darkness.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/355790",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

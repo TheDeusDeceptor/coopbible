@@ -1,0 +1,32 @@
+{
+  "id": "aliens-fireteam-elite",
+  "name": "Aliens: Fireteam Elite",
+  "year": "2021",
+  "platform": "",
+  "release": "23.08.2021",
+  "size": "30 GB",
+  "hltb": "Main: 8, +Extra: 16",
+  "dev": "Cold Iron Studios",
+  "pub": "Cold Iron Studios",
+  "notes": "emulation issues",
+  "screenshot": "images/screenshots/aliens-fireteam-elite.jpg",
+  "logo": "images/logos/aliens-fireteam-elite.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1549970",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

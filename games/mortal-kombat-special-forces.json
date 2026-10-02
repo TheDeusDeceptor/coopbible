@@ -1,0 +1,26 @@
+{
+  "id": "mortal-kombat-special-forces",
+  "name": "Mortal Kombat: Special Forces",
+  "year": "2000",
+  "platform": "",
+  "release": "29.06.2000",
+  "size": "",
+  "hltb": "",
+  "dev": "Midway Games",
+  "pub": "Midway Games",
+  "notes": "",
+  "screenshot": "images/screenshots/mortal-kombat-special-forces.jpg",
+  "logo": "images/logos/mortal-kombat-special-forces.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tom-clancy-s-ghost-recon-wildlands",
+  "name": "Tom Clancy's Ghost Recon® Wildlands",
+  "year": "2017",
+  "platform": "",
+  "release": "06.03.2017",
+  "size": "50 GB",
+  "hltb": "Main: 27, +Extra: 54",
+  "dev": "Ubisoft Paris, Ubisoft Annecy, Ubisoft Bucharest, Ubisoft Montpellier, Ubisoft Milan, Reflections, Ubisoft Belgrade",
+  "pub": "Ubisoft",
+  "notes": "+ Fallen Ghosts\n\n     + Narco Road\n\n     + Last Rites",
+  "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-wildlands.jpg",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-wildlands.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/460930",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

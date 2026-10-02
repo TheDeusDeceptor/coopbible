@@ -1,0 +1,26 @@
+{
+  "id": "big-mutha-truckers-2-usa-chd",
+  "name": "Big Mutha Truckers 2 (USA).chd",
+  "year": "2008",
+  "platform": "ps2",
+  "release": "23.08.2008",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Eutechnyx",
+  "pub": "THQ",
+  "notes": "",
+  "screenshot": "images/screenshots/big-mutha-truckers-2-usa-chd.jpg",
+  "logo": "images/logos/big-mutha-truckers-2-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

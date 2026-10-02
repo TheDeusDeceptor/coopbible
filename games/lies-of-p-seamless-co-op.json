@@ -1,0 +1,32 @@
+{
+  "id": "lies-of-p-seamless-co-op",
+  "name": "Lies of P Seamless Co-op",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 28, +Extra: 36",
+  "dev": "",
+  "pub": "",
+  "notes": "Version: v1.1.0-BETA\n\nREADY",
+  "screenshot": "images/screenshots/lies-of-p-seamless-co-op.jpg",
+  "logo": "images/logos/lies-of-p-seamless-co-op.png",
+  "links": [
+    {
+      "label": "Patreon",
+      "url": "https://www.patreon.com/EmberWaveTeam",
+      "icon": "patreon"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

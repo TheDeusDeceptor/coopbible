@@ -1,0 +1,17 @@
+{
+  "id": "gears-of-war",
+  "name": "Gears of War",
+  "logo": "",
+  "main": 62,
+  "extra": 78,
+  "order": [
+    "gears-of-war-ultimate-edition",
+    "gears-of-war-2-hollow",
+    "gears-of-war-3",
+    "gears-of-war-judgment",
+    "gears-of-war-4",
+    "gears-5",
+    "gears-of-war-reloaded",
+    "gears-of-war-e-day"
+  ]
+}

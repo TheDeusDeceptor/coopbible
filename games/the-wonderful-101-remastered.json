@@ -1,0 +1,32 @@
+{
+  "id": "the-wonderful-101-remastered",
+  "name": "The Wonderful 101: Remastered",
+  "year": "2020",
+  "platform": "PC",
+  "release": "19.05.2020",
+  "size": "15 GB",
+  "hltb": "Main: 15, +Extra: 19",
+  "dev": "PlatinumGames Inc.",
+  "pub": "PlatinumGames Inc.",
+  "notes": "READY\n(specific missions)",
+  "screenshot": "images/screenshots/the-wonderful-101-remastered.jpg",
+  "logo": "images/logos/the-wonderful-101-remastered.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1190400",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "platinum-games",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

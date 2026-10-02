@@ -1,0 +1,32 @@
+{
+  "id": "house-flipper-2",
+  "name": "House Flipper 2",
+  "year": "2023",
+  "platform": "",
+  "release": "14.12.2023",
+  "size": "10 GB",
+  "hltb": "Main: 14, +Extra: 23",
+  "dev": "Frozen District",
+  "pub": "Frozen District",
+  "notes": "- Scooby-Doo DLC\n\n     - Sakura DLC\n\n     - Pets DLC (upcoming 2026)",
+  "screenshot": "images/screenshots/house-flipper-2.jpg",
+  "logo": "images/logos/house-flipper-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1190970",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

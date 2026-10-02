@@ -1,0 +1,32 @@
+{
+  "id": "remnant-ii",
+  "name": "REMNANT II®",
+  "year": "2023",
+  "platform": "",
+  "release": "25.07.2023",
+  "size": "80 GB",
+  "hltb": "Main: 18, +Extra: 29",
+  "dev": "Gunfire Games",
+  "pub": "Arc Games, THQ Nordic",
+  "notes": "+ The Awakened King\n\n     + The Forgotten Kingdom\n\n     + The Dark Horizon",
+  "screenshot": "images/screenshots/remnant-ii.jpg",
+  "logo": "images/logos/remnant-ii.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1282100",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

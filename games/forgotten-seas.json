@@ -1,0 +1,32 @@
+{
+  "id": "forgotten-seas",
+  "name": "Forgotten Seas",
+  "year": "2025",
+  "platform": "",
+  "release": "11.10.2025",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Pangea Game Studios",
+  "pub": "indie.io",
+  "notes": "",
+  "screenshot": "images/screenshots/forgotten-seas.jpg",
+  "logo": "images/logos/forgotten-seas.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2168260",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

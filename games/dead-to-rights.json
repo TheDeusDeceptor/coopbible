@@ -1,0 +1,26 @@
+{
+  "id": "dead-to-rights",
+  "name": "Dead to Rights",
+  "year": "2002",
+  "platform": "PC",
+  "release": "03.06.2002",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Namco Hometek",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/dead-to-rights.jpg",
+  "logo": "images/logos/dead-to-rights.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "dead-to-rights",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

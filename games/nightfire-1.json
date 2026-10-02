@@ -1,0 +1,26 @@
+{
+  "id": "nightfire-1",
+  "name": "NightFire",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "PS2",
+  "screenshot": "images/screenshots/nightfire-1.jpg",
+  "logo": "images/logos/nightfire-1.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

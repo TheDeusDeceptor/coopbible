@@ -1,0 +1,32 @@
+{
+  "id": "shape-of-dreams",
+  "name": "Shape of Dreams",
+  "year": "2025",
+  "platform": "",
+  "release": "10.09.2025",
+  "size": "12 GB",
+  "hltb": "Main: 7, +Extra: 23",
+  "dev": "Lizard Smoothie",
+  "pub": "NEOWIZ",
+  "notes": "",
+  "screenshot": "images/screenshots/shape-of-dreams.jpg",
+  "logo": "images/logos/shape-of-dreams.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2444750",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

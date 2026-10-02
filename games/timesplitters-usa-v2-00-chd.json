@@ -1,0 +1,26 @@
+{
+  "id": "timesplitters-usa-v2-00-chd",
+  "name": "TimeSplitters (USA) (v2.00).chd",
+  "year": "2000",
+  "platform": "ps2",
+  "release": "24.11.2000",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "Free Radical Design",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/timesplitters-usa-v2-00-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

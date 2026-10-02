@@ -1,0 +1,26 @@
+{
+  "id": "knights-of-the-temple-ii",
+  "name": "Knights of the Temple II",
+  "year": "2005",
+  "platform": "",
+  "release": "24.11.2005",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "Cauldron",
+  "pub": "Evolved Games",
+  "notes": "",
+  "screenshot": "images/screenshots/knights-of-the-temple-ii.jpg",
+  "logo": "images/logos/knights-of-the-temple-ii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

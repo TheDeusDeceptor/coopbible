@@ -1,0 +1,26 @@
+{
+  "id": "lego-star-wars-the-skywalker-saga",
+  "name": "LEGO Star Wars The Skywalker Saga",
+  "year": "2022",
+  "platform": "",
+  "release": "05.04.2022",
+  "size": "40 GB",
+  "hltb": "Main: 19, +Extra: 35",
+  "dev": "TT Games Studios",
+  "pub": "Warner Bros. Interactive Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/lego-star-wars-the-skywalker-saga.jpg",
+  "logo": "images/logos/lego-star-wars-the-skywalker-saga.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

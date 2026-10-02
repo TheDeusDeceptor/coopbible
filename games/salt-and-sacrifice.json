@@ -1,0 +1,32 @@
+{
+  "id": "salt-and-sacrifice",
+  "name": "Salt and Sacrifice",
+  "year": "2023",
+  "platform": "",
+  "release": "06.11.2023",
+  "size": "2 GB",
+  "hltb": "Main: 17, +Extra: 22",
+  "dev": "Devoured Studios, Ska Studios",
+  "pub": "Ska Studios",
+  "notes": "READY?",
+  "screenshot": "images/screenshots/salt-and-sacrifice.jpg",
+  "logo": "images/logos/salt-and-sacrifice.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1437400",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

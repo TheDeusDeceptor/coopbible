@@ -1,0 +1,32 @@
+{
+  "id": "lost-planet-2",
+  "name": "Lost Planet® 2",
+  "year": "2010",
+  "platform": "",
+  "release": "15.10.2010",
+  "size": "13 GB",
+  "hltb": "Main: 10, +Extra: 15",
+  "dev": "CAPCOM CO., LTD.",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/lost-planet-2.jpg",
+  "logo": "images/logos/lost-planet-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/45750",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

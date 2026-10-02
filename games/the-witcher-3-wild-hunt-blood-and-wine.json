@@ -1,0 +1,26 @@
+{
+  "id": "the-witcher-3-wild-hunt-blood-and-wine",
+  "name": "The Witcher 3: Wild Hunt - Blood and Wine",
+  "year": "2016",
+  "platform": "",
+  "release": "31.05.2016",
+  "size": "",
+  "hltb": "",
+  "dev": "CD Projekt RED",
+  "pub": "CD Projekt",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/the-witcher-3-wild-hunt-blood-and-wine.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

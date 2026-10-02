@@ -1,0 +1,26 @@
+{
+  "id": "the-elder-scrolls-v-skyrim",
+  "name": "The Elder Scrolls V: Skyrim",
+  "year": "2011",
+  "platform": "",
+  "release": "11.11.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Bethesda Game Studios",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "screenshot": "images/screenshots/the-elder-scrolls-v-skyrim.jpg",
+  "logo": "images/logos/the-elder-scrolls-v-skyrim.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

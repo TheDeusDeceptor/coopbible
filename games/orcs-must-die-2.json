@@ -1,0 +1,32 @@
+{
+  "id": "orcs-must-die-2",
+  "name": "Orcs Must Die! 2",
+  "year": "2012",
+  "platform": "",
+  "release": "30.07.2012",
+  "size": "9 GB",
+  "hltb": "Main: 8, +Extra: 20",
+  "dev": "Robot Entertainment",
+  "pub": "Robot Entertainment",
+  "notes": "STEAM\nOMD!1 campaign included",
+  "screenshot": "images/screenshots/orcs-must-die-2.jpg",
+  "logo": "images/logos/orcs-must-die-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/201790",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

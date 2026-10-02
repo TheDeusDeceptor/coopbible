@@ -1,0 +1,26 @@
+{
+  "id": "armored-core-for-answer",
+  "name": "Armored Core: For Answer",
+  "year": "2008",
+  "platform": "PS3",
+  "release": "19.03.2008",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "FromSoftware",
+  "pub": "Ubisoft Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/armored-core-for-answer.jpg",
+  "logo": "images/logos/armored-core-for-answer.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "armored-core",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

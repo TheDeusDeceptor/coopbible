@@ -1,0 +1,26 @@
+{
+  "id": "the-walking-dead-the-telltale-definitive-series",
+  "name": "The Walking Dead The Telltale Definitive Series",
+  "year": "2020",
+  "platform": "",
+  "release": "28.10.2020",
+  "size": "45 GB",
+  "hltb": "Main: 42, +Extra: 47",
+  "dev": "Skybound Games",
+  "pub": "Skybound Games",
+  "notes": "",
+  "screenshot": "images/screenshots/the-walking-dead-the-telltale-definitive-series.jpg",
+  "logo": "images/logos/the-walking-dead-the-telltale-definitive-series.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

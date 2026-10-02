@@ -1,0 +1,26 @@
+{
+  "id": "contra",
+  "name": "Contra",
+  "year": "1987",
+  "platform": "",
+  "release": "20.02.1987",
+  "size": "",
+  "hltb": "",
+  "dev": "Konami",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/contra.jpg",
+  "logo": "images/logos/contra.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

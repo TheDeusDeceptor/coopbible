@@ -1,0 +1,26 @@
+{
+  "id": "crash-bandicoot-the-wrath-of-cortex",
+  "name": "Crash Bandicoot: The Wrath of Cortex",
+  "year": "2002",
+  "platform": "PS2",
+  "release": "16.04.2002",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "Traveller's Tales (UK)",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/crash-bandicoot-the-wrath-of-cortex.jpg",
+  "logo": "images/logos/crash-bandicoot-the-wrath-of-cortex.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "crash-bandicoot",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

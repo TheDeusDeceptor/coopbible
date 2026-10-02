@@ -1,0 +1,32 @@
+{
+  "id": "fears-to-fathom-scratch-creek",
+  "name": "Fears to Fathom® - Scratch Creek",
+  "year": "2026",
+  "platform": "",
+  "release": "10.06.2026",
+  "size": "14 GB",
+  "hltb": "Main: 3",
+  "dev": "Rayll",
+  "pub": "Rayll Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/fears-to-fathom-scratch-creek.jpg",
+  "logo": "images/logos/fears-to-fathom-scratch-creek.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4121170",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

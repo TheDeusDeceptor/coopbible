@@ -1,0 +1,32 @@
+{
+  "id": "sniper-elite-5",
+  "name": "Sniper Elite 5",
+  "year": "2022",
+  "platform": "PC",
+  "release": "25.05.2022",
+  "size": "85 GB",
+  "hltb": "Main: 11, +Extra: 20",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/sniper-elite-5.jpg",
+  "logo": "images/logos/sniper-elite-5.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1029690",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "sniper-elite",
+  "series_status": null,
+  "series_color": "blue",
+  "series_note": null
+}

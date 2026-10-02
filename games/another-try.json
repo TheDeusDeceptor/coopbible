@@ -1,0 +1,32 @@
+{
+  "id": "another-try",
+  "name": "Another Try",
+  "year": "2020",
+  "platform": "",
+  "release": "19.04.2020",
+  "size": "2 GB",
+  "hltb": "",
+  "dev": "Hoki Wolf Studio",
+  "pub": "Hoki Wolf Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/another-try.jpg",
+  "logo": "images/logos/another-try.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1197220",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

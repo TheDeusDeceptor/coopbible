@@ -1,0 +1,26 @@
+{
+  "id": "socom-u-s-navy-seals-combined-assault-usa-chd",
+  "name": "SOCOM - U.S. Navy SEALs - Combined Assault (USA).chd",
+  "year": "2006",
+  "platform": "ps2",
+  "release": "07.11.2006",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Zipper Interactive",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/socom-u-s-navy-seals-combined-assault-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

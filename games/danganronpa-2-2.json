@@ -1,0 +1,26 @@
+{
+  "id": "danganronpa-2-2",
+  "name": "Danganronpa 2×2",
+  "year": "2026",
+  "platform": "PC",
+  "release": "2026.0",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/danganronpa-2-2.jpg",
+  "logo": "images/logos/danganronpa-2-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "danganronpa",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "madworld",
+  "name": "MadWorld",
+  "year": "2009",
+  "platform": "Wii",
+  "release": "10.03.2009",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "PlatinumGames",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/madworld.jpg",
+  "logo": "images/logos/madworld.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "platinum-games",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

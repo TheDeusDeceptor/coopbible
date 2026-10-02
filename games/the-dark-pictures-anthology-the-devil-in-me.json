@@ -1,0 +1,32 @@
+{
+  "id": "the-dark-pictures-anthology-the-devil-in-me",
+  "name": "The Dark Pictures Anthology: The Devil in Me",
+  "year": "2022",
+  "platform": "",
+  "release": "17.11.2022",
+  "size": "65 GB",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "Supermassive Games",
+  "pub": "Bandai Namco Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/the-dark-pictures-anthology-the-devil-in-me.jpg",
+  "logo": "images/logos/the-dark-pictures-anthology-the-devil-in-me.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1567020",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

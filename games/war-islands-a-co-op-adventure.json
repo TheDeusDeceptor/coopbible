@@ -1,0 +1,32 @@
+{
+  "id": "war-islands-a-co-op-adventure",
+  "name": "War Islands: A Co-op Adventure",
+  "year": "2020",
+  "platform": "",
+  "release": "29.06.2020",
+  "size": "4 GB",
+  "hltb": "",
+  "dev": "Biduba Version",
+  "pub": "Biduba Version",
+  "notes": "",
+  "screenshot": "images/screenshots/war-islands-a-co-op-adventure.jpg",
+  "logo": "images/logos/war-islands-a-co-op-adventure.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1268100",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

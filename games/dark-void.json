@@ -1,0 +1,26 @@
+{
+  "id": "dark-void",
+  "name": "Dark Void",
+  "year": "2010",
+  "platform": "",
+  "release": "19.01.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Airtight",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/dark-void.jpg",
+  "logo": "images/logos/dark-void.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

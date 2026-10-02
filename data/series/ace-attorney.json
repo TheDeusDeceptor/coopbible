@@ -1,0 +1,20 @@
+{
+  "id": "ace-attorney",
+  "name": "Ace Attorney",
+  "logo": "",
+  "main": 285,
+  "extra": 323,
+  "order": [
+    "phoenix-wright",
+    "justice-for-all",
+    "trials-and-tribulations",
+    "apollo-justice",
+    "dual-destinies",
+    "spirit-of-justice",
+    "investigations-miles-edgeworth",
+    "investigations-2-prosecutor-s-gambit",
+    "the-great-ace-attorney-adventures",
+    "the-great-ace-attorney-2-resolve",
+    "professor-layton-vs-phoenix-wright"
+  ]
+}

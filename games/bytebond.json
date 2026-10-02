@@ -1,0 +1,32 @@
+{
+  "id": "bytebond",
+  "name": "Bytebond",
+  "year": "2025",
+  "platform": "",
+  "release": "18.09.2025",
+  "size": "7 GB",
+  "hltb": "Full: 6",
+  "dev": "DVD Unicorns",
+  "pub": "Anshar Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/bytebond.jpg",
+  "logo": "images/logos/bytebond.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1952690",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

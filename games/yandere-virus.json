@@ -1,0 +1,32 @@
+{
+  "id": "yandere-virus",
+  "name": "Yandere Virus",
+  "year": "2026",
+  "platform": "",
+  "release": "21.09.2026",
+  "size": "",
+  "hltb": "",
+  "dev": "Moka Sphere, SCON",
+  "pub": "Moka Sphere",
+  "notes": "",
+  "screenshot": "images/screenshots/yandere-virus.jpg",
+  "logo": "images/logos/yandere-virus.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4513060",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

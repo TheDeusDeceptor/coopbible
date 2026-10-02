@@ -1,0 +1,26 @@
+{
+  "id": "mighty-final-fight",
+  "name": "Mighty Final Fight",
+  "year": "1993",
+  "platform": "",
+  "release": "11.06.1993",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/mighty-final-fight.jpg",
+  "logo": "images/logos/mighty-final-fight.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

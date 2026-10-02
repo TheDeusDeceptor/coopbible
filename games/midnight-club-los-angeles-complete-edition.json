@@ -1,0 +1,26 @@
+{
+  "id": "midnight-club-los-angeles-complete-edition",
+  "name": "Midnight Club: Los Angeles (Complete Edition)",
+  "year": "2008",
+  "platform": "PS3 or PC",
+  "release": "20.10.2008",
+  "size": "",
+  "hltb": "Main: 22, +Extra: 34",
+  "dev": "Rockstar San Diego",
+  "pub": "Rockstar Games",
+  "notes": "Xbox 360 version recomp is in the works.",
+  "screenshot": "images/screenshots/midnight-club-los-angeles-complete-edition.jpg",
+  "logo": "images/logos/midnight-club-los-angeles-complete-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "midnight-club",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Xbox 360 version recomp is in the works."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "gamble-with-your-friends",
+  "name": "Gamble With Your Friends",
+  "year": "2026",
+  "platform": "",
+  "release": "01.05.2026",
+  "size": "3 GB",
+  "hltb": "Main: 4, +Extra: 8",
+  "dev": "TEAM GWYF",
+  "pub": "TENSTACK",
+  "notes": "",
+  "screenshot": "images/screenshots/gamble-with-your-friends.jpg",
+  "logo": "images/logos/gamble-with-your-friends.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3892270",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

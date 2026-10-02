@@ -1,0 +1,26 @@
+{
+  "id": "warriors-abyss",
+  "name": "WARRIORS Abyss",
+  "year": "2025",
+  "platform": "",
+  "release": "12.02.2025",
+  "size": "4 GB",
+  "hltb": "Main: 6, +Extra: 14",
+  "dev": "Koei Tecmo Games",
+  "pub": "Koei Tecmo Games",
+  "notes": "",
+  "screenshot": "images/screenshots/warriors-abyss.jpg",
+  "logo": "images/logos/warriors-abyss.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

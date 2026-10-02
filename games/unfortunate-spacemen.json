@@ -1,0 +1,32 @@
+{
+  "id": "unfortunate-spacemen",
+  "name": "Unfortunate Spacemen",
+  "year": "2020",
+  "platform": "",
+  "release": "12.06.2020",
+  "size": "7 GB",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "Geoff 'Zag' Keene, Deep Field Games",
+  "pub": "Deep Field Games, New Blood Interactive",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/unfortunate-spacemen.jpg",
+  "logo": "images/logos/unfortunate-spacemen.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/408900",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

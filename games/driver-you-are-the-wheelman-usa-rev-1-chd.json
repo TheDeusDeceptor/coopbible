@@ -1,0 +1,26 @@
+{
+  "id": "driver-you-are-the-wheelman-usa-rev-1-chd",
+  "name": "Driver - You Are the Wheelman (USA) (Rev 1).chd",
+  "year": "1999",
+  "platform": "psx",
+  "release": "25.06.1999",
+  "size": "",
+  "hltb": "",
+  "dev": "Reflections Interactive",
+  "pub": "GT Interactive Software",
+  "notes": "",
+  "screenshot": "images/screenshots/driver-you-are-the-wheelman-usa-rev-1-chd.jpg",
+  "logo": "images/logos/driver-you-are-the-wheelman-usa-rev-1-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

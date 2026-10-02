@@ -1,0 +1,26 @@
+{
+  "id": "metal-gear-solid-v-ground-zeroes",
+  "name": "Metal Gear Solid V: Ground Zeroes",
+  "year": "2014",
+  "platform": "PC",
+  "release": "2014.0",
+  "size": "",
+  "hltb": "Main: 2, +Extra: 6",
+  "dev": "Kojima Productions",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/metal-gear-solid-v-ground-zeroes.jpg",
+  "logo": "images/logos/metal-gear-solid-v-ground-zeroes.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metal-gear-solid",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

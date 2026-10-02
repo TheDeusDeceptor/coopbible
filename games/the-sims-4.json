@@ -1,0 +1,26 @@
+{
+  "id": "the-sims-4",
+  "name": "The Sims 4",
+  "year": "2017",
+  "platform": "",
+  "release": "14.11.2017",
+  "size": "",
+  "hltb": "",
+  "dev": "Maxis",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/the-sims-4.jpg",
+  "logo": "images/logos/the-sims-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

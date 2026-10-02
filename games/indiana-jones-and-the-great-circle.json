@@ -1,0 +1,26 @@
+{
+  "id": "indiana-jones-and-the-great-circle",
+  "name": "Indiana Jones and the Great Circle",
+  "year": "2025",
+  "platform": "",
+  "release": "17.04.2025",
+  "size": "",
+  "hltb": "",
+  "dev": "Machinegames",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "screenshot": "images/screenshots/indiana-jones-and-the-great-circle.jpg",
+  "logo": "images/logos/indiana-jones-and-the-great-circle.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

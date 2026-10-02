@@ -1,0 +1,17 @@
+{
+  "id": "twisted-metal",
+  "name": "Twisted Metal",
+  "logo": "",
+  "main": 29,
+  "extra": 69,
+  "order": [
+    "twisted-metal-2",
+    "twisted-metal-2-2",
+    "twisted-metal-iii",
+    "twisted-metal-4",
+    "twisted-metal-black",
+    "twisted-metal-small-brawl",
+    "twisted-metal-head-on-extra-twisted-edition",
+    "twisted-metal-3"
+  ]
+}

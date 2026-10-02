@@ -1,0 +1,26 @@
+{
+  "id": "world-war-zero-ironstorm",
+  "name": "World War Zero: Ironstorm",
+  "year": "2004",
+  "platform": "",
+  "release": "01.01.2004",
+  "size": "",
+  "hltb": "",
+  "dev": "Rebellion Developments",
+  "pub": "MC2-Microïds",
+  "notes": "",
+  "screenshot": "images/screenshots/world-war-zero-ironstorm.jpg",
+  "logo": "images/logos/world-war-zero-ironstorm.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tenchu-2-birth-of-the-stealth-assassins",
+  "name": "Tenchu 2: Birth of the Stealth Assassins",
+  "year": "2000",
+  "platform": "PSX",
+  "release": "15.08.2000",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 14",
+  "dev": "Acquire",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/tenchu-2-birth-of-the-stealth-assassins.jpg",
+  "logo": "images/logos/tenchu-2-birth-of-the-stealth-assassins.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tenchu",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

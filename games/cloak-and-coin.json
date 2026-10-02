@@ -1,0 +1,32 @@
+{
+  "id": "cloak-and-coin",
+  "name": "Cloak And Coin",
+  "year": "2025",
+  "platform": "",
+  "release": "05.12.2025",
+  "size": "3 GB",
+  "hltb": "",
+  "dev": "netDOT",
+  "pub": "netDOT",
+  "notes": "",
+  "screenshot": "images/screenshots/cloak-and-coin.jpg",
+  "logo": "images/logos/cloak-and-coin.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3525440",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rune-ii-decapitation-edition",
+  "name": "RUNE II: Decapitation Edition",
+  "year": "2020",
+  "platform": "",
+  "release": "13.11.2020",
+  "size": "35 GB",
+  "hltb": "Main+Sides: 20",
+  "dev": "Studio 369",
+  "pub": "Ragnarok Game, LLC",
+  "notes": "READY",
+  "screenshot": "images/screenshots/rune-ii-decapitation-edition.jpg",
+  "logo": "images/logos/rune-ii-decapitation-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/821290",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

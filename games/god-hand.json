@@ -1,0 +1,26 @@
+{
+  "id": "god-hand",
+  "name": "God Hand",
+  "year": "2006",
+  "platform": "",
+  "release": "14.09.2006",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 15",
+  "dev": "Clover Studio",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/god-hand.jpg",
+  "logo": "images/logos/god-hand.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

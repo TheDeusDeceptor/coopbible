@@ -1,0 +1,26 @@
+{
+  "id": "high-on-life",
+  "name": "High on Life",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "",
+  "pub": "Squanch Games",
+  "notes": "",
+  "screenshot": "images/screenshots/high-on-life.jpg",
+  "logo": "images/logos/high-on-life.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "unravel-two",
+  "name": "Unravel Two",
+  "year": "2020",
+  "platform": "",
+  "release": "04.06.2020",
+  "size": "8 GB",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Coldwood Interactive",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/unravel-two.jpg",
+  "logo": "images/logos/unravel-two.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1225570",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "din-s-champion",
+  "name": "Din's Champion",
+  "year": "2026",
+  "platform": "",
+  "release": "24.08.2026",
+  "size": "1 GB",
+  "hltb": "",
+  "dev": "Soldak Entertainment",
+  "pub": "Soldak Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/din-s-champion.jpg",
+  "logo": "images/logos/din-s-champion.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2880010",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

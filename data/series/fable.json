@@ -1,0 +1,14 @@
+{
+  "id": "fable",
+  "name": "Fable",
+  "logo": "",
+  "main": 48,
+  "extra": 78,
+  "order": [
+    "fable-anniversary",
+    "fable-ii",
+    "fable-iii",
+    "fable-the-journey",
+    "fable"
+  ]
+}

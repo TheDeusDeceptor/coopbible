@@ -1,0 +1,26 @@
+{
+  "id": "sega-ages-2500-series-vol-2-monaco-gp-japan-chd",
+  "name": "Sega Ages 2500 Series Vol. 2 - Monaco GP (Japan).chd",
+  "year": "2003",
+  "platform": "ps2",
+  "release": "28.08.2003",
+  "size": "",
+  "hltb": "",
+  "dev": "Tamsoft",
+  "pub": "3D-Ages",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/sega-ages-2500-series-vol-2-monaco-gp-japan-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

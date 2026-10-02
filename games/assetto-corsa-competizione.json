@@ -1,0 +1,26 @@
+{
+  "id": "assetto-corsa-competizione",
+  "name": "Assetto Corsa Competizione",
+  "year": "2018",
+  "platform": "",
+  "release": "12.09.2018",
+  "size": "19 GB",
+  "hltb": "Main: 13, +Extra: 99",
+  "dev": "Kunos Simulazioni",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/assetto-corsa-competizione.jpg",
+  "logo": "images/logos/assetto-corsa-competizione.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

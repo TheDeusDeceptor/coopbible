@@ -1,0 +1,32 @@
+{
+  "id": "warhammer-vermintide-2",
+  "name": "Warhammer: Vermintide 2",
+  "year": "2018",
+  "platform": "",
+  "release": "08.03.2018",
+  "size": "60 GB",
+  "hltb": "Main+Sides: 55",
+  "dev": "Fatshark",
+  "pub": "Fatshark",
+  "notes": "STEAM\n\n(EAC anal penetration against DLC unlockers)",
+  "screenshot": "images/screenshots/warhammer-vermintide-2.jpg",
+  "logo": "images/logos/warhammer-vermintide-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/552500",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

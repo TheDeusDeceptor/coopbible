@@ -1,0 +1,26 @@
+{
+  "id": "outlast",
+  "name": "Outlast",
+  "year": "2013",
+  "platform": "",
+  "release": "03.09.2013",
+  "size": "",
+  "hltb": "",
+  "dev": "Red Barrels",
+  "pub": "Red Barrels",
+  "notes": "",
+  "screenshot": "images/screenshots/outlast.jpg",
+  "logo": "images/logos/outlast.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

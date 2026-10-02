@@ -1,0 +1,26 @@
+{
+  "id": "hollow-knight",
+  "name": "Hollow Knight",
+  "year": "2018",
+  "platform": "",
+  "release": "12.06.2018",
+  "size": "",
+  "hltb": "Main: 27, +Extra: 42",
+  "dev": "Team Cherry",
+  "pub": "Team Cherry",
+  "notes": "",
+  "screenshot": "images/screenshots/hollow-knight.jpg",
+  "logo": "images/logos/hollow-knight.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

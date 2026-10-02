@@ -1,0 +1,32 @@
+{
+  "id": "beach-invasion-1915-gallipoli",
+  "name": "Beach Invasion 1915-Gallipoli",
+  "year": "2025",
+  "platform": "",
+  "release": "03.12.2025",
+  "size": "0.1 GB",
+  "hltb": "",
+  "dev": "AIx2 Games",
+  "pub": "AIx2 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/beach-invasion-1915-gallipoli.jpg",
+  "logo": "images/logos/beach-invasion-1915-gallipoli.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3556670",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

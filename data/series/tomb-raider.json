@@ -1,0 +1,25 @@
+{
+  "id": "tomb-raider",
+  "name": "Tomb Raider",
+  "logo": "",
+  "main": 170,
+  "extra": 224,
+  "order": [
+    "tomb-raider-remastered",
+    "tomb-raider-ii-remastered",
+    "tomb-raider-iii-remastered",
+    "tomb-raider-the-last-revelation-remastered",
+    "tomb-raider-chronicles-remastered",
+    "tomb-raider-the-angel-of-darkness-remastered",
+    "tomb-raider-legend",
+    "tomb-raider-anniversary",
+    "tomb-raider-underworld",
+    "lara-croft-and-the-guardian-of-light",
+    "tomb-raider-definitive-edition",
+    "lara-croft-and-the-temple-of-osiris",
+    "rise-of-the-tomb-raider",
+    "shadow-of-the-tomb-raider",
+    "tomb-raider-legacy-of-atlantis",
+    "tomb-raider-catalyst"
+  ]
+}

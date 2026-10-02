@@ -1,0 +1,26 @@
+{
+  "id": "guitar-hero-iii-legends-of-rock",
+  "name": "Guitar Hero III: Legends of Rock",
+  "year": "2007",
+  "platform": "",
+  "release": "28.10.2007",
+  "size": "",
+  "hltb": "",
+  "dev": "Vicarious Visions",
+  "pub": "RedOctane",
+  "notes": "",
+  "screenshot": "images/screenshots/guitar-hero-iii-legends-of-rock.jpg",
+  "logo": "images/logos/guitar-hero-iii-legends-of-rock.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

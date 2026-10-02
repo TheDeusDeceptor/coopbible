@@ -1,0 +1,26 @@
+{
+  "id": "rainbow-six-siege",
+  "name": "Rainbow Six Siege",
+  "year": "2015",
+  "platform": "PC",
+  "release": "2015.0",
+  "size": "",
+  "hltb": "Main: 3, +Extra: 26",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/rainbow-six-siege.jpg",
+  "logo": "images/logos/rainbow-six-siege.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-rainbow-six",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

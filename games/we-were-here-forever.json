@@ -1,0 +1,32 @@
+{
+  "id": "we-were-here-forever",
+  "name": "We Were Here Forever",
+  "year": "2022",
+  "platform": "",
+  "release": "10.05.2022",
+  "size": "25 GB",
+  "hltb": "Main: 11",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "ONLINE ONLY\n\n\n\nunsteam?",
+  "screenshot": "images/screenshots/we-were-here-forever.jpg",
+  "logo": "images/logos/we-were-here-forever.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1341290",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

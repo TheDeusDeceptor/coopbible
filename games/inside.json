@@ -1,0 +1,26 @@
+{
+  "id": "inside",
+  "name": "INSIDE",
+  "year": "2016",
+  "platform": "",
+  "release": "28.06.2016",
+  "size": "3 GB",
+  "hltb": "Main: 4",
+  "dev": "Playdead",
+  "pub": "Playdead",
+  "notes": "",
+  "screenshot": "images/screenshots/inside.jpg",
+  "logo": "images/logos/inside.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

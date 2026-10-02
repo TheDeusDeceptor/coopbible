@@ -1,0 +1,32 @@
+{
+  "id": "baldur-s-gate-3",
+  "name": "Baldur's Gate 3",
+  "year": "2023",
+  "platform": "",
+  "release": "03.08.2023",
+  "size": "150 GB",
+  "hltb": "Main: 72, +Extra: 115",
+  "dev": "Larian Studios",
+  "pub": "Larian Studios",
+  "notes": "updates occasionally",
+  "screenshot": "images/screenshots/baldur-s-gate-3.jpg",
+  "logo": "images/logos/baldur-s-gate-3.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1086940",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "deus-ex-human-revolution-director-s-cut",
+  "name": "Deus Ex: Human Revolution - Director's Cut",
+  "year": "2013",
+  "platform": "",
+  "release": "22.10.2013",
+  "size": "",
+  "hltb": "",
+  "dev": "Eidos Montreal",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/deus-ex-human-revolution-director-s-cut.jpg",
+  "logo": "images/logos/deus-ex-human-revolution-director-s-cut.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

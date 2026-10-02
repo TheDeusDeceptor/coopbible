@@ -1,0 +1,32 @@
+{
+  "id": "tropico-5",
+  "name": "Tropico 5",
+  "year": "2014",
+  "platform": "",
+  "release": "23.05.2014",
+  "size": "4 GB",
+  "hltb": "Main: 22, +Extra: 40",
+  "dev": "Haemimont Games",
+  "pub": "Kalypso Media Digital",
+  "notes": "Developer server authorization required",
+  "screenshot": "images/screenshots/tropico-5.jpg",
+  "logo": "images/logos/tropico-5.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/245620",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

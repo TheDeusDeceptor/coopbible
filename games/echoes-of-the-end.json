@@ -1,0 +1,26 @@
+{
+  "id": "echoes-of-the-end",
+  "name": "Echoes of the End",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 14",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/echoes-of-the-end.jpg",
+  "logo": "images/logos/echoes-of-the-end.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

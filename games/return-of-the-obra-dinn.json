@@ -1,0 +1,26 @@
+{
+  "id": "return-of-the-obra-dinn",
+  "name": "Return of the Obra Dinn",
+  "year": "2019",
+  "platform": "",
+  "release": "18.10.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "3909.0",
+  "pub": "3909.0",
+  "notes": "",
+  "screenshot": "images/screenshots/return-of-the-obra-dinn.jpg",
+  "logo": "images/logos/return-of-the-obra-dinn.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

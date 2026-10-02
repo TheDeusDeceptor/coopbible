@@ -1,0 +1,26 @@
+{
+  "id": "tomb-raider-legacy-of-atlantis",
+  "name": "Tomb Raider: Legacy of Atlantis",
+  "year": "2027",
+  "platform": "",
+  "release": "2027.0",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "Second(!) remake of first game.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tomb-raider",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Second(!) remake of first game."
+}

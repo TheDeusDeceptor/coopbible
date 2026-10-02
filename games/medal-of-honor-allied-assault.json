@@ -1,0 +1,32 @@
+{
+  "id": "medal-of-honor-allied-assault",
+  "name": "Medal of Honor: Allied Assault",
+  "year": "2002",
+  "platform": "PC",
+  "release": "22.01.2002",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "2015.0",
+  "pub": "Electronic Arts",
+  "notes": "via OpenMoHAA + HaZardModding Coop",
+  "screenshot": "images/screenshots/medal-of-honor-allied-assault.jpg",
+  "logo": "images/logos/medal-of-honor-allied-assault.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Medal_of_Honor:_Allied_Assault",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "medal-of-honor",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": null
+}

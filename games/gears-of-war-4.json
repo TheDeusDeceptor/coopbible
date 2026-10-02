@@ -1,0 +1,26 @@
+{
+  "id": "gears-of-war-4",
+  "name": "Gears of War 4",
+  "year": "2016",
+  "platform": "PC",
+  "release": "11.10.2016",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "The Coalition",
+  "pub": "Microsoft",
+  "notes": "",
+  "screenshot": "images/screenshots/gears-of-war-4.jpg",
+  "logo": "images/logos/gears-of-war-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gears-of-war",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

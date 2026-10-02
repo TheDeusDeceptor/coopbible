@@ -1,0 +1,26 @@
+{
+  "id": "simcity",
+  "name": "SimCity",
+  "year": "1990",
+  "platform": "",
+  "release": "01.01.1990",
+  "size": "",
+  "hltb": "",
+  "dev": "Maxis",
+  "pub": "Superior Software",
+  "notes": "",
+  "screenshot": "images/screenshots/simcity.jpg",
+  "logo": "images/logos/simcity.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

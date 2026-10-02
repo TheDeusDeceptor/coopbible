@@ -1,0 +1,26 @@
+{
+  "id": "v-rally-3-usa-en-fr-es-gba",
+  "name": "V-Rally 3 (USA) (En,Fr,Es).gba",
+  "year": "",
+  "platform": "gba",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

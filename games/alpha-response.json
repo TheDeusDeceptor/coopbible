@@ -1,0 +1,32 @@
+{
+  "id": "alpha-response",
+  "name": "Alpha Response",
+  "year": "2024",
+  "platform": "",
+  "release": "08.10.2024",
+  "size": "20 GB",
+  "hltb": "",
+  "dev": "Ultimo Ratio Games",
+  "pub": "Ultimo Ratio Games",
+  "notes": "",
+  "screenshot": "images/screenshots/alpha-response.jpg",
+  "logo": "images/logos/alpha-response.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2089250/Alpha_Response/",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

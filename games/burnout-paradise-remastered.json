@@ -1,0 +1,26 @@
+{
+  "id": "burnout-paradise-remastered",
+  "name": "Burnout Paradise (Remastered)",
+  "year": "2008",
+  "platform": "PC",
+  "release": "2008 (2018)",
+  "size": "8 GB",
+  "hltb": "Main: 11, +Extra: 20",
+  "dev": "Criterion Software",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout-paradise-remastered.jpg",
+  "logo": "images/logos/burnout-paradise-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "burnout",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

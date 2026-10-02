@@ -1,0 +1,26 @@
+{
+  "id": "kyatto-ninden-teyandee",
+  "name": "Kyatto Ninden Teyandee",
+  "year": "1991",
+  "platform": "",
+  "release": "19.07.1991",
+  "size": "",
+  "hltb": "",
+  "dev": "Tecmo",
+  "pub": "Tecmo",
+  "notes": "",
+  "screenshot": "images/screenshots/kyatto-ninden-teyandee.jpg",
+  "logo": "images/logos/kyatto-ninden-teyandee.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lost-planet-extreme-condition-colonies-edition",
+  "name": "Lost Planet: Extreme Condition - Colonies Edition",
+  "year": "2010",
+  "platform": "",
+  "release": "11.02.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/lost-planet-extreme-condition-colonies-edition.jpg",
+  "logo": "images/logos/lost-planet-extreme-condition-colonies-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

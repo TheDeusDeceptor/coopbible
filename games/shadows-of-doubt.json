@@ -1,0 +1,26 @@
+{
+  "id": "shadows-of-doubt",
+  "name": "Shadows of Doubt",
+  "year": "2023",
+  "platform": "",
+  "release": "23.04.2023",
+  "size": "",
+  "hltb": "Main: 23, +Extra: 38",
+  "dev": "ColePowered Games",
+  "pub": "Fireshine Games",
+  "notes": "",
+  "screenshot": "images/screenshots/shadows-of-doubt.jpg",
+  "logo": "images/logos/shadows-of-doubt.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,15 @@
+{
+  "id": "turok",
+  "name": "Turok",
+  "logo": "",
+  "main": 48,
+  "extra": 68,
+  "order": [
+    "turok-dinosaur-hunter-remastered",
+    "turok-2-seeds-of-evil-remastered",
+    "turok-rage-wars",
+    "turok-3-shadow-of-oblivion-remastered",
+    "turok-evolution",
+    "turok"
+  ]
+}

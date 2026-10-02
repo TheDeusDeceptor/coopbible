@@ -1,0 +1,26 @@
+{
+  "id": "wii-play-motion-usa-en-fr-es-rvz",
+  "name": "Wii Play - Motion (USA) (En,Fr,Es).rvz",
+  "year": "",
+  "platform": "wii",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty",
+  "name": "Call of Duty",
+  "year": "2004",
+  "platform": "PC",
+  "release": "10.11.2004",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "OmegaSoft",
+  "pub": "Nokia Oyj",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty.jpg",
+  "logo": "images/logos/call-of-duty.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": "rerun",
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "god-of-war-2018",
+  "name": "God of War",
+  "year": "2018",
+  "platform": "PC",
+  "release": "2018 (2022)",
+  "size": "",
+  "hltb": "Main: 20, +Extra: 33",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "god-of-war",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

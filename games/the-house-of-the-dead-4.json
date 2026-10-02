@@ -1,0 +1,26 @@
+{
+  "id": "the-house-of-the-dead-4",
+  "name": "The House of the Dead 4",
+  "year": "2005",
+  "platform": "PS3",
+  "release": "01.01.2005",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "WOW Entertainment",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/the-house-of-the-dead-4.jpg",
+  "logo": "images/logos/the-house-of-the-dead-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "the-house-of-the-dead",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

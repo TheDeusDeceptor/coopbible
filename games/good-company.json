@@ -1,0 +1,32 @@
+{
+  "id": "good-company",
+  "name": "Good Company",
+  "year": "2022",
+  "platform": "",
+  "release": "21.06.2022",
+  "size": "2 GB",
+  "hltb": "+Sides: 82",
+  "dev": "Chasing Carrots",
+  "pub": "Chasing Carrots",
+  "notes": "",
+  "screenshot": "images/screenshots/good-company.jpg",
+  "logo": "images/logos/good-company.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/911430",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

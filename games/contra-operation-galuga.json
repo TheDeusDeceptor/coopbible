@@ -1,0 +1,32 @@
+{
+  "id": "contra-operation-galuga",
+  "name": "Contra: Operation Galuga",
+  "year": "2024",
+  "platform": "",
+  "release": "12.03.2024",
+  "size": "15 GB",
+  "hltb": "Main: 2, +Extra: 5",
+  "dev": "WayForward",
+  "pub": "KONAMI",
+  "notes": "",
+  "screenshot": "images/screenshots/contra-operation-galuga.jpg",
+  "logo": "images/logos/contra-operation-galuga.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2235020",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

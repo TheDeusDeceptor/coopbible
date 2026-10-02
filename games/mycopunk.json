@@ -1,0 +1,32 @@
+{
+  "id": "mycopunk",
+  "name": "Mycopunk",
+  "year": "2025",
+  "platform": "",
+  "release": "10.07.2025",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "Pigeons at Play",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "screenshot": "images/screenshots/mycopunk.jpg",
+  "logo": "images/logos/mycopunk.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3247750",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

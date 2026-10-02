@@ -1,0 +1,26 @@
+{
+  "id": "ninja-gaiden-ii-black",
+  "name": "Ninja Gaiden II Black",
+  "year": "2025",
+  "platform": "PC",
+  "release": "23.01.2025",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Team Ninja",
+  "pub": "Koei Tecmo",
+  "notes": "At this point I can only assume possibility of me playing this game.",
+  "screenshot": "images/screenshots/ninja-gaiden-ii-black.jpg",
+  "logo": "images/logos/ninja-gaiden-ii-black.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ninja-gaiden",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "At this point I can only assume possibility of me playing this game."
+}

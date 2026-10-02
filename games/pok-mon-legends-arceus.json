@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-legends-arceus",
+  "name": "Pokémon Legends: Arceus",
+  "year": "2022",
+  "platform": "Switch",
+  "release": "28.01.2022",
+  "size": "",
+  "hltb": "Main: 26, +Extra: 45",
+  "dev": "Game Freak",
+  "pub": "Nintendo",
+  "notes": "Sequel to Diamond\\Pearl.",
+  "screenshot": "images/screenshots/pok-mon-legends-arceus.jpg",
+  "logo": "images/logos/pok-mon-legends-arceus.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "pok-mon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Sequel to Diamond\\Pearl."
+}

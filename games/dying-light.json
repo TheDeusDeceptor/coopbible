@@ -1,0 +1,32 @@
+{
+  "id": "dying-light",
+  "name": "Dying Light",
+  "year": "2015",
+  "platform": "",
+  "release": "26.01.2015",
+  "size": "40 GB",
+  "hltb": "Main: 22, +Extra: 42",
+  "dev": "Techland",
+  "pub": "Techland",
+  "notes": "+ The Following",
+  "screenshot": "images/screenshots/dying-light.jpg",
+  "logo": "images/logos/dying-light.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/239140",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

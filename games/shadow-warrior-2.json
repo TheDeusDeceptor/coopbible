@@ -1,0 +1,32 @@
+{
+  "id": "shadow-warrior-2",
+  "name": "Shadow Warrior 2",
+  "year": "2016",
+  "platform": "",
+  "release": "13.10.2016",
+  "size": "14 GB",
+  "hltb": "Main: 8, +Extra: 16",
+  "dev": "Flying Wild Hog",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "screenshot": "images/screenshots/shadow-warrior-2.jpg",
+  "logo": "images/logos/shadow-warrior-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/324800",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

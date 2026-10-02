@@ -1,0 +1,26 @@
+{
+  "id": "apollo-justice",
+  "name": "Apollo Justice",
+  "year": "2007",
+  "platform": "PC",
+  "release": "2007 (2024)",
+  "size": "",
+  "hltb": "Main: 20, +Extra: 22",
+  "dev": "",
+  "pub": "",
+  "notes": "Apollo Justice Trilogy.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-attorney",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": "Apollo Justice Trilogy."
+}

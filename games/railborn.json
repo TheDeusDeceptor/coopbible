@@ -1,0 +1,32 @@
+{
+  "id": "railborn",
+  "name": "Railborn",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Washbear Studio",
+  "pub": "Washbear Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/railborn.jpg",
+  "logo": "images/logos/railborn.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2340970",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

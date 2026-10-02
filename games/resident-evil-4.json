@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-4",
+  "name": "Resident Evil 4",
+  "year": "2023",
+  "platform": "PC",
+  "release": "2023.0",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 21",
+  "dev": "Capcom Production Studio 4",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-4.jpg",
+  "logo": "images/logos/resident-evil-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

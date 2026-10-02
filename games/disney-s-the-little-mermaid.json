@@ -1,0 +1,26 @@
+{
+  "id": "disney-s-the-little-mermaid",
+  "name": "Disney's The Little Mermaid",
+  "year": "1991",
+  "platform": "",
+  "release": "19.07.1991",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/disney-s-the-little-mermaid.jpg",
+  "logo": "images/logos/disney-s-the-little-mermaid.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

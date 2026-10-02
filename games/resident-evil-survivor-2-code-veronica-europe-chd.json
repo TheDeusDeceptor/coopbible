@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-survivor-2-code-veronica-europe-chd",
+  "name": "Resident Evil - Survivor 2 - Code - Veronica (Europe).chd",
+  "year": "2001",
+  "platform": "ps2",
+  "release": "08.11.2001",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "Namco",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-survivor-2-code-veronica-europe-chd.jpg",
+  "logo": "images/logos/resident-evil-survivor-2-code-veronica-europe-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

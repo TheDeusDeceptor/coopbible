@@ -1,0 +1,26 @@
+{
+  "id": "dante-s-inferno",
+  "name": "Dante's Inferno",
+  "year": "1986",
+  "platform": "",
+  "release": "01.01.1986",
+  "size": "",
+  "hltb": "",
+  "dev": "Denton Designs",
+  "pub": "Beyond",
+  "notes": "",
+  "screenshot": "images/screenshots/dante-s-inferno.jpg",
+  "logo": "images/logos/dante-s-inferno.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

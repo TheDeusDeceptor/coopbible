@@ -1,0 +1,26 @@
+{
+  "id": "kingdom-hearts-melody-of-memory",
+  "name": "Kingdom Hearts: Melody of Memory",
+  "year": "2020",
+  "platform": "PC",
+  "release": "13.11.2020",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 16",
+  "dev": "Square Enix",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/kingdom-hearts-melody-of-memory.jpg",
+  "logo": "images/logos/kingdom-hearts-melody-of-memory.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "kingdom-hearts",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

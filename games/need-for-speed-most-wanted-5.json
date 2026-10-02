@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-most-wanted-5",
+  "name": "Need For Speed Most Wanted",
+  "year": "2005",
+  "platform": "",
+  "release": "15.11.2005",
+  "size": "4.6 GB",
+  "hltb": "Main: 10",
+  "dev": "Electronic Arts Black Box",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-most-wanted-5.jpg",
+  "logo": "images/logos/need-for-speed-most-wanted-5.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

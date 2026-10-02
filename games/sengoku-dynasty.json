@@ -1,0 +1,32 @@
+{
+  "id": "sengoku-dynasty",
+  "name": "Sengoku Dynasty",
+  "year": "2024",
+  "platform": "",
+  "release": "07.11.2024",
+  "size": "15 GB",
+  "hltb": "Main: 28, +Extra: 68",
+  "dev": "Superkami",
+  "pub": "Toplitz Productions",
+  "notes": "",
+  "screenshot": "images/screenshots/sengoku-dynasty.jpg",
+  "logo": "images/logos/sengoku-dynasty.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1702010",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "fable-ii",
+  "name": "Fable II",
+  "year": "2008",
+  "platform": "X360",
+  "release": "21.10.2008",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 24",
+  "dev": "Lionhead Studios",
+  "pub": "Microsoft Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/fable-ii.jpg",
+  "logo": "images/logos/fable-ii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "fable",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

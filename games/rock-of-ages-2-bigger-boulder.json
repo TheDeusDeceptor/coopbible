@@ -1,0 +1,32 @@
+{
+  "id": "rock-of-ages-2-bigger-boulder",
+  "name": "Rock of Ages 2: Bigger & Boulder™",
+  "year": "2017",
+  "platform": "",
+  "release": "28.08.2017",
+  "size": "6 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "ACE Team",
+  "pub": "SEGA",
+  "notes": "",
+  "screenshot": "images/screenshots/rock-of-ages-2-bigger-boulder.jpg",
+  "logo": "images/logos/rock-of-ages-2-bigger-boulder.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/434460",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

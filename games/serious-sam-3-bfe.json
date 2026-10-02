@@ -1,0 +1,26 @@
+{
+  "id": "serious-sam-3-bfe",
+  "name": "Serious Sam 3: BFE",
+  "year": "2011",
+  "platform": "",
+  "release": "22.11.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Croteam",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "screenshot": "images/screenshots/serious-sam-3-bfe.jpg",
+  "logo": "images/logos/serious-sam-3-bfe.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

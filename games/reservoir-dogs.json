@@ -1,0 +1,26 @@
+{
+  "id": "reservoir-dogs",
+  "name": "Reservoir Dogs",
+  "year": "2006",
+  "platform": "",
+  "release": "24.10.2006",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Volatile Games",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/reservoir-dogs.jpg",
+  "logo": "images/logos/reservoir-dogs.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "yakuza-0-co-op",
+  "name": "Yakuza 0 Co-op",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 31, +Extra: 64",
+  "dev": "",
+  "pub": "",
+  "notes": "Version: 01.11.2025",
+  "screenshot": "images/screenshots/yakuza-0-co-op.jpg",
+  "logo": "images/logos/yakuza-0-co-op.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/yakuza0/mods/1276",
+      "icon": "nexus"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

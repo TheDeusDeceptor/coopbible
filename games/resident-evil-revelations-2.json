@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-revelations-2",
+  "name": "Resident Evil: Revelations 2",
+  "year": "2015",
+  "platform": "PC",
+  "release": "2015.0",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 16",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-revelations-2.jpg",
+  "logo": "images/logos/resident-evil-revelations-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

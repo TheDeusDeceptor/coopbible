@@ -1,0 +1,26 @@
+{
+  "id": "dishonored-definitive-edition",
+  "name": "Dishonored: Definitive Edition",
+  "year": "2012",
+  "platform": "",
+  "release": "11.10.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Arkane Studios",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "screenshot": "images/screenshots/dishonored-definitive-edition.jpg",
+  "logo": "images/logos/dishonored-definitive-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

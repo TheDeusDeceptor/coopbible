@@ -1,0 +1,26 @@
+{
+  "id": "ninja-gaiden-ragebound",
+  "name": "Ninja Gaiden: Ragebound",
+  "year": "2025",
+  "platform": "PC",
+  "release": "31.07.2025",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "The Game Kitchen",
+  "pub": "DotEmu",
+  "notes": "",
+  "screenshot": "images/screenshots/ninja-gaiden-ragebound.jpg",
+  "logo": "images/logos/ninja-gaiden-ragebound.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ninja-gaiden",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

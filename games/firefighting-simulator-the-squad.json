@@ -1,0 +1,32 @@
+{
+  "id": "firefighting-simulator-the-squad",
+  "name": "Firefighting Simulator - The Squad",
+  "year": "2020",
+  "platform": "",
+  "release": "17.11.2020",
+  "size": "12 GB",
+  "hltb": "Main: 12, +Extra: 17",
+  "dev": "Chronos Unterhaltungssoftware",
+  "pub": "astragon Entertainment",
+  "notes": "GAMEPASS\n\n\n\nDENUVO 💀",
+  "screenshot": "images/screenshots/firefighting-simulator-the-squad.jpg",
+  "logo": "images/logos/firefighting-simulator-the-squad.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/420560",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

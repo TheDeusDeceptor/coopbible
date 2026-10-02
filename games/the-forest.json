@@ -1,0 +1,32 @@
+{
+  "id": "the-forest",
+  "name": "The Forest",
+  "year": "1970",
+  "platform": "",
+  "release": "01.01.1970",
+  "size": "5 GB",
+  "hltb": "Main: 16, +Extra: 28",
+  "dev": "Endnight Games Ltd",
+  "pub": "Endnight Games Ltd",
+  "notes": "",
+  "screenshot": "images/screenshots/the-forest.jpg",
+  "logo": "images/logos/the-forest.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/242760",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

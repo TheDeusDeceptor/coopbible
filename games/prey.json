@@ -1,0 +1,26 @@
+{
+  "id": "prey",
+  "name": "Prey",
+  "year": "2006",
+  "platform": "",
+  "release": "11.07.2006",
+  "size": "",
+  "hltb": "",
+  "dev": "Human Head Studios",
+  "pub": "2K Games",
+  "notes": "",
+  "screenshot": "images/screenshots/prey.jpg",
+  "logo": "images/logos/prey.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

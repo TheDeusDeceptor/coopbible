@@ -1,0 +1,32 @@
+{
+  "id": "necesse",
+  "name": "Necesse",
+  "year": "2025",
+  "platform": "",
+  "release": "16.10.2025",
+  "size": "0.5 GB",
+  "hltb": "Main: 24, +Extra: 39",
+  "dev": "Fair Games ApS",
+  "pub": "Fair Games ApS",
+  "notes": "",
+  "screenshot": "images/screenshots/necesse.jpg",
+  "logo": "images/logos/necesse.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1169040",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "flower-sun-and-rain",
+  "name": "Flower, Sun, and Rain",
+  "year": "2001",
+  "platform": "NDS",
+  "release": "2001 (2008)",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 12",
+  "dev": "",
+  "pub": "",
+  "notes": "NDS for English.",
+  "screenshot": "images/screenshots/flower-sun-and-rain.jpg",
+  "logo": "images/logos/flower-sun-and-rain.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "grasshopper-manufacture",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "NDS for English."
+}

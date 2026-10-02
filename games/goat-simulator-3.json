@@ -1,0 +1,32 @@
+{
+  "id": "goat-simulator-3",
+  "name": "Goat Simulator 3",
+  "year": "2024",
+  "platform": "",
+  "release": "15.02.2024",
+  "size": "12 GB",
+  "hltb": "Main: 7, +Extra: 12",
+  "dev": "Coffee Stain North",
+  "pub": "Coffee Stain Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/goat-simulator-3.jpg",
+  "logo": "images/logos/goat-simulator-3.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/850190",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

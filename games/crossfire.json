@@ -1,0 +1,26 @@
+{
+  "id": "crossfire",
+  "name": "CrossFire",
+  "year": "1989",
+  "platform": "",
+  "release": "01.01.1989",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "Atlantis Software",
+  "notes": "",
+  "screenshot": "images/screenshots/crossfire.jpg",
+  "logo": "images/logos/crossfire.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

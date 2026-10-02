@@ -1,0 +1,32 @@
+{
+  "id": "jumanji-the-video-game",
+  "name": "JUMANJI: The Video Game",
+  "year": "2019",
+  "platform": "",
+  "release": "08.11.2019",
+  "size": "3 GB",
+  "hltb": "Main: 1, +Extra: 3",
+  "dev": "Funsolve LTD",
+  "pub": "Outright Games Ltd.",
+  "notes": "",
+  "screenshot": "images/screenshots/jumanji-the-video-game.jpg",
+  "logo": "images/logos/jumanji-the-video-game.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/896950",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

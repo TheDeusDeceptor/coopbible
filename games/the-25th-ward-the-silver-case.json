@@ -1,0 +1,26 @@
+{
+  "id": "the-25th-ward-the-silver-case",
+  "name": "The 25th Ward: The Silver Case",
+  "year": "2018",
+  "platform": "PC",
+  "release": "13.03.2018",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 20",
+  "dev": "Grasshopper Manufacture",
+  "pub": "NIS America",
+  "notes": "",
+  "screenshot": "images/screenshots/the-25th-ward-the-silver-case.jpg",
+  "logo": "images/logos/the-25th-ward-the-silver-case.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "grasshopper-manufacture",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

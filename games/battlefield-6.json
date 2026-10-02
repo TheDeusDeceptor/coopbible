@@ -1,0 +1,26 @@
+{
+  "id": "battlefield-6",
+  "name": "Battlefield 6",
+  "year": "2025",
+  "platform": "",
+  "release": "10.10.2025",
+  "size": "",
+  "hltb": "",
+  "dev": "Battlefield Studios",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/battlefield-6.jpg",
+  "logo": "images/logos/battlefield-6.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

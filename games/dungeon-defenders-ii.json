@@ -1,0 +1,32 @@
+{
+  "id": "dungeon-defenders-ii",
+  "name": "Dungeon Defenders II",
+  "year": "2017",
+  "platform": "",
+  "release": "20.06.2017",
+  "size": "20 GB",
+  "hltb": "Main: 21, +Extra: 57",
+  "dev": "Chromatic Games",
+  "pub": "Chromatic Games",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/dungeon-defenders-ii.jpg",
+  "logo": "images/logos/dungeon-defenders-ii.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/236110",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

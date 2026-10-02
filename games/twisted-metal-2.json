@@ -1,0 +1,26 @@
+{
+  "id": "twisted-metal-2",
+  "name": "Twisted Metal",
+  "year": "1995",
+  "platform": "PSX",
+  "release": "1995.0",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "twisted-metal",
+  "series_status": null,
+  "series_color": null,
+  "series_note": ""
+}

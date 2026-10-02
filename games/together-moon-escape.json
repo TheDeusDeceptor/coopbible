@@ -1,0 +1,32 @@
+{
+  "id": "together-moon-escape",
+  "name": "Together: Moon Escape",
+  "year": "2026",
+  "platform": "",
+  "release": "21.04.2026",
+  "size": "13 GB",
+  "hltb": "Main: 5",
+  "dev": "CarlosGameDev",
+  "pub": "CarlosGameDev, CouchPlay Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/together-moon-escape.jpg",
+  "logo": "images/logos/together-moon-escape.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3744430",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

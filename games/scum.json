@@ -1,0 +1,32 @@
+{
+  "id": "scum",
+  "name": "SCUM",
+  "year": "2025",
+  "platform": "",
+  "release": "17.06.2025",
+  "size": "80 GB",
+  "hltb": "Main: 22",
+  "dev": "Gamepires",
+  "pub": "Gamepires",
+  "notes": "",
+  "screenshot": "images/screenshots/scum.jpg",
+  "logo": "images/logos/scum.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/513710",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way",
+  "name": "No One Lives Forever 2: A Spy in H.A.R.M.'s Way",
+  "year": "2002",
+  "platform": "",
+  "release": "30.09.2002",
+  "size": "",
+  "hltb": "",
+  "dev": "Monolith Productions",
+  "pub": "Fox Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way.jpg",
+  "logo": "images/logos/no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

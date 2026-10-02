@@ -1,0 +1,26 @@
+{
+  "id": "call-of-cthulhu",
+  "name": "Call of Cthulhu",
+  "year": "2019",
+  "platform": "",
+  "release": "08.10.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "Cyanide",
+  "pub": "Focus Home Interactive",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/call-of-cthulhu.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

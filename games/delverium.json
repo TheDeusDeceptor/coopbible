@@ -1,0 +1,32 @@
+{
+  "id": "delverium",
+  "name": "Delverium",
+  "year": "2026",
+  "platform": "",
+  "release": "Q2 2026",
+  "size": "",
+  "hltb": "",
+  "dev": "Sagestone Games",
+  "pub": "Sagestone Games",
+  "notes": "",
+  "screenshot": "images/screenshots/delverium.jpg",
+  "logo": "images/logos/delverium.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2710040",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

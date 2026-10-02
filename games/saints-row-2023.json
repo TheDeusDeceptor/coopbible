@@ -1,0 +1,32 @@
+{
+  "id": "saints-row-2023",
+  "name": "Saints Row",
+  "year": "2023",
+  "platform": "",
+  "release": "24.08.2023",
+  "size": "50 GB",
+  "hltb": "Main: 12, +Extra: 27",
+  "dev": "Volition",
+  "pub": "Deep Silver",
+  "notes": "",
+  "screenshot": "images/screenshots/saints-row-2023.jpg",
+  "logo": "images/logos/saints-row-2023.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/742420",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

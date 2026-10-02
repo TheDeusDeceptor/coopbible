@@ -1,0 +1,32 @@
+{
+  "id": "river-city-girls-zero",
+  "name": "River City Girls Zero",
+  "year": "2022",
+  "platform": "",
+  "release": "21.09.2022",
+  "size": "2 GB",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "WayForward",
+  "pub": "WayForward",
+  "notes": "Local Co-op (RemotePlay)\nREADY",
+  "screenshot": "images/screenshots/river-city-girls-zero.jpg",
+  "logo": "images/logos/river-city-girls-zero.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1851020",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": true,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "spartan-x-2",
+  "name": "Spartan X 2",
+  "year": "1991",
+  "platform": "",
+  "release": "27.09.1991",
+  "size": "",
+  "hltb": "",
+  "dev": "Tamtex",
+  "pub": "Irem",
+  "notes": "",
+  "screenshot": "images/screenshots/spartan-x-2.jpg",
+  "logo": "images/logos/spartan-x-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

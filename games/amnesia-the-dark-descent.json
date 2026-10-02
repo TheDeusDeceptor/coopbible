@@ -1,0 +1,26 @@
+{
+  "id": "amnesia-the-dark-descent",
+  "name": "Amnesia: The Dark Descent",
+  "year": "2010",
+  "platform": "",
+  "release": "07.09.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Frictional Games",
+  "pub": "THQ",
+  "notes": "",
+  "screenshot": "images/screenshots/amnesia-the-dark-descent.jpg",
+  "logo": "images/logos/amnesia-the-dark-descent.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

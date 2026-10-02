@@ -1,0 +1,26 @@
+{
+  "id": "terrorist-takedown-3",
+  "name": "Terrorist Takedown 3",
+  "year": "2010",
+  "platform": "PC",
+  "release": "04.04.2010",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "City Interactive",
+  "pub": "City Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/terrorist-takedown-3.jpg",
+  "logo": "images/logos/terrorist-takedown-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "terrorist-takedown",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

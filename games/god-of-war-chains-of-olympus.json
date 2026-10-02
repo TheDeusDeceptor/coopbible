@@ -1,0 +1,26 @@
+{
+  "id": "god-of-war-chains-of-olympus",
+  "name": "God of War: Chains of Olympus",
+  "year": "2008",
+  "platform": "PSP",
+  "release": "2008.0",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Ready at Dawn Studios",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/god-of-war-chains-of-olympus.jpg",
+  "logo": "images/logos/god-of-war-chains-of-olympus.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "god-of-war",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

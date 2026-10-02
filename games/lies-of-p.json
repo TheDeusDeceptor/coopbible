@@ -1,0 +1,26 @@
+{
+  "id": "lies-of-p",
+  "name": "Lies of P",
+  "year": "2023",
+  "platform": "",
+  "release": "18.09.2023",
+  "size": "50 GB",
+  "hltb": "Main: 28, +Extra: 36",
+  "dev": "NEOWIZ",
+  "pub": "NEOWIZ",
+  "notes": "",
+  "screenshot": "images/screenshots/lies-of-p.jpg",
+  "logo": "images/logos/lies-of-p.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

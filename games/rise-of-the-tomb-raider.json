@@ -1,0 +1,26 @@
+{
+  "id": "rise-of-the-tomb-raider",
+  "name": "Rise of the Tomb Raider",
+  "year": "2015",
+  "platform": "PC",
+  "release": "10.11.2015",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 22",
+  "dev": "Crystal Dynamics",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/rise-of-the-tomb-raider.jpg",
+  "logo": "images/logos/rise-of-the-tomb-raider.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tomb-raider",
+  "series_status": "rerun",
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tv-archive-tidy-up-together",
+  "name": "TV Archive: Tidy Up Together",
+  "year": "2026",
+  "platform": "",
+  "release": "14.08.2026",
+  "size": "2.7 GB",
+  "hltb": "",
+  "dev": "Games Together",
+  "pub": "Games Together, Gamersky Games",
+  "notes": "",
+  "screenshot": "images/screenshots/tv-archive-tidy-up-together.jpg",
+  "logo": "images/logos/tv-archive-tidy-up-together.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4934370",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

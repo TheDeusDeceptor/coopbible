@@ -1,0 +1,32 @@
+{
+  "id": "dreadzone",
+  "name": "DREADZONE",
+  "year": "2025",
+  "platform": "",
+  "release": "17.07.2025",
+  "size": "50 GB",
+  "hltb": "",
+  "dev": "Eshed",
+  "pub": "Eshed",
+  "notes": "",
+  "screenshot": "images/screenshots/dreadzone.jpg",
+  "logo": "images/logos/dreadzone.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3484300",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

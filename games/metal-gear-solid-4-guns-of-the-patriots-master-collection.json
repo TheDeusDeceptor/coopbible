@@ -1,0 +1,26 @@
+{
+  "id": "metal-gear-solid-4-guns-of-the-patriots-master-collection",
+  "name": "Metal Gear Solid 4: Guns of the Patriots (Master Collection)",
+  "year": "2008",
+  "platform": "PC",
+  "release": "12.06.2008",
+  "size": "",
+  "hltb": "Main: 18, +Extra: 21",
+  "dev": "Kojima Productions",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/metal-gear-solid-4-guns-of-the-patriots-master-collection.jpg",
+  "logo": "images/logos/metal-gear-solid-4-guns-of-the-patriots-master-collection.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metal-gear-solid",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

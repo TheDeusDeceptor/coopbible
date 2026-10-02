@@ -1,0 +1,26 @@
+{
+  "id": "outrun-online-arcade-m3u",
+  "name": "OutRun Online Arcade.m3u",
+  "year": "2009",
+  "platform": "ps3",
+  "release": "15.04.2009",
+  "size": "",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "Sumo Digital",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/outrun-online-arcade-m3u.jpg",
+  "logo": "images/logos/outrun-online-arcade-m3u.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

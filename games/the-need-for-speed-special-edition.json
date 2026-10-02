@@ -1,0 +1,26 @@
+{
+  "id": "the-need-for-speed-special-edition",
+  "name": "The Need for Speed (Special Edition)",
+  "year": "1995",
+  "platform": "PC",
+  "release": "01.01.1995",
+  "size": "",
+  "hltb": "Main: 2, +Extra: 4",
+  "dev": "Electronic Arts Canada",
+  "pub": "Electronic Arts",
+  "notes": "Good luck.",
+  "screenshot": "images/screenshots/the-need-for-speed-special-edition.jpg",
+  "logo": "images/logos/the-need-for-speed-special-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Good luck."
+}

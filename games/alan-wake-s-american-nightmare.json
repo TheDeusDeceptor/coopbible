@@ -1,0 +1,26 @@
+{
+  "id": "alan-wake-s-american-nightmare",
+  "name": "Alan Wake's American Nightmare",
+  "year": "2012",
+  "platform": "",
+  "release": "22.02.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Remedy",
+  "pub": "Microsoft Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/alan-wake-s-american-nightmare.jpg",
+  "logo": "images/logos/alan-wake-s-american-nightmare.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

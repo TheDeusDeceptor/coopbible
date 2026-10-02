@@ -1,0 +1,26 @@
+{
+  "id": "chaos-legion-usa-en-ja-fr-es-chd",
+  "name": "Chaos Legion (USA) (En,Ja,Fr,Es).chd",
+  "year": "2003",
+  "platform": "ps2",
+  "release": "06.03.2003",
+  "size": "",
+  "hltb": "Main: 12",
+  "dev": "Capcom Production Studio 6",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/chaos-legion-usa-en-ja-fr-es-chd.jpg",
+  "logo": "images/logos/chaos-legion-usa-en-ja-fr-es-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

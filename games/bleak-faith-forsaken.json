@@ -1,0 +1,26 @@
+{
+  "id": "bleak-faith-forsaken",
+  "name": "Bleak Faith: Forsaken",
+  "year": "2023",
+  "platform": "",
+  "release": "10.03.2023",
+  "size": "",
+  "hltb": "Main: 22, +Extra: 28",
+  "dev": "Archangel Studios",
+  "pub": "Archangel Studios",
+  "notes": "DLC upcoming (2026)",
+  "screenshot": "images/screenshots/bleak-faith-forsaken.jpg",
+  "logo": "images/logos/bleak-faith-forsaken.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

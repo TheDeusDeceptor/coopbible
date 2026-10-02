@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-legends-z-a",
+  "name": "Pokémon Legends: Z-A",
+  "year": "2025",
+  "platform": "Switch",
+  "release": "16.10.2025",
+  "size": "",
+  "hltb": "Main: 28, +Extra: 40",
+  "dev": "Game Freak",
+  "pub": "Nintendo",
+  "notes": "Sequel to X\\Y.",
+  "screenshot": "images/screenshots/pok-mon-legends-z-a.jpg",
+  "logo": "images/logos/pok-mon-legends-z-a.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "pok-mon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Sequel to X\\Y."
+}

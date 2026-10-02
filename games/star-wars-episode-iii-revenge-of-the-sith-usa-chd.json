@@ -1,0 +1,26 @@
+{
+  "id": "star-wars-episode-iii-revenge-of-the-sith-usa-chd",
+  "name": "Star Wars - Episode III - Revenge of the Sith (USA).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "05.05.2005",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "The Collective",
+  "pub": "LucasArts",
+  "notes": "",
+  "screenshot": "images/screenshots/star-wars-episode-iii-revenge-of-the-sith-usa-chd.jpg",
+  "logo": "images/logos/star-wars-episode-iii-revenge-of-the-sith-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

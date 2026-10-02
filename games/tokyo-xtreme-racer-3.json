@@ -1,0 +1,26 @@
+{
+  "id": "tokyo-xtreme-racer-3",
+  "name": "Tokyo Xtreme Racer",
+  "year": "2025",
+  "platform": "PC",
+  "release": "2025.0",
+  "size": "",
+  "hltb": "Main: 20, +Extra: 24",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tokyo-xtreme-racer",
+  "series_status": null,
+  "series_color": null,
+  "series_note": ""
+}

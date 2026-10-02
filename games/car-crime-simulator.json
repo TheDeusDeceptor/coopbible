@@ -1,0 +1,32 @@
+{
+  "id": "car-crime-simulator",
+  "name": "Car Crime Simulator",
+  "year": "2027",
+  "platform": "",
+  "release": "Q1 2027",
+  "size": "",
+  "hltb": "",
+  "dev": "Play2Chill S.A.",
+  "pub": "Garage Monkeys",
+  "notes": "",
+  "screenshot": "images/screenshots/car-crime-simulator.jpg",
+  "logo": "images/logos/car-crime-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3907830",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

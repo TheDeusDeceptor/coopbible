@@ -1,0 +1,32 @@
+{
+  "id": "schedule-i",
+  "name": "Schedule I",
+  "year": "2025",
+  "platform": "",
+  "release": "24.03.2025",
+  "size": "8 GB",
+  "hltb": "Main: 17, +Extra: 38",
+  "dev": "TVGS",
+  "pub": "TVGS",
+  "notes": "",
+  "screenshot": "images/screenshots/schedule-i.jpg",
+  "logo": "images/logos/schedule-i.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3164500",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

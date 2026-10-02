@@ -1,0 +1,26 @@
+{
+  "id": "battlestations-pacific",
+  "name": "Battlestations Pacific",
+  "year": "2009",
+  "platform": "",
+  "release": "12.05.2009",
+  "size": "8 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Eidos Studio Hungary",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/battlestations-pacific.jpg",
+  "logo": "images/logos/battlestations-pacific.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

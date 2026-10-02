@@ -1,0 +1,26 @@
+{
+  "id": "ring-king",
+  "name": "Ring King",
+  "year": "1987",
+  "platform": "",
+  "release": "19.06.1987",
+  "size": "",
+  "hltb": "",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/ring-king.jpg",
+  "logo": "images/logos/ring-king.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

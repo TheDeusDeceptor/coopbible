@@ -1,0 +1,32 @@
+{
+  "id": "mall-together",
+  "name": "Mall Together",
+  "year": "2026",
+  "platform": "",
+  "release": "24.07.2026",
+  "size": "2.9 GB",
+  "hltb": "",
+  "dev": "Business Tycoon",
+  "pub": "Business Tycoon, Gamersky Games",
+  "notes": "",
+  "screenshot": "images/screenshots/mall-together.jpg",
+  "logo": "images/logos/mall-together.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4668890",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

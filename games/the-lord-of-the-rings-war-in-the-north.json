@@ -1,0 +1,26 @@
+{
+  "id": "the-lord-of-the-rings-war-in-the-north",
+  "name": "The Lord of the Rings: War in the North",
+  "year": "2011",
+  "platform": "",
+  "release": "01.11.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Snowblind Studios",
+  "pub": "Warner Bros. Interactive Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/the-lord-of-the-rings-war-in-the-north.jpg",
+  "logo": "images/logos/the-lord-of-the-rings-war-in-the-north.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

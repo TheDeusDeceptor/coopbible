@@ -1,0 +1,32 @@
+{
+  "id": "39-days-to-mars",
+  "name": "39 Days to Mars",
+  "year": "2018",
+  "platform": "",
+  "release": "25.04.2018",
+  "size": "0.6 GB",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "It's Anecdotal",
+  "pub": "It's Anecdotal",
+  "notes": "",
+  "screenshot": "images/screenshots/39-days-to-mars.jpg",
+  "logo": "images/logos/39-days-to-mars.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/504920",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

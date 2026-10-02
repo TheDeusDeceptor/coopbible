@@ -1,0 +1,26 @@
+{
+  "id": "bloodrayne-2-terminal-cut",
+  "name": "BloodRayne 2 (Terminal Cut)",
+  "year": "2004",
+  "platform": "PC",
+  "release": "13.10.2004",
+  "size": "15 GB",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "Terminal Reality",
+  "pub": "Majesco Sales",
+  "notes": "",
+  "screenshot": "images/screenshots/bloodrayne-2-terminal-cut.jpg",
+  "logo": "images/logos/bloodrayne-2-terminal-cut.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "bloodrayne",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

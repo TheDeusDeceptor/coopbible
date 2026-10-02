@@ -1,0 +1,32 @@
+{
+  "id": "pigs-and-wolf",
+  "name": "Pigs and Wolf",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "WakaStudio",
+  "pub": "WakaStudio",
+  "notes": "",
+  "screenshot": "images/screenshots/pigs-and-wolf.jpg",
+  "logo": "images/logos/pigs-and-wolf.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4285870",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

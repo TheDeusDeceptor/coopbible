@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-carbon-own-the-city",
+  "name": "Need for Speed: Carbon Own The City",
+  "year": "2006",
+  "platform": "PSP",
+  "release": "31.10.2006",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Electronic Arts Canada",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-carbon-own-the-city.jpg",
+  "logo": "images/logos/need-for-speed-carbon-own-the-city.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

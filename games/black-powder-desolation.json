@@ -1,0 +1,32 @@
+{
+  "id": "black-powder-desolation",
+  "name": "Black Powder Desolation",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Jonas Kastner",
+  "pub": "Jonas Kastner",
+  "notes": "",
+  "screenshot": "images/screenshots/black-powder-desolation.jpg",
+  "logo": "images/logos/black-powder-desolation.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2521490",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

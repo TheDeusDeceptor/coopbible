@@ -1,0 +1,32 @@
+{
+  "id": "the-legacy",
+  "name": "The Legacy",
+  "year": "2025",
+  "platform": "",
+  "release": "08.10.2025",
+  "size": "20 GB",
+  "hltb": "Main: 3",
+  "dev": "Second Reality",
+  "pub": "RockGame S.A.",
+  "notes": "",
+  "screenshot": "images/screenshots/the-legacy.jpg",
+  "logo": "images/logos/the-legacy.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2909870",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

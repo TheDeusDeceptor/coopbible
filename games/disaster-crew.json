@@ -1,0 +1,32 @@
+{
+  "id": "disaster-crew",
+  "name": "Disaster Crew",
+  "year": "2026",
+  "platform": "",
+  "release": "Q4 2026",
+  "size": "",
+  "hltb": "",
+  "dev": "RedPad Games",
+  "pub": "RedPad Games",
+  "notes": "",
+  "screenshot": "images/screenshots/disaster-crew.jpg",
+  "logo": "images/logos/disaster-crew.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4674820",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scorn",
+  "name": "Scorn",
+  "year": "2022",
+  "platform": "",
+  "release": "13.10.2022",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Ebb Software",
+  "pub": "Kepler Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/scorn.jpg",
+  "logo": "images/logos/scorn.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

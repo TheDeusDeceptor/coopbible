@@ -1,0 +1,32 @@
+{
+  "id": "streets-of-rogue-2",
+  "name": "Streets of Rogue 2",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Matt Dabrowski",
+  "pub": "tinyBuild",
+  "notes": "",
+  "screenshot": "images/screenshots/streets-of-rogue-2.jpg",
+  "logo": "images/logos/streets-of-rogue-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2165810",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

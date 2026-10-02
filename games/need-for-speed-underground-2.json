@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-underground-2",
+  "name": "Need for Speed: Underground 2",
+  "year": "2004",
+  "platform": "PC",
+  "release": "15.11.2004",
+  "size": "",
+  "hltb": "Main: 20, +Extra: 24",
+  "dev": "Electronic Arts",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-underground-2.jpg",
+  "logo": "images/logos/need-for-speed-underground-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

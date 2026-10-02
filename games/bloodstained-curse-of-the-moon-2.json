@@ -1,0 +1,26 @@
+{
+  "id": "bloodstained-curse-of-the-moon-2",
+  "name": "Bloodstained Curse of the Moon 2",
+  "year": "2020",
+  "platform": "",
+  "release": "10.07.2020",
+  "size": "0.5 GB",
+  "hltb": "Main: 5, +Extra: 10",
+  "dev": "Inti Creates",
+  "pub": "Inti Creates",
+  "notes": "",
+  "screenshot": "images/screenshots/bloodstained-curse-of-the-moon-2.jpg",
+  "logo": "images/logos/bloodstained-curse-of-the-moon-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

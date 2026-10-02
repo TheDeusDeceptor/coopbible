@@ -1,0 +1,32 @@
+{
+  "id": "projekt-z-beyond-order",
+  "name": "Projekt Z: Beyond Order",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "314 Arts",
+  "pub": "Maximum Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/projekt-z-beyond-order.jpg",
+  "logo": "images/logos/projekt-z-beyond-order.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/763310",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

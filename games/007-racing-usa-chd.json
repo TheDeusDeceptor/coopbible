@@ -1,0 +1,26 @@
+{
+  "id": "007-racing-usa-chd",
+  "name": "007 Racing (USA).chd",
+  "year": "2000",
+  "platform": "psx",
+  "release": "21.11.2000",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "Eutechnyx",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/007-racing-usa-chd.jpg",
+  "logo": "images/logos/007-racing-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

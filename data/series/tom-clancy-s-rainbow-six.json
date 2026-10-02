@@ -1,0 +1,24 @@
+{
+  "id": "tom-clancy-s-rainbow-six",
+  "name": "Tom Clancy's Rainbow Six",
+  "logo": "",
+  "main": 113,
+  "extra": 187,
+  "order": [
+    "rainbow-six",
+    "rainbow-six-rogue-spear",
+    "rainbow-six-covert-ops-essentials",
+    "rainbow-six-rogue-spear-black-thorn",
+    "rainbow-six-take-down-missions-in-korea",
+    "rainbow-six-lone-wolf",
+    "rainbow-six-3-raven-shield",
+    "rainbow-six-3",
+    "rainbow-six-3-black-arrow",
+    "rainbow-six-lockdown",
+    "rainbow-six-critical-hour",
+    "rainbow-six-vegas",
+    "rainbow-six-vegas-2",
+    "rainbow-six-siege",
+    "rainbow-six-extraction"
+  ]
+}

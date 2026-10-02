@@ -1,0 +1,26 @@
+{
+  "id": "delta-force-land-warrior",
+  "name": "Delta Force: Land Warrior",
+  "year": "2000",
+  "platform": "PC",
+  "release": "06.11.2000",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Novalogic",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "screenshot": "images/screenshots/delta-force-land-warrior.jpg",
+  "logo": "images/logos/delta-force-land-warrior.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "delta-force",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

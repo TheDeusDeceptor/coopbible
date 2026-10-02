@@ -1,0 +1,26 @@
+{
+  "id": "goat-simulator",
+  "name": "Goat Simulator",
+  "year": "2014",
+  "platform": "",
+  "release": "01.04.2014",
+  "size": "",
+  "hltb": "",
+  "dev": "Spiral House",
+  "pub": "Double Eleven",
+  "notes": "",
+  "screenshot": "images/screenshots/goat-simulator.jpg",
+  "logo": "images/logos/goat-simulator.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

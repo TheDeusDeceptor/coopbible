@@ -1,0 +1,32 @@
+{
+  "id": "len-s-island",
+  "name": "Len's Island",
+  "year": "2025",
+  "platform": "",
+  "release": "19.06.2025",
+  "size": "8 GB",
+  "hltb": "Main: 14, +Extra: 23",
+  "dev": "Flow Studio",
+  "pub": "Flow Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/len-s-island.jpg",
+  "logo": "images/logos/len-s-island.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1335830",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

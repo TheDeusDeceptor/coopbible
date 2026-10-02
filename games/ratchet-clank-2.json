@@ -1,0 +1,26 @@
+{
+  "id": "ratchet-clank-2",
+  "name": "Ratchet & Clank",
+  "year": "2002",
+  "platform": "PS3",
+  "release": "2002 (2012)",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "",
+  "pub": "",
+  "notes": "Ratchet & Clank Collection.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ratchet-clank",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Ratchet & Clank Collection."
+}

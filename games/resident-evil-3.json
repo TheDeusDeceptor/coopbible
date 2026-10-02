@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-3",
+  "name": "Resident Evil 3",
+  "year": "2020",
+  "platform": "PC",
+  "release": "2020.0",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-3.jpg",
+  "logo": "images/logos/resident-evil-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

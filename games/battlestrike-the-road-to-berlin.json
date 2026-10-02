@@ -1,0 +1,26 @@
+{
+  "id": "battlestrike-the-road-to-berlin",
+  "name": "Battlestrike: The Road to Berlin",
+  "year": "2004",
+  "platform": "PC",
+  "release": "2004.0",
+  "size": "",
+  "hltb": "Full: 1",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/battlestrike-the-road-to-berlin.jpg",
+  "logo": "images/logos/battlestrike-the-road-to-berlin.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "battlestrike",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

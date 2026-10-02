@@ -1,0 +1,26 @@
+{
+  "id": "harvey-birdman-attorney-at-law-usa-chd",
+  "name": "Harvey Birdman - Attorney at Law (USA).chd",
+  "year": "2008",
+  "platform": "ps2",
+  "release": "08.01.2008",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/harvey-birdman-attorney-at-law-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

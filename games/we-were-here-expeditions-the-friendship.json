@@ -1,0 +1,32 @@
+{
+  "id": "we-were-here-expeditions-the-friendship",
+  "name": "We Were Here Expeditions: The FriendShip",
+  "year": "2023",
+  "platform": "",
+  "release": "14.09.2023",
+  "size": "10 GB",
+  "hltb": "Main: 2",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "pending...",
+  "screenshot": "images/screenshots/we-were-here-expeditions-the-friendship.jpg",
+  "logo": "images/logos/we-were-here-expeditions-the-friendship.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2296990",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

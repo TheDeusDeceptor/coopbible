@@ -1,0 +1,26 @@
+{
+  "id": "conan-exiles",
+  "name": "Conan Exiles",
+  "year": "2018",
+  "platform": "",
+  "release": "08.05.2018",
+  "size": "",
+  "hltb": "",
+  "dev": "Funcom Oslo",
+  "pub": "Funcom Oslo",
+  "notes": "",
+  "screenshot": "images/screenshots/conan-exiles.jpg",
+  "logo": "images/logos/conan-exiles.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

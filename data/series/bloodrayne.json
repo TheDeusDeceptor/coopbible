@@ -1,0 +1,12 @@
+{
+  "id": "bloodrayne",
+  "name": "BloodRayne",
+  "logo": "",
+  "main": 20,
+  "extra": 23,
+  "order": [
+    "bloodrayne-terminal-cut",
+    "bloodrayne-2-terminal-cut",
+    "bloodrayne-betrayal-fresh-bites"
+  ]
+}

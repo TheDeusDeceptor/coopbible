@@ -1,0 +1,26 @@
+{
+  "id": "valkyria-revolution",
+  "name": "Valkyria Revolution",
+  "year": "2017",
+  "platform": "PS4 or PSVita",
+  "release": "27.06.2017",
+  "size": "",
+  "hltb": "Main: 32, +Extra: 46",
+  "dev": "Sega",
+  "pub": "",
+  "notes": "Optional, set in different universe.",
+  "screenshot": "images/screenshots/valkyria-revolution.jpg",
+  "logo": "images/logos/valkyria-revolution.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "valkyria-chronicles",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Optional, set in different universe."
+}

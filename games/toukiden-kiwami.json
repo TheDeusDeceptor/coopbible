@@ -1,0 +1,32 @@
+{
+  "id": "toukiden-kiwami",
+  "name": "Toukiden: Kiwami",
+  "year": "2015",
+  "platform": "",
+  "release": "25.06.2015",
+  "size": "21 GB",
+  "hltb": "Main: 45, +Extra: 75",
+  "dev": "KOEI TECMO GAMES CO., LTD.",
+  "pub": "KOEI TECMO GAMES CO., LTD.",
+  "notes": "READY?",
+  "screenshot": "images/screenshots/toukiden-kiwami.jpg",
+  "logo": "images/logos/toukiden-kiwami.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/363130",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

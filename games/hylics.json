@@ -1,0 +1,26 @@
+{
+  "id": "hylics",
+  "name": "Hylics",
+  "year": "2015",
+  "platform": "",
+  "release": "04.08.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Mason Lindroth",
+  "pub": "Mason Lindroth",
+  "notes": "",
+  "screenshot": "images/screenshots/hylics.jpg",
+  "logo": "images/logos/hylics.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

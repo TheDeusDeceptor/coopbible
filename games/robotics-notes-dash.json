@@ -1,0 +1,26 @@
+{
+  "id": "robotics-notes-dash",
+  "name": "Robotics;Notes DaSH",
+  "year": "2019",
+  "platform": "Switch",
+  "release": "31.01.2019",
+  "size": "",
+  "hltb": "Main: 19, +Extra: 21",
+  "dev": "5pb.",
+  "pub": "5pb.",
+  "notes": "",
+  "screenshot": "images/screenshots/robotics-notes-dash.jpg",
+  "logo": "images/logos/robotics-notes-dash.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "science-adventure",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "sapiens",
+  "name": "Sapiens",
+  "year": "2022",
+  "platform": "",
+  "release": "26.07.2022",
+  "size": "2 GB",
+  "hltb": "",
+  "dev": "Majic Jungle",
+  "pub": "Majic Jungle",
+  "notes": "",
+  "screenshot": "images/screenshots/sapiens.jpg",
+  "logo": "images/logos/sapiens.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1060230",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "filthy-animals-heist-simulator",
+  "name": "Filthy Animals | Heist Simulator",
+  "year": "2023",
+  "platform": "",
+  "release": "04.04.2023",
+  "size": "7 GB",
+  "hltb": "Main: 7",
+  "dev": "Pewter Games Studios, LoPoly Games",
+  "pub": "Green Man Gaming Publishing",
+  "notes": "READY",
+  "screenshot": "images/screenshots/filthy-animals-heist-simulator.jpg",
+  "logo": "images/logos/filthy-animals-heist-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1195420",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

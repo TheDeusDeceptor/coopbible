@@ -1,0 +1,26 @@
+{
+  "id": "ghost-recon-2-summit-strike",
+  "name": "Ghost Recon 2: Summit Strike",
+  "year": "2005",
+  "platform": "XBOX",
+  "release": "2005.0",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/ghost-recon-2-summit-strike.jpg",
+  "logo": "images/logos/ghost-recon-2-summit-strike.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-ghost-recon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

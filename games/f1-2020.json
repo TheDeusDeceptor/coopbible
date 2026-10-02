@@ -1,0 +1,26 @@
+{
+  "id": "f1-2020",
+  "name": "F1 2020",
+  "year": "2020",
+  "platform": "",
+  "release": "07.07.2020",
+  "size": "41 GB",
+  "hltb": "Main: 33",
+  "dev": "Codemasters",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/f1-2020.jpg",
+  "logo": "images/logos/f1-2020.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

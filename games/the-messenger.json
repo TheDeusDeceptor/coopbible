@@ -1,0 +1,26 @@
+{
+  "id": "the-messenger",
+  "name": "The Messenger",
+  "year": "2018",
+  "platform": "",
+  "release": "30.08.2018",
+  "size": "",
+  "hltb": "",
+  "dev": "Sabotage Studio",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "screenshot": "images/screenshots/the-messenger.jpg",
+  "logo": "images/logos/the-messenger.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

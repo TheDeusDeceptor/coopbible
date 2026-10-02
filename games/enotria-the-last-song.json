@@ -1,0 +1,26 @@
+{
+  "id": "enotria-the-last-song",
+  "name": "Enotria: The Last Song",
+  "year": "2024",
+  "platform": "",
+  "release": "19.09.2024",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 21",
+  "dev": "Jyamma Games",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/enotria-the-last-song.jpg",
+  "logo": "images/logos/enotria-the-last-song.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

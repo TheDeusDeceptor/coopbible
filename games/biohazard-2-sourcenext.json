@@ -1,0 +1,26 @@
+{
+  "id": "biohazard-2-sourcenext",
+  "name": "Biohazard 2 (Sourcenext)",
+  "year": "1998",
+  "platform": "PC",
+  "release": "1998 (2006)",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "",
+  "pub": "",
+  "notes": "Resident Evil 2 on updated engine.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": "Resident Evil 2 on updated engine."
+}

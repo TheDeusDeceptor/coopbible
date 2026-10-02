@@ -1,0 +1,32 @@
+{
+  "id": "saints-row-2",
+  "name": "Saints Row 2",
+  "year": "2009",
+  "platform": "",
+  "release": "07.01.2009",
+  "size": "15 GB",
+  "hltb": "Main: 20, +Extra: 29",
+  "dev": "Volition",
+  "pub": "Deep Silver",
+  "notes": "STEAM\n\n\n\n\nRequires\nKobraworks \nJuiced Patch",
+  "screenshot": "images/screenshots/saints-row-2.jpg",
+  "logo": "images/logos/saints-row-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/9480",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

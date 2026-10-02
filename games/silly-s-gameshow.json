@@ -1,0 +1,32 @@
+{
+  "id": "silly-s-gameshow",
+  "name": "Silly's Gameshow",
+  "year": "2025",
+  "platform": "",
+  "release": "06.06.2025",
+  "size": "3 GB",
+  "hltb": "Main: 2",
+  "dev": "?",
+  "pub": "ִ",
+  "notes": "",
+  "screenshot": "images/screenshots/silly-s-gameshow.jpg",
+  "logo": "images/logos/silly-s-gameshow.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3674050",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

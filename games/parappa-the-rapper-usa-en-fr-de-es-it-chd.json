@@ -1,0 +1,26 @@
+{
+  "id": "parappa-the-rapper-usa-en-fr-de-es-it-chd",
+  "name": "PaRappa the Rapper (USA) (En,Fr,De,Es,It).CHD",
+  "year": "1996",
+  "platform": "psx",
+  "release": "06.12.1996",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "NanaOn-Sha",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/parappa-the-rapper-usa-en-fr-de-es-it-chd.jpg",
+  "logo": "images/logos/parappa-the-rapper-usa-en-fr-de-es-it-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

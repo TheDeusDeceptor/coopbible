@@ -1,0 +1,26 @@
+{
+  "id": "max-payne-3",
+  "name": "Max Payne 3",
+  "year": "2012",
+  "platform": "",
+  "release": "31.05.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Rockstar Studios",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/max-payne-3.jpg",
+  "logo": "images/logos/max-payne-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

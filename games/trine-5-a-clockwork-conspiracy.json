@@ -1,0 +1,32 @@
+{
+  "id": "trine-5-a-clockwork-conspiracy",
+  "name": "Trine 5: A Clockwork Conspiracy",
+  "year": "2023",
+  "platform": "",
+  "release": "31.08.2023",
+  "size": "16 GB",
+  "hltb": "Main: 18, +Extra: 22",
+  "dev": "Frozenbyte",
+  "pub": "THQ Nordic",
+  "notes": "READY",
+  "screenshot": "images/screenshots/trine-5-a-clockwork-conspiracy.jpg",
+  "logo": "images/logos/trine-5-a-clockwork-conspiracy.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1436700",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prince-of-persia-the-two-thrones",
+  "name": "Prince of Persia: The Two Thrones",
+  "year": "2005",
+  "platform": "PS3",
+  "release": "30.11.2005",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/prince-of-persia-the-two-thrones.jpg",
+  "logo": "images/logos/prince-of-persia-the-two-thrones.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "prince-of-persia",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

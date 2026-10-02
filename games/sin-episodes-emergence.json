@@ -1,0 +1,26 @@
+{
+  "id": "sin-episodes-emergence",
+  "name": "SiN Episodes: Emergence",
+  "year": "2006",
+  "platform": "",
+  "release": "10.05.2006",
+  "size": "",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "Ritual Entertainment",
+  "pub": "Ritual Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/sin-episodes-emergence.jpg",
+  "logo": "images/logos/sin-episodes-emergence.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

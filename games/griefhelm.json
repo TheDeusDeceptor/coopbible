@@ -1,0 +1,32 @@
+{
+  "id": "griefhelm",
+  "name": "Griefhelm",
+  "year": "2020",
+  "platform": "",
+  "release": "20.08.2020",
+  "size": "4 GB",
+  "hltb": "",
+  "dev": "Johnny Dale Lonack",
+  "pub": "Thorrnet Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/griefhelm.jpg",
+  "logo": "images/logos/griefhelm.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1125330",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

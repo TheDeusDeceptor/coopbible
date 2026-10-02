@@ -1,0 +1,19 @@
+{
+  "id": "science-adventure",
+  "name": "Science Adventure",
+  "logo": "",
+  "main": 216,
+  "extra": 299,
+  "order": [
+    "chaos-head-noah",
+    "steins-gate",
+    "robotics-notes-elite",
+    "chaos-child",
+    "steins-gate-0",
+    "occultic-nine",
+    "steins-gate-elite",
+    "robotics-notes-dash",
+    "anonymous-code",
+    "steins-gate-re-boot"
+  ]
+}

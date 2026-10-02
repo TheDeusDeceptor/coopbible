@@ -1,0 +1,26 @@
+{
+  "id": "half-life-opposing-force",
+  "name": "Half-Life: Opposing Force",
+  "year": "1999",
+  "platform": "",
+  "release": "01.11.1999",
+  "size": "",
+  "hltb": "",
+  "dev": "Gearbox Software",
+  "pub": "Valve",
+  "notes": "",
+  "screenshot": "images/screenshots/half-life-opposing-force.jpg",
+  "logo": "images/logos/half-life-opposing-force.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

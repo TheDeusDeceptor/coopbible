@@ -1,0 +1,32 @@
+{
+  "id": "bellwright",
+  "name": "Bellwright",
+  "year": "2024",
+  "platform": "",
+  "release": "23.04.2024",
+  "size": "24 GB",
+  "hltb": "",
+  "dev": "Donkey Crew",
+  "pub": "Donkey Crew, Snail Games USA",
+  "notes": "",
+  "screenshot": "images/screenshots/bellwright.jpg",
+  "logo": "images/logos/bellwright.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1812450",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

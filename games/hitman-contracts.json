@@ -1,0 +1,26 @@
+{
+  "id": "hitman-contracts",
+  "name": "Hitman: Contracts",
+  "year": "2005",
+  "platform": "PC",
+  "release": "20.04.2005",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Io-Interactive",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/hitman-contracts.jpg",
+  "logo": "images/logos/hitman-contracts.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "hitman",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

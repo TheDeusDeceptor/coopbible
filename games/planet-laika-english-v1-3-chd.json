@@ -1,0 +1,26 @@
+{
+  "id": "planet-laika-english-v1-3-chd",
+  "name": "Planet Laika (English v1.3).chd",
+  "year": "1999",
+  "platform": "psx",
+  "release": "21.10.1999",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "Quintet",
+  "pub": "Enix",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/planet-laika-english-v1-3-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

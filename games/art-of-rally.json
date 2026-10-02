@@ -1,0 +1,26 @@
+{
+  "id": "art-of-rally",
+  "name": "Art of Rally",
+  "year": "2021",
+  "platform": "",
+  "release": "12.08.2021",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "Funselektor Labs",
+  "notes": "",
+  "screenshot": "images/screenshots/art-of-rally.jpg",
+  "logo": "images/logos/art-of-rally.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

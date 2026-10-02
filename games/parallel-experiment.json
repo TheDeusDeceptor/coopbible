@@ -1,0 +1,32 @@
+{
+  "id": "parallel-experiment",
+  "name": "Parallel Experiment",
+  "year": "2025",
+  "platform": "",
+  "release": "05.06.2025",
+  "size": "2 GB",
+  "hltb": "Main: 5",
+  "dev": "Eleven Puzzles",
+  "pub": "Eleven Puzzles",
+  "notes": "",
+  "screenshot": "images/screenshots/parallel-experiment.jpg",
+  "logo": "images/logos/parallel-experiment.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2012320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

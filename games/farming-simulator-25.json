@@ -1,0 +1,32 @@
+{
+  "id": "farming-simulator-25",
+  "name": "Farming Simulator 25",
+  "year": "2024",
+  "platform": "",
+  "release": "12.11.2024",
+  "size": "50 GB",
+  "hltb": "Main: 100",
+  "dev": "GIANTS Software",
+  "pub": "GIANTS Software",
+  "notes": "updates occasionally",
+  "screenshot": "images/screenshots/farming-simulator-25.jpg",
+  "logo": "images/logos/farming-simulator-25.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2300320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

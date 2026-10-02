@@ -1,0 +1,32 @@
+{
+  "id": "sniper-elite-4",
+  "name": "Sniper Elite 4",
+  "year": "2017",
+  "platform": "PC",
+  "release": "13.02.2017",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 18",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/sniper-elite-4.jpg",
+  "logo": "images/logos/sniper-elite-4.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/312660",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "sniper-elite",
+  "series_status": null,
+  "series_color": "blue",
+  "series_note": null
+}

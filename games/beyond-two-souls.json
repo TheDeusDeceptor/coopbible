@@ -1,0 +1,26 @@
+{
+  "id": "beyond-two-souls",
+  "name": "Beyond: Two Souls",
+  "year": "2013",
+  "platform": "",
+  "release": "08.10.2013",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 12",
+  "dev": "Quantic Dream",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/beyond-two-souls.jpg",
+  "logo": "images/logos/beyond-two-souls.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

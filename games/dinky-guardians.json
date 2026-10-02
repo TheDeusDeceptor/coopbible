@@ -1,0 +1,32 @@
+{
+  "id": "dinky-guardians",
+  "name": "Dinky Guardians",
+  "year": "2023",
+  "platform": "",
+  "release": "02.10.2023",
+  "size": "",
+  "hltb": "",
+  "dev": "Endless Loop Studios, Code Monkey",
+  "pub": "Endless Loop Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/dinky-guardians.jpg",
+  "logo": "images/logos/dinky-guardians.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2349040",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

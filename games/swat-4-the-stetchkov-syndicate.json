@@ -1,0 +1,26 @@
+{
+  "id": "swat-4-the-stetchkov-syndicate",
+  "name": "SWAT 4: The Stetchkov Syndicate",
+  "year": "2006",
+  "platform": "",
+  "release": "28.02.2006",
+  "size": "",
+  "hltb": "",
+  "dev": "Irrational Games",
+  "pub": "Sierra Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/swat-4-the-stetchkov-syndicate.jpg",
+  "logo": "images/logos/swat-4-the-stetchkov-syndicate.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

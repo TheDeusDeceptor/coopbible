@@ -1,0 +1,16 @@
+{
+  "id": "fatal-frame",
+  "name": "Fatal Frame",
+  "logo": "",
+  "main": 79,
+  "extra": 92,
+  "order": [
+    "fatal-frame",
+    "fatal-frame-ii-crimson-butterfly",
+    "fatal-frame-iii-the-tormented",
+    "fatal-frame-mask-of-the-lunar-eclipse",
+    "project-zero-2-wii-edition",
+    "fatal-frame-maiden-of-black-water",
+    "fatal-frame-ii-crimson-butterfly-remake"
+  ]
+}

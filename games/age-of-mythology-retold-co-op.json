@@ -1,0 +1,31 @@
+{
+  "id": "age-of-mythology-retold-co-op",
+  "name": "Age of Mythology Retold Co-op",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 24, +Extra: 32",
+  "dev": "",
+  "pub": "",
+  "notes": "Version: FINISHED",
+  "screenshot": "images/screenshots/age-of-mythology-retold-co-op.jpg",
+  "logo": "images/logos/age-of-mythology-retold-co-op.png",
+  "links": [
+    {
+      "label": "Store",
+      "url": "https://www.ageofempires.com/mods/details/309279"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

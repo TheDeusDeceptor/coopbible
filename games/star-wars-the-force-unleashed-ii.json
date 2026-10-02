@@ -1,0 +1,26 @@
+{
+  "id": "star-wars-the-force-unleashed-ii",
+  "name": "Star Wars: The Force Unleashed II",
+  "year": "2010",
+  "platform": "",
+  "release": "26.10.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "LucasArts",
+  "pub": "LucasArts",
+  "notes": "",
+  "screenshot": "images/screenshots/star-wars-the-force-unleashed-ii.jpg",
+  "logo": "images/logos/star-wars-the-force-unleashed-ii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

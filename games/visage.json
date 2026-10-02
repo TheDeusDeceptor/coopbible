@@ -1,0 +1,26 @@
+{
+  "id": "visage",
+  "name": "Visage",
+  "year": "2020",
+  "platform": "",
+  "release": "29.10.2020",
+  "size": "",
+  "hltb": "",
+  "dev": "SadSquare Studio",
+  "pub": "SadSquare Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/visage.jpg",
+  "logo": "images/logos/visage.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

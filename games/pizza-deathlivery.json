@@ -1,0 +1,32 @@
+{
+  "id": "pizza-deathlivery",
+  "name": "Pizza Deathlivery",
+  "year": "2025",
+  "platform": "",
+  "release": "23.10.2025",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Kusa Games",
+  "pub": "Kusa Games",
+  "notes": "",
+  "screenshot": "images/screenshots/pizza-deathlivery.jpg",
+  "logo": "images/logos/pizza-deathlivery.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3697560",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

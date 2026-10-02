@@ -1,0 +1,26 @@
+{
+  "id": "motorstorm-pacific-rift",
+  "name": "MotorStorm: Pacific Rift",
+  "year": "2008",
+  "platform": "PS3",
+  "release": "28.10.2008",
+  "size": "",
+  "hltb": "Main: 21",
+  "dev": "Evolution Studios",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/motorstorm-pacific-rift.jpg",
+  "logo": "images/logos/motorstorm-pacific-rift.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "motorstorm",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "007-legends",
+  "name": "007 Legends",
+  "year": "2012",
+  "platform": "PC",
+  "release": "16.10.2012",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Eurocom Developments",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/007-legends.jpg",
+  "logo": "images/logos/007-legends.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "007",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

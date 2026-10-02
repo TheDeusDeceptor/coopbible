@@ -1,0 +1,26 @@
+{
+  "id": "tomb-raider-anniversary",
+  "name": "Tomb Raider: Anniversary",
+  "year": "2007",
+  "platform": "PS3",
+  "release": "23.10.2007",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "Crystal Dynamics",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/tomb-raider-anniversary.jpg",
+  "logo": "images/logos/tomb-raider-anniversary.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tomb-raider",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

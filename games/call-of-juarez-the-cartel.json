@@ -1,0 +1,32 @@
+{
+  "id": "call-of-juarez-the-cartel",
+  "name": "Call of Juarez: The Cartel",
+  "year": "2011",
+  "platform": "",
+  "release": "19.07.2011",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "Techland",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-juarez-the-cartel.jpg",
+  "logo": "images/logos/call-of-juarez-the-cartel.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/33420",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "from-dusk-till-dawn",
+  "name": "From Dusk Till Dawn",
+  "year": "2001",
+  "platform": "",
+  "release": "11.10.2001",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Gamesquad",
+  "pub": "1C Company",
+  "notes": "",
+  "screenshot": "images/screenshots/from-dusk-till-dawn.jpg",
+  "logo": "images/logos/from-dusk-till-dawn.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "steins-gate-0",
+  "name": "Steins;Gate 0",
+  "year": "2015",
+  "platform": "PC",
+  "release": "2015 (2016)",
+  "size": "",
+  "hltb": "Main: 14, +Extra: 28",
+  "dev": "5pb.",
+  "pub": "Spike Chunsoft US",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/steins-gate-0.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "science-adventure",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

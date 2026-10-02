@@ -1,0 +1,32 @@
+{
+  "id": "sun-haven",
+  "name": "Sun Haven",
+  "year": "2023",
+  "platform": "",
+  "release": "10.03.2023",
+  "size": "10 GB",
+  "hltb": "Main: 44, +Extra: 72",
+  "dev": "Pixel Sprout Studios",
+  "pub": "Pixel Sprout Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/sun-haven.jpg",
+  "logo": "images/logos/sun-haven.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1432860",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

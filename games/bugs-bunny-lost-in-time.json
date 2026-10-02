@@ -1,0 +1,26 @@
+{
+  "id": "bugs-bunny-lost-in-time",
+  "name": "Bugs Bunny: Lost in Time",
+  "year": "1999",
+  "platform": "",
+  "release": "31.05.1999",
+  "size": "",
+  "hltb": "",
+  "dev": "Behaviour Interactive",
+  "pub": "Infogrames",
+  "notes": "",
+  "screenshot": "images/screenshots/bugs-bunny-lost-in-time.jpg",
+  "logo": "images/logos/bugs-bunny-lost-in-time.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

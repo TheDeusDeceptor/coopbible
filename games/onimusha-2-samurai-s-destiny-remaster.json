@@ -1,0 +1,26 @@
+{
+  "id": "onimusha-2-samurai-s-destiny-remaster",
+  "name": "Onimusha 2: Samurai's Destiny (Remaster)",
+  "year": "2002",
+  "platform": "PC",
+  "release": "2002 (2025)",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "onimusha",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

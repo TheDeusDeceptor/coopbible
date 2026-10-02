@@ -1,0 +1,32 @@
+{
+  "id": "hellpoint-the-thespian-feast",
+  "name": "Hellpoint: The Thespian Feast",
+  "year": "2020",
+  "platform": "",
+  "release": "20.02.2020",
+  "size": "6 GB",
+  "hltb": "Main: 1",
+  "dev": "Cradle Games",
+  "pub": "tinyBuild",
+  "notes": "",
+  "screenshot": "images/screenshots/hellpoint-the-thespian-feast.jpg",
+  "logo": "images/logos/hellpoint-the-thespian-feast.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1243140",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

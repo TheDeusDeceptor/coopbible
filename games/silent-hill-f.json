@@ -1,0 +1,26 @@
+{
+  "id": "silent-hill-f",
+  "name": "Silent Hill f",
+  "year": "2025",
+  "platform": "PC",
+  "release": "25.09.2025",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 17",
+  "dev": "NeoBards Entertainment",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-hill-f.jpg",
+  "logo": "images/logos/silent-hill-f.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "silent-hill",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

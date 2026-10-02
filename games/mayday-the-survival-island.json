@@ -1,0 +1,32 @@
+{
+  "id": "mayday-the-survival-island",
+  "name": "Mayday: The Survival Island",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "Pequi studios",
+  "pub": "indie.io",
+  "notes": "",
+  "screenshot": "images/screenshots/mayday-the-survival-island.jpg",
+  "logo": "images/logos/mayday-the-survival-island.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1686230/Mayday_The_Survival_Island/",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

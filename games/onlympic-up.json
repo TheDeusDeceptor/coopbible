@@ -1,0 +1,32 @@
+{
+  "id": "onlympic-up",
+  "name": "Onlympic Up!",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "HopeGames",
+  "pub": "HopeGames",
+  "notes": "",
+  "screenshot": "images/screenshots/onlympic-up.jpg",
+  "logo": "images/logos/onlympic-up.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3722820",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

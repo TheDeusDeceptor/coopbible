@@ -1,0 +1,26 @@
+{
+  "id": "insurgency",
+  "name": "Insurgency",
+  "year": "1984",
+  "platform": "",
+  "release": "01.01.1984",
+  "size": "",
+  "hltb": "",
+  "dev": "Nicholas Holgate",
+  "pub": "Cases Computer Simulations",
+  "notes": "",
+  "screenshot": "images/screenshots/insurgency.jpg",
+  "logo": "images/logos/insurgency.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

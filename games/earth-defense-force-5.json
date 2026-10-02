@@ -1,0 +1,32 @@
+{
+  "id": "earth-defense-force-5",
+  "name": "EARTH DEFENSE FORCE 5",
+  "year": "2019",
+  "platform": "",
+  "release": "11.07.2019",
+  "size": "30 GB",
+  "hltb": "Main: 29, +Extra: 52",
+  "dev": "SANDLOT",
+  "pub": "D3PUBLISHER",
+  "notes": "READY",
+  "screenshot": "images/screenshots/earth-defense-force-5.jpg",
+  "logo": "images/logos/earth-defense-force-5.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1007040",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

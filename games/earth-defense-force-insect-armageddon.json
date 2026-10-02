@@ -1,0 +1,32 @@
+{
+  "id": "earth-defense-force-insect-armageddon",
+  "name": "Earth Defense Force: Insect Armageddon",
+  "year": "2011",
+  "platform": "",
+  "release": "14.12.2011",
+  "size": "6 GB",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Vicious Cycle Software, Inc.",
+  "pub": "D3PUBLISHER",
+  "notes": "",
+  "screenshot": "images/screenshots/earth-defense-force-insect-armageddon.jpg",
+  "logo": "images/logos/earth-defense-force-insect-armageddon.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/23530",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

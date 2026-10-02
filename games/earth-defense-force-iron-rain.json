@@ -1,0 +1,32 @@
+{
+  "id": "earth-defense-force-iron-rain",
+  "name": "EARTH DEFENSE FORCE: IRON RAIN",
+  "year": "2019",
+  "platform": "",
+  "release": "15.10.2019",
+  "size": "24 GB",
+  "hltb": "Main: 11, +Extra: 15",
+  "dev": "YUKE'S",
+  "pub": "D3PUBLISHER",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/earth-defense-force-iron-rain.jpg",
+  "logo": "images/logos/earth-defense-force-iron-rain.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1039890",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

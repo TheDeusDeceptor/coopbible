@@ -1,0 +1,26 @@
+{
+  "id": "under-defeat",
+  "name": "UNDER DEFEAT",
+  "year": "2025",
+  "platform": "",
+  "release": "06.02.2025",
+  "size": "1 GB",
+  "hltb": "Main: 1, +Extra: 8",
+  "dev": "City Connection",
+  "pub": "CITY CONNECTION",
+  "notes": "",
+  "screenshot": "images/screenshots/under-defeat.jpg",
+  "logo": "images/logos/under-defeat.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

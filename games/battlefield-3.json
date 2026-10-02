@@ -1,0 +1,26 @@
+{
+  "id": "battlefield-3",
+  "name": "Battlefield 3",
+  "year": "2011",
+  "platform": "",
+  "release": "25.10.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "EA Digital Illusions",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/battlefield-3.jpg",
+  "logo": "images/logos/battlefield-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

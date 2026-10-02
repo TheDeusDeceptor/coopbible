@@ -1,0 +1,32 @@
+{
+  "id": "stonehearth",
+  "name": "Stonehearth",
+  "year": "2018",
+  "platform": "",
+  "release": "25.07.2018",
+  "size": "2 GB",
+  "hltb": "Main: 35",
+  "dev": "Radiant Entertainment",
+  "pub": "(none)",
+  "notes": "READY",
+  "screenshot": "images/screenshots/stonehearth.jpg",
+  "logo": "images/logos/stonehearth.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/253250",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

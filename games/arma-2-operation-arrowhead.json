@@ -1,0 +1,32 @@
+{
+  "id": "arma-2-operation-arrowhead",
+  "name": "Arma 2: Operation Arrowhead",
+  "year": "2010",
+  "platform": "",
+  "release": "29.06.2010",
+  "size": "10 GB",
+  "hltb": "Main: 8",
+  "dev": "Bohemia Interactive",
+  "pub": "Bohemia Interactive",
+  "notes": "STEAM\n\nor\n\nREADY\n(as part of Combined Operations from GOG)",
+  "screenshot": "images/screenshots/arma-2-operation-arrowhead.jpg",
+  "logo": "images/logos/arma-2-operation-arrowhead.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/33930",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

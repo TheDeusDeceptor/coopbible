@@ -1,0 +1,32 @@
+{
+  "id": "dandy-randy-dx",
+  "name": "Dandy & Randy DX",
+  "year": "2022",
+  "platform": "",
+  "release": "29.04.2022",
+  "size": "",
+  "hltb": "Full: 3",
+  "dev": "Asteristic Game Studio",
+  "pub": "Ratalaika Games S.L.",
+  "notes": "",
+  "screenshot": "images/screenshots/dandy-randy-dx.jpg",
+  "logo": "images/logos/dandy-randy-dx.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1651030",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

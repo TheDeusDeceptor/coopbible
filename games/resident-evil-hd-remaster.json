@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-hd-remaster",
+  "name": "Resident Evil (HD Remaster)",
+  "year": "2002",
+  "platform": "PC",
+  "release": "2002 (2016)",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 15",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-hd-remaster.jpg",
+  "logo": "images/logos/resident-evil-hd-remaster.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": "green",
+  "series_note": ""
+}

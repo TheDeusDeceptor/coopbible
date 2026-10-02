@@ -1,0 +1,26 @@
+{
+  "id": "goldeneye-rogue-agent",
+  "name": "GoldenEye: Rogue Agent",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "22.11.2004",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Electronic Arts Los Angeles",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/goldeneye-rogue-agent.jpg",
+  "logo": "images/logos/goldeneye-rogue-agent.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "007",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

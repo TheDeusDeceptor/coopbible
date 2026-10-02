@@ -1,0 +1,26 @@
+{
+  "id": "fable-anniversary",
+  "name": "Fable (Anniversary)",
+  "year": "2003",
+  "platform": "PC",
+  "release": "14.02.2003",
+  "size": "10 GB",
+  "hltb": "Main: 13, +Extra: 21",
+  "dev": "Lionhead Studios",
+  "pub": "Microsoft Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/fable-anniversary.jpg",
+  "logo": "images/logos/fable-anniversary.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "fable",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

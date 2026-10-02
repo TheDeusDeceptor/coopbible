@@ -1,0 +1,32 @@
+{
+  "id": "dysplaced",
+  "name": "DYSPLACED",
+  "year": "2026",
+  "platform": "",
+  "release": "05.03.2026",
+  "size": "1 GB",
+  "hltb": "",
+  "dev": "10tons Ltd",
+  "pub": "10tons Ltd",
+  "notes": "",
+  "screenshot": "images/screenshots/dysplaced.jpg",
+  "logo": "images/logos/dysplaced.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2430390",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

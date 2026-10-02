@@ -1,0 +1,32 @@
+{
+  "id": "another-try-2",
+  "name": "Another Try 2",
+  "year": "2025",
+  "platform": "",
+  "release": "17.04.2025",
+  "size": "8 GB",
+  "hltb": "",
+  "dev": "Hoki Wolf Studio",
+  "pub": "Hoki Wolf Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/another-try-2.jpg",
+  "logo": "images/logos/another-try-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2788040",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

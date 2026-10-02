@@ -1,0 +1,26 @@
+{
+  "id": "shining-force-exa-usa-chd",
+  "name": "Shining Force EXA (USA).chd",
+  "year": "2007",
+  "platform": "ps2",
+  "release": "20.03.2007",
+  "size": "",
+  "hltb": "Main: 39",
+  "dev": "Neverland",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/shining-force-exa-usa-chd.jpg",
+  "logo": "images/logos/shining-force-exa-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

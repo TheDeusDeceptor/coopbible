@@ -1,0 +1,26 @@
+{
+  "id": "neverdead",
+  "name": "NeverDead",
+  "year": "2012",
+  "platform": "",
+  "release": "31.01.2012",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Rebellion Developments",
+  "pub": "Konami Digital Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/neverdead.jpg",
+  "logo": "images/logos/neverdead.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

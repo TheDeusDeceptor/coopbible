@@ -1,0 +1,26 @@
+{
+  "id": "phoenix-wright",
+  "name": "Phoenix Wright",
+  "year": "2001",
+  "platform": "PC",
+  "release": "2001 (2019)",
+  "size": "",
+  "hltb": "Main: 18, +Extra: 22",
+  "dev": "",
+  "pub": "",
+  "notes": "Phoenix Wright Trilogy.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-attorney",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": "Phoenix Wright Trilogy."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "subnautica-2",
+  "name": "Subnautica 2",
+  "year": "2026",
+  "platform": "",
+  "release": "14.05.2026",
+  "size": "50 GB",
+  "hltb": "",
+  "dev": "Unknown Worlds Entertainment",
+  "pub": "Unknown Worlds Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/subnautica-2.jpg",
+  "logo": "images/logos/subnautica-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1962700",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

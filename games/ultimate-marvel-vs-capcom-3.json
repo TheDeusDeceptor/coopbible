@@ -1,0 +1,26 @@
+{
+  "id": "ultimate-marvel-vs-capcom-3",
+  "name": "Ultimate Marvel vs. Capcom 3",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/ultimate-marvel-vs-capcom-3.jpg",
+  "logo": "images/logos/ultimate-marvel-vs-capcom-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

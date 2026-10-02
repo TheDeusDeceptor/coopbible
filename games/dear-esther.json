@@ -1,0 +1,26 @@
+{
+  "id": "dear-esther",
+  "name": "Dear Esther",
+  "year": "2012",
+  "platform": "",
+  "release": "14.02.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "The Chinese Room",
+  "pub": "Secret Mode",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/dear-esther.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

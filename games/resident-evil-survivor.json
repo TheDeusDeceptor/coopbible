@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-survivor",
+  "name": "Resident Evil Survivor",
+  "year": "2000",
+  "platform": "PSX",
+  "release": "2000.0",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "TOSE",
+  "pub": "Capcom",
+  "notes": "PC version sucks.",
+  "screenshot": "images/screenshots/resident-evil-survivor.jpg",
+  "logo": "images/logos/resident-evil-survivor.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": "PC version sucks."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "danganronpa-2-goodbye-despair",
+  "name": "Danganronpa 2: Goodbye Despair",
+  "year": "2014",
+  "platform": "PC",
+  "release": "02.09.2014",
+  "size": "",
+  "hltb": "Main: 34, +Extra: 42",
+  "dev": "Spike ChunSoft",
+  "pub": "NIS America",
+  "notes": "",
+  "screenshot": "images/screenshots/danganronpa-2-goodbye-despair.jpg",
+  "logo": "images/logos/danganronpa-2-goodbye-despair.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "danganronpa",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

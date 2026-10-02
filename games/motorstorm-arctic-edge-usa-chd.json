@@ -1,0 +1,26 @@
+{
+  "id": "motorstorm-arctic-edge-usa-chd",
+  "name": "MotorStorm - Arctic Edge (USA).chd",
+  "year": "2009",
+  "platform": "ps2",
+  "release": "03.10.2009",
+  "size": "",
+  "hltb": "Main: 14",
+  "dev": "Virtuos",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/motorstorm-arctic-edge-usa-chd.jpg",
+  "logo": "images/logos/motorstorm-arctic-edge-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shinobido-tales-of-the-ninja",
+  "name": "Shinobido: Tales of the Ninja",
+  "year": "2007",
+  "platform": "PSP",
+  "release": "09.02.2007",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Acquire",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/shinobido-tales-of-the-ninja.jpg",
+  "logo": "images/logos/shinobido-tales-of-the-ninja.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "shinobido",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

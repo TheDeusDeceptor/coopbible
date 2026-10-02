@@ -1,0 +1,26 @@
+{
+  "id": "bayonetta-3",
+  "name": "Bayonetta 3",
+  "year": "2022",
+  "platform": "Switch",
+  "release": "2022.0",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 18",
+  "dev": "PlatinumGames",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/bayonetta-3.jpg",
+  "logo": "images/logos/bayonetta-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "bayonetta",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

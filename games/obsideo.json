@@ -1,0 +1,32 @@
+{
+  "id": "obsideo",
+  "name": "Obsideo",
+  "year": "2021",
+  "platform": "",
+  "release": "27.08.2021",
+  "size": "15 GB",
+  "hltb": "",
+  "dev": "Kyle's Garage",
+  "pub": "Kyle's Garage",
+  "notes": "",
+  "screenshot": "images/screenshots/obsideo.jpg",
+  "logo": "images/logos/obsideo.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1708460",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

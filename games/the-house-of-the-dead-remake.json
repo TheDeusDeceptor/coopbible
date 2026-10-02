@@ -1,0 +1,26 @@
+{
+  "id": "the-house-of-the-dead-remake",
+  "name": "The House of the Dead: Remake",
+  "year": "2022",
+  "platform": "PC",
+  "release": "07.04.2022",
+  "size": "",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "MegaPixel Studio",
+  "pub": "Forever Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/the-house-of-the-dead-remake.jpg",
+  "logo": "images/logos/the-house-of-the-dead-remake.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "the-house-of-the-dead",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

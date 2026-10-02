@@ -1,0 +1,26 @@
+{
+  "id": "saints-row-2006",
+  "name": "Saints Row",
+  "year": "2006",
+  "platform": "",
+  "release": "29.08.2006",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 27",
+  "dev": "Volition",
+  "pub": "THQ",
+  "notes": "",
+  "screenshot": "images/screenshots/saints-row-2006.jpg",
+  "logo": "images/logos/saints-row-2006.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

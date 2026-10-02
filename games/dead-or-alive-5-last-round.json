@@ -1,0 +1,26 @@
+{
+  "id": "dead-or-alive-5-last-round",
+  "name": "Dead or Alive 5 Last Round",
+  "year": "2015",
+  "platform": "",
+  "release": "30.03.2015",
+  "size": "10 GB",
+  "hltb": "Main: 4, +Extra: 10",
+  "dev": "Team Ninja",
+  "pub": "Koei Tecmo Games",
+  "notes": "",
+  "screenshot": "images/screenshots/dead-or-alive-5-last-round.jpg",
+  "logo": "images/logos/dead-or-alive-5-last-round.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

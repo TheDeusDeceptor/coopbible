@@ -1,0 +1,26 @@
+{
+  "id": "spider-man",
+  "name": "Spider-Man",
+  "year": "1984",
+  "platform": "",
+  "release": "30.08.1984",
+  "size": "",
+  "hltb": "",
+  "dev": "Adventure International",
+  "pub": "Adventure International",
+  "notes": "",
+  "screenshot": "images/screenshots/spider-man.jpg",
+  "logo": "images/logos/spider-man.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

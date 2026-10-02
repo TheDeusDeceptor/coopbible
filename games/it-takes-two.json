@@ -1,0 +1,32 @@
+{
+  "id": "it-takes-two",
+  "name": "It Takes Two",
+  "year": "2021",
+  "platform": "",
+  "release": "25.03.2021",
+  "size": "50 GB",
+  "hltb": "Main: 13, +Extra: 14",
+  "dev": "Hazelight Studios",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/it-takes-two.jpg",
+  "logo": "images/logos/it-takes-two.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1426210",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

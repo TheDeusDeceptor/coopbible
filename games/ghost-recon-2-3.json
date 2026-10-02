@@ -1,0 +1,26 @@
+{
+  "id": "ghost-recon-2-3",
+  "name": "Ghost Recon 2",
+  "year": "2004",
+  "platform": "XBOX",
+  "release": "2004.0",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "",
+  "pub": "",
+  "notes": "\"2011: Final Assault\". Good luck emulating...",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-ghost-recon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "\"2011: Final Assault\". Good luck emulating..."
+}

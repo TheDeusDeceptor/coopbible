@@ -1,0 +1,26 @@
+{
+  "id": "ridge-racer-3d",
+  "name": "Ridge Racer 3D",
+  "year": "2011",
+  "platform": "3DS",
+  "release": "26.02.2011",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 16",
+  "dev": "Namco Bandai Games",
+  "pub": "Namco Bandai Games",
+  "notes": "",
+  "screenshot": "images/screenshots/ridge-racer-3d.jpg",
+  "logo": "images/logos/ridge-racer-3d.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ridge-racer",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

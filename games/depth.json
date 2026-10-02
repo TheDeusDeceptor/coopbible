@@ -1,0 +1,32 @@
+{
+  "id": "depth",
+  "name": "Depth",
+  "year": "2014",
+  "platform": "",
+  "release": "03.11.2014",
+  "size": "8 GB",
+  "hltb": "Main: 5, +Extra: 64",
+  "dev": "Ammobox Studios",
+  "pub": "Ammobox Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/depth.jpg",
+  "logo": "images/logos/depth.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/274940",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

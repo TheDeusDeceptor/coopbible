@@ -1,0 +1,32 @@
+{
+  "id": "colony-survival",
+  "name": "Colony Survival",
+  "year": "2017",
+  "platform": "",
+  "release": "16.06.2017",
+  "size": "0.3 GB",
+  "hltb": "",
+  "dev": "Pipliz",
+  "pub": "Pipliz",
+  "notes": "",
+  "screenshot": "images/screenshots/colony-survival.jpg",
+  "logo": "images/logos/colony-survival.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/366090/Colony_Survival/",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

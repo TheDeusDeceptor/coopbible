@@ -1,0 +1,32 @@
+{
+  "id": "blight-survival",
+  "name": "Blight: Survival",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Haenir Studio",
+  "pub": "Behaviour Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/blight-survival.jpg",
+  "logo": "images/logos/blight-survival.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1774880",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "superior-vengeance",
+  "name": "Superior: Vengeance",
+  "year": "2023",
+  "platform": "",
+  "release": "22.08.2023",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Drifter®",
+  "pub": "Gala Games",
+  "notes": "Developer server authorization required",
+  "screenshot": "images/screenshots/superior-vengeance.jpg",
+  "logo": "images/logos/superior-vengeance.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1297490",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

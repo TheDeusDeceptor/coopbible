@@ -1,0 +1,26 @@
+{
+  "id": "rogue-trooper-redux",
+  "name": "Rogue Trooper: Redux",
+  "year": "2017",
+  "platform": "",
+  "release": "17.10.2017",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "TickTock Games",
+  "pub": "RebellionInteract",
+  "notes": "",
+  "screenshot": "images/screenshots/rogue-trooper-redux.jpg",
+  "logo": "images/logos/rogue-trooper-redux.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

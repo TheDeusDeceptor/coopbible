@@ -1,0 +1,32 @@
+{
+  "id": "the-planet-crafter",
+  "name": "The Planet Crafter",
+  "year": "2024",
+  "platform": "",
+  "release": "10.04.2024",
+  "size": "4 GB",
+  "hltb": "Main: 33, +Extra: 45",
+  "dev": "Miju Games",
+  "pub": "Miju Games",
+  "notes": "",
+  "screenshot": "images/screenshots/the-planet-crafter.jpg",
+  "logo": "images/logos/the-planet-crafter.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1284190",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

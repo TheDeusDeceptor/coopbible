@@ -1,0 +1,32 @@
+{
+  "id": "resident-evil-outbreak",
+  "name": "Resident Evil Outbreak",
+  "year": "2003",
+  "platform": "PS2",
+  "release": "11.12.2003",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Capcom Production Studio 1",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-outbreak.jpg",
+  "logo": "images/logos/resident-evil-outbreak.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Resident_Evil_Outbreak",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": null
+}

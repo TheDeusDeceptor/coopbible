@@ -1,0 +1,26 @@
+{
+  "id": "time-crisis-3",
+  "name": "Time Crisis 3",
+  "year": "2002",
+  "platform": "PS2",
+  "release": "01.12.2002",
+  "size": "",
+  "hltb": "Main: 1, +Extra: 4",
+  "dev": "Nextech",
+  "pub": "Namco Hometek",
+  "notes": "",
+  "screenshot": "images/screenshots/time-crisis-3.jpg",
+  "logo": "images/logos/time-crisis-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "time-crisis",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

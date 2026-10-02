@@ -1,0 +1,26 @@
+{
+  "id": "time-crisis-crisis-zone",
+  "name": "(Time Crisis) Crisis Zone",
+  "year": "1999",
+  "platform": "PS2",
+  "release": "01.01.1999",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "Little ashamed to put 20 minutes as beat-time.",
+  "screenshot": "images/screenshots/time-crisis-crisis-zone.jpg",
+  "logo": "images/logos/time-crisis-crisis-zone.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "time-crisis",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Little ashamed to put 20 minutes as beat-time."
+}

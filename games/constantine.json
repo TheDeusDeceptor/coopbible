@@ -1,0 +1,26 @@
+{
+  "id": "constantine",
+  "name": "Constantine",
+  "year": "2005",
+  "platform": "",
+  "release": "14.02.2005",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Bits Studios",
+  "pub": "THQ",
+  "notes": "",
+  "screenshot": "images/screenshots/constantine.jpg",
+  "logo": "images/logos/constantine.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "travis-strikes-again-no-more-heroes",
+  "name": "Travis Strikes Again: No More Heroes",
+  "year": "2019",
+  "platform": "PC",
+  "release": "2019.0",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Grasshopper Manufacture",
+  "pub": "Grasshopper Manufacture",
+  "notes": "",
+  "screenshot": "images/screenshots/travis-strikes-again-no-more-heroes.jpg",
+  "logo": "images/logos/travis-strikes-again-no-more-heroes.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "no-more-heroes",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

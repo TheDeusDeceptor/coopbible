@@ -1,0 +1,26 @@
+{
+  "id": "apollo-justice-ace-attorney-trilogy",
+  "name": "Apollo Justice: Ace Attorney Trilogy",
+  "year": "2024",
+  "platform": "",
+  "release": "25.01.2024",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/apollo-justice-ace-attorney-trilogy.jpg",
+  "logo": "images/logos/apollo-justice-ace-attorney-trilogy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

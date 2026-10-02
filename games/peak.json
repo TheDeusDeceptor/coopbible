@@ -1,0 +1,32 @@
+{
+  "id": "peak",
+  "name": "PEAK",
+  "year": "2025",
+  "platform": "",
+  "release": "16.06.2025",
+  "size": "4 GB",
+  "hltb": "Main: 6, +Extra: 16",
+  "dev": "Team PEAK",
+  "pub": "Aggro Crab, Evil Landfall?",
+  "notes": "",
+  "screenshot": "images/screenshots/peak.jpg",
+  "logo": "images/logos/peak.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3527290",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

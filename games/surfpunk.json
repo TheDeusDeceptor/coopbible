@@ -1,0 +1,32 @@
+{
+  "id": "surfpunk",
+  "name": "Surfpunk",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Double Stallion",
+  "pub": "Double Stallion",
+  "notes": "",
+  "screenshot": "images/screenshots/surfpunk.jpg",
+  "logo": "images/logos/surfpunk.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2434830",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

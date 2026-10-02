@@ -1,0 +1,32 @@
+{
+  "id": "enshrouded",
+  "name": "Enshrouded",
+  "year": "2024",
+  "platform": "",
+  "release": "24.01.2024",
+  "size": "60 GB",
+  "hltb": "",
+  "dev": "Keen Games GmbH",
+  "pub": "Keen Games GmbH",
+  "notes": "emulation issues",
+  "screenshot": "images/screenshots/enshrouded.jpg",
+  "logo": "images/logos/enshrouded.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1203620",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

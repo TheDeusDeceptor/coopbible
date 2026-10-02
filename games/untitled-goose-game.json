@@ -1,0 +1,32 @@
+{
+  "id": "untitled-goose-game",
+  "name": "Untitled Goose Game",
+  "year": "2020",
+  "platform": "",
+  "release": "23.09.2020",
+  "size": "0.8 GB",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "House House",
+  "pub": "Panic",
+  "notes": "",
+  "screenshot": "images/screenshots/untitled-goose-game.jpg",
+  "logo": "images/logos/untitled-goose-game.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/837470",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

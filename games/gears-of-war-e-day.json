@@ -1,0 +1,26 @@
+{
+  "id": "gears-of-war-e-day",
+  "name": "Gears of War: E-Day",
+  "year": "2026",
+  "platform": "PC",
+  "release": "2026.0",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/gears-of-war-e-day.jpg",
+  "logo": "images/logos/gears-of-war-e-day.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gears-of-war",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

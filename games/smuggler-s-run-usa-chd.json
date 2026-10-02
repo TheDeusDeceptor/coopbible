@@ -1,0 +1,26 @@
+{
+  "id": "smuggler-s-run-usa-chd",
+  "name": "Smuggler's Run (USA).chd",
+  "year": "2000",
+  "platform": "ps2",
+  "release": "25.10.2000",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Angel Studios",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/smuggler-s-run-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

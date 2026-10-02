@@ -1,0 +1,26 @@
+{
+  "id": "syphon-filter-usa-chd",
+  "name": "Syphon Filter (USA).CHD",
+  "year": "1999",
+  "platform": "psx",
+  "release": "17.02.1999",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "Eidetic",
+  "pub": "989 Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/syphon-filter-usa-chd.jpg",
+  "logo": "images/logos/syphon-filter-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

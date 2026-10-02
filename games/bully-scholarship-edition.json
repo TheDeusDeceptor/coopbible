@@ -1,0 +1,26 @@
+{
+  "id": "bully-scholarship-edition",
+  "name": "Bully: Scholarship Edition",
+  "year": "2008",
+  "platform": "",
+  "release": "21.10.2008",
+  "size": "",
+  "hltb": "",
+  "dev": "Rockstar New England",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/bully-scholarship-edition.jpg",
+  "logo": "images/logos/bully-scholarship-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

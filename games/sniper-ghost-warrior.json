@@ -1,0 +1,26 @@
+{
+  "id": "sniper-ghost-warrior",
+  "name": "Sniper: Ghost Warrior",
+  "year": "2010",
+  "platform": "PC",
+  "release": "29.06.2010",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/sniper-ghost-warrior.jpg",
+  "logo": "images/logos/sniper-ghost-warrior.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "sniper-ghost-warrior",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

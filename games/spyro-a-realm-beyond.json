@@ -1,0 +1,26 @@
+{
+  "id": "spyro-a-realm-beyond",
+  "name": "Spyro: A Realm Beyond",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/spyro-a-realm-beyond.jpg",
+  "logo": "images/logos/spyro-a-realm-beyond.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "spyro-the-dragon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

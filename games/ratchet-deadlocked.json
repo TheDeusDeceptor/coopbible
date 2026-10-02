@@ -1,0 +1,26 @@
+{
+  "id": "ratchet-deadlocked",
+  "name": "Ratchet: Deadlocked",
+  "year": "2005",
+  "platform": "PS3",
+  "release": "25.10.2005",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Insomniac Games",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/ratchet-deadlocked.jpg",
+  "logo": "images/logos/ratchet-deadlocked.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ratchet-clank",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

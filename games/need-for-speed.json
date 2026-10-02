@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed",
+  "name": "Need for Speed",
+  "year": "1995",
+  "platform": "PC",
+  "release": "01.01.1995",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 23",
+  "dev": "Electronic Arts Canada",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed.jpg",
+  "logo": "images/logos/need-for-speed.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

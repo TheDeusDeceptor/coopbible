@@ -1,0 +1,26 @@
+{
+  "id": "velvet-assassin",
+  "name": "Velvet Assassin",
+  "year": "2009",
+  "platform": "",
+  "release": "30.04.2009",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "Replay Studios",
+  "pub": "SouthPeak Games",
+  "notes": "",
+  "screenshot": "images/screenshots/velvet-assassin.jpg",
+  "logo": "images/logos/velvet-assassin.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

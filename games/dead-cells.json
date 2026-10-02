@@ -1,0 +1,26 @@
+{
+  "id": "dead-cells",
+  "name": "Dead Cells",
+  "year": "2018",
+  "platform": "",
+  "release": "07.08.2018",
+  "size": "",
+  "hltb": "",
+  "dev": "Motion Twin",
+  "pub": "Motion Twin",
+  "notes": "",
+  "screenshot": "images/screenshots/dead-cells.jpg",
+  "logo": "images/logos/dead-cells.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "orebound",
+  "name": "Orebound",
+  "year": "2024",
+  "platform": "",
+  "release": "24.10.2024",
+  "size": "6 GB",
+  "hltb": "",
+  "dev": "Emberforge",
+  "pub": "Emberforge",
+  "notes": "",
+  "screenshot": "images/screenshots/orebound.jpg",
+  "logo": "images/logos/orebound.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2467810",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

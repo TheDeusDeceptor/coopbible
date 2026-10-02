@@ -1,0 +1,26 @@
+{
+  "id": "shinobi-usa-chd",
+  "name": "Shinobi (USA).chd",
+  "year": "2002",
+  "platform": "ps2",
+  "release": "12.11.2002",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Overworks",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/shinobi-usa-chd.jpg",
+  "logo": "images/logos/shinobi-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-prostreet",
+  "name": "Need for Speed: ProStreet",
+  "year": "2008",
+  "platform": "PC",
+  "release": "18.02.2008",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 16",
+  "dev": "Electronic Arts Black Box",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-prostreet.jpg",
+  "logo": "images/logos/need-for-speed-prostreet.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

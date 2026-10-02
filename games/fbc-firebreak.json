@@ -1,0 +1,32 @@
+{
+  "id": "fbc-firebreak",
+  "name": "FBC: Firebreak",
+  "year": "2025",
+  "platform": "",
+  "release": "17.06.2025",
+  "size": "30 GB",
+  "hltb": "Main: 3, +Extra: 10",
+  "dev": "Remedy Entertainment",
+  "pub": "Remedy Entertainment",
+  "notes": "STEAM \n(Friends Pass)\n\n\n\nPerformance demands\ndifferent OS...",
+  "screenshot": "images/screenshots/fbc-firebreak.jpg",
+  "logo": "images/logos/fbc-firebreak.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2272540",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

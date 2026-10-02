@@ -1,0 +1,32 @@
+{
+  "id": "lunaela",
+  "name": "Lunaela",
+  "year": "2022",
+  "platform": "",
+  "release": "13.05.2022",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Doky",
+  "pub": "Doky",
+  "notes": "",
+  "screenshot": "images/screenshots/lunaela.jpg",
+  "logo": "images/logos/lunaela.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1979590",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

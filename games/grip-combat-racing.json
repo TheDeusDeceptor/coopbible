@@ -1,0 +1,26 @@
+{
+  "id": "grip-combat-racing",
+  "name": "GRIP Combat Racing",
+  "year": "2018",
+  "platform": "",
+  "release": "06.11.2018",
+  "size": "8 GB",
+  "hltb": "Main: 14",
+  "dev": "Caged Element",
+  "pub": "Wired Productions",
+  "notes": "",
+  "screenshot": "images/screenshots/grip-combat-racing.jpg",
+  "logo": "images/logos/grip-combat-racing.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

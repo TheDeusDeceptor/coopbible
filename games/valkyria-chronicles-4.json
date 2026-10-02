@@ -1,0 +1,26 @@
+{
+  "id": "valkyria-chronicles-4",
+  "name": "Valkyria Chronicles 4",
+  "year": "2019",
+  "platform": "PC",
+  "release": "25.09.2019",
+  "size": "",
+  "hltb": "Main: 37, +Extra: 50",
+  "dev": "Sega",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/valkyria-chronicles-4.jpg",
+  "logo": "images/logos/valkyria-chronicles-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "valkyria-chronicles",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

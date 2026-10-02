@@ -1,0 +1,32 @@
+{
+  "id": "alien-breed-3-descent",
+  "name": "Alien Breed 3: Descent",
+  "year": "2010",
+  "platform": "",
+  "release": "17.11.2010",
+  "size": "2 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Team17 Digital Ltd",
+  "pub": "Team17 Digital Ltd",
+  "notes": "",
+  "screenshot": "images/screenshots/alien-breed-3-descent.jpg",
+  "logo": "images/logos/alien-breed-3-descent.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/22670",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

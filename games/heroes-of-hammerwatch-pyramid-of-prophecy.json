@@ -1,0 +1,26 @@
+{
+  "id": "heroes-of-hammerwatch-pyramid-of-prophecy",
+  "name": "Heroes of Hammerwatch: Pyramid of Prophecy",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/heroes-of-hammerwatch-pyramid-of-prophecy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-vanguard",
+  "name": "Call of Duty: Vanguard",
+  "year": "2021",
+  "platform": "PC",
+  "release": "2021.0",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Sledgehammer Games",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-vanguard.jpg",
+  "logo": "images/logos/call-of-duty-vanguard.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

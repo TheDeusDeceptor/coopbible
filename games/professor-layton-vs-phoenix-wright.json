@@ -1,0 +1,26 @@
+{
+  "id": "professor-layton-vs-phoenix-wright",
+  "name": "Professor Layton vs. Phoenix Wright",
+  "year": "2012",
+  "platform": "3DS",
+  "release": "2012.0",
+  "size": "",
+  "hltb": "Main: 24, +Extra: 28",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/professor-layton-vs-phoenix-wright.jpg",
+  "logo": "images/logos/professor-layton-vs-phoenix-wright.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-attorney",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

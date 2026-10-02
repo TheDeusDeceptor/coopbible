@@ -1,0 +1,26 @@
+{
+  "id": "god-of-war-ghost-of-sparta",
+  "name": "God of War: Ghost of Sparta",
+  "year": "2010",
+  "platform": "PSP",
+  "release": "2010.0",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Ready at Dawn Studios",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/god-of-war-ghost-of-sparta.jpg",
+  "logo": "images/logos/god-of-war-ghost-of-sparta.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "god-of-war",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

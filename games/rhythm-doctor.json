@@ -1,0 +1,26 @@
+{
+  "id": "rhythm-doctor",
+  "name": "Rhythm Doctor",
+  "year": "2021",
+  "platform": "",
+  "release": "21.02.2021",
+  "size": "1 GB",
+  "hltb": "Main: 4, +Extra: 8",
+  "dev": "7th Beat Games",
+  "pub": "indienova",
+  "notes": "",
+  "screenshot": "images/screenshots/rhythm-doctor.jpg",
+  "logo": "images/logos/rhythm-doctor.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

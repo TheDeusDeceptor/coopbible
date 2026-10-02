@@ -1,0 +1,26 @@
+{
+  "id": "red-faction-battlegrounds",
+  "name": "Red Faction: Battlegrounds",
+  "year": "2011",
+  "platform": "PS3",
+  "release": "06.04.2011",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "Volition",
+  "pub": "THQ",
+  "notes": "",
+  "screenshot": "images/screenshots/red-faction-battlegrounds.jpg",
+  "logo": "images/logos/red-faction-battlegrounds.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "red-faction",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

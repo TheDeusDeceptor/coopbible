@@ -1,0 +1,26 @@
+{
+  "id": "ridge-racer",
+  "name": "Ridge Racer",
+  "logo": "",
+  "main": 77,
+  "extra": 128,
+  "order": [
+    "ridge-racer-2",
+    "ridge-racer-2-2",
+    "rave-racer",
+    "ridge-racer-revolution",
+    "rage-racer",
+    "r4-ridge-racer-type-4",
+    "ridge-racer-64",
+    "ridge-racer-v",
+    "r-racing-evolution",
+    "ridge-racer-s",
+    "ridge-racer-6",
+    "critical-velocity",
+    "ridge-racer-7",
+    "ridge-racer-s-2",
+    "ridge-racer-3d",
+    "ridge-racer-3",
+    "ridge-racer-unbounded"
+  ]
+}

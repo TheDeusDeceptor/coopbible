@@ -1,0 +1,26 @@
+{
+  "id": "shadow-the-hedgehog-usa-en-ja-fr-de-es-it-chd",
+  "name": "Shadow the Hedgehog (USA) (En,Ja,Fr,De,Es,It).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "15.11.2005",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Sonic Team",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/shadow-the-hedgehog-usa-en-ja-fr-de-es-it-chd.jpg",
+  "logo": "images/logos/shadow-the-hedgehog-usa-en-ja-fr-de-es-it-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

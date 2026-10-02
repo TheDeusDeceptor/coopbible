@@ -1,0 +1,32 @@
+{
+  "id": "labyrinthine",
+  "name": "Labyrinthine",
+  "year": "2023",
+  "platform": "",
+  "release": "18.08.2023",
+  "size": "20 GB",
+  "hltb": "Main: 6, +Extra: 12",
+  "dev": "Valko Game Studios",
+  "pub": "Valko Game Studios",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/labyrinthine.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1302240",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

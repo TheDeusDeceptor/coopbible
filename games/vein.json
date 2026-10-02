@@ -1,0 +1,32 @@
+{
+  "id": "vein",
+  "name": "VEIN",
+  "year": "2025",
+  "platform": "",
+  "release": "24.10.2025",
+  "size": "60 GB",
+  "hltb": "",
+  "dev": "Ramjet Studios",
+  "pub": "Ramjet Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/vein.jpg",
+  "logo": "images/logos/vein.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1857950",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

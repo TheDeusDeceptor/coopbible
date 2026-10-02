@@ -1,0 +1,26 @@
+{
+  "id": "we-love-katamari-reroll-royal-reverie",
+  "name": "We Love Katamari (REROLL+ Royal Reverie)",
+  "year": "2005",
+  "platform": "PC",
+  "release": "2005 (2023)",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 9",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "katamari-damacy",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

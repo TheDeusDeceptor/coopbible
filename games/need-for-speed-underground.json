@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-underground",
+  "name": "Need for Speed: Underground",
+  "year": "2005",
+  "platform": "PC",
+  "release": "01.01.2005",
+  "size": "",
+  "hltb": "Main: 14, +Extra: 18",
+  "dev": "Global VR",
+  "pub": "Global VR",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-underground.jpg",
+  "logo": "images/logos/need-for-speed-underground.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

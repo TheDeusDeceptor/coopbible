@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-3-nemesis",
+  "name": "Resident Evil 3: Nemesis",
+  "year": "2000",
+  "platform": "",
+  "release": "16.11.2000",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-3-nemesis.jpg",
+  "logo": "images/logos/resident-evil-3-nemesis.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

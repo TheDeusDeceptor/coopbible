@@ -1,0 +1,32 @@
+{
+  "id": "farever",
+  "name": "Farever",
+  "year": "2026",
+  "platform": "",
+  "release": "06.05.2026",
+  "size": "25 GB",
+  "hltb": "",
+  "dev": "Shiro Games",
+  "pub": "Shiro Games",
+  "notes": "",
+  "screenshot": "images/screenshots/farever.jpg",
+  "logo": "images/logos/farever.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3672400",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

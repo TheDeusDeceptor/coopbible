@@ -1,0 +1,26 @@
+{
+  "id": "star-wars-battlefront-ii",
+  "name": "Star Wars Battlefront II",
+  "year": "2005",
+  "platform": "",
+  "release": "01.11.2005",
+  "size": "",
+  "hltb": "",
+  "dev": "Pandemic",
+  "pub": "LucasArts",
+  "notes": "",
+  "screenshot": "images/screenshots/star-wars-battlefront-ii.jpg",
+  "logo": "images/logos/star-wars-battlefront-ii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

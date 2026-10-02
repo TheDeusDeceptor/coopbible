@@ -1,0 +1,26 @@
+{
+  "id": "metal-gear-solid-3-snake-eater-master-collection",
+  "name": "Metal Gear Solid 3: Snake Eater (Master Collection)",
+  "year": "2004",
+  "platform": "PC",
+  "release": "17.11.2004",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 19",
+  "dev": "Konami Computer Entertainment Japan",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/metal-gear-solid-3-snake-eater-master-collection.jpg",
+  "logo": "images/logos/metal-gear-solid-3-snake-eater-master-collection.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metal-gear-solid",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

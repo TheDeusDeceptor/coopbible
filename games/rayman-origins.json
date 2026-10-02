@@ -1,0 +1,26 @@
+{
+  "id": "rayman-origins",
+  "name": "Rayman Origins",
+  "year": "2012",
+  "platform": "",
+  "release": "29.03.2012",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 14",
+  "dev": "Ubisoft",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/rayman-origins.jpg",
+  "logo": "images/logos/rayman-origins.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

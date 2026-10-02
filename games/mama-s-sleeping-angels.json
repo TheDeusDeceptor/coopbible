@@ -1,0 +1,32 @@
+{
+  "id": "mama-s-sleeping-angels",
+  "name": "Mama's Sleeping Angels",
+  "year": "2026",
+  "platform": "",
+  "release": "11.03.2026",
+  "size": "10 GB",
+  "hltb": "Full: 10",
+  "dev": "itamu",
+  "pub": "Oro Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/mama-s-sleeping-angels.jpg",
+  "logo": "images/logos/mama-s-sleeping-angels.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2918310",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "watchmen-the-end-is-nigh-part-2",
+  "name": "Watchmen: The End is Nigh Part 2",
+  "year": "2009",
+  "platform": "",
+  "release": "29.07.2009",
+  "size": "2 GB",
+  "hltb": "Main: 2",
+  "dev": "Deadline Games",
+  "pub": "Warner Bros. Games",
+  "notes": "",
+  "screenshot": "images/screenshots/watchmen-the-end-is-nigh-part-2.jpg",
+  "logo": "images/logos/watchmen-the-end-is-nigh-part-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/21030",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

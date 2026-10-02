@@ -1,0 +1,26 @@
+{
+  "id": "dirt-5",
+  "name": "Dirt 5",
+  "year": "2020",
+  "platform": "",
+  "release": "06.11.2020",
+  "size": "",
+  "hltb": "",
+  "dev": "Codemasters",
+  "pub": "Codemasters",
+  "notes": "",
+  "screenshot": "images/screenshots/dirt-5.jpg",
+  "logo": "images/logos/dirt-5.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

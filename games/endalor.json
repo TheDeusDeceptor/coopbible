@@ -1,0 +1,32 @@
+{
+  "id": "endalor",
+  "name": "ENDALOR",
+  "year": "2026",
+  "platform": "",
+  "release": "30.03.2026",
+  "size": "7 GB",
+  "hltb": "",
+  "dev": "Diorite Games",
+  "pub": "Diorite Games",
+  "notes": "",
+  "screenshot": "images/screenshots/endalor.jpg",
+  "logo": "images/logos/endalor.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2265990",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

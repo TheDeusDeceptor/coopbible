@@ -1,0 +1,26 @@
+{
+  "id": "tony-hawk-s-pro-skater-4",
+  "name": "Tony Hawk's Pro Skater 4",
+  "year": "2002",
+  "platform": "",
+  "release": "23.10.2002",
+  "size": "",
+  "hltb": "",
+  "dev": "Neversoft Entertainment",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/tony-hawk-s-pro-skater-4.jpg",
+  "logo": "images/logos/tony-hawk-s-pro-skater-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

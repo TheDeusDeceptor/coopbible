@@ -1,0 +1,26 @@
+{
+  "id": "bulletstorm",
+  "name": "Bulletstorm",
+  "year": "2011",
+  "platform": "",
+  "release": "22.02.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Epic Games",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/bulletstorm.jpg",
+  "logo": "images/logos/bulletstorm.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

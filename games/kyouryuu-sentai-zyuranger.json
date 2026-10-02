@@ -1,0 +1,26 @@
+{
+  "id": "kyouryuu-sentai-zyuranger",
+  "name": "Kyouryuu Sentai Zyuranger",
+  "year": "1992",
+  "platform": "",
+  "release": "06.11.1992",
+  "size": "",
+  "hltb": "",
+  "dev": "Arc System Works",
+  "pub": "Bandai",
+  "notes": "",
+  "screenshot": "images/screenshots/kyouryuu-sentai-zyuranger.jpg",
+  "logo": "images/logos/kyouryuu-sentai-zyuranger.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "scott-pilgrim-ex",
+  "name": "Scott Pilgrim EX",
+  "year": "2026",
+  "platform": "",
+  "release": "02.03.2026",
+  "size": "1 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Tribute Games Inc.",
+  "pub": "Tribute Games Inc.",
+  "notes": "",
+  "screenshot": "images/screenshots/scott-pilgrim-ex.jpg",
+  "logo": "images/logos/scott-pilgrim-ex.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2640950",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

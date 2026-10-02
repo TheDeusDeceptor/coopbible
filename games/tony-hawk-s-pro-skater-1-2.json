@@ -1,0 +1,26 @@
+{
+  "id": "tony-hawk-s-pro-skater-1-2",
+  "name": "Tony Hawk's Pro Skater 1 + 2",
+  "year": "2020",
+  "platform": "",
+  "release": "04.09.2020",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 12",
+  "dev": "Vicarious Visions",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/tony-hawk-s-pro-skater-1-2.jpg",
+  "logo": "images/logos/tony-hawk-s-pro-skater-1-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

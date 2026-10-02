@@ -1,0 +1,32 @@
+{
+  "id": "aragami",
+  "name": "Aragami",
+  "year": "2016",
+  "platform": "",
+  "release": "04.10.2016",
+  "size": "6 GB",
+  "hltb": "Main: 7, +Extra: 10",
+  "dev": "Lince Works",
+  "pub": "Lince Works",
+  "notes": "READY",
+  "screenshot": "images/screenshots/aragami.jpg",
+  "logo": "images/logos/aragami.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/280160",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

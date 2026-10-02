@@ -1,0 +1,26 @@
+{
+  "id": "metroid-prime-2-echoes-trilogy",
+  "name": "Metroid Prime 2: Echoes (Trilogy)",
+  "year": "2004",
+  "platform": "Wii",
+  "release": "15.11.2004",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 19",
+  "dev": "Retro Studios",
+  "pub": "Nintendo",
+  "notes": "Metroid Prime: Trilogy.",
+  "screenshot": "images/screenshots/metroid-prime-2-echoes-trilogy.jpg",
+  "logo": "images/logos/metroid-prime-2-echoes-trilogy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metroid",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Metroid Prime: Trilogy."
+}

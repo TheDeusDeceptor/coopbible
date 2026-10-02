@@ -1,0 +1,26 @@
+{
+  "id": "super-mario-odyssey",
+  "name": "Super Mario Odyssey",
+  "year": "2017",
+  "platform": "switch",
+  "release": "27.10.2017",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 27",
+  "dev": "Nintendo EPD",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/super-mario-odyssey.jpg",
+  "logo": "images/logos/super-mario-odyssey.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "super-mario",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

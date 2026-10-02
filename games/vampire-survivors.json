@@ -1,0 +1,26 @@
+{
+  "id": "vampire-survivors",
+  "name": "Vampire Survivors",
+  "year": "2021",
+  "platform": "",
+  "release": "17.12.2021",
+  "size": "",
+  "hltb": "",
+  "dev": "poncle",
+  "pub": "poncle",
+  "notes": "",
+  "screenshot": "images/screenshots/vampire-survivors.jpg",
+  "logo": "images/logos/vampire-survivors.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

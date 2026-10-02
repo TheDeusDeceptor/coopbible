@@ -1,0 +1,26 @@
+{
+  "id": "syphon-filter-2-usa-disc-1-chd",
+  "name": "Syphon Filter 2 (USA) (Disc 1).CHD",
+  "year": "2000",
+  "platform": "psx",
+  "release": "14.03.2000",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Eidetic",
+  "pub": "989 Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/syphon-filter-2-usa-disc-1-chd.jpg",
+  "logo": "images/logos/syphon-filter-2-usa-disc-1-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

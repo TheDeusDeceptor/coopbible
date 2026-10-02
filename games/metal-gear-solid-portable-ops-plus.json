@@ -1,0 +1,26 @@
+{
+  "id": "metal-gear-solid-portable-ops-plus",
+  "name": "Metal Gear Solid: Portable Ops Plus",
+  "year": "2007",
+  "platform": "PSP",
+  "release": "13.11.2007",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 9",
+  "dev": "Kojima Productions",
+  "pub": "Konami",
+  "notes": "Optional, expansion focused on online play.",
+  "screenshot": "images/screenshots/metal-gear-solid-portable-ops-plus.jpg",
+  "logo": "images/logos/metal-gear-solid-portable-ops-plus.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metal-gear-solid",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Optional, expansion focused on online play."
+}

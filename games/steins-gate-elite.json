@@ -1,0 +1,26 @@
+{
+  "id": "steins-gate-elite",
+  "name": "Steins;Gate Elite",
+  "year": "2018",
+  "platform": "PC",
+  "release": "20.09.2018",
+  "size": "",
+  "hltb": "Main: 25, +Extra: 29",
+  "dev": "MAGES.",
+  "pub": "Spike Chunsoft",
+  "notes": "Animated remake of Steins;Gate ...optional?",
+  "screenshot": "images/screenshots/steins-gate-elite.jpg",
+  "logo": "images/logos/steins-gate-elite.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "science-adventure",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Animated remake of Steins;Gate ...optional?"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "stage-fright",
+  "name": "Stage Fright",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Ghost Town Games Ltd.",
+  "pub": "Hello Games",
+  "notes": "",
+  "screenshot": "images/screenshots/stage-fright.jpg",
+  "logo": "images/logos/stage-fright.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3260750",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

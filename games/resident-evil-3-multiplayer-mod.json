@@ -1,0 +1,31 @@
+{
+  "id": "resident-evil-3-multiplayer-mod",
+  "name": "Resident Evil 3 Multiplayer Mod",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "",
+  "pub": "",
+  "notes": "Co-op",
+  "screenshot": "images/screenshots/resident-evil-3-multiplayer-mod.jpg",
+  "logo": "images/logos/resident-evil-3-multiplayer-mod.png",
+  "links": [
+    {
+      "label": "Store",
+      "url": "https://heysnippy.com/mods/re3coop/"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

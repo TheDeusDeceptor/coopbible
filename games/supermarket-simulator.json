@@ -1,0 +1,32 @@
+{
+  "id": "supermarket-simulator",
+  "name": "Supermarket Simulator",
+  "year": "2025",
+  "platform": "",
+  "release": "19.06.2025",
+  "size": "5 GB",
+  "hltb": "Main: 21, +Extra: 49",
+  "dev": "Nokta Games",
+  "pub": "Nokta Games",
+  "notes": "",
+  "screenshot": "images/screenshots/supermarket-simulator.jpg",
+  "logo": "images/logos/supermarket-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2670630",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

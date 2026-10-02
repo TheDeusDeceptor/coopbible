@@ -1,0 +1,26 @@
+{
+  "id": "blue-prince",
+  "name": "Blue Prince",
+  "year": "2025",
+  "platform": "",
+  "release": "10.04.2025",
+  "size": "",
+  "hltb": "Main: 18, +Extra: 35",
+  "dev": "Dogubomb",
+  "pub": "Raw Fury",
+  "notes": "",
+  "screenshot": "images/screenshots/blue-prince.jpg",
+  "logo": "images/logos/blue-prince.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "spyro-reignited-trilogy",
+  "name": "Spyro Reignited Trilogy",
+  "year": "2019",
+  "platform": "PC",
+  "release": "02.09.2019",
+  "size": "40 GB",
+  "hltb": "Main: 17, +Extra: 26",
+  "dev": "Toys for Bob",
+  "pub": "Activision",
+  "notes": "Remake of first three titles.",
+  "screenshot": "images/screenshots/spyro-reignited-trilogy.jpg",
+  "logo": "images/logos/spyro-reignited-trilogy.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "spyro-the-dragon",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": "Remake of first three titles."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "armed-and-dangerous",
+  "name": "Armed and Dangerous",
+  "year": "2003",
+  "platform": "",
+  "release": "02.12.2003",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Planet Moon Studios",
+  "pub": "LucasArts",
+  "notes": "",
+  "screenshot": "images/screenshots/armed-and-dangerous.jpg",
+  "logo": "images/logos/armed-and-dangerous.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

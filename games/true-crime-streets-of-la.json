@@ -1,0 +1,26 @@
+{
+  "id": "true-crime-streets-of-la",
+  "name": "True Crime: Streets of LA",
+  "year": "2003",
+  "platform": "",
+  "release": "03.11.2003",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Luxoflux",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/true-crime-streets-of-la.jpg",
+  "logo": "images/logos/true-crime-streets-of-la.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "high-on-life-2",
+  "name": "High on Life 2",
+  "year": "2026",
+  "platform": "",
+  "release": "13.02.2026",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 17",
+  "dev": "Squanch Games",
+  "pub": "Squanch Games",
+  "notes": "",
+  "screenshot": "images/screenshots/high-on-life-2.jpg",
+  "logo": "images/logos/high-on-life-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

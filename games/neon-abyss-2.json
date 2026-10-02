@@ -1,0 +1,32 @@
+{
+  "id": "neon-abyss-2",
+  "name": "Neon Abyss 2",
+  "year": "2025",
+  "platform": "",
+  "release": "17.07.2025",
+  "size": "2 GB",
+  "hltb": "",
+  "dev": "Veewo Games",
+  "pub": "Veewo Games, Kepler Ghost",
+  "notes": "",
+  "screenshot": "images/screenshots/neon-abyss-2.jpg",
+  "logo": "images/logos/neon-abyss-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2235200/Neon_Abyss_2/",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

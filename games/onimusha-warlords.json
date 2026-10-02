@@ -1,0 +1,26 @@
+{
+  "id": "onimusha-warlords",
+  "name": "Onimusha: Warlords",
+  "year": "2019",
+  "platform": "",
+  "release": "15.01.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/onimusha-warlords.jpg",
+  "logo": "images/logos/onimusha-warlords.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

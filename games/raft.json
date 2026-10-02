@@ -1,0 +1,32 @@
+{
+  "id": "raft",
+  "name": "Raft",
+  "year": "2022",
+  "platform": "",
+  "release": "20.06.2022",
+  "size": "10 GB",
+  "hltb": "Main: 25, +Extra: 36",
+  "dev": "Redbeet Interactive",
+  "pub": "Axolot Games",
+  "notes": "",
+  "screenshot": "images/screenshots/raft.jpg",
+  "logo": "images/logos/raft.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/648800",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "test-drive-usa-v2-00-chd",
+  "name": "Test Drive (USA) (v2.00).chd",
+  "year": "2002",
+  "platform": "ps2",
+  "release": "28.05.2002",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "The Pitbull Syndicate",
+  "pub": "Infogrames",
+  "notes": "",
+  "screenshot": "images/screenshots/test-drive-usa-v2-00-chd.jpg",
+  "logo": "images/logos/test-drive-usa-v2-00-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

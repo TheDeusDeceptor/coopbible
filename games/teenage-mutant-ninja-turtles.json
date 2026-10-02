@@ -1,0 +1,26 @@
+{
+  "id": "teenage-mutant-ninja-turtles",
+  "name": "Teenage Mutant Ninja Turtles",
+  "year": "1989",
+  "platform": "",
+  "release": "15.11.1989",
+  "size": "",
+  "hltb": "",
+  "dev": "Konami",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/teenage-mutant-ninja-turtles.jpg",
+  "logo": "images/logos/teenage-mutant-ninja-turtles.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

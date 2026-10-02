@@ -1,0 +1,26 @@
+{
+  "id": "burnout-revenge",
+  "name": "Burnout Revenge",
+  "year": "2005",
+  "platform": "X360",
+  "release": "13.09.2005",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 20",
+  "dev": "Criterion Software",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout-revenge.jpg",
+  "logo": "images/logos/burnout-revenge.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "burnout",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

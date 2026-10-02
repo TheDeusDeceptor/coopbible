@@ -1,0 +1,32 @@
+{
+  "id": "deadzone-rogue",
+  "name": "Deadzone: Rogue",
+  "year": "2025",
+  "platform": "",
+  "release": "11.08.2025",
+  "size": "10 GB",
+  "hltb": "Main: 4, +Extra: 15",
+  "dev": "Prophecy Games",
+  "pub": "Prophecy Games",
+  "notes": "",
+  "screenshot": "images/screenshots/deadzone-rogue.jpg",
+  "logo": "images/logos/deadzone-rogue.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3228590",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

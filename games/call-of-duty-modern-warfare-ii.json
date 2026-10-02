@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-modern-warfare-ii",
+  "name": "Call of Duty: Modern Warfare II",
+  "year": "2022",
+  "platform": "PC",
+  "release": "2022.0",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "Infinity Ward",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-modern-warfare-ii.jpg",
+  "logo": "images/logos/call-of-duty-modern-warfare-ii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

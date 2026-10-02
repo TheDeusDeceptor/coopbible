@@ -1,0 +1,26 @@
+{
+  "id": "death-stranding-2",
+  "name": "DEATH STRANDING 2",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 36, +Extra: 64",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/death-stranding-2.jpg",
+  "logo": "images/logos/death-stranding-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

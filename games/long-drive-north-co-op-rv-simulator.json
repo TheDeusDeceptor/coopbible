@@ -1,0 +1,32 @@
+{
+  "id": "long-drive-north-co-op-rv-simulator",
+  "name": "Long Drive North: Co-Op RV Simulator",
+  "year": "2025",
+  "platform": "",
+  "release": "18.11.2025",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "Mindflair Games LTD",
+  "pub": "Excalibur Games",
+  "notes": "",
+  "screenshot": "images/screenshots/long-drive-north-co-op-rv-simulator.jpg",
+  "logo": "images/logos/long-drive-north-co-op-rv-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3179350",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

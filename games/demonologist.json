@@ -1,0 +1,32 @@
+{
+  "id": "demonologist",
+  "name": "Demonologist",
+  "year": "2023",
+  "platform": "",
+  "release": "25.09.2023",
+  "size": "20 GB",
+  "hltb": "Main: 15, +Extra: 20",
+  "dev": "Clock Wizard Games",
+  "pub": "Clock Wizard Games",
+  "notes": "",
+  "screenshot": "images/screenshots/demonologist.jpg",
+  "logo": "images/logos/demonologist.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1929610",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

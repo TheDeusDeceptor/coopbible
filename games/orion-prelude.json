@@ -1,0 +1,32 @@
+{
+  "id": "orion-prelude",
+  "name": "ORION: Prelude",
+  "year": "2013",
+  "platform": "",
+  "release": "16.04.2013",
+  "size": "8 GB",
+  "hltb": "Main: 4, +Extra: 9",
+  "dev": "DANKIE",
+  "pub": "DANKIE",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/orion-prelude.jpg",
+  "logo": "images/logos/orion-prelude.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/104900",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

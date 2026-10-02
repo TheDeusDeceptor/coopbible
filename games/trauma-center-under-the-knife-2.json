@@ -1,0 +1,26 @@
+{
+  "id": "trauma-center-under-the-knife-2",
+  "name": "Trauma Center: Under the Knife 2",
+  "year": "2008",
+  "platform": "NDS",
+  "release": "01.07.2008",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 13",
+  "dev": "Atlus",
+  "pub": "Atlus",
+  "notes": "",
+  "screenshot": "images/screenshots/trauma-center-under-the-knife-2.jpg",
+  "logo": "images/logos/trauma-center-under-the-knife-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "trauma-center",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

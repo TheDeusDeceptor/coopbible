@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-survivor-2-code-veronica",
+  "name": "Resident Evil Survivor 2 – Code: Veronica",
+  "year": "2001",
+  "platform": "PS2",
+  "release": "2001.0",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "Namco",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-survivor-2-code-veronica.jpg",
+  "logo": "images/logos/resident-evil-survivor-2-code-veronica.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

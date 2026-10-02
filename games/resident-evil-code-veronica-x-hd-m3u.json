@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-code-veronica-x-hd-m3u",
+  "name": "Resident Evil Code Veronica X HD.m3u",
+  "year": "2011",
+  "platform": "ps3",
+  "release": "27.09.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-code-veronica-x-hd-m3u.jpg",
+  "logo": "images/logos/resident-evil-code-veronica-x-hd-m3u.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "twisted-metal-3",
+  "name": "Twisted Metal",
+  "year": "2012",
+  "platform": "PS3",
+  "release": "2012.0",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "twisted-metal",
+  "series_status": null,
+  "series_color": null,
+  "series_note": ""
+}

@@ -1,0 +1,32 @@
+{
+  "id": "popucom",
+  "name": "POPUCOM",
+  "year": "2025",
+  "platform": "",
+  "release": "01.06.2025",
+  "size": "15 GB",
+  "hltb": "Co-op: 13",
+  "dev": "Hypergryph",
+  "pub": "GRYPHLINE, Fireshine Games",
+  "notes": "",
+  "screenshot": "images/screenshots/popucom.jpg",
+  "logo": "images/logos/popucom.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2543180",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

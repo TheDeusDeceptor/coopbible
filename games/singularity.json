@@ -1,0 +1,26 @@
+{
+  "id": "singularity",
+  "name": "Singularity",
+  "year": "2010",
+  "platform": "",
+  "release": "29.07.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Raven Software",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/singularity.jpg",
+  "logo": "images/logos/singularity.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

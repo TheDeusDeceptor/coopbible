@@ -1,0 +1,32 @@
+{
+  "id": "payday-the-heist",
+  "name": "PAYDAY™ The Heist",
+  "year": "2011",
+  "platform": "",
+  "release": "20.10.2011",
+  "size": "6 GB",
+  "hltb": "Main: 10, +Extra: 32",
+  "dev": "OVERKILL - a Starbreeze Studio.",
+  "pub": "Starbreeze Entertainment",
+  "notes": "+ Wolfpack",
+  "screenshot": "images/screenshots/payday-the-heist.jpg",
+  "logo": "images/logos/payday-the-heist.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/24240",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

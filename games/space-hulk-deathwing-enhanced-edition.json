@@ -1,0 +1,32 @@
+{
+  "id": "space-hulk-deathwing-enhanced-edition",
+  "name": "Space Hulk: Deathwing Enhanced Edition",
+  "year": "2018",
+  "platform": "",
+  "release": "22.05.2018",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "Streum On Studio",
+  "pub": "Focus Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/space-hulk-deathwing-enhanced-edition.jpg",
+  "logo": "images/logos/space-hulk-deathwing-enhanced-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/816090",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

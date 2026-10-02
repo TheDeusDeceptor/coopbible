@@ -1,0 +1,26 @@
+{
+  "id": "ry-ga-gotoku-ishin",
+  "name": "Ryū ga Gotoku Ishin!",
+  "year": "2014",
+  "platform": "PS3",
+  "release": "22.02.2014",
+  "size": "",
+  "hltb": "Main: 24, +Extra: 45",
+  "dev": "Ryu ga Gotoku Studio",
+  "pub": "Sega",
+  "notes": "Fan English translation exists.",
+  "screenshot": "images/screenshots/ry-ga-gotoku-ishin.jpg",
+  "logo": "images/logos/ry-ga-gotoku-ishin.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Fan English translation exists."
+}

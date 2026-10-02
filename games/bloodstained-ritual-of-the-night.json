@@ -1,0 +1,26 @@
+{
+  "id": "bloodstained-ritual-of-the-night",
+  "name": "Bloodstained Ritual of the Night",
+  "year": "2019",
+  "platform": "",
+  "release": "17.06.2019",
+  "size": "10 GB",
+  "hltb": "Main: 14, +Extra: 21",
+  "dev": "ArtPlay",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/bloodstained-ritual-of-the-night.jpg",
+  "logo": "images/logos/bloodstained-ritual-of-the-night.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "silent-line-armored-core",
+  "name": "Silent Line: Armored Core",
+  "year": "2003",
+  "platform": "PS2",
+  "release": "15.07.2003",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "FromSoftware",
+  "pub": "Agetec",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-line-armored-core.jpg",
+  "logo": "images/logos/silent-line-armored-core.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "armored-core",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

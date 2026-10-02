@@ -1,0 +1,26 @@
+{
+  "id": "ratchet-clank-3",
+  "name": "Ratchet & Clank",
+  "year": "2016",
+  "platform": "PS4",
+  "release": "2016.0",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ratchet-clank",
+  "series_status": null,
+  "series_color": null,
+  "series_note": ""
+}

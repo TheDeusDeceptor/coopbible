@@ -1,0 +1,26 @@
+{
+  "id": "metro-exodus",
+  "name": "Metro Exodus",
+  "year": "2019",
+  "platform": "",
+  "release": "13.02.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "4A Games",
+  "pub": "Deep Silver",
+  "notes": "",
+  "screenshot": "images/screenshots/metro-exodus.jpg",
+  "logo": "images/logos/metro-exodus.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "co-op-kaiju-horror-cooking",
+  "name": "Co-op Kaiju Horror Cooking",
+  "year": "2025",
+  "platform": "",
+  "release": "29.07.2025",
+  "size": "",
+  "hltb": "",
+  "dev": "Strange Scaffold",
+  "pub": "Strange Scaffold",
+  "notes": "",
+  "screenshot": "images/screenshots/co-op-kaiju-horror-cooking.jpg",
+  "logo": "images/logos/co-op-kaiju-horror-cooking.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3139570",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

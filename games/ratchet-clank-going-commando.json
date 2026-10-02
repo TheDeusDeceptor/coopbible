@@ -1,0 +1,26 @@
+{
+  "id": "ratchet-clank-going-commando",
+  "name": "Ratchet & Clank: Going Commando",
+  "year": "2003",
+  "platform": "PS3",
+  "release": "11.11.2003",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 18",
+  "dev": "Insomniac Games",
+  "pub": "Sony Computer Entertainment America",
+  "notes": "",
+  "screenshot": "images/screenshots/ratchet-clank-going-commando.jpg",
+  "logo": "images/logos/ratchet-clank-going-commando.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ratchet-clank",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

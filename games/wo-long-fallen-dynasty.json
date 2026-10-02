@@ -1,0 +1,32 @@
+{
+  "id": "wo-long-fallen-dynasty",
+  "name": "Wo Long: Fallen Dynasty",
+  "year": "2023",
+  "platform": "",
+  "release": "03.03.2023",
+  "size": "60 GB",
+  "hltb": "Main: 25, +Extra: 35",
+  "dev": "KOEI TECMO GAMES CO., LTD.",
+  "pub": "KOEI TECMO GAMES CO., LTD., CE-Asia(Asia)",
+  "notes": "- Battle of Zhongyuan\n\n     - Conqueror of Jiangdong\n\n     - Upheaval in Jingxiang",
+  "screenshot": "images/screenshots/wo-long-fallen-dynasty.jpg",
+  "logo": "images/logos/wo-long-fallen-dynasty.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1448440",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

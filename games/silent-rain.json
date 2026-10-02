@@ -1,0 +1,32 @@
+{
+  "id": "silent-rain",
+  "name": "Silent Rain",
+  "year": "2024",
+  "platform": "",
+  "release": "15.07.2024",
+  "size": "15 GB",
+  "hltb": "",
+  "dev": "2Brains&Coffee, Seedlers Interactive",
+  "pub": "Seedlers Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-rain.jpg",
+  "logo": "images/logos/silent-rain.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1791910",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

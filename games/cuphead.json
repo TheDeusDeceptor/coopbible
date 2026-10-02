@@ -1,0 +1,32 @@
+{
+  "id": "cuphead",
+  "name": "Cuphead",
+  "year": "2017",
+  "platform": "",
+  "release": "29.09.2017",
+  "size": "4 GB",
+  "hltb": "Main: 11, +Extra: 16",
+  "dev": "Studio MDHR Entertainment Inc.",
+  "pub": "Studio MDHR Entertainment Inc.",
+  "notes": "+ The Delicious Last Course",
+  "screenshot": "images/screenshots/cuphead.jpg",
+  "logo": "images/logos/cuphead.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/268910",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

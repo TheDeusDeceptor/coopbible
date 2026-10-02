@@ -1,0 +1,26 @@
+{
+  "id": "mad-max",
+  "name": "Mad Max",
+  "year": "2015",
+  "platform": "",
+  "release": "01.09.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Avalanche Studios",
+  "pub": "Warner Bros. Interactive Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/mad-max.jpg",
+  "logo": "images/logos/mad-max.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "crash-mind-over-mutant",
+  "name": "Crash: Mind over Mutant",
+  "year": "2008",
+  "platform": "X360",
+  "release": "29.10.2008",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "TOSE",
+  "pub": "Vivendi Games",
+  "notes": "",
+  "screenshot": "images/screenshots/crash-mind-over-mutant.jpg",
+  "logo": "images/logos/crash-mind-over-mutant.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "crash-bandicoot",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

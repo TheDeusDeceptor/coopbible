@@ -1,0 +1,26 @@
+{
+  "id": "mortal-kombat-komplete-edition",
+  "name": "Mortal Kombat Komplete Edition",
+  "year": "2013",
+  "platform": "",
+  "release": "24.07.2013",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 18",
+  "dev": "High Voltage Software",
+  "pub": "Warner Bros. Interactive Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/mortal-kombat-komplete-edition.jpg",
+  "logo": "images/logos/mortal-kombat-komplete-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

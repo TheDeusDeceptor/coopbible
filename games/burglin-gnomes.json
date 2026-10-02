@@ -1,0 +1,32 @@
+{
+  "id": "burglin-gnomes",
+  "name": "Burglin' Gnomes",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "Fobri",
+  "pub": "Fobri",
+  "notes": "",
+  "screenshot": "images/screenshots/burglin-gnomes.jpg",
+  "logo": "images/logos/burglin-gnomes.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3844970",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

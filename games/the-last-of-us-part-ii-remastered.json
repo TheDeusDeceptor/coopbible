@@ -1,0 +1,26 @@
+{
+  "id": "the-last-of-us-part-ii-remastered",
+  "name": "The Last of Us Part II Remastered",
+  "year": "2025",
+  "platform": "",
+  "release": "03.04.2025",
+  "size": "",
+  "hltb": "Main: 23, +Extra: 28",
+  "dev": "Nixxes Software",
+  "pub": "Playstation Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/the-last-of-us-part-ii-remastered.jpg",
+  "logo": "images/logos/the-last-of-us-part-ii-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

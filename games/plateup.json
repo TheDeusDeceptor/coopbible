@@ -1,0 +1,32 @@
+{
+  "id": "plateup",
+  "name": "PlateUp!",
+  "year": "2022",
+  "platform": "",
+  "release": "04.08.2022",
+  "size": "2 GB",
+  "hltb": "Main: 15, +Extra: 32",
+  "dev": "It's happening",
+  "pub": "Yogscast Games",
+  "notes": "updates occasionally",
+  "screenshot": "images/screenshots/plateup.jpg",
+  "logo": "images/logos/plateup.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1599600",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

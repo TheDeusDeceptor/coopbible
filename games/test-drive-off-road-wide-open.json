@@ -1,0 +1,26 @@
+{
+  "id": "test-drive-off-road-wide-open",
+  "name": "Test Drive: Off-Road Wide Open",
+  "year": "2001",
+  "platform": "PS2",
+  "release": "14.11.2001",
+  "size": "",
+  "hltb": "Main+Extra: 4",
+  "dev": "Angel Studios",
+  "pub": "Infogrames",
+  "notes": "",
+  "screenshot": "images/screenshots/test-drive-off-road-wide-open.jpg",
+  "logo": "images/logos/test-drive-off-road-wide-open.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "test-drive",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

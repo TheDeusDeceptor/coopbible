@@ -1,0 +1,26 @@
+{
+  "id": "layers-of-fear",
+  "name": "Layers of Fear",
+  "year": "2016",
+  "platform": "",
+  "release": "16.02.2016",
+  "size": "",
+  "hltb": "",
+  "dev": "Bloober Team",
+  "pub": "Aspyr Media",
+  "notes": "",
+  "screenshot": "images/screenshots/layers-of-fear.jpg",
+  "logo": "images/logos/layers-of-fear.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "crime-killer-usa-chd",
+  "name": "Crime Killer (USA).chd",
+  "year": "1998",
+  "platform": "psx",
+  "release": "01.07.1998",
+  "size": "",
+  "hltb": "",
+  "dev": "Pixelogic",
+  "pub": "Interplay",
+  "notes": "",
+  "screenshot": "images/screenshots/crime-killer-usa-chd.jpg",
+  "logo": "images/logos/crime-killer-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

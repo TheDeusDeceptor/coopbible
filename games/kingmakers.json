@@ -1,0 +1,32 @@
+{
+  "id": "kingmakers",
+  "name": "Kingmakers",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "Redemption Road",
+  "pub": "tinyBuild",
+  "notes": "",
+  "screenshot": "images/screenshots/kingmakers.jpg",
+  "logo": "images/logos/kingmakers.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2109770/Kingmakers/",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

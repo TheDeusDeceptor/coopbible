@@ -1,0 +1,26 @@
+{
+  "id": "zero-escape-virtue-s-last-reward",
+  "name": "Zero Escape: Virtue's Last Reward",
+  "year": "2012",
+  "platform": "PC",
+  "release": "22.10.2012",
+  "size": "",
+  "hltb": "Main: 28, +Extra: 35",
+  "dev": "Chunsoft",
+  "pub": "Chunsoft",
+  "notes": "",
+  "screenshot": "images/screenshots/zero-escape-virtue-s-last-reward.jpg",
+  "logo": "images/logos/zero-escape-virtue-s-last-reward.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "zero-escape",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

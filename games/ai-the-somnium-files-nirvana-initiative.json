@@ -1,0 +1,26 @@
+{
+  "id": "ai-the-somnium-files-nirvana-initiative",
+  "name": "AI: The Somnium Files – Nirvana Initiative",
+  "year": "2022",
+  "platform": "PC",
+  "release": "23.06.2022",
+  "size": "",
+  "hltb": "Main: 26, +Extra: 31",
+  "dev": "Spike ChunSoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "screenshot": "images/screenshots/ai-the-somnium-files-nirvana-initiative.jpg",
+  "logo": "images/logos/ai-the-somnium-files-nirvana-initiative.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ai",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

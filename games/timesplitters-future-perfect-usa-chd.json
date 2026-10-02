@@ -1,0 +1,26 @@
+{
+  "id": "timesplitters-future-perfect-usa-chd",
+  "name": "TimeSplitters - Future Perfect (USA).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "22.03.2005",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Free Radical Design",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/timesplitters-future-perfect-usa-chd.jpg",
+  "logo": "images/logos/timesplitters-future-perfect-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

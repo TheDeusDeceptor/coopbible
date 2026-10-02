@@ -1,0 +1,26 @@
+{
+  "id": "occultic-nine",
+  "name": "Occultic;Nine",
+  "year": "2017",
+  "platform": "PS4 or PSVita",
+  "release": "09.11.2017",
+  "size": "",
+  "hltb": "Full: 7",
+  "dev": "5pb.",
+  "pub": "5pb.",
+  "notes": "Japanese only, no luck.",
+  "screenshot": "images/screenshots/occultic-nine.jpg",
+  "logo": "images/logos/occultic-nine.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "science-adventure",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Japanese only, no luck."
+}

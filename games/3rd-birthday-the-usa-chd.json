@@ -1,0 +1,26 @@
+{
+  "id": "3rd-birthday-the-usa-chd",
+  "name": "3rd Birthday, The (USA).chd",
+  "year": "2011",
+  "platform": "psp",
+  "release": "29.03.2011",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "HexaDrive",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/3rd-birthday-the-usa-chd.jpg",
+  "logo": "images/logos/3rd-birthday-the-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

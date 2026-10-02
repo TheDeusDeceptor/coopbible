@@ -1,0 +1,26 @@
+{
+  "id": "hotline-miami-2-wrong-number",
+  "name": "Hotline Miami 2: Wrong Number",
+  "year": "2015",
+  "platform": "",
+  "release": "10.03.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Dennaton Games",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "screenshot": "images/screenshots/hotline-miami-2-wrong-number.jpg",
+  "logo": "images/logos/hotline-miami-2-wrong-number.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "code-of-honor",
+  "name": "Code of Honor",
+  "logo": "",
+  "main": 6,
+  "extra": 7,
+  "order": [
+    "code-of-honor-the-french-foreign-legion",
+    "code-of-honor-2-conspiracy-island",
+    "code-of-honor-3-desperate-measures"
+  ]
+}

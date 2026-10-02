@@ -1,0 +1,26 @@
+{
+  "id": "gran-turismo-5",
+  "name": "Gran Turismo 5",
+  "year": "2010",
+  "platform": "PS3",
+  "release": "24.11.2010",
+  "size": "",
+  "hltb": "Main: 46, +Extra: 114",
+  "dev": "Polyphony Digital",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/gran-turismo-5.jpg",
+  "logo": "images/logos/gran-turismo-5.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gran-turismo",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "phantom-squad",
+  "name": "Phantom Squad",
+  "year": "2025",
+  "platform": "",
+  "release": "18.07.2025",
+  "size": "6 GB",
+  "hltb": "Main: 6",
+  "dev": "Ctrl Freak",
+  "pub": "Super Rare Originals",
+  "notes": "",
+  "screenshot": "images/screenshots/phantom-squad.jpg",
+  "logo": "images/logos/phantom-squad.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2841770",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

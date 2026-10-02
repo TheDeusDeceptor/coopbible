@@ -1,0 +1,32 @@
+{
+  "id": "sniper-elite-v2-remastered",
+  "name": "Sniper Elite V2 Remastered",
+  "year": "2019",
+  "platform": "PC",
+  "release": "13.05.2019",
+  "size": "15 GB",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "READY\n\n(GOG)",
+  "screenshot": "images/screenshots/sniper-elite-v2-remastered.jpg",
+  "logo": "images/logos/sniper-elite-v2-remastered.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/728740",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "sniper-elite",
+  "series_status": "rerun",
+  "series_color": "green",
+  "series_note": null
+}

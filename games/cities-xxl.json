@@ -1,0 +1,26 @@
+{
+  "id": "cities-xxl",
+  "name": "Cities XXL",
+  "year": "2015",
+  "platform": "",
+  "release": "05.02.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Focus Entertainment",
+  "pub": "Focus Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/cities-xxl.jpg",
+  "logo": "images/logos/cities-xxl.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

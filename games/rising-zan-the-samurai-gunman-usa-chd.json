@@ -1,0 +1,26 @@
+{
+  "id": "rising-zan-the-samurai-gunman-usa-chd",
+  "name": "Rising Zan - The Samurai Gunman (USA).chd",
+  "year": "1999",
+  "platform": "psx",
+  "release": "25.03.1999",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "UEP Systems",
+  "pub": "Agetec",
+  "notes": "",
+  "screenshot": "images/screenshots/rising-zan-the-samurai-gunman-usa-chd.jpg",
+  "logo": "images/logos/rising-zan-the-samurai-gunman-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

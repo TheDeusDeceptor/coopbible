@@ -1,0 +1,32 @@
+{
+  "id": "left-4-dead-2",
+  "name": "Left 4 Dead 2",
+  "year": "2009",
+  "platform": "",
+  "release": "16.11.2009",
+  "size": "6 GB",
+  "hltb": "Main: 10, +Extra: 28",
+  "dev": "Valve",
+  "pub": "Valve",
+  "notes": "",
+  "screenshot": "images/screenshots/left-4-dead-2.jpg",
+  "logo": "images/logos/left-4-dead-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/550",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ninja-blade",
+  "name": "Ninja Blade",
+  "year": "2009",
+  "platform": "",
+  "release": "31.10.2009",
+  "size": "0.1 GB",
+  "hltb": "Main: 9",
+  "dev": "FromSoftware",
+  "pub": "ND Games",
+  "notes": "",
+  "screenshot": "images/screenshots/ninja-blade.jpg",
+  "logo": "images/logos/ninja-blade.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

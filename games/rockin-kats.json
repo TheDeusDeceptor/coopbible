@@ -1,0 +1,26 @@
+{
+  "id": "rockin-kats",
+  "name": "Rockin' Kats",
+  "year": "1991",
+  "platform": "",
+  "release": "05.04.1991",
+  "size": "",
+  "hltb": "",
+  "dev": "Atlus",
+  "pub": "Atlus",
+  "notes": "",
+  "screenshot": "images/screenshots/rockin-kats.jpg",
+  "logo": "images/logos/rockin-kats.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

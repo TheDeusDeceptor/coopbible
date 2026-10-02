@@ -1,0 +1,26 @@
+{
+  "id": "aperture-desk-job",
+  "name": "Aperture Desk Job",
+  "year": "2022",
+  "platform": "",
+  "release": "01.03.2022",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "Valve",
+  "pub": "Valve",
+  "notes": "",
+  "screenshot": "images/screenshots/aperture-desk-job.jpg",
+  "logo": "images/logos/aperture-desk-job.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

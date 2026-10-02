@@ -1,0 +1,26 @@
+{
+  "id": "burnout-dominator",
+  "name": "Burnout Dominator",
+  "year": "2007",
+  "platform": "PS2",
+  "release": "06.03.2007",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "Electronic Arts UK",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout-dominator.jpg",
+  "logo": "images/logos/burnout-dominator.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "burnout",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

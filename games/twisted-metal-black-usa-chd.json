@@ -1,0 +1,26 @@
+{
+  "id": "twisted-metal-black-usa-chd",
+  "name": "Twisted Metal - Black (USA).chd",
+  "year": "2001",
+  "platform": "ps2",
+  "release": "19.06.2001",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Incognito Entertainment",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/twisted-metal-black-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

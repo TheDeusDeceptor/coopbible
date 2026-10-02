@@ -1,0 +1,26 @@
+{
+  "id": "dirt-4",
+  "name": "Dirt 4",
+  "year": "2017",
+  "platform": "",
+  "release": "09.06.2017",
+  "size": "",
+  "hltb": "",
+  "dev": "Codemasters",
+  "pub": "Codemasters",
+  "notes": "",
+  "screenshot": "images/screenshots/dirt-4.jpg",
+  "logo": "images/logos/dirt-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

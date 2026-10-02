@@ -1,0 +1,32 @@
+{
+  "id": "nine-parchments",
+  "name": "Nine Parchments",
+  "year": "2017",
+  "platform": "",
+  "release": "05.12.2017",
+  "size": "7 GB",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "Frozenbyte",
+  "pub": "Frozenbyte",
+  "notes": "READY",
+  "screenshot": "images/screenshots/nine-parchments.jpg",
+  "logo": "images/logos/nine-parchments.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/471550",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

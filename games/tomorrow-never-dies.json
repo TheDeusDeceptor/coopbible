@@ -1,0 +1,26 @@
+{
+  "id": "tomorrow-never-dies",
+  "name": "Tomorrow Never Dies",
+  "year": "1999",
+  "platform": "PSX",
+  "release": "1999.0",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 9",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/tomorrow-never-dies.jpg",
+  "logo": "images/logos/tomorrow-never-dies.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "007",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "r4-ridge-racer-type-4",
+  "name": "R4: Ridge Racer Type 4",
+  "year": "1998",
+  "platform": "PSX",
+  "release": "03.12.1998",
+  "size": "",
+  "hltb": "Main: 2, +Extra: 6",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/r4-ridge-racer-type-4.jpg",
+  "logo": "images/logos/r4-ridge-racer-type-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ridge-racer",
+  "series_status": "rerun",
+  "series_color": null,
+  "series_note": null
+}

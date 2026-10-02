@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-advanced-warfare",
+  "name": "Call of Duty: Advanced Warfare",
+  "year": "2014",
+  "platform": "PC",
+  "release": "2014.0",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 10",
+  "dev": "Raven Software",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-advanced-warfare.jpg",
+  "logo": "images/logos/call-of-duty-advanced-warfare.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

@@ -1,0 +1,32 @@
+{
+  "id": "guinea-pig-runaway-together",
+  "name": "Guinea Pig Runaway Together",
+  "year": "2026",
+  "platform": "",
+  "release": "05.06.2026",
+  "size": "",
+  "hltb": "",
+  "dev": "DWS Interactive",
+  "pub": "DWS Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/guinea-pig-runaway-together.jpg",
+  "logo": "images/logos/guinea-pig-runaway-together.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4244190",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

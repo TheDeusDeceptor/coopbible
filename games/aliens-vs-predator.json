@@ -1,0 +1,26 @@
+{
+  "id": "aliens-vs-predator",
+  "name": "Aliens vs. Predator",
+  "year": "2010",
+  "platform": "",
+  "release": "19.02.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Rebellion",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/aliens-vs-predator.jpg",
+  "logo": "images/logos/aliens-vs-predator.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

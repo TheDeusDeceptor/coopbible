@@ -1,0 +1,26 @@
+{
+  "id": "ace-combat-assault-horizon-legacy",
+  "name": "Ace Combat: Assault Horizon Legacy(+)",
+  "year": "2011",
+  "platform": "3DS",
+  "release": "15.11.2011",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Access Games",
+  "pub": "Bandai Namco Games America",
+  "notes": "Remakes of Ace Combat 2.",
+  "screenshot": "images/screenshots/ace-combat-assault-horizon-legacy.png",
+  "logo": "images/logos/ace-combat-assault-horizon-legacy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-combat",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Remakes of Ace Combat 2."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-modern-warfare-2-campaign-remastered",
+  "name": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+  "year": "2020",
+  "platform": "PC",
+  "release": "2020.0",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Infinity Ward",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-modern-warfare-2-campaign-remastered.jpg",
+  "logo": "images/logos/call-of-duty-modern-warfare-2-campaign-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

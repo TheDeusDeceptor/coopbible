@@ -1,0 +1,26 @@
+{
+  "id": "armored-core-verdict-day",
+  "name": "Armored Core: Verdict Day",
+  "year": "2013",
+  "platform": "PS3",
+  "release": "24.09.2013",
+  "size": "",
+  "hltb": "Main: 13",
+  "dev": "FromSoftware",
+  "pub": "Namco Bandai Games America",
+  "notes": "",
+  "screenshot": "images/screenshots/armored-core-verdict-day.jpg",
+  "logo": "images/logos/armored-core-verdict-day.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "armored-core",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

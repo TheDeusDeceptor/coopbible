@@ -1,0 +1,26 @@
+{
+  "id": "shovel-knight-specter-of-torment",
+  "name": "Shovel Knight: Specter of Torment",
+  "year": "2017",
+  "platform": "",
+  "release": "03.03.2017",
+  "size": "",
+  "hltb": "",
+  "dev": "Yacht Club Games",
+  "pub": "Yacht Club Games",
+  "notes": "",
+  "screenshot": "images/screenshots/shovel-knight-specter-of-torment.jpg",
+  "logo": "images/logos/shovel-knight-specter-of-torment.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

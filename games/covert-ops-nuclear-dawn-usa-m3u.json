@@ -1,0 +1,26 @@
+{
+  "id": "covert-ops-nuclear-dawn-usa-m3u",
+  "name": "Covert Ops - Nuclear Dawn (USA).m3u",
+  "year": "2000",
+  "platform": "psx",
+  "release": "27.01.2000",
+  "size": "",
+  "hltb": "Main: 8",
+  "dev": "Sugar & Rockets",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/covert-ops-nuclear-dawn-usa-m3u.jpg",
+  "logo": "images/logos/covert-ops-nuclear-dawn-usa-m3u.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

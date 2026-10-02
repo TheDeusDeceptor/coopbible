@@ -1,0 +1,26 @@
+{
+  "id": "life-is-strange-before-the-storm-remastered",
+  "name": "Life Is Strange: Before the Storm (Remastered)",
+  "year": "2017",
+  "platform": "PC",
+  "release": "30.08.2017",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Deck Nine",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/life-is-strange-before-the-storm-remastered.jpg",
+  "logo": "images/logos/life-is-strange-before-the-storm-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "life-is-strange",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

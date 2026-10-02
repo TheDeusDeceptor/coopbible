@@ -1,0 +1,26 @@
+{
+  "id": "syphon-filter-dark-mirror",
+  "name": "Syphon Filter: Dark Mirror",
+  "year": "2007",
+  "platform": "PS2",
+  "release": "18.09.2007",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Slant Six Games",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "Can't decide retarded controls or cencored violence smh...",
+  "screenshot": "images/screenshots/syphon-filter-dark-mirror.jpg",
+  "logo": "images/logos/syphon-filter-dark-mirror.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "syphon-filter",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Can't decide retarded controls or cencored violence smh..."
+}

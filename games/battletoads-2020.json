@@ -1,0 +1,32 @@
+{
+  "id": "battletoads-2020",
+  "name": "Battletoads",
+  "year": "2020",
+  "platform": "",
+  "release": "20.08.2020",
+  "size": "15 GB",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Dlala Studios",
+  "pub": "Xbox Game Studios, Rare Ltd",
+  "notes": "",
+  "screenshot": "images/screenshots/battletoads-2020.jpg",
+  "logo": "images/logos/battletoads-2020.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1244950",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

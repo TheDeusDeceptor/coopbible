@@ -1,0 +1,32 @@
+{
+  "id": "rugrats-adventures-in-gameland",
+  "name": "Rugrats: Adventures in Gameland",
+  "year": "2024",
+  "platform": "",
+  "release": "10.09.2024",
+  "size": "2 GB",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "The MIX Games",
+  "pub": "The MIX Games",
+  "notes": "Local Co-op (RemotePlay)\npending...",
+  "screenshot": "images/screenshots/rugrats-adventures-in-gameland.jpg",
+  "logo": "images/logos/rugrats-adventures-in-gameland.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2633950",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": true,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

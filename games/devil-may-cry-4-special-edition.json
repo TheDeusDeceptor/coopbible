@@ -1,0 +1,26 @@
+{
+  "id": "devil-may-cry-4-special-edition",
+  "name": "Devil May Cry 4 Special Edition",
+  "year": "2015",
+  "platform": "",
+  "release": "23.06.2015",
+  "size": "27 GB",
+  "hltb": "Main: 11, +Extra: 17",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/devil-may-cry-4-special-edition.jpg",
+  "logo": "images/logos/devil-may-cry-4-special-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

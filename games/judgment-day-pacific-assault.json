@@ -1,0 +1,32 @@
+{
+  "id": "judgment-day-pacific-assault",
+  "name": "Judgment Day: Pacific Assault",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "游戏学家老许",
+  "pub": "自己发行",
+  "notes": "",
+  "screenshot": "images/screenshots/judgment-day-pacific-assault.jpg",
+  "logo": "images/logos/judgment-day-pacific-assault.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3009980",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

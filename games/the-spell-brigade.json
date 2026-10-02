@@ -1,0 +1,32 @@
+{
+  "id": "the-spell-brigade",
+  "name": "The Spell Brigade",
+  "year": "2026",
+  "platform": "",
+  "release": "29.04.2026",
+  "size": "3 GB",
+  "hltb": "Main: 4, +Extra: 14",
+  "dev": "Bolt Blaster Games",
+  "pub": "Bolt Blaster Games",
+  "notes": "",
+  "screenshot": "images/screenshots/the-spell-brigade.jpg",
+  "logo": "images/logos/the-spell-brigade.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2904000",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

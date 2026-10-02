@@ -1,0 +1,26 @@
+{
+  "id": "swat-4",
+  "name": "SWAT 4",
+  "year": "2005",
+  "platform": "",
+  "release": "05.04.2005",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "Irrational Games",
+  "pub": "Vivendi Universal Games",
+  "notes": "",
+  "screenshot": "images/screenshots/swat-4.jpg",
+  "logo": "images/logos/swat-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

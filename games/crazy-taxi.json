@@ -1,0 +1,26 @@
+{
+  "id": "crazy-taxi",
+  "name": "Crazy Taxi",
+  "year": "2002",
+  "platform": "",
+  "release": "08.08.2002",
+  "size": "",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "Hitmaker",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/crazy-taxi.jpg",
+  "logo": "images/logos/crazy-taxi.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

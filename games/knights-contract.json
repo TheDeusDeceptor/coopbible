@@ -1,0 +1,26 @@
+{
+  "id": "knights-contract",
+  "name": "Knights Contract",
+  "year": "2011",
+  "platform": "",
+  "release": "22.02.2011",
+  "size": "",
+  "hltb": "Main: 11",
+  "dev": "Game Republic",
+  "pub": "Namco Bandai",
+  "notes": "",
+  "screenshot": "images/screenshots/knights-contract.jpg",
+  "logo": "images/logos/knights-contract.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

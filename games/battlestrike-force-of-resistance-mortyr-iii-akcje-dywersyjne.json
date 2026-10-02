@@ -1,0 +1,26 @@
+{
+  "id": "battlestrike-force-of-resistance-mortyr-iii-akcje-dywersyjne",
+  "name": "Battlestrike: Force of Resistance (Mortyr III: Akcje Dywersyjne)",
+  "year": "2008",
+  "platform": "PC",
+  "release": "29.07.2008",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "City Interactive",
+  "pub": "City Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/battlestrike-force-of-resistance-mortyr-iii-akcje-dywersyjne.jpg",
+  "logo": "images/logos/battlestrike-force-of-resistance-mortyr-iii-akcje-dywersyjne.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "battlestrike",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

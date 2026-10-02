@@ -1,0 +1,32 @@
+{
+  "id": "the-typing-of-the-dead-overkill",
+  "name": "The Typing of The Dead: Overkill",
+  "year": "2013",
+  "platform": "",
+  "release": "29.10.2013",
+  "size": "10 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Modern Dream",
+  "pub": "SEGA",
+  "notes": "",
+  "screenshot": "images/screenshots/the-typing-of-the-dead-overkill.jpg",
+  "logo": "images/logos/the-typing-of-the-dead-overkill.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/246580",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

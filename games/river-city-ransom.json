@@ -1,0 +1,26 @@
+{
+  "id": "river-city-ransom",
+  "name": "River City Ransom",
+  "year": "1989",
+  "platform": "",
+  "release": "25.04.1989",
+  "size": "",
+  "hltb": "",
+  "dev": "Technōs Japan",
+  "pub": "American Technōs",
+  "notes": "",
+  "screenshot": "images/screenshots/river-city-ransom.jpg",
+  "logo": "images/logos/river-city-ransom.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

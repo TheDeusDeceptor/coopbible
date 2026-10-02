@@ -1,0 +1,26 @@
+{
+  "id": "no-more-heroes-iii",
+  "name": "No More Heroes III",
+  "year": "2021",
+  "platform": "PC",
+  "release": "2021 (2022)",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 16",
+  "dev": "Grasshopper Manufacture",
+  "pub": "Grasshopper Manufacture",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/no-more-heroes-iii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "no-more-heroes",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

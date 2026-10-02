@@ -1,0 +1,32 @@
+{
+  "id": "the-dark-pictures-anthology-man-of-medan",
+  "name": "The Dark Pictures Anthology: Man of Medan",
+  "year": "2019",
+  "platform": "",
+  "release": "29.08.2019",
+  "size": "80 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Supermassive Games",
+  "pub": "BANDAI NAMCO Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/the-dark-pictures-anthology-man-of-medan.jpg",
+  "logo": "images/logos/the-dark-pictures-anthology-man-of-medan.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/939850",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

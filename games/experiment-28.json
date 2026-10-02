@@ -1,0 +1,32 @@
+{
+  "id": "experiment-28",
+  "name": "Experiment 28",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "Grossly Incandescent Games",
+  "pub": "Grossly Incandescent Games",
+  "notes": "",
+  "screenshot": "images/screenshots/experiment-28.jpg",
+  "logo": "images/logos/experiment-28.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3656570",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

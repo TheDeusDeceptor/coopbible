@@ -1,0 +1,26 @@
+{
+  "id": "painkiller-hell-damnation",
+  "name": "Painkiller: Hell & Damnation",
+  "year": "2012",
+  "platform": "PC",
+  "release": "31.10.2012",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 11",
+  "dev": "The Farm 51",
+  "pub": "Nordic Games",
+  "notes": "",
+  "screenshot": "images/screenshots/painkiller-hell-damnation.jpg",
+  "logo": "images/logos/painkiller-hell-damnation.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "painkiller",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

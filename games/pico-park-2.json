@@ -1,0 +1,32 @@
+{
+  "id": "pico-park-2",
+  "name": "PICO PARK 2",
+  "year": "2024",
+  "platform": "",
+  "release": "12.09.2024",
+  "size": "1 GB",
+  "hltb": "Main: 4",
+  "dev": "TECOPARK",
+  "pub": "TECOPARK",
+  "notes": "",
+  "screenshot": "images/screenshots/pico-park-2.jpg",
+  "logo": "images/logos/pico-park-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2644470",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

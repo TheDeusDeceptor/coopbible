@@ -1,0 +1,32 @@
+{
+  "id": "mobmania",
+  "name": "Mobmania",
+  "year": "2025",
+  "platform": "",
+  "release": "11.07.2025",
+  "size": "0.1 GB",
+  "hltb": "Main: 34",
+  "dev": "azndesserts, justjayem, wolfbyte131",
+  "pub": "azndesserts",
+  "notes": "",
+  "screenshot": "images/screenshots/mobmania.jpg",
+  "logo": "images/logos/mobmania.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2099220",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

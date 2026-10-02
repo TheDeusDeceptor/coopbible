@@ -1,0 +1,16 @@
+{
+  "id": "terrorist-takedown",
+  "name": "Terrorist Takedown",
+  "logo": "",
+  "main": 12,
+  "extra": 18,
+  "order": [
+    "terrorist-takedown",
+    "terrorist-takedown-payback",
+    "terrorist-takedown-conflict-in-mogadishu",
+    "terrorist-takedown-war-in-colombia",
+    "terrorist-takedown-covert-operations",
+    "terrorist-takedown-2",
+    "terrorist-takedown-3"
+  ]
+}

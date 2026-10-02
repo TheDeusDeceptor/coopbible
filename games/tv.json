@@ -1,0 +1,32 @@
+{
+  "id": "tv",
+  "name": "Tvö",
+  "year": "2022",
+  "platform": "",
+  "release": "31.07.2022",
+  "size": "3 GB",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "Artless Gallery",
+  "pub": "Umbra Evolution",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/tv.jpg",
+  "logo": "images/logos/tv.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2026990",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

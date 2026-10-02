@@ -1,0 +1,26 @@
+{
+  "id": "ghost-recon-2001-pc",
+  "name": "Ghost Recon",
+  "year": "2001",
+  "platform": "PC",
+  "release": "2001.0",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-ghost-recon",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

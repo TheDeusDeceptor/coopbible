@@ -1,0 +1,26 @@
+{
+  "id": "amazing-katamari-damacy",
+  "name": "Amazing Katamari Damacy",
+  "year": "2017",
+  "platform": "Android",
+  "release": "2017.0",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "",
+  "pub": "",
+  "notes": "Optional (runner).",
+  "screenshot": "images/screenshots/amazing-katamari-damacy.jpg",
+  "logo": "images/logos/amazing-katamari-damacy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "katamari-damacy",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Optional (runner)."
+}

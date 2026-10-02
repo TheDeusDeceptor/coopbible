@@ -1,0 +1,26 @@
+{
+  "id": "pursuit-force-extreme-justice-usa-en-fr-es-chd",
+  "name": "Pursuit Force - Extreme Justice (USA) (En,Fr,Es).chd",
+  "year": "2008",
+  "platform": "psp",
+  "release": "29.01.2008",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "BigBig Studios",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/pursuit-force-extreme-justice-usa-en-fr-es-chd.jpg",
+  "logo": "images/logos/pursuit-force-extreme-justice-usa-en-fr-es-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

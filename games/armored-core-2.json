@@ -1,0 +1,26 @@
+{
+  "id": "armored-core-2",
+  "name": "Armored Core 2",
+  "year": "2000",
+  "platform": "PS2",
+  "release": "03.08.2000",
+  "size": "",
+  "hltb": "Main: 11",
+  "dev": "FromSoftware",
+  "pub": "Crave Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/armored-core-2.jpg",
+  "logo": "images/logos/armored-core-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "armored-core",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

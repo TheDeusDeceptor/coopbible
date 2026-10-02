@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-hot-pursuit-2-usa-chd",
+  "name": "Need for Speed - Hot Pursuit 2 (USA).chd",
+  "year": "2002",
+  "platform": "ps2",
+  "release": "08.10.2002",
+  "size": "",
+  "hltb": "Main: 11",
+  "dev": "Black Box Games",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-hot-pursuit-2-usa-chd.jpg",
+  "logo": "images/logos/need-for-speed-hot-pursuit-2-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "half-life-2-lost-coast",
+  "name": "Half-Life 2: Lost Coast",
+  "year": "2005",
+  "platform": "",
+  "release": "27.10.2005",
+  "size": "",
+  "hltb": "",
+  "dev": "Valve",
+  "pub": "Valve",
+  "notes": "",
+  "screenshot": "images/screenshots/half-life-2-lost-coast.jpg",
+  "logo": "images/logos/half-life-2-lost-coast.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

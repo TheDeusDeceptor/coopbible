@@ -1,0 +1,32 @@
+{
+  "id": "terrascape",
+  "name": "TerraScape",
+  "year": "2024",
+  "platform": "",
+  "release": "17.07.2024",
+  "size": "2 GB",
+  "hltb": "Main: 5, +Extra: 13",
+  "dev": "Bitfall Studios",
+  "pub": "Stray Fawn Publishing, Sidekick Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/terrascape.jpg",
+  "logo": "images/logos/terrascape.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2290000",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

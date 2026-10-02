@@ -1,0 +1,32 @@
+{
+  "id": "hammerwatch-ii",
+  "name": "Hammerwatch II",
+  "year": "2023",
+  "platform": "",
+  "release": "15.08.2023",
+  "size": "0.5 GB",
+  "hltb": "Main: 20, +Extra: 22",
+  "dev": "Crackshell",
+  "pub": "Maximum Entertainment",
+  "notes": "READY?",
+  "screenshot": "images/screenshots/hammerwatch-ii.jpg",
+  "logo": "images/logos/hammerwatch-ii.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1538970",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

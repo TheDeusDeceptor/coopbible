@@ -1,0 +1,32 @@
+{
+  "id": "strange-brigade",
+  "name": "Strange Brigade",
+  "year": "2018",
+  "platform": "",
+  "release": "27.08.2018",
+  "size": "35 GB",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/strange-brigade.jpg",
+  "logo": "images/logos/strange-brigade.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/312670",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

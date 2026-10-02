@@ -1,0 +1,32 @@
+{
+  "id": "mercenary-kings-reloaded-edition",
+  "name": "Mercenary Kings: Reloaded Edition",
+  "year": "2014",
+  "platform": "",
+  "release": "25.03.2014",
+  "size": "0.3 GB",
+  "hltb": "Main: 20, +Extra: 36",
+  "dev": "Tribute Games Inc.",
+  "pub": "Tribute Games Inc.",
+  "notes": "",
+  "screenshot": "images/screenshots/mercenary-kings-reloaded-edition.jpg",
+  "logo": "images/logos/mercenary-kings-reloaded-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/218820",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "payday-2",
+  "name": "Payday 2",
+  "year": "2013",
+  "platform": "",
+  "release": "16.08.2013",
+  "size": "",
+  "hltb": "",
+  "dev": "Overkill Software",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/payday-2.jpg",
+  "logo": "images/logos/payday-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

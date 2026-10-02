@@ -1,0 +1,32 @@
+{
+  "id": "elden-ring-randomizer",
+  "name": "Elden Ring Randomizer",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 60",
+  "dev": "",
+  "pub": "",
+  "notes": "Seamless Co-op supported  |  Version: READY",
+  "screenshot": "images/screenshots/elden-ring-randomizer.jpg",
+  "logo": "images/logos/elden-ring-randomizer.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/eldenring/mods/428",
+      "icon": "nexus"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

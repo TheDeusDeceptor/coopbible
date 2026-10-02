@@ -1,0 +1,26 @@
+{
+  "id": "dungeon-siege-throne-of-agony",
+  "name": "Dungeon Siege: Throne of Agony",
+  "year": "2006",
+  "platform": "PSP",
+  "release": "30.10.2006",
+  "size": "",
+  "hltb": "Main: 16",
+  "dev": "SuperVillain Studios",
+  "pub": "2K Games",
+  "notes": "",
+  "screenshot": "images/screenshots/dungeon-siege-throne-of-agony.jpg",
+  "logo": "images/logos/dungeon-siege-throne-of-agony.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "dungeon-siege",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cartel-pilots-wanted",
+  "name": "Cartel Pilots Wanted",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "OldYacht",
+  "pub": "Polden Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/cartel-pilots-wanted.jpg",
+  "logo": "images/logos/cartel-pilots-wanted.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4614080",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

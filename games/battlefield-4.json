@@ -1,0 +1,26 @@
+{
+  "id": "battlefield-4",
+  "name": "Battlefield 4",
+  "year": "2013",
+  "platform": "",
+  "release": "29.10.2013",
+  "size": "",
+  "hltb": "",
+  "dev": "DiCE",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/battlefield-4.jpg",
+  "logo": "images/logos/battlefield-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

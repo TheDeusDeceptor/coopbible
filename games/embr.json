@@ -1,0 +1,32 @@
+{
+  "id": "embr",
+  "name": "Embr",
+  "year": "2021",
+  "platform": "",
+  "release": "23.09.2021",
+  "size": "8 GB",
+  "hltb": "Main: 5, +Extra: 9",
+  "dev": "Muse Games",
+  "pub": "Curve Games",
+  "notes": "READY",
+  "screenshot": "images/screenshots/embr.jpg",
+  "logo": "images/logos/embr.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1062830",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

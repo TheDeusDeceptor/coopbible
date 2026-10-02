@@ -1,0 +1,26 @@
+{
+  "id": "super-meat-boy",
+  "name": "Super Meat Boy",
+  "year": "2018",
+  "platform": "",
+  "release": "11.01.2018",
+  "size": "",
+  "hltb": "",
+  "dev": "Team Meat",
+  "pub": "BlitWorks",
+  "notes": "",
+  "screenshot": "images/screenshots/super-meat-boy.jpg",
+  "logo": "images/logos/super-meat-boy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

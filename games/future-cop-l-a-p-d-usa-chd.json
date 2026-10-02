@@ -1,0 +1,26 @@
+{
+  "id": "future-cop-l-a-p-d-usa-chd",
+  "name": "Future Cop - L.A.P.D. (USA).chd",
+  "year": "1998",
+  "platform": "psx",
+  "release": "31.08.1998",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Electronic Arts Redwood Shores Studio",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/future-cop-l-a-p-d-usa-chd.jpg",
+  "logo": "images/logos/future-cop-l-a-p-d-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

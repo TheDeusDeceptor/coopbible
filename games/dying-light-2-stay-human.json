@@ -1,0 +1,26 @@
+{
+  "id": "dying-light-2-stay-human",
+  "name": "Dying Light 2: Stay Human",
+  "year": "2022",
+  "platform": "",
+  "release": "03.02.2022",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "Techland Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/dying-light-2-stay-human.jpg",
+  "logo": "images/logos/dying-light-2-stay-human.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

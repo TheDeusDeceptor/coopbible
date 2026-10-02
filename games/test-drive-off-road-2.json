@@ -1,0 +1,26 @@
+{
+  "id": "test-drive-off-road-2",
+  "name": "Test Drive Off-Road 2",
+  "year": "1998",
+  "platform": "PC",
+  "release": "30.09.1998",
+  "size": "",
+  "hltb": "---",
+  "dev": "Accolade",
+  "pub": "Accolade",
+  "notes": "",
+  "screenshot": "images/screenshots/test-drive-off-road-2.jpg",
+  "logo": "images/logos/test-drive-off-road-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "test-drive",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

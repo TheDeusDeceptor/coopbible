@@ -1,0 +1,26 @@
+{
+  "id": "ridge-racer-s-2",
+  "name": "Ridge Racer(s) 2",
+  "year": "1994",
+  "platform": "PSP",
+  "release": "01.01.1994",
+  "size": "",
+  "hltb": "Main: 1, +Extra: 3",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/ridge-racer-s-2.jpg",
+  "logo": "images/logos/ridge-racer-s-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ridge-racer",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

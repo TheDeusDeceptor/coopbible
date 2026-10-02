@@ -1,0 +1,26 @@
+{
+  "id": "driver-2-usa-rev-1-disc-1-chd",
+  "name": "Driver 2 (USA) (Rev 1) (Disc 1).chd",
+  "year": "",
+  "platform": "psx",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 15",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

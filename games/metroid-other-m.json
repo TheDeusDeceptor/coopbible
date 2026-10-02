@@ -1,0 +1,26 @@
+{
+  "id": "metroid-other-m",
+  "name": "Metroid: Other M",
+  "year": "2010",
+  "platform": "Wii",
+  "release": "31.08.2010",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Team Ninja",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/metroid-other-m.jpg",
+  "logo": "images/logos/metroid-other-m.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metroid",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

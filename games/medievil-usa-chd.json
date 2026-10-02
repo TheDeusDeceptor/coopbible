@@ -1,0 +1,26 @@
+{
+  "id": "medievil-usa-chd",
+  "name": "MediEvil (USA).chd",
+  "year": "1998",
+  "platform": "psx",
+  "release": "21.10.1998",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "SCE Studio Cambridge",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/medievil-usa-chd.jpg",
+  "logo": "images/logos/medievil-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

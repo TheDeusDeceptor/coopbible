@@ -1,0 +1,26 @@
+{
+  "id": "ace-combat-6-fires-of-liberation",
+  "name": "Ace Combat 6: Fires of Liberation",
+  "year": "2007",
+  "platform": "X360 or PC",
+  "release": "23.10.2007",
+  "size": "",
+  "hltb": "Main: 8",
+  "dev": "Project Aces",
+  "pub": "Namco Bandai",
+  "notes": "Recomp version avalible.",
+  "screenshot": "images/screenshots/ace-combat-6-fires-of-liberation.jpg",
+  "logo": "images/logos/ace-combat-6-fires-of-liberation.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-combat",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Recomp version avalible."
+}

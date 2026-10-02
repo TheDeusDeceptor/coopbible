@@ -1,0 +1,32 @@
+{
+  "id": "phogs",
+  "name": "PHOGS!",
+  "year": "2020",
+  "platform": "",
+  "release": "03.12.2020",
+  "size": "6 GB",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Bit Loom Games",
+  "pub": "Coatsink",
+  "notes": "READY",
+  "screenshot": "images/screenshots/phogs.jpg",
+  "logo": "images/logos/phogs.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/850320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

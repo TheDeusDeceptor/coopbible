@@ -1,0 +1,26 @@
+{
+  "id": "limbo",
+  "name": "Limbo",
+  "year": "2017",
+  "platform": "",
+  "release": "28.03.2017",
+  "size": "",
+  "hltb": "",
+  "dev": "Playdead Pilestræde",
+  "pub": "Playdead",
+  "notes": "",
+  "screenshot": "images/screenshots/limbo.jpg",
+  "logo": "images/logos/limbo.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "god-of-war-2020",
+  "name": "God of War",
+  "year": "2020",
+  "platform": "",
+  "release": "03.07.2020",
+  "size": "",
+  "hltb": "",
+  "dev": "pacnsacdave",
+  "pub": "Romhacking.net",
+  "notes": "",
+  "screenshot": "images/screenshots/god-of-war-2020.jpg",
+  "logo": "images/logos/god-of-war-2020.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

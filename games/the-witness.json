@@ -1,0 +1,26 @@
+{
+  "id": "the-witness",
+  "name": "The Witness",
+  "year": "1983",
+  "platform": "",
+  "release": "13.09.1983",
+  "size": "",
+  "hltb": "",
+  "dev": "Infocom",
+  "pub": "Infocom",
+  "notes": "",
+  "screenshot": "images/screenshots/the-witness.jpg",
+  "logo": "images/logos/the-witness.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

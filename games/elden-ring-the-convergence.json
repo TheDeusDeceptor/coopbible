@@ -1,0 +1,32 @@
+{
+  "id": "elden-ring-the-convergence",
+  "name": "Elden Ring\nThe Convergence",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "...",
+  "dev": "",
+  "pub": "",
+  "notes": "Seamless Co-op supported  |  Version: 3.0.2\n\nREADY",
+  "screenshot": "images/screenshots/elden-ring-the-convergence.jpg",
+  "logo": "images/logos/elden-ring-the-convergence.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/eldenring/mods/3419",
+      "icon": "nexus"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

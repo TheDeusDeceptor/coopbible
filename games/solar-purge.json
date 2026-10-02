@@ -1,0 +1,32 @@
+{
+  "id": "solar-purge",
+  "name": "Solar Purge",
+  "year": "2020",
+  "platform": "",
+  "release": "29.07.2020",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "Hitscan Games",
+  "pub": "Hitscan Games",
+  "notes": "",
+  "screenshot": "images/screenshots/solar-purge.jpg",
+  "logo": "images/logos/solar-purge.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/931450",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

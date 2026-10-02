@@ -1,0 +1,32 @@
+{
+  "id": "climber-animals-together",
+  "name": "Climber Animals: Together",
+  "year": "2024",
+  "platform": "",
+  "release": "22.03.2024",
+  "size": "0.5 GB",
+  "hltb": "",
+  "dev": "Devotion Interactive",
+  "pub": "Devotion Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/climber-animals-together.jpg",
+  "logo": "images/logos/climber-animals-together.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2744880",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mass-effect",
+  "name": "Mass Effect",
+  "year": "2008",
+  "platform": "",
+  "release": "28.05.2008",
+  "size": "",
+  "hltb": "",
+  "dev": "BioWare",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/mass-effect.jpg",
+  "logo": "images/logos/mass-effect.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

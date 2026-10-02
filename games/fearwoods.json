@@ -1,0 +1,32 @@
+{
+  "id": "fearwoods",
+  "name": "Fearwoods",
+  "year": "2026",
+  "platform": "",
+  "release": "Q2 2026",
+  "size": "",
+  "hltb": "",
+  "dev": "Fearwoods",
+  "pub": "GrabTheGames",
+  "notes": "",
+  "screenshot": "images/screenshots/fearwoods.jpg",
+  "logo": "images/logos/fearwoods.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3296990",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

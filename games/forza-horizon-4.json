@@ -1,0 +1,26 @@
+{
+  "id": "forza-horizon-4",
+  "name": "Forza Horizon 4",
+  "year": "2018",
+  "platform": "",
+  "release": "02.10.2018",
+  "size": "",
+  "hltb": "",
+  "dev": "Playground Games",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/forza-horizon-4.jpg",
+  "logo": "images/logos/forza-horizon-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

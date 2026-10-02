@@ -1,0 +1,32 @@
+{
+  "id": "sid-meier-s-civilization-vi",
+  "name": "Sid Meier’s Civilization® VI",
+  "year": "2016",
+  "platform": "",
+  "release": "20.10.2016",
+  "size": "17 GB",
+  "hltb": "Main: 23, +Extra: 99",
+  "dev": "Firaxis Games, Aspyr (Mac), Aspyr (Linux)",
+  "pub": "2K, Aspyr (Mac), Aspyr (Linux)",
+  "notes": "+ Rise and Fall\n\n     + Gathering Storm",
+  "screenshot": "images/screenshots/sid-meier-s-civilization-vi.jpg",
+  "logo": "images/logos/sid-meier-s-civilization-vi.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/289070",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

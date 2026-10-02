@@ -1,0 +1,26 @@
+{
+  "id": "killer7",
+  "name": "Killer7",
+  "year": "2005",
+  "platform": "PC",
+  "release": "07.07.2005",
+  "size": "",
+  "hltb": "Main: 14, +Extra: 16",
+  "dev": "Grasshopper Manufacture",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/killer7.jpg",
+  "logo": "images/logos/killer7.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "grasshopper-manufacture",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

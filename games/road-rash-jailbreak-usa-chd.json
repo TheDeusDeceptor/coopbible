@@ -1,0 +1,26 @@
+{
+  "id": "road-rash-jailbreak-usa-chd",
+  "name": "Road Rash - Jailbreak (USA).chd",
+  "year": "2000",
+  "platform": "psx",
+  "release": "01.02.2000",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Electronic Arts",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/road-rash-jailbreak-usa-chd.jpg",
+  "logo": "images/logos/road-rash-jailbreak-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

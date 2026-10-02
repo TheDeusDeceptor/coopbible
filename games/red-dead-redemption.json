@@ -1,0 +1,26 @@
+{
+  "id": "red-dead-redemption",
+  "name": "Red Dead Redemption",
+  "year": "2024",
+  "platform": "",
+  "release": "29.10.2024",
+  "size": "12 GB",
+  "hltb": "Main: 18, +Extra: 26",
+  "dev": "Rockstar Games",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/red-dead-redemption.jpg",
+  "logo": "images/logos/red-dead-redemption.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

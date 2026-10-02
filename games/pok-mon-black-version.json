@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-black-version",
+  "name": "Pokémon Black Version",
+  "year": "2010",
+  "platform": "",
+  "release": "18.09.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Game Freak",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/pok-mon-black-version.jpg",
+  "logo": "images/logos/pok-mon-black-version.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

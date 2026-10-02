@@ -1,0 +1,32 @@
+{
+  "id": "plague-doctor-life-in-pestilence",
+  "name": "Plague Doctor: Life in Pestilence",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "PST Games",
+  "pub": "PST Games",
+  "notes": "",
+  "screenshot": "images/screenshots/plague-doctor-life-in-pestilence.jpg",
+  "logo": "images/logos/plague-doctor-life-in-pestilence.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4221910",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

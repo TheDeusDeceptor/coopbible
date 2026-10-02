@@ -1,0 +1,26 @@
+{
+  "id": "sega-rally-revo",
+  "name": "Sega Rally Revo",
+  "year": "2007",
+  "platform": "",
+  "release": "09.10.2007",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "SEGA Racing Studio",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/sega-rally-revo.jpg",
+  "logo": "images/logos/sega-rally-revo.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

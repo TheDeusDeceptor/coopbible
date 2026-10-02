@@ -1,0 +1,26 @@
+{
+  "id": "spec-ops-the-line",
+  "name": "Spec Ops: The Line",
+  "year": "2012",
+  "platform": "",
+  "release": "28.06.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Yager",
+  "pub": "2K Games",
+  "notes": "",
+  "screenshot": "images/screenshots/spec-ops-the-line.jpg",
+  "logo": "images/logos/spec-ops-the-line.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

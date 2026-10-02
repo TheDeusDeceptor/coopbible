@@ -1,0 +1,26 @@
+{
+  "id": "burnout-legends-usa-en-fr-de-es-it-nl-v2-00-chd",
+  "name": "Burnout Legends (USA) (En,Fr,De,Es,It,Nl) (v2.00).chd",
+  "year": "2005",
+  "platform": "psp",
+  "release": "29.11.2005",
+  "size": "",
+  "hltb": "Main: 8",
+  "dev": "Visual Impact",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout-legends-usa-en-fr-de-es-it-nl-v2-00-chd.jpg",
+  "logo": "images/logos/burnout-legends-usa-en-fr-de-es-it-nl-v2-00-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

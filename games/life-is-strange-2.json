@@ -1,0 +1,26 @@
+{
+  "id": "life-is-strange-2",
+  "name": "Life Is Strange 2",
+  "year": "2018",
+  "platform": "PC",
+  "release": "25.09.2018",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 18",
+  "dev": "DONTNOD Entertainment",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/life-is-strange-2.jpg",
+  "logo": "images/logos/life-is-strange-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "life-is-strange",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

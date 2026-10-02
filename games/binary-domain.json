@@ -1,0 +1,32 @@
+{
+  "id": "binary-domain",
+  "name": "Binary Domain",
+  "year": "2012",
+  "platform": "",
+  "release": "16.02.2012",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Devil's Details",
+  "pub": "Sega of America",
+  "notes": "",
+  "screenshot": "images/screenshots/binary-domain.jpg",
+  "logo": "images/logos/binary-domain.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Binary_Domain",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

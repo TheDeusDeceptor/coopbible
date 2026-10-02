@@ -1,0 +1,26 @@
+{
+  "id": "outward",
+  "name": "Outward",
+  "year": "2019",
+  "platform": "",
+  "release": "26.03.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "Nine Dots Studio",
+  "pub": "Deep Silver",
+  "notes": "",
+  "screenshot": "images/screenshots/outward.jpg",
+  "logo": "images/logos/outward.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prince-of-persia-classic",
+  "name": "Prince of Persia Classic",
+  "year": "2007",
+  "platform": "PS3",
+  "release": "13.06.2007",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "Gameloft",
+  "pub": "Ubisoft Entertainment",
+  "notes": "Remake of very first game.",
+  "screenshot": "images/screenshots/prince-of-persia-classic.jpg",
+  "logo": "images/logos/prince-of-persia-classic.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "prince-of-persia",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Remake of very first game."
+}

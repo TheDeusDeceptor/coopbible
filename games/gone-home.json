@@ -1,0 +1,26 @@
+{
+  "id": "gone-home",
+  "name": "Gone Home",
+  "year": "2018",
+  "platform": "",
+  "release": "06.09.2018",
+  "size": "",
+  "hltb": "",
+  "dev": "Blitworks",
+  "pub": "Annapurna Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/gone-home.jpg",
+  "logo": "images/logos/gone-home.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

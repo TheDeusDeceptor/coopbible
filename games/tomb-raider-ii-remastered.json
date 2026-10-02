@@ -1,0 +1,26 @@
+{
+  "id": "tomb-raider-ii-remastered",
+  "name": "Tomb Raider II (Remastered)",
+  "year": "1997",
+  "platform": "PC",
+  "release": "01.11.1997",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 20",
+  "dev": "Core Design",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/tomb-raider-ii-remastered.jpg",
+  "logo": "images/logos/tomb-raider-ii-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tomb-raider",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

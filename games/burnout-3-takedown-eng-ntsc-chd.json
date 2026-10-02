@@ -1,0 +1,26 @@
+{
+  "id": "burnout-3-takedown-eng-ntsc-chd",
+  "name": "Burnout 3 Takedown [ENG NTSC].chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "08.09.2004",
+  "size": "",
+  "hltb": "Main: 13",
+  "dev": "Criterion Software",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout-3-takedown-eng-ntsc-chd.jpg",
+  "logo": "images/logos/burnout-3-takedown-eng-ntsc-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

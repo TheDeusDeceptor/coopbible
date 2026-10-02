@@ -1,0 +1,26 @@
+{
+  "id": "gran-turismo-7",
+  "name": "Gran Turismo 7",
+  "year": "2022",
+  "platform": "PS4",
+  "release": "2022.0",
+  "size": "",
+  "hltb": "Main: 25, +Extra: 46",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/gran-turismo-7.jpg",
+  "logo": "images/logos/gran-turismo-7.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gran-turismo",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

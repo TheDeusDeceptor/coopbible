@@ -1,0 +1,26 @@
+{
+  "id": "silent-hill-2-enhanced-edition",
+  "name": "Silent Hill 2 Enhanced Edition",
+  "year": "2018",
+  "platform": "",
+  "release": "23.08.2018",
+  "size": "",
+  "hltb": "",
+  "dev": "Town of Silent Hill",
+  "pub": "Town of Silent Hill",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-hill-2-enhanced-edition.jpg",
+  "logo": "images/logos/silent-hill-2-enhanced-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

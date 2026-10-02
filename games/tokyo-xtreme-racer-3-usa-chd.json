@@ -1,0 +1,26 @@
+{
+  "id": "tokyo-xtreme-racer-3-usa-chd",
+  "name": "Tokyo Xtreme Racer 3 (USA).chd",
+  "year": "2003",
+  "platform": "ps2",
+  "release": "24.07.2003",
+  "size": "",
+  "hltb": "Main: 21",
+  "dev": "Genki",
+  "pub": "Crave Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/tokyo-xtreme-racer-3-usa-chd.jpg",
+  "logo": "images/logos/tokyo-xtreme-racer-3-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

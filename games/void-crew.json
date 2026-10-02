@@ -1,0 +1,32 @@
+{
+  "id": "void-crew",
+  "name": "Void Crew",
+  "year": "2024",
+  "platform": "",
+  "release": "25.11.2024",
+  "size": "7 GB",
+  "hltb": "Main+Sides: 27",
+  "dev": "Hutlihut Games",
+  "pub": "Focus Entertainment",
+  "notes": "updates occasionally",
+  "screenshot": "images/screenshots/void-crew.jpg",
+  "logo": "images/logos/void-crew.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1063420",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

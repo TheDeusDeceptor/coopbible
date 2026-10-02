@@ -1,0 +1,26 @@
+{
+  "id": "mortal-kombat-mythologies-sub-zero-usa-chd",
+  "name": "Mortal Kombat Mythologies - Sub-Zero (USA).chd",
+  "year": "1997",
+  "platform": "psx",
+  "release": "01.10.1997",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "Midway Games",
+  "pub": "GT Interactive Software",
+  "notes": "",
+  "screenshot": "images/screenshots/mortal-kombat-mythologies-sub-zero-usa-chd.jpg",
+  "logo": "images/logos/mortal-kombat-mythologies-sub-zero-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

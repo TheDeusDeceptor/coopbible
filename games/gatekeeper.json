@@ -1,0 +1,32 @@
+{
+  "id": "gatekeeper",
+  "name": "Gatekeeper",
+  "year": "2025",
+  "platform": "",
+  "release": "01.08.2025",
+  "size": "2 GB",
+  "hltb": "Main: 3",
+  "dev": "Gravity Lagoon",
+  "pub": "HypeTrain Digital",
+  "notes": "",
+  "screenshot": "images/screenshots/gatekeeper.jpg",
+  "logo": "images/logos/gatekeeper.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2106670",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

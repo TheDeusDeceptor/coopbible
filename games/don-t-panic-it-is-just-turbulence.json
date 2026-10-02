@@ -1,0 +1,32 @@
+{
+  "id": "don-t-panic-it-is-just-turbulence",
+  "name": "Don't Panic! It is Just Turbulence",
+  "year": "2026",
+  "platform": "",
+  "release": "11.05.2026",
+  "size": "6 GB",
+  "hltb": "",
+  "dev": "Harmonia Games",
+  "pub": "Aiolos Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/don-t-panic-it-is-just-turbulence.jpg",
+  "logo": "images/logos/don-t-panic-it-is-just-turbulence.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4187140",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

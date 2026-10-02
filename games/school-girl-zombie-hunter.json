@@ -1,0 +1,26 @@
+{
+  "id": "school-girl-zombie-hunter",
+  "name": "School Girl/Zombie Hunter",
+  "year": "2017",
+  "platform": "PC",
+  "release": "2017 (2018)",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/school-girl-zombie-hunter.jpg",
+  "logo": "images/logos/school-girl-zombie-hunter.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "incursion-red-river",
+  "name": "Incursion Red River",
+  "year": "2024",
+  "platform": "",
+  "release": "10.04.2024",
+  "size": "65 GB",
+  "hltb": "",
+  "dev": "Games Of Tomorrow GmbH",
+  "pub": "Games Of Tomorrow GmbH",
+  "notes": "",
+  "screenshot": "images/screenshots/incursion-red-river.jpg",
+  "logo": "images/logos/incursion-red-river.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2116120",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

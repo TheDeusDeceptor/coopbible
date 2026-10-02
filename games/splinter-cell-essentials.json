@@ -1,0 +1,26 @@
+{
+  "id": "splinter-cell-essentials",
+  "name": "Splinter Cell: Essentials",
+  "year": "2006",
+  "platform": "PSP",
+  "release": "2006.0",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/splinter-cell-essentials.jpg",
+  "logo": "images/logos/splinter-cell-essentials.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-splinter-cell",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

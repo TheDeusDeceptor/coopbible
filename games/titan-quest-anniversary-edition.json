@@ -1,0 +1,32 @@
+{
+  "id": "titan-quest-anniversary-edition",
+  "name": "Titan Quest Anniversary Edition",
+  "year": "2016",
+  "platform": "",
+  "release": "31.08.2016",
+  "size": "5 GB",
+  "hltb": "Main: 31, +Extra: 46",
+  "dev": "Iron Lore Entertainment, THQ Nordic",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "screenshot": "images/screenshots/titan-quest-anniversary-edition.jpg",
+  "logo": "images/logos/titan-quest-anniversary-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/475150",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "silent-hill-2",
+  "name": "Silent Hill 2",
+  "year": "2001",
+  "platform": "PC",
+  "release": "2001.0",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Team Silent",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-hill-2.jpg",
+  "logo": "images/logos/silent-hill-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "silent-hill",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

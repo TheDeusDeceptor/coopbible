@@ -1,0 +1,26 @@
+{
+  "id": "dishonored",
+  "name": "Dishonored",
+  "year": "2012",
+  "platform": "",
+  "release": "09.10.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Arkane Studios",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "screenshot": "images/screenshots/dishonored.jpg",
+  "logo": "images/logos/dishonored.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

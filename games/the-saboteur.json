@@ -1,0 +1,26 @@
+{
+  "id": "the-saboteur",
+  "name": "The Saboteur",
+  "year": "2018",
+  "platform": "",
+  "release": "29.11.2018",
+  "size": "7 GB",
+  "hltb": "Main: 11, +Extra: 20",
+  "dev": "Clive Townsend",
+  "pub": "SimFabric",
+  "notes": "",
+  "screenshot": "images/screenshots/the-saboteur.jpg",
+  "logo": "images/logos/the-saboteur.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

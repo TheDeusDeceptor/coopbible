@@ -1,0 +1,32 @@
+{
+  "id": "pico-park",
+  "name": "PICO PARK",
+  "year": "2021",
+  "platform": "",
+  "release": "07.05.2021",
+  "size": "0.1 GB",
+  "hltb": "Main: 3",
+  "dev": "TECOPARK",
+  "pub": "TECOPARK",
+  "notes": "PP1 on PP2 engine? (preferable...)",
+  "screenshot": "images/screenshots/pico-park.jpg",
+  "logo": "images/logos/pico-park.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1509960",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

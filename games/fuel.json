@@ -1,0 +1,26 @@
+{
+  "id": "fuel",
+  "name": "FUEL",
+  "year": "2009",
+  "platform": "",
+  "release": "05.07.2009",
+  "size": "",
+  "hltb": "Main: 25, +Extra: 48",
+  "dev": "Asobo Studio",
+  "pub": "Codemasters",
+  "notes": "",
+  "screenshot": "images/screenshots/fuel.jpg",
+  "logo": "images/logos/fuel.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

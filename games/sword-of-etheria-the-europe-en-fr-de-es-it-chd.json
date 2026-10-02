@@ -1,0 +1,26 @@
+{
+  "id": "sword-of-etheria-the-europe-en-fr-de-es-it-chd",
+  "name": "Sword of Etheria, The (Europe) (En,Fr,De,Es,It).chd",
+  "year": "2006",
+  "platform": "ps2",
+  "release": "24.02.2006",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Konami",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/sword-of-etheria-the-europe-en-fr-de-es-it-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

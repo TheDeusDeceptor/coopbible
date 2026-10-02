@@ -1,0 +1,26 @@
+{
+  "id": "street-racing-syndicate",
+  "name": "Street Racing Syndicate",
+  "year": "2004",
+  "platform": "",
+  "release": "31.08.2004",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 13",
+  "dev": "Eutechnyx",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/street-racing-syndicate.jpg",
+  "logo": "images/logos/street-racing-syndicate.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

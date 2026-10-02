@@ -1,0 +1,32 @@
+{
+  "id": "runescape-dragonwilds",
+  "name": "RuneScape: Dragonwilds",
+  "year": "2025",
+  "platform": "",
+  "release": "15.04.2025",
+  "size": "25 GB",
+  "hltb": "Main: 20",
+  "dev": "Jagex Ltd",
+  "pub": "Jagex Ltd",
+  "notes": "",
+  "screenshot": "images/screenshots/runescape-dragonwilds.jpg",
+  "logo": "images/logos/runescape-dragonwilds.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1374490",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "backrooms-media",
+  "name": "Backrooms Media",
+  "year": "2025",
+  "platform": "",
+  "release": "16.12.2025",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "NPK Games",
+  "pub": "Pretty Soon",
+  "notes": "",
+  "screenshot": "images/screenshots/backrooms-media.jpg",
+  "logo": "images/logos/backrooms-media.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2714970",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

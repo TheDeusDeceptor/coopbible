@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-code-veronica-x-hd",
+  "name": "Resident Evil – Code: Veronica (X HD)",
+  "year": "2000",
+  "platform": "PS3",
+  "release": "2000 (2011)",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 14",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "HD-version for 7th Gen",
+  "screenshot": "images/screenshots/resident-evil-code-veronica-x-hd.jpg",
+  "logo": "images/logos/resident-evil-code-veronica-x-hd.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": "green",
+  "series_note": "HD-version for 7th Gen"
+}

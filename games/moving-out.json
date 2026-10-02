@@ -1,0 +1,32 @@
+{
+  "id": "moving-out",
+  "name": "Moving Out",
+  "year": "2020",
+  "platform": "",
+  "release": "28.04.2020",
+  "size": "1 GB",
+  "hltb": "Main: 5, +Extra: 10",
+  "dev": "SMG Studio, Devm Games",
+  "pub": "Team17",
+  "notes": "",
+  "screenshot": "images/screenshots/moving-out.jpg",
+  "logo": "images/logos/moving-out.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/996770",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

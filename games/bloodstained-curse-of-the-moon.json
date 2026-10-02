@@ -1,0 +1,26 @@
+{
+  "id": "bloodstained-curse-of-the-moon",
+  "name": "Bloodstained Curse of the Moon",
+  "year": "2018",
+  "platform": "",
+  "release": "24.05.2018",
+  "size": "0.5 GB",
+  "hltb": "Main: 2, +Extra: 5",
+  "dev": "Inti Creates",
+  "pub": "Inti Creates",
+  "notes": "",
+  "screenshot": "images/screenshots/bloodstained-curse-of-the-moon.jpg",
+  "logo": "images/logos/bloodstained-curse-of-the-moon.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

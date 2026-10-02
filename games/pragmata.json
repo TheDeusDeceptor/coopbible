@@ -1,0 +1,26 @@
+{
+  "id": "pragmata",
+  "name": "Pragmata",
+  "year": "2026",
+  "platform": "",
+  "release": "17.04.2026",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 16",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/pragmata.jpg",
+  "logo": "images/logos/pragmata.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

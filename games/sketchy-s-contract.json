@@ -1,0 +1,32 @@
+{
+  "id": "sketchy-s-contract",
+  "name": "Sketchy's Contract",
+  "year": "2024",
+  "platform": "",
+  "release": "09.04.2024",
+  "size": "13 GB",
+  "hltb": "",
+  "dev": "Dimensionless Games",
+  "pub": "Dimensionless Games",
+  "notes": "",
+  "screenshot": "images/screenshots/sketchy-s-contract.jpg",
+  "logo": "images/logos/sketchy-s-contract.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2823080",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "minecraft-story-mode",
+  "name": "Minecraft Story Mode",
+  "year": "2015",
+  "platform": "",
+  "release": "12.10.2015",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 14",
+  "dev": "Telltale Games",
+  "pub": "Telltale Games",
+  "notes": "",
+  "screenshot": "images/screenshots/minecraft-story-mode.jpg",
+  "logo": "images/logos/minecraft-story-mode.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

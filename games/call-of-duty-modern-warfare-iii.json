@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-modern-warfare-iii",
+  "name": "Call of Duty: Modern Warfare III",
+  "year": "2023",
+  "platform": "PC",
+  "release": "2023.0",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Sledgehammer Games",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-modern-warfare-iii.jpg",
+  "logo": "images/logos/call-of-duty-modern-warfare-iii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "crash-bandicoot-warped",
+  "name": "Crash Bandicoot: Warped",
+  "year": "1998",
+  "platform": "PSX",
+  "release": "31.10.1998",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Naughty Dog",
+  "pub": "Sony Computer Entertainment America",
+  "notes": "",
+  "screenshot": "images/screenshots/crash-bandicoot-warped.jpg",
+  "logo": "images/logos/crash-bandicoot-warped.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "crash-bandicoot",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

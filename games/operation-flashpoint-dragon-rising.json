@@ -1,0 +1,32 @@
+{
+  "id": "operation-flashpoint-dragon-rising",
+  "name": "Operation Flashpoint: Dragon Rising",
+  "year": "2009",
+  "platform": "",
+  "release": "06.10.2009",
+  "size": "8 GB",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "Codemasters",
+  "pub": "Codemasters, Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/operation-flashpoint-dragon-rising.jpg",
+  "logo": "images/logos/operation-flashpoint-dragon-rising.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/12830",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

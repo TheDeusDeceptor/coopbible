@@ -1,0 +1,26 @@
+{
+  "id": "legacy-of-kain-defiance-remastered",
+  "name": "Legacy of Kain: Defiance (Remastered)",
+  "year": "2003",
+  "platform": "PC",
+  "release": "11.11.2003",
+  "size": "20 GB",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "Crystal Dynamics",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/legacy-of-kain-defiance-remastered.jpg",
+  "logo": "images/logos/legacy-of-kain-defiance-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "legacy-of-kain",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

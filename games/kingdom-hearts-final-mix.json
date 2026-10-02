@@ -1,0 +1,26 @@
+{
+  "id": "kingdom-hearts-final-mix",
+  "name": "Kingdom Hearts (Final Mix)",
+  "year": "2002",
+  "platform": "PC",
+  "release": "28.03.2002",
+  "size": "",
+  "hltb": "Main: 24, +Extra: 33",
+  "dev": "Square",
+  "pub": "Square Enix",
+  "notes": "Kingdom Hearts HD 1.5 + 2.5 ReMIX.",
+  "screenshot": "images/screenshots/kingdom-hearts-final-mix.jpg",
+  "logo": "images/logos/kingdom-hearts-final-mix.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "kingdom-hearts",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Kingdom Hearts HD 1.5 + 2.5 ReMIX."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tick-tock-a-tale-for-two",
+  "name": "Tick Tock: A Tale for Two",
+  "year": "2019",
+  "platform": "",
+  "release": "07.03.2019",
+  "size": "2 GB",
+  "hltb": "Main: 2",
+  "dev": "Other Tales Interactive",
+  "pub": "Other Tales Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/tick-tock-a-tale-for-two.jpg",
+  "logo": "images/logos/tick-tock-a-tale-for-two.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/790740",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

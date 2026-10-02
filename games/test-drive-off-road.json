@@ -1,0 +1,26 @@
+{
+  "id": "test-drive-off-road",
+  "name": "Test Drive: Off-Road",
+  "year": "1997",
+  "platform": "PSX",
+  "release": "01.02.1997",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "Elite Systems",
+  "pub": "Accolade",
+  "notes": "",
+  "screenshot": "images/screenshots/test-drive-off-road.jpg",
+  "logo": "images/logos/test-drive-off-road.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "test-drive",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "xtreme-speed-europe-chd",
+  "name": "Xtreme Speed (Europe).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "08.10.2004",
+  "size": "",
+  "hltb": "",
+  "dev": "Mere Mortals",
+  "pub": "Phoenix Games",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/xtreme-speed-europe-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

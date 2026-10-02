@@ -1,0 +1,26 @@
+{
+  "id": "silent-hill",
+  "name": "Silent Hill",
+  "year": "1999",
+  "platform": "PSX",
+  "release": "1999.0",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Team Silent",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-hill.jpg",
+  "logo": "images/logos/silent-hill.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "silent-hill",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

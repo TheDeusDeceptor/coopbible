@@ -1,0 +1,26 @@
+{
+  "id": "burnout-crash",
+  "name": "Burnout CRASH!",
+  "year": "2011",
+  "platform": "PS3",
+  "release": "21.09.2011",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 8",
+  "dev": "Criterion Software",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout-crash.jpg",
+  "logo": "images/logos/burnout-crash.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "burnout",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

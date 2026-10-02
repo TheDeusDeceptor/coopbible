@@ -1,0 +1,32 @@
+{
+  "id": "pirates-bay",
+  "name": "Pirates Bay",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Kraken Ink Studio",
+  "pub": "Kraken Ink Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/pirates-bay.jpg",
+  "logo": "images/logos/pirates-bay.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1766080",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

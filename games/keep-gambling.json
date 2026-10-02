@@ -1,0 +1,32 @@
+{
+  "id": "keep-gambling",
+  "name": "KEEP GAMBLING",
+  "year": "2025",
+  "platform": "",
+  "release": "16.12.2025",
+  "size": "5 GB",
+  "hltb": "Main: 1",
+  "dev": "WIRED FEELINGS",
+  "pub": "WIRED FEELINGS",
+  "notes": "",
+  "screenshot": "images/screenshots/keep-gambling.jpg",
+  "logo": "images/logos/keep-gambling.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3720460",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

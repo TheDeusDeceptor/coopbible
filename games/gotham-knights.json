@@ -1,0 +1,32 @@
+{
+  "id": "gotham-knights",
+  "name": "Gotham Knights",
+  "year": "2022",
+  "platform": "",
+  "release": "21.10.2022",
+  "size": "45 GB",
+  "hltb": "Main: 17, +Extra: 28",
+  "dev": "Warner Bros. Games Montréal, QLOC",
+  "pub": "Warner Bros. Games",
+  "notes": "Developer server \nauthorization required\n\n\nGAMEPASS",
+  "screenshot": "images/screenshots/gotham-knights.jpg",
+  "logo": "images/logos/gotham-knights.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1496790",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": true,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "the-legend-of-zelda-skyward-sword",
+  "name": "The Legend of Zelda: Skyward Sword",
+  "year": "2011",
+  "platform": "Switch",
+  "release": "18.11.2011",
+  "size": "",
+  "hltb": "Main: 38, +Extra: 47",
+  "dev": "Nintendo EAD",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/the-legend-of-zelda-skyward-sword.jpg",
+  "logo": "images/logos/the-legend-of-zelda-skyward-sword.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "the-legend-of-zelda",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

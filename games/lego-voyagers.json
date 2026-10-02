@@ -1,0 +1,32 @@
+{
+  "id": "lego-voyagers",
+  "name": "LEGO® Voyagers",
+  "year": "2025",
+  "platform": "",
+  "release": "15.09.2025",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Light Brick Studio",
+  "pub": "Annapurna Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/lego-voyagers.jpg",
+  "logo": "images/logos/lego-voyagers.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1538550",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

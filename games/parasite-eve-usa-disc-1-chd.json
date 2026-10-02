@@ -1,0 +1,26 @@
+{
+  "id": "parasite-eve-usa-disc-1-chd",
+  "name": "Parasite Eve (USA) (Disc 1).chd",
+  "year": "1998",
+  "platform": "psx",
+  "release": "29.03.1998",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "Square",
+  "pub": "Squaresoft",
+  "notes": "",
+  "screenshot": "images/screenshots/parasite-eve-usa-disc-1-chd.jpg",
+  "logo": "images/logos/parasite-eve-usa-disc-1-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

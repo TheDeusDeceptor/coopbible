@@ -1,0 +1,26 @@
+{
+  "id": "ace-combat-8-wings-of-theve",
+  "name": "Ace Combat 8: Wings of Theve",
+  "year": "2026",
+  "platform": "PC",
+  "release": "2026.0",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/ace-combat-8-wings-of-theve.jpg",
+  "logo": "images/logos/ace-combat-8-wings-of-theve.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-combat",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

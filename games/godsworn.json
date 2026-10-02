@@ -1,0 +1,32 @@
+{
+  "id": "godsworn",
+  "name": "Godsworn",
+  "year": "2024",
+  "platform": "",
+  "release": "28.03.2024",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Thunderoak Interactive",
+  "pub": "Thunderoak Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/godsworn.jpg",
+  "logo": "images/logos/godsworn.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1328990",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

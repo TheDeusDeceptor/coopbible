@@ -1,0 +1,26 @@
+{
+  "id": "trauma-center-under-the-knife",
+  "name": "Trauma Center: Under the Knife",
+  "year": "2005",
+  "platform": "NDS",
+  "release": "16.06.2005",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "Atlus",
+  "pub": "Atlus",
+  "notes": "",
+  "screenshot": "images/screenshots/trauma-center-under-the-knife.jpg",
+  "logo": "images/logos/trauma-center-under-the-knife.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "trauma-center",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "echoes-of-elysium",
+  "name": "Echoes of Elysium",
+  "year": "2026",
+  "platform": "",
+  "release": "27.01.2026",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Loric Games, Inc.",
+  "pub": "Snail Games USA",
+  "notes": "",
+  "screenshot": "images/screenshots/echoes-of-elysium.jpg",
+  "logo": "images/logos/echoes-of-elysium.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2644050",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ghosthunter-usa-chd",
+  "name": "Ghosthunter (USA).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "17.08.2004",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "Sony Computer Entertainment",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/ghosthunter-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

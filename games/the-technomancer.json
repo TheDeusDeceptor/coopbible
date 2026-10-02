@@ -1,0 +1,26 @@
+{
+  "id": "the-technomancer",
+  "name": "The Technomancer",
+  "year": "2016",
+  "platform": "PC",
+  "release": "28.06.2016",
+  "size": "",
+  "hltb": "Main: 19, +Extra: 27",
+  "dev": "Spiders",
+  "pub": "Focus Home Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/the-technomancer.jpg",
+  "logo": "images/logos/the-technomancer.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "spiders",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

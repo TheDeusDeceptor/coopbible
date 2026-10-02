@@ -1,0 +1,26 @@
+{
+  "id": "super-mario-64-sm64ex",
+  "name": "Super Mario 64 (sm64ex)",
+  "year": "1996",
+  "platform": "",
+  "release": "23.06.1996",
+  "size": "",
+  "hltb": "",
+  "dev": "Nintendo EAD",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/super-mario-64-sm64ex.jpg",
+  "logo": "images/logos/super-mario-64-sm64ex.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

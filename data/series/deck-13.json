@@ -1,0 +1,15 @@
+{
+  "id": "deck-13",
+  "name": "Deck 13",
+  "logo": "",
+  "main": 89,
+  "extra": 123,
+  "order": [
+    "venetica",
+    "blood-knights",
+    "lords-of-the-fallen-2",
+    "the-surge",
+    "the-surge-2",
+    "atlas-fallen"
+  ]
+}

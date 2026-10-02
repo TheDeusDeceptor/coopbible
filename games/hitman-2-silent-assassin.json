@@ -1,0 +1,26 @@
+{
+  "id": "hitman-2-silent-assassin",
+  "name": "Hitman 2: Silent Assassin",
+  "year": "2002",
+  "platform": "PC",
+  "release": "01.10.2002",
+  "size": "",
+  "hltb": "Main: 14",
+  "dev": "Io-Interactive",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/hitman-2-silent-assassin.jpg",
+  "logo": "images/logos/hitman-2-silent-assassin.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "hitman",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

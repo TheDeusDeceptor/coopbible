@@ -1,0 +1,32 @@
+{
+  "id": "scourge-outbreak",
+  "name": "Scourge: Outbreak",
+  "year": "2014",
+  "platform": "",
+  "release": "02.04.2014",
+  "size": "5 GB",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Tragnarion Studios",
+  "pub": "Bitbox S.L.",
+  "notes": "",
+  "screenshot": "images/screenshots/scourge-outbreak.jpg",
+  "logo": "images/logos/scourge-outbreak.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/227560",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

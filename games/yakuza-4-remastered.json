@@ -1,0 +1,26 @@
+{
+  "id": "yakuza-4-remastered",
+  "name": "Yakuza 4 (Remastered)",
+  "year": "2011",
+  "platform": "PC",
+  "release": "15.03.2011",
+  "size": "",
+  "hltb": "Main: 21, +Extra: 39",
+  "dev": "Sega",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/yakuza-4-remastered.jpg",
+  "logo": "images/logos/yakuza-4-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

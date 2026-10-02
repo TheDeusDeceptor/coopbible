@@ -1,0 +1,26 @@
+{
+  "id": "mortal-kombat-armageddon-usa-chd",
+  "name": "Mortal Kombat - Armageddon (USA).chd",
+  "year": "2006",
+  "platform": "ps2",
+  "release": "09.10.2006",
+  "size": "",
+  "hltb": "Main: 8",
+  "dev": "Midway Games",
+  "pub": "Midway Home Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/mortal-kombat-armageddon-usa-chd.jpg",
+  "logo": "images/logos/mortal-kombat-armageddon-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

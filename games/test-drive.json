@@ -1,0 +1,26 @@
+{
+  "id": "test-drive",
+  "name": "Test Drive",
+  "year": "2002",
+  "platform": "PS2",
+  "release": "2002.0",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/test-drive.jpg",
+  "logo": "images/logos/test-drive.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "test-drive",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

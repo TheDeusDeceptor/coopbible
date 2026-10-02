@@ -1,0 +1,26 @@
+{
+  "id": "sniper-elite",
+  "name": "Sniper Elite",
+  "year": "2005",
+  "platform": "PC",
+  "release": "18.10.2005",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 15",
+  "dev": "Rebellion Developments",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/sniper-elite.jpg",
+  "logo": "images/logos/sniper-elite.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "sniper-elite",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

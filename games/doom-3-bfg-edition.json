@@ -1,0 +1,26 @@
+{
+  "id": "doom-3-bfg-edition",
+  "name": "Doom 3: BFG Edition",
+  "year": "2012",
+  "platform": "",
+  "release": "16.10.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "id Software",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "screenshot": "images/screenshots/doom-3-bfg-edition.jpg",
+  "logo": "images/logos/doom-3-bfg-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

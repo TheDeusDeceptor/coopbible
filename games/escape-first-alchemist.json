@@ -1,0 +1,32 @@
+{
+  "id": "escape-first-alchemist",
+  "name": "Escape First Alchemist ⚗️",
+  "year": "2023",
+  "platform": "",
+  "release": "02.03.2023",
+  "size": "8 GB",
+  "hltb": "Main: 2",
+  "dev": "OnSkull Games",
+  "pub": "OnSkull Games",
+  "notes": "",
+  "screenshot": "images/screenshots/escape-first-alchemist.jpg",
+  "logo": "images/logos/escape-first-alchemist.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2094320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

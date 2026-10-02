@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-deadly-silence",
+  "name": "Resident Evil: Deadly Silence",
+  "year": "2006",
+  "platform": "NDS",
+  "release": "2006.0",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "Enhanced version of original Resident Evil.",
+  "screenshot": "",
+  "logo": "images/logos/resident-evil-deadly-silence.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": "Enhanced version of original Resident Evil."
+}

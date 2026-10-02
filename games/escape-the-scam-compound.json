@@ -1,0 +1,32 @@
+{
+  "id": "escape-the-scam-compound",
+  "name": "Escape the Scam Compound",
+  "year": "2027",
+  "platform": "",
+  "release": "2027.0",
+  "size": "",
+  "hltb": "",
+  "dev": "HUXGE Games",
+  "pub": "HUXGE Games",
+  "notes": "",
+  "screenshot": "images/screenshots/escape-the-scam-compound.jpg",
+  "logo": "images/logos/escape-the-scam-compound.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3600170",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

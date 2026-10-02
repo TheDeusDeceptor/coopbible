@@ -1,0 +1,32 @@
+{
+  "id": "fantasy-life-i-the-girl-who-steals-time",
+  "name": "FANTASY LIFE i: The Girl Who Steals Time",
+  "year": "2025",
+  "platform": "",
+  "release": "21.05.2025",
+  "size": "20 GB",
+  "hltb": "Main: 31, +Extra: 68",
+  "dev": "LEVEL5 Inc.",
+  "pub": "LEVEL5 Inc.",
+  "notes": "",
+  "screenshot": "images/screenshots/fantasy-life-i-the-girl-who-steals-time.jpg",
+  "logo": "images/logos/fantasy-life-i-the-girl-who-steals-time.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2993780",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

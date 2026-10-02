@@ -1,0 +1,26 @@
+{
+  "id": "initial-d-extreme-stage-m3u",
+  "name": "Initial D Extreme Stage.m3u",
+  "year": "2008",
+  "platform": "ps3",
+  "release": "03.07.2008",
+  "size": "",
+  "hltb": "",
+  "dev": "Sega",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/initial-d-extreme-stage-m3u.jpg",
+  "logo": "images/logos/initial-d-extreme-stage-m3u.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

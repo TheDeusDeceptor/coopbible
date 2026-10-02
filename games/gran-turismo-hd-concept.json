@@ -1,0 +1,26 @@
+{
+  "id": "gran-turismo-hd-concept",
+  "name": "Gran Turismo HD Concept",
+  "year": "2006",
+  "platform": "PS3",
+  "release": "24.12.2006",
+  "size": "",
+  "hltb": "Main: 2, +Extra: 19",
+  "dev": "Polyphony Digital",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/gran-turismo-hd-concept.jpg",
+  "logo": "images/logos/gran-turismo-hd-concept.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gran-turismo",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

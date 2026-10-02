@@ -1,0 +1,26 @@
+{
+  "id": "delta-force-xtreme-2",
+  "name": "Delta Force: Xtreme 2",
+  "year": "2009",
+  "platform": "PC",
+  "release": "18.06.2009",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "Novalogic",
+  "pub": "Novalogic",
+  "notes": "",
+  "screenshot": "images/screenshots/delta-force-xtreme-2.jpg",
+  "logo": "images/logos/delta-force-xtreme-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "delta-force",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

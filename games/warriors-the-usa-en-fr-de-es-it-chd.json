@@ -1,0 +1,26 @@
+{
+  "id": "warriors-the-usa-en-fr-de-es-it-chd",
+  "name": "Warriors, The (USA) (En,Fr,De,Es,It).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "17.10.2005",
+  "size": "",
+  "hltb": "Main: 11",
+  "dev": "Rockstar Toronto",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/warriors-the-usa-en-fr-de-es-it-chd.jpg",
+  "logo": "images/logos/warriors-the-usa-en-fr-de-es-it-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

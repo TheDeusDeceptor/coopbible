@@ -1,0 +1,32 @@
+{
+  "id": "keep-digging",
+  "name": "Keep Digging",
+  "year": "2025",
+  "platform": "",
+  "release": "11.09.2025",
+  "size": "10 GB",
+  "hltb": "Main: 1, +Extra: 3",
+  "dev": "Wild Dog",
+  "pub": "Wild Dog",
+  "notes": "",
+  "screenshot": "images/screenshots/keep-digging.jpg",
+  "logo": "images/logos/keep-digging.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3585800",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

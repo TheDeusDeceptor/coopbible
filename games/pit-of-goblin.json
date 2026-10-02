@@ -1,0 +1,32 @@
+{
+  "id": "pit-of-goblin",
+  "name": "PIT OF GOBLIN",
+  "year": "2024",
+  "platform": "",
+  "release": "17.12.2024",
+  "size": "2 GB",
+  "hltb": "",
+  "dev": "Friendly Foe",
+  "pub": "Friendly Foe, Bright Gambit",
+  "notes": "",
+  "screenshot": "images/screenshots/pit-of-goblin.jpg",
+  "logo": "images/logos/pit-of-goblin.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3253530",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

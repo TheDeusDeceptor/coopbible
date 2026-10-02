@@ -1,0 +1,26 @@
+{
+  "id": "danganronpa-v3-killing-harmony",
+  "name": "Danganronpa V3: Killing Harmony",
+  "year": "2017",
+  "platform": "PC",
+  "release": "12.01.2017",
+  "size": "",
+  "hltb": "Main: 39, +Extra: 52",
+  "dev": "Spike ChunSoft",
+  "pub": "NIS America",
+  "notes": "",
+  "screenshot": "images/screenshots/danganronpa-v3-killing-harmony.jpg",
+  "logo": "images/logos/danganronpa-v3-killing-harmony.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "danganronpa",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

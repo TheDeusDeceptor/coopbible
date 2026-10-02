@@ -1,0 +1,26 @@
+{
+  "id": "delta-force-urban-warfare",
+  "name": "Delta Force: Urban Warfare",
+  "year": "2002",
+  "platform": "PSX",
+  "release": "01.06.2002",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Rebellion",
+  "pub": "Novalogic",
+  "notes": "",
+  "screenshot": "images/screenshots/delta-force-urban-warfare.jpg",
+  "logo": "images/logos/delta-force-urban-warfare.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "delta-force",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "syphon-filter-logan-s-shadow-usa-chd",
+  "name": "Syphon Filter - Logan's Shadow (USA).chd",
+  "year": "2010",
+  "platform": "ps2",
+  "release": "01.06.2010",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "SCE Bend Studio",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/syphon-filter-logan-s-shadow-usa-chd.jpg",
+  "logo": "images/logos/syphon-filter-logan-s-shadow-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

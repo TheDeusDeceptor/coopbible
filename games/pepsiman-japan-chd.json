@@ -1,0 +1,26 @@
+{
+  "id": "pepsiman-japan-chd",
+  "name": "Pepsiman (Japan).chd",
+  "year": "1999",
+  "platform": "psx",
+  "release": "04.03.1999",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "Kid",
+  "pub": "KID",
+  "notes": "",
+  "screenshot": "images/screenshots/pepsiman-japan-chd.jpg",
+  "logo": "images/logos/pepsiman-japan-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

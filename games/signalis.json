@@ -1,0 +1,26 @@
+{
+  "id": "signalis",
+  "name": "SIGNALIS",
+  "year": "2022",
+  "platform": "",
+  "release": "27.10.2022",
+  "size": "2 GB",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "rose-engine",
+  "pub": "Playism",
+  "notes": "",
+  "screenshot": "images/screenshots/signalis.jpg",
+  "logo": "images/logos/signalis.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "teenage-mutant-ninja-turtles-splintered-fate",
+  "name": "Teenage Mutant Ninja Turtles: Splintered Fate",
+  "year": "2024",
+  "platform": "",
+  "release": "06.11.2024",
+  "size": "5 GB",
+  "hltb": "Main: 9, +Extra: 24",
+  "dev": "Super Evil Megacorp",
+  "pub": "Super Evil Megacorp",
+  "notes": "updates occasionally",
+  "screenshot": "images/screenshots/teenage-mutant-ninja-turtles-splintered-fate.jpg",
+  "logo": "images/logos/teenage-mutant-ninja-turtles-splintered-fate.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2996040",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

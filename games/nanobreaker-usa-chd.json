@@ -1,0 +1,26 @@
+{
+  "id": "nanobreaker-usa-chd",
+  "name": "Nanobreaker (USA).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "15.02.2005",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Konami TYO",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/nanobreaker-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

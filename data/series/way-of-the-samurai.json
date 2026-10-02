@@ -1,0 +1,15 @@
+{
+  "id": "way-of-the-samurai",
+  "name": "Way of the Samurai",
+  "logo": "",
+  "main": 64,
+  "extra": 129,
+  "order": [
+    "way-of-the-samurai",
+    "way-of-the-samurai-2",
+    "samurai-western",
+    "way-of-the-samurai-3",
+    "way-of-the-samurai-4",
+    "katana-kami-a-way-of-the-samurai-story"
+  ]
+}

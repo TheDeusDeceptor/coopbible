@@ -1,0 +1,32 @@
+{
+  "id": "abiotic-factor",
+  "name": "Abiotic Factor",
+  "year": "2025",
+  "platform": "",
+  "release": "22.07.2025",
+  "size": "10 GB",
+  "hltb": "Main: 42, +Extra: 75",
+  "dev": "Deep Field Games",
+  "pub": "Playstack",
+  "notes": "",
+  "screenshot": "images/screenshots/abiotic-factor.jpg",
+  "logo": "images/logos/abiotic-factor.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/427410",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

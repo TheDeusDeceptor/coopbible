@@ -1,0 +1,26 @@
+{
+  "id": "medal-of-honor",
+  "name": "Medal of Honor",
+  "logo": "",
+  "main": 102,
+  "extra": 125,
+  "order": [
+    "medal-of-honor-1",
+    "medal-of-honor-underground",
+    "medal-of-honor-allied-assault",
+    "medal-of-honor-frontline",
+    "medal-of-honor-allied-assault-spearhead",
+    "medal-of-honor-allied-assault-breakthrough",
+    "medal-of-honor-rising-sun",
+    "medal-of-honor-infiltrator",
+    "medal-of-honor-pacific-assault",
+    "medal-of-honor-european-assault",
+    "medal-of-honor-heroes",
+    "medal-of-honor-vanguard",
+    "medal-of-honor-airborne",
+    "medal-of-honor-heroes-2",
+    "medal-of-honor-2",
+    "medal-of-honor-warfighter",
+    "medal-of-honor-above-and-beyond"
+  ]
+}

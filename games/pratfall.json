@@ -1,0 +1,32 @@
+{
+  "id": "pratfall",
+  "name": "Pratfall",
+  "year": "2026",
+  "platform": "",
+  "release": "20.04.2026",
+  "size": "1 GB",
+  "hltb": "Main: 5",
+  "dev": "Quad Head",
+  "pub": "Quad Head",
+  "notes": "",
+  "screenshot": "images/screenshots/pratfall.jpg",
+  "logo": "images/logos/pratfall.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4244510",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

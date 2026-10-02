@@ -1,0 +1,26 @@
+{
+  "id": "gears-of-war-2-hollow",
+  "name": "Gears of War 2 (Hollow)",
+  "year": "2008",
+  "platform": "PC",
+  "release": "2008 (2026)",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gears-of-war",
+  "series_status": null,
+  "series_color": null,
+  "series_note": ""
+}

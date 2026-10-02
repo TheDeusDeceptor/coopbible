@@ -1,0 +1,32 @@
+{
+  "id": "party-animals",
+  "name": "Party Animals",
+  "year": "2023",
+  "platform": "",
+  "release": "20.09.2023",
+  "size": "12 GB",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Recreate Games",
+  "pub": "Source Technology",
+  "notes": "",
+  "screenshot": "images/screenshots/party-animals.jpg",
+  "logo": "images/logos/party-animals.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1260320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "xcom-enemy-unknown",
+  "name": "XCOM: Enemy Unknown",
+  "year": "2012",
+  "platform": "",
+  "release": "12.10.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Firaxis Games",
+  "pub": "2K Games",
+  "notes": "",
+  "screenshot": "images/screenshots/xcom-enemy-unknown.jpg",
+  "logo": "images/logos/xcom-enemy-unknown.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

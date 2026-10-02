@@ -1,0 +1,26 @@
+{
+  "id": "prince-of-persia-2",
+  "name": "Prince of Persia",
+  "year": "2008",
+  "platform": "PC",
+  "release": "2008.0",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 14",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "prince-of-persia",
+  "series_status": "rerun",
+  "series_color": "green",
+  "series_note": ""
+}

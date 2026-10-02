@@ -1,0 +1,32 @@
+{
+  "id": "super-crazy-rhythm-castle",
+  "name": "SUPER CRAZY RHYTHM CASTLE",
+  "year": "2023",
+  "platform": "",
+  "release": "13.11.2023",
+  "size": "12 GB",
+  "hltb": "Main: 6, +Extra: 13",
+  "dev": "Second Impact Games",
+  "pub": "KONAMI",
+  "notes": "READY",
+  "screenshot": "images/screenshots/super-crazy-rhythm-castle.jpg",
+  "logo": "images/logos/super-crazy-rhythm-castle.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1812560",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

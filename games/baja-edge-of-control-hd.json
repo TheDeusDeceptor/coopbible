@@ -1,0 +1,26 @@
+{
+  "id": "baja-edge-of-control-hd",
+  "name": "BAJA Edge of Control HD",
+  "year": "2017",
+  "platform": "",
+  "release": "14.09.2017",
+  "size": "5 GB",
+  "hltb": "Main: 21",
+  "dev": "Blitworks",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "screenshot": "images/screenshots/baja-edge-of-control-hd.jpg",
+  "logo": "images/logos/baja-edge-of-control-hd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

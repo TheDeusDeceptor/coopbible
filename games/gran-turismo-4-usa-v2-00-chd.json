@@ -1,0 +1,26 @@
+{
+  "id": "gran-turismo-4-usa-v2-00-chd",
+  "name": "Gran Turismo 4 (USA) (v2.00).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "28.12.2004",
+  "size": "",
+  "hltb": "Main: 73",
+  "dev": "Polyphony Digital",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/gran-turismo-4-usa-v2-00-chd.jpg",
+  "logo": "images/logos/gran-turismo-4-usa-v2-00-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "doom-3",
+  "name": "DOOM 3",
+  "year": "2012",
+  "platform": "",
+  "release": "18.10.2012",
+  "size": "11 GB",
+  "hltb": "Main: 10, +Extra: 16",
+  "dev": "id Software",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "screenshot": "images/screenshots/doom-3.jpg",
+  "logo": "images/logos/doom-3.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/208200",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ashen",
+  "name": "Ashen",
+  "year": "2019",
+  "platform": "",
+  "release": "09.12.2019",
+  "size": "15 GB",
+  "hltb": "Main: 16, +Extra: 20",
+  "dev": "A44",
+  "pub": "Annapurna Interactive",
+  "notes": "READY?\n\n\nmultiplayer avalible \nafter building town(?)",
+  "screenshot": "images/screenshots/ashen.jpg",
+  "logo": "images/logos/ashen.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/649950",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

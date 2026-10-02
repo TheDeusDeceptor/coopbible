@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-crystal",
+  "name": "Pokémon Crystal",
+  "year": "2025",
+  "platform": "GBC",
+  "release": "01.01.2025",
+  "size": "",
+  "hltb": "Main: 29, +Extra: 50",
+  "dev": "DanZC",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/pok-mon-crystal.jpg",
+  "logo": "images/logos/pok-mon-crystal.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "pok-mon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

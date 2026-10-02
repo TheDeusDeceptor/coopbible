@@ -1,0 +1,32 @@
+{
+  "id": "sanctum",
+  "name": "Sanctum",
+  "year": "2011",
+  "platform": "",
+  "release": "15.04.2011",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 18",
+  "dev": "Coffee Stain Studios",
+  "pub": "Coffee Stain Publishing",
+  "notes": "READY",
+  "screenshot": "images/screenshots/sanctum.jpg",
+  "logo": "images/logos/sanctum.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/91600",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

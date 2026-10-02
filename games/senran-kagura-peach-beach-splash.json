@@ -1,0 +1,26 @@
+{
+  "id": "senran-kagura-peach-beach-splash",
+  "name": "Senran Kagura Peach Beach Splash",
+  "year": "2018",
+  "platform": "",
+  "release": "07.03.2018",
+  "size": "22 GB",
+  "hltb": "Main: 13, +Extra: 21",
+  "dev": "Tamsoft",
+  "pub": "Marvelous",
+  "notes": "",
+  "screenshot": "images/screenshots/senran-kagura-peach-beach-splash.jpg",
+  "logo": "images/logos/senran-kagura-peach-beach-splash.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

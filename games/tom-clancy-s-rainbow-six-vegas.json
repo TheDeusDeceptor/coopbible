@@ -1,0 +1,32 @@
+{
+  "id": "tom-clancy-s-rainbow-six-vegas",
+  "name": "Tom Clancy's Rainbow Six® Vegas",
+  "year": "2008",
+  "platform": "",
+  "release": "09.04.2008",
+  "size": "7 GB",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/tom-clancy-s-rainbow-six-vegas.jpg",
+  "logo": "images/logos/tom-clancy-s-rainbow-six-vegas.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/13540",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

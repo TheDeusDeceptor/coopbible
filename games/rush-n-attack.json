@@ -1,0 +1,26 @@
+{
+  "id": "rush-n-attack",
+  "name": "Rush'n Attack",
+  "year": "1985",
+  "platform": "",
+  "release": "04.09.1985",
+  "size": "",
+  "hltb": "",
+  "dev": "Konami",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/rush-n-attack.jpg",
+  "logo": "images/logos/rush-n-attack.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

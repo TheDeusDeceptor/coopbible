@@ -1,0 +1,32 @@
+{
+  "id": "age-of-empires-ii-definitive-edition",
+  "name": "Age of Empires II: Definitive Edition",
+  "year": "2019",
+  "platform": "",
+  "release": "14.11.2019",
+  "size": "15 GB",
+  "hltb": "Main: 43, +Extra: 135",
+  "dev": "World's Edge, Forgotten Empires, CaptureAge, Tantalus Media, Wicked Witch, Feral Interactive",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/age-of-empires-ii-definitive-edition.jpg",
+  "logo": "images/logos/age-of-empires-ii-definitive-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/813780",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

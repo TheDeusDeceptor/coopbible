@@ -1,0 +1,26 @@
+{
+  "id": "armored-core-nexus",
+  "name": "Armored Core: Nexus",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "18.03.2004",
+  "size": "",
+  "hltb": "Main: 8",
+  "dev": "FromSoftware",
+  "pub": "Agetec",
+  "notes": "",
+  "screenshot": "images/screenshots/armored-core-nexus.png",
+  "logo": "images/logos/armored-core-nexus.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "armored-core",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

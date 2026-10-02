@@ -1,0 +1,32 @@
+{
+  "id": "yakuza-0-director-s-cut",
+  "name": "Yakuza 0 Director's Cut",
+  "year": "2025",
+  "platform": "",
+  "release": "08.12.2025",
+  "size": "95 GB",
+  "hltb": "Main: 28, +Extra: 56",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "The Red Light Raid (wave-based enemy survival)",
+  "screenshot": "images/screenshots/yakuza-0-director-s-cut.jpg",
+  "logo": "images/logos/yakuza-0-director-s-cut.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2988580",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kingdom-hearts-iv",
+  "name": "Kingdom Hearts IV",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/kingdom-hearts-iv.jpg",
+  "logo": "images/logos/kingdom-hearts-iv.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "kingdom-hearts",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

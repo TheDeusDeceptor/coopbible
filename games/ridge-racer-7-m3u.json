@@ -1,0 +1,26 @@
+{
+  "id": "ridge-racer-7-m3u",
+  "name": "Ridge Racer 7.m3u",
+  "year": "2006",
+  "platform": "ps3",
+  "release": "11.11.2006",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 15",
+  "dev": "Namco Bandai Games",
+  "pub": "Namco Bandai Games America",
+  "notes": "",
+  "screenshot": "images/screenshots/ridge-racer-7-m3u.jpg",
+  "logo": "images/logos/ridge-racer-7-m3u.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

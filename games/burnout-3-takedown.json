@@ -1,0 +1,26 @@
+{
+  "id": "burnout-3-takedown",
+  "name": "Burnout 3: Takedown",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "07.09.2004",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 24",
+  "dev": "Criterion Software",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout-3-takedown.jpg",
+  "logo": "images/logos/burnout-3-takedown.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "burnout",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

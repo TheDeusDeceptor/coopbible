@@ -1,0 +1,32 @@
+{
+  "id": "tom-clancy-s-splinter-cell-conviction",
+  "name": "Tom Clancy's Splinter Cell Conviction™",
+  "year": "2010",
+  "platform": "",
+  "release": "27.04.2010",
+  "size": "10 GB",
+  "hltb": "Main: 7",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/tom-clancy-s-splinter-cell-conviction.jpg",
+  "logo": "images/logos/tom-clancy-s-splinter-cell-conviction.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/33220",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

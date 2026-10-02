@@ -1,0 +1,26 @@
+{
+  "id": "the-legend-of-zelda-the-wind-waker-hd",
+  "name": "The Legend of Zelda: The Wind Waker HD",
+  "year": "2013",
+  "platform": "Wii U",
+  "release": "20.09.2013",
+  "size": "",
+  "hltb": "Main: 25, +Extra: 33",
+  "dev": "Nintendo EAD",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/the-legend-of-zelda-the-wind-waker-hd.jpg",
+  "logo": "images/logos/the-legend-of-zelda-the-wind-waker-hd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "the-legend-of-zelda",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

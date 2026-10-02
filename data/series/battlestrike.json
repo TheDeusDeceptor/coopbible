@@ -1,0 +1,15 @@
+{
+  "id": "battlestrike",
+  "name": "Battlestrike",
+  "logo": "",
+  "main": 13,
+  "extra": null,
+  "order": [
+    "battlestrike-call-to-victory-world-war-ii-sniper-call-to-victory",
+    "battlestrike-the-road-to-berlin",
+    "battlestrike-the-siege",
+    "battlestrike-secret-weapons-world-war-ii-combat-road-to-berlin",
+    "battlestrike-force-of-resistance-mortyr-iii-akcje-dywersyjne",
+    "battlestrike-shadow-of-stalingrad"
+  ]
+}

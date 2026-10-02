@@ -1,0 +1,26 @@
+{
+  "id": "greedfall-the-dying-world",
+  "name": "GreedFall: The Dying World",
+  "year": "2026",
+  "platform": "PC",
+  "release": "10.03.2026",
+  "size": "",
+  "hltb": "#ERROR!",
+  "dev": "Spiders",
+  "pub": "Nacon",
+  "notes": "",
+  "screenshot": "images/screenshots/greedfall-the-dying-world.jpg",
+  "logo": "images/logos/greedfall-the-dying-world.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "spiders",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "split-second",
+  "name": "Split Second",
+  "year": "2010",
+  "platform": "",
+  "release": "18.05.2010",
+  "size": "6.5 GB",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "Black Rock Studio",
+  "pub": "Disney Interactive Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/split-second.jpg",
+  "logo": "images/logos/split-second.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

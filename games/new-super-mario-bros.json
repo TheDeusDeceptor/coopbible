@@ -1,0 +1,26 @@
+{
+  "id": "new-super-mario-bros",
+  "name": "New Super Mario Bros.",
+  "year": "2006",
+  "platform": "NDS",
+  "release": "15.05.2006",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Nintendo EAD",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/new-super-mario-bros.jpg",
+  "logo": "images/logos/new-super-mario-bros.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "super-mario",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

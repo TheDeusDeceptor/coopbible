@@ -1,0 +1,32 @@
+{
+  "id": "invitation-to-fear",
+  "name": "INVITATION To FEAR",
+  "year": "2021",
+  "platform": "",
+  "release": "24.11.2021",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "CHEST BOX",
+  "pub": "CHEST BOX",
+  "notes": "",
+  "screenshot": "images/screenshots/invitation-to-fear.jpg",
+  "logo": "images/logos/invitation-to-fear.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1802330",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

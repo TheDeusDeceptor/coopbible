@@ -1,0 +1,26 @@
+{
+  "id": "men-in-black-the-game-europe-chd",
+  "name": "Men in Black - The Game (Europe).chd",
+  "year": "1997",
+  "platform": "psx",
+  "release": "01.12.1997",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Gigawatt Studios",
+  "pub": "Gremlin Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/men-in-black-the-game-europe-chd.jpg",
+  "logo": "images/logos/men-in-black-the-game-europe-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

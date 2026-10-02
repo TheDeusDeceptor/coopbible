@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-4-ultimate-hd-edition",
+  "name": "Resident Evil 4 (Ultimate HD Edition)",
+  "year": "2005",
+  "platform": "PC",
+  "release": "2005 (2014)",
+  "size": "",
+  "hltb": "Main: 15, +Extra: 19",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-4-ultimate-hd-edition.jpg",
+  "logo": "images/logos/resident-evil-4-ultimate-hd-edition.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": "green",
+  "series_note": ""
+}

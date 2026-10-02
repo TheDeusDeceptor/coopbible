@@ -1,0 +1,26 @@
+{
+  "id": "medal-of-honor-infiltrator",
+  "name": "Medal of Honor: Infiltrator",
+  "year": "2003",
+  "platform": "GBA",
+  "release": "17.11.2003",
+  "size": "",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "Netherock",
+  "pub": "Electronic Arts",
+  "notes": "Fuck you.",
+  "screenshot": "images/screenshots/medal-of-honor-infiltrator.jpg",
+  "logo": "images/logos/medal-of-honor-infiltrator.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "medal-of-honor",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Fuck you."
+}

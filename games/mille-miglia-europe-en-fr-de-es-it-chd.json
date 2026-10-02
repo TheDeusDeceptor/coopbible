@@ -1,0 +1,26 @@
+{
+  "id": "mille-miglia-europe-en-fr-de-es-it-chd",
+  "name": "Mille Miglia (Europe) (En,Fr,De,Es,It).chd",
+  "year": "2000",
+  "platform": "psx",
+  "release": "10.12.2000",
+  "size": "",
+  "hltb": "",
+  "dev": "Kung Fu Games",
+  "pub": "SCi Games",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/mille-miglia-europe-en-fr-de-es-it-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

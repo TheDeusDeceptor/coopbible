@@ -1,0 +1,26 @@
+{
+  "id": "god-of-war-2005",
+  "name": "God of War",
+  "year": "2005",
+  "platform": "PS2",
+  "release": "2005.0",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "god-of-war",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

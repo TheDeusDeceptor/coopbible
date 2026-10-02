@@ -1,0 +1,14 @@
+{
+  "id": "resistance",
+  "name": "Resistance",
+  "logo": "",
+  "main": 45,
+  "extra": 51,
+  "order": [
+    "resistance-fall-of-man",
+    "resistance-2",
+    "resistance-retribution",
+    "resistance-3",
+    "resistance-burning-skies"
+  ]
+}

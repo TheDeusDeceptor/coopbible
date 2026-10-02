@@ -1,0 +1,32 @@
+{
+  "id": "rogue-heroes-ruins-of-tasos",
+  "name": "Rogue Heroes: Ruins of Tasos",
+  "year": "2021",
+  "platform": "",
+  "release": "23.02.2021",
+  "size": "0.3 GB",
+  "hltb": "Main: 12, +Extra: 19",
+  "dev": "Heliocentric Studios",
+  "pub": "Team17 Digital",
+  "notes": "READY",
+  "screenshot": "images/screenshots/rogue-heroes-ruins-of-tasos.jpg",
+  "logo": "images/logos/rogue-heroes-ruins-of-tasos.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/787810",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

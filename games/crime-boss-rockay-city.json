@@ -1,0 +1,32 @@
+{
+  "id": "crime-boss-rockay-city",
+  "name": "Crime Boss: Rockay City",
+  "year": "2024",
+  "platform": "",
+  "release": "18.06.2024",
+  "size": "90 GB",
+  "hltb": "Main: 12, +Extra: 18",
+  "dev": "INGAME STUDIOS",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/crime-boss-rockay-city.jpg",
+  "logo": "images/logos/crime-boss-rockay-city.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2933080",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

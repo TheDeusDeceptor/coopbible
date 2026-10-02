@@ -1,0 +1,26 @@
+{
+  "id": "dungeon-siege",
+  "name": "Dungeon Siege",
+  "year": "2002",
+  "platform": "PC",
+  "release": "05.04.2002",
+  "size": "",
+  "hltb": "Main: 28",
+  "dev": "Gas Powered Games",
+  "pub": "Microsoft",
+  "notes": "",
+  "screenshot": "images/screenshots/dungeon-siege.jpg",
+  "logo": "images/logos/dungeon-siege.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "dungeon-siege",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

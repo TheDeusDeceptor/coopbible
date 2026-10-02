@@ -1,0 +1,26 @@
+{
+  "id": "x-men-origins-wolverine-usa-en-fr-chd",
+  "name": "X-Men Origins - Wolverine (USA) (En,Fr).chd",
+  "year": "2009",
+  "platform": "ps2",
+  "release": "01.05.2009",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Amaze Entertainment",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/x-men-origins-wolverine-usa-en-fr-chd.jpg",
+  "logo": "images/logos/x-men-origins-wolverine-usa-en-fr-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

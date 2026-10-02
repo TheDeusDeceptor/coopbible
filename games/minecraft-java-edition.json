@@ -1,0 +1,32 @@
+{
+  "id": "minecraft-java-edition",
+  "name": "Minecraft: Java Edition",
+  "year": "2011",
+  "platform": "",
+  "release": "18.09.2011",
+  "size": "1 GB",
+  "hltb": "Main: 134, +Extra: 425",
+  "dev": "Mojang",
+  "pub": "Mojang",
+  "notes": "",
+  "screenshot": "images/screenshots/minecraft-java-edition.jpg",
+  "logo": "images/logos/minecraft-java-edition.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Minecraft:_Java_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-the-mercenaries-3d",
+  "name": "Resident Evil: The Mercenaries 3D",
+  "year": "2011",
+  "platform": "3DS",
+  "release": "02.06.2011",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 24",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-the-mercenaries-3d.jpg",
+  "logo": "images/logos/resident-evil-the-mercenaries-3d.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

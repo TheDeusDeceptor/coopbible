@@ -1,0 +1,12 @@
+{
+  "id": "soldier-of-fortune",
+  "name": "Soldier of Fortune",
+  "logo": "",
+  "main": 20,
+  "extra": 23,
+  "order": [
+    "soldier-of-fortune",
+    "soldier-of-fortune-ii-double-helix",
+    "soldier-of-fortune-payback"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "absolum",
+  "name": "Absolum",
+  "year": "2025",
+  "platform": "",
+  "release": "09.10.2025",
+  "size": "5 GB",
+  "hltb": "Main: 8, +Extra: 15",
+  "dev": "Dotemu, Guard Crush Games, Supamonks",
+  "pub": "Dotemu, Gamirror Games",
+  "notes": "",
+  "screenshot": "images/screenshots/absolum.jpg",
+  "logo": "images/logos/absolum.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1904480",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lords-of-the-fallen-2",
+  "name": "Lords of the Fallen",
+  "year": "2014",
+  "platform": "PC",
+  "release": "2014.0",
+  "size": "",
+  "hltb": "Main: 15, +Extra: 21",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "deck-13",
+  "series_status": "done",
+  "series_color": "blue",
+  "series_note": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "metal-gear-solid-twin-snakes-m3u",
+  "name": "metal gear solid twin snakes.m3u",
+  "year": "",
+  "platform": "gamecube",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

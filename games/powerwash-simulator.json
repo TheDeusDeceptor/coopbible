@@ -1,0 +1,32 @@
+{
+  "id": "powerwash-simulator",
+  "name": "PowerWash Simulator",
+  "year": "2022",
+  "platform": "",
+  "release": "14.07.2022",
+  "size": "6 GB",
+  "hltb": "Main: 39, +Extra: 51",
+  "dev": "FuturLab",
+  "pub": "Square Enix",
+  "notes": "READY",
+  "screenshot": "images/screenshots/powerwash-simulator.jpg",
+  "logo": "images/logos/powerwash-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1290000",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

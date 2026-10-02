@@ -1,0 +1,32 @@
+{
+  "id": "teenage-mutant-ninja-turtles-out-of-the-shadows",
+  "name": "Teenage Mutant Ninja Turtles™: Out of the Shadows",
+  "year": "2013",
+  "platform": "",
+  "release": "28.08.2013",
+  "size": "5 GB",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Red Fly Studio",
+  "pub": "Activision",
+  "notes": "READY?",
+  "screenshot": "images/screenshots/teenage-mutant-ninja-turtles-out-of-the-shadows.jpg",
+  "logo": "images/logos/teenage-mutant-ninja-turtles-out-of-the-shadows.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/228560",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

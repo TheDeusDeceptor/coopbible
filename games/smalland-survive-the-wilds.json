@@ -1,0 +1,32 @@
+{
+  "id": "smalland-survive-the-wilds",
+  "name": "Smalland: Survive the Wilds",
+  "year": "2024",
+  "platform": "",
+  "release": "15.02.2024",
+  "size": "20 GB",
+  "hltb": "Main: 30, +Extra: 36",
+  "dev": "Merge Games",
+  "pub": "Maximum Entertainment",
+  "notes": "updates occasionally",
+  "screenshot": "images/screenshots/smalland-survive-the-wilds.jpg",
+  "logo": "images/logos/smalland-survive-the-wilds.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/768200",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

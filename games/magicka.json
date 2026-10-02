@@ -1,0 +1,32 @@
+{
+  "id": "magicka",
+  "name": "Magicka",
+  "year": "2011",
+  "platform": "",
+  "release": "25.01.2011",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 16",
+  "dev": "Arrowhead Game Studios",
+  "pub": "Paradox Interactive",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/magicka.jpg",
+  "logo": "images/logos/magicka.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/42910",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

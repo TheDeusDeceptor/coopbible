@@ -1,0 +1,26 @@
+{
+  "id": "colin-mcrae-rally",
+  "name": "Colin McRae Rally",
+  "year": "2001",
+  "platform": "",
+  "release": "21.09.2001",
+  "size": "",
+  "hltb": "",
+  "dev": "Spellbound Interactive",
+  "pub": "THQ",
+  "notes": "",
+  "screenshot": "images/screenshots/colin-mcrae-rally.jpg",
+  "logo": "images/logos/colin-mcrae-rally.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

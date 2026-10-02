@@ -1,0 +1,32 @@
+{
+  "id": "blind-descent",
+  "name": "Blind Descent",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Pokuch",
+  "pub": "META Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/blind-descent.jpg",
+  "logo": "images/logos/blind-descent.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1209970/Blind_Descent/",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kingdom-hearts-0-2-birth-by-sleep-a-fragmentary-passage",
+  "name": "Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage",
+  "year": "2017",
+  "platform": "PC",
+  "release": "2017 (2021)",
+  "size": "",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/kingdom-hearts-0-2-birth-by-sleep-a-fragmentary-passage.jpg",
+  "logo": "images/logos/kingdom-hearts-0-2-birth-by-sleep-a-fragmentary-passage.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "kingdom-hearts",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

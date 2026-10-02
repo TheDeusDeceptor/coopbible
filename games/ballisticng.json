@@ -1,0 +1,26 @@
+{
+  "id": "ballisticng",
+  "name": "BallisticNG",
+  "year": "2018",
+  "platform": "",
+  "release": "14.12.2018",
+  "size": "3 GB",
+  "hltb": "Main: 25, +Extra: 32",
+  "dev": "Neognosis",
+  "pub": "Neognosis",
+  "notes": "",
+  "screenshot": "images/screenshots/ballisticng.jpg",
+  "logo": "images/logos/ballisticng.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

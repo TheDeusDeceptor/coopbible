@@ -1,0 +1,26 @@
+{
+  "id": "3d-grand-prix-1985-amsoft-dsk-p2k-cfg",
+  "name": "3D Grand Prix (1985)(Amsoft).dsk.p2k.cfg",
+  "year": "",
+  "platform": "amstradcpc",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

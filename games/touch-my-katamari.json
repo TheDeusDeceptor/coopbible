@@ -1,0 +1,26 @@
+{
+  "id": "touch-my-katamari",
+  "name": "Touch My Katamari",
+  "year": "2012",
+  "platform": "PSVita",
+  "release": "21.02.2012",
+  "size": "",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "Bandai Namco Games",
+  "pub": "Bandai Namco Games",
+  "notes": "",
+  "screenshot": "images/screenshots/touch-my-katamari.jpg",
+  "logo": "images/logos/touch-my-katamari.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "katamari-damacy",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

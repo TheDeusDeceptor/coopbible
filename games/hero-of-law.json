@@ -1,0 +1,26 @@
+{
+  "id": "hero-of-law",
+  "name": "Hero of Law",
+  "year": "2025",
+  "platform": "",
+  "release": "28.06.2025",
+  "size": "",
+  "hltb": "",
+  "dev": "Newer Team",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/hero-of-law.jpg",
+  "logo": "images/logos/hero-of-law.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "metro-2033-redux",
+  "name": "Metro 2033 Redux",
+  "year": "2020",
+  "platform": "",
+  "release": "28.02.2020",
+  "size": "",
+  "hltb": "",
+  "dev": "4A Games",
+  "pub": "Koch Media",
+  "notes": "",
+  "screenshot": "images/screenshots/metro-2033-redux.jpg",
+  "logo": "images/logos/metro-2033-redux.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "usac-code-breach",
+  "name": "USAC: Code Breach",
+  "year": "2022",
+  "platform": "",
+  "release": "26.10.2022",
+  "size": "5 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Questions Factory",
+  "pub": "Questions Factory",
+  "notes": "previously known as Bonding Ambivalence",
+  "screenshot": "images/screenshots/usac-code-breach.jpg",
+  "logo": "images/logos/usac-code-breach.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1886070",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

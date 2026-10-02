@@ -1,0 +1,13 @@
+{
+  "id": "no-more-heroes",
+  "name": "No More Heroes",
+  "logo": "",
+  "main": 40,
+  "extra": 50,
+  "order": [
+    "no-more-heroes",
+    "no-more-heroes-2-desperate-struggle",
+    "travis-strikes-again-no-more-heroes",
+    "no-more-heroes-iii"
+  ]
+}

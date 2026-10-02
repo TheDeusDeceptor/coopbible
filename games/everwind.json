@@ -1,0 +1,32 @@
+{
+  "id": "everwind",
+  "name": "Everwind",
+  "year": "2026",
+  "platform": "",
+  "release": "17.03.2026",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Enjoy Studio S.A.",
+  "pub": "Bohemia Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/everwind.jpg",
+  "logo": "images/logos/everwind.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2253100",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

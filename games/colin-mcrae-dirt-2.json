@@ -1,0 +1,26 @@
+{
+  "id": "colin-mcrae-dirt-2",
+  "name": "Colin McRae DiRT 2",
+  "year": "2009",
+  "platform": "",
+  "release": "03.12.2009",
+  "size": "",
+  "hltb": "Main: 14, +Extra: 21",
+  "dev": "Codemasters Software",
+  "pub": "Codemasters Software",
+  "notes": "",
+  "screenshot": "images/screenshots/colin-mcrae-dirt-2.jpg",
+  "logo": "images/logos/colin-mcrae-dirt-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

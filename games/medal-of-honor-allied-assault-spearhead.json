@@ -1,0 +1,26 @@
+{
+  "id": "medal-of-honor-allied-assault-spearhead",
+  "name": "Medal of Honor: Allied Assault Spearhead",
+  "year": "2002",
+  "platform": "PC",
+  "release": "2002.0",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "Electronic Arts Los Angeles",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/medal-of-honor-allied-assault-spearhead.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "medal-of-honor",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

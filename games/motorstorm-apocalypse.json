@@ -1,0 +1,26 @@
+{
+  "id": "motorstorm-apocalypse",
+  "name": "MotorStorm: Apocalypse",
+  "year": "2011",
+  "platform": "PS3",
+  "release": "17.03.2011",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Evolution Studios",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/motorstorm-apocalypse.jpg",
+  "logo": "images/logos/motorstorm-apocalypse.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "motorstorm",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

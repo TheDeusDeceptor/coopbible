@@ -1,0 +1,26 @@
+{
+  "id": "terminator-3-the-redemption-usa-chd",
+  "name": "Terminator 3 - The Redemption (USA).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "09.09.2004",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Paradigm Entertainment",
+  "pub": "Atari",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/terminator-3-the-redemption-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

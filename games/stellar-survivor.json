@@ -1,0 +1,32 @@
+{
+  "id": "stellar-survivor",
+  "name": "Stellar Survivor",
+  "year": "2019",
+  "platform": "",
+  "release": "20.06.2019",
+  "size": "3.4 GB",
+  "hltb": "",
+  "dev": "Sticks & Stones",
+  "pub": "Sticks & Stones, Breda University of Applied Sciences",
+  "notes": "",
+  "screenshot": "images/screenshots/stellar-survivor.jpg",
+  "logo": "images/logos/stellar-survivor.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1032120",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

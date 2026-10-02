@@ -1,0 +1,26 @@
+{
+  "id": "zelda-64-recompiled-the-legend-of-zelda-ocarina-of-time",
+  "name": "Zelda 64: Recompiled (The Legend of Zelda: Ocarina of Time)",
+  "year": "1998",
+  "platform": "3DS",
+  "release": "1998 (2011)",
+  "size": "",
+  "hltb": "Main: 25, +Extra: 31",
+  "dev": "",
+  "pub": "",
+  "notes": "Unreleased yet. Ship of Harkinian may serve as alternetive.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "the-legend-of-zelda",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Unreleased yet. Ship of Harkinian may serve as alternetive."
+}

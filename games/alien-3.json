@@ -1,0 +1,26 @@
+{
+  "id": "alien-3",
+  "name": "Alien 3",
+  "year": "1992",
+  "platform": "",
+  "release": "01.01.1992",
+  "size": "",
+  "hltb": "",
+  "dev": "Probe Software",
+  "pub": "Acclaim Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/alien-3.jpg",
+  "logo": "images/logos/alien-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

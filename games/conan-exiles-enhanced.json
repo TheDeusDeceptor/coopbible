@@ -1,0 +1,32 @@
+{
+  "id": "conan-exiles-enhanced",
+  "name": "Conan Exiles Enhanced",
+  "year": "2018",
+  "platform": "",
+  "release": "08.05.2018",
+  "size": "115 GB",
+  "hltb": "Main: 40, +Extra: 116",
+  "dev": "Funcom, Inflexion Games",
+  "pub": "Funcom",
+  "notes": "+ Isle of Siptah",
+  "screenshot": "images/screenshots/conan-exiles-enhanced.jpg",
+  "logo": "images/logos/conan-exiles-enhanced.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/440900",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

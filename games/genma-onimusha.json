@@ -1,0 +1,26 @@
+{
+  "id": "genma-onimusha",
+  "name": "Genma Onimusha",
+  "year": "2002",
+  "platform": "XBOX",
+  "release": "30.01.2002",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Capcom Production Studio 2",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/genma-onimusha.jpg",
+  "logo": "images/logos/genma-onimusha.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "onimusha",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

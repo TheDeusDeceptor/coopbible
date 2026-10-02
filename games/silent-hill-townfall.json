@@ -1,0 +1,26 @@
+{
+  "id": "silent-hill-townfall",
+  "name": "Silent Hill: Townfall",
+  "year": "2026",
+  "platform": "PC",
+  "release": "2026.0",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-hill-townfall.jpg",
+  "logo": "images/logos/silent-hill-townfall.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "silent-hill",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

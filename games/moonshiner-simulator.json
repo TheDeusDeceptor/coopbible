@@ -1,0 +1,32 @@
+{
+  "id": "moonshiner-simulator",
+  "name": "Moonshiner Simulator",
+  "year": "2026",
+  "platform": "",
+  "release": "20.05.2026",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "Goosix Games",
+  "pub": "Goosix Games",
+  "notes": "",
+  "screenshot": "images/screenshots/moonshiner-simulator.jpg",
+  "logo": "images/logos/moonshiner-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4179280",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "germs-nerawareta-machi-english-v1-2-chd",
+  "name": "Germs - Nerawareta Machi (English v1.2).CHD",
+  "year": "1999",
+  "platform": "psx",
+  "release": "22.07.1999",
+  "size": "",
+  "hltb": "Sides: 9",
+  "dev": "KAJ",
+  "pub": "KAJ",
+  "notes": "",
+  "screenshot": "images/screenshots/germs-nerawareta-machi-english-v1-2-chd.jpg",
+  "logo": "images/logos/germs-nerawareta-machi-english-v1-2-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

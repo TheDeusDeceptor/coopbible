@@ -1,0 +1,20 @@
+{
+  "id": "grasshopper-manufacture",
+  "name": "Grasshopper Manufacture",
+  "logo": "",
+  "main": 175,
+  "extra": 369,
+  "order": [
+    "the-silver-case",
+    "flower-sun-and-rain",
+    "michigan-report-from-hell",
+    "killer7",
+    "the-25th-ward-the-silver-case",
+    "samurai-champloo-sidetracked",
+    "shadows-of-the-damned-hella-remastered",
+    "lollipop-chainsaw-repop",
+    "killer-is-dead",
+    "let-it-die",
+    "romeo-is-a-dead-man"
+  ]
+}

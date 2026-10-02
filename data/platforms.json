@@ -1,0 +1,462 @@
+{
+  "3DS": {
+    "icon": "3DS.png",
+    "label": "3DS"
+  },
+  "3do": {
+    "icon": "3do.png",
+    "label": "3do"
+  },
+  "3ds": {
+    "icon": "3ds.png",
+    "label": "3ds"
+  },
+  "Android": {
+    "icon": "Android.png",
+    "label": "Android"
+  },
+  "Arcade": {
+    "icon": "Arcade.png",
+    "label": "Arcade"
+  },
+  "DS": {
+    "icon": "DS.png",
+    "label": "DS"
+  },
+  "Dreamcast": {
+    "icon": "Dreamcast.png",
+    "label": "Dreamcast"
+  },
+  "GBA": {
+    "icon": "GBA.png",
+    "label": "GBA"
+  },
+  "GBC": {
+    "icon": "GBC.png",
+    "label": "GBC"
+  },
+  "GC": {
+    "icon": "GC.png",
+    "label": "GC"
+  },
+  "Java": {
+    "icon": "Java.png",
+    "label": "Java"
+  },
+  "N-Gage": {
+    "icon": "N-Gage.png",
+    "label": "N-Gage"
+  },
+  "N64": {
+    "icon": "N64.png",
+    "label": "N64"
+  },
+  "NDS": {
+    "icon": "NDS.png",
+    "label": "NDS"
+  },
+  "PC": {
+    "icon": "PC.png",
+    "label": "PC"
+  },
+  "PC or Arcade": {
+    "icon": "PC or Arcade.png",
+    "label": "PC or Arcade"
+  },
+  "PC or DC": {
+    "icon": "PC or DC.png",
+    "label": "PC or DC"
+  },
+  "PC-VR": {
+    "icon": "PC-VR.png",
+    "label": "PC-VR"
+  },
+  "PS2": {
+    "icon": "PS2.png",
+    "label": "PS2"
+  },
+  "PS2 (PSP)": {
+    "icon": "PS2 (PSP).png",
+    "label": "PS2 (PSP)"
+  },
+  "PS2 or PS4": {
+    "icon": "PS2 or PS4.png",
+    "label": "PS2 or PS4"
+  },
+  "PS3": {
+    "icon": "PS3.png",
+    "label": "PS3"
+  },
+  "PS3 or PC": {
+    "icon": "PS3 or PC.png",
+    "label": "PS3 or PC"
+  },
+  "PS3 or X360": {
+    "icon": "PS3 or X360.png",
+    "label": "PS3 or X360"
+  },
+  "PS4": {
+    "icon": "PS4.png",
+    "label": "PS4"
+  },
+  "PS4 or PSVita": {
+    "icon": "PS4 or PSVita.png",
+    "label": "PS4 or PSVita"
+  },
+  "PS5": {
+    "icon": "PS5.png",
+    "label": "PS5"
+  },
+  "PSP": {
+    "icon": "PSP.png",
+    "label": "PSP"
+  },
+  "PSVita": {
+    "icon": "PSVita.png",
+    "label": "PSVita"
+  },
+  "PSX": {
+    "icon": "PSX.png",
+    "label": "PSX"
+  },
+  "Switch": {
+    "icon": "Switch.png",
+    "label": "Switch"
+  },
+  "Wii": {
+    "icon": "Wii.png",
+    "label": "Wii"
+  },
+  "Wii U": {
+    "icon": "Wii U.png",
+    "label": "Wii U"
+  },
+  "Wii or PSP": {
+    "icon": "Wii or PSP.png",
+    "label": "Wii or PSP"
+  },
+  "X360": {
+    "icon": "X360.png",
+    "label": "X360"
+  },
+  "X360 or PC": {
+    "icon": "X360 or PC.png",
+    "label": "X360 or PC"
+  },
+  "X360 or PS3": {
+    "icon": "X360 or PS3.png",
+    "label": "X360 or PS3"
+  },
+  "XBOX": {
+    "icon": "XBOX.png",
+    "label": "XBOX"
+  },
+  "YOUTUBE": {
+    "icon": "YOUTUBE.png",
+    "label": "YOUTUBE"
+  },
+  "amigacd32": {
+    "icon": "amigacd32.png",
+    "label": "amigacd32"
+  },
+  "amigacdtv": {
+    "icon": "amigacdtv.png",
+    "label": "amigacdtv"
+  },
+  "amstradcpc": {
+    "icon": "amstradcpc.png",
+    "label": "amstradcpc"
+  },
+  "atari2600": {
+    "icon": "atari2600.png",
+    "label": "atari2600"
+  },
+  "atari5200": {
+    "icon": "atari5200.png",
+    "label": "atari5200"
+  },
+  "atari7800": {
+    "icon": "atari7800.png",
+    "label": "atari7800"
+  },
+  "atomiswave": {
+    "icon": "atomiswave.png",
+    "label": "atomiswave"
+  },
+  "cdi": {
+    "icon": "cdi.png",
+    "label": "cdi"
+  },
+  "channelf": {
+    "icon": "channelf.png",
+    "label": "channelf"
+  },
+  "colecovision": {
+    "icon": "colecovision.png",
+    "label": "colecovision"
+  },
+  "cps1": {
+    "icon": "cps1.png",
+    "label": "cps1"
+  },
+  "cps2": {
+    "icon": "cps2.png",
+    "label": "cps2"
+  },
+  "cps3": {
+    "icon": "cps3.png",
+    "label": "cps3"
+  },
+  "dreamcast": {
+    "icon": "dreamcast.png",
+    "label": "dreamcast"
+  },
+  "fds": {
+    "icon": "fds.png",
+    "label": "fds"
+  },
+  "gamecube": {
+    "icon": "gamecube.png",
+    "label": "gamecube"
+  },
+  "gamegear": {
+    "icon": "gamegear.png",
+    "label": "gamegear"
+  },
+  "gb": {
+    "icon": "gb.png",
+    "label": "gb"
+  },
+  "gba": {
+    "icon": "gba.png",
+    "label": "gba"
+  },
+  "gbc": {
+    "icon": "gbc.png",
+    "label": "gbc"
+  },
+  "gx4000": {
+    "icon": "gx4000.png",
+    "label": "gx4000"
+  },
+  "hikaru": {
+    "icon": "hikaru.png",
+    "label": "hikaru"
+  },
+  "iOS": {
+    "icon": "iOS.png",
+    "label": "iOS"
+  },
+  "intellivision": {
+    "icon": "intellivision.png",
+    "label": "intellivision"
+  },
+  "jaguar": {
+    "icon": "jaguar.png",
+    "label": "jaguar"
+  },
+  "jaguarcd": {
+    "icon": "jaguarcd.png",
+    "label": "jaguarcd"
+  },
+  "lynx": {
+    "icon": "lynx.png",
+    "label": "lynx"
+  },
+  "mastersystem": {
+    "icon": "mastersystem.png",
+    "label": "mastersystem"
+  },
+  "megacd": {
+    "icon": "megacd.png",
+    "label": "megacd"
+  },
+  "megadrive": {
+    "icon": "megadrive.png",
+    "label": "megadrive"
+  },
+  "megaduck": {
+    "icon": "megaduck.png",
+    "label": "megaduck"
+  },
+  "model2": {
+    "icon": "model2.png",
+    "label": "model2"
+  },
+  "model3": {
+    "icon": "model3.png",
+    "label": "model3"
+  },
+  "n64": {
+    "icon": "n64.png",
+    "label": "n64"
+  },
+  "n64dd": {
+    "icon": "n64dd.png",
+    "label": "n64dd"
+  },
+  "namco2x6": {
+    "icon": "namco2x6.png",
+    "label": "namco2x6"
+  },
+  "naomi": {
+    "icon": "naomi.png",
+    "label": "naomi"
+  },
+  "nds": {
+    "icon": "nds.png",
+    "label": "nds"
+  },
+  "neogeo": {
+    "icon": "neogeo.png",
+    "label": "neogeo"
+  },
+  "neogeo64": {
+    "icon": "neogeo64.png",
+    "label": "neogeo64"
+  },
+  "neogeocd": {
+    "icon": "neogeocd.png",
+    "label": "neogeocd"
+  },
+  "nes": {
+    "icon": "nes.png",
+    "label": "nes"
+  },
+  "ngp": {
+    "icon": "ngp.png",
+    "label": "ngp"
+  },
+  "ngpc": {
+    "icon": "ngpc.png",
+    "label": "ngpc"
+  },
+  "o2em": {
+    "icon": "o2em.png",
+    "label": "o2em"
+  },
+  "pc98": {
+    "icon": "pc98.png",
+    "label": "pc98"
+  },
+  "pcengine": {
+    "icon": "pcengine.png",
+    "label": "pcengine"
+  },
+  "pcenginecd": {
+    "icon": "pcenginecd.png",
+    "label": "pcenginecd"
+  },
+  "pcfx": {
+    "icon": "pcfx.png",
+    "label": "pcfx"
+  },
+  "pokemini": {
+    "icon": "pokemini.png",
+    "label": "pokemini"
+  },
+  "ps2": {
+    "icon": "ps2.png",
+    "label": "ps2"
+  },
+  "ps3": {
+    "icon": "ps3.png",
+    "label": "ps3"
+  },
+  "ps4": {
+    "icon": "ps4.png",
+    "label": "ps4"
+  },
+  "psp": {
+    "icon": "psp.png",
+    "label": "psp"
+  },
+  "psx": {
+    "icon": "psx.png",
+    "label": "psx"
+  },
+  "saturn": {
+    "icon": "saturn.png",
+    "label": "saturn"
+  },
+  "scv": {
+    "icon": "scv.png",
+    "label": "scv"
+  },
+  "sega32x": {
+    "icon": "sega32x.png",
+    "label": "sega32x"
+  },
+  "segastv": {
+    "icon": "segastv.png",
+    "label": "segastv"
+  },
+  "sg1000": {
+    "icon": "sg1000.png",
+    "label": "sg1000"
+  },
+  "snes": {
+    "icon": "snes.png",
+    "label": "snes"
+  },
+  "sufami": {
+    "icon": "sufami.png",
+    "label": "sufami"
+  },
+  "supergrafx": {
+    "icon": "supergrafx.png",
+    "label": "supergrafx"
+  },
+  "supervision": {
+    "icon": "supervision.png",
+    "label": "supervision"
+  },
+  "switch": {
+    "icon": "switch.png",
+    "label": "switch"
+  },
+  "teknoparrot": {
+    "icon": "teknoparrot.png",
+    "label": "teknoparrot"
+  },
+  "triforce": {
+    "icon": "triforce.png",
+    "label": "triforce"
+  },
+  "vectrex": {
+    "icon": "vectrex.png",
+    "label": "vectrex"
+  },
+  "virtualboy": {
+    "icon": "virtualboy.png",
+    "label": "virtualboy"
+  },
+  "wii": {
+    "icon": "wii.png",
+    "label": "wii"
+  },
+  "wiiu": {
+    "icon": "wiiu.png",
+    "label": "wiiu"
+  },
+  "wswan": {
+    "icon": "wswan.png",
+    "label": "wswan"
+  },
+  "wswanc": {
+    "icon": "wswanc.png",
+    "label": "wswanc"
+  },
+  "xbox": {
+    "icon": "xbox.png",
+    "label": "xbox"
+  },
+  "xbox360": {
+    "icon": "xbox360.png",
+    "label": "xbox360"
+  },
+  "xegs": {
+    "icon": "xegs.png",
+    "label": "xegs"
+  }
+}

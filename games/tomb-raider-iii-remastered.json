@@ -1,0 +1,26 @@
+{
+  "id": "tomb-raider-iii-remastered",
+  "name": "Tomb Raider III (Remastered)",
+  "year": "1998",
+  "platform": "PC",
+  "release": "1998 (2024)",
+  "size": "",
+  "hltb": "Main: 38, +Extra: 69",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/tomb-raider-iii-remastered.jpg",
+  "logo": "images/logos/tomb-raider-iii-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tomb-raider",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

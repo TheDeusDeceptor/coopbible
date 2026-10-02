@@ -1,0 +1,26 @@
+{
+  "id": "tenchu-time-of-the-assassins",
+  "name": "Tenchu: Time of the Assassins",
+  "year": "2005",
+  "platform": "PSP",
+  "release": "28.07.2005",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 17",
+  "dev": "K2 (Japan)",
+  "pub": "FromSoftware",
+  "notes": "",
+  "screenshot": "images/screenshots/tenchu-time-of-the-assassins.jpg",
+  "logo": "images/logos/tenchu-time-of-the-assassins.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tenchu",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

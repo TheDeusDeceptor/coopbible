@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-finest-hour",
+  "name": "Call of Duty: Finest Hour",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "16.11.2004",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Spark Unlimited",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-finest-hour.jpg",
+  "logo": "images/logos/call-of-duty-finest-hour.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

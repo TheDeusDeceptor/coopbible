@@ -1,0 +1,26 @@
+{
+  "id": "crysis-2-remastered",
+  "name": "Crysis 2 Remastered",
+  "year": "2021",
+  "platform": "",
+  "release": "15.10.2021",
+  "size": "",
+  "hltb": "",
+  "dev": "Crytek",
+  "pub": "Crytek",
+  "notes": "",
+  "screenshot": "images/screenshots/crysis-2-remastered.jpg",
+  "logo": "images/logos/crysis-2-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ship-graveyard-simulator-2",
+  "name": "Ship Graveyard Simulator 2",
+  "year": "2023",
+  "platform": "",
+  "release": "16.08.2023",
+  "size": "8 GB",
+  "hltb": "Main: 32, +Extra: 61",
+  "dev": "Games Incubator, Hypnotic Ants",
+  "pub": "Games Incubator, PlayWay S.A.",
+  "notes": "",
+  "screenshot": "images/screenshots/ship-graveyard-simulator-2.jpg",
+  "logo": "images/logos/ship-graveyard-simulator-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2201940",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "wet",
+  "name": "Wet",
+  "year": "2009",
+  "platform": "",
+  "release": "15.09.2009",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "Artificial Mind & Movement",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "screenshot": "images/screenshots/wet.jpg",
+  "logo": "images/logos/wet.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

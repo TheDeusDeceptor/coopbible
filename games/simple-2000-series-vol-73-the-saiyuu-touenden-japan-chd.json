@@ -1,0 +1,26 @@
+{
+  "id": "simple-2000-series-vol-73-the-saiyuu-touenden-japan-chd",
+  "name": "Simple 2000 Series Vol. 73 - The Saiyuu Touenden (Japan).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "17.03.2005",
+  "size": "",
+  "hltb": "",
+  "dev": "Tamsoft",
+  "pub": "D3Publisher",
+  "notes": "",
+  "screenshot": "images/screenshots/simple-2000-series-vol-73-the-saiyuu-touenden-japan-chd.jpg",
+  "logo": "images/logos/simple-2000-series-vol-73-the-saiyuu-touenden-japan-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

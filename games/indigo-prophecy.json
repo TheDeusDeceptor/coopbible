@@ -1,0 +1,26 @@
+{
+  "id": "indigo-prophecy",
+  "name": "Indigo Prophecy",
+  "year": "2005",
+  "platform": "",
+  "release": "20.09.2005",
+  "size": "",
+  "hltb": "",
+  "dev": "Quantic Dream",
+  "pub": "Atari",
+  "notes": "",
+  "screenshot": "images/screenshots/indigo-prophecy.jpg",
+  "logo": "images/logos/indigo-prophecy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

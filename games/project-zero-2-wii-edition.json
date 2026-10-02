@@ -1,0 +1,26 @@
+{
+  "id": "project-zero-2-wii-edition",
+  "name": "Project Zero 2: Wii Edition",
+  "year": "2012",
+  "platform": "Wii",
+  "release": "28.06.2012",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Koei Tecmo Games",
+  "pub": "Nintendo",
+  "notes": "Optional.",
+  "screenshot": "images/screenshots/project-zero-2-wii-edition.jpg",
+  "logo": "images/logos/project-zero-2-wii-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "fatal-frame",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Optional."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "assassin-s-creed-revelations",
+  "name": "Assassin's Creed Revelations",
+  "year": "2011",
+  "platform": "",
+  "release": "15.11.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/assassin-s-creed-revelations.jpg",
+  "logo": "images/logos/assassin-s-creed-revelations.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

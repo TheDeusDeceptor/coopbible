@@ -1,0 +1,26 @@
+{
+  "id": "metal-gear-rising-revengeance",
+  "name": "Metal Gear Rising: Revengeance",
+  "year": "2013",
+  "platform": "PC",
+  "release": "19.02.2013",
+  "size": "25 GB",
+  "hltb": "Main: 7, +Extra: 12",
+  "dev": "Kojima Productions",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/metal-gear-rising-revengeance.jpg",
+  "logo": "images/logos/metal-gear-rising-revengeance.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metal-gear-solid",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

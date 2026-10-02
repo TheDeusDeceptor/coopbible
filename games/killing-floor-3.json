@@ -1,0 +1,32 @@
+{
+  "id": "killing-floor-3",
+  "name": "Killing Floor 3",
+  "year": "2025",
+  "platform": "",
+  "release": "24.07.2025",
+  "size": "30 GB",
+  "hltb": "Main: 9, +Extra: 24",
+  "dev": "Tripwire Interactive",
+  "pub": "Tripwire Interactive",
+  "notes": "Developer server authorization required",
+  "screenshot": "images/screenshots/killing-floor-3.jpg",
+  "logo": "images/logos/killing-floor-3.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1430190",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

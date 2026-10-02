@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-hot-pursuit",
+  "name": "Need for Speed: Hot Pursuit",
+  "year": "2010",
+  "platform": "",
+  "release": "10.11.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Criterion Software",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-hot-pursuit.jpg",
+  "logo": "images/logos/need-for-speed-hot-pursuit.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

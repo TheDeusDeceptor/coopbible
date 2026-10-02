@@ -1,0 +1,26 @@
+{
+  "id": "crash-of-the-titans",
+  "name": "Crash of the Titans",
+  "year": "2007",
+  "platform": "X360",
+  "release": "02.10.2007",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "Radical Entertainment",
+  "pub": "Sierra Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/crash-of-the-titans.jpg",
+  "logo": "images/logos/crash-of-the-titans.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "crash-bandicoot",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

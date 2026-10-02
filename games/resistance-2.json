@@ -1,0 +1,26 @@
+{
+  "id": "resistance-2",
+  "name": "Resistance 2",
+  "year": "2008",
+  "platform": "PS3",
+  "release": "04.11.2008",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Insomniac Games",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/resistance-2.jpg",
+  "logo": "images/logos/resistance-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resistance",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

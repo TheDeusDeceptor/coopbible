@@ -1,0 +1,26 @@
+{
+  "id": "cold-winter-usa-chd",
+  "name": "Cold Winter (USA).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "10.05.2005",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Swordfish Studios",
+  "pub": "Sierra Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/cold-winter-usa-chd.jpg",
+  "logo": "images/logos/cold-winter-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

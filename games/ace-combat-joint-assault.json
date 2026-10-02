@@ -1,0 +1,26 @@
+{
+  "id": "ace-combat-joint-assault",
+  "name": "Ace Combat: Joint Assault",
+  "year": "2010",
+  "platform": "PSP",
+  "release": "26.08.2010",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Access Games",
+  "pub": "Namco Bandai Games America",
+  "notes": "",
+  "screenshot": "images/screenshots/ace-combat-joint-assault.jpg",
+  "logo": "images/logos/ace-combat-joint-assault.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-combat",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

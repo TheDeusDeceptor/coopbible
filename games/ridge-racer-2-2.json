@@ -1,0 +1,26 @@
+{
+  "id": "ridge-racer-2-2",
+  "name": "Ridge Racer 2",
+  "year": "1994",
+  "platform": "Arcade",
+  "release": "01.01.1994",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 15",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/ridge-racer-2-2.jpg",
+  "logo": "images/logos/ridge-racer-2-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ridge-racer",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

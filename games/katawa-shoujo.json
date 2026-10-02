@@ -1,0 +1,26 @@
+{
+  "id": "katawa-shoujo",
+  "name": "Katawa Shoujo",
+  "year": "2012",
+  "platform": "",
+  "release": "04.01.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Four Leaf Studios",
+  "pub": "Four Leaf Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/katawa-shoujo.jpg",
+  "logo": "images/logos/katawa-shoujo.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

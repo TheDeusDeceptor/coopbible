@@ -1,0 +1,26 @@
+{
+  "id": "metal-gear-solid-master-collection",
+  "name": "Metal Gear Solid (Master Collection)",
+  "year": "2000",
+  "platform": "PC",
+  "release": "24.04.2000",
+  "size": "",
+  "hltb": "Main: 41, +Extra: 44",
+  "dev": "TOSE",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/metal-gear-solid-master-collection.jpg",
+  "logo": "images/logos/metal-gear-solid-master-collection.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metal-gear-solid",
+  "series_status": "rerun",
+  "series_color": null,
+  "series_note": null
+}

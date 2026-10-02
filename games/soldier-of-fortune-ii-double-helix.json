@@ -1,0 +1,26 @@
+{
+  "id": "soldier-of-fortune-ii-double-helix",
+  "name": "Soldier of Fortune II: Double Helix",
+  "year": "2003",
+  "platform": "PC",
+  "release": "18.06.2003",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "Raven Software",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/soldier-of-fortune-ii-double-helix.jpg",
+  "logo": "images/logos/soldier-of-fortune-ii-double-helix.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "soldier-of-fortune",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

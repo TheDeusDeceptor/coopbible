@@ -1,0 +1,32 @@
+{
+  "id": "helldivers-2",
+  "name": "HELLDIVERS™ 2",
+  "year": "2024",
+  "platform": "",
+  "release": "08.02.2024",
+  "size": "40 GB",
+  "hltb": "Main: 32, +Extra: 65",
+  "dev": "Arrowhead Game Studios",
+  "pub": "PlayStation Publishing LLC",
+  "notes": "",
+  "screenshot": "images/screenshots/helldivers-2.jpg",
+  "logo": "images/logos/helldivers-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/553850",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

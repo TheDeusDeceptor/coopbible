@@ -1,0 +1,26 @@
+{
+  "id": "braid-anniversary-edition",
+  "name": "Braid Anniversary Edition",
+  "year": "2024",
+  "platform": "",
+  "release": "14.05.2024",
+  "size": "4 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Thekla",
+  "pub": "Thekla",
+  "notes": "",
+  "screenshot": "images/screenshots/braid-anniversary-edition.jpg",
+  "logo": "images/logos/braid-anniversary-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

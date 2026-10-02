@@ -1,0 +1,26 @@
+{
+  "id": "silent-hill-the-arcade",
+  "name": "Silent Hill: The Arcade",
+  "year": "2007",
+  "platform": "Arcade",
+  "release": "25.08.2007",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "Konami",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-hill-the-arcade.jpg",
+  "logo": "images/logos/silent-hill-the-arcade.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "silent-hill",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

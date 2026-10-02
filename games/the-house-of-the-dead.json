@@ -1,0 +1,26 @@
+{
+  "id": "the-house-of-the-dead",
+  "name": "The House of the Dead",
+  "year": "1996",
+  "platform": "PC or Arcade",
+  "release": "01.01.1996",
+  "size": "",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "Sega",
+  "pub": "Sega",
+  "notes": "Arcade would be better choice, presumably.",
+  "screenshot": "images/screenshots/the-house-of-the-dead.jpg",
+  "logo": "images/logos/the-house-of-the-dead.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "the-house-of-the-dead",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Arcade would be better choice, presumably."
+}

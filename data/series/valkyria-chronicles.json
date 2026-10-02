@@ -1,0 +1,14 @@
+{
+  "id": "valkyria-chronicles",
+  "name": "Valkyria Chronicles",
+  "logo": "",
+  "main": 191,
+  "extra": 274,
+  "order": [
+    "valkyria-chronicles",
+    "valkyria-chronicles-ii",
+    "valkyria-chronicles-iii",
+    "valkyria-revolution",
+    "valkyria-chronicles-4"
+  ]
+}

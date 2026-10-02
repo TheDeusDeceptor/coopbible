@@ -1,0 +1,26 @@
+{
+  "id": "twisted-metal-small-brawl",
+  "name": "Twisted Metal: Small Brawl",
+  "year": "2001",
+  "platform": "PSX",
+  "release": "27.11.2001",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "Incog Inc. Entertainment",
+  "pub": "Sony Computer Entertainment America",
+  "notes": "",
+  "screenshot": "images/screenshots/twisted-metal-small-brawl.jpg",
+  "logo": "images/logos/twisted-metal-small-brawl.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "twisted-metal",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

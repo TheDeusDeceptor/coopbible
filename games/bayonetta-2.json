@@ -1,0 +1,26 @@
+{
+  "id": "bayonetta-2",
+  "name": "Bayonetta 2",
+  "year": "2014",
+  "platform": "Switch",
+  "release": "2014 (2018)",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "PlatinumGames",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/bayonetta-2.jpg",
+  "logo": "images/logos/bayonetta-2.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "bayonetta",
+  "series_status": "done",
+  "series_color": "green",
+  "series_note": ""
+}

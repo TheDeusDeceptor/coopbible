@@ -1,0 +1,26 @@
+{
+  "id": "critical-velocity-japan-chd",
+  "name": "Critical Velocity (Japan).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "13.10.2005",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/critical-velocity-japan-chd.jpg",
+  "logo": "images/logos/critical-velocity-japan-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

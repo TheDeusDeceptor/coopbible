@@ -1,0 +1,26 @@
+{
+  "id": "onechanbara-z-kagura-with-nonono",
+  "name": "OneChanbara Z: Kagura with NoNoNo!",
+  "year": "2013",
+  "platform": "PS3",
+  "release": "07.11.2013",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Tamsoft",
+  "pub": "D3Publisher",
+  "notes": "Partial (97%) english translation exists.",
+  "screenshot": "images/screenshots/onechanbara-z-kagura-with-nonono.jpg",
+  "logo": "images/logos/onechanbara-z-kagura-with-nonono.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Partial (97%) english translation exists."
+}

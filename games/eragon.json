@@ -1,0 +1,32 @@
+{
+  "id": "eragon",
+  "name": "Eragon",
+  "year": "2006",
+  "platform": "",
+  "release": "14.11.2006",
+  "size": "2 GB",
+  "hltb": "Main: 7, +Extra: 10",
+  "dev": "Stormfront Studios",
+  "pub": "Vivendi Games",
+  "notes": "",
+  "screenshot": "images/screenshots/eragon.jpg",
+  "logo": "images/logos/eragon.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Eragon",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

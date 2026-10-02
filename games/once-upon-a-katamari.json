@@ -1,0 +1,26 @@
+{
+  "id": "once-upon-a-katamari",
+  "name": "Once Upon a Katamari",
+  "year": "2025",
+  "platform": "PC",
+  "release": "2025.0",
+  "size": "6 GB",
+  "hltb": "Main: 7, +Extra: 12",
+  "dev": "RENGAME",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/once-upon-a-katamari.jpg",
+  "logo": "images/logos/once-upon-a-katamari.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "katamari-damacy",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

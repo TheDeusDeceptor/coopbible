@@ -1,0 +1,26 @@
+{
+  "id": "project-snowblind",
+  "name": "Project: Snowblind",
+  "year": "2005",
+  "platform": "",
+  "release": "23.02.2005",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Nixxes Software",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/project-snowblind.jpg",
+  "logo": "images/logos/project-snowblind.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

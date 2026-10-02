@@ -1,0 +1,26 @@
+{
+  "id": "the-vanishing-of-ethan-carter-redux",
+  "name": "The Vanishing of Ethan Carter Redux",
+  "year": "2014",
+  "platform": "",
+  "release": "25.09.2014",
+  "size": "",
+  "hltb": "",
+  "dev": "The Astronauts",
+  "pub": "The Astronauts",
+  "notes": "",
+  "screenshot": "images/screenshots/the-vanishing-of-ethan-carter-redux.jpg",
+  "logo": "images/logos/the-vanishing-of-ethan-carter-redux.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

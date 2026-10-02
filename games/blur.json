@@ -1,0 +1,26 @@
+{
+  "id": "blur",
+  "name": "Blur",
+  "year": "2010",
+  "platform": "",
+  "release": "25.05.2010",
+  "size": "3 GB",
+  "hltb": "Main: 10, +Extra: 14",
+  "dev": "Spiral House",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/blur.jpg",
+  "logo": "images/logos/blur.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

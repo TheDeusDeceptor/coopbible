@@ -1,0 +1,26 @@
+{
+  "id": "metroid-dread",
+  "name": "Metroid Dread",
+  "year": "2021",
+  "platform": "Switch",
+  "release": "08.10.2021",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "MercurySteam",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/metroid-dread.jpg",
+  "logo": "images/logos/metroid-dread.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metroid",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

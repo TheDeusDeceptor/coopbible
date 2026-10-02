@@ -1,0 +1,32 @@
+{
+  "id": "titan-quest-ii",
+  "name": "Titan Quest II",
+  "year": "2025",
+  "platform": "",
+  "release": "01.08.2025",
+  "size": "50 GB",
+  "hltb": "",
+  "dev": "Grimlore Games",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "screenshot": "images/screenshots/titan-quest-ii.jpg",
+  "logo": "images/logos/titan-quest-ii.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1154030",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "nightshade-usa-chd",
+  "name": "Nightshade (USA).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "10.02.2004",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "WOW Entertainment",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/nightshade-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "pass-the-fear",
+  "name": "Pass the Fear",
+  "year": "2026",
+  "platform": "",
+  "release": "2026.0",
+  "size": "",
+  "hltb": "",
+  "dev": "PlayMud Studio",
+  "pub": "Paras Games",
+  "notes": "",
+  "screenshot": "images/screenshots/pass-the-fear.jpg",
+  "logo": "images/logos/pass-the-fear.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3561220",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

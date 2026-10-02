@@ -1,0 +1,26 @@
+{
+  "id": "faery-legends-of-avalon",
+  "name": "Faery: Legends of Avalon",
+  "year": "2011",
+  "platform": "PC",
+  "release": "06.05.2011",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Spiders",
+  "pub": "Focus Home Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/faery-legends-of-avalon.jpg",
+  "logo": "images/logos/faery-legends-of-avalon.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "spiders",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

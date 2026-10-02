@@ -1,0 +1,32 @@
+{
+  "id": "c-a-s-t-chernozem-anomaly-strike-team",
+  "name": "C.A.S.T. (CHERNOZEM ANOMALY STRIKE TEAM)",
+  "year": "2025",
+  "platform": "",
+  "release": "14.07.2025",
+  "size": "1 GB",
+  "hltb": "",
+  "dev": "Ascension Studio",
+  "pub": "Ascension Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/c-a-s-t-chernozem-anomaly-strike-team.jpg",
+  "logo": "images/logos/c-a-s-t-chernozem-anomaly-strike-team.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3140620",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

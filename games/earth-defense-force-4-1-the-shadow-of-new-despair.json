@@ -1,0 +1,32 @@
+{
+  "id": "earth-defense-force-4-1-the-shadow-of-new-despair",
+  "name": "EARTH DEFENSE FORCE 4.1 The Shadow of New Despair",
+  "year": "2016",
+  "platform": "",
+  "release": "18.07.2016",
+  "size": "8 GB",
+  "hltb": "Main: 22, +Extra: 49",
+  "dev": "SANDLOT",
+  "pub": "D3PUBLISHER",
+  "notes": "",
+  "screenshot": "images/screenshots/earth-defense-force-4-1-the-shadow-of-new-despair.jpg",
+  "logo": "images/logos/earth-defense-force-4-1-the-shadow-of-new-despair.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/410320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

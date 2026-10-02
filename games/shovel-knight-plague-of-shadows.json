@@ -1,0 +1,26 @@
+{
+  "id": "shovel-knight-plague-of-shadows",
+  "name": "Shovel Knight: Plague of Shadows",
+  "year": "2015",
+  "platform": "",
+  "release": "17.09.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Yacht Club Games",
+  "pub": "Yacht Club Games",
+  "notes": "",
+  "screenshot": "images/screenshots/shovel-knight-plague-of-shadows.jpg",
+  "logo": "images/logos/shovel-knight-plague-of-shadows.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

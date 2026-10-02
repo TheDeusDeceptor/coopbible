@@ -1,0 +1,26 @@
+{
+  "id": "gen1recomp-pok-mon-yellow",
+  "name": "Gen1Recomp (Pokémon Yellow)",
+  "year": "1998",
+  "platform": "PC",
+  "release": "1998 (2026)",
+  "size": "",
+  "hltb": "Main: 27, +Extra: 41",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "pok-mon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": ""
+}

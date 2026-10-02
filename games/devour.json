@@ -1,0 +1,32 @@
+{
+  "id": "devour",
+  "name": "DEVOUR",
+  "year": "2021",
+  "platform": "",
+  "release": "28.01.2021",
+  "size": "10 GB",
+  "hltb": "Main: 4, +Extra: 22",
+  "dev": "Straight Back Games",
+  "pub": "Straight Back Games",
+  "notes": "",
+  "screenshot": "images/screenshots/devour.jpg",
+  "logo": "images/logos/devour.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1274570",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

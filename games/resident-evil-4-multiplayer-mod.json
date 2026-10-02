@@ -1,0 +1,32 @@
+{
+  "id": "resident-evil-4-multiplayer-mod",
+  "name": "Resident Evil 4 Multiplayer Mod",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 21",
+  "dev": "",
+  "pub": "",
+  "notes": "Co-op  |  Version: BETA 4",
+  "screenshot": "images/screenshots/resident-evil-4-multiplayer-mod.jpg",
+  "logo": "images/logos/resident-evil-4-multiplayer-mod.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/residentevil42023/mods/6539",
+      "icon": "nexus"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

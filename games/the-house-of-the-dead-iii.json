@@ -1,0 +1,26 @@
+{
+  "id": "the-house-of-the-dead-iii",
+  "name": "The House of the Dead III",
+  "year": "2002",
+  "platform": "PC",
+  "release": "22.10.2002",
+  "size": "",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "WOW Entertainment",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/the-house-of-the-dead-iii.jpg",
+  "logo": "images/logos/the-house-of-the-dead-iii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "the-house-of-the-dead",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

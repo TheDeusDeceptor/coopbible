@@ -1,0 +1,26 @@
+{
+  "id": "shovel-knight-king-of-cards",
+  "name": "Shovel Knight: King of Cards",
+  "year": "2019",
+  "platform": "",
+  "release": "10.12.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "Yacht Club Games",
+  "pub": "Yacht Club Games",
+  "notes": "",
+  "screenshot": "images/screenshots/shovel-knight-king-of-cards.jpg",
+  "logo": "images/logos/shovel-knight-king-of-cards.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

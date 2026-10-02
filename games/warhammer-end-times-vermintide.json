@@ -1,0 +1,32 @@
+{
+  "id": "warhammer-end-times-vermintide",
+  "name": "Warhammer: End Times - Vermintide",
+  "year": "2015",
+  "platform": "",
+  "release": "23.10.2015",
+  "size": "30 GB",
+  "hltb": "Main: 8, +Extra: 25",
+  "dev": "Fatshark",
+  "pub": "Fatshark",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/warhammer-end-times-vermintide.jpg",
+  "logo": "images/logos/warhammer-end-times-vermintide.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/235540",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

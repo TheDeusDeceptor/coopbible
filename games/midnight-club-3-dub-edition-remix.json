@@ -1,0 +1,26 @@
+{
+  "id": "midnight-club-3-dub-edition-remix",
+  "name": "Midnight Club 3: Dub Edition (Remix)",
+  "year": "2005",
+  "platform": "PS2",
+  "release": "12.04.2005",
+  "size": "",
+  "hltb": "Main: 21",
+  "dev": "Rockstar San Diego",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/midnight-club-3-dub-edition-remix.jpg",
+  "logo": "images/logos/midnight-club-3-dub-edition-remix.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "midnight-club",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

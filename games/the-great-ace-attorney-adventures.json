@@ -1,0 +1,26 @@
+{
+  "id": "the-great-ace-attorney-adventures",
+  "name": "The Great Ace Attorney: Adventures",
+  "year": "2015",
+  "platform": "PC",
+  "release": "2015 (2021)",
+  "size": "",
+  "hltb": "Main: 30, +Extra: 34",
+  "dev": "",
+  "pub": "",
+  "notes": "The Great Ace Attorney Chronicles.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-attorney",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": "The Great Ace Attorney Chronicles."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "r-e-p-o",
+  "name": "R.E.P.O.",
+  "year": "2025",
+  "platform": "",
+  "release": "26.02.2025",
+  "size": "1 GB",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "semiwork",
+  "pub": "semiwork",
+  "notes": "",
+  "screenshot": "images/screenshots/r-e-p-o.jpg",
+  "logo": "images/logos/r-e-p-o.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3241660",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

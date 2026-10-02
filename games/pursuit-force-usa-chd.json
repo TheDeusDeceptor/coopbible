@@ -1,0 +1,26 @@
+{
+  "id": "pursuit-force-usa-chd",
+  "name": "Pursuit Force (USA).chd",
+  "year": "2005",
+  "platform": "psp",
+  "release": "18.11.2005",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "BigBig Studios",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/pursuit-force-usa-chd.jpg",
+  "logo": "images/logos/pursuit-force-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

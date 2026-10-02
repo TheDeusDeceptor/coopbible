@@ -1,0 +1,26 @@
+{
+  "id": "armored-core-last-raven",
+  "name": "Armored Core: Last Raven",
+  "year": "2006",
+  "platform": "PS2",
+  "release": "13.06.2006",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "FromSoftware",
+  "pub": "Agetec",
+  "notes": "",
+  "screenshot": "images/screenshots/armored-core-last-raven.png",
+  "logo": "images/logos/armored-core-last-raven.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "armored-core",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

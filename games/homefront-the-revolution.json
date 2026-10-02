@@ -1,0 +1,32 @@
+{
+  "id": "homefront-the-revolution",
+  "name": "Homefront®: The Revolution",
+  "year": "2016",
+  "platform": "",
+  "release": "17.05.2016",
+  "size": "38 GB",
+  "hltb": "Main: 12, +Extra: 19",
+  "dev": "Dambuster Studios",
+  "pub": "Deep Silver",
+  "notes": "",
+  "screenshot": "images/screenshots/homefront-the-revolution.jpg",
+  "logo": "images/logos/homefront-the-revolution.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/223100",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

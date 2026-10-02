@@ -1,0 +1,26 @@
+{
+  "id": "medal-of-honor-3",
+  "name": "Medal of Honor",
+  "year": "2010",
+  "platform": "",
+  "release": "12.10.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Danger Close",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/medal-of-honor-3.jpg",
+  "logo": "images/logos/medal-of-honor-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

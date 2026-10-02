@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-black-ops-6",
+  "name": "Call of Duty: Black Ops 6",
+  "year": "2024",
+  "platform": "PC",
+  "release": "2024.0",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "Treyarch",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-black-ops-6.jpg",
+  "logo": "images/logos/call-of-duty-black-ops-6.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

@@ -1,0 +1,32 @@
+{
+  "id": "call-of-duty-modern-warfare-2-2009",
+  "name": "Call of Duty®: Modern Warfare® 2 (2009)",
+  "year": "2009",
+  "platform": "",
+  "release": "11.11.2009",
+  "size": "12 GB",
+  "hltb": "Main: 6, +Extra: 10",
+  "dev": "Infinity Ward",
+  "pub": "Activision",
+  "notes": "+ Spec Ops\n\n     + Co-op Campaign Mod",
+  "screenshot": "images/screenshots/call-of-duty-modern-warfare-2-2009.jpg",
+  "logo": "images/logos/call-of-duty-modern-warfare-2-2009.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/10180",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

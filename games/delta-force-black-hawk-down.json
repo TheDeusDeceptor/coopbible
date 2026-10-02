@@ -1,0 +1,26 @@
+{
+  "id": "delta-force-black-hawk-down",
+  "name": "Delta Force: Black Hawk Down",
+  "year": "2005",
+  "platform": "PC",
+  "release": "26.07.2005",
+  "size": "",
+  "hltb": "Main: 8",
+  "dev": "Climax Group",
+  "pub": "Novalogic",
+  "notes": "+ Team Sabre expansion.",
+  "screenshot": "images/screenshots/delta-force-black-hawk-down.jpg",
+  "logo": "images/logos/delta-force-black-hawk-down.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "delta-force",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "+ Team Sabre expansion."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "homefront",
+  "name": "Homefront",
+  "year": "2011",
+  "platform": "",
+  "release": "15.03.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Kaos Studios",
+  "pub": "Deep Silver",
+  "notes": "",
+  "screenshot": "images/screenshots/homefront.jpg",
+  "logo": "images/logos/homefront.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

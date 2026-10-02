@@ -1,0 +1,26 @@
+{
+  "id": "actraiser-renaissance",
+  "name": "Actraiser Renaissance",
+  "year": "2021",
+  "platform": "",
+  "release": "23.09.2021",
+  "size": "5 GB",
+  "hltb": "Main: 18, +Extra: 19",
+  "dev": "Square Enix",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/actraiser-renaissance.jpg",
+  "logo": "images/logos/actraiser-renaissance.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

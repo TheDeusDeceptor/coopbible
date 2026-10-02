@@ -1,0 +1,26 @@
+{
+  "id": "gears-5",
+  "name": "Gears 5",
+  "year": "2019",
+  "platform": "PC",
+  "release": "09.09.2019",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 16",
+  "dev": "The Coalition",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/gears-5.jpg",
+  "logo": "images/logos/gears-5.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gears-of-war",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

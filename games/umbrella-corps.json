@@ -1,0 +1,26 @@
+{
+  "id": "umbrella-corps",
+  "name": "Umbrella Corps",
+  "year": "2016",
+  "platform": "PC",
+  "release": "2016.0",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "Beware!",
+  "screenshot": "",
+  "logo": "images/logos/umbrella-corps.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": "Beware!"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "keep-it-contained",
+  "name": "Keep It Contained",
+  "year": "2026",
+  "platform": "",
+  "release": "01.04.2026",
+  "size": "1 GB",
+  "hltb": "",
+  "dev": "Triarch Interactive",
+  "pub": "Triarch Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/keep-it-contained.jpg",
+  "logo": "images/logos/keep-it-contained.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4251090",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

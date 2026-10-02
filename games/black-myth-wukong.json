@@ -1,0 +1,26 @@
+{
+  "id": "black-myth-wukong",
+  "name": "Black Myth: Wukong",
+  "year": "2024",
+  "platform": "",
+  "release": "20.08.2024",
+  "size": "",
+  "hltb": "",
+  "dev": "Game Science",
+  "pub": "Game Science",
+  "notes": "",
+  "screenshot": "images/screenshots/black-myth-wukong.jpg",
+  "logo": "images/logos/black-myth-wukong.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

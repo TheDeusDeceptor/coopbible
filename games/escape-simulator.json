@@ -1,0 +1,32 @@
+{
+  "id": "escape-simulator",
+  "name": "Escape Simulator",
+  "year": "2021",
+  "platform": "",
+  "release": "19.10.2021",
+  "size": "18 GB",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "Pine Studio",
+  "pub": "Pine Studio",
+  "notes": "+ Steampunk DLC\n\n     + Wild West DLC\n\n     + Portal Escape Chamber\n\n     + Among Us DLC\n\n     + Magic DLC\n\n     + PowerWash DLC\n\n     - The Talos Principle\n\n     - Mayan DLC\n\n     - Spy DLC",
+  "screenshot": "images/screenshots/escape-simulator.jpg",
+  "logo": "images/logos/escape-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1435790",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

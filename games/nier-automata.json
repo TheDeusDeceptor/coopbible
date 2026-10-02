@@ -1,0 +1,26 @@
+{
+  "id": "nier-automata",
+  "name": "Nier: Automata",
+  "year": "2017",
+  "platform": "PC",
+  "release": "07.03.2017",
+  "size": "",
+  "hltb": "Main: 21, +Extra: 38",
+  "dev": "PlatinumGames",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/nier-automata.jpg",
+  "logo": "images/logos/nier-automata.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "platinum-games",
+  "series_status": null,
+  "series_color": "blue",
+  "series_note": null
+}

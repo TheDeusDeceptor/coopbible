@@ -1,0 +1,26 @@
+{
+  "id": "dmc-devil-may-cry",
+  "name": "DmC Devil May Cry",
+  "year": "2013",
+  "platform": "",
+  "release": "24.01.2013",
+  "size": "9 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Ninja Theory",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/dmc-devil-may-cry.jpg",
+  "logo": "images/logos/dmc-devil-may-cry.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

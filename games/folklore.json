@@ -1,0 +1,26 @@
+{
+  "id": "folklore",
+  "name": "Folklore",
+  "year": "2007",
+  "platform": "",
+  "release": "21.06.2007",
+  "size": "",
+  "hltb": "Main: 15",
+  "dev": "Game Republic",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/folklore.jpg",
+  "logo": "images/logos/folklore.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "jump-king-quest",
+  "name": "JUMP KING QUEST",
+  "year": "2026",
+  "platform": "",
+  "release": "25.05.2026",
+  "size": "5 GB",
+  "hltb": "Main: 20, +Extra: 31",
+  "dev": "Nexile",
+  "pub": "Nexile",
+  "notes": "",
+  "screenshot": "images/screenshots/jump-king-quest.jpg",
+  "logo": "images/logos/jump-king-quest.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2317640",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

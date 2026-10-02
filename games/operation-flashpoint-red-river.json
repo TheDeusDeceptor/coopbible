@@ -1,0 +1,32 @@
+{
+  "id": "operation-flashpoint-red-river",
+  "name": "Operation Flashpoint: Red River",
+  "year": "2011",
+  "platform": "",
+  "release": "21.04.2011",
+  "size": "8 GB",
+  "hltb": "Main: 11, +Extra: 13",
+  "dev": "Codemasters",
+  "pub": "Codemasters Software",
+  "notes": "",
+  "screenshot": "images/screenshots/operation-flashpoint-red-river.jpg",
+  "logo": "images/logos/operation-flashpoint-red-river.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Operation_Flashpoint:_Red_River",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

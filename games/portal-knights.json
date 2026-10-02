@@ -1,0 +1,32 @@
+{
+  "id": "portal-knights",
+  "name": "Portal Knights",
+  "year": "2017",
+  "platform": "",
+  "release": "18.05.2017",
+  "size": "8 GB",
+  "hltb": "Main: 20, +Extra: 34",
+  "dev": "Keen Games GmbH",
+  "pub": "505 Games",
+  "notes": "READY",
+  "screenshot": "images/screenshots/portal-knights.jpg",
+  "logo": "images/logos/portal-knights.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/374040",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

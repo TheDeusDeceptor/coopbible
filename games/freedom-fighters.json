@@ -1,0 +1,26 @@
+{
+  "id": "freedom-fighters",
+  "name": "Freedom Fighters",
+  "year": "1982",
+  "platform": "",
+  "release": "01.01.1982",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Philips",
+  "pub": "N.V. Philips Gloeilampenfabrieken",
+  "notes": "",
+  "screenshot": "images/screenshots/freedom-fighters.jpg",
+  "logo": "images/logos/freedom-fighters.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

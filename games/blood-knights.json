@@ -1,0 +1,26 @@
+{
+  "id": "blood-knights",
+  "name": "Blood Knights",
+  "year": "2013",
+  "platform": "PC",
+  "release": "19.11.2013",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Deck13 Interactive",
+  "pub": "Kalypso Media Digital",
+  "notes": "",
+  "screenshot": "images/screenshots/blood-knights.jpg",
+  "logo": "images/logos/blood-knights.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "deck-13",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

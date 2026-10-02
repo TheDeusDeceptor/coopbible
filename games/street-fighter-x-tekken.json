@@ -1,0 +1,26 @@
+{
+  "id": "street-fighter-x-tekken",
+  "name": "Street Fighter X Tekken",
+  "year": "2012",
+  "platform": "",
+  "release": "11.05.2012",
+  "size": "10 GB",
+  "hltb": "Main: 2, +Extra: 10",
+  "dev": "Capcom U.S.A.",
+  "pub": "Capcom U.S.A.",
+  "notes": "",
+  "screenshot": "images/screenshots/street-fighter-x-tekken.jpg",
+  "logo": "images/logos/street-fighter-x-tekken.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

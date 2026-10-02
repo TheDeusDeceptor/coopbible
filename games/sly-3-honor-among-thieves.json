@@ -1,0 +1,26 @@
+{
+  "id": "sly-3-honor-among-thieves",
+  "name": "Sly 3: Honor Among Thieves",
+  "year": "2005",
+  "platform": "PS3",
+  "release": "26.09.2005",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 15",
+  "dev": "Sucker Punch Productions",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/sly-3-honor-among-thieves.jpg",
+  "logo": "images/logos/sly-3-honor-among-thieves.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "sly-cooper",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tom-clancy-s-ghost-recon-advanced-warfighter-2",
+  "name": "Tom Clancy's Ghost Recon Advanced Warfighter® 2",
+  "year": "2008",
+  "platform": "",
+  "release": "15.07.2008",
+  "size": "5 GB",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Ubisoft",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-advanced-warfighter-2.jpg",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-advanced-warfighter-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/13510",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

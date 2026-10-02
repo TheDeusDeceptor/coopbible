@@ -1,0 +1,26 @@
+{
+  "id": "gran-turismo-concept-2002-tokyo-geneva",
+  "name": "Gran Turismo Concept 2002 Tokyo-Geneva",
+  "year": "2002",
+  "platform": "PS2",
+  "release": "19.07.2002",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 12",
+  "dev": "Polyphony Digital",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/gran-turismo-concept-2002-tokyo-geneva.jpg",
+  "logo": "images/logos/gran-turismo-concept-2002-tokyo-geneva.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gran-turismo",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

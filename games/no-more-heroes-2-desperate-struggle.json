@@ -1,0 +1,26 @@
+{
+  "id": "no-more-heroes-2-desperate-struggle",
+  "name": "No More Heroes 2: Desperate Struggle",
+  "year": "2010",
+  "platform": "PC",
+  "release": "2010 (2021)",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Grasshopper Manufacture",
+  "pub": "Marvelous",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/no-more-heroes-2-desperate-struggle.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "no-more-heroes",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

@@ -1,0 +1,32 @@
+{
+  "id": "core-keeper",
+  "name": "Core Keeper",
+  "year": "2024",
+  "platform": "",
+  "release": "27.08.2024",
+  "size": "",
+  "hltb": "Main: 37, +Extra: 51",
+  "dev": "Pugstorm",
+  "pub": "Fireshine Games, bilibili",
+  "notes": "",
+  "screenshot": "images/screenshots/core-keeper.jpg",
+  "logo": "images/logos/core-keeper.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1621690",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

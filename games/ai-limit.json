@@ -1,0 +1,26 @@
+{
+  "id": "ai-limit",
+  "name": "AI Limit",
+  "year": "2025",
+  "platform": "",
+  "release": "27.03.2025",
+  "size": "",
+  "hltb": "Main: 19, +Extra: 24",
+  "dev": "Sense Games",
+  "pub": "CE-Asia",
+  "notes": "",
+  "screenshot": "images/screenshots/ai-limit.jpg",
+  "logo": "images/logos/ai-limit.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "night-club-simulator",
+  "name": "Night Club Simulator",
+  "year": "2025",
+  "platform": "",
+  "release": "30.07.2025",
+  "size": "20 GB",
+  "hltb": "",
+  "dev": "Clock Wizard Games",
+  "pub": "Clock Wizard Games",
+  "notes": "",
+  "screenshot": "images/screenshots/night-club-simulator.jpg",
+  "logo": "images/logos/night-club-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2943670",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

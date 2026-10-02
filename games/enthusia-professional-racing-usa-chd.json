@@ -1,0 +1,26 @@
+{
+  "id": "enthusia-professional-racing-usa-chd",
+  "name": "Enthusia - Professional Racing (USA).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "17.03.2005",
+  "size": "",
+  "hltb": "Main: 19",
+  "dev": "Konami",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/enthusia-professional-racing-usa-chd.jpg",
+  "logo": "images/logos/enthusia-professional-racing-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

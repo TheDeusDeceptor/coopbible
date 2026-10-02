@@ -1,0 +1,26 @@
+{
+  "id": "darksiders-warmastered-edition",
+  "name": "Darksiders: Warmastered Edition",
+  "year": "2019",
+  "platform": "",
+  "release": "02.04.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "Kaiko",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "screenshot": "images/screenshots/darksiders-warmastered-edition.jpg",
+  "logo": "images/logos/darksiders-warmastered-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-the-darkside-chronicles",
+  "name": "Resident Evil: The Darkside Chronicles",
+  "year": "2009",
+  "platform": "Wii",
+  "release": "2009.0",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-the-darkside-chronicles.jpg",
+  "logo": "images/logos/resident-evil-the-darkside-chronicles.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

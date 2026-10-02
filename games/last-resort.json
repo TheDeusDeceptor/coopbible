@@ -1,0 +1,32 @@
+{
+  "id": "last-resort",
+  "name": "Last Resort",
+  "year": "2021",
+  "platform": "",
+  "release": "28.06.2021",
+  "size": "1 GB",
+  "hltb": "Main: 1, +Extra: 3",
+  "dev": "Team Soupvision",
+  "pub": "Breda University of Applied Sciences",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/last-resort.jpg",
+  "logo": "images/logos/last-resort.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1491650",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

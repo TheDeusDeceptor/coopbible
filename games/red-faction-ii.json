@@ -1,0 +1,26 @@
+{
+  "id": "red-faction-ii",
+  "name": "Red Faction II",
+  "year": "2003",
+  "platform": "PC",
+  "release": "30.03.2003",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Volition",
+  "pub": "THQ",
+  "notes": "",
+  "screenshot": "images/screenshots/red-faction-ii.jpg",
+  "logo": "images/logos/red-faction-ii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "red-faction",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "old-market-simulator",
+  "name": "Old Market Simulator",
+  "year": "2024",
+  "platform": "",
+  "release": "03.10.2024",
+  "size": "",
+  "hltb": "Main: 20",
+  "dev": "Alcedo Games",
+  "pub": "Alcedo Games, Gamersky Games",
+  "notes": "",
+  "screenshot": "images/screenshots/old-market-simulator.jpg",
+  "logo": "images/logos/old-market-simulator.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2878420",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "steins-gate-re-boot",
+  "name": "Steins;Gate Re:Boot",
+  "year": "2026",
+  "platform": "PC",
+  "release": "2026.0",
+  "size": "",
+  "hltb": "Main: 25, +Extra: 32",
+  "dev": "",
+  "pub": "",
+  "notes": "Play the same game third time, stupid gaijin!",
+  "screenshot": "images/screenshots/steins-gate-re-boot.jpg",
+  "logo": "images/logos/steins-gate-re-boot.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "science-adventure",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Play the same game third time, stupid gaijin!"
+}

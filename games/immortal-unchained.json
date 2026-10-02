@@ -1,0 +1,26 @@
+{
+  "id": "immortal-unchained",
+  "name": "Immortal Unchained",
+  "year": "2018",
+  "platform": "",
+  "release": "07.09.2018",
+  "size": "",
+  "hltb": "Main: 15, +Extra: 21",
+  "dev": "Toadman Interactive",
+  "pub": "Sold Out",
+  "notes": "",
+  "screenshot": "images/screenshots/immortal-unchained.jpg",
+  "logo": "images/logos/immortal-unchained.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

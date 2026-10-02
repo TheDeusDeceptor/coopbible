@@ -1,0 +1,26 @@
+{
+  "id": "ghost-recon-breakpoint",
+  "name": "Ghost Recon Breakpoint",
+  "year": "2019",
+  "platform": "PC",
+  "release": "2019.0",
+  "size": "",
+  "hltb": "Main: 23, +Extra: 54",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-ghost-recon",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

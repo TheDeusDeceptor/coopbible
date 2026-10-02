@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-leafgreen-version",
+  "name": "Pokémon LeafGreen Version",
+  "year": "2004",
+  "platform": "",
+  "release": "29.01.2004",
+  "size": "",
+  "hltb": "",
+  "dev": "Game Freak",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/pok-mon-leafgreen-version.jpg",
+  "logo": "images/logos/pok-mon-leafgreen-version.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

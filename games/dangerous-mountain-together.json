@@ -1,0 +1,32 @@
+{
+  "id": "dangerous-mountain-together",
+  "name": "Dangerous Mountain Together",
+  "year": "2026",
+  "platform": "",
+  "release": "03.04.2026",
+  "size": "2.9 GB",
+  "hltb": "",
+  "dev": "Çağatay Demir, Doğukan Şahin",
+  "pub": "SlugShot Games",
+  "notes": "",
+  "screenshot": "images/screenshots/dangerous-mountain-together.jpg",
+  "logo": "images/logos/dangerous-mountain-together.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3955660",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

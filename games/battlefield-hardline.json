@@ -1,0 +1,26 @@
+{
+  "id": "battlefield-hardline",
+  "name": "Battlefield Hardline",
+  "year": "2015",
+  "platform": "",
+  "release": "17.03.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Visceral Games",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/battlefield-hardline.jpg",
+  "logo": "images/logos/battlefield-hardline.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

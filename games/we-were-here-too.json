@@ -1,0 +1,32 @@
+{
+  "id": "we-were-here-too",
+  "name": "We Were Here Too",
+  "year": "2018",
+  "platform": "",
+  "release": "02.02.2018",
+  "size": "10 GB",
+  "hltb": "Main: 3",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "updates occasionally",
+  "screenshot": "images/screenshots/we-were-here-too.jpg",
+  "logo": "images/logos/we-were-here-too.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/677160",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

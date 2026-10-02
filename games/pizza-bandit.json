@@ -1,0 +1,32 @@
+{
+  "id": "pizza-bandit",
+  "name": "Pizza Bandit",
+  "year": "2025",
+  "platform": "",
+  "release": "25.08.2025",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "JOFSOFT",
+  "pub": "JOFSOFT, KRAFTON, Inc.",
+  "notes": "",
+  "screenshot": "images/screenshots/pizza-bandit.jpg",
+  "logo": "images/logos/pizza-bandit.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2475010",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

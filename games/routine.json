@@ -1,0 +1,26 @@
+{
+  "id": "routine",
+  "name": "Routine",
+  "year": "2025",
+  "platform": "",
+  "release": "04.12.2025",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Lunar Software",
+  "pub": "Raw Fury",
+  "notes": "",
+  "screenshot": "images/screenshots/routine.jpg",
+  "logo": "images/logos/routine.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

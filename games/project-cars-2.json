@@ -1,0 +1,26 @@
+{
+  "id": "project-cars-2",
+  "name": "Project CARS 2",
+  "year": "2017",
+  "platform": "",
+  "release": "22.09.2017",
+  "size": "",
+  "hltb": "Main: 27, +Extra: 73",
+  "dev": "Slightly Mad Studios",
+  "pub": "Bandai Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/project-cars-2.jpg",
+  "logo": "images/logos/project-cars-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

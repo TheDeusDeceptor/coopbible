@@ -1,0 +1,32 @@
+{
+  "id": "the-incredible-adventures-of-van-helsing-final-cut",
+  "name": "The Incredible Adventures of Van Helsing: Final Cut",
+  "year": "2015",
+  "platform": "",
+  "release": "06.11.2015",
+  "size": "40 GB",
+  "hltb": "Main: 18, +Extra: 32",
+  "dev": "NeocoreGames",
+  "pub": "NeocoreGames",
+  "notes": "",
+  "screenshot": "images/screenshots/the-incredible-adventures-of-van-helsing-final-cut.jpg",
+  "logo": "images/logos/the-incredible-adventures-of-van-helsing-final-cut.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/400170",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

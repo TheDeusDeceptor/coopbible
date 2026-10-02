@@ -1,0 +1,26 @@
+{
+  "id": "mortal-kombat-11",
+  "name": "Mortal Kombat 11",
+  "year": "2019",
+  "platform": "",
+  "release": "23.04.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "NetherRealm Studios",
+  "pub": "Warner Bros. Interactive Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/mortal-kombat-11.jpg",
+  "logo": "images/logos/mortal-kombat-11.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

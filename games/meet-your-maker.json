@@ -1,0 +1,32 @@
+{
+  "id": "meet-your-maker",
+  "name": "Meet Your Maker",
+  "year": "2023",
+  "platform": "",
+  "release": "04.04.2023",
+  "size": "",
+  "hltb": "Main: 15, +Extra: 35",
+  "dev": "Behaviour Interactive Inc.",
+  "pub": "Behaviour Interactive Inc.",
+  "notes": "",
+  "screenshot": "images/screenshots/meet-your-maker.jpg",
+  "logo": "images/logos/meet-your-maker.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1194810",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

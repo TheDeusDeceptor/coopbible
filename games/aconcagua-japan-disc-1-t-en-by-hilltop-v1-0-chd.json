@@ -1,0 +1,26 @@
+{
+  "id": "aconcagua-japan-disc-1-t-en-by-hilltop-v1-0-chd",
+  "name": "Aconcagua (Japan) (Disc 1) [T-En by Hilltop v1.0].chd",
+  "year": "2000",
+  "platform": "psx",
+  "release": "01.06.2000",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "WACWAC!",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/aconcagua-japan-disc-1-t-en-by-hilltop-v1-0-chd.jpg",
+  "logo": "images/logos/aconcagua-japan-disc-1-t-en-by-hilltop-v1-0-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

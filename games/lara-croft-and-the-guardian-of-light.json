@@ -1,0 +1,26 @@
+{
+  "id": "lara-croft-and-the-guardian-of-light",
+  "name": "Lara Croft and the Guardian of Light",
+  "year": "2010",
+  "platform": "PC",
+  "release": "18.08.2010",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Crystal Dynamics",
+  "pub": "Square Enix",
+  "notes": "Co-op-able!",
+  "screenshot": "images/screenshots/lara-croft-and-the-guardian-of-light.jpg",
+  "logo": "images/logos/lara-croft-and-the-guardian-of-light.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tomb-raider",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Co-op-able!"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "vikings-wolves-of-midgard",
+  "name": "Vikings - Wolves of Midgard",
+  "year": "2017",
+  "platform": "",
+  "release": "24.03.2017",
+  "size": "10 GB",
+  "hltb": "Main: 17, +Extra: 26",
+  "dev": "Games Farm",
+  "pub": "Kalypso Media Digital",
+  "notes": "",
+  "screenshot": "images/screenshots/vikings-wolves-of-midgard.jpg",
+  "logo": "images/logos/vikings-wolves-of-midgard.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/404590",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

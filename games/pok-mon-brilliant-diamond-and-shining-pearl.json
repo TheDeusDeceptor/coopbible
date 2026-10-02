@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-brilliant-diamond-and-shining-pearl",
+  "name": "Pokémon Brilliant Diamond and Shining Pearl",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 26, +Extra: 43",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/pok-mon-brilliant-diamond-and-shining-pearl.jpg",
+  "logo": "images/logos/pok-mon-brilliant-diamond-and-shining-pearl.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

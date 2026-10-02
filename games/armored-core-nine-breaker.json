@@ -1,0 +1,26 @@
+{
+  "id": "armored-core-nine-breaker",
+  "name": "Armored Core: Nine Breaker",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "28.10.2004",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "FromSoftware",
+  "pub": "Agetec",
+  "notes": "",
+  "screenshot": "images/screenshots/armored-core-nine-breaker.jpg",
+  "logo": "images/logos/armored-core-nine-breaker.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "armored-core",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

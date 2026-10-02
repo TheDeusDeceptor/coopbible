@@ -1,0 +1,26 @@
+{
+  "id": "ghost-recon-jungle-storm",
+  "name": "Ghost Recon: Jungle Storm",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "2004.0",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/ghost-recon-jungle-storm.jpg",
+  "logo": "images/logos/ghost-recon-jungle-storm.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-ghost-recon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "7554-glorious-memories-revived",
+  "name": "7554: Glorious Memories Revived",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/7554-glorious-memories-revived.jpg",
+  "logo": "images/logos/7554-glorious-memories-revived.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

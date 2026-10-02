@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-let-s-go-pikachu-let-s-go-eevee",
+  "name": "Pokémon: Let's Go, Pikachu! (Let's Go, Eevee!)",
+  "year": "2018",
+  "platform": "Switch",
+  "release": "2018.0",
+  "size": "",
+  "hltb": "Main: 25, +Extra: 36",
+  "dev": "",
+  "pub": "",
+  "notes": "Second rermake of 1st Gen.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "pok-mon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Second rermake of 1st Gen."
+}

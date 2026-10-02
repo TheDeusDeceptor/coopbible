@@ -1,0 +1,26 @@
+{
+  "id": "midnight-club-street-racing-usa-chd",
+  "name": "Midnight Club - Street Racing (USA).chd",
+  "year": "2000",
+  "platform": "ps2",
+  "release": "26.10.2000",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Angel Studios",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/midnight-club-street-racing-usa-chd.jpg",
+  "logo": "images/logos/midnight-club-street-racing-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

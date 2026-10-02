@@ -1,0 +1,26 @@
+{
+  "id": "crysis-warhead",
+  "name": "Crysis Warhead",
+  "year": "2008",
+  "platform": "",
+  "release": "16.09.2008",
+  "size": "",
+  "hltb": "",
+  "dev": "Crytek Studios",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/crysis-warhead.jpg",
+  "logo": "images/logos/crysis-warhead.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

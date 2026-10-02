@@ -1,0 +1,26 @@
+{
+  "id": "gran-turismo-usa-en-fr-es-v2-00-chd",
+  "name": "Gran Turismo (USA) (En,Fr,Es) (v2.00).chd",
+  "year": "",
+  "platform": "psp",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 22",
+  "dev": "Polyphony Digital",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/gran-turismo-usa-en-fr-es-v2-00-chd.jpg",
+  "logo": "images/logos/gran-turismo-usa-en-fr-es-v2-00-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

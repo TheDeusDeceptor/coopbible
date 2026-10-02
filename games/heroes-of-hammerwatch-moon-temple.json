@@ -1,0 +1,26 @@
+{
+  "id": "heroes-of-hammerwatch-moon-temple",
+  "name": "Heroes of Hammerwatch: Moon Temple",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/heroes-of-hammerwatch-moon-temple.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

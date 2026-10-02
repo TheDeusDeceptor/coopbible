@@ -1,0 +1,32 @@
+{
+  "id": "marvel-ultimate-alliance-2",
+  "name": "Marvel: Ultimate Alliance 2",
+  "year": "2016",
+  "platform": "",
+  "release": "26.07.2016",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Zoë Mode",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/marvel-ultimate-alliance-2.jpg",
+  "logo": "images/logos/marvel-ultimate-alliance-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/433320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "how-to-fish",
+  "name": "How to Fish",
+  "year": "2026",
+  "platform": "",
+  "release": "20.08.2026",
+  "size": "1 GB",
+  "hltb": "Main: 5",
+  "dev": "Dazed Games",
+  "pub": "Dazed Games",
+  "notes": "",
+  "screenshot": "images/screenshots/how-to-fish.jpg",
+  "logo": "images/logos/how-to-fish.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4001890",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

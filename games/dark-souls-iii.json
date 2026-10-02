@@ -1,0 +1,26 @@
+{
+  "id": "dark-souls-iii",
+  "name": "Dark Souls III",
+  "year": "2016",
+  "platform": "",
+  "release": "01.04.2016",
+  "size": "",
+  "hltb": "",
+  "dev": "FromSoftware",
+  "pub": "Bandai Namco Games",
+  "notes": "",
+  "screenshot": "images/screenshots/dark-souls-iii.jpg",
+  "logo": "images/logos/dark-souls-iii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

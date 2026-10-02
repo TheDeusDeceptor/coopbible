@@ -1,0 +1,32 @@
+{
+  "id": "levi-chronicles",
+  "name": "Levi Chronicles",
+  "year": "2021",
+  "platform": "",
+  "release": "08.07.2021",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "Atmosphere Studio",
+  "pub": "Atmosphere Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/levi-chronicles.jpg",
+  "logo": "images/logos/levi-chronicles.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1144370",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

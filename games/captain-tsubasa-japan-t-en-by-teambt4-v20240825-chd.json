@@ -1,0 +1,26 @@
+{
+  "id": "captain-tsubasa-japan-t-en-by-teambt4-v20240825-chd",
+  "name": "Captain Tsubasa (Japan) [T-En by TeamBt4 v20240825].chd",
+  "year": "2006",
+  "platform": "ps2",
+  "release": "19.10.2006",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Natsume",
+  "pub": "Bandai Namco Games",
+  "notes": "",
+  "screenshot": "images/screenshots/captain-tsubasa-japan-t-en-by-teambt4-v20240825-chd.jpg",
+  "logo": "images/logos/captain-tsubasa-japan-t-en-by-teambt4-v20240825-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

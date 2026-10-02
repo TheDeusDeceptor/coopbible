@@ -1,0 +1,26 @@
+{
+  "id": "alien-resurrection-usa-chd",
+  "name": "Alien Resurrection (USA).chd",
+  "year": "2000",
+  "platform": "psx",
+  "release": "11.10.2000",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Argonaut Software",
+  "pub": "Fox Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/alien-resurrection-usa-chd.jpg",
+  "logo": "images/logos/alien-resurrection-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

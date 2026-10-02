@@ -1,0 +1,26 @@
+{
+  "id": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
+  "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+  "year": "2024",
+  "platform": "",
+  "release": "20.11.2024",
+  "size": "",
+  "hltb": "",
+  "dev": "GSC Game World",
+  "pub": "GSC Game World",
+  "notes": "",
+  "screenshot": "images/screenshots/s-t-a-l-k-e-r-2-heart-of-chornobyl.jpg",
+  "logo": "images/logos/s-t-a-l-k-e-r-2-heart-of-chornobyl.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

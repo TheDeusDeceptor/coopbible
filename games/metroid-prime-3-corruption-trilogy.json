@@ -1,0 +1,26 @@
+{
+  "id": "metroid-prime-3-corruption-trilogy",
+  "name": "Metroid Prime 3: Corruption (Trilogy)",
+  "year": "2007",
+  "platform": "Wii",
+  "release": "27.08.2007",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 14",
+  "dev": "Retro Studios",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/metroid-prime-3-corruption-trilogy.jpg",
+  "logo": "images/logos/metroid-prime-3-corruption-trilogy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metroid",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

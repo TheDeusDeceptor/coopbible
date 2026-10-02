@@ -1,0 +1,26 @@
+{
+  "id": "rainbow-six-3-raven-shield",
+  "name": "Rainbow Six 3: Raven Shield",
+  "year": "2003",
+  "platform": "PC",
+  "release": "2003.0",
+  "size": "",
+  "hltb": "Main: 13",
+  "dev": "",
+  "pub": "",
+  "notes": "including Athena Sword and Iron Wrath expansions",
+  "screenshot": "images/screenshots/rainbow-six-3-raven-shield.jpg",
+  "logo": "images/logos/rainbow-six-3-raven-shield.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-rainbow-six",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "+Athena Sword and Iron Wrath"
+}

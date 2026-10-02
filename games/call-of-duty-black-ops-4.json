@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-black-ops-4",
+  "name": "Call of Duty: Black Ops 4",
+  "year": "2018",
+  "platform": "PC",
+  "release": "2018.0",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 15",
+  "dev": "",
+  "pub": "",
+  "notes": "No single-player campaign.",
+  "screenshot": "images/screenshots/call-of-duty-black-ops-4.jpg",
+  "logo": "images/logos/call-of-duty-black-ops-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "No single-player campaign."
+}

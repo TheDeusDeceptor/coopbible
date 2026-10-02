@@ -1,0 +1,26 @@
+{
+  "id": "splinter-cell-pandora-tomorrow",
+  "name": "Splinter Cell: Pandora Tomorrow",
+  "year": "2004",
+  "platform": "PC",
+  "release": "2004.0",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/splinter-cell-pandora-tomorrow.jpg",
+  "logo": "images/logos/splinter-cell-pandora-tomorrow.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-splinter-cell",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

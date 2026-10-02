@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-0-hd-remaster",
+  "name": "Resident Evil 0 (HD Remaster)",
+  "year": "2002",
+  "platform": "PC",
+  "release": "2002 (2016)",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

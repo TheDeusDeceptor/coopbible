@@ -1,0 +1,26 @@
+{
+  "id": "prince-of-persia-the-sands-of-time-usa-en-fr-es-chd",
+  "name": "Prince of Persia - The Sands of Time (USA) (En,Fr,Es).chd",
+  "year": "2003",
+  "platform": "ps2",
+  "release": "21.11.2003",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Ubisoft",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/prince-of-persia-the-sands-of-time-usa-en-fr-es-chd.jpg",
+  "logo": "images/logos/prince-of-persia-the-sands-of-time-usa-en-fr-es-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

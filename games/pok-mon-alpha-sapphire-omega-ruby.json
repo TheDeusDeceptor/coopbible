@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-alpha-sapphire-omega-ruby",
+  "name": "Pokémon Alpha Sapphire (Omega Ruby)",
+  "year": "2014",
+  "platform": "3DS",
+  "release": "2014.0",
+  "size": "",
+  "hltb": "Main: 25, +Extra: 52",
+  "dev": "",
+  "pub": "",
+  "notes": "Remake of 3rd Gen.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "pok-mon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Remake of 3rd Gen."
+}

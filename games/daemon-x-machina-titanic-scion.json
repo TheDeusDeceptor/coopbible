@@ -1,0 +1,32 @@
+{
+  "id": "daemon-x-machina-titanic-scion",
+  "name": "Daemon X Machina: Titanic Scion",
+  "year": "2025",
+  "platform": "",
+  "release": "05.09.2025",
+  "size": "50 GB",
+  "hltb": "Main: 15, +Extra: 22",
+  "dev": "Marvelous Inc.",
+  "pub": "XSEED Games",
+  "notes": "",
+  "screenshot": "images/screenshots/daemon-x-machina-titanic-scion.jpg",
+  "logo": "images/logos/daemon-x-machina-titanic-scion.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1342490",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

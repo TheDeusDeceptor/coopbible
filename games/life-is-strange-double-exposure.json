@@ -1,0 +1,26 @@
+{
+  "id": "life-is-strange-double-exposure",
+  "name": "Life Is Strange: Double Exposure",
+  "year": "2024",
+  "platform": "PC",
+  "release": "29.10.2024",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 15",
+  "dev": "Deck Nine Games",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/life-is-strange-double-exposure.jpg",
+  "logo": "images/logos/life-is-strange-double-exposure.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "life-is-strange",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

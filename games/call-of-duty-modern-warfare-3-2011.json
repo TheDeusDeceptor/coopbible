@@ -1,0 +1,32 @@
+{
+  "id": "call-of-duty-modern-warfare-3-2011",
+  "name": "Call of Duty®: Modern Warfare® 3 (2011)",
+  "year": "2011",
+  "platform": "",
+  "release": "08.11.2011",
+  "size": "16 GB",
+  "hltb": "Main: 6, +Extra: 10",
+  "dev": "Infinity Ward, Sledgehammer Games",
+  "pub": "Activision",
+  "notes": "Spec Ops only",
+  "screenshot": "images/screenshots/call-of-duty-modern-warfare-3-2011.jpg",
+  "logo": "images/logos/call-of-duty-modern-warfare-3-2011.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/115300",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "warcraft-iii-reforged",
+  "name": "Warcraft III: Reforged",
+  "year": "2020",
+  "platform": "",
+  "release": "28.01.2020",
+  "size": "",
+  "hltb": "Main: 30, +Extra: 43",
+  "dev": "Blizzard Entertainment",
+  "pub": "Blizzard Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/warcraft-iii-reforged.jpg",
+  "logo": "images/logos/warcraft-iii-reforged.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Warcraft_III:_Reforged",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

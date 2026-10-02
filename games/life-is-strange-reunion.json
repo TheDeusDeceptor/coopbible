@@ -1,0 +1,26 @@
+{
+  "id": "life-is-strange-reunion",
+  "name": "Life Is Strange: Reunion",
+  "year": "2026",
+  "platform": "PC",
+  "release": "26.03.2026",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 11",
+  "dev": "Deck Nine",
+  "pub": "Square Enix",
+  "notes": "🅱️emuva.",
+  "screenshot": "images/screenshots/life-is-strange-reunion.jpg",
+  "logo": "images/logos/life-is-strange-reunion.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "life-is-strange",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "🅱️emuva."
+}

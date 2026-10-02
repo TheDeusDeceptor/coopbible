@@ -1,0 +1,32 @@
+{
+  "id": "dooms-hair-salon",
+  "name": "Dooms Hair Salon",
+  "year": "2025",
+  "platform": "",
+  "release": "24.03.2025",
+  "size": "2 GB",
+  "hltb": "",
+  "dev": "Slimebox",
+  "pub": "Slimebox",
+  "notes": "",
+  "screenshot": "images/screenshots/dooms-hair-salon.jpg",
+  "logo": "images/logos/dooms-hair-salon.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3398870",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

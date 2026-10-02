@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil",
+  "name": "Resident Evil",
+  "year": "1996",
+  "platform": "PC",
+  "release": "1996.0",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

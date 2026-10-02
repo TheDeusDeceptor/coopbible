@@ -1,0 +1,32 @@
+{
+  "id": "dragon-marked-for-death",
+  "name": "Dragon Marked For Death",
+  "year": "2020",
+  "platform": "",
+  "release": "21.04.2020",
+  "size": "1 GB",
+  "hltb": "Main: 17, +Extra: 28",
+  "dev": "INTI CREATES CO., LTD.",
+  "pub": "INTI CREATES CO., LTD.",
+  "notes": "",
+  "screenshot": "images/screenshots/dragon-marked-for-death.jpg",
+  "logo": "images/logos/dragon-marked-for-death.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1149440",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "king-arthur-usa-chd",
+  "name": "King Arthur (USA).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "16.11.2004",
+  "size": "",
+  "hltb": "Main: 8",
+  "dev": "Krome",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/king-arthur-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

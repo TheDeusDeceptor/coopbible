@@ -1,0 +1,26 @@
+{
+  "id": "tom-clancy-s-rainbow-six",
+  "name": "Tom Clancy's Rainbow Six",
+  "year": "1999",
+  "platform": "",
+  "release": "17.11.1999",
+  "size": "",
+  "hltb": "",
+  "dev": "Saffire",
+  "pub": "Red Storm Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/tom-clancy-s-rainbow-six.jpg",
+  "logo": "images/logos/tom-clancy-s-rainbow-six.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

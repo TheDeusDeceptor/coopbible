@@ -1,0 +1,26 @@
+{
+  "id": "american-mcgee-s-alice-remastered",
+  "name": "American McGee's Alice Remastered",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/american-mcgee-s-alice-remastered.jpg",
+  "logo": "images/logos/american-mcgee-s-alice-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "runabout-3-neo-age-europe-chd",
+  "name": "Runabout 3 - Neo Age (Europe).chd",
+  "year": "2002",
+  "platform": "ps2",
+  "release": "01.11.2002",
+  "size": "",
+  "hltb": "",
+  "dev": "Graphic Research",
+  "pub": "BAM! Entertainment",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/runabout-3-neo-age-europe-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

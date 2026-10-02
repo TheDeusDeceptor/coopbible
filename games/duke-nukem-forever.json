@@ -1,0 +1,26 @@
+{
+  "id": "duke-nukem-forever",
+  "name": "Duke Nukem Forever",
+  "year": "2011",
+  "platform": "",
+  "release": "14.06.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Gearbox Software",
+  "pub": "2K Games",
+  "notes": "",
+  "screenshot": "images/screenshots/duke-nukem-forever.jpg",
+  "logo": "images/logos/duke-nukem-forever.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

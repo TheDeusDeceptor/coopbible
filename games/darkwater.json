@@ -1,0 +1,32 @@
+{
+  "id": "darkwater",
+  "name": "Darkwater",
+  "year": "2025",
+  "platform": "",
+  "release": "22.04.2025",
+  "size": "7 GB",
+  "hltb": "Main: 3",
+  "dev": "Targon Studios",
+  "pub": "Playstack",
+  "notes": "",
+  "screenshot": "images/screenshots/darkwater.jpg",
+  "logo": "images/logos/darkwater.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/619540",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-ii",
+  "name": "Need for Speed II",
+  "year": "1997",
+  "platform": "",
+  "release": "31.03.1997",
+  "size": "",
+  "hltb": "",
+  "dev": "Electronic Arts",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-ii.jpg",
+  "logo": "images/logos/need-for-speed-ii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

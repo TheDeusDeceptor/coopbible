@@ -1,0 +1,32 @@
+{
+  "id": "toukiden-2",
+  "name": "Toukiden 2",
+  "year": "2017",
+  "platform": "",
+  "release": "21.03.2017",
+  "size": "17 GB",
+  "hltb": "Main: 17, +Extra: 37",
+  "dev": "KOEI TECMO GAMES CO., LTD.",
+  "pub": "KOEI TECMO GAMES CO., LTD.",
+  "notes": "READY?",
+  "screenshot": "images/screenshots/toukiden-2.jpg",
+  "logo": "images/logos/toukiden-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/551730",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

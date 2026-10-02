@@ -1,0 +1,26 @@
+{
+  "id": "samurai-champloo-sidetracked",
+  "name": "Samurai Champloo: Sidetracked",
+  "year": "2006",
+  "platform": "PS2",
+  "release": "11.04.2006",
+  "size": "",
+  "hltb": "Main: 7",
+  "dev": "Grasshopper Manufacture",
+  "pub": "Bandai",
+  "notes": "",
+  "screenshot": "images/screenshots/samurai-champloo-sidetracked.jpg",
+  "logo": "images/logos/samurai-champloo-sidetracked.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "grasshopper-manufacture",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

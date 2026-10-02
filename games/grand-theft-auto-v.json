@@ -1,0 +1,26 @@
+{
+  "id": "grand-theft-auto-v",
+  "name": "Grand Theft Auto V",
+  "year": "2013",
+  "platform": "",
+  "release": "17.09.2013",
+  "size": "",
+  "hltb": "",
+  "dev": "Rockstar North",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/grand-theft-auto-v.jpg",
+  "logo": "images/logos/grand-theft-auto-v.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

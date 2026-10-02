@@ -1,0 +1,26 @@
+{
+  "id": "legacy-of-kain-soul-reaver-2-remastered",
+  "name": "(Legacy of Kain:) Soul Reaver 2 (Remastered)",
+  "year": "2001",
+  "platform": "PC",
+  "release": "30.10.2001",
+  "size": "",
+  "hltb": "Main: 18, +Extra: 22",
+  "dev": "Crystal Dynamics",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/legacy-of-kain-soul-reaver-2-remastered.jpg",
+  "logo": "images/logos/legacy-of-kain-soul-reaver-2-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "legacy-of-kain",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "sworn",
+  "name": "SWORN",
+  "year": "2025",
+  "platform": "",
+  "release": "23.09.2025",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 25",
+  "dev": "Windwalk Games",
+  "pub": "Team17",
+  "notes": "",
+  "screenshot": "images/screenshots/sworn.jpg",
+  "logo": "images/logos/sworn.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1763250",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rv-there-yet",
+  "name": "RV There Yet?",
+  "year": "2025",
+  "platform": "",
+  "release": "21.10.2025",
+  "size": "3.1 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Nuggets Entertainment",
+  "pub": "Nuggets Entertainment",
+  "notes": "+ Mt. Yurbuttsk\n\n      + St. Búttin Bay",
+  "screenshot": "images/screenshots/rv-there-yet.jpg",
+  "logo": "images/logos/rv-there-yet.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3949040",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

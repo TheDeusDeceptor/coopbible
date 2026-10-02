@@ -1,0 +1,32 @@
+{
+  "id": "shamania",
+  "name": "Shamania",
+  "year": "2025",
+  "platform": "",
+  "release": "01.09.2025",
+  "size": "",
+  "hltb": "",
+  "dev": "Totem Keepers Games",
+  "pub": "Totem Keepers Games",
+  "notes": "",
+  "screenshot": "images/screenshots/shamania.jpg",
+  "logo": "images/logos/shamania.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2868100",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

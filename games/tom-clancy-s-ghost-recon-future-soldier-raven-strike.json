@@ -1,0 +1,26 @@
+{
+  "id": "tom-clancy-s-ghost-recon-future-soldier-raven-strike",
+  "name": "Tom Clancy's Ghost Recon: Future Soldier - Raven Strike",
+  "year": "2012",
+  "platform": "",
+  "release": "12.09.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Red Storm Entertainment",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-future-soldier-raven-strike.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

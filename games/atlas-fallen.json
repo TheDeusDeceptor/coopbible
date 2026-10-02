@@ -1,0 +1,26 @@
+{
+  "id": "atlas-fallen",
+  "name": "Atlas Fallen",
+  "year": "2023",
+  "platform": "PC",
+  "release": "2023.0",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 19",
+  "dev": "Deck13",
+  "pub": "Focus Entertainment",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/atlas-fallen.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "deck-13",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

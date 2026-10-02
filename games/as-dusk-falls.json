@@ -1,0 +1,32 @@
+{
+  "id": "as-dusk-falls",
+  "name": "As Dusk Falls",
+  "year": "2022",
+  "platform": "",
+  "release": "19.07.2022",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "INTERIOR/NIGHT",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/as-dusk-falls.jpg",
+  "logo": "images/logos/as-dusk-falls.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1341820",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

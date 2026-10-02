@@ -1,0 +1,32 @@
+{
+  "id": "gone-fishing",
+  "name": "GONE Fishing",
+  "year": "2025",
+  "platform": "",
+  "release": "15.06.2025",
+  "size": "6 GB",
+  "hltb": "",
+  "dev": "GONE Studios",
+  "pub": "GONE Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/gone-fishing.jpg",
+  "logo": "images/logos/gone-fishing.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3645890",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

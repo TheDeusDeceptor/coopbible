@@ -1,0 +1,32 @@
+{
+  "id": "sos-ops",
+  "name": "SOS OPS!",
+  "year": "2023",
+  "platform": "",
+  "release": "30.11.2023",
+  "size": "2 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "ArtDock",
+  "pub": "Dreland Enterprises",
+  "notes": "",
+  "screenshot": "images/screenshots/sos-ops.jpg",
+  "logo": "images/logos/sos-ops.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2475460",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

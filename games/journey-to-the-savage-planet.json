@@ -1,0 +1,32 @@
+{
+  "id": "journey-to-the-savage-planet",
+  "name": "Journey To The Savage Planet",
+  "year": "2021",
+  "platform": "",
+  "release": "28.01.2021",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Typhoon",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/journey-to-the-savage-planet.jpg",
+  "logo": "images/logos/journey-to-the-savage-planet.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/973810",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

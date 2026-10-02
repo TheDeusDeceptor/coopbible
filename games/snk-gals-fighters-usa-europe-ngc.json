@@ -1,0 +1,26 @@
+{
+  "id": "snk-gals-fighters-usa-europe-ngc",
+  "name": "SNK Gals' Fighters (USA, Europe).ngc",
+  "year": "",
+  "platform": "ngpc",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

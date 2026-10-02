@@ -1,0 +1,26 @@
+{
+  "id": "lost-judgment",
+  "name": "Lost Judgment",
+  "year": "2021",
+  "platform": "PC",
+  "release": "24.09.2021",
+  "size": "",
+  "hltb": "Main: 24, +Extra: 53",
+  "dev": "Ryu ga Gotoku Studio",
+  "pub": "Sega of America",
+  "notes": "",
+  "screenshot": "images/screenshots/lost-judgment.jpg",
+  "logo": "images/logos/lost-judgment.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

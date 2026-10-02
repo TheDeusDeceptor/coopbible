@@ -1,0 +1,26 @@
+{
+  "id": "god-of-war-ascension",
+  "name": "God of War: Ascension",
+  "year": "2013",
+  "platform": "PS3",
+  "release": "2013.0",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "SCE Studio Santa Monica",
+  "pub": "Sony Computer Entertainment America",
+  "notes": "",
+  "screenshot": "images/screenshots/god-of-war-ascension.jpg",
+  "logo": "images/logos/god-of-war-ascension.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "god-of-war",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "blade-usa-chd",
+  "name": "Blade (USA).chd",
+  "year": "2000",
+  "platform": "psx",
+  "release": "23.11.2000",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "HammerHead",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/blade-usa-chd.jpg",
+  "logo": "images/logos/blade-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

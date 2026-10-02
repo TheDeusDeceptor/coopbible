@@ -1,0 +1,26 @@
+{
+  "id": "getaway-the-usa-en-fr-de-es-it-chd",
+  "name": "Getaway, The (USA) (En,Fr,De,Es,It).chd",
+  "year": "2002",
+  "platform": "ps2",
+  "release": "11.12.2002",
+  "size": "",
+  "hltb": "Main: 13",
+  "dev": "Team SOHO",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/getaway-the-usa-en-fr-de-es-it-chd.jpg",
+  "logo": "images/logos/getaway-the-usa-en-fr-de-es-it-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

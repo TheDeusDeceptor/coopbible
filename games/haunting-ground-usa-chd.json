@@ -1,0 +1,26 @@
+{
+  "id": "haunting-ground-usa-chd",
+  "name": "Haunting Ground (USA).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "21.04.2005",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/haunting-ground-usa-chd.jpg",
+  "logo": "images/logos/haunting-ground-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "soldier-of-fortune-payback",
+  "name": "Soldier of Fortune: Payback",
+  "year": "2007",
+  "platform": "PC",
+  "release": "13.11.2007",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Cauldron Ltd.",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/soldier-of-fortune-payback.jpg",
+  "logo": "images/logos/soldier-of-fortune-payback.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "soldier-of-fortune",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

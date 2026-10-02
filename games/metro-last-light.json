@@ -1,0 +1,26 @@
+{
+  "id": "metro-last-light",
+  "name": "Metro: Last Light",
+  "year": "2013",
+  "platform": "",
+  "release": "14.05.2013",
+  "size": "",
+  "hltb": "",
+  "dev": "4A Games",
+  "pub": "Deep Silver",
+  "notes": "",
+  "screenshot": "images/screenshots/metro-last-light.jpg",
+  "logo": "images/logos/metro-last-light.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

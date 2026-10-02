@@ -1,0 +1,32 @@
+{
+  "id": "abathor",
+  "name": "Abathor",
+  "year": "2024",
+  "platform": "",
+  "release": "25.07.2024",
+  "size": "2 GB",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Pow Pixel Games",
+  "pub": "JanduSoft",
+  "notes": "Local Co-op (RemotePlay)\nREADY",
+  "screenshot": "images/screenshots/abathor.jpg",
+  "logo": "images/logos/abathor.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2295610",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": true,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

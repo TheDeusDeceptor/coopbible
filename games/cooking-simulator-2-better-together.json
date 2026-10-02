@@ -1,0 +1,32 @@
+{
+  "id": "cooking-simulator-2-better-together",
+  "name": "Cooking Simulator 2: Better Together",
+  "year": "2026",
+  "platform": "",
+  "release": "31.03.2026",
+  "size": "20 GB",
+  "hltb": "",
+  "dev": "Big Cheese Studio",
+  "pub": "Big Cheese Studio",
+  "notes": "",
+  "screenshot": "images/screenshots/cooking-simulator-2-better-together.jpg",
+  "logo": "images/logos/cooking-simulator-2-better-together.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2455360",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

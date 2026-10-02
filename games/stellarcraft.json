@@ -1,0 +1,32 @@
+{
+  "id": "stellarcraft",
+  "name": "Stellarcraft",
+  "year": "2026",
+  "platform": "",
+  "release": "09.03.2026",
+  "size": "11 GB",
+  "hltb": "",
+  "dev": "DreamStudios, Sandstorm in a Bottle",
+  "pub": "DreamStudios",
+  "notes": "",
+  "screenshot": "images/screenshots/stellarcraft.jpg",
+  "logo": "images/logos/stellarcraft.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3189820",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tears-of-metal",
+  "name": "Tears of Metal",
+  "year": "2026",
+  "platform": "",
+  "release": "22.07.2026",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "Paper Cult",
+  "pub": "Paper Cult",
+  "notes": "",
+  "screenshot": "images/screenshots/tears-of-metal.jpg",
+  "logo": "images/logos/tears-of-metal.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1913120",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

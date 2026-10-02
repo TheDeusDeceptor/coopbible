@@ -1,0 +1,32 @@
+{
+  "id": "freedom-wars-remastered",
+  "name": "FREEDOM WARS Remastered",
+  "year": "2025",
+  "platform": "",
+  "release": "09.01.2025",
+  "size": "13 GB",
+  "hltb": "Main: 28, +Extra: 41",
+  "dev": "Dimps Corporation",
+  "pub": "Bandai Namco Entertainment Inc.",
+  "notes": "",
+  "screenshot": "images/screenshots/freedom-wars-remastered.jpg",
+  "logo": "images/logos/freedom-wars-remastered.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3004100",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

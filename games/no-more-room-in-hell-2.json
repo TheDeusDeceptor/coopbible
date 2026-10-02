@@ -1,0 +1,32 @@
+{
+  "id": "no-more-room-in-hell-2",
+  "name": "No More Room in Hell 2",
+  "year": "2024",
+  "platform": "",
+  "release": "22.10.2024",
+  "size": "35 GB",
+  "hltb": "",
+  "dev": "Torn Banner Studios",
+  "pub": "Torn Banner Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/no-more-room-in-hell-2.jpg",
+  "logo": "images/logos/no-more-room-in-hell-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/292000",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

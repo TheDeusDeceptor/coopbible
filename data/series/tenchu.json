@@ -1,0 +1,18 @@
+{
+  "id": "tenchu",
+  "name": "Tenchu",
+  "logo": "",
+  "main": 69,
+  "extra": 96,
+  "order": [
+    "tenchu-stealth-assassins",
+    "tenchu-2-birth-of-the-stealth-assassins",
+    "tenchu-wrath-of-heaven",
+    "tenchu-fatal-shadows",
+    "tenchu-time-of-the-assassins",
+    "tenchu-dark-secret",
+    "tenchu-z",
+    "shadow-assault-tenchu",
+    "tenchu-shadow-assassins"
+  ]
+}

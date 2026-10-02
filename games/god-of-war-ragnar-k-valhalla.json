@@ -1,0 +1,26 @@
+{
+  "id": "god-of-war-ragnar-k-valhalla",
+  "name": "God of War Ragnarök: Valhalla",
+  "year": "2023",
+  "platform": "PC",
+  "release": "2023 (2024)",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "",
+  "pub": "",
+  "notes": "Expansion.",
+  "screenshot": "images/screenshots/god-of-war-ragnar-k-valhalla.jpg",
+  "logo": "images/logos/god-of-war-ragnar-k-valhalla.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "god-of-war",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Expansion."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hitman-3-world-of-assassination",
+  "name": "Hitman 3 (World of Assassination)",
+  "year": "2021",
+  "platform": "PC",
+  "release": "2021 (2023)",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 22",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/hitman-3-world-of-assassination.png",
+  "logo": "images/logos/hitman-3-world-of-assassination.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "hitman",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

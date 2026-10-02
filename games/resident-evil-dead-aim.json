@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-dead-aim",
+  "name": "Resident Evil: Dead Aim",
+  "year": "2003",
+  "platform": "PS2",
+  "release": "2003.0",
+  "size": "",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "Cavia",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-dead-aim.jpg",
+  "logo": "images/logos/resident-evil-dead-aim.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

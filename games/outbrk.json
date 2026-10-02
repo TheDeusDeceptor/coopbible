@@ -1,0 +1,32 @@
+{
+  "id": "outbrk",
+  "name": "OUTBRK",
+  "year": "2024",
+  "platform": "",
+  "release": "28.06.2024",
+  "size": "60 GB",
+  "hltb": "",
+  "dev": "Sublime",
+  "pub": "Sublime",
+  "notes": "",
+  "screenshot": "images/screenshots/outbrk.jpg",
+  "logo": "images/logos/outbrk.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1107320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

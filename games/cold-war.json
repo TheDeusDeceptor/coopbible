@@ -1,0 +1,26 @@
+{
+  "id": "cold-war",
+  "name": "Cold War",
+  "year": "2005",
+  "platform": "",
+  "release": "05.10.2005",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Mindware Studios",
+  "pub": "DreamCatcher Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/cold-war.jpg",
+  "logo": "images/logos/cold-war.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

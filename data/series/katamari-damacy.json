@@ -1,0 +1,20 @@
+{
+  "id": "katamari-damacy",
+  "name": "Katamari Damacy",
+  "logo": "",
+  "main": 64,
+  "extra": 181,
+  "order": [
+    "katamari-damacy-reroll",
+    "we-love-katamari-reroll-royal-reverie",
+    "me-my-katamari",
+    "beautiful-katamari",
+    "i-love-katamari",
+    "katamari-forever",
+    "touch-my-katamari",
+    "tap-my-katamari",
+    "amazing-katamari-damacy",
+    "katamari-damacy-rolling-live",
+    "once-upon-a-katamari"
+  ]
+}

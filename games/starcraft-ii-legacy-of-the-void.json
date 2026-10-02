@@ -1,0 +1,26 @@
+{
+  "id": "starcraft-ii-legacy-of-the-void",
+  "name": "StarCraft II: Legacy of the Void",
+  "year": "2015",
+  "platform": "",
+  "release": "10.11.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Blizzard Entertainment",
+  "pub": "Blizzard Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/starcraft-ii-legacy-of-the-void.jpg",
+  "logo": "images/logos/starcraft-ii-legacy-of-the-void.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

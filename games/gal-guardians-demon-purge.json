@@ -1,0 +1,32 @@
+{
+  "id": "gal-guardians-demon-purge",
+  "name": "Gal Guardians: Demon Purge",
+  "year": "2023",
+  "platform": "",
+  "release": "23.02.2023",
+  "size": "10 GB",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "INTI CREATES CO., LTD.",
+  "pub": "INTI CREATES CO., LTD.",
+  "notes": "Local Co-op (RemotePlay)\nREADY",
+  "screenshot": "images/screenshots/gal-guardians-demon-purge.jpg",
+  "logo": "images/logos/gal-guardians-demon-purge.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2081400",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": true,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

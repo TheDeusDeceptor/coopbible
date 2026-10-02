@@ -1,0 +1,26 @@
+{
+  "id": "the-crew",
+  "name": "The Crew",
+  "year": "2014",
+  "platform": "",
+  "release": "11.11.2014",
+  "size": "",
+  "hltb": "Main: 19, +Extra: 43",
+  "dev": "Ivory Tower in collaboration with Ubisoft Reflections",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/the-crew.jpg",
+  "logo": "images/logos/the-crew.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

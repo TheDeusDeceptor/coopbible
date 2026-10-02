@@ -1,0 +1,26 @@
+{
+  "id": "sniper-elite-iii",
+  "name": "Sniper Elite III",
+  "year": "2014",
+  "platform": "PC",
+  "release": "27.06.2014",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 14",
+  "dev": "Rebellion",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/sniper-elite-iii.jpg",
+  "logo": "images/logos/sniper-elite-iii.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "sniper-elite",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

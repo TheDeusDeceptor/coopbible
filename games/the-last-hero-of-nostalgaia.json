@@ -1,0 +1,32 @@
+{
+  "id": "the-last-hero-of-nostalgaia",
+  "name": "The Last Hero of Nostalgaia",
+  "year": "2022",
+  "platform": "",
+  "release": "19.10.2022",
+  "size": "4 GB",
+  "hltb": "Main: 12, +Extra: 17",
+  "dev": "Over The Moon",
+  "pub": "Coatsink",
+  "notes": "",
+  "screenshot": "images/screenshots/the-last-hero-of-nostalgaia.jpg",
+  "logo": "images/logos/the-last-hero-of-nostalgaia.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1766100",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

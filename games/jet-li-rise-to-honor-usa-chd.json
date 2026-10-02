@@ -1,0 +1,26 @@
+{
+  "id": "jet-li-rise-to-honor-usa-chd",
+  "name": "Jet Li - Rise to Honor (USA).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "17.02.2004",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Sony Computer Entertainment America",
+  "pub": "Sony Computer Entertainment America",
+  "notes": "",
+  "screenshot": "images/screenshots/jet-li-rise-to-honor-usa-chd.jpg",
+  "logo": "images/logos/jet-li-rise-to-honor-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

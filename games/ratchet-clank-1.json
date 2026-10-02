@@ -1,0 +1,26 @@
+{
+  "id": "ratchet-clank-1",
+  "name": "Ratchet & Clank",
+  "year": "2002",
+  "platform": "",
+  "release": "01.11.2002",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "Insomniac Games",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/ratchet-clank-1.jpg",
+  "logo": "images/logos/ratchet-clank-1.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

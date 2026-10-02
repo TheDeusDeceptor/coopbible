@@ -1,0 +1,32 @@
+{
+  "id": "trash-day",
+  "name": "Trash Day",
+  "year": "2026",
+  "platform": "",
+  "release": "13.10.2026",
+  "size": "",
+  "hltb": "",
+  "dev": "Off by One Games",
+  "pub": "Off by One Games",
+  "notes": "",
+  "screenshot": "images/screenshots/trash-day.jpg",
+  "logo": "images/logos/trash-day.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3314580",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sniper-art-of-victory",
+  "name": "Sniper: Art of Victory",
+  "year": "2008",
+  "platform": "PC",
+  "release": "13.06.2008",
+  "size": "",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "City Interactive",
+  "pub": "City Interactive",
+  "notes": "34/100.",
+  "screenshot": "images/screenshots/sniper-art-of-victory.jpg",
+  "logo": "images/logos/sniper-art-of-victory.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "sniper-ghost-warrior",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "34/100."
+}

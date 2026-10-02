@@ -1,0 +1,32 @@
+{
+  "id": "farm-together-2",
+  "name": "Farm Together 2",
+  "year": "2025",
+  "platform": "",
+  "release": "30.05.2025",
+  "size": "2 GB",
+  "hltb": "Main: 3",
+  "dev": "Milkstone Studios",
+  "pub": "Milkstone Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/farm-together-2.jpg",
+  "logo": "images/logos/farm-together-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2418520",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

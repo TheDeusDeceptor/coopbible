@@ -1,0 +1,26 @@
+{
+  "id": "raging-blades-europe-en-fr-de-es-it-chd",
+  "name": "Raging Blades (Europe) (En,Fr,De,Es,It).chd",
+  "year": "2003",
+  "platform": "ps2",
+  "release": "30.05.2003",
+  "size": "",
+  "hltb": "Main: 1",
+  "dev": "Pacific Century Cyber Works Japan",
+  "pub": "Wanadoo Edition",
+  "notes": "",
+  "screenshot": "images/screenshots/raging-blades-europe-en-fr-de-es-it-chd.jpg",
+  "logo": "images/logos/raging-blades-europe-en-fr-de-es-it-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

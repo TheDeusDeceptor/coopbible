@@ -1,0 +1,32 @@
+{
+  "id": "devil-may-cry-3-crimson",
+  "name": "Devil May Cry 3 Crimson",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 16",
+  "dev": "",
+  "pub": "",
+  "notes": "Local Co-op (RemotePlay)  |  Version: BETA 0.5a (playable)",
+  "screenshot": "images/screenshots/devil-may-cry-3-crimson.jpg",
+  "logo": "images/logos/devil-may-cry-3-crimson.png",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/berthrage/DMC3-Crimson",
+      "icon": "github"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": true,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

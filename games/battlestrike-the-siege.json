@@ -1,0 +1,26 @@
+{
+  "id": "battlestrike-the-siege",
+  "name": "Battlestrike: The Siege",
+  "year": "2005",
+  "platform": "PC",
+  "release": "2005.0",
+  "size": "",
+  "hltb": "Full: 1",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/battlestrike-the-siege.jpg",
+  "logo": "images/logos/battlestrike-the-siege.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "battlestrike",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

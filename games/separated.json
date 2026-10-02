@@ -1,0 +1,32 @@
+{
+  "id": "separated",
+  "name": "Separated",
+  "year": "2026",
+  "platform": "",
+  "release": "29.07.2026",
+  "size": "8 GB",
+  "hltb": "",
+  "dev": "Twisted Realm",
+  "pub": "Twisted Realm",
+  "notes": "",
+  "screenshot": "images/screenshots/separated.jpg",
+  "logo": "images/logos/separated.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2976110",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

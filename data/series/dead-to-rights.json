@@ -1,0 +1,13 @@
+{
+  "id": "dead-to-rights",
+  "name": "Dead to Rights",
+  "logo": "",
+  "main": 24,
+  "extra": 32,
+  "order": [
+    "dead-to-rights",
+    "dead-to-rights-ii",
+    "dead-to-rights-reckoning",
+    "dead-to-rights-retribution"
+  ]
+}

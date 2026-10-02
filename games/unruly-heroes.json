@@ -1,0 +1,32 @@
+{
+  "id": "unruly-heroes",
+  "name": "Unruly Heroes",
+  "year": "2019",
+  "platform": "",
+  "release": "23.01.2019",
+  "size": "4 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Magic Design Studios",
+  "pub": "Magic Design Studios",
+  "notes": "Local Co-op (RemotePlay)\nREADY",
+  "screenshot": "images/screenshots/unruly-heroes.jpg",
+  "logo": "images/logos/unruly-heroes.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/780350",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": true,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "the-house-of-the-dead-2",
+  "name": "The House of the Dead 2",
+  "year": "1999",
+  "platform": "PC or Arcade",
+  "release": "09.09.1999",
+  "size": "",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "WOW Entertainment",
+  "pub": "Sega",
+  "notes": "PC?",
+  "screenshot": "images/screenshots/the-house-of-the-dead-2.jpg",
+  "logo": "images/logos/the-house-of-the-dead-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "the-house-of-the-dead",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "PC?"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-modern-warfare-4",
+  "name": "Call of Duty: Modern Warfare 4",
+  "year": "2026",
+  "platform": "PC",
+  "release": "2026.0",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-modern-warfare-4.jpg",
+  "logo": "images/logos/call-of-duty-modern-warfare-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

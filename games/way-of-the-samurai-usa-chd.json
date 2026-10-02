@@ -1,0 +1,26 @@
+{
+  "id": "way-of-the-samurai-usa-chd",
+  "name": "Way of the Samurai (USA).chd",
+  "year": "2002",
+  "platform": "ps2",
+  "release": "07.02.2002",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Acquire",
+  "pub": "BAM! Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/way-of-the-samurai-usa-chd.jpg",
+  "logo": "images/logos/way-of-the-samurai-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "welcome-to-paradize",
+  "name": "Welcome to ParadiZe",
+  "year": "2024",
+  "platform": "",
+  "release": "29.02.2024",
+  "size": "30 GB",
+  "hltb": "#ERROR!",
+  "dev": "Eko Software",
+  "pub": "Nacon",
+  "notes": "",
+  "screenshot": "images/screenshots/welcome-to-paradize.jpg",
+  "logo": "images/logos/welcome-to-paradize.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1519090",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

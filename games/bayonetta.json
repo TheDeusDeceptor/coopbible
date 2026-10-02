@@ -1,0 +1,26 @@
+{
+  "id": "bayonetta",
+  "name": "Bayonetta",
+  "year": "2009",
+  "platform": "PC",
+  "release": "2009 (2017)",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 15",
+  "dev": "PlatinumGames",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/bayonetta.jpg",
+  "logo": "images/logos/bayonetta.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "bayonetta",
+  "series_status": "done",
+  "series_color": "blue",
+  "series_note": ""
+}

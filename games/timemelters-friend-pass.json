@@ -1,0 +1,32 @@
+{
+  "id": "timemelters-friend-pass",
+  "name": "Timemelters - Friend Pass",
+  "year": "2023",
+  "platform": "",
+  "release": "16.08.2023",
+  "size": "9 GB",
+  "hltb": "Main: 15, +Extra: 22",
+  "dev": "Autoexec Games",
+  "pub": "Autoexec Games",
+  "notes": "STEAM\n(Friend's Pass)",
+  "screenshot": "images/screenshots/timemelters-friend-pass.jpg",
+  "logo": "images/logos/timemelters-friend-pass.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2477230",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

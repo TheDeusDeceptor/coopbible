@@ -1,0 +1,26 @@
+{
+  "id": "babylon-s-fall",
+  "name": "Babylon's Fall",
+  "year": "2022",
+  "platform": "PC",
+  "release": "03.03.2022",
+  "size": "",
+  "hltb": "Main: 17, +Extra: 34",
+  "dev": "",
+  "pub": "Square Enix",
+  "notes": "Game is no longer playable in any capacity.",
+  "screenshot": "images/screenshots/babylon-s-fall.jpg",
+  "logo": "images/logos/babylon-s-fall.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "platinum-games",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Game is no longer playable in any capacity."
+}

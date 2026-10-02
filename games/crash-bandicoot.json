@@ -1,0 +1,26 @@
+{
+  "id": "crash-bandicoot",
+  "name": "Crash Bandicoot",
+  "year": "2005",
+  "platform": "PSX",
+  "release": "01.01.2005",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Nice Code Software",
+  "pub": "Karaoto",
+  "notes": "",
+  "screenshot": "images/screenshots/crash-bandicoot.jpg",
+  "logo": "images/logos/crash-bandicoot.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "crash-bandicoot",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

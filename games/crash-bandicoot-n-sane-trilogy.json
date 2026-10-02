@@ -1,0 +1,26 @@
+{
+  "id": "crash-bandicoot-n-sane-trilogy",
+  "name": "Crash Bandicoot N. Sane Trilogy",
+  "year": "2018",
+  "platform": "PC",
+  "release": "29.06.2018",
+  "size": "30 GB",
+  "hltb": "Main: 15, +Extra: 24",
+  "dev": "Vicarious Visions",
+  "pub": "Activision",
+  "notes": "Remake of first three titles.",
+  "screenshot": "images/screenshots/crash-bandicoot-n-sane-trilogy.jpg",
+  "logo": "images/logos/crash-bandicoot-n-sane-trilogy.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "crash-bandicoot",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": "Remake of first three titles."
+}

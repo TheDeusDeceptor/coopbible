@@ -1,0 +1,26 @@
+{
+  "id": "tenchu-wrath-of-heaven",
+  "name": "Tenchu: Wrath of Heaven",
+  "year": "2003",
+  "platform": "PS2",
+  "release": "03.03.2003",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "K2 (Japan)",
+  "pub": "FromSoftware",
+  "notes": "Enhanced Xbox version (titled Return from Darkness) exists.",
+  "screenshot": "images/screenshots/tenchu-wrath-of-heaven.jpg",
+  "logo": "images/logos/tenchu-wrath-of-heaven.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tenchu",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Enhanced Xbox version (titled Return from Darkness) exists."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "bayonetta",
+  "name": "Bayonetta",
+  "logo": "",
+  "main": 46,
+  "extra": 63,
+  "order": [
+    "bayonetta",
+    "bayonetta-2",
+    "bayonetta-3",
+    "bayonetta-origins-cereza-and-the-lost-demon"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "marvel-s-guardians-of-the-galaxy",
+  "name": "Marvel's Guardians of the Galaxy",
+  "year": "2021",
+  "platform": "",
+  "release": "26.10.2021",
+  "size": "",
+  "hltb": "Main: 18, +Extra: 20",
+  "dev": "Eidos-Montréal",
+  "pub": "Eidos Interactive Corp.",
+  "notes": "",
+  "screenshot": "images/screenshots/marvel-s-guardians-of-the-galaxy.jpg",
+  "logo": "images/logos/marvel-s-guardians-of-the-galaxy.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

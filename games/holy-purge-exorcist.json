@@ -1,0 +1,32 @@
+{
+  "id": "holy-purge-exorcist",
+  "name": "Holy Purge : Exorcist",
+  "year": "2022",
+  "platform": "",
+  "release": "15.02.2022",
+  "size": "6 GB",
+  "hltb": "",
+  "dev": "Celeritas Games",
+  "pub": "Celeritas Games",
+  "notes": "",
+  "screenshot": "images/screenshots/holy-purge-exorcist.jpg",
+  "logo": "images/logos/holy-purge-exorcist.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1844060",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

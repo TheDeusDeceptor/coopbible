@@ -1,0 +1,32 @@
+{
+  "id": "silent-hill-united-silent-hill",
+  "name": "Silent Hill: United\n(Silent Hill)",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "",
+  "pub": "",
+  "notes": "Co-op  |  Version: 0.0.2",
+  "screenshot": "images/screenshots/silent-hill-united-silent-hill.jpg",
+  "logo": "images/logos/silent-hill-united-silent-hill.png",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Depmify/Silent-Hill-United-Public-",
+      "icon": "github"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

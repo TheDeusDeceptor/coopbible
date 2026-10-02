@@ -1,0 +1,26 @@
+{
+  "id": "bloodrayne-terminal-cut",
+  "name": "BloodRayne (Terminal Cut)",
+  "year": "2002",
+  "platform": "PC",
+  "release": "15.10.2002",
+  "size": "12 GB",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "Terminal Reality",
+  "pub": "Majesco Sales",
+  "notes": "",
+  "screenshot": "images/screenshots/bloodrayne-terminal-cut.jpg",
+  "logo": "images/logos/bloodrayne-terminal-cut.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "bloodrayne",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

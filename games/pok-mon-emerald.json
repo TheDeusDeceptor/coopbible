@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-emerald",
+  "name": "Pokémon Emerald",
+  "year": "2004",
+  "platform": "GBA",
+  "release": "2004.0",
+  "size": "",
+  "hltb": "Main: 31, +Extra: 65",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/pok-mon-emerald.jpg",
+  "logo": "images/logos/pok-mon-emerald.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "pok-mon",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "michelin-rally-masters-race-of-champions-usa-en-fr-es-chd",
+  "name": "Michelin Rally Masters - Race of Champions (USA) (En,Fr,Es).chd",
+  "year": "2000",
+  "platform": "psx",
+  "release": "24.10.2000",
+  "size": "",
+  "hltb": "Sides: 17",
+  "dev": "Digital Illusions",
+  "pub": "Infogrames",
+  "notes": "",
+  "screenshot": "images/screenshots/michelin-rally-masters-race-of-champions-usa-en-fr-es-chd.jpg",
+  "logo": "images/logos/michelin-rally-masters-race-of-champions-usa-en-fr-es-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

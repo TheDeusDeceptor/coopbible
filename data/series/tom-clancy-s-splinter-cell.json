@@ -1,0 +1,17 @@
+{
+  "id": "tom-clancy-s-splinter-cell",
+  "name": "Tom Clancy's Splinter Cell",
+  "logo": "",
+  "main": 83,
+  "extra": 104,
+  "order": [
+    "splinter-cell",
+    "splinter-cell-pandora-tomorrow",
+    "splinter-cell-chaos-theory",
+    "splinter-cell-essentials",
+    "splinter-cell-double-agent-2",
+    "splinter-cell-double-agent-3",
+    "splinter-cell-conviction",
+    "splinter-cell-blacklist"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "zort",
+  "name": "Zort",
+  "year": "2024",
+  "platform": "",
+  "release": "07.12.2024",
+  "size": "6 GB",
+  "hltb": "",
+  "dev": "Londer Software",
+  "pub": "Londer Software",
+  "notes": "",
+  "screenshot": "images/screenshots/zort.jpg",
+  "logo": "images/logos/zort.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3121110",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

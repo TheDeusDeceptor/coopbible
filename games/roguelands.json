@@ -1,0 +1,32 @@
+{
+  "id": "roguelands",
+  "name": "Roguelands",
+  "year": "2016",
+  "platform": "",
+  "release": "13.06.2016",
+  "size": "0.4 GB",
+  "hltb": "Main: 23, +Extra: 91",
+  "dev": "Sean Young",
+  "pub": "SmashGames",
+  "notes": "",
+  "screenshot": "images/screenshots/roguelands.jpg",
+  "logo": "images/logos/roguelands.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/364420",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

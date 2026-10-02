@@ -1,0 +1,32 @@
+{
+  "id": "nightmariners",
+  "name": "Nightmariners",
+  "year": "2026",
+  "platform": "",
+  "release": "15.05.2026",
+  "size": "2 GB",
+  "hltb": "",
+  "dev": "Ocean's Call Studios",
+  "pub": "Ocean's Call Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/nightmariners.jpg",
+  "logo": "images/logos/nightmariners.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3325020",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

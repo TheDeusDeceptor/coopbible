@@ -1,0 +1,26 @@
+{
+  "id": "resistance-fall-of-man",
+  "name": "Resistance: Fall of Man",
+  "year": "2006",
+  "platform": "PS3",
+  "release": "17.11.2006",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 13",
+  "dev": "Insomniac Games",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/resistance-fall-of-man.jpg",
+  "logo": "images/logos/resistance-fall-of-man.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resistance",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

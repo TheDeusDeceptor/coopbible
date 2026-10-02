@@ -1,0 +1,26 @@
+{
+  "id": "tron-evolution",
+  "name": "Tron: Evolution",
+  "year": "2010",
+  "platform": "",
+  "release": "07.12.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "SuperVillain Studios",
+  "pub": "Disney Interactive Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/tron-evolution.jpg",
+  "logo": "images/logos/tron-evolution.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

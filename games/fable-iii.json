@@ -1,0 +1,26 @@
+{
+  "id": "fable-iii",
+  "name": "Fable III",
+  "year": "2010",
+  "platform": "PC",
+  "release": "25.10.2010",
+  "size": "",
+  "hltb": "Main: 13, +Extra: 26",
+  "dev": "Lionhead Studios",
+  "pub": "Microsoft",
+  "notes": "",
+  "screenshot": "images/screenshots/fable-iii.jpg",
+  "logo": "images/logos/fable-iii.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "fable",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

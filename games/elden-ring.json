@@ -1,0 +1,32 @@
+{
+  "id": "elden-ring",
+  "name": "ELDEN RING",
+  "year": "2022",
+  "platform": "",
+  "release": "24.02.2022",
+  "size": "60 GB",
+  "hltb": "Main: 60, +Extra: 101",
+  "dev": "FromSoftware, Inc.",
+  "pub": "FromSoftware, Inc., Bandai Namco Entertainment",
+  "notes": "+ Shadow of the Erdtree",
+  "screenshot": "images/screenshots/elden-ring.jpg",
+  "logo": "images/logos/elden-ring.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1245620",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

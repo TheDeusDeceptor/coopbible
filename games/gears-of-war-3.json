@@ -1,0 +1,26 @@
+{
+  "id": "gears-of-war-3",
+  "name": "Gears of War 3",
+  "year": "2011",
+  "platform": "X360",
+  "release": "20.09.2011",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "Epic Games",
+  "pub": "Microsoft Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/gears-of-war-3.jpg",
+  "logo": "images/logos/gears-of-war-3.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "gears-of-war",
+  "series_status": null,
+  "series_color": "green",
+  "series_note": null
+}

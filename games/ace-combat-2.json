@@ -1,0 +1,26 @@
+{
+  "id": "ace-combat-2",
+  "name": "Ace Combat 2",
+  "year": "1997",
+  "platform": "PSX",
+  "release": "30.05.1997",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "screenshot": "images/screenshots/ace-combat-2.jpg",
+  "logo": "images/logos/ace-combat-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ace-combat",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

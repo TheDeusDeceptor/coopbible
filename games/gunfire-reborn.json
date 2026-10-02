@@ -1,0 +1,32 @@
+{
+  "id": "gunfire-reborn",
+  "name": "Gunfire Reborn",
+  "year": "2021",
+  "platform": "",
+  "release": "17.11.2021",
+  "size": "4 GB",
+  "hltb": "Main: 14, +Extra: 40",
+  "dev": "Duoyi Games",
+  "pub": "Duoyi Games",
+  "notes": "",
+  "screenshot": "images/screenshots/gunfire-reborn.jpg",
+  "logo": "images/logos/gunfire-reborn.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1217060",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

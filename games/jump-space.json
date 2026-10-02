@@ -1,0 +1,32 @@
+{
+  "id": "jump-space",
+  "name": "Jump Space",
+  "year": "2025",
+  "platform": "",
+  "release": "19.09.2025",
+  "size": "30 GB",
+  "hltb": "",
+  "dev": "Keepsake Games",
+  "pub": "Keepsake Games",
+  "notes": "",
+  "screenshot": "images/screenshots/jump-space.jpg",
+  "logo": "images/logos/jump-space.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1757300",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

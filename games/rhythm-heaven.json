@@ -1,0 +1,26 @@
+{
+  "id": "rhythm-heaven",
+  "name": "Rhythm Heaven",
+  "year": "2008",
+  "platform": "NDS",
+  "release": "31.07.2008",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 11",
+  "dev": "Nintendo",
+  "pub": "Nintendo",
+  "notes": "Touch controls only. Better use my phone...",
+  "screenshot": "images/screenshots/rhythm-heaven.jpg",
+  "logo": "images/logos/rhythm-heaven.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "rhythm-heaven",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Touch controls only. Better use my phone..."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "syphon-filter-logan-s-shadow",
+  "name": "Syphon Filter: Logan's Shadow",
+  "year": "2010",
+  "platform": "PS2",
+  "release": "01.06.2010",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "SCE Bend Studio",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/syphon-filter-logan-s-shadow.jpg",
+  "logo": "images/logos/syphon-filter-logan-s-shadow.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "syphon-filter",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

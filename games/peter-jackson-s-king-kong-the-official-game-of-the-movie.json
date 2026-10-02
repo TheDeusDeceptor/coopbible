@@ -1,0 +1,26 @@
+{
+  "id": "peter-jackson-s-king-kong-the-official-game-of-the-movie",
+  "name": "Peter Jackson's King Kong: The Official Game of the Movie",
+  "year": "2005",
+  "platform": "",
+  "release": "21.11.2005",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Ubisoft Montpellier",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/peter-jackson-s-king-kong-the-official-game-of-the-movie.jpg",
+  "logo": "images/logos/peter-jackson-s-king-kong-the-official-game-of-the-movie.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

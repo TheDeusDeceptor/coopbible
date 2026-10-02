@@ -1,0 +1,32 @@
+{
+  "id": "vampires-bloodlord-rising",
+  "name": "Vampires: Bloodlord Rising",
+  "year": "2026",
+  "platform": "",
+  "release": "30.01.2026",
+  "size": "20 GB",
+  "hltb": "",
+  "dev": "Mehuman Games",
+  "pub": "Toplitz Productions",
+  "notes": "",
+  "screenshot": "images/screenshots/vampires-bloodlord-rising.jpg",
+  "logo": "images/logos/vampires-bloodlord-rising.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2191500",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

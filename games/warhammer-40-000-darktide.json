@@ -1,0 +1,32 @@
+{
+  "id": "warhammer-40-000-darktide",
+  "name": "Warhammer 40,000: Darktide",
+  "year": "2022",
+  "platform": "",
+  "release": "30.11.2022",
+  "size": "72 GB",
+  "hltb": "Main: 28, +Extra: 70",
+  "dev": "Fatshark",
+  "pub": "Fatshark",
+  "notes": "",
+  "screenshot": "images/screenshots/warhammer-40-000-darktide.jpg",
+  "logo": "images/logos/warhammer-40-000-darktide.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1361210",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

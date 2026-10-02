@@ -1,0 +1,32 @@
+{
+  "id": "no-more-room-in-hell",
+  "name": "No More Room in Hell",
+  "year": "2013",
+  "platform": "",
+  "release": "31.10.2013",
+  "size": "10 GB",
+  "hltb": "Co-op: 23",
+  "dev": "No More Room in Hell Team",
+  "pub": "Lever Games",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/no-more-room-in-hell.jpg",
+  "logo": "images/logos/no-more-room-in-hell.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/224260",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

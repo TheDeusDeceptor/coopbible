@@ -1,0 +1,26 @@
+{
+  "id": "legacy-of-kain-ascendance",
+  "name": "Legacy of Kain: Ascendance",
+  "year": "2026",
+  "platform": "PC",
+  "release": "31.03.2026",
+  "size": "",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "Bit Bot Media",
+  "pub": "Crystal Dynamics",
+  "notes": "",
+  "screenshot": "images/screenshots/legacy-of-kain-ascendance.jpg",
+  "logo": "images/logos/legacy-of-kain-ascendance.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "legacy-of-kain",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "viewtiful-joe-usa-chd",
+  "name": "Viewtiful Joe (USA).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "24.08.2004",
+  "size": "",
+  "hltb": "Main: 8",
+  "dev": "Clover Studio",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/viewtiful-joe-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

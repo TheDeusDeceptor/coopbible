@@ -1,0 +1,26 @@
+{
+  "id": "blood-omen-legacy-of-kain",
+  "name": "Blood Omen: Legacy of Kain",
+  "year": "1996",
+  "platform": "PC",
+  "release": "01.11.1996",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "Silicon Knights",
+  "pub": "Crystal Dynamics",
+  "notes": "",
+  "screenshot": "images/screenshots/blood-omen-legacy-of-kain.jpg",
+  "logo": "images/logos/blood-omen-legacy-of-kain.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "legacy-of-kain",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

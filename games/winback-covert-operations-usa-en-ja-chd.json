@@ -1,0 +1,26 @@
+{
+  "id": "winback-covert-operations-usa-en-ja-chd",
+  "name": "WinBack - Covert Operations (USA) (En,Ja).chd",
+  "year": "2001",
+  "platform": "ps2",
+  "release": "27.03.2001",
+  "size": "",
+  "hltb": "Main: 11",
+  "dev": "Cavia",
+  "pub": "Koei",
+  "notes": "",
+  "screenshot": "images/screenshots/winback-covert-operations-usa-en-ja-chd.jpg",
+  "logo": "images/logos/winback-covert-operations-usa-en-ja-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

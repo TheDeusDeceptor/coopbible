@@ -1,0 +1,26 @@
+{
+  "id": "spy-hunter-usa-en-ja-fr-de-es-gba",
+  "name": "Spy Hunter (USA) (En,Ja,Fr,De,Es).gba",
+  "year": "",
+  "platform": "gba",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

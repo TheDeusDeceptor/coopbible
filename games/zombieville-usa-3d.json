@@ -1,0 +1,32 @@
+{
+  "id": "zombieville-usa-3d",
+  "name": "Zombieville USA 3D",
+  "year": "2025",
+  "platform": "",
+  "release": "07.03.2025",
+  "size": "3 GB",
+  "hltb": "Main: 4, +Extra: 11",
+  "dev": "Mika Mobile, Inc.",
+  "pub": "Mika Mobile, Inc.",
+  "notes": "",
+  "screenshot": "images/screenshots/zombieville-usa-3d.jpg",
+  "logo": "images/logos/zombieville-usa-3d.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1801520",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

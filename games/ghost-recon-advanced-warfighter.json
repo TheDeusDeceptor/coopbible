@@ -1,0 +1,26 @@
+{
+  "id": "ghost-recon-advanced-warfighter",
+  "name": "Ghost Recon: Advanced Warfighter",
+  "year": "2006",
+  "platform": "PC",
+  "release": "2006.0",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "",
+  "pub": "",
+  "notes": "Three slightly different games across platforms, but apparently with the same story.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-ghost-recon",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": "Three slightly different games across platforms, but apparently with the same story."
+}

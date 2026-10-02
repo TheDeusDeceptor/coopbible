@@ -1,0 +1,26 @@
+{
+  "id": "disaster-report-usa-chd",
+  "name": "Disaster Report (USA).chd",
+  "year": "2002",
+  "platform": "ps2",
+  "release": "18.10.2002",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "Irem",
+  "pub": "Agetec",
+  "notes": "",
+  "screenshot": "images/screenshots/disaster-report-usa-chd.jpg",
+  "logo": "images/logos/disaster-report-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

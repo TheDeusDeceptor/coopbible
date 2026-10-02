@@ -1,0 +1,32 @@
+{
+  "id": "dungeon-defenders",
+  "name": "Dungeon Defenders",
+  "year": "2011",
+  "platform": "",
+  "release": "18.10.2011",
+  "size": "",
+  "hltb": "Main: 14, +Extra: 62",
+  "dev": "Chromatic Games",
+  "pub": "Chromatic Games",
+  "notes": "",
+  "screenshot": "images/screenshots/dungeon-defenders.jpg",
+  "logo": "images/logos/dungeon-defenders.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/65800",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

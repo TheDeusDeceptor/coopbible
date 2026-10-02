@@ -1,0 +1,32 @@
+{
+  "id": "dead-island",
+  "name": "Dead Island",
+  "year": "2011",
+  "platform": "",
+  "release": "06.09.2011",
+  "size": "70 GB",
+  "hltb": "Main: 18, +Extra: 28",
+  "dev": "Techland",
+  "pub": "Deep Silver",
+  "notes": "",
+  "screenshot": "images/screenshots/dead-island.jpg",
+  "logo": "images/logos/dead-island.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dead_Island",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

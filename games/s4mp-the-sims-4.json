@@ -1,0 +1,31 @@
+{
+  "id": "s4mp-the-sims-4",
+  "name": "S4MP (The Sims 4)",
+  "year": "2020",
+  "platform": "",
+  "release": "09.04.2020",
+  "size": "",
+  "hltb": "Main: 95",
+  "dev": "SimsMultiplayer",
+  "pub": "SimsMultiplayer",
+  "notes": "",
+  "screenshot": "images/screenshots/s4mp-the-sims-4.jpg",
+  "logo": "images/logos/s4mp-the-sims-4.png",
+  "links": [
+    {
+      "label": "Store",
+      "url": "https://sims-multiplayer.com/"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

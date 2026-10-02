@@ -1,0 +1,32 @@
+{
+  "id": "heavenly-bodies",
+  "name": "Heavenly Bodies",
+  "year": "2021",
+  "platform": "",
+  "release": "07.12.2021",
+  "size": "2 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "2pt Interactive",
+  "pub": "2pt Interactive",
+  "notes": "Local Co-op (RemotePlay)\nREADY",
+  "screenshot": "images/screenshots/heavenly-bodies.jpg",
+  "logo": "images/logos/heavenly-bodies.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1138850",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": true,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

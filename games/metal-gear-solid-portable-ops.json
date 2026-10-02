@@ -1,0 +1,26 @@
+{
+  "id": "metal-gear-solid-portable-ops",
+  "name": "Metal Gear Solid: Portable Ops",
+  "year": "2006",
+  "platform": "PSP",
+  "release": "05.12.2006",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 16",
+  "dev": "Kojima Productions",
+  "pub": "Konami",
+  "notes": "",
+  "screenshot": "images/screenshots/metal-gear-solid-portable-ops.jpg",
+  "logo": "images/logos/metal-gear-solid-portable-ops.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "metal-gear-solid",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

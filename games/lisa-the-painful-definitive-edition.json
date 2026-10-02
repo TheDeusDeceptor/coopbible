@@ -1,0 +1,26 @@
+{
+  "id": "lisa-the-painful-definitive-edition",
+  "name": "LISA The Painful Definitive Edition",
+  "year": "2023",
+  "platform": "",
+  "release": "08.07.2023",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 15",
+  "dev": "Dingaling Productions",
+  "pub": "Serenity Forge",
+  "notes": "",
+  "screenshot": "images/screenshots/lisa-the-painful-definitive-edition.jpg",
+  "logo": "images/logos/lisa-the-painful-definitive-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hitman-go-definitive-edition",
+  "name": "Hitman Go (:Definitive Edition)",
+  "year": "2014",
+  "platform": "PC",
+  "release": "04.06.2014",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Square Enix",
+  "pub": "Square Enix",
+  "notes": "Optional, different genre (turn-based strategy).",
+  "screenshot": "images/screenshots/hitman-go-definitive-edition.jpg",
+  "logo": "images/logos/hitman-go-definitive-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "hitman",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Optional, different genre (turn-based strategy)."
+}

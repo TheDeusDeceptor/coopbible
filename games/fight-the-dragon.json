@@ -1,0 +1,32 @@
+{
+  "id": "fight-the-dragon",
+  "name": "Fight The Dragon",
+  "year": "2014",
+  "platform": "",
+  "release": "04.12.2014",
+  "size": "0.5 GB",
+  "hltb": "+Sides: 12",
+  "dev": "3 Sprockets",
+  "pub": "3 Sprockets",
+  "notes": "READY\n\n\n\ndedicated server doesn't work, workaround needed...",
+  "screenshot": "images/screenshots/fight-the-dragon.jpg",
+  "logo": "images/logos/fight-the-dragon.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/250560",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

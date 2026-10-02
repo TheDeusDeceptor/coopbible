@@ -1,0 +1,26 @@
+{
+  "id": "spider-man-2-enter-electro",
+  "name": "Spider-Man 2: Enter Electro",
+  "year": "2001",
+  "platform": "",
+  "release": "18.10.2001",
+  "size": "",
+  "hltb": "",
+  "dev": "Vicarious Visions",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/spider-man-2-enter-electro.jpg",
+  "logo": "images/logos/spider-man-2-enter-electro.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rhythm-heaven-megamix",
+  "name": "Rhythm Heaven Megamix",
+  "year": "2015",
+  "platform": "3DS",
+  "release": "11.06.2015",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 17",
+  "dev": "Nintendo SPD",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/rhythm-heaven-megamix.jpg",
+  "logo": "images/logos/rhythm-heaven-megamix.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "rhythm-heaven",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

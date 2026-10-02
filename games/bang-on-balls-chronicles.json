@@ -1,0 +1,32 @@
+{
+  "id": "bang-on-balls-chronicles",
+  "name": "Bang-On Balls: Chronicles",
+  "year": "2023",
+  "platform": "",
+  "release": "05.10.2023",
+  "size": "3 GB",
+  "hltb": "Main: 5, +Extra: 9",
+  "dev": "Exit Plan Games",
+  "pub": "Untold Tales, CouchPlay Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/bang-on-balls-chronicles.jpg",
+  "logo": "images/logos/bang-on-balls-chronicles.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1227650",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

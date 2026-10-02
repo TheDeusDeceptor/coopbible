@@ -1,0 +1,26 @@
+{
+  "id": "katamari-damacy-reroll",
+  "name": "Katamari Damacy (REROLL)",
+  "year": "2004",
+  "platform": "PC",
+  "release": "2004 (2018)",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "MONKEYCRAFT",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/katamari-damacy-reroll.jpg",
+  "logo": "images/logos/katamari-damacy-reroll.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "katamari-damacy",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

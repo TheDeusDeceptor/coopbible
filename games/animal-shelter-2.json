@@ -1,0 +1,32 @@
+{
+  "id": "animal-shelter-2",
+  "name": "Animal Shelter 2",
+  "year": "2025",
+  "platform": "",
+  "release": "23.07.2025",
+  "size": "18 GB",
+  "hltb": "Main: 24, +Extra: 30",
+  "dev": "Games Incubator",
+  "pub": "Games Incubator, PlayWay S.A.",
+  "notes": "",
+  "screenshot": "images/screenshots/animal-shelter-2.jpg",
+  "logo": "images/logos/animal-shelter-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2658510",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

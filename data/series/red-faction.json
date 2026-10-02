@@ -1,0 +1,14 @@
+{
+  "id": "red-faction",
+  "name": "Red Faction",
+  "logo": "",
+  "main": 30,
+  "extra": 41,
+  "order": [
+    "red-faction",
+    "red-faction-ii",
+    "red-faction-guerrilla-re-mars-tered",
+    "red-faction-battlegrounds",
+    "red-faction-armageddon"
+  ]
+}

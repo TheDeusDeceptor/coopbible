@@ -1,0 +1,26 @@
+{
+  "id": "spider-man-return-of-the-sinister-six",
+  "name": "Spider-Man: Return of the Sinister Six",
+  "year": "1992",
+  "platform": "",
+  "release": "01.10.1992",
+  "size": "",
+  "hltb": "",
+  "dev": "B.I.T.S.",
+  "pub": "LJN",
+  "notes": "",
+  "screenshot": "images/screenshots/spider-man-return-of-the-sinister-six.jpg",
+  "logo": "images/logos/spider-man-return-of-the-sinister-six.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

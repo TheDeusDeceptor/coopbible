@@ -1,0 +1,26 @@
+{
+  "id": "enemy-front",
+  "name": "Enemy Front",
+  "year": "2014",
+  "platform": "PC",
+  "release": "10.06.2014",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "CI Games",
+  "pub": "CI Games",
+  "notes": "",
+  "screenshot": "images/screenshots/enemy-front.jpg",
+  "logo": "images/logos/enemy-front.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "city-interactive",
+  "series_status": "rerun",
+  "series_color": null,
+  "series_note": null
+}

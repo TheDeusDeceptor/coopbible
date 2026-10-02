@@ -1,0 +1,32 @@
+{
+  "id": "squad",
+  "name": "Squad",
+  "year": "2020",
+  "platform": "",
+  "release": "23.09.2020",
+  "size": "65 GB",
+  "hltb": "Main: 30",
+  "dev": "Offworld",
+  "pub": "Offworld",
+  "notes": "PvE Co-op",
+  "screenshot": "images/screenshots/squad.jpg",
+  "logo": "images/logos/squad.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/393380",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

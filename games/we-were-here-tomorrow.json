@@ -1,0 +1,32 @@
+{
+  "id": "we-were-here-tomorrow",
+  "name": "We Were Here Tomorrow",
+  "year": "2026",
+  "platform": "",
+  "release": "October 2026",
+  "size": "",
+  "hltb": "",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "",
+  "screenshot": "images/screenshots/we-were-here-tomorrow.jpg",
+  "logo": "images/logos/we-were-here-tomorrow.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2315050",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

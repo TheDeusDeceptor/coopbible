@@ -1,0 +1,32 @@
+{
+  "id": "godfall-ultimate-edition",
+  "name": "Godfall Ultimate Edition",
+  "year": "2022",
+  "platform": "",
+  "release": "07.04.2022",
+  "size": "50 GB",
+  "hltb": "Main: 11, +Extra: 21",
+  "dev": "Counterplay Games Inc",
+  "pub": "Gearbox Publishing",
+  "notes": "ALWAYS ONLINE SINGLEPLAYER  w/ CO-OP & MATCHMAKING SERVER WAS SHUTDOWN  \nRANDY PITCHFORD MOMENT🤪\n\n\n\n\n\n\n\nfor historical purpose...",
+  "screenshot": "images/screenshots/godfall-ultimate-edition.jpg",
+  "logo": "images/logos/godfall-ultimate-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/928960",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

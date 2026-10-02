@@ -1,0 +1,26 @@
+{
+  "id": "rush-rally-3",
+  "name": "Rush Rally 3",
+  "year": "2022",
+  "platform": "",
+  "release": "24.11.2022",
+  "size": "0.3 GB",
+  "hltb": "Main: 15",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/rush-rally-3.jpg",
+  "logo": "images/logos/rush-rally-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

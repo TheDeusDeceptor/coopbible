@@ -1,0 +1,32 @@
+{
+  "id": "heroes-of-hammerwatch-ii",
+  "name": "Heroes of Hammerwatch II",
+  "year": "2025",
+  "platform": "",
+  "release": "14.01.2025",
+  "size": "1 GB",
+  "hltb": "Main: 11, +Extra: 19",
+  "dev": "Crackshell",
+  "pub": "Team17",
+  "notes": "",
+  "screenshot": "images/screenshots/heroes-of-hammerwatch-ii.jpg",
+  "logo": "images/logos/heroes-of-hammerwatch-ii.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/619820",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

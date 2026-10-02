@@ -1,0 +1,26 @@
+{
+  "id": "yakuza-kiwami-2",
+  "name": "Yakuza Kiwami 2",
+  "year": "2019",
+  "platform": "PC",
+  "release": "09.05.2019",
+  "size": "",
+  "hltb": "Main: 19, +Extra: 36",
+  "dev": "Ryu ga Gotoku Studio",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/yakuza-kiwami-2.jpg",
+  "logo": "images/logos/yakuza-kiwami-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

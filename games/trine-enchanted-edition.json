@@ -1,0 +1,32 @@
+{
+  "id": "trine-enchanted-edition",
+  "name": "Trine Enchanted Edition",
+  "year": "2009",
+  "platform": "",
+  "release": "02.07.2009",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Frozenbyte",
+  "pub": "Frozenbyte",
+  "notes": "READY",
+  "screenshot": "images/screenshots/trine-enchanted-edition.jpg",
+  "logo": "images/logos/trine-enchanted-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/35700",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

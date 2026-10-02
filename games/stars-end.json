@@ -1,0 +1,32 @@
+{
+  "id": "stars-end",
+  "name": "Stars End",
+  "year": "2023",
+  "platform": "",
+  "release": "08.01.2023",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Reverie World Studios",
+  "pub": "indie.io",
+  "notes": "",
+  "screenshot": "images/screenshots/stars-end.jpg",
+  "logo": "images/logos/stars-end.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/623340",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "star-wars-episode-i-racer",
+  "name": "Star Wars: Episode I - Racer",
+  "year": "1999",
+  "platform": "",
+  "release": "17.05.1999",
+  "size": "",
+  "hltb": "",
+  "dev": "LucasArts Entertainment",
+  "pub": "LucasArts Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/star-wars-episode-i-racer.jpg",
+  "logo": "images/logos/star-wars-episode-i-racer.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

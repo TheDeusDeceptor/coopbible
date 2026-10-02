@@ -1,0 +1,32 @@
+{
+  "id": "nuclear-nightmare",
+  "name": "Nuclear Nightmare",
+  "year": "2024",
+  "platform": "",
+  "release": "20.10.2024",
+  "size": "13 GB",
+  "hltb": "Main: 4",
+  "dev": "BG Productions",
+  "pub": "BG Productions",
+  "notes": "",
+  "screenshot": "images/screenshots/nuclear-nightmare.jpg",
+  "logo": "images/logos/nuclear-nightmare.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2909110",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

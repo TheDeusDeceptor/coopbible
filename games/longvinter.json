@@ -1,0 +1,32 @@
+{
+  "id": "longvinter",
+  "name": "Longvinter",
+  "year": "2025",
+  "platform": "",
+  "release": "21.02.2025",
+  "size": "3 GB",
+  "hltb": "Full: 52",
+  "dev": "Uuvana Studios",
+  "pub": "Uuvana Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/longvinter.jpg",
+  "logo": "images/logos/longvinter.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1635450",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

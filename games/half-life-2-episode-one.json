@@ -1,0 +1,26 @@
+{
+  "id": "half-life-2-episode-one",
+  "name": "Half-Life 2: Episode One",
+  "year": "2006",
+  "platform": "",
+  "release": "01.06.2006",
+  "size": "",
+  "hltb": "",
+  "dev": "Valve",
+  "pub": "Valve",
+  "notes": "",
+  "screenshot": "images/screenshots/half-life-2-episode-one.jpg",
+  "logo": "images/logos/half-life-2-episode-one.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

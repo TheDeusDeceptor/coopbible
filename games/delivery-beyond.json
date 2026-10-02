@@ -1,0 +1,32 @@
+{
+  "id": "delivery-beyond",
+  "name": "Delivery & Beyond",
+  "year": "2026",
+  "platform": "",
+  "release": "27.01.2026",
+  "size": "1 GB",
+  "hltb": "",
+  "dev": "FailCake (HyenaQuest)",
+  "pub": "HyenaQuest",
+  "notes": "STEAM\n(free)",
+  "screenshot": "images/screenshots/delivery-beyond.jpg",
+  "logo": "images/logos/delivery-beyond.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3376480",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

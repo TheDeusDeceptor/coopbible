@@ -1,0 +1,26 @@
+{
+  "id": "ct-special-forces-back-to-hell-europe-en-fr-de-es-it-nl-chd",
+  "name": "CT Special Forces - Back to Hell (Europe) (En,Fr,De,Es,It,Nl).chd",
+  "year": "2003",
+  "platform": "psx",
+  "release": "28.11.2003",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "WizarBox",
+  "pub": "Flashpoint",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/ct-special-forces-back-to-hell-europe-en-fr-de-es-it-nl-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

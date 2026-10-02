@@ -1,0 +1,32 @@
+{
+  "id": "left-4-dead",
+  "name": "Left 4 Dead",
+  "year": "2008",
+  "platform": "",
+  "release": "17.11.2008",
+  "size": "7.5 GB",
+  "hltb": "Main: 7, +Extra: 19",
+  "dev": "Valve",
+  "pub": "Valve",
+  "notes": "",
+  "screenshot": "images/screenshots/left-4-dead.jpg",
+  "logo": "images/logos/left-4-dead.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/500",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

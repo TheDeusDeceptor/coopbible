@@ -1,0 +1,26 @@
+{
+  "id": "rocky-legends-usa-chd",
+  "name": "Rocky Legends (USA).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "28.09.2004",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Venom Games",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/rocky-legends-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

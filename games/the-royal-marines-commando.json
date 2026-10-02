@@ -1,0 +1,26 @@
+{
+  "id": "the-royal-marines-commando",
+  "name": "The Royal Marines Commando",
+  "year": "2008",
+  "platform": "PC",
+  "release": "2008.0",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/the-royal-marines-commando.jpg",
+  "logo": "images/logos/the-royal-marines-commando.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "city-interactive",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

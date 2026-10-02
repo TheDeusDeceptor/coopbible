@@ -1,0 +1,32 @@
+{
+  "id": "frog-sqwad",
+  "name": "Frog Sqwad 🐸",
+  "year": "2026",
+  "platform": "",
+  "release": "11.06.2026",
+  "size": "2 GB",
+  "hltb": "",
+  "dev": "Panic Stations",
+  "pub": "Panic Stations",
+  "notes": "Photon Fusion",
+  "screenshot": "images/screenshots/frog-sqwad.jpg",
+  "logo": "images/logos/frog-sqwad.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3989960",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "the-lord-of-the-rings-conquest",
+  "name": "The Lord of the Rings: Conquest",
+  "year": "2009",
+  "platform": "",
+  "release": "13.01.2009",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Pandemic Studios",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/the-lord-of-the-rings-conquest.jpg",
+  "logo": "images/logos/the-lord-of-the-rings-conquest.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings:_Conquest",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

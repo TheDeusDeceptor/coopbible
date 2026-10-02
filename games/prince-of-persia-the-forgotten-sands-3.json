@@ -1,0 +1,26 @@
+{
+  "id": "prince-of-persia-the-forgotten-sands-3",
+  "name": "Prince of Persia: The Forgotten Sands",
+  "year": "2010",
+  "platform": "Wii",
+  "release": "2010.0",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "",
+  "pub": "",
+  "notes": "Somehow it's better version!",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "prince-of-persia",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Somehow it's better version!"
+}

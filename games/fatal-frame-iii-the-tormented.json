@@ -1,0 +1,26 @@
+{
+  "id": "fatal-frame-iii-the-tormented",
+  "name": "Fatal Frame III: The Tormented",
+  "year": "2005",
+  "platform": "PS2",
+  "release": "08.11.2005",
+  "size": "",
+  "hltb": "Main: 15, +Extra: 16",
+  "dev": "Tecmo",
+  "pub": "Tecmo",
+  "notes": "",
+  "screenshot": "images/screenshots/fatal-frame-iii-the-tormented.jpg",
+  "logo": "images/logos/fatal-frame-iii-the-tormented.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "fatal-frame",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

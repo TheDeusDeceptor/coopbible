@@ -1,0 +1,26 @@
+{
+  "id": "prince-of-persia-the-forgotten-sands-1",
+  "name": "Prince of Persia: The Forgotten Sands",
+  "year": "2010",
+  "platform": "",
+  "release": "18.05.2010",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Ubisoft",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/prince-of-persia-the-forgotten-sands-1.jpg",
+  "logo": "images/logos/prince-of-persia-the-forgotten-sands-1.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

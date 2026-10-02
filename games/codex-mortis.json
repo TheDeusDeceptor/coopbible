@@ -1,0 +1,32 @@
+{
+  "id": "codex-mortis",
+  "name": "CODEX MORTIS",
+  "year": "2026",
+  "platform": "",
+  "release": "26.03.2026",
+  "size": "0.1 GB",
+  "hltb": "",
+  "dev": "GROLAF",
+  "pub": "CRUNCHFEST",
+  "notes": "",
+  "screenshot": "images/screenshots/codex-mortis.jpg",
+  "logo": "images/logos/codex-mortis.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4084120",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "polylithic",
+  "name": "Polylithic",
+  "year": "2026",
+  "platform": "",
+  "release": "25.08.2026",
+  "size": "1.5 GB",
+  "hltb": "",
+  "dev": "polyperfect",
+  "pub": "indie.io",
+  "notes": "",
+  "screenshot": "images/screenshots/polylithic.jpg",
+  "logo": "images/logos/polylithic.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1839060",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

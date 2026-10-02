@@ -1,0 +1,26 @@
+{
+  "id": "sniper-elite-v2",
+  "name": "Sniper Elite V2",
+  "year": "2012",
+  "platform": "",
+  "release": "02.05.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Rebellion Developments",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/sniper-elite-v2.jpg",
+  "logo": "images/logos/sniper-elite-v2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

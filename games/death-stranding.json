@@ -1,0 +1,26 @@
+{
+  "id": "death-stranding",
+  "name": "Death Stranding",
+  "year": "2020",
+  "platform": "",
+  "release": "14.07.2020",
+  "size": "",
+  "hltb": "",
+  "dev": "Kojima Productions",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/death-stranding.jpg",
+  "logo": "images/logos/death-stranding.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

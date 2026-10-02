@@ -1,0 +1,26 @@
+{
+  "id": "x-men-origins-wolverine",
+  "name": "X Men Origins Wolverine",
+  "year": "2009",
+  "platform": "",
+  "release": "01.05.2009",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Raven Software",
+  "pub": "1C-SoftClub",
+  "notes": "",
+  "screenshot": "images/screenshots/x-men-origins-wolverine.jpg",
+  "logo": "images/logos/x-men-origins-wolverine.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

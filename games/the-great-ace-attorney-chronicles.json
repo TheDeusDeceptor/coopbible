@@ -1,0 +1,26 @@
+{
+  "id": "the-great-ace-attorney-chronicles",
+  "name": "The Great Ace Attorney Chronicles",
+  "year": "2021",
+  "platform": "",
+  "release": "27.07.2021",
+  "size": "",
+  "hltb": "",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/the-great-ace-attorney-chronicles.jpg",
+  "logo": "images/logos/the-great-ace-attorney-chronicles.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

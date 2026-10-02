@@ -1,0 +1,26 @@
+{
+  "id": "samurai-western-usa-chd",
+  "name": "Samurai Western (USA).chd",
+  "year": "2005",
+  "platform": "ps2",
+  "release": "07.06.2005",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Spike",
+  "pub": "Atlus",
+  "notes": "",
+  "screenshot": "images/screenshots/samurai-western-usa-chd.jpg",
+  "logo": "images/logos/samurai-western-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

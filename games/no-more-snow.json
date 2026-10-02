@@ -1,0 +1,32 @@
+{
+  "id": "no-more-snow",
+  "name": "No More Snow",
+  "year": "2023",
+  "platform": "",
+  "release": "18.12.2023",
+  "size": "1 GB",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "Barzda",
+  "pub": "Barzda",
+  "notes": "",
+  "screenshot": "images/screenshots/no-more-snow.jpg",
+  "logo": "images/logos/no-more-snow.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2244970",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

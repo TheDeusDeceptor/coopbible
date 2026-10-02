@@ -1,0 +1,26 @@
+{
+  "id": "red-faction-guerrilla-re-mars-tered",
+  "name": "Red Faction: Guerrilla (Re-Mars-tered)",
+  "year": "2009",
+  "platform": "PC",
+  "release": "15.09.2009",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 19",
+  "dev": "Volition",
+  "pub": "THQ",
+  "notes": "",
+  "screenshot": "images/screenshots/red-faction-guerrilla-re-mars-tered.jpg",
+  "logo": "images/logos/red-faction-guerrilla-re-mars-tered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "red-faction",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

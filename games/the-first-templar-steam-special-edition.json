@@ -1,0 +1,32 @@
+{
+  "id": "the-first-templar-steam-special-edition",
+  "name": "The First Templar - Steam Special Edition",
+  "year": "2011",
+  "platform": "",
+  "release": "12.05.2011",
+  "size": "5 GB",
+  "hltb": "",
+  "dev": "Haemimont Games",
+  "pub": "Kalypso Media Digital",
+  "notes": "Developer server authorization required",
+  "screenshot": "images/screenshots/the-first-templar-steam-special-edition.jpg",
+  "logo": "images/logos/the-first-templar-steam-special-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/57680",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

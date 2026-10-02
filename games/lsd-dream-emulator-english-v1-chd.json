@@ -1,0 +1,26 @@
+{
+  "id": "lsd-dream-emulator-english-v1-chd",
+  "name": "LSD - Dream Emulator (English v1).CHD",
+  "year": "1998",
+  "platform": "psx",
+  "release": "22.10.1998",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "OutSide Directors Company",
+  "pub": "Asmik Ace Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/lsd-dream-emulator-english-v1-chd.jpg",
+  "logo": "images/logos/lsd-dream-emulator-english-v1-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

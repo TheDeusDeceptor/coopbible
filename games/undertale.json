@@ -1,0 +1,26 @@
+{
+  "id": "undertale",
+  "name": "Undertale",
+  "year": "2015",
+  "platform": "switch",
+  "release": "14.09.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Toby Fox",
+  "pub": "Toby Fox",
+  "notes": "",
+  "screenshot": "images/screenshots/undertale.jpg",
+  "logo": "images/logos/undertale.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

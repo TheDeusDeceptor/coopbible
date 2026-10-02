@@ -1,0 +1,32 @@
+{
+  "id": "zero-hour",
+  "name": "Zero Hour",
+  "year": "2024",
+  "platform": "",
+  "release": "09.09.2024",
+  "size": "25 GB",
+  "hltb": "Main: 13",
+  "dev": "AttritoM7 Productions",
+  "pub": "AttritoM7 Productions",
+  "notes": "",
+  "screenshot": "images/screenshots/zero-hour.jpg",
+  "logo": "images/logos/zero-hour.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1359090",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "catherine-classic",
+  "name": "Catherine Classic",
+  "year": "2019",
+  "platform": "",
+  "release": "10.01.2019",
+  "size": "",
+  "hltb": "Main: 13",
+  "dev": "The Eccentric Ape",
+  "pub": "SEGA Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/catherine-classic.jpg",
+  "logo": "images/logos/catherine-classic.png",
+  "links": [],
+  "flags": {
+    "installed": true,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

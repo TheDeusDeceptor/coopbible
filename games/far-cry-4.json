@@ -1,0 +1,26 @@
+{
+  "id": "far-cry-4",
+  "name": "Far Cry 4",
+  "year": "2014",
+  "platform": "",
+  "release": "18.11.2014",
+  "size": "",
+  "hltb": "",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/far-cry-4.jpg",
+  "logo": "images/logos/far-cry-4.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

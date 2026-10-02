@@ -1,0 +1,26 @@
+{
+  "id": "hitman-blood-money",
+  "name": "Hitman: Blood Money",
+  "year": "2007",
+  "platform": "PC",
+  "release": "26.05.2007",
+  "size": "",
+  "hltb": "Main: 12",
+  "dev": "Io-Interactive",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/hitman-blood-money.jpg",
+  "logo": "images/logos/hitman-blood-money.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "hitman",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

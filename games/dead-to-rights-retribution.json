@@ -1,0 +1,26 @@
+{
+  "id": "dead-to-rights-retribution",
+  "name": "Dead to Rights: Retribution",
+  "year": "2010",
+  "platform": "PS3",
+  "release": "23.04.2010",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Volatile Games",
+  "pub": "Namco Bandai",
+  "notes": "",
+  "screenshot": "images/screenshots/dead-to-rights-retribution.jpg",
+  "logo": "images/logos/dead-to-rights-retribution.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "dead-to-rights",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

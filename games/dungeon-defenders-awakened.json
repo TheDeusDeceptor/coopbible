@@ -1,0 +1,32 @@
+{
+  "id": "dungeon-defenders-awakened",
+  "name": "Dungeon Defenders: Awakened",
+  "year": "2020",
+  "platform": "",
+  "release": "28.05.2020",
+  "size": "30 GB",
+  "hltb": "Main: 24, +Extra: 50",
+  "dev": "Chromatic Games",
+  "pub": "Chromatic Games",
+  "notes": "",
+  "screenshot": "images/screenshots/dungeon-defenders-awakened.jpg",
+  "logo": "images/logos/dungeon-defenders-awakened.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1101190",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

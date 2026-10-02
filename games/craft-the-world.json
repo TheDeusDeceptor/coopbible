@@ -1,0 +1,32 @@
+{
+  "id": "craft-the-world",
+  "name": "Craft The World",
+  "year": "2014",
+  "platform": "",
+  "release": "24.11.2014",
+  "size": "2 GB",
+  "hltb": "Main: 33, +Extra: 84",
+  "dev": "Dekovir Entertainment",
+  "pub": "Dekovir Ltd",
+  "notes": "",
+  "screenshot": "images/screenshots/craft-the-world.jpg",
+  "logo": "images/logos/craft-the-world.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/248390",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rhythm-heaven-fever",
+  "name": "Rhythm Heaven Fever",
+  "year": "2012",
+  "platform": "Wii",
+  "release": "13.02.2012",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Nintendo SPD",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/rhythm-heaven-fever.jpg",
+  "logo": "images/logos/rhythm-heaven-fever.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "rhythm-heaven",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

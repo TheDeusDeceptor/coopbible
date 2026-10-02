@@ -1,0 +1,26 @@
+{
+  "id": "bionic-commando-rearmed",
+  "name": "Bionic Commando Rearmed",
+  "year": "2008",
+  "platform": "",
+  "release": "14.08.2008",
+  "size": "0.6 GB",
+  "hltb": "Main: 5, +Extra: 9",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/bionic-commando-rearmed.jpg",
+  "logo": "images/logos/bionic-commando-rearmed.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

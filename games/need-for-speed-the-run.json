@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-the-run",
+  "name": "Need for Speed: The Run",
+  "year": "2011",
+  "platform": "PC",
+  "release": "2011.0",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Electronic Arts Black Box",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-the-run.jpg",
+  "logo": "images/logos/need-for-speed-the-run.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

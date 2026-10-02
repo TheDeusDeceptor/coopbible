@@ -1,0 +1,26 @@
+{
+  "id": "monster-hunter-usa-chd",
+  "name": "Monster Hunter (USA).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "11.03.2004",
+  "size": "",
+  "hltb": "Main: 43",
+  "dev": "Capcom Production Studio 1",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/monster-hunter-usa-chd.jpg",
+  "logo": "images/logos/monster-hunter-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

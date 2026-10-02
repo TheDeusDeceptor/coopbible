@@ -1,0 +1,26 @@
+{
+  "id": "f-e-a-r-perseus-mandate",
+  "name": "F.E.A.R. Perseus Mandate",
+  "year": "2007",
+  "platform": "",
+  "release": "06.11.2007",
+  "size": "",
+  "hltb": "",
+  "dev": "Monolith Productions",
+  "pub": "Sierra Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/f-e-a-r-perseus-mandate.jpg",
+  "logo": "images/logos/f-e-a-r-perseus-mandate.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

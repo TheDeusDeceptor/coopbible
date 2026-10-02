@@ -1,0 +1,26 @@
+{
+  "id": "shellshock-nam-67",
+  "name": "Shellshock: Nam '67",
+  "year": "2004",
+  "platform": "",
+  "release": "03.09.2004",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Guerrilla",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/shellshock-nam-67.jpg",
+  "logo": "images/logos/shellshock-nam-67.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "siren",
+  "name": "Siren",
+  "logo": "",
+  "main": 45,
+  "extra": 54,
+  "order": [
+    "siren",
+    "forbidden-siren-2",
+    "siren-blood-curse"
+  ]
+}

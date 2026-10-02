@@ -1,0 +1,32 @@
+{
+  "id": "dark-souls-iii-seamless-co-op",
+  "name": "Dark Souls III \n\nSeamless Co-op",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "",
+  "hltb": "Main: 31, +Extra: 48",
+  "dev": "",
+  "pub": "",
+  "notes": "Version: 0.1.1 Alpha",
+  "screenshot": "images/screenshots/dark-souls-iii-seamless-co-op.jpg",
+  "logo": "images/logos/dark-souls-iii-seamless-co-op.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/darksouls3/mods/1895",
+      "icon": "nexus"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "clive-barker-s-undying",
+  "name": "Clive Barker's Undying",
+  "year": "2001",
+  "platform": "",
+  "release": "18.02.2001",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Electronic Arts Los Angeles",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/clive-barker-s-undying.jpg",
+  "logo": "images/logos/clive-barker-s-undying.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ratchet-clank",
+  "name": "Ratchet & Clank",
+  "logo": "",
+  "main": 121,
+  "extra": 157,
+  "order": [
+    "ratchet-clank-2",
+    "ratchet-clank-going-commando",
+    "ratchet-clank-up-your-arsenal",
+    "ratchet-deadlocked",
+    "ratchet-clank-size-matters",
+    "ratchet-clank-future-tools-of-destruction",
+    "secret-agent-clank",
+    "ratchet-clank-future-quest-for-booty",
+    "ratchet-clank-future-a-crack-in-time",
+    "ratchet-clank-all-4-one",
+    "ratchet-clank-full-frontal-assault",
+    "ratchet-clank-into-the-nexus",
+    "ratchet-clank-3",
+    "ratchet-clank-rift-apart"
+  ]
+}

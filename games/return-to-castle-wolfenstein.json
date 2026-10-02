@@ -1,0 +1,32 @@
+{
+  "id": "return-to-castle-wolfenstein",
+  "name": "Return to Castle Wolfenstein",
+  "year": "2007",
+  "platform": "",
+  "release": "03.08.2007",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Gray Matter Studios",
+  "pub": "Bethesda Softworks",
+  "notes": "via RealRTCW",
+  "screenshot": "images/screenshots/return-to-castle-wolfenstein.jpg",
+  "logo": "images/logos/return-to-castle-wolfenstein.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/9010",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

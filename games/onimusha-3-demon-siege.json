@@ -1,0 +1,26 @@
+{
+  "id": "onimusha-3-demon-siege",
+  "name": "Onimusha 3: Demon Siege",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "2004.0",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 13",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/onimusha-3-demon-siege.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "onimusha",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

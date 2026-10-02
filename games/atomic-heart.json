@@ -1,0 +1,26 @@
+{
+  "id": "atomic-heart",
+  "name": "Atomic Heart",
+  "year": "2023",
+  "platform": "",
+  "release": "20.02.2023",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "Focus Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/atomic-heart.jpg",
+  "logo": "images/logos/atomic-heart.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "roadblasters",
+  "name": "RoadBlasters",
+  "year": "1987",
+  "platform": "",
+  "release": "01.01.1987",
+  "size": "",
+  "hltb": "",
+  "dev": "Atari Games",
+  "pub": "Atari Games",
+  "notes": "",
+  "screenshot": "images/screenshots/roadblasters.jpg",
+  "logo": "images/logos/roadblasters.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

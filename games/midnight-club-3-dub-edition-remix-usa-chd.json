@@ -1,0 +1,26 @@
+{
+  "id": "midnight-club-3-dub-edition-remix-usa-chd",
+  "name": "Midnight Club 3 - DUB Edition Remix (USA).chd",
+  "year": "2006",
+  "platform": "ps2",
+  "release": "13.03.2006",
+  "size": "",
+  "hltb": "Main: 21",
+  "dev": "Rockstar San Diego",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/midnight-club-3-dub-edition-remix-usa-chd.jpg",
+  "logo": "images/logos/midnight-club-3-dub-edition-remix-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

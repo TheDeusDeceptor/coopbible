@@ -1,0 +1,16 @@
+{
+  "id": "syphon-filter",
+  "name": "Syphon Filter",
+  "logo": "",
+  "main": 88,
+  "extra": 112,
+  "order": [
+    "syphon-filter",
+    "syphon-filter-2",
+    "syphon-filter-3",
+    "syphon-filter-the-omega-strain",
+    "syphon-filter-dark-mirror",
+    "syphon-filter-logan-s-shadow",
+    "days-gone"
+  ]
+}

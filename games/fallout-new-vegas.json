@@ -1,0 +1,26 @@
+{
+  "id": "fallout-new-vegas",
+  "name": "Fallout: New Vegas",
+  "year": "2010",
+  "platform": "",
+  "release": "19.10.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Obsidian Entertainment",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "screenshot": "images/screenshots/fallout-new-vegas.jpg",
+  "logo": "images/logos/fallout-new-vegas.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

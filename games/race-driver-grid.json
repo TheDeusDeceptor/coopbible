@@ -1,0 +1,26 @@
+{
+  "id": "race-driver-grid",
+  "name": "Race Driver: Grid",
+  "year": "2008",
+  "platform": "",
+  "release": "02.06.2008",
+  "size": "",
+  "hltb": "",
+  "dev": "Codemasters",
+  "pub": "Codemasters",
+  "notes": "",
+  "screenshot": "images/screenshots/race-driver-grid.jpg",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

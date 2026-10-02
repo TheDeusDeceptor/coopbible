@@ -1,0 +1,26 @@
+{
+  "id": "the-callisto-protocol",
+  "name": "The Callisto Protocol",
+  "year": "2022",
+  "platform": "",
+  "release": "02.12.2022",
+  "size": "",
+  "hltb": "",
+  "dev": "Striking Distance Studios",
+  "pub": "Skybound Games",
+  "notes": "",
+  "screenshot": "images/screenshots/the-callisto-protocol.jpg",
+  "logo": "images/logos/the-callisto-protocol.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

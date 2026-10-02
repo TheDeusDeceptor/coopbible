@@ -1,0 +1,32 @@
+{
+  "id": "outward-definitive-edition",
+  "name": "Outward Definitive Edition",
+  "year": "2022",
+  "platform": "",
+  "release": "17.05.2022",
+  "size": "51 GB",
+  "hltb": "Main: 33, +Extra: 52",
+  "dev": "Nine Dots Studio",
+  "pub": "Prime Matter, Deep Silver",
+  "notes": "+ The Soroboreans\n\n     - The Three Brothers",
+  "screenshot": "images/screenshots/outward-definitive-edition.jpg",
+  "logo": "images/logos/outward-definitive-edition.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/794260",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

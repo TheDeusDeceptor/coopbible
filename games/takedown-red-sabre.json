@@ -1,0 +1,32 @@
+{
+  "id": "takedown-red-sabre",
+  "name": "Takedown: Red Sabre",
+  "year": "2014",
+  "platform": "",
+  "release": "10.02.2014",
+  "size": "3 GB",
+  "hltb": "Main: 6",
+  "dev": "Serellan LLC",
+  "pub": "505 Games",
+  "notes": "",
+  "screenshot": "images/screenshots/takedown-red-sabre.jpg",
+  "logo": "images/logos/takedown-red-sabre.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/236510",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

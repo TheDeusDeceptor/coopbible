@@ -1,0 +1,32 @@
+{
+  "id": "the-mound-omen-of-cthulhu",
+  "name": "The Mound: Omen of Cthulhu",
+  "year": "2026",
+  "platform": "",
+  "release": "15.07.2026",
+  "size": "23 GB",
+  "hltb": "Main: 35",
+  "dev": "ACE Team",
+  "pub": "Nacon",
+  "notes": "",
+  "screenshot": "images/screenshots/the-mound-omen-of-cthulhu.jpg",
+  "logo": "images/logos/the-mound-omen-of-cthulhu.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2569760",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

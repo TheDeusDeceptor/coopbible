@@ -1,0 +1,32 @@
+{
+  "id": "phasmophobia",
+  "name": "Phasmophobia",
+  "year": "1970",
+  "platform": "",
+  "release": "01.01.1970",
+  "size": "21 GB",
+  "hltb": "Main: 20, +Extra: 42",
+  "dev": "Kinetic Games",
+  "pub": "Kinetic Games",
+  "notes": "",
+  "screenshot": "images/screenshots/phasmophobia.jpg",
+  "logo": "images/logos/phasmophobia.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/739630",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

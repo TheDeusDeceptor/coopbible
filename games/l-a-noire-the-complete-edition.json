@@ -1,0 +1,26 @@
+{
+  "id": "l-a-noire-the-complete-edition",
+  "name": "L.A. Noire: The Complete Edition",
+  "year": "2011",
+  "platform": "",
+  "release": "15.11.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Team Bondi",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/l-a-noire-the-complete-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

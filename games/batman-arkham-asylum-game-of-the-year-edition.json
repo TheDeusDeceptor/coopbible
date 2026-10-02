@@ -1,0 +1,26 @@
+{
+  "id": "batman-arkham-asylum-game-of-the-year-edition",
+  "name": "Batman: Arkham Asylum - Game of the Year Edition",
+  "year": "2010",
+  "platform": "",
+  "release": "10.05.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "Rocksteady Studios",
+  "pub": "Warner Bros. Interactive Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/batman-arkham-asylum-game-of-the-year-edition.jpg",
+  "logo": "images/logos/batman-arkham-asylum-game-of-the-year-edition.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

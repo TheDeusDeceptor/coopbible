@@ -1,0 +1,26 @@
+{
+  "id": "brink",
+  "name": "Brink",
+  "year": "2011",
+  "platform": "",
+  "release": "10.05.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Splash Damage",
+  "pub": "Bethesda",
+  "notes": "",
+  "screenshot": "images/screenshots/brink.jpg",
+  "logo": "images/logos/brink.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

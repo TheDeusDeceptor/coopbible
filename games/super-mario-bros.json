@@ -1,0 +1,26 @@
+{
+  "id": "super-mario-bros",
+  "name": "Super Mario Bros.",
+  "year": "2019",
+  "platform": "",
+  "release": "18.04.2019",
+  "size": "",
+  "hltb": "",
+  "dev": "ZeroPaige",
+  "pub": "ZeroPaige",
+  "notes": "",
+  "screenshot": "images/screenshots/super-mario-bros.jpg",
+  "logo": "images/logos/super-mario-bros.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

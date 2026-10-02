@@ -1,0 +1,26 @@
+{
+  "id": "what-remains-of-edith-finch",
+  "name": "What Remains of Edith Finch",
+  "year": "2017",
+  "platform": "",
+  "release": "25.04.2017",
+  "size": "",
+  "hltb": "",
+  "dev": "Giant Sparrow",
+  "pub": "Annapurna Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/what-remains-of-edith-finch.jpg",
+  "logo": "images/logos/what-remains-of-edith-finch.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

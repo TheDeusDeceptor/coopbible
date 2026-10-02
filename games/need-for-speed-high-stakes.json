@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-high-stakes",
+  "name": "Need for Speed: High Stakes",
+  "year": "1999",
+  "platform": "PSX",
+  "release": "24.03.1999",
+  "size": "",
+  "hltb": "Main: 18, +Extra: 22",
+  "dev": "Electronic Arts Canada",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-high-stakes.jpg",
+  "logo": "images/logos/need-for-speed-high-stakes.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

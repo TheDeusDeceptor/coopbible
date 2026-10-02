@@ -1,0 +1,26 @@
+{
+  "id": "gran-turismo-3-a-spec-usa-v1-10-chd",
+  "name": "Gran Turismo 3 - A-Spec (USA) (v1.10).chd",
+  "year": "2001",
+  "platform": "ps2",
+  "release": "28.04.2001",
+  "size": "",
+  "hltb": "Main: 40",
+  "dev": "Polyphony Digital",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/gran-turismo-3-a-spec-usa-v1-10-chd.jpg",
+  "logo": "images/logos/gran-turismo-3-a-spec-usa-v1-10-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

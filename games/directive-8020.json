@@ -1,0 +1,32 @@
+{
+  "id": "directive-8020",
+  "name": "Directive 8020",
+  "year": "2026",
+  "platform": "",
+  "release": "12.05.2026",
+  "size": "40 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Supermassive Games",
+  "pub": "Supermassive Games",
+  "notes": "",
+  "screenshot": "images/screenshots/directive-8020.jpg",
+  "logo": "images/logos/directive-8020.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2255370",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "fumes",
+  "name": "FUMES",
+  "year": "2025",
+  "platform": "",
+  "release": "28.07.2025",
+  "size": "0.4 GB",
+  "hltb": "",
+  "dev": "FUMES team",
+  "pub": "FUMES team",
+  "notes": "",
+  "screenshot": "images/screenshots/fumes.jpg",
+  "logo": "images/logos/fumes.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1920430",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

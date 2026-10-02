@@ -1,0 +1,32 @@
+{
+  "id": "wild-hearts",
+  "name": "WILD HEARTS™",
+  "year": "2023",
+  "platform": "",
+  "release": "16.02.2023",
+  "size": "80 GB",
+  "hltb": "Main: 39, +Extra: 52",
+  "dev": "KOEI TECMO GAMES CO., LTD.",
+  "pub": "Electronic Arts",
+  "notes": "🅱️enuvo + Origin",
+  "screenshot": "images/screenshots/wild-hearts.jpg",
+  "logo": "images/logos/wild-hearts.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1938010",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

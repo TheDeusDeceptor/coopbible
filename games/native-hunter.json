@@ -1,0 +1,32 @@
+{
+  "id": "native-hunter",
+  "name": "Native Hunter",
+  "year": "2025",
+  "platform": "",
+  "release": "21.12.2025",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "A.P.S",
+  "pub": "A.P.S",
+  "notes": "",
+  "screenshot": "images/screenshots/native-hunter.jpg",
+  "logo": "images/logos/native-hunter.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2234640",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

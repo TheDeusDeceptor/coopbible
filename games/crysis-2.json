@@ -1,0 +1,26 @@
+{
+  "id": "crysis-2",
+  "name": "Crysis 2",
+  "year": "2011",
+  "platform": "",
+  "release": "22.03.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Crytek",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/crysis-2.jpg",
+  "logo": "images/logos/crysis-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

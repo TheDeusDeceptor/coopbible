@@ -1,0 +1,26 @@
+{
+  "id": "state-of-decay",
+  "name": "State of Decay",
+  "year": "2013",
+  "platform": "",
+  "release": "05.06.2013",
+  "size": "",
+  "hltb": "",
+  "dev": "Undead Labs",
+  "pub": "Microsoft Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/state-of-decay.jpg",
+  "logo": "images/logos/state-of-decay.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

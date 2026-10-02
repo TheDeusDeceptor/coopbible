@@ -1,0 +1,32 @@
+{
+  "id": "dragonhold",
+  "name": "Dragonhold",
+  "year": "2025",
+  "platform": "",
+  "release": "10.11.2025",
+  "size": "73 GB",
+  "hltb": "",
+  "dev": "Exis Games",
+  "pub": "Exis Games",
+  "notes": "",
+  "screenshot": "images/screenshots/dragonhold.jpg",
+  "logo": "images/logos/dragonhold.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1510330",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

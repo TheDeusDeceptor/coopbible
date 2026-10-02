@@ -1,0 +1,26 @@
+{
+  "id": "god-of-war-betrayal",
+  "name": "God of War: Betrayal",
+  "year": "2007",
+  "platform": "Java",
+  "release": "20.06.2007",
+  "size": "",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "Sony Online Entertainment",
+  "pub": "Sony Pictures Digital",
+  "notes": "*burp*",
+  "screenshot": "images/screenshots/god-of-war-betrayal.jpg",
+  "logo": "images/logos/god-of-war-betrayal.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "god-of-war",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "*burp*"
+}

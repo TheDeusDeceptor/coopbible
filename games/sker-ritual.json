@@ -1,0 +1,32 @@
+{
+  "id": "sker-ritual",
+  "name": "Sker Ritual",
+  "year": "2024",
+  "platform": "",
+  "release": "18.04.2024",
+  "size": "15 GB",
+  "hltb": "Main: 9, +Extra: 14",
+  "dev": "Wales Interactive",
+  "pub": "Wales Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/sker-ritual.jpg",
+  "logo": "images/logos/sker-ritual.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1492070",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "like-a-dragon-ishin",
+  "name": "Like a Dragon: Ishin!",
+  "year": "2023",
+  "platform": "PC",
+  "release": "21.02.2023",
+  "size": "",
+  "hltb": "Main: 24, +Extra: 45",
+  "dev": "",
+  "pub": "Sega of America",
+  "notes": "",
+  "screenshot": "images/screenshots/like-a-dragon-ishin.jpg",
+  "logo": "images/logos/like-a-dragon-ishin.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "life-is-strange-remastered-collection",
+  "name": "Life Is Strange (Remastered Collection)",
+  "year": "2015",
+  "platform": "PC",
+  "release": "30.01.2015",
+  "size": "",
+  "hltb": "Main: 20, +Extra: 23",
+  "dev": "DONTNOD Entertainment",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/life-is-strange-remastered-collection.jpg",
+  "logo": "images/logos/life-is-strange-remastered-collection.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "life-is-strange",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "far-cry-6",
+  "name": "Far Cry® 6",
+  "year": "2023",
+  "platform": "",
+  "release": "11.05.2023",
+  "size": "170 GB",
+  "hltb": "Main: 25, +Extra: 42",
+  "dev": "Ubisoft Toronto, Ubisoft Montreal, Ubisoft Kyiv, Ubisoft Shanghai, Ubisoft Berlin",
+  "pub": "Ubisoft",
+  "notes": "+ Vaas:Insanity\n\n     + Pagan:Control\n\n     + Joseph:Collapse",
+  "screenshot": "images/screenshots/far-cry-6.jpg",
+  "logo": "images/logos/far-cry-6.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2369390",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

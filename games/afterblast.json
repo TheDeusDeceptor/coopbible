@@ -1,0 +1,32 @@
+{
+  "id": "afterblast",
+  "name": "AFTERBLAST",
+  "year": "2025",
+  "platform": "",
+  "release": "26.11.2025",
+  "size": "6 GB",
+  "hltb": "",
+  "dev": "Lumino Games",
+  "pub": "Lumino Games",
+  "notes": "",
+  "screenshot": "images/screenshots/afterblast.jpg",
+  "logo": "images/logos/afterblast.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1338490",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "risen-2-dark-waters",
+  "name": "Risen 2: Dark Waters",
+  "year": "2012",
+  "platform": "",
+  "release": "23.04.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Piranha Bytes",
+  "pub": "Deep Silver",
+  "notes": "",
+  "screenshot": "images/screenshots/risen-2-dark-waters.jpg",
+  "logo": "images/logos/risen-2-dark-waters.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

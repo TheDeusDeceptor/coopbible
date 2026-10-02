@@ -1,0 +1,32 @@
+{
+  "id": "samurai-pizza-cats-blast-from-the-past",
+  "name": "Samurai Pizza Cats: Blast from the Past!",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "BLAST ZERO",
+  "pub": "Red Dunes Games",
+  "notes": "",
+  "screenshot": "images/screenshots/samurai-pizza-cats-blast-from-the-past.jpg",
+  "logo": "images/logos/samurai-pizza-cats-blast-from-the-past.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2413800",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

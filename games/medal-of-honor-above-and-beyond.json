@@ -1,0 +1,26 @@
+{
+  "id": "medal-of-honor-above-and-beyond",
+  "name": "Medal of Honor: Above and Beyond",
+  "year": "2020",
+  "platform": "PC-VR",
+  "release": "10.12.2020",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 16",
+  "dev": "Respawn Entertainment",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/medal-of-honor-above-and-beyond.jpg",
+  "logo": "images/logos/medal-of-honor-above-and-beyond.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "medal-of-honor",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

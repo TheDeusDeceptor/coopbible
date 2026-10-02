@@ -1,0 +1,26 @@
+{
+  "id": "warsow",
+  "name": "Warsow",
+  "year": "2012",
+  "platform": "",
+  "release": "07.10.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Chasseur De Bots",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/warsow.jpg",
+  "logo": "images/logos/warsow.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

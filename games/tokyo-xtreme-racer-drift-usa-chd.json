@@ -1,0 +1,26 @@
+{
+  "id": "tokyo-xtreme-racer-drift-usa-chd",
+  "name": "Tokyo Xtreme Racer - Drift (USA).chd",
+  "year": "2003",
+  "platform": "ps2",
+  "release": "27.02.2003",
+  "size": "",
+  "hltb": "Sides: 25",
+  "dev": "Genki",
+  "pub": "Crave Entertainment",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/tokyo-xtreme-racer-drift-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

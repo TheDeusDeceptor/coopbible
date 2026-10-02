@@ -1,0 +1,26 @@
+{
+  "id": "neighbours-back-from-hell",
+  "name": "Neighbours back From Hell",
+  "year": "2020",
+  "platform": "",
+  "release": "07.10.2020",
+  "size": "4 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "THQ Nordic",
+  "pub": "HandyGames",
+  "notes": "",
+  "screenshot": "images/screenshots/neighbours-back-from-hell.jpg",
+  "logo": "images/logos/neighbours-back-from-hell.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

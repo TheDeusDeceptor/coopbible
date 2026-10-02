@@ -1,0 +1,32 @@
+{
+  "id": "congo",
+  "name": "Congo",
+  "year": "2016",
+  "platform": "",
+  "release": "21.03.2016",
+  "size": "6.8 GB",
+  "hltb": "",
+  "dev": "Big Red Eight",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/congo.jpg",
+  "logo": "images/logos/congo.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/317530",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

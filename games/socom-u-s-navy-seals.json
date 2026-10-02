@@ -1,0 +1,26 @@
+{
+  "id": "socom-u-s-navy-seals",
+  "name": "SOCOM U.S. Navy SEALs",
+  "year": "2002",
+  "platform": "PS2",
+  "release": "27.08.2002",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Zipper Interactive",
+  "pub": "Sony Computer Entertainment Europe",
+  "notes": "",
+  "screenshot": "images/screenshots/socom-u-s-navy-seals.jpg",
+  "logo": "images/logos/socom-u-s-navy-seals.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "socom",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

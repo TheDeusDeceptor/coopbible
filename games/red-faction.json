@@ -1,0 +1,26 @@
+{
+  "id": "red-faction",
+  "name": "Red Faction",
+  "year": "2003",
+  "platform": "PC",
+  "release": "10.12.2003",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Monkeystone",
+  "pub": "THQ Wireless",
+  "notes": "",
+  "screenshot": "images/screenshots/red-faction.png",
+  "logo": "images/logos/red-faction.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "red-faction",
+  "series_status": "rerun",
+  "series_color": null,
+  "series_note": null
+}

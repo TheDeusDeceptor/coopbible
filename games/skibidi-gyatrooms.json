@@ -1,0 +1,32 @@
+{
+  "id": "skibidi-gyatrooms",
+  "name": "SKIBIDI GYATROOMS",
+  "year": "2025",
+  "platform": "",
+  "release": "20.01.2025",
+  "size": "0.5 GB",
+  "hltb": "Full: 4",
+  "dev": "FoodWithoutTaste, Shinok",
+  "pub": "HeartstuckStudios",
+  "notes": "",
+  "screenshot": "images/screenshots/skibidi-gyatrooms.jpg",
+  "logo": "images/logos/skibidi-gyatrooms.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3288600",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

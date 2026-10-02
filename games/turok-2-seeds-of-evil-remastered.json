@@ -1,0 +1,26 @@
+{
+  "id": "turok-2-seeds-of-evil-remastered",
+  "name": "Turok 2: Seeds of Evil (Remastered)",
+  "year": "1998",
+  "platform": "PC",
+  "release": "10.12.1998",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 15",
+  "dev": "Iguana Entertainment",
+  "pub": "Acclaim Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/turok-2-seeds-of-evil-remastered.jpg",
+  "logo": "images/logos/turok-2-seeds-of-evil-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "turok",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

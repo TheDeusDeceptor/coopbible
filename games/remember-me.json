@@ -1,0 +1,26 @@
+{
+  "id": "remember-me",
+  "name": "Remember Me",
+  "year": "2013",
+  "platform": "",
+  "release": "03.06.2013",
+  "size": "9 GB",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "DONTNOD Entertainment",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/remember-me.jpg",
+  "logo": "images/logos/remember-me.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

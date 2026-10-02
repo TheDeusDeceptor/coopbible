@@ -1,0 +1,26 @@
+{
+  "id": "pok-mon-black-version-2",
+  "name": "Pokémon Black Version 2",
+  "year": "2012",
+  "platform": "",
+  "release": "23.06.2012",
+  "size": "",
+  "hltb": "",
+  "dev": "Game Freak",
+  "pub": "Nintendo",
+  "notes": "",
+  "screenshot": "images/screenshots/pok-mon-black-version-2.jpg",
+  "logo": "images/logos/pok-mon-black-version-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

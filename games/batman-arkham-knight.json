@@ -1,0 +1,26 @@
+{
+  "id": "batman-arkham-knight",
+  "name": "Batman: Arkham Knight",
+  "year": "2015",
+  "platform": "",
+  "release": "23.06.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Rocksteady Studios",
+  "pub": "Warner Bros. Interactive Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/batman-arkham-knight.jpg",
+  "logo": "images/logos/batman-arkham-knight.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

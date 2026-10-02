@@ -1,0 +1,26 @@
+{
+  "id": "jackie-chan-s-action-kung-fu",
+  "name": "Jackie Chan's Action Kung Fu",
+  "year": "1991",
+  "platform": "",
+  "release": "18.01.1991",
+  "size": "",
+  "hltb": "",
+  "dev": "Now Production",
+  "pub": "Hudson Soft",
+  "notes": "",
+  "screenshot": "images/screenshots/jackie-chan-s-action-kung-fu.jpg",
+  "logo": "images/logos/jackie-chan-s-action-kung-fu.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

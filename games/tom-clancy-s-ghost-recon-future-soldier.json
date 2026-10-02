@@ -1,0 +1,32 @@
+{
+  "id": "tom-clancy-s-ghost-recon-future-soldier",
+  "name": "Tom Clancy's Ghost Recon: Future Soldier™",
+  "year": "2012",
+  "platform": "",
+  "release": "26.06.2012",
+  "size": "25 GB",
+  "hltb": "Main: 11, +Extra: 13",
+  "dev": "Ubisoft Paris, Red Storm Entertainment",
+  "pub": "Ubisoft",
+  "notes": "+ Raven Strike",
+  "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-future-soldier.jpg",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-future-soldier.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/212630",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

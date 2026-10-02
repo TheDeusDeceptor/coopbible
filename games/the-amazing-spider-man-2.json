@@ -1,0 +1,26 @@
+{
+  "id": "the-amazing-spider-man-2",
+  "name": "The Amazing Spider Man 2",
+  "year": "2014",
+  "platform": "",
+  "release": "29.04.2014",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 12",
+  "dev": "Beenox",
+  "pub": "Activision",
+  "notes": "",
+  "screenshot": "images/screenshots/the-amazing-spider-man-2.jpg",
+  "logo": "images/logos/the-amazing-spider-man-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

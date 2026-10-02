@@ -1,0 +1,32 @@
+{
+  "id": "portal-2",
+  "name": "Portal 2",
+  "year": "2011",
+  "platform": "",
+  "release": "18.04.2011",
+  "size": "8 GB",
+  "hltb": "Main: 11",
+  "dev": "Valve",
+  "pub": "Valve",
+  "notes": "",
+  "screenshot": "images/screenshots/portal-2.jpg",
+  "logo": "images/logos/portal-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/620",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

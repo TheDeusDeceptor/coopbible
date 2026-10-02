@@ -1,0 +1,26 @@
+{
+  "id": "kerbal-space-program",
+  "name": "Kerbal Space Program",
+  "year": "2015",
+  "platform": "",
+  "release": "26.04.2015",
+  "size": "",
+  "hltb": "",
+  "dev": "Squad",
+  "pub": "Private Division",
+  "notes": "",
+  "screenshot": "images/screenshots/kerbal-space-program.jpg",
+  "logo": "images/logos/kerbal-space-program.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mass-effect-2",
+  "name": "Mass Effect 2",
+  "year": "2010",
+  "platform": "",
+  "release": "26.01.2010",
+  "size": "",
+  "hltb": "",
+  "dev": "BioWare",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/mass-effect-2.jpg",
+  "logo": "images/logos/mass-effect-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

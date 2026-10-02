@@ -1,0 +1,26 @@
+{
+  "id": "silent-bomber-usa-chd",
+  "name": "Silent Bomber (USA).chd",
+  "year": "1999",
+  "platform": "psx",
+  "release": "28.10.1999",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "CyberConnect",
+  "pub": "Bandai",
+  "notes": "",
+  "screenshot": "images/screenshots/silent-bomber-usa-chd.jpg",
+  "logo": "images/logos/silent-bomber-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

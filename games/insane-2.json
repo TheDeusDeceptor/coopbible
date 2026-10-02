@@ -1,0 +1,26 @@
+{
+  "id": "insane-2",
+  "name": "Insane 2",
+  "year": "2012",
+  "platform": "",
+  "release": "24.01.2012",
+  "size": "1.2 GB",
+  "hltb": "Main: 14",
+  "dev": "Targem Games",
+  "pub": "Game Factory Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/insane-2.jpg",
+  "logo": "images/logos/insane-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

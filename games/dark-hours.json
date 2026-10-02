@@ -1,0 +1,32 @@
+{
+  "id": "dark-hours",
+  "name": "Dark Hours",
+  "year": "2025",
+  "platform": "",
+  "release": "23.10.2025",
+  "size": "20 GB",
+  "hltb": "",
+  "dev": "Piece of Cake studios",
+  "pub": "Piece of Cake studios",
+  "notes": "",
+  "screenshot": "images/screenshots/dark-hours.jpg",
+  "logo": "images/logos/dark-hours.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2208570",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

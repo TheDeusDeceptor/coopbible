@@ -1,0 +1,32 @@
+{
+  "id": "totally-safe-moon-project",
+  "name": "Totally Safe Moon Project",
+  "year": "",
+  "platform": "",
+  "release": "???",
+  "size": "",
+  "hltb": "",
+  "dev": "Fake Moon",
+  "pub": "rokaplay select",
+  "notes": "",
+  "screenshot": "images/screenshots/totally-safe-moon-project.jpg",
+  "logo": "images/logos/totally-safe-moon-project.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4339680",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

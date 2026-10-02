@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-7-biohazard",
+  "name": "Resident Evil 7: Biohazard",
+  "year": "2017",
+  "platform": "PC",
+  "release": "2017.0",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-7-biohazard.jpg",
+  "logo": "images/logos/resident-evil-7-biohazard.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

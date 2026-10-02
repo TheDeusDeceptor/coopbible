@@ -1,0 +1,26 @@
+{
+  "id": "dishonored-2",
+  "name": "Dishonored 2",
+  "year": "2016",
+  "platform": "",
+  "release": "11.11.2016",
+  "size": "",
+  "hltb": "",
+  "dev": "Arkane Studios",
+  "pub": "Bethesda",
+  "notes": "",
+  "screenshot": "images/screenshots/dishonored-2.jpg",
+  "logo": "images/logos/dishonored-2.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rosalie",
+  "name": "Rosalie",
+  "year": "2026",
+  "platform": "",
+  "release": "21.03.2026",
+  "size": "4 GB",
+  "hltb": "",
+  "dev": "Articho Games",
+  "pub": "Articho Games",
+  "notes": "",
+  "screenshot": "images/screenshots/rosalie.jpg",
+  "logo": "images/logos/rosalie.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4268470",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

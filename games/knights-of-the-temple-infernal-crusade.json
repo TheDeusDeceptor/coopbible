@@ -1,0 +1,26 @@
+{
+  "id": "knights-of-the-temple-infernal-crusade",
+  "name": "Knights of the Temple: Infernal Crusade",
+  "year": "2004",
+  "platform": "",
+  "release": "03.03.2004",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Starbreeze Studios",
+  "pub": "TDK Mediactive",
+  "notes": "",
+  "screenshot": "images/screenshots/knights-of-the-temple-infernal-crusade.jpg",
+  "logo": "images/logos/knights-of-the-temple-infernal-crusade.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

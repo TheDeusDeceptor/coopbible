@@ -1,0 +1,26 @@
+{
+  "id": "tokyo-xtreme-racer-zero-usa-chd",
+  "name": "Tokyo Xtreme Racer - Zero (USA).chd",
+  "year": "2001",
+  "platform": "ps2",
+  "release": "15.03.2001",
+  "size": "",
+  "hltb": "Main: 30",
+  "dev": "Genki",
+  "pub": "Crave Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/tokyo-xtreme-racer-zero-usa-chd.jpg",
+  "logo": "images/logos/tokyo-xtreme-racer-zero-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "revenge-of-the-savage-planet",
+  "name": "Revenge of the Savage Planet",
+  "year": "2025",
+  "platform": "",
+  "release": "08.05.2025",
+  "size": "20 GB",
+  "hltb": "Main: 9, +Extra: 14",
+  "dev": "Raccoon Logic Studios Inc.",
+  "pub": "Raccoon Logic Studios Inc.",
+  "notes": "",
+  "screenshot": "images/screenshots/revenge-of-the-savage-planet.jpg",
+  "logo": "images/logos/revenge-of-the-savage-planet.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2787320",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

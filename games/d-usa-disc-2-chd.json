@@ -1,0 +1,26 @@
+{
+  "id": "d-usa-disc-2-chd",
+  "name": "D (USA) (Disc 2).chd",
+  "year": "1995",
+  "platform": "psx",
+  "release": "01.12.1995",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "Warp",
+  "pub": "Acclaim Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/d-usa-disc-2-chd.jpg",
+  "logo": "images/logos/d-usa-disc-2-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

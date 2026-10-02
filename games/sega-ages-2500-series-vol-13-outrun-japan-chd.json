@@ -1,0 +1,26 @@
+{
+  "id": "sega-ages-2500-series-vol-13-outrun-japan-chd",
+  "name": "Sega Ages 2500 Series Vol. 13 - OutRun (Japan).chd",
+  "year": "2004",
+  "platform": "ps2",
+  "release": "27.05.2004",
+  "size": "",
+  "hltb": "",
+  "dev": "SIMS",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/sega-ages-2500-series-vol-13-outrun-japan-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

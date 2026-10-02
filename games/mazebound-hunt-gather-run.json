@@ -1,0 +1,32 @@
+{
+  "id": "mazebound-hunt-gather-run",
+  "name": "MAZEBOUND: Hunt, Gather, Run!",
+  "year": "2026",
+  "platform": "",
+  "release": "13.05.2026",
+  "size": "6 GB",
+  "hltb": "",
+  "dev": "Absam Studios",
+  "pub": "Absam Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/mazebound-hunt-gather-run.jpg",
+  "logo": "images/logos/mazebound-hunt-gather-run.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3616260",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

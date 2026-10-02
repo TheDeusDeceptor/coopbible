@@ -1,0 +1,26 @@
+{
+  "id": "south-of-midnight",
+  "name": "South of Midnight",
+  "year": "2025",
+  "platform": "",
+  "release": "08.04.2025",
+  "size": "",
+  "hltb": "",
+  "dev": "Compulsion Games",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "screenshot": "images/screenshots/south-of-midnight.jpg",
+  "logo": "images/logos/south-of-midnight.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "resident-evil-revelations",
+  "name": "Resident Evil: Revelations",
+  "year": "2012",
+  "platform": "PC",
+  "release": "2012 (2013)",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-revelations.jpg",
+  "logo": "images/logos/resident-evil-revelations.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

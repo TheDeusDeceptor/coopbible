@@ -1,0 +1,32 @@
+{
+  "id": "emergency",
+  "name": "EMERGENCY",
+  "year": "2023",
+  "platform": "",
+  "release": "15.08.2023",
+  "size": "20 GB",
+  "hltb": "",
+  "dev": "Sixteen Tons Entertainment",
+  "pub": "Sixteen Tons Entertainment",
+  "notes": "STEAM",
+  "screenshot": "images/screenshots/emergency.jpg",
+  "logo": "images/logos/emergency.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/850170",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": true,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

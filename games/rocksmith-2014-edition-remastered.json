@@ -1,0 +1,26 @@
+{
+  "id": "rocksmith-2014-edition-remastered",
+  "name": "Rocksmith 2014 Edition: Remastered",
+  "year": "2016",
+  "platform": "",
+  "release": "04.10.2016",
+  "size": "",
+  "hltb": "",
+  "dev": "Ubisoft San Francisco",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/rocksmith-2014-edition-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

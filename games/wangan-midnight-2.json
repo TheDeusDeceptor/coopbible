@@ -1,0 +1,26 @@
+{
+  "id": "wangan-midnight-2",
+  "name": "Wangan Midnight",
+  "year": "2002",
+  "platform": "PS2",
+  "release": "2002.0",
+  "size": "",
+  "hltb": "---",
+  "dev": "",
+  "pub": "",
+  "notes": "Japanese only.",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tokyo-xtreme-racer",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Japanese only."
+}

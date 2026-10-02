@@ -1,0 +1,26 @@
+{
+  "id": "anarchy-reigns",
+  "name": "Anarchy Reigns",
+  "year": "2013",
+  "platform": "PS3",
+  "release": "08.01.2013",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "PlatinumGames",
+  "pub": "Sega",
+  "notes": "",
+  "screenshot": "images/screenshots/anarchy-reigns.jpg",
+  "logo": "images/logos/anarchy-reigns.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "platinum-games",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

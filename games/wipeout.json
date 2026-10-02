@@ -1,0 +1,26 @@
+{
+  "id": "wipeout",
+  "name": "WipeOut",
+  "year": "1989",
+  "platform": "",
+  "release": "01.01.1989",
+  "size": "10 GB",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Softie",
+  "pub": "ShareData",
+  "notes": "",
+  "screenshot": "images/screenshots/wipeout.jpg",
+  "logo": "images/logos/wipeout.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

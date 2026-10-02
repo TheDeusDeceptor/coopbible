@@ -1,0 +1,32 @@
+{
+  "id": "mercenaries-2-world-in-flames",
+  "name": "Mercenaries 2: World in Flames",
+  "year": "2008",
+  "platform": "",
+  "release": "05.09.2008",
+  "size": "",
+  "hltb": "Main: 16, +Extra: 24",
+  "dev": "Pandemic Studios, LTI Gray Matter",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/mercenaries-2-world-in-flames.jpg",
+  "logo": "images/logos/mercenaries-2-world-in-flames.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Mercenaries_2:_World_in_Flames",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

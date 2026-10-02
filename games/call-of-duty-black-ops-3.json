@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-black-ops-3",
+  "name": "Call of Duty Black Ops 3",
+  "year": "",
+  "platform": "",
+  "release": "",
+  "size": "100 GB",
+  "hltb": "Main: 9, +Extra: 15",
+  "dev": "",
+  "pub": "",
+  "notes": "LAN supported.",
+  "screenshot": "images/screenshots/call-of-duty-black-ops-3.jpg",
+  "logo": "images/logos/call-of-duty-black-ops-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

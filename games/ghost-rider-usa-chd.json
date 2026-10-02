@@ -1,0 +1,26 @@
+{
+  "id": "ghost-rider-usa-chd",
+  "name": "Ghost Rider (USA).chd",
+  "year": "2007",
+  "platform": "ps2",
+  "release": "13.02.2007",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Climax Solent",
+  "pub": "2K Games",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/ghost-rider-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

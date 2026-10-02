@@ -1,0 +1,32 @@
+{
+  "id": "wizzerd-quest-2",
+  "name": "Wizzerd Quest 2",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "Kondoorsoft",
+  "pub": "Kondoorsoft",
+  "notes": "",
+  "screenshot": "images/screenshots/wizzerd-quest-2.jpg",
+  "logo": "images/logos/wizzerd-quest-2.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2907890",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

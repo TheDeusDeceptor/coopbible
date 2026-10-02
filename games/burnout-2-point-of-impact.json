@@ -1,0 +1,26 @@
+{
+  "id": "burnout-2-point-of-impact",
+  "name": "Burnout 2: Point of Impact",
+  "year": "2003",
+  "platform": "PS2",
+  "release": "09.04.2003",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Criterion Software",
+  "pub": "Acclaim Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/burnout-2-point-of-impact.png",
+  "logo": "images/logos/burnout-2-point-of-impact.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "burnout",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

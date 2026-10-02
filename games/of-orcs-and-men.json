@@ -1,0 +1,26 @@
+{
+  "id": "of-orcs-and-men",
+  "name": "Of Orcs and Men",
+  "year": "2012",
+  "platform": "PC",
+  "release": "10.10.2012",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 14",
+  "dev": "Cyanide Studio",
+  "pub": "Nacon",
+  "notes": "",
+  "screenshot": "images/screenshots/of-orcs-and-men.jpg",
+  "logo": "images/logos/of-orcs-and-men.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "spiders",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

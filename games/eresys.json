@@ -1,0 +1,32 @@
+{
+  "id": "eresys",
+  "name": "Eresys",
+  "year": "2023",
+  "platform": "",
+  "release": "18.12.2023",
+  "size": "15 GB",
+  "hltb": "Main: 3",
+  "dev": "Ares Dragonis",
+  "pub": "Dragonis Games",
+  "notes": "",
+  "screenshot": "images/screenshots/eresys.jpg",
+  "logo": "images/logos/eresys.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1918970",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

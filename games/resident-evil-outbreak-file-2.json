@@ -1,0 +1,32 @@
+{
+  "id": "resident-evil-outbreak-file-2",
+  "name": "Resident Evil Outbreak: File 2",
+  "year": "2004",
+  "platform": "PS2",
+  "release": "09.09.2004",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 27",
+  "dev": "Capcom Production Studio 1",
+  "pub": "Capcom",
+  "notes": "",
+  "screenshot": "images/screenshots/resident-evil-outbreak-file-2.jpg",
+  "logo": "images/logos/resident-evil-outbreak-file-2.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Resident_Evil_Outbreak:_File_2",
+      "icon": "pcgw"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": null
+}

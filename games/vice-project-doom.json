@@ -1,0 +1,26 @@
+{
+  "id": "vice-project-doom",
+  "name": "Vice: Project Doom",
+  "year": "1991",
+  "platform": "",
+  "release": "26.04.1991",
+  "size": "",
+  "hltb": "",
+  "dev": "Aicom",
+  "pub": "Sammy",
+  "notes": "",
+  "screenshot": "images/screenshots/vice-project-doom.jpg",
+  "logo": "images/logos/vice-project-doom.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

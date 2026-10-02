@@ -1,0 +1,26 @@
+{
+  "id": "i-love-katamari",
+  "name": "I Love Katamari",
+  "year": "2008",
+  "platform": "Android",
+  "release": "2008.0",
+  "size": "",
+  "hltb": "---",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "katamari-damacy",
+  "series_status": null,
+  "series_color": null,
+  "series_note": ""
+}

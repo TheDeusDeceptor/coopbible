@@ -1,0 +1,26 @@
+{
+  "id": "rune-viking-warlord-usa-chd",
+  "name": "Rune - Viking Warlord (USA).chd",
+  "year": "2001",
+  "platform": "ps2",
+  "release": "30.07.2001",
+  "size": "",
+  "hltb": "",
+  "dev": "Human Head Studios",
+  "pub": "Take-Two Interactive Software",
+  "notes": "",
+  "screenshot": "",
+  "logo": "images/logos/rune-viking-warlord-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

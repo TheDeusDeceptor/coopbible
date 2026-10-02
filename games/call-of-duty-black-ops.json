@@ -1,0 +1,26 @@
+{
+  "id": "call-of-duty-black-ops",
+  "name": "Call of Duty: Black Ops",
+  "year": "2010",
+  "platform": "PC",
+  "release": "2010.0",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 12",
+  "dev": "N-Space",
+  "pub": "Activision Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/call-of-duty-black-ops.jpg",
+  "logo": "images/logos/call-of-duty-black-ops.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "call-of-duty",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": ""
+}

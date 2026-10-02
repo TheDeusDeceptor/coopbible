@@ -1,0 +1,32 @@
+{
+  "id": "resident-evil-5",
+  "name": "Resident Evil 5",
+  "year": "2009",
+  "platform": "PC",
+  "release": "15.09.2009",
+  "size": "15 GB",
+  "hltb": "Main: 11, +Extra: 15",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "+ Lost in Nightmares\n\n     + Desperate Escape",
+  "screenshot": "images/screenshots/resident-evil-5.jpg",
+  "logo": "images/logos/resident-evil-5.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/21690",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "resident-evil",
+  "series_status": "done",
+  "series_color": null,
+  "series_note": null
+}

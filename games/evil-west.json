@@ -1,0 +1,32 @@
+{
+  "id": "evil-west",
+  "name": "Evil West",
+  "year": "2022",
+  "platform": "",
+  "release": "21.11.2022",
+  "size": "40 GB",
+  "hltb": "Main: 11, +Extra: 13",
+  "dev": "Flying Wild Hog",
+  "pub": "Focus Entertainment",
+  "notes": "",
+  "screenshot": "images/screenshots/evil-west.jpg",
+  "logo": "images/logos/evil-west.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1065310",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

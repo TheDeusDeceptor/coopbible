@@ -1,0 +1,26 @@
+{
+  "id": "ry-ga-gotoku-kenzan",
+  "name": "Ryū ga Gotoku Kenzan!",
+  "year": "2008",
+  "platform": "PS3",
+  "release": "06.03.2008",
+  "size": "",
+  "hltb": "Main: 19, +Extra: 33",
+  "dev": "Ryu ga Gotoku Studio",
+  "pub": "Sega",
+  "notes": "Optional, Japanese only.",
+  "screenshot": "images/screenshots/ry-ga-gotoku-kenzan.jpg",
+  "logo": "images/logos/ry-ga-gotoku-kenzan.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Optional, Japanese only."
+}

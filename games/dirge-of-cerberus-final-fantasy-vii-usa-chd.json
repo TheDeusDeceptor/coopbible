@@ -1,0 +1,26 @@
+{
+  "id": "dirge-of-cerberus-final-fantasy-vii-usa-chd",
+  "name": "Dirge of Cerberus - Final Fantasy VII (USA).chd",
+  "year": "2006",
+  "platform": "ps2",
+  "release": "15.08.2006",
+  "size": "",
+  "hltb": "Main: 11",
+  "dev": "Square Enix",
+  "pub": "Square Enix",
+  "notes": "",
+  "screenshot": "images/screenshots/dirge-of-cerberus-final-fantasy-vii-usa-chd.jpg",
+  "logo": "images/logos/dirge-of-cerberus-final-fantasy-vii-usa-chd.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

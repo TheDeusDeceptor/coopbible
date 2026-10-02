@@ -1,0 +1,26 @@
+{
+  "id": "prince-of-persia-the-shadow-and-the-flame",
+  "name": "Prince of Persia: The Shadow and the Flame",
+  "year": "2013",
+  "platform": "Android",
+  "release": "2013.0",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "",
+  "pub": "",
+  "notes": "Remake of the second game.",
+  "screenshot": "images/screenshots/prince-of-persia-the-shadow-and-the-flame.jpg",
+  "logo": "images/logos/prince-of-persia-the-shadow-and-the-flame.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "prince-of-persia",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Remake of the second game."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tomb-raider-remastered",
+  "name": "Tomb Raider (Remastered)",
+  "year": "2018",
+  "platform": "PC",
+  "release": "01.01.2018",
+  "size": "",
+  "hltb": "Main: 34, +Extra: 49",
+  "dev": "Adrenaline Amusements",
+  "pub": "Konami",
+  "notes": "Tomb Raider I–III Remastered.",
+  "screenshot": "images/screenshots/tomb-raider-remastered.jpg",
+  "logo": "images/logos/tomb-raider-remastered.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tomb-raider",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Tomb Raider I–III Remastered."
+}

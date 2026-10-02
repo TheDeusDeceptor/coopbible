@@ -1,0 +1,26 @@
+{
+  "id": "little-ninja-brothers",
+  "name": "Little Ninja Brothers",
+  "year": "1989",
+  "platform": "",
+  "release": "26.05.1989",
+  "size": "",
+  "hltb": "",
+  "dev": "Culture Brain",
+  "pub": "Culture Brain",
+  "notes": "",
+  "screenshot": "images/screenshots/little-ninja-brothers.jpg",
+  "logo": "images/logos/little-ninja-brothers.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

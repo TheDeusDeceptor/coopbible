@@ -1,0 +1,26 @@
+{
+  "id": "condemned-criminal-origins",
+  "name": "Condemned: Criminal Origins",
+  "year": "2006",
+  "platform": "",
+  "release": "07.04.2006",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Monolith",
+  "pub": "Sega Corporation",
+  "notes": "",
+  "screenshot": "images/screenshots/condemned-criminal-origins.jpg",
+  "logo": "images/logos/condemned-criminal-origins.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

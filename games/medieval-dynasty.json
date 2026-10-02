@@ -1,0 +1,32 @@
+{
+  "id": "medieval-dynasty",
+  "name": "Medieval Dynasty",
+  "year": "2021",
+  "platform": "",
+  "release": "23.09.2021",
+  "size": "20 GB",
+  "hltb": "Main: 30, +Extra: 57",
+  "dev": "Render Cube",
+  "pub": "Toplitz Productions",
+  "notes": "",
+  "screenshot": "images/screenshots/medieval-dynasty.jpg",
+  "logo": "images/logos/medieval-dynasty.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1129580",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

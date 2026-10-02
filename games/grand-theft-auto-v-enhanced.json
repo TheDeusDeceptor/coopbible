@@ -1,0 +1,26 @@
+{
+  "id": "grand-theft-auto-v-enhanced",
+  "name": "Grand Theft Auto V Enhanced",
+  "year": "2025",
+  "platform": "",
+  "release": "04.03.2025",
+  "size": "105 GB",
+  "hltb": "Main: 32, +Extra: 51",
+  "dev": "Rockstar North",
+  "pub": "Rockstar Games",
+  "notes": "",
+  "screenshot": "images/screenshots/grand-theft-auto-v-enhanced.jpg",
+  "logo": "images/logos/grand-theft-auto-v-enhanced.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

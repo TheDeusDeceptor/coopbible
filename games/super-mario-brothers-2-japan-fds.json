@@ -1,0 +1,26 @@
+{
+  "id": "super-mario-brothers-2-japan-fds",
+  "name": "Super Mario Brothers 2 (Japan).fds",
+  "year": "",
+  "platform": "fds",
+  "release": "",
+  "size": "",
+  "hltb": "",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

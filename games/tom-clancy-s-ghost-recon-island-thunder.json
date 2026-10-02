@@ -1,0 +1,26 @@
+{
+  "id": "tom-clancy-s-ghost-recon-island-thunder",
+  "name": "Tom Clancy's Ghost Recon: Island Thunder",
+  "year": "2003",
+  "platform": "",
+  "release": "05.08.2003",
+  "size": "",
+  "hltb": "",
+  "dev": "Red Storm Entertainment",
+  "pub": "Ubisoft",
+  "notes": "",
+  "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-island-thunder.jpg",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-island-thunder.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

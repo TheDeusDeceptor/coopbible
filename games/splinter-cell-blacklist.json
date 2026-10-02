@@ -1,0 +1,26 @@
+{
+  "id": "splinter-cell-blacklist",
+  "name": "Splinter Cell: Blacklist",
+  "year": "2013",
+  "platform": "PC",
+  "release": "2013.0",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 18",
+  "dev": "",
+  "pub": "",
+  "notes": "Co-op-able to some degree.",
+  "screenshot": "images/screenshots/splinter-cell-blacklist.jpg",
+  "logo": "images/logos/splinter-cell-blacklist.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-splinter-cell",
+  "series_status": null,
+  "series_color": null,
+  "series_note": "Co-op-able to some degree."
+}

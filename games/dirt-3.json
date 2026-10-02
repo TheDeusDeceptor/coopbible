@@ -1,0 +1,26 @@
+{
+  "id": "dirt-3",
+  "name": "Dirt 3",
+  "year": "2011",
+  "platform": "",
+  "release": "24.05.2011",
+  "size": "",
+  "hltb": "",
+  "dev": "Codemasters",
+  "pub": "Codemasters Birmingham",
+  "notes": "",
+  "screenshot": "images/screenshots/dirt-3.jpg",
+  "logo": "images/logos/dirt-3.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

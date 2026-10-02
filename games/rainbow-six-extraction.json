@@ -1,0 +1,26 @@
+{
+  "id": "rainbow-six-extraction",
+  "name": "Rainbow Six Extraction",
+  "year": "2022",
+  "platform": "PC",
+  "release": "2022.0",
+  "size": "",
+  "hltb": "Main: 14, +Extra: 47",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/rainbow-six-extraction.jpg",
+  "logo": "images/logos/rainbow-six-extraction.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "tom-clancy-s-rainbow-six",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

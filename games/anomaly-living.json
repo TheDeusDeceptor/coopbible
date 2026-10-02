@@ -1,0 +1,32 @@
+{
+  "id": "anomaly-living",
+  "name": "Anomaly Living",
+  "year": "2025",
+  "platform": "",
+  "release": "10.03.2025",
+  "size": "10 GB",
+  "hltb": "",
+  "dev": "TreekSamrix",
+  "pub": "TreekSamrix",
+  "notes": "",
+  "screenshot": "images/screenshots/anomaly-living.jpg",
+  "logo": "images/logos/anomaly-living.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3524700",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

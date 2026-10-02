@@ -1,0 +1,26 @@
+{
+  "id": "no-sleep-for-kaname-date-from-ai-the-somnium-files",
+  "name": "No Sleep for Kaname Date – From AI: The Somnium Files",
+  "year": "2025",
+  "platform": "PC",
+  "release": "25.07.2025",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "Spike ChunSoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "screenshot": "images/screenshots/no-sleep-for-kaname-date-from-ai-the-somnium-files.jpg",
+  "logo": "images/logos/no-sleep-for-kaname-date-from-ai-the-somnium-files.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "ai",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

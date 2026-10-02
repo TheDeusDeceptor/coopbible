@@ -1,0 +1,26 @@
+{
+  "id": "half-life-blue-shift",
+  "name": "Half-Life: Blue Shift",
+  "year": "2018",
+  "platform": "",
+  "release": "01.01.2018",
+  "size": "",
+  "hltb": "",
+  "dev": "supadupaplex",
+  "pub": "",
+  "notes": "",
+  "screenshot": "images/screenshots/half-life-blue-shift.jpg",
+  "logo": "images/logos/half-life-blue-shift.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

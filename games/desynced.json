@@ -1,0 +1,32 @@
+{
+  "id": "desynced",
+  "name": "Desynced",
+  "year": "2026",
+  "platform": "",
+  "release": "05.03.2026",
+  "size": "2 GB",
+  "hltb": "+Sides: 68",
+  "dev": "Stage Games Inc.",
+  "pub": "Forklift Interactive",
+  "notes": "",
+  "screenshot": "images/screenshots/desynced.jpg",
+  "logo": "images/logos/desynced.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1450900",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

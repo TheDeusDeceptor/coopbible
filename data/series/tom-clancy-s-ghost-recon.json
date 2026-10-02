@@ -1,0 +1,23 @@
+{
+  "id": "tom-clancy-s-ghost-recon",
+  "name": "Tom Clancy's Ghost Recon",
+  "logo": "",
+  "main": 140,
+  "extra": 216,
+  "order": [
+    "ghost-recon-2001-pc",
+    "ghost-recon-desert-siege",
+    "ghost-recon-island-thunder",
+    "ghost-recon-jungle-storm",
+    "ghost-recon-2-2",
+    "ghost-recon-2-3",
+    "ghost-recon-2-summit-strike",
+    "ghost-recon-advanced-warfighter",
+    "ghost-recon-advanced-warfighter-2",
+    "ghost-recon-predator",
+    "ghost-recon-2010-wii",
+    "ghost-recon-future-soldier",
+    "ghost-recon-wildlands",
+    "ghost-recon-breakpoint"
+  ]
+}

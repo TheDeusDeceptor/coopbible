@@ -1,0 +1,26 @@
+{
+  "id": "zeroranger",
+  "name": "ZeroRanger",
+  "year": "2018",
+  "platform": "",
+  "release": "28.09.2018",
+  "size": "0.1 GB",
+  "hltb": "Main: 4, +Extra: 11",
+  "dev": "System Erasure",
+  "pub": "System Erasure",
+  "notes": "",
+  "screenshot": "images/screenshots/zeroranger.jpg",
+  "logo": "images/logos/zeroranger.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

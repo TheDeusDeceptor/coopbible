@@ -1,0 +1,26 @@
+{
+  "id": "need-for-speed-iii-hot-pursuit",
+  "name": "Need for Speed III: Hot Pursuit",
+  "year": "1998",
+  "platform": "PC",
+  "release": "25.03.1998",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Electronic Arts Canada",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "screenshot": "images/screenshots/need-for-speed-iii-hot-pursuit.jpg",
+  "logo": "images/logos/need-for-speed-iii-hot-pursuit.png",
+  "links": [],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": "need-for-speed",
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

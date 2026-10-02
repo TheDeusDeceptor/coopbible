@@ -1,0 +1,32 @@
+{
+  "id": "nioh-3",
+  "name": "Nioh 3",
+  "year": "2026",
+  "platform": "",
+  "release": "05.02.2026",
+  "size": "125 GB",
+  "hltb": "Main: 26, +Extra: 47",
+  "dev": "KOEI TECMO GAMES CO., LTD.",
+  "pub": "KOEI TECMO GAMES CO., LTD.",
+  "notes": "",
+  "screenshot": "images/screenshots/nioh-3.jpg",
+  "logo": "images/logos/nioh-3.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3681010",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

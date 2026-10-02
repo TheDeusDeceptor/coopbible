@@ -1,0 +1,32 @@
+{
+  "id": "gloomveil",
+  "name": "Gloomveil",
+  "year": "",
+  "platform": "",
+  "release": "Soon",
+  "size": "",
+  "hltb": "",
+  "dev": "Ricotoni Games",
+  "pub": "Ricotoni Games",
+  "notes": "",
+  "screenshot": "images/screenshots/gloomveil.jpg",
+  "logo": "images/logos/gloomveil.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3156020",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

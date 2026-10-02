@@ -1,0 +1,32 @@
+{
+  "id": "chained-together",
+  "name": "Chained Together",
+  "year": "2024",
+  "platform": "",
+  "release": "19.06.2024",
+  "size": "8 GB",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Anegar Games",
+  "pub": "Secret Mode",
+  "notes": "",
+  "screenshot": "images/screenshots/chained-together.jpg",
+  "logo": "images/logos/chained-together.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2567870",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "satisfactory",
+  "name": "Satisfactory",
+  "year": "2024",
+  "platform": "",
+  "release": "10.09.2024",
+  "size": "20 GB",
+  "hltb": "Main: 106, +Extra: 146",
+  "dev": "Coffee Stain Studios",
+  "pub": "Coffee Stain Publishing",
+  "notes": "",
+  "screenshot": "images/screenshots/satisfactory.jpg",
+  "logo": "images/logos/satisfactory.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/526870",
+      "icon": "steam"
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "ownedSteam": false,
+    "localCoop": false,
+    "authRequired": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_color": null,
+  "series_note": null
+}
