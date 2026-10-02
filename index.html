@@ -135,6 +135,9 @@
   .section-header .bar{width:3px;height:18px;background:var(--accent);border-radius:2px;flex-shrink:0;}
   .section-header .label{font-family:var(--font-head);font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);white-space:nowrap;}
   .section-header .line{flex:1;height:1px;background:var(--border);}
+  .jump-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .18s ease;}
+  .jump-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
+  .jump-btn .arw{font-size:.85rem;line-height:1}
   .grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,36rem),1fr));gap:1.25rem;}
   body[data-cols="1"] .grid{grid-template-columns:1fr}
   body[data-cols="2"] .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -341,13 +344,11 @@
   .img-input .preview img{max-width:100%;max-height:100%;object-fit:contain}
   .img-input .preview.shot-preview{width:180px;height:100px}
   .img-input .controls{flex:1;display:flex;flex-direction:column;gap:.4rem;min-width:0;}
-  .upload-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px dashed var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;align-self:flex-start;}
-  .upload-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
-  .upload-btn input{display:none}
   .media-btn-row{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.15rem;}
   .media-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
   .media-btn:hover{color:#cbd5e1;border-color:var(--accent-line);background:var(--accent-soft);}
   .media-btn:disabled{opacity:.5;cursor:wait;}
+  .media-btn.save:hover{border-color:var(--green);color:var(--green);background:rgba(74,222,128,.08);}
   .media-btn.google:hover{border-color:#4285f4;color:#4285f4;background:rgba(66,133,244,.08);}
   .media-btn.sgdb:hover{border-color:var(--purple);color:var(--purple);background:rgba(167,139,250,.08);}
   .media-btn.lbdb:hover{border-color:var(--amber);color:var(--amber);background:rgba(245,158,11,.08);}
@@ -605,7 +606,6 @@ TABS.single.forEach(t => TAB_GROUP[t.id] = 'single');
 const BEATEN_TABS   = new Set(['coop-beaten','beaten']);
 const NO_CHIPS_TABS = new Set(['early-access','unreleased']);
 const NO_SIZE_TABS  = new Set(['early-access']);
-// List of tabs that can be selected as game memberships (no backlog-series — derived from series field)
 const MEMBERSHIP_TABS = [
   'released','early-access','unreleased','mods','coop-beaten',
   'backlog','gamearchive','mainpc','beaten'
@@ -1438,7 +1438,7 @@ function toolsModalHTML(){
           </div>
           <div class="form-section">
             <div class="sec-title">Unlisted games</div>
-            <p style="font-size:.78rem;color:var(--muted);margin-bottom:.8rem;">Games that don't belong to any list. They exist as files but don't appear on the site. Add them to a list, or delete them.</p>
+            <p style="font-size:.78rem;color:var(--muted);margin-bottom:.8rem;">Games that don't belong to any list. Add them to a list, or delete them.</p>
             <div id="unlisted-host">${unlistedHTML()}</div>
           </div>
         </div>
@@ -1464,7 +1464,6 @@ function toolsModalHTML(){
     </div>`;
 }
 function refreshToolsBody(){
-  // re-render just the tab bodies, keep the header
   const host = toolsSlot.querySelector('.tools-modal');
   if(!host) return;
   host.querySelectorAll('.tools-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === toolsActiveTab));
@@ -1486,10 +1485,8 @@ function openToolsModal(){
   toolsSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeToolsModal);
   toolsSlot.querySelectorAll('.tools-tab').forEach(t => t.onclick = () => { toolsActiveTab = t.dataset.tab; refreshToolsBody(); });
 
-  // General: LBDB
   toolsSlot.querySelector('#lbdb-run').onclick = () => { if(lbdbState !== 'running') triggerLbdbUpdate(); };
 
-  // General: Unlisted games
   const unlistedHost = toolsSlot.querySelector('#unlisted-host');
   if(unlistedHost){
     unlistedHost.addEventListener('click', e => {
@@ -1502,12 +1499,10 @@ function openToolsModal(){
         pendingGameWrites.delete(id);
         updatePendingStrip();
         renderContent();
-        // refresh the unlisted list
         unlistedHost.innerHTML = unlistedHTML();
         return;
       }
       if(e.target.closest('.u-add')){
-        // open the game editor
         const g = viewGame(id);
         if(g) openEditor(g);
         return;
@@ -1515,7 +1510,6 @@ function openToolsModal(){
     });
   }
 
-  // Platforms: rows
   const rowsHost = toolsSlot.querySelector('#plat-rows');
   if(rowsHost){
     rowsHost.addEventListener('input', e => {
@@ -1917,6 +1911,30 @@ logopickerBackdrop.addEventListener('click', e => {
   if(e.target === logopickerBackdrop){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; }
 });
 
+/* SAVE MEDIA VIA APPS SCRIPT */
+async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
+  if(!gameId){ toast('Save the game first (name required)', 'bad'); return; }
+  if(!sourceUrl){ toast('Nothing to save', 'bad'); return; }
+  if(/^images\//.test(sourceUrl)){ toast('Already local'); return; }
+  if(!/^https?:/.test(sourceUrl)){ toast('Only http(s) URLs can be saved', 'bad'); return; }
+
+  try{
+    const url = PROXY_URL + '?action=saveimage'
+      + '&kind=' + encodeURIComponent(kind)
+      + '&gameId=' + encodeURIComponent(gameId)
+      + '&url=' + encodeURIComponent(sourceUrl);
+    const res = await fetch(url);
+    if(!res.ok) throw new Error('saveimage HTTP ' + res.status);
+    const data = await res.json();
+    if(data && data.error) throw new Error(data.error);
+    const path = data.path;
+    if(!path) throw new Error('No path returned from proxy');
+    onDone(path);
+  }catch(e){
+    toast('Save failed: ' + e.message, 'bad');
+  }
+}
+
 /* RENDER */
 const TAB_PANES = new Map();
 function getPane(tabId){
@@ -2163,6 +2181,13 @@ function seriesBlockHTML(slug){
       </div>
     </div>`;
 }
+function sectionHeader(label, jump){
+  const jumpHTML = jump ? `<button class="jump-btn" data-jump="${jump.target}">${jump.label}<span class="arw">${jump.dir === 'down' ? '↓' : '↑'}</span></button>` : '';
+  return `
+    <div class="section-header" id="sec-${label.toLowerCase().replace(/\s+/g,'-')}">
+      <div class="bar"></div><div class="label">${esc(label)}</div><div class="line"></div>${jumpHTML}
+    </div>`;
+}
 function buildStandardPane(pane, t){
   const all = gamesOfTab(t);
   const filtered = applySort(all.filter(passesAll));
@@ -2170,6 +2195,20 @@ function buildStandardPane(pane, t){
     pane.el.innerHTML = `<div class="grid-empty">Nothing in this tab yet.</div>`;
     return;
   }
+
+  if(t === 'backlog'){
+    const main   = filtered.filter(g => !g.series);
+    const series = filtered.filter(g =>  g.series);
+    pane.el.innerHTML = `
+      ${sectionHeader('Backloggd', { target:'sec-series', label:'To series', dir:'down' })}
+      <div class="grid">${main.length ? main.map(g => cardHTML(g, t)).join('') : ''}</div>
+      ${!main.length ? `<div class="grid-empty">No games match</div>` : ''}
+      ${sectionHeader('Series', { target:'sec-backloggd', label:'To main list', dir:'up' })}
+      <div class="grid">${series.length ? series.map(g => cardHTML(g, t)).join('') : ''}</div>
+      ${!series.length ? `<div class="grid-empty">No series games in backlog</div>` : ''}`;
+    return;
+  }
+
   if(BEATEN_TABS.has(t)){
     currentRankMap = buildRankMap(all);
     const showRank = (sortKey === 'natural');
@@ -2383,7 +2422,6 @@ function openEditor(g){
   const hp = hltbToParts(draft.hltb);
   const numericHltb = hltbIsNumeric(draft.hltb);
 
-  // Current memberships (pending-aware)
   const currentMemberships = isNew ? new Set() : membershipsOf(draft.id);
 
   const membershipHTML = MEMBERSHIP_TABS.map(tid => {
@@ -2534,7 +2572,7 @@ function openEditor(g){
                 <div class="controls">
                   <input type="text" id="f-screenshot" placeholder="images/screenshots/… or https://…" value="${esc(draft.screenshot||'')}">
                   <div class="media-btn-row">
-                    <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" id="f-screenshot-file"></label>
+                    <button type="button" class="media-btn save" id="save-screenshot-local">↓ Save locally</button>
                     <button type="button" class="media-btn google" id="google-screenshot">🔍 Google</button>
                   </div>
                   <div class="pills" data-field="screenshot"></div>
@@ -2548,7 +2586,7 @@ function openEditor(g){
                 <div class="controls">
                   <input type="text" id="f-logo" placeholder="images/logos/… or https://…" value="${esc(draft.logo||'')}">
                   <div class="media-btn-row">
-                    <label class="upload-btn">↑ Upload file<input type="file" accept="image/*" id="f-logo-file"></label>
+                    <button type="button" class="media-btn save" id="save-logo-local">↓ Save locally</button>
                     <button type="button" class="media-btn sgdb" id="sgdb-logo">🔍 SGDB</button>
                     <button type="button" class="media-btn lbdb" id="lbdb-logo">🔍 LBDB</button>
                   </div>
@@ -2597,7 +2635,6 @@ function openEditor(g){
 
   const $ = sel => modalSlot.querySelector(sel);
 
-  // Coop-beaten ↔ Beaten invariant
   const listGrid = $('#list-grid');
   const cbCoop = listGrid.querySelector('input[data-list="coop-beaten"]');
   const cbBeaten = listGrid.querySelector('input[data-list="beaten"]');
@@ -2609,7 +2646,6 @@ function openEditor(g){
     const cb = e.target.closest('input[type=checkbox]');
     if(!cb) return;
     if(cb === cbCoop || cb === cbBeaten) syncCoopBeaten();
-    // update visual .on class
     listGrid.querySelectorAll('.list-cb').forEach(lbl => {
       const inp = lbl.querySelector('input');
       lbl.classList.toggle('on', inp.checked);
@@ -2642,6 +2678,40 @@ function openEditor(g){
     const nameVal = ($('#f-name').value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     window.open('https://www.google.com/search?q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
+  });
+  $('#save-screenshot-local')?.addEventListener('click', async () => {
+    const nameVal = ($('#f-name').value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    const year = extractYear($('#f-release').value.trim());
+    const platform = $('#f-platform').value.trim();
+    const gid = draft.id || makeUniqueId(nameVal, year, platform, '');
+    const url = ($('#f-screenshot').value || '').trim();
+    const btn = $('#save-screenshot-local');
+    const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Saving';
+    await saveMediaLocally('screenshot', gid, url, (path) => {
+      $('#f-screenshot').value = path;
+      $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
+      toast('Screenshot saved → ' + path);
+    });
+    btn.disabled = false; btn.innerHTML = orig;
+  });
+  $('#save-logo-local')?.addEventListener('click', async () => {
+    const nameVal = ($('#f-name').value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    const year = extractYear($('#f-release').value.trim());
+    const platform = $('#f-platform').value.trim();
+    const gid = draft.id || makeUniqueId(nameVal, year, platform, '');
+    const url = ($('#f-logo').value || '').trim();
+    const btn = $('#save-logo-local');
+    const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Saving';
+    await saveMediaLocally('logo', gid, url, (path) => {
+      $('#f-logo').value = path;
+      $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
+      toast('Logo saved → ' + path);
+    });
+    btn.disabled = false; btn.innerHTML = orig;
   });
   $('#sgdb-logo')?.addEventListener('click', async () => {
     const nameVal = ($('#f-name').value || '').trim();
@@ -2700,7 +2770,6 @@ function openEditor(g){
     const name = $('#f-name').value.trim();
     if(!name){ toast('Name is required', 'bad'); return; }
 
-    // Checked lists
     const checkedLists = new Set(
       [...listGrid.querySelectorAll('input[type=checkbox]')]
         .filter(cb => cb.checked)
@@ -2760,16 +2829,13 @@ function openEditor(g){
 
     pendingGameWrites.set(id, out);
 
-    // Handle memberships
     if(isNew){
-      // Append new id to each checked list
       for(const tabId of checkedLists){
         const list = (pendingListWrites.get(tabId) || MANIFEST.lists[tabId] || []).slice();
         if(!list.includes(id)) list.push(id);
         pendingListWrites.set(tabId, list);
       }
     } else if(id !== oldId){
-      // ID changed: replace in every list that had oldId, then honor checkedLists
       const oldMemberships = membershipsOf(oldId);
       for(const t of ALL_TABS){
         const list = (pendingListWrites.get(t.id) || MANIFEST.lists[t.id] || []).slice();
@@ -2785,7 +2851,6 @@ function openEditor(g){
       }
       pendingGameDeletes.add(oldId);
     } else {
-      // Same id: compare current vs checked
       const before = membershipsOf(id);
       for(const t of ALL_TABS){
         const inBefore = before.has(t.id);
@@ -3134,6 +3199,12 @@ contentEl.addEventListener('click', e => {
     if(!g) return;
     if(adminBtnEl.dataset.act === 'edit') openEditor(g);
     else if(adminBtnEl.dataset.act === 'del') openConfirmDelete(g);
+    return;
+  }
+  const jb = e.target.closest('.jump-btn');
+  if(jb){
+    const target = document.getElementById(jb.dataset.jump);
+    if(target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     return;
   }
   const srow = e.target.closest('.series-game-row');
