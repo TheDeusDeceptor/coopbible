@@ -9,8 +9,8 @@
   "dev": "Lionhead Studios",
   "pub": "Microsoft Game Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fable-ii.jpg",
+  "logo": "images/logos/fable-ii.png",
   "links": [],
   "flags": {
     "installed": false,

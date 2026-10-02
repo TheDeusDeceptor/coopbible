@@ -9,8 +9,8 @@
   "dev": "Firaxis",
   "pub": "2K Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/sid-meier-s-civilization-v-brave-new-world.jpg",
+  "logo": "images/logos/sid-meier-s-civilization-v-brave-new-world.png",
   "links": [],
   "flags": {
     "installed": false,

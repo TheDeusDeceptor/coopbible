@@ -9,8 +9,8 @@
   "dev": "Firaxis Games, Aspyr (Mac), Aspyr (Linux)",
   "pub": "2K, Aspyr (Mac), Aspyr (Linux)",
   "notes": "+ Gods & Kings\n\n     + Brave New World",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/sid-meier-s-civilization-v.jpg",
+  "logo": "images/logos/sid-meier-s-civilization-v.png",
   "links": [
     {
       "label": "Steam",

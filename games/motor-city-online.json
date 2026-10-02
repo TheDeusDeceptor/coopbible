@@ -9,8 +9,8 @@
   "dev": "Electronic Arts",
   "pub": "Electronic Arts",
   "notes": "MMO, some portion (around 3 hours) is playable offline.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/motor-city-online.jpg",
+  "logo": "images/logos/motor-city-online.png",
   "links": [],
   "flags": {
     "installed": false,

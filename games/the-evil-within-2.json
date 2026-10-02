@@ -9,8 +9,8 @@
   "dev": "Tango Gameworks",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-evil-within-2.jpg",
+  "logo": "images/logos/the-evil-within-2.png",
   "links": [],
   "flags": {
     "installed": false,

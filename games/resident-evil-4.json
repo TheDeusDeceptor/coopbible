@@ -9,8 +9,8 @@
   "dev": "Capcom Production Studio 4",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/resident-evil-4.jpg",
+  "logo": "images/logos/resident-evil-4.png",
   "links": [],
   "flags": {
     "installed": false,

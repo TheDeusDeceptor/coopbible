@@ -9,8 +9,8 @@
   "dev": "Sabotage Studio",
   "pub": "Devolver Digital",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-messenger.jpg",
+  "logo": "images/logos/the-messenger.png",
   "links": [],
   "flags": {
     "installed": false,

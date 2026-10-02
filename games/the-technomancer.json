@@ -9,8 +9,8 @@
   "dev": "Spiders",
   "pub": "Focus Home Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-technomancer.jpg",
+  "logo": "images/logos/the-technomancer.png",
   "links": [],
   "flags": {
     "installed": true,

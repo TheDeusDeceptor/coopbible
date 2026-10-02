@@ -9,8 +9,8 @@
   "dev": "Sony Computer Entertainment",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/lifeline.jpg",
+  "logo": "images/logos/lifeline.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Valve",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/half-life-2.jpg",
+  "logo": "images/logos/half-life-2.png",
   "links": [],
   "flags": {
     "installed": false,

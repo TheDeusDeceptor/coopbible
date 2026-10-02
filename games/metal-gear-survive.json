@@ -9,8 +9,8 @@
   "dev": "Konami",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metal-gear-survive.jpg",
+  "logo": "images/logos/metal-gear-survive.png",
   "links": [],
   "flags": {
     "installed": false,

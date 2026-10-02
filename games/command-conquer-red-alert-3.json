@@ -9,8 +9,8 @@
   "dev": "Electronic Arts Los Angeles",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/command-conquer-red-alert-3.jpg",
+  "logo": "images/logos/command-conquer-red-alert-3.png",
   "links": [],
   "flags": {
     "installed": false,

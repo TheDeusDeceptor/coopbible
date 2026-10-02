@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Namco",
   "notes": "Emulation doesn't work yet.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rave-racer.jpg",
+  "logo": "images/logos/rave-racer.png",
   "links": [],
   "flags": {
     "installed": false,

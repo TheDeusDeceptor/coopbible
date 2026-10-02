@@ -9,8 +9,8 @@
   "dev": "Crystal Dynamics",
   "pub": "Square Enix",
   "notes": "Co-op-able!",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/lara-croft-and-the-guardian-of-light.jpg",
+  "logo": "images/logos/lara-croft-and-the-guardian-of-light.png",
   "links": [],
   "flags": {
     "installed": false,

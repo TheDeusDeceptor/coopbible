@@ -9,8 +9,8 @@
   "dev": "FUMES team",
   "pub": "FUMES team",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fumes.jpg",
+  "logo": "images/logos/fumes.png",
   "links": [
     {
       "label": "Steam",

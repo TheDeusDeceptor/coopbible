@@ -9,8 +9,8 @@
   "dev": "Arkane Studios",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/deathloop.jpg",
+  "logo": "images/logos/deathloop.png",
   "links": [],
   "flags": {
     "installed": false,

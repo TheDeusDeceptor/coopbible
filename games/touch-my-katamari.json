@@ -9,8 +9,8 @@
   "dev": "Bandai Namco Games",
   "pub": "Bandai Namco Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/touch-my-katamari.jpg",
+  "logo": "images/logos/touch-my-katamari.png",
   "links": [],
   "flags": {
     "installed": false,

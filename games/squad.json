@@ -9,8 +9,8 @@
   "dev": "Offworld",
   "pub": "Offworld",
   "notes": "PvE Co-op",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/squad.jpg",
+  "logo": "images/logos/squad.png",
   "links": [
     {
       "label": "Steam",

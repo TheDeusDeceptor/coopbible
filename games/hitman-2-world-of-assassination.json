@@ -9,8 +9,8 @@
   "dev": "Io-Interactive",
   "pub": "Warner Bros. Interactive Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hitman-2-world-of-assassination.jpg",
+  "logo": "images/logos/hitman-2-world-of-assassination.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Telltale",
   "pub": "Telltale",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/batman-the-telltale-series.jpg",
+  "logo": "images/logos/batman-the-telltale-series.png",
   "links": [],
   "flags": {
     "installed": false,

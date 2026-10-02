@@ -9,8 +9,8 @@
   "dev": "TOSE",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metal-gear-solid-master-collection.jpg",
+  "logo": "images/logos/metal-gear-solid-master-collection.png",
   "links": [],
   "flags": {
     "installed": false,

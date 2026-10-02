@@ -9,8 +9,8 @@
   "dev": "thatgamecompany",
   "pub": "Annapurna Interactive",
   "notes": "READY?",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/journey.jpg",
+  "logo": "images/logos/journey.png",
   "links": [
     {
       "label": "Steam",

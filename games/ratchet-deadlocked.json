@@ -9,8 +9,8 @@
   "dev": "Insomniac Games",
   "pub": "Sony Computer Entertainment Europe",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ratchet-deadlocked.jpg",
+  "logo": "images/logos/ratchet-deadlocked.png",
   "links": [],
   "flags": {
     "installed": false,

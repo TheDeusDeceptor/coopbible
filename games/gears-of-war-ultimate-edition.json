@@ -9,8 +9,8 @@
   "dev": "The Coalition",
   "pub": "Microsoft Game Studios",
   "notes": "Remaster of original (2007).",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gears-of-war-ultimate-edition.jpg",
+  "logo": "images/logos/gears-of-war-ultimate-edition.png",
   "links": [],
   "flags": {
     "installed": false,

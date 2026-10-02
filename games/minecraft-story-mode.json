@@ -9,8 +9,8 @@
   "dev": "Telltale Games",
   "pub": "Telltale Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/minecraft-story-mode.jpg",
+  "logo": "images/logos/minecraft-story-mode.png",
   "links": [],
   "flags": {
     "installed": false,

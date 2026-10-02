@@ -9,8 +9,8 @@
   "dev": "Big Corporation",
   "pub": "Grunge Games LTD",
   "notes": "READY\n\n\n\n\n\nAnisotropic Filtering \nneeds some tinkering...",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/blood-and-bacon.jpg",
+  "logo": "images/logos/blood-and-bacon.png",
   "links": [
     {
       "label": "Steam",

@@ -9,8 +9,8 @@
   "dev": "Eko Software",
   "pub": "505 Games",
   "notes": "READY",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/how-to-survive.jpg",
+  "logo": "images/logos/how-to-survive.png",
   "links": [
     {
       "label": "Steam",

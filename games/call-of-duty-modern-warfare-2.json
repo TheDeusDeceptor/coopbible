@@ -9,8 +9,8 @@
   "dev": "Infinity Ward",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/call-of-duty-modern-warfare-2.jpg",
+  "logo": "images/logos/call-of-duty-modern-warfare-2.png",
   "links": [],
   "flags": {
     "installed": false,

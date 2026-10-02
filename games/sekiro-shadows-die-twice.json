@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/sekiro-shadows-die-twice.jpg",
+  "logo": "images/logos/sekiro-shadows-die-twice.png",
   "links": [],
   "flags": {
     "installed": true,

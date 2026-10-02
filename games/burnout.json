@@ -9,8 +9,8 @@
   "dev": "Scorpius Software",
   "pub": "Vulcan Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/burnout.jpg",
+  "logo": "images/logos/burnout.png",
   "links": [],
   "flags": {
     "installed": true,

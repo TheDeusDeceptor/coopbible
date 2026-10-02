@@ -9,8 +9,8 @@
   "dev": "Square Enix",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/kingdom-hearts-iii.jpg",
+  "logo": "images/logos/kingdom-hearts-iii.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Crytek",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/crysis.jpg",
+  "logo": "images/logos/crysis.png",
   "links": [],
   "flags": {
     "installed": false,

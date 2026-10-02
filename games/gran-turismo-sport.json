@@ -9,8 +9,8 @@
   "dev": "Polyphony Digital",
   "pub": "Sony Interactive Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gran-turismo-sport.jpg",
+  "logo": "images/logos/gran-turismo-sport.png",
   "links": [],
   "flags": {
     "installed": false,

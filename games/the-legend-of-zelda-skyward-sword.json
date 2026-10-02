@@ -9,8 +9,8 @@
   "dev": "Nintendo EAD",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-legend-of-zelda-skyward-sword.jpg",
+  "logo": "images/logos/the-legend-of-zelda-skyward-sword.png",
   "links": [],
   "flags": {
     "installed": true,

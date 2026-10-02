@@ -9,8 +9,8 @@
   "dev": "Rockstar North",
   "pub": "Rockstar Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/grand-theft-auto-v-enhanced.jpg",
+  "logo": "images/logos/grand-theft-auto-v-enhanced.png",
   "links": [],
   "flags": {
     "installed": false,

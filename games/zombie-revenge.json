@@ -9,8 +9,8 @@
   "dev": "Data East",
   "pub": "Sega Enterprises",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/zombie-revenge.jpg",
+  "logo": "images/logos/zombie-revenge.png",
   "links": [],
   "flags": {
     "installed": false,

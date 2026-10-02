@@ -9,8 +9,8 @@
   "dev": "Tecmo",
   "pub": "Tecmo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/silk-worm.jpg",
+  "logo": "images/logos/silk-worm.png",
   "links": [],
   "flags": {
     "installed": false,

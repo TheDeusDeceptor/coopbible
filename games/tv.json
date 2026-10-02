@@ -9,8 +9,8 @@
   "dev": "Artless Gallery",
   "pub": "Umbra Evolution",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tv.jpg",
+  "logo": "images/logos/tv.png",
   "links": [
     {
       "label": "Steam",

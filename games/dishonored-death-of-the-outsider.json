@@ -9,8 +9,8 @@
   "dev": "Arkane Studios",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dishonored-death-of-the-outsider.jpg",
+  "logo": "images/logos/dishonored-death-of-the-outsider.png",
   "links": [],
   "flags": {
     "installed": false,

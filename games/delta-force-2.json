@@ -9,8 +9,8 @@
   "dev": "Novalogic",
   "pub": "THQ Nordic",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/delta-force-2.jpg",
+  "logo": "images/logos/delta-force-2.png",
   "links": [],
   "flags": {
     "installed": false,

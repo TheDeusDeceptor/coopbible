@@ -9,8 +9,8 @@
   "dev": "Remedy Entertainment",
   "pub": "Microsoft Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/quantum-break.jpg",
+  "logo": "images/logos/quantum-break.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "DiCE",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/star-wars-battlefront.jpg",
+  "logo": "images/logos/star-wars-battlefront.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/star-fox-zero.jpg",
+  "logo": "images/logos/star-fox-zero.png",
   "links": [],
   "flags": {
     "installed": false,

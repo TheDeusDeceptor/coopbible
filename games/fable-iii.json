@@ -9,8 +9,8 @@
   "dev": "Lionhead Studios",
   "pub": "Microsoft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fable-iii.jpg",
+  "logo": "images/logos/fable-iii.png",
   "links": [],
   "flags": {
     "installed": false,

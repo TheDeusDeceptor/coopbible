@@ -9,8 +9,8 @@
   "dev": "HammerHead",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/blade-usa-chd.jpg",
+  "logo": "images/logos/blade-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

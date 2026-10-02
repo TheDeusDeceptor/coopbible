@@ -9,8 +9,8 @@
   "dev": "Red Entertainment",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gungrave.jpg",
+  "logo": "images/logos/gungrave.png",
   "links": [],
   "flags": {
     "installed": false,

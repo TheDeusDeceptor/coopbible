@@ -9,8 +9,8 @@
   "dev": "Project Aces",
   "pub": "Bandai Namco Games",
   "notes": "Initially F2P title, now works via Operation Eternal Liberation project.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ace-combat-infinity.jpg",
+  "logo": "images/logos/ace-combat-infinity.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Dimps",
   "pub": "Bandai Namco",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/soulcalibur-vi.jpg",
+  "logo": "images/logos/soulcalibur-vi.png",
   "links": [],
   "flags": {
     "installed": false,

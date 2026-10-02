@@ -9,8 +9,8 @@
   "dev": "Ubisoft",
   "pub": "Ubisoft",
   "notes": "Optional, port of Warrior Within with new content.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/prince-of-persia-revelations.jpg",
+  "logo": "images/logos/prince-of-persia-revelations.png",
   "links": [],
   "flags": {
     "installed": false,

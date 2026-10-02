@@ -9,8 +9,8 @@
   "dev": "Nintendo EAD",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/new-super-mario-bros.jpg",
+  "logo": "images/logos/new-super-mario-bros.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Neversoft Entertainment",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gun.jpg",
+  "logo": "images/logos/gun.png",
   "links": [],
   "flags": {
     "installed": true,

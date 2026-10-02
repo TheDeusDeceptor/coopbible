@@ -9,8 +9,8 @@
   "dev": "nFusion Interactive",
   "pub": "Midway Home Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hour-of-victory.jpg",
+  "logo": "images/logos/hour-of-victory.png",
   "links": [],
   "flags": {
     "installed": false,

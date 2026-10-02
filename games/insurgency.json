@@ -9,8 +9,8 @@
   "dev": "Nicholas Holgate",
   "pub": "Cases Computer Simulations",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/insurgency.jpg",
+  "logo": "images/logos/insurgency.png",
   "links": [],
   "flags": {
     "installed": false,

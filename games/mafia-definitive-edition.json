@@ -9,8 +9,8 @@
   "dev": "Hangar 13",
   "pub": "2K Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/mafia-definitive-edition.jpg",
+  "logo": "images/logos/mafia-definitive-edition.png",
   "links": [],
   "flags": {
     "installed": false,

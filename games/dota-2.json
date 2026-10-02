@@ -9,8 +9,8 @@
   "dev": "Valve",
   "pub": "Valve",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dota-2.jpg",
+  "logo": "images/logos/dota-2.png",
   "links": [],
   "flags": {
     "installed": false,

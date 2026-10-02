@@ -9,8 +9,8 @@
   "dev": "Capcom U.S.A.",
   "pub": "Capcom U.S.A.",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/street-fighter-x-tekken.jpg",
+  "logo": "images/logos/street-fighter-x-tekken.png",
   "links": [],
   "flags": {
     "installed": false,

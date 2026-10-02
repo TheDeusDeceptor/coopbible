@@ -9,8 +9,8 @@
   "dev": "Warner Bros. Games Montréal, QLOC",
   "pub": "Warner Bros. Games",
   "notes": "Developer server \nauthorization required\n\n\nGAMEPASS",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gotham-knights.jpg",
+  "logo": "images/logos/gotham-knights.png",
   "links": [
     {
       "label": "Steam",

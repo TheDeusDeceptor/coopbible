@@ -9,8 +9,8 @@
   "dev": "Pandemic",
   "pub": "LucasArts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/star-wars-battlefront-ii.jpg",
+  "logo": "images/logos/star-wars-battlefront-ii.png",
   "links": [],
   "flags": {
     "installed": false,

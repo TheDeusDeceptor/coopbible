@@ -9,8 +9,8 @@
   "dev": "Koei Tecmo",
   "pub": "KOEI TECMO AMERICA",
   "notes": "Remaster of Wii U version.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fatal-frame-maiden-of-black-water.jpg",
+  "logo": "images/logos/fatal-frame-maiden-of-black-water.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Passtech Games",
   "pub": "Nacon",
   "notes": "READY",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ravenswatch.jpg",
+  "logo": "images/logos/ravenswatch.png",
   "links": [
     {
       "label": "Steam",

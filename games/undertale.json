@@ -9,8 +9,8 @@
   "dev": "Toby Fox",
   "pub": "Toby Fox",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/undertale.jpg",
+  "logo": "images/logos/undertale.png",
   "links": [],
   "flags": {
     "installed": false,

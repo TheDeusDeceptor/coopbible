@@ -9,8 +9,8 @@
   "dev": "Velez & Dubail",
   "pub": "Infogrames",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/test-drive-le-mans.jpg",
+  "logo": "images/logos/test-drive-le-mans.png",
   "links": [],
   "flags": {
     "installed": false,

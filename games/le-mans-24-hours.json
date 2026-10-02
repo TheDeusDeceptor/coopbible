@@ -9,8 +9,8 @@
   "dev": "Infogrames",
   "pub": "Infogrames",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/le-mans-24-hours.jpg",
+  "logo": "images/logos/le-mans-24-hours.png",
   "links": [],
   "flags": {
     "installed": false,

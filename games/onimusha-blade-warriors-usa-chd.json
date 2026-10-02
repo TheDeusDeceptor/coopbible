@@ -9,8 +9,8 @@
   "dev": "Capcom Production Studio 2",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/onimusha-blade-warriors-usa-chd.jpg",
+  "logo": "images/logos/onimusha-blade-warriors-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

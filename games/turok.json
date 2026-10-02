@@ -9,8 +9,8 @@
   "dev": "Iguana Entertainment",
   "pub": "Nightdive Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/turok.jpg",
+  "logo": "images/logos/turok.png",
   "links": [],
   "flags": {
     "installed": false,

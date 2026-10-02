@@ -9,8 +9,8 @@
   "dev": "Emberforge",
   "pub": "Emberforge",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/orebound.jpg",
+  "logo": "images/logos/orebound.png",
   "links": [
     {
       "label": "Steam",

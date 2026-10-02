@@ -9,8 +9,8 @@
   "dev": "Kid",
   "pub": "KID",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pepsiman-japan-chd.jpg",
+  "logo": "images/logos/pepsiman-japan-chd.png",
   "links": [],
   "flags": {
     "installed": false,

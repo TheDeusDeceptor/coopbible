@@ -9,8 +9,8 @@
   "dev": "Clive Townsend",
   "pub": "SimFabric",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-saboteur.jpg",
+  "logo": "images/logos/the-saboteur.png",
   "links": [],
   "flags": {
     "installed": false,

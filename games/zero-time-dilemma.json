@@ -9,8 +9,8 @@
   "dev": "Chime",
   "pub": "Aksys Games Localization",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/zero-time-dilemma.jpg",
+  "logo": "images/logos/zero-time-dilemma.png",
   "links": [],
   "flags": {
     "installed": false,

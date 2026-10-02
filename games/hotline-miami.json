@@ -9,8 +9,8 @@
   "dev": "Dennaton Games",
   "pub": "Devolver Digital",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hotline-miami.jpg",
+  "logo": "images/logos/hotline-miami.png",
   "links": [],
   "flags": {
     "installed": false,

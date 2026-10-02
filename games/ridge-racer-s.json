@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Namco",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ridge-racer-s.jpg",
+  "logo": "images/logos/ridge-racer-s.png",
   "links": [],
   "flags": {
     "installed": false,

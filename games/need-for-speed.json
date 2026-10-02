@@ -9,8 +9,8 @@
   "dev": "Electronic Arts Canada",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/need-for-speed.jpg",
+  "logo": "images/logos/need-for-speed.png",
   "links": [],
   "flags": {
     "installed": false,

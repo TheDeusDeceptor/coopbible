@@ -9,8 +9,8 @@
   "dev": "Cyanide Studio",
   "pub": "Nacon",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/of-orcs-and-men.jpg",
+  "logo": "images/logos/of-orcs-and-men.png",
   "links": [],
   "flags": {
     "installed": false,

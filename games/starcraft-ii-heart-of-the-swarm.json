@@ -9,8 +9,8 @@
   "dev": "Blizzard Entertainment",
   "pub": "Blizzard Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/starcraft-ii-heart-of-the-swarm.jpg",
+  "logo": "images/logos/starcraft-ii-heart-of-the-swarm.png",
   "links": [],
   "flags": {
     "installed": false,

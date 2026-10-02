@@ -9,8 +9,8 @@
   "dev": "Bits Studios",
   "pub": "THQ",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/constantine.jpg",
+  "logo": "images/logos/constantine.png",
   "links": [],
   "flags": {
     "installed": false,

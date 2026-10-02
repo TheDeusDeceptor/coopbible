@@ -9,8 +9,8 @@
   "dev": "Rebellion Developments",
   "pub": "Namco Hometek",
   "notes": "Optional? (few sources claim it's DtR2 adaptation on handhelds)",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dead-to-rights-reckoning.jpg",
+  "logo": "images/logos/dead-to-rights-reckoning.png",
   "links": [],
   "flags": {
     "installed": false,

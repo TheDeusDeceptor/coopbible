@@ -9,8 +9,8 @@
   "dev": "Crystal Dynamics",
   "pub": "Eidos Interactive",
   "notes": "Legacy of Kain: Soul Reaver 1 & 2 Remastered.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/legacy-of-kain-soul-reaver-remastered.jpg",
+  "logo": "images/logos/legacy-of-kain-soul-reaver-remastered.png",
   "links": [],
   "flags": {
     "installed": true,

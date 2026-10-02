@@ -9,8 +9,8 @@
   "dev": "Retro Studios",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metroid-prime-remastered.jpg",
+  "logo": "images/logos/metroid-prime-remastered.png",
   "links": [],
   "flags": {
     "installed": true,

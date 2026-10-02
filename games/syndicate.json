@@ -9,8 +9,8 @@
   "dev": "Bullfrog Productions",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/syndicate.jpg",
+  "logo": "images/logos/syndicate.png",
   "links": [],
   "flags": {
     "installed": false,

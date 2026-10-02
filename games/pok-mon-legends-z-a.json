@@ -9,8 +9,8 @@
   "dev": "Game Freak",
   "pub": "Nintendo",
   "notes": "Sequel to X\\Y.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pok-mon-legends-z-a.jpg",
+  "logo": "images/logos/pok-mon-legends-z-a.png",
   "links": [],
   "flags": {
     "installed": false,

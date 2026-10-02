@@ -9,8 +9,8 @@
   "dev": "TickTock Games",
   "pub": "RebellionInteract",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rogue-trooper-redux.jpg",
+  "logo": "images/logos/rogue-trooper-redux.png",
   "links": [],
   "flags": {
     "installed": false,

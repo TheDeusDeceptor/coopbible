@@ -9,8 +9,8 @@
   "dev": "Saber Interactive",
   "pub": "Focus Entertainment",
   "notes": "Developer server authorization required",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/roadcraft.jpg",
+  "logo": "images/logos/roadcraft.png",
   "links": [
     {
       "label": "Steam",

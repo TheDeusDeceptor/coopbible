@@ -9,8 +9,8 @@
   "dev": "FromSoftware, Inc.",
   "pub": "FromSoftware, Inc., Bandai Namco Entertainment",
   "notes": "+ Shadow of the Erdtree",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/elden-ring.jpg",
+  "logo": "images/logos/elden-ring.png",
   "links": [
     {
       "label": "Steam",

@@ -9,8 +9,8 @@
   "dev": "Airtight",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dark-void.jpg",
+  "logo": "images/logos/dark-void.png",
   "links": [],
   "flags": {
     "installed": false,

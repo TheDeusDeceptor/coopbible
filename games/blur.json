@@ -9,8 +9,8 @@
   "dev": "Spiral House",
   "pub": "Activision Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/blur.jpg",
+  "logo": "images/logos/blur.png",
   "links": [],
   "flags": {
     "installed": false,

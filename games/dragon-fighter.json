@@ -9,8 +9,8 @@
   "dev": "Idea Software",
   "pub": "Idea Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dragon-fighter.jpg",
+  "logo": "images/logos/dragon-fighter.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "ToaPlan",
   "pub": "Taito",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/twin-cobra.jpg",
+  "logo": "images/logos/twin-cobra.png",
   "links": [],
   "flags": {
     "installed": false,

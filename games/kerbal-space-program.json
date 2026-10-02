@@ -9,8 +9,8 @@
   "dev": "Squad",
   "pub": "Private Division",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/kerbal-space-program.jpg",
+  "logo": "images/logos/kerbal-space-program.png",
   "links": [],
   "flags": {
     "installed": false,

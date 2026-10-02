@@ -9,8 +9,8 @@
   "dev": "MAGES.",
   "pub": "Spike Chunsoft",
   "notes": "Animated remake of Steins;Gate ...optional?",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/steins-gate-elite.jpg",
+  "logo": "images/logos/steins-gate-elite.png",
   "links": [],
   "flags": {
     "installed": false,

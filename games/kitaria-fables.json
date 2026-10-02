@@ -9,8 +9,8 @@
   "dev": "Twin Hearts",
   "pub": "PQube",
   "notes": "Local Co-op (RemotePlay)\nREADY",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/kitaria-fables.jpg",
+  "logo": "images/logos/kitaria-fables.png",
   "links": [
     {
       "label": "Steam",

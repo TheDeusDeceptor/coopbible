@@ -9,8 +9,8 @@
   "dev": "Capcom Production Studio 2",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/onimusha-2-samurai-s-destiny.jpg",
+  "logo": "images/logos/onimusha-2-samurai-s-destiny.png",
   "links": [],
   "flags": {
     "installed": false,

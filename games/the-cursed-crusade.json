@@ -9,8 +9,8 @@
   "dev": "Kylotonn",
   "pub": "Atlus",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-cursed-crusade.jpg",
+  "logo": "images/logos/the-cursed-crusade.png",
   "links": [],
   "flags": {
     "installed": false,

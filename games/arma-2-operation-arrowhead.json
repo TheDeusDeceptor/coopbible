@@ -9,8 +9,8 @@
   "dev": "Bohemia Interactive",
   "pub": "Bohemia Interactive",
   "notes": "STEAM\n\nor\n\nREADY\n(as part of Combined Operations from GOG)",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/arma-2-operation-arrowhead.jpg",
+  "logo": "images/logos/arma-2-operation-arrowhead.png",
   "links": [
     {
       "label": "Steam",

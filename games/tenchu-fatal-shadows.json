@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "FromSoftware",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tenchu-fatal-shadows.jpg",
+  "logo": "images/logos/tenchu-fatal-shadows.png",
   "links": [],
   "flags": {
     "installed": false,

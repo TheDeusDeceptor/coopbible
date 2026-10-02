@@ -9,8 +9,8 @@
   "dev": "CyberConnect",
   "pub": "Bandai",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/silent-bomber-usa-chd.jpg",
+  "logo": "images/logos/silent-bomber-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

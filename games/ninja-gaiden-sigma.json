@@ -9,8 +9,8 @@
   "dev": "Koei Tecmo Games",
   "pub": "Koei Tecmo Games",
   "notes": "Optional, depends on received brain damage after beating NGB.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ninja-gaiden-sigma.jpg",
+  "logo": "images/logos/ninja-gaiden-sigma.png",
   "links": [],
   "flags": {
     "installed": false,

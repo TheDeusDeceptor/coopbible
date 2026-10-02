@@ -9,8 +9,8 @@
   "dev": "WayForward",
   "pub": "KONAMI",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/contra-operation-galuga.jpg",
+  "logo": "images/logos/contra-operation-galuga.png",
   "links": [
     {
       "label": "Steam",

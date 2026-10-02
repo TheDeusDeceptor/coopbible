@@ -9,8 +9,8 @@
   "dev": "Team Silent",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/silent-hill-2.jpg",
+  "logo": "images/logos/silent-hill-2.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Epic Games",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bulletstorm.jpg",
+  "logo": "images/logos/bulletstorm.png",
   "links": [],
   "flags": {
     "installed": false,

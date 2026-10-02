@@ -9,8 +9,8 @@
   "dev": "Acclaim Studios Austin",
   "pub": "Acclaim Entertainment",
   "notes": "PC verison is inferior, but oh, well...",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/turok-evolution.jpg",
+  "logo": "images/logos/turok-evolution.png",
   "links": [],
   "flags": {
     "installed": false,

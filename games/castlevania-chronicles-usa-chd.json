@@ -9,8 +9,8 @@
   "dev": "Konami Computer Entertainment Tokyo",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/castlevania-chronicles-usa-chd.jpg",
+  "logo": "images/logos/castlevania-chronicles-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

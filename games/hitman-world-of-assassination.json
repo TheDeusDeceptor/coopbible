@@ -9,8 +9,8 @@
   "dev": "IO Interactive",
   "pub": "IO Interactive",
   "notes": "Hitman: World of Assassination.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hitman-world-of-assassination.jpg",
+  "logo": "images/logos/hitman-world-of-assassination.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Project Siren",
   "pub": "Sony",
   "notes": "Apparently hard game, careful..!",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/siren.jpg",
+  "logo": "images/logos/siren.png",
   "links": [],
   "flags": {
     "installed": false,

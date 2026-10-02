@@ -9,8 +9,8 @@
   "dev": "Epic Games",
   "pub": "Microsoft Game Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gears-of-war-3.jpg",
+  "logo": "images/logos/gears-of-war-3.png",
   "links": [],
   "flags": {
     "installed": true,

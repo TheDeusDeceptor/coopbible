@@ -9,8 +9,8 @@
   "dev": "Nine Dots Studio",
   "pub": "Deep Silver",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/outward.jpg",
+  "logo": "images/logos/outward.png",
   "links": [],
   "flags": {
     "installed": false,

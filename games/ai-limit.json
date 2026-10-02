@@ -9,8 +9,8 @@
   "dev": "Sense Games",
   "pub": "CE-Asia",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ai-limit.jpg",
+  "logo": "images/logos/ai-limit.png",
   "links": [],
   "flags": {
     "installed": false,

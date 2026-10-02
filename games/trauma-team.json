@@ -9,8 +9,8 @@
   "dev": "Atlus",
   "pub": "Atlus U.S.A.",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/trauma-team.jpg",
+  "logo": "images/logos/trauma-team.png",
   "links": [],
   "flags": {
     "installed": false,

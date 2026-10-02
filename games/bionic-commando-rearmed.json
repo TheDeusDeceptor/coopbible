@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bionic-commando-rearmed.jpg",
+  "logo": "images/logos/bionic-commando-rearmed.png",
   "links": [],
   "flags": {
     "installed": false,

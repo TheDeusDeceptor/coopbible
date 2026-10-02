@@ -9,8 +9,8 @@
   "dev": "Team Bondi",
   "pub": "Rockstar Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/l-a-noire.jpg",
+  "logo": "images/logos/l-a-noire.png",
   "links": [],
   "flags": {
     "installed": false,

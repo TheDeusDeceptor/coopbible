@@ -9,8 +9,8 @@
   "dev": "Grasshopper Manufacture",
   "pub": "KOEI TECMO AMERICA",
   "notes": "Remaster of Wii version.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fatal-frame-mask-of-the-lunar-eclipse.jpg",
+  "logo": "images/logos/fatal-frame-mask-of-the-lunar-eclipse.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Source the Software House",
   "pub": "Superior Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/predator.jpg",
+  "logo": "images/logos/predator.png",
   "links": [],
   "flags": {
     "installed": false,

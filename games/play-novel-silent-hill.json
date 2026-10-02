@@ -9,8 +9,8 @@
   "dev": "Konami Computer Entertainment Tokyo",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/play-novel-silent-hill.jpg",
+  "logo": "images/logos/play-novel-silent-hill.png",
   "links": [],
   "flags": {
     "installed": false,

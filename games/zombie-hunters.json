@@ -9,8 +9,8 @@
   "dev": "Tamsoft",
   "pub": "D3Publisher",
   "notes": "Updated version of the first game.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/zombie-hunters.jpg",
+  "logo": "images/logos/zombie-hunters.png",
   "links": [],
   "flags": {
     "installed": true,

@@ -9,8 +9,8 @@
   "dev": "Sega Pinball",
   "pub": "Sega Pinball",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/starship-troopers.jpg",
+  "logo": "images/logos/starship-troopers.png",
   "links": [],
   "flags": {
     "installed": false,

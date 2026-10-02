@@ -9,8 +9,8 @@
   "dev": "Raven Software",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/singularity.jpg",
+  "logo": "images/logos/singularity.png",
   "links": [],
   "flags": {
     "installed": false,

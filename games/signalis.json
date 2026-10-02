@@ -9,8 +9,8 @@
   "dev": "rose-engine",
   "pub": "Playism",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/signalis.jpg",
+  "logo": "images/logos/signalis.png",
   "links": [],
   "flags": {
     "installed": false,

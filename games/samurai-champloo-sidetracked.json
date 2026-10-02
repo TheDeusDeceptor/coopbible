@@ -9,8 +9,8 @@
   "dev": "Grasshopper Manufacture",
   "pub": "Bandai",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/samurai-champloo-sidetracked.jpg",
+  "logo": "images/logos/samurai-champloo-sidetracked.png",
   "links": [],
   "flags": {
     "installed": false,

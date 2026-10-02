@@ -9,8 +9,8 @@
   "dev": "Nintendo EAD",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/super-mario-3d-world-bowser-s-fury.jpg",
+  "logo": "images/logos/super-mario-3d-world-bowser-s-fury.png",
   "links": [],
   "flags": {
     "installed": true,

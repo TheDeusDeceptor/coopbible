@@ -9,8 +9,8 @@
   "dev": "AremixInteractive",
   "pub": "AremixInteractive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/chicken-escape.jpg",
+  "logo": "images/logos/chicken-escape.png",
   "links": [
     {
       "label": "Steam",

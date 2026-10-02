@@ -9,8 +9,8 @@
   "dev": "Raven Software",
   "pub": "Activision Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/wolfenstein.jpg",
+  "logo": "images/logos/wolfenstein.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Mindware Studios",
   "pub": "DreamCatcher Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/cold-war.jpg",
+  "logo": "images/logos/cold-war.png",
   "links": [],
   "flags": {
     "installed": false,

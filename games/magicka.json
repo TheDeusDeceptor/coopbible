@@ -9,8 +9,8 @@
   "dev": "Arrowhead Game Studios",
   "pub": "Paradox Interactive",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/magicka.jpg",
+  "logo": "images/logos/magicka.png",
   "links": [
     {
       "label": "Steam",

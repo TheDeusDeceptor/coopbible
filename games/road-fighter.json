@@ -9,8 +9,8 @@
   "dev": "Konami",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/road-fighter.jpg",
+  "logo": "images/logos/road-fighter.png",
   "links": [],
   "flags": {
     "installed": false,

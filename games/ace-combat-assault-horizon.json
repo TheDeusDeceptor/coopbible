@@ -9,8 +9,8 @@
   "dev": "Project Aces",
   "pub": "Namco Bandai Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ace-combat-assault-horizon.jpg",
+  "logo": "images/logos/ace-combat-assault-horizon.png",
   "links": [],
   "flags": {
     "installed": false,

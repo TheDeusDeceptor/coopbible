@@ -9,8 +9,8 @@
   "dev": "Warp",
   "pub": "Acclaim Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/d-usa-m3u.jpg",
+  "logo": "images/logos/d-usa-m3u.png",
   "links": [],
   "flags": {
     "installed": false,

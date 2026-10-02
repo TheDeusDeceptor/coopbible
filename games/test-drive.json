@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/test-drive.jpg",
+  "logo": "images/logos/test-drive.png",
   "links": [],
   "flags": {
     "installed": false,

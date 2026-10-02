@@ -9,8 +9,8 @@
   "dev": "Project Siren",
   "pub": "Sony Computer Entertainment Europe",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/siren-blood-curse.jpg",
+  "logo": "images/logos/siren-blood-curse.png",
   "links": [],
   "flags": {
     "installed": false,

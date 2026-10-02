@@ -9,8 +9,8 @@
   "dev": "Red Barrels",
   "pub": "Red Barrels",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/outlast.jpg",
+  "logo": "images/logos/outlast.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/onimusha-warlords.jpg",
+  "logo": "images/logos/onimusha-warlords.png",
   "links": [],
   "flags": {
     "installed": false,

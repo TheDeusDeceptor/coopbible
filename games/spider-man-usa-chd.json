@@ -9,8 +9,8 @@
   "dev": "Neversoft Entertainment",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/spider-man-usa-chd.jpg",
+  "logo": "images/logos/spider-man-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

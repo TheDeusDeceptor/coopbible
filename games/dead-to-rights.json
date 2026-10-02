@@ -9,8 +9,8 @@
   "dev": "Namco Hometek",
   "pub": "Namco",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dead-to-rights.jpg",
+  "logo": "images/logos/dead-to-rights.png",
   "links": [],
   "flags": {
     "installed": false,

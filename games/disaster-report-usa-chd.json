@@ -9,8 +9,8 @@
   "dev": "Irem",
   "pub": "Agetec",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/disaster-report-usa-chd.jpg",
+  "logo": "images/logos/disaster-report-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

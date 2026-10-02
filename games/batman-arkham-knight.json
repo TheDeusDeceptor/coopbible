@@ -9,8 +9,8 @@
   "dev": "Rocksteady Studios",
   "pub": "Warner Bros. Interactive Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/batman-arkham-knight.jpg",
+  "logo": "images/logos/batman-arkham-knight.png",
   "links": [],
   "flags": {
     "installed": false,

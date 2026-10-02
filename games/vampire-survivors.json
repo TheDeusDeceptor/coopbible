@@ -9,8 +9,8 @@
   "dev": "poncle",
   "pub": "poncle",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/vampire-survivors.jpg",
+  "logo": "images/logos/vampire-survivors.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "K2 (Japan)",
   "pub": "FromSoftware",
   "notes": "Enhanced Xbox version (titled Return from Darkness) exists.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tenchu-wrath-of-heaven.jpg",
+  "logo": "images/logos/tenchu-wrath-of-heaven.png",
   "links": [],
   "flags": {
     "installed": false,

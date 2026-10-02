@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bionic-commando.jpg",
+  "logo": "images/logos/bionic-commando.png",
   "links": [],
   "flags": {
     "installed": false,

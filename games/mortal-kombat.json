@@ -9,8 +9,8 @@
   "dev": "Midway Manufacturing",
   "pub": "Midway Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/mortal-kombat.jpg",
+  "logo": "images/logos/mortal-kombat.png",
   "links": [],
   "flags": {
     "installed": false,

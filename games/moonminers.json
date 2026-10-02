@@ -9,8 +9,8 @@
   "dev": "MIROWIN",
   "pub": "PM Studio",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/moonminers.jpg",
+  "logo": "images/logos/moonminers.png",
   "links": [
     {
       "label": "Steam",

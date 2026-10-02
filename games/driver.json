@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "Data-Tronic",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/driver.jpg",
+  "logo": "images/logos/driver.png",
   "links": [],
   "flags": {
     "installed": false,

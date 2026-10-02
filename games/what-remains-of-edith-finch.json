@@ -9,8 +9,8 @@
   "dev": "Giant Sparrow",
   "pub": "Annapurna Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/what-remains-of-edith-finch.jpg",
+  "logo": "images/logos/what-remains-of-edith-finch.png",
   "links": [],
   "flags": {
     "installed": false,

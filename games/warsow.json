@@ -9,8 +9,8 @@
   "dev": "Chasseur De Bots",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/warsow.jpg",
+  "logo": "images/logos/warsow.png",
   "links": [],
   "flags": {
     "installed": false,

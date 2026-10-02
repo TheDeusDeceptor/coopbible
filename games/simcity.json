@@ -9,8 +9,8 @@
   "dev": "Maxis",
   "pub": "Superior Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/simcity.jpg",
+  "logo": "images/logos/simcity.png",
   "links": [],
   "flags": {
     "installed": false,

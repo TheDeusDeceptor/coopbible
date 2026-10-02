@@ -9,8 +9,8 @@
   "dev": "Ubisoft Paris, Ubisoft Annecy, Ubisoft Bucharest, Ubisoft Montpellier, Ubisoft Milan, Reflections, Ubisoft Belgrade",
   "pub": "Ubisoft",
   "notes": "+ Fallen Ghosts\n\n     + Narco Road\n\n     + Last Rites",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-wildlands.jpg",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-wildlands.png",
   "links": [
     {
       "label": "Steam",

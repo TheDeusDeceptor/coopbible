@@ -9,8 +9,8 @@
   "dev": "Eutechnyx",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/007-racing.jpg",
+  "logo": "images/logos/007-racing.png",
   "links": [],
   "flags": {
     "installed": false,

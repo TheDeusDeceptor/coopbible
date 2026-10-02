@@ -9,8 +9,8 @@
   "dev": "Ryu ga Gotoku Studio",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/yakuza-6-the-song-of-life.jpg",
+  "logo": "images/logos/yakuza-6-the-song-of-life.png",
   "links": [],
   "flags": {
     "installed": false,

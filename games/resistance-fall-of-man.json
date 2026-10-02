@@ -9,8 +9,8 @@
   "dev": "Insomniac Games",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/resistance-fall-of-man.jpg",
+  "logo": "images/logos/resistance-fall-of-man.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Crytek Studios",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/crysis-warhead.jpg",
+  "logo": "images/logos/crysis-warhead.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Atari Melbourne House",
   "pub": "Atari",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/test-drive-unlimited.jpg",
+  "logo": "images/logos/test-drive-unlimited.png",
   "links": [],
   "flags": {
     "installed": false,

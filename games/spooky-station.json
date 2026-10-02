@@ -9,8 +9,8 @@
   "dev": "Coletivo Vaca Roxa, Vee, JoyMasher, PKO Game Studio, Spookids Team, Calangames, Expresso Studios, Pastel Studios, Heavy Sheep, LASTONE, Asteristic Game Studio",
   "pub": "Estúdio Vaca Roxa",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/spooky-station.jpg",
+  "logo": "images/logos/spooky-station.png",
   "links": [
     {
       "label": "Steam",

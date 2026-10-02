@@ -9,8 +9,8 @@
   "dev": "Rocksteady Studios",
   "pub": "Warner Bros. Interactive Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/batman-arkham-city.jpg",
+  "logo": "images/logos/batman-arkham-city.png",
   "links": [],
   "flags": {
     "installed": false,

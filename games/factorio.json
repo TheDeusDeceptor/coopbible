@@ -9,8 +9,8 @@
   "dev": "Wube Software LTD.",
   "pub": "Wube Software LTD.",
   "notes": "updates occasionally",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/factorio.jpg",
+  "logo": "images/logos/factorio.png",
   "links": [
     {
       "label": "Steam",

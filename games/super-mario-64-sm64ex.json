@@ -9,8 +9,8 @@
   "dev": "Nintendo EAD",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/super-mario-64-sm64ex.jpg",
+  "logo": "images/logos/super-mario-64-sm64ex.png",
   "links": [],
   "flags": {
     "installed": false,

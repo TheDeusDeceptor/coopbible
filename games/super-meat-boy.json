@@ -9,8 +9,8 @@
   "dev": "Team Meat",
   "pub": "BlitWorks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/super-meat-boy.jpg",
+  "logo": "images/logos/super-meat-boy.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Treyarch",
   "pub": "Activision Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/call-of-duty-black-ops-ii.jpg",
+  "logo": "images/logos/call-of-duty-black-ops-ii.png",
   "links": [],
   "flags": {
     "installed": false,

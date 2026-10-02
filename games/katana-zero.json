@@ -9,8 +9,8 @@
   "dev": "Askiisoft",
   "pub": "Devolver Digital",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/katana-zero.jpg",
+  "logo": "images/logos/katana-zero.png",
   "links": [],
   "flags": {
     "installed": false,

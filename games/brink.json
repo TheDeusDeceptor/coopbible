@@ -9,8 +9,8 @@
   "dev": "Splash Damage",
   "pub": "Bethesda",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/brink.jpg",
+  "logo": "images/logos/brink.png",
   "links": [],
   "flags": {
     "installed": false,

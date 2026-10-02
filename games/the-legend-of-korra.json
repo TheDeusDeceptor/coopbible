@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-legend-of-korra.jpg",
+  "logo": "images/logos/the-legend-of-korra.png",
   "links": [],
   "flags": {
     "installed": false,

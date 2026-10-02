@@ -9,8 +9,8 @@
   "dev": "Quest Craft, Gaming Factory",
   "pub": "Gaming Factory, Ultimate Games S.A., Ultimate Publishing, PlayWay S.A.",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pizza-slice.jpg",
+  "logo": "images/logos/pizza-slice.png",
   "links": [
     {
       "label": "Steam",

@@ -9,8 +9,8 @@
   "dev": "Black Rock Studio",
   "pub": "Disney Interactive Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/split-second.jpg",
+  "logo": "images/logos/split-second.png",
   "links": [],
   "flags": {
     "installed": false,

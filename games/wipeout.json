@@ -9,8 +9,8 @@
   "dev": "Softie",
   "pub": "ShareData",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/wipeout.jpg",
+  "logo": "images/logos/wipeout.png",
   "links": [],
   "flags": {
     "installed": false,

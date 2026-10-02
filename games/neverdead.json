@@ -9,8 +9,8 @@
   "dev": "Rebellion Developments",
   "pub": "Konami Digital Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/neverdead.jpg",
+  "logo": "images/logos/neverdead.png",
   "links": [],
   "flags": {
     "installed": false,

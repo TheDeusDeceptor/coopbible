@@ -9,8 +9,8 @@
   "dev": "TECOPARK",
   "pub": "TECOPARK",
   "notes": "PP1 on PP2 engine? (preferable...)",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pico-park.jpg",
+  "logo": "images/logos/pico-park.png",
   "links": [
     {
       "label": "Steam",

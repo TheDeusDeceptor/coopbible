@@ -9,8 +9,8 @@
   "dev": "Ninja Theory",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dmc-devil-may-cry.jpg",
+  "logo": "images/logos/dmc-devil-may-cry.png",
   "links": [],
   "flags": {
     "installed": false,

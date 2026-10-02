@@ -9,8 +9,8 @@
   "dev": "Ryu ga Gotoku Studio",
   "pub": "Sega",
   "notes": "Optional, different franchise.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fist-of-the-north-star-lost-paradise.jpg",
+  "logo": "images/logos/fist-of-the-north-star-lost-paradise.png",
   "links": [],
   "flags": {
     "installed": false,

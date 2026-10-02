@@ -9,8 +9,8 @@
   "dev": "KOEI TECMO GAMES CO., LTD.",
   "pub": "Electronic Arts",
   "notes": "🅱️enuvo + Origin",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/wild-hearts.jpg",
+  "logo": "images/logos/wild-hearts.png",
   "links": [
     {
       "label": "Steam",

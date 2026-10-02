@@ -9,8 +9,8 @@
   "dev": "Konami",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rush-n-attack.jpg",
+  "logo": "images/logos/rush-n-attack.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "ColdWood Interactive",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/unravel.jpg",
+  "logo": "images/logos/unravel.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "City Interactive",
   "pub": "City Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/sas-secure-tomorrow.jpg",
+  "logo": "images/logos/sas-secure-tomorrow.png",
   "links": [],
   "flags": {
     "installed": false,

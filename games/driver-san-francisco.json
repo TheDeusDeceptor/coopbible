@@ -9,8 +9,8 @@
   "dev": "Ubisoft Reflections",
   "pub": "Ubisoft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/driver-san-francisco.jpg",
+  "logo": "images/logos/driver-san-francisco.png",
   "links": [],
   "flags": {
     "installed": false,

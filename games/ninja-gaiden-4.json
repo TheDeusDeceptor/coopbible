@@ -9,8 +9,8 @@
   "dev": "Team Ninja",
   "pub": "Microsoft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ninja-gaiden-4.jpg",
+  "logo": "images/logos/ninja-gaiden-4.png",
   "links": [],
   "flags": {
     "installed": false,

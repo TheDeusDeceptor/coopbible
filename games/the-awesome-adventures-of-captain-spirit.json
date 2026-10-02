@@ -9,8 +9,8 @@
   "dev": "DONTNOD Entertainment",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-awesome-adventures-of-captain-spirit.jpg",
+  "logo": "images/logos/the-awesome-adventures-of-captain-spirit.png",
   "links": [],
   "flags": {
     "installed": false,

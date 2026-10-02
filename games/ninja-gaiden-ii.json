@@ -9,8 +9,8 @@
   "dev": "Team Ninja",
   "pub": "Tecmo",
   "notes": "\"Anus Explodius\".",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ninja-gaiden-ii.jpg",
+  "logo": "images/logos/ninja-gaiden-ii.png",
   "links": [],
   "flags": {
     "installed": false,

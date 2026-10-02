@@ -9,8 +9,8 @@
   "dev": "Tamsoft",
   "pub": "D3Publisher",
   "notes": "Japanese exlusive, optional?",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/onechanbara-special.jpg",
+  "logo": "images/logos/onechanbara-special.png",
   "links": [],
   "flags": {
     "installed": false,

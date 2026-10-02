@@ -9,8 +9,8 @@
   "dev": "Capcom Production Studio 2",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/genma-onimusha.jpg",
+  "logo": "images/logos/genma-onimusha.png",
   "links": [],
   "flags": {
     "installed": false,

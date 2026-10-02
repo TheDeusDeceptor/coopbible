@@ -9,8 +9,8 @@
   "dev": "Respawn Entertainment",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/titanfall-2.jpg",
+  "logo": "images/logos/titanfall-2.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Blitworks",
   "pub": "Annapurna Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gone-home.jpg",
+  "logo": "images/logos/gone-home.png",
   "links": [],
   "flags": {
     "installed": false,

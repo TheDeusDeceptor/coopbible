@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/nier-automata.jpg",
+  "logo": "images/logos/nier-automata.png",
   "links": [],
   "flags": {
     "installed": false,

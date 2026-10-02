@@ -9,8 +9,8 @@
   "dev": "BioWare",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/mass-effect-3.jpg",
+  "logo": "images/logos/mass-effect-3.png",
   "links": [],
   "flags": {
     "installed": false,

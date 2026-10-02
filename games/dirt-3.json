@@ -9,8 +9,8 @@
   "dev": "Codemasters",
   "pub": "Codemasters Birmingham",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dirt-3.jpg",
+  "logo": "images/logos/dirt-3.png",
   "links": [],
   "flags": {
     "installed": false,

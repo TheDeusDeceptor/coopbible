@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/anarchy-reigns.jpg",
+  "logo": "images/logos/anarchy-reigns.png",
   "links": [],
   "flags": {
     "installed": false,

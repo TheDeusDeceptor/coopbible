@@ -9,8 +9,8 @@
   "dev": "Darkworks",
   "pub": "Ubisoft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/cold-fear.jpg",
+  "logo": "images/logos/cold-fear.png",
   "links": [],
   "flags": {
     "installed": false,

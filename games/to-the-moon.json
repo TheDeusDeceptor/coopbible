@@ -9,8 +9,8 @@
   "dev": "Freebird Games",
   "pub": "X.D. Network",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/to-the-moon.jpg",
+  "logo": "images/logos/to-the-moon.png",
   "links": [],
   "flags": {
     "installed": false,

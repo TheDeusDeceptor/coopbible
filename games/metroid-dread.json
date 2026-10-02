@@ -9,8 +9,8 @@
   "dev": "MercurySteam",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metroid-dread.jpg",
+  "logo": "images/logos/metroid-dread.png",
   "links": [],
   "flags": {
     "installed": false,

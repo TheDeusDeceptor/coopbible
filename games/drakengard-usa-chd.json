@@ -9,8 +9,8 @@
   "dev": "Cavia",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/drakengard-usa-chd.jpg",
+  "logo": "images/logos/drakengard-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Pine Studio",
   "pub": "Pine Studio",
   "notes": "+ Steampunk DLC\n\n     + Wild West DLC\n\n     + Portal Escape Chamber\n\n     + Among Us DLC\n\n     + Magic DLC\n\n     + PowerWash DLC\n\n     - The Talos Principle\n\n     - Mayan DLC\n\n     - Spy DLC",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/escape-simulator.jpg",
+  "logo": "images/logos/escape-simulator.png",
   "links": [
     {
       "label": "Steam",

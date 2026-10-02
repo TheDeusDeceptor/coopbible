@@ -9,8 +9,8 @@
   "dev": "Gearbox Software",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/aliens-colonial-marines.jpg",
+  "logo": "images/logos/aliens-colonial-marines.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Obsidian Entertainment",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fallout-new-vegas.jpg",
+  "logo": "images/logos/fallout-new-vegas.png",
   "links": [],
   "flags": {
     "installed": false,

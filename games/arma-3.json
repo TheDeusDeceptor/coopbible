@@ -9,8 +9,8 @@
   "dev": "Bohemia Interactive",
   "pub": "Bohemia Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/arma-3.jpg",
+  "logo": "images/logos/arma-3.png",
   "links": [
     {
       "label": "Steam",

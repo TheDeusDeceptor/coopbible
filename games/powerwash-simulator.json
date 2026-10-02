@@ -9,8 +9,8 @@
   "dev": "FuturLab",
   "pub": "Square Enix",
   "notes": "READY",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/powerwash-simulator.jpg",
+  "logo": "images/logos/powerwash-simulator.png",
   "links": [
     {
       "label": "Steam",

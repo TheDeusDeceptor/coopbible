@@ -9,8 +9,8 @@
   "dev": "Motion Twin",
   "pub": "Motion Twin",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dead-cells.jpg",
+  "logo": "images/logos/dead-cells.png",
   "links": [],
   "flags": {
     "installed": false,

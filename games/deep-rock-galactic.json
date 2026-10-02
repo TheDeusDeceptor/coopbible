@@ -9,8 +9,8 @@
   "dev": "Ghost Ship Games",
   "pub": "Coffee Stain Publishing",
   "notes": "updates occasionally",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/deep-rock-galactic.jpg",
+  "logo": "images/logos/deep-rock-galactic.png",
   "links": [
     {
       "label": "Steam",

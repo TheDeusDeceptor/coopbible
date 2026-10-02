@@ -9,8 +9,8 @@
   "dev": "Adrenaline Amusements",
   "pub": "Konami",
   "notes": "MS-Store exclusive?",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tomb-raider-definitive-edition.jpg",
+  "logo": "images/logos/tomb-raider-definitive-edition.png",
   "links": [],
   "flags": {
     "installed": false,

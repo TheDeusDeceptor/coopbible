@@ -9,8 +9,8 @@
   "dev": "Infinity Ward",
   "pub": "Konami Digital Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/call-of-duty-2.jpg",
+  "logo": "images/logos/call-of-duty-2.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/sleep-awake.jpg",
+  "logo": "images/logos/sleep-awake.png",
   "links": [],
   "flags": {
     "installed": false,

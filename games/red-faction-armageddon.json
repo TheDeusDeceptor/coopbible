@@ -9,8 +9,8 @@
   "dev": "Volition",
   "pub": "Deep Silver",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/red-faction-armageddon.jpg",
+  "logo": "images/logos/red-faction-armageddon.png",
   "links": [
     {
       "label": "Steam",

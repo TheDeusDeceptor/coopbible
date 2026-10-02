@@ -9,8 +9,8 @@
   "dev": "Konami",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/contra.jpg",
+  "logo": "images/logos/contra.png",
   "links": [],
   "flags": {
     "installed": false,

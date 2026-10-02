@@ -9,8 +9,8 @@
   "dev": "Spiders",
   "pub": "Focus Home Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bound-by-flame.jpg",
+  "logo": "images/logos/bound-by-flame.png",
   "links": [],
   "flags": {
     "installed": true,

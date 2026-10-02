@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/resident-evil-the-umbrella-chronicles.jpg",
+  "logo": "images/logos/resident-evil-the-umbrella-chronicles.png",
   "links": [],
   "flags": {
     "installed": false,

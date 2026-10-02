@@ -9,8 +9,8 @@
   "dev": "Team Cherry",
   "pub": "Team Cherry",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hollow-knight.jpg",
+  "logo": "images/logos/hollow-knight.png",
   "links": [],
   "flags": {
     "installed": false,

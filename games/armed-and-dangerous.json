@@ -9,8 +9,8 @@
   "dev": "Planet Moon Studios",
   "pub": "LucasArts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/armed-and-dangerous.jpg",
+  "logo": "images/logos/armed-and-dangerous.png",
   "links": [],
   "flags": {
     "installed": false,

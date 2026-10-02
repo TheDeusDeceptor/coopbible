@@ -9,8 +9,8 @@
   "dev": "Ubisoft Studio SF",
   "pub": "Ubisoft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/south-park-the-fractured-but-whole.jpg",
+  "logo": "images/logos/south-park-the-fractured-but-whole.png",
   "links": [],
   "flags": {
     "installed": false,

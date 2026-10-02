@@ -9,8 +9,8 @@
   "dev": "PocketGame",
   "pub": "NETWORKGO",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pickmos.jpg",
+  "logo": "images/logos/pickmos.png",
   "links": [
     {
       "label": "Steam",

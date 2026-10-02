@@ -9,8 +9,8 @@
   "dev": "Tose Software",
   "pub": "Bandai Namco Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/scarlet-nexus.jpg",
+  "logo": "images/logos/scarlet-nexus.png",
   "links": [],
   "flags": {
     "installed": false,

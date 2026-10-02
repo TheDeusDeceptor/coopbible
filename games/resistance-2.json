@@ -9,8 +9,8 @@
   "dev": "Insomniac Games",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/resistance-2.jpg",
+  "logo": "images/logos/resistance-2.png",
   "links": [],
   "flags": {
     "installed": false,

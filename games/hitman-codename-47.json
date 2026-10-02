@@ -9,8 +9,8 @@
   "dev": "Io-Interactive",
   "pub": "Io-Interactive",
   "notes": "Hitman Classic Trilogy Remastered (upcoming).",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hitman-codename-47.jpg",
+  "logo": "images/logos/hitman-codename-47.png",
   "links": [],
   "flags": {
     "installed": false,

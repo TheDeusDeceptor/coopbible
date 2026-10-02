@@ -9,8 +9,8 @@
   "dev": "Avalanche Studios",
   "pub": "Warner Bros. Interactive Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/mad-max.jpg",
+  "logo": "images/logos/mad-max.png",
   "links": [],
   "flags": {
     "installed": false,

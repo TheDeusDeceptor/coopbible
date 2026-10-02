@@ -9,8 +9,8 @@
   "dev": "Volition",
   "pub": "Deep Silver",
   "notes": "STEAM\n\n\n\n\nRequires\nKobraworks \nJuiced Patch",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/saints-row-2.jpg",
+  "logo": "images/logos/saints-row-2.png",
   "links": [
     {
       "label": "Steam",

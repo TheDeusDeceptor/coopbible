@@ -9,8 +9,8 @@
   "dev": "Studio Popote",
   "pub": "Rubika Supinfogame",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/myrmidon.jpg",
+  "logo": "images/logos/myrmidon.png",
   "links": [
     {
       "label": "Steam",

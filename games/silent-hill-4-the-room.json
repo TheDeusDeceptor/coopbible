@@ -9,8 +9,8 @@
   "dev": "Team Silent",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/silent-hill-4-the-room.jpg",
+  "logo": "images/logos/silent-hill-4-the-room.png",
   "links": [],
   "flags": {
     "installed": false,

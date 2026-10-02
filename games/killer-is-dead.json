@@ -9,8 +9,8 @@
   "dev": "Grasshopper Manufacture",
   "pub": "Xseed Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/killer-is-dead.jpg",
+  "logo": "images/logos/killer-is-dead.png",
   "links": [],
   "flags": {
     "installed": false,

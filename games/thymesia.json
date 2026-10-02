@@ -9,8 +9,8 @@
   "dev": "OverBorder Studio",
   "pub": "Team17 Digital",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/thymesia.jpg",
+  "logo": "images/logos/thymesia.png",
   "links": [],
   "flags": {
     "installed": false,

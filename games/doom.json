@@ -9,8 +9,8 @@
   "dev": "Logicware",
   "pub": "Art Data Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/doom.jpg",
+  "logo": "images/logos/doom.png",
   "links": [],
   "flags": {
     "installed": false,

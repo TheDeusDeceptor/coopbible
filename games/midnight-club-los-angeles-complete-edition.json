@@ -9,8 +9,8 @@
   "dev": "Rockstar San Diego",
   "pub": "Rockstar Games",
   "notes": "Xbox 360 version recomp is in the works.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/midnight-club-los-angeles-complete-edition.jpg",
+  "logo": "images/logos/midnight-club-los-angeles-complete-edition.png",
   "links": [],
   "flags": {
     "installed": false,

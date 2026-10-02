@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "Optional (runner).",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/amazing-katamari-damacy.jpg",
+  "logo": "images/logos/amazing-katamari-damacy.png",
   "links": [],
   "flags": {
     "installed": false,

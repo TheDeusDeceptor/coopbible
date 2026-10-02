@@ -9,8 +9,8 @@
   "dev": "Nintendo SPD",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rhythm-heaven-megamix.jpg",
+  "logo": "images/logos/rhythm-heaven-megamix.png",
   "links": [],
   "flags": {
     "installed": false,

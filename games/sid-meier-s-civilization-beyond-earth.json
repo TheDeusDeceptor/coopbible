@@ -9,8 +9,8 @@
   "dev": "Firaxis Games",
   "pub": "2K Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/sid-meier-s-civilization-beyond-earth.jpg",
+  "logo": "images/logos/sid-meier-s-civilization-beyond-earth.png",
   "links": [],
   "flags": {
     "installed": false,

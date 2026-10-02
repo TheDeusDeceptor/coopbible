@@ -9,8 +9,8 @@
   "dev": "Frictional Games",
   "pub": "THQ",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/amnesia-the-dark-descent.jpg",
+  "logo": "images/logos/amnesia-the-dark-descent.png",
   "links": [],
   "flags": {
     "installed": false,

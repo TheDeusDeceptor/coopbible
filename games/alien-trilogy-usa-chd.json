@@ -9,8 +9,8 @@
   "dev": "Probe Entertainment",
   "pub": "Acclaim Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/alien-trilogy-usa-chd.jpg",
+  "logo": "images/logos/alien-trilogy-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

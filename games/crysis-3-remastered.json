@@ -9,8 +9,8 @@
   "dev": "Crytek",
   "pub": "Crytek",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/crysis-3-remastered.jpg",
+  "logo": "images/logos/crysis-3-remastered.png",
   "links": [],
   "flags": {
     "installed": false,

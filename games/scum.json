@@ -9,8 +9,8 @@
   "dev": "Gamepires",
   "pub": "Gamepires",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/scum.jpg",
+  "logo": "images/logos/scum.png",
   "links": [
     {
       "label": "Steam",

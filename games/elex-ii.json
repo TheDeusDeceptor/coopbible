@@ -9,8 +9,8 @@
   "dev": "Piranha Bytes",
   "pub": "THQ Nordic",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/elex-ii.jpg",
+  "logo": "images/logos/elex-ii.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "BitBorne Studio",
   "pub": "BitBorne Studio",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/goblin-company.jpg",
+  "logo": "images/logos/goblin-company.png",
   "links": [
     {
       "label": "Steam",

@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Namco",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ace-combat-2.jpg",
+  "logo": "images/logos/ace-combat-2.png",
   "links": [],
   "flags": {
     "installed": false,

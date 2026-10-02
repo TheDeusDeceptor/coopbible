@@ -9,8 +9,8 @@
   "dev": "Game Science",
   "pub": "Game Science",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/black-myth-wukong.jpg",
+  "logo": "images/logos/black-myth-wukong.png",
   "links": [],
   "flags": {
     "installed": false,

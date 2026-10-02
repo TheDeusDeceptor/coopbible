@@ -9,8 +9,8 @@
   "dev": "Team Ninja",
   "pub": "Tecmo",
   "notes": "Based.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ninja-gaiden-black.jpg",
+  "logo": "images/logos/ninja-gaiden-black.png",
   "links": [],
   "flags": {
     "installed": true,

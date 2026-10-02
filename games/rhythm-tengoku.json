@@ -9,8 +9,8 @@
   "dev": "Nintendo",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rhythm-tengoku.jpg",
+  "logo": "images/logos/rhythm-tengoku.png",
   "links": [],
   "flags": {
     "installed": false,

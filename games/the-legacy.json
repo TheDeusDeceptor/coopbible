@@ -9,8 +9,8 @@
   "dev": "Second Reality",
   "pub": "RockGame S.A.",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-legacy.jpg",
+  "logo": "images/logos/the-legacy.png",
   "links": [
     {
       "label": "Steam",

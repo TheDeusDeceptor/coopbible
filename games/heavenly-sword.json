@@ -9,8 +9,8 @@
   "dev": "Ninja Theory",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/heavenly-sword.jpg",
+  "logo": "images/logos/heavenly-sword.png",
   "links": [],
   "flags": {
     "installed": true,

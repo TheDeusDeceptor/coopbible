@@ -9,8 +9,8 @@
   "dev": "Psygnosis",
   "pub": "Psygnosis",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/codename-tenka.jpg",
+  "logo": "images/logos/codename-tenka.png",
   "links": [],
   "flags": {
     "installed": false,

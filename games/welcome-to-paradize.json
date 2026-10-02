@@ -9,8 +9,8 @@
   "dev": "Eko Software",
   "pub": "Nacon",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/welcome-to-paradize.jpg",
+  "logo": "images/logos/welcome-to-paradize.png",
   "links": [
     {
       "label": "Steam",

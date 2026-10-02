@@ -9,8 +9,8 @@
   "dev": "Sonic Team",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/shadow-the-hedgehog-usa-en-ja-fr-de-es-it-chd.jpg",
+  "logo": "images/logos/shadow-the-hedgehog-usa-en-ja-fr-de-es-it-chd.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "THQ Nordic",
   "pub": "HandyGames",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/neighbours-back-from-hell.jpg",
+  "logo": "images/logos/neighbours-back-from-hell.png",
   "links": [],
   "flags": {
     "installed": false,

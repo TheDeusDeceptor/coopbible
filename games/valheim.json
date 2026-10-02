@@ -9,8 +9,8 @@
   "dev": "Iron Gate AB",
   "pub": "Coffee Stain Publishing",
   "notes": "emulation issues",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/valheim.jpg",
+  "logo": "images/logos/valheim.png",
   "links": [
     {
       "label": "Steam",

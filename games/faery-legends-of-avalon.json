@@ -9,8 +9,8 @@
   "dev": "Spiders",
   "pub": "Focus Home Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/faery-legends-of-avalon.jpg",
+  "logo": "images/logos/faery-legends-of-avalon.png",
   "links": [],
   "flags": {
     "installed": false,

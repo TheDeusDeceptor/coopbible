@@ -9,8 +9,8 @@
   "dev": "Atlus",
   "pub": "Atlus",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rockin-kats.jpg",
+  "logo": "images/logos/rockin-kats.png",
   "links": [],
   "flags": {
     "installed": false,

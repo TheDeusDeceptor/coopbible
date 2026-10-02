@@ -9,8 +9,8 @@
   "dev": "Eidos Montreal",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/deus-ex-mankind-divided.jpg",
+  "logo": "images/logos/deus-ex-mankind-divided.png",
   "links": [],
   "flags": {
     "installed": false,

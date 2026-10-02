@@ -9,8 +9,8 @@
   "dev": "Neognosis",
   "pub": "Neognosis",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ballisticng.jpg",
+  "logo": "images/logos/ballisticng.png",
   "links": [],
   "flags": {
     "installed": false,

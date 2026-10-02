@@ -9,8 +9,8 @@
   "dev": "Novalogic",
   "pub": "THQ Nordic",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/delta-force-land-warrior.jpg",
+  "logo": "images/logos/delta-force-land-warrior.png",
   "links": [],
   "flags": {
     "installed": false,

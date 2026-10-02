@@ -9,8 +9,8 @@
   "dev": "Epic Games",
   "pub": "Microsoft Game Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gears-of-war-judgment.jpg",
+  "logo": "images/logos/gears-of-war-judgment.png",
   "links": [],
   "flags": {
     "installed": true,

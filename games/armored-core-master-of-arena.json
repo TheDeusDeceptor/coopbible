@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Agetec",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/armored-core-master-of-arena.jpg",
+  "logo": "images/logos/armored-core-master-of-arena.png",
   "links": [],
   "flags": {
     "installed": false,

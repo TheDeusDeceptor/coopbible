@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Namco Bandai",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dark-souls-ii.jpg",
+  "logo": "images/logos/dark-souls-ii.png",
   "links": [],
   "flags": {
     "installed": false,

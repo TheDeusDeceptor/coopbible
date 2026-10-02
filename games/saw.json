@@ -9,8 +9,8 @@
   "dev": "Zombie Studios",
   "pub": "Konami Digital Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/saw.jpg",
+  "logo": "images/logos/saw.png",
   "links": [],
   "flags": {
     "installed": false,

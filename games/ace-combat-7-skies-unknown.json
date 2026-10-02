@@ -9,8 +9,8 @@
   "dev": "Project Aces",
   "pub": "Bandai Namco Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ace-combat-7-skies-unknown.jpg",
+  "logo": "images/logos/ace-combat-7-skies-unknown.png",
   "links": [],
   "flags": {
     "installed": false,

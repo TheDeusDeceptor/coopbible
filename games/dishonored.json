@@ -9,8 +9,8 @@
   "dev": "Arkane Studios",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dishonored.jpg",
+  "logo": "images/logos/dishonored.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Playdead",
   "pub": "Playdead",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/inside.jpg",
+  "logo": "images/logos/inside.png",
   "links": [],
   "flags": {
     "installed": false,

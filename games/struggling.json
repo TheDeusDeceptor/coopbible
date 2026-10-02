@@ -9,8 +9,8 @@
   "dev": "Chasing Rats Games",
   "pub": "Frontier Foundry",
   "notes": "Local Co-op (RemotePlay)\nREADY",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/struggling.jpg",
+  "logo": "images/logos/struggling.png",
   "links": [
     {
       "label": "Steam",

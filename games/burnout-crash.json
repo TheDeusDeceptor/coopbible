@@ -9,8 +9,8 @@
   "dev": "Criterion Software",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/burnout-crash.jpg",
+  "logo": "images/logos/burnout-crash.png",
   "links": [],
   "flags": {
     "installed": false,

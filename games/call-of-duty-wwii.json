@@ -9,8 +9,8 @@
   "dev": "Raven Software",
   "pub": "Activision",
   "notes": "LAN supported.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/call-of-duty-wwii.jpg",
+  "logo": "images/logos/call-of-duty-wwii.png",
   "links": [],
   "flags": {
     "installed": true,

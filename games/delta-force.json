@@ -9,8 +9,8 @@
   "dev": "Team Jade",
   "pub": "TiMi Studio Group",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/delta-force.jpg",
+  "logo": "images/logos/delta-force.png",
   "links": [],
   "flags": {
     "installed": false,

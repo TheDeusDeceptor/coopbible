@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/street-fighter-v.jpg",
+  "logo": "images/logos/street-fighter-v.png",
   "links": [],
   "flags": {
     "installed": false,

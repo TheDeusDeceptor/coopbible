@@ -9,8 +9,8 @@
   "dev": "Criterion Software",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/need-for-speed-unbound.jpg",
+  "logo": "images/logos/need-for-speed-unbound.png",
   "links": [],
   "flags": {
     "installed": false,

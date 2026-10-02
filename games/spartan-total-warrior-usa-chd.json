@@ -9,8 +9,8 @@
   "dev": "Creative Assembly",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/spartan-total-warrior-usa-chd.jpg",
+  "logo": "images/logos/spartan-total-warrior-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

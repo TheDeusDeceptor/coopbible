@@ -9,8 +9,8 @@
   "dev": "Game Freak",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pok-mon-leafgreen-version.jpg",
+  "logo": "images/logos/pok-mon-leafgreen-version.png",
   "links": [],
   "flags": {
     "installed": false,

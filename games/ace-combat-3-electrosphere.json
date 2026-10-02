@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ace-combat-3-electrosphere.jpg",
+  "logo": "images/logos/ace-combat-3-electrosphere.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Codemasters",
   "pub": "Codemasters",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dirt-5.jpg",
+  "logo": "images/logos/dirt-5.png",
   "links": [],
   "flags": {
     "installed": false,

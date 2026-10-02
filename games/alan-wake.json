@@ -9,8 +9,8 @@
   "dev": "Remedy Entertainment",
   "pub": "Microsoft Game Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/alan-wake.jpg",
+  "logo": "images/logos/alan-wake.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Raven Software",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/soldier-of-fortune-ii-double-helix.jpg",
+  "logo": "images/logos/soldier-of-fortune-ii-double-helix.png",
   "links": [],
   "flags": {
     "installed": false,
