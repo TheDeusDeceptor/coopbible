@@ -9,8 +9,8 @@
   "dev": "Square",
   "pub": "Square Enix",
   "notes": "Kingdom Hearts HD 1.5 + 2.5 ReMIX.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/kingdom-hearts-final-mix.jpg",
+  "logo": "images/logos/kingdom-hearts-final-mix.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Crystal Dynamics",
   "pub": "Crystal Dynamics",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/shadow-of-the-tomb-raider.jpg",
+  "logo": "images/logos/shadow-of-the-tomb-raider.png",
   "links": [],
   "flags": {
     "installed": false,

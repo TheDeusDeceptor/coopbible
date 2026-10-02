@@ -9,8 +9,8 @@
   "dev": "High Moon Studios",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/darkwatch-usa-chd.jpg",
+  "logo": "images/logos/darkwatch-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

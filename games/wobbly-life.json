@@ -9,8 +9,8 @@
   "dev": "RubberBandGames",
   "pub": "RubberBandGames",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/wobbly-life.jpg",
+  "logo": "images/logos/wobbly-life.png",
   "links": [
     {
       "label": "Steam",

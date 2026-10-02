@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Crave Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/armored-core-2.jpg",
+  "logo": "images/logos/armored-core-2.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Nintendo EAD Tokyo",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/super-mario-galaxy-2.jpg",
+  "logo": "images/logos/super-mario-galaxy-2.png",
   "links": [],
   "flags": {
     "installed": true,

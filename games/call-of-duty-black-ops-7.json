@@ -9,8 +9,8 @@
   "dev": "Treyarch",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/call-of-duty-black-ops-7.jpg",
+  "logo": "images/logos/call-of-duty-black-ops-7.png",
   "links": [],
   "flags": {
     "installed": false,

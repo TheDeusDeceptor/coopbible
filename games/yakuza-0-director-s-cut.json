@@ -9,8 +9,8 @@
   "dev": "Ryu Ga Gotoku Studio",
   "pub": "SEGA",
   "notes": "The Red Light Raid (wave-based enemy survival)",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/yakuza-0-director-s-cut.jpg",
+  "logo": "images/logos/yakuza-0-director-s-cut.png",
   "links": [
     {
       "label": "Steam",

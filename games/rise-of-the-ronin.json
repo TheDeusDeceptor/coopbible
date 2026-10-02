@@ -9,8 +9,8 @@
   "dev": "KOEI TECMO GAMES CO., LTD.",
   "pub": "KOEI TECMO GAMES CO., LTD.",
   "notes": "READY?",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rise-of-the-ronin.jpg",
+  "logo": "images/logos/rise-of-the-ronin.png",
   "links": [
     {
       "label": "Steam",

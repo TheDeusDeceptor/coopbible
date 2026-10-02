@@ -9,8 +9,8 @@
   "dev": "Tecmo",
   "pub": "Tecmo",
   "notes": "Enhanced Xbox version exists, untested (very likely not worth it...)",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fatal-frame-ii-crimson-butterfly.jpg",
+  "logo": "images/logos/fatal-frame-ii-crimson-butterfly.png",
   "links": [],
   "flags": {
     "installed": false,

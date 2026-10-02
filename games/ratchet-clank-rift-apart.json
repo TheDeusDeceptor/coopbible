@@ -9,8 +9,8 @@
   "dev": "Insomniac Games",
   "pub": "Sony Interactive Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ratchet-clank-rift-apart.jpg",
+  "logo": "images/logos/ratchet-clank-rift-apart.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Matt Makes Games",
   "pub": "Matt Makes Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/celeste.jpg",
+  "logo": "images/logos/celeste.png",
   "links": [],
   "flags": {
     "installed": false,

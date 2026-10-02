@@ -9,8 +9,8 @@
   "dev": "TECOPARK",
   "pub": "TECOPARK",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pico-park-classic-edition.jpg",
+  "logo": "images/logos/pico-park-classic-edition.png",
   "links": [
     {
       "label": "Steam",

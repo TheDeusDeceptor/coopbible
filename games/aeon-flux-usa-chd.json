@@ -9,8 +9,8 @@
   "dev": "Terminal Reality",
   "pub": "Majesco Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/aeon-flux-usa-chd.jpg",
+  "logo": "images/logos/aeon-flux-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

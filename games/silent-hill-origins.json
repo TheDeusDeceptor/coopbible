@@ -9,8 +9,8 @@
   "dev": "Climax Solent",
   "pub": "Konami Digital Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/silent-hill-origins.jpg",
+  "logo": "images/logos/silent-hill-origins.png",
   "links": [],
   "flags": {
     "installed": false,

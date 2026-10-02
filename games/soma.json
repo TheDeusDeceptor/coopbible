@@ -9,8 +9,8 @@
   "dev": "Frictional Games",
   "pub": "Frictional Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/soma.jpg",
+  "logo": "images/logos/soma.png",
   "links": [],
   "flags": {
     "installed": false,

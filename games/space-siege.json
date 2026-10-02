@@ -9,8 +9,8 @@
   "dev": "Gas Powered Games",
   "pub": "Sega",
   "notes": "ლ(ಠ_ಠ ლ)",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/space-siege.jpg",
+  "logo": "images/logos/space-siege.png",
   "links": [],
   "flags": {
     "installed": false,

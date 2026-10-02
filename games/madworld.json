@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/madworld.jpg",
+  "logo": "images/logos/madworld.png",
   "links": [],
   "flags": {
     "installed": false,

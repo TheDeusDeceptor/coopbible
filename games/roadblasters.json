@@ -9,8 +9,8 @@
   "dev": "Atari Games",
   "pub": "Atari Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/roadblasters.jpg",
+  "logo": "images/logos/roadblasters.png",
   "links": [],
   "flags": {
     "installed": false,

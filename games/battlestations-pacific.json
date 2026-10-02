@@ -9,8 +9,8 @@
   "dev": "Eidos Studio Hungary",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/battlestations-pacific.jpg",
+  "logo": "images/logos/battlestations-pacific.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Eurocom Developments",
   "pub": "Activision Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/007-legends.jpg",
+  "logo": "images/logos/007-legends.png",
   "links": [],
   "flags": {
     "installed": false,

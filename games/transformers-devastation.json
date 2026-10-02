@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/transformers-devastation.jpg",
+  "logo": "images/logos/transformers-devastation.png",
   "links": [],
   "flags": {
     "installed": true,

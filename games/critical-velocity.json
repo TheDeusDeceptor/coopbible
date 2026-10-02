@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Namco",
   "notes": "Japanese only.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/critical-velocity.jpg",
+  "logo": "images/logos/critical-velocity.png",
   "links": [],
   "flags": {
     "installed": false,

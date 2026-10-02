@@ -9,8 +9,8 @@
   "dev": "Ubisoft",
   "pub": "Ubisoft Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rayman-legends.jpg",
+  "logo": "images/logos/rayman-legends.png",
   "links": [],
   "flags": {
     "installed": false,

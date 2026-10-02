@@ -9,8 +9,8 @@
   "dev": "AdHoc Studio",
   "pub": "AdHoc Studio",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dispatch.jpg",
+  "logo": "images/logos/dispatch.png",
   "links": [],
   "flags": {
     "installed": false,

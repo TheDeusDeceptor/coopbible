@@ -9,8 +9,8 @@
   "dev": "Check Six Games",
   "pub": "Universal Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/spyro-enter-the-dragonfly.jpg",
+  "logo": "images/logos/spyro-enter-the-dragonfly.png",
   "links": [],
   "flags": {
     "installed": false,

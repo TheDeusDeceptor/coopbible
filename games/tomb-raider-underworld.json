@@ -9,8 +9,8 @@
   "dev": "Crystal Dynamics",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tomb-raider-underworld.jpg",
+  "logo": "images/logos/tomb-raider-underworld.png",
   "links": [],
   "flags": {
     "installed": false,

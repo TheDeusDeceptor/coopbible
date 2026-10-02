@@ -9,8 +9,8 @@
   "dev": "DMA Design",
   "pub": "American Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/grand-theft-auto.jpg",
+  "logo": "images/logos/grand-theft-auto.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Monolith Productions",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/condemned-2-bloodshot.jpg",
+  "logo": "images/logos/condemned-2-bloodshot.png",
   "links": [],
   "flags": {
     "installed": false,

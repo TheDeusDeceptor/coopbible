@@ -9,8 +9,8 @@
   "dev": "Game Republic",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/folklore.jpg",
+  "logo": "images/logos/folklore.png",
   "links": [],
   "flags": {
     "installed": false,

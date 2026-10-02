@@ -9,8 +9,8 @@
   "dev": "iNiS",
   "pub": "Koei",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/gitaroo-man-usa-chd.jpg",
+  "logo": "images/logos/gitaroo-man-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

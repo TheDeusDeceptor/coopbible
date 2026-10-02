@@ -9,8 +9,8 @@
   "dev": "RocketWerkz",
   "pub": "RocketWerkz",
   "notes": "updates occasionally",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/icarus.jpg",
+  "logo": "images/logos/icarus.png",
   "links": [
     {
       "label": "Steam",

@@ -9,8 +9,8 @@
   "dev": "Nintendo",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rhythm-heaven-groove.jpg",
+  "logo": "images/logos/rhythm-heaven-groove.png",
   "links": [],
   "flags": {
     "installed": false,

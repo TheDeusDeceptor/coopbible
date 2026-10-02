@@ -9,8 +9,8 @@
   "dev": "Ubisoft Shanghai",
   "pub": "Ubisoft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/i-am-alive.jpg",
+  "logo": "images/logos/i-am-alive.png",
   "links": [],
   "flags": {
     "installed": false,

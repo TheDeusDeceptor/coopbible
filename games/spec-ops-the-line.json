@@ -9,8 +9,8 @@
   "dev": "Yager",
   "pub": "2K Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/spec-ops-the-line.jpg",
+  "logo": "images/logos/spec-ops-the-line.png",
   "links": [],
   "flags": {
     "installed": false,

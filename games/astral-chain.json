@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/astral-chain.jpg",
+  "logo": "images/logos/astral-chain.png",
   "links": [],
   "flags": {
     "installed": true,

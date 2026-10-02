@@ -9,8 +9,8 @@
   "dev": "Criterion Software Group",
   "pub": "Acclaim Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/burnout-usa-chd.jpg",
+  "logo": "images/logos/burnout-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

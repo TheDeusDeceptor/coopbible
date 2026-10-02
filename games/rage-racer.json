@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Sony Computer Entertainment Europe",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rage-racer.png",
+  "logo": "images/logos/rage-racer.png",
   "links": [],
   "flags": {
     "installed": false,

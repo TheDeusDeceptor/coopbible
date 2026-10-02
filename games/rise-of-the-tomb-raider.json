@@ -9,8 +9,8 @@
   "dev": "Crystal Dynamics",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rise-of-the-tomb-raider.jpg",
+  "logo": "images/logos/rise-of-the-tomb-raider.png",
   "links": [],
   "flags": {
     "installed": false,

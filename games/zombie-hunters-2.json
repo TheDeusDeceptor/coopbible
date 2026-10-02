@@ -9,8 +9,8 @@
   "dev": "Tamsoft",
   "pub": "D3Publisher",
   "notes": "Updated version of the second game.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/zombie-hunters-2.jpg",
+  "logo": "images/logos/zombie-hunters-2.png",
   "links": [],
   "flags": {
     "installed": true,

@@ -9,8 +9,8 @@
   "dev": "Guerrilla",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/shellshock-nam-67.jpg",
+  "logo": "images/logos/shellshock-nam-67.png",
   "links": [],
   "flags": {
     "installed": false,

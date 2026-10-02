@@ -9,8 +9,8 @@
   "dev": "Codemasters",
   "pub": "Codemasters",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/deadfall-adventures.jpg",
+  "logo": "images/logos/deadfall-adventures.png",
   "links": [],
   "flags": {
     "installed": false,

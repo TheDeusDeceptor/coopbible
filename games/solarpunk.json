@@ -9,8 +9,8 @@
   "dev": "Cyberwave",
   "pub": "rokaplay, Metaroot",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/solarpunk.jpg",
+  "logo": "images/logos/solarpunk.png",
   "links": [
     {
       "label": "Steam",

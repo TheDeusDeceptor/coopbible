@@ -9,8 +9,8 @@
   "dev": "7th Beat Games",
   "pub": "indienova",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rhythm-doctor.jpg",
+  "logo": "images/logos/rhythm-doctor.png",
   "links": [],
   "flags": {
     "installed": false,

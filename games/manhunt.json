@@ -9,8 +9,8 @@
   "dev": "Rockstar North",
   "pub": "Rockstar Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/manhunt.jpg",
+  "logo": "images/logos/manhunt.png",
   "links": [],
   "flags": {
     "installed": false,

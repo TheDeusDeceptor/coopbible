@@ -9,8 +9,8 @@
   "dev": "Io-Interactive",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hitman-absolution.jpg",
+  "logo": "images/logos/hitman-absolution.png",
   "links": [],
   "flags": {
     "installed": false,

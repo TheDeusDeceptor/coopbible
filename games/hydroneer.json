@@ -9,8 +9,8 @@
   "dev": "Foulball Hangover",
   "pub": "Foulball Hangover",
   "notes": "emulation issues",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hydroneer.jpg",
+  "logo": "images/logos/hydroneer.png",
   "links": [
     {
       "label": "Steam",

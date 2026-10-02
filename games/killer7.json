@@ -9,8 +9,8 @@
   "dev": "Grasshopper Manufacture",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/killer7.jpg",
+  "logo": "images/logos/killer7.png",
   "links": [],
   "flags": {
     "installed": false,

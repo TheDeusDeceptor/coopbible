@@ -9,8 +9,8 @@
   "dev": "The Behemoth",
   "pub": "The Behemoth",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/battleblock-theater.jpg",
+  "logo": "images/logos/battleblock-theater.png",
   "links": [
     {
       "label": "Steam",

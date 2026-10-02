@@ -9,8 +9,8 @@
   "dev": "Konami",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/teenage-mutant-ninja-turtles.jpg",
+  "logo": "images/logos/teenage-mutant-ninja-turtles.png",
   "links": [],
   "flags": {
     "installed": false,

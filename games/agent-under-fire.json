@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/agent-under-fire.jpg",
+  "logo": "images/logos/agent-under-fire.png",
   "links": [],
   "flags": {
     "installed": false,

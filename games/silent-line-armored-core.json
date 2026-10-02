@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Agetec",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/silent-line-armored-core.jpg",
+  "logo": "images/logos/silent-line-armored-core.png",
   "links": [],
   "flags": {
     "installed": false,

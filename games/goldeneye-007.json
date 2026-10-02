@@ -9,8 +9,8 @@
   "dev": "Rare",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/goldeneye-007.jpg",
+  "logo": "images/logos/goldeneye-007.png",
   "links": [],
   "flags": {
     "installed": false,

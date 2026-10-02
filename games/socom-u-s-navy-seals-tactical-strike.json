@@ -9,8 +9,8 @@
   "dev": "Slant Six Games",
   "pub": "Sony Computer Entertainment",
   "notes": "Optional, different genre (strategy).",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/socom-u-s-navy-seals-tactical-strike.jpg",
+  "logo": "images/logos/socom-u-s-navy-seals-tactical-strike.png",
   "links": [],
   "flags": {
     "installed": false,

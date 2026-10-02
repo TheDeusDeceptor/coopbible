@@ -9,8 +9,8 @@
   "dev": "CS1 Team",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/yakuza-3-remastered.jpg",
+  "logo": "images/logos/yakuza-3-remastered.png",
   "links": [],
   "flags": {
     "installed": false,

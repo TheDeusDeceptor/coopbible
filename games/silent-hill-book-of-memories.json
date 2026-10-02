@@ -9,8 +9,8 @@
   "dev": "WayForward Technologies",
   "pub": "Konami Digital Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/silent-hill-book-of-memories.jpg",
+  "logo": "images/logos/silent-hill-book-of-memories.png",
   "links": [],
   "flags": {
     "installed": false,

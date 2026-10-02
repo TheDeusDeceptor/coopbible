@@ -9,8 +9,8 @@
   "dev": "Galactic Workshop",
   "pub": "Galactic Workshop",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/galaxy-burger.jpg",
+  "logo": "images/logos/galaxy-burger.png",
   "links": [
     {
       "label": "Steam",

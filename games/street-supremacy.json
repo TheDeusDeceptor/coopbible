@@ -9,8 +9,8 @@
   "dev": "Genki",
   "pub": "Konami Digital Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/street-supremacy.jpg",
+  "logo": "images/logos/street-supremacy.png",
   "links": [],
   "flags": {
     "installed": false,

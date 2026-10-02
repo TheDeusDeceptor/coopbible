@@ -9,8 +9,8 @@
   "dev": "Now Production",
   "pub": "Hudson Soft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/adventure-island-3.jpg",
+  "logo": "images/logos/adventure-island-3.png",
   "links": [],
   "flags": {
     "installed": false,

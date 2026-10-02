@@ -9,8 +9,8 @@
   "dev": "Rogue Factor",
   "pub": "Nacon",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hell-is-us.jpg",
+  "logo": "images/logos/hell-is-us.png",
   "links": [],
   "flags": {
     "installed": false,

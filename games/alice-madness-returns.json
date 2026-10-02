@@ -9,8 +9,8 @@
   "dev": "Spicy Horse Games",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/alice-madness-returns.jpg",
+  "logo": "images/logos/alice-madness-returns.png",
   "links": [],
   "flags": {
     "installed": false,

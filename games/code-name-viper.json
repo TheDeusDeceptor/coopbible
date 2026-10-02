@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/code-name-viper.jpg",
+  "logo": "images/logos/code-name-viper.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Ebb Software",
   "pub": "Kepler Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/scorn.jpg",
+  "logo": "images/logos/scorn.png",
   "links": [],
   "flags": {
     "installed": false,

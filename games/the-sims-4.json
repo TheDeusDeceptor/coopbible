@@ -9,8 +9,8 @@
   "dev": "Maxis",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-sims-4.jpg",
+  "logo": "images/logos/the-sims-4.png",
   "links": [],
   "flags": {
     "installed": false,

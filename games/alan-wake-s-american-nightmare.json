@@ -9,8 +9,8 @@
   "dev": "Remedy",
   "pub": "Microsoft Game Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/alan-wake-s-american-nightmare.jpg",
+  "logo": "images/logos/alan-wake-s-american-nightmare.png",
   "links": [],
   "flags": {
     "installed": false,

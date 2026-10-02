@@ -9,8 +9,8 @@
   "dev": "Volition",
   "pub": "THQ",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/red-faction-battlegrounds.jpg",
+  "logo": "images/logos/red-faction-battlegrounds.png",
   "links": [],
   "flags": {
     "installed": false,

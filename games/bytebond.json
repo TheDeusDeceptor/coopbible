@@ -9,8 +9,8 @@
   "dev": "DVD Unicorns",
   "pub": "Anshar Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bytebond.jpg",
+  "logo": "images/logos/bytebond.png",
   "links": [
     {
       "label": "Steam",

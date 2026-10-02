@@ -9,8 +9,8 @@
   "dev": "Aicom",
   "pub": "Sammy",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/vice-project-doom.jpg",
+  "logo": "images/logos/vice-project-doom.png",
   "links": [],
   "flags": {
     "installed": false,

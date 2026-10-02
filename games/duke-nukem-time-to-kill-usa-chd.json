@@ -9,8 +9,8 @@
   "dev": "N-Space",
   "pub": "GT Interactive Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/duke-nukem-time-to-kill-usa-chd.jpg",
+  "logo": "images/logos/duke-nukem-time-to-kill-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

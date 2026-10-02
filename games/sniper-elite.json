@@ -9,8 +9,8 @@
   "dev": "Rebellion Developments",
   "pub": "Namco",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/sniper-elite.jpg",
+  "logo": "images/logos/sniper-elite.png",
   "links": [],
   "flags": {
     "installed": true,

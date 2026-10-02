@@ -9,8 +9,8 @@
   "dev": "Team Ninja",
   "pub": "Koei Tecmo",
   "notes": "At this point I can only assume possibility of me playing this game.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ninja-gaiden-ii-black.jpg",
+  "logo": "images/logos/ninja-gaiden-ii-black.png",
   "links": [],
   "flags": {
     "installed": false,

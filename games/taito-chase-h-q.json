@@ -9,8 +9,8 @@
   "dev": "Taito",
   "pub": "Taito",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/taito-chase-h-q.jpg",
+  "logo": "images/logos/taito-chase-h-q.png",
   "links": [],
   "flags": {
     "installed": false,

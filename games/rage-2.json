@@ -9,8 +9,8 @@
   "dev": "id Software",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rage-2.jpg",
+  "logo": "images/logos/rage-2.png",
   "links": [],
   "flags": {
     "installed": false,

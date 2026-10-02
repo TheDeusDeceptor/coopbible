@@ -9,8 +9,8 @@
   "dev": "Acquire",
   "pub": "Spike",
   "notes": "Optional, expantion pack with custom levels, Japanese only.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/shinobido-takumi.jpg",
+  "logo": "images/logos/shinobido-takumi.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/resident-evil-hd-remaster.jpg",
+  "logo": "images/logos/resident-evil-hd-remaster.png",
   "links": [],
   "flags": {
     "installed": true,

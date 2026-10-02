@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/me-my-katamari.jpg",
+  "logo": "images/logos/me-my-katamari.png",
   "links": [],
   "flags": {
     "installed": false,

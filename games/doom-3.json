@@ -9,8 +9,8 @@
   "dev": "id Software",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/doom-3.jpg",
+  "logo": "images/logos/doom-3.png",
   "links": [
     {
       "label": "Steam",

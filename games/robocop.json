@@ -9,8 +9,8 @@
   "dev": "Ocean Software",
   "pub": "Ocean Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/robocop.jpg",
+  "logo": "images/logos/robocop.png",
   "links": [],
   "flags": {
     "installed": false,

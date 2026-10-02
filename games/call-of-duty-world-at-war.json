@@ -9,8 +9,8 @@
   "dev": "Treyarch",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/call-of-duty-world-at-war.jpg",
+  "logo": "images/logos/call-of-duty-world-at-war.png",
   "links": [
     {
       "label": "Steam",

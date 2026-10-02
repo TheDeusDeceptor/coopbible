@@ -9,8 +9,8 @@
   "dev": "Visceral Games",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dead-space-2.jpg",
+  "logo": "images/logos/dead-space-2.png",
   "links": [],
   "flags": {
     "installed": false,

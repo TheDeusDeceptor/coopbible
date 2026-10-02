@@ -9,8 +9,8 @@
   "dev": "Bloober Team",
   "pub": "Bloober Team",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/observer-system-redux.jpg",
+  "logo": "images/logos/observer-system-redux.png",
   "links": [],
   "flags": {
     "installed": false,

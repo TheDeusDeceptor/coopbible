@@ -9,8 +9,8 @@
   "dev": "A44",
   "pub": "Annapurna Interactive",
   "notes": "READY?\n\n\nmultiplayer avalible \nafter building town(?)",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ashen.jpg",
+  "logo": "images/logos/ashen.png",
   "links": [
     {
       "label": "Steam",

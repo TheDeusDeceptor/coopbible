@@ -9,8 +9,8 @@
   "dev": "CD Projekt RED",
   "pub": "CD Projekt Red",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-witcher-3-wild-hunt.jpg",
+  "logo": "images/logos/the-witcher-3-wild-hunt.png",
   "links": [],
   "flags": {
     "installed": false,

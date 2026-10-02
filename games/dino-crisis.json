@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dino-crisis.jpg",
+  "logo": "images/logos/dino-crisis.png",
   "links": [],
   "flags": {
     "installed": false,

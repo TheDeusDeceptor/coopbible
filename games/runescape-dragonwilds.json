@@ -9,8 +9,8 @@
   "dev": "Jagex Ltd",
   "pub": "Jagex Ltd",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/runescape-dragonwilds.jpg",
+  "logo": "images/logos/runescape-dragonwilds.png",
   "links": [
     {
       "label": "Steam",

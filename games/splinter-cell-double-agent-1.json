@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "PC release.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/splinter-cell-double-agent-1.jpg",
+  "logo": "images/logos/splinter-cell-double-agent-1.png",
   "links": [],
   "flags": {
     "installed": false,

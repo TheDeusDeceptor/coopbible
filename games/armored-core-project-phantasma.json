@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "ASCII Entertainment Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/armored-core-project-phantasma.jpg",
+  "logo": "images/logos/armored-core-project-phantasma.png",
   "links": [],
   "flags": {
     "installed": false,

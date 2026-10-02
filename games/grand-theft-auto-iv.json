@@ -9,8 +9,8 @@
   "dev": "Rockstar North",
   "pub": "Rockstar Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/grand-theft-auto-iv.jpg",
+  "logo": "images/logos/grand-theft-auto-iv.png",
   "links": [],
   "flags": {
     "installed": false,

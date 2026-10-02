@@ -9,8 +9,8 @@
   "dev": "2pt Interactive",
   "pub": "2pt Interactive",
   "notes": "Local Co-op (RemotePlay)\nREADY",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/heavenly-bodies.jpg",
+  "logo": "images/logos/heavenly-bodies.png",
   "links": [
     {
       "label": "Steam",

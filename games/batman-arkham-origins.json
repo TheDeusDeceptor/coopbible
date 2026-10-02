@@ -9,8 +9,8 @@
   "dev": "WB Games Montreal",
   "pub": "Warner Bros. Interactive Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/batman-arkham-origins.jpg",
+  "logo": "images/logos/batman-arkham-origins.png",
   "links": [],
   "flags": {
     "installed": false,

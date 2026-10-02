@@ -9,8 +9,8 @@
   "dev": "Z-Axis",
   "pub": "AKA Acclaim",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bmx-xxx-usa-chd.jpg",
+  "logo": "images/logos/bmx-xxx-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

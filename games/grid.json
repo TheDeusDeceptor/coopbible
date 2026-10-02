@@ -9,8 +9,8 @@
   "dev": "Codemasters",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/grid.jpg",
+  "logo": "images/logos/grid.png",
   "links": [],
   "flags": {
     "installed": false,

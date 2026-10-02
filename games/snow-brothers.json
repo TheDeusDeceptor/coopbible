@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/snow-brothers.jpg",
+  "logo": "images/logos/snow-brothers.png",
   "links": [],
   "flags": {
     "installed": false,

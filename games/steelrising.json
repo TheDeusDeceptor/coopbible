@@ -9,8 +9,8 @@
   "dev": "Spiders",
   "pub": "Nacon",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/steelrising.jpg",
+  "logo": "images/logos/steelrising.png",
   "links": [],
   "flags": {
     "installed": true,

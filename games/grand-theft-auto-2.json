@@ -9,8 +9,8 @@
   "dev": "Tarantula Studios",
   "pub": "Rockstar Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/grand-theft-auto-2.jpg",
+  "logo": "images/logos/grand-theft-auto-2.png",
   "links": [],
   "flags": {
     "installed": false,

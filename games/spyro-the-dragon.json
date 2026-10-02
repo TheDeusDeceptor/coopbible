@@ -9,8 +9,8 @@
   "dev": "Insomniac Games",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/spyro-the-dragon.jpg",
+  "logo": "images/logos/spyro-the-dragon.png",
   "links": [],
   "flags": {
     "installed": false,

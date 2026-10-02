@@ -9,8 +9,8 @@
   "dev": "Philips",
   "pub": "N.V. Philips Gloeilampenfabrieken",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/freedom-fighters.jpg",
+  "logo": "images/logos/freedom-fighters.png",
   "links": [],
   "flags": {
     "installed": true,

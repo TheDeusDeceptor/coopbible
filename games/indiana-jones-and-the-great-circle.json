@@ -9,8 +9,8 @@
   "dev": "Machinegames",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/indiana-jones-and-the-great-circle.jpg",
+  "logo": "images/logos/indiana-jones-and-the-great-circle.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Namco Bandai Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dark-souls-prepare-to-die-edition.jpg",
+  "logo": "images/logos/dark-souls-prepare-to-die-edition.png",
   "links": [],
   "flags": {
     "installed": false,

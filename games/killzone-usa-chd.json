@@ -9,8 +9,8 @@
   "dev": "Guerrilla",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/killzone-usa-chd.jpg",
+  "logo": "images/logos/killzone-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

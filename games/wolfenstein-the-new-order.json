@@ -9,8 +9,8 @@
   "dev": "Machine Games",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/wolfenstein-the-new-order.jpg",
+  "logo": "images/logos/wolfenstein-the-new-order.png",
   "links": [],
   "flags": {
     "installed": false,

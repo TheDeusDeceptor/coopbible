@@ -9,8 +9,8 @@
   "dev": "Scorpius",
   "pub": "Scorpius",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rage.jpg",
+  "logo": "images/logos/rage.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Team17 Software Ltd.",
   "pub": "Team17 Digital Ltd",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/alien-breed-impact.jpg",
+  "logo": "images/logos/alien-breed-impact.png",
   "links": [
     {
       "label": "Steam",

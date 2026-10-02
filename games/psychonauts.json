@@ -9,8 +9,8 @@
   "dev": "Double Fine Productions",
   "pub": "Double Fine Productions",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/psychonauts.jpg",
+  "logo": "images/logos/psychonauts.png",
   "links": [],
   "flags": {
     "installed": false,

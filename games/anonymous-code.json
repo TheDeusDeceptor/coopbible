@@ -9,8 +9,8 @@
   "dev": "5pb.",
   "pub": "Spike Chunsoft US",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/anonymous-code.jpg",
+  "logo": "images/logos/anonymous-code.png",
   "links": [],
   "flags": {
     "installed": false,

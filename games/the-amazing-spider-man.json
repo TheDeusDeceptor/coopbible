@@ -9,8 +9,8 @@
   "dev": "Beenox",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-amazing-spider-man.jpg",
+  "logo": "images/logos/the-amazing-spider-man.png",
   "links": [],
   "flags": {
     "installed": false,

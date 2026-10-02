@@ -9,8 +9,8 @@
   "dev": "Saber Interactive",
   "pub": "BANDAI NAMCO Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/inversion.jpg",
+  "logo": "images/logos/inversion.png",
   "links": [
     {
       "label": "Steam",

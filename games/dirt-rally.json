@@ -9,8 +9,8 @@
   "dev": "Codemasters Software",
   "pub": "Codemasters Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dirt-rally.jpg",
+  "logo": "images/logos/dirt-rally.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Rebellion",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rogue-warrior.jpg",
+  "logo": "images/logos/rogue-warrior.png",
   "links": [],
   "flags": {
     "installed": true,

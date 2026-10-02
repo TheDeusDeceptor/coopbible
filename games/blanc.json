@@ -9,8 +9,8 @@
   "dev": "Casus Ludi",
   "pub": "Gearbox Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/blanc.jpg",
+  "logo": "images/logos/blanc.png",
   "links": [
     {
       "label": "Steam",

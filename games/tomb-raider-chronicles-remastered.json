@@ -9,8 +9,8 @@
   "dev": "Core Design",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tomb-raider-chronicles-remastered.jpg",
+  "logo": "images/logos/tomb-raider-chronicles-remastered.png",
   "links": [],
   "flags": {
     "installed": false,

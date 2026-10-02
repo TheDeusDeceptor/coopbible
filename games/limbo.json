@@ -9,8 +9,8 @@
   "dev": "Playdead Pilestræde",
   "pub": "Playdead",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/limbo.jpg",
+  "logo": "images/logos/limbo.png",
   "links": [],
   "flags": {
     "installed": false,

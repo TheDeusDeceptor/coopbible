@@ -9,8 +9,8 @@
   "dev": "Crystal Dynamics",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/legacy-of-kain-defiance-remastered.jpg",
+  "logo": "images/logos/legacy-of-kain-defiance-remastered.png",
   "links": [],
   "flags": {
     "installed": true,

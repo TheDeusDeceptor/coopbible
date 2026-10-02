@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "Atlantis Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/crossfire.jpg",
+  "logo": "images/logos/crossfire.png",
   "links": [],
   "flags": {
     "installed": false,

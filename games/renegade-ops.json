@@ -9,8 +9,8 @@
   "dev": "Avalanche Studios",
   "pub": "SEGA",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/renegade-ops.jpg",
+  "logo": "images/logos/renegade-ops.png",
   "links": [
     {
       "label": "Steam",

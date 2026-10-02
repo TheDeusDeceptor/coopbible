@@ -9,8 +9,8 @@
   "dev": "NEOWIZ",
   "pub": "NEOWIZ",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/lies-of-p.jpg",
+  "logo": "images/logos/lies-of-p.png",
   "links": [],
   "flags": {
     "installed": false,

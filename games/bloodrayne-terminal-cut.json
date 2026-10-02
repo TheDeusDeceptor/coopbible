@@ -9,8 +9,8 @@
   "dev": "Terminal Reality",
   "pub": "Majesco Sales",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bloodrayne-terminal-cut.jpg",
+  "logo": "images/logos/bloodrayne-terminal-cut.png",
   "links": [],
   "flags": {
     "installed": true,

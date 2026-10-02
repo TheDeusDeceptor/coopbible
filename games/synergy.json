@@ -9,8 +9,8 @@
   "dev": "Synergy Team",
   "pub": "Synergy Team",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/synergy.jpg",
+  "logo": "images/logos/synergy.png",
   "links": [
     {
       "label": "Steam",

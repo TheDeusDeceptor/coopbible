@@ -9,8 +9,8 @@
   "dev": "Cradle Games",
   "pub": "tinyBuild",
   "notes": "+ Blue Sun",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hellpoint.jpg",
+  "logo": "images/logos/hellpoint.png",
   "links": [
     {
       "label": "Steam",

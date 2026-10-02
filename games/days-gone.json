@@ -9,8 +9,8 @@
   "dev": "SIE Bend Studio",
   "pub": "Sony Interactive Entertainment",
   "notes": "Yup, that's right!",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/days-gone.jpg",
+  "logo": "images/logos/days-gone.png",
   "links": [],
   "flags": {
     "installed": false,

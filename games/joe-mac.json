@@ -9,8 +9,8 @@
   "dev": "Elite Systems",
   "pub": "Data East USA",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/joe-mac.jpg",
+  "logo": "images/logos/joe-mac.png",
   "links": [],
   "flags": {
     "installed": false,

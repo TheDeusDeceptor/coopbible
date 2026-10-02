@@ -9,8 +9,8 @@
   "dev": "EA Digital Illusions",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/battlefield-v.jpg",
+  "logo": "images/logos/battlefield-v.png",
   "links": [],
   "flags": {
     "installed": false,

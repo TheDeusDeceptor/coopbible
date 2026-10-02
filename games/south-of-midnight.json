@@ -9,8 +9,8 @@
   "dev": "Compulsion Games",
   "pub": "Xbox Game Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/south-of-midnight.jpg",
+  "logo": "images/logos/south-of-midnight.png",
   "links": [],
   "flags": {
     "installed": false,

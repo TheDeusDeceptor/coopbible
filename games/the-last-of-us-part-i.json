@@ -9,8 +9,8 @@
   "dev": "Naughty Dog",
   "pub": "Playstation Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-last-of-us-part-i.jpg",
+  "logo": "images/logos/the-last-of-us-part-i.png",
   "links": [],
   "flags": {
     "installed": false,

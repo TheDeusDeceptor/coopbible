@@ -9,8 +9,8 @@
   "dev": "Tango gameworks",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ghostwire-tokyo.jpg",
+  "logo": "images/logos/ghostwire-tokyo.png",
   "links": [],
   "flags": {
     "installed": false,

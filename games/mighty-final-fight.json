@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/mighty-final-fight.jpg",
+  "logo": "images/logos/mighty-final-fight.png",
   "links": [],
   "flags": {
     "installed": false,

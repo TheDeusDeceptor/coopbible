@@ -9,8 +9,8 @@
   "dev": "Team Ninja",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metroid-other-m.jpg",
+  "logo": "images/logos/metroid-other-m.png",
   "links": [],
   "flags": {
     "installed": false,

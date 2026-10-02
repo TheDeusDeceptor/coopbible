@@ -9,8 +9,8 @@
   "dev": "Animagic",
   "pub": "Dro Soft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/double-dragon.jpg",
+  "logo": "images/logos/double-dragon.png",
   "links": [],
   "flags": {
     "installed": false,

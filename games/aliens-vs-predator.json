@@ -9,8 +9,8 @@
   "dev": "Rebellion",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/aliens-vs-predator.jpg",
+  "logo": "images/logos/aliens-vs-predator.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Blizzard Entertainment",
   "pub": "Blizzard Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/starcraft-ii-wings-of-liberty.jpg",
+  "logo": "images/logos/starcraft-ii-wings-of-liberty.png",
   "links": [],
   "flags": {
     "installed": false,

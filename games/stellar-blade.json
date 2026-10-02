@@ -9,8 +9,8 @@
   "dev": "Shift Up",
   "pub": "Playstation Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/stellar-blade.jpg",
+  "logo": "images/logos/stellar-blade.png",
   "links": [],
   "flags": {
     "installed": false,

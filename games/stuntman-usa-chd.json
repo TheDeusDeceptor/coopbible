@@ -9,8 +9,8 @@
   "dev": "Reflections Interactive",
   "pub": "Atari",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/stuntman-usa-chd.jpg",
+  "logo": "images/logos/stuntman-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

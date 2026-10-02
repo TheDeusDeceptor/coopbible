@@ -9,8 +9,8 @@
   "dev": "SCE Studio Cambridge",
   "pub": "Sony Computer Entertainment Europe",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/medievil-usa-chd.jpg",
+  "logo": "images/logos/medievil-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

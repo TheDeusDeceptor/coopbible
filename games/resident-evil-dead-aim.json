@@ -9,8 +9,8 @@
   "dev": "Cavia",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/resident-evil-dead-aim.jpg",
+  "logo": "images/logos/resident-evil-dead-aim.png",
   "links": [],
   "flags": {
     "installed": false,

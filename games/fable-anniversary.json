@@ -9,8 +9,8 @@
   "dev": "Lionhead Studios",
   "pub": "Microsoft Game Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fable-anniversary.jpg",
+  "logo": "images/logos/fable-anniversary.png",
   "links": [],
   "flags": {
     "installed": true,

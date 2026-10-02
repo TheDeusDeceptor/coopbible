@@ -9,8 +9,8 @@
   "dev": "Adrenaline Amusements",
   "pub": "Konami",
   "notes": "Tomb Raider I–III Remastered.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tomb-raider-remastered.jpg",
+  "logo": "images/logos/tomb-raider-remastered.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Shining Rock Software",
   "pub": "Shining Rock Software",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/banished.jpg",
+  "logo": "images/logos/banished.png",
   "links": [],
   "flags": {
     "installed": false,

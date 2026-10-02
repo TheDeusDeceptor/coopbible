@@ -9,8 +9,8 @@
   "dev": "The Eccentric Ape",
   "pub": "SEGA Europe",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/catherine-classic.jpg",
+  "logo": "images/logos/catherine-classic.png",
   "links": [],
   "flags": {
     "installed": true,

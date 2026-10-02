@@ -9,8 +9,8 @@
   "dev": "Lionhead Studios",
   "pub": "Microsoft Studios",
   "notes": "Kinnect required, unplayable.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fable-the-journey.jpg",
+  "logo": "images/logos/fable-the-journey.png",
   "links": [],
   "flags": {
     "installed": false,

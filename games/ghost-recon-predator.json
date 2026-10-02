@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ghost-recon-predator.jpg",
+  "logo": "images/logos/ghost-recon-predator.png",
   "links": [],
   "flags": {
     "installed": false,

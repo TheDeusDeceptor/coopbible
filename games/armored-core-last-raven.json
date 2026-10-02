@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Agetec",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/armored-core-last-raven.png",
+  "logo": "images/logos/armored-core-last-raven.png",
   "links": [],
   "flags": {
     "installed": false,

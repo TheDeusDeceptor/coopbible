@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/yakuza-kiwami.jpg",
+  "logo": "images/logos/yakuza-kiwami.png",
   "links": [],
   "flags": {
     "installed": false,

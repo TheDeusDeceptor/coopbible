@@ -9,8 +9,8 @@
   "dev": "Feral Interactive",
   "pub": "Codemasters",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/grid-autosport.jpg",
+  "logo": "images/logos/grid-autosport.png",
   "links": [],
   "flags": {
     "installed": false,

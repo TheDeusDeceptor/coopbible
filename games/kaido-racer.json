@@ -9,8 +9,8 @@
   "dev": "Genki",
   "pub": "Konami",
   "notes": "Tokyo Xtreme Racer: Drift (Kaidō Battle: Nikko, Haruna, Rokko, Hakone) sequel.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/kaido-racer.jpg",
+  "logo": "images/logos/kaido-racer.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Game Republic",
   "pub": "Namco Bandai",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/knights-contract.jpg",
+  "logo": "images/logos/knights-contract.png",
   "links": [],
   "flags": {
     "installed": false,

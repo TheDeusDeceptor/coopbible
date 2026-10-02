@@ -9,8 +9,8 @@
   "dev": "DanZC",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pok-mon-crystal.jpg",
+  "logo": "images/logos/pok-mon-crystal.png",
   "links": [],
   "flags": {
     "installed": false,

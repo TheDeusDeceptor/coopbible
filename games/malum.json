@@ -9,8 +9,8 @@
   "dev": "MalumGames",
   "pub": "MalumGames",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/malum.jpg",
+  "logo": "images/logos/malum.png",
   "links": [
     {
       "label": "Steam",

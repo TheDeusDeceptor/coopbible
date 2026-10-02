@@ -9,8 +9,8 @@
   "dev": "TOSE",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metal-gear-solid.jpg",
+  "logo": "images/logos/metal-gear-solid.png",
   "links": [],
   "flags": {
     "installed": false,

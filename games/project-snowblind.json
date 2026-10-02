@@ -9,8 +9,8 @@
   "dev": "Nixxes Software",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/project-snowblind.jpg",
+  "logo": "images/logos/project-snowblind.png",
   "links": [],
   "flags": {
     "installed": false,

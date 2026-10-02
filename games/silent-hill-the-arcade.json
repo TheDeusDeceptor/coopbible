@@ -9,8 +9,8 @@
   "dev": "Konami",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/silent-hill-the-arcade.jpg",
+  "logo": "images/logos/silent-hill-the-arcade.png",
   "links": [],
   "flags": {
     "installed": false,

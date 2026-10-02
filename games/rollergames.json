@@ -9,8 +9,8 @@
   "dev": "Konami",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rollergames.jpg",
+  "logo": "images/logos/rollergames.png",
   "links": [],
   "flags": {
     "installed": false,

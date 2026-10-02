@@ -9,8 +9,8 @@
   "dev": "Criterion Software",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/burnout-revenge.jpg",
+  "logo": "images/logos/burnout-revenge.png",
   "links": [],
   "flags": {
     "installed": false,

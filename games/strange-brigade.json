@@ -9,8 +9,8 @@
   "dev": "Rebellion",
   "pub": "Rebellion",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/strange-brigade.jpg",
+  "logo": "images/logos/strange-brigade.png",
   "links": [
     {
       "label": "Steam",

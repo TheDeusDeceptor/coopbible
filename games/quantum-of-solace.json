@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/quantum-of-solace.jpg",
+  "logo": "images/logos/quantum-of-solace.png",
   "links": [],
   "flags": {
     "installed": false,

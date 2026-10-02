@@ -9,8 +9,8 @@
   "dev": "XPEC Entertainment",
   "pub": "XPEC Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/daemon-vector.jpg",
+  "logo": "images/logos/daemon-vector.png",
   "links": [],
   "flags": {
     "installed": true,

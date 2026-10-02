@@ -9,8 +9,8 @@
   "dev": "Avalanche Studios",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/25-to-life.jpg",
+  "logo": "images/logos/25-to-life.png",
   "links": [],
   "flags": {
     "installed": false,

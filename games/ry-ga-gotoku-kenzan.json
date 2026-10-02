@@ -9,8 +9,8 @@
   "dev": "Ryu ga Gotoku Studio",
   "pub": "Sega",
   "notes": "Optional, Japanese only.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ry-ga-gotoku-kenzan.jpg",
+  "logo": "images/logos/ry-ga-gotoku-kenzan.png",
   "links": [],
   "flags": {
     "installed": false,

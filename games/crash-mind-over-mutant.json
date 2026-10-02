@@ -9,8 +9,8 @@
   "dev": "TOSE",
   "pub": "Vivendi Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/crash-mind-over-mutant.jpg",
+  "logo": "images/logos/crash-mind-over-mutant.png",
   "links": [],
   "flags": {
     "installed": false,

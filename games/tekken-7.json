@@ -9,8 +9,8 @@
   "dev": "Bandai Namco Studios",
   "pub": "BANDAI NAMCO Entertainment America",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tekken-7.jpg",
+  "logo": "images/logos/tekken-7.png",
   "links": [],
   "flags": {
     "installed": false,

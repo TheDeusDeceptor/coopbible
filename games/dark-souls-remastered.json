@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Bandai Namco Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dark-souls-remastered.jpg",
+  "logo": "images/logos/dark-souls-remastered.png",
   "links": [],
   "flags": {
     "installed": false,

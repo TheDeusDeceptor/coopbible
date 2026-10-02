@@ -9,8 +9,8 @@
   "dev": "Eidos Montréal",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/deus-ex-human-revolution-the-missing-link.jpg",
+  "logo": "images/logos/deus-ex-human-revolution-the-missing-link.png",
   "links": [],
   "flags": {
     "installed": false,

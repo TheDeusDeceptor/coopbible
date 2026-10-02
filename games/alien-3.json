@@ -9,8 +9,8 @@
   "dev": "Probe Software",
   "pub": "Acclaim Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/alien-3.jpg",
+  "logo": "images/logos/alien-3.png",
   "links": [],
   "flags": {
     "installed": false,

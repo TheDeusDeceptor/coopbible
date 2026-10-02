@@ -9,8 +9,8 @@
   "dev": "Rare",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/battletoads-1994.jpg",
+  "logo": "images/logos/battletoads-1994.png",
   "links": [],
   "flags": {
     "installed": false,

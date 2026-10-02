@@ -9,8 +9,8 @@
   "dev": "CI Games",
   "pub": "CI Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/enemy-front.jpg",
+  "logo": "images/logos/enemy-front.png",
   "links": [],
   "flags": {
     "installed": false,

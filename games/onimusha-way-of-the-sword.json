@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/onimusha-way-of-the-sword.jpg",
+  "logo": "images/logos/onimusha-way-of-the-sword.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "LucasArts",
   "pub": "Aspyr Media",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/star-wars-the-force-unleashed.jpg",
+  "logo": "images/logos/star-wars-the-force-unleashed.png",
   "links": [],
   "flags": {
     "installed": false,

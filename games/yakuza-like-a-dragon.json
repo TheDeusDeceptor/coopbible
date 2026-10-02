@@ -9,8 +9,8 @@
   "dev": "Ryu ga Gotoku Studio",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/yakuza-like-a-dragon.jpg",
+  "logo": "images/logos/yakuza-like-a-dragon.png",
   "links": [],
   "flags": {
     "installed": false,

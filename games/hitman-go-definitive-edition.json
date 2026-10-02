@@ -9,8 +9,8 @@
   "dev": "Square Enix",
   "pub": "Square Enix",
   "notes": "Optional, different genre (turn-based strategy).",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hitman-go-definitive-edition.jpg",
+  "logo": "images/logos/hitman-go-definitive-edition.png",
   "links": [],
   "flags": {
     "installed": false,

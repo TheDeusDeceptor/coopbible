@@ -9,8 +9,8 @@
   "dev": "NetherRealm Studios",
   "pub": "Warner Bros. Interactive Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/mortal-kombat-x.jpg",
+  "logo": "images/logos/mortal-kombat-x.png",
   "links": [],
   "flags": {
     "installed": false,

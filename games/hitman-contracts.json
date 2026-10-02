@@ -9,8 +9,8 @@
   "dev": "Io-Interactive",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hitman-contracts.jpg",
+  "logo": "images/logos/hitman-contracts.png",
   "links": [],
   "flags": {
     "installed": false,

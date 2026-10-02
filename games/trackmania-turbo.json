@@ -9,8 +9,8 @@
   "dev": "Nadeo",
   "pub": "Ubisoft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/trackmania-turbo.jpg",
+  "logo": "images/logos/trackmania-turbo.png",
   "links": [],
   "flags": {
     "installed": false,

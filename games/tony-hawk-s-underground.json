@@ -9,8 +9,8 @@
   "dev": "Neversoft Entertainment",
   "pub": "Activision Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tony-hawk-s-underground.jpg",
+  "logo": "images/logos/tony-hawk-s-underground.png",
   "links": [],
   "flags": {
     "installed": false,

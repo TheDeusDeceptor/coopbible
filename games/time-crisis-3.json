@@ -9,8 +9,8 @@
   "dev": "Nextech",
   "pub": "Namco Hometek",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/time-crisis-3.jpg",
+  "logo": "images/logos/time-crisis-3.png",
   "links": [],
   "flags": {
     "installed": false,

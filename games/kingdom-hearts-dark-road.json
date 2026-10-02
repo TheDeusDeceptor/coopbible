@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "Optional.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/kingdom-hearts-dark-road.jpg",
+  "logo": "images/logos/kingdom-hearts-dark-road.png",
   "links": [],
   "flags": {
     "installed": false,

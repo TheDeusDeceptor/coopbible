@@ -9,8 +9,8 @@
   "dev": "Lunar Software",
   "pub": "Raw Fury",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/routine.jpg",
+  "logo": "images/logos/routine.png",
   "links": [],
   "flags": {
     "installed": false,

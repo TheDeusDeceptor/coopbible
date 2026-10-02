@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/onimusha-dawn-of-dreams.jpg",
+  "logo": "images/logos/onimusha-dawn-of-dreams.png",
   "links": [],
   "flags": {
     "installed": false,

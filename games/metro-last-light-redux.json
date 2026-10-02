@@ -9,8 +9,8 @@
   "dev": "4A Games",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metro-last-light-redux.jpg",
+  "logo": "images/logos/metro-last-light-redux.png",
   "links": [],
   "flags": {
     "installed": false,

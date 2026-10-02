@@ -9,8 +9,8 @@
   "dev": "Ryu ga Gotoku Studio",
   "pub": "Sega of America",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/lost-judgment.jpg",
+  "logo": "images/logos/lost-judgment.png",
   "links": [],
   "flags": {
     "installed": false,

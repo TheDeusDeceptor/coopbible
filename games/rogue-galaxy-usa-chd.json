@@ -9,8 +9,8 @@
   "dev": "Level-5",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/rogue-galaxy-usa-chd.jpg",
+  "logo": "images/logos/rogue-galaxy-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

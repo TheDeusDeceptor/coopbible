@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/pok-mon-yellow.jpg",
+  "logo": "images/logos/pok-mon-yellow.png",
   "links": [],
   "flags": {
     "installed": false,

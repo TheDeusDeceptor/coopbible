@@ -9,8 +9,8 @@
   "dev": "RE-LOGIC",
   "pub": "505 Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/terraria.jpg",
+  "logo": "images/logos/terraria.png",
   "links": [],
   "flags": {
     "installed": false,

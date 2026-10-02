@@ -9,8 +9,8 @@
   "dev": "Retro Studios",
   "pub": "Nintendo",
   "notes": "Metroid Prime: Trilogy.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metroid-prime-2-echoes-trilogy.jpg",
+  "logo": "images/logos/metroid-prime-2-echoes-trilogy.png",
   "links": [],
   "flags": {
     "installed": false,

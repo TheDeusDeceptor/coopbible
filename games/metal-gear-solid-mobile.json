@@ -9,8 +9,8 @@
   "dev": "Ideaworks Game Studio",
   "pub": "Konami",
   "notes": "Damn.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metal-gear-solid-mobile.jpg",
+  "logo": "images/logos/metal-gear-solid-mobile.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Namco",
   "notes": "Might as well try original arcade version...",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/time-crisis-ii.png",
+  "logo": "images/logos/time-crisis-ii.png",
   "links": [],
   "flags": {
     "installed": false,

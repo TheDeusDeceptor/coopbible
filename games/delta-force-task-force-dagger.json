@@ -9,8 +9,8 @@
   "dev": "Novalogic",
   "pub": "THQ Nordic",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/delta-force-task-force-dagger.jpg",
+  "logo": "images/logos/delta-force-task-force-dagger.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "K2 (Japan)",
   "pub": "Microsoft Game Studios",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tenchu-z.jpg",
+  "logo": "images/logos/tenchu-z.png",
   "links": [],
   "flags": {
     "installed": false,

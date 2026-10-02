@@ -9,8 +9,8 @@
   "dev": "Rockstar Games",
   "pub": "Rockstar Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/red-dead-redemption.jpg",
+  "logo": "images/logos/red-dead-redemption.png",
   "links": [],
   "flags": {
     "installed": false,

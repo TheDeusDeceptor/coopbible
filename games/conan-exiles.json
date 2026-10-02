@@ -9,8 +9,8 @@
   "dev": "Funcom Oslo",
   "pub": "Funcom Oslo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/conan-exiles.jpg",
+  "logo": "images/logos/conan-exiles.png",
   "links": [],
   "flags": {
     "installed": false,

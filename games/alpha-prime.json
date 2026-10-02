@@ -9,8 +9,8 @@
   "dev": "Black Element Software",
   "pub": "Bohemia Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/alpha-prime.jpg",
+  "logo": "images/logos/alpha-prime.png",
   "links": [],
   "flags": {
     "installed": false,

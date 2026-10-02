@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "Square Enix",
   "notes": "Game is no longer playable in any capacity.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/babylon-s-fall.jpg",
+  "logo": "images/logos/babylon-s-fall.png",
   "links": [],
   "flags": {
     "installed": false,

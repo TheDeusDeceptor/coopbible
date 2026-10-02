@@ -9,8 +9,8 @@
   "dev": "City Connection",
   "pub": "CITY CONNECTION",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/under-defeat.jpg",
+  "logo": "images/logos/under-defeat.png",
   "links": [],
   "flags": {
     "installed": false,

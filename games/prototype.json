@@ -9,8 +9,8 @@
   "dev": "Radical Entertainment",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/prototype.jpg",
+  "logo": "images/logos/prototype.png",
   "links": [],
   "flags": {
     "installed": false,

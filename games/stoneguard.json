@@ -9,8 +9,8 @@
   "dev": "Thorn Spire Games",
   "pub": "Wandering Wizard",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/stoneguard.jpg",
+  "logo": "images/logos/stoneguard.png",
   "links": [
     {
       "label": "Steam",

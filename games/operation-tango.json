@@ -9,8 +9,8 @@
   "dev": "Clever Plays",
   "pub": "Team17",
   "notes": "STEAM (Friends Pass)",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/operation-tango.jpg",
+  "logo": "images/logos/operation-tango.png",
   "links": [
     {
       "label": "Steam",

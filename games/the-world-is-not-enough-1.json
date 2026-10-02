@@ -9,8 +9,8 @@
   "dev": "",
   "pub": "",
   "notes": "N64",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-world-is-not-enough-1.jpg",
+  "logo": "images/logos/the-world-is-not-enough-1.png",
   "links": [],
   "flags": {
     "installed": false,

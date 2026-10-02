@@ -9,8 +9,8 @@
   "dev": "Square Enix",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/actraiser-renaissance.jpg",
+  "logo": "images/logos/actraiser-renaissance.png",
   "links": [],
   "flags": {
     "installed": false,

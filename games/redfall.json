@@ -9,8 +9,8 @@
   "dev": "Arkane Austin",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/redfall.jpg",
+  "logo": "images/logos/redfall.png",
   "links": [
     {
       "label": "Steam",

@@ -9,8 +9,8 @@
   "dev": "Mucky Foot Productions",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/urban-chaos.jpg",
+  "logo": "images/logos/urban-chaos.png",
   "links": [],
   "flags": {
     "installed": false,

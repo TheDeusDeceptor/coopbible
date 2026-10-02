@@ -9,8 +9,8 @@
   "dev": "Rockstar North",
   "pub": "Rockstar Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/grand-theft-auto-iv-complete-edition.jpg",
+  "logo": "images/logos/grand-theft-auto-iv-complete-edition.png",
   "links": [],
   "flags": {
     "installed": false,

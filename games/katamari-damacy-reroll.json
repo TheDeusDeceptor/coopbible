@@ -9,8 +9,8 @@
   "dev": "MONKEYCRAFT",
   "pub": "Bandai Namco Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/katamari-damacy-reroll.jpg",
+  "logo": "images/logos/katamari-damacy-reroll.png",
   "links": [],
   "flags": {
     "installed": false,

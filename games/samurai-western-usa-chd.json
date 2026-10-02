@@ -9,8 +9,8 @@
   "dev": "Spike",
   "pub": "Atlus",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/samurai-western-usa-chd.jpg",
+  "logo": "images/logos/samurai-western-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

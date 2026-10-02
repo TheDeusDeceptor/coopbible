@@ -9,8 +9,8 @@
   "dev": "Square",
   "pub": "Squaresoft",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/parasite-eve-m3u.jpg",
+  "logo": "images/logos/parasite-eve-m3u.png",
   "links": [],
   "flags": {
     "installed": false,

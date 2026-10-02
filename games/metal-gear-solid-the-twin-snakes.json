@@ -9,8 +9,8 @@
   "dev": "Silicon Knights",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/metal-gear-solid-the-twin-snakes.jpg",
+  "logo": "images/logos/metal-gear-solid-the-twin-snakes.png",
   "links": [],
   "flags": {
     "installed": false,

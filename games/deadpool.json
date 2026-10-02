@@ -9,8 +9,8 @@
   "dev": "Techmoon",
   "pub": "Techmoon",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/deadpool.jpg",
+  "logo": "images/logos/deadpool.png",
   "links": [],
   "flags": {
     "installed": false,

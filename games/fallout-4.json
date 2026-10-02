@@ -9,8 +9,8 @@
   "dev": "Bethesda Game Studios",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fallout-4.jpg",
+  "logo": "images/logos/fallout-4.png",
   "links": [],
   "flags": {
     "installed": false,

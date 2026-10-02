@@ -9,8 +9,8 @@
   "dev": "Valve",
   "pub": "Valve",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/aperture-desk-job.jpg",
+  "logo": "images/logos/aperture-desk-job.png",
   "links": [],
   "flags": {
     "installed": false,

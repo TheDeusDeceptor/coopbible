@@ -9,8 +9,8 @@
   "dev": "Obsidian Entertainment",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dungeon-siege-iii.jpg",
+  "logo": "images/logos/dungeon-siege-iii.png",
   "links": [],
   "flags": {
     "installed": false,

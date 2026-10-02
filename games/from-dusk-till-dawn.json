@@ -9,8 +9,8 @@
   "dev": "Gamesquad",
   "pub": "1C Company",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/from-dusk-till-dawn.jpg",
+  "logo": "images/logos/from-dusk-till-dawn.png",
   "links": [],
   "flags": {
     "installed": false,

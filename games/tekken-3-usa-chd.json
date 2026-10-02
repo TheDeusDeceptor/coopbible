@@ -9,8 +9,8 @@
   "dev": "Namco",
   "pub": "Sony Computer Entertainment Europe",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tekken-3-usa-chd.jpg",
+  "logo": "images/logos/tekken-3-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

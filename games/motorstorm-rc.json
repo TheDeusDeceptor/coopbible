@@ -9,8 +9,8 @@
   "dev": "Evolution Studios",
   "pub": "Sony Computer Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/motorstorm-rc.jpg",
+  "logo": "images/logos/motorstorm-rc.png",
   "links": [],
   "flags": {
     "installed": false,

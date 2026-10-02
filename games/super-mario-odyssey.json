@@ -9,8 +9,8 @@
   "dev": "Nintendo EPD",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/super-mario-odyssey.jpg",
+  "logo": "images/logos/super-mario-odyssey.png",
   "links": [],
   "flags": {
     "installed": true,

@@ -9,8 +9,8 @@
   "dev": "Sega",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/yakuza-2.jpg",
+  "logo": "images/logos/yakuza-2.png",
   "links": [],
   "flags": {
     "installed": false,

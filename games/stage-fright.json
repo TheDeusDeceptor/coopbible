@@ -9,8 +9,8 @@
   "dev": "Ghost Town Games Ltd.",
   "pub": "Hello Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/stage-fright.jpg",
+  "logo": "images/logos/stage-fright.png",
   "links": [
     {
       "label": "Steam",

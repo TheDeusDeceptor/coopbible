@@ -9,8 +9,8 @@
   "dev": "Kaos Studios",
   "pub": "Deep Silver",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/homefront.jpg",
+  "logo": "images/logos/homefront.png",
   "links": [],
   "flags": {
     "installed": false,

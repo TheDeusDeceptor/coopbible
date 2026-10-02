@@ -9,8 +9,8 @@
   "dev": "Capcom",
   "pub": "Capcom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/resident-evil-3-nemesis.jpg",
+  "logo": "images/logos/resident-evil-3-nemesis.png",
   "links": [],
   "flags": {
     "installed": false,

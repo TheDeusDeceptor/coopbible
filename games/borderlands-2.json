@@ -9,8 +9,8 @@
   "dev": "Gearbox Software, Aspyr (Mac), Aspyr (Linux)",
   "pub": "2K, Aspyr (Mac), Aspyr (Linux)",
   "notes": "+ Captain Scarlett and Her Pirate's Booty\n\n     + Mr. Torgue's Campaign of Carnage\n\n     + Natural Selection Annex\n\n     + Sir Hammerlock's Big Game Hunt\n\n     + Tiny Tina's Assault on Dragon Keep\n\n     + Commander Lilith & the Fight for Sanctuary",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/borderlands-2.jpg",
+  "logo": "images/logos/borderlands-2.png",
   "links": [
     {
       "label": "Steam",

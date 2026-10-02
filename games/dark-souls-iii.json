@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Bandai Namco Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/dark-souls-iii.jpg",
+  "logo": "images/logos/dark-souls-iii.png",
   "links": [],
   "flags": {
     "installed": false,

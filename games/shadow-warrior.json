@@ -9,8 +9,8 @@
   "dev": "Devolver Digital",
   "pub": "Bandai Namco Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/shadow-warrior.jpg",
+  "logo": "images/logos/shadow-warrior.png",
   "links": [],
   "flags": {
     "installed": false,

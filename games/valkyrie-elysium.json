@@ -9,8 +9,8 @@
   "dev": "Soleil",
   "pub": "Square Enix",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/valkyrie-elysium.jpg",
+  "logo": "images/logos/valkyrie-elysium.png",
   "links": [],
   "flags": {
     "installed": false,

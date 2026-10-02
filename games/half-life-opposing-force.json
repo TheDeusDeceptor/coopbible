@@ -9,8 +9,8 @@
   "dev": "Gearbox Software",
   "pub": "Valve",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/half-life-opposing-force.jpg",
+  "logo": "images/logos/half-life-opposing-force.png",
   "links": [],
   "flags": {
     "installed": false,

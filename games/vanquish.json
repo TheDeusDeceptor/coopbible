@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/vanquish.jpg",
+  "logo": "images/logos/vanquish.png",
   "links": [],
   "flags": {
     "installed": false,

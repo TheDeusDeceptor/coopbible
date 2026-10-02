@@ -9,8 +9,8 @@
   "dev": "Remedy Entertainment",
   "pub": "505 Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/control.jpg",
+  "logo": "images/logos/control.png",
   "links": [],
   "flags": {
     "installed": false,

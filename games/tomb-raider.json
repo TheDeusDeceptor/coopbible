@@ -9,8 +9,8 @@
   "dev": "Adrenaline Amusements",
   "pub": "Konami",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/tomb-raider.jpg",
+  "logo": "images/logos/tomb-raider.png",
   "links": [],
   "flags": {
     "installed": false,

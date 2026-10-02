@@ -9,8 +9,8 @@
   "dev": "Double Fine Productions",
   "pub": "Double Fine Productions",
   "notes": "READY?",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/iron-brigade.jpg",
+  "logo": "images/logos/iron-brigade.png",
   "links": [
     {
       "label": "Steam",

@@ -9,8 +9,8 @@
   "dev": "PlatinumGames",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bayonetta-3.jpg",
+  "logo": "images/logos/bayonetta-3.png",
   "links": [],
   "flags": {
     "installed": false,

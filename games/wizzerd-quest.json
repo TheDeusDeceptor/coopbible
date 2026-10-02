@@ -9,8 +9,8 @@
   "dev": "Kondoorsoft",
   "pub": "Kondoorsoft",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/wizzerd-quest.jpg",
+  "logo": "images/logos/wizzerd-quest.png",
   "links": [
     {
       "label": "Steam",

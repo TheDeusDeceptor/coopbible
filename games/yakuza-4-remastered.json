@@ -9,8 +9,8 @@
   "dev": "Sega",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/yakuza-4-remastered.jpg",
+  "logo": "images/logos/yakuza-4-remastered.png",
   "links": [],
   "flags": {
     "installed": false,

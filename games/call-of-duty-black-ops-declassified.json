@@ -9,8 +9,8 @@
   "dev": "Nihilistic Software",
   "pub": "Activision Publishing",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/call-of-duty-black-ops-declassified.jpg",
+  "logo": "images/logos/call-of-duty-black-ops-declassified.png",
   "links": [],
   "flags": {
     "installed": false,

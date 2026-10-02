@@ -9,8 +9,8 @@
   "dev": "Nexa",
   "pub": "Activision",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/portal.jpg",
+  "logo": "images/logos/portal.png",
   "links": [],
   "flags": {
     "installed": false,

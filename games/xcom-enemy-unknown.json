@@ -9,8 +9,8 @@
   "dev": "Firaxis Games",
   "pub": "2K Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/xcom-enemy-unknown.jpg",
+  "logo": "images/logos/xcom-enemy-unknown.png",
   "links": [],
   "flags": {
     "installed": false,

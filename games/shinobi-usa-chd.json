@@ -9,8 +9,8 @@
   "dev": "Overworks",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/shinobi-usa-chd.jpg",
+  "logo": "images/logos/shinobi-usa-chd.png",
   "links": [],
   "flags": {
     "installed": false,

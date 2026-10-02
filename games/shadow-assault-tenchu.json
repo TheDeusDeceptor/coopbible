@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "FromSoftware",
   "notes": "Xbox Live Arcade title.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/shadow-assault-tenchu.jpg",
+  "logo": "images/logos/shadow-assault-tenchu.png",
   "links": [],
   "flags": {
     "installed": false,

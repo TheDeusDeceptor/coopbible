@@ -9,8 +9,8 @@
   "dev": "CyberLight Game Studio",
   "pub": "CyberLight Game Studio",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bigfoot.jpg",
+  "logo": "images/logos/bigfoot.png",
   "links": [
     {
       "label": "Steam",

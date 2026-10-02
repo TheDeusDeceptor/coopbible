@@ -9,8 +9,8 @@
   "dev": "Studio Wildcard",
   "pub": "Studio Wildcard",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/ark-survival-evolved.jpg",
+  "logo": "images/logos/ark-survival-evolved.png",
   "links": [
     {
       "label": "Steam",

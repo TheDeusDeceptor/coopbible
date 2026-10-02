@@ -9,8 +9,8 @@
   "dev": "Infocom",
   "pub": "Infocom",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-witness.jpg",
+  "logo": "images/logos/the-witness.png",
   "links": [],
   "flags": {
     "installed": false,

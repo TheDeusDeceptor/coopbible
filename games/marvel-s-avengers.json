@@ -9,8 +9,8 @@
   "dev": "Crystal Dynamics",
   "pub": "Crystal Dynamics",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/marvel-s-avengers.jpg",
+  "logo": "images/logos/marvel-s-avengers.png",
   "links": [],
   "flags": {
     "installed": false,

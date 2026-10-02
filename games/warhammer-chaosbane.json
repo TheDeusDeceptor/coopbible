@@ -9,8 +9,8 @@
   "dev": "Eko Software",
   "pub": "Nacon",
   "notes": "STEAM",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/warhammer-chaosbane.jpg",
+  "logo": "images/logos/warhammer-chaosbane.png",
   "links": [
     {
       "label": "Steam",

@@ -9,8 +9,8 @@
   "dev": "Maxis",
   "pub": "Electronic Arts",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/the-sims-3.jpg",
+  "logo": "images/logos/the-sims-3.png",
   "links": [],
   "flags": {
     "installed": false,

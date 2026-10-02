@@ -9,8 +9,8 @@
   "dev": "EXPERIMENT ONE",
   "pub": "EXPERIMENT ONE",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/grocery-store-simulator.jpg",
+  "logo": "images/logos/grocery-store-simulator.png",
   "links": [
     {
       "label": "Steam",

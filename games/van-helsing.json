@@ -9,8 +9,8 @@
   "dev": "Saffire",
   "pub": "Vivendi Universal Games",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/van-helsing.jpg",
+  "logo": "images/logos/van-helsing.png",
   "links": [],
   "flags": {
     "installed": false,

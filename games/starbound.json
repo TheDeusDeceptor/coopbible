@@ -9,8 +9,8 @@
   "dev": "Chucklefish",
   "pub": "Chucklefish",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/starbound.jpg",
+  "logo": "images/logos/starbound.png",
   "links": [
     {
       "label": "Steam",

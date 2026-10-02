@@ -9,8 +9,8 @@
   "dev": "Blizzard Entertainment",
   "pub": "Blizzard Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/diablo-iii-eternal-collection.jpg",
+  "logo": "images/logos/diablo-iii-eternal-collection.png",
   "links": [],
   "flags": {
     "installed": false,

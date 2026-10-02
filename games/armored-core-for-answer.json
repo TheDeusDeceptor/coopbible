@@ -9,8 +9,8 @@
   "dev": "FromSoftware",
   "pub": "Ubisoft Entertainment",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/armored-core-for-answer.jpg",
+  "logo": "images/logos/armored-core-for-answer.png",
   "links": [],
   "flags": {
     "installed": false,

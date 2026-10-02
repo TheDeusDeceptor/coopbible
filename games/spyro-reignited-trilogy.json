@@ -9,8 +9,8 @@
   "dev": "Toys for Bob",
   "pub": "Activision",
   "notes": "Remake of first three titles.",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/spyro-reignited-trilogy.jpg",
+  "logo": "images/logos/spyro-reignited-trilogy.png",
   "links": [],
   "flags": {
     "installed": true,

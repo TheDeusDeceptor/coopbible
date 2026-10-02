@@ -9,8 +9,8 @@
   "dev": "Spellbound Interactive",
   "pub": "THQ",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/colin-mcrae-rally.jpg",
+  "logo": "images/logos/colin-mcrae-rally.png",
   "links": [],
   "flags": {
     "installed": false,

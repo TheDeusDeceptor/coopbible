@@ -9,8 +9,8 @@
   "dev": "Io-Interactive",
   "pub": "Eidos Interactive",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/hitman-blood-money.jpg",
+  "logo": "images/logos/hitman-blood-money.png",
   "links": [],
   "flags": {
     "installed": false,

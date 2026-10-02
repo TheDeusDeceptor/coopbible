@@ -9,8 +9,8 @@
   "dev": "Nintendo EPD",
   "pub": "Nintendo",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/super-mario-bros-wonder.jpg",
+  "logo": "images/logos/super-mario-bros-wonder.png",
   "links": [],
   "flags": {
     "installed": true,

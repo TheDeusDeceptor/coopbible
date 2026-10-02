@@ -9,8 +9,8 @@
   "dev": "Machine Games",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/wolfenstein-the-old-blood.jpg",
+  "logo": "images/logos/wolfenstein-the-old-blood.png",
   "links": [],
   "flags": {
     "installed": false,

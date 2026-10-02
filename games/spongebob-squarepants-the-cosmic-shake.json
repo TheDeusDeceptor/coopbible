@@ -9,8 +9,8 @@
   "dev": "Purple Lamp",
   "pub": "THQ Nordic GmbH",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/spongebob-squarepants-the-cosmic-shake.jpg",
+  "logo": "images/logos/spongebob-squarepants-the-cosmic-shake.png",
   "links": [],
   "flags": {
     "installed": false,

@@ -9,8 +9,8 @@
   "dev": "Bethesda Game Studios",
   "pub": "Bethesda Softworks",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/fallout-3-game-of-the-year-edition.jpg",
+  "logo": "images/logos/fallout-3-game-of-the-year-edition.png",
   "links": [],
   "flags": {
     "installed": false,

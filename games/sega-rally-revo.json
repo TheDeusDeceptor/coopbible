@@ -9,8 +9,8 @@
   "dev": "SEGA Racing Studio",
   "pub": "Sega",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/sega-rally-revo.jpg",
+  "logo": "images/logos/sega-rally-revo.png",
   "links": [],
   "flags": {
     "installed": false,

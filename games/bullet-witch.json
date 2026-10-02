@@ -9,8 +9,8 @@
   "dev": "Cavia",
   "pub": "Atari",
   "notes": "",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/bullet-witch.jpg",
+  "logo": "images/logos/bullet-witch.png",
   "links": [],
   "flags": {
     "installed": false,

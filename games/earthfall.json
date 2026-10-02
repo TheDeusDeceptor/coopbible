@@ -9,8 +9,8 @@
   "dev": "Holospark",
   "pub": "Holospark",
   "notes": "READY",
-  "screenshot": "",
-  "logo": "",
+  "screenshot": "images/screenshots/earthfall.jpg",
+  "logo": "images/logos/earthfall.png",
   "links": [
     {
       "label": "Steam",
