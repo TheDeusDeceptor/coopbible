@@ -2195,8 +2195,14 @@ function markLoadedImages(root){
 }
 function renderContent(){
   const pane = getPane(tab);
-  TAB_PANES.forEach((p, id) => { if(id !== tab) p.el.classList.remove('active'); });
+  TAB_PANES.forEach((p, id) => {
+    if(id !== tab){
+      p.el.classList.remove('active');
+      p.el.style.display = 'none';
+    }
+  });
   pane.el.classList.add('active');
+  pane.el.style.display = 'block';
 
   if(tab === 'backlog-series'){
     hideToolbar();
@@ -2217,6 +2223,7 @@ function renderContent(){
 }
 function refreshGrid(){
   const pane = getPane(tab);
+  TAB_PANES.forEach((p, id) => { p.el.style.display = id === tab ? 'block' : 'none'; });
   if(tab === 'backlog-series') buildSeriesPane(pane);
   else buildStandardPane(pane, tab);
   pane.signature = paneSignature();
