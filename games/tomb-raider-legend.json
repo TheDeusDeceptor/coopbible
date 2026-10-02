@@ -9,8 +9,8 @@
   "dev": "Crystal Dynamics",
   "pub": "Eidos Interactive",
   "notes": "The Tomb Raider Trilogy (graphically superior to PC versions + controller prompts).",
-  "screenshot": "images/screenshots/tomb-raider-legend.jpg",
-  "logo": "images/logos/tomb-raider-legend.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": false,

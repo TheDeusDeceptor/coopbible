@@ -9,8 +9,8 @@
   "dev": "Nintendo EAD",
   "pub": "Nintendo",
   "notes": "Requires firmware 1.7.X.X.",
-  "screenshot": "images/screenshots/new-super-mario-bros-u-deluxe.jpg",
-  "logo": "images/logos/new-super-mario-bros-u-deluxe.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": true,

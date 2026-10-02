@@ -9,8 +9,8 @@
   "dev": "Sega",
   "pub": "",
   "notes": "Optional, set in different universe.",
-  "screenshot": "images/screenshots/valkyria-revolution.jpg",
-  "logo": "images/logos/valkyria-revolution.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": false,

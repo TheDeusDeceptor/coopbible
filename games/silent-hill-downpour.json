@@ -9,8 +9,8 @@
   "dev": "Vatra",
   "pub": "Konami",
   "notes": "Both recomp of Xbox 360 version and separate PC port exist (latter haven't released yet).",
-  "screenshot": "images/screenshots/silent-hill-downpour.jpg",
-  "logo": "images/logos/silent-hill-downpour.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": false,

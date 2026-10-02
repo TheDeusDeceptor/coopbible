@@ -9,8 +9,8 @@
   "dev": "TEST DEVELOPER",
   "pub": "TEST PUBLISHER",
   "notes": "",
-  "screenshot": "images/screenshots/crash-time-undercover.jpg",
-  "logo": "images/logos/crash-time-undercover.png",
+  "screenshot": "",
+  "logo": "",
   "links": [],
   "flags": {
     "installed": false,
