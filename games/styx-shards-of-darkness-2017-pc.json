@@ -1,0 +1,38 @@
+{
+  "id": "styx-shards-of-darkness-2017-pc",
+  "name": "Styx: Shards of Darkness",
+  "platform": "PC",
+  "size": "11 GB",
+  "hltb": "Main: 12, +Extra: 17",
+  "dev": "Cyanide Studio",
+  "pub": "Nacon",
+  "notes": "",
+  "release": "14.03.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/styx-shards-of-darkness-2017-pc.jpg",
+  "logo": "images/logos/styx-shards-of-darkness-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/355790",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Styx%3A_Shards_of_Darkness",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": true,
+    "ownedSteam": true,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
