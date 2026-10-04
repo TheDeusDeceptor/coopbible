@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T18:01:46Z",
+  "updated": "2026-10-04T18:51:43Z",
   "games": {
     "styx-shards-of-darkness-2017-pc": {
       "id": "styx-shards-of-darkness-2017-pc",
@@ -10,7 +10,7 @@
       "hltb": "Main: 12, +Extra: 17",
       "dev": "Cyanide Studio",
       "pub": "Nacon",
-      "notes": "",
+      "notes": "+ bullshit DLC\n+ sraka DLC\n+ dumb idiot dlc\n+ whatever\n- asswipe",
       "release": "14.03.2017",
       "ea_release": "",
       "screenshot": "images/screenshots/styx-shards-of-darkness-2017-pc.jpg",
