@@ -135,8 +135,22 @@
   body[data-cols="2"] .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   body[data-cols="3"] .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   body[data-cols="4"] .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
-  body[data-cols="5"] .grid{grid-template-columns:repeat(5,minmax(0,1fr))}
   .grid-empty{max-width:1400px;margin:1.5rem auto;padding:2rem 1rem;text-align:center;font-family:var(--font-head);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--border);border-radius:9px;line-height:1.8;}
+  /* Narrow-column chip shrink */
+  body[data-cols="3"] .ov-chip,
+  body[data-cols="4"] .ov-chip{
+    font-size:.68rem;
+    padding:.26rem .5rem;
+  }
+  body[data-cols="3"] .overlay-chips,
+  body[data-cols="4"] .overlay-chips{
+    gap:.25rem;
+  }
+  body[data-cols="3"] .dlc-counter,
+  body[data-cols="4"] .dlc-counter{
+    font-size:.66rem;
+    padding:.24rem .5rem;
+  }
   .card{display:flex;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;content-visibility:auto;contain-intrinsic-size:auto 260px;}
   .card:hover{border-color:var(--accent-line)}
   .card.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
@@ -258,7 +272,7 @@
   .modal-hero img.hero-img{display:block;width:100%;height:100%;object-fit:cover;}
   .modal-hero::before{content:"";position:absolute;left:0;top:0;width:60%;height:65%;background:linear-gradient(to bottom right,rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 65%);pointer-events:none;z-index:1;}
   .modal-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:60%;background:linear-gradient(to top,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
-  .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9)) drop-shadow(0 2px 30px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
+  .modal-logo{position:absolute;bottom:1rem;right:1rem;width:120px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9)) drop-shadow(0 2px 30px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
   .modal-logo img{max-width:100%;max-height:100%;object-fit:contain}
   .modal-logo .ph{font-size:.5rem;letter-spacing:.14em;color:#3a4356}
   .modal-logo .ph small{font-size:.45rem}
@@ -327,7 +341,7 @@
   .modal-alt{font-family:var(--font-body);font-size:.78rem;color:var(--muted);margin-top:.35rem;line-height:1.5;}
   .modal-alt::before{content:"aka ";opacity:.6}
   .modal-alt span + span::before{content:" · "}
-  .tags-row{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.55rem}
+  .tags-row{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.55rem;min-height:1.35rem;align-content:flex-start;}
   .tags-row.flags{margin-top:.3rem}
   .chip{font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.26rem .6rem;border-radius:5px;border:1px solid var(--accent-line);color:var(--accent);background:var(--accent-soft);white-space:nowrap;}
   .chip.coop{border-color:rgba(56,189,248,.4);color:#38bdf8;background:rgba(56,189,248,.08);}
@@ -712,7 +726,32 @@ let MANIFEST = { version: 4, games: {}, lists: {}, series: {}, series_order: [] 
 let PLATFORMS = {};
 let PLATFORMS_ORIGINAL = {};
 
-let sortKey = 'natural', sortDir = 'asc', filterKey = 'all', searchTerm = '';
+let sortKey = 'natural', sortDir = 'asc', searchTerm = '';
+let filterSet = (() => {
+  try{
+    const saved = JSON.parse(localStorage.getItem('view_filter') || 'null');
+    if(Array.isArray(saved)) return new Set(saved);
+  }catch(e){}
+  return new Set(['all']);
+})();
+const FILTER_LABELS = {
+  all:'All', installed:'Installed', localCoop:'Local Co-op',
+  authRequired:'AUTH', ownedSteam:'Steam', gamepass:'GamePass'
+};
+const FILTER_KEYS = ['all','installed','localCoop','authRequired','ownedSteam','gamepass'];
+function filterSummary(){
+  if(filterSet.has('all')) return 'All';
+  if(filterSet.size === 0) return 'None';
+  if(filterSet.size === 1) return FILTER_LABELS[[...filterSet][0]];
+  return filterSet.size + ' filters';
+}
+function filterIsNonDefault(){
+  return !(filterSet.size === 1 && filterSet.has('all'));
+}
+function saveFilterGlobal(){
+  localStorage.setItem('view_filter', JSON.stringify([...filterSet]));
+}
+
 const searchFields = { name: true, dev: false, pub: false };
 const defaultDir = { natural:'asc', name:'asc', size:'desc', release:'desc', main:'asc', extra:'asc' };
 const SORT_LABELS = { natural:'Date Added', name:'Name', size:'Size', release:'Released', main:'HLTB Main', extra:'HLTB Extra' };
@@ -1155,11 +1194,8 @@ function showTokenPrompt(){
     <div class="token-modal">
       <button class="modal-close" data-close>✕</button>
       <h2><span class="lamp"></span>Admin access</h2>
-      <p>Paste a GitHub personal access token. Stored only in this browser.</p>
-      <p>Generate one at <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">github.com/settings/tokens</a>
-         with <strong>Contents</strong> and <strong>Actions: read &amp; write</strong> on
-         <code style="background:rgba(255,255,255,.05);padding:.1rem .35rem;border-radius:4px;font-family:ui-monospace,monospace;font-size:.78rem;color:#cbd5e1">${esc(GITHUB_OWNER)}/${esc(GITHUB_REPO)}</code>.</p>
-      <input type="password" id="token-input" autocomplete="off" spellcheck="false">
+      <p>Paste a GitHub personal access token.</p>
+      <input type="password" id="token-input" placeholder="ghp_… / github_pat_…" autocomplete="off" spellcheck="false">
       <div class="token-actions">
         <button type="button" class="btn" data-close>Cancel</button>
         <button type="button" class="btn primary" id="token-verify">Verify &amp; Save</button>
@@ -2132,7 +2168,7 @@ function getPane(tabId){
 }
 function invalidateAllPanes(){ TAB_PANES.forEach(p => { p.signature = null; }); }
 function paneSignature(){
-  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, filterKey, searchTerm].join('|');
+  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), searchTerm].join('|');
 }
 function renderTabs(){
   tabbarEl.innerHTML = TABS[group].map(t =>
@@ -2143,11 +2179,15 @@ function applyView(){ document.body.dataset.cols = viewCols; }
 function setViewCols(v){ viewCols = v; localStorage.setItem('view_cols', v); applyView(); renderToolbar(); }
 
 function passesFilter(g){
-  if(filterKey === 'all') return true;
-  const inst = !!(g.flags && g.flags.installed);
-  if(filterKey === 'status') return inst;
-  if(filterKey === 'no-status') return !inst;
-  return true;
+  if(filterSet.has('all')) return true;
+  if(filterSet.size === 0) return false;
+  const fl = g.flags || {};
+  if(filterSet.has('installed')    && fl.installed)    return true;
+  if(filterSet.has('localCoop')    && fl.localCoop)    return true;
+  if(filterSet.has('authRequired') && fl.authRequired) return true;
+  if(filterSet.has('ownedSteam')   && fl.ownedSteam)   return true;
+  if(filterSet.has('gamepass')     && fl.gamepass)     return true;
+  return false;
 }
 function passesSearch(g){
   if(!searchTerm) return true;
@@ -2181,22 +2221,18 @@ function applySort(arr){
   return copy;
 }
 function sortIsNonDefault(){ return !(sortKey === 'natural' && sortDir === 'asc'); }
-function filterLabels(){ return { all:'All', status:'Installed', 'no-status':'Not Installed' }; }
 function renderToolbar(){
-  const fl = filterLabels();
   toolbarEl.classList.remove('empty');
-  const colOpts = ['auto','1','2','3','4','5'];
+  const colOpts = ['auto','1','2','3','4'];
   const nonDefault = sortIsNonDefault();
-  const filterNonDefault = filterKey !== 'all';
+  const filterNonDefault = filterIsNonDefault();
   const viewNonDefault = viewCols !== 'auto';
   toolbarEl.innerHTML = `
     <div class="tb-left">
       <div class="dd" data-dd="filter">
-        <button class="dd-btn ${filterNonDefault?'non-default':''}" type="button">Filter <span class="val">${esc(fl[filterKey])}</span><span class="chev">▾</span></button>
+        <button class="dd-btn ${filterNonDefault?'non-default':''}" type="button">Filter <span class="val">${esc(filterSummary())}</span><span class="chev">▾</span></button>
         <div class="dd-menu">
-          <button class="dd-item ${filterKey==='all'?'active':''}" data-filter="all">${fl.all}<span class="dd-tick">✓</span></button>
-          <button class="dd-item ${filterKey==='status'?'active':''}" data-filter="status">${fl.status}<span class="dd-tick">✓</span></button>
-          <button class="dd-item ${filterKey==='no-status'?'active':''}" data-filter="no-status">${fl['no-status']}<span class="dd-tick">✓</span></button>
+          ${FILTER_KEYS.map(k => `<button class="dd-item ${filterSet.has(k)?'active':''}" data-filter="${k}">${FILTER_LABELS[k]}<span class="dd-tick">✓</span></button>`).join('')}
         </div>
       </div>
       <div class="dd" data-dd="sort">
@@ -2321,7 +2357,7 @@ function cardHTML(g, t){
       </div>
     </article>`;
 }
-function beatenRowHTML(g, showRank){
+function beatenRowHTML(g){
   const pcls = pendingClassFor(g.id);
   const dragAttr = (sortKey === 'natural' && adminMode) ? ' draggable="true"' : '';
   return `
@@ -2608,8 +2644,8 @@ function modalHTML(g, t){
       <div class="modal-body">
         <h2 class="modal-title">${esc(g.name)}</h2>
         ${altHTML}
-        ${pageChips ? `<div class="tags-row">${pageChips}</div>` : ''}
-        ${flagChips ? `<div class="tags-row flags">${flagChips}</div>` : ''}
+        <div class="tags-row">${pageChips}</div>
+        <div class="tags-row flags">${flagChips}</div>
         <dl class="info-list">${modalInfoRows(g, t)}</dl>
         ${linksHTML ? `<div class="modal-links">${linksHTML}</div>` : ''}
       </div>
@@ -4261,7 +4297,7 @@ switchEl.addEventListener('click', () => {
   switchEl.dataset.active = group;
   bodyEl.dataset.group = group;
   tab = TABS[group][0].id;
-  filterKey = 'all'; searchTerm = '';
+  searchTerm = '';
   voidMode = false; voidBtn.classList.remove('void-on');
   applySortForTab(tab);
   saveLastTab();
@@ -4271,7 +4307,7 @@ tabbarEl.addEventListener('click', e => {
   const btn = e.target.closest('button');
   if(!btn) return;
   tab = btn.dataset.tab;
-  filterKey = 'all'; searchTerm = '';
+  searchTerm = '';
   voidMode = false; voidBtn.classList.remove('void-on');
   applySortForTab(tab);
   saveLastTab();
@@ -4300,7 +4336,31 @@ toolbarEl.addEventListener('click', e => {
     return;
   }
   const fo = e.target.closest('[data-filter]');
-  if(fo){ filterKey = fo.dataset.filter || 'all'; closeAllDropdowns(); invalidateAllPanes(); renderContent(); return; }
+  if(fo){
+    const k = fo.dataset.filter;
+    if(k === 'all'){
+      if(filterSet.has('all')) filterSet = new Set();
+      else filterSet = new Set(['all']);
+    } else {
+      const s = new Set(filterSet);
+      s.delete('all');
+      if(s.has(k)) s.delete(k);
+      else s.add(k);
+      filterSet = s;
+    }
+    saveFilterGlobal();
+    const dd = toolbarEl.querySelector('.dd[data-dd="filter"]');
+    if(dd){
+      dd.querySelector('.val').textContent = filterSummary();
+      dd.classList.toggle('non-default', filterIsNonDefault());
+      dd.querySelectorAll('[data-filter]').forEach(btn => {
+        btn.classList.toggle('active', filterSet.has(btn.dataset.filter));
+      });
+    }
+    invalidateAllPanes();
+    renderContent();
+    return;
+  }
   const so = e.target.closest('[data-sort]');
   if(so){
     const k = so.dataset.sort;
