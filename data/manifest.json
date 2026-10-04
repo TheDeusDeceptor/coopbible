@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T16:32:17Z",
+  "updated": "2026-10-04T16:40:35Z",
   "games": {
     "baldur-s-gate-iii-unreleased-pc": {
       "id": "baldur-s-gate-iii-unreleased-pc",
@@ -196,6 +196,89 @@
       "series_status": "done",
       "series_owner": null,
       "series_note": null
+    },
+    "silent-hill-2-director-s-cut-2002-pc": {
+      "id": "silent-hill-2-director-s-cut-2002-pc",
+      "name": "Silent Hill 2: Director's Cut",
+      "platform": "PC",
+      "size": "2.3 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Team Silent",
+      "pub": "Konami",
+      "notes": "",
+      "release": "02.12.2002",
+      "ea_release": "",
+      "screenshot": "https://images.igdb.com/igdb/image/upload/t_1080p/sc89qt.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/1dc3a89d0d440ba31729b0ba74b93a33.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2124490",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Silent_Hill_2",
+          "icon": "pcgw"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Silent_Hill_2%3A_Director's_Cut",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "silent-hill",
+      "series_status": "done",
+      "series_owner": null,
+      "series_note": null
+    },
+    "left-4-dead-2008-pc": {
+      "id": "left-4-dead-2008-pc",
+      "name": "Left 4 Dead",
+      "platform": "PC",
+      "size": "7.5 GB",
+      "hltb": "Main: 7, +Extra: 19",
+      "dev": "Valve",
+      "pub": "Valve",
+      "notes": "",
+      "release": "17.11.2008",
+      "ea_release": "",
+      "screenshot": "https://images.igdb.com/igdb/image/upload/t_1080p/mvkhksdvkmzmo60qisgl.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/f829101d1967c5ca9eb2f2b1428840b1.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Left_4_Dead",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "left-4-dead",
+      "series_status": null,
+      "series_owner": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -215,7 +298,9 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
-      "silent-hill-1999-psx"
+      "silent-hill-1999-psx",
+      "silent-hill-2-director-s-cut-2002-pc",
+      "left-4-dead-2008-pc"
     ],
     "gamearchive": [],
     "mainpc": [],
@@ -229,12 +314,23 @@
       "name": "Silent Hill",
       "logo": "https://1000logos.net/wp-content/uploads/2022/10/Silent-Hill-logo.png",
       "order": [
-        "silent-hill-1999-psx"
+        "silent-hill-1999-psx",
+        "silent-hill-2-director-s-cut-2002-pc"
+      ],
+      "display": {}
+    },
+    "left-4-dead": {
+      "id": "left-4-dead",
+      "name": "Left 4 Dead",
+      "logo": "",
+      "order": [
+        "left-4-dead-2008-pc"
       ],
       "display": {}
     }
   },
   "series_order": [
+    "left-4-dead",
     "silent-hill"
   ]
 }
