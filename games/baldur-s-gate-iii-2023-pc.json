@@ -1,0 +1,28 @@
+{
+  "id": "baldur-s-gate-iii-2023-pc",
+  "name": "Baldur's Gate III",
+  "platform": "PC",
+  "size": "150 GB",
+  "hltb": "Main: 73, +Extra: 117",
+  "dev": "Larian Studios",
+  "pub": "Larian Studios",
+  "notes": "",
+  "release": "03.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/baldur-s-gate-iii-2023-pc.jpg",
+  "logo": "images/logos/baldur-s-gate-iii-2023-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_owner": null,
+  "series_note": null
+}
