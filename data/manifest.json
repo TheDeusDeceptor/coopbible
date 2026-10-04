@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T14:47:45Z",
+  "updated": "2026-10-04T16:01:10Z",
   "games": {
     "baldur-s-gate-iii-unreleased-pc": {
       "id": "baldur-s-gate-iii-unreleased-pc",
@@ -92,7 +92,7 @@
       "release": "09.09.2026",
       "ea_release": "02.03.2021",
       "screenshot": "images/screenshots/valheim-2026-pc.jpg",
-      "logo": "",
+      "logo": "https://cdn2.steamgriddb.com/logo/d00f448c26753a69f75336c46e974848.png",
       "links": [
         {
           "label": "Steam",
