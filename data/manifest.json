@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T14:30:55Z",
+  "updated": "2026-10-04T14:37:11Z",
   "games": {
     "baldur-s-gate-iii-unreleased-pc": {
       "id": "baldur-s-gate-iii-unreleased-pc",
@@ -40,11 +40,51 @@
       "series_status": null,
       "series_owner": null,
       "series_note": null
+    },
+    "deep-rock-galactic-2020-pc": {
+      "id": "deep-rock-galactic-2020-pc",
+      "name": "Deep Rock Galactic",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 45, +Extra: 137",
+      "dev": "Ghost Ship Games",
+      "pub": "Coffee Stain Publishing",
+      "notes": "",
+      "release": "13.05.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/deep-rock-galactic-2020-pc.jpg",
+      "logo": "images/logos/deep-rock-galactic-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/548430",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Deep_Rock_Galactic",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_owner": null,
+      "series_note": null
     }
   },
   "lists": {
     "released": [
-      "baldur-s-gate-iii-unreleased-pc"
+      "baldur-s-gate-iii-unreleased-pc",
+      "deep-rock-galactic-2020-pc"
     ],
     "early-access": [],
     "unreleased": [],
