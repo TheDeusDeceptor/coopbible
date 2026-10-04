@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T16:01:10Z",
+  "updated": "2026-10-04T16:13:57Z",
   "games": {
     "baldur-s-gate-iii-unreleased-pc": {
       "id": "baldur-s-gate-iii-unreleased-pc",
@@ -118,6 +118,45 @@
       "series_status": null,
       "series_owner": null,
       "series_note": null
+    },
+    "portal-2-2011-pc": {
+      "id": "portal-2-2011-pc",
+      "name": "Portal 2",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 9, +Extra: 14",
+      "dev": "Valve",
+      "pub": "Valve",
+      "notes": "",
+      "release": "18.04.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/portal-2-2011-pc.jpg",
+      "logo": "images/logos/portal-2-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/620",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Portal_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_owner": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -133,11 +172,15 @@
       "valheim-2026-pc"
     ],
     "mods": [],
-    "coop-beaten": [],
+    "coop-beaten": [
+      "portal-2-2011-pc"
+    ],
     "backlog": [],
     "gamearchive": [],
     "mainpc": [],
-    "beaten": []
+    "beaten": [
+      "portal-2-2011-pc"
+    ]
   },
   "series": {},
   "series_order": []
