@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T20:26:59Z",
+  "updated": "2026-10-04T20:44:47Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -136,11 +136,66 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "nioh-2-the-complete-edition-2021-pc": {
+      "id": "nioh-2-the-complete-edition-2021-pc",
+      "name": "Nioh 2: The Complete Edition",
+      "platform": "PC",
+      "size": "85 GB",
+      "hltb": "Main: 45, +Extra: 73",
+      "dev": "Koei Tecmo Games",
+      "pub": "Koei Tecmo Games",
+      "notes": "",
+      "release": "05.02.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/nioh-2-the-complete-edition-2021-pc.jpg",
+      "logo": "images/logos/nioh-2-the-complete-edition-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1325200",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nioh_2_%E2%80%93_The_Complete_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The First Dog Eater....",
+          "release": "10.12.2012",
+          "played": true
+        },
+        {
+          "name": "Im retarded!",
+          "release": "12.12.2012",
+          "played": true
+        },
+        {
+          "name": "thx Deepseek...",
+          "release": "again",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
     "released": [
-      "dark-souls-prepare-to-die-edition-2012-pc"
+      "dark-souls-prepare-to-die-edition-2012-pc",
+      "nioh-2-the-complete-edition-2021-pc"
     ],
     "early-access": [],
     "unreleased": [],
