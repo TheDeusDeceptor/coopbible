@@ -1,0 +1,73 @@
+{
+  "version": 4,
+  "updated": "2026-10-04T20:13:14Z",
+  "games": {
+    "dark-souls-prepare-to-die-edition-2012-pc": {
+      "id": "dark-souls-prepare-to-die-edition-2012-pc",
+      "name": "Dark Souls: Prepare to Die Edition",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 46, +Extra: 63",
+      "dev": "FromSoftware",
+      "pub": "Namco Bandai Games",
+      "notes": "",
+      "release": "24.08.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dark-souls-prepare-to-die-edition-2012-pc.jpg",
+      "logo": "images/logos/dark-souls-prepare-to-die-edition-2012-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dark_Souls%3A_Prepare_to_Die_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "fuck in da butt",
+          "release": "",
+          "note": null,
+          "played": false
+        },
+        {
+          "name": "assss",
+          "release": "",
+          "note": null,
+          "played": false
+        },
+        {
+          "name": "bitchfuck",
+          "release": "",
+          "note": null,
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    }
+  },
+  "lists": {
+    "released": [
+      "dark-souls-prepare-to-die-edition-2012-pc"
+    ],
+    "early-access": [],
+    "unreleased": [],
+    "mods": [],
+    "coop-beaten": [],
+    "backlog": [],
+    "gamearchive": [],
+    "mainpc": [],
+    "beaten": []
+  },
+  "series": {},
+  "series_order": []
+}
