@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T18:51:43Z",
+  "updated": "2026-10-04T18:53:11Z",
   "games": {
     "styx-shards-of-darkness-2017-pc": {
       "id": "styx-shards-of-darkness-2017-pc",
@@ -48,7 +48,7 @@
       "hltb": "Main: 8, +Extra: 9",
       "dev": "Pow Pixel Games",
       "pub": "JanduSoft",
-      "notes": "",
+      "notes": "emu issue",
       "release": "25.07.2024",
       "ea_release": "",
       "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295610/ss_388f711b76c439d41632ce48d119e228706c5566.1920x1080.jpg?t=1784697626",
@@ -86,7 +86,7 @@
       "hltb": "Main: 48, +Extra: 69",
       "dev": "Keen Games",
       "pub": "Keen Games",
-      "notes": "",
+      "notes": "emu issue\n+ im moron",
       "release": "10.10.2026",
       "ea_release": "24.01.2024",
       "screenshot": "images/screenshots/enshrouded-2026-pc.jpg",
