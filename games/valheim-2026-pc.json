@@ -1,0 +1,39 @@
+{
+  "id": "valheim-2026-pc",
+  "name": "Valheim",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 80, +Extra: 121",
+  "dev": "Iron Gate Studio",
+  "pub": "Coffee Stain Publishing",
+  "notes": "",
+  "release": "09.09.2026",
+  "ea_release": "02.03.2021",
+  "screenshot": "images/screenshots/valheim-2026-pc.jpg",
+  "logo": "",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/892970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Valheim",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_owner": null,
+  "series_note": null
+}
