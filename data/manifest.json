@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T16:13:57Z",
+  "updated": "2026-10-04T16:32:17Z",
   "games": {
     "baldur-s-gate-iii-unreleased-pc": {
       "id": "baldur-s-gate-iii-unreleased-pc",
@@ -157,6 +157,45 @@
       "series_status": null,
       "series_owner": null,
       "series_note": null
+    },
+    "silent-hill-1999-psx": {
+      "id": "silent-hill-1999-psx",
+      "name": "Silent Hill",
+      "platform": "PSX",
+      "size": "0.7",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "Team Silent",
+      "pub": "Konami",
+      "notes": "",
+      "release": "1999",
+      "ea_release": "",
+      "screenshot": "images/screenshots/silent-hill-1999-psx.jpg",
+      "logo": "images/logos/silent-hill-1999-psx.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2124490",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Silent_Hill",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "silent-hill",
+      "series_status": "done",
+      "series_owner": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -175,13 +214,27 @@
     "coop-beaten": [
       "portal-2-2011-pc"
     ],
-    "backlog": [],
+    "backlog": [
+      "silent-hill-1999-psx"
+    ],
     "gamearchive": [],
     "mainpc": [],
     "beaten": [
       "portal-2-2011-pc"
     ]
   },
-  "series": {},
-  "series_order": []
+  "series": {
+    "silent-hill": {
+      "id": "silent-hill",
+      "name": "Silent Hill",
+      "logo": "https://1000logos.net/wp-content/uploads/2022/10/Silent-Hill-logo.png",
+      "order": [
+        "silent-hill-1999-psx"
+      ],
+      "display": {}
+    }
+  },
+  "series_order": [
+    "silent-hill"
+  ]
 }
