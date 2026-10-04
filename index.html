@@ -358,6 +358,7 @@
   .form-grid .span-2{grid-column:1 / -1;}
   .field{display:flex;flex-direction:column;gap:.35rem;min-width:0}
   .field label{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:.4rem;}
+  .hltb-lbl{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
   .field input,.field select,.field textarea{font-family:var(--font-body);font-size:.9rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:7px;padding:.6rem .75rem;outline:none;transition:border-color .18s ease,background .18s ease;width:100%;}
   .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .field input.id-input{font-family:ui-monospace,monospace;font-size:.82rem;}
@@ -369,11 +370,11 @@
   .radio-row label{cursor:pointer;font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.4rem .7rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);transition:all .16s ease;user-select:none;}
   .radio-row input{display:none}
   .radio-row label:has(input:checked){color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  .list-grid{display:flex;flex-wrap:wrap;gap:.5rem;}
-  .list-cb{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.5rem .8rem;border:1px solid var(--border);border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;user-select:none;transition:all .16s ease;}
+  .list-grid{display:flex;flex-wrap:wrap;gap:.3rem;}
+  .list-cb{display:inline-flex;align-items:center;gap:.3rem;font-family:var(--font-head);font-size:.52rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:.35rem .5rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;user-select:none;transition:all .16s ease;}
   .list-cb:hover{color:#cbd5e1;border-color:var(--accent-line)}
   .list-cb input{display:none}
-  .list-cb .box{width:14px;height:14px;border-radius:4px;border:1px solid var(--border);background:transparent;display:grid;place-items:center;flex-shrink:0;transition:all .15s;font-size:.7rem;line-height:1;color:transparent;}
+  .list-cb .box{width:11px;height:11px;border-radius:3px;border:1px solid var(--border);background:transparent;display:grid;place-items:center;flex-shrink:0;transition:all .15s;font-size:.6rem;line-height:1;color:transparent;}
   .list-cb input:checked ~ .box{background:var(--accent);border-color:var(--accent);color:#0a0d14;}
   .list-cb input:checked ~ .box::after{content:"✓";font-weight:700;}
   .list-cb input:checked ~ .lbl{color:#fff;}
@@ -424,11 +425,9 @@
   .btn.danger{color:var(--red);border-color:rgba(239,68,68,.4);background:rgba(239,68,68,.06)}
   .btn.danger:hover{color:#fff;border-color:var(--red);background:rgba(239,68,68,.18)}
   .btn .icon{width:.9em;height:.9em}
-  .parse-bar{display:flex;align-items:center;gap:.5rem;flex-wrap:nowrap;overflow-x:auto;padding:.8rem 1rem;background:linear-gradient(180deg,rgba(56,189,248,.04) 0%,transparent 100%);border:1px solid rgba(56,189,248,.22);border-radius:9px;margin-bottom:1.2rem;scrollbar-width:thin;}
-  .parse-bar::-webkit-scrollbar{height:6px;}
-  .parse-bar::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
-  .parse-bar::-webkit-scrollbar-thumb:hover{background:var(--accent-line);}
+  .parse-bar{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.8rem 1rem;background:linear-gradient(180deg,rgba(56,189,248,.04) 0%,transparent 100%);border:1px solid rgba(56,189,248,.22);border-radius:9px;margin-bottom:1.2rem;}
   .parse-bar > *{flex-shrink:0;}
+  .parse-bar .go-btn{margin-left:auto;}
   .parse-bar .parse-title{font-family:var(--font-head);font-size:.56rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-right:.2rem;}
   .src-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .65rem;border:1px solid var(--border);border-radius:6px;background:rgba(255,255,255,.01);color:#cbd5e1;cursor:default;white-space:nowrap;}
   .src-btn .dot{width:8px;height:8px;border-radius:50%;background:#4a5468;transition:all .2s ease;flex-shrink:0;}
@@ -442,7 +441,7 @@
   .src-btn .lock-toggle:hover{color:#cbd5e1;}
   .src-btn.locked{background:rgba(245,158,11,.05);}
   .src-btn.locked .lock-toggle{color:var(--amber);}
-  .go-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .95rem;border:1px solid var(--accent);border-radius:7px;background:var(--accent);color:#0a0d14;cursor:pointer;transition:all .18s ease;margin-left:auto;}
+  .go-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .95rem;border:1px solid var(--accent);border-radius:7px;background:var(--accent);color:#0a0d14;cursor:pointer;transition:all .18s ease;}
   .go-btn:hover{filter:brightness(1.12)}
   .go-btn:disabled{opacity:.5;cursor:wait;filter:none}
   .go-btn.loading::after{content:"";display:inline-block;width:8px;height:8px;margin-left:.5rem;border-radius:50%;background:#0a0d14;animation:pulse 1s ease-in-out infinite;}
@@ -472,6 +471,9 @@
   .logo-picker-tile:hover{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .logo-picker-tile img{width:100%;height:90px;object-fit:contain;background:#000;border-radius:4px;display:block;}
   .logo-picker-tile .lpt-meta{font-family:var(--font-head);font-size:.55rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .logo-picker-search{display:flex;gap:.5rem;margin-bottom:.8rem}
+  .logo-picker-search input{flex:1;font-family:var(--font-body);font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:7px;padding:.55rem .75rem;outline:none;transition:border-color .18s ease;}
+  .logo-picker-search input:focus{border-color:var(--accent-line)}
   .confirm{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:420px;padding:1.5rem;position:relative;border-color:rgba(239,68,68,.4);}
   .confirm h3{font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.02em;color:var(--red);display:flex;align-items:center;gap:.55rem;margin-bottom:.7rem;}
   .confirm p{font-size:.92rem;line-height:1.55;color:#cbd5e1;margin-bottom:.4rem}
@@ -484,7 +486,6 @@
   .toast.ok::before{content:"✓";color:var(--green);margin-right:.5rem}
   .toast.bad{border-color:rgba(239,68,68,.5)}
   .toast.bad::before{content:"✕";color:var(--red);margin-right:.5rem}
-  /* matches panel in editor */
   .matches-box{margin-top:.5rem;padding:.6rem .7rem;border:1px solid var(--border);border-radius:8px;background:#0a0e15;}
   .matches-box.empty{display:none;}
   .matches-box .mb-title{font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:.5rem;display:flex;align-items:center;gap:.45rem;}
@@ -503,14 +504,14 @@
   .reset-id-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
   .id-wrap{position:relative;}
   .id-wrap input{width:100%;}
-  .status-row{display:flex;gap:.5rem;flex-wrap:wrap;}
-  .status-btn{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.5rem .8rem;border:1px solid var(--border);border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
+  .status-row{display:flex;gap:.35rem;flex-wrap:wrap;}
+  .status-btn{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-head);font-size:.56rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.4rem .6rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
   .status-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
   .status-btn.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
   .status-btn.on.rerun{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08);}
   .status-btn.on.optional{color:var(--muted);border-color:rgba(125,135,152,.5);background:rgba(125,135,152,.1);}
   .status-btn.clear{color:var(--muted);border-style:dashed;}
-  .owner-btn{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.5rem .8rem;border:1px solid var(--border);border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
+  .owner-btn{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-head);font-size:.56rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.4rem .6rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
   .owner-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
   .owner-btn.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
   .owner-btn.on.steam{color:var(--steam);border-color:rgba(102,192,244,.5);background:rgba(102,192,244,.08);}
@@ -551,14 +552,6 @@
   .plat-actions{display:flex;gap:.5rem;justify-content:space-between;align-items:center;margin-top:.9rem;flex-wrap:wrap;}
   .plat-actions-left{display:flex;gap:.5rem;}
   .plat-actions-right{display:flex;gap:.6rem;margin-left:auto;}
-  .unlisted-row{display:grid;grid-template-columns:1fr auto;gap:.6rem;align-items:center;padding:.6rem .8rem;background:#0a0e15;border:1px solid var(--border);border-radius:7px;margin-bottom:.4rem;}
-  .unlisted-row .u-info{min-width:0;}
-  .unlisted-row .u-name{color:#e6ebf2;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-  .unlisted-row .u-meta{font-family:var(--font-head);font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:.15rem;}
-  .unlisted-row .u-actions{display:flex;gap:.4rem;}
-  .unlisted-row .u-actions button{font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.35rem .6rem;border:1px solid var(--border);border-radius:5px;background:transparent;color:var(--muted);cursor:pointer;transition:all .15s ease;}
-  .unlisted-row .u-actions button:hover{color:#cbd5e1;border-color:var(--accent-line);}
-  .unlisted-row .u-actions button.danger:hover{color:var(--red);border-color:var(--red);}
   .void-note{max-width:1400px;margin:0 auto 1rem;padding:.6rem 1rem;background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.35);border-radius:9px;font-family:var(--font-head);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red);text-align:center;}
   @media (max-width:1100px){.tb-right{width:100%;margin-left:0;padding-top:.6rem;border-top:1px solid var(--border)}.search-box input{width:100%;max-width:280px}}
   @media (max-width:1000px){.series-game-row{grid-template-columns:minmax(180px,1.5fr) 100px 90px 130px 80px 80px minmax(140px,1.3fr) 70px;gap:.65rem;padding:.55rem 1rem;font-size:.82rem;}}
@@ -681,7 +674,6 @@ const TAB_GROUP = {};
 TABS.coop.forEach(t => TAB_GROUP[t.id] = 'coop');
 TABS.single.forEach(t => TAB_GROUP[t.id] = 'single');
 const BEATEN_TABS   = new Set(['coop-beaten','beaten']);
-// Real lists (backlog-series is derived, not a list)
 const REAL_LISTS = ['released','early-access','unreleased','mods','coop-beaten','backlog','gamearchive','mainpc','beaten'];
 const REAL_LISTS_SET = new Set(REAL_LISTS);
 
@@ -754,18 +746,13 @@ function slugify(name){
   const s = String(name).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
   return s || 'unnamed';
 }
-// Roman numeral conversion for fuzzy matching
 const ROMAN_MAP = { i:1, ii:2, iii:3, iv:4, v:5, vi:6, vii:7, viii:8, ix:9, x:10, xi:11, xii:12, xiii:13, xiv:14, xv:15 };
 function normalizeName(name){
   if(!name) return '';
   let s = String(name).toLowerCase();
-  // roman numerals to arabic (word boundaries)
   s = s.replace(/\b(xiii|xii|xi|xiv|xv|viii|vii|iii|ii|vi|ix|iv|x|v|i)\b/g, m => ROMAN_MAP[m] || m);
-  // remove leading "the "
   s = s.replace(/^the\s+/, '');
-  // remove punctuation
   s = s.replace(/[^a-z0-9\s]/g, ' ');
-  // collapse whitespace
   s = s.replace(/\s+/g,' ').trim();
   return s;
 }
@@ -792,7 +779,6 @@ function nameSimilarity(a, b){
   const max = Math.max(na.length, nb.length);
   const dist = levenshtein(na, nb);
   let score = (max - dist) / max;
-  // substring boost
   if(na.includes(nb) || nb.includes(na)) score = Math.max(score, 0.85);
   return score;
 }
@@ -852,7 +838,6 @@ function extractYear(raw){
     const y = parseInt(m[0], 10);
     if(y >= 1900 && y <= 2100) return String(y);
   }
-  // check for 199X style
   const xMatch = s.match(/(\d{3})[xX]/);
   if(xMatch) return xMatch[1] + 'x';
   return '';
@@ -888,16 +873,6 @@ function fmtHltb(str, html){
   }
   return s;
 }
-function fmtHltbRange(main, extra, html){
-  if(main === undefined || main === null || main === '') return '—';
-  const same = (extra === undefined || extra === null || extra === main);
-  if(html){
-    if(same) return `${main}<span class="unit">hrs</span>`;
-    return `${main}<span class="sep">to</span>${extra}<span class="unit">hrs</span>`;
-  }
-  if(same) return `${main} hrs`;
-  return `${main} to ${extra} hrs`;
-}
 function fmtSize(str, html){
   if(!str || str === '—') return str || '—';
   const s = String(str).trim();
@@ -910,7 +885,6 @@ function releaseKey(str){
   let s = String(str).trim().replace(/^Init\.\s*/i, '').split('→')[0].trim();
   const full = s.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})/);
   if(full) return +full[3]*10000 + +full[2]*100 + +full[1];
-  // handle 199X style → 1990
   const xMatch = s.match(/(\d{3})[xX]/);
   if(xMatch) return (+xMatch[1] * 10) * 10000;
   const y = s.match(/(\d{4})/);
@@ -1073,30 +1047,25 @@ function membershipsOf(gameId){
 }
 function gamesWithNoList(){
   const out = [];
+  const seen = new Set();
   for(const id of Object.keys(MANIFEST.games)){
     if(pendingGameDeletes.has(id)) continue;
     const mem = membershipsOf(id);
-    if(mem.size === 0) out.push(viewGame(id));
+    if(mem.size === 0 && !seen.has(id)){ out.push(viewGame(id)); seen.add(id); }
   }
   for(const [id] of pendingGameWrites){
+    if(seen.has(id)) continue;
     if(pendingGameDeletes.has(id)) continue;
     if(MANIFEST.games[id]) continue;
     const mem = membershipsOf(id);
-    if(mem.size === 0) out.push(viewGame(id));
+    if(mem.size === 0){ out.push(viewGame(id)); seen.add(id); }
   }
   return out;
 }
 
-/* SERIES HELPERS (derived) */
+/* SERIES HELPERS */
 function seriesOrderLive(){
-  const live = MANIFEST.series_order.filter(s => !pendingSeriesDeletes.has(s));
-  return live;
-}
-function seriesGamesNotDone(slug){
-  const s = viewSeries(slug);
-  if(!s) return [];
-  const order = s.order || [];
-  return order.map(id => viewGame(id)).filter(Boolean).filter(g => (g.series_status || '') !== 'done');
+  return MANIFEST.series_order.filter(s => !pendingSeriesDeletes.has(s));
 }
 function allSeriesUndoneInOrder(){
   const out = [];
@@ -1126,6 +1095,15 @@ function seriesTotals(slug){
     if(me){ extra += parseFloat(me[1]); }
   }
   return { main, extra, hasAny };
+}
+function isInAnySeries(gameId){
+  for(const slug of Object.keys(MANIFEST.series)){
+    if(pendingSeriesDeletes.has(slug)) continue;
+    const s = viewSeries(slug);
+    if(!s) continue;
+    if((s.order || []).includes(gameId)) return true;
+  }
+  return false;
 }
 
 /* ADMIN AUTH */
@@ -1368,8 +1346,6 @@ async function commitPending(){
 
     const manifest = regenerateManifest();
     writes.push({ path: 'data/manifest.json', content: JSON.stringify(manifest, null, 2) + '\n' });
-
-    // series_order file
     writes.push({ path: 'data/series_order.json', content: JSON.stringify(manifest.series_order, null, 2) + '\n' });
 
     const headSha = await ghGetHeadSha();
@@ -2049,12 +2025,23 @@ function showIgdbPicker(hits, onPick){
 pickerBackdrop.addEventListener('click', e => {
   if(e.target === pickerBackdrop){ pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
 });
-function showLogoPicker(title, items, onPick){
-  if(!items || !items.length){ toast('No logos found', 'bad'); return; }
+function showLogoPicker(title, items, onPick, opts){
+  opts = opts || {};
+  const searchable = !!opts.searchable;
+  const onSearch = opts.onSearch;
+  if(!items || !items.length){
+    if(!searchable){ toast('No logos found', 'bad'); return; }
+    items = [];
+  }
   logopickerSlot.innerHTML = `
     <div class="logo-picker">
       <button class="modal-close" data-close>✕</button>
       <h2>${esc(title)}</h2>
+      ${searchable ? `
+        <div class="logo-picker-search">
+          <input type="text" id="lp-search" placeholder="Search…" value="${esc(opts.searchValue||'')}" autocomplete="off" spellcheck="false">
+          <button type="button" class="btn primary" id="lp-search-go">Search</button>
+        </div>` : ''}
       <p class="sub">${items.length} result${items.length === 1 ? '' : 's'} — click one</p>
       <div class="logo-picker-grid" id="logopicker-grid">
         ${items.map((it, i) => `
@@ -2074,6 +2061,25 @@ function showLogoPicker(title, items, onPick){
     const picked = items[+tile.dataset.idx];
     close(); onPick(picked);
   });
+  if(searchable && onSearch){
+    const input = logopickerSlot.querySelector('#lp-search');
+    const go = logopickerSlot.querySelector('#lp-search-go');
+    const rerun = async () => {
+      const q = input.value.trim();
+      if(!q) return;
+      go.disabled = true; go.textContent = '…';
+      try{
+        const res = await onSearch(q);
+        if(!res || !res.items || !res.items.length){ toast('No results for that query', 'bad'); go.disabled = false; go.textContent = 'Search'; return; }
+        showLogoPicker(res.title, res.items, onPick, { searchable: true, searchValue: q, onSearch });
+      } catch(e){
+        toast(e.message || 'Search failed', 'bad');
+        go.disabled = false; go.textContent = 'Search';
+      }
+    };
+    go.onclick = rerun;
+    input.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); rerun(); } });
+  }
 }
 logopickerBackdrop.addEventListener('click', e => {
   if(e.target === logopickerBackdrop){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; }
@@ -2325,7 +2331,7 @@ function buildRankMap(arr){
   return map;
 }
 
-/* SERIES RENDERING (read-only view) */
+/* SERIES RENDERING */
 function seriesRowHTML(g, disp){
   const d = disp || {};
   const displayName = d.display_name || g.name;
@@ -2352,7 +2358,6 @@ function seriesRowHTML(g, disp){
       <div class="empty-cell"></div>
     </div>`;
 }
-/* SERIES RENDERING (admin edit view) */
 function seriesRowAdminHTML(g, disp, idx, slug){
   const d = disp || {};
   const displayName = d.display_name || g.name;
@@ -2445,9 +2450,7 @@ function buildStandardPane(pane, t){
   }
 
   if(t === 'backlog'){
-    // Section 1: solo backlog games
-    const main = filtered.filter(g => !g.series || !isInAnySeries(g.id));
-    // Section 2: derived from series
+    const main = filtered.filter(g => !isInAnySeries(g.id));
     const seriesGames = allSeriesUndoneInOrder();
     const seriesFiltered = seriesGames.filter(passesAll);
     pane.el.innerHTML = `
@@ -2471,15 +2474,6 @@ function buildStandardPane(pane, t){
   pane.el.innerHTML = filtered.length
     ? `<div class="grid">${filtered.map(g => cardHTML(g, t)).join('')}</div>`
     : `<div class="grid-empty">No games match</div>`;
-}
-function isInAnySeries(gameId){
-  for(const slug of Object.keys(MANIFEST.series)){
-    if(pendingSeriesDeletes.has(slug)) continue;
-    const s = viewSeries(slug);
-    if(!s) continue;
-    if((s.order || []).includes(gameId)) return true;
-  }
-  return false;
 }
 function buildSeriesPane(pane){
   const slugs = seriesOrderLive().filter(sid => viewSeries(sid));
@@ -2652,7 +2646,7 @@ backdrop.addEventListener('click', e => {
   closeAll();
 });
 
-/* FUZZY MATCHES FOR ID */
+/* FUZZY MATCHES */
 function findMatches(currentId, name){
   const out = [];
   if(!name || name.length < 2) return out;
@@ -2661,34 +2655,17 @@ function findMatches(currentId, name){
   for(const id of pendingGameWrites.keys()) allIds.add(id);
   for(const id of allIds){
     if(pendingGameDeletes.has(id)) continue;
-    if(id === currentId) continue;
+    if(seen.has(id)) continue;
     const g = viewGame(id);
     if(!g) continue;
-    if(seen.has(id)) continue;
-    if(id === currentId) continue;
-    if(id === currentId) continue;
-    if(id === currentId) continue;
-    if(id === currentId) continue;
-    if(id === currentId) continue;
-    if(id === currentId) continue;
-    const exact = (id === currentId);
     const nameScore = nameSimilarity(g.name, name);
-    const isExactId = (currentId && id === currentId);
     let kind = null;
-    if(isExactId) kind = 'exact';
+    if(currentId && id === currentId) kind = 'exact';
     else if(nameScore >= 0.8) kind = 'similar';
     else continue;
     out.push({ id, name: g.name, year: g.release || g.ea_release || '', platform: g.platform || '', kind, score: nameScore });
     seen.add(id);
   }
-  // also check exact id against existing
-  if(currentId && (MANIFEST.games[currentId] || pendingGameWrites.has(currentId))){
-    const g = viewGame(currentId);
-    if(g && !seen.has(currentId)){
-      out.unshift({ id: currentId, name: g.name, year: g.release || g.ea_release || '', platform: g.platform || '', kind: 'exact', score: 1 });
-    }
-  }
-  // sort: exact first, then by score desc
   out.sort((a,b) => {
     if(a.kind === 'exact' && b.kind !== 'exact') return -1;
     if(b.kind === 'exact' && a.kind !== 'exact') return 1;
@@ -2697,7 +2674,7 @@ function findMatches(currentId, name){
   return out.slice(0, 8);
 }
 
-/* ADMIN EDITOR — shared between add and edit */
+/* ADMIN EDITOR */
 function hltbToParts(str){
   if(!str || str === '—') return { main:'', extra:'' };
   const s = String(str);
@@ -2722,11 +2699,38 @@ function linkIconGuess(label){
   return '';
 }
 
+function autoAddLinksFromParse(results){
+  const linksList = modalSlot.querySelector('#links-list');
+  if(!linksList) return;
+  const existingUrls = new Set();
+  linksList.querySelectorAll('.link-row').forEach(row => {
+    const u = row.querySelector('.link-url').value.trim();
+    if(u) existingUrls.add(u);
+  });
+  const toAdd = [];
+  if(results.steam && results.steam.storeUrl && !existingUrls.has(results.steam.storeUrl)){
+    toAdd.push({ label: 'Steam', url: results.steam.storeUrl, icon: 'steam' });
+  }
+  if(results.pcgw && results.pcgw.page){
+    const title = String(results.pcgw.page).replace(/\s+/g, '_');
+    const url = 'https://www.pcgamingwiki.com/wiki/' + encodeURIComponent(title).replace(/%2F/g, '/');
+    if(!existingUrls.has(url)){
+      toAdd.push({ label: 'PCGW', url, icon: 'pcgw' });
+    }
+  }
+  toAdd.forEach(l => {
+    const row = document.createElement('div');
+    row.className = 'link-row';
+    row.innerHTML = `<input type="text" class="link-label" value="${esc(l.label)}"><input type="text" class="link-url" value="${esc(l.url)}"><button type="button" class="remove-link">✕</button>`;
+    linksList.appendChild(row);
+  });
+}
+
 function openEditor(g, opts){
   opts = opts || {};
   const isNew = !g;
-  const mode = isNew ? 'add' : 'edit';  // 'add' | 'edit' | 'attach'
-  let attachId = null; // when a similar game is picked
+  const mode = isNew ? 'add' : 'edit';
+  let attachId = null;
 
   const draft = isNew
     ? { id:'', name:'', platform:'PC', size:'', hltb:'', dev:'', pub:'', notes:'',
@@ -2745,9 +2749,8 @@ function openEditor(g, opts){
   const numericHltb = hltbIsNumeric(draft.hltb);
   const currentMemberships = isNew ? new Set() : membershipsOf(draft.id);
   const currentTabId = (tab !== 'backlog-series' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
-
-  // Which list is currently "the" list we're adding to.
   const targetListId = opts.listId || currentTabId;
+  if(isNew && REAL_LISTS_SET.has(targetListId)) currentMemberships.add(targetListId);
 
   const membershipHTML = REAL_LISTS.map(tid => {
     const tdef = ALL_TABS.find(x => x.id === tid);
@@ -2782,6 +2785,7 @@ function openEditor(g, opts){
   modalSlot._targetList = targetListId;
   modalSlot._attachId = null;
   modalSlot._isNew = isNew;
+  modalSlot._presetSeriesSlug = opts.presetSeries || null;
 
   const headerTag = isNew ? `<span class="tag new">NEW</span>` : `<span class="tag edit">EDIT</span>`;
   const headerTitle = isNew ? 'Add game' : esc(draft.name || 'Untitled');
@@ -2853,30 +2857,30 @@ function openEditor(g, opts){
         <div class="form-section">
           <div class="sec-title">Info</div>
           <div class="form-grid">
-            <div class="field">
+            <div class="field span-2">
               <label>Size</label>
-              <input type="text" id="f-size" value="${esc(draft.size||'')}" placeholder="3.2 GB">
+              <input type="text" id="f-size" value="${esc(draft.size||'')}" placeholder="3.2 GB" maxlength="10">
               <div class="pills" data-field="size"></div>
             </div>
-            <div class="field">
-              <label>HLTB type</label>
-              <div class="radio-row" id="f-hltb-type">
-                <label><input type="radio" name="fhltb" value="numeric" ${numericHltb?'checked':''}> Numeric</label>
-                <label><input type="radio" name="fhltb" value="text" ${!numericHltb?'checked':''}> Text</label>
+            <div class="field span-2">
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:.6rem;">
+                <span class="hltb-lbl">HLTB</span>
+                <div class="radio-row" id="f-hltb-type" style="margin:0">
+                  <label><input type="radio" name="fhltb" value="numeric" ${numericHltb?'checked':''}> Numeric</label>
+                  <label><input type="radio" name="fhltb" value="text" ${!numericHltb?'checked':''}> Text</label>
+                </div>
               </div>
-            </div>
-            <div class="field span-2" id="hltb-numeric" style="${numericHltb?'':'display:none'}">
-              <label>HLTB</label>
-              <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem">
-                <input type="number" id="f-hltb-main" placeholder="Main hrs" value="${esc(hp.main)}">
-                <input type="number" id="f-hltb-extra" placeholder="+ Extra hrs (optional)" value="${esc(hp.extra)}">
+              <div id="hltb-numeric" style="${numericHltb?'':'display:none'}">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem">
+                  <input type="number" id="f-hltb-main" placeholder="Main hrs" value="${esc(hp.main)}" min="0" max="9999">
+                  <input type="number" id="f-hltb-extra" placeholder="+ Extra hrs (optional)" value="${esc(hp.extra)}" min="0" max="9999">
+                </div>
               </div>
+              <div id="hltb-text" style="${numericHltb?'display:none':''}">
+                <input type="text" id="f-hltb-raw" placeholder="Unending / Ongoing…" value="${!numericHltb ? esc(draft.hltb||'') : ''}" maxlength="60">
+              </div>
+              <div class="pills" data-field="hltb"></div>
             </div>
-            <div class="field span-2" id="hltb-text" style="${numericHltb?'display:none':''}">
-              <label>HLTB (free text)</label>
-              <input type="text" id="f-hltb-raw" placeholder="Unending / Ongoing…" value="${!numericHltb ? esc(draft.hltb||'') : ''}">
-            </div>
-            <div class="pills" data-field="hltb" style="grid-column:1/-1"></div>
             <div class="field">
               <label>Developer</label>
               <input type="text" id="f-dev" value="${esc(draft.dev||'')}" placeholder="Studio name">
@@ -2901,7 +2905,7 @@ function openEditor(g, opts){
               <label>Series note</label>
               <input type="text" id="f-series-note" value="${esc(draft.series_note||'')}" placeholder="Optional">
             </div>
-            <div class="field span-2">
+            <div class="field">
               <label>Status</label>
               <div class="status-row" id="status-row">
                 <button type="button" class="status-btn ${statusVal==='done'?'on':''}" data-status="done">Done</button>
@@ -2910,7 +2914,7 @@ function openEditor(g, opts){
                 <button type="button" class="status-btn clear ${!statusVal?'on':''}" data-status="">—</button>
               </div>
             </div>
-            <div class="field span-2">
+            <div class="field">
               <label>Ownership</label>
               <div class="status-row" id="owner-row">
                 <button type="button" class="owner-btn ${ownerVal==='installed'?'on':''}" data-owner="installed">Installed</button>
@@ -2930,11 +2934,11 @@ function openEditor(g, opts){
                 <div class="preview shot-preview" id="shot-preview">${draft.screenshot ? `<img src="${esc(screenshotSrc(draft.screenshot))}" alt="">` : '1280 × 720'}</div>
                 <div class="controls">
                   <input type="text" id="f-screenshot" placeholder="images/screenshots/… or https://…" value="${esc(draft.screenshot||'')}">
+                  <div class="pills" data-field="screenshot"></div>
                   <div class="media-btn-row">
                     <button type="button" class="media-btn save" id="save-screenshot-local">↓ Save locally</button>
                     <button type="button" class="media-btn google" id="google-screenshot">🔍 Google</button>
                   </div>
-                  <div class="pills" data-field="screenshot"></div>
                 </div>
               </div>
             </div>
@@ -2944,12 +2948,12 @@ function openEditor(g, opts){
                 <div class="preview" id="logo-preview">${draft.logo ? `<img src="${esc(logoSrc(draft.logo))}" alt="">` : '504 × 562'}</div>
                 <div class="controls">
                   <input type="text" id="f-logo" placeholder="images/logos/… or https://…" value="${esc(draft.logo||'')}">
+                  <div class="pills" data-field="logo"></div>
                   <div class="media-btn-row">
                     <button type="button" class="media-btn save" id="save-logo-local">↓ Save locally</button>
                     <button type="button" class="media-btn sgdb" id="sgdb-logo">🔍 SGDB</button>
                     <button type="button" class="media-btn lbdb" id="lbdb-logo">🔍 LBDB</button>
                   </div>
-                  <div class="pills" data-field="logo"></div>
                 </div>
               </div>
             </div>
@@ -2995,7 +2999,6 @@ function openEditor(g, opts){
   const $ = sel => modalSlot.querySelector(sel);
   const $$ = sel => modalSlot.querySelectorAll(sel);
 
-  // --- matches box refresh ---
   const idInput = $('#f-id');
   const nameInput = $('#f-name');
   const releaseInput = $('#f-release');
@@ -3003,8 +3006,7 @@ function openEditor(g, opts){
   const platformInput = $('#f-platform');
   const matchesBox = $('#matches-box');
   const saveBtn = $('#save-btn');
-  let userEditedId = !isNew; // when editing, treat ID as user-controlled
-  let manuallyPickedId = null;
+  let userEditedId = !isNew;
 
   function refreshIdDerived(){
     if(userEditedId) return;
@@ -3015,14 +3017,18 @@ function openEditor(g, opts){
   function refreshMatches(){
     const curId = (idInput.value || '').trim();
     const nm = (nameInput.value || '').trim();
-    // look up exact existence
     const exists = !!(MANIFEST.games[curId] || pendingGameWrites.has(curId)) && (curId !== (draft.id || ''));
     const matches = findMatches(curId, nm);
-    // If editing the same game, filter out self
     const filtered = isNew
-      ? matches
+      ? matches.filter(m => m.kind === 'exact' || m.id !== curId)
       : matches.filter(m => m.id !== draft.id);
-    if(filtered.length === 0 && !exists){
+    // ensure exact-id candidate shown if exists
+    let finalMatches = filtered;
+    if(isNew && exists && !finalMatches.some(m => m.id === curId)){
+      const gg = viewGame(curId);
+      if(gg) finalMatches = [{ id: curId, name: gg.name, year: gg.release || gg.ea_release || '', platform: gg.platform || '', kind: 'exact', score: 1 }, ...finalMatches];
+    }
+    if(finalMatches.length === 0 && !exists){
       matchesBox.classList.add('empty');
       matchesBox.innerHTML = '';
       idInput.classList.remove('exists');
@@ -3033,7 +3039,7 @@ function openEditor(g, opts){
     }
     idInput.classList.remove('ok');
     idInput.classList.add('exists');
-    const rowsHTML = filtered.map(m => {
+    const rowsHTML = finalMatches.map(m => {
       const cls = m.kind === 'exact' ? 'exact' : 'similar';
       const isSel = modalSlot._attachId === m.id;
       return `<div class="match-row ${isSel?'selected':''}" data-match-id="${esc(m.id)}" data-match-kind="${cls}">
@@ -3060,7 +3066,6 @@ function openEditor(g, opts){
     const g = MANIFEST.games[id] || viewGame(id);
     if(!g) return;
     modalSlot._attachId = id;
-    // populate fields
     nameInput.value = g.name || '';
     releaseInput.value = g.release || '';
     eaInput.value = g.ea_release || '';
@@ -3074,7 +3079,6 @@ function openEditor(g, opts){
     $('#f-logo').value = g.logo || '';
     $('#f-series').value = g.series || '';
     $('#f-series-note').value = g.series_note || '';
-    // HLTB
     const hp2 = hltbToParts(g.hltb);
     const numeric2 = hltbIsNumeric(g.hltb);
     $('#f-hltb-type').querySelector(`input[value="${numeric2 ? 'numeric' : 'text'}"]`).checked = true;
@@ -3083,19 +3087,26 @@ function openEditor(g, opts){
     $('#f-hltb-main').value = hp2.main || '';
     $('#f-hltb-extra').value = hp2.extra || '';
     $('#f-hltb-raw').value = numeric2 ? '' : (g.hltb || '');
-    // Preview update
     $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
     $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
-    // Status/owner buttons
     const sv = g.series_status || '';
     const ov = g.series_owner || '';
-    $$('#status-row .status-btn').forEach(b => b.classList.toggle('on', b.dataset.status === sv));
-    $$('#status-row .status-btn').forEach(b => { if(b.dataset.status) b.classList.toggle('rerun', b.dataset.status === 'rerun'); if(b.dataset.status) b.classList.toggle('optional', b.dataset.status === 'optional'); });
-    $$('#owner-row .owner-btn').forEach(b => b.classList.toggle('on', b.dataset.owner === ov));
-    $$('#owner-row .owner-btn').forEach(b => { if(b.dataset.owner) b.classList.toggle('steam', b.dataset.owner === 'steam'); });
-    // Flags
+    $$('#status-row .status-btn').forEach(b => {
+      b.classList.remove('on','rerun','optional');
+      if((b.dataset.status || '') === sv){
+        b.classList.add('on');
+        if(sv === 'rerun') b.classList.add('rerun');
+        if(sv === 'optional') b.classList.add('optional');
+      }
+    });
+    $$('#owner-row .owner-btn').forEach(b => {
+      b.classList.remove('on','steam');
+      if((b.dataset.owner || '') === ov){
+        b.classList.add('on');
+        if(ov === 'steam') b.classList.add('steam');
+      }
+    });
     $$('#flag-row .flag-btn').forEach(b => b.classList.toggle('on', !!(g.flags || {})[b.dataset.flag]));
-    // Links
     const linksList = $('#links-list');
     linksList.innerHTML = (g.links || []).map((l, i) => `
       <div class="link-row" data-link-idx="${i}">
@@ -3103,10 +3114,8 @@ function openEditor(g, opts){
         <input type="text" class="link-url" placeholder="https://…" value="${esc(l.url||'')}">
         <button type="button" class="remove-link" title="Remove">✕</button>
       </div>`).join('');
-    // Memberships
     const mem = membershipsOf(id);
     $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = mem.has(cb.dataset.list); cb.closest('.list-cb').classList.toggle('on', cb.checked); });
-    // ID shows the picked game
     idInput.value = id;
     userEditedId = true;
     refreshMatches();
@@ -3115,7 +3124,6 @@ function openEditor(g, opts){
   function resetPick(){
     modalSlot._attachId = null;
     userEditedId = false;
-    // restore a fresh draft
     nameInput.value = '';
     releaseInput.value = '';
     eaInput.value = '';
@@ -3133,6 +3141,10 @@ function openEditor(g, opts){
     $('#f-hltb-extra').value = '';
     $('#f-hltb-raw').value = '';
     $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = false; cb.closest('.list-cb').classList.remove('on'); });
+    if(REAL_LISTS_SET.has(targetListId)){
+      const cb = $$('#list-grid input[type=checkbox]').length ? listGrid.querySelector(`input[data-list="${targetListId}"]`) : null;
+      if(cb){ cb.checked = true; cb.closest('.list-cb').classList.add('on'); }
+    }
     $$('#flag-row .flag-btn').forEach(b => b.classList.remove('on'));
     $$('#status-row .status-btn').forEach(b => b.classList.toggle('on', !b.dataset.status));
     $$('#owner-row .owner-btn').forEach(b => b.classList.toggle('on', !b.dataset.owner));
@@ -3141,10 +3153,9 @@ function openEditor(g, opts){
     refreshMatches();
   }
 
-  // Hook up derived + matches
   [nameInput, releaseInput, eaInput, platformInput].forEach(el => {
     el.addEventListener('input', () => {
-      if(el !== idInput) refreshIdDerived();
+      refreshIdDerived();
       refreshMatches();
     });
   });
@@ -3165,7 +3176,6 @@ function openEditor(g, opts){
     pickAttach(row.dataset.matchId);
   });
 
-  // ---- existing hooks (kept from before) ----
   const listGrid = $('#list-grid');
   const cbCoop = listGrid.querySelector('input[data-list="coop-beaten"]');
   const cbBeaten = listGrid.querySelector('input[data-list="beaten"]');
@@ -3208,7 +3218,7 @@ function openEditor(g, opts){
   $('#google-screenshot').addEventListener('click', () => {
     const nameVal = (nameInput.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
-    window.open('https://www.google.com/search?q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
+    window.open('https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
   });
   $('#save-screenshot-local').addEventListener('click', async () => {
     const nameVal = (nameInput.value || '').trim();
@@ -3252,6 +3262,16 @@ function openEditor(g, opts){
         $('#f-logo').value = picked.url;
         $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
         toast('SGDB logo selected');
+      }, {
+        searchable: true,
+        searchValue: nameVal,
+        onSearch: async (q) => {
+          const d = await sgdbSearch(q);
+          return {
+            title: 'SGDB — ' + (d.gameName || q),
+            items: (d.logos || []).map(l => ({ url: l.url, thumb: l.thumb || l.url, label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height }))
+          };
+        }
       });
     }catch(err){ toast('SGDB: ' + err.message, 'bad'); }
     finally{ btn.disabled = false; btn.innerHTML = orig; }
@@ -3268,6 +3288,16 @@ function openEditor(g, opts){
         $('#f-logo').value = picked.url;
         $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
         toast('LBDB logo selected');
+      }, {
+        searchable: true,
+        searchValue: nameVal,
+        onSearch: async (q) => {
+          const ents = await lbdbLookup(q);
+          return {
+            title: 'LBDB — ' + q,
+            items: ents.filter(e => e.logo).map(e => ({ url: 'https://images.launchbox-app.com/' + e.logo, thumb: 'https://images.launchbox-app.com/' + e.logo, label: (e.p || 'unknown') + (e.rel ? ' · ' + e.rel : '') }))
+          };
+        }
       });
     }catch(err){ toast('LBDB: ' + err.message, 'bad'); }
     finally{ btn.disabled = false; btn.innerHTML = orig; }
@@ -3326,7 +3356,6 @@ function openEditor(g, opts){
     if(!/^[a-z0-9\-]+$/.test(id)){ toast('ID must be lowercase letters, digits, hyphens', 'bad'); return; }
 
     if(mode2 === 'add' && !isAttach){
-      // new game creation
       const exists = MANIFEST.games[id] || pendingGameWrites.has(id);
       if(exists){
         toast('ID already exists — pick it above or change the ID', 'bad');
@@ -3363,13 +3392,11 @@ function openEditor(g, opts){
 
     const platform = platformInput.value.trim();
 
-    // ---- BUILD ATTACH PATH ----
     if(mode2 === 'add' && isAttach){
       const existingId = modalSlot._attachId;
       const base = MANIFEST.games[existingId] || viewGame(existingId);
       if(!base){ toast('Original game not found', 'bad'); return; }
       const merged = JSON.parse(JSON.stringify(base));
-      // Only apply displayed fields (they should equal base unless user edited)
       merged.name = name;
       merged.alt_names = altNames;
       merged.platform = platform;
@@ -3396,19 +3423,16 @@ function openEditor(g, opts){
       const oOn = ownerRow.querySelector('.owner-btn.on');
       merged.series_owner = oOn && oOn.dataset.owner ? oOn.dataset.owner : null;
       merged.series_note = $('#f-series-note').value.trim() || null;
-      // compare to see if any field changed (deep)
       const before = JSON.stringify(base);
       const after = JSON.stringify(merged);
       if(before !== after){
         pendingGameWrites.set(existingId, merged);
       }
-      // add to lists (append to end if not already)
       for(const listId of checkedLists){
         const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
         if(!list.includes(existingId)) list.push(existingId);
         pendingListWrites.set(listId, list);
       }
-      // also handle series remapping if needed (skip for now — user manages series from series page)
       closeAll();
       invalidateAllPanes();
       updatePendingStrip();
@@ -3417,7 +3441,6 @@ function openEditor(g, opts){
       return;
     }
 
-    // ---- NORMAL CREATE / EDIT PATH ----
     const oldId = draft.id || '';
     const out = JSON.parse(JSON.stringify(draft));
     Object.assign(out, {
@@ -3448,15 +3471,12 @@ function openEditor(g, opts){
       series_note:   $('#f-series-note').value.trim() || null,
     });
 
-    // Delete old ID if renamed
     if(!isNew && oldId && oldId !== id){
-      // remap lists
       for(const listId of REAL_LISTS){
         const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
         const idx = list.indexOf(oldId);
         if(idx >= 0){ list[idx] = id; pendingListWrites.set(listId, list); }
       }
-      // remap series orders
       for(const slug of Object.keys(MANIFEST.series)){
         const s = viewSeries(slug);
         if(!s) continue;
@@ -3473,7 +3493,6 @@ function openEditor(g, opts){
           pendingSeriesWrites.set(slug, copy);
         }
       }
-      // remap pending series writes that reference old id in order
       for(const [slug, s] of pendingSeriesWrites){
         if(s && s.order && s.order.includes(oldId)){
           s.order = s.order.map(x => x === oldId ? id : x);
@@ -3481,7 +3500,6 @@ function openEditor(g, opts){
       }
       pendingGameDeletes.add(oldId);
       pendingGameWrites.delete(oldId);
-      // remove from any pending list references
       for(const [listId, list] of pendingListWrites){
         const filtered = list.filter(x => x !== oldId);
         pendingListWrites.set(listId, filtered);
@@ -3490,7 +3508,6 @@ function openEditor(g, opts){
 
     pendingGameWrites.set(id, out);
 
-    // Apply list membership changes
     const checkedListsArray = [...checkedLists];
     if(isNew){
       for(const listId of checkedListsArray){
@@ -3514,6 +3531,18 @@ function openEditor(g, opts){
       }
     }
 
+    // Preset series append (when adding game from series page)
+    const presetSlug = modalSlot._presetSeriesSlug;
+    if(presetSlug && isNew){
+      const s = viewSeries(presetSlug);
+      if(s){
+        const copy = pendingSeriesWrites.get(presetSlug) || JSON.parse(JSON.stringify(s));
+        copy.order = (copy.order || []).slice();
+        if(!copy.order.includes(id)) copy.order.push(id);
+        pendingSeriesWrites.set(presetSlug, copy);
+      }
+    }
+
     closeAll();
     invalidateAllPanes();
     updatePendingStrip();
@@ -3521,7 +3550,6 @@ function openEditor(g, opts){
     toast(isNew ? 'Staged new game' : 'Staged changes');
   });
 
-  // Initial refresh
   if(isNew) refreshIdDerived();
   refreshMatches();
 }
@@ -3569,13 +3597,14 @@ function closeAll(){
   modalSlot._parseResults = null;
   modalSlot._lockedSources = null;
   modalSlot._attachId = null;
+  modalSlot._presetSeriesSlug = null;
   pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
   logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
   closeAllDropdowns();
 }
 modalSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeAll(); });
 
-/* PARSE ORCHESTRATION */
+/* PARSE */
 const PARSE_SOURCES = ['igdb','steam','pcgw','lbdb','hltb','sgdb'];
 function setSrcDot(btn, state){
   if(!btn) return;
@@ -3610,6 +3639,24 @@ function renderVariantPills(results){
           }
         }
       }
+      if(field === 'platform'){
+        if(src === 'igdb' && typeof r.fields.platform === 'string' && r.fields.platform){
+          r.fields.platform.split(',').map(s=>s.trim()).filter(Boolean).forEach(p => {
+            pills.push(`<button type="button" class="pill src-igdb" data-field="platform" data-value="${esc(p)}"><span class="p-src">igdb</span>${esc(p)}</button>`);
+          });
+          continue;
+        }
+        if(src === 'lbdb' && r.entries){
+          const seen = new Set();
+          r.entries.forEach(e => {
+            if(e.p && !seen.has(e.p)){
+              seen.add(e.p);
+              pills.push(`<button type="button" class="pill src-lbdb" data-field="platform" data-value="${esc(e.p)}"><span class="p-src">lbdb</span>${esc(e.p)}</button>`);
+            }
+          });
+          continue;
+        }
+      }
       if(r.fields[field] === undefined) continue;
       const val = r.fields[field];
       if(val === null || val === undefined || val === '') continue;
@@ -3641,6 +3688,7 @@ function attachPillHandlers(){
     if(pill.dataset.picker){
       const kind = pill.dataset.picker;
       const results = modalSlot._parseResults || {};
+      const nameNow = (modalSlot.querySelector('#f-name')?.value || '').trim();
       let items = [], title = '';
       if(kind === 'sgdb' && results.sgdb && results.sgdb.logos){
         items = results.sgdb.logos.map(l => ({ url: l.url, thumb: l.thumb || l.url, label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height }));
@@ -3649,10 +3697,19 @@ function attachPillHandlers(){
         items = results.lbdb.entries.filter(x => x.logo).map(x => ({ url: 'https://images.launchbox-app.com/' + x.logo, thumb: 'https://images.launchbox-app.com/' + x.logo, label: (x.p || 'unknown') + (x.rel ? ' · ' + x.rel : '') }));
         title = 'LBDB';
       }
+      const onSearch = kind === 'sgdb'
+        ? async (q) => {
+            const d = await sgdbSearch(q);
+            return { title: 'SGDB — ' + (d.gameName || q), items: (d.logos || []).map(l => ({ url: l.url, thumb: l.thumb || l.url, label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height })) };
+          }
+        : async (q) => {
+            const ents = await lbdbLookup(q);
+            return { title: 'LBDB — ' + q, items: ents.filter(x => x.logo).map(x => ({ url: 'https://images.launchbox-app.com/' + x.logo, thumb: 'https://images.launchbox-app.com/' + x.logo, label: (x.p || 'unknown') + (x.rel ? ' · ' + x.rel : '') })) };
+          };
       showLogoPicker(title, items, picked => {
         const input = modalSlot.querySelector('#f-logo');
         if(input){ input.value = picked.url; input.dispatchEvent(new Event('input', { bubbles: true })); toast('Selected'); }
-      });
+      }, { searchable: true, searchValue: nameNow, onSearch });
       return;
     }
     const value = pill.dataset.value || '';
@@ -3768,6 +3825,7 @@ async function runParse(){
   })());
   await Promise.all(tasks);
   renderVariantPills(results);
+  autoAddLinksFromParse(results);
   goBtn.disabled = false; goBtn.classList.remove('loading');
   goBtn.textContent = 'GO';
   const found = PARSE_SOURCES.filter(s => dots[s]?.classList.contains('found'));
@@ -3775,7 +3833,7 @@ async function runParse(){
   else toast('Found on: ' + found.join(', '));
 }
 
-/* SERIES EDITOR (admin on backlog-series tab) */
+/* SERIES EDITOR */
 function openSeriesHeaderModal(slug){
   const isNew = !slug;
   const s = isNew ? { id:'', name:'', logo:'', order:[], display:{} } : viewSeries(slug);
@@ -3855,7 +3913,6 @@ function openSeriesHeaderModal(slug){
       if(viewSeries(slugVal)){ toast('Series slug already exists', 'bad'); return; }
       const created = { id: slugVal, name: nameVal, logo: ($('#sh-logo').value||'').trim(), order: [], display: {} };
       pendingSeriesWrites.set(slugVal, created);
-      // also ensure it's in series_order
       if(!MANIFEST.series_order.includes(slugVal)){
         MANIFEST.series_order = (MANIFEST.series_order || []).concat(slugVal);
       }
@@ -3883,7 +3940,6 @@ function closeSeriesHeaderModal(){
 seriesBackdrop.addEventListener('click', e => { if(e.target === seriesBackdrop) closeSeriesHeaderModal(); });
 seriesSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeSeriesHeaderModal(); });
 
-/* SERIES ROW DISPLAY EDITOR */
 function openSeriesRowDisplayEditor(slug, gameId){
   const s = viewSeries(slug);
   if(!s) return;
@@ -3937,7 +3993,6 @@ function openSeriesRowDisplayEditor(slug, gameId){
     if(Object.keys(obj).length) copy.display[gameId] = obj;
     else delete copy.display[gameId];
     pendingSeriesWrites.set(slug, copy);
-    // also update game's series_note
     const base = viewGame(gameId);
     if(base && (base.series_note || '') !== nt){
       const gCopy = JSON.parse(JSON.stringify(base));
@@ -3952,7 +4007,7 @@ function openSeriesRowDisplayEditor(slug, gameId){
   };
 }
 
-/* EVENT HANDLERS */
+/* EVENTS */
 voidBtn.addEventListener('click', () => {
   if(!adminMode){ showTokenPrompt(); return; }
   voidMode = !voidMode;
@@ -4041,12 +4096,9 @@ document.addEventListener('keydown', e => {
 contentEl.addEventListener('load', e => { if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded'); }, true);
 contentEl.addEventListener('error', e => { if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded'); }, true);
 
-/* Content clicks — including series admin actions */
 contentEl.addEventListener('click', e => {
-  // Series admin: header edit
   const sh = e.target.closest('[data-act="series-edit-header"]');
   if(sh){ e.stopPropagation(); openSeriesHeaderModal(sh.dataset.slug); return; }
-  // Series admin: delete series
   const sd = e.target.closest('[data-act="series-del"]');
   if(sd){
     e.stopPropagation();
@@ -4056,7 +4108,6 @@ contentEl.addEventListener('click', e => {
     if(!confirm('Delete series "' + (s.name || slug) + '"? This will also clear series fields on all its games.')) return;
     pendingSeriesDeletes.add(slug);
     pendingSeriesWrites.delete(slug);
-    // clear series fields on games
     for(const id of (s.order || [])){
       const g = viewGame(id);
       if(!g) continue;
@@ -4072,20 +4123,17 @@ contentEl.addEventListener('click', e => {
     toast('Staged series delete');
     return;
   }
-  // Series admin: add new series
   const san = e.target.closest('[data-act="series-add-new"]');
   if(san){ e.stopPropagation(); openSeriesHeaderModal(null); return; }
-  // Series admin: add row to series
   const sar = e.target.closest('[data-act="series-add-row"]');
   if(sar){
     e.stopPropagation();
     const slug = sar.dataset.slug;
-    // Open Add Game editor, pre-set series field, and remember to append to series order on save
-    seriesSlot._pendingSeriesAppend = slug;
-    openEditorWithSeries(slug);
+    openEditor(null, { presetSeries: slug });
+    const f = modalSlot.querySelector('#f-series');
+    if(f) f.value = slug;
     return;
   }
-  // Series admin: edit a row's display overrides
   const ser = e.target.closest('[data-act="series-edit-row"]');
   if(ser){
     e.stopPropagation();
@@ -4093,7 +4141,6 @@ contentEl.addEventListener('click', e => {
     openSeriesRowDisplayEditor(row.dataset.series, row.dataset.id);
     return;
   }
-  // Series admin: delete a row
   const sdr = e.target.closest('[data-act="series-del-row"]');
   if(sdr){
     e.stopPropagation();
@@ -4107,7 +4154,6 @@ contentEl.addEventListener('click', e => {
     copy.order = (copy.order || []).filter(x => x !== id);
     if(copy.display) delete copy.display[id];
     pendingSeriesWrites.set(slug, copy);
-    // clear series fields on game
     const g = viewGame(id);
     if(g && g.series === slug){
       const gc = JSON.parse(JSON.stringify(g));
@@ -4121,7 +4167,6 @@ contentEl.addEventListener('click', e => {
     return;
   }
 
-  // Card admin
   const adminBtnEl = e.target.closest('.card-admin button');
   if(adminBtnEl){
     e.stopPropagation();
@@ -4137,10 +4182,8 @@ contentEl.addEventListener('click', e => {
     if(target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     return;
   }
-  // Series row (edit mode)
   const sRowAdmin = e.target.closest('.series-game-row[data-series]');
   if(sRowAdmin){
-    // In admin mode, row click should NOT open modal — user has explicit edit/delete buttons.
     if(adminMode) return;
   }
   const srow = e.target.closest('.series-game-row');
@@ -4156,44 +4199,23 @@ pendingStrip.addEventListener('click', e => {
   openPendingModal();
 });
 
-/* Helper: open Add editor with a preset series slug (appends to that series on save) */
-function openEditorWithSeries(slug){
-  openEditor(null, { presetSeries: slug });
-  // After modal opens, set series field
-  const s = viewSeries(slug);
-  if(!s) return;
-  const f = modalSlot.querySelector('#f-series');
-  if(f){ f.value = slug; }
-  // On save, append to series order. We hook the save button by augmenting modalSlot with a flag.
-  modalSlot._presetSeriesSlug = slug;
-  // Wrap save to also append
-  const saveBtn = modalSlot.querySelector('#save-btn');
-  if(!saveBtn) return;
-  const origOnClick = saveBtn.onclick;
-  // Since we use addEventListener above, easier: intercept via MutationObserver would be overkill.
-  // Instead, we handle it in the click handler by checking modalSlot._presetSeriesSlug.
-}
-
-/* DRAG: cards, series headers, series rows */
+/* DRAG */
 let dragSrcId = null;
 let dragSrcSeries = null;
-let dragSrcRow = null; // { slug, id }
+let dragSrcRow = null;
 contentEl.addEventListener('dragstart', e => {
-  // series header drag
   const block = e.target.closest('.series-block[draggable="true"]');
   if(block){
     dragSrcSeries = block.dataset.series;
     e.dataTransfer.effectAllowed = 'move';
     return;
   }
-  // series row drag
   const sRow = e.target.closest('.series-game-row[draggable="true"]');
   if(sRow){
     dragSrcRow = { slug: sRow.dataset.series, id: sRow.dataset.id };
     e.dataTransfer.effectAllowed = 'move';
     return;
   }
-  // card drag
   const card = e.target.closest('.card');
   if(!card) return;
   if(!adminMode || sortKey !== 'natural'){ e.preventDefault(); return; }
@@ -4202,14 +4224,12 @@ contentEl.addEventListener('dragstart', e => {
   e.dataTransfer.effectAllowed = 'move';
 });
 contentEl.addEventListener('dragover', e => {
-  // series header
   const block = e.target.closest('.series-block');
   if(block && dragSrcSeries && block.dataset.series !== dragSrcSeries){
     e.preventDefault();
     block.classList.add('drag-over');
     return;
   }
-  // series row
   const sRow = e.target.closest('.series-game-row');
   if(sRow && dragSrcRow && sRow.dataset.series === dragSrcRow.slug && sRow.dataset.id !== dragSrcRow.id){
     e.preventDefault();
@@ -4231,7 +4251,6 @@ contentEl.addEventListener('dragleave', e => {
   if(card) card.classList.remove('drop-target');
 });
 contentEl.addEventListener('drop', e => {
-  // series header drop
   const block = e.target.closest('.series-block');
   if(block && dragSrcSeries){
     e.preventDefault();
@@ -4245,7 +4264,6 @@ contentEl.addEventListener('drop', e => {
     order.splice(fromIdx, 1);
     order.splice(toIdx, 0, dragSrcSeries);
     MANIFEST.series_order = order;
-    // persist via file write
     pendingFileWrites.set('data/series_order.json', JSON.stringify(order, null, 2) + '\n');
     invalidateAllPanes();
     updatePendingStrip();
@@ -4254,7 +4272,6 @@ contentEl.addEventListener('drop', e => {
     dragSrcSeries = null;
     return;
   }
-  // series row drop
   const sRow = e.target.closest('.series-game-row');
   if(sRow && dragSrcRow){
     e.preventDefault();
@@ -4281,7 +4298,6 @@ contentEl.addEventListener('drop', e => {
     dragSrcRow = null;
     return;
   }
-  // card drop
   const card = e.target.closest('.card');
   if(!card || !dragSrcId) return;
   e.preventDefault();
@@ -4305,17 +4321,6 @@ contentEl.addEventListener('dragend', () => {
   dragSrcSeries = null;
   dragSrcRow = null;
 });
-
-/* Hook: when user saves a NEW game with a preset series, append to that series */
-const origPendingSet = null; // placeholder — we handle inside save via a check in pending
-
-/* Wrap the save flow to also append to a preset series.
-   The cleanest approach: hook into addEventListener above by overriding save after openEditor.
-   Simpler: patch the save logic by reading modalSlot._presetSeriesSlug inside a MutationObserver?
-   Actually, let's just add a post-save listener here that watches for the modal to close after save.
-   Since that's fragile, we take a different approach: the save handler inside openEditor already
-   handles new game creation. We add an inline check there.
-*/
 
 /* BOOT */
 (async function boot(){
