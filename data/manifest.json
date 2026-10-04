@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T21:01:21Z",
+  "updated": "2026-10-04T21:14:41Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -223,6 +223,44 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "portal-2-2011-pc": {
+      "id": "portal-2-2011-pc",
+      "name": "Portal 2",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 9, +Extra: 14",
+      "dev": "Valve",
+      "pub": "Valve",
+      "notes": "poo vs piss",
+      "release": "18.04.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/portal-2-2011-pc.jpg",
+      "logo": "images/logos/portal-2-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/620",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Portal_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -234,7 +272,9 @@
     "early-access": [],
     "unreleased": [],
     "mods": [],
-    "coop-beaten": [],
+    "coop-beaten": [
+      "portal-2-2011-pc"
+    ],
     "backlog": [
       "lethal-company-2023-pc"
     ],
