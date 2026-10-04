@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T21:14:41Z",
+  "updated": "2026-10-04T22:08:12Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -27,19 +27,16 @@
         {
           "name": "fuck in da butt",
           "release": "",
-          "note": null,
           "played": false
         },
         {
           "name": "assss",
           "release": "",
-          "note": null,
           "played": false
         },
         {
           "name": "bitchfuck",
           "release": "",
-          "note": null,
           "played": false
         }
       ],
@@ -50,7 +47,7 @@
         "ownedSteam": true,
         "gamepass": false
       },
-      "series": null,
+      "series": "bayonetta",
       "series_status": null,
       "series_note": null
     },
@@ -261,6 +258,44 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "bayonetta-2017-pc": {
+      "id": "bayonetta-2017-pc",
+      "name": "Bayonetta",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 12, +Extra: 16",
+      "dev": "PlatinumGames",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "11.04.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bayonetta-2017-pc.jpg",
+      "logo": "images/logos/bayonetta-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/460790",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Bayonetta",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": "bayonetta",
+      "series_status": "done",
+      "series_note": null
     }
   },
   "lists": {
@@ -284,9 +319,22 @@
     "mainpc": [],
     "beaten": [
       "half-life-2-2004-pc",
-      "lethal-company-2023-pc"
+      "lethal-company-2023-pc",
+      "bayonetta-2017-pc"
     ]
   },
-  "series": {},
-  "series_order": []
+  "series": {
+    "bayonetta": {
+      "id": "bayonetta",
+      "name": "Bayonetta",
+      "logo": "https://cdn2.steamgriddb.com/logo/e93ec11902fe84e91c3709276c78131e.png",
+      "order": [
+        "bayonetta-2017-pc"
+      ],
+      "display": {}
+    }
+  },
+  "series_order": [
+    "bayonetta"
+  ]
 }
