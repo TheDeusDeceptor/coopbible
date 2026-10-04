@@ -1,0 +1,33 @@
+{
+  "id": "deep-rock-galactic-2020-pc",
+  "name": "Deep Rock Galactic",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 45, +Extra: 137",
+  "dev": "Ghost Ship Games",
+  "pub": "Coffee Stain Publishing",
+  "notes": "",
+  "release": "13.05.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/deep-rock-galactic-2020-pc.jpg",
+  "logo": "images/logos/deep-rock-galactic-2020-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Deep_Rock_Galactic",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
