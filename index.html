@@ -3176,7 +3176,7 @@ function openEditor(g, opts){
     $('#f-alt').value = (g.alt_names || []).join(', ');
     $('#f-screenshot').value = g.screenshot || '';
     $('#f-logo').value = g.logo || '';
-    $('#f-series').value = g.series || '';
+    $('#f-series').value = modalSlot._presetSeriesSlug || g.series || '';
     $('#f-series-note').value = g.series_note || '';
     const hp2 = hltbToParts(g.hltb);
     const numeric2 = hltbIsNumeric(g.hltb);
