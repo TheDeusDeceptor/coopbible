@@ -1,0 +1,38 @@
+{
+  "id": "lethal-company-2023-pc",
+  "name": "Lethal Company",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 10, +Extra: 19",
+  "dev": "Zeekerss",
+  "pub": "Zeekerss",
+  "notes": "stupid ass scary motherfucker bithc asssssss",
+  "release": "23.10.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lethal-company-2023-pc.jpg",
+  "logo": "images/logos/lethal-company-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1966720",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Lethal_Company",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": true,
+    "ownedSteam": true,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
