@@ -1,0 +1,38 @@
+{
+  "id": "silent-hill-f-2025-pc",
+  "name": "SILENT HILL f",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 11, +Extra: 17",
+  "dev": "NeoBards",
+  "pub": "Konami",
+  "notes": "",
+  "release": "24.09.2025",
+  "ea_release": "",
+  "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/93e420a6665b42229735a3495b86bd35b7cb8c53/ss_93e420a6665b42229735a3495b86bd35b7cb8c53.1920x1080.jpg?t=1770169624",
+  "logo": "https://cdn2.steamgriddb.com/logo/76db3c868382da31965d3430fd20a090.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2947440",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Silent_Hill_f",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
