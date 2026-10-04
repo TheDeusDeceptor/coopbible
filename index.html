@@ -136,7 +136,6 @@
   body[data-cols="3"] .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   body[data-cols="4"] .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
   .grid-empty{max-width:1400px;margin:1.5rem auto;padding:2rem 1rem;text-align:center;font-family:var(--font-head);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--border);border-radius:9px;line-height:1.8;}
-  /* Narrow-column chip shrink */
   body[data-cols="3"] .ov-chip,
   body[data-cols="4"] .ov-chip{
     font-size:.68rem;
@@ -207,7 +206,6 @@
   .hover-text .name{font-family:var(--font-head);font-weight:700;font-size:1.05rem;letter-spacing:.03em;color:#cbd5e1;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .hover-text .meta{margin-top:.35rem;font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
   .hover-text .meta .sep{margin:0 .6em;opacity:.5}
-  /* SERIES */
   .series-blocks{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1.75rem;}
   .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;position:relative;}
   .series-block.drag-over{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);}
@@ -261,7 +259,6 @@
   .series-add-block{max-width:1400px;margin:1.25rem auto 0;display:flex;justify-content:center;}
   .series-add-block button{padding:.8rem 1.6rem;font-family:var(--font-head);font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;border:1px dashed var(--border);border-radius:10px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
   .series-add-block button:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  /* MODAL */
   .backdrop{position:fixed;inset:0;z-index:200;background:rgba(4,5,8,.85);display:none;align-items:center;justify-content:center;padding:1.5rem;overflow-y:auto;}
   .backdrop.open{display:flex}
   #modal-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;max-height:100%;margin:auto;pointer-events:none;}
@@ -463,10 +460,9 @@
   .link-row .remove-link:hover{color:var(--red);border-color:var(--red)}
   .add-link-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px dashed var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;align-self:flex-start;}
   .add-link-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
-  /* DLC editor */
   .dlc-editor-list{display:flex;flex-direction:column;gap:.55rem;margin-bottom:.6rem}
   .dlc-editor-row{display:flex;flex-direction:column;gap:.35rem;padding:.55rem .6rem;background:#0a0e15;border:1px solid var(--border);border-radius:7px;}
-  .dlc-editor-line1{display:grid;grid-template-columns:1fr 110px 32px 32px;gap:.5rem;align-items:center;}
+  .dlc-editor-line1{display:grid;grid-template-columns:1fr 32px 32px;gap:.5rem;align-items:center;}
   .dlc-editor-line1 input{font-family:var(--font-body);font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.5rem .6rem;outline:none;transition:border-color .18s ease,background .18s ease;width:100%;}
   .dlc-editor-line1 input:focus{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .dlc-played-toggle{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);background:transparent;color:#4a5468;cursor:pointer;display:grid;place-items:center;font-size:.95rem;font-weight:700;line-height:1;transition:all .16s ease;}
@@ -639,7 +635,7 @@
     .admin-body{padding:1rem}
     .admin-foot{padding:.85rem 1rem}
     .link-row{grid-template-columns:1fr 1fr 32px}
-    .dlc-editor-line1{grid-template-columns:1fr 90px 32px 32px;}
+    .dlc-editor-line1{grid-template-columns:1fr 32px 32px;}
   }
 </style>
 </head>
@@ -718,8 +714,17 @@ const TAB_GROUP = {};
 TABS.coop.forEach(t => TAB_GROUP[t.id] = 'coop');
 TABS.single.forEach(t => TAB_GROUP[t.id] = 'single');
 const BEATEN_TABS   = new Set(['coop-beaten','beaten']);
+const BEATEN_LISTS  = new Set(['coop-beaten','beaten']);
 const REAL_LISTS = ['released','early-access','unreleased','mods','coop-beaten','backlog','gamearchive','mainpc','beaten'];
 const REAL_LISTS_SET = new Set(REAL_LISTS);
+
+function addToListOrdered(listId, list, id){
+  if(!list.includes(id)){
+    if(BEATEN_LISTS.has(listId)) list.unshift(id);
+    else list.push(id);
+  }
+  return list;
+}
 
 /* STATE */
 let MANIFEST = { version: 4, games: {}, lists: {}, series: {}, series_order: [] };
@@ -2604,7 +2609,6 @@ function modalInfoRows(g, t){
   return rows.join('');
 }
 
-/* Hero DLC + notes */
 function heroDlcHTML(g){
   const dlc = g.dlc || [];
   if(!dlc.length) return '';
@@ -2653,7 +2657,6 @@ function modalHTML(g, t){
   return `<div class="modal-wrap">${prevBtn}${modalBlock}${nextBtn}</div>`;
 }
 
-/* HERO SIZING */
 function applyHeroSize(heroEl){
   const img = heroEl.querySelector('[data-hero-img]');
   if(!img){ heroEl.style.width = ''; heroEl.style.height = ''; return; }
@@ -2809,7 +2812,6 @@ function dlcEditRowHTML(d, i){
     <div class="dlc-editor-row" data-dlc-idx="${i}">
       <div class="dlc-editor-line1">
         <input type="text" class="dlc-name" placeholder="DLC name" value="${esc(d.name||'')}">
-        <input type="text" class="dlc-release" placeholder="Release" value="${esc(d.release||'')}">
         <button type="button" class="dlc-played-toggle ${d.played ? 'on' : ''}" title="Toggle played">✓</button>
         <button type="button" class="dlc-remove" title="Remove">✕</button>
       </div>
@@ -2819,10 +2821,9 @@ function readDlcFromEditor(){
   const rows = [...modalSlot.querySelectorAll('.dlc-editor-row')];
   return rows.map(r => {
     const name = r.querySelector('.dlc-name').value.trim();
-    const release = r.querySelector('.dlc-release').value.trim();
     const played = r.querySelector('.dlc-played-toggle').classList.contains('on');
-    if(!name && !release) return null;
-    return { name: name || 'Unnamed DLC', release, played };
+    if(!name) return null;
+    return { name, played };
   }).filter(Boolean);
 }
 
@@ -2840,7 +2841,7 @@ function openEditor(g, opts){
   draft.flags = Object.assign({ installed:false, ownedSteam:false, localCoop:false, authRequired:false, gamepass:false }, draft.flags || {});
   draft.links = Array.isArray(draft.links) ? draft.links.slice() : [];
   draft.alt_names = Array.isArray(draft.alt_names) ? draft.alt_names.slice() : [];
-  draft.dlc = Array.isArray(draft.dlc) ? draft.dlc.map(d => ({ name:d.name||'', release:d.release||'', played:!!d.played })) : [];
+  draft.dlc = Array.isArray(draft.dlc) ? draft.dlc.map(d => ({ name:d.name||'', played:!!d.played })) : [];
   draft.screenshot = draft.screenshot || '';
   draft.logo = draft.logo || '';
 
@@ -3433,7 +3434,6 @@ function openEditor(g, opts){
     row.innerHTML = `
       <div class="dlc-editor-line1">
         <input type="text" class="dlc-name" placeholder="DLC name">
-        <input type="text" class="dlc-release" placeholder="Release">
         <button type="button" class="dlc-played-toggle" title="Toggle played">✓</button>
         <button type="button" class="dlc-remove" title="Remove">✕</button>
       </div>`;
@@ -3537,9 +3537,33 @@ function openEditor(g, opts){
       const before = JSON.stringify(base);
       const after = JSON.stringify(merged);
       if(before !== after){ pendingGameWrites.set(existingId, merged); }
+      {
+        const oldSeriesSlug = base.series || null;
+        const newSeriesSlug = merged.series || null;
+        if(oldSeriesSlug && oldSeriesSlug !== newSeriesSlug){
+          const s = viewSeries(oldSeriesSlug);
+          if(s){
+            const copy = pendingSeriesWrites.get(oldSeriesSlug) || JSON.parse(JSON.stringify(s));
+            copy.order = (copy.order || []).filter(x => x !== existingId);
+            if(copy.display) delete copy.display[existingId];
+            pendingSeriesWrites.set(oldSeriesSlug, copy);
+          }
+        }
+        if(newSeriesSlug && newSeriesSlug !== oldSeriesSlug){
+          const s = viewSeries(newSeriesSlug);
+          if(s){
+            const copy = pendingSeriesWrites.get(newSeriesSlug) || JSON.parse(JSON.stringify(s));
+            copy.order = (copy.order || []).slice();
+            if(!copy.order.includes(existingId)) copy.order.push(existingId);
+            pendingSeriesWrites.set(newSeriesSlug, copy);
+          } else {
+            toast('Series "' + newSeriesSlug + '" not found — create it first', 'bad');
+          }
+        }
+      }
       for(const listId of checkedLists){
         const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
-        if(!list.includes(existingId)) list.push(existingId);
+        addToListOrdered(listId, list, existingId);
         pendingListWrites.set(listId, list);
       }
       editorDrafts.delete(modalSlot._editorKey);
@@ -3619,11 +3643,36 @@ function openEditor(g, opts){
 
     pendingGameWrites.set(id, out);
 
+    {
+      const oldSeriesSlug = draft.series || null;
+      const newSeriesSlug = out.series || null;
+      if(oldSeriesSlug && oldSeriesSlug !== newSeriesSlug){
+        const s = viewSeries(oldSeriesSlug);
+        if(s){
+          const copy = pendingSeriesWrites.get(oldSeriesSlug) || JSON.parse(JSON.stringify(s));
+          copy.order = (copy.order || []).filter(x => x !== id);
+          if(copy.display) delete copy.display[id];
+          pendingSeriesWrites.set(oldSeriesSlug, copy);
+        }
+      }
+      if(newSeriesSlug && newSeriesSlug !== oldSeriesSlug){
+        const s = viewSeries(newSeriesSlug);
+        if(s){
+          const copy = pendingSeriesWrites.get(newSeriesSlug) || JSON.parse(JSON.stringify(s));
+          copy.order = (copy.order || []).slice();
+          if(!copy.order.includes(id)) copy.order.push(id);
+          pendingSeriesWrites.set(newSeriesSlug, copy);
+        } else {
+          toast('Series "' + newSeriesSlug + '" not found — create it first', 'bad');
+        }
+      }
+    }
+
     const checkedListsArray = [...checkedLists];
     if(isNew){
       for(const listId of checkedListsArray){
         const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
-        if(!list.includes(id)) list.push(id);
+        addToListOrdered(listId, list, id);
         pendingListWrites.set(listId, list);
       }
     } else {
@@ -3637,7 +3686,8 @@ function openEditor(g, opts){
           if(idx >= 0){ list.splice(idx, 1); pendingListWrites.set(listId, list); }
         } else if(!inBefore && inAfter){
           const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
-          if(!list.includes(id)){ list.push(id); pendingListWrites.set(listId, list); }
+          addToListOrdered(listId, list, id);
+          pendingListWrites.set(listId, list);
         }
       }
     }
@@ -3778,7 +3828,6 @@ function openConfirmDelete(g){
   });
 }
 
-/* DRAFT CAPTURE */
 function captureEditorDraft(key){
   const fId = modalSlot.querySelector('#f-id');
   if(!fId) return;
@@ -3796,7 +3845,6 @@ function captureEditorDraft(key){
   }));
   const dlc = [...$$('#dlc-editor-list .dlc-editor-row')].map(row => ({
     name: row.querySelector('.dlc-name').value,
-    release: row.querySelector('.dlc-release').value,
     played: row.querySelector('.dlc-played-toggle').classList.contains('on')
   }));
   const snapshot = {
