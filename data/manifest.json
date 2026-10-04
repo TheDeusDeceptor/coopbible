@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T17:54:41Z",
+  "updated": "2026-10-04T18:01:46Z",
   "games": {
     "styx-shards-of-darkness-2017-pc": {
       "id": "styx-shards-of-darkness-2017-pc",
@@ -77,21 +77,76 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "enshrouded-2026-pc": {
+      "id": "enshrouded-2026-pc",
+      "name": "Enshrouded",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 48, +Extra: 69",
+      "dev": "Keen Games",
+      "pub": "Keen Games",
+      "notes": "",
+      "release": "10.10.2026",
+      "ea_release": "24.01.2024",
+      "screenshot": "images/screenshots/enshrouded-2026-pc.jpg",
+      "logo": "images/logos/enshrouded-2026-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Enshrouded",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1203620",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
     "released": [
       "styx-shards-of-darkness-2017-pc",
-      "abathor-2024-pc"
+      "abathor-2024-pc",
+      "enshrouded-2026-pc"
     ],
-    "early-access": [],
-    "unreleased": [],
-    "mods": [],
-    "coop-beaten": [],
-    "backlog": [],
-    "gamearchive": [],
-    "mainpc": [],
-    "beaten": []
+    "early-access": [
+      "enshrouded-2026-pc"
+    ],
+    "unreleased": [
+      "enshrouded-2026-pc"
+    ],
+    "mods": [
+      "enshrouded-2026-pc"
+    ],
+    "coop-beaten": [
+      "enshrouded-2026-pc"
+    ],
+    "backlog": [
+      "enshrouded-2026-pc"
+    ],
+    "gamearchive": [
+      "enshrouded-2026-pc"
+    ],
+    "mainpc": [
+      "enshrouded-2026-pc"
+    ],
+    "beaten": [
+      "enshrouded-2026-pc"
+    ]
   },
   "series": {},
   "series_order": []

@@ -1,0 +1,38 @@
+{
+  "id": "enshrouded-2026-pc",
+  "name": "Enshrouded",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 48, +Extra: 69",
+  "dev": "Keen Games",
+  "pub": "Keen Games",
+  "notes": "",
+  "release": "10.10.2026",
+  "ea_release": "24.01.2024",
+  "screenshot": "images/screenshots/enshrouded-2026-pc.jpg",
+  "logo": "images/logos/enshrouded-2026-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Enshrouded",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1203620",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
