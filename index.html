@@ -170,9 +170,10 @@
   .icon-badge img{width:16px;height:16px;object-fit:contain;display:block;}
   .overlay-chips{position:absolute;left:0;right:0;bottom:0;display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;}
   .ov-chip{display:inline-flex;align-items:center;padding:.32rem .65rem;background:rgba(8,10,16,.72);border:1px solid rgba(255,255,255,.08);border-radius:6px;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);font-family:var(--font-body);font-size:.78rem;font-weight:500;color:#e6ebf2;white-space:nowrap;line-height:1;}
-  .logo-panel{width:30%;background:rgba(255,255,255,.015);border-left:1px solid var(--border);display:grid;place-items:center;padding:.75rem;}
-  .logo-box{aspect-ratio:504 / 562;max-width:100%;max-height:100%;display:grid;place-items:center;}
+  .logo-panel{width:30%;background:rgba(255,255,255,.015);border-left:1px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;padding:.75rem;}
+  .logo-box{aspect-ratio:504 / 562;max-width:100%;max-height:60%;display:grid;place-items:center;}
   .logo-box img{max-width:100%;max-height:100%;object-fit:contain;display:block}
+  .dlc-counter{display:inline-flex;align-items:center;padding:.3rem .6rem;background:rgba(8,10,16,.72);border:1px solid rgba(255,255,255,.08);border-radius:6px;font-family:var(--font-body);font-size:.72rem;font-weight:500;color:#c8d1de;white-space:nowrap;line-height:1;}
   .ph{font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.14em;color:#3a4356;text-transform:uppercase;text-align:center;line-height:1.6;}
   .ph small{display:block;font-size:.6rem;letter-spacing:.1em;color:#2b3243;margin-top:.35rem}
   .card-admin{position:absolute;top:.5rem;right:.5rem;z-index:5;display:none;gap:.35rem;}
@@ -264,23 +265,86 @@
   #modal-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;max-height:100%;margin:auto;pointer-events:none;}
   #modal-slot > *{pointer-events:auto;}
   .modal-wrap{position:relative;display:flex;align-items:center;gap:1rem;justify-content:center;width:100%;max-width:100%;}
-  .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;width:fit-content;max-width:min(95vw, 1500px);display:flex;flex-direction:column;}
-  .modal-hero{position:relative;background:#000;display:grid;place-items:center;overflow:hidden;flex-shrink:0;aspect-ratio:16/9;}
-  .modal-hero img{display:block;width:100%;height:100%;object-fit:cover;}
-  .modal-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
+  .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;width:fit-content;max-width:min(95vw, 1300px);display:flex;flex-direction:column;}
+  .modal-hero{position:relative;background:#000;display:grid;place-items:center;overflow:hidden;flex-shrink:0;aspect-ratio:16/9;min-width:640px;}
+  .modal-hero img.hero-img{display:block;width:100%;height:100%;object-fit:cover;}
+  .modal-hero::before{content:"";position:absolute;left:0;top:0;width:60%;height:65%;background:linear-gradient(to bottom right,rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 65%);pointer-events:none;z-index:1;}
+  .modal-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:60%;background:linear-gradient(to top,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
   .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9)) drop-shadow(0 2px 30px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
   .modal-logo img{max-width:100%;max-height:100%;object-fit:contain}
   .modal-logo .ph{font-size:.5rem;letter-spacing:.14em;color:#3a4356}
   .modal-logo .ph small{font-size:.45rem}
-  .modal-rank-badge{position:absolute;top:.75rem;left:.9rem;z-index:3;font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.06em;color:var(--accent);background:rgba(0,0,0,.6);padding:.22rem .6rem;border-radius:5px;border:1px solid var(--accent-line);font-variant-numeric:tabular-nums;}
-  .modal-close{position:absolute;top:.6rem;right:.6rem;width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:rgba(0,0,0,.55);color:var(--muted);cursor:pointer;font-size:.85rem;line-height:1;display:grid;place-items:center;z-index:4;}
+  .modal-rank-badge{position:absolute;top:.75rem;left:.9rem;z-index:4;font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.06em;color:var(--accent);background:rgba(0,0,0,.6);padding:.22rem .6rem;border-radius:5px;border:1px solid var(--accent-line);font-variant-numeric:tabular-nums;}
+  .modal-close{position:absolute;top:.6rem;right:.6rem;width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:rgba(0,0,0,.55);color:var(--muted);cursor:pointer;font-size:.85rem;line-height:1;display:grid;place-items:center;z-index:5;}
   .modal-close:hover{color:#fff}
+  /* Hero overlays: DLC + notes */
+  .hero-dlc{
+    position:absolute;
+    top:.6rem;left:.6rem;
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+    max-width:48%;
+    z-index:3;
+    pointer-events:none;
+    align-items:flex-start;
+  }
+  .hero-dlc-chip{
+    display:inline-flex;
+    align-items:center;
+    padding:3px 8px;
+    border-radius:5px;
+    font-family:var(--font-head);
+    font-size:.7rem;
+    font-weight:600;
+    letter-spacing:.02em;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    max-width:100%;
+    line-height:1.2;
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter:blur(4px);
+    background:rgba(8,10,16,.75);
+    border:1px solid rgba(255,255,255,.14);
+    color:#c8d1de;
+    text-shadow:0 1px 2px rgba(0,0,0,.6);
+  }
+  .hero-dlc-chip.played{
+    background:rgba(10,25,15,.75);
+    border-color:rgba(74,222,128,.5);
+    color:#86efac;
+  }
+  .hero-notes{
+    position:absolute;
+    left:.6rem;bottom:.6rem;
+    max-width:calc(100% - 130px);
+    padding:5px 10px;
+    background:rgba(8,10,16,.78);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:6px;
+    font-family:var(--font-body);
+    font-size:.78rem;
+    line-height:1.4;
+    color:#d0d8e2;
+    font-style:italic;
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter:blur(4px);
+    z-index:3;
+    overflow:hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    pointer-events:none;
+    text-shadow:0 1px 2px rgba(0,0,0,.6);
+  }
   .modal-body{padding:1.5rem 1.5rem 1.25rem;width:100%;}
   .modal-title{font-family:var(--font-head);font-weight:700;font-size:1.25rem;letter-spacing:.02em;color:#fff;line-height:1.25;}
   .modal-alt{font-family:var(--font-body);font-size:.78rem;color:var(--muted);margin-top:.35rem;line-height:1.5;}
   .modal-alt::before{content:"aka ";opacity:.6}
   .modal-alt span + span::before{content:" · "}
-  .chips{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.65rem}
+  .tags-row{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.55rem}
+  .tags-row.flags{margin-top:.3rem}
   .chip{font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.26rem .6rem;border-radius:5px;border:1px solid var(--accent-line);color:var(--accent);background:var(--accent-soft);white-space:nowrap;}
   .chip.coop{border-color:rgba(56,189,248,.4);color:#38bdf8;background:rgba(56,189,248,.08);}
   .chip.vault{border-color:rgba(225,29,72,.42);color:#f43f5e;background:rgba(225,29,72,.09);}
@@ -297,15 +361,6 @@
   .info-row dd .sep{color:var(--muted);font-weight:400;margin:0 .3em;font-size:.88em;}
   .info-row dd .unit{color:var(--muted);font-weight:400;font-size:.85em;margin-left:.3em;}
   .info-row.long dd{white-space:normal;text-overflow:clip;word-break:break-word;}
-  .notes{margin-top:.9rem;padding:.7rem .85rem;background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:7px;font-size:.9rem;line-height:1.55;color:#b3bdcc;white-space:pre-wrap;word-break:break-word;}
-  .notes::before{content:"NOTES";display:block;font-family:var(--font-head);font-size:.56rem;font-weight:600;letter-spacing:.14em;color:var(--muted);margin-bottom:.35rem;}
-  .dlc-box{margin-top:.9rem;padding:.7rem .85rem;background:rgba(255,255,255,.015);border:1px solid var(--border);border-radius:7px;}
-  .dlc-box::before{content:"DLC";display:block;font-family:var(--font-head);font-size:.56rem;font-weight:600;letter-spacing:.14em;color:var(--muted);margin-bottom:.5rem;}
-  .dlc-item{display:flex;align-items:center;gap:.5rem;padding:.25rem 0;font-size:.88rem;line-height:1.4;}
-  .dlc-item .mark{width:14px;text-align:center;font-size:.85rem;flex-shrink:0;color:var(--muted);}
-  .dlc-item.played .mark{color:var(--green);}
-  .dlc-item .nm{color:#b3bdcc;}
-  .dlc-item.played .nm{color:#dbe3ee;}
   .modal-links{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.9rem;}
   .link-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.45rem .8rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);text-decoration:none;transition:all .18s ease;}
   .link-btn .icon{width:1em;height:1em}
@@ -409,6 +464,18 @@
   .link-row .remove-link:hover{color:var(--red);border-color:var(--red)}
   .add-link-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px dashed var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;align-self:flex-start;}
   .add-link-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
+  /* DLC editor */
+  .dlc-editor-list{display:flex;flex-direction:column;gap:.55rem;margin-bottom:.6rem}
+  .dlc-editor-row{display:flex;flex-direction:column;gap:.35rem;padding:.55rem .6rem;background:#0a0e15;border:1px solid var(--border);border-radius:7px;}
+  .dlc-editor-line1{display:grid;grid-template-columns:1fr 110px 32px 32px;gap:.5rem;align-items:center;}
+  .dlc-editor-line1 input{padding:.5rem .6rem;font-size:.85rem}
+  .dlc-editor-line2{display:grid;grid-template-columns:1fr;gap:.4rem;}
+  .dlc-played-toggle{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;font-size:.9rem;transition:all .16s ease;}
+  .dlc-played-toggle:hover{color:#cbd5e1;border-color:var(--accent-line);}
+  .dlc-played-toggle.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
+  .dlc-played-toggle.on .icon{width:14px;height:14px;}
+  .dlc-remove{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;}
+  .dlc-remove:hover{color:var(--red);border-color:var(--red)}
   .admin-foot{position:sticky;bottom:0;background:linear-gradient(0deg,#0b1016 0%,#0d1219 100%);border-top:1px solid var(--border);padding:1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;}
   .admin-foot .left-actions{display:flex;gap:.5rem}
   .admin-foot .right-actions{display:flex;gap:.6rem;margin-left:auto}
@@ -579,6 +646,7 @@
     .admin-body{padding:1rem}
     .admin-foot{padding:.85rem 1rem}
     .link-row{grid-template-columns:1fr 1fr 32px}
+    .dlc-editor-line1{grid-template-columns:1fr 90px 32px 32px;}
   }
 </style>
 </head>
@@ -690,7 +758,7 @@ const pendingListWrites = new Map();
 const pendingFileWrites = new Map();
 const pendingSeriesWrites = new Map();
 const pendingSeriesDeletes = new Set();
-const editorDrafts = new Map(); // in-memory drafts per game id / '__new__'
+const editorDrafts = new Map();
 
 const bodyEl = document.body;
 const contentEl = document.getElementById('content');
@@ -909,7 +977,7 @@ function hltbExtraKey(str){
 }
 function nameKey(str){ return String(str||'').toLowerCase(); }
 
-/* TAG SYSTEM */
+/* TAGS */
 const TAG_LABELS = {
   coop:'Co-op', single:'Vault',
   released:'Released', 'early-access':'Early Access', unreleased:'Unreleased',
@@ -917,10 +985,14 @@ const TAG_LABELS = {
   backlog:'Backlog',
   gamearchive:'Game Archive', mainpc:'Main PC', beaten:'Beaten',
   installed:'Installed', localcoop:'Local Co-op',
-  authrequired:'AUTH', ownedsteam:'On Steam', gamepass:'GamePass',
+  authrequired:'AUTH', ownedsteam:'Steam', gamepass:'GamePass',
 };
 const COOP_TAGS  = new Set(['coop','released','early-access','unreleased','mods','coop-beaten']);
 const VAULT_TAGS = new Set(['single','backlog','gamearchive','mainpc','beaten']);
+
+/* Page tag order (matches tab order) */
+const PAGE_TAG_ORDER = ['released','early-access','unreleased','mods','coop-beaten','backlog','gamearchive','mainpc','beaten'];
+const FLAG_TAG_ORDER = ['installed','localcoop','authrequired','ownedsteam','gamepass'];
 
 function groupsOf(gameId){
   const out = new Set();
@@ -930,17 +1002,19 @@ function groupsOf(gameId){
   }
   return out;
 }
-function buildTags(g, t){
-  const set = new Set();
-  groupsOf(g.id).forEach(x => set.add(x));
-  if(t !== 'backlog-series') set.add(t);
+function pageTagsOf(g){
+  const mem = membershipsOf(g.id);
+  return PAGE_TAG_ORDER.filter(t => mem.has(t));
+}
+function flagTagsOf(g){
   const fl = g.flags || {};
-  if(fl.installed)    set.add('installed');
-  if(fl.localCoop)    set.add('localcoop');
-  if(fl.authRequired) set.add('authrequired');
-  if(fl.ownedSteam)   set.add('ownedsteam');
-  if(fl.gamepass)     set.add('gamepass');
-  return [...set];
+  const out = [];
+  if(fl.installed)    out.push('installed');
+  if(fl.localCoop)    out.push('localcoop');
+  if(fl.authRequired) out.push('authrequired');
+  if(fl.ownedSteam)   out.push('ownedsteam');
+  if(fl.gamepass)     out.push('gamepass');
+  return out;
 }
 function chipHTML(t){
   const label = TAG_LABELS[t] || t;
@@ -953,7 +1027,6 @@ function chipHTML(t){
   else if(VAULT_TAGS.has(t))                 cls += ' vault';
   return `<span class="${cls}">${esc(label)}</span>`;
 }
-function renderTags(g, t){ return buildTags(g, t).map(chipHTML).join(''); }
 
 /* SORT PERSISTENCE */
 function loadSortForTab(tabId){
@@ -1960,9 +2033,7 @@ function lbdbMapToFields(entry){
   if(entry.screenshot) out.screenshot = 'https://images.launchbox-app.com/' + entry.screenshot;
   return out;
 }
-function levSimilarity(a, b){
-  return nameSimilarity(a, b);
-}
+function levSimilarity(a, b){ return nameSimilarity(a, b); }
 function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
   let score = nameSimilarity(cName || '', fName || '');
   if(fPlatform && String(fPlatform).trim()){
@@ -2284,6 +2355,8 @@ function cardHTML(g, t){
   const tr = ownedBadgesHTML(g);
   const pcls = pendingClassFor(g.id);
   const dragAttr = (sortKey === 'natural' && adminMode) ? ' draggable="true"' : '';
+  const dlcCount = (g.dlc || []).length;
+  const dlcCounter = dlcCount ? `<div class="dlc-counter">${dlcCount} DLC${dlcCount === 1 ? '' : 's'}</div>` : '';
   return `
     <article class="card${pcls}" data-id="${esc(g.id)}"${dragAttr}>
       ${adminControlsHTML(g.id)}
@@ -2295,7 +2368,10 @@ function cardHTML(g, t){
           ${chips}
         </div>
       </div>
-      <div class="logo-panel"><div class="logo-box">${logoImgHTML(g, g.name)}</div></div>
+      <div class="logo-panel">
+        <div class="logo-box">${logoImgHTML(g, g.name)}</div>
+        ${dlcCounter}
+      </div>
     </article>`;
 }
 function beatenRowHTML(g, rank, showRank){
@@ -2551,17 +2627,25 @@ function modalInfoRows(g, t){
   rows.push(infoRow('icon-pub','Publisher', esc(g.pub), true));
   return rows.join('');
 }
-function dlcHTML(g){
+
+/* Hero DLC + notes */
+function heroDlcHTML(g){
   const dlc = g.dlc || [];
   if(!dlc.length) return '';
-  const items = dlc.map(d => `
-    <div class="dlc-item${d.played ? ' played' : ''}">
-      <span class="mark">${d.played ? '✓' : '·'}</span>
-      <span class="nm">${esc(d.name)}${d.note ? ` <span style="opacity:.6">(${esc(d.note)})</span>` : ''}</span>
-    </div>
-  `).join('');
-  return `<div class="dlc-box">${items}</div>`;
+  return `
+    <div class="hero-dlc">
+      ${dlc.map(d => `
+        <span class="hero-dlc-chip${d.played ? ' played' : ''}" title="${esc(d.name)} — ${esc(d.release || '')}${d.played ? ' (played)' : ''}">
+          ${esc(d.name)}
+        </span>
+      `).join('')}
+    </div>`;
 }
+function heroNotesHTML(g){
+  if(!g.notes) return '';
+  return `<div class="hero-notes" title="${esc(g.notes)}">${esc(g.notes)}</div>`;
+}
+
 function modalHTML(g, t, rank){
   const linksHTML = renderLinks(g.links);
   const rankBadge = rank ? `<span class="modal-rank-badge">#${rank}</span>` : '';
@@ -2571,21 +2655,24 @@ function modalHTML(g, t, rank){
   const alts = (g.alt_names || []).filter(Boolean);
   const altHTML = alts.length
     ? `<div class="modal-alt">${alts.map(a => `<span>${esc(a)}</span>`).join('')}</div>` : '';
+  const pageChips = pageTagsOf(g).map(chipHTML).join('');
+  const flagChips = flagTagsOf(g).map(chipHTML).join('');
   const modalBlock = `
     <div class="modal">
       <button class="modal-close" aria-label="Close" data-close>✕</button>
       <div class="modal-hero" data-hero>
-        ${g.screenshot ? `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" data-hero-img>` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}
+        ${g.screenshot ? `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" class="hero-img" data-hero-img>` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}
+        ${heroDlcHTML(g)}
+        ${heroNotesHTML(g)}
         ${rankBadge}
         <div class="modal-logo">${g.logo ? `<img src="${esc(logoSrc(g.logo))}" alt="" title="${esc(g.name)}">` : `<div class="ph">504 × 562<small>logo</small></div>`}</div>
       </div>
       <div class="modal-body">
         <h2 class="modal-title">${esc(g.name)}</h2>
         ${altHTML}
-        <div class="chips">${renderTags(g, t)}</div>
+        ${pageChips ? `<div class="tags-row">${pageChips}</div>` : ''}
+        ${flagChips ? `<div class="tags-row flags">${flagChips}</div>` : ''}
         <dl class="info-list">${modalInfoRows(g, t)}</dl>
-        ${g.notes ? `<div class="notes">${esc(g.notes)}</div>` : ''}
-        ${dlcHTML(g)}
         ${linksHTML ? `<div class="modal-links">${linksHTML}</div>` : ''}
       </div>
     </div>`;
@@ -2600,9 +2687,9 @@ function applyHeroSize(heroEl){
   const ratio = img.naturalWidth / img.naturalHeight;
   const vw = window.innerWidth;
   const vh = window.innerHeight;
-  const maxH = Math.min(vh * 0.55, 620);
-  const minH = 340;
-  const maxW = Math.min(vw * 0.9, 1500);
+  const maxH = Math.min(vh * 0.48, 540);
+  const minH = 320;
+  const maxW = Math.min(vw * 0.9, 1300);
   let h = maxH;
   let w = h * ratio;
   if(w > maxW){ w = maxW; h = w / ratio; }
@@ -2613,7 +2700,7 @@ function applyHeroSize(heroEl){
 function recalcHeroSizes(){
   document.querySelectorAll('[data-hero]').forEach(applyHeroSize);
 }
-window.addEventListener('resize', () => { if(document.getElementById('backdrop').classList.contains('open')) recalcHeroSizes(); });
+window.addEventListener('resize', () => { if(backdrop.classList.contains('open')) recalcHeroSizes(); });
 
 function openModal(g, t){
   let list = [];
@@ -2655,20 +2742,13 @@ function navigateModal(delta){
   if(m) m.scrollTop = 0;
 }
 function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = ''; modalNavList = []; modalNavIdx = -1; }
+
+/* Robust backdrop close: only close if mousedown AND click both landed on the backdrop */
+let mdBackdropTarget = null;
+backdrop.addEventListener('mousedown', e => { mdBackdropTarget = e.target; });
 backdrop.addEventListener('click', e => {
-  const path = (e.composedPath && e.composedPath()) || [];
-  const inside = path.some(el => el.classList && (
-    el.classList.contains('modal') ||
-    el.classList.contains('admin-modal') ||
-    el.classList.contains('confirm') ||
-    el.classList.contains('picker-modal') ||
-    el.classList.contains('logo-picker') ||
-    el.classList.contains('token-modal') ||
-    el.classList.contains('series-header-modal') ||
-    el.classList.contains('tools-modal')
-  ));
-  if(inside) return;
-  if(e.target.closest('.modal, .admin-modal, .confirm, .picker-modal, .logo-picker, .token-modal, .series-header-modal, .tools-modal')) return;
+  if(e.target !== backdrop) return;
+  if(mdBackdropTarget !== backdrop) return;
   closeAll();
 });
 
@@ -2752,49 +2832,31 @@ function autoAddLinksFromParse(results){
   });
 }
 
-/* DRAFT CAPTURE / RESTORE */
-function captureEditorDraft(key){
-  const fId = modalSlot.querySelector('#f-id');
-  if(!fId) return; // editor form not present
-  const $ = sel => modalSlot.querySelector(sel);
-  const $$ = sel => modalSlot.querySelectorAll(sel);
-  const hltbRadio = $('#f-hltb-type input:checked');
-  const sOn = $('#status-row .status-btn.on');
-  const flags = {};
-  $$('#flag-row .flag-btn').forEach(b => { flags[b.dataset.flag] = b.classList.contains('on'); });
-  const memberships = [...$$('#list-grid input[type=checkbox]')]
-    .filter(cb => cb.checked).map(cb => cb.dataset.list);
-  const links = [...$$('#links-list .link-row')].map(row => ({
-    label: row.querySelector('.link-label').value,
-    url: row.querySelector('.link-url').value
-  }));
-  const snapshot = {
-    id: fId.value,
-    name: $('#f-name')?.value ?? '',
-    alt: $('#f-alt')?.value ?? '',
-    release: $('#f-release')?.value ?? '',
-    eaRelease: $('#f-ea-release')?.value ?? '',
-    platform: $('#f-platform')?.value ?? '',
-    size: $('#f-size')?.value ?? '',
-    dev: $('#f-dev')?.value ?? '',
-    pub: $('#f-pub')?.value ?? '',
-    series: $('#f-series')?.value ?? '',
-    seriesNote: $('#f-series-note')?.value ?? '',
-    screenshot: $('#f-screenshot')?.value ?? '',
-    logo: $('#f-logo')?.value ?? '',
-    notes: $('#f-notes')?.value ?? '',
-    hltbType: hltbRadio ? hltbRadio.value : 'numeric',
-    hltbMain: $('#f-hltb-main')?.value ?? '',
-    hltbExtra: $('#f-hltb-extra')?.value ?? '',
-    hltbRaw: $('#f-hltb-raw')?.value ?? '',
-    status: sOn ? (sOn.dataset.status || '') : '',
-    flags,
-    memberships,
-    links,
-    attachId: modalSlot._attachId || null,
-    presetSeriesSlug: modalSlot._presetSeriesSlug || null
-  };
-  editorDrafts.set(key, snapshot);
+/* DLC editor row helpers */
+function dlcEditRowHTML(d, i){
+  return `
+    <div class="dlc-editor-row" data-dlc-idx="${i}">
+      <div class="dlc-editor-line1">
+        <input type="text" class="dlc-name" placeholder="DLC name" value="${esc(d.name||'')}">
+        <input type="text" class="dlc-release" placeholder="Release" value="${esc(d.release||'')}">
+        <button type="button" class="dlc-played-toggle ${d.played ? 'on' : ''}" title="Toggle played"><span class="icon icon-plus"></span></button>
+        <button type="button" class="dlc-remove" title="Remove">✕</button>
+      </div>
+      <div class="dlc-editor-line2">
+        <input type="text" class="dlc-note" placeholder="Note (optional)" value="${esc(d.note||'')}">
+      </div>
+    </div>`;
+}
+function readDlcFromEditor(){
+  const rows = [...modalSlot.querySelectorAll('.dlc-editor-row')];
+  return rows.map(r => {
+    const name = r.querySelector('.dlc-name').value.trim();
+    const release = r.querySelector('.dlc-release').value.trim();
+    const note = r.querySelector('.dlc-note').value.trim();
+    const played = r.querySelector('.dlc-played-toggle').classList.contains('on');
+    if(!name && !release && !note) return null;
+    return { name: name || 'Unnamed DLC', release, note: note || null, played };
+  }).filter(Boolean);
 }
 
 function openEditor(g, opts){
@@ -2811,7 +2873,7 @@ function openEditor(g, opts){
   draft.flags = Object.assign({ installed:false, ownedSteam:false, localCoop:false, authRequired:false, gamepass:false }, draft.flags || {});
   draft.links = Array.isArray(draft.links) ? draft.links.slice() : [];
   draft.alt_names = Array.isArray(draft.alt_names) ? draft.alt_names.slice() : [];
-  draft.dlc = Array.isArray(draft.dlc) ? draft.dlc.slice() : [];
+  draft.dlc = Array.isArray(draft.dlc) ? draft.dlc.map(d => ({ name:d.name||'', release:d.release||'', played:!!d.played, note:d.note||null })) : [];
   draft.screenshot = draft.screenshot || '';
   draft.logo = draft.logo || '';
 
@@ -2840,6 +2902,8 @@ function openEditor(g, opts){
       <input type="text" class="link-url" value="${esc(l.url||'')}">
       <button type="button" class="remove-link" title="Remove">✕</button>
     </div>`).join('') : '';
+
+  const dlcHTML = draft.dlc.length ? draft.dlc.map((d, i) => dlcEditRowHTML(d, i)).join('') : '';
 
   const derivedId = isNew
     ? deriveGameId(draft.name, draft.release, draft.ea_release, draft.platform)
@@ -2975,7 +3039,7 @@ function openEditor(g, opts){
               <label>Series note</label>
               <input type="text" id="f-series-note" value="${esc(draft.series_note||'')}">
             </div>
-            <div class="field">
+            <div class="field span-2">
               <label>Status</label>
               <div class="status-row" id="status-row">
                 <button type="button" class="status-btn ${statusVal==='done'?'on':''}" data-status="done">Done</button>
@@ -2985,6 +3049,12 @@ function openEditor(g, opts){
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-title">DLC</div>
+          <div class="dlc-editor-list" id="dlc-editor-list">${dlcHTML}</div>
+          <button type="button" class="add-link-btn" id="add-dlc-btn"><span class="icon icon-plus"></span>Add DLC</button>
         </div>
 
         <div class="form-section">
@@ -3168,6 +3238,9 @@ function openEditor(g, opts){
         <input type="text" class="link-url" value="${esc(l.url||'')}">
         <button type="button" class="remove-link" title="Remove">✕</button>
       </div>`).join('');
+    // DLC
+    const dlcHost = $('#dlc-editor-list');
+    dlcHost.innerHTML = (g.dlc || []).map((d, i) => dlcEditRowHTML(d, i)).join('');
     const mem = membershipsOf(id);
     $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = mem.has(cb.dataset.list); cb.closest('.list-cb').classList.toggle('on', cb.checked); });
     idInput.value = id;
@@ -3175,28 +3248,16 @@ function openEditor(g, opts){
     refreshMatches();
   }
 
-  // --- list grid sync ---
+  // --- list grid (no auto-coupling, fully independent) ---
   const listGrid = $('#list-grid');
-  const cbCoop = listGrid.querySelector('input[data-list="coop-beaten"]');
-  const cbBeaten = listGrid.querySelector('input[data-list="beaten"]');
-  function syncCoopBeaten(){
-    if(cbCoop.checked) cbBeaten.checked = true;
-    if(!cbBeaten.checked) cbCoop.checked = false;
+  listGrid.addEventListener('change', e => {
+    const cb = e.target.closest('input[type=checkbox]');
+    if(!cb) return;
     listGrid.querySelectorAll('.list-cb').forEach(lbl => {
       const inp = lbl.querySelector('input');
       lbl.classList.toggle('on', inp.checked);
     });
-  }
-  listGrid.addEventListener('change', e => {
-    const cb = e.target.closest('input[type=checkbox]');
-    if(!cb) return;
-    if(cb === cbCoop || cb === cbBeaten) syncCoopBeaten();
-    else listGrid.querySelectorAll('.list-cb').forEach(lbl => {
-      const inp = lbl.querySelector('input');
-      lbl.classList.toggle('on', inp.checked);
-    });
   });
-  syncCoopBeaten();
 
   [nameInput, releaseInput, eaInput, platformInput].forEach(el => {
     el.addEventListener('input', () => {
@@ -3371,7 +3432,6 @@ function openEditor(g, opts){
     const wasOn = btn.classList.contains('on') && cur;
     statusRow.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
     if(wasOn){
-      // Deselect
       statusRow.querySelector('.status-btn[data-status=""]').classList.add('on');
     } else if(cur){
       btn.classList.add('on');
@@ -3393,17 +3453,50 @@ function openEditor(g, opts){
     if(!e.target.closest('.remove-link')) return;
     e.target.closest('.link-row').remove();
   });
+
+  // DLC editor handlers
+  const dlcList = $('#dlc-editor-list');
+  function bindDlcRow(row){
+    const played = row.querySelector('.dlc-played-toggle');
+    played.addEventListener('click', () => {
+      played.classList.toggle('on');
+      played.innerHTML = played.classList.contains('on') ? '✓' : '<span class="icon icon-plus"></span>';
+    });
+    row.querySelector('.dlc-remove').addEventListener('click', () => row.remove());
+  }
+  [...dlcList.querySelectorAll('.dlc-editor-row')].forEach(bindDlcRow);
+  // Set initial icons correctly for restored DLCs
+  [...dlcList.querySelectorAll('.dlc-editor-row')].forEach(row => {
+    const played = row.querySelector('.dlc-played-toggle');
+    if(played.classList.contains('on')) played.innerHTML = '✓';
+  });
+  $('#add-dlc-btn').addEventListener('click', () => {
+    const row = document.createElement('div');
+    row.className = 'dlc-editor-row';
+    row.innerHTML = `
+      <div class="dlc-editor-line1">
+        <input type="text" class="dlc-name" placeholder="DLC name">
+        <input type="text" class="dlc-release" placeholder="Release">
+        <button type="button" class="dlc-played-toggle" title="Toggle played"><span class="icon icon-plus"></span></button>
+        <button type="button" class="dlc-remove" title="Remove">✕</button>
+      </div>
+      <div class="dlc-editor-line2">
+        <input type="text" class="dlc-note" placeholder="Note (optional)">
+      </div>`;
+    dlcList.appendChild(row);
+    bindDlcRow(row);
+    row.querySelector('.dlc-name').focus();
+  });
+
   $('#parse-go').addEventListener('click', runParse);
   attachPillHandlers();
   if(!isNew) $('#delete-btn').addEventListener('click', () => openConfirmDelete(g));
 
-  // Reset button
   $('#reset-editor-btn').addEventListener('click', () => {
     if(!confirm('Reset the form? Any unsaved edits in this editor will be cleared.')) return;
     editorDrafts.delete(modalSlot._editorKey);
     const base = modalSlot._editorBase;
     const eopts = modalSlot._editorOpts || {};
-    // Reopen fresh
     openEditor(base, eopts);
     const f = modalSlot.querySelector('#f-series');
     if(f && eopts.presetSeries) f.value = eopts.presetSeries;
@@ -3454,7 +3547,7 @@ function openEditor(g, opts){
     }).filter(Boolean);
 
     const altNames = ($('#f-alt').value || '').split(',').map(s => s.trim()).filter(Boolean);
-
+    const dlcEntries = readDlcFromEditor();
     const platform = platformInput.value.trim();
 
     if(mode2 === 'add' && isAttach){
@@ -3475,6 +3568,7 @@ function openEditor(g, opts){
       merged.screenshot = $('#f-screenshot').value.trim();
       merged.logo = $('#f-logo').value.trim();
       merged.links = links;
+      merged.dlc = dlcEntries;
       merged.flags = {
         installed:    $('#flag-row [data-flag="installed"]').classList.contains('on'),
         localCoop:    $('#flag-row [data-flag="localCoop"]').classList.contains('on'),
@@ -3488,9 +3582,7 @@ function openEditor(g, opts){
       merged.series_note = $('#f-series-note').value.trim() || null;
       const before = JSON.stringify(base);
       const after = JSON.stringify(merged);
-      if(before !== after){
-        pendingGameWrites.set(existingId, merged);
-      }
+      if(before !== after){ pendingGameWrites.set(existingId, merged); }
       for(const listId of checkedLists){
         const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
         if(!list.includes(existingId)) list.push(existingId);
@@ -3522,6 +3614,7 @@ function openEditor(g, opts){
       logo: $('#f-logo').value.trim(),
       alt_names: altNames,
       links,
+      dlc: dlcEntries,
       flags: {
         installed:    $('#flag-row [data-flag="installed"]').classList.contains('on'),
         localCoop:    $('#flag-row [data-flag="localCoop"]').classList.contains('on'),
@@ -3614,7 +3707,7 @@ function openEditor(g, opts){
     toast(isNew ? 'Staged new game' : 'Staged changes');
   });
 
-  // ---- Restore stored draft if any ----
+  // Restore stored draft
   const storedDraft = editorDrafts.get(modalSlot._editorKey);
   if(storedDraft){
     idInput.value = storedDraft.id ?? idInput.value;
@@ -3631,7 +3724,6 @@ function openEditor(g, opts){
     $('#f-screenshot').value = storedDraft.screenshot ?? '';
     $('#f-logo').value = storedDraft.logo ?? '';
     $('#f-notes').value = storedDraft.notes ?? '';
-    // HLTB type
     if(storedDraft.hltbType){
       const r = $('#f-hltb-type').querySelector(`input[value="${storedDraft.hltbType}"]`);
       if(r){ r.checked = true; r.dispatchEvent(new Event('change', { bubbles: true })); }
@@ -3639,17 +3731,14 @@ function openEditor(g, opts){
     $('#f-hltb-main').value = storedDraft.hltbMain ?? '';
     $('#f-hltb-extra').value = storedDraft.hltbExtra ?? '';
     $('#f-hltb-raw').value = storedDraft.hltbRaw ?? '';
-    // Previews
     $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
     $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
-    // Flags
     if(storedDraft.flags){
       for(const [k, v] of Object.entries(storedDraft.flags)){
         const b = $('#flag-row').querySelector(`.flag-btn[data-flag="${k}"]`);
         if(b) b.classList.toggle('on', v);
       }
     }
-    // Status
     if(storedDraft.status !== undefined){
       statusRow.querySelectorAll('.status-btn').forEach(b => {
         b.classList.remove('on','rerun','optional');
@@ -3660,7 +3749,6 @@ function openEditor(g, opts){
         }
       });
     }
-    // Memberships
     if(storedDraft.memberships){
       const set = new Set(storedDraft.memberships);
       listGrid.querySelectorAll('input[type=checkbox]').forEach(cb => {
@@ -3668,7 +3756,6 @@ function openEditor(g, opts){
         cb.closest('.list-cb').classList.toggle('on', cb.checked);
       });
     }
-    // Links
     if(storedDraft.links){
       const linksHost = $('#links-list');
       linksHost.innerHTML = storedDraft.links.map((l, i) => `
@@ -3678,12 +3765,22 @@ function openEditor(g, opts){
           <button type="button" class="remove-link" title="Remove">✕</button>
         </div>`).join('');
     }
-    // Attach state
+    if(storedDraft.dlc){
+      const dlcHost = $('#dlc-editor-list');
+      dlcHost.innerHTML = storedDraft.dlc.map((d, i) => dlcEditRowHTML(d, i)).join('');
+      [...dlcHost.querySelectorAll('.dlc-editor-row')].forEach(row => {
+        const played = row.querySelector('.dlc-played-toggle');
+        if(played.classList.contains('on')) played.innerHTML = '✓';
+        played.addEventListener('click', () => {
+          played.classList.toggle('on');
+          played.innerHTML = played.classList.contains('on') ? '✓' : '<span class="icon icon-plus"></span>';
+        });
+        row.querySelector('.dlc-remove').addEventListener('click', () => row.remove());
+      });
+    }
     modalSlot._attachId = storedDraft.attachId || null;
-    // Figure out userEditedId
     const derivedNow = deriveGameId(nameInput.value, releaseInput.value, eaInput.value, platformInput.value);
     userEditedId = (idInput.value !== derivedNow);
-    // Refresh matches display
     refreshMatches();
   } else {
     if(isNew) refreshIdDerived();
@@ -3692,7 +3789,6 @@ function openEditor(g, opts){
 }
 
 function openConfirmDelete(g){
-  // Clear any editor draft for this game since we're deleting it
   editorDrafts.delete(g.id);
   modalSlot._editorKey = null;
   modalSlot.innerHTML = `
@@ -3732,9 +3828,57 @@ function openConfirmDelete(g){
   });
 }
 
+/* DRAFT CAPTURE */
+function captureEditorDraft(key){
+  const fId = modalSlot.querySelector('#f-id');
+  if(!fId) return;
+  const $ = sel => modalSlot.querySelector(sel);
+  const $$ = sel => modalSlot.querySelectorAll(sel);
+  const hltbRadio = $('#f-hltb-type input:checked');
+  const sOn = $('#status-row .status-btn.on');
+  const flags = {};
+  $$('#flag-row .flag-btn').forEach(b => { flags[b.dataset.flag] = b.classList.contains('on'); });
+  const memberships = [...$$('#list-grid input[type=checkbox]')]
+    .filter(cb => cb.checked).map(cb => cb.dataset.list);
+  const links = [...$$('#links-list .link-row')].map(row => ({
+    label: row.querySelector('.link-label').value,
+    url: row.querySelector('.link-url').value
+  }));
+  const dlc = [...$$('#dlc-editor-list .dlc-editor-row')].map(row => ({
+    name: row.querySelector('.dlc-name').value,
+    release: row.querySelector('.dlc-release').value,
+    note: row.querySelector('.dlc-note').value,
+    played: row.querySelector('.dlc-played-toggle').classList.contains('on')
+  }));
+  const snapshot = {
+    id: fId.value,
+    name: $('#f-name')?.value ?? '',
+    alt: $('#f-alt')?.value ?? '',
+    release: $('#f-release')?.value ?? '',
+    eaRelease: $('#f-ea-release')?.value ?? '',
+    platform: $('#f-platform')?.value ?? '',
+    size: $('#f-size')?.value ?? '',
+    dev: $('#f-dev')?.value ?? '',
+    pub: $('#f-pub')?.value ?? '',
+    series: $('#f-series')?.value ?? '',
+    seriesNote: $('#f-series-note')?.value ?? '',
+    screenshot: $('#f-screenshot')?.value ?? '',
+    logo: $('#f-logo')?.value ?? '',
+    notes: $('#f-notes')?.value ?? '',
+    hltbType: hltbRadio ? hltbRadio.value : 'numeric',
+    hltbMain: $('#f-hltb-main')?.value ?? '',
+    hltbExtra: $('#f-hltb-extra')?.value ?? '',
+    hltbRaw: $('#f-hltb-raw')?.value ?? '',
+    status: sOn ? (sOn.dataset.status || '') : '',
+    flags, memberships, links, dlc,
+    attachId: modalSlot._attachId || null,
+    presetSeriesSlug: modalSlot._presetSeriesSlug || null
+  };
+  editorDrafts.set(key, snapshot);
+}
+
 function closeAll(opts){
   opts = opts || {};
-  // Snapshot editor draft if editor was open and we're not saving/resetting
   if(modalSlot._editorKey && !opts.skipSnapshot){
     captureEditorDraft(modalSlot._editorKey);
   }
