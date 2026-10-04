@@ -152,8 +152,9 @@
   .card.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
   .card.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.22)}
   .card.draggable{cursor:grab}
-  .card.dragging{opacity:.35}
-  .card.drop-target{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+  .card.dragging,.rowD.dragging{opacity:.35}
+  .card.drop-target,.rowD.drop-target{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+  .rowD[draggable="true"]{cursor:grab;}
   .shot{width:70%;aspect-ratio:16 / 9;background:#000;flex-shrink:0;position:relative;display:grid;place-items:center;overflow:hidden;}
   .shot img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0;}
   .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
@@ -265,7 +266,7 @@
   #modal-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;max-height:100%;margin:auto;pointer-events:none;}
   #modal-slot > *{pointer-events:auto;}
   .modal-wrap{position:relative;display:flex;align-items:center;gap:1rem;justify-content:center;width:100%;max-width:100%;}
-  .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;width:fit-content;max-width:min(95vw, 1300px);display:flex;flex-direction:column;}
+  .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;width:min(95vw, 1300px);max-width:min(95vw, 1300px);display:flex;flex-direction:column;}
   .modal-hero{position:relative;background:#000;display:grid;place-items:center;overflow:hidden;flex-shrink:0;aspect-ratio:16/9;min-width:640px;}
   .modal-hero img.hero-img{display:block;width:100%;height:100%;object-fit:cover;}
   .modal-hero::before{content:"";position:absolute;left:0;top:0;width:60%;height:65%;background:linear-gradient(to bottom right,rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 65%);pointer-events:none;z-index:1;}
@@ -284,36 +285,35 @@
     display:flex;
     flex-direction:column;
     gap:4px;
-    max-width:48%;
+    width:48%;
     z-index:3;
     pointer-events:none;
-    align-items:flex-start;
+    align-items:stretch;
   }
   .hero-dlc-chip{
-    display:inline-flex;
-    align-items:center;
-    padding:3px 8px;
-    border-radius:5px;
+    display:block;
+    padding:.3rem .6rem;
+    background:rgba(10,13,18,.92);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:6px;
     font-family:var(--font-head);
     font-size:.7rem;
     font-weight:600;
-    letter-spacing:.02em;
+    letter-spacing:.1em;
+    text-transform:uppercase;
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
+    line-height:1;
     max-width:100%;
-    line-height:1.2;
-    backdrop-filter:blur(4px);
-    -webkit-backdrop-filter:blur(4px);
-    background:rgba(8,10,16,.75);
-    border:1px solid rgba(255,255,255,.14);
     color:#c8d1de;
     text-shadow:0 1px 2px rgba(0,0,0,.6);
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter:blur(4px);
   }
   .hero-dlc-chip.played{
-    background:rgba(10,25,15,.75);
-    border-color:rgba(74,222,128,.5);
-    color:#86efac;
+    color:var(--green);
+    border-color:rgba(74,222,128,.45);
   }
   .hero-notes{
     position:absolute;
@@ -459,7 +459,8 @@
   .flag-btn.on[data-flag="ownedSteam"] .lamp{background:var(--steam);box-shadow:0 0 8px var(--steam);}
   .links-list{display:flex;flex-direction:column;gap:.5rem;margin-bottom:.6rem}
   .link-row{display:grid;grid-template-columns:140px 1fr 32px;gap:.5rem;align-items:center;}
-  .link-row input{padding:.5rem .6rem;font-size:.85rem}
+  .link-row input{font-family:var(--font-body);font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.5rem .6rem;outline:none;transition:border-color .18s ease,background .18s ease;width:100%;}
+  .link-row input:focus{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .link-row .remove-link{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;}
   .link-row .remove-link:hover{color:var(--red);border-color:var(--red)}
   .add-link-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px dashed var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;align-self:flex-start;}
@@ -468,8 +469,11 @@
   .dlc-editor-list{display:flex;flex-direction:column;gap:.55rem;margin-bottom:.6rem}
   .dlc-editor-row{display:flex;flex-direction:column;gap:.35rem;padding:.55rem .6rem;background:#0a0e15;border:1px solid var(--border);border-radius:7px;}
   .dlc-editor-line1{display:grid;grid-template-columns:1fr 110px 32px 32px;gap:.5rem;align-items:center;}
-  .dlc-editor-line1 input{padding:.5rem .6rem;font-size:.85rem}
+  .dlc-editor-line1 input{font-family:var(--font-body);font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.5rem .6rem;outline:none;transition:border-color .18s ease,background .18s ease;width:100%;}
+  .dlc-editor-line1 input:focus{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .dlc-editor-line2{display:grid;grid-template-columns:1fr;gap:.4rem;}
+  .dlc-editor-line2 input{font-family:var(--font-body);font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:6px;padding:.5rem .6rem;outline:none;transition:border-color .18s ease,background .18s ease;width:100%;}
+  .dlc-editor-line2 input:focus{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .dlc-played-toggle{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;font-size:.9rem;transition:all .16s ease;}
   .dlc-played-toggle:hover{color:#cbd5e1;border-color:var(--accent-line);}
   .dlc-played-toggle.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
@@ -571,7 +575,6 @@
   .status-btn.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
   .status-btn.on.rerun{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08);}
   .status-btn.on.optional{color:var(--muted);border-color:rgba(125,135,152,.5);background:rgba(125,135,152,.1);}
-  .status-btn.clear{color:var(--muted);border-style:dashed;}
   .tools-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:820px;max-height:92vh;overflow-y:auto;position:relative;}
   .tools-modal::-webkit-scrollbar{width:10px}
   .tools-modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
@@ -703,7 +706,6 @@ const PAGES_BASE   = 'https://thedeusdeceptor.github.io/coopbible/';
 const LBDB_WORKFLOW = 'update-lbdb.yml';
 const LBDB_FILE = 'LBDB/metadata.json';
 const CLOUDINARY_CLOUD = 'nistzwxd';
-const CLOUDINARY_CANVAS = 'https://i.ibb.co/xSsxpFMp/blank.png';
 const STEAM_ICON = 'images/icons/steam.png';
 const GAMEPASS_ICON = 'images/icons/gamepass.png';
 const PLATFORMS_FILE = 'data/platforms.json';
@@ -868,8 +870,7 @@ function logoSrc(url){
   if(/\/images\//.test(u)) return u;
   const b64 = b64url(u);
   return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD +
-    '/image/fetch/l_fetch:' + b64 +
-    ',w_400,h_400,c_limit,g_center/fl_layer_apply/' + CLOUDINARY_CANVAS;
+    '/image/fetch/w_504,h_562,c_limit,f_auto/' + b64;
 }
 function platformLabel(key){
   if(!key) return '';
@@ -989,10 +990,7 @@ const TAG_LABELS = {
 };
 const COOP_TAGS  = new Set(['coop','released','early-access','unreleased','mods','coop-beaten']);
 const VAULT_TAGS = new Set(['single','backlog','gamearchive','mainpc','beaten']);
-
-/* Page tag order (matches tab order) */
 const PAGE_TAG_ORDER = ['released','early-access','unreleased','mods','coop-beaten','backlog','gamearchive','mainpc','beaten'];
-const FLAG_TAG_ORDER = ['installed','localcoop','authrequired','ownedsteam','gamepass'];
 
 function groupsOf(gameId){
   const out = new Set();
@@ -2323,7 +2321,7 @@ function platformBadgeHTML(g){
 function ownedBadgesHTML(g){
   const fl = g.flags || {};
   const badges = [];
-  if(fl.ownedSteam) badges.push(`<span class="icon-badge" title="Owned on Steam"><img src="${STEAM_ICON}" alt="Steam" decoding="async"></span>`);
+  if(fl.ownedSteam) badges.push(`<span class="icon-badge" title="Steam"><img src="${STEAM_ICON}" alt="Steam" decoding="async"></span>`);
   if(fl.gamepass)   badges.push(`<span class="icon-badge" title="Available on GamePass"><img src="${GAMEPASS_ICON}" alt="GamePass" decoding="async"></span>`);
   const pb = platformBadgeHTML(g);
   if(pb) badges.push(pb);
@@ -2376,10 +2374,11 @@ function cardHTML(g, t){
 }
 function beatenRowHTML(g, rank, showRank){
   const pcls = pendingClassFor(g.id);
+  const dragAttr = (sortKey === 'natural' && adminMode) ? ' draggable="true"' : '';
   return `
     <div class="row-wrap${showRank ? '' : ' no-rank'}">
       ${showRank ? `<div class="rank">${rank}</div>` : ''}
-      <div class="rowD${pcls}" data-id="${esc(g.id)}">
+      <div class="rowD${pcls}" data-id="${esc(g.id)}"${dragAttr}>
         ${adminControlsHTML(g.id)}
         <div class="shot-cell">${g.screenshot ? `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" loading="lazy" decoding="async">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}</div>
         <div class="info-cell">
@@ -2612,11 +2611,12 @@ function infoRow(iconClass, label, value, long){
 function modalInfoRows(g, t){
   const rows = [];
   if(t === 'early-access'){
-    rows.push(infoRow('icon-date','EA Started', (g.ea_release && g.ea_release !== '—') ? esc(g.ea_release) : '—'));
-    rows.push(infoRow('icon-date','Release',    (g.release && g.release !== '—') ? esc(g.release) : 'TBA'));
+    if(g.ea_release && g.ea_release !== '—') rows.push(infoRow('icon-date','Early Access', esc(g.ea_release)));
+    if(!rows.length) rows.push(infoRow('icon-date','Early Access', '—'));
   } else if(t === 'unreleased'){
-    rows.push(infoRow('icon-date','Early Release', (g.ea_release && g.ea_release !== '—') ? esc(g.ea_release) : '—'));
-    rows.push(infoRow('icon-date','Release',       (g.release && g.release !== '—') ? esc(g.release) : 'TBA'));
+    if(g.ea_release && g.ea_release !== '—') rows.push(infoRow('icon-date','Early Access', esc(g.ea_release)));
+    if(g.release && g.release !== '—') rows.push(infoRow('icon-date','Release', esc(g.release)));
+    if(!rows.length) rows.push(infoRow('icon-date','Release', 'TBA'));
   } else {
     rows.push(infoRow('icon-date','Released', esc(g.release)));
   }
@@ -2696,6 +2696,8 @@ function applyHeroSize(heroEl){
   if(h < minH){ h = minH; w = h * ratio; }
   heroEl.style.height = Math.round(h) + 'px';
   heroEl.style.width = Math.round(w) + 'px';
+  const modalEl = heroEl.closest('.modal');
+  if(modalEl) modalEl.style.width = Math.round(w) + 'px';
 }
 function recalcHeroSizes(){
   document.querySelectorAll('[data-hero]').forEach(applyHeroSize);
@@ -3045,7 +3047,6 @@ function openEditor(g, opts){
                 <button type="button" class="status-btn ${statusVal==='done'?'on':''}" data-status="done">Done</button>
                 <button type="button" class="status-btn ${statusVal==='rerun'?'on rerun':''}" data-status="rerun">Rerun</button>
                 <button type="button" class="status-btn ${statusVal==='optional'?'on optional':''}" data-status="optional">Optional</button>
-                <button type="button" class="status-btn clear ${!statusVal?'on':''}" data-status="">—</button>
               </div>
             </div>
           </div>
@@ -3104,7 +3105,7 @@ function openEditor(g, opts){
             <button type="button" class="flag-btn ${draft.flags.installed?'on':''}" data-flag="installed"><span class="lamp"></span>Installed</button>
             <button type="button" class="flag-btn ${draft.flags.localCoop?'on':''}" data-flag="localCoop"><span class="lamp"></span>Local Co-op</button>
             <button type="button" class="flag-btn ${draft.flags.authRequired?'on':''}" data-flag="authRequired"><span class="lamp"></span>AUTH</button>
-            <button type="button" class="flag-btn ${draft.flags.ownedSteam?'on':''}" data-flag="ownedSteam"><span class="lamp"></span>On Steam</button>
+            <button type="button" class="flag-btn ${draft.flags.ownedSteam?'on':''}" data-flag="ownedSteam"><span class="lamp"></span>Steam</button>
             <button type="button" class="flag-btn ${draft.flags.gamepass?'on':''}" data-flag="gamepass"><span class="lamp"></span>GamePass</button>
           </div>
         </div>
@@ -3238,9 +3239,17 @@ function openEditor(g, opts){
         <input type="text" class="link-url" value="${esc(l.url||'')}">
         <button type="button" class="remove-link" title="Remove">✕</button>
       </div>`).join('');
-    // DLC
     const dlcHost = $('#dlc-editor-list');
     dlcHost.innerHTML = (g.dlc || []).map((d, i) => dlcEditRowHTML(d, i)).join('');
+    [...dlcHost.querySelectorAll('.dlc-editor-row')].forEach(row => {
+      const played = row.querySelector('.dlc-played-toggle');
+      if(played.classList.contains('on')) played.innerHTML = '✓';
+      played.addEventListener('click', () => {
+        played.classList.toggle('on');
+        played.innerHTML = played.classList.contains('on') ? '✓' : '<span class="icon icon-plus"></span>';
+      });
+      row.querySelector('.dlc-remove').addEventListener('click', () => row.remove());
+    });
     const mem = membershipsOf(id);
     $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = mem.has(cb.dataset.list); cb.closest('.list-cb').classList.toggle('on', cb.checked); });
     idInput.value = id;
@@ -3248,7 +3257,6 @@ function openEditor(g, opts){
     refreshMatches();
   }
 
-  // --- list grid (no auto-coupling, fully independent) ---
   const listGrid = $('#list-grid');
   listGrid.addEventListener('change', e => {
     const cb = e.target.closest('input[type=checkbox]');
@@ -3428,17 +3436,12 @@ function openEditor(g, opts){
   if(statusRow) statusRow.addEventListener('click', e => {
     const btn = e.target.closest('.status-btn');
     if(!btn) return;
-    const cur = btn.dataset.status || '';
-    const wasOn = btn.classList.contains('on') && cur;
+    const wasOn = btn.classList.contains('on');
     statusRow.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
-    if(wasOn){
-      statusRow.querySelector('.status-btn[data-status=""]').classList.add('on');
-    } else if(cur){
+    if(!wasOn){
       btn.classList.add('on');
-      if(cur === 'rerun') btn.classList.add('rerun');
-      if(cur === 'optional') btn.classList.add('optional');
-    } else {
-      btn.classList.add('on');
+      if(btn.dataset.status === 'rerun') btn.classList.add('rerun');
+      if(btn.dataset.status === 'optional') btn.classList.add('optional');
     }
   });
   const linksList = $('#links-list');
@@ -3454,7 +3457,6 @@ function openEditor(g, opts){
     e.target.closest('.link-row').remove();
   });
 
-  // DLC editor handlers
   const dlcList = $('#dlc-editor-list');
   function bindDlcRow(row){
     const played = row.querySelector('.dlc-played-toggle');
@@ -3464,11 +3466,10 @@ function openEditor(g, opts){
     });
     row.querySelector('.dlc-remove').addEventListener('click', () => row.remove());
   }
-  [...dlcList.querySelectorAll('.dlc-editor-row')].forEach(bindDlcRow);
-  // Set initial icons correctly for restored DLCs
   [...dlcList.querySelectorAll('.dlc-editor-row')].forEach(row => {
     const played = row.querySelector('.dlc-played-toggle');
     if(played.classList.contains('on')) played.innerHTML = '✓';
+    bindDlcRow(row);
   });
   $('#add-dlc-btn').addEventListener('click', () => {
     const row = document.createElement('div');
@@ -3707,7 +3708,6 @@ function openEditor(g, opts){
     toast(isNew ? 'Staged new game' : 'Staged changes');
   });
 
-  // Restore stored draft
   const storedDraft = editorDrafts.get(modalSlot._editorKey);
   if(storedDraft){
     idInput.value = storedDraft.id ?? idInput.value;
@@ -4552,11 +4552,11 @@ contentEl.addEventListener('dragstart', e => {
     e.dataTransfer.effectAllowed = 'move';
     return;
   }
-  const card = e.target.closest('.card');
-  if(!card) return;
+  const draggable = e.target.closest('.card, .rowD');
+  if(!draggable) return;
   if(!adminMode || sortKey !== 'natural'){ e.preventDefault(); return; }
-  dragSrcId = card.dataset.id;
-  card.classList.add('dragging');
+  dragSrcId = draggable.dataset.id;
+  draggable.classList.add('dragging');
   e.dataTransfer.effectAllowed = 'move';
 });
 contentEl.addEventListener('dragover', e => {
@@ -4572,19 +4572,19 @@ contentEl.addEventListener('dragover', e => {
     sRow.classList.add('drag-over');
     return;
   }
-  const card = e.target.closest('.card');
-  if(!card || !dragSrcId) return;
-  if(card.dataset.id === dragSrcId) return;
+  const draggable = e.target.closest('.card, .rowD');
+  if(!draggable || !dragSrcId) return;
+  if(draggable.dataset.id === dragSrcId) return;
   e.preventDefault();
-  card.classList.add('drop-target');
+  draggable.classList.add('drop-target');
 });
 contentEl.addEventListener('dragleave', e => {
   const block = e.target.closest('.series-block');
   if(block) block.classList.remove('drag-over');
   const sRow = e.target.closest('.series-game-row');
   if(sRow) sRow.classList.remove('drag-over');
-  const card = e.target.closest('.card');
-  if(card) card.classList.remove('drop-target');
+  const draggable = e.target.closest('.card, .rowD');
+  if(draggable) draggable.classList.remove('drop-target');
 });
 contentEl.addEventListener('drop', e => {
   const block = e.target.closest('.series-block');
@@ -4634,11 +4634,11 @@ contentEl.addEventListener('drop', e => {
     dragSrcRow = null;
     return;
   }
-  const card = e.target.closest('.card');
-  if(!card || !dragSrcId) return;
+  const draggable = e.target.closest('.card, .rowD');
+  if(!draggable || !dragSrcId) return;
   e.preventDefault();
-  card.classList.remove('drop-target');
-  const targetId = card.dataset.id;
+  draggable.classList.remove('drop-target');
+  const targetId = draggable.dataset.id;
   if(targetId === dragSrcId) return;
   const list = (pendingListWrites.get(tab) || MANIFEST.lists[tab] || []).slice();
   const fromIdx = list.indexOf(dragSrcId);
@@ -4652,7 +4652,7 @@ contentEl.addEventListener('drop', e => {
   renderContent();
 });
 contentEl.addEventListener('dragend', () => {
-  contentEl.querySelectorAll('.card.dragging, .card.drop-target, .series-block.drag-over, .series-game-row.drag-over, .series-game-row.dragging').forEach(c => c.classList.remove('dragging','drop-target','drag-over'));
+  contentEl.querySelectorAll('.dragging, .drop-target, .drag-over').forEach(c => c.classList.remove('dragging','drop-target','drag-over'));
   dragSrcId = null;
   dragSrcSeries = null;
   dragSrcRow = null;
