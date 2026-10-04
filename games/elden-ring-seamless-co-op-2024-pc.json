@@ -1,0 +1,32 @@
+{
+  "id": "elden-ring-seamless-co-op-2024-pc",
+  "name": "Elden Ring Seamless Co-op",
+  "platform": "PC",
+  "size": "100 GB",
+  "hltb": "Main: 50, +Extra: 80",
+  "dev": "assdummy",
+  "pub": "lui",
+  "notes": "",
+  "release": "01.01.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/elden-ring-seamless-co-op-2024-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/27a2204eccce28480215e5e8c6d11be7.png",
+  "links": [
+    {
+      "label": "stupid ass",
+      "url": "website"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
