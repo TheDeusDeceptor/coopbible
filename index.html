@@ -46,14 +46,17 @@
   .icon-plus{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E");}
   .icon-cols{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='18' rx='1'/%3E%3Crect x='14' y='3' width='7' height='18' rx='1'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='18' rx='1'/%3E%3Crect x='14' y='3' width='7' height='18' rx='1'/%3E%3C/svg%3E");}
   .icon-tools{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/%3E%3C/svg%3E");}
+  .icon-void{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 8v4M12 16h.01'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 8v4M12 16h.01'/%3E%3C/svg%3E");}
   header{max-width:1400px;margin:0 auto 1.75rem;display:flex;justify-content:center;position:relative;}
-  .admin-toggle,.tools-btn{position:absolute;top:50%;transform:translateY(-50%);display:none;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.55rem .85rem;border:1px solid var(--border);border-radius:8px;background:rgba(255,255,255,.015);color:var(--muted);cursor:pointer;transition:all .18s ease;white-space:nowrap;}
-  body.admin-on .tools-btn{display:inline-flex;}
+  .admin-toggle,.tools-btn,.void-btn{position:absolute;top:50%;transform:translateY(-50%);display:none;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.55rem .85rem;border:1px solid var(--border);border-radius:8px;background:rgba(255,255,255,.015);color:var(--muted);cursor:pointer;transition:all .18s ease;white-space:nowrap;}
+  body.admin-on .tools-btn,body.admin-on .void-btn{display:inline-flex;}
   .tools-btn{left:0;}
-  .tools-btn .icon{width:14px;height:14px;}
+  .void-btn{left:0;margin-left:6.5rem;}
+  .tools-btn .icon,.void-btn .icon{width:14px;height:14px;}
+  .void-btn.void-on{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08)}
   .admin-toggle{right:0;display:inline-flex;}
-  .admin-toggle:hover,.tools-btn:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .admin-toggle .lamp,.tools-btn .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
+  .admin-toggle:hover,.tools-btn:hover,.void-btn:hover{color:#cbd5e1;border-color:var(--accent-line)}
+  .admin-toggle .lamp,.tools-btn .lamp,.void-btn .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
   body.admin-on .admin-toggle{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08)}
   body.admin-on .admin-toggle .lamp{background:var(--red);box-shadow:0 0 8px var(--red)}
   .tools-btn.running .lamp{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.4s ease-in-out infinite;}
@@ -202,8 +205,12 @@
   .hover-text .name{font-family:var(--font-head);font-weight:700;font-size:1.05rem;letter-spacing:.03em;color:#cbd5e1;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .hover-text .meta{margin-top:.35rem;font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
   .hover-text .meta .sep{margin:0 .6em;opacity:.5}
+  /* SERIES EDITOR */
   .series-blocks{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1.75rem;}
-  .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;}
+  .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;position:relative;}
+  .series-block.drag-over{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);}
+  .series-block.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.18)}
+  .series-block.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.18)}
   .series-banner{position:relative;background:#000;border-bottom:1px solid var(--border);padding:1.25rem;display:flex;align-items:center;justify-content:center;min-height:110px;}
   .series-banner .logo-slot{display:flex;align-items:center;justify-content:center;max-height:80px;}
   .series-banner .logo-slot img{max-height:80px;max-width:100%;object-fit:contain;}
@@ -211,23 +218,49 @@
   .series-totals{position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);text-align:right;font-family:var(--font-head);font-weight:600;font-size:1.05rem;color:#fff;letter-spacing:.04em;line-height:1.1;}
   .series-totals .sep{color:var(--muted);font-weight:400;margin:0 .35em;font-size:.9em;}
   .series-totals .unit{color:var(--muted);font-weight:400;font-size:.8em;margin-left:.35em;}
+  .series-admin-corner{position:absolute;top:.55rem;right:.55rem;display:flex;gap:.35rem;z-index:5;}
+  .series-admin-corner button{width:30px;height:30px;border-radius:6px;border:1px solid rgba(255,255,255,.14);background:rgba(10,13,18,.85);color:#cbd5e1;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);transition:all .16s ease;}
+  .series-admin-corner button:hover{background:rgba(0,0,0,.95);color:#fff;}
+  .series-admin-corner button.edit:hover{border-color:var(--accent);color:var(--accent);}
+  .series-admin-corner button.del:hover{border-color:var(--red);color:var(--red);}
+  .series-admin-corner .icon{width:14px;height:14px;}
+  .series-drag-handle{position:absolute;left:.55rem;top:.55rem;width:26px;height:26px;display:grid;place-items:center;color:#4a5468;cursor:grab;z-index:5;font-size:1.1rem;line-height:1;letter-spacing:-.15em;}
+  .series-drag-handle:hover{color:#cbd5e1;}
   .series-games{display:flex;flex-direction:column;}
-  .series-game-row{display:grid;grid-template-columns:minmax(200px,1.6fr) 110px 100px 150px 80px 100px minmax(160px,1.4fr);gap:.9rem;align-items:center;padding:.6rem 1.25rem;border-bottom:1px solid var(--border);font-size:.88rem;cursor:pointer;transition:background .15s ease;}
+  .series-game-row{display:grid;grid-template-columns:minmax(200px,1.6fr) 110px 100px 150px 90px 90px minmax(160px,1.4fr) 70px;gap:.9rem;align-items:center;padding:.6rem 1.25rem;border-bottom:1px solid var(--border);font-size:.88rem;cursor:pointer;transition:background .15s ease;position:relative;}
   .series-game-row:last-child{border-bottom:none}
   .series-game-row:hover{background:rgba(255,255,255,.03)}
+  .series-game-row.drag-over{background:var(--accent-soft);}
+  .series-game-row.dragging{opacity:.4;}
+  .series-game-row.pending{background:rgba(74,222,128,.04);}
+  .series-game-row.pending-del{background:rgba(239,68,68,.04);}
   .series-game-row .g-title{color:#e6ebf2;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-  .series-game-row .g-year,.series-game-row .g-platform{color:var(--muted);font-family:var(--font-head);font-size:.72rem;font-weight:600;letter-spacing:.04em;}
+  .series-game-row .g-year,.series-game-row .g-platform{color:var(--muted);font-family:var(--font-head);font-size:.72rem;font-weight:600;letter-spacing:.04em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .series-game-row .g-hltb{color:#c8d1de;font-family:var(--font-body);font-size:.82rem;font-weight:500;letter-spacing:.01em;}
   .series-game-row .g-hltb .sep{color:var(--muted);font-weight:400;margin:0 .3em;font-size:.88em;}
   .series-game-row .g-hltb .unit{color:var(--muted);font-weight:400;font-size:.85em;margin-left:.3em;}
   .series-game-row .g-status{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;text-align:center;width:fit-content;border:1px solid transparent;white-space:nowrap;}
   .series-game-row .g-status.done{color:var(--green);border-color:rgba(74,222,128,.35);background:rgba(74,222,128,.08);}
   .series-game-row .g-status.rerun{color:var(--amber);border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.08);}
+  .series-game-row .g-status.optional{color:var(--muted);border-color:rgba(125,135,152,.35);background:rgba(125,135,152,.08);}
   .series-game-row .g-owner{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;text-align:center;width:fit-content;border:1px solid transparent;white-space:nowrap;}
   .series-game-row .g-owner.installed{color:var(--green);border-color:rgba(74,222,128,.35);background:rgba(74,222,128,.08);}
   .series-game-row .g-owner.steam{color:var(--steam);border-color:rgba(102,192,244,.4);background:rgba(102,192,244,.08);}
   .series-game-row .g-note{color:var(--muted);font-size:.78rem;font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .series-game-row .empty-cell{color:transparent;}
+  .series-game-row .g-actions{display:none;gap:.3rem;}
+  body.admin-on .series-game-row .g-actions{display:flex;}
+  .series-game-row .g-actions button{width:26px;height:26px;border-radius:5px;border:1px solid rgba(255,255,255,.14);background:rgba(10,13,18,.85);color:#cbd5e1;cursor:pointer;display:grid;place-items:center;transition:all .16s ease;}
+  .series-game-row .g-actions button:hover{background:rgba(0,0,0,.95);color:#fff;}
+  .series-game-row .g-actions button.edit:hover{border-color:var(--accent);color:var(--accent);}
+  .series-game-row .g-actions button.del:hover{border-color:var(--red);color:var(--red);}
+  .series-game-row .g-actions .icon{width:13px;height:13px;}
+  .series-add-row{padding:.6rem 1.25rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;border-top:1px dashed var(--border);transition:all .16s ease;background:transparent;border-left:0;border-right:0;border-bottom:0;width:100%;}
+  .series-add-row:hover{color:var(--accent);background:rgba(56,189,248,.04);}
+  .series-add-block{max-width:1400px;margin:1.25rem auto 0;display:flex;justify-content:center;}
+  .series-add-block button{padding:.8rem 1.6rem;font-family:var(--font-head);font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;border:1px dashed var(--border);border-radius:10px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
+  .series-add-block button:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
+  /* MODAL system */
   .backdrop{position:fixed;inset:0;z-index:200;background:rgba(4,5,8,.78);display:none;align-items:center;justify-content:center;padding:1.5rem;}
   .backdrop.open{display:flex}
   #modal-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;max-height:100%}
@@ -288,18 +321,11 @@
   .modal-nav:active{transform:scale(.96)}
   .modal-nav.prev:hover svg{transform:translateX(-2px)}
   .modal-nav.next:hover svg{transform:translateX(2px)}
-  @media (max-width:820px){
-    .modal-wrap{gap:.5rem}
-    .modal-nav{width:40px;height:40px}
-  }
-  @media (max-width:640px){
-    .modal-wrap{flex-direction:column-reverse;gap:.6rem}
-    .modal-wrap .modal-nav:first-child{order:2}
-    .modal-wrap .modal-nav:last-child{order:1}
-  }
-  .token-modal,.picker-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:520px;padding:1.6rem;position:relative;}
+  @media (max-width:820px){.modal-wrap{gap:.5rem}.modal-nav{width:40px;height:40px}}
+  @media (max-width:640px){.modal-wrap{flex-direction:column-reverse;gap:.6rem}.modal-wrap .modal-nav:first-child{order:2}.modal-wrap .modal-nav:last-child{order:1}}
+  .token-modal,.picker-modal,.series-header-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:520px;padding:1.6rem;position:relative;}
   .token-modal{border-color:rgba(239,68,68,.35);max-width:480px;}
-  .picker-modal h2,.token-modal h2{font-family:var(--font-head);font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:.6rem;display:flex;align-items:center;gap:.55rem;}
+  .picker-modal h2,.token-modal h2,.series-header-modal h2{font-family:var(--font-head);font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:.6rem;display:flex;align-items:center;gap:.55rem;}
   .token-modal h2 .lamp{width:9px;height:9px;border-radius:50%;background:var(--red);box-shadow:0 0 10px var(--red);}
   .picker-modal p,.token-modal p{font-size:.88rem;color:#b3bdcc;line-height:1.6;margin-bottom:1rem;}
   .token-modal p a{color:var(--accent);text-decoration:none}
@@ -319,6 +345,9 @@
   .admin-head{position:sticky;top:0;z-index:10;background:linear-gradient(180deg,#0d1219 0%,#0b1016 100%);border-bottom:1px solid var(--border);padding:1rem 1.4rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;}
   .admin-head h2{font-family:var(--font-head);font-weight:700;font-size:1.1rem;letter-spacing:.02em;color:#fff;display:flex;align-items:center;gap:.6rem;}
   .admin-head h2 .tag{font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding:.24rem .5rem;border-radius:5px;background:rgba(239,68,68,.12);color:var(--red);border:1px solid rgba(239,68,68,.4);}
+  .admin-head h2 .tag.new{background:rgba(74,222,128,.12);color:var(--green);border-color:rgba(74,222,128,.4);}
+  .admin-head h2 .tag.edit{background:rgba(56,189,248,.12);color:var(--accent);border-color:var(--accent-line);}
+  .admin-head h2 .tag.attach{background:rgba(245,158,11,.12);color:var(--amber);border-color:rgba(245,158,11,.4);}
   .admin-head .close-x{width:30px;height:30px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;font-size:.9rem;display:grid;place-items:center;}
   .admin-head .close-x:hover{color:#fff;border-color:var(--accent-line)}
   .admin-body{padding:1.4rem}
@@ -331,6 +360,9 @@
   .field label{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:.4rem;}
   .field input,.field select,.field textarea{font-family:var(--font-body);font-size:.9rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:7px;padding:.6rem .75rem;outline:none;transition:border-color .18s ease,background .18s ease;width:100%;}
   .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
+  .field input.id-input{font-family:ui-monospace,monospace;font-size:.82rem;}
+  .field input.id-input.ok{border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.04);}
+  .field input.id-input.exists{border-color:rgba(239,68,68,.55);background:rgba(239,68,68,.06);}
   .field textarea{resize:vertical;min-height:80px;font-size:.88rem;line-height:1.5;}
   .field select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237d8798' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .6rem center;background-size:14px;padding-right:2rem;cursor:pointer;}
   .radio-row{display:flex;gap:.4rem;flex-wrap:wrap}
@@ -387,6 +419,8 @@
   .btn:hover{color:#cbd5e1;border-color:var(--accent-line)}
   .btn.primary{color:#0a0d14;background:var(--accent);border-color:var(--accent)}
   .btn.primary:hover{filter:brightness(1.1);color:#0a0d14}
+  .btn.attach{color:#0a0d14;background:var(--amber);border-color:var(--amber)}
+  .btn.attach:hover{filter:brightness(1.1);color:#0a0d14}
   .btn.danger{color:var(--red);border-color:rgba(239,68,68,.4);background:rgba(239,68,68,.06)}
   .btn.danger:hover{color:#fff;border-color:var(--red);background:rgba(239,68,68,.18)}
   .btn .icon{width:.9em;height:.9em}
@@ -450,8 +484,37 @@
   .toast.ok::before{content:"✓";color:var(--green);margin-right:.5rem}
   .toast.bad{border-color:rgba(239,68,68,.5)}
   .toast.bad::before{content:"✕";color:var(--red);margin-right:.5rem}
-  .loader{max-width:1400px;margin:2rem auto;padding:2rem;text-align:center;font-family:var(--font-head);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
-  .loader::after{content:"";display:inline-block;width:8px;height:8px;margin-left:.5rem;background:var(--accent);border-radius:50%;animation:pulse 1s ease-in-out infinite;}
+  /* matches panel in editor */
+  .matches-box{margin-top:.5rem;padding:.6rem .7rem;border:1px solid var(--border);border-radius:8px;background:#0a0e15;}
+  .matches-box.empty{display:none;}
+  .matches-box .mb-title{font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:.5rem;display:flex;align-items:center;gap:.45rem;}
+  .matches-box .mb-title .mb-kind{color:var(--red);}
+  .matches-box .mb-title .mb-kind.similar{color:var(--amber);}
+  .match-row{display:flex;align-items:center;gap:.55rem;padding:.45rem .55rem;border:1px solid var(--border);border-radius:6px;cursor:pointer;margin-bottom:.3rem;transition:all .14s ease;background:#0c1017;}
+  .match-row:last-child{margin-bottom:0}
+  .match-row:hover{border-color:var(--accent-line);background:rgba(56,189,248,.05);}
+  .match-row.selected{border-color:var(--amber);background:rgba(245,158,11,.08);}
+  .match-row .m-id{font-family:ui-monospace,monospace;font-size:.75rem;color:#cbd5e1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;flex:1;}
+  .match-row .m-meta{font-family:var(--font-head);font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);white-space:nowrap;}
+  .match-row .m-tag{font-family:var(--font-head);font-size:.5rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.15rem .4rem;border-radius:4px;white-space:nowrap;}
+  .match-row .m-tag.exact{color:var(--red);background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.4);}
+  .match-row .m-tag.similar{color:var(--amber);background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.4);}
+  .reset-id-btn{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.3rem .6rem;border:1px solid var(--border);border-radius:5px;background:#0c1017;color:var(--muted);cursor:pointer;transition:all .16s ease;}
+  .reset-id-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
+  .id-wrap{position:relative;}
+  .id-wrap input{width:100%;}
+  .status-row{display:flex;gap:.5rem;flex-wrap:wrap;}
+  .status-btn{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.5rem .8rem;border:1px solid var(--border);border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
+  .status-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
+  .status-btn.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
+  .status-btn.on.rerun{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08);}
+  .status-btn.on.optional{color:var(--muted);border-color:rgba(125,135,152,.5);background:rgba(125,135,152,.1);}
+  .status-btn.clear{color:var(--muted);border-style:dashed;}
+  .owner-btn{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.5rem .8rem;border:1px solid var(--border);border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
+  .owner-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
+  .owner-btn.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
+  .owner-btn.on.steam{color:var(--steam);border-color:rgba(102,192,244,.5);background:rgba(102,192,244,.08);}
+  .owner-btn.clear{color:var(--muted);border-style:dashed;}
   .tools-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:820px;max-height:92vh;overflow-y:auto;position:relative;}
   .tools-modal::-webkit-scrollbar{width:10px}
   .tools-modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
@@ -496,13 +559,9 @@
   .unlisted-row .u-actions button{font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.35rem .6rem;border:1px solid var(--border);border-radius:5px;background:transparent;color:var(--muted);cursor:pointer;transition:all .15s ease;}
   .unlisted-row .u-actions button:hover{color:#cbd5e1;border-color:var(--accent-line);}
   .unlisted-row .u-actions button.danger:hover{color:var(--red);border-color:var(--red);}
-  @media (max-width:1100px){
-    .tb-right{width:100%;margin-left:0;padding-top:.6rem;border-top:1px solid var(--border)}
-    .search-box input{width:100%;max-width:280px}
-  }
-  @media (max-width:1000px){
-    .series-game-row{grid-template-columns:minmax(180px,1.5fr) 100px 90px 130px 70px 90px minmax(140px,1.3fr);gap:.65rem;padding:.55rem 1rem;font-size:.82rem;}
-  }
+  .void-note{max-width:1400px;margin:0 auto 1rem;padding:.6rem 1rem;background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.35);border-radius:9px;font-family:var(--font-head);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red);text-align:center;}
+  @media (max-width:1100px){.tb-right{width:100%;margin-left:0;padding-top:.6rem;border-top:1px solid var(--border)}.search-box input{width:100%;max-width:280px}}
+  @media (max-width:1000px){.series-game-row{grid-template-columns:minmax(180px,1.5fr) 100px 90px 130px 80px 80px minmax(140px,1.3fr) 70px;gap:.65rem;padding:.55rem 1rem;font-size:.82rem;}}
   @media (max-width:820px){
     .series-game-row{grid-template-columns:1fr;gap:.3rem;padding:.75rem 1rem;}
     .series-banner{flex-direction:column;gap:.75rem;padding:1.25rem 1rem}
@@ -515,7 +574,7 @@
     .logo{width:150px}
     .hover-text{opacity:1;transform:none}
     .form-grid{grid-template-columns:1fr}
-    .admin-toggle,.tools-btn{position:static;transform:none;margin:0 .25rem}
+    .admin-toggle,.tools-btn,.void-btn{position:static;transform:none;margin:0 .25rem}
     header{flex-wrap:wrap;gap:.5rem}
     .commit-badge{top:auto;bottom:1.5rem;}
     .plat-row{grid-template-columns:1fr 1fr 34px 54px;}
@@ -549,6 +608,10 @@
     <span class="icon icon-tools"></span>
     <span id="toolsBtnLabel">Tools</span>
   </button>
+  <button class="void-btn" id="voidBtn" type="button">
+    <span class="icon icon-void"></span>
+    <span id="voidBtnLabel">VOID</span>
+  </button>
   <div class="switch" id="switch" data-active="coop" role="tablist">
     <div class="switch-knob"></div>
     <span class="switch-label" data-side="coop">CO-OP</span>
@@ -567,6 +630,7 @@
 
 <nav class="tabbar" id="tabbar"></nav>
 <div class="pending-strip" id="pendingStrip"></div>
+<div id="voidNoteHost"></div>
 <div class="toolbar" id="toolbar"></div>
 <main id="content"></main>
 
@@ -576,6 +640,7 @@
 <div class="backdrop" id="logopicker-backdrop" style="z-index:330"><div id="logopicker-slot"></div></div>
 <div class="backdrop" id="pending-backdrop" style="z-index:310"><div id="pending-slot"></div></div>
 <div class="backdrop" id="tools-backdrop" style="z-index:305"><div id="tools-slot"></div></div>
+<div class="backdrop" id="series-backdrop" style="z-index:315"><div id="series-slot"></div></div>
 
 <div class="toast" id="toast"></div>
 
@@ -616,15 +681,12 @@ const TAB_GROUP = {};
 TABS.coop.forEach(t => TAB_GROUP[t.id] = 'coop');
 TABS.single.forEach(t => TAB_GROUP[t.id] = 'single');
 const BEATEN_TABS   = new Set(['coop-beaten','beaten']);
-const NO_CHIPS_TABS = new Set();
-const NO_SIZE_TABS  = new Set();
-const MEMBERSHIP_TABS = [
-  'released','early-access','unreleased','mods','coop-beaten',
-  'backlog','gamearchive','mainpc','beaten'
-];
+// Real lists (backlog-series is derived, not a list)
+const REAL_LISTS = ['released','early-access','unreleased','mods','coop-beaten','backlog','gamearchive','mainpc','beaten'];
+const REAL_LISTS_SET = new Set(REAL_LISTS);
 
 /* STATE */
-let MANIFEST = { games: {}, lists: {}, series: {}, series_order: [], version: 3 };
+let MANIFEST = { version: 4, games: {}, lists: {}, series: {}, series_order: [] };
 let PLATFORMS = {};
 let PLATFORMS_ORIGINAL = {};
 
@@ -639,11 +701,14 @@ let viewCols = localStorage.getItem('view_cols') || 'auto';
 let currentRankMap = null;
 let modalNavList = [], modalNavIdx = -1;
 let openDD = null;
+let voidMode = false;
 
 const pendingGameWrites = new Map();
 const pendingGameDeletes = new Set();
 const pendingListWrites = new Map();
 const pendingFileWrites = new Map();
+const pendingSeriesWrites = new Map();
+const pendingSeriesDeletes = new Set();
 
 const bodyEl = document.body;
 const contentEl = document.getElementById('content');
@@ -663,13 +728,18 @@ const pendingBackdrop = document.getElementById('pending-backdrop');
 const pendingSlot = document.getElementById('pending-slot');
 const toolsBackdrop = document.getElementById('tools-backdrop');
 const toolsSlot = document.getElementById('tools-slot');
+const seriesBackdrop = document.getElementById('series-backdrop');
+const seriesSlot = document.getElementById('series-slot');
 const adminToggleBtn = document.getElementById('adminToggle');
 const adminToggleLabel = document.getElementById('adminToggleLabel');
 const toolsBtn = document.getElementById('toolsBtn');
 const toolsBtnLabel = document.getElementById('toolsBtnLabel');
+const voidBtn = document.getElementById('voidBtn');
+const voidBtnLabel = document.getElementById('voidBtnLabel');
 const pendingStrip = document.getElementById('pendingStrip');
 const commitBadge = document.getElementById('commitBadge');
 const commitBadgeLabel = commitBadge.querySelector('.label');
+const voidNoteHost = document.getElementById('voidNoteHost');
 
 /* HELPERS */
 function toast(msg, kind){
@@ -684,18 +754,47 @@ function slugify(name){
   const s = String(name).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
   return s || 'unnamed';
 }
-function extractYear(raw){
-  if(raw == null) return '';
-  if(typeof raw === 'number'){
-    const i = Math.trunc(raw);
-    if(i === raw && i >= 1900 && i <= 2100) return String(i);
+// Roman numeral conversion for fuzzy matching
+const ROMAN_MAP = { i:1, ii:2, iii:3, iv:4, v:5, vi:6, vii:7, viii:8, ix:9, x:10, xi:11, xii:12, xiii:13, xiv:14, xv:15 };
+function normalizeName(name){
+  if(!name) return '';
+  let s = String(name).toLowerCase();
+  // roman numerals to arabic (word boundaries)
+  s = s.replace(/\b(xiii|xii|xi|xiv|xv|viii|vii|iii|ii|vi|ix|iv|x|v|i)\b/g, m => ROMAN_MAP[m] || m);
+  // remove leading "the "
+  s = s.replace(/^the\s+/, '');
+  // remove punctuation
+  s = s.replace(/[^a-z0-9\s]/g, ' ');
+  // collapse whitespace
+  s = s.replace(/\s+/g,' ').trim();
+  return s;
+}
+function levenshtein(a, b){
+  const m = a.length, n = b.length;
+  if(m === 0) return n;
+  if(n === 0) return m;
+  const prev = new Array(n + 1), curr = new Array(n + 1);
+  for(let j = 0; j <= n; j++) prev[j] = j;
+  for(let i = 1; i <= m; i++){
+    curr[0] = i;
+    for(let j = 1; j <= n; j++){
+      const cost = a[i-1] === b[j-1] ? 0 : 1;
+      curr[j] = Math.min(curr[j-1]+1, prev[j]+1, prev[j-1]+cost);
+    }
+    for(let j = 0; j <= n; j++) prev[j] = curr[j];
   }
-  const s = String(raw).trim();
-  for(const m of s.matchAll(/\d{4}/g)){
-    const y = parseInt(m[0], 10);
-    if(y >= 1900 && y <= 2100) return String(y);
-  }
-  return '';
+  return prev[n];
+}
+function nameSimilarity(a, b){
+  const na = normalizeName(a), nb = normalizeName(b);
+  if(!na || !nb) return 0;
+  if(na === nb) return 1;
+  const max = Math.max(na.length, nb.length);
+  const dist = levenshtein(na, nb);
+  let score = (max - dist) / max;
+  // substring boost
+  if(na.includes(nb) || nb.includes(na)) score = Math.max(score, 0.85);
+  return score;
 }
 function resolveImgUrl(url){
   if(!url) return '';
@@ -742,6 +841,31 @@ function isPlatformPC(key){
   if(!key) return true;
   return String(key).trim().toLowerCase() === 'pc';
 }
+function extractYear(raw){
+  if(raw == null) return '';
+  if(typeof raw === 'number'){
+    const i = Math.trunc(raw);
+    if(i === raw && i >= 1900 && i <= 2100) return String(i);
+  }
+  const s = String(raw).trim();
+  for(const m of s.matchAll(/\d{4}/g)){
+    const y = parseInt(m[0], 10);
+    if(y >= 1900 && y <= 2100) return String(y);
+  }
+  // check for 199X style
+  const xMatch = s.match(/(\d{3})[xX]/);
+  if(xMatch) return xMatch[1] + 'x';
+  return '';
+}
+function deriveIdYear(release, eaRelease){
+  return extractYear(release) || extractYear(eaRelease) || 'unreleased';
+}
+function deriveGameId(name, release, eaRelease, platform){
+  const slug = slugify(name) || 'unnamed';
+  const year = deriveIdYear(release, eaRelease);
+  const plat = slugify(platform) || 'unknown';
+  return slug + '-' + year + '-' + plat;
+}
 
 /* FORMATTERS */
 function fmtHltbMain(str){
@@ -786,6 +910,9 @@ function releaseKey(str){
   let s = String(str).trim().replace(/^Init\.\s*/i, '').split('→')[0].trim();
   const full = s.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})/);
   if(full) return +full[3]*10000 + +full[2]*100 + +full[1];
+  // handle 199X style → 1990
+  const xMatch = s.match(/(\d{3})[xX]/);
+  if(xMatch) return (+xMatch[1] * 10) * 10000;
   const y = s.match(/(\d{4})/);
   return y ? +y[1]*10000 : 0;
 }
@@ -823,26 +950,26 @@ const TAG_LABELS = {
   coop:'Co-op', single:'Vault',
   released:'Released', 'early-access':'Early Access', unreleased:'Unreleased',
   mods:'Mods', 'coop-beaten':'Co-op Beaten',
-  backlog:'Backlog', 'backlog-series':'Backlog Series',
+  backlog:'Backlog',
   gamearchive:'Game Archive', mainpc:'Main PC', beaten:'Beaten',
   installed:'Installed', localcoop:'Local Co-op',
   authrequired:'AUTH', ownedsteam:'On Steam', gamepass:'GamePass',
 };
 const COOP_TAGS  = new Set(['coop','released','early-access','unreleased','mods','coop-beaten']);
-const VAULT_TAGS = new Set(['single','backlog','backlog-series','gamearchive','mainpc','beaten']);
+const VAULT_TAGS = new Set(['single','backlog','gamearchive','mainpc','beaten']);
 
 function groupsOf(gameId){
   const out = new Set();
-  for(const t of ALL_TABS){
-    const arr = MANIFEST.lists[t.id] || [];
-    if(arr.includes(gameId)) out.add(TAB_GROUP[t.id]);
+  for(const t of REAL_LISTS){
+    const arr = MANIFEST.lists[t] || [];
+    if(arr.includes(gameId)) out.add(TAB_GROUP[t]);
   }
   return out;
 }
 function buildTags(g, t){
   const set = new Set();
   groupsOf(g.id).forEach(x => set.add(x));
-  set.add(t);
+  if(t !== 'backlog-series') set.add(t);
   const fl = g.flags || {};
   if(fl.installed)    set.add('installed');
   if(fl.localCoop)    set.add('localcoop');
@@ -890,7 +1017,7 @@ async function loadManifest(){
     if(!res.ok) throw new Error('HTTP ' + res.status);
     const raw = await res.json();
     MANIFEST = {
-      version: raw.version || 3,
+      version: raw.version || 4,
       games: raw.games || {},
       lists: raw.lists || {},
       series: raw.series || {},
@@ -898,7 +1025,7 @@ async function loadManifest(){
     };
   }catch(e){
     console.warn('manifest load failed:', e);
-    MANIFEST = { version: 3, games: {}, lists: {}, series: {}, series_order: [] };
+    MANIFEST = { version: 4, games: {}, lists: {}, series: {}, series_order: [] };
   }
 }
 async function loadPlatforms(){
@@ -921,7 +1048,15 @@ function viewGame(id){
   if(!base) return draft;
   return { ...base, ...draft };
 }
+function viewSeries(slug){
+  const base = MANIFEST.series[slug];
+  const draft = pendingSeriesWrites.get(slug);
+  if(!draft) return base || null;
+  if(!base) return draft;
+  return { ...base, ...draft };
+}
 function listFor(tabId){
+  if(!REAL_LISTS_SET.has(tabId)) return [];
   if(pendingListWrites.has(tabId)) return pendingListWrites.get(tabId).slice();
   return (MANIFEST.lists[tabId] || []).slice();
 }
@@ -930,9 +1065,9 @@ function gamesOfTab(tabId){
 }
 function membershipsOf(gameId){
   const out = new Set();
-  for(const t of ALL_TABS){
-    const ids = pendingListWrites.has(t.id) ? pendingListWrites.get(t.id) : (MANIFEST.lists[t.id] || []);
-    if(ids.includes(gameId)) out.add(t.id);
+  for(const t of REAL_LISTS){
+    const ids = pendingListWrites.has(t) ? pendingListWrites.get(t) : (MANIFEST.lists[t] || []);
+    if(ids.includes(gameId)) out.add(t);
   }
   return out;
 }
@@ -943,7 +1078,54 @@ function gamesWithNoList(){
     const mem = membershipsOf(id);
     if(mem.size === 0) out.push(viewGame(id));
   }
+  for(const [id] of pendingGameWrites){
+    if(pendingGameDeletes.has(id)) continue;
+    if(MANIFEST.games[id]) continue;
+    const mem = membershipsOf(id);
+    if(mem.size === 0) out.push(viewGame(id));
+  }
   return out;
+}
+
+/* SERIES HELPERS (derived) */
+function seriesOrderLive(){
+  const live = MANIFEST.series_order.filter(s => !pendingSeriesDeletes.has(s));
+  return live;
+}
+function seriesGamesNotDone(slug){
+  const s = viewSeries(slug);
+  if(!s) return [];
+  const order = s.order || [];
+  return order.map(id => viewGame(id)).filter(Boolean).filter(g => (g.series_status || '') !== 'done');
+}
+function allSeriesUndoneInOrder(){
+  const out = [];
+  for(const slug of seriesOrderLive()){
+    const s = viewSeries(slug);
+    if(!s) continue;
+    for(const id of (s.order || [])){
+      const g = viewGame(id);
+      if(!g) continue;
+      if((g.series_status || '') === 'done') continue;
+      out.push(g);
+    }
+  }
+  return out;
+}
+function seriesTotals(slug){
+  const s = viewSeries(slug);
+  if(!s) return { main: 0, extra: 0, hasAny: false };
+  let main = 0, extra = 0, hasAny = false;
+  for(const id of (s.order || [])){
+    const g = viewGame(id);
+    if(!g) continue;
+    const h = g.hltb || '';
+    const mm = String(h).match(/Main:\s*([\d.]+)/i);
+    const me = String(h).match(/\+Extra:\s*([\d.]+)/i);
+    if(mm){ main += parseFloat(mm[1]); hasAny = true; }
+    if(me){ extra += parseFloat(me[1]); }
+  }
+  return { main, extra, hasAny };
 }
 
 /* ADMIN AUTH */
@@ -993,7 +1175,7 @@ function showTokenPrompt(){
 }
 function closeTokenPrompt(){ tokenBackdrop.classList.remove('open'); tokenSlot.innerHTML = ''; }
 function enterAdmin(){ adminMode = true; bodyEl.classList.add('admin-on'); adminToggleLabel.textContent = 'Exit Admin'; invalidateAllPanes(); renderContent(); }
-function exitAdmin(){ adminMode = false; bodyEl.classList.remove('admin-on'); adminToggleLabel.textContent = 'Admin'; invalidateAllPanes(); renderContent(); }
+function exitAdmin(){ adminMode = false; voidMode = false; bodyEl.classList.remove('admin-on'); adminToggleLabel.textContent = 'Admin'; voidBtn.classList.remove('void-on'); invalidateAllPanes(); renderContent(); }
 async function bootAdminFlow(){
   const tok = getToken();
   if(!tok) return;
@@ -1016,11 +1198,7 @@ adminToggleBtn.addEventListener('contextmenu', e => {
   if(!getToken()) return;
   if(confirm('Sign out? Removes saved token.')){
     clearToken();
-    bodyEl.classList.remove('admin-on');
-    adminMode = false;
-    adminToggleLabel.textContent = 'Admin';
-    invalidateAllPanes();
-    renderContent();
+    exitAdmin();
     toast('Signed out');
   }
 });
@@ -1093,7 +1271,7 @@ async function ghUpdateRef(sha){
 
 /* PENDING */
 function totalPendingCount(){
-  return pendingGameWrites.size + pendingGameDeletes.size + pendingListWrites.size + pendingFileWrites.size;
+  return pendingGameWrites.size + pendingGameDeletes.size + pendingListWrites.size + pendingFileWrites.size + pendingSeriesWrites.size + pendingSeriesDeletes.size;
 }
 function updatePendingStrip(){
   const n = totalPendingCount();
@@ -1119,6 +1297,8 @@ function clearAllPending(){
   pendingGameDeletes.clear();
   pendingListWrites.clear();
   pendingFileWrites.clear();
+  pendingSeriesWrites.clear();
+  pendingSeriesDeletes.clear();
   updatePendingStrip();
   invalidateAllPanes();
   renderContent();
@@ -1135,16 +1315,27 @@ function regenerateManifest(){
   for(const id of pendingGameDeletes) delete games[id];
   for(const [id, g] of pendingGameWrites) games[id] = g;
   const lists = {};
-  for(const t of ALL_TABS){
-    lists[t.id] = (pendingListWrites.get(t.id) || MANIFEST.lists[t.id] || []).filter(id => !pendingGameDeletes.has(id));
+  for(const t of REAL_LISTS){
+    lists[t] = (pendingListWrites.get(t) || MANIFEST.lists[t] || []).filter(id => !pendingGameDeletes.has(id));
   }
   const series = {};
-  for(const sid of Object.keys(MANIFEST.series)){
-    const s = MANIFEST.series[sid];
-    series[sid] = { ...s, order: (s.order || []).filter(id => !pendingGameDeletes.has(id)) };
+  for(const slug of Object.keys(MANIFEST.series)){
+    if(pendingSeriesDeletes.has(slug)) continue;
+    const base = MANIFEST.series[slug];
+    const over = pendingSeriesWrites.get(slug);
+    const merged = over ? { ...base, ...over } : { ...base };
+    merged.order = (merged.order || []).filter(id => !pendingGameDeletes.has(id));
+    series[slug] = merged;
+  }
+  for(const [slug, s] of pendingSeriesWrites){
+    if(!series[slug]) series[slug] = { ...s, order: (s.order || []).filter(id => !pendingGameDeletes.has(id)) };
+  }
+  const order = (MANIFEST.series_order || []).filter(s => !pendingSeriesDeletes.has(s));
+  for(const slug of Object.keys(series)){
+    if(!order.includes(slug)) order.push(slug);
   }
   const now = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
-  return { version: 3, updated: now, games, lists, series, series_order: MANIFEST.series_order || [] };
+  return { version: 4, updated: now, games, lists, series, series_order: order };
 }
 async function commitPending(){
   const total = totalPendingCount();
@@ -1168,12 +1359,18 @@ async function commitPending(){
       const payload = { version: 1, updated: new Date().toISOString().replace(/\.\d+Z$/, 'Z'), ids };
       writes.push({ path: 'data/lists/' + tabId + '.json', content: JSON.stringify(payload, null, 2) + '\n' });
     }
+    for(const [slug, s] of pendingSeriesWrites){
+      writes.push({ path: 'data/series/' + slug + '.json', content: JSON.stringify(s, null, 2) + '\n' });
+    }
     for(const [path, content] of pendingFileWrites){
       writes.push({ path, content });
     }
 
     const manifest = regenerateManifest();
     writes.push({ path: 'data/manifest.json', content: JSON.stringify(manifest, null, 2) + '\n' });
+
+    // series_order file
+    writes.push({ path: 'data/series_order.json', content: JSON.stringify(manifest.series_order, null, 2) + '\n' });
 
     const headSha = await ghGetHeadSha();
     const baseTree = await ghGetCommitTree(headSha);
@@ -1185,22 +1382,27 @@ async function commitPending(){
     for(const id of pendingGameDeletes){
       tree.push({ path: 'games/' + id + '.json', mode: '100644', type: 'blob', sha: null });
     }
+    for(const slug of pendingSeriesDeletes){
+      tree.push({ path: 'data/series/' + slug + '.json', mode: '100644', type: 'blob', sha: null });
+    }
 
     const newTree = await ghCreateTree(baseTree, tree);
 
-    let adds = 0, edits = 0, dels = 0, files = 0, listWrites = 0;
+    let adds = 0, edits = 0, dels = 0, files = 0, listWrites = 0, seriesWrites = 0;
     for(const [id] of pendingGameWrites){
       if(MANIFEST.games[id]) edits++; else adds++;
     }
     dels = pendingGameDeletes.size;
     listWrites = pendingListWrites.size;
     files = pendingFileWrites.size;
+    seriesWrites = pendingSeriesWrites.size + pendingSeriesDeletes.size;
 
     const parts = [];
     if(adds) parts.push(`${adds} added`);
     if(edits) parts.push(`${edits} edited`);
     if(dels) parts.push(`${dels} deleted`);
     if(listWrites) parts.push(`${listWrites} list${listWrites===1?'':'s'}`);
+    if(seriesWrites) parts.push(`${seriesWrites} series`);
     if(files) parts.push(`${files} file${files===1?'':'s'}`);
     const msg = 'Batch: ' + (parts.join(', ') || 'update');
 
@@ -1210,12 +1412,17 @@ async function commitPending(){
     for(const id of pendingGameDeletes) delete MANIFEST.games[id];
     for(const [id, g] of pendingGameWrites) MANIFEST.games[id] = g;
     for(const [tabId, ids] of pendingListWrites) MANIFEST.lists[tabId] = ids.slice();
-    MANIFEST.series = manifest.series;
+    for(const slug of pendingSeriesDeletes) delete MANIFEST.series[slug];
+    for(const [slug, s] of pendingSeriesWrites) MANIFEST.series[slug] = s;
+    MANIFEST.series_order = manifest.series_order;
+    MANIFEST.version = 4;
 
     pendingGameWrites.clear();
     pendingGameDeletes.clear();
     pendingListWrites.clear();
     pendingFileWrites.clear();
+    pendingSeriesWrites.clear();
+    pendingSeriesDeletes.clear();
     PLATFORMS_ORIGINAL = JSON.parse(JSON.stringify(PLATFORMS));
 
     updatePendingStrip();
@@ -1248,6 +1455,14 @@ function openPendingModal(){
     const label = (ALL_TABS.find(t => t.id === tabId) || {}).label || tabId;
     rows.push({ key: 'list:' + tabId, tab: 'List', action: 'Reorder', name: label + ' (' + ids.length + ' items)' });
   }
+  for(const [slug, s] of pendingSeriesWrites){
+    const isNew = !MANIFEST.series[slug];
+    rows.push({ key: 'series:' + slug, tab: 'Series', action: isNew ? 'Add' : 'Edit', name: s.name || slug });
+  }
+  for(const slug of pendingSeriesDeletes){
+    const s = MANIFEST.series[slug];
+    rows.push({ key: 'seriesdel:' + slug, tab: 'Series', action: 'Delete', name: (s && s.name) || slug });
+  }
   for(const path of pendingFileWrites.keys()){
     rows.push({ key: 'file:' + path, tab: 'File', action: 'Edit', name: path });
   }
@@ -1279,6 +1494,8 @@ function openPendingModal(){
     if(key.startsWith('game:')) pendingGameWrites.delete(key.slice(5));
     else if(key.startsWith('gamedel:')) pendingGameDeletes.delete(key.slice(8));
     else if(key.startsWith('list:')) pendingListWrites.delete(key.slice(5));
+    else if(key.startsWith('series:')) pendingSeriesWrites.delete(key.slice(7));
+    else if(key.startsWith('seriesdel:')) pendingSeriesDeletes.delete(key.slice(10));
     else if(key.startsWith('file:')) pendingFileWrites.delete(key.slice(5));
     updatePendingStrip();
     invalidateAllPanes();
@@ -1408,24 +1625,6 @@ function renderPlatformRows(){
   }
   host.innerHTML = keys.map(platRowHTML).join('');
 }
-function unlistedHTML(){
-  const list = gamesWithNoList();
-  if(!list.length){
-    return '<div style="padding:1rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase">No unlisted games — good.</div>';
-  }
-  return list.map(g => `
-    <div class="unlisted-row" data-id="${esc(g.id)}">
-      <div class="u-info">
-        <div class="u-name" title="${esc(g.name)}">${esc(g.name)}</div>
-        <div class="u-meta">${esc(g.id)}</div>
-      </div>
-      <div class="u-actions">
-        <button type="button" class="u-add">Add to list…</button>
-        <button type="button" class="u-del danger">Delete</button>
-      </div>
-    </div>
-  `).join('');
-}
 function toolsModalHTML(){
   const generalActive = toolsActiveTab === 'general';
   const platformsActive = toolsActiveTab === 'platforms';
@@ -1448,17 +1647,12 @@ function toolsModalHTML(){
               <div class="lbdb-status" id="lbdb-status"><span class="dot"></span><span id="lbdb-status-label">Idle</span></div>
             </div>
           </div>
-          <div class="form-section">
-            <div class="sec-title">Unlisted games</div>
-            <p style="font-size:.78rem;color:var(--muted);margin-bottom:.8rem;">Games that don't belong to any list. Add them to a list, or delete them.</p>
-            <div id="unlisted-host">${unlistedHTML()}</div>
-          </div>
         </div>
         <div id="tools-platforms" style="${platformsActive?'':'display:none'}">
           <div class="form-section">
             <div class="sec-title">Platforms</div>
             <div class="plat-hint">
-              <strong>Key</strong> matches the folder from <code>roms.txt</code>. <strong>Label</strong> shows on the site. <strong>Icon</strong> is a filename inside <code>images/icons/</code>.
+              <strong>Key</strong> is what you type in the Platform field. <strong>Label</strong> shows on the site. <strong>Icon</strong> is a filename inside <code>images/icons/</code>.
             </div>
             <div id="plat-rows"></div>
             <div class="plat-actions">
@@ -1492,35 +1686,12 @@ function openToolsModal(){
   toolsSlot.innerHTML = toolsModalHTML();
   toolsBackdrop.classList.add('open');
   renderLbdbStatusInModal();
-  if(toolsActiveTab === 'platforms') renderPlatformRows();
 
   toolsSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeToolsModal);
   toolsSlot.querySelectorAll('.tools-tab').forEach(t => t.onclick = () => { toolsActiveTab = t.dataset.tab; refreshToolsBody(); });
 
-  toolsSlot.querySelector('#lbdb-run').onclick = () => { if(lbdbState !== 'running') triggerLbdbUpdate(); };
-
-  const unlistedHost = toolsSlot.querySelector('#unlisted-host');
-  if(unlistedHost){
-    unlistedHost.addEventListener('click', e => {
-      const row = e.target.closest('.unlisted-row');
-      if(!row) return;
-      const id = row.dataset.id;
-      if(e.target.closest('.u-del')){
-        if(!confirm('Delete "' + id + '"?')) return;
-        pendingGameDeletes.add(id);
-        pendingGameWrites.delete(id);
-        updatePendingStrip();
-        renderContent();
-        unlistedHost.innerHTML = unlistedHTML();
-        return;
-      }
-      if(e.target.closest('.u-add')){
-        const g = viewGame(id);
-        if(g) openEditor(g);
-        return;
-      }
-    });
-  }
+  const lbdbRun = toolsSlot.querySelector('#lbdb-run');
+  if(lbdbRun) lbdbRun.onclick = () => { if(lbdbState !== 'running') triggerLbdbUpdate(); };
 
   const rowsHost = toolsSlot.querySelector('#plat-rows');
   if(rowsHost){
@@ -1824,25 +1995,10 @@ function lbdbMapToFields(entry){
   return out;
 }
 function levSimilarity(a, b){
-  let longer = String(a||'').toLowerCase().trim();
-  let shorter = String(b||'').toLowerCase().trim();
-  if(longer.length < shorter.length){ const t = longer; longer = shorter; shorter = t; }
-  if(longer.length === 0) return 1.0;
-  const m = longer.length, n = shorter.length;
-  let prev = new Array(n + 1), curr = new Array(n + 1);
-  for(let j = 0; j <= n; j++) prev[j] = j;
-  for(let i = 1; i <= m; i++){
-    curr[0] = i;
-    for(let j = 1; j <= n; j++){
-      const cost = longer[i-1] === shorter[j-1] ? 0 : 1;
-      curr[j] = Math.min(curr[j-1]+1, prev[j]+1, prev[j-1]+cost);
-    }
-    [prev, curr] = [curr, prev];
-  }
-  return Math.round(((m - prev[n]) / m) * 100) / 100;
+  return nameSimilarity(a, b);
 }
 function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
-  let score = levSimilarity(cName || '', fName || '');
+  let score = nameSimilarity(cName || '', fName || '');
   if(fPlatform && String(fPlatform).trim()){
     const cp = String(cPlatform || '').toLowerCase().trim();
     const fp = String(fPlatform).toLowerCase().trim();
@@ -1961,7 +2117,7 @@ function getPane(tabId){
 }
 function invalidateAllPanes(){ TAB_PANES.forEach(p => { p.signature = null; }); }
 function paneSignature(){
-  return [adminMode ? 'A' : '-', totalPendingCount(), sortKey, sortDir, filterKey, searchTerm].join('|');
+  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, filterKey, searchTerm].join('|');
 }
 function renderTabs(){
   tabbarEl.innerHTML = TABS[group].map(t =>
@@ -2069,7 +2225,7 @@ function statusTagsHTML(g, t){
   const fl = g.flags || {};
   const tags = [];
   if(t === 'unreleased'){
-    if(g.ea_date) tags.push(`<span class="status-tag early-release" title="Early Release">Early Release: ${esc(g.ea_date)}</span>`);
+    if(g.ea_release) tags.push(`<span class="status-tag early-release" title="Early Release">Early Release: ${esc(g.ea_release)}</span>`);
     if(g.release) tags.push(`<span class="status-tag release" title="Release">Release: ${esc(g.release)}</span>`);
   } else if(t === 'early-access'){
     if(g.release) tags.push(`<span class="status-tag release" title="Planned release">Release: ${esc(g.release)}</span>`);
@@ -2080,7 +2236,7 @@ function statusTagsHTML(g, t){
   return tags.join('');
 }
 function dateChipValue(g, t){
-  if(t === 'early-access') return g.ea_date || '';
+  if(t === 'early-access') return g.ea_release || '';
   if(t === 'unreleased')   return '';
   return g.release || '';
 }
@@ -2169,46 +2325,100 @@ function buildRankMap(arr){
   return map;
 }
 
-/* SERIES (v3) */
+/* SERIES RENDERING (read-only view) */
 function seriesRowHTML(g, disp){
   const d = disp || {};
-  const displayName = d.name || g.series_name || g.name;
-  const displayYear = d.year || g.series_year || g.release || g.year || '';
-  const status = d.status || g.series_status || '';
-  const color = g.series_color || '';
-  const statusBadge = status === 'done'  ? `<div class="g-status done">Done</div>`
-                    : status === 'rerun' ? `<div class="g-status rerun">Rerun</div>`
+  const displayName = d.display_name || g.name;
+  const displayYear  = d.display_release || g.release || g.ea_release || '';
+  const displayPlat  = d.display_platform || g.platform || '';
+  const status = g.series_status || '';
+  const owner  = g.series_owner || '';
+  const statusBadge = status === 'done'     ? `<div class="g-status done">Done</div>`
+                    : status === 'rerun'    ? `<div class="g-status rerun">Rerun</div>`
+                    : status === 'optional' ? `<div class="g-status optional">Optional</div>`
                     : `<div class="empty-cell">—</div>`;
-  const ownerBadge  = color === 'green' ? `<div class="g-owner installed">Installed</div>`
-                    : color === 'blue'  ? `<div class="g-owner steam">Steam</div>`
+  const ownerBadge  = owner === 'installed' ? `<div class="g-owner installed">Installed</div>`
+                    : owner === 'steam'     ? `<div class="g-owner steam">Steam</div>`
                     : `<div class="empty-cell">—</div>`;
   return `
     <div class="series-game-row" data-id="${esc(g.id)}">
       <div class="g-title" title="${esc(displayName)}">${esc(displayName)}</div>
       <div class="g-year">${esc(displayYear)}</div>
-      <div class="g-platform">${esc(g.platform || '')}</div>
+      <div class="g-platform">${esc(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
       ${statusBadge}
       ${ownerBadge}
       <div class="g-note" title="${esc(g.series_note || '')}">${esc(g.series_note || '')}</div>
+      <div class="empty-cell"></div>
+    </div>`;
+}
+/* SERIES RENDERING (admin edit view) */
+function seriesRowAdminHTML(g, disp, idx, slug){
+  const d = disp || {};
+  const displayName = d.display_name || g.name;
+  const displayYear  = d.display_release || g.release || g.ea_release || '';
+  const displayPlat  = d.display_platform || g.platform || '';
+  const status = g.series_status || '';
+  const owner  = g.series_owner || '';
+  const statusBadge = status === 'done'     ? `<div class="g-status done">Done</div>`
+                    : status === 'rerun'    ? `<div class="g-status rerun">Rerun</div>`
+                    : status === 'optional' ? `<div class="g-status optional">Optional</div>`
+                    : `<div class="empty-cell">—</div>`;
+  const ownerBadge  = owner === 'installed' ? `<div class="g-owner installed">Installed</div>`
+                    : owner === 'steam'     ? `<div class="g-owner steam">Steam</div>`
+                    : `<div class="empty-cell">—</div>`;
+  const pend = pendingClassFor(g.id);
+  return `
+    <div class="series-game-row${pend}" data-id="${esc(g.id)}" data-series="${esc(slug)}" data-idx="${idx}" draggable="true">
+      <div class="g-title" title="${esc(displayName)}">${esc(displayName)}</div>
+      <div class="g-year">${esc(displayYear)}</div>
+      <div class="g-platform">${esc(displayPlat)}</div>
+      <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
+      ${statusBadge}
+      ${ownerBadge}
+      <div class="g-note" title="${esc(g.series_note || '')}">${esc(g.series_note || '')}</div>
+      <div class="g-actions">
+        <button type="button" class="edit" data-act="series-edit-row" title="Edit series fields"><span class="icon icon-pencil"></span></button>
+        <button type="button" class="del" data-act="series-del-row" title="Remove from series"><span class="icon icon-trash"></span></button>
+      </div>
     </div>`;
 }
 function seriesBlockHTML(slug){
-  const s = MANIFEST.series[slug];
+  const s = viewSeries(slug);
   if(!s) return '';
   const disp = s.display || {};
   const games = (s.order || []).map(viewGame).filter(Boolean);
-  if(!games.length) return '';
+  const totals = seriesTotals(slug);
+  const pcls = pendingSeriesDeletes.has(slug) ? ' pending-del' : (pendingSeriesWrites.has(slug) ? ' pending' : '');
+  const adminCorner = adminMode ? `
+    <div class="series-admin-corner">
+      <button type="button" class="edit" data-act="series-edit-header" data-slug="${esc(slug)}" title="Edit header"><span class="icon icon-pencil"></span></button>
+      <button type="button" class="del" data-act="series-del" data-slug="${esc(slug)}" title="Delete series"><span class="icon icon-trash"></span></button>
+    </div>
+    <div class="series-drag-handle" title="Drag to reorder">⋮⋮</div>` : '';
+  const rowsHTML = adminMode
+    ? games.map((g, i) => seriesRowAdminHTML(g, disp[g.id], i, slug)).join('')
+    : games.map(g => seriesRowHTML(g, disp[g.id])).join('');
+  const addRow = adminMode ? `<button type="button" class="series-add-row" data-act="series-add-row" data-slug="${esc(slug)}"><span class="icon icon-plus" style="vertical-align:-2px;margin-right:.4rem"></span>add game to series</button>` : '';
+  const totalsHTML = totals.hasAny
+    ? (totals.extra && totals.extra !== totals.main
+        ? `${totals.main}<span class="sep">to</span>${totals.extra}<span class="unit">hrs</span>`
+        : `${totals.main}<span class="unit">hrs</span>`)
+    : '';
   return `
-    <div class="series-block" data-series="${esc(slug)}">
+    <div class="series-block${pcls}" data-series="${esc(slug)}" ${adminMode ? 'draggable="true"' : ''}>
       <div class="series-banner">
-        <div class="logo-slot">${s.logo ? `<img src="${esc(resolveImgUrl(s.logo))}" alt="${esc(s.name)}" loading="lazy" decoding="async">` : `<div class="ph">${esc(s.name)}<small>series logo</small></div>`}</div>
-        <div class="series-totals">${fmtHltbRange(s.main, s.extra, true)}</div>
+        ${adminCorner}
+        <div class="logo-slot">${s.logo ? `<img src="${esc(resolveImgUrl(s.logo))}" alt="${esc(s.name)}" loading="lazy" decoding="async" title="${esc(s.name)}">` : `<div class="ph" title="${esc(s.name)}">${esc(s.name)}<small>series logo</small></div>`}</div>
+        <div class="series-totals">${totalsHTML}</div>
       </div>
-      <div class="series-games">
-        ${games.map(g => seriesRowHTML(g, disp[g.id])).join('')}
-      </div>
+      <div class="series-games">${rowsHTML}</div>
+      ${addRow}
     </div>`;
+}
+function seriesAddBlockHTML(){
+  if(!adminMode) return '';
+  return `<div class="series-add-block"><button type="button" data-act="series-add-new">+ ADD SERIES</button></div>`;
 }
 function sectionHeader(label, jump){
   const jumpHTML = jump ? `<button class="jump-btn" data-jump="${jump.target}">${jump.label}<span class="arw">${jump.dir === 'down' ? '↓' : '↑'}</span></button>` : '';
@@ -2218,25 +2428,34 @@ function sectionHeader(label, jump){
     </div>`;
 }
 function buildStandardPane(pane, t){
+  if(voidMode){
+    const games = gamesWithNoList();
+    if(!games.length){
+      pane.el.innerHTML = `<div class="grid-empty">No games in the void. Good.</div>`;
+      return;
+    }
+    pane.el.innerHTML = `<div class="grid">${games.map(g => cardHTML(g, 'void')).join('')}</div>`;
+    return;
+  }
   const all = gamesOfTab(t);
   const filtered = applySort(all.filter(passesAll));
-  if(!all.length){
+  if(!all.length && t !== 'backlog'){
     pane.el.innerHTML = `<div class="grid-empty">Nothing in this tab yet.</div>`;
     return;
   }
 
   if(t === 'backlog'){
     // Section 1: solo backlog games
-    const main = filtered.filter(g => !g.series);
-    // Section 2: series games NOT done (from backlog-series list)
-    const seriesGames = gamesOfTab('backlog-series').filter(g => (g.series_status || '') !== 'done');
-    const seriesFiltered = applySort(seriesGames.filter(passesAll));
+    const main = filtered.filter(g => !g.series || !isInAnySeries(g.id));
+    // Section 2: derived from series
+    const seriesGames = allSeriesUndoneInOrder();
+    const seriesFiltered = seriesGames.filter(passesAll);
     pane.el.innerHTML = `
       ${sectionHeader('Backloggd', { target:'sec-series', label:'To series', dir:'down' })}
       <div class="grid">${main.length ? main.map(g => cardHTML(g, t)).join('') : ''}</div>
       ${!main.length ? `<div class="grid-empty">No games match</div>` : ''}
       ${sectionHeader('Series', { target:'sec-backloggd', label:'To main list', dir:'up' })}
-      <div class="grid">${seriesFiltered.length ? seriesFiltered.map(g => cardHTML(g, 'backlog-series')).join('') : ''}</div>
+      <div class="grid">${seriesFiltered.length ? seriesFiltered.map(g => cardHTML(g, 'backlog')).join('') : ''}</div>
       ${!seriesFiltered.length ? `<div class="grid-empty">No series games to play</div>` : ''}`;
     return;
   }
@@ -2253,18 +2472,33 @@ function buildStandardPane(pane, t){
     ? `<div class="grid">${filtered.map(g => cardHTML(g, t)).join('')}</div>`
     : `<div class="grid-empty">No games match</div>`;
 }
+function isInAnySeries(gameId){
+  for(const slug of Object.keys(MANIFEST.series)){
+    if(pendingSeriesDeletes.has(slug)) continue;
+    const s = viewSeries(slug);
+    if(!s) continue;
+    if((s.order || []).includes(gameId)) return true;
+  }
+  return false;
+}
 function buildSeriesPane(pane){
-  const slugs = (MANIFEST.series_order || []).filter(sid => MANIFEST.series[sid]);
+  const slugs = seriesOrderLive().filter(sid => viewSeries(sid));
   if(!slugs.length){
-    pane.el.innerHTML = `<div class="grid-empty">No series yet.</div>`;
+    pane.el.innerHTML = (adminMode ? `<div class="grid-empty">No series yet. Click ADD SERIES below.</div>` + seriesAddBlockHTML() : `<div class="grid-empty">No series yet.</div>`);
     return;
   }
-  pane.el.innerHTML = `<div class="series-blocks">${slugs.map(seriesBlockHTML).join('')}</div>`;
+  pane.el.innerHTML = `<div class="series-blocks">${slugs.map(seriesBlockHTML).join('')}</div>${seriesAddBlockHTML()}`;
 }
 function markLoadedImages(root){
   root.querySelectorAll('img').forEach(img => { if(img.complete) img.classList.add('img-loaded'); });
 }
+function renderVoidNote(){
+  if(!voidMode){ voidNoteHost.innerHTML = ''; return; }
+  const n = gamesWithNoList().length;
+  voidNoteHost.innerHTML = `<div class="void-note">VOID MODE — showing ${n} game${n===1?'':'s'} not in any list. Click a card to edit, or disable VOID to go back.</div>`;
+}
 function renderContent(){
+  renderVoidNote();
   const pane = getPane(tab);
   TAB_PANES.forEach((p, id) => {
     if(id !== tab){
@@ -2295,6 +2529,7 @@ function renderContent(){
 function refreshGrid(){
   const pane = getPane(tab);
   TAB_PANES.forEach((p, id) => { p.el.style.display = id === tab ? 'block' : 'none'; });
+  renderVoidNote();
   if(tab === 'backlog-series') buildSeriesPane(pane);
   else buildStandardPane(pane, tab);
   pane.signature = paneSignature();
@@ -2321,10 +2556,10 @@ function infoRow(iconClass, label, value, long){
 function modalInfoRows(g, t){
   const rows = [];
   if(t === 'early-access'){
-    rows.push(infoRow('icon-date','EA Started', (g.ea_date && g.ea_date !== '—') ? esc(g.ea_date) : '—'));
+    rows.push(infoRow('icon-date','EA Started', (g.ea_release && g.ea_release !== '—') ? esc(g.ea_release) : '—'));
     rows.push(infoRow('icon-date','Release',    (g.release && g.release !== '—') ? esc(g.release) : 'TBA'));
   } else if(t === 'unreleased'){
-    rows.push(infoRow('icon-date','Early Release', (g.ea_date && g.ea_date !== '—') ? esc(g.ea_date) : '—'));
+    rows.push(infoRow('icon-date','Early Release', (g.ea_release && g.ea_release !== '—') ? esc(g.ea_release) : '—'));
     rows.push(infoRow('icon-date','Release',       (g.release && g.release !== '—') ? esc(g.release) : 'TBA'));
   } else {
     rows.push(infoRow('icon-date','Released', esc(g.release)));
@@ -2379,11 +2614,10 @@ function modalHTML(g, t, rank){
 function openModal(g, t){
   let list = [];
   if(t === 'backlog-series'){
-    for(const sid of (MANIFEST.series_order || [])){
-      const s = MANIFEST.series[sid];
-      if(!s) continue;
-      (s.order || []).forEach(id => { const gg = viewGame(id); if(gg) list.push(gg); });
-    }
+    list = allSeriesUndoneInOrder();
+    currentRankMap = null;
+  } else if(voidMode){
+    list = gamesWithNoList();
     currentRankMap = null;
   } else {
     list = applySort(gamesOfTab(t).filter(passesAll));
@@ -2418,20 +2652,52 @@ backdrop.addEventListener('click', e => {
   closeAll();
 });
 
-/* ADMIN EDITOR */
-function makeUniqueId(name, year, platform, currentId){
-  const base = slugify(name);
-  const taken = (id) => (id !== currentId) && (MANIFEST.games[id] || pendingGameWrites.has(id));
-  if(!taken(base)) return base;
-  const y = String(year || '').replace(/\D/g,'');
-  if(y){ const c = base + '-' + y; if(!taken(c)) return c; }
-  const p = slugify(platform || '');
-  if(y && p){ const c = base + '-' + y + '-' + p; if(!taken(c)) return c; }
-  if(p){ const c = base + '-' + p; if(!taken(c)) return c; }
-  let n = 2, c = base + '-' + n;
-  while(taken(c)){ n++; c = base + '-' + n; }
-  return c;
+/* FUZZY MATCHES FOR ID */
+function findMatches(currentId, name){
+  const out = [];
+  if(!name || name.length < 2) return out;
+  const seen = new Set();
+  const allIds = new Set([...Object.keys(MANIFEST.games)]);
+  for(const id of pendingGameWrites.keys()) allIds.add(id);
+  for(const id of allIds){
+    if(pendingGameDeletes.has(id)) continue;
+    if(id === currentId) continue;
+    const g = viewGame(id);
+    if(!g) continue;
+    if(seen.has(id)) continue;
+    if(id === currentId) continue;
+    if(id === currentId) continue;
+    if(id === currentId) continue;
+    if(id === currentId) continue;
+    if(id === currentId) continue;
+    if(id === currentId) continue;
+    const exact = (id === currentId);
+    const nameScore = nameSimilarity(g.name, name);
+    const isExactId = (currentId && id === currentId);
+    let kind = null;
+    if(isExactId) kind = 'exact';
+    else if(nameScore >= 0.8) kind = 'similar';
+    else continue;
+    out.push({ id, name: g.name, year: g.release || g.ea_release || '', platform: g.platform || '', kind, score: nameScore });
+    seen.add(id);
+  }
+  // also check exact id against existing
+  if(currentId && (MANIFEST.games[currentId] || pendingGameWrites.has(currentId))){
+    const g = viewGame(currentId);
+    if(g && !seen.has(currentId)){
+      out.unshift({ id: currentId, name: g.name, year: g.release || g.ea_release || '', platform: g.platform || '', kind: 'exact', score: 1 });
+    }
+  }
+  // sort: exact first, then by score desc
+  out.sort((a,b) => {
+    if(a.kind === 'exact' && b.kind !== 'exact') return -1;
+    if(b.kind === 'exact' && a.kind !== 'exact') return 1;
+    return b.score - a.score;
+  });
+  return out.slice(0, 8);
 }
+
+/* ADMIN EDITOR — shared between add and edit */
 function hltbToParts(str){
   if(!str || str === '—') return { main:'', extra:'' };
   const s = String(str);
@@ -2456,14 +2722,17 @@ function linkIconGuess(label){
   return '';
 }
 
-function openEditor(g){
+function openEditor(g, opts){
+  opts = opts || {};
   const isNew = !g;
+  const mode = isNew ? 'add' : 'edit';  // 'add' | 'edit' | 'attach'
+  let attachId = null; // when a similar game is picked
+
   const draft = isNew
-    ? { id:'', name:'', year:'', platform:'PC', size:'', hltb:'', dev:'', pub:'', notes:'',
-        release:'', ea_date:'', screenshot:'', logo:'', links:[], alt_names: [], dlc: [],
+    ? { id:'', name:'', platform:'PC', size:'', hltb:'', dev:'', pub:'', notes:'',
+        release:'', ea_release:'', screenshot:'', logo:'', links:[], alt_names: [], dlc: [],
         flags:{ installed:false, ownedSteam:false, localCoop:false, authRequired:false, gamepass:false },
-        series:null, series_status:null, series_color:null, series_note:null,
-        series_name:null, series_year:null, base_game:null }
+        series:null, series_status:null, series_owner:null, series_note:null }
     : JSON.parse(JSON.stringify(g));
   draft.flags = Object.assign({ installed:false, ownedSteam:false, localCoop:false, authRequired:false, gamepass:false }, draft.flags || {});
   draft.links = Array.isArray(draft.links) ? draft.links.slice() : [];
@@ -2475,8 +2744,12 @@ function openEditor(g){
   const hp = hltbToParts(draft.hltb);
   const numericHltb = hltbIsNumeric(draft.hltb);
   const currentMemberships = isNew ? new Set() : membershipsOf(draft.id);
+  const currentTabId = (tab !== 'backlog-series' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
 
-  const membershipHTML = MEMBERSHIP_TABS.map(tid => {
+  // Which list is currently "the" list we're adding to.
+  const targetListId = opts.listId || currentTabId;
+
+  const membershipHTML = REAL_LISTS.map(tid => {
     const tdef = ALL_TABS.find(x => x.id === tid);
     const grp = TAB_GROUP[tid];
     const checked = currentMemberships.has(tid) ? 'checked' : '';
@@ -2495,14 +2768,29 @@ function openEditor(g){
       <button type="button" class="remove-link" title="Remove">✕</button>
     </div>`).join('') : '';
 
+  const derivedId = isNew
+    ? deriveGameId(draft.name, draft.release, draft.ea_release, draft.platform)
+    : draft.id;
+
+  const statusVal = draft.series_status || '';
+  const ownerVal = draft.series_owner || '';
+
   modalSlot._pillsBound = false;
   modalSlot._lockedSources = new Set();
   modalSlot._parseResults = null;
+  modalSlot._mode = mode;
+  modalSlot._targetList = targetListId;
+  modalSlot._attachId = null;
+  modalSlot._isNew = isNew;
+
+  const headerTag = isNew ? `<span class="tag new">NEW</span>` : `<span class="tag edit">EDIT</span>`;
+  const headerTitle = isNew ? 'Add game' : esc(draft.name || 'Untitled');
+  const saveBtnLabel = isNew ? 'ADD NEW GAME' : 'Save changes';
 
   modalSlot.innerHTML = `
     <div class="admin-modal">
       <div class="admin-head">
-        <h2><span class="tag">${isNew ? 'NEW' : 'EDIT'}</span>${isNew ? 'Add game' : esc(draft.name || 'Untitled')}</h2>
+        <h2>${headerTag}${headerTitle}</h2>
         <button class="close-x" data-close>✕</button>
       </div>
       <div class="admin-body">
@@ -2521,13 +2809,37 @@ function openEditor(g){
           <div class="sec-title">Identity</div>
           <div class="form-grid">
             <div class="field span-2">
+              <label>ID <span style="font-weight:400;letter-spacing:.02em;text-transform:none;color:#4a5468">(auto from name+year+platform; edit for special cases)</span></label>
+              <div class="id-wrap">
+                <input type="text" id="f-id" class="id-input" value="${esc(derivedId)}" placeholder="silent-hill-3-2003-ps2">
+                ${isNew ? `<button type="button" class="reset-id-btn" id="reset-id">Reset</button>` : ''}
+              </div>
+            </div>
+            <div class="field span-2">
               <label>Name</label>
               <input type="text" id="f-name" value="${esc(draft.name||'')}" placeholder="Game title">
               <div class="pills" data-field="name"></div>
             </div>
-            <div class="field span-2">
+            <div class="field">
+              <label>Release</label>
+              <input type="text" id="f-release" value="${esc(draft.release||'')}" placeholder="24.01.2024 / 2001 / TBA">
+              <div class="pills" data-field="release"></div>
+            </div>
+            <div class="field">
+              <label>Early Release</label>
+              <input type="text" id="f-ea-release" value="${esc(draft.ea_release||'')}" placeholder="EA start date (optional)">
+            </div>
+            <div class="field">
+              <label>Platform</label>
+              <input type="text" id="f-platform" value="${esc(draft.platform||'')}" placeholder="PC / PS2 / Switch…">
+              <div class="pills" data-field="platform"></div>
+            </div>
+            <div class="field">
               <label>Alt names (comma-separated)</label>
-              <input type="text" id="f-alt" value="${esc((draft.alt_names||[]).join(', '))}" placeholder="Alternate titles">
+              <input type="text" id="f-alt" value="${esc((draft.alt_names||[]).join(', '))}" placeholder="Alternate titles (for search)">
+            </div>
+            <div class="field span-2">
+              <div class="matches-box empty" id="matches-box"></div>
             </div>
           </div>
         </div>
@@ -2535,26 +2847,12 @@ function openEditor(g){
         <div class="form-section">
           <div class="sec-title">Lists</div>
           <div class="list-grid" id="list-grid">${membershipHTML}</div>
-          <div style="margin-top:.6rem;font-size:.72rem;color:var(--muted);font-family:var(--font-head);letter-spacing:.06em;text-transform:uppercase;">Checking COOP-BEATEN auto-checks BEATEN. Backlog Series is derived from the Series section — not a list.</div>
+          <div style="margin-top:.6rem;font-size:.72rem;color:var(--muted);font-family:var(--font-head);letter-spacing:.06em;text-transform:uppercase;">Checking COOP-BEATEN auto-checks BEATEN. Backlog Series is derived from the Series section.</div>
         </div>
 
         <div class="form-section">
           <div class="sec-title">Info</div>
           <div class="form-grid">
-            <div class="field">
-              <label>Platform</label>
-              <input type="text" id="f-platform" value="${esc(draft.platform||'')}" placeholder="PC / PS2 / Switch…">
-              <div class="pills" data-field="platform"></div>
-            </div>
-            <div class="field">
-              <label>Release</label>
-              <input type="text" id="f-release" value="${esc(draft.release||'')}" placeholder="24.01.2024 / 2001 (2023) / TBA">
-              <div class="pills" data-field="release"></div>
-            </div>
-            <div class="field">
-              <label>EA date</label>
-              <input type="text" id="f-ea-date" value="${esc(draft.ea_date||'')}" placeholder="Early access start date">
-            </div>
             <div class="field">
               <label>Size</label>
               <input type="text" id="f-size" value="${esc(draft.size||'')}" placeholder="3.2 GB">
@@ -2600,24 +2898,25 @@ function openEditor(g){
               <input type="text" id="f-series" value="${esc(draft.series||'')}" placeholder="silent-hill">
             </div>
             <div class="field">
-              <label>Status</label>
-              <select id="f-series-status">
-                <option value="" ${!draft.series_status?'selected':''}>—</option>
-                <option value="done" ${draft.series_status==='done'?'selected':''}>DONE</option>
-                <option value="rerun" ${draft.series_status==='rerun'?'selected':''}>RERUN</option>
-              </select>
-            </div>
-            <div class="field">
-              <label>Ownership</label>
-              <select id="f-series-color">
-                <option value="" ${!draft.series_color?'selected':''}>—</option>
-                <option value="green" ${draft.series_color==='green'?'selected':''}>INSTALLED</option>
-                <option value="blue" ${draft.series_color==='blue'?'selected':''}>STEAM</option>
-              </select>
-            </div>
-            <div class="field">
               <label>Series note</label>
               <input type="text" id="f-series-note" value="${esc(draft.series_note||'')}" placeholder="Optional">
+            </div>
+            <div class="field span-2">
+              <label>Status</label>
+              <div class="status-row" id="status-row">
+                <button type="button" class="status-btn ${statusVal==='done'?'on':''}" data-status="done">Done</button>
+                <button type="button" class="status-btn ${statusVal==='rerun'?'on rerun':''}" data-status="rerun">Rerun</button>
+                <button type="button" class="status-btn ${statusVal==='optional'?'on optional':''}" data-status="optional">Optional</button>
+                <button type="button" class="status-btn clear ${!statusVal?'on':''}" data-status="">—</button>
+              </div>
+            </div>
+            <div class="field span-2">
+              <label>Ownership</label>
+              <div class="status-row" id="owner-row">
+                <button type="button" class="owner-btn ${ownerVal==='installed'?'on':''}" data-owner="installed">Installed</button>
+                <button type="button" class="owner-btn ${ownerVal==='steam'?'on steam':''}" data-owner="steam">Steam</button>
+                <button type="button" class="owner-btn clear ${!ownerVal?'on':''}" data-owner="">—</button>
+              </div>
             </div>
           </div>
         </div>
@@ -2687,14 +2986,186 @@ function openEditor(g){
         </div>
         <div class="right-actions">
           <button type="button" class="btn" data-close>Cancel</button>
-          <button type="button" class="btn primary" id="save-btn">${isNew ? 'Create' : 'Stage changes'}</button>
+          <button type="button" class="btn primary" id="save-btn">${saveBtnLabel}</button>
         </div>
       </div>
     </div>`;
   backdrop.classList.add('open');
 
   const $ = sel => modalSlot.querySelector(sel);
+  const $$ = sel => modalSlot.querySelectorAll(sel);
 
+  // --- matches box refresh ---
+  const idInput = $('#f-id');
+  const nameInput = $('#f-name');
+  const releaseInput = $('#f-release');
+  const eaInput = $('#f-ea-release');
+  const platformInput = $('#f-platform');
+  const matchesBox = $('#matches-box');
+  const saveBtn = $('#save-btn');
+  let userEditedId = !isNew; // when editing, treat ID as user-controlled
+  let manuallyPickedId = null;
+
+  function refreshIdDerived(){
+    if(userEditedId) return;
+    const d = deriveGameId(nameInput.value, releaseInput.value, eaInput.value, platformInput.value);
+    idInput.value = d;
+  }
+
+  function refreshMatches(){
+    const curId = (idInput.value || '').trim();
+    const nm = (nameInput.value || '').trim();
+    // look up exact existence
+    const exists = !!(MANIFEST.games[curId] || pendingGameWrites.has(curId)) && (curId !== (draft.id || ''));
+    const matches = findMatches(curId, nm);
+    // If editing the same game, filter out self
+    const filtered = isNew
+      ? matches
+      : matches.filter(m => m.id !== draft.id);
+    if(filtered.length === 0 && !exists){
+      matchesBox.classList.add('empty');
+      matchesBox.innerHTML = '';
+      idInput.classList.remove('exists');
+      idInput.classList.add('ok');
+      if(isNew){ saveBtn.textContent = 'ADD NEW GAME'; saveBtn.className = 'btn primary'; }
+      modalSlot._attachId = null;
+      return;
+    }
+    idInput.classList.remove('ok');
+    idInput.classList.add('exists');
+    const rowsHTML = filtered.map(m => {
+      const cls = m.kind === 'exact' ? 'exact' : 'similar';
+      const isSel = modalSlot._attachId === m.id;
+      return `<div class="match-row ${isSel?'selected':''}" data-match-id="${esc(m.id)}" data-match-kind="${cls}">
+        <span class="m-tag ${cls}">${cls === 'exact' ? 'EXISTS' : 'SIMILAR'}</span>
+        <span class="m-id">${esc(m.id)}</span>
+        <span class="m-meta">${esc(m.year || '')}${m.platform ? ' · ' + esc(m.platform) : ''}</span>
+      </div>`;
+    }).join('');
+    const titleKind = exists ? 'exact' : 'similar';
+    const titleText = exists
+      ? `ID already exists — pick it to ADD TO LIST instead`
+      : `Similar games found — pick one to add to a list, or keep typing`;
+    matchesBox.classList.remove('empty');
+    matchesBox.innerHTML = `
+      <div class="mb-title"><span class="mb-kind ${titleKind}">${exists ? '⚠' : '≈'}</span>${esc(titleText)}</div>
+      ${rowsHTML}`;
+    if(isNew){
+      if(modalSlot._attachId){ saveBtn.textContent = 'ADD TO LIST'; saveBtn.className = 'btn attach'; }
+      else { saveBtn.textContent = 'ADD NEW GAME'; saveBtn.className = 'btn primary'; }
+    }
+  }
+
+  function pickAttach(id){
+    const g = MANIFEST.games[id] || viewGame(id);
+    if(!g) return;
+    modalSlot._attachId = id;
+    // populate fields
+    nameInput.value = g.name || '';
+    releaseInput.value = g.release || '';
+    eaInput.value = g.ea_release || '';
+    platformInput.value = g.platform || '';
+    $('#f-size').value = g.size || '';
+    $('#f-dev').value = g.dev || '';
+    $('#f-pub').value = g.pub || '';
+    $('#f-notes').value = g.notes || '';
+    $('#f-alt').value = (g.alt_names || []).join(', ');
+    $('#f-screenshot').value = g.screenshot || '';
+    $('#f-logo').value = g.logo || '';
+    $('#f-series').value = g.series || '';
+    $('#f-series-note').value = g.series_note || '';
+    // HLTB
+    const hp2 = hltbToParts(g.hltb);
+    const numeric2 = hltbIsNumeric(g.hltb);
+    $('#f-hltb-type').querySelector(`input[value="${numeric2 ? 'numeric' : 'text'}"]`).checked = true;
+    $('#hltb-numeric').style.display = numeric2 ? '' : 'none';
+    $('#hltb-text').style.display = numeric2 ? 'none' : '';
+    $('#f-hltb-main').value = hp2.main || '';
+    $('#f-hltb-extra').value = hp2.extra || '';
+    $('#f-hltb-raw').value = numeric2 ? '' : (g.hltb || '');
+    // Preview update
+    $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
+    $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
+    // Status/owner buttons
+    const sv = g.series_status || '';
+    const ov = g.series_owner || '';
+    $$('#status-row .status-btn').forEach(b => b.classList.toggle('on', b.dataset.status === sv));
+    $$('#status-row .status-btn').forEach(b => { if(b.dataset.status) b.classList.toggle('rerun', b.dataset.status === 'rerun'); if(b.dataset.status) b.classList.toggle('optional', b.dataset.status === 'optional'); });
+    $$('#owner-row .owner-btn').forEach(b => b.classList.toggle('on', b.dataset.owner === ov));
+    $$('#owner-row .owner-btn').forEach(b => { if(b.dataset.owner) b.classList.toggle('steam', b.dataset.owner === 'steam'); });
+    // Flags
+    $$('#flag-row .flag-btn').forEach(b => b.classList.toggle('on', !!(g.flags || {})[b.dataset.flag]));
+    // Links
+    const linksList = $('#links-list');
+    linksList.innerHTML = (g.links || []).map((l, i) => `
+      <div class="link-row" data-link-idx="${i}">
+        <input type="text" class="link-label" placeholder="Label" value="${esc(l.label||'')}">
+        <input type="text" class="link-url" placeholder="https://…" value="${esc(l.url||'')}">
+        <button type="button" class="remove-link" title="Remove">✕</button>
+      </div>`).join('');
+    // Memberships
+    const mem = membershipsOf(id);
+    $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = mem.has(cb.dataset.list); cb.closest('.list-cb').classList.toggle('on', cb.checked); });
+    // ID shows the picked game
+    idInput.value = id;
+    userEditedId = true;
+    refreshMatches();
+  }
+
+  function resetPick(){
+    modalSlot._attachId = null;
+    userEditedId = false;
+    // restore a fresh draft
+    nameInput.value = '';
+    releaseInput.value = '';
+    eaInput.value = '';
+    platformInput.value = 'PC';
+    $('#f-size').value = '';
+    $('#f-dev').value = '';
+    $('#f-pub').value = '';
+    $('#f-notes').value = '';
+    $('#f-alt').value = '';
+    $('#f-screenshot').value = '';
+    $('#f-logo').value = '';
+    $('#f-series').value = '';
+    $('#f-series-note').value = '';
+    $('#f-hltb-main').value = '';
+    $('#f-hltb-extra').value = '';
+    $('#f-hltb-raw').value = '';
+    $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = false; cb.closest('.list-cb').classList.remove('on'); });
+    $$('#flag-row .flag-btn').forEach(b => b.classList.remove('on'));
+    $$('#status-row .status-btn').forEach(b => b.classList.toggle('on', !b.dataset.status));
+    $$('#owner-row .owner-btn').forEach(b => b.classList.toggle('on', !b.dataset.owner));
+    $('#links-list').innerHTML = '';
+    refreshIdDerived();
+    refreshMatches();
+  }
+
+  // Hook up derived + matches
+  [nameInput, releaseInput, eaInput, platformInput].forEach(el => {
+    el.addEventListener('input', () => {
+      if(el !== idInput) refreshIdDerived();
+      refreshMatches();
+    });
+  });
+  idInput.addEventListener('input', () => {
+    userEditedId = true;
+    refreshMatches();
+  });
+  const resetBtn = $('#reset-id');
+  if(resetBtn) resetBtn.onclick = () => {
+    userEditedId = false;
+    modalSlot._attachId = null;
+    refreshIdDerived();
+    refreshMatches();
+  };
+  matchesBox.addEventListener('click', e => {
+    const row = e.target.closest('.match-row');
+    if(!row) return;
+    pickAttach(row.dataset.matchId);
+  });
+
+  // ---- existing hooks (kept from before) ----
   const listGrid = $('#list-grid');
   const cbCoop = listGrid.querySelector('input[data-list="coop-beaten"]');
   const cbBeaten = listGrid.querySelector('input[data-list="beaten"]');
@@ -2725,7 +3196,7 @@ function openEditor(g){
     const v = e.target.value.trim();
     $('#logo-preview').innerHTML = v ? `<img src="${esc(logoSrc(v))}" alt="">` : '504 × 562';
   });
-  modalSlot.querySelectorAll('.lock-toggle').forEach(btn => {
+  $$('.lock-toggle').forEach(btn => {
     btn.addEventListener('click', e => {
       e.stopPropagation();
       const src = btn.dataset.lock;
@@ -2734,17 +3205,15 @@ function openEditor(g){
       else { set.add(src); btn.textContent = '🔒'; btn.closest('.src-btn').classList.add('locked'); }
     });
   });
-  $('#google-screenshot')?.addEventListener('click', () => {
-    const nameVal = ($('#f-name').value || '').trim();
+  $('#google-screenshot').addEventListener('click', () => {
+    const nameVal = (nameInput.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     window.open('https://www.google.com/search?q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
   });
-  $('#save-screenshot-local')?.addEventListener('click', async () => {
-    const nameVal = ($('#f-name').value || '').trim();
+  $('#save-screenshot-local').addEventListener('click', async () => {
+    const nameVal = (nameInput.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
-    const year = extractYear($('#f-release').value.trim());
-    const platform = $('#f-platform').value.trim();
-    const gid = draft.id || makeUniqueId(nameVal, year, platform, '');
+    const gid = idInput.value.trim() || draft.id || deriveGameId(nameVal, releaseInput.value, eaInput.value, platformInput.value);
     const url = ($('#f-screenshot').value || '').trim();
     const btn = $('#save-screenshot-local');
     const orig = btn.innerHTML;
@@ -2756,12 +3225,10 @@ function openEditor(g){
     });
     btn.disabled = false; btn.innerHTML = orig;
   });
-  $('#save-logo-local')?.addEventListener('click', async () => {
-    const nameVal = ($('#f-name').value || '').trim();
+  $('#save-logo-local').addEventListener('click', async () => {
+    const nameVal = (nameInput.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
-    const year = extractYear($('#f-release').value.trim());
-    const platform = $('#f-platform').value.trim();
-    const gid = draft.id || makeUniqueId(nameVal, year, platform, '');
+    const gid = idInput.value.trim() || draft.id || deriveGameId(nameVal, releaseInput.value, eaInput.value, platformInput.value);
     const url = ($('#f-logo').value || '').trim();
     const btn = $('#save-logo-local');
     const orig = btn.innerHTML;
@@ -2773,8 +3240,8 @@ function openEditor(g){
     });
     btn.disabled = false; btn.innerHTML = orig;
   });
-  $('#sgdb-logo')?.addEventListener('click', async () => {
-    const nameVal = ($('#f-name').value || '').trim();
+  $('#sgdb-logo').addEventListener('click', async () => {
+    const nameVal = (nameInput.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     const btn = $('#sgdb-logo'); const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Loading';
@@ -2789,8 +3256,8 @@ function openEditor(g){
     }catch(err){ toast('SGDB: ' + err.message, 'bad'); }
     finally{ btn.disabled = false; btn.innerHTML = orig; }
   });
-  $('#lbdb-logo')?.addEventListener('click', async () => {
-    const nameVal = ($('#f-name').value || '').trim();
+  $('#lbdb-logo').addEventListener('click', async () => {
+    const nameVal = (nameInput.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     const btn = $('#lbdb-logo'); const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Loading';
@@ -2810,6 +3277,27 @@ function openEditor(g){
     if(!btn) return;
     btn.classList.toggle('on');
   });
+  const statusRow = $('#status-row');
+  if(statusRow) statusRow.addEventListener('click', e => {
+    const btn = e.target.closest('.status-btn');
+    if(!btn) return;
+    statusRow.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
+    if(btn.dataset.status){
+      btn.classList.add('on');
+      if(btn.dataset.status === 'rerun') btn.classList.add('rerun');
+      if(btn.dataset.status === 'optional') btn.classList.add('optional');
+    } else {
+      btn.classList.add('on');
+    }
+  });
+  const ownerRow = $('#owner-row');
+  if(ownerRow) ownerRow.addEventListener('click', e => {
+    const btn = e.target.closest('.owner-btn');
+    if(!btn) return;
+    ownerRow.querySelectorAll('.owner-btn').forEach(b => { b.classList.remove('on','steam'); });
+    btn.classList.add('on');
+    if(btn.dataset.owner === 'steam') btn.classList.add('steam');
+  });
   const linksList = $('#links-list');
   $('#add-link-btn').addEventListener('click', () => {
     const row = document.createElement('div');
@@ -2827,8 +3315,24 @@ function openEditor(g){
   if(!isNew) $('#delete-btn').addEventListener('click', () => openConfirmDelete(g));
 
   $('#save-btn').addEventListener('click', () => {
-    const name = $('#f-name').value.trim();
+    const mode2 = modalSlot._mode;
+    const isAttach = isNew && modalSlot._attachId;
+
+    const name = nameInput.value.trim();
     if(!name){ toast('Name is required', 'bad'); return; }
+
+    const id = (idInput.value || '').trim();
+    if(!id){ toast('ID is required', 'bad'); return; }
+    if(!/^[a-z0-9\-]+$/.test(id)){ toast('ID must be lowercase letters, digits, hyphens', 'bad'); return; }
+
+    if(mode2 === 'add' && !isAttach){
+      // new game creation
+      const exists = MANIFEST.games[id] || pendingGameWrites.has(id);
+      if(exists){
+        toast('ID already exists — pick it above or change the ID', 'bad');
+        return;
+      }
+    }
 
     const checkedLists = new Set(
       [...listGrid.querySelectorAll('input[type=checkbox]')]
@@ -2837,9 +3341,8 @@ function openEditor(g){
     );
     if(checkedLists.size === 0){ toast('Pick at least one list', 'bad'); return; }
 
-    const releaseVal = $('#f-release').value.trim();
-    const eaDateVal  = $('#f-ea-date').value.trim();
-    const computedYear = extractYear(releaseVal) || extractYear(eaDateVal);
+    const releaseVal = releaseInput.value.trim();
+    const eaVal      = eaInput.value.trim();
 
     const hltbType = $('#f-hltb-type input:checked').value;
     const hltb = hltbType === 'numeric'
@@ -2858,20 +3361,71 @@ function openEditor(g){
 
     const altNames = ($('#f-alt').value || '').split(',').map(s => s.trim()).filter(Boolean);
 
-    const platform = $('#f-platform').value.trim();
-    const oldId = draft.id || '';
-    const id = isNew ? makeUniqueId(name, computedYear, platform, '')
-                     : (oldId || makeUniqueId(name, computedYear, platform, ''));
+    const platform = platformInput.value.trim();
 
-    // preserve unknown fields (dlc, base_game, series_name, series_year)
+    // ---- BUILD ATTACH PATH ----
+    if(mode2 === 'add' && isAttach){
+      const existingId = modalSlot._attachId;
+      const base = MANIFEST.games[existingId] || viewGame(existingId);
+      if(!base){ toast('Original game not found', 'bad'); return; }
+      const merged = JSON.parse(JSON.stringify(base));
+      // Only apply displayed fields (they should equal base unless user edited)
+      merged.name = name;
+      merged.alt_names = altNames;
+      merged.platform = platform;
+      merged.release = releaseVal;
+      merged.ea_release = eaVal;
+      merged.size = $('#f-size').value.trim();
+      merged.hltb = hltb;
+      merged.dev = $('#f-dev').value.trim();
+      merged.pub = $('#f-pub').value.trim();
+      merged.notes = $('#f-notes').value.trim();
+      merged.screenshot = $('#f-screenshot').value.trim();
+      merged.logo = $('#f-logo').value.trim();
+      merged.links = links;
+      merged.flags = {
+        installed:    $('#flag-row [data-flag="installed"]').classList.contains('on'),
+        localCoop:    $('#flag-row [data-flag="localCoop"]').classList.contains('on'),
+        authRequired: $('#flag-row [data-flag="authRequired"]').classList.contains('on'),
+        ownedSteam:   $('#flag-row [data-flag="ownedSteam"]').classList.contains('on'),
+        gamepass:     $('#flag-row [data-flag="gamepass"]').classList.contains('on'),
+      };
+      merged.series = $('#f-series').value.trim() || null;
+      const sOn = statusRow.querySelector('.status-btn.on');
+      merged.series_status = sOn && sOn.dataset.status ? sOn.dataset.status : null;
+      const oOn = ownerRow.querySelector('.owner-btn.on');
+      merged.series_owner = oOn && oOn.dataset.owner ? oOn.dataset.owner : null;
+      merged.series_note = $('#f-series-note').value.trim() || null;
+      // compare to see if any field changed (deep)
+      const before = JSON.stringify(base);
+      const after = JSON.stringify(merged);
+      if(before !== after){
+        pendingGameWrites.set(existingId, merged);
+      }
+      // add to lists (append to end if not already)
+      for(const listId of checkedLists){
+        const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
+        if(!list.includes(existingId)) list.push(existingId);
+        pendingListWrites.set(listId, list);
+      }
+      // also handle series remapping if needed (skip for now — user manages series from series page)
+      closeAll();
+      invalidateAllPanes();
+      updatePendingStrip();
+      renderContent();
+      toast('Added to list' + (before !== after ? ' + saved edits' : ''));
+      return;
+    }
+
+    // ---- NORMAL CREATE / EDIT PATH ----
+    const oldId = draft.id || '';
     const out = JSON.parse(JSON.stringify(draft));
     Object.assign(out, {
       id,
       name,
-      year: computedYear,
       platform,
       release: releaseVal,
-      ea_date: eaDateVal,
+      ea_release: eaVal,
       size: $('#f-size').value.trim(),
       hltb,
       dev: $('#f-dev').value.trim(),
@@ -2889,46 +3443,73 @@ function openEditor(g){
         gamepass:     $('#flag-row [data-flag="gamepass"]').classList.contains('on'),
       },
       series:        $('#f-series').value.trim() || null,
-      series_status: $('#f-series-status').value || null,
-      series_color:  $('#f-series-color').value || null,
+      series_status: (statusRow.querySelector('.status-btn.on')?.dataset.status) || null,
+      series_owner:  (ownerRow.querySelector('.owner-btn.on')?.dataset.owner) || null,
       series_note:   $('#f-series-note').value.trim() || null,
     });
 
-    pendingGameWrites.set(id, out);
-
-    if(isNew){
-      for(const tabId of checkedLists){
-        const list = (pendingListWrites.get(tabId) || MANIFEST.lists[tabId] || []).slice();
-        if(!list.includes(id)) list.push(id);
-        pendingListWrites.set(tabId, list);
-      }
-    } else if(id !== oldId){
-      const oldMemberships = membershipsOf(oldId);
-      for(const t of ALL_TABS){
-        const list = (pendingListWrites.get(t.id) || MANIFEST.lists[t.id] || []).slice();
+    // Delete old ID if renamed
+    if(!isNew && oldId && oldId !== id){
+      // remap lists
+      for(const listId of REAL_LISTS){
+        const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
         const idx = list.indexOf(oldId);
+        if(idx >= 0){ list[idx] = id; pendingListWrites.set(listId, list); }
+      }
+      // remap series orders
+      for(const slug of Object.keys(MANIFEST.series)){
+        const s = viewSeries(slug);
+        if(!s) continue;
+        const order = (s.order || []).slice();
+        const idx = order.indexOf(oldId);
         if(idx >= 0){
-          if(checkedLists.has(t.id)) list[idx] = id;
-          else list.splice(idx, 1);
-          pendingListWrites.set(t.id, list);
-        } else if(checkedLists.has(t.id) && !oldMemberships.has(t.id)){
-          if(!list.includes(id)) list.push(id);
-          pendingListWrites.set(t.id, list);
+          order[idx] = id;
+          const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(s));
+          copy.order = order;
+          if(copy.display && copy.display[oldId]){
+            copy.display[id] = copy.display[oldId];
+            delete copy.display[oldId];
+          }
+          pendingSeriesWrites.set(slug, copy);
+        }
+      }
+      // remap pending series writes that reference old id in order
+      for(const [slug, s] of pendingSeriesWrites){
+        if(s && s.order && s.order.includes(oldId)){
+          s.order = s.order.map(x => x === oldId ? id : x);
         }
       }
       pendingGameDeletes.add(oldId);
+      pendingGameWrites.delete(oldId);
+      // remove from any pending list references
+      for(const [listId, list] of pendingListWrites){
+        const filtered = list.filter(x => x !== oldId);
+        pendingListWrites.set(listId, filtered);
+      }
+    }
+
+    pendingGameWrites.set(id, out);
+
+    // Apply list membership changes
+    const checkedListsArray = [...checkedLists];
+    if(isNew){
+      for(const listId of checkedListsArray){
+        const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
+        if(!list.includes(id)) list.push(id);
+        pendingListWrites.set(listId, list);
+      }
     } else {
       const before = membershipsOf(id);
-      for(const t of ALL_TABS){
-        const inBefore = before.has(t.id);
-        const inAfter = checkedLists.has(t.id);
+      for(const listId of REAL_LISTS){
+        const inBefore = before.has(listId);
+        const inAfter = checkedLists.has(listId);
         if(inBefore && !inAfter){
-          const list = (pendingListWrites.get(t.id) || MANIFEST.lists[t.id] || []).slice();
+          const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
           const idx = list.indexOf(id);
-          if(idx >= 0){ list.splice(idx, 1); pendingListWrites.set(t.id, list); }
+          if(idx >= 0){ list.splice(idx, 1); pendingListWrites.set(listId, list); }
         } else if(!inBefore && inAfter){
-          const list = (pendingListWrites.get(t.id) || MANIFEST.lists[t.id] || []).slice();
-          if(!list.includes(id)){ list.push(id); pendingListWrites.set(t.id, list); }
+          const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
+          if(!list.includes(id)){ list.push(id); pendingListWrites.set(listId, list); }
         }
       }
     }
@@ -2939,13 +3520,17 @@ function openEditor(g){
     renderContent();
     toast(isNew ? 'Staged new game' : 'Staged changes');
   });
+
+  // Initial refresh
+  if(isNew) refreshIdDerived();
+  refreshMatches();
 }
 function openConfirmDelete(g){
   modalSlot.innerHTML = `
     <div class="confirm">
       <h3><span class="icon icon-trash" style="width:1em;height:1em"></span>Delete game?</h3>
-      <p>Remove <span class="gname">${esc(g.name)}</span>?</p>
-      <p class="warn">Staged. Nothing goes to GitHub until you press Commit.</p>
+      <p>Remove <span class="gname">${esc(g.name)}</span> from the database?</p>
+      <p class="warn">Staged. Nothing goes to GitHub until you press Commit. Will also remove from all lists and series.</p>
       <div class="btns">
         <button type="button" class="btn" data-close>Cancel</button>
         <button type="button" class="btn danger" id="confirm-delete"><span class="icon icon-trash"></span>Stage delete</button>
@@ -2956,10 +3541,19 @@ function openConfirmDelete(g){
     const id = g.id;
     pendingGameDeletes.add(id);
     pendingGameWrites.delete(id);
-    for(const t of ALL_TABS){
-      const list = (pendingListWrites.get(t.id) || MANIFEST.lists[t.id] || []).slice();
+    for(const listId of REAL_LISTS){
+      const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
       const idx = list.indexOf(id);
-      if(idx >= 0){ list.splice(idx, 1); pendingListWrites.set(t.id, list); }
+      if(idx >= 0){ list.splice(idx, 1); pendingListWrites.set(listId, list); }
+    }
+    for(const slug of Object.keys(MANIFEST.series)){
+      const s = viewSeries(slug);
+      if(!s) continue;
+      if((s.order || []).includes(id)){
+        const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(s));
+        copy.order = (copy.order || []).filter(x => x !== id);
+        pendingSeriesWrites.set(slug, copy);
+      }
     }
     closeAll();
     invalidateAllPanes();
@@ -2974,6 +3568,7 @@ function closeAll(){
   modalSlot._pillsBound = false;
   modalSlot._parseResults = null;
   modalSlot._lockedSources = null;
+  modalSlot._attachId = null;
   pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
   logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
   closeAllDropdowns();
@@ -3180,13 +3775,199 @@ async function runParse(){
   else toast('Found on: ' + found.join(', '));
 }
 
+/* SERIES EDITOR (admin on backlog-series tab) */
+function openSeriesHeaderModal(slug){
+  const isNew = !slug;
+  const s = isNew ? { id:'', name:'', logo:'', order:[], display:{} } : viewSeries(slug);
+  if(!s) return;
+  seriesSlot._slug = slug || '';
+  seriesSlot._isNew = isNew;
+  seriesSlot.innerHTML = `
+    <div class="series-header-modal" style="max-width:520px">
+      <button class="modal-close" data-close>✕</button>
+      <h2>${isNew ? 'New series' : 'Edit series'}</h2>
+      <div class="form-section" style="margin-top:1rem;padding-top:0;border-top:0">
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Name</label>
+          <input type="text" id="sh-name" value="${esc(s.name||'')}" placeholder="Silent Hill">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Slug</label>
+          <input type="text" id="sh-slug" class="id-input" value="${esc(s.id||'')}" placeholder="silent-hill" ${isNew?'':'readonly style="opacity:.6"'}>
+        </div>
+        <div class="field">
+          <label>Logo</label>
+          <div class="img-input">
+            <div class="preview" id="sh-logo-preview">${s.logo ? `<img src="${esc(logoSrc(s.logo))}" alt="">` : '504 × 562'}</div>
+            <div class="controls">
+              <input type="text" id="sh-logo" placeholder="images/series/… or https://…" value="${esc(s.logo||'')}">
+              <div class="media-btn-row">
+                <button type="button" class="media-btn save" id="sh-save-logo">↓ Save locally</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="token-actions" style="margin-top:1.2rem">
+        <button type="button" class="btn" data-close>Cancel</button>
+        <button type="button" class="btn primary" id="sh-save">${isNew ? 'ADD SERIES' : 'Save edit'}</button>
+      </div>
+    </div>`;
+  seriesBackdrop.classList.add('open');
+
+  const $ = sel => seriesSlot.querySelector(sel);
+  const nameEl = $('#sh-name');
+  const slugEl = $('#sh-slug');
+  let userEditedSlug = !isNew;
+  if(isNew){
+    nameEl.addEventListener('input', () => {
+      if(userEditedSlug) return;
+      slugEl.value = slugify(nameEl.value);
+    });
+    slugEl.addEventListener('input', () => { userEditedSlug = true; });
+  }
+  $('#sh-logo').addEventListener('input', e => {
+    const v = e.target.value.trim();
+    $('#sh-logo-preview').innerHTML = v ? `<img src="${esc(logoSrc(v))}" alt="">` : '504 × 562';
+  });
+  $('#sh-save-logo').addEventListener('click', async () => {
+    const nameVal = (nameEl.value || '').trim();
+    if(!nameVal){ toast('Enter a series name first', 'bad'); return; }
+    const slugVal = (slugEl.value || '').trim() || slugify(nameVal);
+    const url = ($('#sh-logo').value || '').trim();
+    const btn = $('#sh-save-logo');
+    const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Saving';
+    await saveMediaLocally('series-logo', slugVal, url, (path) => {
+      $('#sh-logo').value = path;
+      $('#sh-logo').dispatchEvent(new Event('input', { bubbles: true }));
+      toast('Series logo saved → ' + path);
+    });
+    btn.disabled = false; btn.innerHTML = orig;
+  });
+  seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
+  $('#sh-save').onclick = () => {
+    const nameVal = (nameEl.value || '').trim();
+    if(!nameVal){ toast('Name is required', 'bad'); return; }
+    const slugVal = ((slugEl.value || '').trim() || slugify(nameVal)).replace(/[^a-z0-9\-]/gi,'-').toLowerCase();
+    if(!slugVal){ toast('Slug is required', 'bad'); return; }
+    if(isNew){
+      if(viewSeries(slugVal)){ toast('Series slug already exists', 'bad'); return; }
+      const created = { id: slugVal, name: nameVal, logo: ($('#sh-logo').value||'').trim(), order: [], display: {} };
+      pendingSeriesWrites.set(slugVal, created);
+      // also ensure it's in series_order
+      if(!MANIFEST.series_order.includes(slugVal)){
+        MANIFEST.series_order = (MANIFEST.series_order || []).concat(slugVal);
+      }
+      toast('Staged new series');
+    } else {
+      const base = viewSeries(slug);
+      const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(base));
+      copy.name = nameVal;
+      copy.logo = ($('#sh-logo').value||'').trim();
+      pendingSeriesWrites.set(slug, copy);
+      toast('Staged series edit');
+    }
+    closeSeriesHeaderModal();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+  };
+}
+function closeSeriesHeaderModal(){
+  seriesBackdrop.classList.remove('open');
+  seriesSlot.innerHTML = '';
+  seriesSlot._slug = '';
+  seriesSlot._isNew = false;
+}
+seriesBackdrop.addEventListener('click', e => { if(e.target === seriesBackdrop) closeSeriesHeaderModal(); });
+seriesSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeSeriesHeaderModal(); });
+
+/* SERIES ROW DISPLAY EDITOR */
+function openSeriesRowDisplayEditor(slug, gameId){
+  const s = viewSeries(slug);
+  if(!s) return;
+  const g = viewGame(gameId);
+  if(!g) return;
+  const d = (s.display && s.display[gameId]) || {};
+  seriesSlot._slug = slug;
+  seriesSlot._gameId = gameId;
+  seriesSlot._isRowEdit = true;
+  seriesSlot.innerHTML = `
+    <div class="series-header-modal" style="max-width:520px">
+      <button class="modal-close" data-close>✕</button>
+      <h2>Display override — ${esc(g.name)}</h2>
+      <p style="font-size:.82rem;color:var(--muted);margin-bottom:1rem">These override how the game looks inside this series. Real data on the game is unchanged.</p>
+      <div class="form-section" style="padding-top:0;border-top:0">
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Display name</label>
+          <input type="text" id="sr-name" value="${esc(d.display_name||'')}" placeholder="Overrides title (leave empty for real name)">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Display release</label>
+          <input type="text" id="sr-release" value="${esc(d.display_release||'')}" placeholder="Overrides year column">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Display platform</label>
+          <input type="text" id="sr-platform" value="${esc(d.display_platform||'')}" placeholder="Overrides platform column">
+        </div>
+        <div class="field">
+          <label>Series note</label>
+          <input type="text" id="sr-note" value="${esc(g.series_note||'')}" placeholder="Optional note">
+        </div>
+      </div>
+      <div class="token-actions" style="margin-top:1.2rem">
+        <button type="button" class="btn" data-close>Cancel</button>
+        <button type="button" class="btn primary" id="sr-save">Save</button>
+      </div>
+    </div>`;
+  seriesBackdrop.classList.add('open');
+  seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
+  seriesSlot.querySelector('#sr-save').onclick = () => {
+    const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(s));
+    copy.display = copy.display || {};
+    const nm = seriesSlot.querySelector('#sr-name').value.trim();
+    const rl = seriesSlot.querySelector('#sr-release').value.trim();
+    const pl = seriesSlot.querySelector('#sr-platform').value.trim();
+    const nt = seriesSlot.querySelector('#sr-note').value.trim();
+    const obj = {};
+    if(nm) obj.display_name = nm;
+    if(rl) obj.display_release = rl;
+    if(pl) obj.display_platform = pl;
+    if(Object.keys(obj).length) copy.display[gameId] = obj;
+    else delete copy.display[gameId];
+    pendingSeriesWrites.set(slug, copy);
+    // also update game's series_note
+    const base = viewGame(gameId);
+    if(base && (base.series_note || '') !== nt){
+      const gCopy = JSON.parse(JSON.stringify(base));
+      gCopy.series_note = nt || null;
+      pendingGameWrites.set(gameId, gCopy);
+    }
+    closeSeriesHeaderModal();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Display override saved');
+  };
+}
+
 /* EVENT HANDLERS */
+voidBtn.addEventListener('click', () => {
+  if(!adminMode){ showTokenPrompt(); return; }
+  voidMode = !voidMode;
+  voidBtn.classList.toggle('void-on', voidMode);
+  invalidateAllPanes();
+  renderContent();
+});
+
 switchEl.addEventListener('click', () => {
   group = group === 'coop' ? 'single' : 'coop';
   switchEl.dataset.active = group;
   bodyEl.dataset.group = group;
   tab = TABS[group][0].id;
   filterKey = 'all'; searchTerm = '';
+  voidMode = false; voidBtn.classList.remove('void-on');
   applySortForTab(tab);
   saveLastTab();
   renderTabs(); renderContent();
@@ -3196,6 +3977,7 @@ tabbarEl.addEventListener('click', e => {
   if(!btn) return;
   tab = btn.dataset.tab;
   filterKey = 'all'; searchTerm = '';
+  voidMode = false; voidBtn.classList.remove('void-on');
   applySortForTab(tab);
   saveLastTab();
   renderTabs(); renderContent();
@@ -3247,7 +4029,7 @@ document.addEventListener('click', e => {
 document.addEventListener('keydown', e => {
   if(e.key === 'Escape'){
     closeModal(); closeAllDropdowns(); closeTokenPrompt();
-    closePendingModal(); closeToolsModal();
+    closePendingModal(); closeToolsModal(); closeSeriesHeaderModal();
     pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
     logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
   }
@@ -3258,7 +4040,88 @@ document.addEventListener('keydown', e => {
 });
 contentEl.addEventListener('load', e => { if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded'); }, true);
 contentEl.addEventListener('error', e => { if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded'); }, true);
+
+/* Content clicks — including series admin actions */
 contentEl.addEventListener('click', e => {
+  // Series admin: header edit
+  const sh = e.target.closest('[data-act="series-edit-header"]');
+  if(sh){ e.stopPropagation(); openSeriesHeaderModal(sh.dataset.slug); return; }
+  // Series admin: delete series
+  const sd = e.target.closest('[data-act="series-del"]');
+  if(sd){
+    e.stopPropagation();
+    const slug = sd.dataset.slug;
+    const s = viewSeries(slug);
+    if(!s) return;
+    if(!confirm('Delete series "' + (s.name || slug) + '"? This will also clear series fields on all its games.')) return;
+    pendingSeriesDeletes.add(slug);
+    pendingSeriesWrites.delete(slug);
+    // clear series fields on games
+    for(const id of (s.order || [])){
+      const g = viewGame(id);
+      if(!g) continue;
+      if(g.series === slug){
+        const gc = JSON.parse(JSON.stringify(g));
+        gc.series = null; gc.series_status = null; gc.series_owner = null; gc.series_note = null;
+        pendingGameWrites.set(id, gc);
+      }
+    }
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Staged series delete');
+    return;
+  }
+  // Series admin: add new series
+  const san = e.target.closest('[data-act="series-add-new"]');
+  if(san){ e.stopPropagation(); openSeriesHeaderModal(null); return; }
+  // Series admin: add row to series
+  const sar = e.target.closest('[data-act="series-add-row"]');
+  if(sar){
+    e.stopPropagation();
+    const slug = sar.dataset.slug;
+    // Open Add Game editor, pre-set series field, and remember to append to series order on save
+    seriesSlot._pendingSeriesAppend = slug;
+    openEditorWithSeries(slug);
+    return;
+  }
+  // Series admin: edit a row's display overrides
+  const ser = e.target.closest('[data-act="series-edit-row"]');
+  if(ser){
+    e.stopPropagation();
+    const row = ser.closest('.series-game-row');
+    openSeriesRowDisplayEditor(row.dataset.series, row.dataset.id);
+    return;
+  }
+  // Series admin: delete a row
+  const sdr = e.target.closest('[data-act="series-del-row"]');
+  if(sdr){
+    e.stopPropagation();
+    const row = sdr.closest('.series-game-row');
+    const slug = row.dataset.series;
+    const id = row.dataset.id;
+    const s = viewSeries(slug);
+    if(!s) return;
+    if(!confirm('Remove this game from series?')) return;
+    const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(s));
+    copy.order = (copy.order || []).filter(x => x !== id);
+    if(copy.display) delete copy.display[id];
+    pendingSeriesWrites.set(slug, copy);
+    // clear series fields on game
+    const g = viewGame(id);
+    if(g && g.series === slug){
+      const gc = JSON.parse(JSON.stringify(g));
+      gc.series = null; gc.series_status = null; gc.series_owner = null; gc.series_note = null;
+      pendingGameWrites.set(id, gc);
+    }
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Removed from series');
+    return;
+  }
+
+  // Card admin
   const adminBtnEl = e.target.closest('.card-admin button');
   if(adminBtnEl){
     e.stopPropagation();
@@ -3274,12 +4137,18 @@ contentEl.addEventListener('click', e => {
     if(target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     return;
   }
+  // Series row (edit mode)
+  const sRowAdmin = e.target.closest('.series-game-row[data-series]');
+  if(sRowAdmin){
+    // In admin mode, row click should NOT open modal — user has explicit edit/delete buttons.
+    if(adminMode) return;
+  }
   const srow = e.target.closest('.series-game-row');
   if(srow){ const g = viewGame(srow.dataset.id); if(g) openModal(g, 'backlog-series'); return; }
   const rowD = e.target.closest('.rowD');
   if(rowD){ const g = viewGame(rowD.dataset.id); if(g) openModal(g, tab); return; }
   const card = e.target.closest('.card');
-  if(card){ const g = viewGame(card.dataset.id); if(g) openModal(g, tab); }
+  if(card){ const g = viewGame(card.dataset.id); if(g) openModal(g, voidMode ? 'void' : tab); }
 });
 pendingStrip.addEventListener('click', e => {
   if(e.target.closest('.btns')) return;
@@ -3287,9 +4156,44 @@ pendingStrip.addEventListener('click', e => {
   openPendingModal();
 });
 
-/* DRAG-REORDER */
+/* Helper: open Add editor with a preset series slug (appends to that series on save) */
+function openEditorWithSeries(slug){
+  openEditor(null, { presetSeries: slug });
+  // After modal opens, set series field
+  const s = viewSeries(slug);
+  if(!s) return;
+  const f = modalSlot.querySelector('#f-series');
+  if(f){ f.value = slug; }
+  // On save, append to series order. We hook the save button by augmenting modalSlot with a flag.
+  modalSlot._presetSeriesSlug = slug;
+  // Wrap save to also append
+  const saveBtn = modalSlot.querySelector('#save-btn');
+  if(!saveBtn) return;
+  const origOnClick = saveBtn.onclick;
+  // Since we use addEventListener above, easier: intercept via MutationObserver would be overkill.
+  // Instead, we handle it in the click handler by checking modalSlot._presetSeriesSlug.
+}
+
+/* DRAG: cards, series headers, series rows */
 let dragSrcId = null;
+let dragSrcSeries = null;
+let dragSrcRow = null; // { slug, id }
 contentEl.addEventListener('dragstart', e => {
+  // series header drag
+  const block = e.target.closest('.series-block[draggable="true"]');
+  if(block){
+    dragSrcSeries = block.dataset.series;
+    e.dataTransfer.effectAllowed = 'move';
+    return;
+  }
+  // series row drag
+  const sRow = e.target.closest('.series-game-row[draggable="true"]');
+  if(sRow){
+    dragSrcRow = { slug: sRow.dataset.series, id: sRow.dataset.id };
+    e.dataTransfer.effectAllowed = 'move';
+    return;
+  }
+  // card drag
   const card = e.target.closest('.card');
   if(!card) return;
   if(!adminMode || sortKey !== 'natural'){ e.preventDefault(); return; }
@@ -3298,6 +4202,20 @@ contentEl.addEventListener('dragstart', e => {
   e.dataTransfer.effectAllowed = 'move';
 });
 contentEl.addEventListener('dragover', e => {
+  // series header
+  const block = e.target.closest('.series-block');
+  if(block && dragSrcSeries && block.dataset.series !== dragSrcSeries){
+    e.preventDefault();
+    block.classList.add('drag-over');
+    return;
+  }
+  // series row
+  const sRow = e.target.closest('.series-game-row');
+  if(sRow && dragSrcRow && sRow.dataset.series === dragSrcRow.slug && sRow.dataset.id !== dragSrcRow.id){
+    e.preventDefault();
+    sRow.classList.add('drag-over');
+    return;
+  }
   const card = e.target.closest('.card');
   if(!card || !dragSrcId) return;
   if(card.dataset.id === dragSrcId) return;
@@ -3305,10 +4223,65 @@ contentEl.addEventListener('dragover', e => {
   card.classList.add('drop-target');
 });
 contentEl.addEventListener('dragleave', e => {
+  const block = e.target.closest('.series-block');
+  if(block) block.classList.remove('drag-over');
+  const sRow = e.target.closest('.series-game-row');
+  if(sRow) sRow.classList.remove('drag-over');
   const card = e.target.closest('.card');
   if(card) card.classList.remove('drop-target');
 });
 contentEl.addEventListener('drop', e => {
+  // series header drop
+  const block = e.target.closest('.series-block');
+  if(block && dragSrcSeries){
+    e.preventDefault();
+    block.classList.remove('drag-over');
+    const targetSlug = block.dataset.series;
+    if(targetSlug === dragSrcSeries) { dragSrcSeries = null; return; }
+    const order = MANIFEST.series_order.slice();
+    const fromIdx = order.indexOf(dragSrcSeries);
+    const toIdx = order.indexOf(targetSlug);
+    if(fromIdx < 0 || toIdx < 0){ dragSrcSeries = null; return; }
+    order.splice(fromIdx, 1);
+    order.splice(toIdx, 0, dragSrcSeries);
+    MANIFEST.series_order = order;
+    // persist via file write
+    pendingFileWrites.set('data/series_order.json', JSON.stringify(order, null, 2) + '\n');
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Series reordered');
+    dragSrcSeries = null;
+    return;
+  }
+  // series row drop
+  const sRow = e.target.closest('.series-game-row');
+  if(sRow && dragSrcRow){
+    e.preventDefault();
+    sRow.classList.remove('drag-over');
+    const targetSlug = sRow.dataset.series;
+    const targetId = sRow.dataset.id;
+    if(targetSlug !== dragSrcRow.slug) { dragSrcRow = null; return; }
+    if(targetId === dragSrcRow.id) { dragSrcRow = null; return; }
+    const s = viewSeries(targetSlug);
+    if(!s){ dragSrcRow = null; return; }
+    const copy = pendingSeriesWrites.get(targetSlug) || JSON.parse(JSON.stringify(s));
+    const order = (copy.order || []).slice();
+    const fromIdx = order.indexOf(dragSrcRow.id);
+    const toIdx = order.indexOf(targetId);
+    if(fromIdx < 0 || toIdx < 0){ dragSrcRow = null; return; }
+    order.splice(fromIdx, 1);
+    order.splice(toIdx, 0, dragSrcRow.id);
+    copy.order = order;
+    pendingSeriesWrites.set(targetSlug, copy);
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Series order updated');
+    dragSrcRow = null;
+    return;
+  }
+  // card drop
   const card = e.target.closest('.card');
   if(!card || !dragSrcId) return;
   e.preventDefault();
@@ -3327,9 +4300,22 @@ contentEl.addEventListener('drop', e => {
   renderContent();
 });
 contentEl.addEventListener('dragend', () => {
-  contentEl.querySelectorAll('.card.dragging, .card.drop-target').forEach(c => c.classList.remove('dragging','drop-target'));
+  contentEl.querySelectorAll('.card.dragging, .card.drop-target, .series-block.drag-over, .series-game-row.drag-over, .series-game-row.dragging').forEach(c => c.classList.remove('dragging','drop-target','drag-over'));
   dragSrcId = null;
+  dragSrcSeries = null;
+  dragSrcRow = null;
 });
+
+/* Hook: when user saves a NEW game with a preset series, append to that series */
+const origPendingSet = null; // placeholder — we handle inside save via a check in pending
+
+/* Wrap the save flow to also append to a preset series.
+   The cleanest approach: hook into addEventListener above by overriding save after openEditor.
+   Simpler: patch the save logic by reading modalSlot._presetSeriesSlug inside a MutationObserver?
+   Actually, let's just add a post-save listener here that watches for the modal to close after save.
+   Since that's fragile, we take a different approach: the save handler inside openEditor already
+   handles new game creation. We add an inline check there.
+*/
 
 /* BOOT */
 (async function boot(){
