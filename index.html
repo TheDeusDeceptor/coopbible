@@ -109,7 +109,6 @@
   .dd.open .dd-btn .val,.dd-btn:hover .val{color:#e6ebf2}
   .dd-btn.non-default{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
   .dd-btn.non-default .val{color:var(--accent);}
-  .dd-btn.warn{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08);}
   .dd-menu{position:absolute;top:calc(100% + .35rem);left:0;z-index:50;min-width:200px;background:#0c1017;border:1px solid var(--border);border-radius:9px;padding:.35rem;box-shadow:0 12px 32px rgba(0,0,0,.55);display:none;flex-direction:column;gap:.1rem;animation:menuIn .13s ease-out;}
   .dd.open .dd-menu{display:flex}
   @keyframes menuIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
@@ -205,7 +204,7 @@
   .hover-text .name{font-family:var(--font-head);font-weight:700;font-size:1.05rem;letter-spacing:.03em;color:#cbd5e1;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .hover-text .meta{margin-top:.35rem;font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
   .hover-text .meta .sep{margin:0 .6em;opacity:.5}
-  /* SERIES EDITOR */
+  /* SERIES */
   .series-blocks{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1.75rem;}
   .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;position:relative;}
   .series-block.drag-over{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);}
@@ -231,7 +230,6 @@
   .series-game-row:last-child{border-bottom:none}
   .series-game-row:hover{background:rgba(255,255,255,.03)}
   .series-game-row.drag-over{background:var(--accent-soft);}
-  .series-game-row.dragging{opacity:.4;}
   .series-game-row.pending{background:rgba(74,222,128,.04);}
   .series-game-row.pending-del{background:rgba(239,68,68,.04);}
   .series-game-row .g-title{color:#e6ebf2;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
@@ -260,25 +258,24 @@
   .series-add-block{max-width:1400px;margin:1.25rem auto 0;display:flex;justify-content:center;}
   .series-add-block button{padding:.8rem 1.6rem;font-family:var(--font-head);font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;border:1px dashed var(--border);border-radius:10px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
   .series-add-block button:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  /* MODAL system */
-  .backdrop{position:fixed;inset:0;z-index:200;background:rgba(4,5,8,.78);display:none;align-items:center;justify-content:center;padding:1.5rem;}
+  /* MODAL */
+  .backdrop{position:fixed;inset:0;z-index:200;background:rgba(4,5,8,.85);display:none;align-items:center;justify-content:center;padding:1.5rem;overflow-y:auto;}
   .backdrop.open{display:flex}
-  #modal-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;max-height:100%}
-  .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:760px;max-height:88vh;overflow-y:auto;position:relative;}
-  .modal::-webkit-scrollbar{width:8px}
-  .modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;border:2px solid transparent;background-clip:padding-box;}
-  .modal::-webkit-scrollbar-thumb:hover{background:var(--accent);background-clip:padding-box}
-  .modal-hero{position:relative;width:100%;min-height:200px;background:#000;border-bottom:1px solid var(--border);display:grid;place-items:center;overflow:hidden;}
-  .modal-hero > img.modal-shot-img{width:100%;height:auto;display:block;max-height:70vh;object-fit:contain;background:#000;}
+  #modal-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;max-height:100%;margin:auto;pointer-events:none;}
+  #modal-slot > *{pointer-events:auto;}
+  .modal-wrap{position:relative;display:flex;align-items:center;gap:1rem;justify-content:center;width:100%;max-width:100%;}
+  .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;width:fit-content;max-width:min(95vw, 1500px);display:flex;flex-direction:column;}
+  .modal-hero{position:relative;background:#000;display:grid;place-items:center;overflow:hidden;flex-shrink:0;aspect-ratio:16/9;}
+  .modal-hero img{display:block;width:100%;height:100%;object-fit:cover;}
   .modal-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
-  .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
+  .modal-logo{position:absolute;bottom:1rem;right:1rem;width:96px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9)) drop-shadow(0 2px 30px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
   .modal-logo img{max-width:100%;max-height:100%;object-fit:contain}
   .modal-logo .ph{font-size:.5rem;letter-spacing:.14em;color:#3a4356}
   .modal-logo .ph small{font-size:.45rem}
   .modal-rank-badge{position:absolute;top:.75rem;left:.9rem;z-index:3;font-family:var(--font-head);font-weight:700;font-size:1rem;letter-spacing:.06em;color:var(--accent);background:rgba(0,0,0,.6);padding:.22rem .6rem;border-radius:5px;border:1px solid var(--accent-line);font-variant-numeric:tabular-nums;}
   .modal-close{position:absolute;top:.6rem;right:.6rem;width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:rgba(0,0,0,.55);color:var(--muted);cursor:pointer;font-size:.85rem;line-height:1;display:grid;place-items:center;z-index:4;}
   .modal-close:hover{color:#fff}
-  .modal-body{padding:1.5rem 1.25rem 1.25rem}
+  .modal-body{padding:1.5rem 1.5rem 1.25rem;width:100%;}
   .modal-title{font-family:var(--font-head);font-weight:700;font-size:1.25rem;letter-spacing:.02em;color:#fff;line-height:1.25;}
   .modal-alt{font-family:var(--font-body);font-size:.78rem;color:var(--muted);margin-top:.35rem;line-height:1.5;}
   .modal-alt::before{content:"aka ";opacity:.6}
@@ -314,7 +311,6 @@
   .link-btn .icon{width:1em;height:1em}
   .link-btn .link-icon-img{width:14px;height:14px;object-fit:contain;display:block;}
   .link-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
-  .modal-wrap{position:relative;width:100%;max-width:760px;display:flex;align-items:center;gap:1rem}
   .modal-nav{flex-shrink:0;width:48px;height:48px;border-radius:50%;border:1px solid var(--border);background:rgba(16,22,36,.85);color:var(--muted);cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);transition:all .22s cubic-bezier(.3,.7,.3,1);position:relative;}
   .modal-nav svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;transition:transform .22s cubic-bezier(.3,.7,.3,1)}
   .modal-nav:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);transform:scale(1.08)}
@@ -338,7 +334,7 @@
   .picker-list button:hover{border-color:var(--accent-line);background:rgba(56,189,248,.06)}
   .picker-list .pk-name{font-weight:600;font-size:.92rem;}
   .picker-list .pk-meta{font-size:.75rem;color:var(--muted);}
-  .admin-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:900px;max-height:92vh;overflow-y:auto;position:relative;}
+  .admin-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:1000px;max-height:92vh;overflow-y:auto;position:relative;}
   .admin-modal::-webkit-scrollbar{width:10px}
   .admin-modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
   .admin-modal::-webkit-scrollbar-thumb:hover{background:var(--accent);}
@@ -347,18 +343,16 @@
   .admin-head h2 .tag{font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding:.24rem .5rem;border-radius:5px;background:rgba(239,68,68,.12);color:var(--red);border:1px solid rgba(239,68,68,.4);}
   .admin-head h2 .tag.new{background:rgba(74,222,128,.12);color:var(--green);border-color:rgba(74,222,128,.4);}
   .admin-head h2 .tag.edit{background:rgba(56,189,248,.12);color:var(--accent);border-color:var(--accent-line);}
-  .admin-head h2 .tag.attach{background:rgba(245,158,11,.12);color:var(--amber);border-color:rgba(245,158,11,.4);}
   .admin-head .close-x{width:30px;height:30px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;font-size:.9rem;display:grid;place-items:center;}
   .admin-head .close-x:hover{color:#fff;border-color:var(--accent-line)}
   .admin-body{padding:1.4rem}
-  .form-section + .form-section{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid var(--border);}
-  .form-section .sec-title{font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.9rem;display:flex;align-items:center;gap:.6rem;}
-  .form-section .sec-title::after{content:"";flex:1;height:1px;background:var(--border);}
+  .form-section + .form-section{margin-top:1.4rem;padding-top:1.4rem;border-top:1px solid rgba(30,40,54,.5);}
+  .form-section .sec-title{font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.9rem;}
   .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:.9rem 1.1rem;}
   .form-grid .span-2{grid-column:1 / -1;}
   .field{display:flex;flex-direction:column;gap:.35rem;min-width:0}
   .field label{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:.4rem;}
-  .hltb-lbl{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .hltb-lbl{font-family:var(--font-head);font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:.4rem;}
   .field input,.field select,.field textarea{font-family:var(--font-body);font-size:.9rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:7px;padding:.6rem .75rem;outline:none;transition:border-color .18s ease,background .18s ease;width:100%;}
   .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .field input.id-input{font-family:ui-monospace,monospace;font-size:.82rem;}
@@ -385,8 +379,8 @@
   .list-cb.vault.on input:checked ~ .box{background:#e11d48;border-color:#e11d48;}
   .list-cb.vault.on input:checked ~ .lbl{color:#f43f5e;}
   .img-input{display:flex;gap:.9rem;align-items:flex-start;}
-  .img-input .preview{flex-shrink:0;width:100px;height:100px;border:1px dashed var(--border);border-radius:8px;background:#0a0e15;display:grid;place-items:center;color:#4a5468;font-family:var(--font-head);font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;text-align:center;line-height:1.4;padding:.4rem;overflow:hidden;}
-  .img-input .preview img{max-width:100%;max-height:100%;object-fit:contain}
+  .img-input .preview{flex-shrink:0;width:100px;height:100px;border:1px dashed var(--border);border-radius:8px;background:#0a0e15;display:flex;align-items:center;justify-content:center;color:#4a5468;font-family:var(--font-head);font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;text-align:center;line-height:1.4;padding:.4rem;overflow:hidden;}
+  .img-input .preview img{max-width:100%;max-height:100%;object-fit:contain;display:block;}
   .img-input .preview.shot-preview{width:180px;height:100px}
   .img-input .controls{flex:1;display:flex;flex-direction:column;gap:.4rem;min-width:0;}
   .media-btn-row{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.15rem;}
@@ -394,9 +388,11 @@
   .media-btn:hover{color:#cbd5e1;border-color:var(--accent-line);background:var(--accent-soft);}
   .media-btn:disabled{opacity:.5;cursor:wait;}
   .media-btn.save:hover{border-color:var(--green);color:var(--green);background:rgba(74,222,128,.08);}
+  .media-btn.save.saved{border-color:var(--green);color:var(--green);background:rgba(74,222,128,.12);box-shadow:0 0 0 1px rgba(74,222,128,.4),0 0 12px rgba(74,222,128,.25);}
   .media-btn.google:hover{border-color:#4285f4;color:#4285f4;background:rgba(66,133,244,.08);}
   .media-btn.sgdb:hover{border-color:var(--purple);color:var(--purple);background:rgba(167,139,250,.08);}
   .media-btn.lbdb:hover{border-color:var(--amber);color:var(--amber);background:rgba(245,158,11,.08);}
+  .media-btn.hltb:hover{border-color:var(--hltb);color:var(--hltb);background:rgba(251,113,133,.08);}
   .flag-row{display:flex;gap:.75rem;flex-wrap:wrap}
   .flag-btn{display:inline-flex;align-items:center;gap:.55rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.55rem .9rem;border:1px solid var(--border);border-radius:8px;background:transparent;color:var(--muted);cursor:pointer;transition:all .18s ease;}
   .flag-btn .lamp{width:8px;height:8px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
@@ -428,7 +424,6 @@
   .parse-bar{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.8rem 1rem;background:linear-gradient(180deg,rgba(56,189,248,.04) 0%,transparent 100%);border:1px solid rgba(56,189,248,.22);border-radius:9px;margin-bottom:1.2rem;}
   .parse-bar > *{flex-shrink:0;}
   .parse-bar .go-btn{margin-left:auto;}
-  .parse-bar .parse-title{font-family:var(--font-head);font-size:.56rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-right:.2rem;}
   .src-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .65rem;border:1px solid var(--border);border-radius:6px;background:rgba(255,255,255,.01);color:#cbd5e1;cursor:default;white-space:nowrap;}
   .src-btn .dot{width:8px;height:8px;border-radius:50%;background:#4a5468;transition:all .2s ease;flex-shrink:0;}
   .src-btn.loading .dot{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.2s ease-in-out infinite;}
@@ -443,8 +438,7 @@
   .src-btn.locked .lock-toggle{color:var(--amber);}
   .go-btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .95rem;border:1px solid var(--accent);border-radius:7px;background:var(--accent);color:#0a0d14;cursor:pointer;transition:all .18s ease;}
   .go-btn:hover{filter:brightness(1.12)}
-  .go-btn:disabled{opacity:.5;cursor:wait;filter:none}
-  .go-btn.loading::after{content:"";display:inline-block;width:8px;height:8px;margin-left:.5rem;border-radius:50%;background:#0a0d14;animation:pulse 1s ease-in-out infinite;}
+  .go-btn:disabled{opacity:.7;cursor:wait;filter:none;box-shadow:0 0 0 3px var(--accent-soft);}
   .pills{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.15rem;}
   .pills:empty{display:none}
   .pill{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-body);font-size:.72rem;font-weight:500;padding:.3rem .55rem;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.02);color:#cbd5e1;cursor:pointer;transition:all .14s ease;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
@@ -511,11 +505,6 @@
   .status-btn.on.rerun{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08);}
   .status-btn.on.optional{color:var(--muted);border-color:rgba(125,135,152,.5);background:rgba(125,135,152,.1);}
   .status-btn.clear{color:var(--muted);border-style:dashed;}
-  .owner-btn{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-head);font-size:.56rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.4rem .6rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .16s ease;}
-  .owner-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
-  .owner-btn.on{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
-  .owner-btn.on.steam{color:var(--steam);border-color:rgba(102,192,244,.5);background:rgba(102,192,244,.08);}
-  .owner-btn.clear{color:var(--muted);border-style:dashed;}
   .tools-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:820px;max-height:92vh;overflow-y:auto;position:relative;}
   .tools-modal::-webkit-scrollbar{width:10px}
   .tools-modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
@@ -1130,7 +1119,7 @@ function showTokenPrompt(){
       <p>Generate one at <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">github.com/settings/tokens</a>
          with <strong>Contents</strong> and <strong>Actions: read &amp; write</strong> on
          <code style="background:rgba(255,255,255,.05);padding:.1rem .35rem;border-radius:4px;font-family:ui-monospace,monospace;font-size:.78rem;color:#cbd5e1">${esc(GITHUB_OWNER)}/${esc(GITHUB_REPO)}</code>.</p>
-      <input type="password" id="token-input" placeholder="ghp_… or github_pat_…" autocomplete="off" spellcheck="false">
+      <input type="password" id="token-input" autocomplete="off" spellcheck="false">
       <div class="token-actions">
         <button type="button" class="btn" data-close>Cancel</button>
         <button type="button" class="btn primary" id="token-verify">Verify &amp; Save</button>
@@ -1581,9 +1570,9 @@ function platRowHTML(key){
   const iconUrl = iconFile ? (PLATFORM_ICON_BASE + iconFile) : '';
   return `
     <div class="plat-row ${status}" data-key="${esc(key)}">
-      <input type="text" class="key-input" value="${esc(key)}" placeholder="key" data-field="key">
-      <input type="text" value="${esc(p.label||'')}" placeholder="Label" data-field="label">
-      <input type="text" value="${esc(p.icon||'')}" placeholder="icon filename" data-field="icon">
+      <input type="text" class="key-input" value="${esc(key)}" data-field="key">
+      <input type="text" value="${esc(p.label||'')}" data-field="label">
+      <input type="text" value="${esc(p.icon||'')}" data-field="icon">
       <div class="plat-icon-preview ${iconUrl ? '' : 'empty'}">${iconUrl ? `<img src="${iconUrl}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">` : ''}</div>
       <div style="display:flex;align-items:center;gap:.35rem;justify-content:flex-end;">
         <span class="plat-badge ${badgeCls}">${badgeTxt}</span>
@@ -1979,8 +1968,8 @@ function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
     const cp = String(cPlatform || '').toLowerCase().trim();
     const fp = String(fPlatform).toLowerCase().trim();
     if(cp){
-      if(cp === fp || cp.includes(fp) || fp.includes(cp)) score += 0.4;
-      else score -= 0.3;
+      if(cp === fp || cp.includes(fp) || fp.includes(cp)) score += 0.5;
+      else score -= 0.4;
     }
   }
   if(fRelease && String(fRelease).trim() && cRelease){
@@ -1988,9 +1977,10 @@ function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
     const cy = String(cRelease).match(/\d{4}/);
     if(fy && cy){
       const diff = Math.abs(+fy[0] - +cy[0]);
-      if(diff === 0) score += 0.15;
+      if(diff === 0) score += 0.4;
       else if(diff <= 1) score += 0.05;
-      else if(diff >= 3) score -= 0.1;
+      else if(diff >= 3) score -= 0.5;
+      else score -= 0.15;
     }
   }
   return score;
@@ -2039,7 +2029,7 @@ function showLogoPicker(title, items, onPick, opts){
       <h2>${esc(title)}</h2>
       ${searchable ? `
         <div class="logo-picker-search">
-          <input type="text" id="lp-search" placeholder="Search…" value="${esc(opts.searchValue||'')}" autocomplete="off" spellcheck="false">
+          <input type="text" id="lp-search" value="${esc(opts.searchValue||'')}" autocomplete="off" spellcheck="false">
           <button type="button" class="btn primary" id="lp-search-go">Search</button>
         </div>` : ''}
       <p class="sub">${items.length} result${items.length === 1 ? '' : 's'} — click one</p>
@@ -2172,25 +2162,26 @@ function applySort(arr){
   return copy;
 }
 function sortIsNonDefault(){ return !(sortKey === 'natural' && sortDir === 'asc'); }
-function filterLabels(){ return { all:'All', status:'Installed', noStatus:'Not Installed' }; }
+function filterLabels(){ return { all:'All', status:'Installed', 'no-status':'Not Installed' }; }
 function renderToolbar(){
   const fl = filterLabels();
   toolbarEl.classList.remove('empty');
   const colOpts = ['auto','1','2','3','4','5'];
   const nonDefault = sortIsNonDefault();
-  const reorderWarn = nonDefault ? 'Sorting is on — set to Date Added to drag-reorder' : '';
+  const filterNonDefault = filterKey !== 'all';
+  const viewNonDefault = viewCols !== 'auto';
   toolbarEl.innerHTML = `
     <div class="tb-left">
       <div class="dd" data-dd="filter">
-        <button class="dd-btn" type="button">Filter <span class="val">${esc(fl[filterKey])}</span><span class="chev">▾</span></button>
+        <button class="dd-btn ${filterNonDefault?'non-default':''}" type="button">Filter <span class="val">${esc(fl[filterKey])}</span><span class="chev">▾</span></button>
         <div class="dd-menu">
           <button class="dd-item ${filterKey==='all'?'active':''}" data-filter="all">${fl.all}<span class="dd-tick">✓</span></button>
           <button class="dd-item ${filterKey==='status'?'active':''}" data-filter="status">${fl.status}<span class="dd-tick">✓</span></button>
-          <button class="dd-item ${filterKey==='no-status'?'active':''}" data-filter="no-status">${fl.noStatus}<span class="dd-tick">✓</span></button>
+          <button class="dd-item ${filterKey==='no-status'?'active':''}" data-filter="no-status">${fl['no-status']}<span class="dd-tick">✓</span></button>
         </div>
       </div>
       <div class="dd" data-dd="sort">
-        <button class="dd-btn ${nonDefault?'warn':''}" type="button" ${reorderWarn ? `title="${reorderWarn}"` : ''}>Sort <span class="val">${SORT_LABELS[sortKey]}</span><span class="chev">▾</span></button>
+        <button class="dd-btn ${nonDefault?'non-default':''}" type="button">Sort <span class="val">${SORT_LABELS[sortKey]}</span><span class="chev">▾</span></button>
         <div class="dd-menu">
           ${Object.keys(SORT_LABELS).map(k=>{
             const active = sortKey === k;
@@ -2201,7 +2192,7 @@ function renderToolbar(){
         </div>
       </div>
       <div class="dd" data-dd="view">
-        <button class="dd-btn" type="button"><span class="icon icon-cols" style="width:1em;height:1em"></span>View</button>
+        <button class="dd-btn ${viewNonDefault?'non-default':''}" type="button"><span class="icon icon-cols" style="width:1em;height:1em"></span>View</button>
         <div class="dd-menu" style="min-width:auto;padding:.4rem">
           <div style="display:flex;gap:.3rem">
             ${colOpts.map(c => `<button type="button" class="dd-item ${viewCols===c?'active':''}" data-view-cols="${c}" style="padding:.35rem .6rem;width:auto;border-radius:5px;background:${viewCols===c?'var(--accent-soft)':'rgba(255,255,255,.02)'};border:1px solid ${viewCols===c?'var(--accent-line)':'var(--border)'};color:${viewCols===c?'var(--accent)':'#cbd5e1'};font-size:.75rem;font-family:var(--font-head);font-weight:600;letter-spacing:.08em;cursor:pointer">${c === 'auto' ? 'Auto' : c}</button>`).join('')}
@@ -2331,29 +2322,32 @@ function buildRankMap(arr){
   return map;
 }
 
-/* SERIES RENDERING */
+/* SERIES ROW RENDERING */
+function ownerBadgeFromFlags(g){
+  const fl = g.flags || {};
+  if(fl.installed) return `<div class="g-owner installed">Installed</div>`;
+  if(fl.ownedSteam) return `<div class="g-owner steam">Steam</div>`;
+  return `<div class="empty-cell">—</div>`;
+}
+function statusBadgeFromStatus(status){
+  if(status === 'done')     return `<div class="g-status done">Done</div>`;
+  if(status === 'rerun')    return `<div class="g-status rerun">Rerun</div>`;
+  if(status === 'optional') return `<div class="g-status optional">Optional</div>`;
+  return `<div class="empty-cell">—</div>`;
+}
 function seriesRowHTML(g, disp){
   const d = disp || {};
   const displayName = d.display_name || g.name;
   const displayYear  = d.display_release || g.release || g.ea_release || '';
   const displayPlat  = d.display_platform || g.platform || '';
-  const status = g.series_status || '';
-  const owner  = g.series_owner || '';
-  const statusBadge = status === 'done'     ? `<div class="g-status done">Done</div>`
-                    : status === 'rerun'    ? `<div class="g-status rerun">Rerun</div>`
-                    : status === 'optional' ? `<div class="g-status optional">Optional</div>`
-                    : `<div class="empty-cell">—</div>`;
-  const ownerBadge  = owner === 'installed' ? `<div class="g-owner installed">Installed</div>`
-                    : owner === 'steam'     ? `<div class="g-owner steam">Steam</div>`
-                    : `<div class="empty-cell">—</div>`;
   return `
     <div class="series-game-row" data-id="${esc(g.id)}">
       <div class="g-title" title="${esc(displayName)}">${esc(displayName)}</div>
       <div class="g-year">${esc(displayYear)}</div>
       <div class="g-platform">${esc(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
-      ${statusBadge}
-      ${ownerBadge}
+      ${statusBadgeFromStatus(g.series_status || '')}
+      ${ownerBadgeFromFlags(g)}
       <div class="g-note" title="${esc(g.series_note || '')}">${esc(g.series_note || '')}</div>
       <div class="empty-cell"></div>
     </div>`;
@@ -2363,15 +2357,6 @@ function seriesRowAdminHTML(g, disp, idx, slug){
   const displayName = d.display_name || g.name;
   const displayYear  = d.display_release || g.release || g.ea_release || '';
   const displayPlat  = d.display_platform || g.platform || '';
-  const status = g.series_status || '';
-  const owner  = g.series_owner || '';
-  const statusBadge = status === 'done'     ? `<div class="g-status done">Done</div>`
-                    : status === 'rerun'    ? `<div class="g-status rerun">Rerun</div>`
-                    : status === 'optional' ? `<div class="g-status optional">Optional</div>`
-                    : `<div class="empty-cell">—</div>`;
-  const ownerBadge  = owner === 'installed' ? `<div class="g-owner installed">Installed</div>`
-                    : owner === 'steam'     ? `<div class="g-owner steam">Steam</div>`
-                    : `<div class="empty-cell">—</div>`;
   const pend = pendingClassFor(g.id);
   return `
     <div class="series-game-row${pend}" data-id="${esc(g.id)}" data-series="${esc(slug)}" data-idx="${idx}" draggable="true">
@@ -2379,8 +2364,8 @@ function seriesRowAdminHTML(g, disp, idx, slug){
       <div class="g-year">${esc(displayYear)}</div>
       <div class="g-platform">${esc(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
-      ${statusBadge}
-      ${ownerBadge}
+      ${statusBadgeFromStatus(g.series_status || '')}
+      ${ownerBadgeFromFlags(g)}
       <div class="g-note" title="${esc(g.series_note || '')}">${esc(g.series_note || '')}</div>
       <div class="g-actions">
         <button type="button" class="edit" data-act="series-edit-row" title="Edit series fields"><span class="icon icon-pencil"></span></button>
@@ -2588,8 +2573,8 @@ function modalHTML(g, t, rank){
   const modalBlock = `
     <div class="modal">
       <button class="modal-close" aria-label="Close" data-close>✕</button>
-      <div class="modal-hero">
-        ${g.screenshot ? `<img class="modal-shot-img" src="${esc(screenshotSrc(g.screenshot))}" alt="">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}
+      <div class="modal-hero" data-hero>
+        ${g.screenshot ? `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" data-hero-img>` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}
         ${rankBadge}
         <div class="modal-logo">${g.logo ? `<img src="${esc(logoSrc(g.logo))}" alt="" title="${esc(g.name)}">` : `<div class="ph">504 × 562<small>logo</small></div>`}</div>
       </div>
@@ -2605,6 +2590,30 @@ function modalHTML(g, t, rank){
     </div>`;
   return `<div class="modal-wrap">${prevBtn}${modalBlock}${nextBtn}</div>`;
 }
+
+/* HERO SIZING */
+function applyHeroSize(heroEl){
+  const img = heroEl.querySelector('[data-hero-img]');
+  if(!img){ heroEl.style.width = ''; heroEl.style.height = ''; return; }
+  if(!img.naturalWidth || !img.naturalHeight){ return; }
+  const ratio = img.naturalWidth / img.naturalHeight;
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  const maxH = Math.min(vh * 0.55, 620);
+  const minH = 340;
+  const maxW = Math.min(vw * 0.9, 1500);
+  let h = maxH;
+  let w = h * ratio;
+  if(w > maxW){ w = maxW; h = w / ratio; }
+  if(h < minH){ h = minH; w = h * ratio; }
+  heroEl.style.height = Math.round(h) + 'px';
+  heroEl.style.width = Math.round(w) + 'px';
+}
+function recalcHeroSizes(){
+  document.querySelectorAll('[data-hero]').forEach(applyHeroSize);
+}
+window.addEventListener('resize', () => { if(document.getElementById('backdrop').classList.contains('open')) recalcHeroSizes(); });
+
 function openModal(g, t){
   let list = [];
   if(t === 'backlog-series'){
@@ -2630,6 +2639,13 @@ function renderModal(g, t){
   const n = modalSlot.querySelector('#modal-next');
   if(p) p.onclick = (e) => { e.stopPropagation(); navigateModal(-1); };
   if(n) n.onclick = (e) => { e.stopPropagation(); navigateModal(+1); };
+  // Apply hero sizing after image loads
+  const heroEl = modalSlot.querySelector('[data-hero]');
+  const imgEl = modalSlot.querySelector('[data-hero-img]');
+  if(heroEl && imgEl){
+    if(imgEl.complete) applyHeroSize(heroEl);
+    else imgEl.addEventListener('load', () => applyHeroSize(heroEl), { once: true });
+  }
 }
 function navigateModal(delta){
   if(modalNavList.length < 2) return;
@@ -2640,9 +2656,20 @@ function navigateModal(delta){
 }
 function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = ''; modalNavList = []; modalNavIdx = -1; }
 backdrop.addEventListener('click', e => {
-  if(e.target.closest('.modal')) return;
-  if(e.target.closest('.admin-modal')) return;
-  if(e.target.closest('.confirm')) return;
+  // Use composedPath so detached-DOM clicks still resolve correctly
+  const path = (e.composedPath && e.composedPath()) || [];
+  const inside = path.some(el => el.classList && (
+    el.classList.contains('modal') ||
+    el.classList.contains('admin-modal') ||
+    el.classList.contains('confirm') ||
+    el.classList.contains('picker-modal') ||
+    el.classList.contains('logo-picker') ||
+    el.classList.contains('token-modal') ||
+    el.classList.contains('series-header-modal') ||
+    el.classList.contains('tools-modal')
+  ));
+  if(inside) return;
+  if(e.target.closest('.modal, .admin-modal, .confirm, .picker-modal, .logo-picker, .token-modal, .series-header-modal, .tools-modal')) return;
   closeAll();
 });
 
@@ -2730,13 +2757,12 @@ function openEditor(g, opts){
   opts = opts || {};
   const isNew = !g;
   const mode = isNew ? 'add' : 'edit';
-  let attachId = null;
 
   const draft = isNew
     ? { id:'', name:'', platform:'PC', size:'', hltb:'', dev:'', pub:'', notes:'',
         release:'', ea_release:'', screenshot:'', logo:'', links:[], alt_names: [], dlc: [],
         flags:{ installed:false, ownedSteam:false, localCoop:false, authRequired:false, gamepass:false },
-        series:null, series_status:null, series_owner:null, series_note:null }
+        series:null, series_status:null, series_note:null }
     : JSON.parse(JSON.stringify(g));
   draft.flags = Object.assign({ installed:false, ownedSteam:false, localCoop:false, authRequired:false, gamepass:false }, draft.flags || {});
   draft.links = Array.isArray(draft.links) ? draft.links.slice() : [];
@@ -2766,8 +2792,8 @@ function openEditor(g, opts){
 
   const linksHTML = draft.links.length ? draft.links.map((l, i) => `
     <div class="link-row" data-link-idx="${i}">
-      <input type="text" class="link-label" placeholder="Label" value="${esc(l.label||'')}">
-      <input type="text" class="link-url" placeholder="https://…" value="${esc(l.url||'')}">
+      <input type="text" class="link-label" value="${esc(l.label||'')}">
+      <input type="text" class="link-url" value="${esc(l.url||'')}">
       <button type="button" class="remove-link" title="Remove">✕</button>
     </div>`).join('') : '';
 
@@ -2776,7 +2802,6 @@ function openEditor(g, opts){
     : draft.id;
 
   const statusVal = draft.series_status || '';
-  const ownerVal = draft.series_owner || '';
 
   modalSlot._pillsBound = false;
   modalSlot._lockedSources = new Set();
@@ -2799,13 +2824,12 @@ function openEditor(g, opts){
       </div>
       <div class="admin-body">
         <div class="parse-bar">
-          <span class="parse-title">Fetch from source</span>
-          <span class="src-btn" data-src-dot="igdb"><span class="dot"></span>IGDB<button type="button" class="lock-toggle" data-lock="igdb" title="Lock results">🔓</button></span>
-          <span class="src-btn" data-src-dot="steam"><span class="dot"></span>Steam<button type="button" class="lock-toggle" data-lock="steam" title="Lock results">🔓</button></span>
-          <span class="src-btn" data-src-dot="pcgw"><span class="dot"></span>PCGW<button type="button" class="lock-toggle" data-lock="pcgw" title="Lock results">🔓</button></span>
-          <span class="src-btn" data-src-dot="lbdb"><span class="dot"></span>LBDB<button type="button" class="lock-toggle" data-lock="lbdb" title="Lock results">🔓</button></span>
-          <span class="src-btn" data-src-dot="hltb"><span class="dot"></span>HLTB<button type="button" class="lock-toggle" data-lock="hltb" title="Lock results">🔓</button></span>
-          <span class="src-btn" data-src-dot="sgdb"><span class="dot"></span>SGDB<button type="button" class="lock-toggle" data-lock="sgdb" title="Lock results">🔓</button></span>
+          <span class="src-btn" data-src-dot="igdb"><span class="dot"></span>IGDB<button type="button" class="lock-toggle" data-lock="igdb">🔓</button></span>
+          <span class="src-btn" data-src-dot="steam"><span class="dot"></span>Steam<button type="button" class="lock-toggle" data-lock="steam">🔓</button></span>
+          <span class="src-btn" data-src-dot="pcgw"><span class="dot"></span>PCGW<button type="button" class="lock-toggle" data-lock="pcgw">🔓</button></span>
+          <span class="src-btn" data-src-dot="lbdb"><span class="dot"></span>LBDB<button type="button" class="lock-toggle" data-lock="lbdb">🔓</button></span>
+          <span class="src-btn" data-src-dot="hltb"><span class="dot"></span>HLTB<button type="button" class="lock-toggle" data-lock="hltb">🔓</button></span>
+          <span class="src-btn" data-src-dot="sgdb"><span class="dot"></span>SGDB<button type="button" class="lock-toggle" data-lock="sgdb">🔓</button></span>
           <button type="button" class="go-btn" id="parse-go">GO</button>
         </div>
 
@@ -2813,34 +2837,34 @@ function openEditor(g, opts){
           <div class="sec-title">Identity</div>
           <div class="form-grid">
             <div class="field span-2">
-              <label>ID <span style="font-weight:400;letter-spacing:.02em;text-transform:none;color:#4a5468">(auto from name+year+platform; edit for special cases)</span></label>
+              <label>ID</label>
               <div class="id-wrap">
-                <input type="text" id="f-id" class="id-input" value="${esc(derivedId)}" placeholder="silent-hill-3-2003-ps2">
+                <input type="text" id="f-id" class="id-input" value="${esc(derivedId)}">
                 ${isNew ? `<button type="button" class="reset-id-btn" id="reset-id">Reset</button>` : ''}
               </div>
             </div>
             <div class="field span-2">
               <label>Name</label>
-              <input type="text" id="f-name" value="${esc(draft.name||'')}" placeholder="Game title">
+              <input type="text" id="f-name" value="${esc(draft.name||'')}">
               <div class="pills" data-field="name"></div>
             </div>
             <div class="field">
               <label>Release</label>
-              <input type="text" id="f-release" value="${esc(draft.release||'')}" placeholder="24.01.2024 / 2001 / TBA">
+              <input type="text" id="f-release" value="${esc(draft.release||'')}">
               <div class="pills" data-field="release"></div>
             </div>
             <div class="field">
               <label>Early Release</label>
-              <input type="text" id="f-ea-release" value="${esc(draft.ea_release||'')}" placeholder="EA start date (optional)">
+              <input type="text" id="f-ea-release" value="${esc(draft.ea_release||'')}">
             </div>
             <div class="field">
               <label>Platform</label>
-              <input type="text" id="f-platform" value="${esc(draft.platform||'')}" placeholder="PC / PS2 / Switch…">
+              <input type="text" id="f-platform" value="${esc(draft.platform||'')}">
               <div class="pills" data-field="platform"></div>
             </div>
             <div class="field">
               <label>Alt names (comma-separated)</label>
-              <input type="text" id="f-alt" value="${esc((draft.alt_names||[]).join(', '))}" placeholder="Alternate titles (for search)">
+              <input type="text" id="f-alt" value="${esc((draft.alt_names||[]).join(', '))}">
             </div>
             <div class="field span-2">
               <div class="matches-box empty" id="matches-box"></div>
@@ -2851,7 +2875,6 @@ function openEditor(g, opts){
         <div class="form-section">
           <div class="sec-title">Lists</div>
           <div class="list-grid" id="list-grid">${membershipHTML}</div>
-          <div style="margin-top:.6rem;font-size:.72rem;color:var(--muted);font-family:var(--font-head);letter-spacing:.06em;text-transform:uppercase;">Checking COOP-BEATEN auto-checks BEATEN. Backlog Series is derived from the Series section.</div>
         </div>
 
         <div class="form-section">
@@ -2859,12 +2882,12 @@ function openEditor(g, opts){
           <div class="form-grid">
             <div class="field span-2">
               <label>Size</label>
-              <input type="text" id="f-size" value="${esc(draft.size||'')}" placeholder="3.2 GB" maxlength="10">
+              <input type="text" id="f-size" value="${esc(draft.size||'')}" maxlength="10">
               <div class="pills" data-field="size"></div>
             </div>
             <div class="field span-2">
               <div style="display:flex;justify-content:space-between;align-items:center;gap:.6rem;">
-                <span class="hltb-lbl">HLTB</span>
+                <span class="hltb-lbl">HLTB <button type="button" class="media-btn hltb" id="hltb-lookup" style="padding:.25rem .5rem;font-size:.55rem;">🔍 Lookup</button></span>
                 <div class="radio-row" id="f-hltb-type" style="margin:0">
                   <label><input type="radio" name="fhltb" value="numeric" ${numericHltb?'checked':''}> Numeric</label>
                   <label><input type="radio" name="fhltb" value="text" ${!numericHltb?'checked':''}> Text</label>
@@ -2872,23 +2895,23 @@ function openEditor(g, opts){
               </div>
               <div id="hltb-numeric" style="${numericHltb?'':'display:none'}">
                 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem">
-                  <input type="number" id="f-hltb-main" placeholder="Main hrs" value="${esc(hp.main)}" min="0" max="9999">
-                  <input type="number" id="f-hltb-extra" placeholder="+ Extra hrs (optional)" value="${esc(hp.extra)}" min="0" max="9999">
+                  <input type="number" id="f-hltb-main" value="${esc(hp.main)}" min="0" max="9999">
+                  <input type="number" id="f-hltb-extra" value="${esc(hp.extra)}" min="0" max="9999">
                 </div>
               </div>
               <div id="hltb-text" style="${numericHltb?'display:none':''}">
-                <input type="text" id="f-hltb-raw" placeholder="Unending / Ongoing…" value="${!numericHltb ? esc(draft.hltb||'') : ''}" maxlength="60">
+                <input type="text" id="f-hltb-raw" value="${!numericHltb ? esc(draft.hltb||'') : ''}" maxlength="60">
               </div>
               <div class="pills" data-field="hltb"></div>
             </div>
             <div class="field">
               <label>Developer</label>
-              <input type="text" id="f-dev" value="${esc(draft.dev||'')}" placeholder="Studio name">
+              <input type="text" id="f-dev" value="${esc(draft.dev||'')}">
               <div class="pills" data-field="dev"></div>
             </div>
             <div class="field">
               <label>Publisher</label>
-              <input type="text" id="f-pub" value="${esc(draft.pub||'')}" placeholder="Publisher">
+              <input type="text" id="f-pub" value="${esc(draft.pub||'')}">
               <div class="pills" data-field="pub"></div>
             </div>
           </div>
@@ -2899,11 +2922,11 @@ function openEditor(g, opts){
           <div class="form-grid">
             <div class="field">
               <label>Series slug</label>
-              <input type="text" id="f-series" value="${esc(draft.series||'')}" placeholder="silent-hill">
+              <input type="text" id="f-series" value="${esc(draft.series||'')}">
             </div>
             <div class="field">
               <label>Series note</label>
-              <input type="text" id="f-series-note" value="${esc(draft.series_note||'')}" placeholder="Optional">
+              <input type="text" id="f-series-note" value="${esc(draft.series_note||'')}">
             </div>
             <div class="field">
               <label>Status</label>
@@ -2912,14 +2935,6 @@ function openEditor(g, opts){
                 <button type="button" class="status-btn ${statusVal==='rerun'?'on rerun':''}" data-status="rerun">Rerun</button>
                 <button type="button" class="status-btn ${statusVal==='optional'?'on optional':''}" data-status="optional">Optional</button>
                 <button type="button" class="status-btn clear ${!statusVal?'on':''}" data-status="">—</button>
-              </div>
-            </div>
-            <div class="field">
-              <label>Ownership</label>
-              <div class="status-row" id="owner-row">
-                <button type="button" class="owner-btn ${ownerVal==='installed'?'on':''}" data-owner="installed">Installed</button>
-                <button type="button" class="owner-btn ${ownerVal==='steam'?'on steam':''}" data-owner="steam">Steam</button>
-                <button type="button" class="owner-btn clear ${!ownerVal?'on':''}" data-owner="">—</button>
               </div>
             </div>
           </div>
@@ -2933,7 +2948,7 @@ function openEditor(g, opts){
               <div class="img-input">
                 <div class="preview shot-preview" id="shot-preview">${draft.screenshot ? `<img src="${esc(screenshotSrc(draft.screenshot))}" alt="">` : '1280 × 720'}</div>
                 <div class="controls">
-                  <input type="text" id="f-screenshot" placeholder="images/screenshots/… or https://…" value="${esc(draft.screenshot||'')}">
+                  <input type="text" id="f-screenshot" value="${esc(draft.screenshot||'')}">
                   <div class="pills" data-field="screenshot"></div>
                   <div class="media-btn-row">
                     <button type="button" class="media-btn save" id="save-screenshot-local">↓ Save locally</button>
@@ -2947,7 +2962,7 @@ function openEditor(g, opts){
               <div class="img-input">
                 <div class="preview" id="logo-preview">${draft.logo ? `<img src="${esc(logoSrc(draft.logo))}" alt="">` : '504 × 562'}</div>
                 <div class="controls">
-                  <input type="text" id="f-logo" placeholder="images/logos/… or https://…" value="${esc(draft.logo||'')}">
+                  <input type="text" id="f-logo" value="${esc(draft.logo||'')}">
                   <div class="pills" data-field="logo"></div>
                   <div class="media-btn-row">
                     <button type="button" class="media-btn save" id="save-logo-local">↓ Save locally</button>
@@ -2980,7 +2995,7 @@ function openEditor(g, opts){
         <div class="form-section">
           <div class="sec-title">Notes</div>
           <div class="field">
-            <textarea id="f-notes" placeholder="Any notes…">${esc(draft.notes||'')}</textarea>
+            <textarea id="f-notes">${esc(draft.notes||'')}</textarea>
           </div>
         </div>
       </div>
@@ -3022,7 +3037,6 @@ function openEditor(g, opts){
     const filtered = isNew
       ? matches.filter(m => m.kind === 'exact' || m.id !== curId)
       : matches.filter(m => m.id !== draft.id);
-    // ensure exact-id candidate shown if exists
     let finalMatches = filtered;
     if(isNew && exists && !finalMatches.some(m => m.id === curId)){
       const gg = viewGame(curId);
@@ -3090,7 +3104,6 @@ function openEditor(g, opts){
     $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
     $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
     const sv = g.series_status || '';
-    const ov = g.series_owner || '';
     $$('#status-row .status-btn').forEach(b => {
       b.classList.remove('on','rerun','optional');
       if((b.dataset.status || '') === sv){
@@ -3099,19 +3112,12 @@ function openEditor(g, opts){
         if(sv === 'optional') b.classList.add('optional');
       }
     });
-    $$('#owner-row .owner-btn').forEach(b => {
-      b.classList.remove('on','steam');
-      if((b.dataset.owner || '') === ov){
-        b.classList.add('on');
-        if(ov === 'steam') b.classList.add('steam');
-      }
-    });
     $$('#flag-row .flag-btn').forEach(b => b.classList.toggle('on', !!(g.flags || {})[b.dataset.flag]));
     const linksList = $('#links-list');
     linksList.innerHTML = (g.links || []).map((l, i) => `
       <div class="link-row" data-link-idx="${i}">
-        <input type="text" class="link-label" placeholder="Label" value="${esc(l.label||'')}">
-        <input type="text" class="link-url" placeholder="https://…" value="${esc(l.url||'')}">
+        <input type="text" class="link-label" value="${esc(l.label||'')}">
+        <input type="text" class="link-url" value="${esc(l.url||'')}">
         <button type="button" class="remove-link" title="Remove">✕</button>
       </div>`).join('');
     const mem = membershipsOf(id);
@@ -3121,37 +3127,30 @@ function openEditor(g, opts){
     refreshMatches();
   }
 
-  function resetPick(){
-    modalSlot._attachId = null;
-    userEditedId = false;
-    nameInput.value = '';
-    releaseInput.value = '';
-    eaInput.value = '';
-    platformInput.value = 'PC';
-    $('#f-size').value = '';
-    $('#f-dev').value = '';
-    $('#f-pub').value = '';
-    $('#f-notes').value = '';
-    $('#f-alt').value = '';
-    $('#f-screenshot').value = '';
-    $('#f-logo').value = '';
-    $('#f-series').value = '';
-    $('#f-series-note').value = '';
-    $('#f-hltb-main').value = '';
-    $('#f-hltb-extra').value = '';
-    $('#f-hltb-raw').value = '';
-    $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = false; cb.closest('.list-cb').classList.remove('on'); });
-    if(REAL_LISTS_SET.has(targetListId)){
-      const cb = $$('#list-grid input[type=checkbox]').length ? listGrid.querySelector(`input[data-list="${targetListId}"]`) : null;
-      if(cb){ cb.checked = true; cb.closest('.list-cb').classList.add('on'); }
-    }
-    $$('#flag-row .flag-btn').forEach(b => b.classList.remove('on'));
-    $$('#status-row .status-btn').forEach(b => b.classList.toggle('on', !b.dataset.status));
-    $$('#owner-row .owner-btn').forEach(b => b.classList.toggle('on', !b.dataset.owner));
-    $('#links-list').innerHTML = '';
-    refreshIdDerived();
-    refreshMatches();
+  // --- list grid sync ---
+  const listGrid = $('#list-grid');
+  const cbCoop = listGrid.querySelector('input[data-list="coop-beaten"]');
+  const cbBeaten = listGrid.querySelector('input[data-list="beaten"]');
+  function syncCoopBeaten(){
+    // Coop-Beaten → Beaten auto-tick. Beaten uncheck → Coop-Beaten uncheck.
+    if(cbCoop.checked) cbBeaten.checked = true;
+    if(!cbBeaten.checked) cbCoop.checked = false;
+    listGrid.querySelectorAll('.list-cb').forEach(lbl => {
+      const inp = lbl.querySelector('input');
+      lbl.classList.toggle('on', inp.checked);
+    });
   }
+  listGrid.addEventListener('change', e => {
+    const cb = e.target.closest('input[type=checkbox]');
+    if(!cb) return;
+    if(cb === cbCoop || cb === cbBeaten) syncCoopBeaten();
+    else listGrid.querySelectorAll('.list-cb').forEach(lbl => {
+      const inp = lbl.querySelector('input');
+      lbl.classList.toggle('on', inp.checked);
+    });
+  });
+  // Initial sync on render
+  syncCoopBeaten();
 
   [nameInput, releaseInput, eaInput, platformInput].forEach(el => {
     el.addEventListener('input', () => {
@@ -3176,23 +3175,6 @@ function openEditor(g, opts){
     pickAttach(row.dataset.matchId);
   });
 
-  const listGrid = $('#list-grid');
-  const cbCoop = listGrid.querySelector('input[data-list="coop-beaten"]');
-  const cbBeaten = listGrid.querySelector('input[data-list="beaten"]');
-  function syncCoopBeaten(){
-    if(cbCoop.checked) cbBeaten.checked = true;
-    if(!cbBeaten.checked) cbCoop.checked = false;
-  }
-  listGrid.addEventListener('change', e => {
-    const cb = e.target.closest('input[type=checkbox]');
-    if(!cb) return;
-    if(cb === cbCoop || cb === cbBeaten) syncCoopBeaten();
-    listGrid.querySelectorAll('.list-cb').forEach(lbl => {
-      const inp = lbl.querySelector('input');
-      lbl.classList.toggle('on', inp.checked);
-    });
-  });
-
   $('#f-hltb-type').addEventListener('change', e => {
     const v = e.target.value;
     $('#hltb-numeric').style.display = v === 'numeric' ? '' : 'none';
@@ -3201,10 +3183,12 @@ function openEditor(g, opts){
   $('#f-screenshot').addEventListener('input', e => {
     const v = e.target.value.trim();
     $('#shot-preview').innerHTML = v ? `<img src="${esc(screenshotSrc(v))}" alt="">` : '1280 × 720';
+    $('#save-screenshot-local').classList.remove('saved');
   });
   $('#f-logo').addEventListener('input', e => {
     const v = e.target.value.trim();
     $('#logo-preview').innerHTML = v ? `<img src="${esc(logoSrc(v))}" alt="">` : '504 × 562';
+    $('#save-logo-local').classList.remove('saved');
   });
   $$('.lock-toggle').forEach(btn => {
     btn.addEventListener('click', e => {
@@ -3231,9 +3215,12 @@ function openEditor(g, opts){
     await saveMediaLocally('screenshot', gid, url, (path) => {
       $('#f-screenshot').value = path;
       $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
+      btn.classList.add('saved');
+      btn.innerHTML = '✓ Saved';
       toast('Screenshot saved → ' + path);
     });
-    btn.disabled = false; btn.innerHTML = orig;
+    btn.disabled = false;
+    if(!btn.classList.contains('saved')) btn.innerHTML = orig;
   });
   $('#save-logo-local').addEventListener('click', async () => {
     const nameVal = (nameInput.value || '').trim();
@@ -3246,9 +3233,12 @@ function openEditor(g, opts){
     await saveMediaLocally('logo', gid, url, (path) => {
       $('#f-logo').value = path;
       $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
+      btn.classList.add('saved');
+      btn.innerHTML = '✓ Saved';
       toast('Logo saved → ' + path);
     });
-    btn.disabled = false; btn.innerHTML = orig;
+    btn.disabled = false;
+    if(!btn.classList.contains('saved')) btn.innerHTML = orig;
   });
   $('#sgdb-logo').addEventListener('click', async () => {
     const nameVal = (nameInput.value || '').trim();
@@ -3302,6 +3292,26 @@ function openEditor(g, opts){
     }catch(err){ toast('LBDB: ' + err.message, 'bad'); }
     finally{ btn.disabled = false; btn.innerHTML = orig; }
   });
+  $('#hltb-lookup').addEventListener('click', async () => {
+    const nameVal = (nameInput.value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    const btn = $('#hltb-lookup'); const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…';
+    try{
+      const data = await hltbSearch(nameVal);
+      const fields = hltbMapToFields(data);
+      if(!fields.hltb){ toast('HLTB: no result', 'bad'); return; }
+      const parts = hltbToParts(fields.hltb);
+      const numericRadio = $('#f-hltb-type input[value="numeric"]');
+      if(numericRadio){ numericRadio.checked = true; numericRadio.dispatchEvent(new Event('change', { bubbles: true })); }
+      $('#hltb-numeric').style.display = '';
+      $('#hltb-text').style.display = 'none';
+      $('#f-hltb-main').value = parts.main || '';
+      $('#f-hltb-extra').value = parts.extra || '';
+      toast('HLTB filled: ' + fields.hltb);
+    }catch(err){ toast('HLTB: ' + err.message, 'bad'); }
+    finally{ btn.disabled = false; btn.innerHTML = orig; }
+  });
   $('#flag-row').addEventListener('click', e => {
     const btn = e.target.closest('.flag-btn');
     if(!btn) return;
@@ -3320,19 +3330,11 @@ function openEditor(g, opts){
       btn.classList.add('on');
     }
   });
-  const ownerRow = $('#owner-row');
-  if(ownerRow) ownerRow.addEventListener('click', e => {
-    const btn = e.target.closest('.owner-btn');
-    if(!btn) return;
-    ownerRow.querySelectorAll('.owner-btn').forEach(b => { b.classList.remove('on','steam'); });
-    btn.classList.add('on');
-    if(btn.dataset.owner === 'steam') btn.classList.add('steam');
-  });
   const linksList = $('#links-list');
   $('#add-link-btn').addEventListener('click', () => {
     const row = document.createElement('div');
     row.className = 'link-row';
-    row.innerHTML = `<input type="text" class="link-label" placeholder="Label"><input type="text" class="link-url" placeholder="https://…"><button type="button" class="remove-link">✕</button>`;
+    row.innerHTML = `<input type="text" class="link-label"><input type="text" class="link-url"><button type="button" class="remove-link">✕</button>`;
     linksList.appendChild(row);
     row.querySelector('.link-label').focus();
   });
@@ -3420,8 +3422,6 @@ function openEditor(g, opts){
       merged.series = $('#f-series').value.trim() || null;
       const sOn = statusRow.querySelector('.status-btn.on');
       merged.series_status = sOn && sOn.dataset.status ? sOn.dataset.status : null;
-      const oOn = ownerRow.querySelector('.owner-btn.on');
-      merged.series_owner = oOn && oOn.dataset.owner ? oOn.dataset.owner : null;
       merged.series_note = $('#f-series-note').value.trim() || null;
       const before = JSON.stringify(base);
       const after = JSON.stringify(merged);
@@ -3467,9 +3467,9 @@ function openEditor(g, opts){
       },
       series:        $('#f-series').value.trim() || null,
       series_status: (statusRow.querySelector('.status-btn.on')?.dataset.status) || null,
-      series_owner:  (ownerRow.querySelector('.owner-btn.on')?.dataset.owner) || null,
       series_note:   $('#f-series-note').value.trim() || null,
     });
+    delete out.series_owner;
 
     if(!isNew && oldId && oldId !== id){
       for(const listId of REAL_LISTS){
@@ -3531,7 +3531,6 @@ function openEditor(g, opts){
       }
     }
 
-    // Preset series append (when adding game from series page)
     const presetSlug = modalSlot._presetSeriesSlug;
     if(presetSlug && isNew){
       const s = viewSeries(presetSlug);
@@ -3750,8 +3749,7 @@ async function runParse(){
   const locked = modalSlot._lockedSources || new Set();
   const prevResults = modalSlot._parseResults || {};
   PARSE_SOURCES.forEach(s => { if(!locked.has(s)) setSrcDot(dots[s], 'loading'); });
-  goBtn.disabled = true; goBtn.classList.add('loading');
-  goBtn.textContent = 'Working';
+  goBtn.disabled = true;
   const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null, sgdb:null };
   locked.forEach(s => { results[s] = prevResults[s] || { fields:{} }; });
   const tasks = [];
@@ -3764,7 +3762,14 @@ async function runParse(){
         const s = scoreCandidate(h.name, igdbPlatformString(h), igdbReleaseYear(h), name, formPlatform, formRelease);
         if(s > bestScore){ bestScore = s; best = h; }
       }
-      if(levSimilarity(best.name || '', name) < 0.95 && hits.length > 1){
+      const nameMismatch = levSimilarity(best.name || '', name) < 0.95;
+      const bestYear = igdbReleaseYear(best);
+      const wantYear = extractYear(formRelease);
+      const yearMismatch = wantYear && bestYear && bestYear !== wantYear;
+      const bestPlat = igdbPlatformString(best).toLowerCase();
+      const wantPlat = formPlatform.toLowerCase();
+      const platformMismatch = wantPlat && bestPlat && bestPlat.indexOf(wantPlat) === -1;
+      if((nameMismatch || yearMismatch || platformMismatch) && hits.length > 1){
         const picked = await new Promise(resolve => showIgdbPicker(hits, hit => resolve(hit)));
         if(picked) best = picked;
       }
@@ -3826,8 +3831,7 @@ async function runParse(){
   await Promise.all(tasks);
   renderVariantPills(results);
   autoAddLinksFromParse(results);
-  goBtn.disabled = false; goBtn.classList.remove('loading');
-  goBtn.textContent = 'GO';
+  goBtn.disabled = false;
   const found = PARSE_SOURCES.filter(s => dots[s]?.classList.contains('found'));
   if(found.length === 0) toast('No matches', 'bad');
   else toast('Found on: ' + found.join(', '));
@@ -3847,20 +3851,21 @@ function openSeriesHeaderModal(slug){
       <div class="form-section" style="margin-top:1rem;padding-top:0;border-top:0">
         <div class="field" style="margin-bottom:.9rem">
           <label>Name</label>
-          <input type="text" id="sh-name" value="${esc(s.name||'')}" placeholder="Silent Hill">
+          <input type="text" id="sh-name" value="${esc(s.name||'')}">
         </div>
         <div class="field" style="margin-bottom:.9rem">
           <label>Slug</label>
-          <input type="text" id="sh-slug" class="id-input" value="${esc(s.id||'')}" placeholder="silent-hill" ${isNew?'':'readonly style="opacity:.6"'}>
+          <input type="text" id="sh-slug" class="id-input" value="${esc(s.id||'')}" ${isNew?'':'readonly style="opacity:.6"'}>
         </div>
         <div class="field">
           <label>Logo</label>
           <div class="img-input">
             <div class="preview" id="sh-logo-preview">${s.logo ? `<img src="${esc(logoSrc(s.logo))}" alt="">` : '504 × 562'}</div>
             <div class="controls">
-              <input type="text" id="sh-logo" placeholder="images/series/… or https://…" value="${esc(s.logo||'')}">
+              <input type="text" id="sh-logo" value="${esc(s.logo||'')}">
               <div class="media-btn-row">
                 <button type="button" class="media-btn save" id="sh-save-logo">↓ Save locally</button>
+                <button type="button" class="media-btn sgdb" id="sh-sgdb-logo">🔍 SGDB</button>
               </div>
             </div>
           </div>
@@ -3887,6 +3892,7 @@ function openSeriesHeaderModal(slug){
   $('#sh-logo').addEventListener('input', e => {
     const v = e.target.value.trim();
     $('#sh-logo-preview').innerHTML = v ? `<img src="${esc(logoSrc(v))}" alt="">` : '504 × 562';
+    $('#sh-save-logo').classList.remove('saved');
   });
   $('#sh-save-logo').addEventListener('click', async () => {
     const nameVal = (nameEl.value || '').trim();
@@ -3896,12 +3902,38 @@ function openSeriesHeaderModal(slug){
     const btn = $('#sh-save-logo');
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
-    await saveMediaLocally('series-logo', slugVal, url, (path) => {
+    await saveMediaLocally('logo', slugVal, url, (path) => {
       $('#sh-logo').value = path;
       $('#sh-logo').dispatchEvent(new Event('input', { bubbles: true }));
+      btn.classList.add('saved');
+      btn.innerHTML = '✓ Saved';
       toast('Series logo saved → ' + path);
     });
-    btn.disabled = false; btn.innerHTML = orig;
+    btn.disabled = false;
+    if(!btn.classList.contains('saved')) btn.innerHTML = orig;
+  });
+  $('#sh-sgdb-logo').addEventListener('click', async () => {
+    const nameVal = (nameEl.value || '').trim();
+    if(!nameVal){ toast('Enter a series name first', 'bad'); return; }
+    const btn = $('#sh-sgdb-logo'); const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Loading';
+    try{
+      const data = await sgdbSearch(nameVal);
+      const items = (data.logos || []).map(l => ({ url: l.url, thumb: l.thumb || l.url, label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height }));
+      showLogoPicker('SGDB — ' + (data.gameName || nameVal), items, picked => {
+        $('#sh-logo').value = picked.url;
+        $('#sh-logo').dispatchEvent(new Event('input', { bubbles: true }));
+        toast('SGDB logo selected');
+      }, {
+        searchable: true,
+        searchValue: nameVal,
+        onSearch: async (q) => {
+          const d = await sgdbSearch(q);
+          return { title: 'SGDB — ' + (d.gameName || q), items: (d.logos || []).map(l => ({ url: l.url, thumb: l.thumb || l.url, label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height })) };
+        }
+      });
+    }catch(err){ toast('SGDB: ' + err.message, 'bad'); }
+    finally{ btn.disabled = false; btn.innerHTML = orig; }
   });
   seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
   $('#sh-save').onclick = () => {
@@ -3957,19 +3989,19 @@ function openSeriesRowDisplayEditor(slug, gameId){
       <div class="form-section" style="padding-top:0;border-top:0">
         <div class="field" style="margin-bottom:.9rem">
           <label>Display name</label>
-          <input type="text" id="sr-name" value="${esc(d.display_name||'')}" placeholder="Overrides title (leave empty for real name)">
+          <input type="text" id="sr-name" value="${esc(d.display_name||'')}">
         </div>
         <div class="field" style="margin-bottom:.9rem">
           <label>Display release</label>
-          <input type="text" id="sr-release" value="${esc(d.display_release||'')}" placeholder="Overrides year column">
+          <input type="text" id="sr-release" value="${esc(d.display_release||'')}">
         </div>
         <div class="field" style="margin-bottom:.9rem">
           <label>Display platform</label>
-          <input type="text" id="sr-platform" value="${esc(d.display_platform||'')}" placeholder="Overrides platform column">
+          <input type="text" id="sr-platform" value="${esc(d.display_platform||'')}">
         </div>
         <div class="field">
           <label>Series note</label>
-          <input type="text" id="sr-note" value="${esc(g.series_note||'')}" placeholder="Optional note">
+          <input type="text" id="sr-note" value="${esc(g.series_note||'')}">
         </div>
       </div>
       <div class="token-actions" style="margin-top:1.2rem">
@@ -4087,7 +4119,17 @@ document.addEventListener('keydown', e => {
     closePendingModal(); closeToolsModal(); closeSeriesHeaderModal();
     pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
     logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
+    return;
   }
+  // Arrow keys only navigate modal if no input is focused
+  const ae = document.activeElement;
+  const isInputFocused = ae && (
+    ae.tagName === 'INPUT' ||
+    ae.tagName === 'TEXTAREA' ||
+    ae.tagName === 'SELECT' ||
+    ae.isContentEditable
+  );
+  if(isInputFocused) return;
   if(backdrop.classList.contains('open')){
     if(e.key === 'ArrowRight'){ e.preventDefault(); navigateModal(+1); }
     if(e.key === 'ArrowLeft'){  e.preventDefault(); navigateModal(-1); }
@@ -4113,7 +4155,7 @@ contentEl.addEventListener('click', e => {
       if(!g) continue;
       if(g.series === slug){
         const gc = JSON.parse(JSON.stringify(g));
-        gc.series = null; gc.series_status = null; gc.series_owner = null; gc.series_note = null;
+        gc.series = null; gc.series_status = null; gc.series_note = null;
         pendingGameWrites.set(id, gc);
       }
     }
@@ -4157,7 +4199,7 @@ contentEl.addEventListener('click', e => {
     const g = viewGame(id);
     if(g && g.series === slug){
       const gc = JSON.parse(JSON.stringify(g));
-      gc.series = null; gc.series_status = null; gc.series_owner = null; gc.series_note = null;
+      gc.series = null; gc.series_status = null; gc.series_note = null;
       pendingGameWrites.set(id, gc);
     }
     invalidateAllPanes();
