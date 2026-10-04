@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T19:31:18Z",
+  "updated": "2026-10-04T19:35:46Z",
   "games": {
     "styx-shards-of-darkness-2017-pc": {
       "id": "styx-shards-of-darkness-2017-pc",
@@ -217,16 +217,14 @@
       "styx-shards-of-darkness-2017-pc",
       "abathor-2024-pc",
       "enshrouded-2026-pc",
-      "silent-hill-f-2025-pc",
-      "nioh-complete-edition-2017-pc"
+      "silent-hill-f-2025-pc"
     ],
     "early-access": [
       "enshrouded-2026-pc",
       "nioh-complete-edition-2017-pc"
     ],
     "unreleased": [
-      "enshrouded-2026-pc",
-      "nioh-complete-edition-2017-pc"
+      "enshrouded-2026-pc"
     ],
     "mods": [
       "enshrouded-2026-pc",
