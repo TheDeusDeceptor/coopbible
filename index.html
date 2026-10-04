@@ -690,6 +690,7 @@ const pendingListWrites = new Map();
 const pendingFileWrites = new Map();
 const pendingSeriesWrites = new Map();
 const pendingSeriesDeletes = new Set();
+const editorDrafts = new Map(); // in-memory drafts per game id / '__new__'
 
 const bodyEl = document.body;
 const contentEl = document.getElementById('content');
@@ -2639,7 +2640,6 @@ function renderModal(g, t){
   const n = modalSlot.querySelector('#modal-next');
   if(p) p.onclick = (e) => { e.stopPropagation(); navigateModal(-1); };
   if(n) n.onclick = (e) => { e.stopPropagation(); navigateModal(+1); };
-  // Apply hero sizing after image loads
   const heroEl = modalSlot.querySelector('[data-hero]');
   const imgEl = modalSlot.querySelector('[data-hero-img]');
   if(heroEl && imgEl){
@@ -2656,7 +2656,6 @@ function navigateModal(delta){
 }
 function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = ''; modalNavList = []; modalNavIdx = -1; }
 backdrop.addEventListener('click', e => {
-  // Use composedPath so detached-DOM clicks still resolve correctly
   const path = (e.composedPath && e.composedPath()) || [];
   const inside = path.some(el => el.classList && (
     el.classList.contains('modal') ||
@@ -2753,6 +2752,51 @@ function autoAddLinksFromParse(results){
   });
 }
 
+/* DRAFT CAPTURE / RESTORE */
+function captureEditorDraft(key){
+  const fId = modalSlot.querySelector('#f-id');
+  if(!fId) return; // editor form not present
+  const $ = sel => modalSlot.querySelector(sel);
+  const $$ = sel => modalSlot.querySelectorAll(sel);
+  const hltbRadio = $('#f-hltb-type input:checked');
+  const sOn = $('#status-row .status-btn.on');
+  const flags = {};
+  $$('#flag-row .flag-btn').forEach(b => { flags[b.dataset.flag] = b.classList.contains('on'); });
+  const memberships = [...$$('#list-grid input[type=checkbox]')]
+    .filter(cb => cb.checked).map(cb => cb.dataset.list);
+  const links = [...$$('#links-list .link-row')].map(row => ({
+    label: row.querySelector('.link-label').value,
+    url: row.querySelector('.link-url').value
+  }));
+  const snapshot = {
+    id: fId.value,
+    name: $('#f-name')?.value ?? '',
+    alt: $('#f-alt')?.value ?? '',
+    release: $('#f-release')?.value ?? '',
+    eaRelease: $('#f-ea-release')?.value ?? '',
+    platform: $('#f-platform')?.value ?? '',
+    size: $('#f-size')?.value ?? '',
+    dev: $('#f-dev')?.value ?? '',
+    pub: $('#f-pub')?.value ?? '',
+    series: $('#f-series')?.value ?? '',
+    seriesNote: $('#f-series-note')?.value ?? '',
+    screenshot: $('#f-screenshot')?.value ?? '',
+    logo: $('#f-logo')?.value ?? '',
+    notes: $('#f-notes')?.value ?? '',
+    hltbType: hltbRadio ? hltbRadio.value : 'numeric',
+    hltbMain: $('#f-hltb-main')?.value ?? '',
+    hltbExtra: $('#f-hltb-extra')?.value ?? '',
+    hltbRaw: $('#f-hltb-raw')?.value ?? '',
+    status: sOn ? (sOn.dataset.status || '') : '',
+    flags,
+    memberships,
+    links,
+    attachId: modalSlot._attachId || null,
+    presetSeriesSlug: modalSlot._presetSeriesSlug || null
+  };
+  editorDrafts.set(key, snapshot);
+}
+
 function openEditor(g, opts){
   opts = opts || {};
   const isNew = !g;
@@ -2811,6 +2855,9 @@ function openEditor(g, opts){
   modalSlot._attachId = null;
   modalSlot._isNew = isNew;
   modalSlot._presetSeriesSlug = opts.presetSeries || null;
+  modalSlot._editorKey = isNew ? '__new__' : g.id;
+  modalSlot._editorBase = isNew ? null : g;
+  modalSlot._editorOpts = { listId: opts.listId, presetSeries: opts.presetSeries };
 
   const headerTag = isNew ? `<span class="tag new">NEW</span>` : `<span class="tag edit">EDIT</span>`;
   const headerTitle = isNew ? 'Add game' : esc(draft.name || 'Untitled');
@@ -3001,6 +3048,7 @@ function openEditor(g, opts){
       </div>
       <div class="admin-foot">
         <div class="left-actions">
+          <button type="button" class="btn" id="reset-editor-btn">Reset</button>
           ${!isNew ? `<button type="button" class="btn danger" id="delete-btn"><span class="icon icon-trash"></span>Delete</button>` : ''}
         </div>
         <div class="right-actions">
@@ -3132,7 +3180,6 @@ function openEditor(g, opts){
   const cbCoop = listGrid.querySelector('input[data-list="coop-beaten"]');
   const cbBeaten = listGrid.querySelector('input[data-list="beaten"]');
   function syncCoopBeaten(){
-    // Coop-Beaten → Beaten auto-tick. Beaten uncheck → Coop-Beaten uncheck.
     if(cbCoop.checked) cbBeaten.checked = true;
     if(!cbBeaten.checked) cbCoop.checked = false;
     listGrid.querySelectorAll('.list-cb').forEach(lbl => {
@@ -3149,7 +3196,6 @@ function openEditor(g, opts){
       lbl.classList.toggle('on', inp.checked);
     });
   });
-  // Initial sync on render
   syncCoopBeaten();
 
   [nameInput, releaseInput, eaInput, platformInput].forEach(el => {
@@ -3321,11 +3367,16 @@ function openEditor(g, opts){
   if(statusRow) statusRow.addEventListener('click', e => {
     const btn = e.target.closest('.status-btn');
     if(!btn) return;
+    const cur = btn.dataset.status || '';
+    const wasOn = btn.classList.contains('on') && cur;
     statusRow.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
-    if(btn.dataset.status){
+    if(wasOn){
+      // Deselect
+      statusRow.querySelector('.status-btn[data-status=""]').classList.add('on');
+    } else if(cur){
       btn.classList.add('on');
-      if(btn.dataset.status === 'rerun') btn.classList.add('rerun');
-      if(btn.dataset.status === 'optional') btn.classList.add('optional');
+      if(cur === 'rerun') btn.classList.add('rerun');
+      if(cur === 'optional') btn.classList.add('optional');
     } else {
       btn.classList.add('on');
     }
@@ -3345,6 +3396,18 @@ function openEditor(g, opts){
   $('#parse-go').addEventListener('click', runParse);
   attachPillHandlers();
   if(!isNew) $('#delete-btn').addEventListener('click', () => openConfirmDelete(g));
+
+  // Reset button
+  $('#reset-editor-btn').addEventListener('click', () => {
+    if(!confirm('Reset the form? Any unsaved edits in this editor will be cleared.')) return;
+    editorDrafts.delete(modalSlot._editorKey);
+    const base = modalSlot._editorBase;
+    const eopts = modalSlot._editorOpts || {};
+    // Reopen fresh
+    openEditor(base, eopts);
+    const f = modalSlot.querySelector('#f-series');
+    if(f && eopts.presetSeries) f.value = eopts.presetSeries;
+  });
 
   $('#save-btn').addEventListener('click', () => {
     const mode2 = modalSlot._mode;
@@ -3433,7 +3496,8 @@ function openEditor(g, opts){
         if(!list.includes(existingId)) list.push(existingId);
         pendingListWrites.set(listId, list);
       }
-      closeAll();
+      editorDrafts.delete(modalSlot._editorKey);
+      closeAll({ skipSnapshot: true });
       invalidateAllPanes();
       updatePendingStrip();
       renderContent();
@@ -3542,17 +3606,95 @@ function openEditor(g, opts){
       }
     }
 
-    closeAll();
+    editorDrafts.delete(modalSlot._editorKey);
+    closeAll({ skipSnapshot: true });
     invalidateAllPanes();
     updatePendingStrip();
     renderContent();
     toast(isNew ? 'Staged new game' : 'Staged changes');
   });
 
-  if(isNew) refreshIdDerived();
-  refreshMatches();
+  // ---- Restore stored draft if any ----
+  const storedDraft = editorDrafts.get(modalSlot._editorKey);
+  if(storedDraft){
+    idInput.value = storedDraft.id ?? idInput.value;
+    nameInput.value = storedDraft.name ?? nameInput.value;
+    if($('#f-alt')) $('#f-alt').value = storedDraft.alt ?? '';
+    releaseInput.value = storedDraft.release ?? releaseInput.value;
+    eaInput.value = storedDraft.eaRelease ?? eaInput.value;
+    platformInput.value = storedDraft.platform ?? platformInput.value;
+    $('#f-size').value = storedDraft.size ?? '';
+    $('#f-dev').value = storedDraft.dev ?? '';
+    $('#f-pub').value = storedDraft.pub ?? '';
+    $('#f-series').value = storedDraft.series ?? '';
+    $('#f-series-note').value = storedDraft.seriesNote ?? '';
+    $('#f-screenshot').value = storedDraft.screenshot ?? '';
+    $('#f-logo').value = storedDraft.logo ?? '';
+    $('#f-notes').value = storedDraft.notes ?? '';
+    // HLTB type
+    if(storedDraft.hltbType){
+      const r = $('#f-hltb-type').querySelector(`input[value="${storedDraft.hltbType}"]`);
+      if(r){ r.checked = true; r.dispatchEvent(new Event('change', { bubbles: true })); }
+    }
+    $('#f-hltb-main').value = storedDraft.hltbMain ?? '';
+    $('#f-hltb-extra').value = storedDraft.hltbExtra ?? '';
+    $('#f-hltb-raw').value = storedDraft.hltbRaw ?? '';
+    // Previews
+    $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
+    $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
+    // Flags
+    if(storedDraft.flags){
+      for(const [k, v] of Object.entries(storedDraft.flags)){
+        const b = $('#flag-row').querySelector(`.flag-btn[data-flag="${k}"]`);
+        if(b) b.classList.toggle('on', v);
+      }
+    }
+    // Status
+    if(storedDraft.status !== undefined){
+      statusRow.querySelectorAll('.status-btn').forEach(b => {
+        b.classList.remove('on','rerun','optional');
+        if((b.dataset.status || '') === storedDraft.status){
+          b.classList.add('on');
+          if(storedDraft.status === 'rerun') b.classList.add('rerun');
+          if(storedDraft.status === 'optional') b.classList.add('optional');
+        }
+      });
+    }
+    // Memberships
+    if(storedDraft.memberships){
+      const set = new Set(storedDraft.memberships);
+      listGrid.querySelectorAll('input[type=checkbox]').forEach(cb => {
+        cb.checked = set.has(cb.dataset.list);
+        cb.closest('.list-cb').classList.toggle('on', cb.checked);
+      });
+    }
+    // Links
+    if(storedDraft.links){
+      const linksHost = $('#links-list');
+      linksHost.innerHTML = storedDraft.links.map((l, i) => `
+        <div class="link-row" data-link-idx="${i}">
+          <input type="text" class="link-label" value="${esc(l.label||'')}">
+          <input type="text" class="link-url" value="${esc(l.url||'')}">
+          <button type="button" class="remove-link" title="Remove">✕</button>
+        </div>`).join('');
+    }
+    // Attach state
+    modalSlot._attachId = storedDraft.attachId || null;
+    // Figure out userEditedId
+    const derivedNow = deriveGameId(nameInput.value, releaseInput.value, eaInput.value, platformInput.value);
+    userEditedId = (idInput.value !== derivedNow);
+    // Refresh matches display
+    refreshMatches();
+  } else {
+    if(isNew) refreshIdDerived();
+    refreshMatches();
+  }
 }
+
 function openConfirmDelete(g){
+  // Clear any editor draft for this game since we're deleting it
+  editorDrafts.delete(g.id);
+  modalSlot._editorKey = null;
   modalSlot.innerHTML = `
     <div class="confirm">
       <h3><span class="icon icon-trash" style="width:1em;height:1em"></span>Delete game?</h3>
@@ -3589,7 +3731,16 @@ function openConfirmDelete(g){
     toast('Staged delete');
   });
 }
-function closeAll(){
+
+function closeAll(opts){
+  opts = opts || {};
+  // Snapshot editor draft if editor was open and we're not saving/resetting
+  if(modalSlot._editorKey && !opts.skipSnapshot){
+    captureEditorDraft(modalSlot._editorKey);
+  }
+  modalSlot._editorKey = null;
+  modalSlot._editorBase = null;
+  modalSlot._editorOpts = null;
   backdrop.classList.remove('open');
   modalSlot.innerHTML = '';
   modalSlot._pillsBound = false;
@@ -4121,7 +4272,6 @@ document.addEventListener('keydown', e => {
     logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
     return;
   }
-  // Arrow keys only navigate modal if no input is focused
   const ae = document.activeElement;
   const isInputFocused = ae && (
     ae.tagName === 'INPUT' ||
