@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T22:44:57Z",
+  "updated": "2026-10-04T22:46:21Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -44,7 +44,7 @@
         "ownedSteam": true,
         "gamepass": false
       },
-      "series": "bayonetta",
+      "series": null,
       "series_status": null,
       "series_note": null
     },
