@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-04T22:46:21Z",
+  "updated": "2026-10-04T22:47:34Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -44,7 +44,7 @@
         "ownedSteam": true,
         "gamepass": false
       },
-      "series": null,
+      "series": "bayonetta",
       "series_status": null,
       "series_note": null
     },
@@ -326,7 +326,8 @@
       "name": "Bayonetta",
       "logo": "https://cdn2.steamgriddb.com/logo/e93ec11902fe84e91c3709276c78131e.png",
       "order": [
-        "bayonetta-2017-pc"
+        "bayonetta-2017-pc",
+        "dark-souls-prepare-to-die-edition-2012-pc"
       ],
       "display": {}
     }
