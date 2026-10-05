@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-05T15:01:31Z",
+  "updated": "2026-10-05T15:04:42Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -328,7 +328,7 @@
         "ownedSteam": true,
         "gamepass": true
       },
-      "series": null,
+      "series": "bayonetta",
       "series_status": "done",
       "series_note": null
     }
@@ -367,7 +367,8 @@
       "order": [
         "bayonetta-2017-pc",
         "dark-souls-prepare-to-die-edition-2012-pc",
-        "deep-rock-galactic-2020-pc"
+        "deep-rock-galactic-2020-pc",
+        "borderlands-2-2012-pc"
       ],
       "display": {}
     }
