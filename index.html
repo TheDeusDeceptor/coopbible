@@ -775,7 +775,7 @@
     align-items:center;
     justify-content:center;
     padding:1rem 2rem;
-    z-index:20;
+    z-index:200;
     pointer-events:none;
   }
    .random-logo-slot{
@@ -790,6 +790,8 @@
     transform:translateY(14px) scale(.94);
     transition:opacity .6s cubic-bezier(.2,.7,.3,1), transform .6s cubic-bezier(.2,.7,.3,1);
     max-width:80vw;
+    min-height:200px;
+    min-width:200px;
     pointer-events:none;
   }
   .random-logo-slot::before{
@@ -5117,6 +5119,7 @@ function randomFinishSpin(winnerId){
   setTimeout(() => {
     if(!randomWinner) return;
     randomLogoSlot.innerHTML = randomLogoHTML(randomWinner);
+    void randomLogoSlot.offsetWidth; // force reflow so the .show transition actually fires
     randomLogoSlot.classList.add('show', 'clickable');
     randomLogoSlot.onclick = () => {
       closeRandomOverlay();
