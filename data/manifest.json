@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-05T14:57:03Z",
+  "updated": "2026-10-05T15:01:31Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -293,13 +293,52 @@
       "series": "bayonetta",
       "series_status": "done",
       "series_note": null
+    },
+    "borderlands-2-2012-pc": {
+      "id": "borderlands-2-2012-pc",
+      "name": "Borderlands 2",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 30, +Extra: 55",
+      "dev": "Gearbox Software",
+      "pub": "2K Games",
+      "notes": "",
+      "release": "17.09.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/borderlands-2-2012-pc.jpg",
+      "logo": "images/logos/borderlands-2-2012-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/49520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Borderlands_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": true,
+        "ownedSteam": true,
+        "gamepass": true
+      },
+      "series": null,
+      "series_status": "done",
+      "series_note": null
     }
   },
   "lists": {
     "released": [
       "dark-souls-prepare-to-die-edition-2012-pc",
       "nioh-2-the-complete-edition-2021-pc",
-      "deep-rock-galactic-2020-pc"
+      "deep-rock-galactic-2020-pc",
+      "borderlands-2-2012-pc"
     ],
     "early-access": [],
     "unreleased": [],

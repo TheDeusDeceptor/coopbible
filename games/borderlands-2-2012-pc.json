@@ -1,0 +1,38 @@
+{
+  "id": "borderlands-2-2012-pc",
+  "name": "Borderlands 2",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 30, +Extra: 55",
+  "dev": "Gearbox Software",
+  "pub": "2K Games",
+  "notes": "",
+  "release": "17.09.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/borderlands-2-2012-pc.jpg",
+  "logo": "images/logos/borderlands-2-2012-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/49520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Borderlands_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": true,
+    "ownedSteam": true,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": "done",
+  "series_note": null
+}
