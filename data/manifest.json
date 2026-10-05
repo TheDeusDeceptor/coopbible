@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-05T15:04:42Z",
+  "updated": "2026-10-05T16:30:16Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -45,7 +45,7 @@
         "gamepass": false
       },
       "series": "bayonetta",
-      "series_status": null,
+      "series_status": "done",
       "series_note": null
     },
     "lethal-company-2023-pc": {
@@ -215,7 +215,7 @@
         "gamepass": false
       },
       "series": "bayonetta",
-      "series_status": null,
+      "series_status": "done",
       "series_note": null
     },
     "portal-2-2011-pc": {
