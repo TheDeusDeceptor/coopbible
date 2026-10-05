@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-05T17:23:12Z",
+  "updated": "2026-10-05T17:27:44Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -160,17 +160,14 @@
       "dlc": [
         {
           "name": "The First Dog Eater....",
-          "release": "10.12.2012",
           "played": true
         },
         {
           "name": "Im retarded!",
-          "release": "12.12.2012",
           "played": true
         },
         {
           "name": "thx Deepseek...",
-          "release": "again",
           "played": false
         }
       ],
@@ -386,7 +383,15 @@
       "lethal-company-2023-pc",
       "outrun-2006-coast-2-coast-2006-pc"
     ],
-    "mainpc": [],
+    "mainpc": [
+      "dark-souls-prepare-to-die-edition-2012-pc",
+      "nioh-2-the-complete-edition-2021-pc",
+      "deep-rock-galactic-2020-pc",
+      "borderlands-2-2012-pc",
+      "portal-2-2011-pc",
+      "lethal-company-2023-pc",
+      "bayonetta-2017-pc"
+    ],
     "beaten": [
       "half-life-2-2004-pc",
       "lethal-company-2023-pc",

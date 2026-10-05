@@ -27,17 +27,14 @@
   "dlc": [
     {
       "name": "The First Dog Eater....",
-      "release": "10.12.2012",
       "played": true
     },
     {
       "name": "Im retarded!",
-      "release": "12.12.2012",
       "played": true
     },
     {
       "name": "thx Deepseek...",
-      "release": "again",
       "played": false
     }
   ],
