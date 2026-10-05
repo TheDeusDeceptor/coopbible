@@ -56,8 +56,6 @@
   body.admin-on .tools-btn,body.admin-on .void-btn{display:inline-flex;}
   .tools-btn{left:7rem;}
   .void-btn{left:13.5rem;}
-  body.admin-on .tools-btn{left:7rem;}
-  body.admin-on .void-btn{left:13.5rem;}
   .random-btn .dice-icon{width:18px;height:18px;display:block;flex-shrink:0;color:currentColor;}
   .random-btn .dice-icon svg{width:100%;height:100%;display:block;}
   .tools-btn .icon,.void-btn .icon{width:14px;height:14px;}
@@ -196,7 +194,6 @@
   .card-admin button.del:hover{border-color:var(--red);color:var(--red);}
   .card-admin .icon{width:14px;height:14px;}
 
-  /* Beaten list v2 */
   .beaten-list{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
   .beaten-row{
     display:grid;
@@ -292,7 +289,6 @@
   .beaten-meta .unit{margin-left:.35em;}
   .beaten-meta .unit::after{content:".";}
 
-  /* Beaten count indicator */
   .beaten-indicator{
     position:fixed;right:1.5rem;bottom:1.5rem;z-index:100;
     display:none;flex-direction:column;align-items:flex-end;gap:.35rem;
@@ -735,29 +731,36 @@
   .orphan-row .orph-size{font-family:var(--font-head);font-size:.6rem;color:var(--muted);white-space:nowrap;}
   .void-note{max-width:1400px;margin:0 auto 1rem;padding:.6rem 1rem;background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.35);border-radius:9px;font-family:var(--font-head);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red);text-align:center;}
 
-  /* Random overlay */
   .random-overlay{
     position:fixed;inset:0;z-index:400;
     display:none;flex-direction:column;
-    background:radial-gradient(ellipse 70% 60% at 50% 50%, rgba(251,191,36,.06) 0%, rgba(6,7,11,.97) 60%, #06070b 100%);
+    background:rgba(4,5,10,.92);
+    backdrop-filter:blur(28px);
+    -webkit-backdrop-filter:blur(28px);
   }
   .random-overlay.open{display:flex;}
   .random-close{position:absolute;top:1rem;left:1rem;width:34px;height:34px;border-radius:8px;border:1px solid var(--border);background:rgba(6,7,11,.6);color:var(--muted);cursor:pointer;font-size:.95rem;display:grid;place-items:center;z-index:30;transition:all .18s ease;}
   .random-close:hover{color:var(--gold);border-color:var(--gold-line);background:var(--gold-soft);}
-  .random-title{text-align:center;padding:1.25rem 1rem .75rem;font-family:var(--font-head);font-size:.8rem;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);position:relative;z-index:10;}
+  .random-pages{
+    display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;
+    padding:.85rem 1.5rem .35rem;
+    position:relative;z-index:12;
+    transition:opacity .25s ease;
+  }
+  .random-pages.locked{pointer-events:none;opacity:.4;}
   .random-stage{flex:1;display:flex;flex-direction:column;overflow:hidden;position:relative;min-height:0;}
   .random-reel-area{flex:1;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:0;}
   .random-reel-viewport{position:relative;width:100%;height:100%;overflow:hidden;display:flex;align-items:center;}
   .random-reel{display:flex;align-items:center;padding:0 20px;will-change:transform;}
-  .random-card{flex-shrink:0;background:#000;border-radius:12px;overflow:hidden;position:relative;height:400px;max-height:100%;border:2px solid rgba(255,255,255,.06);transition:border-color .25s ease, box-shadow .35s ease;}
+  .random-card{flex-shrink:0;background:#000;border-radius:12px;overflow:hidden;position:relative;height:400px;max-height:100%;min-width:200px;border:2px solid rgba(255,255,255,.06);transition:border-color .25s ease, box-shadow .35s ease;}
   .random-card + .random-card{margin-left:24px;}
   .random-card img{height:100%;width:auto;display:block;pointer-events:none;}
   .random-card.winner{border:2px solid var(--gold);box-shadow:0 0 0 1px rgba(251,191,36,.3), 0 0 22px var(--gold-glow), 0 0 60px rgba(251,191,36,.2);}
-  .random-logo-reserve{height:200px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:1rem 2rem;position:relative;z-index:15;}
+  .random-logo-reserve{height:300px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:1rem 2rem;position:relative;z-index:15;}
   .random-logo-slot{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6rem;text-align:center;opacity:0;transform:translateY(14px) scale(.94);transition:opacity .6s cubic-bezier(.2,.7,.3,1), transform .6s cubic-bezier(.2,.7,.3,1);max-width:80vw;pointer-events:none;}
   .random-logo-slot.show{opacity:1;transform:translateY(0) scale(1);}
   .random-logo-slot.clickable{pointer-events:auto;cursor:pointer;}
-  .random-logo-slot img{max-height:120px;max-width:380px;display:block;filter:drop-shadow(0 0 24px var(--gold-glow)) drop-shadow(0 6px 20px rgba(0,0,0,.9));}
+  .random-logo-slot img{max-height:260px;max-width:800px;display:block;filter:drop-shadow(0 0 30px var(--gold-glow)) drop-shadow(0 8px 24px rgba(0,0,0,.9));}
   .random-logo-slot .winner-name{font-family:var(--font-body);font-size:.85rem;color:var(--muted);letter-spacing:.04em;}
   .random-controls{padding:1rem 1.5rem 1.75rem;display:flex;justify-content:center;align-items:center;position:relative;z-index:20;}
   .random-spin-btn{font-family:var(--font-head);font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;padding:.9rem 3rem;border:1px solid var(--gold);border-radius:10px;background:var(--gold);color:#1a1306;cursor:pointer;transition:filter .18s ease, box-shadow .18s ease;box-shadow:0 0 22px var(--gold-glow);}
@@ -856,7 +859,7 @@
 
 <div class="random-overlay" id="randomOverlay">
   <button class="random-close" id="randomCloseBtn">✕</button>
-  <div class="random-title">Random Pick</div>
+  <div class="random-pages" id="randomPages"></div>
   <div class="random-stage">
     <div class="random-reel-area">
       <div class="random-reel-viewport" id="randomVp">
@@ -3299,7 +3302,6 @@ function autoAddLinksFromParse(results){
   });
 }
 
-/* DLC editor row helpers */
 function dlcEditRowHTML(d, i){
   return `
     <div class="dlc-editor-row" data-dlc-idx="${i}">
@@ -4902,15 +4904,43 @@ let randomSpinning = false;
 let randomRecentWinners = [];
 let randomWinner = null;
 let randomCurrentX = 0;
+let randomPages = new Set();
 
+function randomRenderPages(){
+  const host = document.getElementById('randomPages');
+  if(!host) return;
+  host.classList.toggle('locked', randomSpinning);
+  host.innerHTML = REAL_LISTS.map(tid => {
+    const tdef = ALL_TABS.find(x => x.id === tid);
+    const grp = TAB_GROUP[tid];
+    const cls = grp === 'coop' ? 'coop' : 'vault';
+    const on = randomPages.has(tid);
+    return `<label class="list-cb ${cls}${on ? ' on' : ''}">
+      <input type="checkbox" data-page="${tid}" ${on ? 'checked' : ''}>
+      <span class="box"></span>
+      <span class="lbl">${esc(tdef.label)}</span>
+    </label>`;
+  }).join('');
+}
 function randomPool(){
-  let t = tab;
-  if(t === 'backlog-series') t = 'backlog';
-  if(!REAL_LISTS_SET.has(t)) t = 'backlog';
-  let pool = gamesOfTab(t).filter(passesAll);
-  if(!pool.length) pool = gamesOfTab('backlog').filter(passesAll);
-  if(!pool.length) pool = Object.values(MANIFEST.games);
-  return pool;
+  const effective = randomPages.size ? randomPages : new Set([
+    tab === 'backlog-series' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')
+  ]);
+  const seen = new Set();
+  const out = [];
+  for(const t of REAL_LISTS){
+    if(!effective.has(t)) continue;
+    for(const id of listFor(t)){
+      if(seen.has(id)) continue;
+      seen.add(id);
+      const g = viewGame(id);
+      if(!g) continue;
+      if(!passesAll(g)) continue;
+      out.push(g);
+    }
+  }
+  if(!out.length) return Object.values(MANIFEST.games);
+  return out;
 }
 function randomPickWinner(pool){
   const blacklist = new Set(randomRecentWinners);
@@ -4918,18 +4948,42 @@ function randomPickWinner(pool){
   if(candidates.length === 0) candidates = pool;
   return candidates[Math.floor(Math.random() * candidates.length)];
 }
+function randomCardThumbSrc(url){
+  if(!url) return '';
+  const u = resolveImgUrl(url);
+  if(!u) return '';
+  if(u.startsWith('data:')) return u;
+  if(/\/images\//.test(u)) return u;
+  return 'https://images.weserv.nl/?url=' + encodeURIComponent(u) + '&h=500';
+}
 function randomCardHTML(g){
-  const shot = g.screenshot ? screenshotSrc(g.screenshot) : '';
+  const shot = g.screenshot ? randomCardThumbSrc(g.screenshot) : '';
   const inner = shot
     ? `<img src="${esc(shot)}" loading="eager" decoding="async" alt="">`
-    : `<div class="ph">1280 × 720<small>screenshot</small></div>`;
-  return `<div class="random-card" data-id="${esc(g.id)}" style="aspect-ratio:16/9;">${inner}</div>`;
+    : `<div class="ph" style="width:320px;">1280 × 720<small>screenshot</small></div>`;
+  return `<div class="random-card" data-id="${esc(g.id)}">${inner}</div>`;
+}
+function waitForReelImages(timeoutMs){
+  const imgs = [...randomReel.querySelectorAll('img')];
+  if(!imgs.length) return Promise.resolve();
+  const pending = imgs.map(img => {
+    if(img.complete && img.naturalWidth > 0) return null;
+    return new Promise(resolve => {
+      img.addEventListener('load', resolve, { once: true });
+      img.addEventListener('error', resolve, { once: true });
+    });
+  }).filter(Boolean);
+  if(!pending.length) return Promise.resolve();
+  return Promise.race([
+    Promise.all(pending),
+    new Promise(resolve => setTimeout(resolve, timeoutMs))
+  ]);
 }
 function randomLogoHTML(g){
   if(g.logo){
-    return `<img src="${esc(logoSrc(g.logo))}" alt="" title="${esc(g.name)}"><div class="winner-name">${esc(g.name)}</div>`;
+    return `<img src="${esc(logoSrc(g.logo))}" alt="" title="${esc(g.name)}">`;
   }
-  return `<div class="winner-name" style="font-size:1.2rem;color:#fff;font-family:var(--font-head);">${esc(g.name)}</div>`;
+  return `<div class="winner-name" style="font-size:1.8rem;color:#fff;font-family:var(--font-head);letter-spacing:.06em;text-shadow:0 0 30px var(--gold-glow);">${esc(g.name)}</div>`;
 }
 function buildRandomReel(winnerId, winnerIdx, pool){
   const picks = [];
@@ -4986,15 +5040,17 @@ function randomFinishSpin(winnerId){
     randomSpinning = false;
     randomSpinBtn.disabled = false;
     randomSpinBtn.textContent = 'SPIN';
+    randomRenderPages();
   }, 380);
 }
-function randomSpin(){
+async function randomSpin(){
   if(randomSpinning) return;
   const pool = randomPool();
   if(!pool.length){ toast('No games to pick from', 'bad'); return; }
   randomSpinning = true;
   randomSpinBtn.disabled = true;
   randomSpinBtn.textContent = 'SPINNING…';
+  randomRenderPages();
   randomLogoSlot.classList.remove('show', 'clickable');
   randomLogoSlot.innerHTML = '';
 
@@ -5006,6 +5062,9 @@ function randomSpin(){
     : targetIdx;
 
   buildRandomReel(winner.id, targetIdx, pool);
+
+  // Wait for reel thumbnails to size themselves so offset measurements are correct
+  await waitForReelImages(700);
 
   const phase1X = willBounce ? randomXForGapAfter(targetIdx) : randomXForIndex(targetIdx);
   const phase2X = willBounce ? randomXForIndex(finalIdx) : null;
@@ -5056,6 +5115,10 @@ function randomSpin(){
   requestAnimationFrame(frame1);
 }
 function openRandomOverlay(){
+  randomPages = new Set([
+    tab === 'backlog-series' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')
+  ]);
+  randomRenderPages();
   randomOverlay.classList.add('open');
   randomReel.innerHTML = '';
   randomLogoSlot.classList.remove('show', 'clickable');
@@ -5072,6 +5135,14 @@ function closeRandomOverlay(){
 randomBtn.addEventListener('click', openRandomOverlay);
 randomCloseBtn.addEventListener('click', closeRandomOverlay);
 randomSpinBtn.addEventListener('click', randomSpin);
+document.getElementById('randomPages').addEventListener('change', e => {
+  const cb = e.target.closest('input[type=checkbox]');
+  if(!cb) return;
+  if(randomSpinning){ cb.checked = !cb.checked; return; }
+  if(cb.checked) randomPages.add(cb.dataset.page);
+  else randomPages.delete(cb.dataset.page);
+  randomRenderPages();
+});
 
 /* EVENTS */
 voidBtn.addEventListener('click', () => {
