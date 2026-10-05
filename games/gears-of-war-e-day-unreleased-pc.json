@@ -1,0 +1,33 @@
+{
+  "id": "gears-of-war-e-day-unreleased-pc",
+  "name": "Gears of War: E-Day",
+  "platform": "PC",
+  "size": "115 GB",
+  "hltb": "—",
+  "dev": "The Coalition",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "Soon",
+  "screenshot": "images/screenshots/gears-of-war-e-day-unreleased-pc.jpg",
+  "logo": "images/logos/gears-of-war-e-day-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3010850",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
