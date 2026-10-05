@@ -2397,7 +2397,7 @@ function statusBadgeFromStatus(status){
 function seriesRowHTML(g, disp){
   const d = disp || {};
   const displayName = d.display_name || g.name;
-  const displayYear  = d.display_release || g.release || g.ea_release || '';
+  const displayYear  = d.display_release || extractYear(g.release || g.ea_release);
   const displayPlat  = d.display_platform || g.platform || '';
   return `
     <div class="series-game-row" data-id="${esc(g.id)}">
@@ -2414,7 +2414,7 @@ function seriesRowHTML(g, disp){
 function seriesRowAdminHTML(g, disp, idx, slug){
   const d = disp || {};
   const displayName = d.display_name || g.name;
-  const displayYear  = d.display_release || g.release || g.ea_release || '';
+  const displayYear  = d.display_release || extractYear(g.release || g.ea_release);
   const displayPlat  = d.display_platform || g.platform || '';
   const pend = pendingClassFor(g.id);
   return `
