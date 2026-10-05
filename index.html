@@ -792,26 +792,6 @@
     min-width:200px;
     pointer-events:none;
   }
-  .random-logo-slot::before{
-    content:"";
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
-    width:min(180%, 1800px);
-    height:min(200%, 700px);
-    background:radial-gradient(ellipse at center,
-      rgba(0,0,0,.9) 0%,
-      rgba(0,0,0,.72) 25%,
-      rgba(0,0,0,.4) 55%,
-      rgba(0,0,0,.1) 80%,
-      transparent 100%);
-    pointer-events:none;
-    opacity:0;
-    transition:opacity .6s cubic-bezier(.2,.7,.3,1);
-    z-index:0;
-  }
-  .random-logo-slot.show{opacity:1;transform:translateY(0) scale(1);}
   .random-logo-slot.show::before{opacity:1;}
   .random-logo-slot.clickable{pointer-events:auto;cursor:pointer;}
   .random-logo-slot img{
@@ -820,6 +800,11 @@
     max-height:min(30vh, 320px);
     max-width:min(70vw, 1000px);
     display:block;
+    filter:
+      drop-shadow(0 12px 30px rgba(0,0,0,.85))
+      drop-shadow(0 3px 8px rgba(0,0,0,.7))
+      drop-shadow(0 0 20px var(--gold-glow))
+      drop-shadow(0 0 60px rgba(251,191,36,.28));
   }
   .random-logo-slot .winner-name{font-family:var(--font-body);font-size:.85rem;color:var(--muted);letter-spacing:.04em;}
   .random-controls{padding:1rem 1.5rem 1.75rem;display:flex;justify-content:center;align-items:center;position:relative;z-index:20;}
