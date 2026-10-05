@@ -882,6 +882,23 @@ function logoSrc(url){
   return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD +
     '/image/fetch/w_504,h_562,c_limit,f_auto/' + b64;
 }
+async function seriesLogoCompressUrl(url){
+  if(!url) return url;
+  if(/^images\//.test(url)) return url;
+  if(!/^https?:/.test(url)) return url;
+  const dims = await new Promise(resolve => {
+    const img = new Image();
+    img.onload  = () => resolve({ w: img.naturalWidth, h: img.naturalHeight });
+    img.onerror = () => resolve(null);
+    img.src = url;
+  });
+  let box;
+  if(dims && dims.h > dims.w) box = 'w_300,h_2000,c_limit';
+  else                         box = 'w_2000,h_300,c_limit';
+  const b64 = b64url(url);
+  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD +
+    '/image/fetch/' + box + ',f_auto/' + b64;
+}
 function platformLabel(key){
   if(!key) return '';
   const p = PLATFORMS[key];
@@ -4192,7 +4209,8 @@ function openSeriesHeaderModal(slug){
     const btn = $('#sh-save-logo');
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
-    await saveMediaLocally('logo', slugVal, url, (path) => {
+    const compressed = await seriesLogoCompressUrl(url);
+    await saveMediaLocally('logo', slugVal, compressed, (path) => {
       $('#sh-logo').value = path;
       $('#sh-logo').dispatchEvent(new Event('input', { bubbles: true }));
       btn.classList.add('saved');
