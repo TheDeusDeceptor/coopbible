@@ -582,7 +582,6 @@
   .parse-bar > *{flex-shrink:0;}
   .parse-bar .go-btn{margin-left:auto;}
 
-  /* Quick-parse bar */
   .quick-parse-bar{
     display:flex;
     flex-direction:column;
@@ -4277,7 +4276,10 @@ function attachPillHandlers(){
 async function runParse(){
   const nameInput = modalSlot.querySelector('#f-name');
   const name = (nameInput?.value || '').trim();
-  if(!name){ toast('Enter a name first', 'bad'); return; }
+  const linkedSteamPre = parseSteamInput(modalSlot.querySelector('#qp-steam')?.value || '');
+  const linkedPcgwPre  = parsePcgwInput(modalSlot.querySelector('#qp-pcgw')?.value || '');
+  if(!name && !linkedSteamPre && !linkedPcgwPre){ toast('Enter a name or a Steam/PCGW link first', 'bad'); return; }
+  const hasName = !!name;
   const formPlatform = (modalSlot.querySelector('#f-platform')?.value || '').trim();
   const formRelease = (modalSlot.querySelector('#f-release')?.value || '').trim();
   const goBtn = modalSlot.querySelector('#parse-go');
@@ -4296,7 +4298,7 @@ async function runParse(){
   const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null, sgdb:null };
   locked.forEach(s => { results[s] = prevResults[s] || { fields:{} }; });
   const tasks = [];
-  if(!locked.has('igdb')) tasks.push((async () => {
+  if(hasName && !locked.has('igdb')) tasks.push((async () => {
     try{
       const hits = await igdbSearch(name);
       if(!hits || !hits.length){ results.igdb = { fields:{} }; setSrcDot(dots.igdb, 'notfound'); return; }
@@ -4330,8 +4332,13 @@ async function runParse(){
       } else {
         data = await steamSearch(name);
       }
-      results.steam = { fields: steamMapToFields(data), storeUrl: data.storeUrl || '' };
+      const steamFields = steamMapToFields(data);
+      results.steam = { fields: steamFields, storeUrl: data.storeUrl || '' };
       setSrcDot(dots.steam, 'found');
+      if(!name && steamFields.name && nameInput && !nameInput.value.trim()){
+        nameInput.value = steamFields.name;
+        nameInput.dispatchEvent(new Event('input', { bubbles: true }));
+      }
     }catch(e){ results.steam = { error: e.message }; setSrcDot(dots.steam, 'error'); }
   })());
   if(!locked.has('pcgw')) tasks.push((async () => {
@@ -4353,9 +4360,13 @@ async function runParse(){
       const wt = await pcgwGetWikitext(pageTitle);
       results.pcgw = { fields: pcgwMapToFields(wt), page: pageTitle };
       setSrcDot(dots.pcgw, 'found');
+      if(!name && pageTitle && nameInput && !nameInput.value.trim()){
+        nameInput.value = pageTitle.replace(/_/g, ' ');
+        nameInput.dispatchEvent(new Event('input', { bubbles: true }));
+      }
     }catch(e){ results.pcgw = { error: e.message }; setSrcDot(dots.pcgw, 'error'); }
   })());
-  if(!locked.has('lbdb')) tasks.push((async () => {
+  if(hasName && !locked.has('lbdb')) tasks.push((async () => {
     try{
       const entries = await lbdbLookup(name);
       if(!entries || !entries.length){ results.lbdb = { fields:{} }; setSrcDot(dots.lbdb, 'notfound'); return; }
@@ -4368,7 +4379,7 @@ async function runParse(){
       setSrcDot(dots.lbdb, 'found');
     }catch(e){ results.lbdb = { error: e.message }; setSrcDot(dots.lbdb, 'error'); }
   })());
-  if(!locked.has('hltb')) tasks.push((async () => {
+  if(hasName && !locked.has('hltb')) tasks.push((async () => {
     try{
       const data = await hltbSearch(name);
       const fields = hltbMapToFields(data);
@@ -4377,7 +4388,7 @@ async function runParse(){
       setSrcDot(dots.hltb, 'found');
     }catch(e){ results.hltb = { error: e.message }; setSrcDot(dots.hltb, 'error'); }
   })());
-  if(!locked.has('sgdb')) tasks.push((async () => {
+  if(hasName && !locked.has('sgdb')) tasks.push((async () => {
     try{
       const data = await sgdbSearch(name);
       if(!data.logos || !data.logos.length){ results.sgdb = { fields:{} }; setSrcDot(dots.sgdb, 'notfound'); return; }
