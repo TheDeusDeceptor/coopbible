@@ -279,8 +279,10 @@
     display:flex;justify-content:center;flex-wrap:wrap;
     gap:.3rem .5rem;
   }
-  .beaten-meta .sep{margin:0 .35em;opacity:.45;}
+  .beaten-meta .sep{margin:0 .35em;opacity:.72;}
   .beaten-meta .hltb{color:var(--muted);}
+  .beaten-meta .unit{margin-left:.35em;}
+  .beaten-meta .unit::after{content:".";}
 
   /* Beaten count indicator */
   .beaten-indicator{
@@ -2853,6 +2855,14 @@ function openModal(g, t){
   let list = [];
   if(t === 'backlog-series'){
     list = allSeriesInOrder();
+  } else if(t === 'backlog'){
+    const backlogGames = gamesOfTab('backlog').filter(passesAll);
+    const seriesGames  = allSeriesUndoneInOrder().filter(passesAll);
+    const seen = new Set();
+    const merged = [];
+    for(const gg of backlogGames){ if(!seen.has(gg.id)){ merged.push(gg); seen.add(gg.id); } }
+    for(const gg of seriesGames){  if(!seen.has(gg.id)){ merged.push(gg); seen.add(gg.id); } }
+    list = applySort(merged);
   } else if(voidMode){
     list = gamesWithNoList();
   } else {
