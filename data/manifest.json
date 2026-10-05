@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-05T17:58:40Z",
+  "updated": "2026-10-05T18:06:12Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -400,8 +400,8 @@
       "series_status": null,
       "series_note": null
     },
-    "gears-of-war-e-day-unreleased-pc": {
-      "id": "gears-of-war-e-day-unreleased-pc",
+    "gears-of-war-e-day-2026-pc": {
+      "id": "gears-of-war-e-day-2026-pc",
       "name": "Gears of War: E-Day",
       "platform": "PC",
       "size": "115 GB",
@@ -439,13 +439,15 @@
       "dark-souls-prepare-to-die-edition-2012-pc",
       "nioh-2-the-complete-edition-2021-pc",
       "deep-rock-galactic-2020-pc",
-      "borderlands-2-2012-pc"
+      "borderlands-2-2012-pc",
+      "gears-of-war-e-day-2026-pc"
     ],
     "early-access": [
-      "valheim-2026-pc"
+      "valheim-2026-pc",
+      "gears-of-war-e-day-2026-pc"
     ],
     "unreleased": [
-      "gears-of-war-e-day-unreleased-pc"
+      "gears-of-war-e-day-2026-pc"
     ],
     "mods": [],
     "coop-beaten": [
