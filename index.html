@@ -811,6 +811,7 @@
     transition:opacity .6s cubic-bezier(.2,.7,.3,1);
     z-index:0;
   }
+  .random-logo-slot.show{opacity:1;transform:translateY(0) scale(1);}
   .random-logo-slot.show::before{opacity:1;}
   .random-logo-slot.clickable{pointer-events:auto;cursor:pointer;}
   .random-logo-slot img{
@@ -862,8 +863,6 @@
     .dlc-editor-line1{grid-template-columns:1fr 32px 32px;}
     .beaten-indicator .num{font-size:2.2rem}
   }
-.random-logo-slot{ outline:3px solid red !important; }
-.random-logo-slot img{ outline:3px solid lime !important; min-width:80px !important; min-height:80px !important; background:rgba(0,255,0,.15) !important; }
 </style>
 </head>
 <body data-group="coop" data-cols="auto">
