@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-05T16:30:16Z",
+  "updated": "2026-10-05T16:35:34Z",
   "games": {
     "dark-souls-prepare-to-die-edition-2012-pc": {
       "id": "dark-souls-prepare-to-die-edition-2012-pc",
@@ -291,7 +291,7 @@
         "gamepass": false
       },
       "series": "bayonetta",
-      "series_status": "done",
+      "series_status": null,
       "series_note": null
     },
     "borderlands-2-2012-pc": {
@@ -329,7 +329,7 @@
         "gamepass": true
       },
       "series": "bayonetta",
-      "series_status": "done",
+      "series_status": null,
       "series_note": null
     }
   },
