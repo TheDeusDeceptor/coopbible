@@ -155,9 +155,9 @@
   .card.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
   .card.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.22)}
   .card.draggable{cursor:grab}
-  .card.dragging,.rowD.dragging{opacity:.35}
-  .card.drop-target,.rowD.drop-target{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
-  .rowD[draggable="true"]{cursor:grab;}
+  .card.dragging,.beaten-row.dragging{opacity:.35}
+  .card.drop-target,.beaten-row.drop-target{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+  .beaten-row[draggable="true"]{cursor:grab;}
   .shot{width:70%;aspect-ratio:16 / 9;background:#000;flex-shrink:0;position:relative;display:grid;place-items:center;overflow:hidden;}
   .shot img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0;}
   .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
@@ -187,25 +187,121 @@
   .card-admin button.edit:hover{border-color:var(--accent);color:var(--accent);}
   .card-admin button.del:hover{border-color:var(--red);color:var(--red);}
   .card-admin .icon{width:14px;height:14px;}
-  .beaten-list{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
-  .row-wrap{display:grid;grid-template-columns:1fr;gap:0;align-items:center;position:relative;content-visibility:auto;contain-intrinsic-size:auto 340px;}
-  .rowD{display:grid;grid-template-columns:1fr 1fr;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;}
-  .rowD:hover{border-color:var(--accent-line)}
-  .rowD.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
-  .rowD.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.22)}
-  .shot-cell{aspect-ratio:16/9;align-self:center;background:linear-gradient(135deg,#1a2230 0%,#0f1620 100%);display:grid;place-items:center;color:#3a4356;font-family:var(--font-head);font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;text-align:center;line-height:1.5;position:relative;overflow:hidden;}
-  .shot-cell img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0}
-  .shot-cell small{display:block;font-size:.5rem;color:#2b3243;letter-spacing:.1em}
-  .info-cell{padding:1.5rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-width:0;}
-  .logo{width:180px;aspect-ratio:504/562;display:grid;place-items:center;border:1px dashed #2b3243;border-radius:8px;color:#3a4356;font-family:var(--font-head);font-weight:700;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;text-align:center;line-height:1.4;padding:.5rem;transition:transform .25s cubic-bezier(.3,.7,.3,1);overflow:hidden;}
-  .logo img{max-width:100%;max-height:100%;object-fit:contain;display:block}
-  .logo small{display:block;font-size:.5rem;color:#2b3243;letter-spacing:.08em;margin-top:.2rem}
-  .rowD:hover .logo{transform:translateY(-6px);}
-  .hover-text{opacity:0;transform:translateY(6px);transition:opacity .22s ease,transform .22s ease;margin-top:.9rem;pointer-events:none;min-height:0;}
-  .rowD:hover .hover-text{opacity:1;transform:none;}
-  .hover-text .name{font-family:var(--font-head);font-weight:700;font-size:1.05rem;letter-spacing:.03em;color:#cbd5e1;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-  .hover-text .meta{margin-top:.35rem;font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
-  .hover-text .meta .sep{margin:0 .6em;opacity:.5}
+
+  /* Beaten list v2 */
+  .beaten-list{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
+  .beaten-row{
+    display:grid;
+    grid-template-columns:65% 1fr;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:12px;
+    overflow:hidden;
+    cursor:pointer;
+    position:relative;
+    transition:border-color .2s ease;
+    content-visibility:auto;
+    contain-intrinsic-size:auto 500px;
+  }
+  .beaten-row:hover{border-color:var(--accent-line)}
+  .beaten-row.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
+  .beaten-row.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.22)}
+  .beaten-shot{
+    position:relative;
+    background:#000;
+    align-self:stretch;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    min-height:0;
+  }
+  .beaten-shot img{
+    width:100%;
+    height:auto;
+    display:block;
+  }
+  .beaten-shot.placeholder{aspect-ratio:16/9;}
+  .beaten-shot .ph{display:grid;place-items:center;width:100%;height:100%;}
+  .beaten-rank{
+    position:absolute;top:.75rem;left:.75rem;z-index:5;
+    display:inline-flex;align-items:center;
+    padding:.32rem .7rem;
+    background:rgba(10,13,18,.92);
+    border:1px solid rgba(255,255,255,.18);
+    border-radius:6px;
+    font-family:var(--font-head);
+    font-size:.82rem;font-weight:700;
+    letter-spacing:.12em;
+    color:#fff;line-height:1;
+    backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+  }
+  .beaten-side{
+    display:flex;
+    flex-direction:column;
+    padding:1.5rem 1.25rem 1rem;
+    min-width:0;
+  }
+  .beaten-logo-zone{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:.75rem .5rem;
+  }
+  .beaten-logo{
+    display:flex;align-items:center;justify-content:center;
+    max-width:100%;
+    transition:transform .25s cubic-bezier(.3,.7,.3,1);
+  }
+  .beaten-row:hover .beaten-logo{transform:scale(1.04);}
+  .beaten-logo img{
+    max-width:100%;
+    max-height:180px;
+    object-fit:contain;
+    display:block;
+  }
+  .beaten-logo .ph{
+    font-family:var(--font-head);
+    font-size:.7rem;font-weight:600;
+    letter-spacing:.14em;
+    color:#3a4356;
+    text-transform:uppercase;
+    text-align:center;line-height:1.6;
+  }
+  .beaten-logo .ph small{display:block;font-size:.6rem;letter-spacing:.1em;color:#2b3243;margin-top:.35rem;}
+  .beaten-meta{
+    margin-top:.5rem;
+    font-size:.72rem;
+    color:#c8d1de;
+    line-height:1.5;
+    text-align:center;
+    display:flex;justify-content:center;flex-wrap:wrap;
+    gap:.3rem .5rem;
+  }
+  .beaten-meta .sep{margin:0 .35em;opacity:.45;}
+  .beaten-meta .hltb{color:var(--muted);}
+
+  /* Beaten count indicator */
+  .beaten-indicator{
+    position:fixed;right:1.5rem;bottom:1.5rem;z-index:100;
+    display:none;flex-direction:column;align-items:flex-end;gap:.35rem;
+    padding:1rem 1.25rem 1rem 1.5rem;
+    background:linear-gradient(90deg,transparent 0%,rgba(6,7,11,.9) 30%);
+    border-right:3px solid var(--accent);
+    pointer-events:none;
+  }
+  .beaten-indicator.on{display:flex}
+  .beaten-indicator .num{
+    font-family:var(--font-head);font-weight:700;
+    font-size:3rem;letter-spacing:-.03em;color:#fff;line-height:1;
+  }
+  .beaten-indicator .lbl{
+    font-family:var(--font-head);font-weight:600;
+    letter-spacing:.16em;text-transform:uppercase;
+    font-size:.55rem;color:var(--muted);line-height:1;
+  }
+
   .series-blocks{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1.75rem;}
   .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;position:relative;}
   .series-block.drag-over{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);}
@@ -606,10 +702,9 @@
     .series-game-row{grid-template-columns:1fr;gap:.3rem;padding:.75rem 1rem;}
     .series-banner{flex-direction:column;gap:.75rem;padding:1.25rem 1rem}
     .series-totals{position:static;transform:none;text-align:center}
-    .rowD{grid-template-columns:1fr}
-    .shot-cell{width:100%}
-    .logo{width:150px}
-    .hover-text{opacity:1;transform:none}
+    .beaten-row{grid-template-columns:1fr}
+    .beaten-shot{width:100%}
+    .beaten-logo img{max-height:140px}
     .form-grid{grid-template-columns:1fr}
     .admin-toggle,.tools-btn,.void-btn{position:static;transform:none;margin:0 .25rem}
     header{flex-wrap:wrap;gap:.5rem}
@@ -634,6 +729,7 @@
     .admin-foot{padding:.85rem 1rem}
     .link-row{grid-template-columns:1fr 1fr 32px}
     .dlc-editor-line1{grid-template-columns:1fr 32px 32px;}
+    .beaten-indicator .num{font-size:2.2rem}
   }
 </style>
 </head>
@@ -673,6 +769,11 @@
 <div class="backdrop" id="pending-backdrop" style="z-index:310"><div id="pending-slot"></div></div>
 <div class="backdrop" id="tools-backdrop" style="z-index:305"><div id="tools-slot"></div></div>
 <div class="backdrop" id="series-backdrop" style="z-index:315"><div id="series-slot"></div></div>
+
+<div class="beaten-indicator" id="beatenIndicator">
+  <span class="num" id="beatenIndNum">0</span>
+  <span class="lbl">Games Beaten</span>
+</div>
 
 <div class="toast" id="toast"></div>
 
@@ -802,6 +903,8 @@ const voidBtn = document.getElementById('voidBtn');
 const voidBtnLabel = document.getElementById('voidBtnLabel');
 const pendingStrip = document.getElementById('pendingStrip');
 const voidNoteHost = document.getElementById('voidNoteHost');
+const beatenIndicator = document.getElementById('beatenIndicator');
+const beatenIndNum = document.getElementById('beatenIndNum');
 
 /* HELPERS */
 function toast(msg, kind){
@@ -1164,6 +1267,19 @@ function allSeriesUndoneInOrder(){
       const g = viewGame(id);
       if(!g) continue;
       if((g.series_status || '') === 'done') continue;
+      out.push(g);
+    }
+  }
+  return out;
+}
+function allSeriesInOrder(){
+  const out = [];
+  for(const slug of seriesOrderLive()){
+    const s = viewSeries(slug);
+    if(!s) continue;
+    for(const id of (s.order || [])){
+      const g = viewGame(id);
+      if(!g) continue;
       out.push(g);
     }
   }
@@ -2247,6 +2363,7 @@ function renderToolbar(){
   const nonDefault = sortIsNonDefault();
   const filterNonDefault = filterIsNonDefault();
   const viewNonDefault = viewCols !== 'auto';
+  const showView = !BEATEN_TABS.has(tab);
   toolbarEl.innerHTML = `
     <div class="tb-left">
       <div class="dd" data-dd="filter">
@@ -2266,6 +2383,7 @@ function renderToolbar(){
           }).join('')}
         </div>
       </div>
+      ${showView ? `
       <div class="dd" data-dd="view">
         <button class="dd-btn ${viewNonDefault?'non-default':''}" type="button"><span class="icon icon-cols" style="width:1em;height:1em"></span>View</button>
         <div class="dd-menu" style="min-width:auto;padding:.4rem">
@@ -2273,7 +2391,7 @@ function renderToolbar(){
             ${colOpts.map(c => `<button type="button" class="dd-item ${viewCols===c?'active':''}" data-view-cols="${c}" style="padding:.35rem .6rem;width:auto;border-radius:5px;background:${viewCols===c?'var(--accent-soft)':'rgba(255,255,255,.02)'};border:1px solid ${viewCols===c?'var(--accent-line)':'var(--border)'};color:${viewCols===c?'var(--accent)':'#cbd5e1'};font-size:.75rem;font-family:var(--font-head);font-weight:600;letter-spacing:.08em;cursor:pointer">${c === 'auto' ? 'Auto' : c}</button>`).join('')}
           </div>
         </div>
-      </div>
+      </div>` : ''}
       <button type="button" class="btn-add" id="addGameBtn"><span class="icon icon-plus"></span>Add Game</button>
     </div>
     <div class="tb-right">
@@ -2377,21 +2495,39 @@ function cardHTML(g, t){
       </div>
     </article>`;
 }
-function beatenRowHTML(g){
+function beatenRowHTML(g, rank){
   const pcls = pendingClassFor(g.id);
   const dragAttr = (sortKey === 'natural' && adminMode) ? ' draggable="true"' : '';
+  const credit = (g.dev && g.pub && g.dev === g.pub) ? esc(g.dev) :
+                 ((g.dev && g.pub) ? `${esc(g.dev)} <span class="sep">·</span> ${esc(g.pub)}` :
+                  esc(g.dev || g.pub || ''));
+  const year = esc(extractYear(g.release || g.ea_release) || '');
+  const hltb = fmtHltb(g.hltb, true);
+  const parts = [];
+  if(year) parts.push(year);
+  if(credit) parts.push(credit);
+  if(hltb && hltb !== '—') parts.push(`<span class="hltb">${hltb}</span>`);
+  const metaHTML = parts.join(' <span class="sep">·</span> ');
+  const rankHTML = rank ? `<span class="beaten-rank">#${rank}</span>` : '';
+  const shotInner = g.screenshot
+    ? `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" loading="lazy" decoding="async">`
+    : `<div class="ph">1280 × 720<small>screenshot</small></div>`;
+  const shotClass = g.screenshot ? 'beaten-shot' : 'beaten-shot placeholder';
+  const logoInner = g.logo
+    ? `<img src="${esc(logoSrc(g.logo))}" alt="" loading="lazy" decoding="async">`
+    : `<div class="ph">504 × 562<small>logo</small></div>`;
   return `
-    <div class="row-wrap">
-      <div class="rowD${pcls}" data-id="${esc(g.id)}"${dragAttr}>
-        ${adminControlsHTML(g.id)}
-        <div class="shot-cell">${g.screenshot ? `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" loading="lazy" decoding="async">` : `<div class="ph">1280 × 720<small>screenshot</small></div>`}</div>
-        <div class="info-cell">
-          <div class="logo">${g.logo ? `<img src="${esc(logoSrc(g.logo))}" alt="" title="${esc(g.name)}" loading="lazy" decoding="async">` : `<div class="ph">${esc(g.name)}<small>logo</small></div>`}</div>
-          <div class="hover-text">
-            <div class="name" title="${esc(g.name)}">${esc(g.name)}</div>
-            <div class="meta">${esc(g.dev || '')}${g.dev && g.release ? ' <span class="sep">·</span> ' : ''}${esc(g.release || '')}</div>
-          </div>
+    <div class="beaten-row${pcls}" data-id="${esc(g.id)}"${dragAttr} title="${esc(g.name)}">
+      ${adminControlsHTML(g.id)}
+      <div class="${shotClass}">
+        ${rankHTML}
+        ${shotInner}
+      </div>
+      <div class="beaten-side">
+        <div class="beaten-logo-zone">
+          <div class="beaten-logo">${logoInner}</div>
         </div>
+        <div class="beaten-meta">${metaHTML}</div>
       </div>
     </div>`;
 }
@@ -2523,8 +2659,14 @@ function buildStandardPane(pane, t){
   }
 
   if(BEATEN_TABS.has(t)){
+    const list = listFor(t);
+    const N = list.length;
     pane.el.innerHTML = filtered.length
-      ? `<div class="beaten-list">${filtered.map(g => beatenRowHTML(g)).join('')}</div>`
+      ? `<div class="beaten-list">${filtered.map(g => {
+          const idx = list.indexOf(g.id);
+          const rank = idx >= 0 ? N - idx : null;
+          return beatenRowHTML(g, rank);
+        }).join('')}</div>`
       : `<div class="grid-empty">No games match</div>`;
     return;
   }
@@ -2548,8 +2690,18 @@ function renderVoidNote(){
   const n = gamesWithNoList().length;
   voidNoteHost.innerHTML = `<div class="void-note">VOID MODE — showing ${n} game${n===1?'':'s'} not in any list. Click a card to edit, or disable VOID to go back.</div>`;
 }
+function updateBeatenIndicator(){
+  if(BEATEN_TABS.has(tab) && !voidMode){
+    beatenIndicator.classList.add('on');
+    const n = listFor(tab).length;
+    beatenIndNum.textContent = n;
+  } else {
+    beatenIndicator.classList.remove('on');
+  }
+}
 function renderContent(){
   renderVoidNote();
+  updateBeatenIndicator();
   const pane = getPane(tab);
   TAB_PANES.forEach((p, id) => {
     if(id !== tab){
@@ -2581,6 +2733,7 @@ function refreshGrid(){
   const pane = getPane(tab);
   TAB_PANES.forEach((p, id) => { p.el.style.display = id === tab ? 'block' : 'none'; });
   renderVoidNote();
+  updateBeatenIndicator();
   if(tab === 'backlog-series') buildSeriesPane(pane);
   else buildStandardPane(pane, tab);
   pane.signature = paneSignature();
@@ -2699,7 +2852,7 @@ window.addEventListener('resize', () => { if(backdrop.classList.contains('open')
 function openModal(g, t){
   let list = [];
   if(t === 'backlog-series'){
-    list = allSeriesUndoneInOrder();
+    list = allSeriesInOrder();
   } else if(voidMode){
     list = gamesWithNoList();
   } else {
@@ -4561,7 +4714,7 @@ contentEl.addEventListener('click', e => {
   }
   const srow = e.target.closest('.series-game-row');
   if(srow){ const g = viewGame(srow.dataset.id); if(g) openModal(g, 'backlog-series'); return; }
-  const rowD = e.target.closest('.rowD');
+  const rowD = e.target.closest('.beaten-row');
   if(rowD){ const g = viewGame(rowD.dataset.id); if(g) openModal(g, tab); return; }
   const card = e.target.closest('.card');
   if(card){ const g = viewGame(card.dataset.id); if(g) openModal(g, voidMode ? 'void' : tab); }
@@ -4589,7 +4742,7 @@ contentEl.addEventListener('dragstart', e => {
     e.dataTransfer.effectAllowed = 'move';
     return;
   }
-  const draggable = e.target.closest('.card, .rowD');
+  const draggable = e.target.closest('.card, .beaten-row');
   if(!draggable) return;
   if(!adminMode || sortKey !== 'natural'){ e.preventDefault(); return; }
   dragSrcId = draggable.dataset.id;
@@ -4609,7 +4762,7 @@ contentEl.addEventListener('dragover', e => {
     sRow.classList.add('drag-over');
     return;
   }
-  const draggable = e.target.closest('.card, .rowD');
+  const draggable = e.target.closest('.card, .beaten-row');
   if(!draggable || !dragSrcId) return;
   if(draggable.dataset.id === dragSrcId) return;
   e.preventDefault();
@@ -4620,7 +4773,7 @@ contentEl.addEventListener('dragleave', e => {
   if(block) block.classList.remove('drag-over');
   const sRow = e.target.closest('.series-game-row');
   if(sRow) sRow.classList.remove('drag-over');
-  const draggable = e.target.closest('.card, .rowD');
+  const draggable = e.target.closest('.card, .beaten-row');
   if(draggable) draggable.classList.remove('drop-target');
 });
 contentEl.addEventListener('drop', e => {
@@ -4671,7 +4824,7 @@ contentEl.addEventListener('drop', e => {
     dragSrcRow = null;
     return;
   }
-  const draggable = e.target.closest('.card, .rowD');
+  const draggable = e.target.closest('.card, .beaten-row');
   if(!draggable || !dragSrcId) return;
   e.preventDefault();
   draggable.classList.remove('drop-target');
