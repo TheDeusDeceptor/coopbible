@@ -636,16 +636,18 @@
 
   /* ═══ UNIFIED CLOSE X — shared across all three overlays ═══ */
   .ov-close{
-    position:fixed;top:1rem;left:1rem;
+    position:fixed;top:1rem;left:1rem;z-index:250;
     width:38px;height:38px;border-radius:8px;
     display:grid;place-items:center;
-    font-size:1rem;line-height:1;cursor:pointer;
+    cursor:pointer;
     background:rgba(6,7,11,.6);
     border:1px solid var(--oc-line);
     color:var(--oc);
     transition:all .18s ease;
     font-family:inherit;
+    padding:0;
   }
+  .ov-close svg{display:block;width:18px;height:18px;pointer-events:none;}
   .ov-close:hover{
     color:var(--oc-bright);
     background:var(--oc-soft);
@@ -1091,7 +1093,9 @@
 <div class="backdrop" id="series-backdrop" style="z-index:315"><div id="series-slot"></div></div>
 
 <div class="random-overlay" id="randomOverlay">
-  <button class="ov-close ov-gold" id="randomCloseBtn" style="z-index:30">✕</button>
+  <button class="ov-close ov-gold" id="randomCloseBtn" type="button" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+  </button>
   <div class="random-pages" id="randomPages"></div>
   <div class="random-stage">
     <div class="random-reel-area">
@@ -1115,7 +1119,9 @@
 
 <!-- ═══ GUESS THE GAME ═══ -->
 <div class="gtg-overlay" id="gtgOverlay">
-  <button class="ov-close ov-purple" id="gtgClose" type="button" style="z-index:30">✕</button>
+  <button class="ov-close ov-purple" id="gtgClose" type="button" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+  </button>
 
   <div class="gtg-view gtg-splash-view on" data-gtg-view="splash">
     <div class="gtg-splash-inner">
@@ -1185,7 +1191,9 @@
 
 <!-- ═══ RECALL ═══ -->
 <div class="rc-overlay" id="rcOverlay">
-  <button class="ov-close ov-green" id="rcClose" type="button" style="z-index:60">✕</button>
+  <button class="ov-close ov-green" id="rcClose" type="button" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+  </button>
 
   <div class="rc-screen" data-rc-view="game" style="display:none">
     <div class="rc-screen-bg"></div>
