@@ -3628,8 +3628,12 @@ function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = 
 let mdBackdropTarget = null;
 backdrop.addEventListener('mousedown', e => { mdBackdropTarget = e.target; });
 backdrop.addEventListener('click', e => {
-  if(e.target !== backdrop) return;
-  if(mdBackdropTarget !== backdrop) return;
+  const INSIDE = '.modal, .modal-nav, .modal-close, .admin-modal, .confirm';
+  // Don't close if mousedown started inside the modal content
+  // (prevents drag-from-inside-to-outside closing it)
+  if(mdBackdropTarget && mdBackdropTarget.closest && mdBackdropTarget.closest(INSIDE)) return;
+  // Don't close if the click landed inside the modal content
+  if(e.target && e.target.closest && e.target.closest(INSIDE)) return;
   closeAll();
 });
 
