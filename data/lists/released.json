@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-06T23:05:40Z",
+  "updated": "2026-10-06T23:15:32Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -37,6 +37,10 @@
     "lost-skies-2025-pc",
     "forever-skies-2025-pc",
     "backseat-drivers-2025-pc",
-    "farm-manager-world-2025-pc"
+    "farm-manager-world-2025-pc",
+    "serious-sam-s-bogus-detour-2017-pc",
+    "heroes-of-hammerwatch-ii-2025-pc",
+    "operation-tango-2021-pc",
+    "code-of-princess-ex-2020-pc"
   ]
 }

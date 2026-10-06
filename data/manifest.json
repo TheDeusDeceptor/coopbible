@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T23:05:40Z",
+  "updated": "2026-10-06T23:15:32Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -1320,7 +1320,7 @@
         "installed": false,
         "localCoop": false,
         "authRequired": false,
-        "ownedSteam": false,
+        "ownedSteam": true,
         "gamepass": false
       },
       "series": null,
@@ -1339,7 +1339,7 @@
       "release": "21.04.2025",
       "ea_release": "",
       "screenshot": "https://images.igdb.com/igdb/image/upload/t_1080p/scngvg.jpg",
-      "logo": "https://cdn2.steamgriddb.com/logo/178bdf584841b3c5191aef4c49776d2a.png",
+      "logo": "images/logos/farm-manager-world-2025-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -1349,6 +1349,158 @@
         {
           "label": "PCGW",
           "url": "https://www.pcgamingwiki.com/wiki/Farm_Manager_World",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "serious-sam-s-bogus-detour-2017-pc": {
+      "id": "serious-sam-s-bogus-detour-2017-pc",
+      "name": "Serious Sam's Bogus Detour",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 9",
+      "dev": "Crackshell",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "20.06.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/serious-sam-s-bogus-detour-2017-pc.jpg",
+      "logo": "images/logos/serious-sam-s-bogus-detour-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/272620",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Serious_Sam's_Bogus_Detour",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "heroes-of-hammerwatch-ii-2025-pc": {
+      "id": "heroes-of-hammerwatch-ii-2025-pc",
+      "name": "Heroes of Hammerwatch II",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 11, +Extra: 21",
+      "dev": "Crackshell",
+      "pub": "Team17",
+      "notes": "",
+      "release": "14.01.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/heroes-of-hammerwatch-ii-2025-pc.jpg",
+      "logo": "images/logos/heroes-of-hammerwatch-ii-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/619820",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Heroes_of_Hammerwatch_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "operation-tango-2021-pc": {
+      "id": "operation-tango-2021-pc",
+      "name": "Operation: Tango",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 4, +Extra: 5",
+      "dev": "Clever Plays",
+      "pub": "Clever Plays",
+      "notes": "",
+      "release": "01.06.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/operation-tango-2021-pc.jpg",
+      "logo": "images/logos/operation-tango-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1335790",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Operation%3A_Tango",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "code-of-princess-ex-2020-pc": {
+      "id": "code-of-princess-ex-2020-pc",
+      "name": "Code of Princess EX",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Studio Saizensen",
+      "pub": "Nicalis",
+      "notes": "",
+      "release": "02.10.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/code-of-princess-ex-2020-pc.jpg",
+      "logo": "images/logos/code-of-princess-ex-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/711380",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Code_of_Princess_EX",
           "icon": "pcgw"
         }
       ],
@@ -1403,7 +1555,11 @@
       "lost-skies-2025-pc",
       "forever-skies-2025-pc",
       "backseat-drivers-2025-pc",
-      "farm-manager-world-2025-pc"
+      "farm-manager-world-2025-pc",
+      "serious-sam-s-bogus-detour-2017-pc",
+      "heroes-of-hammerwatch-ii-2025-pc",
+      "operation-tango-2021-pc",
+      "code-of-princess-ex-2020-pc"
     ],
     "early-access": [],
     "unreleased": [],

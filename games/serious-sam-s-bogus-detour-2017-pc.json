@@ -1,0 +1,38 @@
+{
+  "id": "serious-sam-s-bogus-detour-2017-pc",
+  "name": "Serious Sam's Bogus Detour",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 9",
+  "dev": "Crackshell",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "20.06.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/serious-sam-s-bogus-detour-2017-pc.jpg",
+  "logo": "images/logos/serious-sam-s-bogus-detour-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/272620",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Serious_Sam's_Bogus_Detour",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

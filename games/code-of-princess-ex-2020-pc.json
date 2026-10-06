@@ -1,25 +1,25 @@
 {
-  "id": "farm-manager-world-2025-pc",
-  "name": "Farm Manager World",
+  "id": "code-of-princess-ex-2020-pc",
+  "name": "Code of Princess EX",
   "platform": "PC",
-  "size": "",
+  "size": "3 GB",
   "hltb": "—",
-  "dev": "Cleversan Games",
-  "pub": "Sim Farm, PlayWay",
+  "dev": "Studio Saizensen",
+  "pub": "Nicalis",
   "notes": "",
-  "release": "21.04.2025",
+  "release": "02.10.2020",
   "ea_release": "",
-  "screenshot": "https://images.igdb.com/igdb/image/upload/t_1080p/scngvg.jpg",
-  "logo": "images/logos/farm-manager-world-2025-pc.png",
+  "screenshot": "images/screenshots/code-of-princess-ex-2020-pc.jpg",
+  "logo": "images/logos/code-of-princess-ex-2020-pc.png",
   "links": [
     {
       "label": "Steam",
-      "url": "https://store.steampowered.com/app/2206350",
+      "url": "https://store.steampowered.com/app/711380",
       "icon": "steam"
     },
     {
       "label": "PCGW",
-      "url": "https://www.pcgamingwiki.com/wiki/Farm_Manager_World",
+      "url": "https://www.pcgamingwiki.com/wiki/Code_of_Princess_EX",
       "icon": "pcgw"
     }
   ],

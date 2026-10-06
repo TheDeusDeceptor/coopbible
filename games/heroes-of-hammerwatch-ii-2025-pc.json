@@ -1,0 +1,38 @@
+{
+  "id": "heroes-of-hammerwatch-ii-2025-pc",
+  "name": "Heroes of Hammerwatch II",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 11, +Extra: 21",
+  "dev": "Crackshell",
+  "pub": "Team17",
+  "notes": "",
+  "release": "14.01.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/heroes-of-hammerwatch-ii-2025-pc.jpg",
+  "logo": "images/logos/heroes-of-hammerwatch-ii-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/619820",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Heroes_of_Hammerwatch_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
