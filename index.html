@@ -2687,6 +2687,28 @@ async function hltbSearch(name){
   if(data && data.error) throw new Error(data.error);
   return data;
 }
+function _hltbClean(v){
+  if(v == null) return null;
+  const n = Number(v);
+  if(isNaN(n) || n <= 0 || n > 999) return null;
+  return n;
+}
+async function hltbSearchBySteam(appId){
+  const url = 'https://hltbapi1.azurewebsites.net/steam/' + encodeURIComponent(appId);
+  const res = await corsfix.fetch(url);
+  if(res.status === 404) throw new Error('No HLTB entry for this Steam appId');
+  if(!res.ok) throw new Error('HLTB(steam) HTTP ' + res.status);
+  const json = await res.json();
+  const out = {
+    story:         _hltbClean(json.mainStory),
+    extras:        _hltbClean(json.mainStoryWithExtras),
+    completionist: _hltbClean(json.completionist)
+  };
+  if(out.story == null && out.extras == null && out.completionist == null){
+    throw new Error('HLTB(steam) returned no usable data');
+  }
+  return out;
+}
 function hltbMapToFields(d){
   if(!d) return {};
   const story = d.story != null ? Math.max(1, Math.round(d.story)) : null;
@@ -5067,9 +5089,12 @@ async function runParse(){
       setSrcDot(dots.lbdb, 'found');
     }catch(e){ results.lbdb = { error: e.message }; setSrcDot(dots.lbdb, 'error'); }
   })());
-  if(hasName && !locked.has('hltb')) tasks.push((async () => {
+  /* ── HLTB: prefer Steam appid if present, else fall back to name ── */
+  if((hasName || linkedSteamPre) && !locked.has('hltb')) tasks.push((async () => {
     try{
-      const data = await hltbSearch(name);
+      const data = linkedSteamPre
+        ? await hltbSearchBySteam(linkedSteamPre)
+        : await hltbSearch(name);
       const fields = hltbMapToFields(data);
       if(!fields.hltb){ results.hltb = { fields:{} }; setSrcDot(dots.hltb, 'notfound'); return; }
       results.hltb = { fields };
