@@ -5003,10 +5003,94 @@ function randomCardThumbSrc(url){
 function randomCardHTML(g){
   const shot = g.screenshot ? randomCardThumbSrc(g.screenshot) : '';
   const inner = shot
-    ? `<img src="${esc(shot)}" loading="eager" decoding="async" alt="">`
+    ? `<img src="${esc(shot)}" crossorigin="anonymous" loading="eager" decoding="async" alt="">`
     : `<div class="ph" style="width:320px;">1280 × 720<small>screenshot</small></div>`;
   return `<div class="random-card" data-id="${esc(g.id)}">${inner}</div>`;
 }
+
+/* ── RANDOM PICKER: LOGO SHADOW TINTING (variant C) ──
+   Sample winner screenshot → 32×32 canvas → avg RGB →
+   HSL, clamp S ≤ 0.5, L = 0.08 → RGB. That's the dark shadow
+   tinted to the screenshot's own dominant hue.
+   Cache: Map<gameId, string|null>. Fallback: null → CSS keeps
+   its neutral rgba(0,0,0,.85) dark shadow + gold rim.            */
+const tintShadowCache = new Map();
+function rgbToHsl(r, g, b){
+  r /= 255; g /= 255; b /= 255;
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
+  let h = 0, s = 0, l = (max + min) / 2;
+  if(max !== min){
+    const d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    if(max === r)      h = (g - b) / d + (g < b ? 6 : 0);
+    else if(max === g) h = (b - r) / d + 2;
+    else               h = (r - g) / d + 4;
+    h /= 6;
+  }
+  return { h, s, l };
+}
+function hue2rgb(p, q, t){
+  if(t < 0) t += 1;
+  if(t > 1) t -= 1;
+  if(t < 1/6) return p + (q - p) * 6 * t;
+  if(t < 1/2) return q;
+  if(t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+  return p;
+}
+function hslToRgb(h, s, l){
+  if(s === 0){
+    const v = Math.round(l * 255);
+    return { r: v, g: v, b: v };
+  }
+  const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+  const p = 2 * l - q;
+  return {
+    r: Math.round(hue2rgb(p, q, h + 1/3) * 255),
+    g: Math.round(hue2rgb(p, q, h) * 255),
+    b: Math.round(hue2rgb(p, q, h - 1/3) * 255)
+  };
+}
+function sampleWinnerColor(screenshotUrl){
+  return new Promise(resolve => {
+    const u = randomCardThumbSrc(screenshotUrl);
+    if(!u){ resolve(null); return; }
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = () => {
+      try{
+        const c = document.createElement('canvas');
+        c.width = 32; c.height = 32;
+        const ctx = c.getContext('2d', { willReadFrequently: true });
+        ctx.drawImage(img, 0, 0, 32, 32);
+        const data = ctx.getImageData(0, 0, 32, 32).data;
+        let r = 0, g = 0, b = 0, n = 0;
+        for(let i = 0; i < data.length; i += 4){
+          if(data[i + 3] < 128) continue;
+          r += data[i]; g += data[i + 1]; b += data[i + 2]; n++;
+        }
+        if(!n){ resolve(null); return; }
+        resolve({ r: r / n, g: g / n, b: b / n });
+      }catch(e){ resolve(null); } // tainted canvas or ctx error
+    };
+    img.onerror = () => resolve(null);
+    img.src = u;
+  });
+}
+async function tintedShadowFor(gameId, screenshotUrl){
+  if(tintShadowCache.has(gameId)) return tintShadowCache.get(gameId);
+  const avg = await sampleWinnerColor(screenshotUrl);
+  let tint = null;
+  if(avg){
+    const hsl = rgbToHsl(avg.r, avg.g, avg.b);
+    hsl.s = Math.min(hsl.s, 0.5);
+    hsl.l = 0.08;
+    const out = hslToRgb(hsl.h, hsl.s, hsl.l);
+    tint = `rgb(${out.r}, ${out.g}, ${out.b})`;
+  }
+  tintShadowCache.set(gameId, tint);
+  return tint;
+}
+
 function waitForReelImages(timeoutMs){
   const imgs = [...randomReel.querySelectorAll('img')];
   if(!imgs.length) return Promise.resolve();
@@ -5023,9 +5107,12 @@ function waitForReelImages(timeoutMs){
     new Promise(resolve => setTimeout(resolve, timeoutMs))
   ]);
 }
-function randomLogoHTML(g){
+function randomLogoHTML(g, tint){
+  const filterCSS = tint
+    ? `filter:drop-shadow(0 10px 20px ${tint}) drop-shadow(0 0 20px var(--gold-glow));`
+    : '';
   if(g.logo){
-    return `<img src="${esc(logoSrc(g.logo))}" alt="" title="${esc(g.name)}">`;
+    return `<img src="${esc(logoSrc(g.logo))}" alt="" title="${esc(g.name)}"${filterCSS ? ` style="${filterCSS}"` : ''}>`;
   }
   return `<div class="winner-name" style="font-size:2.4rem;color:#fff;font-family:var(--font-head);letter-spacing:.06em;text-shadow:0 0 30px var(--gold-glow);">${esc(g.name)}</div>`;
 }
@@ -5091,14 +5178,24 @@ function easeOutBack(t, s){
   const t1 = t - 1;
   return 1 + (s + 1) * t1 * t1 * t1 + s * t1 * t1;
 }
-function randomFinishSpin(winnerId){
+async function randomFinishSpin(winnerId, tintPromise){
   randomRecentWinners.push(winnerId);
   while(randomRecentWinners.length > RANDOM_BLACKLIST) randomRecentWinners.shift();
   const g = MANIFEST.games[winnerId];
   randomWinner = g || null;
+
+  // Tint resolution: prefer the pre-computed promise, cap wait at 200ms.
+  let tint = null;
+  if(tintPromise){
+    tint = await Promise.race([
+      tintPromise,
+      new Promise(resolve => setTimeout(() => resolve(null), 200))
+    ]);
+  }
+
   setTimeout(() => {
     if(!randomWinner) return;
-    randomLogoSlot.innerHTML = randomLogoHTML(randomWinner);
+    randomLogoSlot.innerHTML = randomLogoHTML(randomWinner, tint);
     void randomLogoSlot.offsetWidth; // force reflow so the .show transition actually fires
     randomLogoSlot.classList.add('show', 'clickable');
     randomLogoSlot.onclick = () => {
@@ -5123,6 +5220,10 @@ async function randomSpin(){
   randomLogoSlot.innerHTML = '';
 
   const winner = randomPickWinner(pool);
+  // Kick off tint computation now — runs in parallel with the ~6s reel animation
+  const tintPromise = winner.screenshot
+    ? tintedShadowFor(winner.id, winner.screenshot)
+    : Promise.resolve(null);
   const targetIdx = 30 + Math.floor(Math.random() * 12);
   const willBounce = Math.random() < 0.40;
   const finalIdx = willBounce
@@ -5169,14 +5270,14 @@ async function randomSpin(){
               randomReel.style.transform = `translateX(${Math.round(phase2X)}px)`;
               const card = randomReel.children[finalIdx];
               if(card) card.classList.add('winner');
-              randomFinishSpin(card ? card.dataset.id : winner.id);
+              randomFinishSpin(card ? card.dataset.id : winner.id, tintPromise);
             }
           });
         }, phase2Pause);
       } else {
         const card = randomReel.children[finalIdx];
         if(card) card.classList.add('winner');
-        randomFinishSpin(card ? card.dataset.id : winner.id);
+        randomFinishSpin(card ? card.dataset.id : winner.id, tintPromise);
       }
     }
   }
