@@ -115,7 +115,21 @@
   .pending-strip button.commit{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
   .pending-strip button.commit:hover{color:#fff;background:rgba(74,222,128,.2)}
   .pending-strip button:disabled{opacity:.5;cursor:wait}
-  .toolbar{max-width:1400px;margin:0 auto 1.25rem;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;}
+  .toolbar{
+    max-width:1400px;margin:0 auto 1.25rem;
+    display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;
+    position:sticky;top:0;z-index:80;
+    padding:.6rem 0;
+  }
+  .toolbar::before{
+    content:"";
+    position:absolute;top:0;bottom:0;
+    left:calc(-50vw + 50%);right:calc(-50vw + 50%);
+    background:rgba(10,13,20,.9);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--border);
+    z-index:-1;pointer-events:none;
+  }
   .toolbar.empty{display:none}
   .tb-left{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
   .tb-right{margin-left:auto;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;}
