@@ -2680,9 +2680,9 @@ function steamMapToFields(data){
   if(data.size) out.size = data.size;
   return out;
 }
-async function hltbSearch(name){
-  const res = await fetch(PROXY_URL + '?action=hltb&q=' + encodeURIComponent(name));
-  if(!res.ok) throw new Error('HLTB proxy HTTP ' + res.status);
+async function hltbSearchBySteam(appId){
+  const res = await fetch(PROXY_URL + '?action=hltb_steam&q=' + encodeURIComponent(appId));
+  if(!res.ok) throw new Error('HLTB(steam) proxy HTTP ' + res.status);
   const data = await res.json();
   if(data && data.error) throw new Error(data.error);
   return data;
@@ -3649,12 +3649,12 @@ function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = 
 let mdBackdropTarget = null;
 backdrop.addEventListener('mousedown', e => { mdBackdropTarget = e.target; });
 backdrop.addEventListener('click', e => {
-  const INSIDE = '.modal, .modal-nav, .modal-close, .admin-modal, .confirm';
-  // Don't close if mousedown started inside the modal content
-  // (prevents drag-from-inside-to-outside closing it)
+  const INSIDE = '.modal, .modal-nav, .modal-close, .admin-modal, .confirm, .token-modal, .picker-modal, .logo-picker, .series-header-modal, .tools-modal';
+  // composedPath snapshots the chain at dispatch time — survives node removal
+  // (e.g. clicking a "remove row" button that deletes its own row first)
+  const path = (e.composedPath && e.composedPath()) || [];
+  if(path.some(el => el.matches && el.matches(INSIDE))) return;
   if(mdBackdropTarget && mdBackdropTarget.closest && mdBackdropTarget.closest(INSIDE)) return;
-  // Don't close if the click landed inside the modal content
-  if(e.target && e.target.closest && e.target.closest(INSIDE)) return;
   closeAll();
 });
 
@@ -4323,12 +4323,20 @@ function openEditor(g, opts){
     finally{ btn.disabled = false; btn.innerHTML = orig; }
   });
   $('#hltb-lookup').addEventListener('click', async () => {
+    const steamAppId = parseSteamInput($('#qp-steam')?.value || '');
     const nameVal = (nameInput.value || '').trim();
-    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    if(!steamAppId && !nameVal){ toast('Enter a name or paste a Steam link first', 'bad'); return; }
     const btn = $('#hltb-lookup'); const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…';
     try{
-      const data = await hltbSearch(nameVal);
+      let data, usedSource;
+      if(steamAppId){
+        data = await hltbSearchBySteam(steamAppId);
+        usedSource = 'appid ' + steamAppId;
+      } else {
+        data = await hltbSearch(nameVal);
+        usedSource = 'name';
+      }
       const fields = hltbMapToFields(data);
       if(!fields.hltb){ toast('HLTB: no result', 'bad'); return; }
       const parts = hltbToParts(fields.hltb);
@@ -4338,8 +4346,28 @@ function openEditor(g, opts){
       $('#hltb-text').style.display = 'none';
       $('#f-hltb-main').value = parts.main || '';
       $('#f-hltb-extra').value = parts.extra || '';
-      toast('HLTB filled: ' + fields.hltb);
-    }catch(err){ toast('HLTB: ' + err.message, 'bad'); }
+      toast('HLTB filled (' + usedSource + '): ' + fields.hltb);
+    }catch(err){
+      // If appid lookup failed, silently try by name before showing error
+      if(steamAppId && nameVal){
+        try{
+          const data2 = await hltbSearch(nameVal);
+          const fields2 = hltbMapToFields(data2);
+          if(fields2.hltb){
+            const parts = hltbToParts(fields2.hltb);
+            const numericRadio = $('#f-hltb-type input[value="numeric"]');
+            if(numericRadio){ numericRadio.checked = true; numericRadio.dispatchEvent(new Event('change', { bubbles: true })); }
+            $('#hltb-numeric').style.display = '';
+            $('#hltb-text').style.display = 'none';
+            $('#f-hltb-main').value = parts.main || '';
+            $('#f-hltb-extra').value = parts.extra || '';
+            toast('HLTB filled (by name): ' + fields2.hltb);
+            return;
+          }
+        }catch(_){}
+      }
+      toast('HLTB: ' + err.message, 'bad');
+    }
     finally{ btn.disabled = false; btn.innerHTML = orig; }
   });
   $('#flag-row').addEventListener('click', e => {
