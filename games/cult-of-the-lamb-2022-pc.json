@@ -1,0 +1,38 @@
+{
+  "id": "cult-of-the-lamb-2022-pc",
+  "name": "Cult of the Lamb",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 15, +Extra: 20",
+  "dev": "Massive Monster",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "11.08.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cult-of-the-lamb-2022-pc.jpg",
+  "logo": "images/logos/cult-of-the-lamb-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1313140",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Cult_of_the_Lamb",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

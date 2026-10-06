@@ -1,0 +1,176 @@
+{
+  "version": 4,
+  "updated": "2026-10-06T20:47:40Z",
+  "games": {
+    "deep-rock-galactic-2020-pc": {
+      "id": "deep-rock-galactic-2020-pc",
+      "name": "Deep Rock Galactic",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 45, +Extra: 137",
+      "dev": "Ghost Ship Games",
+      "pub": "Coffee Stain Publishing",
+      "notes": "",
+      "release": "13.05.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/deep-rock-galactic-2020-pc.jpg",
+      "logo": "images/logos/deep-rock-galactic-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/548430",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Deep_Rock_Galactic",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "baldur-s-gate-3-2023-pc": {
+      "id": "baldur-s-gate-3-2023-pc",
+      "name": "Baldur's Gate 3",
+      "platform": "PC",
+      "size": "150 GB",
+      "hltb": "Main: 73, +Extra: 117",
+      "dev": "Larian Studios",
+      "pub": "Larian Studios",
+      "notes": "",
+      "release": "03.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/baldur-s-gate-3-2023-pc.jpg",
+      "logo": "images/logos/baldur-s-gate-3-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1086940",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Baldur's_Gate_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "styx-shards-of-darkness-2017-pc": {
+      "id": "styx-shards-of-darkness-2017-pc",
+      "name": "Styx: Shards of Darkness",
+      "platform": "PC",
+      "size": "11 GB",
+      "hltb": "Main: 12, +Extra: 17",
+      "dev": "Cyanide Studio",
+      "pub": "Nacon",
+      "notes": "",
+      "release": "14.03.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/styx-shards-of-darkness-2017-pc.jpg",
+      "logo": "images/logos/styx-shards-of-darkness-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/355790",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Styx%3A_Shards_of_Darkness",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cult-of-the-lamb-2022-pc": {
+      "id": "cult-of-the-lamb-2022-pc",
+      "name": "Cult of the Lamb",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 15, +Extra: 20",
+      "dev": "Massive Monster",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "11.08.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cult-of-the-lamb-2022-pc.jpg",
+      "logo": "images/logos/cult-of-the-lamb-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1313140",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Cult_of_the_Lamb",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    }
+  },
+  "lists": {
+    "released": [
+      "deep-rock-galactic-2020-pc",
+      "baldur-s-gate-3-2023-pc",
+      "styx-shards-of-darkness-2017-pc",
+      "cult-of-the-lamb-2022-pc"
+    ],
+    "early-access": [],
+    "unreleased": [],
+    "mods": [],
+    "coop-beaten": [],
+    "backlog": [],
+    "gamearchive": [],
+    "mainpc": [],
+    "beaten": []
+  },
+  "series": {},
+  "series_order": []
+}
