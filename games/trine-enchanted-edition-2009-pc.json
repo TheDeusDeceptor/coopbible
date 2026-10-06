@@ -1,0 +1,38 @@
+{
+  "id": "trine-enchanted-edition-2009-pc",
+  "name": "Trine Enchanted Edition",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Frozenbyte",
+  "pub": "Frozenbyte",
+  "notes": "",
+  "release": "02.07.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trine-enchanted-edition-2009-pc.jpg",
+  "logo": "images/logos/trine-enchanted-edition-2009-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/35700",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Trine%3A_Enchanted_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

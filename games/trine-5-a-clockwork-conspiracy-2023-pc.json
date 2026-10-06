@@ -1,0 +1,38 @@
+{
+  "id": "trine-5-a-clockwork-conspiracy-2023-pc",
+  "name": "Trine 5: A Clockwork Conspiracy",
+  "platform": "PC",
+  "size": "16 GB",
+  "hltb": "Main: 19, +Extra: 22",
+  "dev": "Frozenbyte",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "31.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trine-5-a-clockwork-conspiracy-2023-pc.jpg",
+  "logo": "images/logos/trine-5-a-clockwork-conspiracy-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1436700",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Trine_5%3A_A_Clockwork_Conspiracy",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

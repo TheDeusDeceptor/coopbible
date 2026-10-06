@@ -1,0 +1,38 @@
+{
+  "id": "abathor-2024-pc",
+  "name": "Abathor",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Pow Pixel Games",
+  "pub": "JanduSoft",
+  "notes": "",
+  "release": "25.07.2024",
+  "ea_release": "",
+  "screenshot": "https://images.igdb.com/igdb/image/upload/t_1080p/scl8us.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/c32cbe2acc8f0fed81856c7a3649718c.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2295610",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Abathor",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

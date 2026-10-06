@@ -1,0 +1,38 @@
+{
+  "id": "trine-2-complete-story-2013-pc",
+  "name": "Trine 2: Complete Story",
+  "platform": "PC",
+  "size": "4.5 GB",
+  "hltb": "Main: 9, +Extra: 14",
+  "dev": "Frozenbyte",
+  "pub": "Frozenbyte",
+  "notes": "",
+  "release": "06.06.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trine-2-complete-story-2013-pc.jpg",
+  "logo": "images/logos/trine-2-complete-story-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/35720",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Trine_2%3A_Complete_Story",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T21:03:17Z",
+  "updated": "2026-10-06T21:33:29Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -300,6 +300,234 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "abathor-2024-pc": {
+      "id": "abathor-2024-pc",
+      "name": "Abathor",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 8, +Extra: 9",
+      "dev": "Pow Pixel Games",
+      "pub": "JanduSoft",
+      "notes": "",
+      "release": "25.07.2024",
+      "ea_release": "",
+      "screenshot": "https://images.igdb.com/igdb/image/upload/t_1080p/scl8us.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/c32cbe2acc8f0fed81856c7a3649718c.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2295610",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Abathor",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trine-enchanted-edition-2009-pc": {
+      "id": "trine-enchanted-edition-2009-pc",
+      "name": "Trine Enchanted Edition",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 5, +Extra: 7",
+      "dev": "Frozenbyte",
+      "pub": "Frozenbyte",
+      "notes": "",
+      "release": "02.07.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trine-enchanted-edition-2009-pc.jpg",
+      "logo": "images/logos/trine-enchanted-edition-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/35700",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Trine%3A_Enchanted_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trine-2-complete-story-2013-pc": {
+      "id": "trine-2-complete-story-2013-pc",
+      "name": "Trine 2: Complete Story",
+      "platform": "PC",
+      "size": "4.5 GB",
+      "hltb": "Main: 9, +Extra: 14",
+      "dev": "Frozenbyte",
+      "pub": "Frozenbyte",
+      "notes": "",
+      "release": "06.06.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trine-2-complete-story-2013-pc.jpg",
+      "logo": "images/logos/trine-2-complete-story-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/35720",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Trine_2%3A_Complete_Story",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trine-3-the-artifacts-of-power-2015-pc": {
+      "id": "trine-3-the-artifacts-of-power-2015-pc",
+      "name": "Trine 3: The Artifacts of Power",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Frozenbyte",
+      "pub": "Frozenbyte",
+      "notes": "",
+      "release": "20.08.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trine-3-the-artifacts-of-power-2015-pc.jpg",
+      "logo": "images/logos/trine-3-the-artifacts-of-power-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/319910",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Trine_3%3A_The_Artifacts_of_Power",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trine-4-the-nightmare-prince-2019-pc": {
+      "id": "trine-4-the-nightmare-prince-2019-pc",
+      "name": "Trine 4: The Nightmare Prince",
+      "platform": "PC",
+      "size": "16 GB",
+      "hltb": "Main: 10, +Extra: 13",
+      "dev": "Frozenbyte",
+      "pub": "Frozenbyte",
+      "notes": "",
+      "release": "08.10.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trine-4-the-nightmare-prince-2019-pc.jpg",
+      "logo": "images/logos/trine-4-the-nightmare-prince-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/690640",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Trine_4%3A_The_Nightmare_Prince",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trine-5-a-clockwork-conspiracy-2023-pc": {
+      "id": "trine-5-a-clockwork-conspiracy-2023-pc",
+      "name": "Trine 5: A Clockwork Conspiracy",
+      "platform": "PC",
+      "size": "16 GB",
+      "hltb": "Main: 19, +Extra: 22",
+      "dev": "Frozenbyte",
+      "pub": "THQ Nordic",
+      "notes": "",
+      "release": "31.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trine-5-a-clockwork-conspiracy-2023-pc.jpg",
+      "logo": "images/logos/trine-5-a-clockwork-conspiracy-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1436700",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Trine_5%3A_A_Clockwork_Conspiracy",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -311,7 +539,13 @@
       "the-casting-of-frank-stone-2024-pc",
       "perennial-order-2024-pc",
       "rugrats-adventures-in-gameland-2024-pc",
-      "abathor-atlantis-landing-2023-pc"
+      "abathor-atlantis-landing-2023-pc",
+      "abathor-2024-pc",
+      "trine-enchanted-edition-2009-pc",
+      "trine-2-complete-story-2013-pc",
+      "trine-3-the-artifacts-of-power-2015-pc",
+      "trine-4-the-nightmare-prince-2019-pc",
+      "trine-5-a-clockwork-conspiracy-2023-pc"
     ],
     "early-access": [],
     "unreleased": [],

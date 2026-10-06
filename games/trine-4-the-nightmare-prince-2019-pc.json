@@ -1,0 +1,38 @@
+{
+  "id": "trine-4-the-nightmare-prince-2019-pc",
+  "name": "Trine 4: The Nightmare Prince",
+  "platform": "PC",
+  "size": "16 GB",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "Frozenbyte",
+  "pub": "Frozenbyte",
+  "notes": "",
+  "release": "08.10.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trine-4-the-nightmare-prince-2019-pc.jpg",
+  "logo": "images/logos/trine-4-the-nightmare-prince-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/690640",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Trine_4%3A_The_Nightmare_Prince",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
