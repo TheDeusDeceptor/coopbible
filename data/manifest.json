@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T22:21:18Z",
+  "updated": "2026-10-06T22:44:12Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -533,8 +533,8 @@
       "id": "spiritfarer-farewell-edition-2020-pc",
       "name": "Spiritfarer: Farewell Edition",
       "platform": "PC",
-      "size": "",
-      "hltb": "—",
+      "size": "7 GB",
+      "hltb": "Main: 25, +Extra: 33",
       "dev": "Thunder Lotus",
       "pub": "Thunder Lotus",
       "notes": "",
@@ -914,7 +914,7 @@
       "name": "Toukiden: Kiwami",
       "platform": "PC",
       "size": "21 GB",
-      "hltb": "—",
+      "hltb": "Main: 45, +Extra: 73",
       "dev": "Omega Force",
       "pub": "Koei Tecmo",
       "notes": "",
@@ -990,7 +990,7 @@
       "name": "Cubic Odyssey",
       "platform": "PC",
       "size": "6 GB",
-      "hltb": "—",
+      "hltb": "Main: 18",
       "dev": "Atypical Games",
       "pub": "Gaijin Network",
       "notes": "",
