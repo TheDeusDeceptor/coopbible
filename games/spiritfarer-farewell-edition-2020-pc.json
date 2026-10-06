@@ -1,0 +1,38 @@
+{
+  "id": "spiritfarer-farewell-edition-2020-pc",
+  "name": "Spiritfarer: Farewell Edition",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Thunder Lotus",
+  "pub": "Thunder Lotus",
+  "notes": "",
+  "release": "18.08.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/spiritfarer-2020-pc.jpg",
+  "logo": "images/logos/spiritfarer-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/972660",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Spiritfarer",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

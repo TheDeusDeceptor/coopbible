@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T21:35:17Z",
+  "updated": "2026-10-06T21:48:06Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -528,6 +528,44 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "spiritfarer-farewell-edition-2020-pc": {
+      "id": "spiritfarer-farewell-edition-2020-pc",
+      "name": "Spiritfarer: Farewell Edition",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Thunder Lotus",
+      "pub": "Thunder Lotus",
+      "notes": "",
+      "release": "18.08.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/spiritfarer-2020-pc.jpg",
+      "logo": "images/logos/spiritfarer-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/972660",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Spiritfarer",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -545,7 +583,8 @@
       "trine-2-complete-story-2013-pc",
       "trine-3-the-artifacts-of-power-2015-pc",
       "trine-4-the-nightmare-prince-2019-pc",
-      "trine-5-a-clockwork-conspiracy-2023-pc"
+      "trine-5-a-clockwork-conspiracy-2023-pc",
+      "spiritfarer-farewell-edition-2020-pc"
     ],
     "early-access": [],
     "unreleased": [],
