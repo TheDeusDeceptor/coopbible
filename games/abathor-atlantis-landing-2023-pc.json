@@ -1,0 +1,38 @@
+{
+  "id": "abathor-atlantis-landing-2023-pc",
+  "name": "Abathor - Atlantis Landing",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Pow Pixel Games",
+  "pub": "JanduSoft",
+  "notes": "",
+  "release": "29.06.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/abathor-atlantis-landing-2023-pc.jpg",
+  "logo": "images/logos/abathor-atlantis-landing-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2358610",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Abathor%3A_Atlantis_Landing",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T20:47:40Z",
+  "updated": "2026-10-06T21:03:17Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -153,6 +153,153 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "the-casting-of-frank-stone-2024-pc": {
+      "id": "the-casting-of-frank-stone-2024-pc",
+      "name": "The Casting of Frank Stone",
+      "platform": "PC",
+      "size": "70 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Supermassive Games",
+      "pub": "Behaviour Interactive",
+      "notes": "",
+      "release": "03.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-casting-of-frank-stone-2024-pc.jpg",
+      "logo": "images/logos/the-casting-of-frank-stone-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2223840",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Casting_of_Frank_Stone",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "perennial-order-2024-pc": {
+      "id": "perennial-order-2024-pc",
+      "name": "Perennial Order",
+      "platform": "PC",
+      "size": "11 GB",
+      "hltb": "Main: 9, +Extra: 12",
+      "dev": "Gardenfiend Games",
+      "pub": "SOEDESCO",
+      "notes": "",
+      "release": "05.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/perennial-order-2024-pc.jpg",
+      "logo": "images/logos/perennial-order-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1411020",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rugrats-adventures-in-gameland-2024-pc": {
+      "id": "rugrats-adventures-in-gameland-2024-pc",
+      "name": "Rugrats: Adventures in Gameland",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 2",
+      "dev": "The MIX Games",
+      "pub": "The MIX Games",
+      "notes": "",
+      "release": "10.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rugrats-adventures-in-gameland-2024-pc.jpg",
+      "logo": "images/logos/rugrats-adventures-in-gameland-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2633950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Rugrats%3A_Adventures_In_Gameland",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "abathor-atlantis-landing-2023-pc": {
+      "id": "abathor-atlantis-landing-2023-pc",
+      "name": "Abathor - Atlantis Landing",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Pow Pixel Games",
+      "pub": "JanduSoft",
+      "notes": "",
+      "release": "29.06.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/abathor-atlantis-landing-2023-pc.jpg",
+      "logo": "images/logos/abathor-atlantis-landing-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2358610",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Abathor%3A_Atlantis_Landing",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -160,7 +307,11 @@
       "deep-rock-galactic-2020-pc",
       "baldur-s-gate-3-2023-pc",
       "styx-shards-of-darkness-2017-pc",
-      "cult-of-the-lamb-2022-pc"
+      "cult-of-the-lamb-2022-pc",
+      "the-casting-of-frank-stone-2024-pc",
+      "perennial-order-2024-pc",
+      "rugrats-adventures-in-gameland-2024-pc",
+      "abathor-atlantis-landing-2023-pc"
     ],
     "early-access": [],
     "unreleased": [],

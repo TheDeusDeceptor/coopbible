@@ -1,0 +1,38 @@
+{
+  "id": "the-casting-of-frank-stone-2024-pc",
+  "name": "The Casting of Frank Stone",
+  "platform": "PC",
+  "size": "70 GB",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Supermassive Games",
+  "pub": "Behaviour Interactive",
+  "notes": "",
+  "release": "03.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-casting-of-frank-stone-2024-pc.jpg",
+  "logo": "images/logos/the-casting-of-frank-stone-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2223840",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Casting_of_Frank_Stone",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

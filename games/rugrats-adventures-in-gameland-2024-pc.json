@@ -1,0 +1,38 @@
+{
+  "id": "rugrats-adventures-in-gameland-2024-pc",
+  "name": "Rugrats: Adventures in Gameland",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 2",
+  "dev": "The MIX Games",
+  "pub": "The MIX Games",
+  "notes": "",
+  "release": "10.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rugrats-adventures-in-gameland-2024-pc.jpg",
+  "logo": "images/logos/rugrats-adventures-in-gameland-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2633950",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Rugrats%3A_Adventures_In_Gameland",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
