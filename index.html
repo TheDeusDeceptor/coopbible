@@ -3513,14 +3513,9 @@ function modalHTML(g, t){
     </div>`;
   return `<div class="modal-wrap">${prevBtn}${modalBlock}${nextBtn}</div>`;
 }
-function applyHeroSize(heroEl){
-  const el = heroEl.querySelector('[data-hero-img], [data-hero-video]');
-  if(!el){ heroEl.style.width = ''; heroEl.style.height = ''; return; }
-  let w, h;
-  if(el.tagName === 'VIDEO'){ w = el.videoWidth; h = el.videoHeight; }
-  else { w = el.naturalWidth; h = el.naturalHeight; }
-  if(!w || !h) return;
-  const ratio = w / h;
+/* ═══ HERO SIZE + RATIO CACHE (prevents flash on fast modal nav) ═══ */
+const heroRatioCache = new Map(); // url -> ratio (w / h)
+function applyHeroSizeByRatio(heroEl, ratio){
   const vw = window.innerWidth;
   const vh = window.innerHeight;
   const maxH = Math.min(vh * 0.48, 540);
@@ -3534,6 +3529,26 @@ function applyHeroSize(heroEl){
   heroEl.style.width = Math.round(ww) + 'px';
   const modalEl = heroEl.closest('.modal');
   if(modalEl) modalEl.style.width = Math.round(ww) + 'px';
+}
+function applyHeroSize(heroEl){
+  const el = heroEl.querySelector('[data-hero-img], [data-hero-video]');
+  if(!el){ heroEl.style.width = ''; heroEl.style.height = ''; return; }
+  let w, h, url = '';
+  if(el.tagName === 'VIDEO'){
+    w = el.videoWidth; h = el.videoHeight;
+  } else {
+    w = el.naturalWidth; h = el.naturalHeight; url = el.src || '';
+  }
+  if(w && h){
+    const ratio = w / h;
+    if(url) heroRatioCache.set(url, ratio);
+    applyHeroSizeByRatio(heroEl, ratio);
+    return;
+  }
+  // Image not decoded yet — fall back to cached ratio if we have it
+  if(url && heroRatioCache.has(url)){
+    applyHeroSizeByRatio(heroEl, heroRatioCache.get(url));
+  }
 }
 function recalcHeroSizes(){
   document.querySelectorAll('[data-hero]').forEach(applyHeroSize);
@@ -3573,8 +3588,17 @@ function renderModal(g, t){
   const imgEl = modalSlot.querySelector('[data-hero-img]');
   const vidEl = modalSlot.querySelector('[data-hero-video]');
   if(heroEl && imgEl){
-    if(imgEl.complete) applyHeroSize(heroEl);
-    else imgEl.addEventListener('load', () => applyHeroSize(heroEl), { once: true });
+    // 1) Already decoded (cached img on this session)
+    if(imgEl.complete && imgEl.naturalWidth){
+      applyHeroSize(heroEl);
+    } else {
+      // 2) We know the ratio from a previous view — size it NOW so no flash
+      if(imgEl.src && heroRatioCache.has(imgEl.src)){
+        applyHeroSizeByRatio(heroEl, heroRatioCache.get(imgEl.src));
+      }
+      imgEl.addEventListener('load', () => applyHeroSize(heroEl), { once: true });
+      imgEl.addEventListener('error', () => applyHeroSize(heroEl), { once: true });
+    }
   }
   if(heroEl && vidEl){
     if(vidEl.readyState >= 1) applyHeroSize(heroEl);
@@ -3584,9 +3608,20 @@ function renderModal(g, t){
 function navigateModal(delta){
   if(modalNavList.length < 2) return;
   modalNavIdx = (modalNavIdx + delta + modalNavList.length) % modalNavList.length;
-  renderModal(modalNavList[modalNavIdx], tab);
+  const next = modalNavList[modalNavIdx];
+  renderModal(next, tab);
   const m = modalSlot.querySelector('.modal');
   if(m) m.scrollTop = 0;
+  // Warm the ratio cache for the arrow-after-next so it never flashes
+  const ahead = modalNavList[(modalNavIdx + delta + modalNavList.length) % modalNavList.length];
+  if(ahead && ahead.screenshot){
+    const url = screenshotSrc(ahead.screenshot);
+    if(url && !heroRatioCache.has(url)){
+      const im = new Image();
+      im.onload = () => { if(im.naturalWidth && im.naturalHeight) heroRatioCache.set(url, im.naturalWidth / im.naturalHeight); };
+      im.src = url;
+    }
+  }
 }
 function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = ''; modalNavList = []; modalNavIdx = -1; }
 
