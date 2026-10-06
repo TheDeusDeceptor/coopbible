@@ -1,0 +1,38 @@
+{
+  "id": "fantasy-life-i-the-girl-who-steals-time-2025-pc",
+  "name": "FANTASY LIFE i: The Girl Who Steals Time",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 34, +Extra: 60",
+  "dev": "LEVEL5 Inc.",
+  "pub": "LEVEL5 Inc.",
+  "notes": "",
+  "release": "21.05.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fantasy-life-i-the-girl-who-steals-time-2025-pc.jpg",
+  "logo": "images/logos/fantasy-life-i-the-girl-who-steals-time-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2993780",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/FANTASY_LIFE_i%3A_The_Girl_Who_Steals_Time",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

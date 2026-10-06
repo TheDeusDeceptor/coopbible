@@ -1,0 +1,38 @@
+{
+  "id": "parallel-experiment-2025-pc",
+  "name": "Parallel Experiment",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 6",
+  "dev": "Eleven Puzzles",
+  "pub": "Eleven Puzzles",
+  "notes": "",
+  "release": "05.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/parallel-experiment-2025-pc.jpg",
+  "logo": "images/logos/parallel-experiment-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2012320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Parallel_Experiment",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

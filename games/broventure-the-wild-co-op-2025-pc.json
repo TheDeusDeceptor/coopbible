@@ -1,0 +1,33 @@
+{
+  "id": "broventure-the-wild-co-op-2025-pc",
+  "name": "Broventure: The Wild Co-op",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "Alice Games",
+  "pub": "Alice Games",
+  "notes": "",
+  "release": "15.05.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/broventure-the-wild-co-op-2025-pc.jpg",
+  "logo": "images/logos/broventure-the-wild-co-op-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2939640",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

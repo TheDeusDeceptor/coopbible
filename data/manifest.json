@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T23:15:32Z",
+  "updated": "2026-10-06T23:34:43Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -1516,6 +1516,290 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "farming-simulator-25-2024-pc": {
+      "id": "farming-simulator-25-2024-pc",
+      "name": "Farming Simulator 25",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 477",
+      "dev": "GIANTS Software",
+      "pub": "GIANTS Software",
+      "notes": "",
+      "release": "12.11.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/farming-simulator-25-2024-pc.jpg",
+      "logo": "images/logos/farming-simulator-25-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2300320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Farming_Simulator_25",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "farm-together-2-2025-pc": {
+      "id": "farm-together-2-2025-pc",
+      "name": "Farm Together 2",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 3",
+      "dev": "Milkstone Studios",
+      "pub": "Milkstone Studios",
+      "notes": "",
+      "release": "30.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/farm-together-2-2025-pc.jpg",
+      "logo": "images/logos/farm-together-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2418520",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wrap-house-simulator-2025-pc": {
+      "id": "wrap-house-simulator-2025-pc",
+      "name": "Wrap House Simulator🌯",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Broken Lyre Entertainment",
+      "pub": "PlayWay",
+      "notes": "",
+      "release": "29.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wrap-house-simulator-2025-pc.jpg",
+      "logo": "images/logos/wrap-house-simulator-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3533100",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "broventure-the-wild-co-op-2025-pc": {
+      "id": "broventure-the-wild-co-op-2025-pc",
+      "name": "Broventure: The Wild Co-op",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Alice Games",
+      "pub": "Alice Games",
+      "notes": "",
+      "release": "15.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/broventure-the-wild-co-op-2025-pc.jpg",
+      "logo": "images/logos/broventure-the-wild-co-op-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2939640",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "fantasy-life-i-the-girl-who-steals-time-2025-pc": {
+      "id": "fantasy-life-i-the-girl-who-steals-time-2025-pc",
+      "name": "FANTASY LIFE i: The Girl Who Steals Time",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 34, +Extra: 60",
+      "dev": "LEVEL5 Inc.",
+      "pub": "LEVEL5 Inc.",
+      "notes": "",
+      "release": "21.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/fantasy-life-i-the-girl-who-steals-time-2025-pc.jpg",
+      "logo": "images/logos/fantasy-life-i-the-girl-who-steals-time-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2993780",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/FANTASY_LIFE_i%3A_The_Girl_Who_Steals_Time",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "parallel-experiment-2025-pc": {
+      "id": "parallel-experiment-2025-pc",
+      "name": "Parallel Experiment",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 6",
+      "dev": "Eleven Puzzles",
+      "pub": "Eleven Puzzles",
+      "notes": "",
+      "release": "05.06.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/parallel-experiment-2025-pc.jpg",
+      "logo": "images/logos/parallel-experiment-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2012320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Parallel_Experiment",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "onirism-2025-pc": {
+      "id": "onirism-2025-pc",
+      "name": "Onirism",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 26, +Extra: 35",
+      "dev": "Crimson Tales",
+      "pub": "Shoreline Games",
+      "notes": "",
+      "release": "23.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/onirism-2025-pc.jpg",
+      "logo": "images/logos/onirism-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1057640",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Onirism",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "co-op-kaiju-horror-cooking-2025-pc": {
+      "id": "co-op-kaiju-horror-cooking-2025-pc",
+      "name": "Co-op Kaiju Horror Cooking",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Strange Scaffold",
+      "pub": "Strange Scaffold",
+      "notes": "",
+      "release": "29.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/co-op-kaiju-horror-cooking-2025-pc.jpg",
+      "logo": "images/logos/co-op-kaiju-horror-cooking-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3139570",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -1559,7 +1843,15 @@
       "serious-sam-s-bogus-detour-2017-pc",
       "heroes-of-hammerwatch-ii-2025-pc",
       "operation-tango-2021-pc",
-      "code-of-princess-ex-2020-pc"
+      "code-of-princess-ex-2020-pc",
+      "farming-simulator-25-2024-pc",
+      "farm-together-2-2025-pc",
+      "wrap-house-simulator-2025-pc",
+      "broventure-the-wild-co-op-2025-pc",
+      "fantasy-life-i-the-girl-who-steals-time-2025-pc",
+      "parallel-experiment-2025-pc",
+      "onirism-2025-pc",
+      "co-op-kaiju-horror-cooking-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

@@ -1,0 +1,38 @@
+{
+  "id": "onirism-2025-pc",
+  "name": "Onirism",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 26, +Extra: 35",
+  "dev": "Crimson Tales",
+  "pub": "Shoreline Games",
+  "notes": "",
+  "release": "23.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/onirism-2025-pc.jpg",
+  "logo": "images/logos/onirism-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1057640",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Onirism",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

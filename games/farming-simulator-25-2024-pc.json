@@ -1,0 +1,38 @@
+{
+  "id": "farming-simulator-25-2024-pc",
+  "name": "Farming Simulator 25",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 477",
+  "dev": "GIANTS Software",
+  "pub": "GIANTS Software",
+  "notes": "",
+  "release": "12.11.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/farming-simulator-25-2024-pc.jpg",
+  "logo": "images/logos/farming-simulator-25-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2300320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Farming_Simulator_25",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
