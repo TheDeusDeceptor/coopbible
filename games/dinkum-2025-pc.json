@@ -1,0 +1,38 @@
+{
+  "id": "dinkum-2025-pc",
+  "name": "Dinkum",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 31, +Extra: 63",
+  "dev": "James Bendon",
+  "pub": "Krafton",
+  "notes": "",
+  "release": "22.04.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dinkum-2025-pc.jpg",
+  "logo": "images/logos/dinkum-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1062520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dinkum",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

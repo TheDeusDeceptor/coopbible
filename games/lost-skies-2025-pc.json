@@ -1,0 +1,38 @@
+{
+  "id": "lost-skies-2025-pc",
+  "name": "Lost Skies",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "Bossa Studios",
+  "pub": "Balor Games",
+  "notes": "",
+  "release": "17.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lost-skies-2025-pc.jpg",
+  "logo": "images/logos/lost-skies-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1931180",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Lost_skies",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

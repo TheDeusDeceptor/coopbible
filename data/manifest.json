@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T22:44:12Z",
+  "updated": "2026-10-06T23:05:40Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -1060,6 +1060,310 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "gal-guardians-demon-purge-2023-pc": {
+      "id": "gal-guardians-demon-purge-2023-pc",
+      "name": "Gal Guardians: Demon Purge",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 8, +Extra: 11",
+      "dev": "Inti Creates",
+      "pub": "Inti Creates",
+      "notes": "",
+      "release": "23.02.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gal-guardians-demon-purge-2023-pc.jpg",
+      "logo": "images/logos/gal-guardians-demon-purge-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2081400",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gal_Guardians%3A_Demon_Purge",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "gal-guardians-servants-of-the-dark-2025-pc": {
+      "id": "gal-guardians-servants-of-the-dark-2025-pc",
+      "name": "Gal Guardians: Servants of the Dark",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 17, +Extra: 20",
+      "dev": "Inti Creates",
+      "pub": "Inti Creates",
+      "notes": "",
+      "release": "26.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gal-guardians-servants-of-the-dark-2025-pc.jpg",
+      "logo": "images/logos/gal-guardians-servants-of-the-dark-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3253630",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gal_Guardians%3A_Servants_of_the_Dark",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "darkwater-2026-pc": {
+      "id": "darkwater-2026-pc",
+      "name": "Darkwater",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 3",
+      "dev": "Targon Studios",
+      "pub": "Playstack",
+      "notes": "",
+      "release": "26.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/darkwater-2026-pc.jpg",
+      "logo": "images/logos/darkwater-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/619540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Darkwater",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dinkum-2025-pc": {
+      "id": "dinkum-2025-pc",
+      "name": "Dinkum",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 31, +Extra: 63",
+      "dev": "James Bendon",
+      "pub": "Krafton",
+      "notes": "",
+      "release": "22.04.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dinkum-2025-pc.jpg",
+      "logo": "images/logos/dinkum-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1062520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dinkum",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lost-skies-2025-pc": {
+      "id": "lost-skies-2025-pc",
+      "name": "Lost Skies",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "—",
+      "dev": "Bossa Studios",
+      "pub": "Balor Games",
+      "notes": "",
+      "release": "17.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lost-skies-2025-pc.jpg",
+      "logo": "images/logos/lost-skies-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1931180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Lost_skies",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "forever-skies-2025-pc": {
+      "id": "forever-skies-2025-pc",
+      "name": "Forever Skies",
+      "platform": "PC",
+      "size": "31 GB",
+      "hltb": "Main: 24, +Extra: 25",
+      "dev": "Far From Home",
+      "pub": "Far From Home",
+      "notes": "",
+      "release": "14.04.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/forever-skies-2025-pc.jpg",
+      "logo": "images/logos/forever-skies-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1641960",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Forever_Skies",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "backseat-drivers-2025-pc": {
+      "id": "backseat-drivers-2025-pc",
+      "name": "Backseat Drivers",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 6",
+      "dev": "GhostJam Games",
+      "pub": "GhostJam Games",
+      "notes": "",
+      "release": "09.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/backseat-drivers-2025-pc.jpg",
+      "logo": "images/logos/backseat-drivers-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3558400",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Backseat_Drivers",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "farm-manager-world-2025-pc": {
+      "id": "farm-manager-world-2025-pc",
+      "name": "Farm Manager World",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Cleversan Games",
+      "pub": "Sim Farm, PlayWay",
+      "notes": "",
+      "release": "21.04.2025",
+      "ea_release": "",
+      "screenshot": "https://images.igdb.com/igdb/image/upload/t_1080p/scngvg.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/178bdf584841b3c5191aef4c49776d2a.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2206350",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Farm_Manager_World",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -1091,7 +1395,15 @@
       "toukiden-kiwami-2015-pc",
       "toukiden-2-2017-pc",
       "cubic-odyssey-2025-pc",
-      "sworn-2025-pc"
+      "sworn-2025-pc",
+      "gal-guardians-demon-purge-2023-pc",
+      "gal-guardians-servants-of-the-dark-2025-pc",
+      "darkwater-2026-pc",
+      "dinkum-2025-pc",
+      "lost-skies-2025-pc",
+      "forever-skies-2025-pc",
+      "backseat-drivers-2025-pc",
+      "farm-manager-world-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

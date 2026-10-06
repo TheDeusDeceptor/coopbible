@@ -1,0 +1,38 @@
+{
+  "id": "gal-guardians-servants-of-the-dark-2025-pc",
+  "name": "Gal Guardians: Servants of the Dark",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 17, +Extra: 20",
+  "dev": "Inti Creates",
+  "pub": "Inti Creates",
+  "notes": "",
+  "release": "26.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gal-guardians-servants-of-the-dark-2025-pc.jpg",
+  "logo": "images/logos/gal-guardians-servants-of-the-dark-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3253630",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gal_Guardians%3A_Servants_of_the_Dark",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

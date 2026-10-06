@@ -1,0 +1,38 @@
+{
+  "id": "gal-guardians-demon-purge-2023-pc",
+  "name": "Gal Guardians: Demon Purge",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 8, +Extra: 11",
+  "dev": "Inti Creates",
+  "pub": "Inti Creates",
+  "notes": "",
+  "release": "23.02.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gal-guardians-demon-purge-2023-pc.jpg",
+  "logo": "images/logos/gal-guardians-demon-purge-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2081400",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gal_Guardians%3A_Demon_Purge",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

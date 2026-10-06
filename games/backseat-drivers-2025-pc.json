@@ -1,0 +1,38 @@
+{
+  "id": "backseat-drivers-2025-pc",
+  "name": "Backseat Drivers",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 6",
+  "dev": "GhostJam Games",
+  "pub": "GhostJam Games",
+  "notes": "",
+  "release": "09.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/backseat-drivers-2025-pc.jpg",
+  "logo": "images/logos/backseat-drivers-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3558400",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Backseat_Drivers",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
