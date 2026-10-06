@@ -1,0 +1,38 @@
+{
+  "id": "cubic-odyssey-2025-pc",
+  "name": "Cubic Odyssey",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "Atypical Games",
+  "pub": "Gaijin Network",
+  "notes": "",
+  "release": "14.05.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cubic-odyssey-2025-pc.jpg",
+  "logo": "images/logos/cubic-odyssey-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3400000",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Cubic_Odyssey",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

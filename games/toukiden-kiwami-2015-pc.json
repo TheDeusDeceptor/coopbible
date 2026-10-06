@@ -1,0 +1,38 @@
+{
+  "id": "toukiden-kiwami-2015-pc",
+  "name": "Toukiden: Kiwami",
+  "platform": "PC",
+  "size": "21 GB",
+  "hltb": "—",
+  "dev": "Omega Force",
+  "pub": "Koei Tecmo",
+  "notes": "",
+  "release": "25.06.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/toukiden-kiwami-2015-pc.jpg",
+  "logo": "images/logos/toukiden-kiwami-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/363130",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Toukiden%3A_Kiwami",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

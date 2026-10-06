@@ -1,0 +1,38 @@
+{
+  "id": "luma-island-2024-pc",
+  "name": "Luma Island",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 32, +Extra: 39",
+  "dev": "Feel Free Games",
+  "pub": "Feel Free Games",
+  "notes": "",
+  "release": "20.11.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/luma-island-2024-pc.jpg",
+  "logo": "images/logos/luma-island-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2408820",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Luma_Island",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

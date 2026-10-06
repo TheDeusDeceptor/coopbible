@@ -1,0 +1,38 @@
+{
+  "id": "toukiden-2-2017-pc",
+  "name": "Toukiden 2",
+  "platform": "PC",
+  "size": "17 GB",
+  "hltb": "Main: 17, +Extra: 37",
+  "dev": "Omega Force",
+  "pub": "Koei Tecmo",
+  "notes": "",
+  "release": "21.03.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/toukiden-2-2017-pc.jpg",
+  "logo": "images/logos/toukiden-2-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/551730",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Toukiden_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

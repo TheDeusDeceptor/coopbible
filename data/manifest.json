@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T22:10:33Z",
+  "updated": "2026-10-06T22:21:18Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -832,6 +832,234 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "luma-island-2024-pc": {
+      "id": "luma-island-2024-pc",
+      "name": "Luma Island",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 32, +Extra: 39",
+      "dev": "Feel Free Games",
+      "pub": "Feel Free Games",
+      "notes": "",
+      "release": "20.11.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/luma-island-2024-pc.jpg",
+      "logo": "images/logos/luma-island-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2408820",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Luma_Island",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sir-whoopass-immortal-death-2022-pc": {
+      "id": "sir-whoopass-immortal-death-2022-pc",
+      "name": "Sir Whoopass: Immortal Death",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Atomic Elbow",
+      "pub": "Atomic Elbow",
+      "notes": "",
+      "release": "18.08.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sir-whoopass-immortal-death-2022-pc.jpg",
+      "logo": "images/logos/sir-whoopass-immortal-death-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1240590",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sir_Whoopass%3A_Immortal_Death",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "toukiden-kiwami-2015-pc": {
+      "id": "toukiden-kiwami-2015-pc",
+      "name": "Toukiden: Kiwami",
+      "platform": "PC",
+      "size": "21 GB",
+      "hltb": "—",
+      "dev": "Omega Force",
+      "pub": "Koei Tecmo",
+      "notes": "",
+      "release": "25.06.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/toukiden-kiwami-2015-pc.jpg",
+      "logo": "images/logos/toukiden-kiwami-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/363130",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Toukiden%3A_Kiwami",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "toukiden-2-2017-pc": {
+      "id": "toukiden-2-2017-pc",
+      "name": "Toukiden 2",
+      "platform": "PC",
+      "size": "17 GB",
+      "hltb": "Main: 17, +Extra: 37",
+      "dev": "Omega Force",
+      "pub": "Koei Tecmo",
+      "notes": "",
+      "release": "21.03.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/toukiden-2-2017-pc.jpg",
+      "logo": "images/logos/toukiden-2-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/551730",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Toukiden_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cubic-odyssey-2025-pc": {
+      "id": "cubic-odyssey-2025-pc",
+      "name": "Cubic Odyssey",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Atypical Games",
+      "pub": "Gaijin Network",
+      "notes": "",
+      "release": "14.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cubic-odyssey-2025-pc.jpg",
+      "logo": "images/logos/cubic-odyssey-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3400000",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Cubic_Odyssey",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sworn-2025-pc": {
+      "id": "sworn-2025-pc",
+      "name": "SWORN",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 11, +Extra: 21",
+      "dev": "Windwalk Games",
+      "pub": "Team17",
+      "notes": "",
+      "release": "22.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sworn-2025-pc.jpg",
+      "logo": "images/logos/sworn-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1763250",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/SWORN",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -857,7 +1085,13 @@
       "godfall-ultimate-edition-2020-pc",
       "teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc",
       "teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc",
-      "teenage-mutant-ninja-turtles-splintered-fate-2023-pc"
+      "teenage-mutant-ninja-turtles-splintered-fate-2023-pc",
+      "luma-island-2024-pc",
+      "sir-whoopass-immortal-death-2022-pc",
+      "toukiden-kiwami-2015-pc",
+      "toukiden-2-2017-pc",
+      "cubic-odyssey-2025-pc",
+      "sworn-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

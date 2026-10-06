@@ -1,0 +1,38 @@
+{
+  "id": "sir-whoopass-immortal-death-2022-pc",
+  "name": "Sir Whoopass: Immortal Death",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Atomic Elbow",
+  "pub": "Atomic Elbow",
+  "notes": "",
+  "release": "18.08.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sir-whoopass-immortal-death-2022-pc.jpg",
+  "logo": "images/logos/sir-whoopass-immortal-death-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1240590",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sir_Whoopass%3A_Immortal_Death",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
