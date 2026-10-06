@@ -1,0 +1,38 @@
+{
+  "id": "teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc",
+  "name": "Teenage Mutant Ninja Turtles: Mutants in Manhattan",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "PlatinumGames",
+  "pub": "Activision",
+  "notes": "",
+  "release": "24.05.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc.jpg",
+  "logo": "images/logos/teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Mutants_in_Manhattan",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/338400",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

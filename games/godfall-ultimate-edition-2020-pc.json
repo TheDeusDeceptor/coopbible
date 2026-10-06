@@ -1,0 +1,38 @@
+{
+  "id": "godfall-ultimate-edition-2020-pc",
+  "name": "Godfall Ultimate Edition",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 12, +Extra: 23",
+  "dev": "Counterplay Games",
+  "pub": "Gearbox Publishing",
+  "notes": "ALWAYS ONLINE SINGLEPLAYER  w/ CO-OP & MATCHMAKING SERVER WAS SHUTDOWN  \nRANDY PITCHFORD MOMENT🤪\nfor historical purpose...",
+  "release": "12.11.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/godfall-ultimate-edition-2020-pc.jpg",
+  "logo": "images/logos/godfall-ultimate-edition-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/928960",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Godfall",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

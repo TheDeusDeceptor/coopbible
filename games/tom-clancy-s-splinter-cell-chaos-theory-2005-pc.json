@@ -1,0 +1,38 @@
+{
+  "id": "tom-clancy-s-splinter-cell-chaos-theory-2005-pc",
+  "name": "Tom Clancy's Splinter Cell Chaos Theory",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 13, +Extra: 14",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "Specific missions",
+  "release": "21.03.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tom-clancy-s-splinter-cell-chaos-theory-2005-pc.jpg",
+  "logo": "images/logos/tom-clancy-s-splinter-cell-chaos-theory-2005-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/13570",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Splinter_Cell%3A_Chaos_Theory",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

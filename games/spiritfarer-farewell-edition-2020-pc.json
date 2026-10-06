@@ -26,8 +26,8 @@
   "alt_names": [],
   "dlc": [],
   "flags": {
-    "installed": false,
-    "localCoop": false,
+    "installed": true,
+    "localCoop": true,
     "authRequired": false,
     "ownedSteam": false,
     "gamepass": false

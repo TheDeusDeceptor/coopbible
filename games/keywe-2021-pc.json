@@ -1,0 +1,38 @@
+{
+  "id": "keywe-2021-pc",
+  "name": "KeyWe",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Stonewheat & Sons",
+  "pub": "Fireshine Games",
+  "notes": "",
+  "release": "31.08.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/keywe-2021-pc.jpg",
+  "logo": "images/logos/keywe-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1242980",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/KeyWe",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc",
+  "name": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Red Fly Studio",
+  "pub": "Activision",
+  "notes": "",
+  "release": "28.08.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc.jpg",
+  "logo": "images/logos/teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/228560",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Out_of_the_Shadows",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

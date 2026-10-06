@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T21:48:06Z",
+  "updated": "2026-10-06T22:10:33Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -557,6 +557,272 @@
       "alt_names": [],
       "dlc": [],
       "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "keywe-2021-pc": {
+      "id": "keywe-2021-pc",
+      "name": "KeyWe",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 6, +Extra: 9",
+      "dev": "Stonewheat & Sons",
+      "pub": "Fireshine Games",
+      "notes": "",
+      "release": "31.08.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/keywe-2021-pc.jpg",
+      "logo": "images/logos/keywe-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1242980",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/KeyWe",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-splinter-cell-chaos-theory-2005-pc": {
+      "id": "tom-clancy-s-splinter-cell-chaos-theory-2005-pc",
+      "name": "Tom Clancy's Splinter Cell Chaos Theory",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 13, +Extra: 14",
+      "dev": "Ubisoft Montreal",
+      "pub": "Ubisoft",
+      "notes": "Specific missions",
+      "release": "21.03.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-splinter-cell-chaos-theory-2005-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-splinter-cell-chaos-theory-2005-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/13570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Splinter_Cell%3A_Chaos_Theory",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-splinter-cell-blacklist-2013-pc": {
+      "id": "tom-clancy-s-splinter-cell-blacklist-2013-pc",
+      "name": "Tom Clancy’s Splinter Cell Blacklist",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 11, +Extra: 18",
+      "dev": "Ubisoft Toronto",
+      "pub": "Ubisoft",
+      "notes": "Specific missions",
+      "release": "20.08.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-splinter-cell-blacklist-2013-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-splinter-cell-blacklist-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/235600",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy%E2%80%99s_Splinter_Cell_Blacklist",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "godfall-ultimate-edition-2020-pc": {
+      "id": "godfall-ultimate-edition-2020-pc",
+      "name": "Godfall Ultimate Edition",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 12, +Extra: 23",
+      "dev": "Counterplay Games",
+      "pub": "Gearbox Publishing",
+      "notes": "ALWAYS ONLINE SINGLEPLAYER  w/ CO-OP & MATCHMAKING SERVER WAS SHUTDOWN  \nRANDY PITCHFORD MOMENT🤪\nfor historical purpose...",
+      "release": "12.11.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/godfall-ultimate-edition-2020-pc.jpg",
+      "logo": "images/logos/godfall-ultimate-edition-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/928960",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Godfall",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc": {
+      "id": "teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc",
+      "name": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "Red Fly Studio",
+      "pub": "Activision",
+      "notes": "",
+      "release": "28.08.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc.jpg",
+      "logo": "images/logos/teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/228560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Out_of_the_Shadows",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc": {
+      "id": "teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc",
+      "name": "Teenage Mutant Ninja Turtles: Mutants in Manhattan",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 5, +Extra: 7",
+      "dev": "PlatinumGames",
+      "pub": "Activision",
+      "notes": "",
+      "release": "24.05.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc.jpg",
+      "logo": "images/logos/teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Mutants_in_Manhattan",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/338400",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "teenage-mutant-ninja-turtles-splintered-fate-2023-pc": {
+      "id": "teenage-mutant-ninja-turtles-splintered-fate-2023-pc",
+      "name": "Teenage Mutant Ninja Turtles: Splintered Fate",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 9, +Extra: 21",
+      "dev": "Super Evil Megacorp",
+      "pub": "Super Evil Megacorp",
+      "notes": "",
+      "release": "04.05.2023",
+      "ea_release": "",
+      "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2996040/ss_13780e099ee1e1ff5f681924474b5a5a6f13bffc.1920x1080.jpg?t=1790615306",
+      "logo": "images/logos/teenage-mutant-ninja-turtles-splintered-fate-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2996040",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Splintered_Fate",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
         "installed": false,
         "localCoop": false,
         "authRequired": false,
@@ -584,7 +850,14 @@
       "trine-3-the-artifacts-of-power-2015-pc",
       "trine-4-the-nightmare-prince-2019-pc",
       "trine-5-a-clockwork-conspiracy-2023-pc",
-      "spiritfarer-farewell-edition-2020-pc"
+      "spiritfarer-farewell-edition-2020-pc",
+      "keywe-2021-pc",
+      "tom-clancy-s-splinter-cell-chaos-theory-2005-pc",
+      "tom-clancy-s-splinter-cell-blacklist-2013-pc",
+      "godfall-ultimate-edition-2020-pc",
+      "teenage-mutant-ninja-turtles-out-of-the-shadows-2013-pc",
+      "teenage-mutant-ninja-turtles-mutants-in-manhattan-2016-pc",
+      "teenage-mutant-ninja-turtles-splintered-fate-2023-pc"
     ],
     "early-access": [],
     "unreleased": [],
