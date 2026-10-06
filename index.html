@@ -7034,7 +7034,6 @@ function gtgHandlePick(tile){
   gtgState.locked = true;
   const pickedId = tile.dataset.gtgId;
   const isCorrect = pickedId === gtgState.winner.id;
-  const nextUrl = gtgPickShotUrl(gtgState.winner);
 
   if(isCorrect){
     gtgState.score++;
@@ -7043,6 +7042,7 @@ function gtgHandlePick(tile){
     gtgSpawnFloatPlus(tile);
     setTimeout(() => {
       if(!gtgBuildRound()) return;
+      const nextUrl = gtgPickShotUrl(gtgState.winner);
       gtgDoStaticThen(nextUrl, () => gtgRenderTiles());
     }, 600);
   } else {
@@ -7056,6 +7056,7 @@ function gtgHandlePick(tile){
       if(isDead) gtgEndGame();
       else {
         if(!gtgBuildRound()) return;
+        const nextUrl = gtgPickShotUrl(gtgState.winner);
         gtgDoStaticThen(nextUrl, () => gtgRenderTiles());
       }
     }, 700);
