@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T20:33:21Z",
+  "updated": "2026-10-07T20:48:06Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -4339,6 +4339,310 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "river-city-girls-zero-2022-pc": {
+      "id": "river-city-girls-zero-2022-pc",
+      "name": "River City Girls Zero",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 4",
+      "dev": "WayForward",
+      "pub": "Arc System Works",
+      "notes": "",
+      "release": "21.09.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/river-city-girls-zero-2022-pc.jpg",
+      "logo": "images/logos/river-city-girls-zero-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1851020",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/River_City_Girls_Zero",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "river-city-girls-2-2022-pc": {
+      "id": "river-city-girls-2-2022-pc",
+      "name": "River City Girls 2",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 13, +Extra: 16",
+      "dev": "WayForward",
+      "pub": "Arc System Works",
+      "notes": "",
+      "release": "14.12.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/river-city-girls-2-2022-pc.jpg",
+      "logo": "images/logos/river-city-girls-2-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1920480",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/River_City_Girls_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "orcs-must-die-2-2012-pc": {
+      "id": "orcs-must-die-2-2012-pc",
+      "name": "Orcs Must Die! 2",
+      "platform": "PC",
+      "size": "9 GB",
+      "hltb": "Main: 8, +Extra: 20",
+      "dev": "Robot Entertainment",
+      "pub": "Robot Entertainment",
+      "notes": "Original Orcs Must Die! campaign included",
+      "release": "30.07.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/orcs-must-die-2-2012-pc.jpg",
+      "logo": "images/logos/orcs-must-die-2-2012-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/201790",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Orcs_Must_Die_2!",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "orcs-must-die-3-2021-pc": {
+      "id": "orcs-must-die-3-2021-pc",
+      "name": "Orcs Must Die! 3",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 10, +Extra: 16",
+      "dev": "Robot Entertainment",
+      "pub": "Robot Entertainment",
+      "notes": "",
+      "release": "23.07.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/orcs-must-die-3-2021-pc.jpg",
+      "logo": "images/logos/orcs-must-die-3-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1522820",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Orcs_Must_Die!_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "orcs-must-die-deathtrap-2025-pc": {
+      "id": "orcs-must-die-deathtrap-2025-pc",
+      "name": "Orcs Must Die! Deathtrap",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 14, +Extra: 29",
+      "dev": "Robot Entertainment",
+      "pub": "Robot Entertainment",
+      "notes": "",
+      "release": "28.01.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/orcs-must-die-deathtrap-2025-pc.jpg",
+      "logo": "images/logos/orcs-must-die-deathtrap-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2273980",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Orcs_Must_Die!_Deathtrap",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "magicka-2011-pc": {
+      "id": "magicka-2011-pc",
+      "name": "Magicka",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 10, +Extra: 16",
+      "dev": "Arrowhead Game Studios",
+      "pub": "Paradox Interactive",
+      "notes": "",
+      "release": "25.01.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/magicka-2011-pc.jpg",
+      "logo": "images/logos/magicka-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/42910",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Magicka",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "magicka-2-2015-pc": {
+      "id": "magicka-2-2015-pc",
+      "name": "Magicka 2",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 6, +Extra: 10",
+      "dev": "Pieces Interactive",
+      "pub": "Paradox Interactive",
+      "notes": "",
+      "release": "26.05.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/magicka-2-2015-pc.jpg",
+      "logo": "images/logos/magicka-2-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/238370",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Magicka_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nine-parchments-2017-pc": {
+      "id": "nine-parchments-2017-pc",
+      "name": "Nine Parchments",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "Frozenbyte",
+      "pub": "Frozenbyte",
+      "notes": "",
+      "release": "05.12.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/nine-parchments-2017-pc.jpg",
+      "logo": "images/logos/nine-parchments-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/471550",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nine_Parchments",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -4458,7 +4762,15 @@
       "god-eater-resurrection-2016-pc",
       "god-eater-2-rage-burst-2016-pc",
       "god-eater-3-2019-pc",
-      "river-city-girls-2019-pc"
+      "river-city-girls-2019-pc",
+      "river-city-girls-zero-2022-pc",
+      "river-city-girls-2-2022-pc",
+      "orcs-must-die-2-2012-pc",
+      "orcs-must-die-3-2021-pc",
+      "orcs-must-die-deathtrap-2025-pc",
+      "magicka-2011-pc",
+      "magicka-2-2015-pc",
+      "nine-parchments-2017-pc"
     ],
     "early-access": [],
     "unreleased": [],

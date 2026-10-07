@@ -1,0 +1,38 @@
+{
+  "id": "magicka-2-2015-pc",
+  "name": "Magicka 2",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 6, +Extra: 10",
+  "dev": "Pieces Interactive",
+  "pub": "Paradox Interactive",
+  "notes": "",
+  "release": "26.05.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/magicka-2-2015-pc.jpg",
+  "logo": "images/logos/magicka-2-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/238370",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Magicka_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

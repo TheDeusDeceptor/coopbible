@@ -1,0 +1,38 @@
+{
+  "id": "magicka-2011-pc",
+  "name": "Magicka",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 10, +Extra: 16",
+  "dev": "Arrowhead Game Studios",
+  "pub": "Paradox Interactive",
+  "notes": "",
+  "release": "25.01.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/magicka-2011-pc.jpg",
+  "logo": "images/logos/magicka-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/42910",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Magicka",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

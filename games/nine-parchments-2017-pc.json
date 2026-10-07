@@ -1,0 +1,38 @@
+{
+  "id": "nine-parchments-2017-pc",
+  "name": "Nine Parchments",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Frozenbyte",
+  "pub": "Frozenbyte",
+  "notes": "",
+  "release": "05.12.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/nine-parchments-2017-pc.jpg",
+  "logo": "images/logos/nine-parchments-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/471550",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Nine_Parchments",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

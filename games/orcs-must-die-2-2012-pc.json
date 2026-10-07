@@ -1,0 +1,38 @@
+{
+  "id": "orcs-must-die-2-2012-pc",
+  "name": "Orcs Must Die! 2",
+  "platform": "PC",
+  "size": "9 GB",
+  "hltb": "Main: 8, +Extra: 20",
+  "dev": "Robot Entertainment",
+  "pub": "Robot Entertainment",
+  "notes": "Original Orcs Must Die! campaign included",
+  "release": "30.07.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/orcs-must-die-2-2012-pc.jpg",
+  "logo": "images/logos/orcs-must-die-2-2012-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/201790",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Orcs_Must_Die_2!",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

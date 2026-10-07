@@ -1,0 +1,38 @@
+{
+  "id": "river-city-girls-2-2022-pc",
+  "name": "River City Girls 2",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 13, +Extra: 16",
+  "dev": "WayForward",
+  "pub": "Arc System Works",
+  "notes": "",
+  "release": "14.12.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/river-city-girls-2-2022-pc.jpg",
+  "logo": "images/logos/river-city-girls-2-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1920480",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/River_City_Girls_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

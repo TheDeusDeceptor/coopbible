@@ -1,0 +1,38 @@
+{
+  "id": "river-city-girls-zero-2022-pc",
+  "name": "River City Girls Zero",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 4",
+  "dev": "WayForward",
+  "pub": "Arc System Works",
+  "notes": "",
+  "release": "21.09.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/river-city-girls-zero-2022-pc.jpg",
+  "logo": "images/logos/river-city-girls-zero-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1851020",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/River_City_Girls_Zero",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "orcs-must-die-deathtrap-2025-pc",
+  "name": "Orcs Must Die! Deathtrap",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 14, +Extra: 29",
+  "dev": "Robot Entertainment",
+  "pub": "Robot Entertainment",
+  "notes": "",
+  "release": "28.01.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/orcs-must-die-deathtrap-2025-pc.jpg",
+  "logo": "images/logos/orcs-must-die-deathtrap-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2273980",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Orcs_Must_Die!_Deathtrap",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
