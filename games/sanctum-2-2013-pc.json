@@ -1,0 +1,38 @@
+{
+  "id": "sanctum-2-2013-pc",
+  "name": "Sanctum 2",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 12, +Extra: 33",
+  "dev": "Coffee Stain Studios",
+  "pub": "Coffee Stain Publishing",
+  "notes": "",
+  "release": "15.05.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sanctum-2-2013-pc.jpg",
+  "logo": "images/logos/sanctum-2-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/210770",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sanctum_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

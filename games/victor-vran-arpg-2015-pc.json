@@ -1,0 +1,38 @@
+{
+  "id": "victor-vran-arpg-2015-pc",
+  "name": "Victor Vran ARPG",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 10, +Extra: 22",
+  "dev": "Haemimont Games",
+  "pub": "Haemimont Games",
+  "notes": "",
+  "release": "24.07.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/victor-vran-arpg-2015-pc.jpg",
+  "logo": "images/logos/victor-vran-arpg-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/345180",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Victor_Vran_ARPG",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

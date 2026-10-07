@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07T22:30:55Z",
+  "updated": "2026-10-07T22:47:13Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -171,6 +171,18 @@
     "iron-decree-2026-pc",
     "fireworks-mania-an-explosive-simulator-2020-pc",
     "animal-shelter-2-2025-pc",
-    "primal-planet-2025-pc"
+    "primal-planet-2025-pc",
+    "castle-story-2017-pc",
+    "stonehearth-2018-pc",
+    "victor-vran-arpg-2015-pc",
+    "infernal-radiation-2020-pc",
+    "the-outlast-trials-2024-pc",
+    "gunfire-reborn-2021-pc",
+    "sanctum-2011-pc",
+    "sanctum-2-2013-pc",
+    "battleblock-theater-2014-pc",
+    "trailmakers-2019-pc",
+    "united-heist-2023-pc",
+    "dungeon-defenders-2011-pc"
   ]
 }

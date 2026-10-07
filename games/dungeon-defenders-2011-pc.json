@@ -1,0 +1,38 @@
+{
+  "id": "dungeon-defenders-2011-pc",
+  "name": "Dungeon Defenders",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 15, +Extra: 62",
+  "dev": "Chromatic Games",
+  "pub": "Chromatic Games",
+  "notes": "",
+  "release": "18.10.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dungeon-defenders-2011-pc.jpg",
+  "logo": "images/logos/dungeon-defenders-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/65800",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dungeon_Defenders",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

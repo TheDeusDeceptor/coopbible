@@ -1,0 +1,38 @@
+{
+  "id": "stonehearth-2018-pc",
+  "name": "Stonehearth",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 36",
+  "dev": "Radiant Entertainment",
+  "pub": "",
+  "notes": "",
+  "release": "25.07.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stonehearth-2018-pc.jpg",
+  "logo": "images/logos/stonehearth-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/253250",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Stonehearth",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

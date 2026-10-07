@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T22:30:55Z",
+  "updated": "2026-10-07T22:47:13Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -6321,6 +6321,457 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "castle-story-2017-pc": {
+      "id": "castle-story-2017-pc",
+      "name": "Castle Story",
+      "platform": "PC",
+      "size": "1.7 GB",
+      "hltb": "Main: 92",
+      "dev": "Sauropod Studio",
+      "pub": "Sauropod Studio",
+      "notes": "",
+      "release": "17.08.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/castle-story-2017-pc.jpg",
+      "logo": "images/logos/castle-story-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/227860",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Castle_Story",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "stonehearth-2018-pc": {
+      "id": "stonehearth-2018-pc",
+      "name": "Stonehearth",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 36",
+      "dev": "Radiant Entertainment",
+      "pub": "",
+      "notes": "",
+      "release": "25.07.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/stonehearth-2018-pc.jpg",
+      "logo": "images/logos/stonehearth-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/253250",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Stonehearth",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "victor-vran-arpg-2015-pc": {
+      "id": "victor-vran-arpg-2015-pc",
+      "name": "Victor Vran ARPG",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 10, +Extra: 22",
+      "dev": "Haemimont Games",
+      "pub": "Haemimont Games",
+      "notes": "",
+      "release": "24.07.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/victor-vran-arpg-2015-pc.jpg",
+      "logo": "images/logos/victor-vran-arpg-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/345180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Victor_Vran_ARPG",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "infernal-radiation-2020-pc": {
+      "id": "infernal-radiation-2020-pc",
+      "name": "Infernal Radiation",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Asmodev",
+      "pub": "Ultimate Games",
+      "notes": "",
+      "release": "28.12.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/infernal-radiation-2020-pc.jpg",
+      "logo": "images/logos/infernal-radiation-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/832140",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-outlast-trials-2024-pc": {
+      "id": "the-outlast-trials-2024-pc",
+      "name": "The Outlast Trials",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 15, +Extra: 31",
+      "dev": "Red Barrels",
+      "pub": "Red Barrels",
+      "notes": "",
+      "release": "05.03.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-outlast-trials-2024-pc.jpg",
+      "logo": "images/logos/the-outlast-trials-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1304930",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Outlast_Trials",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "gunfire-reborn-2021-pc": {
+      "id": "gunfire-reborn-2021-pc",
+      "name": "Gunfire Reborn",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 13, +Extra: 41",
+      "dev": "Gunfire Reborn Studio",
+      "pub": "Duoyi Games",
+      "notes": "",
+      "release": "17.11.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gunfire-reborn-2021-pc.jpg",
+      "logo": "images/logos/gunfire-reborn-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1217060",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gunfire_Reborn",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sanctum-2011-pc": {
+      "id": "sanctum-2011-pc",
+      "name": "Sanctum",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 8, +Extra: 18",
+      "dev": "Coffee Stain Studios",
+      "pub": "Coffee Stain Publishing",
+      "notes": "",
+      "release": "23.03.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sanctum-2011-pc.jpg",
+      "logo": "images/logos/sanctum-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/91600",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Sanctum_of_Slime",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sanctum-2-2013-pc": {
+      "id": "sanctum-2-2013-pc",
+      "name": "Sanctum 2",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 12, +Extra: 33",
+      "dev": "Coffee Stain Studios",
+      "pub": "Coffee Stain Publishing",
+      "notes": "",
+      "release": "15.05.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sanctum-2-2013-pc.jpg",
+      "logo": "images/logos/sanctum-2-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/210770",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sanctum_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "battleblock-theater-2014-pc": {
+      "id": "battleblock-theater-2014-pc",
+      "name": "BattleBlock Theater",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 10, +Extra: 17",
+      "dev": "The Behemoth",
+      "pub": "The Behemoth",
+      "notes": "",
+      "release": "15.05.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/battleblock-theater-2014-pc.jpg",
+      "logo": "images/logos/battleblock-theater-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/238460",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/BattleBlock_Theater",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trailmakers-2019-pc": {
+      "id": "trailmakers-2019-pc",
+      "name": "Trailmakers",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 14, +Extra: 29",
+      "dev": "Flashbulb",
+      "pub": "Flashbulb",
+      "notes": "",
+      "release": "18.09.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trailmakers-2019-pc.jpg",
+      "logo": "images/logos/trailmakers-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/585420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Trailmakers",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "united-heist-2023-pc": {
+      "id": "united-heist-2023-pc",
+      "name": "United heist",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 1, +Extra: 2",
+      "dev": "No more Sleep",
+      "pub": "No more Sleep",
+      "notes": "",
+      "release": "12.02.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/united-heist-2023-pc.jpg",
+      "logo": "images/logos/united-heist-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2119740",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/United_heist",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dungeon-defenders-2011-pc": {
+      "id": "dungeon-defenders-2011-pc",
+      "name": "Dungeon Defenders",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 15, +Extra: 62",
+      "dev": "Chromatic Games",
+      "pub": "Chromatic Games",
+      "notes": "",
+      "release": "18.10.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dungeon-defenders-2011-pc.jpg",
+      "logo": "images/logos/dungeon-defenders-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/65800",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dungeon_Defenders",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -6494,7 +6945,19 @@
       "iron-decree-2026-pc",
       "fireworks-mania-an-explosive-simulator-2020-pc",
       "animal-shelter-2-2025-pc",
-      "primal-planet-2025-pc"
+      "primal-planet-2025-pc",
+      "castle-story-2017-pc",
+      "stonehearth-2018-pc",
+      "victor-vran-arpg-2015-pc",
+      "infernal-radiation-2020-pc",
+      "the-outlast-trials-2024-pc",
+      "gunfire-reborn-2021-pc",
+      "sanctum-2011-pc",
+      "sanctum-2-2013-pc",
+      "battleblock-theater-2014-pc",
+      "trailmakers-2019-pc",
+      "united-heist-2023-pc",
+      "dungeon-defenders-2011-pc"
     ],
     "early-access": [],
     "unreleased": [],

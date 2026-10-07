@@ -1,0 +1,38 @@
+{
+  "id": "united-heist-2023-pc",
+  "name": "United heist",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "No more Sleep",
+  "pub": "No more Sleep",
+  "notes": "",
+  "release": "12.02.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/united-heist-2023-pc.jpg",
+  "logo": "images/logos/united-heist-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2119740",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/United_heist",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

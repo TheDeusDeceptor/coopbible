@@ -1,0 +1,38 @@
+{
+  "id": "trailmakers-2019-pc",
+  "name": "Trailmakers",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 14, +Extra: 29",
+  "dev": "Flashbulb",
+  "pub": "Flashbulb",
+  "notes": "",
+  "release": "18.09.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trailmakers-2019-pc.jpg",
+  "logo": "images/logos/trailmakers-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/585420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Trailmakers",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

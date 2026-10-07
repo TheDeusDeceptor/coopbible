@@ -1,0 +1,33 @@
+{
+  "id": "infernal-radiation-2020-pc",
+  "name": "Infernal Radiation",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Asmodev",
+  "pub": "Ultimate Games",
+  "notes": "",
+  "release": "28.12.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/infernal-radiation-2020-pc.jpg",
+  "logo": "images/logos/infernal-radiation-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/832140",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

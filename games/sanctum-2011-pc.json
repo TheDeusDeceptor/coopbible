@@ -1,0 +1,38 @@
+{
+  "id": "sanctum-2011-pc",
+  "name": "Sanctum",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 8, +Extra: 18",
+  "dev": "Coffee Stain Studios",
+  "pub": "Coffee Stain Publishing",
+  "notes": "",
+  "release": "23.03.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sanctum-2011-pc.jpg",
+  "logo": "images/logos/sanctum-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/91600",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Sanctum_of_Slime",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

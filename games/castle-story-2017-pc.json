@@ -1,0 +1,38 @@
+{
+  "id": "castle-story-2017-pc",
+  "name": "Castle Story",
+  "platform": "PC",
+  "size": "1.7 GB",
+  "hltb": "Main: 92",
+  "dev": "Sauropod Studio",
+  "pub": "Sauropod Studio",
+  "notes": "",
+  "release": "17.08.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/castle-story-2017-pc.jpg",
+  "logo": "images/logos/castle-story-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/227860",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Castle_Story",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
