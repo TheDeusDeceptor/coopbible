@@ -1,0 +1,33 @@
+{
+  "id": "native-hunter-2025-pc",
+  "name": "Native Hunter",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "A.P.S",
+  "pub": "A.P.S",
+  "notes": "",
+  "release": "21.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/native-hunter-2025-pc.jpg",
+  "logo": "images/logos/native-hunter-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2234640",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

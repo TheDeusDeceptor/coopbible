@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T21:35:34Z",
+  "updated": "2026-10-07T22:03:17Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -5474,6 +5474,280 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "pioneers-of-pagonia-2025-pc": {
+      "id": "pioneers-of-pagonia-2025-pc",
+      "name": "Pioneers of Pagonia",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 36, +Extra: 37",
+      "dev": "Envision Entertainment",
+      "pub": "Envision Entertainment",
+      "notes": "",
+      "release": "11.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/pioneers-of-pagonia-2025-pc.jpg",
+      "logo": "images/logos/pioneers-of-pagonia-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2155180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Pioneers_of_Pagonia",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cinnabunny-2025-pc": {
+      "id": "cinnabunny-2025-pc",
+      "name": "Cinnabunny",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Reky Studios",
+      "pub": "Reky Studios",
+      "notes": "",
+      "release": "19.02.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cinnabunny-2025-pc.jpg",
+      "logo": "images/logos/cinnabunny-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2794830",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Cinnabunny",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "keep-gambling-2025-pc": {
+      "id": "keep-gambling-2025-pc",
+      "name": "KEEP GAMBLING",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 1",
+      "dev": "WIRED FEELINGS",
+      "pub": "WIRED FEELINGS",
+      "notes": "",
+      "release": "16.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/keep-gambling-2025-pc.jpg",
+      "logo": "images/logos/keep-gambling-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3720460",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rune-teller-2023-pc": {
+      "id": "rune-teller-2023-pc",
+      "name": "Rune Teller",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "CODELIFE",
+      "pub": "CODELIFE",
+      "notes": "",
+      "release": "09.02.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rune-teller-2023-pc.jpg",
+      "logo": "images/logos/rune-teller-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1944360",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "native-hunter-2025-pc": {
+      "id": "native-hunter-2025-pc",
+      "name": "Native Hunter",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "A.P.S",
+      "pub": "A.P.S",
+      "notes": "",
+      "release": "21.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/native-hunter-2025-pc.jpg",
+      "logo": "images/logos/native-hunter-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2234640",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sg-zh-school-girl-zombie-hunter-2018-pc": {
+      "id": "sg-zh-school-girl-zombie-hunter-2018-pc",
+      "name": "SG/ZH: School Girl/Zombie Hunter",
+      "platform": "PC",
+      "size": "5.5 GB",
+      "hltb": "Main: 6, +Extra: 9",
+      "dev": "Tamsoft",
+      "pub": "D3Publisher",
+      "notes": "",
+      "release": "05.06.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sg-zh-school-girl-zombie-hunter-2018-pc.jpg",
+      "logo": "images/logos/sg-zh-school-girl-zombie-hunter-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/682570",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "vietcong-2003-pc": {
+      "id": "vietcong-2003-pc",
+      "name": "Vietcong",
+      "platform": "PC",
+      "size": "1.8 GB",
+      "hltb": "—",
+      "dev": "Illusion Softworks",
+      "pub": "Gathering of Developers",
+      "notes": "Co-op separate missions",
+      "release": "26.03.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/vietcong-2003-pc.jpg",
+      "logo": "images/logos/vietcong-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Vietcong",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "vietcong-2-2005-pc": {
+      "id": "vietcong-2-2005-pc",
+      "name": "Vietcong 2",
+      "platform": "PC",
+      "size": "3.5 GB",
+      "hltb": "—",
+      "dev": "Illusion Softworks",
+      "pub": "2K Games",
+      "notes": "Co-op separate missions",
+      "release": "24.10.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/vietcong-2-2005-pc.jpg",
+      "logo": "images/logos/vietcong-2-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Vietcong_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -5623,7 +5897,15 @@
       "saints-row-iv-re-elected-2013-pc",
       "saints-row-gat-out-of-hell-2015-pc",
       "saints-row-2022-pc",
-      "yakuza-0-director-s-cut-2025-pc"
+      "yakuza-0-director-s-cut-2025-pc",
+      "pioneers-of-pagonia-2025-pc",
+      "cinnabunny-2025-pc",
+      "keep-gambling-2025-pc",
+      "rune-teller-2023-pc",
+      "native-hunter-2025-pc",
+      "sg-zh-school-girl-zombie-hunter-2018-pc",
+      "vietcong-2003-pc",
+      "vietcong-2-2005-pc"
     ],
     "early-access": [],
     "unreleased": [],

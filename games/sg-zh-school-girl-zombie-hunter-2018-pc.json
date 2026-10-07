@@ -1,0 +1,33 @@
+{
+  "id": "sg-zh-school-girl-zombie-hunter-2018-pc",
+  "name": "SG/ZH: School Girl/Zombie Hunter",
+  "platform": "PC",
+  "size": "5.5 GB",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Tamsoft",
+  "pub": "D3Publisher",
+  "notes": "",
+  "release": "05.06.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sg-zh-school-girl-zombie-hunter-2018-pc.jpg",
+  "logo": "images/logos/sg-zh-school-girl-zombie-hunter-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/682570",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "pioneers-of-pagonia-2025-pc",
+  "name": "Pioneers of Pagonia",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 36, +Extra: 37",
+  "dev": "Envision Entertainment",
+  "pub": "Envision Entertainment",
+  "notes": "",
+  "release": "11.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/pioneers-of-pagonia-2025-pc.jpg",
+  "logo": "images/logos/pioneers-of-pagonia-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2155180",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Pioneers_of_Pagonia",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

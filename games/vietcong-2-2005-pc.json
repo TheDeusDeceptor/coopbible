@@ -1,0 +1,33 @@
+{
+  "id": "vietcong-2-2005-pc",
+  "name": "Vietcong 2",
+  "platform": "PC",
+  "size": "3.5 GB",
+  "hltb": "—",
+  "dev": "Illusion Softworks",
+  "pub": "2K Games",
+  "notes": "Co-op separate missions",
+  "release": "24.10.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/vietcong-2-2005-pc.jpg",
+  "logo": "images/logos/vietcong-2-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Vietcong_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

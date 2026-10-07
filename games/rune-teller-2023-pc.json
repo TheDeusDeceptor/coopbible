@@ -1,0 +1,33 @@
+{
+  "id": "rune-teller-2023-pc",
+  "name": "Rune Teller",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "CODELIFE",
+  "pub": "CODELIFE",
+  "notes": "",
+  "release": "09.02.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rune-teller-2023-pc.jpg",
+  "logo": "images/logos/rune-teller-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1944360",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

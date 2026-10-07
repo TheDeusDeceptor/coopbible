@@ -1,0 +1,38 @@
+{
+  "id": "cinnabunny-2025-pc",
+  "name": "Cinnabunny",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Reky Studios",
+  "pub": "Reky Studios",
+  "notes": "",
+  "release": "19.02.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cinnabunny-2025-pc.jpg",
+  "logo": "images/logos/cinnabunny-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2794830",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Cinnabunny",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
