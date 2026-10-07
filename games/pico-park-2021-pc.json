@@ -1,0 +1,38 @@
+{
+  "id": "pico-park-2021-pc",
+  "name": "PICO PARK",
+  "platform": "PC",
+  "size": "0.1 GB",
+  "hltb": "Main: 3",
+  "dev": "TECOPARK",
+  "pub": "TECOPARK",
+  "notes": "Enhanced version based on Nintendo Switch port.",
+  "release": "07.05.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/pico-park-2021-pc.jpg",
+  "logo": "images/logos/pico-park-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1509960",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Pico_Park",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

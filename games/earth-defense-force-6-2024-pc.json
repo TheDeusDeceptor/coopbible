@@ -1,0 +1,38 @@
+{
+  "id": "earth-defense-force-6-2024-pc",
+  "name": "EARTH DEFENSE FORCE 6",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 42, +Extra: 55",
+  "dev": "Sandlot",
+  "pub": "D3 Publisher",
+  "notes": "",
+  "release": "25.07.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/earth-defense-force-6-2024-pc.jpg",
+  "logo": "images/logos/earth-defense-force-6-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2291060",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Earth_Defense_Force_6",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

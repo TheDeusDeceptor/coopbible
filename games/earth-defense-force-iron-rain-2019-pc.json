@@ -1,0 +1,38 @@
+{
+  "id": "earth-defense-force-iron-rain-2019-pc",
+  "name": "Earth Defense Force: Iron Rain",
+  "platform": "PC",
+  "size": "24 GB",
+  "hltb": "Main: 12, +Extra: 18",
+  "dev": "Yuke's",
+  "pub": "D3 Publisher",
+  "notes": "",
+  "release": "15.10.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/earth-defense-force-iron-rain-2019-pc.jpg",
+  "logo": "images/logos/earth-defense-force-iron-rain-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1039890",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Earth_Defense_Force%3A_Iron_Rain",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

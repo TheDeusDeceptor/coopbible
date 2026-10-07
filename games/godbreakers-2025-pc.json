@@ -1,0 +1,38 @@
+{
+  "id": "godbreakers-2025-pc",
+  "name": "GODBREAKERS",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "To The Sky",
+  "pub": "Thunderful Publishing",
+  "notes": "",
+  "release": "23.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/godbreakers-2025-pc.jpg",
+  "logo": "images/logos/godbreakers-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2687400",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Godbreakers",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

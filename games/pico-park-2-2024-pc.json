@@ -1,0 +1,38 @@
+{
+  "id": "pico-park-2-2024-pc",
+  "name": "PICO PARK 2",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "TECOPARK, Gemdrops",
+  "pub": "TECOPARK",
+  "notes": "",
+  "release": "12.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/pico-park-2-2024-pc.jpg",
+  "logo": "images/logos/pico-park-2-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2644470",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Pico_Park_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

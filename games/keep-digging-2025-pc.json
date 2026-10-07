@@ -1,0 +1,33 @@
+{
+  "id": "keep-digging-2025-pc",
+  "name": "Keep Digging",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 1, +Extra: 3",
+  "dev": "Wild Dog",
+  "pub": "Wild Dog",
+  "notes": "",
+  "release": "11.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/keep-digging-2025-pc.jpg",
+  "logo": "images/logos/keep-digging-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3585800",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

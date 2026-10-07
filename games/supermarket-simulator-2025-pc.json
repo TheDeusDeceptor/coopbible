@@ -1,0 +1,38 @@
+{
+  "id": "supermarket-simulator-2025-pc",
+  "name": "Supermarket Simulator",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 22, +Extra: 60",
+  "dev": "Nokta Games",
+  "pub": "Nokta Games",
+  "notes": "",
+  "release": "19.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/supermarket-simulator-2025-pc.jpg",
+  "logo": "images/logos/supermarket-simulator-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2670630",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Supermarket_Simulator",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

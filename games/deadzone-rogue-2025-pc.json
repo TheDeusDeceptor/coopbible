@@ -1,0 +1,38 @@
+{
+  "id": "deadzone-rogue-2025-pc",
+  "name": "Deadzone: Rogue",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 16, +Extra: 20",
+  "dev": "Prophecy Games",
+  "pub": "Prophecy Games",
+  "notes": "",
+  "release": "11.08.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/deadzone-rogue-2025-pc.jpg",
+  "logo": "images/logos/deadzone-rogue-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3228590",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Deadzone%3A_Rogue",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
