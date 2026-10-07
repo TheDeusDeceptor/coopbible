@@ -1,0 +1,33 @@
+{
+  "id": "firefighting-simulator-ignite-2025-pc",
+  "name": "Firefighting Simulator: Ignite",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 26, +Extra: 28",
+  "dev": "Weltenbauer. Software Entwicklung",
+  "pub": "astragon Entertainment",
+  "notes": "",
+  "release": "09.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/firefighting-simulator-ignite-2025-pc.jpg",
+  "logo": "images/logos/firefighting-simulator-ignite-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1669480",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "gatekeeper-2025-pc",
+  "name": "Gatekeeper",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 3, +Extra: 5",
+  "dev": "Gravity Lagoon",
+  "pub": "HypeTrain Digital",
+  "notes": "",
+  "release": "01.08.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gatekeeper-2025-pc.jpg",
+  "logo": "images/logos/gatekeeper-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2106670",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

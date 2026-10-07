@@ -1,0 +1,38 @@
+{
+  "id": "abyssus-2025-pc",
+  "name": "Abyssus",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 4, +Extra: 24",
+  "dev": "DoubleMoose Games",
+  "pub": "The Arcade Crew",
+  "notes": "",
+  "release": "12.08.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/abyssus-2025-pc.jpg",
+  "logo": "images/logos/abyssus-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1721110",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Abyssus",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

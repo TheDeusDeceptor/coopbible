@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06T23:34:43Z",
+  "updated": "2026-10-07T00:12:48Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -1800,6 +1800,219 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "gatekeeper-2025-pc": {
+      "id": "gatekeeper-2025-pc",
+      "name": "Gatekeeper",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 3, +Extra: 5",
+      "dev": "Gravity Lagoon",
+      "pub": "HypeTrain Digital",
+      "notes": "",
+      "release": "01.08.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gatekeeper-2025-pc.jpg",
+      "logo": "images/logos/gatekeeper-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2106670",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "whimsical-artefacts-2025-pc": {
+      "id": "whimsical-artefacts-2025-pc",
+      "name": "Whimsical Artefacts",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Nick Reinche",
+      "pub": "PRO//CYON",
+      "notes": "",
+      "release": "31.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/whimsical-artefacts-2025-pc.jpg",
+      "logo": "images/logos/whimsical-artefacts-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3604800",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "abyssus-2025-pc": {
+      "id": "abyssus-2025-pc",
+      "name": "Abyssus",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 4, +Extra: 24",
+      "dev": "DoubleMoose Games",
+      "pub": "The Arcade Crew",
+      "notes": "",
+      "release": "12.08.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/abyssus-2025-pc.jpg",
+      "logo": "images/logos/abyssus-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1721110",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Abyssus",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "strange-brigade-2018-pc": {
+      "id": "strange-brigade-2018-pc",
+      "name": "Strange Brigade",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Rebellion",
+      "pub": "Rebellion",
+      "notes": "",
+      "release": "27.08.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/strange-brigade-2018-pc.jpg",
+      "logo": "images/logos/strange-brigade-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/312670",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Strange_Brigade",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "firefighting-simulator-the-squad-2020-pc": {
+      "id": "firefighting-simulator-the-squad-2020-pc",
+      "name": "Firefighting Simulator - The Squad",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 12, +Extra: 18",
+      "dev": "Chronos Unterhaltungssoftware",
+      "pub": "astragon Entertainment",
+      "notes": "🅱️emuva",
+      "release": "17.11.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/firefighting-simulator-the-squad-2020-pc.jpg",
+      "logo": "images/logos/firefighting-simulator-the-squad-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/420560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Firefighting_Simulator_-_The_Squad",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": true
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "firefighting-simulator-ignite-2025-pc": {
+      "id": "firefighting-simulator-ignite-2025-pc",
+      "name": "Firefighting Simulator: Ignite",
+      "platform": "PC",
+      "size": "45 GB",
+      "hltb": "Main: 26, +Extra: 28",
+      "dev": "Weltenbauer. Software Entwicklung",
+      "pub": "astragon Entertainment",
+      "notes": "",
+      "release": "09.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/firefighting-simulator-ignite-2025-pc.jpg",
+      "logo": "images/logos/firefighting-simulator-ignite-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1669480",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -1851,7 +2064,13 @@
       "fantasy-life-i-the-girl-who-steals-time-2025-pc",
       "parallel-experiment-2025-pc",
       "onirism-2025-pc",
-      "co-op-kaiju-horror-cooking-2025-pc"
+      "co-op-kaiju-horror-cooking-2025-pc",
+      "gatekeeper-2025-pc",
+      "whimsical-artefacts-2025-pc",
+      "abyssus-2025-pc",
+      "strange-brigade-2018-pc",
+      "firefighting-simulator-the-squad-2020-pc",
+      "firefighting-simulator-ignite-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

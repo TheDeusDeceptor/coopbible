@@ -1,0 +1,38 @@
+{
+  "id": "firefighting-simulator-the-squad-2020-pc",
+  "name": "Firefighting Simulator - The Squad",
+  "platform": "PC",
+  "size": "12 GB",
+  "hltb": "Main: 12, +Extra: 18",
+  "dev": "Chronos Unterhaltungssoftware",
+  "pub": "astragon Entertainment",
+  "notes": "🅱️emuva",
+  "release": "17.11.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/firefighting-simulator-the-squad-2020-pc.jpg",
+  "logo": "images/logos/firefighting-simulator-the-squad-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/420560",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Firefighting_Simulator_-_The_Squad",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

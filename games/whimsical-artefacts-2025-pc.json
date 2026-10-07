@@ -1,0 +1,33 @@
+{
+  "id": "whimsical-artefacts-2025-pc",
+  "name": "Whimsical Artefacts",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Nick Reinche",
+  "pub": "PRO//CYON",
+  "notes": "",
+  "release": "31.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/whimsical-artefacts-2025-pc.jpg",
+  "logo": "images/logos/whimsical-artefacts-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3604800",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
