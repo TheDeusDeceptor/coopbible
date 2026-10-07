@@ -1,0 +1,38 @@
+{
+  "id": "arma-2-2009-pc",
+  "name": "Arma 2",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 16, +Extra: 32",
+  "dev": "Bohemia Interactive",
+  "pub": "Bohemia Interactive",
+  "notes": "",
+  "release": "17.06.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/arma-2-2009-pc.jpg",
+  "logo": "images/logos/arma-2-2009-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/33900",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Arma_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

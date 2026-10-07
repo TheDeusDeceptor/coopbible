@@ -1,0 +1,38 @@
+{
+  "id": "we-were-here-together-2019-pc",
+  "name": "We Were Here Together",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "",
+  "release": "10.10.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/we-were-here-together-2019-pc.jpg",
+  "logo": "images/logos/we-were-here-together-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/865360",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Together",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

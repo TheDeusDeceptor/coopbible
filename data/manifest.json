@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T12:47:27Z",
+  "updated": "2026-10-07T13:18:09Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -2454,6 +2454,381 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "aliens-fireteam-elite-2021-pc": {
+      "id": "aliens-fireteam-elite-2021-pc",
+      "name": "Aliens: Fireteam Elite",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 8, +Extra: 16",
+      "dev": "Cold Iron Studios",
+      "pub": "Focus Entertainment",
+      "notes": "emulation issues, untested with new software",
+      "release": "23.08.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/aliens-fireteam-elite-2021-pc.jpg",
+      "logo": "images/logos/aliens-fireteam-elite-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1549970",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Aliens%3A_Fireteam_Elite",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "arma-2-2009-pc": {
+      "id": "arma-2-2009-pc",
+      "name": "Arma 2",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 16, +Extra: 32",
+      "dev": "Bohemia Interactive",
+      "pub": "Bohemia Interactive",
+      "notes": "",
+      "release": "17.06.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/arma-2-2009-pc.jpg",
+      "logo": "images/logos/arma-2-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/33900",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Arma_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "arma-2-operation-arrowhead-2010-pc": {
+      "id": "arma-2-operation-arrowhead-2010-pc",
+      "name": "Arma 2: Operation Arrowhead",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 8, +Extra: 9",
+      "dev": "Bohemia Interactive",
+      "pub": "Bohemia Interactive",
+      "notes": "",
+      "release": "29.06.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/arma-2-operation-arrowhead-2010-pc.jpg",
+      "logo": "images/logos/arma-2-operation-arrowhead-2010-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/33930",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Arma_2%3A_Operation_Arrowhead",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "arma-3-2013-pc": {
+      "id": "arma-3-2013-pc",
+      "name": "Arma 3",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 20, +Extra: 42",
+      "dev": "Bohemia Interactive",
+      "pub": "Bohemia Interactive",
+      "notes": "",
+      "release": "12.09.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/arma-3-2013-pc.jpg",
+      "logo": "images/logos/arma-3-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/107410",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Arma_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rise-of-the-ronin-2025-pc": {
+      "id": "rise-of-the-ronin-2025-pc",
+      "name": "Rise of the Ronin",
+      "platform": "PC",
+      "size": "155 GB",
+      "hltb": "Main: 25, +Extra: 53",
+      "dev": "Team Ninja",
+      "pub": "Koei Tecmo",
+      "notes": "",
+      "release": "10.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rise-of-the-ronin-2025-pc.jpg",
+      "logo": "images/logos/rise-of-the-ronin-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1340990",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Rise_of_the_Ronin",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "we-were-here-2017-pc": {
+      "id": "we-were-here-2017-pc",
+      "name": "We Were Here",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Total Mayhem Games",
+      "pub": "Total Mayhem Games",
+      "notes": "",
+      "release": "03.02.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/we-were-here-2017-pc.jpg",
+      "logo": "images/logos/we-were-here-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/582500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Too",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "we-were-here-too-2018-pc": {
+      "id": "we-were-here-too-2018-pc",
+      "name": "We Were Here Too",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 3",
+      "dev": "Total Mayhem Games",
+      "pub": "Total Mayhem Games",
+      "notes": "",
+      "release": "02.02.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/we-were-here-too-2018-pc.jpg",
+      "logo": "images/logos/we-were-here-too-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/677160",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Too",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "we-were-here-together-2019-pc": {
+      "id": "we-were-here-together-2019-pc",
+      "name": "We Were Here Together",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "Total Mayhem Games",
+      "pub": "Total Mayhem Games",
+      "notes": "",
+      "release": "10.10.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/we-were-here-together-2019-pc.jpg",
+      "logo": "images/logos/we-were-here-together-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/865360",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Together",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "we-were-here-forever-unreleased-pc": {
+      "id": "we-were-here-forever-unreleased-pc",
+      "name": "We Were Here Forever",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 11",
+      "dev": "Total Mayhem Games",
+      "pub": "Total Mayhem Games",
+      "notes": "Online only (Unsteam?)",
+      "release": "",
+      "ea_release": "",
+      "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1341290/ss_1d11524ae8bd060494a77a5a9de467898af38337.1920x1080.jpg?t=1764331788",
+      "logo": "https://cdn2.steamgriddb.com/logo/d46f83609e738e9bd504eb671eca3f45.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1341290",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "we-were-here-expeditions-the-friendship-2023-pc": {
+      "id": "we-were-here-expeditions-the-friendship-2023-pc",
+      "name": "We Were Here Expeditions: The FriendShip",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 2",
+      "dev": "Total Mayhem Games",
+      "pub": "Total Mayhem Games",
+      "notes": "",
+      "release": "14.09.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/we-were-here-expeditions-the-friendship-2023-pc.jpg",
+      "logo": "images/logos/we-were-here-expeditions-the-friendship-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2296990",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Expeditions%3A_The_FriendShip",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -2523,7 +2898,17 @@
       "deadzone-rogue-2025-pc",
       "earth-defense-force-iron-rain-2019-pc",
       "earth-defense-force-5-2019-pc",
-      "earth-defense-force-6-2024-pc"
+      "earth-defense-force-6-2024-pc",
+      "aliens-fireteam-elite-2021-pc",
+      "arma-2-2009-pc",
+      "arma-2-operation-arrowhead-2010-pc",
+      "arma-3-2013-pc",
+      "rise-of-the-ronin-2025-pc",
+      "we-were-here-2017-pc",
+      "we-were-here-too-2018-pc",
+      "we-were-here-together-2019-pc",
+      "we-were-here-forever-unreleased-pc",
+      "we-were-here-expeditions-the-friendship-2023-pc"
     ],
     "early-access": [],
     "unreleased": [],

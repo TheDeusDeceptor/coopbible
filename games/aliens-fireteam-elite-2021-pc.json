@@ -1,0 +1,38 @@
+{
+  "id": "aliens-fireteam-elite-2021-pc",
+  "name": "Aliens: Fireteam Elite",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 8, +Extra: 16",
+  "dev": "Cold Iron Studios",
+  "pub": "Focus Entertainment",
+  "notes": "emulation issues, untested with new software",
+  "release": "23.08.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/aliens-fireteam-elite-2021-pc.jpg",
+  "logo": "images/logos/aliens-fireteam-elite-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1549970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Aliens%3A_Fireteam_Elite",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

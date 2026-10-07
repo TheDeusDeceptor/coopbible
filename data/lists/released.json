@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07T12:47:27Z",
+  "updated": "2026-10-07T13:18:09Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -67,6 +67,16 @@
     "deadzone-rogue-2025-pc",
     "earth-defense-force-iron-rain-2019-pc",
     "earth-defense-force-5-2019-pc",
-    "earth-defense-force-6-2024-pc"
+    "earth-defense-force-6-2024-pc",
+    "aliens-fireteam-elite-2021-pc",
+    "arma-2-2009-pc",
+    "arma-2-operation-arrowhead-2010-pc",
+    "arma-3-2013-pc",
+    "rise-of-the-ronin-2025-pc",
+    "we-were-here-2017-pc",
+    "we-were-here-too-2018-pc",
+    "we-were-here-together-2019-pc",
+    "we-were-here-forever-unreleased-pc",
+    "we-were-here-expeditions-the-friendship-2023-pc"
   ]
 }

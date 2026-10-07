@@ -1,0 +1,38 @@
+{
+  "id": "arma-3-2013-pc",
+  "name": "Arma 3",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 20, +Extra: 42",
+  "dev": "Bohemia Interactive",
+  "pub": "Bohemia Interactive",
+  "notes": "",
+  "release": "12.09.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/arma-3-2013-pc.jpg",
+  "logo": "images/logos/arma-3-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/107410",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Arma_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "we-were-here-too-2018-pc",
+  "name": "We Were Here Too",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 3",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "",
+  "release": "02.02.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/we-were-here-too-2018-pc.jpg",
+  "logo": "images/logos/we-were-here-too-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/677160",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Too",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

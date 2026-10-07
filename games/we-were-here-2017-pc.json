@@ -1,0 +1,38 @@
+{
+  "id": "we-were-here-2017-pc",
+  "name": "We Were Here",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "",
+  "release": "03.02.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/we-were-here-2017-pc.jpg",
+  "logo": "images/logos/we-were-here-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/582500",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Too",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

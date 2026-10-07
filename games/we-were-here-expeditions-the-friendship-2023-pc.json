@@ -1,0 +1,38 @@
+{
+  "id": "we-were-here-expeditions-the-friendship-2023-pc",
+  "name": "We Were Here Expeditions: The FriendShip",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 2",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "",
+  "release": "14.09.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/we-were-here-expeditions-the-friendship-2023-pc.jpg",
+  "logo": "images/logos/we-were-here-expeditions-the-friendship-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2296990",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Expeditions%3A_The_FriendShip",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
