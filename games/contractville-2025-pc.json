@@ -1,0 +1,38 @@
+{
+  "id": "contractville-2025-pc",
+  "name": "ContractVille",
+  "platform": "PC",
+  "size": "16 GB",
+  "hltb": "—",
+  "dev": "MYM Games Studios",
+  "pub": "FiftyEight Studios",
+  "notes": "",
+  "release": "27.05.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/contractville-2025-pc.jpg",
+  "logo": "images/logos/contractville-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2698780",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ContractVille",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

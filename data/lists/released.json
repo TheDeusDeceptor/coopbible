@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07T13:18:09Z",
+  "updated": "2026-10-07T13:59:17Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -76,7 +76,15 @@
     "we-were-here-2017-pc",
     "we-were-here-too-2018-pc",
     "we-were-here-together-2019-pc",
-    "we-were-here-forever-unreleased-pc",
-    "we-were-here-expeditions-the-friendship-2023-pc"
+    "we-were-here-forever-2022-pc",
+    "we-were-here-expeditions-the-friendship-2023-pc",
+    "contractville-2025-pc",
+    "plateup-2022-pc",
+    "factorio-2020-pc",
+    "together-in-between-2024-pc",
+    "ravenswatch-2024-pc",
+    "robin-hood-sherwood-builders-2024-pc",
+    "smalland-survive-the-wilds-2024-pc",
+    "no-man-s-sky-2016-pc"
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "id": "plateup-2022-pc",
+  "name": "PlateUp!",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 15, +Extra: 32",
+  "dev": "It's happening",
+  "pub": "Yogscast Games",
+  "notes": "",
+  "release": "04.08.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/plateup-2022-pc.jpg",
+  "logo": "images/logos/plateup-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1599600",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/PlateUp!",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

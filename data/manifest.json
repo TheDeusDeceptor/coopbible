@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T13:18:09Z",
+  "updated": "2026-10-07T13:59:17Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -2408,7 +2408,7 @@
       "dlc": [],
       "flags": {
         "installed": true,
-        "localCoop": true,
+        "localCoop": false,
         "authRequired": false,
         "ownedSteam": false,
         "gamepass": false
@@ -2759,39 +2759,6 @@
       "series_status": null,
       "series_note": null
     },
-    "we-were-here-forever-unreleased-pc": {
-      "id": "we-were-here-forever-unreleased-pc",
-      "name": "We Were Here Forever",
-      "platform": "PC",
-      "size": "25 GB",
-      "hltb": "Main: 11",
-      "dev": "Total Mayhem Games",
-      "pub": "Total Mayhem Games",
-      "notes": "Online only (Unsteam?)",
-      "release": "",
-      "ea_release": "",
-      "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1341290/ss_1d11524ae8bd060494a77a5a9de467898af38337.1920x1080.jpg?t=1764331788",
-      "logo": "https://cdn2.steamgriddb.com/logo/d46f83609e738e9bd504eb671eca3f45.png",
-      "links": [
-        {
-          "label": "Steam",
-          "url": "https://store.steampowered.com/app/1341290",
-          "icon": "steam"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": true,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
     "we-were-here-expeditions-the-friendship-2023-pc": {
       "id": "we-were-here-expeditions-the-friendship-2023-pc",
       "name": "We Were Here Expeditions: The FriendShip",
@@ -2824,6 +2791,343 @@
         "localCoop": false,
         "authRequired": false,
         "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "contractville-2025-pc": {
+      "id": "contractville-2025-pc",
+      "name": "ContractVille",
+      "platform": "PC",
+      "size": "16 GB",
+      "hltb": "—",
+      "dev": "MYM Games Studios",
+      "pub": "FiftyEight Studios",
+      "notes": "",
+      "release": "27.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/contractville-2025-pc.jpg",
+      "logo": "images/logos/contractville-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2698780",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ContractVille",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "we-were-here-forever-2022-pc": {
+      "id": "we-were-here-forever-2022-pc",
+      "name": "We Were Here Forever",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 11",
+      "dev": "Total Mayhem Games",
+      "pub": "Total Mayhem Games",
+      "notes": "Online only (Unsteam?)",
+      "release": "10.05.2022",
+      "ea_release": "",
+      "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1341290/ss_1d11524ae8bd060494a77a5a9de467898af38337.1920x1080.jpg?t=1764331788",
+      "logo": "images/logos/we-were-here-forever-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1341290",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Forever",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "plateup-2022-pc": {
+      "id": "plateup-2022-pc",
+      "name": "PlateUp!",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 15, +Extra: 32",
+      "dev": "It's happening",
+      "pub": "Yogscast Games",
+      "notes": "",
+      "release": "04.08.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/plateup-2022-pc.jpg",
+      "logo": "images/logos/plateup-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1599600",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/PlateUp!",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "factorio-2020-pc": {
+      "id": "factorio-2020-pc",
+      "name": "Factorio",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 50, +Extra: 93",
+      "dev": "Wube Software",
+      "pub": "Wube Software",
+      "notes": "",
+      "release": "14.08.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/factorio-2020-pc.jpg",
+      "logo": "images/logos/factorio-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/427520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Factorio",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Space Age",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "together-in-between-2024-pc": {
+      "id": "together-in-between-2024-pc",
+      "name": "Together in Between",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 2",
+      "dev": "Vellichor Games",
+      "pub": "Vellichor Games",
+      "notes": "",
+      "release": "02.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/together-in-between-2024-pc.jpg",
+      "logo": "images/logos/together-in-between-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2455340",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ravenswatch-2024-pc": {
+      "id": "ravenswatch-2024-pc",
+      "name": "Ravenswatch",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 10, +Extra: 22",
+      "dev": "Passtech Games",
+      "pub": "Nacon",
+      "notes": "",
+      "release": "26.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ravenswatch-2024-pc.jpg",
+      "logo": "images/logos/ravenswatch-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2071280",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Ravenswatch",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "robin-hood-sherwood-builders-2024-pc": {
+      "id": "robin-hood-sherwood-builders-2024-pc",
+      "name": "Robin Hood: Sherwood Builders",
+      "platform": "PC",
+      "size": "65 GB",
+      "hltb": "Main: 27, +Extra: 32",
+      "dev": "MeanAstronauts",
+      "pub": "PlayWay",
+      "notes": "",
+      "release": "29.02.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/robin-hood-sherwood-builders-2024-pc.jpg",
+      "logo": "images/logos/robin-hood-sherwood-builders-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1159420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Robin_Hood_Sherwood_Builders",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "smalland-survive-the-wilds-2024-pc": {
+      "id": "smalland-survive-the-wilds-2024-pc",
+      "name": "Smalland: Survive the Wilds",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 32, +Extra: 35",
+      "dev": "Max Ent Games Ltd",
+      "pub": "Max Ent Games Ltd",
+      "notes": "",
+      "release": "15.02.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/smalland-survive-the-wilds-2024-pc.jpg",
+      "logo": "images/logos/smalland-survive-the-wilds-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/768200",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "no-man-s-sky-2016-pc": {
+      "id": "no-man-s-sky-2016-pc",
+      "name": "No Man's Sky",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 32, +Extra: 77",
+      "dev": "Hello Games",
+      "pub": "Hello Games",
+      "notes": "",
+      "release": "12.08.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/no-man-s-sky-2016-pc.jpg",
+      "logo": "images/logos/no-man-s-sky-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/275850",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/No_Man's_Sky",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
         "gamepass": false
       },
       "series": null,
@@ -2907,8 +3211,16 @@
       "we-were-here-2017-pc",
       "we-were-here-too-2018-pc",
       "we-were-here-together-2019-pc",
-      "we-were-here-forever-unreleased-pc",
-      "we-were-here-expeditions-the-friendship-2023-pc"
+      "we-were-here-forever-2022-pc",
+      "we-were-here-expeditions-the-friendship-2023-pc",
+      "contractville-2025-pc",
+      "plateup-2022-pc",
+      "factorio-2020-pc",
+      "together-in-between-2024-pc",
+      "ravenswatch-2024-pc",
+      "robin-hood-sherwood-builders-2024-pc",
+      "smalland-survive-the-wilds-2024-pc",
+      "no-man-s-sky-2016-pc"
     ],
     "early-access": [],
     "unreleased": [],

@@ -1,5 +1,5 @@
 {
-  "id": "we-were-here-forever-unreleased-pc",
+  "id": "we-were-here-forever-2022-pc",
   "name": "We Were Here Forever",
   "platform": "PC",
   "size": "25 GB",
@@ -7,15 +7,20 @@
   "dev": "Total Mayhem Games",
   "pub": "Total Mayhem Games",
   "notes": "Online only (Unsteam?)",
-  "release": "",
+  "release": "10.05.2022",
   "ea_release": "",
   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1341290/ss_1d11524ae8bd060494a77a5a9de467898af38337.1920x1080.jpg?t=1764331788",
-  "logo": "https://cdn2.steamgriddb.com/logo/d46f83609e738e9bd504eb671eca3f45.png",
+  "logo": "images/logos/we-were-here-forever-2022-pc.png",
   "links": [
     {
       "label": "Steam",
       "url": "https://store.steampowered.com/app/1341290",
       "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Forever",
+      "icon": "pcgw"
     }
   ],
   "alt_names": [],

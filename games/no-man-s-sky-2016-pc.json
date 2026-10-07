@@ -1,0 +1,38 @@
+{
+  "id": "no-man-s-sky-2016-pc",
+  "name": "No Man's Sky",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 32, +Extra: 77",
+  "dev": "Hello Games",
+  "pub": "Hello Games",
+  "notes": "",
+  "release": "12.08.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/no-man-s-sky-2016-pc.jpg",
+  "logo": "images/logos/no-man-s-sky-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/275850",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/No_Man's_Sky",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

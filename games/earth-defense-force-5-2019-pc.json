@@ -27,7 +27,7 @@
   "dlc": [],
   "flags": {
     "installed": true,
-    "localCoop": true,
+    "localCoop": false,
     "authRequired": false,
     "ownedSteam": false,
     "gamepass": false

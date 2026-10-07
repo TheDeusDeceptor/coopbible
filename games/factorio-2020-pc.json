@@ -1,0 +1,43 @@
+{
+  "id": "factorio-2020-pc",
+  "name": "Factorio",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 50, +Extra: 93",
+  "dev": "Wube Software",
+  "pub": "Wube Software",
+  "notes": "",
+  "release": "14.08.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/factorio-2020-pc.jpg",
+  "logo": "images/logos/factorio-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/427520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Factorio",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Space Age",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
