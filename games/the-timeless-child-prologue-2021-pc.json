@@ -1,0 +1,33 @@
+{
+  "id": "the-timeless-child-prologue-2021-pc",
+  "name": "The Timeless Child - Prologue",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "Timeless Tale",
+  "pub": "Timeless Tale",
+  "notes": "",
+  "release": "10.12.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-timeless-child-prologue-2021-pc.jpg",
+  "logo": "images/logos/the-timeless-child-prologue-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1792010",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

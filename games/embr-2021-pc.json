@@ -1,0 +1,38 @@
+{
+  "id": "embr-2021-pc",
+  "name": "Embr",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 5, +Extra: 10",
+  "dev": "Muse Games",
+  "pub": "Curve Games",
+  "notes": "",
+  "release": "23.09.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/embr-2021-pc.jpg",
+  "logo": "images/logos/embr-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1062830",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Embr",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

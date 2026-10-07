@@ -1,0 +1,33 @@
+{
+  "id": "eronoctosis-put-yourself-together-unreleased-pc",
+  "name": "Eronoctosis: Put Yourself Together",
+  "platform": "PC",
+  "size": "0.1 GB",
+  "hltb": "Main: 1",
+  "dev": "Dream Toaster Games",
+  "pub": "Dream Toaster Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "",
+  "screenshot": "images/screenshots/eronoctosis-put-yourself-together-unreleased-pc.jpg",
+  "logo": "images/logos/eronoctosis-put-yourself-together-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1683860",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

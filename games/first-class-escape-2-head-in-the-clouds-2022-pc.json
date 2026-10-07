@@ -1,0 +1,33 @@
+{
+  "id": "first-class-escape-2-head-in-the-clouds-2022-pc",
+  "name": "First Class Escape 2: Head in the Clouds",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 5",
+  "dev": "0 Deer Soft",
+  "pub": "0 Deer Soft",
+  "notes": "",
+  "release": "08.02.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/first-class-escape-2-head-in-the-clouds-2022-pc.jpg",
+  "logo": "images/logos/first-class-escape-2-head-in-the-clouds-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1826570",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

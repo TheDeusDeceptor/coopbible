@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T22:47:13Z",
+  "updated": "2026-10-07T23:16:59Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -6772,6 +6772,589 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "dungeon-defenders-ii-2017-pc": {
+      "id": "dungeon-defenders-ii-2017-pc",
+      "name": "Dungeon Defenders II",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 22, +Extra: 58",
+      "dev": "Chromatic Games",
+      "pub": "Chromatic Games",
+      "notes": "",
+      "release": "20.06.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dungeon-defenders-ii-2017-pc.jpg",
+      "logo": "images/logos/dungeon-defenders-ii-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/236110",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dungeon_Defenders_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dungeon-defenders-awakened-2020-pc": {
+      "id": "dungeon-defenders-awakened-2020-pc",
+      "name": "Dungeon Defenders: Awakened",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 24, +Extra: 50",
+      "dev": "Chromatic Games",
+      "pub": "Chromatic Games",
+      "notes": "",
+      "release": "28.05.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dungeon-defenders-awakened-2020-pc.jpg",
+      "logo": "images/logos/dungeon-defenders-awakened-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1101190",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dungeon_Defenders%3A_Awakened",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hypercharge-unboxed-2020-pc": {
+      "id": "hypercharge-unboxed-2020-pc",
+      "name": "HYPERCHARGE: Unboxed",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 7, +Extra: 17",
+      "dev": "Digital Cybercherries",
+      "pub": "Digital Cybercherries",
+      "notes": "",
+      "release": "27.04.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hypercharge-unboxed-2020-pc.jpg",
+      "logo": "images/logos/hypercharge-unboxed-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/523660",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "eronoctosis-put-yourself-together-unreleased-pc": {
+      "id": "eronoctosis-put-yourself-together-unreleased-pc",
+      "name": "Eronoctosis: Put Yourself Together",
+      "platform": "PC",
+      "size": "0.1 GB",
+      "hltb": "Main: 1",
+      "dev": "Dream Toaster Games",
+      "pub": "Dream Toaster Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "",
+      "screenshot": "images/screenshots/eronoctosis-put-yourself-together-unreleased-pc.jpg",
+      "logo": "images/logos/eronoctosis-put-yourself-together-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1683860",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "streets-of-fury-ex-2015-pc": {
+      "id": "streets-of-fury-ex-2015-pc",
+      "name": "Streets of Fury EX",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 2",
+      "dev": "Guard Crush",
+      "pub": "Guard Crush",
+      "notes": "",
+      "release": "25.06.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/streets-of-fury-ex-2015-pc.jpg",
+      "logo": "images/logos/streets-of-fury-ex-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/350910",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Streets_of_Fury_EX",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "first-class-escape-the-train-of-thought-2021-pc": {
+      "id": "first-class-escape-the-train-of-thought-2021-pc",
+      "name": "First Class Escape: The Train of Thought",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 3, +Extra: 4",
+      "dev": "0 Deer Soft",
+      "pub": "0 Deer Soft",
+      "notes": "",
+      "release": "17.09.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/first-class-escape-the-train-of-thought-2021-pc.jpg",
+      "logo": "images/logos/first-class-escape-the-train-of-thought-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1738610",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "first-class-escape-2-head-in-the-clouds-2022-pc": {
+      "id": "first-class-escape-2-head-in-the-clouds-2022-pc",
+      "name": "First Class Escape 2: Head in the Clouds",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 5",
+      "dev": "0 Deer Soft",
+      "pub": "0 Deer Soft",
+      "notes": "",
+      "release": "08.02.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/first-class-escape-2-head-in-the-clouds-2022-pc.jpg",
+      "logo": "images/logos/first-class-escape-2-head-in-the-clouds-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1826570",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-memoirs-mansion-heist-2022-pc": {
+      "id": "escape-memoirs-mansion-heist-2022-pc",
+      "name": "Escape Memoirs: Mansion Heist",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 3, +Extra: 4",
+      "dev": "0 Deer Soft",
+      "pub": "0 Deer Soft",
+      "notes": "",
+      "release": "16.06.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-memoirs-mansion-heist-2022-pc.jpg",
+      "logo": "images/logos/escape-memoirs-mansion-heist-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1925320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_Memoirs%3A_Mansion_Heist",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-memoirs-mini-stories-2022-pc": {
+      "id": "escape-memoirs-mini-stories-2022-pc",
+      "name": "Escape Memoirs: Mini Stories",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 2, +Extra: 3",
+      "dev": "0 Deer Soft",
+      "pub": "0 Deer Soft",
+      "notes": "",
+      "release": "30.09.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-memoirs-mini-stories-2022-pc.jpg",
+      "logo": "images/logos/escape-memoirs-mini-stories-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2098350",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_Memoirs%3A_Mini_Stories",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-memoirs-questionable-side-stories-2023-pc": {
+      "id": "escape-memoirs-questionable-side-stories-2023-pc",
+      "name": "Escape Memoirs: Questionable Side Stories",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 2",
+      "dev": "0 Deer Soft",
+      "pub": "0 Deer Soft",
+      "notes": "",
+      "release": "07.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-memoirs-questionable-side-stories-2023-pc.jpg",
+      "logo": "images/logos/escape-memoirs-questionable-side-stories-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2363730",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_Memoirs%3A_Questionable_Side_Stories",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-memoirs-safe-house-2024-pc": {
+      "id": "escape-memoirs-safe-house-2024-pc",
+      "name": "Escape Memoirs: Safe House",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 5",
+      "dev": "0 Deer Soft",
+      "pub": "0 Deer Soft",
+      "notes": "",
+      "release": "19.07.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-memoirs-safe-house-2024-pc.jpg",
+      "logo": "images/logos/escape-memoirs-safe-house-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2722360",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_Memoirs%3A_Safe_House",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "phogs-2020-pc": {
+      "id": "phogs-2020-pc",
+      "name": "PHOGS!",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 8, +Extra: 9",
+      "dev": "Bit Loom Games",
+      "pub": "Coatsink",
+      "notes": "",
+      "release": "03.12.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/phogs-2020-pc.jpg",
+      "logo": "images/logos/phogs-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/850320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/PHOGS!",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "phantom-squad-2025-pc": {
+      "id": "phantom-squad-2025-pc",
+      "name": "Phantom Squad",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 6",
+      "dev": "Ctrl Freak",
+      "pub": "Super Rare Originals",
+      "notes": "",
+      "release": "18.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/phantom-squad-2025-pc.jpg",
+      "logo": "images/logos/phantom-squad-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2841770",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Phantom_Squad",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "embr-2021-pc": {
+      "id": "embr-2021-pc",
+      "name": "Embr",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 5, +Extra: 10",
+      "dev": "Muse Games",
+      "pub": "Curve Games",
+      "notes": "",
+      "release": "23.09.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/embr-2021-pc.jpg",
+      "logo": "images/logos/embr-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1062830",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Embr",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-timeless-child-prologue-2021-pc": {
+      "id": "the-timeless-child-prologue-2021-pc",
+      "name": "The Timeless Child - Prologue",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 2, +Extra: 3",
+      "dev": "Timeless Tale",
+      "pub": "Timeless Tale",
+      "notes": "",
+      "release": "10.12.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-timeless-child-prologue-2021-pc.jpg",
+      "logo": "images/logos/the-timeless-child-prologue-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1792010",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "young-souls-2022-pc": {
+      "id": "young-souls-2022-pc",
+      "name": "Young Souls",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 9, +Extra: 12",
+      "dev": "1P2P",
+      "pub": "The Arcade Crew",
+      "notes": "",
+      "release": "10.03.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/young-souls-2022-pc.jpg",
+      "logo": "images/logos/young-souls-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/985900",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Young_Souls",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -6957,7 +7540,23 @@
       "battleblock-theater-2014-pc",
       "trailmakers-2019-pc",
       "united-heist-2023-pc",
-      "dungeon-defenders-2011-pc"
+      "dungeon-defenders-2011-pc",
+      "dungeon-defenders-ii-2017-pc",
+      "dungeon-defenders-awakened-2020-pc",
+      "hypercharge-unboxed-2020-pc",
+      "eronoctosis-put-yourself-together-unreleased-pc",
+      "streets-of-fury-ex-2015-pc",
+      "first-class-escape-the-train-of-thought-2021-pc",
+      "first-class-escape-2-head-in-the-clouds-2022-pc",
+      "escape-memoirs-mansion-heist-2022-pc",
+      "escape-memoirs-mini-stories-2022-pc",
+      "escape-memoirs-questionable-side-stories-2023-pc",
+      "escape-memoirs-safe-house-2024-pc",
+      "phogs-2020-pc",
+      "phantom-squad-2025-pc",
+      "embr-2021-pc",
+      "the-timeless-child-prologue-2021-pc",
+      "young-souls-2022-pc"
     ],
     "early-access": [],
     "unreleased": [],

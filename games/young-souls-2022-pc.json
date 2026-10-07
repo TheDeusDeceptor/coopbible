@@ -1,0 +1,38 @@
+{
+  "id": "young-souls-2022-pc",
+  "name": "Young Souls",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "1P2P",
+  "pub": "The Arcade Crew",
+  "notes": "",
+  "release": "10.03.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/young-souls-2022-pc.jpg",
+  "logo": "images/logos/young-souls-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/985900",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Young_Souls",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

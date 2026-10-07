@@ -1,0 +1,38 @@
+{
+  "id": "dungeon-defenders-ii-2017-pc",
+  "name": "Dungeon Defenders II",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 22, +Extra: 58",
+  "dev": "Chromatic Games",
+  "pub": "Chromatic Games",
+  "notes": "",
+  "release": "20.06.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dungeon-defenders-ii-2017-pc.jpg",
+  "logo": "images/logos/dungeon-defenders-ii-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/236110",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dungeon_Defenders_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

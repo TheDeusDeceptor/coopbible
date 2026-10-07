@@ -1,0 +1,38 @@
+{
+  "id": "escape-memoirs-mansion-heist-2022-pc",
+  "name": "Escape Memoirs: Mansion Heist",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "0 Deer Soft",
+  "pub": "0 Deer Soft",
+  "notes": "",
+  "release": "16.06.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-memoirs-mansion-heist-2022-pc.jpg",
+  "logo": "images/logos/escape-memoirs-mansion-heist-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1925320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_Memoirs%3A_Mansion_Heist",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

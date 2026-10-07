@@ -1,0 +1,38 @@
+{
+  "id": "escape-memoirs-questionable-side-stories-2023-pc",
+  "name": "Escape Memoirs: Questionable Side Stories",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 2",
+  "dev": "0 Deer Soft",
+  "pub": "0 Deer Soft",
+  "notes": "",
+  "release": "07.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-memoirs-questionable-side-stories-2023-pc.jpg",
+  "logo": "images/logos/escape-memoirs-questionable-side-stories-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2363730",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_Memoirs%3A_Questionable_Side_Stories",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

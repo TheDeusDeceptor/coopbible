@@ -1,0 +1,33 @@
+{
+  "id": "hypercharge-unboxed-2020-pc",
+  "name": "HYPERCHARGE: Unboxed",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 7, +Extra: 17",
+  "dev": "Digital Cybercherries",
+  "pub": "Digital Cybercherries",
+  "notes": "",
+  "release": "27.04.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hypercharge-unboxed-2020-pc.jpg",
+  "logo": "images/logos/hypercharge-unboxed-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/523660",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

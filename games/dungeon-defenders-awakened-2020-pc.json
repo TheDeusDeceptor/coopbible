@@ -1,0 +1,38 @@
+{
+  "id": "dungeon-defenders-awakened-2020-pc",
+  "name": "Dungeon Defenders: Awakened",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 24, +Extra: 50",
+  "dev": "Chromatic Games",
+  "pub": "Chromatic Games",
+  "notes": "",
+  "release": "28.05.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dungeon-defenders-awakened-2020-pc.jpg",
+  "logo": "images/logos/dungeon-defenders-awakened-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1101190",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dungeon_Defenders%3A_Awakened",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

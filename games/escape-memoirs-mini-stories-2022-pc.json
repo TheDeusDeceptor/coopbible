@@ -1,0 +1,38 @@
+{
+  "id": "escape-memoirs-mini-stories-2022-pc",
+  "name": "Escape Memoirs: Mini Stories",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "0 Deer Soft",
+  "pub": "0 Deer Soft",
+  "notes": "",
+  "release": "30.09.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-memoirs-mini-stories-2022-pc.jpg",
+  "logo": "images/logos/escape-memoirs-mini-stories-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2098350",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_Memoirs%3A_Mini_Stories",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

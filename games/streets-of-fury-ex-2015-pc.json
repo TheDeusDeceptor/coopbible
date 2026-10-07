@@ -1,0 +1,38 @@
+{
+  "id": "streets-of-fury-ex-2015-pc",
+  "name": "Streets of Fury EX",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 2",
+  "dev": "Guard Crush",
+  "pub": "Guard Crush",
+  "notes": "",
+  "release": "25.06.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/streets-of-fury-ex-2015-pc.jpg",
+  "logo": "images/logos/streets-of-fury-ex-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/350910",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Streets_of_Fury_EX",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
