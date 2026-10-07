@@ -1,0 +1,38 @@
+{
+  "id": "god-eater-2-rage-burst-2016-pc",
+  "name": "God Eater 2: Rage Burst",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 54, +Extra: 77",
+  "dev": "Shift",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "release": "29.08.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/god-eater-2-rage-burst-2016-pc.jpg",
+  "logo": "images/logos/god-eater-2-rage-burst-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/438490",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/God_Eater_2%3A_Rage_Burst",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

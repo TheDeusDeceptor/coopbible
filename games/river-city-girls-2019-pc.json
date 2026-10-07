@@ -1,0 +1,38 @@
+{
+  "id": "river-city-girls-2019-pc",
+  "name": "River City Girls",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "WayForward",
+  "pub": "Arc System Works",
+  "notes": "",
+  "release": "05.09.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/river-city-girls-2019-pc.jpg",
+  "logo": "images/logos/river-city-girls-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1049320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/River_City_Girls",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "torchlight-iii-2020-pc",
+  "name": "Torchlight III",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 16, +Extra: 24",
+  "dev": "Echtra Games",
+  "pub": "XD",
+  "notes": "",
+  "release": "13.10.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/torchlight-iii-2020-pc.jpg",
+  "logo": "images/logos/torchlight-iii-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1030210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Torchlight_III",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

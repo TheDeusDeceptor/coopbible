@@ -1,0 +1,38 @@
+{
+  "id": "warhammer-end-times-vermintide-2015-pc",
+  "name": "Warhammer: End Times - Vermintide",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 8, +Extra: 28",
+  "dev": "Fatshark",
+  "pub": "Fatshark",
+  "notes": "",
+  "release": "23.10.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/warhammer-end-times-vermintide-2015-pc.jpg",
+  "logo": "images/logos/warhammer-end-times-vermintide-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/235540",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Warhammer_End_Times_Vermintide",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

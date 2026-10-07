@@ -1,0 +1,38 @@
+{
+  "id": "warhammer-vermintide-2-2018-pc",
+  "name": "Warhammer: Vermintide 2",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 11, +Extra: 29",
+  "dev": "Fatshark",
+  "pub": "Fatshark",
+  "notes": "EAC anal penetration against DLC unlockers",
+  "release": "08.03.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/warhammer-vermintide-2-2018-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/3423c8199b1e39e91245326376364445.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/552500",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Warhammer%3A_Vermintide_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

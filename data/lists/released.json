@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07T20:11:12Z",
+  "updated": "2026-10-07T20:33:21Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -109,6 +109,14 @@
     "kitaria-fables-2021-pc",
     "planet-centauri-2024-pc",
     "sea-of-stars-sunset-edition-2023-pc",
-    "shape-of-dreams-2025-pc"
+    "shape-of-dreams-2025-pc",
+    "torchlight-ii-2012-pc",
+    "torchlight-iii-2020-pc",
+    "warhammer-end-times-vermintide-2015-pc",
+    "warhammer-vermintide-2-2018-pc",
+    "god-eater-resurrection-2016-pc",
+    "god-eater-2-rage-burst-2016-pc",
+    "god-eater-3-2019-pc",
+    "river-city-girls-2019-pc"
   ]
 }

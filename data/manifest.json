@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T20:11:12Z",
+  "updated": "2026-10-07T20:33:21Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -4040,6 +4040,305 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "torchlight-ii-2012-pc": {
+      "id": "torchlight-ii-2012-pc",
+      "name": "Torchlight II",
+      "platform": "PC",
+      "size": "1.7 GB",
+      "hltb": "Main: 21, +Extra: 30",
+      "dev": "Runic Games",
+      "pub": "XD",
+      "notes": "",
+      "release": "20.09.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/torchlight-ii-2012-pc.jpg",
+      "logo": "images/logos/torchlight-ii-2012-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/200710",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Torchlight_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "torchlight-iii-2020-pc": {
+      "id": "torchlight-iii-2020-pc",
+      "name": "Torchlight III",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 16, +Extra: 24",
+      "dev": "Echtra Games",
+      "pub": "XD",
+      "notes": "",
+      "release": "13.10.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/torchlight-iii-2020-pc.jpg",
+      "logo": "images/logos/torchlight-iii-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1030210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Torchlight_III",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "warhammer-end-times-vermintide-2015-pc": {
+      "id": "warhammer-end-times-vermintide-2015-pc",
+      "name": "Warhammer: End Times - Vermintide",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 8, +Extra: 28",
+      "dev": "Fatshark",
+      "pub": "Fatshark",
+      "notes": "",
+      "release": "23.10.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/warhammer-end-times-vermintide-2015-pc.jpg",
+      "logo": "images/logos/warhammer-end-times-vermintide-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/235540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Warhammer_End_Times_Vermintide",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "warhammer-vermintide-2-2018-pc": {
+      "id": "warhammer-vermintide-2-2018-pc",
+      "name": "Warhammer: Vermintide 2",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 11, +Extra: 29",
+      "dev": "Fatshark",
+      "pub": "Fatshark",
+      "notes": "EAC anal penetration against DLC unlockers",
+      "release": "08.03.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/warhammer-vermintide-2-2018-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/3423c8199b1e39e91245326376364445.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/552500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Warhammer%3A_Vermintide_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "god-eater-resurrection-2016-pc": {
+      "id": "god-eater-resurrection-2016-pc",
+      "name": "God Eater Resurrection",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 32, +Extra: 58",
+      "dev": "Shift",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "30.08.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/god-eater-resurrection-2016-pc.jpg",
+      "logo": "images/logos/god-eater-resurrection-2016-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/God_Eater%3A_Resurrection",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "god-eater-2-rage-burst-2016-pc": {
+      "id": "god-eater-2-rage-burst-2016-pc",
+      "name": "God Eater 2: Rage Burst",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 54, +Extra: 77",
+      "dev": "Shift",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "29.08.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/god-eater-2-rage-burst-2016-pc.jpg",
+      "logo": "images/logos/god-eater-2-rage-burst-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/438490",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/God_Eater_2%3A_Rage_Burst",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "god-eater-3-2019-pc": {
+      "id": "god-eater-3-2019-pc",
+      "name": "God Eater 3",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 23, +Extra: 35",
+      "dev": "Marvelous First Studio",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "07.02.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/god-eater-3-2019-pc.jpg",
+      "logo": "images/logos/god-eater-3-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/899440",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/God_Eater_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "river-city-girls-2019-pc": {
+      "id": "river-city-girls-2019-pc",
+      "name": "River City Girls",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 7, +Extra: 9",
+      "dev": "WayForward",
+      "pub": "Arc System Works",
+      "notes": "",
+      "release": "05.09.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/river-city-girls-2019-pc.jpg",
+      "logo": "images/logos/river-city-girls-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1049320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/River_City_Girls",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -4151,7 +4450,15 @@
       "kitaria-fables-2021-pc",
       "planet-centauri-2024-pc",
       "sea-of-stars-sunset-edition-2023-pc",
-      "shape-of-dreams-2025-pc"
+      "shape-of-dreams-2025-pc",
+      "torchlight-ii-2012-pc",
+      "torchlight-iii-2020-pc",
+      "warhammer-end-times-vermintide-2015-pc",
+      "warhammer-vermintide-2-2018-pc",
+      "god-eater-resurrection-2016-pc",
+      "god-eater-2-rage-burst-2016-pc",
+      "god-eater-3-2019-pc",
+      "river-city-girls-2019-pc"
     ],
     "early-access": [],
     "unreleased": [],

@@ -1,0 +1,33 @@
+{
+  "id": "god-eater-resurrection-2016-pc",
+  "name": "God Eater Resurrection",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 32, +Extra: 58",
+  "dev": "Shift",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "release": "30.08.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/god-eater-resurrection-2016-pc.jpg",
+  "logo": "images/logos/god-eater-resurrection-2016-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/God_Eater%3A_Resurrection",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

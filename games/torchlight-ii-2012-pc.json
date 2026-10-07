@@ -1,0 +1,38 @@
+{
+  "id": "torchlight-ii-2012-pc",
+  "name": "Torchlight II",
+  "platform": "PC",
+  "size": "1.7 GB",
+  "hltb": "Main: 21, +Extra: 30",
+  "dev": "Runic Games",
+  "pub": "XD",
+  "notes": "",
+  "release": "20.09.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/torchlight-ii-2012-pc.jpg",
+  "logo": "images/logos/torchlight-ii-2012-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/200710",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Torchlight_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
