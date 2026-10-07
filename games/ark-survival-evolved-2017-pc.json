@@ -1,0 +1,38 @@
+{
+  "id": "ark-survival-evolved-2017-pc",
+  "name": "ARK: Survival Evolved",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 67, +Extra: 314",
+  "dev": "Studio Wildcard",
+  "pub": "Studio Wildcard",
+  "notes": "",
+  "release": "27.08.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ark-survival-evolved-2017-pc.jpg",
+  "logo": "images/logos/ark-survival-evolved-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/346110",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ARK%3A_Survival_Evolved",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

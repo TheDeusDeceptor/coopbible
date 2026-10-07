@@ -1,0 +1,38 @@
+{
+  "id": "len-s-island-2025-pc",
+  "name": "Len's Island",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 15, +Extra: 22",
+  "dev": "Flow Studio",
+  "pub": "Fireshine Games",
+  "notes": "",
+  "release": "19.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/len-s-island-2025-pc.jpg",
+  "logo": "images/logos/len-s-island-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1335830",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Len's_Island",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

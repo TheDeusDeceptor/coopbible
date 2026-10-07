@@ -1,0 +1,38 @@
+{
+  "id": "void-crew-2024-pc",
+  "name": "Void Crew",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 111",
+  "dev": "Hutlihut Games",
+  "pub": "Focus Entertainment",
+  "notes": "",
+  "release": "25.11.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/void-crew-2024-pc.jpg",
+  "logo": "images/logos/void-crew-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1063420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Void_Crew",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

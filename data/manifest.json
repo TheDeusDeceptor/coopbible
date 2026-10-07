@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T15:49:49Z",
+  "updated": "2026-10-07T16:05:36Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -3731,6 +3731,120 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "void-crew-2024-pc": {
+      "id": "void-crew-2024-pc",
+      "name": "Void Crew",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 111",
+      "dev": "Hutlihut Games",
+      "pub": "Focus Entertainment",
+      "notes": "",
+      "release": "25.11.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/void-crew-2024-pc.jpg",
+      "logo": "images/logos/void-crew-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1063420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Void_Crew",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "len-s-island-2025-pc": {
+      "id": "len-s-island-2025-pc",
+      "name": "Len's Island",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 15, +Extra: 22",
+      "dev": "Flow Studio",
+      "pub": "Fireshine Games",
+      "notes": "",
+      "release": "19.06.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/len-s-island-2025-pc.jpg",
+      "logo": "images/logos/len-s-island-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1335830",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Len's_Island",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ark-survival-evolved-2017-pc": {
+      "id": "ark-survival-evolved-2017-pc",
+      "name": "ARK: Survival Evolved",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 67, +Extra: 314",
+      "dev": "Studio Wildcard",
+      "pub": "Studio Wildcard",
+      "notes": "",
+      "release": "27.08.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ark-survival-evolved-2017-pc.jpg",
+      "logo": "images/logos/ark-survival-evolved-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/346110",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ARK%3A_Survival_Evolved",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -3834,7 +3948,10 @@
       "killing-floor-2-2016-pc",
       "wild-hearts-2023-pc",
       "astroneer-2019-pc",
-      "painkiller-2025-pc"
+      "painkiller-2025-pc",
+      "void-crew-2024-pc",
+      "len-s-island-2025-pc",
+      "ark-survival-evolved-2017-pc"
     ],
     "early-access": [],
     "unreleased": [],
