@@ -1,0 +1,38 @@
+{
+  "id": "the-planet-crafter-2024-pc",
+  "name": "The Planet Crafter",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 37, +Extra: 45",
+  "dev": "Miju Games",
+  "pub": "Miju Games",
+  "notes": "",
+  "release": "10.04.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-planet-crafter-2024-pc.jpg",
+  "logo": "images/logos/the-planet-crafter-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1284190",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Planet_Crafter",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

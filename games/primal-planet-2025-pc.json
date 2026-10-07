@@ -1,0 +1,38 @@
+{
+  "id": "primal-planet-2025-pc",
+  "name": "Primal Planet",
+  "platform": "PC",
+  "size": "0.4 GB",
+  "hltb": "Main: 6, +Extra: 10",
+  "dev": "Seethingswarm",
+  "pub": "Pretty Soon",
+  "notes": "",
+  "release": "28.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/primal-planet-2025-pc.jpg",
+  "logo": "images/logos/primal-planet-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2350270",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Primal_Planet",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

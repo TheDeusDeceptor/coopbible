@@ -1,0 +1,33 @@
+{
+  "id": "iron-decree-2026-pc",
+  "name": "Iron Decree",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Castle Games",
+  "pub": "Castle Games",
+  "notes": "",
+  "release": "11.01.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/iron-decree-2026-pc.jpg",
+  "logo": "images/logos/iron-decree-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3216790",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

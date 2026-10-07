@@ -1,0 +1,38 @@
+{
+  "id": "eragon-2006-pc",
+  "name": "Eragon",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Stormfront Studios",
+  "pub": "Sierra Entertainment",
+  "notes": "",
+  "release": "14.11.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/eragon-2006-pc.jpg",
+  "logo": "images/logos/eragon-2006-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Eragon",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1929630",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

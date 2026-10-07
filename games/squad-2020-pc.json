@@ -1,0 +1,38 @@
+{
+  "id": "squad-2020-pc",
+  "name": "Squad",
+  "platform": "PC",
+  "size": "65 GB",
+  "hltb": "Main: 20, +Extra: 50",
+  "dev": "Offworld",
+  "pub": "Offworld",
+  "notes": "Co-op specific PvE mode (Fireteam)",
+  "release": "23.09.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/squad-2020-pc.jpg",
+  "logo": "images/logos/squad-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/393380",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Small_Soldiers%3A_Squad_Commander",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

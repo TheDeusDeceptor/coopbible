@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T22:16:43Z",
+  "updated": "2026-10-07T22:30:55Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -6027,6 +6027,300 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "the-planet-crafter-2024-pc": {
+      "id": "the-planet-crafter-2024-pc",
+      "name": "The Planet Crafter",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 37, +Extra: 45",
+      "dev": "Miju Games",
+      "pub": "Miju Games",
+      "notes": "",
+      "release": "10.04.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-planet-crafter-2024-pc.jpg",
+      "logo": "images/logos/the-planet-crafter-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1284190",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Planet_Crafter",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "squad-2020-pc": {
+      "id": "squad-2020-pc",
+      "name": "Squad",
+      "platform": "PC",
+      "size": "65 GB",
+      "hltb": "Main: 20, +Extra: 50",
+      "dev": "Offworld",
+      "pub": "Offworld",
+      "notes": "Co-op specific PvE mode (Fireteam)",
+      "release": "23.09.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/squad-2020-pc.jpg",
+      "logo": "images/logos/squad-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/393380",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Small_Soldiers%3A_Squad_Commander",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "coral-island-2023-pc": {
+      "id": "coral-island-2023-pc",
+      "name": "Coral Island",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 56, +Extra: 114",
+      "dev": "Stairway Games",
+      "pub": "Balor Games",
+      "notes": "",
+      "release": "14.11.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/coral-island-2023-pc.jpg",
+      "logo": "images/logos/coral-island-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1158160",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Coral_Island",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "eragon-2006-pc": {
+      "id": "eragon-2006-pc",
+      "name": "Eragon",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Stormfront Studios",
+      "pub": "Sierra Entertainment",
+      "notes": "",
+      "release": "14.11.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/eragon-2006-pc.jpg",
+      "logo": "images/logos/eragon-2006-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Eragon",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1929630",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "iron-decree-2026-pc": {
+      "id": "iron-decree-2026-pc",
+      "name": "Iron Decree",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Castle Games",
+      "pub": "Castle Games",
+      "notes": "",
+      "release": "11.01.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/iron-decree-2026-pc.jpg",
+      "logo": "images/logos/iron-decree-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3216790",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "fireworks-mania-an-explosive-simulator-2020-pc": {
+      "id": "fireworks-mania-an-explosive-simulator-2020-pc",
+      "name": "Fireworks Mania: An Explosive Simulator",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 4",
+      "dev": "Laumania",
+      "pub": "Laumania",
+      "notes": "",
+      "release": "17.12.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/fireworks-mania-an-explosive-simulator-2020-pc.jpg",
+      "logo": "images/logos/fireworks-mania-an-explosive-simulator-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1079260",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Fireworks_Mania_-_An_Explosive_Simulator",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "animal-shelter-2-2025-pc": {
+      "id": "animal-shelter-2-2025-pc",
+      "name": "Animal Shelter 2",
+      "platform": "PC",
+      "size": "18 GB",
+      "hltb": "Main: 18, +Extra: 30",
+      "dev": "Games Incubator",
+      "pub": "PlayWay",
+      "notes": "",
+      "release": "23.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/animal-shelter-2-2025-pc.jpg",
+      "logo": "images/logos/animal-shelter-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2658510",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "primal-planet-2025-pc": {
+      "id": "primal-planet-2025-pc",
+      "name": "Primal Planet",
+      "platform": "PC",
+      "size": "0.4 GB",
+      "hltb": "Main: 6, +Extra: 10",
+      "dev": "Seethingswarm",
+      "pub": "Pretty Soon",
+      "notes": "",
+      "release": "28.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/primal-planet-2025-pc.jpg",
+      "logo": "images/logos/primal-planet-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2350270",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Primal_Planet",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -6192,7 +6486,15 @@
       "the-lord-of-the-rings-conquest-2009-pc",
       "tropico-5-2014-pc",
       "tropico-6-2019-pc",
-      "the-wonderful-101-remastered-2020-pc"
+      "the-wonderful-101-remastered-2020-pc",
+      "the-planet-crafter-2024-pc",
+      "squad-2020-pc",
+      "coral-island-2023-pc",
+      "eragon-2006-pc",
+      "iron-decree-2026-pc",
+      "fireworks-mania-an-explosive-simulator-2020-pc",
+      "animal-shelter-2-2025-pc",
+      "primal-planet-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

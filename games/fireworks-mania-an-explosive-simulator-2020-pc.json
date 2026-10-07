@@ -1,0 +1,38 @@
+{
+  "id": "fireworks-mania-an-explosive-simulator-2020-pc",
+  "name": "Fireworks Mania: An Explosive Simulator",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 4",
+  "dev": "Laumania",
+  "pub": "Laumania",
+  "notes": "",
+  "release": "17.12.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fireworks-mania-an-explosive-simulator-2020-pc.jpg",
+  "logo": "images/logos/fireworks-mania-an-explosive-simulator-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1079260",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Fireworks_Mania_-_An_Explosive_Simulator",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
