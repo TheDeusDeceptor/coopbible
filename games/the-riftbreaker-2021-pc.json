@@ -1,0 +1,38 @@
+{
+  "id": "the-riftbreaker-2021-pc",
+  "name": "The Riftbreaker",
+  "platform": "PC",
+  "size": "12 GB",
+  "hltb": "Main: 23, +Extra: 34",
+  "dev": "EXOR Studios",
+  "pub": "EXOR Studios",
+  "notes": "Steam version problematic, use GOG as alternative",
+  "release": "14.10.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-riftbreaker-2021-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/0c4829f18b16e5e80b8f9cae88a5d17e.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/780310",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Riftbreaker",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

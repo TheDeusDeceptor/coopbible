@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T13:59:17Z",
+  "updated": "2026-10-07T14:43:13Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -3133,6 +3133,305 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "dark-hours-2025-pc": {
+      "id": "dark-hours-2025-pc",
+      "name": "Dark Hours",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "Piece of Cake studios",
+      "pub": "Kepler Ghost",
+      "notes": "",
+      "release": "23.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dark-hours-2025-pc.jpg",
+      "logo": "images/logos/dark-hours-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2208570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dark_Hours",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "icarus-2021-pc": {
+      "id": "icarus-2021-pc",
+      "name": "ICARUS",
+      "platform": "PC",
+      "size": "70 GB",
+      "hltb": "Main: 36, +Extra: 39",
+      "dev": "RocketWerkz",
+      "pub": "RocketWerkz",
+      "notes": "",
+      "release": "03.12.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/icarus-2021-pc.jpg",
+      "logo": "images/logos/icarus-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1149460",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Icarus",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "powerwash-simulator-2022-pc": {
+      "id": "powerwash-simulator-2022-pc",
+      "name": "PowerWash Simulator",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 40, +Extra: 53",
+      "dev": "FuturLab",
+      "pub": "FuturLab",
+      "notes": "",
+      "release": "14.07.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/powerwash-simulator-2022-pc.jpg",
+      "logo": "images/logos/powerwash-simulator-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1290000",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/PowerWash_Simulator",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "powerwash-simulator-2-2025-pc": {
+      "id": "powerwash-simulator-2-2025-pc",
+      "name": "PowerWash Simulator 2",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 35, +Extra: 41",
+      "dev": "FuturLab",
+      "pub": "FuturLab",
+      "notes": "",
+      "release": "23.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/powerwash-simulator-2-2025-pc.jpg",
+      "logo": "images/logos/powerwash-simulator-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2968420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/PowerWash_Simulator_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dying-light-the-beast-2025-pc": {
+      "id": "dying-light-the-beast-2025-pc",
+      "name": "Dying Light: The Beast",
+      "platform": "PC",
+      "size": "70 GB",
+      "hltb": "Main: 18, +Extra: 31",
+      "dev": "Techland",
+      "pub": "Techland",
+      "notes": "",
+      "release": "18.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dying-light-the-beast-2025-pc.jpg",
+      "logo": "images/logos/dying-light-the-beast-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3008130",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dying_Light%3A_The_Beast",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "misery-2025-pc": {
+      "id": "misery-2025-pc",
+      "name": "MISERY",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 14",
+      "dev": "Platypus Entertainment",
+      "pub": "Ytopia",
+      "notes": "",
+      "release": "23.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/misery-2025-pc.jpg",
+      "logo": "images/logos/misery-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2119830",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-simulator-2-2025-pc": {
+      "id": "escape-simulator-2-2025-pc",
+      "name": "Escape Simulator 2",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 11",
+      "dev": "Pine Studio",
+      "pub": "Pine Studio",
+      "notes": "",
+      "release": "27.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-simulator-2-2025-pc.jpg",
+      "logo": "images/logos/escape-simulator-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2879840",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_Simulator_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-riftbreaker-2021-pc": {
+      "id": "the-riftbreaker-2021-pc",
+      "name": "The Riftbreaker",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 23, +Extra: 34",
+      "dev": "EXOR Studios",
+      "pub": "EXOR Studios",
+      "notes": "Steam version problematic, use GOG as alternative",
+      "release": "14.10.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-riftbreaker-2021-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/0c4829f18b16e5e80b8f9cae88a5d17e.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/780310",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Riftbreaker",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -3220,7 +3519,15 @@
       "ravenswatch-2024-pc",
       "robin-hood-sherwood-builders-2024-pc",
       "smalland-survive-the-wilds-2024-pc",
-      "no-man-s-sky-2016-pc"
+      "no-man-s-sky-2016-pc",
+      "dark-hours-2025-pc",
+      "icarus-2021-pc",
+      "powerwash-simulator-2022-pc",
+      "powerwash-simulator-2-2025-pc",
+      "dying-light-the-beast-2025-pc",
+      "misery-2025-pc",
+      "escape-simulator-2-2025-pc",
+      "the-riftbreaker-2021-pc"
     ],
     "early-access": [],
     "unreleased": [],

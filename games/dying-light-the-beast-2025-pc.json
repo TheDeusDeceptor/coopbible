@@ -1,0 +1,38 @@
+{
+  "id": "dying-light-the-beast-2025-pc",
+  "name": "Dying Light: The Beast",
+  "platform": "PC",
+  "size": "70 GB",
+  "hltb": "Main: 18, +Extra: 31",
+  "dev": "Techland",
+  "pub": "Techland",
+  "notes": "",
+  "release": "18.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dying-light-the-beast-2025-pc.jpg",
+  "logo": "images/logos/dying-light-the-beast-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3008130",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dying_Light%3A_The_Beast",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

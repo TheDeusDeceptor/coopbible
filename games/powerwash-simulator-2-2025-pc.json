@@ -1,0 +1,38 @@
+{
+  "id": "powerwash-simulator-2-2025-pc",
+  "name": "PowerWash Simulator 2",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 35, +Extra: 41",
+  "dev": "FuturLab",
+  "pub": "FuturLab",
+  "notes": "",
+  "release": "23.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/powerwash-simulator-2-2025-pc.jpg",
+  "logo": "images/logos/powerwash-simulator-2-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2968420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/PowerWash_Simulator_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

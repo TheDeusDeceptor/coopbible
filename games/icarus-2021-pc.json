@@ -1,0 +1,38 @@
+{
+  "id": "icarus-2021-pc",
+  "name": "ICARUS",
+  "platform": "PC",
+  "size": "70 GB",
+  "hltb": "Main: 36, +Extra: 39",
+  "dev": "RocketWerkz",
+  "pub": "RocketWerkz",
+  "notes": "",
+  "release": "03.12.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/icarus-2021-pc.jpg",
+  "logo": "images/logos/icarus-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1149460",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Icarus",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

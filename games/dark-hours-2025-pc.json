@@ -1,0 +1,38 @@
+{
+  "id": "dark-hours-2025-pc",
+  "name": "Dark Hours",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Piece of Cake studios",
+  "pub": "Kepler Ghost",
+  "notes": "",
+  "release": "23.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dark-hours-2025-pc.jpg",
+  "logo": "images/logos/dark-hours-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2208570",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dark_Hours",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

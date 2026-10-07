@@ -1,0 +1,38 @@
+{
+  "id": "escape-simulator-2-2025-pc",
+  "name": "Escape Simulator 2",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 11",
+  "dev": "Pine Studio",
+  "pub": "Pine Studio",
+  "notes": "",
+  "release": "27.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-simulator-2-2025-pc.jpg",
+  "logo": "images/logos/escape-simulator-2-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2879840",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_Simulator_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
