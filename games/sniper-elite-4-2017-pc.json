@@ -1,0 +1,38 @@
+{
+  "id": "sniper-elite-4-2017-pc",
+  "name": "Sniper Elite 4",
+  "platform": "PC",
+  "size": "55 GB",
+  "hltb": "Main: 11, +Extra: 18",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "",
+  "release": "13.02.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sniper-elite-4-2017-pc.jpg",
+  "logo": "images/logos/sniper-elite-4-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/312660",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sniper_Elite_4",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

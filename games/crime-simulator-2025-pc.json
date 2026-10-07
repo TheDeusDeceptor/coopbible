@@ -1,0 +1,33 @@
+{
+  "id": "crime-simulator-2025-pc",
+  "name": "Crime Simulator",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 20",
+  "dev": "CookieDev",
+  "pub": "Ultimate Games S.A.",
+  "notes": "",
+  "release": "17.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/crime-simulator-2025-pc.jpg",
+  "logo": "images/logos/crime-simulator-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2737070",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

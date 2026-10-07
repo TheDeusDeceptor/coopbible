@@ -1,0 +1,38 @@
+{
+  "id": "zombie-army-4-dead-war-2020-pc",
+  "name": "Zombie Army 4: Dead War",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 12, +Extra: 19",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "🅱️emuva",
+  "release": "04.02.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zombie-army-4-dead-war-2020-pc.jpg",
+  "logo": "images/logos/zombie-army-4-dead-war-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/694280",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Zombie_Army_4%3A_Dead_War",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

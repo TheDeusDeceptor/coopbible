@@ -1,0 +1,38 @@
+{
+  "id": "sniper-elite-v2-remastered-2019-pc",
+  "name": "Sniper Elite V2 Remastered",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "GOG version",
+  "release": "13.05.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sniper-elite-v2-remastered-2019-pc.jpg",
+  "logo": "images/logos/sniper-elite-v2-remastered-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/728740",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sniper_Elite_V2_Remastered",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07T21:01:56Z",
+  "updated": "2026-10-07T21:18:42Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -131,6 +131,14 @@
     "aragami-2-2021-pc",
     "destroy-all-humans-2-reprobed-2022-pc",
     "unruly-heroes-2019-pc",
-    "lego-voyagers-2025-pc"
+    "lego-voyagers-2025-pc",
+    "sackboy-a-big-adventure-2022-pc",
+    "sniper-elite-v2-remastered-2019-pc",
+    "sniper-elite-3-2014-pc",
+    "sniper-elite-4-2017-pc",
+    "sniper-elite-5-2022-pc",
+    "sniper-elite-resistance-2025-pc",
+    "zombie-army-4-dead-war-2020-pc",
+    "crime-simulator-2025-pc"
   ]
 }
