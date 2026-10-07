@@ -1,0 +1,38 @@
+{
+  "id": "kitaria-fables-2021-pc",
+  "name": "Kitaria Fables",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 17, +Extra: 20",
+  "dev": "Twin Hearts",
+  "pub": "PQube",
+  "notes": "",
+  "release": "01.09.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kitaria-fables-2021-pc.jpg",
+  "logo": "images/logos/kitaria-fables-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1356280",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Kitaria_Fables",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

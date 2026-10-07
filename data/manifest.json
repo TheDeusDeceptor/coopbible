@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T16:05:36Z",
+  "updated": "2026-10-07T20:11:12Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -3845,6 +3845,201 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "rune-ii-2019-pc": {
+      "id": "rune-ii-2019-pc",
+      "name": "RUNE II",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "—",
+      "dev": "Studio 369",
+      "pub": "Ragnarok Game",
+      "notes": "",
+      "release": "12.11.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rune-ii-2019-pc.jpg",
+      "logo": "images/logos/rune-ii-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/821290",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Rune_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "kitaria-fables-2021-pc": {
+      "id": "kitaria-fables-2021-pc",
+      "name": "Kitaria Fables",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 17, +Extra: 20",
+      "dev": "Twin Hearts",
+      "pub": "PQube",
+      "notes": "",
+      "release": "01.09.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kitaria-fables-2021-pc.jpg",
+      "logo": "images/logos/kitaria-fables-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1356280",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Kitaria_Fables",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "planet-centauri-2024-pc": {
+      "id": "planet-centauri-2024-pc",
+      "name": "Planet Centauri",
+      "platform": "PC",
+      "size": "0.4 GB",
+      "hltb": "—",
+      "dev": "Permadeath",
+      "pub": "Permadeath",
+      "notes": "",
+      "release": "12.12.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/planet-centauri-2024-pc.jpg",
+      "logo": "images/logos/planet-centauri-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/385380",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Planet_Centauri",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sea-of-stars-sunset-edition-2023-pc": {
+      "id": "sea-of-stars-sunset-edition-2023-pc",
+      "name": "Sea of Stars: Sunset Edition",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 28, +Extra: 36",
+      "dev": "Sabotage Studio",
+      "pub": "Sabotage Studio",
+      "notes": "",
+      "release": "28.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sea-of-stars-sunset-edition-2023-pc.jpg",
+      "logo": "images/logos/sea-of-stars-sunset-edition-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1244090",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sea_of_Stars%3A_Sunset_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Throes of the Watchmaker",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "shape-of-dreams-2025-pc": {
+      "id": "shape-of-dreams-2025-pc",
+      "name": "Shape of Dreams",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 8, +Extra: 26",
+      "dev": "Lizard Smoothie",
+      "pub": "NEOWIZ",
+      "notes": "",
+      "release": "10.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shape-of-dreams-2025-pc.jpg",
+      "logo": "images/logos/shape-of-dreams-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2444750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Shape_of_Dreams",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -3951,7 +4146,12 @@
       "painkiller-2025-pc",
       "void-crew-2024-pc",
       "len-s-island-2025-pc",
-      "ark-survival-evolved-2017-pc"
+      "ark-survival-evolved-2017-pc",
+      "rune-ii-2019-pc",
+      "kitaria-fables-2021-pc",
+      "planet-centauri-2024-pc",
+      "sea-of-stars-sunset-edition-2023-pc",
+      "shape-of-dreams-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

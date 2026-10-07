@@ -1,0 +1,38 @@
+{
+  "id": "rune-ii-2019-pc",
+  "name": "RUNE II",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "—",
+  "dev": "Studio 369",
+  "pub": "Ragnarok Game",
+  "notes": "",
+  "release": "12.11.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rune-ii-2019-pc.jpg",
+  "logo": "images/logos/rune-ii-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/821290",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Rune_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

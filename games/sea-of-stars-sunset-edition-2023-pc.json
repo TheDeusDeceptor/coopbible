@@ -1,0 +1,43 @@
+{
+  "id": "sea-of-stars-sunset-edition-2023-pc",
+  "name": "Sea of Stars: Sunset Edition",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 28, +Extra: 36",
+  "dev": "Sabotage Studio",
+  "pub": "Sabotage Studio",
+  "notes": "",
+  "release": "28.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sea-of-stars-sunset-edition-2023-pc.jpg",
+  "logo": "images/logos/sea-of-stars-sunset-edition-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1244090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sea_of_Stars%3A_Sunset_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Throes of the Watchmaker",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

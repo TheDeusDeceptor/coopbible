@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07T16:05:36Z",
+  "updated": "2026-10-07T20:11:12Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -104,6 +104,11 @@
     "painkiller-2025-pc",
     "void-crew-2024-pc",
     "len-s-island-2025-pc",
-    "ark-survival-evolved-2017-pc"
+    "ark-survival-evolved-2017-pc",
+    "rune-ii-2019-pc",
+    "kitaria-fables-2021-pc",
+    "planet-centauri-2024-pc",
+    "sea-of-stars-sunset-edition-2023-pc",
+    "shape-of-dreams-2025-pc"
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "id": "planet-centauri-2024-pc",
+  "name": "Planet Centauri",
+  "platform": "PC",
+  "size": "0.4 GB",
+  "hltb": "—",
+  "dev": "Permadeath",
+  "pub": "Permadeath",
+  "notes": "",
+  "release": "12.12.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/planet-centauri-2024-pc.jpg",
+  "logo": "images/logos/planet-centauri-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/385380",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Planet_Centauri",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
