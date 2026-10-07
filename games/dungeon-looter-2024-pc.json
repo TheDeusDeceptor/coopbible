@@ -1,0 +1,33 @@
+{
+  "id": "dungeon-looter-2024-pc",
+  "name": "Dungeon Looter",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Wappen Games",
+  "pub": "Wappen Games",
+  "notes": "",
+  "release": "13.05.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dungeon-looter-2024-pc.jpg",
+  "logo": "images/logos/dungeon-looter-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1228320",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

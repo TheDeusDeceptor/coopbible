@@ -1,0 +1,33 @@
+{
+  "id": "the-lord-of-the-rings-the-return-of-the-king-2003-pc",
+  "name": "The Lord of the Rings: The Return of the King",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "EA Redwood Shores",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "31.10.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-lord-of-the-rings-the-return-of-the-king-2003-pc.jpg",
+  "logo": "images/logos/the-lord-of-the-rings-the-return-of-the-king-2003-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings%3A_The_Return_of_the_King",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

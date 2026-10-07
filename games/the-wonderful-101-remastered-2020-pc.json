@@ -1,0 +1,38 @@
+{
+  "id": "the-wonderful-101-remastered-2020-pc",
+  "name": "The Wonderful 101: Remastered",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 15, +Extra: 19",
+  "dev": "PlatinumGames",
+  "pub": "PlatinumGames",
+  "notes": "Co-op specific mode",
+  "release": "19.05.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-wonderful-101-remastered-2020-pc.jpg",
+  "logo": "images/logos/the-wonderful-101-remastered-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1190400",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Wonderful_101%3A_Remastered",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

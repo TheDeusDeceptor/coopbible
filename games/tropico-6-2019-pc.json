@@ -1,0 +1,38 @@
+{
+  "id": "tropico-6-2019-pc",
+  "name": "Tropico 6",
+  "platform": "PC",
+  "size": "16 GB",
+  "hltb": "Main: 34, +Extra: 57",
+  "dev": "Limbic Entertainment",
+  "pub": "Kalypso Media",
+  "notes": "",
+  "release": "29.03.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tropico-6-2019-pc.jpg",
+  "logo": "images/logos/tropico-6-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/492720",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tropico_6",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

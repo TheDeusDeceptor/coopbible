@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T22:03:17Z",
+  "updated": "2026-10-07T22:16:43Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -5748,6 +5748,285 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "jester-a-foolish-ritual-2025-pc": {
+      "id": "jester-a-foolish-ritual-2025-pc",
+      "name": "Jester: A Foolish Ritual",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Fire Foot Studios",
+      "pub": "Fire Foot Studios",
+      "notes": "",
+      "release": "30.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/jester-a-foolish-ritual-2025-pc.jpg",
+      "logo": "images/logos/jester-a-foolish-ritual-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3607770",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dungeon-looter-2024-pc": {
+      "id": "dungeon-looter-2024-pc",
+      "name": "Dungeon Looter",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Wappen Games",
+      "pub": "Wappen Games",
+      "notes": "",
+      "release": "13.05.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dungeon-looter-2024-pc.jpg",
+      "logo": "images/logos/dungeon-looter-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1228320",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mercenaries-2-world-in-flames-2008-pc": {
+      "id": "mercenaries-2-world-in-flames-2008-pc",
+      "name": "Mercenaries 2: World in Flames",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Pandemic Studios",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "05.09.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mercenaries-2-world-in-flames-2008-pc.jpg",
+      "logo": "images/logos/mercenaries-2-world-in-flames-2008-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Mercenaries_2%3A_World_in_Flames",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-lord-of-the-rings-the-return-of-the-king-2003-pc": {
+      "id": "the-lord-of-the-rings-the-return-of-the-king-2003-pc",
+      "name": "The Lord of the Rings: The Return of the King",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "EA Redwood Shores",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "31.10.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-lord-of-the-rings-the-return-of-the-king-2003-pc.jpg",
+      "logo": "images/logos/the-lord-of-the-rings-the-return-of-the-king-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings%3A_The_Return_of_the_King",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-lord-of-the-rings-conquest-2009-pc": {
+      "id": "the-lord-of-the-rings-conquest-2009-pc",
+      "name": "The Lord of the Rings: Conquest",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Pandemic Studios",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "13.01.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-lord-of-the-rings-conquest-2009-pc.jpg",
+      "logo": "images/logos/the-lord-of-the-rings-conquest-2009-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings%3A_Conquest",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tropico-5-2014-pc": {
+      "id": "tropico-5-2014-pc",
+      "name": "Tropico 5",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 23, +Extra: 41",
+      "dev": "Haemimont Games",
+      "pub": "Kalypso Media",
+      "notes": "",
+      "release": "23.05.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tropico-5-2014-pc.jpg",
+      "logo": "images/logos/tropico-5-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/245620",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tropico_5",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tropico-6-2019-pc": {
+      "id": "tropico-6-2019-pc",
+      "name": "Tropico 6",
+      "platform": "PC",
+      "size": "16 GB",
+      "hltb": "Main: 34, +Extra: 57",
+      "dev": "Limbic Entertainment",
+      "pub": "Kalypso Media",
+      "notes": "",
+      "release": "29.03.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tropico-6-2019-pc.jpg",
+      "logo": "images/logos/tropico-6-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/492720",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tropico_6",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-wonderful-101-remastered-2020-pc": {
+      "id": "the-wonderful-101-remastered-2020-pc",
+      "name": "The Wonderful 101: Remastered",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 15, +Extra: 19",
+      "dev": "PlatinumGames",
+      "pub": "PlatinumGames",
+      "notes": "Co-op specific mode",
+      "release": "19.05.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-wonderful-101-remastered-2020-pc.jpg",
+      "logo": "images/logos/the-wonderful-101-remastered-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1190400",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Wonderful_101%3A_Remastered",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -5905,7 +6184,15 @@
       "native-hunter-2025-pc",
       "sg-zh-school-girl-zombie-hunter-2018-pc",
       "vietcong-2003-pc",
-      "vietcong-2-2005-pc"
+      "vietcong-2-2005-pc",
+      "jester-a-foolish-ritual-2025-pc",
+      "dungeon-looter-2024-pc",
+      "mercenaries-2-world-in-flames-2008-pc",
+      "the-lord-of-the-rings-the-return-of-the-king-2003-pc",
+      "the-lord-of-the-rings-conquest-2009-pc",
+      "tropico-5-2014-pc",
+      "tropico-6-2019-pc",
+      "the-wonderful-101-remastered-2020-pc"
     ],
     "early-access": [],
     "unreleased": [],

@@ -1,0 +1,33 @@
+{
+  "id": "jester-a-foolish-ritual-2025-pc",
+  "name": "Jester: A Foolish Ritual",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Fire Foot Studios",
+  "pub": "Fire Foot Studios",
+  "notes": "",
+  "release": "30.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/jester-a-foolish-ritual-2025-pc.jpg",
+  "logo": "images/logos/jester-a-foolish-ritual-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3607770",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

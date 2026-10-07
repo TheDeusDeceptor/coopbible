@@ -1,0 +1,33 @@
+{
+  "id": "the-lord-of-the-rings-conquest-2009-pc",
+  "name": "The Lord of the Rings: Conquest",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "Pandemic Studios",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "13.01.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-lord-of-the-rings-conquest-2009-pc.jpg",
+  "logo": "images/logos/the-lord-of-the-rings-conquest-2009-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings%3A_Conquest",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

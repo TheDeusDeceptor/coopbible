@@ -1,0 +1,38 @@
+{
+  "id": "tropico-5-2014-pc",
+  "name": "Tropico 5",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 23, +Extra: 41",
+  "dev": "Haemimont Games",
+  "pub": "Kalypso Media",
+  "notes": "",
+  "release": "23.05.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tropico-5-2014-pc.jpg",
+  "logo": "images/logos/tropico-5-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/245620",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tropico_5",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
