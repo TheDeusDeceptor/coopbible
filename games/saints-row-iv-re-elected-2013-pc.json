@@ -1,0 +1,38 @@
+{
+  "id": "saints-row-iv-re-elected-2013-pc",
+  "name": "Saints Row IV: Re-Elected",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 15, +Extra: 26",
+  "dev": "Volition",
+  "pub": "Deep Silver",
+  "notes": "",
+  "release": "19.08.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/saints-row-iv-re-elected-2013-pc.jpg",
+  "logo": "images/logos/saints-row-iv-re-elected-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/206420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Saints_Row_IV%3A_Re-Elected",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T21:18:42Z",
+  "updated": "2026-10-07T21:35:34Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -5170,6 +5170,310 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "marvel-cosmic-invasion-2025-pc": {
+      "id": "marvel-cosmic-invasion-2025-pc",
+      "name": "MARVEL Cosmic Invasion",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 4, +Extra: 6",
+      "dev": "Tribute Games",
+      "pub": "DotEmu",
+      "notes": "",
+      "release": "01.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/marvel-cosmic-invasion-2025-pc.jpg",
+      "logo": "images/logos/marvel-cosmic-invasion-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2753970",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Marvel_Cosmic_Invasion",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "forewarned-2024-pc": {
+      "id": "forewarned-2024-pc",
+      "name": "FOREWARNED",
+      "platform": "PC",
+      "size": "14 GB",
+      "hltb": "Main: 3",
+      "dev": "Dreambyte Games",
+      "pub": "Dreambyte Games",
+      "notes": "",
+      "release": "25.04.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/forewarned-2024-pc.jpg",
+      "logo": "images/logos/forewarned-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1562420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/FOREWARNED",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "saints-row-2-2009-pc": {
+      "id": "saints-row-2-2009-pc",
+      "name": "Saints Row 2",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 20, +Extra: 29",
+      "dev": "Volition",
+      "pub": "Deep Silver",
+      "notes": "Requires Kobraworks Juiced Patch",
+      "release": "07.01.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/saints-row-2-2009-pc.jpg",
+      "logo": "images/logos/saints-row-2-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/9480",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Saints_Row_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "saints-row-the-third-remastered-2020-pc": {
+      "id": "saints-row-the-third-remastered-2020-pc",
+      "name": "Saints Row: The Third Remastered",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 13, +Extra: 22",
+      "dev": "Volition",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "22.05.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/saints-row-the-third-remastered-2020-pc.jpg",
+      "logo": "images/logos/saints-row-the-third-remastered-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/978300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_The_Third_Remastered",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "saints-row-iv-re-elected-2013-pc": {
+      "id": "saints-row-iv-re-elected-2013-pc",
+      "name": "Saints Row IV: Re-Elected",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 15, +Extra: 26",
+      "dev": "Volition",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "19.08.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/saints-row-iv-re-elected-2013-pc.jpg",
+      "logo": "images/logos/saints-row-iv-re-elected-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/206420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Saints_Row_IV%3A_Re-Elected",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "saints-row-gat-out-of-hell-2015-pc": {
+      "id": "saints-row-gat-out-of-hell-2015-pc",
+      "name": "Saints Row: Gat out of Hell",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 4, +Extra: 8",
+      "dev": "Volition",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "20.01.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/saints-row-gat-out-of-hell-2015-pc.jpg",
+      "logo": "images/logos/saints-row-gat-out-of-hell-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/301910",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_Gat_out_of_Hell",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "saints-row-2022-pc": {
+      "id": "saints-row-2022-pc",
+      "name": "Saints Row",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 13, +Extra: 27",
+      "dev": "Volition",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "23.08.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/saints-row-2022-pc.jpg",
+      "logo": "images/logos/saints-row-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/742420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Saints_Row",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-0-director-s-cut-2025-pc": {
+      "id": "yakuza-0-director-s-cut-2025-pc",
+      "name": "Yakuza 0 Director's Cut",
+      "platform": "PC",
+      "size": "95 GB",
+      "hltb": "Main: 30, +Extra: 55",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "The Red Light Raid (wave-based enemy survival)",
+      "release": "08.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-0-director-s-cut-2025-pc.jpg",
+      "logo": "images/logos/yakuza-0-director-s-cut-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2988580",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_0_Director's_Cut",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -5311,7 +5615,15 @@
       "sniper-elite-5-2022-pc",
       "sniper-elite-resistance-2025-pc",
       "zombie-army-4-dead-war-2020-pc",
-      "crime-simulator-2025-pc"
+      "crime-simulator-2025-pc",
+      "marvel-cosmic-invasion-2025-pc",
+      "forewarned-2024-pc",
+      "saints-row-2-2009-pc",
+      "saints-row-the-third-remastered-2020-pc",
+      "saints-row-iv-re-elected-2013-pc",
+      "saints-row-gat-out-of-hell-2015-pc",
+      "saints-row-2022-pc",
+      "yakuza-0-director-s-cut-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

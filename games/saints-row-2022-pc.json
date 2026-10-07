@@ -1,0 +1,38 @@
+{
+  "id": "saints-row-2022-pc",
+  "name": "Saints Row",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 13, +Extra: 27",
+  "dev": "Volition",
+  "pub": "Deep Silver",
+  "notes": "",
+  "release": "23.08.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/saints-row-2022-pc.jpg",
+  "logo": "images/logos/saints-row-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/742420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Saints_Row",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

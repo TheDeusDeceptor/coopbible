@@ -1,0 +1,38 @@
+{
+  "id": "saints-row-gat-out-of-hell-2015-pc",
+  "name": "Saints Row: Gat out of Hell",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 4, +Extra: 8",
+  "dev": "Volition",
+  "pub": "Deep Silver",
+  "notes": "",
+  "release": "20.01.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/saints-row-gat-out-of-hell-2015-pc.jpg",
+  "logo": "images/logos/saints-row-gat-out-of-hell-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/301910",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_Gat_out_of_Hell",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

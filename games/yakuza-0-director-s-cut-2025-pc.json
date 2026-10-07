@@ -1,0 +1,38 @@
+{
+  "id": "yakuza-0-director-s-cut-2025-pc",
+  "name": "Yakuza 0 Director's Cut",
+  "platform": "PC",
+  "size": "95 GB",
+  "hltb": "Main: 30, +Extra: 55",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "The Red Light Raid (wave-based enemy survival)",
+  "release": "08.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/yakuza-0-director-s-cut-2025-pc.jpg",
+  "logo": "images/logos/yakuza-0-director-s-cut-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2988580",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Yakuza_0_Director's_Cut",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

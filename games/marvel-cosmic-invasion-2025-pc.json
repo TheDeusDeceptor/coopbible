@@ -1,0 +1,38 @@
+{
+  "id": "marvel-cosmic-invasion-2025-pc",
+  "name": "MARVEL Cosmic Invasion",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Tribute Games",
+  "pub": "DotEmu",
+  "notes": "",
+  "release": "01.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/marvel-cosmic-invasion-2025-pc.jpg",
+  "logo": "images/logos/marvel-cosmic-invasion-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2753970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Marvel_Cosmic_Invasion",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
