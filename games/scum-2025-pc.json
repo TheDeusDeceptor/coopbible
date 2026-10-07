@@ -1,0 +1,38 @@
+{
+  "id": "scum-2025-pc",
+  "name": "SCUM",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 34",
+  "dev": "Gamepires",
+  "pub": "Gamepires",
+  "notes": "",
+  "release": "17.06.2025",
+  "ea_release": "",
+  "screenshot": "https://images.steamusercontent.com/ugc/11958273115084274193/A94A75BCAFD5616731C73D3106BB55E5260183D2/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+  "logo": "https://cdn2.steamgriddb.com/logo/e042cf7e79b8afe6a0d22c5bb817bfd1.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/513710",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Scum",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
