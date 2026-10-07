@@ -1,0 +1,38 @@
+{
+  "id": "call-to-arms-2018-pc",
+  "name": "Call to Arms",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "Main: 13, +Extra: 65",
+  "dev": "Digitalmindsoft",
+  "pub": "Digitalmindsoft",
+  "notes": "DLC files missing?",
+  "release": "27.04.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/call-to-arms-2018-pc.jpg",
+  "logo": "images/logos/call-to-arms-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/302670",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Call_to_Arms",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

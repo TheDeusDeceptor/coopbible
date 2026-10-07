@@ -1,0 +1,38 @@
+{
+  "id": "killing-floor-2-2016-pc",
+  "name": "Killing Floor 2",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 16, +Extra: 94",
+  "dev": "Tripwire Interactive",
+  "pub": "Tripwire Interactive",
+  "notes": "",
+  "release": "18.11.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/killing-floor-2-2016-pc.jpg",
+  "logo": "images/logos/killing-floor-2-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/232090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Killing_Floor_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

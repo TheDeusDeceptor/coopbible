@@ -1,0 +1,38 @@
+{
+  "id": "painkiller-2025-pc",
+  "name": "Painkiller",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Anshar Studios",
+  "pub": "3D Realms",
+  "notes": "",
+  "release": "21.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/painkiller-2025-pc.jpg",
+  "logo": "images/logos/painkiller-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2300120",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Painkiller",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "astroneer-2019-pc",
+  "name": "Astroneer",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 27, +Extra: 52",
+  "dev": "System Era Softworks",
+  "pub": "System Era Softworks",
+  "notes": "",
+  "release": "05.02.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/astroneer-2019-pc.jpg",
+  "logo": "images/logos/astroneer-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/361420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Astroneer",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

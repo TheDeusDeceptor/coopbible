@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T15:24:54Z",
+  "updated": "2026-10-07T15:49:49Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -3407,7 +3407,7 @@
       "release": "14.10.2021",
       "ea_release": "",
       "screenshot": "images/screenshots/the-riftbreaker-2021-pc.jpg",
-      "logo": "https://cdn2.steamgriddb.com/logo/0c4829f18b16e5e80b8f9cae88a5d17e.png",
+      "logo": "images/logos/the-riftbreaker-2021-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -3445,7 +3445,7 @@
       "release": "17.06.2025",
       "ea_release": "",
       "screenshot": "https://images.steamusercontent.com/ugc/11958273115084274193/A94A75BCAFD5616731C73D3106BB55E5260183D2/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
-      "logo": "https://cdn2.steamgriddb.com/logo/e042cf7e79b8afe6a0d22c5bb817bfd1.png",
+      "logo": "images/logos/scum-2025-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -3464,6 +3464,267 @@
         "installed": false,
         "localCoop": false,
         "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "call-to-arms-2018-pc": {
+      "id": "call-to-arms-2018-pc",
+      "name": "Call to Arms",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 13, +Extra: 65",
+      "dev": "Digitalmindsoft",
+      "pub": "Digitalmindsoft",
+      "notes": "DLC files missing?",
+      "release": "27.04.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/call-to-arms-2018-pc.jpg",
+      "logo": "images/logos/call-to-arms-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/302670",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Call_to_Arms",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "call-to-arms-gates-of-hell-ostfront-2021-pc": {
+      "id": "call-to-arms-gates-of-hell-ostfront-2021-pc",
+      "name": "Call to Arms - Gates of Hell: Ostfront",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 130",
+      "dev": "Barbedwire Studios",
+      "pub": "Digitalmindsoft",
+      "notes": "",
+      "release": "11.06.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/call-to-arms-gates-of-hell-ostfront-2021-pc.jpg",
+      "logo": "images/logos/call-to-arms-gates-of-hell-ostfront-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/400750",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "daemon-x-machina-titanic-scion-2025-pc": {
+      "id": "daemon-x-machina-titanic-scion-2025-pc",
+      "name": "Daemon X Machina: Titanic Scion",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 17, +Extra: 31",
+      "dev": "Marvelous",
+      "pub": "XSEED",
+      "notes": "",
+      "release": "05.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/daemon-x-machina-titanic-scion-2025-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/7cf246d172555d3c05dfebe8290ad0d5.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1342490",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Daemon_X_Machina%3A_Titanic_Scion",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "killing-floor-2-2016-pc": {
+      "id": "killing-floor-2-2016-pc",
+      "name": "Killing Floor 2",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 16, +Extra: 94",
+      "dev": "Tripwire Interactive",
+      "pub": "Tripwire Interactive",
+      "notes": "",
+      "release": "18.11.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/killing-floor-2-2016-pc.jpg",
+      "logo": "images/logos/killing-floor-2-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/232090",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Killing_Floor_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wild-hearts-2023-pc": {
+      "id": "wild-hearts-2023-pc",
+      "name": "WILD HEARTS",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 39, +Extra: 53",
+      "dev": "Omega Force",
+      "pub": "Electronic Arts",
+      "notes": "🅱️emuvo.",
+      "release": "16.02.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wild-hearts-2023-pc.jpg",
+      "logo": "images/logos/wild-hearts-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1938010",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Wild_Hearts",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "astroneer-2019-pc": {
+      "id": "astroneer-2019-pc",
+      "name": "Astroneer",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 27, +Extra: 52",
+      "dev": "System Era Softworks",
+      "pub": "System Era Softworks",
+      "notes": "",
+      "release": "05.02.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/astroneer-2019-pc.jpg",
+      "logo": "images/logos/astroneer-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/361420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Astroneer",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "painkiller-2025-pc": {
+      "id": "painkiller-2025-pc",
+      "name": "Painkiller",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 5, +Extra: 8",
+      "dev": "Anshar Studios",
+      "pub": "3D Realms",
+      "notes": "",
+      "release": "21.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/painkiller-2025-pc.jpg",
+      "logo": "images/logos/painkiller-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2300120",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Painkiller",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
         "ownedSteam": false,
         "gamepass": false
       },
@@ -3566,7 +3827,14 @@
       "misery-2025-pc",
       "escape-simulator-2-2025-pc",
       "the-riftbreaker-2021-pc",
-      "scum-2025-pc"
+      "scum-2025-pc",
+      "call-to-arms-2018-pc",
+      "call-to-arms-gates-of-hell-ostfront-2021-pc",
+      "daemon-x-machina-titanic-scion-2025-pc",
+      "killing-floor-2-2016-pc",
+      "wild-hearts-2023-pc",
+      "astroneer-2019-pc",
+      "painkiller-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

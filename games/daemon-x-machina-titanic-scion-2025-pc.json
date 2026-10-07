@@ -1,0 +1,38 @@
+{
+  "id": "daemon-x-machina-titanic-scion-2025-pc",
+  "name": "Daemon X Machina: Titanic Scion",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 17, +Extra: 31",
+  "dev": "Marvelous",
+  "pub": "XSEED",
+  "notes": "",
+  "release": "05.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/daemon-x-machina-titanic-scion-2025-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/7cf246d172555d3c05dfebe8290ad0d5.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1342490",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Daemon_X_Machina%3A_Titanic_Scion",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07T15:24:54Z",
+  "updated": "2026-10-07T15:49:49Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -94,6 +94,13 @@
     "misery-2025-pc",
     "escape-simulator-2-2025-pc",
     "the-riftbreaker-2021-pc",
-    "scum-2025-pc"
+    "scum-2025-pc",
+    "call-to-arms-2018-pc",
+    "call-to-arms-gates-of-hell-ostfront-2021-pc",
+    "daemon-x-machina-titanic-scion-2025-pc",
+    "killing-floor-2-2016-pc",
+    "wild-hearts-2023-pc",
+    "astroneer-2019-pc",
+    "painkiller-2025-pc"
   ]
 }
