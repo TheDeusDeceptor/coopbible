@@ -1,0 +1,38 @@
+{
+  "id": "aragami-2-2021-pc",
+  "name": "Aragami 2",
+  "platform": "PC",
+  "size": "11 GB",
+  "hltb": "Main: 16, +Extra: 27",
+  "dev": "Lince Works",
+  "pub": "Lince Works",
+  "notes": "",
+  "release": "17.09.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/aragami-2-2021-pc.jpg",
+  "logo": "images/logos/aragami-2-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1158370",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Aragami_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "lego-voyagers-2025-pc",
+  "name": "LEGO Voyagers",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Light Brick Studio",
+  "pub": "Annapurna Interactive",
+  "notes": "",
+  "release": "15.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lego-voyagers-2025-pc.jpg",
+  "logo": "images/logos/lego-voyagers-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1538550",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Lego_Voyagers",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

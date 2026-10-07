@@ -1,0 +1,38 @@
+{
+  "id": "unruly-heroes-2019-pc",
+  "name": "Unruly Heroes",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Magic Design Studios",
+  "pub": "Magic Design Studios",
+  "notes": "",
+  "release": "23.01.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/unruly-heroes-2019-pc.jpg",
+  "logo": "images/logos/unruly-heroes-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/780350",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Unruly_Heroes",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

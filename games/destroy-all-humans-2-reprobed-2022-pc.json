@@ -1,0 +1,38 @@
+{
+  "id": "destroy-all-humans-2-reprobed-2022-pc",
+  "name": "Destroy All Humans! 2: Reprobed",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 11, +Extra: 17",
+  "dev": "Black Forest Games",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "30.08.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/destroy-all-humans-2-reprobed-2022-pc.jpg",
+  "logo": "images/logos/destroy-all-humans-2-reprobed-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1266700",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Destroy_All_Humans!_2_-_Reprobed",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

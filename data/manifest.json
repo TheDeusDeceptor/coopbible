@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T20:48:06Z",
+  "updated": "2026-10-07T21:01:56Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -4643,6 +4643,234 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "heavenly-bodies-2021-pc": {
+      "id": "heavenly-bodies-2021-pc",
+      "name": "Heavenly Bodies",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "2pt Interactive",
+      "pub": "2pt Interactive",
+      "notes": "",
+      "release": "07.12.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/heavenly-bodies-2021-pc.jpg",
+      "logo": "images/logos/heavenly-bodies-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1138850",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Heavenly_Bodies",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "aragami-2016-pc": {
+      "id": "aragami-2016-pc",
+      "name": "Aragami",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 7, +Extra: 10",
+      "dev": "Lince Works",
+      "pub": "Lince Works",
+      "notes": "",
+      "release": "04.10.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/aragami-2016-pc.jpg",
+      "logo": "images/logos/aragami-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/280160",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Aragami",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "aragami-2-2021-pc": {
+      "id": "aragami-2-2021-pc",
+      "name": "Aragami 2",
+      "platform": "PC",
+      "size": "11 GB",
+      "hltb": "Main: 16, +Extra: 27",
+      "dev": "Lince Works",
+      "pub": "Lince Works",
+      "notes": "",
+      "release": "17.09.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/aragami-2-2021-pc.jpg",
+      "logo": "images/logos/aragami-2-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1158370",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Aragami_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "destroy-all-humans-2-reprobed-2022-pc": {
+      "id": "destroy-all-humans-2-reprobed-2022-pc",
+      "name": "Destroy All Humans! 2: Reprobed",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 11, +Extra: 17",
+      "dev": "Black Forest Games",
+      "pub": "THQ Nordic",
+      "notes": "",
+      "release": "30.08.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/destroy-all-humans-2-reprobed-2022-pc.jpg",
+      "logo": "images/logos/destroy-all-humans-2-reprobed-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1266700",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Destroy_All_Humans!_2_-_Reprobed",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "unruly-heroes-2019-pc": {
+      "id": "unruly-heroes-2019-pc",
+      "name": "Unruly Heroes",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 9, +Extra: 12",
+      "dev": "Magic Design Studios",
+      "pub": "Magic Design Studios",
+      "notes": "",
+      "release": "23.01.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/unruly-heroes-2019-pc.jpg",
+      "logo": "images/logos/unruly-heroes-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/780350",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Unruly_Heroes",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lego-voyagers-2025-pc": {
+      "id": "lego-voyagers-2025-pc",
+      "name": "LEGO Voyagers",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 4, +Extra: 5",
+      "dev": "Light Brick Studio",
+      "pub": "Annapurna Interactive",
+      "notes": "",
+      "release": "15.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lego-voyagers-2025-pc.jpg",
+      "logo": "images/logos/lego-voyagers-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1538550",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Lego_Voyagers",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -4770,7 +4998,13 @@
       "orcs-must-die-deathtrap-2025-pc",
       "magicka-2011-pc",
       "magicka-2-2015-pc",
-      "nine-parchments-2017-pc"
+      "nine-parchments-2017-pc",
+      "heavenly-bodies-2021-pc",
+      "aragami-2016-pc",
+      "aragami-2-2021-pc",
+      "destroy-all-humans-2-reprobed-2022-pc",
+      "unruly-heroes-2019-pc",
+      "lego-voyagers-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],
