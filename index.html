@@ -19,7 +19,7 @@
     --font-body:'Inter',system-ui,sans-serif;
     --gold:#fbbf24;--gold-line:rgba(251,191,36,.55);
     --gold-soft:rgba(251,191,36,.12);--gold-glow:rgba(251,191,36,.45);
-    --matrix:#39ff14;--matrix-bright:#c8ffc8;--matrix-line:rgba(57,255,20,.5);--matrix-soft:rgba(57,255,20,.08);
+    --drift:#22d3ee;--drift-bright:#67e8f9;--drift-line:rgba(34,211,238,.5);--drift-soft:rgba(34,211,238,.08);--drift-glow:rgba(34,211,238,.55);
   }
   body[data-group="single"]{
     --bg:#0d0708;--bg-glow:#1a0b0e;--card:#160d10;--border:#2a161b;
@@ -32,7 +32,7 @@
   ::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;border:2px solid transparent;background-clip:padding-box}
   ::-webkit-scrollbar-thumb:hover{background:var(--accent-line);background-clip:padding-box}
   html{scroll-behavior:smooth}
-  body{background:radial-gradient(ellipse 80% 55% at 50% -10%, var(--bg-glow) 0%, transparent 60%),var(--bg);background-attachment:fixed;color:var(--text);font-family:var(--font-body);min-height:100vh;padding:1.75rem;}
+  body{background:radial-gradient(ellipse 80% 55% at 50% -10%, var(--bg-glow) 0%, transparent 60%),var(--bg);background-attachment:fixed;color:var(--text);font-family:var(--font-body);min-height:100vh;padding:1.75rem;overflow-x:clip;}
   .icon{display:inline-block;width:.85em;height:.85em;background-color:currentColor;-webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;flex-shrink:0;vertical-align:middle;}
   .icon-pcgw{-webkit-mask-image:url(icons/wrench.svg);mask-image:url(icons/wrench.svg);}
   .icon-nexus{-webkit-mask-image:url(icons/nexus.svg);mask-image:url(icons/nexus.svg);}
@@ -69,8 +69,8 @@
   .header-left .random-btn:hover{color:#fde68a;border-color:var(--gold);background:rgba(251,191,36,.16);box-shadow:0 0 10px rgba(251,191,36,.3);}
   .header-left .guess-btn{color:var(--purple);border-color:rgba(167,139,250,.5);background:rgba(167,139,250,.1);}
   .header-left .guess-btn:hover{color:#c4b5fd;border-color:var(--purple);background:rgba(167,139,250,.2);box-shadow:0 0 10px rgba(167,139,250,.35);}
-  .header-left .recall-btn{color:var(--matrix);border-color:var(--matrix-line);background:var(--matrix-soft);}
-  .header-left .recall-btn:hover{color:var(--matrix-bright);border-color:var(--matrix);background:rgba(57,255,20,.16);box-shadow:0 0 10px rgba(57,255,20,.4);}
+  .header-left .drift-btn{color:var(--drift);border-color:var(--drift-line);background:var(--drift-soft);}
+  .header-left .drift-btn:hover{color:var(--drift-bright);border-color:var(--drift);background:rgba(34,211,238,.16);box-shadow:0 0 10px rgba(34,211,238,.4);}
   .header-left .tools-btn,.header-left .void-btn{color:var(--muted);border-color:var(--border);display:none;}
   body.admin-on .header-left .tools-btn,
   body.admin-on .header-left .void-btn{display:inline-flex;}
@@ -82,7 +82,7 @@
   .header-left .random-btn .dice-icon{width:16px;height:16px;display:block;flex-shrink:0;color:currentColor;}
   .header-left .random-btn .dice-icon svg{width:100%;height:100%;display:block;}
   .header-left .guess-btn svg{width:16px;height:16px;display:block;flex-shrink:0;}
-  .header-left .recall-btn svg{width:16px;height:16px;display:block;flex-shrink:0;}
+  .header-left .drift-btn svg{width:16px;height:16px;display:block;flex-shrink:0;}
   .header-left .tools-btn .icon,.header-left .void-btn .icon{width:14px;height:14px;}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 
@@ -123,13 +123,25 @@
   }
   .toolbar::before{
     content:"";
-    position:absolute;top:0;bottom:0;
+    position:absolute;
+    top:-.5rem;bottom:-.5rem;
     left:calc(-50vw + 50%);right:calc(-50vw + 50%);
-    background:rgba(10,13,20,.9);
+    background:rgba(10,13,20,.92);
     backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-    border-bottom:1px solid var(--border);
-    z-index:-1;pointer-events:none;
+    -webkit-mask-image:linear-gradient(to bottom,
+        transparent 0,
+        black 1.25rem,
+        black calc(100% - 1.25rem),
+        transparent 100%);
+    mask-image:linear-gradient(to bottom,
+        transparent 0,
+        black 1.25rem,
+        black calc(100% - 1.25rem),
+        transparent 100%);
+    z-index:-1;
+    pointer-events:none;
   }
+  body[data-group="single"] .toolbar::before{background:rgba(13,7,8,.92);}
   .toolbar.empty{display:none}
   .tb-left{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
   .tb-right{margin-left:auto;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;}
@@ -204,7 +216,7 @@
   .beaten-row[draggable="true"]{cursor:grab;}
   .shot{width:70%;aspect-ratio:16 / 9;background:#000;flex-shrink:0;position:relative;display:grid;place-items:center;overflow:hidden;}
   .shot img,.shot video{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0;}
-  .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:55%;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
+  .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:30%;background:linear-gradient(to top,rgba(0,0,0,.7) 0%,rgba(0,0,0,.35) 45%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
   .overlay{position:absolute;left:.55rem;right:.55rem;top:.5rem;bottom:.5rem;z-index:2;pointer-events:none;}
   .overlay-tl{position:absolute;left:0;top:0;display:flex;flex-direction:column;gap:.3rem;align-items:flex-start;}
   .overlay-tr{position:absolute;right:0;top:0;display:flex;flex-direction:column;gap:.3rem;align-items:flex-end;}
@@ -326,8 +338,6 @@
   .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;width:min(95vw, 1300px);max-width:min(95vw, 1300px);display:flex;flex-direction:column;}
   .modal-hero{position:relative;background:#000;display:grid;place-items:center;overflow:hidden;flex-shrink:0;aspect-ratio:16/9;min-width:640px;}
   .modal-hero img.hero-img,.modal-hero video.hero-video{display:block;width:100%;height:100%;object-fit:cover;}
-  .modal-hero::before{content:"";position:absolute;left:0;top:0;width:60%;height:65%;background:linear-gradient(to bottom right,rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 65%);pointer-events:none;z-index:1;}
-  .modal-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:60%;background:linear-gradient(to top,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
   .modal-logo{position:absolute;bottom:1rem;right:1rem;width:120px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9)) drop-shadow(0 2px 30px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
   .modal-logo img{max-width:100%;max-height:100%;object-fit:contain}
   .modal-logo .ph{font-size:.5rem;letter-spacing:.14em;color:#3a4356}
@@ -648,7 +658,7 @@
   .random-spin-btn:hover{filter:brightness(1.08);box-shadow:0 0 32px var(--gold-glow);}
   .random-spin-btn:disabled{opacity:.55;cursor:wait;box-shadow:none;filter:none;}
 
-  /* ═══ UNIFIED CLOSE X — shared across all three overlays ═══ */
+  /* ═══ UNIFIED CLOSE X — shared across all overlays ═══ */
   .ov-close{
     position:fixed;top:1rem;left:1rem;z-index:250;
     width:38px;height:38px;border-radius:8px;
@@ -670,7 +680,7 @@
   }
   .ov-close.ov-gold{--oc:#fbbf24;--oc-bright:#fde68a;--oc-line:rgba(251,191,36,.55);--oc-soft:rgba(251,191,36,.16);--oc-glow:rgba(251,191,36,.5)}
   .ov-close.ov-purple{--oc:#a78bfa;--oc-bright:#c4b5fd;--oc-line:rgba(167,139,250,.55);--oc-soft:rgba(167,139,250,.16);--oc-glow:rgba(167,139,250,.5)}
-  .ov-close.ov-green{--oc:#39ff14;--oc-bright:#c8ffc8;--oc-line:rgba(57,255,20,.55);--oc-soft:rgba(57,255,20,.16);--oc-glow:rgba(57,255,20,.5)}
+  .ov-close.ov-cyan{--oc:#22d3ee;--oc-bright:#67e8f9;--oc-line:rgba(34,211,238,.55);--oc-soft:rgba(34,211,238,.16);--oc-glow:rgba(34,211,238,.5)}
 
   @media (max-width:1100px){.tb-right{width:100%;margin-left:0;padding-top:.6rem;border-top:1px solid var(--border)}.search-box input{width:100%;max-width:280px}}
   @media (max-width:1000px){.series-game-row{grid-template-columns:minmax(180px,1.5fr) 100px 90px 130px 80px 80px minmax(140px,1.3fr) 70px;gap:.65rem;padding:.55rem 1rem;font-size:.82rem;}}
@@ -879,158 +889,94 @@
     .gtg-diff-btn{width:100%}
   }
 </style>
-<!-- ═══ RECALL CSS ═══ -->
+<!-- ═══ DRIFT CSS ═══ -->
 <style>
-  .rc-overlay{position:fixed;inset:0;z-index:9600;display:none;background:#000;font-family:'VT323',monospace;color:#39ff14;overflow:hidden;-webkit-font-smoothing:antialiased;}
-  .rc-overlay.open{display:block}
-  .rc-overlay *{box-sizing:border-box}
+  .drift-overlay{position:fixed;inset:0;z-index:9600;display:none;background:#000;font-family:'Chakra Petch',system-ui,sans-serif;color:#e6faff;overflow-y:auto;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+  .drift-overlay.open{display:block;}
+  .drift-overlay *{box-sizing:border-box;}
 
-  .rc-screen{position:absolute;inset:0;background:#020402;padding:2rem 1.5rem;display:flex;align-items:flex-start;justify-content:center;overflow-y:auto;}
-  .rc-screen::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:10;background:repeating-linear-gradient(0deg, transparent 0 2px, rgba(0,0,0,.42) 2px 3px);}
-  .rc-screen::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:9;background:radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,.85) 100%);}
-  .rc-screen-bg{position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse 70% 50% at 50% 0%, rgba(57,255,20,.04) 0%, transparent 60%), radial-gradient(ellipse 80% 60% at 50% 100%, rgba(57,255,20,.02) 0%, transparent 60%);}
-  .rc-wrap{max-width:1400px;width:100%;margin:0 auto;position:relative;z-index:1;display:flex;flex-direction:column;gap:1.1rem;}
+  .drift-bg-grid{position:absolute;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(34,211,238,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.04) 1px,transparent 1px);background-size:40px 40px;}
+  .drift-bg-glow{position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(34,211,238,.10),transparent 60%);}
 
-  .rc-hud{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:.7rem;border-bottom:1px solid rgba(57,255,20,.35);font-size:1rem;letter-spacing:.06em;text-shadow:0 0 10px rgba(57,255,20,.6);}
-  .rc-hud .sys{color:#00c832}
-  .rc-hud .score{color:#c8ffc8;font-size:1.5rem;text-shadow:0 0 6px #ffffff, 0 0 14px #39ff14, 0 0 30px rgba(57,255,20,.5);transition:transform .25s ease;}
-  .rc-hud .score.bump{transform:scale(1.15)}
+  .drift-view{display:none;min-height:100vh;padding:2rem 1rem;flex-direction:column;align-items:center;justify-content:center;position:relative;z-index:1;}
+  .drift-view.on{display:flex;}
+  .drift-view.drift-game-view.on{justify-content:flex-start;padding-top:1.5rem;}
 
-  .rc-ai{min-height:1.6em;color:#00c832;font-size:1.05rem;letter-spacing:.04em;padding:.2rem 0;text-shadow:0 0 6px rgba(57,255,20,.4);}
-  .rc-ai .rc-caret{display:inline-block;width:9px;height:1em;background:#00c832;vertical-align:middle;margin-left:2px;animation:rcBlink .9s steps(2,end) infinite;}
-  @keyframes rcBlink{0%,49%{opacity:1}50%,100%{opacity:.15}}
+  .drift-splash-inner{width:100%;max-width:1000px;margin:auto;display:flex;flex-direction:column;align-items:center;gap:clamp(1.5rem,4vw,3rem);text-align:center;animation:driftSplashIn .5s cubic-bezier(.2,.7,.3,1);}
+  @keyframes driftSplashIn{from{opacity:0;transform:translateY(20px) scale(.96)}to{opacity:1;transform:none}}
+  .drift-splash-emojis{display:flex;align-items:center;justify-content:center;gap:clamp(.5rem,1.5vw,1rem);font-size:clamp(5rem,18vw,12rem);line-height:1;filter:drop-shadow(0 0 60px rgba(34,211,238,.2));}
+  .drift-splash-emojis span:nth-child(1){transform:rotate(-8deg) translateY(.06em)}
+  .drift-splash-emojis span:nth-child(2){transform:translateY(-.12em);font-size:1.15em}
+  .drift-splash-emojis span:nth-child(3){transform:rotate(8deg) translateY(.06em)}
+  .drift-splash-title{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(2.4rem,8vw,5rem);letter-spacing:.18em;color:#67e8f9;text-shadow:0 0 14px rgba(34,211,238,.7),0 0 40px rgba(34,211,238,.4);margin-top:-.5rem;}
+  .drift-diff-row{display:flex;gap:clamp(.6rem,1.5vw,1.2rem);justify-content:center;width:100%;max-width:760px;flex-wrap:wrap;}
+  .drift-diff-btn{flex:1;min-width:140px;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(.85rem,1.6vw,1.05rem);letter-spacing:.16em;padding:clamp(.9rem,2vw,1.2rem) clamp(.6rem,2vw,2rem);background:transparent;border:2px solid #22d3ee;color:#67e8f9;border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(34,211,238,.5);box-shadow:0 4px 0 rgba(0,0,0,.5);}
+  .drift-diff-btn:hover{background:#22d3ee;color:#04141a;text-shadow:none;box-shadow:0 0 26px rgba(34,211,238,.55),0 4px 0 rgba(0,0,0,.5);transform:translateY(-2px);}
+  .drift-diff-btn:active{transform:translateY(2px)}
+  .drift-splash-scores{display:flex;justify-content:space-between;width:100%;max-width:760px;font-family:'Chakra Petch',system-ui,sans-serif;font-size:.72rem;letter-spacing:.14em;padding:0 clamp(.5rem,1vw,1rem);margin-top:-.5rem;color:#67e8f9;}
+  .drift-splash-scores .col{display:flex;flex-direction:column;gap:.4rem}
+  .drift-splash-scores .col.right{align-items:flex-end}
+  .drift-splash-scores .lbl{color:#0e7490;font-size:.6rem;letter-spacing:.16em}
+  .drift-splash-scores .val{color:#67e8f9;font-size:clamp(.95rem,2vw,1.15rem);text-shadow:0 0 10px rgba(34,211,238,.6)}
 
-  /* Grid — viewfinder is now larger */
-  .rc-grid{display:grid;grid-template-columns:0.85fr 1.35fr;gap:2rem;align-items:start;}
+  .drift-game-view{padding:clamp(1rem,3vw,2rem) clamp(.75rem,2vw,1.25rem) 3rem;}
+  .drift-shell{width:100%;max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:1.2rem;}
+  .drift-hud{display:flex;justify-content:space-between;align-items:center;padding-bottom:.7rem;border-bottom:1px solid rgba(34,211,238,.3);}
+  .drift-hud-label{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.7rem;letter-spacing:.18em;color:#22d3ee;text-shadow:0 0 10px rgba(34,211,238,.5);margin-bottom:.2rem;}
+  .drift-hud-value{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:1.6rem;letter-spacing:.06em;color:#67e8f9;text-shadow:0 0 8px #fff,0 0 18px #22d3ee,0 0 40px rgba(34,211,238,.5);}
+  .drift-hearts{display:flex;gap:.55rem;align-items:center;}
+  .drift-heart{font-size:1.4rem;line-height:1;color:#67e8f9;text-shadow:0 0 6px #fff,0 0 14px #22d3ee,0 0 30px rgba(34,211,238,.6);transition:all .35s ease;}
+  .drift-heart.dim{color:#082229;text-shadow:none;opacity:.7;transform:scale(.86);}
+  .drift-prompt{text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(1.1rem,2.4vw,1.7rem);letter-spacing:.14em;color:#67e8f9;text-shadow:0 0 10px #fff,0 0 22px #22d3ee,0 0 44px rgba(34,211,238,.5);padding:.4rem 0;}
 
-  .rc-log{display:flex;flex-direction:column;gap:.35rem;font-size:1.1rem;line-height:1.45;color:#39ff14;text-shadow:0 0 6px rgba(57,255,20,.45);min-height:220px;}
-  .rc-log .rc-clue{display:grid;grid-template-columns:auto 1fr;gap:.85rem;padding:.4rem 0;align-items:baseline;opacity:0;transform:translateX(-8px);animation:rcClueIn .35s ease forwards;}
-  @keyframes rcClueIn{to{opacity:1;transform:translateX(0)}}
-  .rc-log .rc-clue::before{content:"◆";color:#c8ffc8;font-size:.7rem;text-shadow:0 0 10px rgba(57,255,20,.5);}
-  .rc-log .rc-clue.locked{color:#1a4a2a;text-shadow:none;font-style:italic;letter-spacing:.2em;font-size:.92rem;}
-  .rc-log .rc-clue.locked::before{color:#1a4a2a;text-shadow:none}
-
-  .rc-view{background:#010801;border:2px solid rgba(57,255,20,.5);padding:.9rem;position:relative;box-shadow:0 0 20px rgba(57,255,20,.2), inset 0 0 40px rgba(57,255,20,.05);}
-  .rc-view-head{display:flex;justify-content:space-between;padding-bottom:.5rem;margin-bottom:.6rem;border-bottom:1px dashed rgba(57,255,20,.3);font-size:.9rem;letter-spacing:.08em;color:#c8ffc8;}
-  .rc-photo{aspect-ratio:16/9;background:#000;overflow:hidden;position:relative;}
-  .rc-photo img{width:100%;height:100%;object-fit:cover;transition:filter 1.1s cubic-bezier(.2,.7,.3,1);transform:scale(1.04);}
-  .rc-photo::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg, transparent 0 2px, rgba(57,255,20,.1) 2px 3px);pointer-events:none;}
-  .rc-scanbar{position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg, transparent 0%, #39ff14 50%, transparent 100%);box-shadow:0 0 14px #39ff14;animation:rcScanDown 3s linear infinite;pointer-events:none;z-index:3;}
-  @keyframes rcScanDown{from{top:0}to{top:100%}}
-
-  /* Corner brackets — shared DNA with GtG */
-  .rc-corner{position:absolute;width:22px;height:22px;border:2px solid #39ff14;filter:drop-shadow(0 0 6px rgba(57,255,20,.45));opacity:.95;z-index:4;pointer-events:none;}
-  .rc-corner.tl{top:6px;left:6px;border-right:0;border-bottom:0}
-  .rc-corner.tr{top:6px;right:6px;border-left:0;border-bottom:0}
-  .rc-corner.bl{bottom:6px;left:6px;border-right:0;border-top:0}
-  .rc-corner.br{bottom:6px;right:6px;border-left:0;border-top:0}
-
-  /* Logo — no frame, bigger, glowing when unlocked */
-  .rc-logo-slot{
-    position:absolute;right:1rem;bottom:1rem;
-    display:grid;place-items:center;
-    color:#0a8a2a;font-size:1.4rem;line-height:1;
-    z-index:5;transition:all .55s ease;
-    pointer-events:none;opacity:.55;
+  .drift-arena{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1rem,2vw,1.75rem);align-items:stretch;}
+  .drift-card{position:relative;border:2px solid #22d3ee;border-radius:8px;overflow:hidden;cursor:pointer;transition:transform .25s cubic-bezier(.2,.7,.3,1),border-color .2s ease,box-shadow .3s ease;background:#020a0e;aspect-ratio:4/3;display:flex;flex-direction:column;box-shadow:0 0 0 1px rgba(0,0,0,.9),inset 0 0 30px rgba(34,211,238,.05);}
+  .drift-card:hover{border-color:#67e8f9;transform:translateY(-3px);box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 30px rgba(34,211,238,.4),inset 0 0 40px rgba(34,211,238,.08);}
+  .drift-card.correct{animation:driftCorrectFlash .7s ease;}
+  .drift-card.wrong{animation:driftWrongFlash .7s ease;}
+  .drift-card.correct-reveal{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 30px rgba(34,211,238,.7),inset 0 0 40px rgba(34,211,238,.15);}
+  @keyframes driftCorrectFlash{
+    0%{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 20px rgba(34,211,238,.5)}
+    30%{box-shadow:0 0 0 3px #67e8f9,0 0 60px rgba(34,211,238,.9),inset 0 0 80px rgba(34,211,238,.35)}
+    100%{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 20px rgba(34,211,238,.5)}
   }
-  .rc-logo-slot.unlocked{
-    opacity:1;
-    filter:drop-shadow(0 0 22px rgba(57,255,20,.6)) drop-shadow(0 6px 14px rgba(0,0,0,.9));
+  @keyframes driftWrongFlash{
+    0%{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 20px rgba(239,68,68,.4)}
+    30%{box-shadow:0 0 0 3px #ef4444,0 0 60px rgba(239,68,68,.9),inset 0 0 80px rgba(239,68,68,.35)}
+    100%{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 20px rgba(239,68,68,.4)}
   }
-  .rc-logo-slot img{
-    max-width:160px;max-height:160px;
-    display:block;pointer-events:none;
-    transition:all .55s ease;
-    opacity:.35;
-  }
-  .rc-logo-slot.unlocked img{
-    max-width:220px;max-height:220px;
-    opacity:1;
-    filter:drop-shadow(0 0 24px rgba(57,255,20,.55)) drop-shadow(0 8px 16px rgba(0,0,0,.9));
-  }
+  .drift-subject{position:absolute;top:.5rem;left:.6rem;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.58rem;letter-spacing:.16em;color:#67e8f9;background:rgba(2,10,14,.85);border:1px solid rgba(34,211,238,.4);padding:.2rem .5rem;border-radius:4px;z-index:3;}
+  .drift-shot{position:absolute;inset:0;background:#000;}
+  .drift-shot img{width:100%;height:100%;object-fit:cover;display:block;}
+  .drift-shot::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.85) 0%,rgba(0,0,0,.3) 45%,transparent 70%);pointer-events:none;}
+  .drift-logo-wrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:15% 12%;z-index:2;pointer-events:none;}
+  .drift-logo-wrap img{max-width:100%;max-height:100%;object-fit:contain;display:block;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9));}
+  .drift-logo-wrap .ph{font-family:'Chakra Petch',system-ui,sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.14em;color:#0e7490;text-transform:uppercase;text-align:center;line-height:1.6;}
+  .drift-reveal{position:absolute;bottom:.6rem;left:.6rem;right:.6rem;text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.12em;color:#67e8f9;background:rgba(2,10,14,.9);border:1px solid rgba(34,211,238,.5);padding:.35rem .5rem;border-radius:4px;z-index:4;opacity:0;transform:translateY(6px);transition:opacity .35s ease,transform .35s ease;pointer-events:none;text-shadow:0 0 8px rgba(34,211,238,.6);}
+  .drift-reveal.show{opacity:1;transform:translateY(0);}
 
-  .rc-prompt-row{padding-top:1rem;border-top:1px solid rgba(57,255,20,.35);display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:baseline;font-size:1.15rem;}
-  .rc-prompt-row .lbl{color:#c8ffc8;text-shadow:0 0 10px rgba(200,255,200,.7);letter-spacing:.06em;}
-  .rc-prompt-row input{color:#e8ffe0;font-size:1.7rem;letter-spacing:.06em;text-shadow:0 0 6px #ffffff, 0 0 14px #39ff14, 0 0 30px rgba(57,255,20,.5);width:100%;font-family:inherit;background:none;border:none;outline:none;caret-color:#39ff14;}
-  .rc-prompt-row input::placeholder{color:#1a4a2a}
+  .drift-reveal-line{text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:600;font-size:.95rem;letter-spacing:.14em;color:#67e8f9;text-shadow:0 0 12px rgba(34,211,238,.6);opacity:0;transition:opacity .35s ease;min-height:1.4em;}
+  .drift-reveal-line.show{opacity:1;}
 
-  .rc-suggest{color:#8aff8a;font-size:1rem;padding:.6rem 0 0;border-top:1px dashed rgba(57,255,20,.3);display:flex;justify-content:space-between;align-items:baseline;text-shadow:0 0 8px rgba(57,255,20,.5);cursor:pointer;transition:color .2s ease;margin-top:.3rem;}
-  .rc-suggest:hover .name{color:#ffffff}
-  .rc-suggest.hidden{display:none}
-  .rc-suggest .name{color:#c8ffc8;text-shadow:0 0 6px #ffffff, 0 0 16px #39ff14, 0 0 32px rgba(57,255,20,.5);}
-  .rc-suggest .hint{color:#0a8a2a;font-size:.9rem;text-shadow:none;letter-spacing:.08em;}
+  .drift-summary-view{justify-content:center;}
+  .drift-summary-view::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(34,211,238,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.04) 1px,transparent 1px);background-size:40px 40px;}
+  .drift-summary-inner{position:relative;z-index:1;display:flex;flex-direction:column;gap:1.2rem;align-items:center;text-align:center;}
+  .drift-summary-inner h2{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(2rem,5vw,2.8rem);letter-spacing:.2em;color:#67e8f9;text-shadow:0 0 14px #fff,0 0 40px #22d3ee,0 0 80px rgba(34,211,238,.5);}
+  .drift-summary-inner .lbl{font-family:'Chakra Petch',system-ui,sans-serif;font-size:.85rem;color:#0e7490;letter-spacing:.3em;}
+  .drift-summary-inner .final{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(3rem,10vw,4.5rem);letter-spacing:.06em;color:#67e8f9;text-shadow:0 0 14px #fff,0 0 34px #22d3ee,0 0 80px rgba(34,211,238,.6);}
+  .drift-summary-inner .high{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;color:#fde68a;letter-spacing:.16em;text-shadow:0 0 16px rgba(251,191,36,.7);animation:driftBlink 1.2s steps(2,end) infinite;font-size:.95rem;}
+  @keyframes driftBlink{0%,49%{opacity:1}50%,100%{opacity:.25}}
+  .drift-summary-actions{display:flex;gap:1rem;margin-top:1rem;flex-wrap:wrap;justify-content:center;}
+  .drift-go-btn{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.14em;padding:1rem 1.8rem;border:2px solid #22d3ee;color:#67e8f9;background:transparent;border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(34,211,238,.5);}
+  .drift-go-btn:hover{background:#22d3ee;color:#04141a;text-shadow:none;box-shadow:0 0 24px rgba(34,211,238,.55);}
+  .drift-go-btn.ghost{border-color:#1e4048;color:#4a6b73;text-shadow:none;}
+  .drift-go-btn.ghost:hover{color:#fff;background:#0e2a30;box-shadow:none;border-color:#22d3ee;}
 
-  .rc-actions{display:flex;gap:1rem;padding-top:.6rem;flex-wrap:wrap;}
-  .rc-btn{font-family:inherit;border:1px solid rgba(57,255,20,.55);padding:.5rem 1.2rem;font-size:1rem;letter-spacing:.08em;color:#c8ffc8;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(57,255,20,.5);background:rgba(57,255,20,.04);}
-  .rc-btn:hover{background:rgba(57,255,20,.15);box-shadow:0 0 20px rgba(57,255,20,.5);color:#fff;}
-  .rc-btn:active{transform:translateY(1px)}
-  .rc-btn:disabled{opacity:.35;cursor:not-allowed;background:none;box-shadow:none;}
-  .rc-btn.ghost{border-color:rgba(57,255,20,.3);color:#00c832;background:none;}
-  .rc-btn.ghost:hover{border-color:#ff3b3b;color:#ff3b3b;text-shadow:0 0 8px rgba(255,59,59,.6);box-shadow:0 0 16px rgba(255,59,59,.3);background:rgba(255,59,59,.06);}
-
-  .rc-confirm-overlay{position:absolute;inset:.9rem;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center;z-index:50;transform-origin:center;overflow:hidden;}
-  .rc-confirm-overlay .txt{font-size:2rem;letter-spacing:.1em;color:#c8ffc8;text-shadow:0 0 8px #ffffff, 0 0 22px #39ff14, 0 0 44px rgba(57,255,20,.5);opacity:0;text-align:center;padding:0 1rem;}
-  .rc-confirm-overlay.show .txt{animation:rcTxtIn .35s ease forwards;}
-  @keyframes rcTxtIn{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:scale(1)}}
-  .rc-confirm-overlay.collapse{animation:rcCollapse .55s cubic-bezier(.7,0,.3,1) forwards;}
-  @keyframes rcCollapse{
-    0%{transform:scaleY(1);opacity:1}
-    60%{transform:scaleY(.01);opacity:1;filter:brightness(2.5)}
-    100%{transform:scaleY(.01);opacity:0;filter:brightness(4)}
-  }
-  .rc-confirm-overlay.fail .txt{color:#ff3b3b;text-shadow:0 0 12px #ff3b3b,0 0 30px rgba(255,59,59,.5)}
-
-  .rc-float-plus{position:fixed;left:50%;top:40%;transform:translateX(-50%);font-family:'VT323',monospace;font-size:3rem;color:#c8ffc8;text-shadow:0 0 12px #fff, 0 0 30px #39ff14, 0 0 70px rgba(57,255,20,.6);pointer-events:none;z-index:9700;animation:rcFloatUp 1.2s ease-out forwards;}
-  @keyframes rcFloatUp{
-    0%{opacity:1;transform:translate(-50%,0) scale(.7)}
-    30%{opacity:1;transform:translate(-50%,-30px) scale(1.2)}
-    100%{opacity:0;transform:translate(-50%,-120px) scale(1)}
-  }
-
-  .rc-splash{position:absolute;inset:0;z-index:200;background:#020402;display:none;align-items:center;justify-content:center;flex-direction:column;gap:2rem;padding:2rem 1.5rem;overflow-y:auto;}
-  .rc-splash.open{display:flex}
-  .rc-splash::before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg, transparent 0 2px, rgba(0,0,0,.42) 2px 3px);}
-  .rc-splash-inner{display:flex;flex-direction:column;align-items:center;gap:1.5rem;position:relative;z-index:1;animation:rcLogoIn .8s ease;}
-  @keyframes rcLogoIn{from{opacity:0;transform:scale(.92);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
-
-  /* Splash emojis — tilts like GTG */
-  .rc-splash-emojis{
-    display:flex;align-items:center;justify-content:center;
-    gap:clamp(.6rem, 1.5vw, 1.2rem);
-    font-size:clamp(4rem, 15vw, 10rem);
-    line-height:1;
-    filter:drop-shadow(0 0 50px rgba(57,255,20,.2));
-  }
-  .rc-splash-emojis span:nth-child(1){transform:rotate(-8deg) translateY(.06em)}
-  .rc-splash-emojis span:nth-child(2){transform:translateY(-.12em);font-size:1.15em}
-  .rc-splash-emojis span:nth-child(3){transform:rotate(8deg) translateY(.06em)}
-
-  .rc-splash-title{font-size:clamp(3.4rem, 14vw, 7rem);letter-spacing:.14em;color:#c8ffc8;text-shadow:0 0 8px #ffffff, 0 0 24px #39ff14, 0 0 60px rgba(57,255,20,.5);line-height:1;}
-  .rc-diff-row{display:flex;gap:1rem;flex-wrap:wrap;justify-content:center}
-  .rc-diff-btn{font-family:inherit;border:1px solid rgba(57,255,20,.5);padding:.9rem 2rem;font-size:1.25rem;letter-spacing:.15em;color:#c8ffc8;cursor:pointer;text-shadow:0 0 10px rgba(57,255,20,.5);background:rgba(57,255,20,.04);transition:all .2s ease;min-width:200px;text-align:center;}
-  .rc-diff-btn:hover{background:rgba(57,255,20,.15);box-shadow:0 0 24px rgba(57,255,20,.5);color:#fff;}
-  .rc-splash-scores{display:flex;justify-content:space-between;width:min(560px, 88vw);margin-top:1rem;font-size:.95rem;color:#00c832;letter-spacing:.12em;}
-  .rc-splash-scores .col{display:flex;flex-direction:column;gap:.3rem}
-  .rc-splash-scores .col.right{align-items:flex-end}
-  .rc-splash-scores .lbl{font-size:.8rem;color:#0a8a2a}
-  .rc-splash-scores .val{font-size:1.3rem;color:#c8ffc8;text-shadow:0 0 12px rgba(57,255,20,.5);}
-
-  .rc-summary{position:absolute;inset:0;z-index:200;background:#020402;display:none;align-items:center;justify-content:center;flex-direction:column;gap:1.5rem;padding:2rem;text-align:center;}
-  .rc-summary.open{display:flex}
-  .rc-summary::before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg, transparent 0 2px, rgba(0,0,0,.42) 2px 3px);}
-  .rc-summary-inner{position:relative;z-index:1;display:flex;flex-direction:column;gap:1.2rem;align-items:center}
-  .rc-summary h2{font-size:2.4rem;letter-spacing:.15em;color:#ff3b3b;text-shadow:0 0 20px rgba(255,59,59,.7),0 0 50px rgba(255,59,59,.4);}
-  .rc-summary .lbl{font-size:1rem;color:#00c832;letter-spacing:.3em}
-  .rc-summary .final{font-size:4rem;letter-spacing:.08em;color:#c8ffc8;text-shadow:0 0 12px #ffffff,0 0 30px #39ff14,0 0 80px rgba(57,255,20,.5);}
-  .rc-summary .high{color:#c8ffc8;letter-spacing:.15em;text-shadow:0 0 16px rgba(57,255,20,.5);animation:rcBlink 1.2s steps(2,end) infinite;font-size:1.1rem;}
-  .rc-summary-actions{display:flex;gap:1rem;margin-top:1rem;flex-wrap:wrap;justify-content:center}
-
-  @media (max-width:820px){
-    .rc-grid{grid-template-columns:1fr}
-    .rc-prompt-row input{font-size:1.35rem}
-    .rc-log{font-size:.95rem}
-    .rc-splash-title{font-size:2.6rem}
-    .rc-splash-emojis{font-size:3.5rem}
+  @media (max-width:640px){
+    .drift-arena{grid-template-columns:1fr;}
+    .drift-card{aspect-ratio:16/10;}
+    .drift-splash-title{font-size:2.6rem}
+    .drift-splash-emojis{font-size:clamp(3.5rem,18vw,6rem)}
   }
 </style>
 </head>
@@ -1063,13 +1009,12 @@
       </svg>
       <span>Guess</span>
     </button>
-    <button class="recall-btn" id="recallBtn" type="button">
+    <button class="drift-btn" id="driftBtn" type="button">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M3 6h18v12H3z"/>
-        <path d="M7 10h4M7 13h6"/>
-        <circle cx="16" cy="11" r="2"/>
+        <path d="M3 14 L8 6 L13 15 L18 9 L21 13"/>
+        <circle cx="21" cy="13" r="1.2" fill="currentColor" stroke="none"/>
       </svg>
-      <span>Recall</span>
+      <span>Drift</span>
     </button>
     <button class="tools-btn" id="toolsBtn" type="button">
       <span class="lamp"></span>
@@ -1203,84 +1148,74 @@
   </div>
 </div>
 
-<!-- ═══ RECALL ═══ -->
-<div class="rc-overlay" id="rcOverlay">
-  <button class="ov-close ov-green" id="rcClose" type="button" aria-label="Close">
+<!-- ═══ DRIFT ═══ -->
+<div class="drift-overlay" id="driftOverlay">
+  <button class="ov-close ov-cyan" id="driftClose" type="button" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
   </button>
 
-  <div class="rc-screen" data-rc-view="game" style="display:none">
-    <div class="rc-screen-bg"></div>
-    <div class="rc-wrap">
-      <div class="rc-hud">
-        <span class="sys" data-rc-hud-sys>SYS/RECALL · SECTOR 01/30 · SIGNAL ACTIVE</span>
-        <span class="score" data-rc-score>0000</span>
-      </div>
-      <div class="rc-ai" data-rc-ai><span class="rc-caret"></span></div>
-      <div class="rc-grid">
-        <div class="rc-log" data-rc-log></div>
-        <div class="rc-view">
-          <div class="rc-view-head">
-            <span>VIEWFINDER</span>
-            <span data-rc-cam>CAM:01</span>
-          </div>
-          <div class="rc-photo" data-rc-photo>
-            <img data-rc-img alt="" draggable="false">
-            <div class="rc-scanbar"></div>
-            <div class="rc-logo-slot" data-rc-logo><span class="rc-lock-icon">🔒</span></div>
-            <span class="rc-corner tl"></span>
-            <span class="rc-corner tr"></span>
-            <span class="rc-corner bl"></span>
-            <span class="rc-corner br"></span>
-          </div>
-        </div>
-      </div>
-      <div class="rc-prompt-row">
-        <span class="lbl">IDENTIFY&gt;</span>
-        <input data-rc-input type="text" autocomplete="off" spellcheck="false" placeholder="_">
-      </div>
-      <div class="rc-suggest hidden" data-rc-suggest>
-        <span>MATCH: <span class="name" data-rc-suggest-name>—</span></span>
-        <span class="hint">CLICK TO SUBMIT</span>
-      </div>
-      <div class="rc-actions">
-        <button class="rc-btn" type="button" data-rc-reveal>REVEAL CLUE <span data-rc-reveal-cost>−20</span></button>
-        <button class="rc-btn ghost" type="button" data-rc-surrender disabled>SURRENDER</button>
-      </div>
-    </div>
-  </div>
+  <div class="drift-bg-grid"></div>
+  <div class="drift-bg-glow"></div>
 
-  <div class="rc-splash" data-rc-view="splash">
-    <div class="rc-splash-inner">
-      <div class="rc-splash-emojis"><span>🧠</span><span>🕵️</span><span>🔍</span></div>
-      <div class="rc-splash-title">RECALL</div>
-      <div class="rc-diff-row">
-        <button class="rc-diff-btn" type="button" data-rc-diff="easy">EASY</button>
-        <button class="rc-diff-btn" type="button" data-rc-diff="medium">MEDIUM</button>
-        <button class="rc-diff-btn" type="button" data-rc-diff="hard">HARD</button>
+  <div class="drift-view drift-splash-view on" data-drift-view="splash">
+    <div class="drift-splash-inner">
+      <div class="drift-splash-emojis"><span>🌊</span><span>🎯</span><span>📡</span></div>
+      <div class="drift-splash-title">DRIFT</div>
+      <div class="drift-diff-row">
+        <button class="drift-diff-btn" type="button" data-drift-diff="easy">EASY</button>
+        <button class="drift-diff-btn" type="button" data-drift-diff="medium">MEDIUM</button>
+        <button class="drift-diff-btn" type="button" data-drift-diff="hard">HARD</button>
       </div>
-      <div class="rc-splash-scores">
+      <div class="drift-splash-scores">
         <div class="col">
-          <span class="lbl">LAST SESSION</span>
-          <span class="val" data-rc-last>0000</span>
+          <span class="lbl">LAST RUN</span>
+          <span class="val" data-drift-last>0</span>
         </div>
         <div class="col right">
-          <span class="lbl">BEST SESSION</span>
-          <span class="val" data-rc-top>0000</span>
+          <span class="lbl">BEST RUN</span>
+          <span class="val" data-drift-top>0</span>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="rc-summary" data-rc-view="summary">
-    <div class="rc-summary-inner">
+  <div class="drift-view drift-game-view" data-drift-view="game">
+    <div class="drift-shell">
+      <div class="drift-hud">
+        <div>
+          <div class="drift-hud-label">SCORE</div>
+          <div class="drift-hud-value" data-drift-score>0</div>
+        </div>
+        <div class="drift-hearts" data-drift-hearts></div>
+      </div>
+      <div class="drift-prompt" data-drift-prompt>WHICH IS LONGER?</div>
+      <div class="drift-arena">
+        <div class="drift-card" data-drift-side="left">
+          <span class="drift-subject">SUBJECT A</span>
+          <div class="drift-shot" data-drift-shot="left"></div>
+          <div class="drift-logo-wrap" data-drift-logo="left"></div>
+          <div class="drift-reveal" data-drift-reveal="left"></div>
+        </div>
+        <div class="drift-card" data-drift-side="right">
+          <span class="drift-subject">SUBJECT B</span>
+          <div class="drift-shot" data-drift-shot="right"></div>
+          <div class="drift-logo-wrap" data-drift-logo="right"></div>
+          <div class="drift-reveal" data-drift-reveal="right"></div>
+        </div>
+      </div>
+      <div class="drift-reveal-line" data-drift-reveal-line></div>
+    </div>
+  </div>
+
+  <div class="drift-view drift-summary-view" data-drift-view="summary">
+    <div class="drift-summary-inner">
       <h2>SIGNAL LOST</h2>
       <div class="lbl">FINAL SCORE</div>
-      <div class="final" data-rc-final>0000</div>
-      <div class="high" data-rc-newhigh style="display:none">★ NEW BEST ★</div>
-      <div class="rc-summary-actions">
-        <button class="rc-btn" type="button" data-rc-new-session>NEW SESSION</button>
-        <button class="rc-btn ghost" type="button" data-rc-menu>MENU</button>
+      <div class="final" data-drift-final>0</div>
+      <div class="high" data-drift-newhigh style="display:none">★ NEW BEST ★</div>
+      <div class="drift-summary-actions">
+        <button class="drift-go-btn" type="button" data-drift-play-again>DRIFT AGAIN</button>
+        <button class="drift-go-btn ghost" type="button" data-drift-menu>MENU</button>
       </div>
     </div>
   </div>
@@ -2680,34 +2615,19 @@ function steamMapToFields(data){
   if(data.size) out.size = data.size;
   return out;
 }
+async function hltbSearch(name){
+  const res = await fetch(PROXY_URL + '?action=hltb&q=' + encodeURIComponent(name));
+  if(!res.ok) throw new Error('HLTB proxy HTTP ' + res.status);
+  const data = await res.json();
+  if(data && data.error) throw new Error(data.error);
+  return data;
+}
 async function hltbSearchBySteam(appId){
   const res = await fetch(PROXY_URL + '?action=hltb_steam&q=' + encodeURIComponent(appId));
   if(!res.ok) throw new Error('HLTB(steam) proxy HTTP ' + res.status);
   const data = await res.json();
   if(data && data.error) throw new Error(data.error);
   return data;
-}
-function _hltbClean(v){
-  if(v == null) return null;
-  const n = Number(v);
-  if(isNaN(n) || n <= 0 || n > 999) return null;
-  return n;
-}
-async function hltbSearchBySteam(appId){
-  const url = 'https://hltbapi1.azurewebsites.net/steam/' + encodeURIComponent(appId);
-  const res = await corsfix.fetch(url);
-  if(res.status === 404) throw new Error('No HLTB entry for this Steam appId');
-  if(!res.ok) throw new Error('HLTB(steam) HTTP ' + res.status);
-  const json = await res.json();
-  const out = {
-    story:         _hltbClean(json.mainStory),
-    extras:        _hltbClean(json.mainStoryWithExtras),
-    completionist: _hltbClean(json.completionist)
-  };
-  if(out.story == null && out.extras == null && out.completionist == null){
-    throw new Error('HLTB(steam) returned no usable data');
-  }
-  return out;
 }
 function hltbMapToFields(d){
   if(!d) return {};
@@ -5801,9 +5721,9 @@ document.addEventListener('keydown', e => {
       e.stopImmediatePropagation(); e.preventDefault();
       closeGTG(); return;
     }
-    if(rcOverlay.classList.contains('open')){
+    if(driftOverlay.classList.contains('open')){
       e.stopImmediatePropagation(); e.preventDefault();
-      closeRC(); return;
+      closeDRIFT(); return;
     }
     if(randomOverlay.classList.contains('open')){ closeRandomOverlay(); return; }
     closeModal(); closeAllDropdowns(); closeTokenPrompt();
@@ -6346,508 +6266,339 @@ if(gtgShield){
 }
 gtgOverlay.addEventListener('dragstart', e => { if(e.target.tagName === 'IMG') e.preventDefault(); });
 
-/* ═══ RECALL ═══ */
-const rcOverlay = document.getElementById('rcOverlay');
-const rcClose = document.getElementById('rcClose');
-const rcViews = {
-  game: rcOverlay.querySelector('[data-rc-view="game"]'),
-  splash: rcOverlay.querySelector('[data-rc-view="splash"]'),
-  summary: rcOverlay.querySelector('[data-rc-view="summary"]')
+/* ═══ DRIFT ═══ */
+const driftOverlay = document.getElementById('driftOverlay');
+const driftClose = document.getElementById('driftClose');
+const driftViews = {
+  splash: driftOverlay.querySelector('[data-drift-view="splash"]'),
+  game: driftOverlay.querySelector('[data-drift-view="game"]'),
+  summary: driftOverlay.querySelector('[data-drift-view="summary"]')
 };
-const rcHudSys = rcOverlay.querySelector('[data-rc-hud-sys]');
-const rcScore = rcOverlay.querySelector('[data-rc-score]');
-const rcAi = rcOverlay.querySelector('[data-rc-ai]');
-const rcLog = rcOverlay.querySelector('[data-rc-log]');
-const rcCam = rcOverlay.querySelector('[data-rc-cam]');
-const rcImg = rcOverlay.querySelector('[data-rc-img]');
-const rcLogoSlot = rcOverlay.querySelector('[data-rc-logo]');
-const rcInput = rcOverlay.querySelector('[data-rc-input]');
-const rcSuggest = rcOverlay.querySelector('[data-rc-suggest]');
-const rcSuggestName = rcOverlay.querySelector('[data-rc-suggest-name]');
-const rcRevealBtn = rcOverlay.querySelector('[data-rc-reveal]');
-const rcSurrenderBtn = rcOverlay.querySelector('[data-rc-surrender]');
-const rcLastEl = rcOverlay.querySelector('[data-rc-last]');
-const rcTopEl = rcOverlay.querySelector('[data-rc-top]');
-const rcFinalEl = rcOverlay.querySelector('[data-rc-final]');
-const rcNewHighEl = rcOverlay.querySelector('[data-rc-newhigh]');
+const driftScoreEl = driftOverlay.querySelector('[data-drift-score]');
+const driftHeartsEl = driftOverlay.querySelector('[data-drift-hearts]');
+const driftPromptEl = driftOverlay.querySelector('[data-drift-prompt]');
+const driftRevealLineEl = driftOverlay.querySelector('[data-drift-reveal-line]');
+const driftFinalEl = driftOverlay.querySelector('[data-drift-final]');
+const driftNewHighEl = driftOverlay.querySelector('[data-drift-newhigh]');
+const driftLastEl = driftOverlay.querySelector('[data-drift-last]');
+const driftTopEl = driftOverlay.querySelector('[data-drift-top]');
 
-const RC_TIER_COST = { strong: 10, medium: 20, weak: 30 };
-const RC_ROUND_COUNT = 30;
-const RC_SESSION_KEY = 'recall_session_v3';
-const RC_TOP_KEY = 'recall_top_v3';
-const RC_LAST_KEY = 'recall_last_v3';
+const DRIFT_HP = 3;
+const DRIFT_MULT = { easy: 0.8, medium: 1.0, hard: 1.3 };
+const DRIFT_LAST_KEY = 'drift_last_v1';
+const DRIFT_TOP_KEY = 'drift_top_v1';
 
-const rcState = {
+const DRIFT_QUESTIONS = [
+  {
+    key: 'hltb',
+    prompt: 'WHICH IS LONGER?',
+    unit: 'hrs',
+    minValue: 1,
+    ratioBands: false,
+    higherWins: true,
+    getValue: g => { const m = hltbToParts(g.hltb); return (m.main && /^\d/.test(m.main)) ? parseFloat(m.main) : null; },
+    bands: { easy: [15, Infinity], medium: [5, 15], hard: [0, 5] }
+  },
+  {
+    key: 'size',
+    prompt: 'WHICH IS BIGGER?',
+    unit: 'GB',
+    minValue: 0.1,
+    ratioBands: true,
+    higherWins: true,
+    getValue: g => { const k = sizeKey(g.size); return k > 0 ? k : null; },
+    bands: { easy: [4, Infinity], medium: [2, 4], hard: [1, 1.5] }
+  },
+  {
+    key: 'release',
+    prompt: 'WHICH CAME FIRST?',
+    unit: '',
+    minValue: 1900,
+    ratioBands: false,
+    higherWins: false,
+    getValue: g => { const y = extractYear(g.release || g.ea_release); return y ? parseInt(y, 10) : null; },
+    bands: { easy: [8, Infinity], medium: [3, 8], hard: [1, 2] }
+  }
+];
+
+const driftState = {
   diff: 'medium',
-  rounds: [],
-  roundIdx: 0,
-  roundState: null,
-  totalScore: 0,
+  hpLeft: 3,
+  score: 0,
   busy: false,
-  over: false
+  over: false,
+  current: null,
+  lastWinnerId: null,
+  lastQuestionKey: null
 };
-function rcPad4(n){ return String(Math.max(0, n|0)).padStart(4, '0'); }
-function rcSleep(ms){ return new Promise(r => setTimeout(r, ms)); }
-function rcGet(k, fb){ try{ const v = localStorage.getItem(k); return v ? parseInt(v,10)||0 : (fb||0);}catch(e){ return fb||0; } }
-function rcSet(k, v){ try{ localStorage.setItem(k, String(v)); }catch(e){} }
+function driftGet(k, fb){ try{ const v = localStorage.getItem(k); return v ? parseInt(v,10)||0 : (fb||0);}catch(e){ return fb||0; } }
+function driftSet(k, v){ try{ localStorage.setItem(k, String(v)); }catch(e){} }
 
-const RC_AI = {
-  reveal:   ['> accessing memory sector...','> retrieving fragment...','> this is coming back...','> a piece. take it.'],
-  wrong:    ['> no. that is not it.','> try again.','> wrong. the signal wavers.'],
-  correct:  ['> remembered. thank you.','> that is it.','> sector recovered.'],
-  surrender:['> memory lost.','> the fragment fades.']
-};
-let rcTypingTimer = null;
-async function rcSayAI(pool, custom){
-  const line = custom || pool[Math.floor(Math.random() * pool.length)];
-  if(rcTypingTimer){ clearTimeout(rcTypingTimer); rcTypingTimer = null; }
-  rcAi.innerHTML = '';
-  const span = document.createElement('span');
-  rcAi.appendChild(span);
-  const caret = document.createElement('span');
-  caret.className = 'rc-caret';
-  rcAi.appendChild(caret);
-  for(let i = 0; i < line.length; i++){
-    span.textContent += line[i];
-    await rcSleep(18);
+function driftShowView(name){
+  Object.values(driftViews).forEach(v => v.classList.remove('on'));
+  driftViews[name].classList.add('on');
+}
+function driftRefreshScoreboard(){
+  driftLastEl.textContent = String(driftGet(DRIFT_LAST_KEY, 0));
+  driftTopEl.textContent  = String(driftGet(DRIFT_TOP_KEY,  0));
+}
+function driftRenderHearts(){
+  driftHeartsEl.innerHTML = '';
+  for(let i = 0; i < DRIFT_HP; i++){
+    const h = document.createElement('span');
+    h.className = 'drift-heart' + (i < DRIFT_HP - driftState.hpLeft ? ' dim' : '');
+    h.textContent = '♥';
+    driftHeartsEl.appendChild(h);
   }
 }
-
-/* ── ROUND GENERATOR ── */
-const RC_STOPWORDS = new Set(['the','of','a','an','and','or','part','chapter','episode','dlc','pack','expansion','edition','vol','volume']);
-
-function rcExtractDistinctWord(texts, excludeText){
-  const excludeNorm = normalizeName(excludeText || '');
-  const excludeTokens = new Set(excludeNorm.split(' ').filter(Boolean));
-  const seen = new Set();
-  const candidates = [];
-  for(const t of texts){
-    if(!t) continue;
-    const tokens = String(t).toLowerCase().split(/\s+/).map(w => w.replace(/[^a-z0-9]/g, '')).filter(Boolean);
-    for(const w of tokens){
-      if(w.length < 3) continue;
-      if(RC_STOPWORDS.has(w)) continue;
-      if(excludeTokens.has(w)) continue;
-      if(seen.has(w)) continue;
-      seen.add(w);
-      candidates.push(w);
-    }
-  }
-  if(!candidates.length) return null;
-  // pick the longest (most distinctive-looking)
-  candidates.sort((a, b) => b.length - a.length);
-  return candidates[0];
+function driftRenderScore(){
+  driftScoreEl.textContent = String(Math.round(driftState.score));
 }
 
-function rcSeriesWord(count){
-  if(count <= 4) return 'few';
-  if(count <= 8) return 'several';
-  if(count <= 14) return 'many';
-  return 'huge';
+function driftFormatValue(q, v){
+  if(q.key === 'release') return String(Math.round(v));
+  if(q.key === 'size') return v.toFixed(v < 10 ? 1 : 0) + ' GB';
+  return String(Math.round(v)) + ' hrs';
 }
 
-function rcCluesForGame(g){
-  const out = [];
-  if(g.dev){
-    out.push({ tier:'strong', field:'dev', text:`Developed by ${g.dev}.` });
+function driftAssemblePair(q, a, b){
+  let winnerSide;
+  if(q.higherWins){
+    winnerSide = a.v > b.v ? 'left' : 'right';
+  } else {
+    winnerSide = a.v < b.v ? 'left' : 'right';
   }
-  if(g.pub && g.pub !== g.dev){
-    out.push({ tier:'medium', field:'pub', text:`Published by ${g.pub}.` });
-  }
-  if(Array.isArray(g.alt_names) && g.alt_names.length){
-    const word = rcExtractDistinctWord(g.alt_names, g.name);
-    if(word){
-      out.push({ tier:'strong', field:'alt', text:`Also known by a name with "${word}".` });
-    }
-  }
-  if(g.series){
-    const s = MANIFEST.series[g.series];
-    if(s && Array.isArray(s.order) && s.order.length >= 3){
-      const cnt = s.order.length;
-      out.push({
-        tier: cnt <= 4 ? 'strong' : 'medium',
-        field:'series',
-        text:`One of ${rcSeriesWord(cnt)} in its family.`
-      });
-    }
-  }
-  if(Array.isArray(g.dlc) && g.dlc.length){
-    const names = g.dlc.map(d => d.name).filter(Boolean);
-    const word = rcExtractDistinctWord(names, g.name);
-    if(word){
-      out.push({ tier:'medium', field:'dlc', text:`Has DLC about ${word}.` });
-    } else {
-      out.push({ tier:'medium', field:'dlc', text:`Has DLC.` });
-    }
-  }
-  if(g.platform && !isPlatformPC(g.platform)){
-    out.push({ tier:'medium', field:'platform', text:`Filed under ${g.platform}.` });
-  }
-  if(g.flags && g.flags.localCoop){
-    out.push({ tier:'medium', field:'coop', text:`Supports local co-op.` });
-  }
-  if(membershipsOf(g.id).has('mods')){
-    out.push({ tier:'medium', field:'mod', text:`This is a mod.` });
-  }
-  if(g.ea_release){
-    out.push({ tier:'weak', field:'ea', text:`Was in early access.` });
-  }
-  const relYear = extractYear(g.release);
-  if(relYear){
-    out.push({ tier:'weak', field:'year', text:`Released in ${relYear}.` });
-  }
-  if(g.hltb && g.hltb !== '—'){
-    const h = hltbToParts(g.hltb);
-    if(h.main && /^\d/.test(h.main)){
-      out.push({ tier:'weak', field:'hltb', text:`Around ${h.main} hours long.` });
-    }
-  }
-  if(g.size && g.size !== '—' && /^[\d.]+\s*(GB|MB|TB|KB)$/i.test(g.size.trim())){
-    out.push({ tier:'weak', field:'size', text:`Roughly ${g.size}.` });
-  }
-  return out;
+  return {
+    q,
+    left: a.g,
+    right: b.g,
+    values: { left: a.v, right: b.v },
+    winnerSide
+  };
 }
 
-function rcSortCluesByTier(clues){
-  const order = { strong: 0, medium: 1, weak: 2 };
-  return clues.slice().sort((a, b) => order[a.tier] - order[b.tier]);
-}
-
-function rcBuildPool(diff){
+function driftBuildPair(q, diff, lastWinnerId){
   const pool = [];
   for(const id of Object.keys(MANIFEST.games)){
     const g = MANIFEST.games[id];
-    if(!g || !g.screenshot) continue;
-    const year = parseInt(extractYear(g.release) || extractYear(g.ea_release) || '0', 10);
-    const plat = String(g.platform || '').trim().toLowerCase();
-    const isPC = !plat || plat === 'pc';
-    if(diff === 'easy'){
-      if(!isPC) continue;
-      if(year < 2015) continue;
-    } else if(diff === 'medium'){
-      if(year < 2005 || year > 2014) continue;
-    }
-    const clues = rcCluesForGame(g);
-    const minClues = diff === 'easy' ? 5 : diff === 'medium' ? 4 : 3;
-    if(clues.length < minClues) continue;
-    pool.push({ g, clues });
+    if(!g.screenshot || !g.logo) continue;
+    const v = q.getValue(g);
+    if(v == null || isNaN(v) || v < q.minValue) continue;
+    pool.push({ g, v });
   }
-  return pool;
+  if(pool.length < 2) return null;
+
+  const band = q.bands[diff] || [0, Infinity];
+  const [bMin, bMax] = band;
+
+  for(let attempt = 0; attempt < 300; attempt++){
+    const i = Math.floor(Math.random() * pool.length);
+    const j = Math.floor(Math.random() * pool.length);
+    if(i === j) continue;
+    const a = pool[i], b = pool[j];
+    if(a.g.id === lastWinnerId || b.g.id === lastWinnerId) continue;
+    if(a.v === b.v) continue;
+    let gap;
+    if(q.ratioBands){
+      const hi = Math.max(a.v, b.v), lo = Math.min(a.v, b.v);
+      gap = hi / lo;
+    } else {
+      gap = Math.abs(a.v - b.v);
+    }
+    if(gap < bMin || gap > bMax) continue;
+    return driftAssemblePair(q, a, b);
+  }
+  // Fallback: any non-tied pair
+  for(let attempt = 0; attempt < 100; attempt++){
+    const i = Math.floor(Math.random() * pool.length);
+    const j = Math.floor(Math.random() * pool.length);
+    if(i === j) continue;
+    const a = pool[i], b = pool[j];
+    if(a.g.id === lastWinnerId || b.g.id === lastWinnerId) continue;
+    if(a.v === b.v) continue;
+    return driftAssemblePair(q, a, b);
+  }
+  return null;
 }
 
-function rcBuildRounds(diff){
-  const pool = rcBuildPool(diff);
-  if(!pool.length) return [];
-  // shuffle
-  for(let i = pool.length - 1; i > 0; i--){
-    const j = Math.floor(Math.random() * (i + 1));
-    [pool[i], pool[j]] = [pool[j], pool[i]];
+function driftRenderPair(pair){
+  const leftShot = driftOverlay.querySelector('[data-drift-shot="left"]');
+  const rightShot = driftOverlay.querySelector('[data-drift-shot="right"]');
+  const leftLogo = driftOverlay.querySelector('[data-drift-logo="left"]');
+  const rightLogo = driftOverlay.querySelector('[data-drift-logo="right"]');
+  const leftReveal = driftOverlay.querySelector('[data-drift-reveal="left"]');
+  const rightReveal = driftOverlay.querySelector('[data-drift-reveal="right"]');
+  const cards = driftOverlay.querySelectorAll('.drift-card');
+
+  cards.forEach(c => c.classList.remove('correct','wrong','correct-reveal'));
+  leftReveal.classList.remove('show');
+  rightReveal.classList.remove('show');
+  leftReveal.textContent = '';
+  rightReveal.textContent = '';
+  driftRevealLineEl.classList.remove('show');
+  driftRevealLineEl.textContent = '';
+
+  if(pair.left.screenshot){
+    leftShot.innerHTML = `<img src="${esc(screenshotSrc(pair.left.screenshot))}" alt="" loading="eager" decoding="async">`;
+  } else {
+    leftShot.innerHTML = `<div class="ph" style="display:grid;place-items:center;width:100%;height:100%;">1280 × 720</div>`;
   }
-  const n = Math.min(RC_ROUND_COUNT, pool.length);
-  const maxClues = diff === 'easy' ? 5 : diff === 'medium' ? 4 : 3;
-  const rounds = [];
-  for(let i = 0; i < n; i++){
-    const { g, clues } = pool[i];
-    const sorted = rcSortCluesByTier(clues);
-    const picked = sorted.slice(0, maxClues);
-    // pad with whatever's left if fewer than maxClues strong/medium/weak were available
-    if(picked.length < maxClues){
-      for(const extra of sorted){
-        if(picked.length >= maxClues) break;
-        if(!picked.includes(extra)) picked.push(extra);
+  if(pair.right.screenshot){
+    rightShot.innerHTML = `<img src="${esc(screenshotSrc(pair.right.screenshot))}" alt="" loading="eager" decoding="async">`;
+  } else {
+    rightShot.innerHTML = `<div class="ph" style="display:grid;place-items:center;width:100%;height:100%;">1280 × 720</div>`;
+  }
+
+  if(pair.left.logo) leftLogo.innerHTML = `<img src="${esc(logoSrc(pair.left.logo))}" alt="" loading="eager" decoding="async">`;
+  else leftLogo.innerHTML = `<div class="ph">${esc(pair.left.name)}</div>`;
+  if(pair.right.logo) rightLogo.innerHTML = `<img src="${esc(logoSrc(pair.right.logo))}" alt="" loading="eager" decoding="async">`;
+  else rightLogo.innerHTML = `<div class="ph">${esc(pair.right.name)}</div>`;
+
+  driftPromptEl.textContent = pair.q.prompt;
+}
+
+function driftNextRound(){
+  let q;
+  for(let attempt = 0; attempt < 5; attempt++){
+    q = DRIFT_QUESTIONS[Math.floor(Math.random() * DRIFT_QUESTIONS.length)];
+    if(q.key !== driftState.lastQuestionKey || DRIFT_QUESTIONS.length === 1) break;
+  }
+  let pair = driftBuildPair(q, driftState.diff, driftState.lastWinnerId);
+  if(!pair){
+    // Try other questions
+    for(const altQ of DRIFT_QUESTIONS){
+      const altPair = driftBuildPair(altQ, driftState.diff, driftState.lastWinnerId);
+      if(altPair){
+        driftState.lastQuestionKey = altQ.key;
+        driftState.current = altPair;
+        driftRenderPair(altPair);
+        driftState.busy = false;
+        return;
       }
     }
-    rounds.push({
-      id: g.id,
-      answer: g.name,
-      alts: Array.isArray(g.alt_names) ? g.alt_names : [],
-      screenshot: g.screenshot,
-      logo: g.logo || '',
-      clues: picked
-    });
-  }
-  return rounds;
-}
-
-function rcCurrentRound(){ return rcState.rounds[rcState.roundIdx] || null; }
-function rcNewRoundState(){ return { revealed: 0, value: 100, wrongs: 0, done: false }; }
-
-function rcApplyBlur(){
-  const r = rcCurrentRound();
-  if(!r || !rcState.roundState) return;
-  const total = r.clues.length;
-  const shown = rcState.roundState.revealed;
-  const t = Math.min(1, shown / Math.max(1, total));
-  // steeper curve so the image becomes readable earlier
-  const k = Math.pow(1 - t, 1.7);
-  const blur = 30 * k;
-  const gray = k;
-  const sat = 1 - k;
-  const bright = 0.5 + 0.5 * (1 - k);
-  const contrast = 0.5 + 0.5 * (1 - k);
-  rcImg.style.filter = `blur(${blur}px) grayscale(${gray}) saturate(${sat}) brightness(${bright}) contrast(${contrast})`;
-}
-function rcRenderLog(){
-  const r = rcCurrentRound();
-  if(!r) return;
-  const rs = rcState.roundState;
-  rcLog.innerHTML = '';
-  r.clues.forEach((c, i) => {
-    const el = document.createElement('div');
-    el.className = 'rc-clue';
-    if(i < rs.revealed) el.textContent = c.text;
-    else { el.classList.add('locked'); el.textContent = '· · · · ·'; }
-    el.style.animationDelay = (i * 30) + 'ms';
-    rcLog.appendChild(el);
-  });
-}
-function rcUpdateHud(){
-  rcHudSys.textContent = `SYS/RECALL · SECTOR ${rcPad4(rcState.roundIdx + 1).slice(-2)}/${rcPad4(rcState.rounds.length).slice(-2)} · SIGNAL ACTIVE`;
-  rcScore.textContent = rcPad4(rcState.totalScore);
-}
-function rcUpdateRevealBtn(){
-  const r = rcCurrentRound();
-  if(!r) return;
-  const next = r.clues[rcState.roundState.revealed];
-  if(!next){
-    rcRevealBtn.disabled = true;
-    rcRevealBtn.innerHTML = 'ALL FRAGMENTS RECOVERED';
+    toast('Not enough data for DRIFT', 'bad');
+    driftShowView('splash');
     return;
   }
-  rcRevealBtn.disabled = false;
-  rcRevealBtn.innerHTML = `REVEAL CLUE <span data-rc-reveal-cost>−${RC_TIER_COST[next.tier]}</span>`;
-}
-function rcUpdateSurrender(){
-  rcSurrenderBtn.disabled = rcState.roundState.revealed < 2;
-}
-function rcUpdateLogo(){
-  const r = rcCurrentRound();
-  const rs = rcState.roundState;
-  if(rs.revealed >= r.clues.length){
-    rcLogoSlot.classList.add('unlocked');
-    if(r.logo){
-      rcLogoSlot.innerHTML = `<img src="${esc(logoSrc(r.logo))}" alt="">`;
-    } else {
-      rcLogoSlot.innerHTML = '';
-    }
-  } else {
-    rcLogoSlot.classList.remove('unlocked');
-    rcLogoSlot.innerHTML = '<span class="rc-lock-icon">🔒</span>';
-  }
-}
-function rcRenderRound(){
-  const r = rcCurrentRound();
-  if(!r) return;
-  rcImg.src = r.screenshot + (r.screenshot.includes('?') ? '&' : '?') + 'cb=' + Date.now();
-  rcCam.textContent = 'CAM:' + rcPad4(rcState.roundIdx + 1).slice(-2);
-  rcRenderLog();
-  rcApplyBlur();
-  rcUpdateRevealBtn();
-  rcUpdateSurrender();
-  rcUpdateLogo();
-  rcInput.value = '';
-  rcSuggest.classList.add('hidden');
-  rcState.busy = false;
-}
-function rcShowView(name){
-  Object.values(rcViews).forEach(v => { v.classList.remove('open'); v.style.display = 'none'; });
-  if(name === 'game'){ rcViews.game.style.display = 'flex'; }
-  else { rcViews[name].style.display = 'flex'; rcViews[name].classList.add('open'); }
-}
-function rcRefreshScoreboard(){
-  rcLastEl.textContent = rcPad4(rcGet(RC_LAST_KEY, 0));
-  rcTopEl.textContent  = rcPad4(rcGet(RC_TOP_KEY,  0));
-}
-function rcBestMatch(input){
-  const r = rcCurrentRound();
-  if(!r) return null;
-  const v = String(input || '').trim();
-  if(!v) return null;
-  let best = null, bestScore = 0;
-  const cands = [r.answer, ...r.alts];
-  for(const c of cands){
-    const s = nameSimilarity(v, c);
-    if(s > bestScore){ bestScore = s; best = c; }
-  }
-  return { name: best, score: bestScore };
-}
-function rcUpdateSuggest(){
-  const v = rcInput.value.trim();
-  if(!v){ rcSuggest.classList.add('hidden'); return; }
-  const m = rcBestMatch(v);
-  if(m && m.score >= 0.6){
-    rcSuggestName.textContent = rcCurrentRound().answer;
-    rcSuggest.classList.remove('hidden');
-  } else {
-    rcSuggest.classList.add('hidden');
-  }
+  driftState.lastQuestionKey = q.key;
+  driftState.current = pair;
+  driftRenderPair(pair);
+  driftState.busy = false;
 }
 
-async function rcRevealClue(){
-  if(rcState.busy || rcState.over) return;
-  const r = rcCurrentRound();
-  const rs = rcState.roundState;
-  if(rs.revealed >= r.clues.length) return;
-  rcState.busy = true;
-  const c = r.clues[rs.revealed];
-  rs.revealed++;
-  rs.value = Math.max(0, rs.value - RC_TIER_COST[c.tier]);
-  await rcSayAI(RC_AI.reveal);
-  rcRenderLog();
-  rcApplyBlur();
-  rcUpdateRevealBtn();
-  rcUpdateSurrender();
-  rcUpdateLogo();
-  if(rs.value <= 0 && rs.revealed < r.clues.length){
-    await rcEndRound(false, true);
-    return;
-  }
-  rcState.busy = false;
-}
-async function rcWrongGuess(){
-  rcState.busy = true;
-  rcState.roundState.wrongs++;
-  rcState.roundState.value = Math.floor(rcState.roundState.value / 2);
-  await rcSayAI(RC_AI.wrong);
-  rcScore.classList.add('bump');
-  setTimeout(() => rcScore.classList.remove('bump'), 260);
-  rcInput.value = '';
-  rcSuggest.classList.add('hidden');
-  rcState.busy = false;
-}
-async function rcEndRound(correct, viaZero){
-  const r = rcCurrentRound();
-  const rs = rcState.roundState;
-  rs.done = true;
-  rcState.busy = true;
+function driftAnswer(side){
+  if(driftState.busy || driftState.over) return;
+  const pair = driftState.current;
+  if(!pair) return;
+  driftState.busy = true;
+
+  const clickedCard = driftOverlay.querySelector(`.drift-card[data-drift-side="${side}"]`);
+  const otherSide = side === 'left' ? 'right' : 'left';
+  const otherCard = driftOverlay.querySelector(`.drift-card[data-drift-side="${otherSide}"]`);
+  const correct = side === pair.winnerSide;
+  const revealThis = driftOverlay.querySelector(`[data-drift-reveal="${side}"]`);
+  const revealOther = driftOverlay.querySelector(`[data-drift-reveal="${otherSide}"]`);
+
   if(correct){
-    const gained = rs.value;
-    rcState.totalScore += gained;
-    rcUpdateHud();
-    rcScore.classList.add('bump');
-    setTimeout(() => rcScore.classList.remove('bump'), 260);
-    await rcSayAI(RC_AI.correct);
-    await rcPlayConfirm(true, `${r.answer.toUpperCase()} — CONFIRMED`);
-    if(gained > 0){
-      const float = document.createElement('div');
-      float.className = 'rc-float-plus';
-      float.textContent = '+' + gained;
-      rcOverlay.appendChild(float);
-      setTimeout(() => float.remove(), 1400);
+    driftState.score += DRIFT_MULT[driftState.diff];
+    driftRenderScore();
+    clickedCard.classList.add('correct');
+    driftState.lastWinnerId = side === 'left' ? pair.left.id : pair.right.id;
+  } else {
+    driftState.hpLeft--;
+    driftRenderHearts();
+    clickedCard.classList.add('wrong');
+    otherCard.classList.add('correct-reveal');
+    driftState.lastWinnerId = pair.winnerSide === 'left' ? pair.left.id : pair.right.id;
+  }
+
+  if(driftState.diff === 'easy'){
+    revealThis.textContent = driftFormatValue(pair.q, pair.values[side]);
+    revealOther.textContent = driftFormatValue(pair.q, pair.values[otherSide]);
+    revealThis.classList.add('show');
+    revealOther.classList.add('show');
+  } else if(driftState.diff === 'medium'){
+    let diffText;
+    if(pair.q.ratioBands){
+      const hi = Math.max(pair.values.left, pair.values.right);
+      const lo = Math.min(pair.values.left, pair.values.right);
+      diffText = 'RATIO ×' + (hi / lo).toFixed(2);
+    } else if(pair.q.key === 'release'){
+      diffText = 'DIFFERENCE: ' + Math.abs(pair.values.left - pair.values.right) + ' yrs';
+    } else {
+      const d = Math.abs(pair.values.left - pair.values.right);
+      diffText = 'DIFFERENCE: ' + (pair.q.key === 'size' ? d.toFixed(1) + ' GB' : Math.round(d) + ' hrs');
     }
+    driftRevealLineEl.textContent = diffText;
+    driftRevealLineEl.classList.add('show');
+  }
+  // hard: nothing revealed
+
+  const delay = driftState.diff === 'hard' ? 700 : 1100;
+  setTimeout(() => {
+    if(driftState.hpLeft <= 0){
+      driftEndGame();
+      return;
+    }
+    driftNextRound();
+  }, delay);
+}
+
+function driftEndGame(){
+  driftState.over = true;
+  const final = Math.round(driftState.score);
+  driftFinalEl.textContent = String(final);
+  const top = driftGet(DRIFT_TOP_KEY, 0);
+  if(final > top){
+    driftSet(DRIFT_TOP_KEY, final);
+    driftNewHighEl.style.display = '';
   } else {
-    await rcSayAI(RC_AI.surrender, `> it was ${r.answer}.`);
-    await rcPlayConfirm(false, `${r.answer.toUpperCase()} — NOT RECOVERED`);
+    driftNewHighEl.style.display = 'none';
   }
-  rcState.roundIdx++;
-  if(rcState.roundIdx >= rcState.rounds.length){
-    rcEndSession();
-    return;
-  }
-  rcState.roundState = rcNewRoundState();
-  await rcSleep(150);
-  rcRenderRound();
-  await rcSayAI(RC_AI.reveal);
-  rcState.busy = false;
+  driftSet(DRIFT_LAST_KEY, final);
+  driftRefreshScoreboard();
+  driftShowView('summary');
 }
-function rcPlayConfirm(correct, text){
-  return new Promise(resolve => {
-    const overlay = document.createElement('div');
-    overlay.className = 'rc-confirm-overlay' + (correct ? '' : ' fail');
-    const txt = document.createElement('div');
-    txt.className = 'txt';
-    txt.textContent = text;
-    overlay.appendChild(txt);
-    const photo = rcOverlay.querySelector('[data-rc-photo]');
-    photo.appendChild(overlay);
-    requestAnimationFrame(() => overlay.classList.add('show'));
-    setTimeout(() => overlay.classList.add('collapse'), 900);
-    setTimeout(() => { overlay.remove(); resolve(); }, 1500);
-  });
+
+function driftStart(diff){
+  driftState.diff = diff;
+  driftState.hpLeft = DRIFT_HP;
+  driftState.score = 0;
+  driftState.over = false;
+  driftState.busy = false;
+  driftState.current = null;
+  driftState.lastWinnerId = null;
+  driftState.lastQuestionKey = null;
+  driftShowView('game');
+  driftRenderHearts();
+  driftRenderScore();
+  driftNextRound();
 }
-function rcEndSession(){
-  rcState.over = true;
-  rcFinalEl.textContent = rcPad4(rcState.totalScore);
-  const top = rcGet(RC_TOP_KEY, 0);
-  if(rcState.totalScore > top){
-    rcSet(RC_TOP_KEY, rcState.totalScore);
-    rcNewHighEl.style.display = '';
-  } else {
-    rcNewHighEl.style.display = 'none';
-  }
-  rcSet(RC_LAST_KEY, rcState.totalScore);
-  rcRefreshScoreboard();
-  rcShowView('summary');
+function driftBackToSplash(){
+  driftState.over = false;
+  driftRefreshScoreboard();
+  driftShowView('splash');
 }
-function rcStartSession(diff){
-  const rounds = rcBuildRounds(diff);
-  if(!rounds.length){
-    toast('No games match this difficulty', 'bad');
-    return;
-  }
-  rcState.diff = diff;
-  rcState.rounds = rounds;
-  rcState.roundIdx = 0;
-  rcState.totalScore = 0;
-  rcState.over = false;
-  rcState.roundState = rcNewRoundState();
-  rcShowView('game');
-  rcUpdateHud();
-  rcRenderRound();
-  rcSayAI(RC_AI.reveal);
-}
-function rcBackToSplash(){
-  rcState.over = false;
-  rcRefreshScoreboard();
-  rcShowView('splash');
-}
-function openRC(){
-  rcOverlay.classList.add('open');
+function openDRIFT(){
+  driftOverlay.classList.add('open');
   document.body.style.overflow = 'hidden';
-  rcRefreshScoreboard();
-  rcShowView('splash');
+  driftRefreshScoreboard();
+  driftShowView('splash');
 }
-function closeRC(){
-  rcOverlay.classList.remove('open');
+function closeDRIFT(){
+  driftOverlay.classList.remove('open');
   document.body.style.overflow = '';
 }
-rcClose.addEventListener('click', closeRC);
-rcOverlay.querySelectorAll('[data-rc-diff]').forEach(b => b.addEventListener('click', () => rcStartSession(b.dataset.rcDiff)));
-rcOverlay.querySelectorAll('[data-rc-new-session]').forEach(b => b.addEventListener('click', () => rcStartSession(rcState.diff)));
-rcOverlay.querySelectorAll('[data-rc-menu]').forEach(b => b.addEventListener('click', rcBackToSplash));
-rcRevealBtn.addEventListener('click', rcRevealClue);
-rcSurrenderBtn.addEventListener('click', () => {
-  if(rcState.busy || rcState.over) return;
-  if(rcSurrenderBtn.disabled) return;
-  rcEndRound(false);
-});
-rcInput.addEventListener('input', rcUpdateSuggest);
-rcInput.addEventListener('keydown', e => {
-  if(e.key === 'Enter'){
-    e.preventDefault();
-    const v = rcInput.value.trim();
-    if(!v) return;
-    const m = rcBestMatch(v);
-    if(m && m.score >= 0.82) rcEndRound(true);
-    else rcWrongGuess();
-  }
-});
-rcSuggest.addEventListener('click', () => {
-  const name = rcCurrentRound().answer;
-  rcInput.value = name;
-  rcUpdateSuggest();
-  rcEndRound(true);
-});
-const rcPhoto = rcOverlay.querySelector('[data-rc-photo]');
-if(rcPhoto){
-  rcPhoto.addEventListener('contextmenu', e => e.preventDefault());
-  rcPhoto.addEventListener('dragstart', e => e.preventDefault());
-}
-rcOverlay.addEventListener('dragstart', e => { if(e.target.tagName === 'IMG') e.preventDefault(); });
+
+driftClose.addEventListener('click', closeDRIFT);
+driftOverlay.querySelectorAll('[data-drift-diff]').forEach(b => b.addEventListener('click', () => driftStart(b.dataset.driftDiff)));
+driftOverlay.querySelectorAll('[data-drift-play-again]').forEach(b => b.addEventListener('click', () => driftStart(driftState.diff)));
+driftOverlay.querySelectorAll('[data-drift-menu]').forEach(b => b.addEventListener('click', driftBackToSplash));
+driftOverlay.querySelectorAll('.drift-card').forEach(card => card.addEventListener('click', () => driftAnswer(card.dataset.driftSide)));
 
 /* ═══ BUTTON WIRING ═══ */
 document.getElementById('guessBtn').addEventListener('click', openGTG);
-document.getElementById('recallBtn').addEventListener('click', openRC);
+document.getElementById('driftBtn').addEventListener('click', openDRIFT);
 
 /* ═══ BOOT ═══ */
 (async function boot(){
