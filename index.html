@@ -126,22 +126,11 @@
     position:absolute;
     top:-.5rem;bottom:-.5rem;
     left:calc(-50vw + 50%);right:calc(-50vw + 50%);
-    background:rgba(10,13,20,.92);
-    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-    -webkit-mask-image:linear-gradient(to bottom,
-        transparent 0,
-        black 1.25rem,
-        black calc(100% - 1.25rem),
-        transparent 100%);
-    mask-image:linear-gradient(to bottom,
-        transparent 0,
-        black 1.25rem,
-        black calc(100% - 1.25rem),
-        transparent 100%);
+    background:#0a0d14;
     z-index:-1;
     pointer-events:none;
   }
-  body[data-group="single"] .toolbar::before{background:rgba(13,7,8,.92);}
+  body[data-group="single"] .toolbar::before{background:#0d0708;}
   .toolbar.empty{display:none}
   .tb-left{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
   .tb-right{margin-left:auto;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;}
@@ -658,7 +647,7 @@
   .random-spin-btn:hover{filter:brightness(1.08);box-shadow:0 0 32px var(--gold-glow);}
   .random-spin-btn:disabled{opacity:.55;cursor:wait;box-shadow:none;filter:none;}
 
-  /* ═══ UNIFIED CLOSE X — shared across all overlays ═══ */
+  /* ═══ UNIFIED CLOSE X ═══ */
   .ov-close{
     position:fixed;top:1rem;left:1rem;z-index:250;
     width:38px;height:38px;border-radius:8px;
@@ -950,8 +939,16 @@
   .drift-shot img{width:100%;height:100%;object-fit:cover;display:block;}
   .drift-shot::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.85) 0%,rgba(0,0,0,.3) 45%,transparent 70%);pointer-events:none;}
   .drift-logo-wrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:15% 12%;z-index:2;pointer-events:none;}
-  .drift-logo-wrap img{max-width:100%;max-height:100%;object-fit:contain;display:block;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9));}
-  .drift-logo-wrap .ph{font-family:'Chakra Petch',system-ui,sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.14em;color:#0e7490;text-transform:uppercase;text-align:center;line-height:1.6;}
+  .drift-logo-wrap::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:radial-gradient(ellipse 60% 55% at center, rgba(0,0,0,.72) 0%, rgba(0,0,0,.35) 45%, transparent 78%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .drift-logo-wrap img{position:relative;z-index:1;max-width:100%;max-height:100%;object-fit:contain;display:block;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9));}
+  .drift-logo-wrap .ph{position:relative;z-index:1;font-family:'Chakra Petch',system-ui,sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.14em;color:#0e7490;text-transform:uppercase;text-align:center;line-height:1.6;}
   .drift-reveal{position:absolute;bottom:.6rem;left:.6rem;right:.6rem;text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.12em;color:#67e8f9;background:rgba(2,10,14,.9);border:1px solid rgba(34,211,238,.5);padding:.35rem .5rem;border-radius:4px;z-index:4;opacity:0;transform:translateY(6px);transition:opacity .35s ease,transform .35s ease;pointer-events:none;text-shadow:0 0 8px rgba(34,211,238,.6);}
   .drift-reveal.show{opacity:1;transform:translateY(0);}
 
@@ -1191,13 +1188,13 @@
       <div class="drift-prompt" data-drift-prompt>WHICH IS LONGER?</div>
       <div class="drift-arena">
         <div class="drift-card" data-drift-side="left">
-          <span class="drift-subject">SUBJECT A</span>
+          <span class="drift-subject">SUBJECT #—</span>
           <div class="drift-shot" data-drift-shot="left"></div>
           <div class="drift-logo-wrap" data-drift-logo="left"></div>
           <div class="drift-reveal" data-drift-reveal="left"></div>
         </div>
         <div class="drift-card" data-drift-side="right">
-          <span class="drift-subject">SUBJECT B</span>
+          <span class="drift-subject">SUBJECT #—</span>
           <div class="drift-shot" data-drift-shot="right"></div>
           <div class="drift-logo-wrap" data-drift-logo="right"></div>
           <div class="drift-reveal" data-drift-reveal="right"></div>
@@ -3454,8 +3451,8 @@ function modalHTML(g, t){
     </div>`;
   return `<div class="modal-wrap">${prevBtn}${modalBlock}${nextBtn}</div>`;
 }
-/* ═══ HERO SIZE + RATIO CACHE (prevents flash on fast modal nav) ═══ */
-const heroRatioCache = new Map(); // url -> ratio (w / h)
+/* ═══ HERO SIZE + RATIO CACHE ═══ */
+const heroRatioCache = new Map();
 function applyHeroSizeByRatio(heroEl, ratio){
   const vw = window.innerWidth;
   const vh = window.innerHeight;
@@ -3486,7 +3483,6 @@ function applyHeroSize(heroEl){
     applyHeroSizeByRatio(heroEl, ratio);
     return;
   }
-  // Image not decoded yet — fall back to cached ratio if we have it
   if(url && heroRatioCache.has(url)){
     applyHeroSizeByRatio(heroEl, heroRatioCache.get(url));
   }
@@ -3529,11 +3525,9 @@ function renderModal(g, t){
   const imgEl = modalSlot.querySelector('[data-hero-img]');
   const vidEl = modalSlot.querySelector('[data-hero-video]');
   if(heroEl && imgEl){
-    // 1) Already decoded (cached img on this session)
     if(imgEl.complete && imgEl.naturalWidth){
       applyHeroSize(heroEl);
     } else {
-      // 2) We know the ratio from a previous view — size it NOW so no flash
       if(imgEl.src && heroRatioCache.has(imgEl.src)){
         applyHeroSizeByRatio(heroEl, heroRatioCache.get(imgEl.src));
       }
@@ -3553,7 +3547,6 @@ function navigateModal(delta){
   renderModal(next, tab);
   const m = modalSlot.querySelector('.modal');
   if(m) m.scrollTop = 0;
-  // Warm the ratio cache for the arrow-after-next so it never flashes
   const ahead = modalNavList[(modalNavIdx + delta + modalNavList.length) % modalNavList.length];
   if(ahead && ahead.screenshot){
     const url = screenshotSrc(ahead.screenshot);
@@ -3570,8 +3563,6 @@ let mdBackdropTarget = null;
 backdrop.addEventListener('mousedown', e => { mdBackdropTarget = e.target; });
 backdrop.addEventListener('click', e => {
   const INSIDE = '.modal, .modal-nav, .modal-close, .admin-modal, .confirm, .token-modal, .picker-modal, .logo-picker, .series-header-modal, .tools-modal';
-  // composedPath snapshots the chain at dispatch time — survives node removal
-  // (e.g. clicking a "remove row" button that deletes its own row first)
   const path = (e.composedPath && e.composedPath()) || [];
   if(path.some(el => el.matches && el.matches(INSIDE))) return;
   if(mdBackdropTarget && mdBackdropTarget.closest && mdBackdropTarget.closest(INSIDE)) return;
@@ -4268,7 +4259,6 @@ function openEditor(g, opts){
       $('#f-hltb-extra').value = parts.extra || '';
       toast('HLTB filled (' + usedSource + '): ' + fields.hltb);
     }catch(err){
-      // If appid lookup failed, silently try by name before showing error
       if(steamAppId && nameVal){
         try{
           const data2 = await hltbSearch(nameVal);
@@ -5037,7 +5027,6 @@ async function runParse(){
       setSrcDot(dots.lbdb, 'found');
     }catch(e){ results.lbdb = { error: e.message }; setSrcDot(dots.lbdb, 'error'); }
   })());
-  /* ── HLTB: prefer Steam appid if present, else fall back to name ── */
   if((hasName || linkedSteamPre) && !locked.has('hltb')) tasks.push((async () => {
     try{
       const data = linkedSteamPre
@@ -6334,6 +6323,18 @@ const driftState = {
 function driftGet(k, fb){ try{ const v = localStorage.getItem(k); return v ? parseInt(v,10)||0 : (fb||0);}catch(e){ return fb||0; } }
 function driftSet(k, v){ try{ localStorage.setItem(k, String(v)); }catch(e){} }
 
+/* Case number: first tab the game belongs to (in REAL_LISTS order)
+   gives (tabIdx+1)*1000 + rowIdx+1. So Released #1001..#1999, Mods #4001.., Beaten #9001.. */
+function driftCaseNumber(gameId){
+  for(let i = 0; i < REAL_LISTS.length; i++){
+    const t = REAL_LISTS[i];
+    const list = listFor(t);
+    const idx = list.indexOf(gameId);
+    if(idx >= 0) return (i + 1) * 1000 + idx + 1;
+  }
+  return null;
+}
+
 function driftShowView(name){
   Object.values(driftViews).forEach(v => v.classList.remove('on'));
   driftViews[name].classList.add('on');
@@ -6408,7 +6409,6 @@ function driftBuildPair(q, diff, lastWinnerId){
     if(gap < bMin || gap > bMax) continue;
     return driftAssemblePair(q, a, b);
   }
-  // Fallback: any non-tied pair
   for(let attempt = 0; attempt < 100; attempt++){
     const i = Math.floor(Math.random() * pool.length);
     const j = Math.floor(Math.random() * pool.length);
@@ -6428,6 +6428,8 @@ function driftRenderPair(pair){
   const rightLogo = driftOverlay.querySelector('[data-drift-logo="right"]');
   const leftReveal = driftOverlay.querySelector('[data-drift-reveal="left"]');
   const rightReveal = driftOverlay.querySelector('[data-drift-reveal="right"]');
+  const leftSubj = driftOverlay.querySelector('.drift-card[data-drift-side="left"] .drift-subject');
+  const rightSubj = driftOverlay.querySelector('.drift-card[data-drift-side="right"] .drift-subject');
   const cards = driftOverlay.querySelectorAll('.drift-card');
 
   cards.forEach(c => c.classList.remove('correct','wrong','correct-reveal'));
@@ -6454,6 +6456,11 @@ function driftRenderPair(pair){
   if(pair.right.logo) rightLogo.innerHTML = `<img src="${esc(logoSrc(pair.right.logo))}" alt="" loading="eager" decoding="async">`;
   else rightLogo.innerHTML = `<div class="ph">${esc(pair.right.name)}</div>`;
 
+  const ln = driftCaseNumber(pair.left.id);
+  const rn = driftCaseNumber(pair.right.id);
+  leftSubj.textContent  = ln ? 'SUBJECT #' + ln : 'SUBJECT —';
+  rightSubj.textContent = rn ? 'SUBJECT #' + rn : 'SUBJECT —';
+
   driftPromptEl.textContent = pair.q.prompt;
 }
 
@@ -6465,7 +6472,6 @@ function driftNextRound(){
   }
   let pair = driftBuildPair(q, driftState.diff, driftState.lastWinnerId);
   if(!pair){
-    // Try other questions
     for(const altQ of DRIFT_QUESTIONS){
       const altPair = driftBuildPair(altQ, driftState.diff, driftState.lastWinnerId);
       if(altPair){
@@ -6518,21 +6524,19 @@ function driftAnswer(side){
     revealThis.classList.add('show');
     revealOther.classList.add('show');
   } else if(driftState.diff === 'medium'){
-    let diffText;
-    if(pair.q.ratioBands){
-      const hi = Math.max(pair.values.left, pair.values.right);
-      const lo = Math.min(pair.values.left, pair.values.right);
-      diffText = 'RATIO ×' + (hi / lo).toFixed(2);
-    } else if(pair.q.key === 'release'){
-      diffText = 'DIFFERENCE: ' + Math.abs(pair.values.left - pair.values.right) + ' yrs';
+    const a = pair.values.left, b = pair.values.right;
+    let line;
+    if(pair.q.key === 'release'){
+      line = Math.abs(a - b) + ' YEARS APART';
+    } else if(pair.q.key === 'size'){
+      const d = Math.abs(a - b);
+      line = d.toFixed(d < 10 ? 1 : 0) + ' GB APART';
     } else {
-      const d = Math.abs(pair.values.left - pair.values.right);
-      diffText = 'DIFFERENCE: ' + (pair.q.key === 'size' ? d.toFixed(1) + ' GB' : Math.round(d) + ' hrs');
+      line = Math.round(Math.abs(a - b)) + ' HRS APART';
     }
-    driftRevealLineEl.textContent = diffText;
+    driftRevealLineEl.textContent = line;
     driftRevealLineEl.classList.add('show');
   }
-  // hard: nothing revealed
 
   const delay = driftState.diff === 'hard' ? 700 : 1100;
   setTimeout(() => {
