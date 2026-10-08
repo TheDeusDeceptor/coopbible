@@ -1,0 +1,38 @@
+{
+  "id": "39-days-to-mars-2018-pc",
+  "name": "39 Days to Mars",
+  "platform": "PC",
+  "size": "0.6 GB",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "It's Anecdotal",
+  "pub": "It's Anecdotal",
+  "notes": "",
+  "release": "25.04.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/39-days-to-mars-2018-pc.jpg",
+  "logo": "images/logos/39-days-to-mars-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/504920",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/39_Days_to_Mars",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

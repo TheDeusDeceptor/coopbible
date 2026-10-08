@@ -1,0 +1,38 @@
+{
+  "id": "griefhelm-2020-pc",
+  "name": "Griefhelm",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Johnny Dale Lonack",
+  "pub": "Thorrnet Publishing",
+  "notes": "",
+  "release": "20.08.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/griefhelm-2020-pc.jpg",
+  "logo": "images/logos/griefhelm-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1125330",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Griefhelm",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

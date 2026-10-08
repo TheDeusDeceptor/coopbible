@@ -1,0 +1,33 @@
+{
+  "id": "how-2-escape-lost-submarine-2025-pc",
+  "name": "How 2 Escape: Lost Submarine",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 3",
+  "dev": "Breakfirst Games",
+  "pub": "Breakfirst Games",
+  "notes": "",
+  "release": "24.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/how-2-escape-lost-submarine-2025-pc.jpg",
+  "logo": "images/logos/how-2-escape-lost-submarine-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3530680",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

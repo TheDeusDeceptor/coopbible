@@ -1,0 +1,38 @@
+{
+  "id": "warhammer-chaosbane-2019-pc",
+  "name": "Warhammer: Chaosbane",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 10, +Extra: 17",
+  "dev": "Eko Software",
+  "pub": "Nacon",
+  "notes": "",
+  "release": "31.05.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/warhammer-chaosbane-2019-pc.jpg",
+  "logo": "images/logos/warhammer-chaosbane-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/774241",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Warhammer%3A_Chaosbane",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

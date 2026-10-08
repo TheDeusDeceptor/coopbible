@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-07T23:22:36Z",
+  "updated": "2026-10-08T13:49:38Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -7355,6 +7355,361 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "how-2-escape-2023-pc": {
+      "id": "how-2-escape-2023-pc",
+      "name": "How 2 Escape",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 6",
+      "dev": "Breakfirst Games",
+      "pub": "Breakfirst Games",
+      "notes": "",
+      "release": "31.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/how-2-escape-2023-pc.jpg",
+      "logo": "images/logos/how-2-escape-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2264140",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "how-2-escape-lost-submarine-2025-pc": {
+      "id": "how-2-escape-lost-submarine-2025-pc",
+      "name": "How 2 Escape: Lost Submarine",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 3",
+      "dev": "Breakfirst Games",
+      "pub": "Breakfirst Games",
+      "notes": "",
+      "release": "24.06.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/how-2-escape-lost-submarine-2025-pc.jpg",
+      "logo": "images/logos/how-2-escape-lost-submarine-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3530680",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "struggling-2020-pc": {
+      "id": "struggling-2020-pc",
+      "name": "Struggling",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 8",
+      "dev": "Chasing Rats Games",
+      "pub": "Frontier Foundry",
+      "notes": "",
+      "release": "27.08.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/struggling-2020-pc.jpg",
+      "logo": "images/logos/struggling-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1035560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Struggling",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "b-a-n-k-2025-pc": {
+      "id": "b-a-n-k-2025-pc",
+      "name": "B.A.N.K.",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "—",
+      "dev": "TreekSamrix",
+      "pub": "TreekSamrix",
+      "notes": "",
+      "release": "21.08.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/b-a-n-k-2025-pc.jpg",
+      "logo": "images/logos/b-a-n-k-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3589010",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "griefhelm-2020-pc": {
+      "id": "griefhelm-2020-pc",
+      "name": "Griefhelm",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Johnny Dale Lonack",
+      "pub": "Thorrnet Publishing",
+      "notes": "",
+      "release": "20.08.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/griefhelm-2020-pc.jpg",
+      "logo": "images/logos/griefhelm-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1125330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Griefhelm",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tipston-salvage-2024-pc": {
+      "id": "tipston-salvage-2024-pc",
+      "name": "Tipston Salvage",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Pontus Karlsson",
+      "pub": "Pontus Karlsson",
+      "notes": "",
+      "release": "10.10.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tipston-salvage-2024-pc.jpg",
+      "logo": "images/logos/tipston-salvage-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1358790",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "how-to-survive-2014-pc": {
+      "id": "how-to-survive-2014-pc",
+      "name": "How to Survive",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 10, +Extra: 14",
+      "dev": "Eko Software",
+      "pub": "505 Games",
+      "notes": "",
+      "release": "29.08.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/how-to-survive-2014-pc.jpg",
+      "logo": "images/logos/how-to-survive-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/250400",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "how-to-survive-2-2016-pc": {
+      "id": "how-to-survive-2-2016-pc",
+      "name": "How to Survive 2",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 27, +Extra: 37",
+      "dev": "Eko Software",
+      "pub": "505 Games",
+      "notes": "",
+      "release": "08.09.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/how-to-survive-2-2016-pc.jpg",
+      "logo": "images/logos/how-to-survive-2-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/360170",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/How_to_Survive_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": true,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "warhammer-chaosbane-2019-pc": {
+      "id": "warhammer-chaosbane-2019-pc",
+      "name": "Warhammer: Chaosbane",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 10, +Extra: 17",
+      "dev": "Eko Software",
+      "pub": "Nacon",
+      "notes": "",
+      "release": "31.05.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/warhammer-chaosbane-2019-pc.jpg",
+      "logo": "images/logos/warhammer-chaosbane-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/774241",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Warhammer%3A_Chaosbane",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "39-days-to-mars-2018-pc": {
+      "id": "39-days-to-mars-2018-pc",
+      "name": "39 Days to Mars",
+      "platform": "PC",
+      "size": "0.6 GB",
+      "hltb": "Main: 2, +Extra: 3",
+      "dev": "It's Anecdotal",
+      "pub": "It's Anecdotal",
+      "notes": "",
+      "release": "25.04.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/39-days-to-mars-2018-pc.jpg",
+      "logo": "images/logos/39-days-to-mars-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/504920",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/39_Days_to_Mars",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -7556,7 +7911,17 @@
       "phantom-squad-2025-pc",
       "embr-2021-pc",
       "the-timeless-child-prologue-2021-pc",
-      "young-souls-2022-pc"
+      "young-souls-2022-pc",
+      "how-2-escape-2023-pc",
+      "how-2-escape-lost-submarine-2025-pc",
+      "struggling-2020-pc",
+      "b-a-n-k-2025-pc",
+      "griefhelm-2020-pc",
+      "tipston-salvage-2024-pc",
+      "how-to-survive-2014-pc",
+      "how-to-survive-2-2016-pc",
+      "warhammer-chaosbane-2019-pc",
+      "39-days-to-mars-2018-pc"
     ],
     "early-access": [],
     "unreleased": [],

@@ -1,0 +1,33 @@
+{
+  "id": "how-2-escape-2023-pc",
+  "name": "How 2 Escape",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 6",
+  "dev": "Breakfirst Games",
+  "pub": "Breakfirst Games",
+  "notes": "",
+  "release": "31.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/how-2-escape-2023-pc.jpg",
+  "logo": "images/logos/how-2-escape-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2264140",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

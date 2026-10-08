@@ -1,0 +1,33 @@
+{
+  "id": "b-a-n-k-2025-pc",
+  "name": "B.A.N.K.",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "TreekSamrix",
+  "pub": "TreekSamrix",
+  "notes": "",
+  "release": "21.08.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/b-a-n-k-2025-pc.jpg",
+  "logo": "images/logos/b-a-n-k-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3589010",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

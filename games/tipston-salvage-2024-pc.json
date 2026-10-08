@@ -1,0 +1,33 @@
+{
+  "id": "tipston-salvage-2024-pc",
+  "name": "Tipston Salvage",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Pontus Karlsson",
+  "pub": "Pontus Karlsson",
+  "notes": "",
+  "release": "10.10.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tipston-salvage-2024-pc.jpg",
+  "logo": "images/logos/tipston-salvage-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1358790",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

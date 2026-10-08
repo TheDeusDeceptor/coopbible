@@ -1,0 +1,38 @@
+{
+  "id": "struggling-2020-pc",
+  "name": "Struggling",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 8",
+  "dev": "Chasing Rats Games",
+  "pub": "Frontier Foundry",
+  "notes": "",
+  "release": "27.08.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/struggling-2020-pc.jpg",
+  "logo": "images/logos/struggling-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1035560",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Struggling",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
