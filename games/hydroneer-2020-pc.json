@@ -1,0 +1,38 @@
+{
+  "id": "hydroneer-2020-pc",
+  "name": "Hydroneer",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 19, +Extra: 25",
+  "dev": "Foulball Hangover",
+  "pub": "Foulball Hangover",
+  "notes": "Emulation issues",
+  "release": "08.05.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hydroneer-2020-pc.jpg",
+  "logo": "images/logos/hydroneer-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1106840",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hydroneer",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

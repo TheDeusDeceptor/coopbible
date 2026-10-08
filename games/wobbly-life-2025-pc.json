@@ -1,0 +1,38 @@
+{
+  "id": "wobbly-life-2025-pc",
+  "name": "Wobbly Life",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 4, +Extra: 20",
+  "dev": "RubberBandGames",
+  "pub": "RubberBandGames",
+  "notes": "",
+  "release": "18.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/wobbly-life-2025-pc.jpg",
+  "logo": "images/logos/wobbly-life-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1211020",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Wobbly_Life",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

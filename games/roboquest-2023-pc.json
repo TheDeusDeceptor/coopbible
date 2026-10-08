@@ -1,0 +1,38 @@
+{
+  "id": "roboquest-2023-pc",
+  "name": "Roboquest",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 10, +Extra: 22",
+  "dev": "RyseUp Studios",
+  "pub": "RyseUp Studios",
+  "notes": "",
+  "release": "07.11.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/roboquest-2023-pc.jpg",
+  "logo": "images/logos/roboquest-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/692890",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Roboquest",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "orion-prelude-2012-pc",
+  "name": "ORION: Prelude",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 4, +Extra: 10",
+  "dev": "Dankie",
+  "pub": "Dankie",
+  "notes": "",
+  "release": "04.05.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/orion-prelude-2012-pc.jpg",
+  "logo": "images/logos/orion-prelude-2012-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/104900",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Orion%3A_Prelude",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

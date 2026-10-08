@@ -1,0 +1,38 @@
+{
+  "id": "no-more-room-in-hell-2013-pc",
+  "name": "No More Room in Hell",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 20, +Extra: 27",
+  "dev": "No More Room in Hell Team",
+  "pub": "Lever Games",
+  "notes": "",
+  "release": "31.10.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/no-more-room-in-hell-2013-pc.jpg",
+  "logo": "images/logos/no-more-room-in-hell-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/224260",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/No_More_Room_in_Hell",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

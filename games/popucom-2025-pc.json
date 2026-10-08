@@ -1,0 +1,38 @@
+{
+  "id": "popucom-2025-pc",
+  "name": "POPUCOM",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 12, +Extra: 13",
+  "dev": "Hypergryph",
+  "pub": "Gryphline, Fireshine Games",
+  "notes": "",
+  "release": "01.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/popucom-2025-pc.jpg",
+  "logo": "images/logos/popucom-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2543180",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Popucom",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

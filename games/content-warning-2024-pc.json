@@ -1,0 +1,38 @@
+{
+  "id": "content-warning-2024-pc",
+  "name": "Content Warning",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Zorro, Wilnyl, Philip, thePetHen, Skog",
+  "pub": "Evil Landfall",
+  "notes": "",
+  "release": "01.04.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/content-warning-2024-pc.jpg",
+  "logo": "images/logos/content-warning-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2881650",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Content_Warning",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

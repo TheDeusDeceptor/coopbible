@@ -1,0 +1,38 @@
+{
+  "id": "one-armed-robber-2023-pc",
+  "name": "One-armed robber",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Duhndal",
+  "pub": "Duhndal",
+  "notes": "",
+  "release": "15.12.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/one-armed-robber-2023-pc.jpg",
+  "logo": "images/logos/one-armed-robber-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2551020",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/One-armed_robber",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

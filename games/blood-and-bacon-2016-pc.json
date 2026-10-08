@@ -1,0 +1,38 @@
+{
+  "id": "blood-and-bacon-2016-pc",
+  "name": "Blood and Bacon",
+  "platform": "PC",
+  "size": "0.3 GB",
+  "hltb": "Main: 4, +Extra: 9",
+  "dev": "Big Corporation",
+  "pub": "Grunge Games LTD",
+  "notes": "Anisotropic filtering needs some tinkering...",
+  "release": "01.02.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/blood-and-bacon-2016-pc.jpg",
+  "logo": "images/logos/blood-and-bacon-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/434570",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Blood_and_Bacon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

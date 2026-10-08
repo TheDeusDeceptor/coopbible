@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T21:26:27Z",
+  "updated": "2026-10-08T21:47:39Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -8760,6 +8760,381 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "one-armed-robber-2023-pc": {
+      "id": "one-armed-robber-2023-pc",
+      "name": "One-armed robber",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 5, +Extra: 8",
+      "dev": "Duhndal",
+      "pub": "Duhndal",
+      "notes": "",
+      "release": "15.12.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/one-armed-robber-2023-pc.jpg",
+      "logo": "images/logos/one-armed-robber-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2551020",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/One-armed_robber",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "roboquest-2023-pc": {
+      "id": "roboquest-2023-pc",
+      "name": "Roboquest",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 10, +Extra: 22",
+      "dev": "RyseUp Studios",
+      "pub": "RyseUp Studios",
+      "notes": "",
+      "release": "07.11.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/roboquest-2023-pc.jpg",
+      "logo": "images/logos/roboquest-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/692890",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Roboquest",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hydroneer-2020-pc": {
+      "id": "hydroneer-2020-pc",
+      "name": "Hydroneer",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 19, +Extra: 25",
+      "dev": "Foulball Hangover",
+      "pub": "Foulball Hangover",
+      "notes": "Emulation issues",
+      "release": "08.05.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hydroneer-2020-pc.jpg",
+      "logo": "images/logos/hydroneer-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1106840",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hydroneer",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "blood-and-bacon-2016-pc": {
+      "id": "blood-and-bacon-2016-pc",
+      "name": "Blood and Bacon",
+      "platform": "PC",
+      "size": "0.3 GB",
+      "hltb": "Main: 4, +Extra: 9",
+      "dev": "Big Corporation",
+      "pub": "Grunge Games LTD",
+      "notes": "Anisotropic filtering needs some tinkering...",
+      "release": "01.02.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/blood-and-bacon-2016-pc.jpg",
+      "logo": "images/logos/blood-and-bacon-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/434570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Blood_and_Bacon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "content-warning-2024-pc": {
+      "id": "content-warning-2024-pc",
+      "name": "Content Warning",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 7, +Extra: 11",
+      "dev": "Zorro, Wilnyl, Philip, thePetHen, Skog",
+      "pub": "Evil Landfall",
+      "notes": "",
+      "release": "01.04.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/content-warning-2024-pc.jpg",
+      "logo": "images/logos/content-warning-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2881650",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Content_Warning",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "no-more-room-in-hell-2013-pc": {
+      "id": "no-more-room-in-hell-2013-pc",
+      "name": "No More Room in Hell",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 20, +Extra: 27",
+      "dev": "No More Room in Hell Team",
+      "pub": "Lever Games",
+      "notes": "",
+      "release": "31.10.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/no-more-room-in-hell-2013-pc.jpg",
+      "logo": "images/logos/no-more-room-in-hell-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/224260",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/No_More_Room_in_Hell",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wobbly-life-2025-pc": {
+      "id": "wobbly-life-2025-pc",
+      "name": "Wobbly Life",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 4, +Extra: 20",
+      "dev": "RubberBandGames",
+      "pub": "RubberBandGames",
+      "notes": "",
+      "release": "18.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wobbly-life-2025-pc.jpg",
+      "logo": "images/logos/wobbly-life-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1211020",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Wobbly_Life",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "popucom-2025-pc": {
+      "id": "popucom-2025-pc",
+      "name": "POPUCOM",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 12, +Extra: 13",
+      "dev": "Hypergryph",
+      "pub": "Gryphline, Fireshine Games",
+      "notes": "",
+      "release": "01.06.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/popucom-2025-pc.jpg",
+      "logo": "images/logos/popucom-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2543180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Popucom",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "orion-prelude-2012-pc": {
+      "id": "orion-prelude-2012-pc",
+      "name": "ORION: Prelude",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 4, +Extra: 10",
+      "dev": "Dankie",
+      "pub": "Dankie",
+      "notes": "",
+      "release": "04.05.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/orion-prelude-2012-pc.jpg",
+      "logo": "images/logos/orion-prelude-2012-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/104900",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Orion%3A_Prelude",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "guardians-of-orion-phase-2-2016-pc": {
+      "id": "guardians-of-orion-phase-2-2016-pc",
+      "name": "Guardians of Orion (Phase 2)",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 3, +Extra: 10",
+      "dev": "Dankie",
+      "pub": "Dankie",
+      "notes": "",
+      "release": "21.12.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/guardians-of-orion-phase-2-2016-pc.jpg",
+      "logo": "images/logos/guardians-of-orion-phase-2-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/407840",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -9001,7 +9376,17 @@
       "lockyourdoor-2025-pc",
       "phantom-breaker-battle-grounds-classic-2015-pc",
       "rwby-grimm-eclipse-2016-pc",
-      "the-blackout-club-2019-pc"
+      "the-blackout-club-2019-pc",
+      "one-armed-robber-2023-pc",
+      "roboquest-2023-pc",
+      "hydroneer-2020-pc",
+      "blood-and-bacon-2016-pc",
+      "content-warning-2024-pc",
+      "no-more-room-in-hell-2013-pc",
+      "wobbly-life-2025-pc",
+      "popucom-2025-pc",
+      "orion-prelude-2012-pc",
+      "guardians-of-orion-phase-2-2016-pc"
     ],
     "early-access": [],
     "unreleased": [],
