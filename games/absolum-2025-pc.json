@@ -1,0 +1,38 @@
+{
+  "id": "absolum-2025-pc",
+  "name": "Absolum",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 8, +Extra: 15",
+  "dev": "DotEmu",
+  "pub": "DotEmu",
+  "notes": "",
+  "release": "09.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/absolum-2025-pc.jpg",
+  "logo": "images/logos/absolum-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1904480",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Absolum",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

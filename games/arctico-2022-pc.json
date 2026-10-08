@@ -1,0 +1,38 @@
+{
+  "id": "arctico-2022-pc",
+  "name": "Arctico",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Claudio Norori",
+  "pub": "Antonio Vargas",
+  "notes": "",
+  "release": "15.02.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/arctico-2022-pc.jpg",
+  "logo": "images/logos/arctico-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/325210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Arctico",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

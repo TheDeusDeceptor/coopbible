@@ -1,0 +1,38 @@
+{
+  "id": "killsquad-2021-pc",
+  "name": "Killsquad",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "Novarama",
+  "pub": "Novarama",
+  "notes": "",
+  "release": "21.10.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/killsquad-2021-pc.jpg",
+  "logo": "images/logos/killsquad-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/910490",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Killsquad",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

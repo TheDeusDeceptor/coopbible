@@ -1,0 +1,33 @@
+{
+  "id": "skibidi-gyatrooms-2025-pc",
+  "name": "Skibidi Gyatrooms",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 4",
+  "dev": "FoodWithoutTaste, Shinok",
+  "pub": "HeartstuckStudios",
+  "notes": "",
+  "release": "20.01.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/skibidi-gyatrooms-2025-pc.jpg",
+  "logo": "images/logos/skibidi-gyatrooms-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3288600",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

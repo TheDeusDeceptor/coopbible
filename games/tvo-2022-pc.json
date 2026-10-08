@@ -1,0 +1,33 @@
+{
+  "id": "tvo-2022-pc",
+  "name": "Tvö",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "Artless Gallery",
+  "pub": "Umbra Evolution",
+  "notes": "",
+  "release": "31.07.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tvo-2022-pc.jpg",
+  "logo": "images/logos/tvo-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2026990",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

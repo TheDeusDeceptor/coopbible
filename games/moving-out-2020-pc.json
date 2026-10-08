@@ -1,0 +1,38 @@
+{
+  "id": "moving-out-2020-pc",
+  "name": "Moving Out",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 5, +Extra: 10",
+  "dev": "SMG Studio",
+  "pub": "Team17",
+  "notes": "",
+  "release": "28.04.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/moving-out-2020-pc.jpg",
+  "logo": "images/logos/moving-out-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/996770",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Moving_Out",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "emissary-zero-2025-pc",
+  "name": "Emissary Zero",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Rone Vine",
+  "pub": "Rone Vine",
+  "notes": "",
+  "release": "28.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/emissary-zero-2025-pc.jpg",
+  "logo": "images/logos/emissary-zero-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3176060",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "magicite-2014-pc",
+  "name": "Magicite",
+  "platform": "PC",
+  "size": "0.4 GB",
+  "hltb": "Main: 21, +Extra: 35",
+  "dev": "Sean Young",
+  "pub": "SmashGames",
+  "notes": "",
+  "release": "09.06.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/magicite-2014-pc.jpg",
+  "logo": "images/logos/magicite-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/268750",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Magicite",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

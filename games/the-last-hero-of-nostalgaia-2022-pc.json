@@ -1,0 +1,38 @@
+{
+  "id": "the-last-hero-of-nostalgaia-2022-pc",
+  "name": "The Last Hero of Nostalgaia",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 12, +Extra: 17",
+  "dev": "Over The Moon",
+  "pub": "Coatsink",
+  "notes": "",
+  "release": "19.10.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-last-hero-of-nostalgaia-2022-pc.jpg",
+  "logo": "images/logos/the-last-hero-of-nostalgaia-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1766100",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Last_Hero_of_Nostalgaia",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

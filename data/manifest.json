@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T23:10:18Z",
+  "updated": "2026-10-08T23:34:38Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -10559,6 +10559,447 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "absolum-2025-pc": {
+      "id": "absolum-2025-pc",
+      "name": "Absolum",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 8, +Extra: 15",
+      "dev": "DotEmu",
+      "pub": "DotEmu",
+      "notes": "",
+      "release": "09.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/absolum-2025-pc.jpg",
+      "logo": "images/logos/absolum-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1904480",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Absolum",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-last-hero-of-nostalgaia-2022-pc": {
+      "id": "the-last-hero-of-nostalgaia-2022-pc",
+      "name": "The Last Hero of Nostalgaia",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 12, +Extra: 17",
+      "dev": "Over The Moon",
+      "pub": "Coatsink",
+      "notes": "",
+      "release": "19.10.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-last-hero-of-nostalgaia-2022-pc.jpg",
+      "logo": "images/logos/the-last-hero-of-nostalgaia-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1766100",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Last_Hero_of_Nostalgaia",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "livelock-2016-pc": {
+      "id": "livelock-2016-pc",
+      "name": "Livelock",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 5, +Extra: 7",
+      "dev": "Tuque Games",
+      "pub": "Arc Games",
+      "notes": "",
+      "release": "30.08.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/livelock-2016-pc.jpg",
+      "logo": "images/logos/livelock-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/251230",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Livelock",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "arctico-2022-pc": {
+      "id": "arctico-2022-pc",
+      "name": "Arctico",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 4, +Extra: 5",
+      "dev": "Claudio Norori",
+      "pub": "Antonio Vargas",
+      "notes": "",
+      "release": "15.02.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/arctico-2022-pc.jpg",
+      "logo": "images/logos/arctico-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/325210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Arctico",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "emissary-zero-2025-pc": {
+      "id": "emissary-zero-2025-pc",
+      "name": "Emissary Zero",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Rone Vine",
+      "pub": "Rone Vine",
+      "notes": "",
+      "release": "28.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/emissary-zero-2025-pc.jpg",
+      "logo": "images/logos/emissary-zero-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3176060",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tvo-2022-pc": {
+      "id": "tvo-2022-pc",
+      "name": "Tvö",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 1, +Extra: 2",
+      "dev": "Artless Gallery",
+      "pub": "Umbra Evolution",
+      "notes": "",
+      "release": "31.07.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tvo-2022-pc.jpg",
+      "logo": "images/logos/tvo-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2026990",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "guns-n-zombies-2014-pc": {
+      "id": "guns-n-zombies-2014-pc",
+      "name": "Guns'N'Zombies",
+      "platform": "PC",
+      "size": "1.4 GB",
+      "hltb": "Main: 3, +Extra: 5",
+      "dev": "Krealit",
+      "pub": "Krealit",
+      "notes": "",
+      "release": "30.10.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/guns-n-zombies-2014-pc.jpg",
+      "logo": "images/logos/guns-n-zombies-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/264300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Guns_n_Zombies",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "killsquad-2021-pc": {
+      "id": "killsquad-2021-pc",
+      "name": "Killsquad",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Novarama",
+      "pub": "Novarama",
+      "notes": "",
+      "release": "21.10.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/killsquad-2021-pc.jpg",
+      "logo": "images/logos/killsquad-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/910490",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Killsquad",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "magicite-2014-pc": {
+      "id": "magicite-2014-pc",
+      "name": "Magicite",
+      "platform": "PC",
+      "size": "0.4 GB",
+      "hltb": "Main: 21, +Extra: 35",
+      "dev": "Sean Young",
+      "pub": "SmashGames",
+      "notes": "",
+      "release": "09.06.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/magicite-2014-pc.jpg",
+      "logo": "images/logos/magicite-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/268750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Magicite",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "roguelands-2016-pc": {
+      "id": "roguelands-2016-pc",
+      "name": "Roguelands",
+      "platform": "PC",
+      "size": "0.4 GB",
+      "hltb": "Main: 23, +Extra: 91",
+      "dev": "Sean Young",
+      "pub": "SmashGames",
+      "notes": "",
+      "release": "13.06.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/roguelands-2016-pc.jpg",
+      "logo": "images/logos/roguelands-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/364420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Roguelands",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "moving-out-2020-pc": {
+      "id": "moving-out-2020-pc",
+      "name": "Moving Out",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 5, +Extra: 10",
+      "dev": "SMG Studio",
+      "pub": "Team17",
+      "notes": "",
+      "release": "28.04.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/moving-out-2020-pc.jpg",
+      "logo": "images/logos/moving-out-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/996770",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Moving_Out",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "skibidi-gyatrooms-2025-pc": {
+      "id": "skibidi-gyatrooms-2025-pc",
+      "name": "Skibidi Gyatrooms",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 4",
+      "dev": "FoodWithoutTaste, Shinok",
+      "pub": "HeartstuckStudios",
+      "notes": "",
+      "release": "20.01.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/skibidi-gyatrooms-2025-pc.jpg",
+      "logo": "images/logos/skibidi-gyatrooms-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3288600",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -10848,7 +11289,19 @@
       "labyrinthine-2023-pc",
       "blanc-2023-pc",
       "forced-slightly-better-edition-2013-pc",
-      "al-qmrah-restaurant-2024-pc"
+      "al-qmrah-restaurant-2024-pc",
+      "absolum-2025-pc",
+      "the-last-hero-of-nostalgaia-2022-pc",
+      "livelock-2016-pc",
+      "arctico-2022-pc",
+      "emissary-zero-2025-pc",
+      "tvo-2022-pc",
+      "guns-n-zombies-2014-pc",
+      "killsquad-2021-pc",
+      "magicite-2014-pc",
+      "roguelands-2016-pc",
+      "moving-out-2020-pc",
+      "skibidi-gyatrooms-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

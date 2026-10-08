@@ -1,0 +1,38 @@
+{
+  "id": "guns-n-zombies-2014-pc",
+  "name": "Guns'N'Zombies",
+  "platform": "PC",
+  "size": "1.4 GB",
+  "hltb": "Main: 3, +Extra: 5",
+  "dev": "Krealit",
+  "pub": "Krealit",
+  "notes": "",
+  "release": "30.10.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/guns-n-zombies-2014-pc.jpg",
+  "logo": "images/logos/guns-n-zombies-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/264300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Guns_n_Zombies",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
