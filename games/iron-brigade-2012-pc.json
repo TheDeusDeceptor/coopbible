@@ -1,0 +1,38 @@
+{
+  "id": "iron-brigade-2012-pc",
+  "name": "Iron Brigade",
+  "platform": "PC",
+  "size": "1.8 GB",
+  "hltb": "Main: 7, +Extra: 13",
+  "dev": "Double Fine Productions",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "13.08.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/iron-brigade-2012-pc.jpg",
+  "logo": "images/logos/iron-brigade-2012-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/115120",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Iron_Brigade",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

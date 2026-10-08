@@ -1,0 +1,38 @@
+{
+  "id": "portal-knights-2017-pc",
+  "name": "Portal Knights",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 20, +Extra: 34",
+  "dev": "Keen Games",
+  "pub": "505 Games",
+  "notes": "",
+  "release": "18.05.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/portal-knights-2017-pc.jpg",
+  "logo": "images/logos/portal-knights-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/374040",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Portal_Knights",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

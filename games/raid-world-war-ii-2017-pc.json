@@ -1,0 +1,38 @@
+{
+  "id": "raid-world-war-ii-2017-pc",
+  "name": "RAID: World War II",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 5, +Extra: 26",
+  "dev": "Lion Game Lion",
+  "pub": "Starbreeze Studios",
+  "notes": "",
+  "release": "26.09.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/raid-world-war-ii-2017-pc.jpg",
+  "logo": "images/logos/raid-world-war-ii-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/414740",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/RAID%3A_World_War_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "unloved-2016-pc",
+  "name": "UNLOVED",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 6, +Extra: 11",
+  "dev": "BlueEagle Productions",
+  "pub": "Paul Schneider",
+  "notes": "",
+  "release": "29.09.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/unloved-2016-pc.jpg",
+  "logo": "images/logos/unloved-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/321270",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Unloved",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

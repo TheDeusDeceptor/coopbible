@@ -1,0 +1,38 @@
+{
+  "id": "bang-on-balls-chronicles-2023-pc",
+  "name": "Bang-On Balls: Chronicles",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 5, +Extra: 9",
+  "dev": "Exit Plan Games",
+  "pub": "Untold Tales",
+  "notes": "",
+  "release": "05.10.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/bang-on-balls-chronicles-2023-pc.jpg",
+  "logo": "images/logos/bang-on-balls-chronicles-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1227650",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Bang-On_Balls%3A_Chronicles",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

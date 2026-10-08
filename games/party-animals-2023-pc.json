@@ -1,0 +1,38 @@
+{
+  "id": "party-animals-2023-pc",
+  "name": "Party Animals",
+  "platform": "PC",
+  "size": "12 GB",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Recreate Games",
+  "pub": "Source Technology",
+  "notes": "",
+  "release": "20.09.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/party-animals-2023-pc.jpg",
+  "logo": "images/logos/party-animals-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1260320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Party_Animals",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

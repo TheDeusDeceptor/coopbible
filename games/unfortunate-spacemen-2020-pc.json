@@ -1,0 +1,38 @@
+{
+  "id": "unfortunate-spacemen-2020-pc",
+  "name": "Unfortunate Spacemen",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "Geoff 'Zag' Keene",
+  "pub": "Deep Field Games",
+  "notes": "",
+  "release": "12.06.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/unfortunate-spacemen-2020-pc.jpg",
+  "logo": "images/logos/unfortunate-spacemen-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/408900",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Unfortunate_Spacemen",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
