@@ -1,0 +1,38 @@
+{
+  "id": "nobody-saves-the-world-2022-pc",
+  "name": "Nobody Saves the World",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 17, +Extra: 21",
+  "dev": "Drinkbox Studios",
+  "pub": "Drinkbox Studios",
+  "notes": "",
+  "release": "18.01.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/nobody-saves-the-world-2022-pc.jpg",
+  "logo": "images/logos/nobody-saves-the-world-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1432050",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Nobody_Saves_the_World",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

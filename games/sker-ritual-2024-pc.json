@@ -1,0 +1,38 @@
+{
+  "id": "sker-ritual-2024-pc",
+  "name": "Sker Ritual",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 9, +Extra: 14",
+  "dev": "Wales Interactive",
+  "pub": "Skybound Games",
+  "notes": "",
+  "release": "18.04.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sker-ritual-2024-pc.jpg",
+  "logo": "images/logos/sker-ritual-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1492070",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sker_Ritual",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

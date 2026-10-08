@@ -1,0 +1,38 @@
+{
+  "id": "terrascape-2024-pc",
+  "name": "TerraScape",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 5, +Extra: 13",
+  "dev": "Bitfall Studios",
+  "pub": "Stray Fawn Publishing",
+  "notes": "",
+  "release": "17.07.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/terrascape-2024-pc.jpg",
+  "logo": "images/logos/terrascape-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2290000",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/TerraScape",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

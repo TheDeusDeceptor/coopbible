@@ -1,0 +1,38 @@
+{
+  "id": "the-ascent-2021-pc",
+  "name": "The Ascent",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "Main: 12, +Extra: 19",
+  "dev": "Neon Giant",
+  "pub": "Krafton",
+  "notes": "Tech patch in November 2026 upcoming, redownload needed",
+  "release": "29.07.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-ascent-2021-pc.jpg",
+  "logo": "images/logos/the-ascent-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/979690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Ascent",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

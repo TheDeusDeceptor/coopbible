@@ -1,0 +1,38 @@
+{
+  "id": "serious-sam-4-2020-pc",
+  "name": "Serious Sam 4",
+  "platform": "PC",
+  "size": "42 GB",
+  "hltb": "Main: 9, +Extra: 14",
+  "dev": "Croteam",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "24.09.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/serious-sam-4-2020-pc.jpg",
+  "logo": "images/logos/serious-sam-4-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/257420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Serious_Sam_4",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "final-exam-2013-pc",
+  "name": "Final Exam",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Mighty Rocket Studio",
+  "pub": "Focus Entertainment",
+  "notes": "",
+  "release": "05.11.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/final-exam-2013-pc.jpg",
+  "logo": "images/logos/final-exam-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/233190",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Final_Exam",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

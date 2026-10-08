@@ -1,0 +1,38 @@
+{
+  "id": "dead-effect-2-2016-pc",
+  "name": "Dead Effect 2",
+  "platform": "PC",
+  "size": "11 GB",
+  "hltb": "Main: 7, +Extra: 13",
+  "dev": "BadFly Interactive",
+  "pub": "App Holdings",
+  "notes": "",
+  "release": "06.05.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dead-effect-2-2016-pc.jpg",
+  "logo": "images/logos/dead-effect-2-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/394760",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dead_Effect_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

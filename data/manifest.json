@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T21:47:39Z",
+  "updated": "2026-10-08T22:09:26Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -9135,6 +9135,457 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "final-exam-2013-pc": {
+      "id": "final-exam-2013-pc",
+      "name": "Final Exam",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 5, +Extra: 7",
+      "dev": "Mighty Rocket Studio",
+      "pub": "Focus Entertainment",
+      "notes": "",
+      "release": "05.11.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/final-exam-2013-pc.jpg",
+      "logo": "images/logos/final-exam-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/233190",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Final_Exam",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-ascent-2021-pc": {
+      "id": "the-ascent-2021-pc",
+      "name": "The Ascent",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 12, +Extra: 19",
+      "dev": "Neon Giant",
+      "pub": "Krafton",
+      "notes": "Tech patch in November 2026 upcoming, redownload needed",
+      "release": "29.07.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-ascent-2021-pc.jpg",
+      "logo": "images/logos/the-ascent-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/979690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Ascent",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ashen-2018-pc": {
+      "id": "ashen-2018-pc",
+      "name": "Ashen",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 16, +Extra: 20",
+      "dev": "A44",
+      "pub": "Annapurna Interactive",
+      "notes": "Multiplayer avalible after building town(?)",
+      "release": "07.12.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ashen-2018-pc.jpg",
+      "logo": "images/logos/ashen-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/649950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Ashen",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "gatewalkers-2023-pc": {
+      "id": "gatewalkers-2023-pc",
+      "name": "Gatewalkers",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "A2 Softworks",
+      "pub": "A2 Softworks",
+      "notes": "",
+      "release": "12.01.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gatewalkers-2023-pc.jpg",
+      "logo": "images/logos/gatewalkers-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1125710",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gatewalkers",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ember-knights-2023-pc": {
+      "id": "ember-knights-2023-pc",
+      "name": "Ember Knights",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 8, +Extra: 18",
+      "dev": "Doom Turtle",
+      "pub": "Twin Sails",
+      "notes": "",
+      "release": "18.07.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ember-knights-2023-pc.jpg",
+      "logo": "images/logos/ember-knights-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1135230",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "serious-sam-4-2020-pc": {
+      "id": "serious-sam-4-2020-pc",
+      "name": "Serious Sam 4",
+      "platform": "PC",
+      "size": "42 GB",
+      "hltb": "Main: 9, +Extra: 14",
+      "dev": "Croteam",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "24.09.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/serious-sam-4-2020-pc.jpg",
+      "logo": "images/logos/serious-sam-4-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/257420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Serious_Sam_4",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "depth-2014-pc": {
+      "id": "depth-2014-pc",
+      "name": "Depth",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 5, +Extra: 64",
+      "dev": "Ammobox Studios",
+      "pub": "Ammobox Studios",
+      "notes": "",
+      "release": "03.11.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/depth-2014-pc.jpg",
+      "logo": "images/logos/depth-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/274940",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Depth_Siege_Atlantis",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "streets-of-rogue-2019-pc": {
+      "id": "streets-of-rogue-2019-pc",
+      "name": "Streets of Rogue",
+      "platform": "PC",
+      "size": "0.3 GB",
+      "hltb": "Main: 11, +Extra: 27",
+      "dev": "Matt Dabrowski",
+      "pub": "tinyBuild",
+      "notes": "",
+      "release": "12.07.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/streets-of-rogue-2019-pc.jpg",
+      "logo": "images/logos/streets-of-rogue-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/512900",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Streets_of_Rogue",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sker-ritual-2024-pc": {
+      "id": "sker-ritual-2024-pc",
+      "name": "Sker Ritual",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 9, +Extra: 14",
+      "dev": "Wales Interactive",
+      "pub": "Skybound Games",
+      "notes": "",
+      "release": "18.04.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sker-ritual-2024-pc.jpg",
+      "logo": "images/logos/sker-ritual-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1492070",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sker_Ritual",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nobody-saves-the-world-2022-pc": {
+      "id": "nobody-saves-the-world-2022-pc",
+      "name": "Nobody Saves the World",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 17, +Extra: 21",
+      "dev": "Drinkbox Studios",
+      "pub": "Drinkbox Studios",
+      "notes": "",
+      "release": "18.01.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/nobody-saves-the-world-2022-pc.jpg",
+      "logo": "images/logos/nobody-saves-the-world-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1432050",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nobody_Saves_the_World",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "terrascape-2024-pc": {
+      "id": "terrascape-2024-pc",
+      "name": "TerraScape",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 5, +Extra: 13",
+      "dev": "Bitfall Studios",
+      "pub": "Stray Fawn Publishing",
+      "notes": "",
+      "release": "17.07.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/terrascape-2024-pc.jpg",
+      "logo": "images/logos/terrascape-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2290000",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/TerraScape",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-effect-2-2016-pc": {
+      "id": "dead-effect-2-2016-pc",
+      "name": "Dead Effect 2",
+      "platform": "PC",
+      "size": "11 GB",
+      "hltb": "Main: 7, +Extra: 13",
+      "dev": "BadFly Interactive",
+      "pub": "App Holdings",
+      "notes": "",
+      "release": "06.05.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-effect-2-2016-pc.jpg",
+      "logo": "images/logos/dead-effect-2-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/394760",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dead_Effect_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -9386,7 +9837,19 @@
       "wobbly-life-2025-pc",
       "popucom-2025-pc",
       "orion-prelude-2012-pc",
-      "guardians-of-orion-phase-2-2016-pc"
+      "guardians-of-orion-phase-2-2016-pc",
+      "final-exam-2013-pc",
+      "the-ascent-2021-pc",
+      "ashen-2018-pc",
+      "gatewalkers-2023-pc",
+      "ember-knights-2023-pc",
+      "serious-sam-4-2020-pc",
+      "depth-2014-pc",
+      "streets-of-rogue-2019-pc",
+      "sker-ritual-2024-pc",
+      "nobody-saves-the-world-2022-pc",
+      "terrascape-2024-pc",
+      "dead-effect-2-2016-pc"
     ],
     "early-access": [],
     "unreleased": [],

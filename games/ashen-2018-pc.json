@@ -1,0 +1,38 @@
+{
+  "id": "ashen-2018-pc",
+  "name": "Ashen",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 16, +Extra: 20",
+  "dev": "A44",
+  "pub": "Annapurna Interactive",
+  "notes": "Multiplayer avalible after building town(?)",
+  "release": "07.12.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ashen-2018-pc.jpg",
+  "logo": "images/logos/ashen-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/649950",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Ashen",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

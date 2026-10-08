@@ -1,0 +1,38 @@
+{
+  "id": "streets-of-rogue-2019-pc",
+  "name": "Streets of Rogue",
+  "platform": "PC",
+  "size": "0.3 GB",
+  "hltb": "Main: 11, +Extra: 27",
+  "dev": "Matt Dabrowski",
+  "pub": "tinyBuild",
+  "notes": "",
+  "release": "12.07.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/streets-of-rogue-2019-pc.jpg",
+  "logo": "images/logos/streets-of-rogue-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/512900",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Streets_of_Rogue",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ember-knights-2023-pc",
+  "name": "Ember Knights",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 8, +Extra: 18",
+  "dev": "Doom Turtle",
+  "pub": "Twin Sails",
+  "notes": "",
+  "release": "18.07.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ember-knights-2023-pc.jpg",
+  "logo": "images/logos/ember-knights-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1135230",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

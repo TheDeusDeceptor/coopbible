@@ -1,0 +1,38 @@
+{
+  "id": "gatewalkers-2023-pc",
+  "name": "Gatewalkers",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "A2 Softworks",
+  "pub": "A2 Softworks",
+  "notes": "",
+  "release": "12.01.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gatewalkers-2023-pc.jpg",
+  "logo": "images/logos/gatewalkers-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1125710",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gatewalkers",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
