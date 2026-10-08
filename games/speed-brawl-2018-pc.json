@@ -1,0 +1,38 @@
+{
+  "id": "speed-brawl-2018-pc",
+  "name": "Speed Brawl",
+  "platform": "PC",
+  "size": "5.3 GB",
+  "hltb": "Main: 7",
+  "dev": "Double Stallion",
+  "pub": "Double Stallion",
+  "notes": "",
+  "release": "18.09.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/speed-brawl-2018-pc.jpg",
+  "logo": "images/logos/speed-brawl-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/468670",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Speed_Brawl",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

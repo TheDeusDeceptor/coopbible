@@ -1,0 +1,33 @@
+{
+  "id": "king-n-knight-2022-pc",
+  "name": "King 'n Knight",
+  "platform": "PC",
+  "size": "0.1 GB",
+  "hltb": "—",
+  "dev": "Jérémy Entressangle",
+  "pub": "Jérémy Entressangle",
+  "notes": "",
+  "release": "07.01.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/king-n-knight-2022-pc.jpg",
+  "logo": "images/logos/king-n-knight-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/588930",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

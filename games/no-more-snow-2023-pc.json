@@ -1,0 +1,38 @@
+{
+  "id": "no-more-snow-2023-pc",
+  "name": "No More Snow",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 1, +Extra: 3",
+  "dev": "Barzda",
+  "pub": "Barzda",
+  "notes": "",
+  "release": "18.12.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/no-more-snow-2023-pc.jpg",
+  "logo": "images/logos/no-more-snow-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2244970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/No_More_Snow",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

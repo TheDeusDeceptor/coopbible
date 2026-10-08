@@ -1,0 +1,38 @@
+{
+  "id": "congo-2016-pc",
+  "name": "Congo",
+  "platform": "PC",
+  "size": "6.8 GB",
+  "hltb": "—",
+  "dev": "Big Red Eight",
+  "pub": "The Innocent Devils",
+  "notes": "",
+  "release": "21.03.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/congo-2016-pc.jpg",
+  "logo": "images/logos/congo-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/317530",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Congo",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

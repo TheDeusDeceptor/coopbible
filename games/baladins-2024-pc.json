@@ -1,0 +1,33 @@
+{
+  "id": "baladins-2024-pc",
+  "name": "Baladins",
+  "platform": "PC",
+  "size": "1.6 GB",
+  "hltb": "Main: 11",
+  "dev": "Seed by Seed",
+  "pub": "Armor Games Studios",
+  "notes": "",
+  "release": "15.05.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/baladins-2024-pc.jpg",
+  "logo": "images/logos/baladins-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1866320",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

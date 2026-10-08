@@ -1,0 +1,33 @@
+{
+  "id": "timemelters-2024-pc",
+  "name": "TimeMelters",
+  "platform": "PC",
+  "size": "9 GB",
+  "hltb": "—",
+  "dev": "Autoexec Games",
+  "pub": "Autoexec Games",
+  "notes": "",
+  "release": "28.02.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/timemelters-2024-pc.jpg",
+  "logo": "images/logos/timemelters-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2477230",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

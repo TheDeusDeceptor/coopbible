@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T14:17:46Z",
+  "updated": "2026-10-08T14:49:05Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -8065,6 +8065,356 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "the-black-pool-2024-pc": {
+      "id": "the-black-pool-2024-pc",
+      "name": "The Black Pool",
+      "platform": "PC",
+      "size": "21 GB",
+      "hltb": "—",
+      "dev": "Smug Marmot",
+      "pub": "Smug Marmot",
+      "notes": "",
+      "release": "19.06.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-black-pool-2024-pc.jpg",
+      "logo": "images/logos/the-black-pool-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2189670",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "king-n-knight-2022-pc": {
+      "id": "king-n-knight-2022-pc",
+      "name": "King 'n Knight",
+      "platform": "PC",
+      "size": "0.1 GB",
+      "hltb": "—",
+      "dev": "Jérémy Entressangle",
+      "pub": "Jérémy Entressangle",
+      "notes": "",
+      "release": "07.01.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/king-n-knight-2022-pc.jpg",
+      "logo": "images/logos/king-n-knight-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/588930",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "superior-vengeance-2023-pc": {
+      "id": "superior-vengeance-2023-pc",
+      "name": "Superior: Vengeance",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Drifter",
+      "pub": "Gala Games",
+      "notes": "",
+      "release": "22.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/superior-vengeance-2023-pc.jpg",
+      "logo": "images/logos/superior-vengeance-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1297490",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "speed-brawl-2018-pc": {
+      "id": "speed-brawl-2018-pc",
+      "name": "Speed Brawl",
+      "platform": "PC",
+      "size": "5.3 GB",
+      "hltb": "Main: 7",
+      "dev": "Double Stallion",
+      "pub": "Double Stallion",
+      "notes": "",
+      "release": "18.09.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/speed-brawl-2018-pc.jpg",
+      "logo": "images/logos/speed-brawl-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/468670",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Speed_Brawl",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "scathe-2022-pc": {
+      "id": "scathe-2022-pc",
+      "name": "Scathe",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 7",
+      "dev": "Damage State",
+      "pub": "Kwalee",
+      "notes": "",
+      "release": "31.08.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/scathe-2022-pc.jpg",
+      "logo": "images/logos/scathe-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1154830",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Scathe",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "baladins-2024-pc": {
+      "id": "baladins-2024-pc",
+      "name": "Baladins",
+      "platform": "PC",
+      "size": "1.6 GB",
+      "hltb": "Main: 11",
+      "dev": "Seed by Seed",
+      "pub": "Armor Games Studios",
+      "notes": "",
+      "release": "15.05.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/baladins-2024-pc.jpg",
+      "logo": "images/logos/baladins-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1866320",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "no-more-snow-2023-pc": {
+      "id": "no-more-snow-2023-pc",
+      "name": "No More Snow",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 1, +Extra: 3",
+      "dev": "Barzda",
+      "pub": "Barzda",
+      "notes": "",
+      "release": "18.12.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/no-more-snow-2023-pc.jpg",
+      "logo": "images/logos/no-more-snow-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2244970",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/No_More_Snow",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "timemelters-2024-pc": {
+      "id": "timemelters-2024-pc",
+      "name": "TimeMelters",
+      "platform": "PC",
+      "size": "9 GB",
+      "hltb": "—",
+      "dev": "Autoexec Games",
+      "pub": "Autoexec Games",
+      "notes": "",
+      "release": "28.02.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/timemelters-2024-pc.jpg",
+      "logo": "images/logos/timemelters-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2477230",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lunaela-2022-pc": {
+      "id": "lunaela-2022-pc",
+      "name": "Lunaela",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Doky",
+      "pub": "Doky",
+      "notes": "",
+      "release": "13.05.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lunaela-2022-pc.jpg",
+      "logo": "images/logos/lunaela-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1979590",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "congo-2016-pc": {
+      "id": "congo-2016-pc",
+      "name": "Congo",
+      "platform": "PC",
+      "size": "6.8 GB",
+      "hltb": "—",
+      "dev": "Big Red Eight",
+      "pub": "The Innocent Devils",
+      "notes": "",
+      "release": "21.03.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/congo-2016-pc.jpg",
+      "logo": "images/logos/congo-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/317530",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Congo",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -8286,7 +8636,17 @@
       "astrumis-survive-together-2025-pc",
       "lumberhill-2021-pc",
       "anomaly-living-2025-pc",
-      "super-crazy-rhythm-castle-2023-pc"
+      "super-crazy-rhythm-castle-2023-pc",
+      "the-black-pool-2024-pc",
+      "king-n-knight-2022-pc",
+      "superior-vengeance-2023-pc",
+      "speed-brawl-2018-pc",
+      "scathe-2022-pc",
+      "baladins-2024-pc",
+      "no-more-snow-2023-pc",
+      "timemelters-2024-pc",
+      "lunaela-2022-pc",
+      "congo-2016-pc"
     ],
     "early-access": [],
     "unreleased": [],

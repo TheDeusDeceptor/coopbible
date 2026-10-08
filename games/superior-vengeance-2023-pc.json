@@ -1,0 +1,33 @@
+{
+  "id": "superior-vengeance-2023-pc",
+  "name": "Superior: Vengeance",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Drifter",
+  "pub": "Gala Games",
+  "notes": "",
+  "release": "22.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/superior-vengeance-2023-pc.jpg",
+  "logo": "images/logos/superior-vengeance-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1297490",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

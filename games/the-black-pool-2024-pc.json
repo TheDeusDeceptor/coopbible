@@ -1,0 +1,33 @@
+{
+  "id": "the-black-pool-2024-pc",
+  "name": "The Black Pool",
+  "platform": "PC",
+  "size": "21 GB",
+  "hltb": "—",
+  "dev": "Smug Marmot",
+  "pub": "Smug Marmot",
+  "notes": "",
+  "release": "19.06.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-black-pool-2024-pc.jpg",
+  "logo": "images/logos/the-black-pool-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2189670",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

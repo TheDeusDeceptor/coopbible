@@ -1,0 +1,33 @@
+{
+  "id": "lunaela-2022-pc",
+  "name": "Lunaela",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Doky",
+  "pub": "Doky",
+  "notes": "",
+  "release": "13.05.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lunaela-2022-pc.jpg",
+  "logo": "images/logos/lunaela-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1979590",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
