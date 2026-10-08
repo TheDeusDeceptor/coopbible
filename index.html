@@ -121,16 +121,6 @@
     position:sticky;top:0;z-index:80;
     padding:.6rem 0;
   }
-  .toolbar::before{
-    content:"";
-    position:absolute;
-    top:-.5rem;bottom:-.5rem;
-    left:calc(-50vw + 50%);right:calc(-50vw + 50%);
-    background:#0a0d14;
-    z-index:-1;
-    pointer-events:none;
-  }
-  body[data-group="single"] .toolbar::before{background:#0d0708;}
   .toolbar.empty{display:none}
   .tb-left{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
   .tb-right{margin-left:auto;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;}
