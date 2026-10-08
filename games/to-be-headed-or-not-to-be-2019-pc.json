@@ -1,0 +1,38 @@
+{
+  "id": "to-be-headed-or-not-to-be-2019-pc",
+  "name": "To Be Headed Or Not To Be",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Fruits of Yggdrasil Studio",
+  "pub": "Fruits of Yggdrasil Studio",
+  "notes": "",
+  "release": "21.11.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/to-be-headed-or-not-to-be-2019-pc.jpg",
+  "logo": "images/logos/to-be-headed-or-not-to-be-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1165380",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/To_Be_Headed_Or_Not_To_Be",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

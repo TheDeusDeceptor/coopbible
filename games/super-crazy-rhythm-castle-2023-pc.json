@@ -1,0 +1,38 @@
+{
+  "id": "super-crazy-rhythm-castle-2023-pc",
+  "name": "Super Crazy Rhythm Castle",
+  "platform": "PC",
+  "size": "12 GB",
+  "hltb": "Main: 6, +Extra: 14",
+  "dev": "Second Impact Games",
+  "pub": "Konami",
+  "notes": "",
+  "release": "13.11.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/super-crazy-rhythm-castle-2023-pc.jpg",
+  "logo": "images/logos/super-crazy-rhythm-castle-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1812560",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/SUPER_CRAZY_RHYTHM_CASTLE",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

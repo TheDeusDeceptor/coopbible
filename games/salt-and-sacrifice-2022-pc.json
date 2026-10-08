@@ -1,0 +1,38 @@
+{
+  "id": "salt-and-sacrifice-2022-pc",
+  "name": "Salt and Sacrifice",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 17, +Extra: 22",
+  "dev": "Ska Studios",
+  "pub": "Devoured Studios",
+  "notes": "",
+  "release": "10.05.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/salt-and-sacrifice-2022-pc.jpg",
+  "logo": "images/logos/salt-and-sacrifice-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1437400",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Salt_and_Sacrifice",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

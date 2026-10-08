@@ -1,0 +1,33 @@
+{
+  "id": "bytebond-2025-pc",
+  "name": "Bytebond",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 6",
+  "dev": "DVD Unicorns",
+  "pub": "Anshar Publishing",
+  "notes": "",
+  "release": "18.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/bytebond-2025-pc.jpg",
+  "logo": "images/logos/bytebond-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1952690",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

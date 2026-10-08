@@ -1,0 +1,38 @@
+{
+  "id": "earthfall-2018-pc",
+  "name": "Earthfall",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Holospark",
+  "pub": "Holospark",
+  "notes": "",
+  "release": "12.07.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/earthfall-2018-pc.jpg",
+  "logo": "images/logos/earthfall-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/415590",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Earthfall",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

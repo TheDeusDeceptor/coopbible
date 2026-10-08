@@ -1,0 +1,33 @@
+{
+  "id": "astrumis-survive-together-2025-pc",
+  "name": "Astrumis: Survive Together",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 2",
+  "dev": "Tyci",
+  "pub": "Tyci",
+  "notes": "",
+  "release": "26.05.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/astrumis-survive-together-2025-pc.jpg",
+  "logo": "images/logos/astrumis-survive-together-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2924860",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

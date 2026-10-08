@@ -1,0 +1,38 @@
+{
+  "id": "lumberhill-2021-pc",
+  "name": "Lumberhill",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "2BIGo",
+  "pub": "Untold Tales",
+  "notes": "",
+  "release": "13.06.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lumberhill-2021-pc.jpg",
+  "logo": "images/logos/lumberhill-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/976900",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Lumberhill",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

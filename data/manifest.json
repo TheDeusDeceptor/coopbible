@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T13:49:38Z",
+  "updated": "2026-10-08T14:17:46Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -7710,6 +7710,361 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "to-be-headed-or-not-to-be-2019-pc": {
+      "id": "to-be-headed-or-not-to-be-2019-pc",
+      "name": "To Be Headed Or Not To Be",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Fruits of Yggdrasil Studio",
+      "pub": "Fruits of Yggdrasil Studio",
+      "notes": "",
+      "release": "21.11.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/to-be-headed-or-not-to-be-2019-pc.jpg",
+      "logo": "images/logos/to-be-headed-or-not-to-be-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1165380",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/To_Be_Headed_Or_Not_To_Be",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "salt-and-sacrifice-2022-pc": {
+      "id": "salt-and-sacrifice-2022-pc",
+      "name": "Salt and Sacrifice",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 17, +Extra: 22",
+      "dev": "Ska Studios",
+      "pub": "Devoured Studios",
+      "notes": "",
+      "release": "10.05.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/salt-and-sacrifice-2022-pc.jpg",
+      "logo": "images/logos/salt-and-sacrifice-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1437400",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Salt_and_Sacrifice",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "filthy-animals-heist-simulator-2023-pc": {
+      "id": "filthy-animals-heist-simulator-2023-pc",
+      "name": "Filthy Animals: Heist Simulator",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "—",
+      "dev": "Pewter Games Studios",
+      "pub": "Green Man Gaming Publishing",
+      "notes": "",
+      "release": "04.04.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/filthy-animals-heist-simulator-2023-pc.jpg",
+      "logo": "images/logos/filthy-animals-heist-simulator-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1195420",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "earthfall-2018-pc": {
+      "id": "earthfall-2018-pc",
+      "name": "Earthfall",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 6, +Extra: 9",
+      "dev": "Holospark",
+      "pub": "Holospark",
+      "notes": "",
+      "release": "12.07.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/earthfall-2018-pc.jpg",
+      "logo": "images/logos/earthfall-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/415590",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Earthfall",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mark-lara-partners-in-justice-2021-pc": {
+      "id": "mark-lara-partners-in-justice-2021-pc",
+      "name": "Mark & Lara: Partners In Justice",
+      "platform": "PC",
+      "size": "0.2 GB",
+      "hltb": "—",
+      "dev": "Mark Lara Devs",
+      "pub": "Mark Lara Devs",
+      "notes": "",
+      "release": "16.04.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mark-lara-partners-in-justice-2021-pc.jpg",
+      "logo": "images/logos/mark-lara-partners-in-justice-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1591670",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bytebond-2025-pc": {
+      "id": "bytebond-2025-pc",
+      "name": "Bytebond",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 6",
+      "dev": "DVD Unicorns",
+      "pub": "Anshar Publishing",
+      "notes": "",
+      "release": "18.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bytebond-2025-pc.jpg",
+      "logo": "images/logos/bytebond-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1952690",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "astrumis-survive-together-2025-pc": {
+      "id": "astrumis-survive-together-2025-pc",
+      "name": "Astrumis: Survive Together",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 2",
+      "dev": "Tyci",
+      "pub": "Tyci",
+      "notes": "",
+      "release": "26.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/astrumis-survive-together-2025-pc.jpg",
+      "logo": "images/logos/astrumis-survive-together-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2924860",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lumberhill-2021-pc": {
+      "id": "lumberhill-2021-pc",
+      "name": "Lumberhill",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "2BIGo",
+      "pub": "Untold Tales",
+      "notes": "",
+      "release": "13.06.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lumberhill-2021-pc.jpg",
+      "logo": "images/logos/lumberhill-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/976900",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Lumberhill",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "anomaly-living-2025-pc": {
+      "id": "anomaly-living-2025-pc",
+      "name": "Anomaly Living",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "TreekSamrix",
+      "pub": "TreekSamrix",
+      "notes": "",
+      "release": "10.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/anomaly-living-2025-pc.jpg",
+      "logo": "images/logos/anomaly-living-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3524700",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "super-crazy-rhythm-castle-2023-pc": {
+      "id": "super-crazy-rhythm-castle-2023-pc",
+      "name": "Super Crazy Rhythm Castle",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 6, +Extra: 14",
+      "dev": "Second Impact Games",
+      "pub": "Konami",
+      "notes": "",
+      "release": "13.11.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/super-crazy-rhythm-castle-2023-pc.jpg",
+      "logo": "images/logos/super-crazy-rhythm-castle-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1812560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/SUPER_CRAZY_RHYTHM_CASTLE",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -7921,7 +8276,17 @@
       "how-to-survive-2014-pc",
       "how-to-survive-2-2016-pc",
       "warhammer-chaosbane-2019-pc",
-      "39-days-to-mars-2018-pc"
+      "39-days-to-mars-2018-pc",
+      "to-be-headed-or-not-to-be-2019-pc",
+      "salt-and-sacrifice-2022-pc",
+      "filthy-animals-heist-simulator-2023-pc",
+      "earthfall-2018-pc",
+      "mark-lara-partners-in-justice-2021-pc",
+      "bytebond-2025-pc",
+      "astrumis-survive-together-2025-pc",
+      "lumberhill-2021-pc",
+      "anomaly-living-2025-pc",
+      "super-crazy-rhythm-castle-2023-pc"
     ],
     "early-access": [],
     "unreleased": [],

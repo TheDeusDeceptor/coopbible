@@ -1,0 +1,33 @@
+{
+  "id": "mark-lara-partners-in-justice-2021-pc",
+  "name": "Mark & Lara: Partners In Justice",
+  "platform": "PC",
+  "size": "0.2 GB",
+  "hltb": "—",
+  "dev": "Mark Lara Devs",
+  "pub": "Mark Lara Devs",
+  "notes": "",
+  "release": "16.04.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/mark-lara-partners-in-justice-2021-pc.jpg",
+  "logo": "images/logos/mark-lara-partners-in-justice-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1591670",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
