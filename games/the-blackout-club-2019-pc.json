@@ -1,0 +1,38 @@
+{
+  "id": "the-blackout-club-2019-pc",
+  "name": "The Blackout Club",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 7",
+  "dev": "Question",
+  "pub": "Question",
+  "notes": "",
+  "release": "29.07.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-blackout-club-2019-pc.jpg",
+  "logo": "images/logos/the-blackout-club-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/599080",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Blackout_Club",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "wizzerd-quest-2024-pc",
+  "name": "Wizzerd Quest",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 2",
+  "dev": "Kondoorsoft",
+  "pub": "Kondoorsoft",
+  "notes": "",
+  "release": "23.02.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/wizzerd-quest-2024-pc.jpg",
+  "logo": "images/logos/wizzerd-quest-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2785800",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

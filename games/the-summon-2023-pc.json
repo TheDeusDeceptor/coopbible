@@ -1,0 +1,33 @@
+{
+  "id": "the-summon-2023-pc",
+  "name": "The Summon",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Simon Eriksson",
+  "pub": "Simon Eriksson",
+  "notes": "",
+  "release": "04.04.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-summon-2023-pc.jpg",
+  "logo": "images/logos/the-summon-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2018870",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

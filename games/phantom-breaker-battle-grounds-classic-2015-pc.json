@@ -1,0 +1,33 @@
+{
+  "id": "phantom-breaker-battle-grounds-classic-2015-pc",
+  "name": "Phantom Breaker: Battle Grounds Classic",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 3, +Extra: 6",
+  "dev": "MAGES. Inc.",
+  "pub": "Rocket Panda Games",
+  "notes": "",
+  "release": "23.01.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/phantom-breaker-battle-grounds-classic-2015-pc.jpg",
+  "logo": "images/logos/phantom-breaker-battle-grounds-classic-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/329490",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

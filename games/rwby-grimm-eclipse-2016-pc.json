@@ -1,0 +1,38 @@
+{
+  "id": "rwby-grimm-eclipse-2016-pc",
+  "name": "RWBY: Grimm Eclipse",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 4, +Extra: 9",
+  "dev": "Rooster Teeth Games",
+  "pub": "FarBridge",
+  "notes": "Slightly older build",
+  "release": "05.07.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rwby-grimm-eclipse-2016-pc.jpg",
+  "logo": "images/logos/rwby-grimm-eclipse-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/418340",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/RWBY%3A_Grimm_Eclipse",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

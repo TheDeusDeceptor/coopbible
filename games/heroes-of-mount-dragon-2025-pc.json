@@ -1,0 +1,33 @@
+{
+  "id": "heroes-of-mount-dragon-2025-pc",
+  "name": "Heroes of Mount Dragon",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 3",
+  "dev": "RuniQ",
+  "pub": "indie.io",
+  "notes": "",
+  "release": "25.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/heroes-of-mount-dragon-2025-pc.jpg",
+  "logo": "images/logos/heroes-of-mount-dragon-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2733070",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

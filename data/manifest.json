@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T14:49:05Z",
+  "updated": "2026-10-08T21:26:27Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -8415,6 +8415,351 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "levi-chronicles-2021-pc": {
+      "id": "levi-chronicles-2021-pc",
+      "name": "Levi Chronicles",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Atmosphere Studio",
+      "pub": "Atmosphere Studio",
+      "notes": "",
+      "release": "08.07.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/levi-chronicles-2021-pc.jpg",
+      "logo": "images/logos/levi-chronicles-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1144370",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Levi_Chronicles",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-summon-2023-pc": {
+      "id": "the-summon-2023-pc",
+      "name": "The Summon",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Simon Eriksson",
+      "pub": "Simon Eriksson",
+      "notes": "",
+      "release": "04.04.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-summon-2023-pc.jpg",
+      "logo": "images/logos/the-summon-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2018870",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "heroes-of-mount-dragon-2025-pc": {
+      "id": "heroes-of-mount-dragon-2025-pc",
+      "name": "Heroes of Mount Dragon",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 3",
+      "dev": "RuniQ",
+      "pub": "indie.io",
+      "notes": "",
+      "release": "25.06.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/heroes-of-mount-dragon-2025-pc.jpg",
+      "logo": "images/logos/heroes-of-mount-dragon-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2733070",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "animal-babysister-fighter-zombie-coming-2022-pc": {
+      "id": "animal-babysister-fighter-zombie-coming-2022-pc",
+      "name": "Animal Babysister Fighter : Zombie Coming!",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "KJXX GAME",
+      "pub": "KJXX GAME",
+      "notes": "",
+      "release": "18.05.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/animal-babysister-fighter-zombie-coming-2022-pc.jpg",
+      "logo": "images/logos/animal-babysister-fighter-zombie-coming-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1538380",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wizzerd-quest-2024-pc": {
+      "id": "wizzerd-quest-2024-pc",
+      "name": "Wizzerd Quest",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 2",
+      "dev": "Kondoorsoft",
+      "pub": "Kondoorsoft",
+      "notes": "",
+      "release": "23.02.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wizzerd-quest-2024-pc.jpg",
+      "logo": "images/logos/wizzerd-quest-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2785800",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "backrooms-media-2025-pc": {
+      "id": "backrooms-media-2025-pc",
+      "name": "Backrooms Media",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "NPK Games",
+      "pub": "NPK Games",
+      "notes": "",
+      "release": "16.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/backrooms-media-2025-pc.jpg",
+      "logo": "images/logos/backrooms-media-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2714970",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lockyourdoor-2025-pc": {
+      "id": "lockyourdoor-2025-pc",
+      "name": "LockYourDoor",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Penguin's Autumn",
+      "pub": "Penguin's Autumn",
+      "notes": "",
+      "release": "17.11.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lockyourdoor-2025-pc.jpg",
+      "logo": "images/logos/lockyourdoor-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3004140",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "phantom-breaker-battle-grounds-classic-2015-pc": {
+      "id": "phantom-breaker-battle-grounds-classic-2015-pc",
+      "name": "Phantom Breaker: Battle Grounds Classic",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 3, +Extra: 6",
+      "dev": "MAGES. Inc.",
+      "pub": "Rocket Panda Games",
+      "notes": "",
+      "release": "23.01.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/phantom-breaker-battle-grounds-classic-2015-pc.jpg",
+      "logo": "images/logos/phantom-breaker-battle-grounds-classic-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/329490",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rwby-grimm-eclipse-2016-pc": {
+      "id": "rwby-grimm-eclipse-2016-pc",
+      "name": "RWBY: Grimm Eclipse",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 4, +Extra: 9",
+      "dev": "Rooster Teeth Games",
+      "pub": "FarBridge",
+      "notes": "Slightly older build",
+      "release": "05.07.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rwby-grimm-eclipse-2016-pc.jpg",
+      "logo": "images/logos/rwby-grimm-eclipse-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/418340",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/RWBY%3A_Grimm_Eclipse",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-blackout-club-2019-pc": {
+      "id": "the-blackout-club-2019-pc",
+      "name": "The Blackout Club",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 7",
+      "dev": "Question",
+      "pub": "Question",
+      "notes": "",
+      "release": "29.07.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-blackout-club-2019-pc.jpg",
+      "logo": "images/logos/the-blackout-club-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/599080",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Blackout_Club",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -8646,7 +8991,17 @@
       "no-more-snow-2023-pc",
       "timemelters-2024-pc",
       "lunaela-2022-pc",
-      "congo-2016-pc"
+      "congo-2016-pc",
+      "levi-chronicles-2021-pc",
+      "the-summon-2023-pc",
+      "heroes-of-mount-dragon-2025-pc",
+      "animal-babysister-fighter-zombie-coming-2022-pc",
+      "wizzerd-quest-2024-pc",
+      "backrooms-media-2025-pc",
+      "lockyourdoor-2025-pc",
+      "phantom-breaker-battle-grounds-classic-2015-pc",
+      "rwby-grimm-eclipse-2016-pc",
+      "the-blackout-club-2019-pc"
     ],
     "early-access": [],
     "unreleased": [],

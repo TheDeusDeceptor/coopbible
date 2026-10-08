@@ -1,0 +1,33 @@
+{
+  "id": "lockyourdoor-2025-pc",
+  "name": "LockYourDoor",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Penguin's Autumn",
+  "pub": "Penguin's Autumn",
+  "notes": "",
+  "release": "17.11.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lockyourdoor-2025-pc.jpg",
+  "logo": "images/logos/lockyourdoor-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3004140",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

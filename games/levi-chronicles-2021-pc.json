@@ -1,0 +1,38 @@
+{
+  "id": "levi-chronicles-2021-pc",
+  "name": "Levi Chronicles",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Atmosphere Studio",
+  "pub": "Atmosphere Studio",
+  "notes": "",
+  "release": "08.07.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/levi-chronicles-2021-pc.jpg",
+  "logo": "images/logos/levi-chronicles-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1144370",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Levi_Chronicles",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

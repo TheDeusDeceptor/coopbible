@@ -1,0 +1,33 @@
+{
+  "id": "animal-babysister-fighter-zombie-coming-2022-pc",
+  "name": "Animal Babysister Fighter : Zombie Coming!",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "KJXX GAME",
+  "pub": "KJXX GAME",
+  "notes": "",
+  "release": "18.05.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/animal-babysister-fighter-zombie-coming-2022-pc.jpg",
+  "logo": "images/logos/animal-babysister-fighter-zombie-coming-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1538380",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
