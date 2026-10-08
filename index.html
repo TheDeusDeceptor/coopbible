@@ -645,6 +645,32 @@
   .random-spin-btn:hover{filter:brightness(1.08);box-shadow:0 0 32px var(--gold-glow);}
   .random-spin-btn:disabled{opacity:.55;cursor:wait;box-shadow:none;filter:none;}
 
+  /* ═══ SCROLL JUMP ═══ */
+  .scroll-jump{
+    position:fixed;left:1.5rem;z-index:90;
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-family:var(--font-head);font-size:.66rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;
+    padding:.55rem .9rem;border:1px solid var(--border);border-radius:8px;
+    background-color:rgba(10,14,21,.72);
+    backdrop-filter:blur(10px) saturate(140%);-webkit-backdrop-filter:blur(10px) saturate(140%);
+    color:#cbd5e1;cursor:pointer;
+    transition:opacity .25s ease,transform .25s ease,color .18s ease,border-color .18s ease,background-image .18s ease;
+    box-shadow:0 4px 14px rgba(0,0,0,.4);
+    opacity:0;transform:translateY(8px);pointer-events:none;
+  }
+  .scroll-jump.show{opacity:1;transform:translateY(0);pointer-events:auto;}
+  .scroll-jump.down{top:1.5rem;}
+  .scroll-jump.up{bottom:1.5rem;transform:translateY(-8px);}
+  .scroll-jump.up.show{transform:translateY(0);}
+  .scroll-jump:hover{color:var(--accent);border-color:var(--accent-line);background-image:linear-gradient(var(--accent-soft),var(--accent-soft));}
+  .scroll-jump .arw{font-size:.95em;line-height:1;}
+  @media (max-width:640px){
+    .scroll-jump{left:1rem;font-size:.6rem;padding:.5rem .75rem;}
+    .scroll-jump.down{top:1rem;}
+    .scroll-jump.up{bottom:1rem;}
+  }
+
   /* ═══ UNIFIED CLOSE X ═══ */
   .ov-close{
     position:fixed;top:1rem;left:1rem;z-index:250;
@@ -1215,6 +1241,13 @@
     </div>
   </div>
 </div>
+
+<button class="scroll-jump down" id="scrollDownBtn" type="button" aria-label="Scroll to bottom">
+  <span class="arw">↓</span><span>Down</span>
+</button>
+<button class="scroll-jump up" id="scrollUpBtn" type="button" aria-label="Scroll to top">
+  <span class="arw">↑</span><span>Up</span>
+</button>
 
 <div class="toast" id="toast"></div>
 
@@ -6598,6 +6631,49 @@ driftOverlay.querySelectorAll('[data-drift-play-again]').forEach(b => b.addEvent
 driftOverlay.querySelectorAll('[data-drift-menu]').forEach(b => b.addEventListener('click', driftBackToSplash));
 driftOverlay.querySelectorAll('.drift-card').forEach(card => card.addEventListener('click', () => driftAnswer(card.dataset.driftSide)));
 
+/* ═══ SCROLL JUMP BUTTONS ═══ */
+const scrollDownBtn = document.getElementById('scrollDownBtn');
+const scrollUpBtn = document.getElementById('scrollUpBtn');
+
+function updateScrollButtons(){
+  const overlayOpen =
+    backdrop.classList.contains('open') ||
+    tokenBackdrop.classList.contains('open') ||
+    pickerBackdrop.classList.contains('open') ||
+    logopickerBackdrop.classList.contains('open') ||
+    pendingBackdrop.classList.contains('open') ||
+    toolsBackdrop.classList.contains('open') ||
+    seriesBackdrop.classList.contains('open') ||
+    randomOverlay.classList.contains('open') ||
+    gtgOverlay.classList.contains('open') ||
+    driftOverlay.classList.contains('open');
+
+  if(overlayOpen){
+    scrollDownBtn.classList.remove('show');
+    scrollUpBtn.classList.remove('show');
+    return;
+  }
+
+  const st = window.scrollY || document.documentElement.scrollTop;
+  const max = document.documentElement.scrollHeight - window.innerHeight;
+  const canDown = max > 40 && st < max - 40;
+  const canUp = st > 40;
+  scrollDownBtn.classList.toggle('show', canDown);
+  scrollUpBtn.classList.toggle('show', canUp);
+}
+window.addEventListener('scroll', updateScrollButtons, { passive: true });
+window.addEventListener('resize', updateScrollButtons);
+if(window.ResizeObserver){
+  new ResizeObserver(updateScrollButtons).observe(document.body);
+}
+scrollDownBtn.addEventListener('click', () => {
+  window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+});
+scrollUpBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+updateScrollButtons();
+
 /* ═══ BUTTON WIRING ═══ */
 document.getElementById('guessBtn').addEventListener('click', openGTG);
 document.getElementById('driftBtn').addEventListener('click', openDRIFT);
@@ -6625,6 +6701,7 @@ document.getElementById('driftBtn').addEventListener('click', openDRIFT);
   renderContent();
   updatePendingStrip();
   bootAdminFlow();
+  updateScrollButtons();
 })();
 </script>
 </body>
