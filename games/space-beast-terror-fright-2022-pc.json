@@ -1,0 +1,38 @@
+{
+  "id": "space-beast-terror-fright-2022-pc",
+  "name": "Space Beast Terror Fright",
+  "platform": "PC",
+  "size": "0.2 GB",
+  "hltb": "Main: 9",
+  "dev": "nornware",
+  "pub": "nornware",
+  "notes": "",
+  "release": "03.06.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/space-beast-terror-fright-2022-pc.jpg",
+  "logo": "images/logos/space-beast-terror-fright-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/357330",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Space_Beast_Terror_Fright",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

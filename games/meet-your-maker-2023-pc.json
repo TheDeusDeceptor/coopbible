@@ -1,0 +1,38 @@
+{
+  "id": "meet-your-maker-2023-pc",
+  "name": "Meet Your Maker",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 15, +Extra: 35",
+  "dev": "Behaviour Interactive",
+  "pub": "Behaviour Interactive",
+  "notes": "",
+  "release": "04.04.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/meet-your-maker-2023-pc.jpg",
+  "logo": "images/logos/meet-your-maker-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1194810",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Meet_Your_Maker",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

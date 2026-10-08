@@ -1,0 +1,38 @@
+{
+  "id": "renegade-ops-2011-pc",
+  "name": "Renegade Ops",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Avalanche Studios",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "26.10.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/renegade-ops-2011-pc.jpg",
+  "logo": "images/logos/renegade-ops-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/99300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Renegade_Ops",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

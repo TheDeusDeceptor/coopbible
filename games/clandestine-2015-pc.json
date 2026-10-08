@@ -1,0 +1,38 @@
+{
+  "id": "clandestine-2015-pc",
+  "name": "Clandestine",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "Logic Artists",
+  "pub": "Logic Artists",
+  "notes": "",
+  "release": "05.11.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/clandestine-2015-pc.jpg",
+  "logo": "images/logos/clandestine-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/290530",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Clandestine",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

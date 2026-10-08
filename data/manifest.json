@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T22:09:26Z",
+  "updated": "2026-10-08T22:34:09Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -9586,6 +9586,386 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "empyrion-galactic-survival-2020-pc": {
+      "id": "empyrion-galactic-survival-2020-pc",
+      "name": "Empyrion: Galactic Survival",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 60",
+      "dev": "Eleon Game Studios",
+      "pub": "Eleon Game Studios",
+      "notes": "",
+      "release": "05.08.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/empyrion-galactic-survival-2020-pc.jpg",
+      "logo": "images/logos/empyrion-galactic-survival-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/383120",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Empyrion_-_Galactic_Survival",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "god-mode-2013-pc": {
+      "id": "god-mode-2013-pc",
+      "name": "God Mode",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 8, +Extra: 13",
+      "dev": "Old School Games",
+      "pub": "Atlus",
+      "notes": "",
+      "release": "19.04.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/god-mode-2013-pc.jpg",
+      "logo": "images/logos/god-mode-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/227480",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/God_Mode",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "journey-2020-pc": {
+      "id": "journey-2020-pc",
+      "name": "Journey",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 2, +Extra: 3",
+      "dev": "thatgamecompany",
+      "pub": "Annapurna Interactive",
+      "notes": "",
+      "release": "11.06.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/journey-2020-pc.jpg",
+      "logo": "images/logos/journey-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/638230",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Journey's_End",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "fight-the-dragon-2014-pc": {
+      "id": "fight-the-dragon-2014-pc",
+      "name": "Fight The Dragon",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 34",
+      "dev": "3 Sprockets",
+      "pub": "3 Sprockets",
+      "notes": "Dedicated server doesn't work, workaround needed...",
+      "release": "04.12.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/fight-the-dragon-2014-pc.jpg",
+      "logo": "images/logos/fight-the-dragon-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/250560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Fight_the_Dragon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "renegade-ops-2011-pc": {
+      "id": "renegade-ops-2011-pc",
+      "name": "Renegade Ops",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 5, +Extra: 7",
+      "dev": "Avalanche Studios",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "26.10.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/renegade-ops-2011-pc.jpg",
+      "logo": "images/logos/renegade-ops-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/99300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Renegade_Ops",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rogue-heroes-ruins-of-tasos-2021-pc": {
+      "id": "rogue-heroes-ruins-of-tasos-2021-pc",
+      "name": "Rogue Heroes: Ruins of Tasos",
+      "platform": "PC",
+      "size": "0.3 GB",
+      "hltb": "Main: 12, +Extra: 19",
+      "dev": "Heliocentric Studios",
+      "pub": "Team17",
+      "notes": "",
+      "release": "23.02.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rogue-heroes-ruins-of-tasos-2021-pc.jpg",
+      "logo": "images/logos/rogue-heroes-ruins-of-tasos-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/787810",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Rogue_Heroes%3A_Ruins_of_Tasos",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "clandestine-2015-pc": {
+      "id": "clandestine-2015-pc",
+      "name": "Clandestine",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 9, +Extra: 13",
+      "dev": "Logic Artists",
+      "pub": "Logic Artists",
+      "notes": "",
+      "release": "05.11.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/clandestine-2015-pc.jpg",
+      "logo": "images/logos/clandestine-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/290530",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Clandestine",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "paddle-paddle-paddle-2025-pc": {
+      "id": "paddle-paddle-paddle-2025-pc",
+      "name": "Paddle Paddle Paddle",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 1, +Extra: 3",
+      "dev": "Zoroarts",
+      "pub": "Assemble Entertainment",
+      "notes": "",
+      "release": "25.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/paddle-paddle-paddle-2025-pc.jpg",
+      "logo": "images/logos/paddle-paddle-paddle-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3570070",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Twaddle_Paddle",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "space-beast-terror-fright-2022-pc": {
+      "id": "space-beast-terror-fright-2022-pc",
+      "name": "Space Beast Terror Fright",
+      "platform": "PC",
+      "size": "0.2 GB",
+      "hltb": "Main: 9",
+      "dev": "nornware",
+      "pub": "nornware",
+      "notes": "",
+      "release": "03.06.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/space-beast-terror-fright-2022-pc.jpg",
+      "logo": "images/logos/space-beast-terror-fright-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/357330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Space_Beast_Terror_Fright",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "meet-your-maker-2023-pc": {
+      "id": "meet-your-maker-2023-pc",
+      "name": "Meet Your Maker",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 15, +Extra: 35",
+      "dev": "Behaviour Interactive",
+      "pub": "Behaviour Interactive",
+      "notes": "",
+      "release": "04.04.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/meet-your-maker-2023-pc.jpg",
+      "logo": "images/logos/meet-your-maker-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1194810",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Meet_Your_Maker",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -9849,7 +10229,17 @@
       "sker-ritual-2024-pc",
       "nobody-saves-the-world-2022-pc",
       "terrascape-2024-pc",
-      "dead-effect-2-2016-pc"
+      "dead-effect-2-2016-pc",
+      "empyrion-galactic-survival-2020-pc",
+      "god-mode-2013-pc",
+      "journey-2020-pc",
+      "fight-the-dragon-2014-pc",
+      "renegade-ops-2011-pc",
+      "rogue-heroes-ruins-of-tasos-2021-pc",
+      "clandestine-2015-pc",
+      "paddle-paddle-paddle-2025-pc",
+      "space-beast-terror-fright-2022-pc",
+      "meet-your-maker-2023-pc"
     ],
     "early-access": [],
     "unreleased": [],

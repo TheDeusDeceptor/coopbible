@@ -1,0 +1,38 @@
+{
+  "id": "rogue-heroes-ruins-of-tasos-2021-pc",
+  "name": "Rogue Heroes: Ruins of Tasos",
+  "platform": "PC",
+  "size": "0.3 GB",
+  "hltb": "Main: 12, +Extra: 19",
+  "dev": "Heliocentric Studios",
+  "pub": "Team17",
+  "notes": "",
+  "release": "23.02.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rogue-heroes-ruins-of-tasos-2021-pc.jpg",
+  "logo": "images/logos/rogue-heroes-ruins-of-tasos-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/787810",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Rogue_Heroes%3A_Ruins_of_Tasos",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

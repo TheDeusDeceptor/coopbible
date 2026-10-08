@@ -1,0 +1,38 @@
+{
+  "id": "paddle-paddle-paddle-2025-pc",
+  "name": "Paddle Paddle Paddle",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 1, +Extra: 3",
+  "dev": "Zoroarts",
+  "pub": "Assemble Entertainment",
+  "notes": "",
+  "release": "25.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/paddle-paddle-paddle-2025-pc.jpg",
+  "logo": "images/logos/paddle-paddle-paddle-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3570070",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Twaddle_Paddle",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

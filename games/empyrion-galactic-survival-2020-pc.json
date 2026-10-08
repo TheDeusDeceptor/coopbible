@@ -1,0 +1,38 @@
+{
+  "id": "empyrion-galactic-survival-2020-pc",
+  "name": "Empyrion: Galactic Survival",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 60",
+  "dev": "Eleon Game Studios",
+  "pub": "Eleon Game Studios",
+  "notes": "",
+  "release": "05.08.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/empyrion-galactic-survival-2020-pc.jpg",
+  "logo": "images/logos/empyrion-galactic-survival-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/383120",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Empyrion_-_Galactic_Survival",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
