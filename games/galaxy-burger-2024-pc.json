@@ -1,0 +1,33 @@
+{
+  "id": "galaxy-burger-2024-pc",
+  "name": "Galaxy Burger",
+  "platform": "PC",
+  "size": "0.7 GB",
+  "hltb": "Main: 6",
+  "dev": "Galactic Workshop",
+  "pub": "Galactic Workshop",
+  "notes": "",
+  "release": "23.08.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/galaxy-burger-2024-pc.jpg",
+  "logo": "images/logos/galaxy-burger-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2749770",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

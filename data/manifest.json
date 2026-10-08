@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T22:51:29Z",
+  "updated": "2026-10-08T23:10:18Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -10270,6 +10270,295 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "mining-mechs-2023-pc": {
+      "id": "mining-mechs-2023-pc",
+      "name": "Mining Mechs",
+      "platform": "PC",
+      "size": "0.2 GB",
+      "hltb": "Main: 5, +Extra: 8",
+      "dev": "Delayed Victory",
+      "pub": "Delayed Victory",
+      "notes": "",
+      "release": "27.10.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mining-mechs-2023-pc.jpg",
+      "logo": "images/logos/mining-mechs-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1603180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Mining_Mechs",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "zombieville-usa-3d-2025-pc": {
+      "id": "zombieville-usa-3d-2025-pc",
+      "name": "Zombieville USA 3D",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 4, +Extra: 11",
+      "dev": "Mika Mobile",
+      "pub": "Mika Mobile",
+      "notes": "",
+      "release": "07.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/zombieville-usa-3d-2025-pc.jpg",
+      "logo": "images/logos/zombieville-usa-3d-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1801520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Zombieville_USA_3D",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "necropolis-brutal-edition-2016-pc": {
+      "id": "necropolis-brutal-edition-2016-pc",
+      "name": "Necropolis: Brutal Edition",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Harebrained Schemes",
+      "pub": "Paradox Interactive",
+      "notes": "",
+      "release": "12.07.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/necropolis-brutal-edition-2016-pc.jpg",
+      "logo": "images/logos/necropolis-brutal-edition-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/384490",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Necropolis%3A_Brutal_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "galaxy-burger-2024-pc": {
+      "id": "galaxy-burger-2024-pc",
+      "name": "Galaxy Burger",
+      "platform": "PC",
+      "size": "0.7 GB",
+      "hltb": "Main: 6",
+      "dev": "Galactic Workshop",
+      "pub": "Galactic Workshop",
+      "notes": "",
+      "release": "23.08.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/galaxy-burger-2024-pc.jpg",
+      "logo": "images/logos/galaxy-burger-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2749770",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "labyrinthine-2023-pc": {
+      "id": "labyrinthine-2023-pc",
+      "name": "Labyrinthine",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 6, +Extra: 12",
+      "dev": "Valko Game Studios",
+      "pub": "Valko Game Studios",
+      "notes": "",
+      "release": "18.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/labyrinthine-2023-pc.jpg",
+      "logo": "images/logos/labyrinthine-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1302240",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Labyrinthine",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "blanc-2023-pc": {
+      "id": "blanc-2023-pc",
+      "name": "Blanc",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 2",
+      "dev": "Casus Ludi",
+      "pub": "Gearbox Publishing",
+      "notes": "",
+      "release": "14.02.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/blanc-2023-pc.jpg",
+      "logo": "images/logos/blanc-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1982340",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Blanc",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "forced-slightly-better-edition-2013-pc": {
+      "id": "forced-slightly-better-edition-2013-pc",
+      "name": "Forced: Slightly Better Edition",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 8, +Extra: 13",
+      "dev": "BetaDwarf",
+      "pub": "BetaDwarf",
+      "notes": "",
+      "release": "24.10.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/forced-slightly-better-edition-2013-pc.jpg",
+      "logo": "images/logos/forced-slightly-better-edition-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/249990",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "al-qmrah-restaurant-2024-pc": {
+      "id": "al-qmrah-restaurant-2024-pc",
+      "name": "AL QMRAH RESTAURANT - مطبخ القمرة",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "M4DOOM",
+      "pub": "M4DOOM",
+      "notes": "",
+      "release": "12.07.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/al-qmrah-restaurant-2024-pc.jpg",
+      "logo": "images/logos/al-qmrah-restaurant-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2071300",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -10551,7 +10840,15 @@
       "party-animals-2023-pc",
       "iron-brigade-2012-pc",
       "pulsar-lost-colony-2021-pc",
-      "unfortunate-spacemen-2020-pc"
+      "unfortunate-spacemen-2020-pc",
+      "mining-mechs-2023-pc",
+      "zombieville-usa-3d-2025-pc",
+      "necropolis-brutal-edition-2016-pc",
+      "galaxy-burger-2024-pc",
+      "labyrinthine-2023-pc",
+      "blanc-2023-pc",
+      "forced-slightly-better-edition-2013-pc",
+      "al-qmrah-restaurant-2024-pc"
     ],
     "early-access": [],
     "unreleased": [],

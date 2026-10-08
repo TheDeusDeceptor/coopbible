@@ -1,0 +1,38 @@
+{
+  "id": "zombieville-usa-3d-2025-pc",
+  "name": "Zombieville USA 3D",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 4, +Extra: 11",
+  "dev": "Mika Mobile",
+  "pub": "Mika Mobile",
+  "notes": "",
+  "release": "07.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zombieville-usa-3d-2025-pc.jpg",
+  "logo": "images/logos/zombieville-usa-3d-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1801520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Zombieville_USA_3D",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

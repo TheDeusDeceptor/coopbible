@@ -1,0 +1,33 @@
+{
+  "id": "al-qmrah-restaurant-2024-pc",
+  "name": "AL QMRAH RESTAURANT - مطبخ القمرة",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "M4DOOM",
+  "pub": "M4DOOM",
+  "notes": "",
+  "release": "12.07.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/al-qmrah-restaurant-2024-pc.jpg",
+  "logo": "images/logos/al-qmrah-restaurant-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2071300",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "labyrinthine-2023-pc",
+  "name": "Labyrinthine",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 6, +Extra: 12",
+  "dev": "Valko Game Studios",
+  "pub": "Valko Game Studios",
+  "notes": "",
+  "release": "18.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/labyrinthine-2023-pc.jpg",
+  "logo": "images/logos/labyrinthine-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1302240",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Labyrinthine",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

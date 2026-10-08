@@ -1,0 +1,33 @@
+{
+  "id": "forced-slightly-better-edition-2013-pc",
+  "name": "Forced: Slightly Better Edition",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 8, +Extra: 13",
+  "dev": "BetaDwarf",
+  "pub": "BetaDwarf",
+  "notes": "",
+  "release": "24.10.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/forced-slightly-better-edition-2013-pc.jpg",
+  "logo": "images/logos/forced-slightly-better-edition-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/249990",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

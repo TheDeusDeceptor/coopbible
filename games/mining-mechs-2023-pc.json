@@ -1,0 +1,38 @@
+{
+  "id": "mining-mechs-2023-pc",
+  "name": "Mining Mechs",
+  "platform": "PC",
+  "size": "0.2 GB",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Delayed Victory",
+  "pub": "Delayed Victory",
+  "notes": "",
+  "release": "27.10.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/mining-mechs-2023-pc.jpg",
+  "logo": "images/logos/mining-mechs-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1603180",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Mining_Mechs",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
