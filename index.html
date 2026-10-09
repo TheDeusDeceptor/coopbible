@@ -6,7 +6,7 @@
 <title>Co-Op Vault</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/corsfix" defer></script>
 <style>
   :root{
@@ -150,7 +150,7 @@
   .btn-add{display:none;backdrop-filter:blur(10px) saturate(140%);-webkit-backdrop-filter:blur(10px) saturate(140%);align-items:center;gap:.45rem;font-family:var(--font-head);font-weight:700;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;padding:.6rem .95rem;border:1px solid var(--red);border-radius:8px;background:rgba(239,68,68,.1);color:var(--red);cursor:pointer;transition:all .18s ease;}
   body.admin-on .btn-add{display:inline-flex;}
   .btn-add:hover{background:rgba(239,68,68,.18);color:#fff;border-color:#fff}
-  .section-header{max-width:1400px;margin:2rem auto 1rem;display:flex;align-items:center;gap:.85rem;scroll-margin-top:1.5rem;}
+  .section-header{max-width:1400px;margin:2rem auto 1rem;display:flex;align-items:center;gap:.85rem;scroll-margin-top:4rem;}
   .section-header:first-child{margin-top:0}
   .section-header .bar{width:3px;height:18px;background:var(--accent);border-radius:2px;flex-shrink:0;}
   .section-header .label{font-family:var(--font-head);font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);white-space:nowrap;}
@@ -632,13 +632,14 @@
     opacity:0;transform:translateY(8px);pointer-events:none;
   }
   .scroll-jump.show{opacity:1;transform:translateY(0);pointer-events:auto;}
-  .scroll-jump.down{top:1.5rem;}
+  .scroll-jump.down{top:5rem;}
   .scroll-jump.up{bottom:1.5rem;transform:translateY(-8px);}
   .scroll-jump.up.show{transform:translateY(0);}
   .scroll-jump:hover{color:var(--accent);border-color:var(--accent-line);background-image:linear-gradient(var(--accent-soft),var(--accent-soft));}
   .scroll-jump .arw{font-size:.95em;line-height:1;}
   @media (max-width:640px){
     .scroll-jump{font-size:.6rem;padding:.5rem .75rem;}
+    .scroll-jump.down{top:5rem;}
     .scroll-jump.up{bottom:1rem;}
   }
 
@@ -1329,7 +1330,7 @@ const SORT_LABELS = { natural:'Date Added', name:'Name', size:'Size', release:'R
 
 let group = 'coop', tab = 'released';
 let adminMode = false, adminBusy = false;
-let viewCols = localStorage.getItem('view_cols') || 'auto';
+let viewCols = (() => { try { return localStorage.getItem('view_cols') || 'auto'; } catch(e){ return 'auto'; } })();
 let modalNavList = [], modalNavIdx = -1;
 let openDD = null;
 let voidMode = false;
@@ -1438,6 +1439,12 @@ function nameSimilarity(a, b){
   if(na.includes(nb) || nb.includes(na)) score = Math.max(score, 0.85);
   return score;
 }
+function simpleHash(str){
+  let h = 0;
+  const s = String(str);
+  for(let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+  return h.toString(36);
+}
 function sortObjKeys(o){
   if(Array.isArray(o)) return o.map(sortObjKeys);
   if(o && typeof o === 'object'){
@@ -1499,14 +1506,24 @@ async function seriesLogoCompressUrl(url){
   return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD +
     '/image/fetch/' + box + ',f_auto/' + b64;
 }
+function lookupPlatform(key){
+  if(!key) return null;
+  if(PLATFORMS[key]) return PLATFORMS[key];
+  const k = String(key).toLowerCase();
+  if(PLATFORMS[k]) return PLATFORMS[k];
+  for(const pk of Object.keys(PLATFORMS)){
+    if(pk.toLowerCase() === k) return PLATFORMS[pk];
+  }
+  return null;
+}
 function platformLabel(key){
   if(!key) return '';
-  const p = PLATFORMS[key];
+  const p = lookupPlatform(key);
   return (p && p.label) ? p.label : key;
 }
 function platformIcon(key){
   if(!key) return '';
-  const p = PLATFORMS[key];
+  const p = lookupPlatform(key);
   return (p && p.icon) ? p.icon : '';
 }
 function isPlatformPC(key){
@@ -1725,9 +1742,8 @@ async function loadPlatforms(){
 function viewGame(id){
   const base = MANIFEST.games[id];
   const draft = pendingGameWrites.get(id);
-  if(!draft) return base || null;
-  if(!base) return draft;
-  return { ...base, ...draft };
+  if(draft) return draft;
+  return base || null;
 }
 function viewSeries(slug){
   const base = MANIFEST.series[slug];
@@ -1865,8 +1881,8 @@ async function verifyToken(token){
       headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
     });
     if(res.status === 200){ const data = await res.json(); return { ok:true, login: data.login }; }
-    if(res.status === 401) return { ok:false, err:'Invalid or expired token' };
-    if(res.status === 403) return { ok:false, err:'Token rejected' };
+    if(res.status === 401) return { ok:false, err:'Invalid or expired token', authFail: true };
+    if(res.status === 403) return { ok:false, err:'Rate limited — try again shortly' };
     return { ok:false, err:'GitHub API HTTP ' + res.status };
   }catch(e){ return { ok:false, err:'Network error: ' + e.message }; }
 }
@@ -1904,7 +1920,7 @@ function exitAdmin(){ adminMode = false; voidMode = false; bodyEl.classList.remo
 async function bootAdminFlow(){
   const tok = getToken();
   if(!tok) return;
-  try{ const r = await verifyToken(tok); if(!r.ok) clearToken(); }catch(e){}
+  try{ const r = await verifyToken(tok); if(!r.ok && r.authFail) clearToken(); }catch(e){}
 }
 adminToggleBtn.addEventListener('click', async () => {
   if(adminBusy) return;
@@ -1915,7 +1931,11 @@ adminToggleBtn.addEventListener('click', async () => {
   adminToggleLabel.textContent = 'Checking…';
   const r = await verifyToken(tok);
   if(r.ok){ enterAdmin(); }
-  else { clearToken(); adminToggleLabel.textContent = 'Admin'; toast(r.err, 'bad'); showTokenPrompt(); }
+  else {
+    adminToggleLabel.textContent = 'Admin';
+    toast(r.err, 'bad');
+    if(r.authFail){ clearToken(); showTokenPrompt(); }
+  }
   adminBusy = false;
 });
 adminToggleBtn.addEventListener('contextmenu', e => {
@@ -2009,6 +2029,7 @@ function clearAllPending(){
   pendingSeriesWrites.clear();
   pendingSeriesDeletes.clear();
   pendingSeriesOrder = null;
+  editorDrafts.clear();
   updatePendingStrip();
   invalidateAllPanes();
   renderContent();
@@ -2092,6 +2113,7 @@ async function commitPending(){
       tree.push({ path: 'games/' + id + '.json', mode: '100644', type: 'blob', sha: null });
     }
     for(const slug of pendingSeriesDeletes){
+      if(!MANIFEST.series[slug]) continue;
       tree.push({ path: 'data/series/' + slug + '.json', mode: '100644', type: 'blob', sha: null });
     }
     for(const path of pendingFileDeletes){
@@ -2130,6 +2152,7 @@ async function commitPending(){
     MANIFEST.version = 4;
     MANIFEST.updated = manifest.updated;
 
+    editorDrafts.clear();
     pendingGameWrites.clear();
     pendingGameDeletes.clear();
     pendingListWrites.clear();
@@ -2211,10 +2234,27 @@ function openPendingModal(){
   pendingSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closePendingModal);
   pendingSlot.querySelectorAll('.pr-discard').forEach(btn => btn.onclick = () => {
     const key = btn.closest('.pending-row').dataset.key;
-    if(key.startsWith('game:')) pendingGameWrites.delete(key.slice(5));
+    if(key.startsWith('game:')){
+      const gid = key.slice(5);
+      pendingGameWrites.delete(gid);
+      for(const [listId, list] of pendingListWrites){
+        const orig = MANIFEST.lists[listId] || [];
+        if(!orig.includes(gid)){
+          const filtered = list.filter(x => x !== gid);
+          if(filtered.length !== list.length) pendingListWrites.set(listId, filtered);
+        }
+      }
+    }
     else if(key.startsWith('gamedel:')) pendingGameDeletes.delete(key.slice(8));
     else if(key.startsWith('list:')) pendingListWrites.delete(key.slice(5));
-    else if(key.startsWith('series:')) pendingSeriesWrites.delete(key.slice(7));
+    else if(key.startsWith('series:')){
+      const slug = key.slice(7);
+      pendingSeriesWrites.delete(slug);
+      if(pendingSeriesOrder && !(MANIFEST.series_order || []).includes(slug)){
+        pendingSeriesOrder = pendingSeriesOrder.filter(s => s !== slug);
+        if(pendingSeriesOrder.length === 0) pendingSeriesOrder = null;
+      }
+    }
     else if(key.startsWith('seriesdel:')) pendingSeriesDeletes.delete(key.slice(10));
     else if(key === 'seriesorder') pendingSeriesOrder = null;
     else if(key.startsWith('filedel:')) pendingFileDeletes.delete(key.slice(8));
@@ -2238,7 +2278,7 @@ function openPendingModal(){
 function closePendingModal(){ pendingBackdrop.classList.remove('open'); pendingSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
 pendingBackdrop.addEventListener('click', e => { if(e.target === pendingBackdrop) closePendingModal(); });
 
-let lbdbState = 'idle', lbdbMessage = '', lbdbPollTimer = null, lbdbStartTime = 0;
+let lbdbState = 'idle', lbdbMessage = '', lbdbPollTimer = null, lbdbStartTime = 0, lbdbTimeoutTimer = null;
 let toolsActiveTab = 'general';
 let orphanList = [];
 let integrityIssues = [];
@@ -2286,8 +2326,17 @@ function startLbdbPolling(){
   lbdbStartTime = Date.now();
   setLbdbState('running', 'Running…');
   clearInterval(lbdbPollTimer);
+  clearTimeout(lbdbTimeoutTimer);
   lbdbPollTimer = setInterval(checkLbdbStatus, 8000);
   checkLbdbStatus();
+  lbdbTimeoutTimer = setTimeout(() => {
+    if(lbdbState === 'running'){
+      clearInterval(lbdbPollTimer);
+      lbdbPollTimer = null;
+      setLbdbState('error', 'Timed out');
+      toast('LBDB update timed out', 'bad');
+    }
+  }, 5 * 60 * 1000);
 }
 async function checkLbdbStatus(){
   const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${LBDB_WORKFLOW}/runs?per_page=1`;
@@ -2301,6 +2350,7 @@ async function checkLbdbStatus(){
     setLbdbState('running', `Running… ${elapsed}s`);
     if(run.status === 'completed'){
       clearInterval(lbdbPollTimer); lbdbPollTimer = null;
+      clearTimeout(lbdbTimeoutTimer); lbdbTimeoutTimer = null;
       if(run.conclusion === 'success'){ setLbdbState('done', 'Up to date'); toast('LBDB updated'); }
       else { setLbdbState('error', 'Failed: ' + run.conclusion); toast('LBDB update failed: ' + run.conclusion, 'bad'); }
       setTimeout(() => { if(lbdbState === 'done' || lbdbState === 'error') setLbdbState('idle', ''); }, 8000);
@@ -2678,6 +2728,11 @@ function openToolsModal(){
       if(field === 'key'){
         const newKey = e.target.value.trim().toLowerCase().replace(/\s+/g,'_');
         if(!newKey || newKey === key) return;
+        if(platDraft[newKey]){
+          toast('Key "' + newKey + '" already exists', 'bad');
+          e.target.value = key;
+          return;
+        }
         const entry = platDraft[key];
         delete platDraft[key];
         platDraft[newKey] = entry;
@@ -3001,7 +3056,7 @@ function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
   return score;
 }
 
-let igdbPickerFinish = null;
+let igdbPickerClose = null;
 function showIgdbPicker(hits, onPick){
   pickerSlot.innerHTML = `
     <div class="picker-modal">
@@ -3019,26 +3074,24 @@ function showIgdbPicker(hits, onPick){
     </div>`;
   pickerBackdrop.classList.add('open');
   refreshScrollJumpVisibility();
-  igdbPickerFinish = onPick;
-  const finish = (val) => {
-    if(!igdbPickerFinish) return;
-    const r = igdbPickerFinish;
-    igdbPickerFinish = null;
+  igdbPickerClose = (val) => {
+    if(!igdbPickerClose) return;
+    igdbPickerClose = null;
     pickerBackdrop.classList.remove('open');
     pickerSlot.innerHTML = '';
     refreshScrollJumpVisibility();
-    r(val);
+    onPick(val);
   };
-  pickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = () => finish(null));
+  pickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = () => igdbPickerClose(null));
   pickerSlot.querySelector('#picker-list').addEventListener('click', e => {
     const btn = e.target.closest('button[data-idx]');
     if(!btn) return;
-    finish(hits[+btn.dataset.idx]);
+    igdbPickerClose(hits[+btn.dataset.idx]);
   });
 }
 pickerBackdrop.addEventListener('click', e => {
   if(e.target === pickerBackdrop){
-    if(igdbPickerFinish){ igdbPickerFinish(null); return; }
+    if(igdbPickerClose){ igdbPickerClose(null); return; }
     pickerBackdrop.classList.remove('open');
     pickerSlot.innerHTML = '';
     refreshScrollJumpVisibility();
@@ -3166,7 +3219,7 @@ function renderTabs(){
   ).join('');
 }
 function applyView(){ document.body.dataset.cols = viewCols; }
-function setViewCols(v){ viewCols = v; localStorage.setItem('view_cols', v); applyView(); renderToolbar(); }
+function setViewCols(v){ viewCols = v; try{ localStorage.setItem('view_cols', v); }catch(e){} applyView(); renderToolbar(); }
 
 function passesFilter(g){
   if(filterSet.has('all')) return true;
@@ -3597,7 +3650,10 @@ function refreshGrid(){
 }
 
 function renderLinks(links){
-  const arr = links || [];
+  const arr = (links || []).filter(l => {
+    const u = String(l.url || '').trim();
+    return /^https?:\/\//i.test(u);
+  });
   if(!arr.length) return '';
   return arr.map(l => {
     const safeUrl = esc(l.url||'');
@@ -3695,7 +3751,7 @@ function applyHeroSizeByRatio(heroEl, ratio){
   let hh = maxH;
   let ww = hh * ratio;
   if(ww > maxW){ ww = maxW; hh = ww / ratio; }
-  if(hh < minH){ hh = minH; ww = hh * ratio; }
+  if(hh < minH && minH * ratio <= maxW){ hh = minH; ww = hh * ratio; }
   heroEl.style.height = Math.round(hh) + 'px';
   heroEl.style.width = Math.round(ww) + 'px';
   const modalEl = heroEl.closest('.modal');
@@ -3730,13 +3786,15 @@ function openModal(g, t){
   if(t === 'backlog-series'){
     list = allSeriesInOrder();
   } else if(t === 'backlog'){
-    const backlogGames = gamesOfTab('backlog').filter(passesAll);
-    const seriesGames  = allSeriesUndoneInOrder().filter(passesAll);
+    const allBacklog = gamesOfTab('backlog');
+    const main = allBacklog.filter(g => !isInAnySeries(g.id) && passesAll(g));
+    const mainSorted = applySort(main);
+    const seriesGames = allSeriesUndoneInOrder().filter(passesAll);
     const seen = new Set();
     const merged = [];
-    for(const gg of backlogGames){ if(!seen.has(gg.id)){ merged.push(gg); seen.add(gg.id); } }
+    for(const gg of mainSorted){ if(!seen.has(gg.id)){ merged.push(gg); seen.add(gg.id); } }
     for(const gg of seriesGames){  if(!seen.has(gg.id)){ merged.push(gg); seen.add(gg.id); } }
-    list = applySort(merged);
+    list = merged;
   } else if(voidMode){
     list = gamesWithNoList();
   } else {
@@ -4245,9 +4303,14 @@ function openEditor(g, opts){
       </div>`;
     }).join('');
     const titleKind = exists ? 'exact' : 'similar';
-    const titleText = exists
-      ? `ID already exists — pick it to ADD TO LIST instead`
-      : `Similar games found — pick one to add to a list, or keep typing`;
+    let titleText;
+    if(exists){
+      titleText = isNew
+        ? `ID already exists — pick it to ADD TO LIST instead`
+        : `ID already exists — change the ID to something unique`;
+    } else {
+      titleText = `Similar games found — pick one to add to a list, or keep typing`;
+    }
     matchesBox.classList.remove('empty');
     matchesBox.innerHTML = `
       <div class="mb-title"><span class="mb-kind ${titleKind}">${exists ? '⚠' : '≈'}</span>${esc(titleText)}</div>
@@ -4843,7 +4906,15 @@ function openEditor(g, opts){
     toast(isNew ? 'Staged new game' : 'Staged changes');
   });
 
-  const storedDraft = editorDrafts.get(modalSlot._editorKey);
+  let storedDraft = editorDrafts.get(modalSlot._editorKey);
+  if(storedDraft && storedDraft._sourceHash){
+    const cur = MANIFEST.games[modalSlot._editorKey];
+    const curHash = cur ? simpleHash(JSON.stringify(cur)) : null;
+    if(curHash !== storedDraft._sourceHash){
+      editorDrafts.delete(modalSlot._editorKey);
+      storedDraft = null;
+    }
+  }
   if(storedDraft){
     idInput.value = storedDraft.id ?? idInput.value;
     nameInput.value = storedDraft.name ?? nameInput.value;
@@ -4926,6 +4997,9 @@ function openEditor(g, opts){
 }
 
 function openConfirmDelete(g){
+  if(modalSlot._editorKey){
+    captureEditorDraft(modalSlot._editorKey);
+  }
   modalSlot._editorKey = null;
   modalSlot.innerHTML = `
     <div class="confirm">
@@ -4986,7 +5060,9 @@ function captureEditorDraft(key){
     name: row.querySelector('.dlc-name').value,
     played: row.querySelector('.dlc-played-toggle').classList.contains('on')
   }));
+  const sourceGame = MANIFEST.games[key];
   const snapshot = {
+    _sourceHash: sourceGame ? simpleHash(JSON.stringify(sourceGame)) : null,
     id: fId.value,
     name: $('#f-name')?.value ?? '',
     alt: $('#f-alt')?.value ?? '',
@@ -5033,7 +5109,7 @@ function closeAll(opts){
   modalSlot._lockedSources = null;
   modalSlot._attachId = null;
   modalSlot._presetSeriesSlug = null;
-  if(igdbPickerFinish){ igdbPickerFinish(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
+  if(igdbPickerClose){ igdbPickerClose(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
   logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
   closeAllDropdowns();
   refreshScrollJumpVisibility();
@@ -5706,6 +5782,19 @@ function buildRandomReel(winnerId, winnerIdx, pool){
   }
   const winnerGame = pool.find(g => g.id === winnerId) || pool[0];
   picks[winnerIdx] = winnerGame;
+  const wId = winnerId;
+  const nLeft = picks[winnerIdx - 1];
+  const nRight = picks[winnerIdx + 1];
+  if((nLeft && nLeft.id === wId) || (nRight && nRight.id === wId)){
+    for(let k = 0; k < picks.length; k++){
+      if(k === winnerIdx) continue;
+      if(k === winnerIdx - 1 || k === winnerIdx + 1) continue;
+      if(picks[k] && picks[k].id !== wId){
+        [picks[winnerIdx], picks[k]] = [picks[k], picks[winnerIdx]];
+        break;
+      }
+    }
+  }
   randomReel.innerHTML = picks.map(randomCardHTML).join('');
   randomReel.style.transform = 'translateX(0)';
   randomCurrentX = 0;
@@ -5975,7 +6064,7 @@ document.addEventListener('keydown', e => {
     if(modalSlot._editorKey){ closeAll(); } else { closeModal(); }
     closeAllDropdowns(); closeTokenPrompt();
     closePendingModal(); closeToolsModal(); closeSeriesHeaderModal();
-    if(igdbPickerFinish){ igdbPickerFinish(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
+    if(igdbPickerClose){ igdbPickerClose(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
     logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
     return;
   }
@@ -6246,6 +6335,7 @@ const GTG_DIFF = {
   medium: { logos: 5,  hearts: 3 },
   hard:   { logos: 10, hearts: 2 }
 };
+const GTG_DIFF_MULT = { easy: 0.7, medium: 1.0, hard: 1.5 };
 const GTG_STREAK_TIERS = [
   { min: 10, mult: 2.0 },
   { min: 7,  mult: 1.8 },
@@ -6344,9 +6434,11 @@ function gtgPickSmartDecoys(winner, count, mode, pool){
   const used = new Set([winner.id]);
   const hard = [];
   const soft = [];
+  const winnerNameNorm = normalizeName(winner.name || '');
   for(const g of pool){
     if(used.has(g.id)) continue;
     if(!g.logo) continue;
+    if(winnerNameNorm && normalizeName(g.name || '') === winnerNameNorm) continue;
     const h = gtgHardConnection(winner, g);
     if(h > 0){ hard.push({ g, tier: h }); continue; }
     const s = gtgSoftConnection(winner, g);
@@ -6495,6 +6587,12 @@ function gtgApplyShot(url){
     requestAnimationFrame(() => gtgImg.classList.add('ready'));
     gtgStartPullback();
   };
+  gtgImg.onerror = () => {
+    gtgState.pullback.multiplier = 1.0;
+    gtgImg.style.transform = 'scale(1)';
+    gtgImg.classList.add('ready');
+    gtgStopPullback();
+  };
   gtgImg.src = url;
 }
 function gtgRunStatic(durationMs, onDone){
@@ -6572,7 +6670,8 @@ function gtgHandlePick(tile){
   if(isCorrect){
     const pullbackMult = gtgState.pullback.multiplier;
     const streakMult = gtgStreakMult(gtgState.streak);
-    const points = Math.max(1, Math.round(pullbackMult * streakMult));
+    const diffMult = GTG_DIFF_MULT[gtgState.diff] || 1.0;
+    const points = Math.max(1, Math.round(pullbackMult * streakMult * diffMult));
     gtgState.score += points;
     gtgState.streak += 1;
     gtgRenderScore();
@@ -6714,10 +6813,10 @@ const DRIFT_QUESTIONS = [
     prompt: 'WHICH IS LONGER?',
     unit: 'hrs',
     minValue: 1,
-    ratioBands: false,
+    ratioBands: true,
     higherWins: true,
     getValue: g => { const m = hltbToParts(g.hltb); return (m.main && /^\d/.test(m.main)) ? parseFloat(m.main) : null; },
-    bands: { easy: [15, Infinity], medium: [5, 15], hard: [0, 5] }
+    bands: { easy: [3, Infinity], medium: [1.5, 3], hard: [1.0, 1.5] }
   },
   {
     key: 'size',
@@ -6928,6 +7027,7 @@ function driftNextRound(){
         driftState.current = altPair;
         driftRenderPair(altPair);
         driftState.busy = false;
+        driftUpdatePeekButton();
         return;
       }
     }
@@ -6939,6 +7039,7 @@ function driftNextRound(){
   driftState.current = pair;
   driftRenderPair(pair);
   driftState.busy = false;
+  driftUpdatePeekButton();
 }
 
 function driftAnswer(side){
