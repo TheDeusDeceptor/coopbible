@@ -1,0 +1,38 @@
+{
+  "id": "sunkenland-2023-pc",
+  "name": "Sunkenland",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Vector3 Studio",
+  "pub": "Vector3 Studio",
+  "notes": "",
+  "release": "",
+  "ea_release": "25.08.2023",
+  "screenshot": "images/screenshots/sunkenland-2023-pc.jpg",
+  "logo": "images/logos/sunkenland-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2080690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sunkenland",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

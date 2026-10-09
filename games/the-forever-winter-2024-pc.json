@@ -1,0 +1,38 @@
+{
+  "id": "the-forever-winter-2024-pc",
+  "name": "The Forever Winter",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "—",
+  "dev": "Fun Dog Studios",
+  "pub": "Fun Dog Studios",
+  "notes": "",
+  "release": "",
+  "ea_release": "24.09.2024",
+  "screenshot": "images/screenshots/the-forever-winter-2024-pc.jpg",
+  "logo": "images/logos/the-forever-winter-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2828860",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Forever_Winter",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T23:21:55Z",
+  "updated": "2026-10-09T23:48:42Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -17547,6 +17547,452 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "scp-5k-2022-pc": {
+      "id": "scp-5k-2022-pc",
+      "name": "SCP: 5K",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Affray Interactive",
+      "pub": "Balor Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "22.02.2022",
+      "screenshot": "images/screenshots/scp-5k-2022-pc.jpg",
+      "logo": "images/logos/scp-5k-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/872670",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/SCP%3A_5K",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "grounded-2-2025-pc": {
+      "id": "grounded-2-2025-pc",
+      "name": "Grounded 2",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 14, +Extra: 28",
+      "dev": "Obsidian Entertainment, Eidos-Montréal",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "",
+      "ea_release": "29.07.2025",
+      "screenshot": "images/screenshots/grounded-2-2025-pc.jpg",
+      "logo": "images/logos/grounded-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2661300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Grounded_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "whiskerwood-2025-pc": {
+      "id": "whiskerwood-2025-pc",
+      "name": "Whiskerwood",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 14",
+      "dev": "Minakata Dynamics",
+      "pub": "Hooded Horse",
+      "notes": "",
+      "release": "",
+      "ea_release": "06.11.2025",
+      "screenshot": "images/screenshots/whiskerwood-2025-pc.jpg",
+      "logo": "images/logos/whiskerwood-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2489330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Whiskerwood",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "synthetik-2-2021-pc": {
+      "id": "synthetik-2-2021-pc",
+      "name": "Synthetik 2",
+      "platform": "PC",
+      "size": "9 GB",
+      "hltb": "Main: 4",
+      "dev": "Flow Fire Games",
+      "pub": "Flow Fire Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "11.11.2021",
+      "screenshot": "images/screenshots/synthetik-2-2021-pc.jpg",
+      "logo": "images/logos/synthetik-2-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1471410",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Synthetik_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "noble-legacy-2025-pc": {
+      "id": "noble-legacy-2025-pc",
+      "name": "Noble Legacy",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "Ultimus Rex LLC",
+      "pub": "Ultimus Rex LLC",
+      "notes": "",
+      "release": "",
+      "ea_release": "12.08.2025",
+      "screenshot": "images/screenshots/noble-legacy-2025-pc.jpg",
+      "logo": "images/logos/noble-legacy-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3372710",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "colony-survival-2017-pc": {
+      "id": "colony-survival-2017-pc",
+      "name": "Colony Survival",
+      "platform": "PC",
+      "size": "0.3 GB",
+      "hltb": "Main: 15",
+      "dev": "Pipliz",
+      "pub": "Pipliz",
+      "notes": "",
+      "release": "",
+      "ea_release": "16.06.2017",
+      "screenshot": "images/screenshots/colony-survival-2017-pc.jpg",
+      "logo": "images/logos/colony-survival-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/366090",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Colony_Survival",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wasted-world-2020-pc": {
+      "id": "wasted-world-2020-pc",
+      "name": "Wasted World",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Achrony",
+      "pub": "Achrony",
+      "notes": "Last update was over 5 years ago",
+      "release": "",
+      "ea_release": "06.05.2020",
+      "screenshot": "images/screenshots/wasted-world-2020-pc.jpg",
+      "logo": "images/logos/wasted-world-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1281390",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "atlyss-2024-pc": {
+      "id": "atlyss-2024-pc",
+      "name": "Atlyss",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 7, +Extra: 14",
+      "dev": "Kiseff",
+      "pub": "KisSoft",
+      "notes": "",
+      "release": "",
+      "ea_release": "22.11.2024",
+      "screenshot": "images/screenshots/atlyss-2024-pc.jpg",
+      "logo": "images/logos/atlyss-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2768430",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ATLYSS",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "scrap-mechanic-2026-pc": {
+      "id": "scrap-mechanic-2026-pc",
+      "name": "Scrap Mechanic",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 25",
+      "dev": "Axolot Games",
+      "pub": "Axolot Games",
+      "notes": "",
+      "release": "24.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/scrap-mechanic-2026-pc.jpg",
+      "logo": "images/logos/scrap-mechanic-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/387990",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Scrap_Mechanic",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "neon-abyss-2-2026-pc": {
+      "id": "neon-abyss-2-2026-pc",
+      "name": "Neon Abyss 2",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 4, +Extra: 19",
+      "dev": "Veewo Games",
+      "pub": "Kepler Ghost",
+      "notes": "",
+      "release": "07.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/neon-abyss-2-2026-pc.jpg",
+      "logo": "images/logos/neon-abyss-2-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2235200",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Neon_Abyss_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-forever-winter-2024-pc": {
+      "id": "the-forever-winter-2024-pc",
+      "name": "The Forever Winter",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "—",
+      "dev": "Fun Dog Studios",
+      "pub": "Fun Dog Studios",
+      "notes": "",
+      "release": "",
+      "ea_release": "24.09.2024",
+      "screenshot": "images/screenshots/the-forever-winter-2024-pc.jpg",
+      "logo": "images/logos/the-forever-winter-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2828860",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Forever_Winter",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sunkenland-2023-pc": {
+      "id": "sunkenland-2023-pc",
+      "name": "Sunkenland",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Vector3 Studio",
+      "pub": "Vector3 Studio",
+      "notes": "",
+      "release": "",
+      "ea_release": "25.08.2023",
+      "screenshot": "images/screenshots/sunkenland-2023-pc.jpg",
+      "logo": "images/logos/sunkenland-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2080690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sunkenland",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -18016,7 +18462,9 @@
       "alchemy-factory-2026-pc",
       "enshrouded-2024-pc",
       "survival-machine-2026-pc",
-      "gone-fishing-2026-pc"
+      "gone-fishing-2026-pc",
+      "scrap-mechanic-2026-pc",
+      "neon-abyss-2-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -18034,7 +18482,17 @@
       "vein-2025-pc",
       "species-unknown-2025-pc",
       "titan-quest-ii-2025-pc",
-      "ratatan-2025-pc"
+      "ratatan-2025-pc",
+      "scp-5k-2022-pc",
+      "grounded-2-2025-pc",
+      "whiskerwood-2025-pc",
+      "synthetik-2-2021-pc",
+      "noble-legacy-2025-pc",
+      "colony-survival-2017-pc",
+      "wasted-world-2020-pc",
+      "atlyss-2024-pc",
+      "the-forever-winter-2024-pc",
+      "sunkenland-2023-pc"
     ],
     "unreleased": [],
     "mods": [],

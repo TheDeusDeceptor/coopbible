@@ -1,0 +1,38 @@
+{
+  "id": "synthetik-2-2021-pc",
+  "name": "Synthetik 2",
+  "platform": "PC",
+  "size": "9 GB",
+  "hltb": "Main: 4",
+  "dev": "Flow Fire Games",
+  "pub": "Flow Fire Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "11.11.2021",
+  "screenshot": "images/screenshots/synthetik-2-2021-pc.jpg",
+  "logo": "images/logos/synthetik-2-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1471410",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Synthetik_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

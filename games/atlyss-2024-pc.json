@@ -1,0 +1,38 @@
+{
+  "id": "atlyss-2024-pc",
+  "name": "Atlyss",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 7, +Extra: 14",
+  "dev": "Kiseff",
+  "pub": "KisSoft",
+  "notes": "",
+  "release": "",
+  "ea_release": "22.11.2024",
+  "screenshot": "images/screenshots/atlyss-2024-pc.jpg",
+  "logo": "images/logos/atlyss-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2768430",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ATLYSS",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

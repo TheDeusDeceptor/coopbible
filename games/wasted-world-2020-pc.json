@@ -1,0 +1,33 @@
+{
+  "id": "wasted-world-2020-pc",
+  "name": "Wasted World",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Achrony",
+  "pub": "Achrony",
+  "notes": "Last update was over 5 years ago",
+  "release": "",
+  "ea_release": "06.05.2020",
+  "screenshot": "images/screenshots/wasted-world-2020-pc.jpg",
+  "logo": "images/logos/wasted-world-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1281390",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "noble-legacy-2025-pc",
+  "name": "Noble Legacy",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Ultimus Rex LLC",
+  "pub": "Ultimus Rex LLC",
+  "notes": "",
+  "release": "",
+  "ea_release": "12.08.2025",
+  "screenshot": "images/screenshots/noble-legacy-2025-pc.jpg",
+  "logo": "images/logos/noble-legacy-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3372710",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "grounded-2-2025-pc",
+  "name": "Grounded 2",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "Main: 14, +Extra: 28",
+  "dev": "Obsidian Entertainment, Eidos-Montréal",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "",
+  "ea_release": "29.07.2025",
+  "screenshot": "images/screenshots/grounded-2-2025-pc.jpg",
+  "logo": "images/logos/grounded-2-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2661300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Grounded_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

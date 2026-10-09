@@ -1,0 +1,38 @@
+{
+  "id": "scp-5k-2022-pc",
+  "name": "SCP: 5K",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Affray Interactive",
+  "pub": "Balor Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "22.02.2022",
+  "screenshot": "images/screenshots/scp-5k-2022-pc.jpg",
+  "logo": "images/logos/scp-5k-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/872670",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/SCP%3A_5K",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

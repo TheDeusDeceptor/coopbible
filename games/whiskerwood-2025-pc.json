@@ -1,0 +1,38 @@
+{
+  "id": "whiskerwood-2025-pc",
+  "name": "Whiskerwood",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 14",
+  "dev": "Minakata Dynamics",
+  "pub": "Hooded Horse",
+  "notes": "",
+  "release": "",
+  "ea_release": "06.11.2025",
+  "screenshot": "images/screenshots/whiskerwood-2025-pc.jpg",
+  "logo": "images/logos/whiskerwood-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2489330",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Whiskerwood",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

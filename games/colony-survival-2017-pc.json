@@ -1,0 +1,38 @@
+{
+  "id": "colony-survival-2017-pc",
+  "name": "Colony Survival",
+  "platform": "PC",
+  "size": "0.3 GB",
+  "hltb": "Main: 15",
+  "dev": "Pipliz",
+  "pub": "Pipliz",
+  "notes": "",
+  "release": "",
+  "ea_release": "16.06.2017",
+  "screenshot": "images/screenshots/colony-survival-2017-pc.jpg",
+  "logo": "images/logos/colony-survival-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/366090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Colony_Survival",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
