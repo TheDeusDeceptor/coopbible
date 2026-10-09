@@ -1,0 +1,38 @@
+{
+  "id": "eden-rising-2019-pc",
+  "name": "Eden Rising",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "The Wall Productions",
+  "pub": "The Wall Productions",
+  "notes": "",
+  "release": "17.05.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/eden-rising-2019-pc.jpg",
+  "logo": "images/logos/eden-rising-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/345330",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Eden_Rising_-_Supremacy",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "alien-breed-impact-2010-pc",
+  "name": "Alien Breed: Impact",
+  "platform": "PC",
+  "size": "1.5 GB",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Team17",
+  "pub": "Team17",
+  "notes": "",
+  "release": "03.06.2010",
+  "ea_release": "",
+  "screenshot": "images/screenshots/alien-breed-impact-2010-pc.jpg",
+  "logo": "images/logos/alien-breed-impact-2010-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/22610",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Alien_Breed%3A_Impact",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

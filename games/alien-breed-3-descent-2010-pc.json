@@ -1,0 +1,38 @@
+{
+  "id": "alien-breed-3-descent-2010-pc",
+  "name": "Alien Breed 3: Descent",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Team17",
+  "pub": "Team17",
+  "notes": "",
+  "release": "17.11.2010",
+  "ea_release": "",
+  "screenshot": "images/screenshots/alien-breed-3-descent-2010-pc.jpg",
+  "logo": "images/logos/alien-breed-3-descent-2010-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/22670",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Alien_Breed_3%3A_Descent",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

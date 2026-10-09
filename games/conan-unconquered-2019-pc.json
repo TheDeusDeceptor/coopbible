@@ -1,0 +1,38 @@
+{
+  "id": "conan-unconquered-2019-pc",
+  "name": "Conan Unconquered",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Petroglyph",
+  "pub": "Funcom",
+  "notes": "",
+  "release": "29.05.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/conan-unconquered-2019-pc.jpg",
+  "logo": "images/logos/conan-unconquered-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/989690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Conan_Unconquered",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

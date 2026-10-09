@@ -1,0 +1,33 @@
+{
+  "id": "kill-it-with-fire-2-2025-pc",
+  "name": "KILL IT WITH FIRE! 2",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Casey Donnellan Games LLC",
+  "pub": "tinyBuild",
+  "notes": "",
+  "release": "25.11.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kill-it-with-fire-2-2025-pc.jpg",
+  "logo": "images/logos/kill-it-with-fire-2-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2357000",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

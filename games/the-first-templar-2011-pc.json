@@ -1,0 +1,38 @@
+{
+  "id": "the-first-templar-2011-pc",
+  "name": "The First Templar",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Haemimont Games",
+  "pub": "Kalypso",
+  "notes": "",
+  "release": "12.05.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-first-templar-2011-pc.jpg",
+  "logo": "images/logos/the-first-templar-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/57680",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_First_Templar_-_Steam_Special_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": true,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "climber-animals-together-2024-pc",
+  "name": "Climber Animals: Together",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "—",
+  "dev": "Devotion Interactive",
+  "pub": "Devotion Interactive",
+  "notes": "",
+  "release": "22.03.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/climber-animals-together-2024-pc.jpg",
+  "logo": "images/logos/climber-animals-together-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2744880",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

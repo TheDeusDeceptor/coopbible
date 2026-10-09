@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08T23:34:38Z",
+  "updated": "2026-10-09T13:33:45Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -11000,6 +11000,376 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "alien-breed-impact-2010-pc": {
+      "id": "alien-breed-impact-2010-pc",
+      "name": "Alien Breed: Impact",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Team17",
+      "pub": "Team17",
+      "notes": "",
+      "release": "03.06.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/alien-breed-impact-2010-pc.jpg",
+      "logo": "images/logos/alien-breed-impact-2010-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/22610",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Alien_Breed%3A_Impact",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "alien-breed-2-assault-2010-pc": {
+      "id": "alien-breed-2-assault-2010-pc",
+      "name": "Alien Breed 2: Assault",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Team17",
+      "pub": "Team17",
+      "notes": "",
+      "release": "22.09.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/alien-breed-2-assault-2010-pc.jpg",
+      "logo": "images/logos/alien-breed-2-assault-2010-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/22650",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Alien_Breed_2%3A_Assault",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "alien-breed-3-descent-2010-pc": {
+      "id": "alien-breed-3-descent-2010-pc",
+      "name": "Alien Breed 3: Descent",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Team17",
+      "pub": "Team17",
+      "notes": "",
+      "release": "17.11.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/alien-breed-3-descent-2010-pc.jpg",
+      "logo": "images/logos/alien-breed-3-descent-2010-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/22670",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Alien_Breed_3%3A_Descent",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "homefront-the-revolution-2016-pc": {
+      "id": "homefront-the-revolution-2016-pc",
+      "name": "Homefront: The Revolution",
+      "platform": "PC",
+      "size": "38 GB",
+      "hltb": "Main: 12, +Extra: 19",
+      "dev": "Dambuster Studios",
+      "pub": "Deep Silver",
+      "notes": "Co-op specific mode (Resistance)",
+      "release": "17.05.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/homefront-the-revolution-2016-pc.jpg",
+      "logo": "images/logos/homefront-the-revolution-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/223100",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Homefront%3A_The_Revolution",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "as-dusk-falls-2022-pc": {
+      "id": "as-dusk-falls-2022-pc",
+      "name": "As Dusk Falls",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "INTERIOR/NIGHT",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "19.07.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/as-dusk-falls-2022-pc.jpg",
+      "logo": "images/logos/as-dusk-falls-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1341820",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/As_Dusk_Falls",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "eden-rising-2019-pc": {
+      "id": "eden-rising-2019-pc",
+      "name": "Eden Rising",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "The Wall Productions",
+      "pub": "The Wall Productions",
+      "notes": "",
+      "release": "17.05.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/eden-rising-2019-pc.jpg",
+      "logo": "images/logos/eden-rising-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/345330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Eden_Rising_-_Supremacy",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "climber-animals-together-2024-pc": {
+      "id": "climber-animals-together-2024-pc",
+      "name": "Climber Animals: Together",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "—",
+      "dev": "Devotion Interactive",
+      "pub": "Devotion Interactive",
+      "notes": "",
+      "release": "22.03.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/climber-animals-together-2024-pc.jpg",
+      "logo": "images/logos/climber-animals-together-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2744880",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "kill-it-with-fire-2-2025-pc": {
+      "id": "kill-it-with-fire-2-2025-pc",
+      "name": "KILL IT WITH FIRE! 2",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Casey Donnellan Games LLC",
+      "pub": "tinyBuild",
+      "notes": "",
+      "release": "25.11.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kill-it-with-fire-2-2025-pc.jpg",
+      "logo": "images/logos/kill-it-with-fire-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2357000",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "conan-unconquered-2019-pc": {
+      "id": "conan-unconquered-2019-pc",
+      "name": "Conan Unconquered",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Petroglyph",
+      "pub": "Funcom",
+      "notes": "",
+      "release": "29.05.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/conan-unconquered-2019-pc.jpg",
+      "logo": "images/logos/conan-unconquered-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/989690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Conan_Unconquered",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-first-templar-2011-pc": {
+      "id": "the-first-templar-2011-pc",
+      "name": "The First Templar",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Haemimont Games",
+      "pub": "Kalypso",
+      "notes": "",
+      "release": "12.05.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-first-templar-2011-pc.jpg",
+      "logo": "images/logos/the-first-templar-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/57680",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_First_Templar_-_Steam_Special_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": true,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -11301,7 +11671,17 @@
       "magicite-2014-pc",
       "roguelands-2016-pc",
       "moving-out-2020-pc",
-      "skibidi-gyatrooms-2025-pc"
+      "skibidi-gyatrooms-2025-pc",
+      "alien-breed-impact-2010-pc",
+      "alien-breed-2-assault-2010-pc",
+      "alien-breed-3-descent-2010-pc",
+      "homefront-the-revolution-2016-pc",
+      "as-dusk-falls-2022-pc",
+      "eden-rising-2019-pc",
+      "climber-animals-together-2024-pc",
+      "kill-it-with-fire-2-2025-pc",
+      "conan-unconquered-2019-pc",
+      "the-first-templar-2011-pc"
     ],
     "early-access": [],
     "unreleased": [],

@@ -1,0 +1,38 @@
+{
+  "id": "as-dusk-falls-2022-pc",
+  "name": "As Dusk Falls",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "INTERIOR/NIGHT",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "19.07.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/as-dusk-falls-2022-pc.jpg",
+  "logo": "images/logos/as-dusk-falls-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1341820",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/As_Dusk_Falls",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
