@@ -7099,14 +7099,6 @@ if(driftPeekBtn) driftPeekBtn.addEventListener('click', driftUsePeek);
 const scrollDownBtn = document.getElementById('scrollDownBtn');
 const scrollUpBtn = document.getElementById('scrollUpBtn');
 
-function positionJumpButtons(){
-  const vw = document.documentElement.clientWidth;
-  const bodyPad = parseFloat(getComputedStyle(document.body).paddingLeft) || 28;
-  const tbMax = 1400;
-  const left = Math.max(bodyPad, (vw - tbMax) / 2);
-  scrollDownBtn.style.left = left + 'px';
-  scrollUpBtn.style.left = left + 'px';
-}
 function updateScrollButtons(){
   const overlayOpen =
     backdrop.classList.contains('open') ||
@@ -7134,9 +7126,9 @@ function updateScrollButtons(){
   scrollUpBtn.classList.toggle('show', canUp);
 }
 window.addEventListener('scroll', updateScrollButtons, { passive: true });
-window.addEventListener('resize', () => { updateScrollButtons(); positionJumpButtons(); });
+window.addEventListener('resize', updateScrollButtons);
 if(window.ResizeObserver){
-  new ResizeObserver(() => { updateScrollButtons(); positionJumpButtons(); }).observe(document.body);
+  new ResizeObserver(updateScrollButtons).observe(document.body);
 }
 scrollDownBtn.addEventListener('click', () => {
   window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
@@ -7145,7 +7137,6 @@ scrollUpBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 updateScrollButtons();
-positionJumpButtons();
 
 window.addEventListener('beforeunload', e => {
   if(totalPendingCount() > 0){
@@ -7183,7 +7174,6 @@ document.getElementById('driftBtn').addEventListener('click', openDRIFT);
   updatePendingStrip();
   bootAdminFlow();
   updateScrollButtons();
-  positionJumpButtons();
 })();
 </script>
 </body>
