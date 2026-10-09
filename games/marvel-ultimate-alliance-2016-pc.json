@@ -1,0 +1,38 @@
+{
+  "id": "marvel-ultimate-alliance-2016-pc",
+  "name": "Marvel: Ultimate Alliance",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 13, +Extra: 19",
+  "dev": "Raven Software",
+  "pub": "Activision",
+  "notes": "",
+  "release": "26.07.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/marvel-ultimate-alliance-2016-pc.jpg",
+  "logo": "images/logos/marvel-ultimate-alliance-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/433300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Marvel%3A_Ultimate_Alliance",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

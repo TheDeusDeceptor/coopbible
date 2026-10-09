@@ -1,0 +1,33 @@
+{
+  "id": "grain-rot-2026-pc",
+  "name": "Grain Rot",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Beck & Branch Games",
+  "pub": "Neem Interactive",
+  "notes": "",
+  "release": "07.08.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/grain-rot-2026-pc.jpg",
+  "logo": "images/logos/grain-rot-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4450620",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

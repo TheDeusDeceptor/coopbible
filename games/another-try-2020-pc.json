@@ -1,0 +1,38 @@
+{
+  "id": "another-try-2020-pc",
+  "name": "Another Try",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Hoki Wolf Studio",
+  "pub": "Hoki Wolf Studio",
+  "notes": "",
+  "release": "19.04.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/another-try-2020-pc.jpg",
+  "logo": "images/logos/another-try-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1197220",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Another_Try",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

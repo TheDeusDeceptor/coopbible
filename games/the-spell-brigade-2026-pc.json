@@ -1,0 +1,38 @@
+{
+  "id": "the-spell-brigade-2026-pc",
+  "name": "The Spell Brigade",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 4, +Extra: 14",
+  "dev": "Bolt Blaster Games",
+  "pub": "Bolt Blaster Games",
+  "notes": "",
+  "release": "29.04.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-spell-brigade-2026-pc.jpg",
+  "logo": "images/logos/the-spell-brigade-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2904000",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Spell_Brigade",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

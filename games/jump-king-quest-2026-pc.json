@@ -1,0 +1,33 @@
+{
+  "id": "jump-king-quest-2026-pc",
+  "name": "Jump King Quest",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 20, +Extra: 31",
+  "dev": "Nexile",
+  "pub": "Nexile",
+  "notes": "",
+  "release": "25.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/jump-king-quest-2026-pc.jpg",
+  "logo": "images/logos/jump-king-quest-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2317640",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

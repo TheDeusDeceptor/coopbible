@@ -1,0 +1,33 @@
+{
+  "id": "frog-sqwad-2026-pc",
+  "name": "Frog Sqwad 🐸",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Panic Stations",
+  "pub": "Panic Stations",
+  "notes": "Photon Fusion",
+  "release": "11.06.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/frog-sqwad-2026-pc.jpg",
+  "logo": "images/logos/frog-sqwad-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3989960",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

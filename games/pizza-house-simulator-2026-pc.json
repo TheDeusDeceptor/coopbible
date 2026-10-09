@@ -1,0 +1,33 @@
+{
+  "id": "pizza-house-simulator-2026-pc",
+  "name": "Pizza House Simulator🍕",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Broken Lyre Entertainment, Wendigo Games",
+  "pub": "Devotion Interactive",
+  "notes": "",
+  "release": "19.08.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/pizza-house-simulator-2026-pc.jpg",
+  "logo": "images/logos/pizza-house-simulator-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4132330",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

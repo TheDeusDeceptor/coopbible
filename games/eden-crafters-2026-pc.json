@@ -1,0 +1,38 @@
+{
+  "id": "eden-crafters-2026-pc",
+  "name": "Eden Crafters",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 24, +Extra: 29",
+  "dev": "Osaris Games",
+  "pub": "Osaris Games",
+  "notes": "",
+  "release": "07.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/eden-crafters-2026-pc.jpg",
+  "logo": "images/logos/eden-crafters-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2570210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Eden_Crafters",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

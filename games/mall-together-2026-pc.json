@@ -1,0 +1,33 @@
+{
+  "id": "mall-together-2026-pc",
+  "name": "Mall Together",
+  "platform": "PC",
+  "size": "2.9 GB",
+  "hltb": "—",
+  "dev": "Business Tycoon",
+  "pub": "Business Tycoon",
+  "notes": "",
+  "release": "24.07.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/mall-together-2026-pc.jpg",
+  "logo": "images/logos/mall-together-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4668890",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

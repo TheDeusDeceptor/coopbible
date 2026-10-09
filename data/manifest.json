@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T18:12:50Z",
+  "updated": "2026-10-09T18:46:37Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -15544,6 +15544,853 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "the-spell-brigade-2026-pc": {
+      "id": "the-spell-brigade-2026-pc",
+      "name": "The Spell Brigade",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 4, +Extra: 14",
+      "dev": "Bolt Blaster Games",
+      "pub": "Bolt Blaster Games",
+      "notes": "",
+      "release": "29.04.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-spell-brigade-2026-pc.jpg",
+      "logo": "images/logos/the-spell-brigade-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2904000",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Spell_Brigade",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "another-try-2020-pc": {
+      "id": "another-try-2020-pc",
+      "name": "Another Try",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Hoki Wolf Studio",
+      "pub": "Hoki Wolf Studio",
+      "notes": "",
+      "release": "19.04.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/another-try-2020-pc.jpg",
+      "logo": "images/logos/another-try-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1197220",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Another_Try",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mazebound-hunt-gather-run-2026-pc": {
+      "id": "mazebound-hunt-gather-run-2026-pc",
+      "name": "Mazebound: Hunt, Gather, Run!",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Absam Studios",
+      "pub": "Absam Studios",
+      "notes": "",
+      "release": "13.05.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mazebound-hunt-gather-run-2026-pc.jpg",
+      "logo": "images/logos/mazebound-hunt-gather-run-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3616260",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "jump-king-quest-2026-pc": {
+      "id": "jump-king-quest-2026-pc",
+      "name": "Jump King Quest",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 20, +Extra: 31",
+      "dev": "Nexile",
+      "pub": "Nexile",
+      "notes": "",
+      "release": "25.05.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/jump-king-quest-2026-pc.jpg",
+      "logo": "images/logos/jump-king-quest-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2317640",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wayfinder-2024-pc": {
+      "id": "wayfinder-2024-pc",
+      "name": "Wayfinder",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 25, +Extra: 40",
+      "dev": "Airship Syndicate",
+      "pub": "Airship Syndicate",
+      "notes": "",
+      "release": "21.10.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wayfinder-2024-pc.jpg",
+      "logo": "images/logos/wayfinder-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1171690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Wayfinder",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "frog-sqwad-2026-pc": {
+      "id": "frog-sqwad-2026-pc",
+      "name": "Frog Sqwad 🐸",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Panic Stations",
+      "pub": "Panic Stations",
+      "notes": "Photon Fusion",
+      "release": "11.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/frog-sqwad-2026-pc.jpg",
+      "logo": "images/logos/frog-sqwad-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3989960",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-mound-omen-of-cthulhu-2026-pc": {
+      "id": "the-mound-omen-of-cthulhu-2026-pc",
+      "name": "The Mound: Omen of Cthulhu",
+      "platform": "PC",
+      "size": "23 GB",
+      "hltb": "Main: 35, +Extra: 40",
+      "dev": "ACE Team",
+      "pub": "Nacon",
+      "notes": "",
+      "release": "15.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-mound-omen-of-cthulhu-2026-pc.jpg",
+      "logo": "images/logos/the-mound-omen-of-cthulhu-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2569760",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Mound%3A_Omen_of_Cthulhu",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mall-together-2026-pc": {
+      "id": "mall-together-2026-pc",
+      "name": "Mall Together",
+      "platform": "PC",
+      "size": "2.9 GB",
+      "hltb": "—",
+      "dev": "Business Tycoon",
+      "pub": "Business Tycoon",
+      "notes": "",
+      "release": "24.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mall-together-2026-pc.jpg",
+      "logo": "images/logos/mall-together-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4668890",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "storebound-2026-pc": {
+      "id": "storebound-2026-pc",
+      "name": "Storebound",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 3, +Extra: 6",
+      "dev": "Embers",
+      "pub": "Embers",
+      "notes": "",
+      "release": "16.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/storebound-2026-pc.jpg",
+      "logo": "images/logos/storebound-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3417410",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Storebound",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dididig-2026-pc": {
+      "id": "dididig-2026-pc",
+      "name": "DiDiDiG",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "ISIT Studio",
+      "pub": "ISIT Studio",
+      "notes": "",
+      "release": "13.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dididig-2026-pc.jpg",
+      "logo": "images/logos/dididig-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4533370",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-station-together-2026-pc": {
+      "id": "dead-station-together-2026-pc",
+      "name": "Dead Station Together",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "cnsgames",
+      "pub": "cnsgames",
+      "notes": "",
+      "release": "18.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-station-together-2026-pc.jpg",
+      "logo": "images/logos/dead-station-together-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4803470",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hold-your-king-2026-pc": {
+      "id": "hold-your-king-2026-pc",
+      "name": "Hold Your King",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Next Big Game Studio",
+      "pub": "Joygame",
+      "notes": "",
+      "release": "10.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hold-your-king-2026-pc.jpg",
+      "logo": "images/logos/hold-your-king-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3564340",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "solarpunk-2026-pc": {
+      "id": "solarpunk-2026-pc",
+      "name": "Solarpunk",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 17, +Extra: 20",
+      "dev": "Cyberwave",
+      "pub": "rokaplay",
+      "notes": "",
+      "release": "08.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/solarpunk-2026-pc.jpg",
+      "logo": "images/logos/solarpunk-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1805110",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Solarpunk",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tropical-resort-simulator-2026-pc": {
+      "id": "tropical-resort-simulator-2026-pc",
+      "name": "Tropical Resort Simulator",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Beardroid Games",
+      "pub": "Beardroid Games",
+      "notes": "",
+      "release": "21.05.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tropical-resort-simulator-2026-pc.jpg",
+      "logo": "images/logos/tropical-resort-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2936190",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "grain-rot-2026-pc": {
+      "id": "grain-rot-2026-pc",
+      "name": "Grain Rot",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Beck & Branch Games",
+      "pub": "Neem Interactive",
+      "notes": "",
+      "release": "07.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/grain-rot-2026-pc.jpg",
+      "logo": "images/logos/grain-rot-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4450620",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-watchers-2020-pc": {
+      "id": "the-watchers-2020-pc",
+      "name": "The Watchers",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 5",
+      "dev": "Straight Back Games",
+      "pub": "Straight Back Games",
+      "notes": "",
+      "release": "06.02.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-watchers-2020-pc.jpg",
+      "logo": "images/logos/the-watchers-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1112830",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Watchers",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pizza-house-simulator-2026-pc": {
+      "id": "pizza-house-simulator-2026-pc",
+      "name": "Pizza House Simulator🍕",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Broken Lyre Entertainment, Wendigo Games",
+      "pub": "Devotion Interactive",
+      "notes": "",
+      "release": "19.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/pizza-house-simulator-2026-pc.jpg",
+      "logo": "images/logos/pizza-house-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4132330",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "metal-gear-solid-peace-walker-master-collection-version-2026-pc": {
+      "id": "metal-gear-solid-peace-walker-master-collection-version-2026-pc",
+      "name": "Metal Gear Solid: Peace Walker - Master Collection Version",
+      "platform": "PC",
+      "size": "21 GB",
+      "hltb": "Main: 18, +Extra: 28",
+      "dev": "Konami",
+      "pub": "Konami",
+      "notes": "",
+      "release": "27.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/metal-gear-solid-peace-walker-master-collection-version-2026-pc.jpg",
+      "logo": "images/logos/metal-gear-solid-peace-walker-master-collection-version-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2492660",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Metal_Gear_Solid%3A_Peace_Walker_-_Master_Collection_Version",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "blossom-the-seed-of-life-2026-pc": {
+      "id": "blossom-the-seed-of-life-2026-pc",
+      "name": "Blossom: The Seed of Life",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 15, +Extra: 16",
+      "dev": "Pebbledust Games",
+      "pub": "Pretty Soon",
+      "notes": "",
+      "release": "09.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/blossom-the-seed-of-life-2026-pc.jpg",
+      "logo": "images/logos/blossom-the-seed-of-life-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3576870",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "polylithic-2026-pc": {
+      "id": "polylithic-2026-pc",
+      "name": "Polylithic",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "—",
+      "dev": "polyperfect",
+      "pub": "indie.io",
+      "notes": "",
+      "release": "25.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/polylithic-2026-pc.jpg",
+      "logo": "images/logos/polylithic-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1839060",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "eden-crafters-2026-pc": {
+      "id": "eden-crafters-2026-pc",
+      "name": "Eden Crafters",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 24, +Extra: 29",
+      "dev": "Osaris Games",
+      "pub": "Osaris Games",
+      "notes": "",
+      "release": "07.05.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/eden-crafters-2026-pc.jpg",
+      "logo": "images/logos/eden-crafters-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2570210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Eden_Crafters",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "din-s-champion-2026-pc": {
+      "id": "din-s-champion-2026-pc",
+      "name": "Din's Champion",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Soldak Entertainment",
+      "pub": "Soldak Entertainment",
+      "notes": "",
+      "release": "24.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/din-s-champion-2026-pc.jpg",
+      "logo": "images/logos/din-s-champion-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2880010",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "marvel-ultimate-alliance-2016-pc": {
+      "id": "marvel-ultimate-alliance-2016-pc",
+      "name": "Marvel: Ultimate Alliance",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 13, +Extra: 19",
+      "dev": "Raven Software",
+      "pub": "Activision",
+      "notes": "",
+      "release": "26.07.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/marvel-ultimate-alliance-2016-pc.jpg",
+      "logo": "images/logos/marvel-ultimate-alliance-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/433300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Marvel%3A_Ultimate_Alliance",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "marvel-ultimate-alliance-2-2016-pc": {
+      "id": "marvel-ultimate-alliance-2-2016-pc",
+      "name": "Marvel: Ultimate Alliance 2",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 9, +Extra: 16",
+      "dev": "Vicarious Visions",
+      "pub": "Activision",
+      "notes": "",
+      "release": "26.07.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/marvel-ultimate-alliance-2-2016-pc.jpg",
+      "logo": "images/logos/marvel-ultimate-alliance-2-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/433320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Marvel%3A_Ultimate_Alliance_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -15973,7 +16820,31 @@
       "clean-up-earth-2026-pc",
       "restaurats-2025-pc",
       "stellarcraft-2026-pc",
-      "supermarket-shriek-2020-pc"
+      "supermarket-shriek-2020-pc",
+      "the-spell-brigade-2026-pc",
+      "another-try-2020-pc",
+      "mazebound-hunt-gather-run-2026-pc",
+      "jump-king-quest-2026-pc",
+      "wayfinder-2024-pc",
+      "frog-sqwad-2026-pc",
+      "the-mound-omen-of-cthulhu-2026-pc",
+      "mall-together-2026-pc",
+      "storebound-2026-pc",
+      "dididig-2026-pc",
+      "dead-station-together-2026-pc",
+      "hold-your-king-2026-pc",
+      "solarpunk-2026-pc",
+      "tropical-resort-simulator-2026-pc",
+      "grain-rot-2026-pc",
+      "the-watchers-2020-pc",
+      "pizza-house-simulator-2026-pc",
+      "metal-gear-solid-peace-walker-master-collection-version-2026-pc",
+      "blossom-the-seed-of-life-2026-pc",
+      "polylithic-2026-pc",
+      "eden-crafters-2026-pc",
+      "din-s-champion-2026-pc",
+      "marvel-ultimate-alliance-2016-pc",
+      "marvel-ultimate-alliance-2-2016-pc"
     ],
     "early-access": [],
     "unreleased": [],

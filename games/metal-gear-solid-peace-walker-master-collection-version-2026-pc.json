@@ -1,0 +1,38 @@
+{
+  "id": "metal-gear-solid-peace-walker-master-collection-version-2026-pc",
+  "name": "Metal Gear Solid: Peace Walker - Master Collection Version",
+  "platform": "PC",
+  "size": "21 GB",
+  "hltb": "Main: 18, +Extra: 28",
+  "dev": "Konami",
+  "pub": "Konami",
+  "notes": "",
+  "release": "27.08.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/metal-gear-solid-peace-walker-master-collection-version-2026-pc.jpg",
+  "logo": "images/logos/metal-gear-solid-peace-walker-master-collection-version-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2492660",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Metal_Gear_Solid%3A_Peace_Walker_-_Master_Collection_Version",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

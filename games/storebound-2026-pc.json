@@ -1,0 +1,38 @@
+{
+  "id": "storebound-2026-pc",
+  "name": "Storebound",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 3, +Extra: 6",
+  "dev": "Embers",
+  "pub": "Embers",
+  "notes": "",
+  "release": "16.07.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/storebound-2026-pc.jpg",
+  "logo": "images/logos/storebound-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3417410",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Storebound",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

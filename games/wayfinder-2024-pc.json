@@ -1,0 +1,38 @@
+{
+  "id": "wayfinder-2024-pc",
+  "name": "Wayfinder",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 25, +Extra: 40",
+  "dev": "Airship Syndicate",
+  "pub": "Airship Syndicate",
+  "notes": "",
+  "release": "21.10.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/wayfinder-2024-pc.jpg",
+  "logo": "images/logos/wayfinder-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1171690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Wayfinder",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
