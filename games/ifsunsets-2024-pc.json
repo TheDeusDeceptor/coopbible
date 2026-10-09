@@ -1,0 +1,33 @@
+{
+  "id": "ifsunsets-2024-pc",
+  "name": "IfSunSets",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "—",
+  "dev": "POLYMORPH",
+  "pub": "Smilegate",
+  "notes": "",
+  "release": "",
+  "ea_release": "04.11.2024",
+  "screenshot": "images/screenshots/ifsunsets-2024-pc.jpg",
+  "logo": "images/logos/ifsunsets-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2271930",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

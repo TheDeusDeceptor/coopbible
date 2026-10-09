@@ -1,0 +1,38 @@
+{
+  "id": "enshrouded-2024-pc",
+  "name": "Enshrouded",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 48, +Extra: 69",
+  "dev": "Keen Games",
+  "pub": "Keen Games",
+  "notes": "Emulation issues were present before release, untested after",
+  "release": "24.01.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/enshrouded-2024-pc.jpg",
+  "logo": "images/logos/enshrouded-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1203620",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Enshrouded",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

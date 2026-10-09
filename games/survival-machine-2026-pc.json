@@ -1,0 +1,38 @@
+{
+  "id": "survival-machine-2026-pc",
+  "name": "Survival Machine",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "Grape Pickers",
+  "pub": "Games Operators, PlayWay S.A.",
+  "notes": "",
+  "release": "12.06.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/survival-machine-2026-pc.jpg",
+  "logo": "images/logos/survival-machine-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1601330",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Survival_Machine",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
