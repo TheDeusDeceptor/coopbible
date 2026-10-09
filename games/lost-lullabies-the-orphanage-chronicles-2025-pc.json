@@ -1,0 +1,38 @@
+{
+  "id": "lost-lullabies-the-orphanage-chronicles-2025-pc",
+  "name": "Lost Lullabies: The Orphanage Chronicles",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Pugsy Studios",
+  "pub": "GameDev.ist",
+  "notes": "",
+  "release": "27.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lost-lullabies-the-orphanage-chronicles-2025-pc.jpg",
+  "logo": "images/logos/lost-lullabies-the-orphanage-chronicles-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2903710",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Lost_Lullabies%3A_The_Orphanage_Chronicles",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

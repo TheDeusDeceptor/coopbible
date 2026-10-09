@@ -1,0 +1,38 @@
+{
+  "id": "coridden-2025-pc",
+  "name": "Coridden",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "Aftnareld",
+  "pub": "Anshar Publishing",
+  "notes": "",
+  "release": "29.01.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/coridden-2025-pc.jpg",
+  "logo": "images/logos/coridden-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1656930",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Coridden",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

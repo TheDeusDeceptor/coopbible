@@ -1,0 +1,38 @@
+{
+  "id": "escape-first-2-2019-pc",
+  "name": "Escape First 2",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 3",
+  "dev": "OnSkull Games",
+  "pub": "OnSkull Games",
+  "notes": "",
+  "release": "20.06.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-first-2-2019-pc.jpg",
+  "logo": "images/logos/escape-first-2-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1094060",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_First_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

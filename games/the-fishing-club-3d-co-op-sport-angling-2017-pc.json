@@ -1,0 +1,33 @@
+{
+  "id": "the-fishing-club-3d-co-op-sport-angling-2017-pc",
+  "name": "The Fishing Club 3D: Co-op Sport Angling",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Robot Riot UG (haftungsbeschränkt)",
+  "pub": "Robot Riot UG (haftungsbeschränkt)",
+  "notes": "",
+  "release": "23.03.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-fishing-club-3d-co-op-sport-angling-2017-pc.jpg",
+  "logo": "images/logos/the-fishing-club-3d-co-op-sport-angling-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/522230",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

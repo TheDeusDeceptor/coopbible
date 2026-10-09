@@ -1,0 +1,38 @@
+{
+  "id": "escape-first-2018-pc",
+  "name": "Escape First",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 2",
+  "dev": "OnSkull Games",
+  "pub": "OnSkull Games",
+  "notes": "",
+  "release": "10.05.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-first-2018-pc.jpg",
+  "logo": "images/logos/escape-first-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/850450",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_First",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "escape-first-alchemist-2023-pc",
+  "name": "Escape First Alchemist ⚗️",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 2",
+  "dev": "OnSkull Games",
+  "pub": "OnSkull Games",
+  "notes": "",
+  "release": "02.03.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-first-alchemist-2023-pc.jpg",
+  "logo": "images/logos/escape-first-alchemist-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2094320",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

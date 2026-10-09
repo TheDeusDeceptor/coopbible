@@ -1,0 +1,33 @@
+{
+  "id": "dinky-guardians-2023-pc",
+  "name": "Dinky Guardians",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Endless Loop Studios, Code Monkey",
+  "pub": "Endless Loop Studios",
+  "notes": "",
+  "release": "02.10.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dinky-guardians-2023-pc.jpg",
+  "logo": "images/logos/dinky-guardians-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2349040",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

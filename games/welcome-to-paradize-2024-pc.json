@@ -1,0 +1,33 @@
+{
+  "id": "welcome-to-paradize-2024-pc",
+  "name": "Welcome to ParadiZe",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 26",
+  "dev": "Eko Software",
+  "pub": "Nacon",
+  "notes": "",
+  "release": "29.02.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/welcome-to-paradize-2024-pc.jpg",
+  "logo": "images/logos/welcome-to-paradize-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1519090",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

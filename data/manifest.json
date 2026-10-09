@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T13:56:14Z",
+  "updated": "2026-10-09T14:44:38Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -11649,6 +11649,513 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "freedom-wars-remastered-2025-pc": {
+      "id": "freedom-wars-remastered-2025-pc",
+      "name": "Freedom Wars Remastered",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 28, +Extra: 41",
+      "dev": "Dimps",
+      "pub": "Bandai Namco",
+      "notes": "",
+      "release": "09.01.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/freedom-wars-remastered-2025-pc.jpg",
+      "logo": "images/logos/freedom-wars-remastered-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3004100",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Freedom_Wars_Remastered",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "space-hulk-deathwing-enhanced-edition-2018-pc": {
+      "id": "space-hulk-deathwing-enhanced-edition-2018-pc",
+      "name": "Space Hulk: Deathwing Enhanced Edition",
+      "platform": "PC",
+      "size": "29 GB",
+      "hltb": "Main: 9, +Extra: 13",
+      "dev": "Streum On Studio",
+      "pub": "Focus Entertainment",
+      "notes": "",
+      "release": "22.05.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/space-hulk-deathwing-enhanced-edition-2018-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/8024c4bae31528f23cf071a026bdc512.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/816090",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Space_Hulk%3A_Deathwing_-_Enhanced_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dragon-marked-for-death-2020-pc": {
+      "id": "dragon-marked-for-death-2020-pc",
+      "name": "Dragon Marked For Death",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 17, +Extra: 28",
+      "dev": "Inti Creates",
+      "pub": "Inti Creates",
+      "notes": "",
+      "release": "21.04.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dragon-marked-for-death-2020-pc.jpg",
+      "logo": "images/logos/dragon-marked-for-death-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1149440",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dragon_Marked_for_Death",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "coridden-2025-pc": {
+      "id": "coridden-2025-pc",
+      "name": "Coridden",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 9, +Extra: 13",
+      "dev": "Aftnareld",
+      "pub": "Anshar Publishing",
+      "notes": "",
+      "release": "29.01.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/coridden-2025-pc.jpg",
+      "logo": "images/logos/coridden-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1656930",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Coridden",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-first-2018-pc": {
+      "id": "escape-first-2018-pc",
+      "name": "Escape First",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 2",
+      "dev": "OnSkull Games",
+      "pub": "OnSkull Games",
+      "notes": "",
+      "release": "10.05.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-first-2018-pc.jpg",
+      "logo": "images/logos/escape-first-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/850450",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_First",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-first-2-2019-pc": {
+      "id": "escape-first-2-2019-pc",
+      "name": "Escape First 2",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 3",
+      "dev": "OnSkull Games",
+      "pub": "OnSkull Games",
+      "notes": "",
+      "release": "20.06.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-first-2-2019-pc.jpg",
+      "logo": "images/logos/escape-first-2-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1094060",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_First_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-first-3-2020-pc": {
+      "id": "escape-first-3-2020-pc",
+      "name": "Escape First 3",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 2",
+      "dev": "OnSkull Games",
+      "pub": "OnSkull Games",
+      "notes": "",
+      "release": "21.03.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-first-3-2020-pc.jpg",
+      "logo": "images/logos/escape-first-3-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1258460",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-first-alchemist-2023-pc": {
+      "id": "escape-first-alchemist-2023-pc",
+      "name": "Escape First Alchemist ⚗️",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 2",
+      "dev": "OnSkull Games",
+      "pub": "OnSkull Games",
+      "notes": "",
+      "release": "02.03.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-first-alchemist-2023-pc.jpg",
+      "logo": "images/logos/escape-first-alchemist-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2094320",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dinky-guardians-2023-pc": {
+      "id": "dinky-guardians-2023-pc",
+      "name": "Dinky Guardians",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Endless Loop Studios, Code Monkey",
+      "pub": "Endless Loop Studios",
+      "notes": "",
+      "release": "02.10.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dinky-guardians-2023-pc.jpg",
+      "logo": "images/logos/dinky-guardians-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2349040",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lost-lullabies-the-orphanage-chronicles-2025-pc": {
+      "id": "lost-lullabies-the-orphanage-chronicles-2025-pc",
+      "name": "Lost Lullabies: The Orphanage Chronicles",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Pugsy Studios",
+      "pub": "GameDev.ist",
+      "notes": "",
+      "release": "27.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lost-lullabies-the-orphanage-chronicles-2025-pc.jpg",
+      "logo": "images/logos/lost-lullabies-the-orphanage-chronicles-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2903710",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Lost_Lullabies%3A_The_Orphanage_Chronicles",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bee-simulator-2020-pc": {
+      "id": "bee-simulator-2020-pc",
+      "name": "Bee Simulator",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 3, +Extra: 5",
+      "dev": "Varsav Game Studios",
+      "pub": "Untold Tales",
+      "notes": "",
+      "release": "17.11.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bee-simulator-2020-pc.jpg",
+      "logo": "images/logos/bee-simulator-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/914750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Bee_Simulator",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "red-faction-armageddon-2011-pc": {
+      "id": "red-faction-armageddon-2011-pc",
+      "name": "Red Faction: Armageddon",
+      "platform": "PC",
+      "size": "7.5 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Volition",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "06.06.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/red-faction-armageddon-2011-pc.jpg",
+      "logo": "images/logos/red-faction-armageddon-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/55110",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Red_Faction_Armageddon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "welcome-to-paradize-2024-pc": {
+      "id": "welcome-to-paradize-2024-pc",
+      "name": "Welcome to ParadiZe",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 26",
+      "dev": "Eko Software",
+      "pub": "Nacon",
+      "notes": "",
+      "release": "29.02.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/welcome-to-paradize-2024-pc.jpg",
+      "logo": "images/logos/welcome-to-paradize-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1519090",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-fishing-club-3d-co-op-sport-angling-2017-pc": {
+      "id": "the-fishing-club-3d-co-op-sport-angling-2017-pc",
+      "name": "The Fishing Club 3D: Co-op Sport Angling",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Robot Riot UG (haftungsbeschränkt)",
+      "pub": "Robot Riot UG (haftungsbeschränkt)",
+      "notes": "",
+      "release": "23.03.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-fishing-club-3d-co-op-sport-angling-2017-pc.jpg",
+      "logo": "images/logos/the-fishing-club-3d-co-op-sport-angling-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/522230",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -11968,7 +12475,21 @@
       "unpossess-exorcism-simulator-2025-pc",
       "unpossess-2-exorcism-simulator-2026-pc",
       "outpost-infinity-siege-2024-pc",
-      "blind-trust-2016-pc"
+      "blind-trust-2016-pc",
+      "freedom-wars-remastered-2025-pc",
+      "space-hulk-deathwing-enhanced-edition-2018-pc",
+      "dragon-marked-for-death-2020-pc",
+      "coridden-2025-pc",
+      "escape-first-2018-pc",
+      "escape-first-2-2019-pc",
+      "escape-first-3-2020-pc",
+      "escape-first-alchemist-2023-pc",
+      "dinky-guardians-2023-pc",
+      "lost-lullabies-the-orphanage-chronicles-2025-pc",
+      "bee-simulator-2020-pc",
+      "red-faction-armageddon-2011-pc",
+      "welcome-to-paradize-2024-pc",
+      "the-fishing-club-3d-co-op-sport-angling-2017-pc"
     ],
     "early-access": [],
     "unreleased": [],

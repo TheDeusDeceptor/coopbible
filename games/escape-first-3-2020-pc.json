@@ -1,0 +1,33 @@
+{
+  "id": "escape-first-3-2020-pc",
+  "name": "Escape First 3",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 2",
+  "dev": "OnSkull Games",
+  "pub": "OnSkull Games",
+  "notes": "",
+  "release": "21.03.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-first-3-2020-pc.jpg",
+  "logo": "images/logos/escape-first-3-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1258460",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

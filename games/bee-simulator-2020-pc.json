@@ -1,0 +1,38 @@
+{
+  "id": "bee-simulator-2020-pc",
+  "name": "Bee Simulator",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 3, +Extra: 5",
+  "dev": "Varsav Game Studios",
+  "pub": "Untold Tales",
+  "notes": "",
+  "release": "17.11.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/bee-simulator-2020-pc.jpg",
+  "logo": "images/logos/bee-simulator-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/914750",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Bee_Simulator",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

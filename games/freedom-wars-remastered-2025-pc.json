@@ -1,0 +1,38 @@
+{
+  "id": "freedom-wars-remastered-2025-pc",
+  "name": "Freedom Wars Remastered",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 28, +Extra: 41",
+  "dev": "Dimps",
+  "pub": "Bandai Namco",
+  "notes": "",
+  "release": "09.01.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/freedom-wars-remastered-2025-pc.jpg",
+  "logo": "images/logos/freedom-wars-remastered-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3004100",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Freedom_Wars_Remastered",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

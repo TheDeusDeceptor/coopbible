@@ -1,0 +1,38 @@
+{
+  "id": "red-faction-armageddon-2011-pc",
+  "name": "Red Faction: Armageddon",
+  "platform": "PC",
+  "size": "7.5 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Volition",
+  "pub": "Deep Silver",
+  "notes": "",
+  "release": "06.06.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/red-faction-armageddon-2011-pc.jpg",
+  "logo": "images/logos/red-faction-armageddon-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/55110",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Red_Faction_Armageddon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

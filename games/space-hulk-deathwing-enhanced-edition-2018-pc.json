@@ -1,0 +1,38 @@
+{
+  "id": "space-hulk-deathwing-enhanced-edition-2018-pc",
+  "name": "Space Hulk: Deathwing Enhanced Edition",
+  "platform": "PC",
+  "size": "29 GB",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "Streum On Studio",
+  "pub": "Focus Entertainment",
+  "notes": "",
+  "release": "22.05.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/space-hulk-deathwing-enhanced-edition-2018-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/8024c4bae31528f23cf071a026bdc512.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/816090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Space_Hulk%3A_Deathwing_-_Enhanced_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dragon-marked-for-death-2020-pc",
+  "name": "Dragon Marked For Death",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 17, +Extra: 28",
+  "dev": "Inti Creates",
+  "pub": "Inti Creates",
+  "notes": "",
+  "release": "21.04.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dragon-marked-for-death-2020-pc.jpg",
+  "logo": "images/logos/dragon-marked-for-death-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1149440",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dragon_Marked_for_Death",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
