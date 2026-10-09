@@ -1,0 +1,38 @@
+{
+  "id": "trollhunters-defenders-of-arcadia-2020-pc",
+  "name": "Trollhunters: Defenders of Arcadia",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "WayForward",
+  "pub": "Outright Games",
+  "notes": "",
+  "release": "24.09.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trollhunters-defenders-of-arcadia-2020-pc.jpg",
+  "logo": "images/logos/trollhunters-defenders-of-arcadia-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1344070",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Trollhunters%3A_Defenders_of_Arcadia",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

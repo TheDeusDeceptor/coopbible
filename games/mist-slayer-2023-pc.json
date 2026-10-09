@@ -1,0 +1,33 @@
+{
+  "id": "mist-slayer-2023-pc",
+  "name": "Mist Slayer",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Moju Games",
+  "pub": "Moju Games",
+  "notes": "",
+  "release": "17.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/mist-slayer-2023-pc.jpg",
+  "logo": "images/logos/mist-slayer-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2088650",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

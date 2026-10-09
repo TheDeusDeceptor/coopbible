@@ -1,0 +1,33 @@
+{
+  "id": "the-last-oricru-final-cut-2022-pc",
+  "name": "The Last Oricru: Final Cut",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "—",
+  "dev": "GoldKnights",
+  "pub": "Prime Matter",
+  "notes": "",
+  "release": "13.10.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-last-oricru-final-cut-2022-pc.jpg",
+  "logo": "images/logos/the-last-oricru-final-cut-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1663640",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

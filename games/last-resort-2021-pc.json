@@ -1,0 +1,38 @@
+{
+  "id": "last-resort-2021-pc",
+  "name": "Last Resort",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Team Soupvision",
+  "pub": "Breda University of Applied Sciences",
+  "notes": "",
+  "release": "28.06.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/last-resort-2021-pc.jpg",
+  "logo": "images/logos/last-resort-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1491650",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Last_Resort",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

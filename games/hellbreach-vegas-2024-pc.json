@@ -1,0 +1,33 @@
+{
+  "id": "hellbreach-vegas-2024-pc",
+  "name": "Hellbreach: Vegas",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Infinity Ape Studios",
+  "pub": "Iceberg Interactive",
+  "notes": "",
+  "release": "14.08.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hellbreach-vegas-2024-pc.jpg",
+  "logo": "images/logos/hellbreach-vegas-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1691320",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

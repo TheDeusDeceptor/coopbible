@@ -1,0 +1,33 @@
+{
+  "id": "panic-in-the-woods-2024-pc",
+  "name": "Panic In The Woods",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Exit Plan Games",
+  "pub": "Exit Plan Games",
+  "notes": "",
+  "release": "13.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/panic-in-the-woods-2024-pc.jpg",
+  "logo": "images/logos/panic-in-the-woods-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3036880",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "nostalgia-2025-pc",
+  "name": "Nostalgia",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "CoffeeMonster",
+  "pub": "CoffeeMonster",
+  "notes": "",
+  "release": "20.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/nostalgia-2025-pc.jpg",
+  "logo": "images/logos/nostalgia-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3693270",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Golf_Club_Nostalgia",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

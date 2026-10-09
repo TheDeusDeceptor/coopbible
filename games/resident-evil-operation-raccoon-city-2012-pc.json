@@ -1,0 +1,33 @@
+{
+  "id": "resident-evil-operation-raccoon-city-2012-pc",
+  "name": "Resident Evil: Operation Raccoon City",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Slant Six Games",
+  "pub": "Capcom",
+  "notes": "",
+  "release": "18.05.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/resident-evil-operation-raccoon-city-2012-pc.jpg",
+  "logo": "images/logos/resident-evil-operation-raccoon-city-2012-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Resident_Evil%3A_Operation_Raccoon_City",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

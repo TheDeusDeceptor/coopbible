@@ -1,0 +1,33 @@
+{
+  "id": "dooms-hair-salon-2025-pc",
+  "name": "Dooms Hair Salon",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Slimebox",
+  "pub": "Slimebox",
+  "notes": "",
+  "release": "24.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dooms-hair-salon-2025-pc.jpg",
+  "logo": "images/logos/dooms-hair-salon-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3398870",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

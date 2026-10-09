@@ -1,0 +1,33 @@
+{
+  "id": "mobmania-2025-pc",
+  "name": "Mobmania",
+  "platform": "PC",
+  "size": "0.1 GB",
+  "hltb": "Main: 34",
+  "dev": "azndesserts, justjayem, wolfbyte131",
+  "pub": "azndesserts",
+  "notes": "",
+  "release": "11.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/mobmania-2025-pc.jpg",
+  "logo": "images/logos/mobmania-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2099220",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

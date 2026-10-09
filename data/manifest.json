@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T14:44:38Z",
+  "updated": "2026-10-09T15:24:41Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -12156,6 +12156,569 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "dooms-hair-salon-2025-pc": {
+      "id": "dooms-hair-salon-2025-pc",
+      "name": "Dooms Hair Salon",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Slimebox",
+      "pub": "Slimebox",
+      "notes": "",
+      "release": "24.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dooms-hair-salon-2025-pc.jpg",
+      "logo": "images/logos/dooms-hair-salon-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3398870",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-last-oricru-final-cut-2022-pc": {
+      "id": "the-last-oricru-final-cut-2022-pc",
+      "name": "The Last Oricru: Final Cut",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "—",
+      "dev": "GoldKnights",
+      "pub": "Prime Matter",
+      "notes": "",
+      "release": "13.10.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-last-oricru-final-cut-2022-pc.jpg",
+      "logo": "images/logos/the-last-oricru-final-cut-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1663640",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mist-slayer-2023-pc": {
+      "id": "mist-slayer-2023-pc",
+      "name": "Mist Slayer",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Moju Games",
+      "pub": "Moju Games",
+      "notes": "",
+      "release": "17.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mist-slayer-2023-pc.jpg",
+      "logo": "images/logos/mist-slayer-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2088650",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tiny-brains-2013-pc": {
+      "id": "tiny-brains-2013-pc",
+      "name": "Tiny Brains",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 2, +Extra: 3",
+      "dev": "Spearhead Games",
+      "pub": "Spearhead Games",
+      "notes": "",
+      "release": "11.12.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tiny-brains-2013-pc.jpg",
+      "logo": "images/logos/tiny-brains-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/253690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tiny_Brains",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hellbreach-vegas-2024-pc": {
+      "id": "hellbreach-vegas-2024-pc",
+      "name": "Hellbreach: Vegas",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Infinity Ape Studios",
+      "pub": "Iceberg Interactive",
+      "notes": "",
+      "release": "14.08.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hellbreach-vegas-2024-pc.jpg",
+      "logo": "images/logos/hellbreach-vegas-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1691320",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nostalgia-2025-pc": {
+      "id": "nostalgia-2025-pc",
+      "name": "Nostalgia",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "CoffeeMonster",
+      "pub": "CoffeeMonster",
+      "notes": "",
+      "release": "20.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/nostalgia-2025-pc.jpg",
+      "logo": "images/logos/nostalgia-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3693270",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Golf_Club_Nostalgia",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "secret-of-mana-2018-pc": {
+      "id": "secret-of-mana-2018-pc",
+      "name": "Secret of Mana",
+      "platform": "PC",
+      "size": "11 GB",
+      "hltb": "Main: 16, +Extra: 21",
+      "dev": "Square Enix",
+      "pub": "Square Enix",
+      "notes": "",
+      "release": "15.02.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/secret-of-mana-2018-pc.jpg",
+      "logo": "images/logos/secret-of-mana-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/637670",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Secret_of_Mana",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trollhunters-defenders-of-arcadia-2020-pc": {
+      "id": "trollhunters-defenders-of-arcadia-2020-pc",
+      "name": "Trollhunters: Defenders of Arcadia",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 4, +Extra: 6",
+      "dev": "WayForward",
+      "pub": "Outright Games",
+      "notes": "",
+      "release": "24.09.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trollhunters-defenders-of-arcadia-2020-pc.jpg",
+      "logo": "images/logos/trollhunters-defenders-of-arcadia-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1344070",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Trollhunters%3A_Defenders_of_Arcadia",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "scourge-outbreak-2014-pc": {
+      "id": "scourge-outbreak-2014-pc",
+      "name": "Scourge: Outbreak",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Tragnarion Studios",
+      "pub": "Bitbox",
+      "notes": "",
+      "release": "02.04.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/scourge-outbreak-2014-pc.jpg",
+      "logo": "images/logos/scourge-outbreak-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/227560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Scourge%3A_Outbreak",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "omega-crafter-2025-pc": {
+      "id": "omega-crafter-2025-pc",
+      "name": "Omega Crafter",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 39",
+      "dev": "Preferred Networks",
+      "pub": "Preferred Networks",
+      "notes": "",
+      "release": "14.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/omega-crafter-2025-pc.jpg",
+      "logo": "images/logos/omega-crafter-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2262080",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pizza-deathlivery-2025-pc": {
+      "id": "pizza-deathlivery-2025-pc",
+      "name": "Pizza Deathlivery",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Kusa Games",
+      "pub": "Kusa Games",
+      "notes": "",
+      "release": "23.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/pizza-deathlivery-2025-pc.jpg",
+      "logo": "images/logos/pizza-deathlivery-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3697560",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-operation-raccoon-city-2012-pc": {
+      "id": "resident-evil-operation-raccoon-city-2012-pc",
+      "name": "Resident Evil: Operation Raccoon City",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "Slant Six Games",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "18.05.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/resident-evil-operation-raccoon-city-2012-pc.jpg",
+      "logo": "images/logos/resident-evil-operation-raccoon-city-2012-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Resident_Evil%3A_Operation_Raccoon_City",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "last-resort-2021-pc": {
+      "id": "last-resort-2021-pc",
+      "name": "Last Resort",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Team Soupvision",
+      "pub": "Breda University of Applied Sciences",
+      "notes": "",
+      "release": "28.06.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/last-resort-2021-pc.jpg",
+      "logo": "images/logos/last-resort-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1491650",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Last_Resort",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-anacrusis-2023-pc": {
+      "id": "the-anacrusis-2023-pc",
+      "name": "The Anacrusis",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 4",
+      "dev": "Stray Bombay",
+      "pub": "Stray Bombay",
+      "notes": "",
+      "release": "05.12.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-anacrusis-2023-pc.jpg",
+      "logo": "images/logos/the-anacrusis-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1120480",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Anacrusis",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mobmania-2025-pc": {
+      "id": "mobmania-2025-pc",
+      "name": "Mobmania",
+      "platform": "PC",
+      "size": "0.1 GB",
+      "hltb": "Main: 34",
+      "dev": "azndesserts, justjayem, wolfbyte131",
+      "pub": "azndesserts",
+      "notes": "",
+      "release": "11.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mobmania-2025-pc.jpg",
+      "logo": "images/logos/mobmania-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2099220",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "panic-in-the-woods-2024-pc": {
+      "id": "panic-in-the-woods-2024-pc",
+      "name": "Panic In The Woods",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Exit Plan Games",
+      "pub": "Exit Plan Games",
+      "notes": "",
+      "release": "13.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/panic-in-the-woods-2024-pc.jpg",
+      "logo": "images/logos/panic-in-the-woods-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3036880",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -12489,7 +13052,23 @@
       "bee-simulator-2020-pc",
       "red-faction-armageddon-2011-pc",
       "welcome-to-paradize-2024-pc",
-      "the-fishing-club-3d-co-op-sport-angling-2017-pc"
+      "the-fishing-club-3d-co-op-sport-angling-2017-pc",
+      "dooms-hair-salon-2025-pc",
+      "the-last-oricru-final-cut-2022-pc",
+      "mist-slayer-2023-pc",
+      "tiny-brains-2013-pc",
+      "hellbreach-vegas-2024-pc",
+      "nostalgia-2025-pc",
+      "secret-of-mana-2018-pc",
+      "trollhunters-defenders-of-arcadia-2020-pc",
+      "scourge-outbreak-2014-pc",
+      "omega-crafter-2025-pc",
+      "pizza-deathlivery-2025-pc",
+      "resident-evil-operation-raccoon-city-2012-pc",
+      "last-resort-2021-pc",
+      "the-anacrusis-2023-pc",
+      "mobmania-2025-pc",
+      "panic-in-the-woods-2024-pc"
     ],
     "early-access": [],
     "unreleased": [],

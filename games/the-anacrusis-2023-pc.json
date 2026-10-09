@@ -1,0 +1,38 @@
+{
+  "id": "the-anacrusis-2023-pc",
+  "name": "The Anacrusis",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 4",
+  "dev": "Stray Bombay",
+  "pub": "Stray Bombay",
+  "notes": "",
+  "release": "05.12.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-anacrusis-2023-pc.jpg",
+  "logo": "images/logos/the-anacrusis-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1120480",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Anacrusis",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

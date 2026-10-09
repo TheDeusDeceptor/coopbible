@@ -1,0 +1,33 @@
+{
+  "id": "omega-crafter-2025-pc",
+  "name": "Omega Crafter",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 39",
+  "dev": "Preferred Networks",
+  "pub": "Preferred Networks",
+  "notes": "",
+  "release": "14.05.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/omega-crafter-2025-pc.jpg",
+  "logo": "images/logos/omega-crafter-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2262080",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
