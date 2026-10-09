@@ -1,0 +1,38 @@
+{
+  "id": "zeno-clash-2-2013-pc",
+  "name": "Zeno Clash 2",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "ACE Team",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "30.04.2013",
+  "ea_release": "",
+  "screenshot": "https://i.ibb.co/hJnMKzpM/Zeno-Clash2-PC01-3.webp",
+  "logo": "images/logos/zeno-clash-2-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/215690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Zeno_Clash_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "utawarerumono-zan-2-2026-pc",
+  "name": "Utawarerumono: ZAN 2",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 16",
+  "dev": "AQUAPLUS",
+  "pub": "DMM GAMES",
+  "notes": "",
+  "release": "01.04.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/utawarerumono-zan-2-2026-pc.jpg",
+  "logo": "images/logos/utawarerumono-zan-2-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3074850",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Utawarerumono%3A_ZAN_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

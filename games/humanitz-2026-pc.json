@@ -1,0 +1,38 @@
+{
+  "id": "humanitz-2026-pc",
+  "name": "HumanitZ",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 23, +Extra: 30",
+  "dev": "Yodubzz Studios",
+  "pub": "indie.io",
+  "notes": "",
+  "release": "06.02.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/humanitz-2026-pc.jpg",
+  "logo": "images/logos/humanitz-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1766060",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/HumanitZ",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

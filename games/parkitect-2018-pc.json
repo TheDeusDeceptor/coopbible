@@ -1,0 +1,38 @@
+{
+  "id": "parkitect-2018-pc",
+  "name": "Parkitect",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 52, +Extra: 55",
+  "dev": "Texel Raptor",
+  "pub": "Texel Raptor",
+  "notes": "",
+  "release": "29.11.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/parkitect-2018-pc.jpg",
+  "logo": "images/logos/parkitect-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/453090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Parkitect",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

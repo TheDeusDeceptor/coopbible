@@ -1,0 +1,33 @@
+{
+  "id": "ship-graveyard-simulator-2-2023-pc",
+  "name": "Ship Graveyard Simulator 2",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 32, +Extra: 63",
+  "dev": "Games Incubator",
+  "pub": "Games Incubator",
+  "notes": "",
+  "release": "16.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ship-graveyard-simulator-2-2023-pc.jpg",
+  "logo": "images/logos/ship-graveyard-simulator-2-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2201940",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

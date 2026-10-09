@@ -1,0 +1,38 @@
+{
+  "id": "stronghold-crusader-2-2014-pc",
+  "name": "Stronghold Crusader 2",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 9, +Extra: 40",
+  "dev": "Firefly Studios",
+  "pub": "Firefly Studios",
+  "notes": "",
+  "release": "22.09.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stronghold-crusader-2-2014-pc.jpg",
+  "logo": "images/logos/stronghold-crusader-2-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/232890",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Stronghold_Crusader_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

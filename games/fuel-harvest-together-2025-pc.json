@@ -1,0 +1,33 @@
+{
+  "id": "fuel-harvest-together-2025-pc",
+  "name": "Fuel Harvest Together",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Say2Sun",
+  "pub": "Grejuva",
+  "notes": "",
+  "release": "01.08.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fuel-harvest-together-2025-pc.jpg",
+  "logo": "images/logos/fuel-harvest-together-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3441460",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

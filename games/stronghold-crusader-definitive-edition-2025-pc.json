@@ -1,0 +1,38 @@
+{
+  "id": "stronghold-crusader-definitive-edition-2025-pc",
+  "name": "Stronghold Crusader: Definitive Edition",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 112",
+  "dev": "Firefly Studios",
+  "pub": "Firefly Studios",
+  "notes": "",
+  "release": "15.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stronghold-crusader-definitive-edition-2025-pc.jpg",
+  "logo": "images/logos/stronghold-crusader-definitive-edition-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3024040",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Stronghold_Crusader%3A_Definitive_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

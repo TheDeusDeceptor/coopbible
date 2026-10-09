@@ -1,0 +1,38 @@
+{
+  "id": "reanimal-2026-pc",
+  "name": "REANIMAL",
+  "platform": "PC",
+  "size": "18 GB",
+  "hltb": "Main: 5",
+  "dev": "Tarsier Studios",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "13.02.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/reanimal-2026-pc.jpg",
+  "logo": "images/logos/reanimal-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2129530",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Reanimal",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

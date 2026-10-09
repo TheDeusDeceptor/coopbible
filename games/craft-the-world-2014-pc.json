@@ -1,0 +1,38 @@
+{
+  "id": "craft-the-world-2014-pc",
+  "name": "Craft The World",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 33, +Extra: 84",
+  "dev": "Dekovir Entertainment",
+  "pub": "Black Maple Games",
+  "notes": "",
+  "release": "24.11.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/craft-the-world-2014-pc.jpg",
+  "logo": "images/logos/craft-the-world-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/248390",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Craft_the_World",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

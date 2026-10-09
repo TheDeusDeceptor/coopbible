@@ -1,0 +1,38 @@
+{
+  "id": "the-legacy-2025-pc",
+  "name": "The Legacy",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Second Reality",
+  "pub": "RockGame S.A.",
+  "notes": "",
+  "release": "08.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-legacy-2025-pc.jpg",
+  "logo": "images/logos/the-legacy-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2909870",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings%3A_War_in_the_North_-_Legacy_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

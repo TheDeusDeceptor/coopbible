@@ -1,0 +1,38 @@
+{
+  "id": "fbc-firebreak-2025-pc",
+  "name": "FBC: Firebreak",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 3, +Extra: 10",
+  "dev": "Remedy Entertainment",
+  "pub": "Remedy Entertainment",
+  "notes": "Performance demands Unix-based OS...",
+  "release": "17.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fbc-firebreak-2025-pc.jpg",
+  "logo": "images/logos/fbc-firebreak-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2272540",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/FBC%3A_Firebreak",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

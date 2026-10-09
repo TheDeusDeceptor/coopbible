@@ -1,0 +1,38 @@
+{
+  "id": "desynced-2026-pc",
+  "name": "Desynced",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Stage Games",
+  "pub": "Forklift Interactive",
+  "notes": "",
+  "release": "05.03.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/desynced-2026-pc.jpg",
+  "logo": "images/logos/desynced-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1450900",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Desynced",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

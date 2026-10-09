@@ -1,0 +1,38 @@
+{
+  "id": "stronghold-warlords-2021-pc",
+  "name": "Stronghold: Warlords",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 19, +Extra: 47",
+  "dev": "Firefly Studios",
+  "pub": "Firefly Studios",
+  "notes": "",
+  "release": "09.03.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stronghold-warlords-2021-pc.jpg",
+  "logo": "images/logos/stronghold-warlords-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/907650",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Stronghold%3A_Warlords",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

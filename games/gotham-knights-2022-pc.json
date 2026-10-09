@@ -1,0 +1,38 @@
+{
+  "id": "gotham-knights-2022-pc",
+  "name": "Gotham Knights",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 17, +Extra: 28",
+  "dev": "Warner Bros. Games Montreal",
+  "pub": "Warner Bros. Games",
+  "notes": "",
+  "release": "21.10.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gotham-knights-2022-pc.jpg",
+  "logo": "images/logos/gotham-knights-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1496790",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gotham_Knights",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

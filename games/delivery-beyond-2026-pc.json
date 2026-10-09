@@ -1,0 +1,33 @@
+{
+  "id": "delivery-beyond-2026-pc",
+  "name": "Delivery & Beyond",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "FailCake (HyenaQuest)",
+  "pub": "FailCake (HyenaQuest)",
+  "notes": "",
+  "release": "27.01.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/delivery-beyond-2026-pc.jpg",
+  "logo": "images/logos/delivery-beyond-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3376480",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
