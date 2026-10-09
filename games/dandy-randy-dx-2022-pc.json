@@ -1,0 +1,38 @@
+{
+  "id": "dandy-randy-dx-2022-pc",
+  "name": "Dandy & Randy DX",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "Asteristic Game Studio",
+  "pub": "Ratalaika Games",
+  "notes": "",
+  "release": "29.04.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dandy-randy-dx-2022-pc.jpg",
+  "logo": "images/logos/dandy-randy-dx-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1651030",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dandy_%26_Randy",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

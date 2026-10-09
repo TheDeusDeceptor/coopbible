@@ -1,0 +1,33 @@
+{
+  "id": "polygon-bit-battle-royale-2025-pc",
+  "name": "Polygon Bit Battle Royale",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Army Troop Studios",
+  "pub": "Army Troop Studios",
+  "notes": "",
+  "release": "27.11.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/polygon-bit-battle-royale-2025-pc.jpg",
+  "logo": "images/logos/polygon-bit-battle-royale-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2790190",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

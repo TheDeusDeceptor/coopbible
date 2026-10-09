@@ -1,0 +1,33 @@
+{
+  "id": "ravenous-horde-2025-pc",
+  "name": "Ravenous Horde",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Vector Interactive",
+  "pub": "Vector Interactive",
+  "notes": "",
+  "release": "06.11.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ravenous-horde-2025-pc.jpg",
+  "logo": "images/logos/ravenous-horde-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2179490",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

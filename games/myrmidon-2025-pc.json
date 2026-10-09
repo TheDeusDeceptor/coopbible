@@ -1,0 +1,33 @@
+{
+  "id": "myrmidon-2025-pc",
+  "name": "Myrmidon",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 1, +Extra: 2",
+  "dev": "Studio Popote",
+  "pub": "Rubika Supinfogame",
+  "notes": "",
+  "release": "07.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/myrmidon-2025-pc.jpg",
+  "logo": "images/logos/myrmidon-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3247270",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

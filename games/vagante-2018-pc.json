@@ -1,0 +1,38 @@
+{
+  "id": "vagante-2018-pc",
+  "name": "Vagante",
+  "platform": "PC",
+  "size": "0.2 GB",
+  "hltb": "Main: 41, +Extra: 45",
+  "dev": "Nuke Nine",
+  "pub": "Nuke Nine",
+  "notes": "",
+  "release": "22.02.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/vagante-2018-pc.jpg",
+  "logo": "images/logos/vagante-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/323220",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Vagante",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

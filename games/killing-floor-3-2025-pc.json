@@ -1,0 +1,38 @@
+{
+  "id": "killing-floor-3-2025-pc",
+  "name": "Killing Floor 3",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 9, +Extra: 24",
+  "dev": "Tripwire Interactive",
+  "pub": "Tripwire Interactive",
+  "notes": "",
+  "release": "24.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/killing-floor-3-2025-pc.jpg",
+  "logo": "images/logos/killing-floor-3-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1430190",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Killing_Floor_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

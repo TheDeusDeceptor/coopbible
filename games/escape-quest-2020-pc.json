@@ -1,0 +1,33 @@
+{
+  "id": "escape-quest-2020-pc",
+  "name": "Escape Quest",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 1",
+  "dev": "Lumiere Studios",
+  "pub": "Lumiere Studios",
+  "notes": "",
+  "release": "29.09.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-quest-2020-pc.jpg",
+  "logo": "images/logos/escape-quest-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1363770",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

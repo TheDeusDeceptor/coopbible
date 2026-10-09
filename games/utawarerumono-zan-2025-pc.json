@@ -1,0 +1,38 @@
+{
+  "id": "utawarerumono-zan-2025-pc",
+  "name": "Utawarerumono: ZAN",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 6, +Extra: 13",
+  "dev": "AQUAPLUS",
+  "pub": "DMM GAMES, Shiravune",
+  "notes": "",
+  "release": "15.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/utawarerumono-zan-2025-pc.jpg",
+  "logo": "images/logos/utawarerumono-zan-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3074840",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Utawarerumono%3A_ZAN_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

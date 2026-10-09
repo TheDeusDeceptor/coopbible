@@ -1,0 +1,33 @@
+{
+  "id": "divinity-original-sin-2-definitive-edition-2017-pc",
+  "name": "Divinity: Original Sin 2 - Definitive Edition",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 59, +Extra: 101",
+  "dev": "Larian Studios",
+  "pub": "Larian Studios",
+  "notes": "",
+  "release": "14.09.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/divinity-original-sin-2-definitive-edition-2017-pc.jpg",
+  "logo": "images/logos/divinity-original-sin-2-definitive-edition-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/435150",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "nioh-3-2026-pc",
+  "name": "Nioh 3",
+  "platform": "PC",
+  "size": "125 GB",
+  "hltb": "Main: 29, +Extra: 55",
+  "dev": "Team Ninja",
+  "pub": "Koei Tecmo",
+  "notes": "",
+  "release": "05.02.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/nioh-3-2026-pc.jpg",
+  "logo": "images/logos/nioh-3-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3681010",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Nioh_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

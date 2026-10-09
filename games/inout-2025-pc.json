@@ -1,0 +1,33 @@
+{
+  "id": "inout-2025-pc",
+  "name": "Inout",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "—",
+  "dev": "Gample",
+  "pub": "Gample",
+  "notes": "",
+  "release": "10.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/inout-2025-pc.jpg",
+  "logo": "images/logos/inout-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2072640",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

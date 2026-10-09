@@ -1,0 +1,38 @@
+{
+  "id": "borderlands-4-2025-pc",
+  "name": "Borderlands 4",
+  "platform": "PC",
+  "size": "100 GB",
+  "hltb": "Main: 29, +Extra: 50",
+  "dev": "Gearbox Software",
+  "pub": "2K",
+  "notes": "🅱️emuva",
+  "release": "11.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/borderlands-4-2025-pc.jpg",
+  "logo": "images/logos/borderlands-4-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1285190",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Borderlands_4",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

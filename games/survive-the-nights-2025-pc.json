@@ -1,0 +1,38 @@
+{
+  "id": "survive-the-nights-2025-pc",
+  "name": "Survive the Nights",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 68",
+  "dev": "a2z Interactive",
+  "pub": "a2z Interactive",
+  "notes": "",
+  "release": "05.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/survive-the-nights-2025-pc.jpg",
+  "logo": "images/logos/survive-the-nights-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/541300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Survive_the_Nights",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

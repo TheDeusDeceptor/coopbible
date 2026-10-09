@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T15:50:27Z",
+  "updated": "2026-10-09T16:41:18Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -13074,6 +13074,777 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "spooky-station-2019-pc": {
+      "id": "spooky-station-2019-pc",
+      "name": "Spooky Station",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "—",
+      "dev": "Coletivo Vaca Roxa, Vee, JoyMasher, PKO Game Studio, Spookids Team, Calangames, Expresso Studios, Pastel Studios, Heavy Sheep, LASTONE, Asteristic Game Studio",
+      "pub": "Estúdio Vaca Roxa",
+      "notes": "",
+      "release": "29.10.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/spooky-station-2019-pc.jpg",
+      "logo": "images/logos/spooky-station-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/700100",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Spooky_Station",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dandy-randy-dx-2022-pc": {
+      "id": "dandy-randy-dx-2022-pc",
+      "name": "Dandy & Randy DX",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 3",
+      "dev": "Asteristic Game Studio",
+      "pub": "Ratalaika Games",
+      "notes": "",
+      "release": "29.04.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dandy-randy-dx-2022-pc.jpg",
+      "logo": "images/logos/dandy-randy-dx-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1651030",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dandy_%26_Randy",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "invitation-to-fear-2021-pc": {
+      "id": "invitation-to-fear-2021-pc",
+      "name": "Invitation to Fear",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Chest Box",
+      "pub": "Chest Box",
+      "notes": "",
+      "release": "24.11.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/invitation-to-fear-2021-pc.jpg",
+      "logo": "images/logos/invitation-to-fear-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1802330",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "myrmidon-2025-pc": {
+      "id": "myrmidon-2025-pc",
+      "name": "Myrmidon",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 1, +Extra: 2",
+      "dev": "Studio Popote",
+      "pub": "Rubika Supinfogame",
+      "notes": "",
+      "release": "07.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/myrmidon-2025-pc.jpg",
+      "logo": "images/logos/myrmidon-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3247270",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "holy-purge-exorcist-2022-pc": {
+      "id": "holy-purge-exorcist-2022-pc",
+      "name": "Holy Purge: Exorcist",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Celeritas Games",
+      "pub": "Celeritas Games",
+      "notes": "",
+      "release": "15.02.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/holy-purge-exorcist-2022-pc.jpg",
+      "logo": "images/logos/holy-purge-exorcist-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1844060",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "inout-2025-pc": {
+      "id": "inout-2025-pc",
+      "name": "Inout",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "—",
+      "dev": "Gample",
+      "pub": "Gample",
+      "notes": "",
+      "release": "10.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/inout-2025-pc.jpg",
+      "logo": "images/logos/inout-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2072640",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "eresys-2023-pc": {
+      "id": "eresys-2023-pc",
+      "name": "Eresys",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 3",
+      "dev": "Ares Dragonis",
+      "pub": "Dragonis Games",
+      "notes": "",
+      "release": "18.12.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/eresys-2023-pc.jpg",
+      "logo": "images/logos/eresys-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1918970",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "silent-rain-2024-pc": {
+      "id": "silent-rain-2024-pc",
+      "name": "Silent Rain",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "—",
+      "dev": "2Brains&Coffee",
+      "pub": "Seedlers Interactive",
+      "notes": "",
+      "release": "15.07.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/silent-rain-2024-pc.jpg",
+      "logo": "images/logos/silent-rain-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1791910",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-quest-2020-pc": {
+      "id": "escape-quest-2020-pc",
+      "name": "Escape Quest",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 1",
+      "dev": "Lumiere Studios",
+      "pub": "Lumiere Studios",
+      "notes": "",
+      "release": "29.09.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-quest-2020-pc.jpg",
+      "logo": "images/logos/escape-quest-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1363770",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dreadway-2026-pc": {
+      "id": "dreadway-2026-pc",
+      "name": "Dreadway",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "ZweiBier Indie",
+      "pub": "Reality Twist GmbH",
+      "notes": "",
+      "release": "23.01.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dreadway-2026-pc.jpg",
+      "logo": "images/logos/dreadway-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3215820",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "divinity-original-sin-enhanced-edition-2015-pc": {
+      "id": "divinity-original-sin-enhanced-edition-2015-pc",
+      "name": "Divinity: Original Sin - Enhanced Edition",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 60, +Extra: 83",
+      "dev": "Larian Studios",
+      "pub": "Larian Studios",
+      "notes": "",
+      "release": "27.10.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/divinity-original-sin-enhanced-edition-2015-pc.jpg",
+      "logo": "images/logos/divinity-original-sin-enhanced-edition-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/373420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Divinity%3A_Original_Sin_-_Enhanced_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "divinity-original-sin-2-definitive-edition-2017-pc": {
+      "id": "divinity-original-sin-2-definitive-edition-2017-pc",
+      "name": "Divinity: Original Sin 2 - Definitive Edition",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 59, +Extra: 101",
+      "dev": "Larian Studios",
+      "pub": "Larian Studios",
+      "notes": "",
+      "release": "14.09.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/divinity-original-sin-2-definitive-edition-2017-pc.jpg",
+      "logo": "images/logos/divinity-original-sin-2-definitive-edition-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/435150",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "borderlands-4-2025-pc": {
+      "id": "borderlands-4-2025-pc",
+      "name": "Borderlands 4",
+      "platform": "PC",
+      "size": "100 GB",
+      "hltb": "Main: 29, +Extra: 50",
+      "dev": "Gearbox Software",
+      "pub": "2K",
+      "notes": "🅱️emuva",
+      "release": "11.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/borderlands-4-2025-pc.jpg",
+      "logo": "images/logos/borderlands-4-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1285190",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Borderlands_4",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "killing-floor-3-2025-pc": {
+      "id": "killing-floor-3-2025-pc",
+      "name": "Killing Floor 3",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 9, +Extra: 24",
+      "dev": "Tripwire Interactive",
+      "pub": "Tripwire Interactive",
+      "notes": "",
+      "release": "24.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/killing-floor-3-2025-pc.jpg",
+      "logo": "images/logos/killing-floor-3-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1430190",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Killing_Floor_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nioh-3-2026-pc": {
+      "id": "nioh-3-2026-pc",
+      "name": "Nioh 3",
+      "platform": "PC",
+      "size": "125 GB",
+      "hltb": "Main: 29, +Extra: 55",
+      "dev": "Team Ninja",
+      "pub": "Koei Tecmo",
+      "notes": "",
+      "release": "05.02.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/nioh-3-2026-pc.jpg",
+      "logo": "images/logos/nioh-3-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3681010",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nioh_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "utawarerumono-zan-2025-pc": {
+      "id": "utawarerumono-zan-2025-pc",
+      "name": "Utawarerumono: ZAN",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 6, +Extra: 13",
+      "dev": "AQUAPLUS",
+      "pub": "DMM GAMES, Shiravune",
+      "notes": "",
+      "release": "15.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/utawarerumono-zan-2025-pc.jpg",
+      "logo": "images/logos/utawarerumono-zan-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3074840",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Utawarerumono%3A_ZAN_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "polygon-bit-battle-royale-2025-pc": {
+      "id": "polygon-bit-battle-royale-2025-pc",
+      "name": "Polygon Bit Battle Royale",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Army Troop Studios",
+      "pub": "Army Troop Studios",
+      "notes": "",
+      "release": "27.11.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/polygon-bit-battle-royale-2025-pc.jpg",
+      "logo": "images/logos/polygon-bit-battle-royale-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2790190",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ravenous-horde-2025-pc": {
+      "id": "ravenous-horde-2025-pc",
+      "name": "Ravenous Horde",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "Vector Interactive",
+      "pub": "Vector Interactive",
+      "notes": "",
+      "release": "06.11.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ravenous-horde-2025-pc.jpg",
+      "logo": "images/logos/ravenous-horde-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2179490",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "turbo-carnage-2025-pc": {
+      "id": "turbo-carnage-2025-pc",
+      "name": "Turbo Carnage",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Haylaz Games",
+      "pub": "Haylaz Games",
+      "notes": "",
+      "release": "06.11.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/turbo-carnage-2025-pc.jpg",
+      "logo": "images/logos/turbo-carnage-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3932930",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "shrine-s-legacy-2025-pc": {
+      "id": "shrine-s-legacy-2025-pc",
+      "name": "Shrine's Legacy",
+      "platform": "PC",
+      "size": "0.1 GB",
+      "hltb": "Main: 12",
+      "dev": "Positive Concept Games",
+      "pub": "indie.io",
+      "notes": "",
+      "release": "07.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shrine-s-legacy-2025-pc.jpg",
+      "logo": "images/logos/shrine-s-legacy-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1435410",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "vagante-2018-pc": {
+      "id": "vagante-2018-pc",
+      "name": "Vagante",
+      "platform": "PC",
+      "size": "0.2 GB",
+      "hltb": "Main: 41, +Extra: 45",
+      "dev": "Nuke Nine",
+      "pub": "Nuke Nine",
+      "notes": "",
+      "release": "22.02.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/vagante-2018-pc.jpg",
+      "logo": "images/logos/vagante-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/323220",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Vagante",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "survive-the-nights-2025-pc": {
+      "id": "survive-the-nights-2025-pc",
+      "name": "Survive the Nights",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 68",
+      "dev": "a2z Interactive",
+      "pub": "a2z Interactive",
+      "notes": "",
+      "release": "05.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/survive-the-nights-2025-pc.jpg",
+      "logo": "images/logos/survive-the-nights-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/541300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Survive_the_Nights",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -13433,7 +14204,29 @@
       "longvinter-2025-pc",
       "immortal-hunters-2025-pc",
       "beach-invasion-1945-pacific-2023-pc",
-      "beach-invasion-1915-gallipoli-2025-pc"
+      "beach-invasion-1915-gallipoli-2025-pc",
+      "spooky-station-2019-pc",
+      "dandy-randy-dx-2022-pc",
+      "invitation-to-fear-2021-pc",
+      "myrmidon-2025-pc",
+      "holy-purge-exorcist-2022-pc",
+      "inout-2025-pc",
+      "eresys-2023-pc",
+      "silent-rain-2024-pc",
+      "escape-quest-2020-pc",
+      "dreadway-2026-pc",
+      "divinity-original-sin-enhanced-edition-2015-pc",
+      "divinity-original-sin-2-definitive-edition-2017-pc",
+      "borderlands-4-2025-pc",
+      "killing-floor-3-2025-pc",
+      "nioh-3-2026-pc",
+      "utawarerumono-zan-2025-pc",
+      "polygon-bit-battle-royale-2025-pc",
+      "ravenous-horde-2025-pc",
+      "turbo-carnage-2025-pc",
+      "shrine-s-legacy-2025-pc",
+      "vagante-2018-pc",
+      "survive-the-nights-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

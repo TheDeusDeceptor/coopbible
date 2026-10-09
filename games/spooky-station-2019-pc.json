@@ -1,0 +1,38 @@
+{
+  "id": "spooky-station-2019-pc",
+  "name": "Spooky Station",
+  "platform": "PC",
+  "size": "1.5 GB",
+  "hltb": "—",
+  "dev": "Coletivo Vaca Roxa, Vee, JoyMasher, PKO Game Studio, Spookids Team, Calangames, Expresso Studios, Pastel Studios, Heavy Sheep, LASTONE, Asteristic Game Studio",
+  "pub": "Estúdio Vaca Roxa",
+  "notes": "",
+  "release": "29.10.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/spooky-station-2019-pc.jpg",
+  "logo": "images/logos/spooky-station-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/700100",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Spooky_Station",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

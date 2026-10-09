@@ -1,0 +1,33 @@
+{
+  "id": "dreadway-2026-pc",
+  "name": "Dreadway",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "ZweiBier Indie",
+  "pub": "Reality Twist GmbH",
+  "notes": "",
+  "release": "23.01.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dreadway-2026-pc.jpg",
+  "logo": "images/logos/dreadway-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3215820",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
