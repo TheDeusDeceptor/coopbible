@@ -1,0 +1,38 @@
+{
+  "id": "godsworn-2027-pc",
+  "name": "Godsworn",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 12",
+  "dev": "Thunderoak Interactive",
+  "pub": "Thunderoak Interactive",
+  "notes": "",
+  "release": "Q2 2027",
+  "ea_release": "28.03.2024",
+  "screenshot": "images/screenshots/godsworn-2027-pc.jpg",
+  "logo": "images/logos/godsworn-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1328990",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Godsworn",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

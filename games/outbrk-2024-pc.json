@@ -1,0 +1,38 @@
+{
+  "id": "outbrk-2024-pc",
+  "name": "OUTBRK",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "—",
+  "dev": "Sublime",
+  "pub": "Sublime",
+  "notes": "",
+  "release": "",
+  "ea_release": "28.06.2024",
+  "screenshot": "images/screenshots/outbrk-2024-pc.jpg",
+  "logo": "images/logos/outbrk-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1107320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/OUTBRK",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

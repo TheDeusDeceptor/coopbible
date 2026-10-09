@@ -1,0 +1,38 @@
+{
+  "id": "aska-2024-pc",
+  "name": "ASKA",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 30",
+  "dev": "Sand Sailor Studio",
+  "pub": "Thunderful Publishing",
+  "notes": "",
+  "release": "",
+  "ea_release": "20.06.2024",
+  "screenshot": "images/screenshots/aska-2024-pc.jpg",
+  "logo": "images/logos/aska-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1898300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ASKA",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

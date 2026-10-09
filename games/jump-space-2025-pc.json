@@ -1,0 +1,38 @@
+{
+  "id": "jump-space-2025-pc",
+  "name": "Jump Space",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 7",
+  "dev": "Keepsake Games",
+  "pub": "Keepsake Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "19.09.2025",
+  "screenshot": "images/screenshots/jump-space-2025-pc.jpg",
+  "logo": "images/logos/jump-space-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1757300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Jump_Space",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T22:47:34Z",
+  "updated": "2026-10-09T23:21:55Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -16992,6 +16992,561 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "tinkerlands-2025-pc": {
+      "id": "tinkerlands-2025-pc",
+      "name": "Tinkerlands",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 16, +Extra: 18",
+      "dev": "CodeManu",
+      "pub": "HypeTrain Digital",
+      "notes": "",
+      "release": "",
+      "ea_release": "23.05.2025",
+      "screenshot": "images/screenshots/tinkerlands-2025-pc.jpg",
+      "logo": "images/logos/tinkerlands-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2617700",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "odd-remedy-2024-pc": {
+      "id": "odd-remedy-2024-pc",
+      "name": "Odd Remedy",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Oddscure",
+      "pub": "Oddscure",
+      "notes": "",
+      "release": "",
+      "ea_release": "06.11.2024",
+      "screenshot": "images/screenshots/odd-remedy-2024-pc.jpg",
+      "logo": "images/logos/odd-remedy-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1745680",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Odd_Remedy",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "aska-2024-pc": {
+      "id": "aska-2024-pc",
+      "name": "ASKA",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 30",
+      "dev": "Sand Sailor Studio",
+      "pub": "Thunderful Publishing",
+      "notes": "",
+      "release": "",
+      "ea_release": "20.06.2024",
+      "screenshot": "images/screenshots/aska-2024-pc.jpg",
+      "logo": "images/logos/aska-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1898300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ASKA",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "godsworn-2027-pc": {
+      "id": "godsworn-2027-pc",
+      "name": "Godsworn",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 12",
+      "dev": "Thunderoak Interactive",
+      "pub": "Thunderoak Interactive",
+      "notes": "",
+      "release": "Q2 2027",
+      "ea_release": "28.03.2024",
+      "screenshot": "images/screenshots/godsworn-2027-pc.jpg",
+      "logo": "images/logos/godsworn-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1328990",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Godsworn",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "gone-fishing-2026-pc": {
+      "id": "gone-fishing-2026-pc",
+      "name": "GONE Fishing",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "GONE Studios",
+      "pub": "GONE Studios",
+      "notes": "",
+      "release": "20.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gone-fishing-2026-pc.jpg",
+      "logo": "images/logos/gone-fishing-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3645890",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mimesis-2025-pc": {
+      "id": "mimesis-2025-pc",
+      "name": "MIMESIS",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 5",
+      "dev": "ReLU Games",
+      "pub": "ReLU Games, KRAFTON",
+      "notes": "",
+      "release": "",
+      "ea_release": "27.10.2025",
+      "screenshot": "images/screenshots/mimesis-2025-pc.jpg",
+      "logo": "images/logos/mimesis-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2827200",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/MIMESIS",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "night-club-simulator-2025-pc": {
+      "id": "night-club-simulator-2025-pc",
+      "name": "Night Club Simulator",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "Clock Wizard Games",
+      "pub": "Clock Wizard Games",
+      "notes": "Last update was over 1 year ago",
+      "release": "",
+      "ea_release": "30.07.2025",
+      "screenshot": "images/screenshots/night-club-simulator-2025-pc.jpg",
+      "logo": "images/logos/night-club-simulator-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2943670",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "swat-commander-2025-pc": {
+      "id": "swat-commander-2025-pc",
+      "name": "SWAT Commander",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "—",
+      "dev": "Red Mountain Games",
+      "pub": "Ritual Interactive",
+      "notes": "",
+      "release": "",
+      "ea_release": "31.07.2025",
+      "screenshot": "images/screenshots/swat-commander-2025-pc.jpg",
+      "logo": "images/logos/swat-commander-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1619310",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/SWAT_Commander",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "outbrk-2024-pc": {
+      "id": "outbrk-2024-pc",
+      "name": "OUTBRK",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "—",
+      "dev": "Sublime",
+      "pub": "Sublime",
+      "notes": "",
+      "release": "",
+      "ea_release": "28.06.2024",
+      "screenshot": "images/screenshots/outbrk-2024-pc.jpg",
+      "logo": "images/logos/outbrk-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1107320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/OUTBRK",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "long-drive-north-co-op-rv-simulator-2025-pc": {
+      "id": "long-drive-north-co-op-rv-simulator-2025-pc",
+      "name": "Long Drive North: Co-Op RV Simulator",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Mindflair Games LTD",
+      "pub": "Excalibur Publishing",
+      "notes": "",
+      "release": "",
+      "ea_release": "18.11.2025",
+      "screenshot": "images/screenshots/long-drive-north-co-op-rv-simulator-2025-pc.jpg",
+      "logo": "images/logos/long-drive-north-co-op-rv-simulator-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3179350",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Long_Drive_North%3A_Co-Op_RV_Simulator",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "jump-space-2025-pc": {
+      "id": "jump-space-2025-pc",
+      "name": "Jump Space",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 7",
+      "dev": "Keepsake Games",
+      "pub": "Keepsake Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "19.09.2025",
+      "screenshot": "images/screenshots/jump-space-2025-pc.jpg",
+      "logo": "images/logos/jump-space-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1757300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Jump_Space",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "vein-2025-pc": {
+      "id": "vein-2025-pc",
+      "name": "VEIN",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "—",
+      "dev": "Ramjet Studios",
+      "pub": "Ramjet Studios",
+      "notes": "",
+      "release": "",
+      "ea_release": "24.10.2025",
+      "screenshot": "images/screenshots/vein-2025-pc.jpg",
+      "logo": "images/logos/vein-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1857950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Vein_Hotel",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "species-unknown-2025-pc": {
+      "id": "species-unknown-2025-pc",
+      "name": "Species: Unknown",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "WanadevStudio",
+      "pub": "WanadevStudio",
+      "notes": "",
+      "release": "",
+      "ea_release": "23.10.2025",
+      "screenshot": "images/screenshots/species-unknown-2025-pc.jpg",
+      "logo": "images/logos/species-unknown-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2747330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Species%3A_Unknown",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "titan-quest-ii-2025-pc": {
+      "id": "titan-quest-ii-2025-pc",
+      "name": "Titan Quest II",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 13, +Extra: 22",
+      "dev": "Grimlore Games",
+      "pub": "THQ Nordic",
+      "notes": "",
+      "release": "",
+      "ea_release": "01.08.2025",
+      "screenshot": "images/screenshots/titan-quest-ii-2025-pc.jpg",
+      "logo": "images/logos/titan-quest-ii-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1154030",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Titan_Quest_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ratatan-2025-pc": {
+      "id": "ratatan-2025-pc",
+      "name": "Ratatan",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 9, +Extra: 19",
+      "dev": "TVT Co. Ltd., Ratata Arts",
+      "pub": "Game Source Entertainment",
+      "notes": "",
+      "release": "",
+      "ea_release": "18.09.2025",
+      "screenshot": "images/screenshots/ratatan-2025-pc.jpg",
+      "logo": "images/logos/ratatan-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2949320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Ratatan",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -17460,11 +18015,26 @@
       "runescape-dragonwilds-2026-pc",
       "alchemy-factory-2026-pc",
       "enshrouded-2024-pc",
-      "survival-machine-2026-pc"
+      "survival-machine-2026-pc",
+      "gone-fishing-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
-      "ifsunsets-2024-pc"
+      "ifsunsets-2024-pc",
+      "tinkerlands-2025-pc",
+      "odd-remedy-2024-pc",
+      "aska-2024-pc",
+      "godsworn-2027-pc",
+      "mimesis-2025-pc",
+      "night-club-simulator-2025-pc",
+      "swat-commander-2025-pc",
+      "outbrk-2024-pc",
+      "long-drive-north-co-op-rv-simulator-2025-pc",
+      "jump-space-2025-pc",
+      "vein-2025-pc",
+      "species-unknown-2025-pc",
+      "titan-quest-ii-2025-pc",
+      "ratatan-2025-pc"
     ],
     "unreleased": [],
     "mods": [],

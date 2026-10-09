@@ -1,0 +1,38 @@
+{
+  "id": "titan-quest-ii-2025-pc",
+  "name": "Titan Quest II",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 13, +Extra: 22",
+  "dev": "Grimlore Games",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "",
+  "ea_release": "01.08.2025",
+  "screenshot": "images/screenshots/titan-quest-ii-2025-pc.jpg",
+  "logo": "images/logos/titan-quest-ii-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1154030",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Titan_Quest_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

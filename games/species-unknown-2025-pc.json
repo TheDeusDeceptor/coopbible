@@ -1,0 +1,38 @@
+{
+  "id": "species-unknown-2025-pc",
+  "name": "Species: Unknown",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "WanadevStudio",
+  "pub": "WanadevStudio",
+  "notes": "",
+  "release": "",
+  "ea_release": "23.10.2025",
+  "screenshot": "images/screenshots/species-unknown-2025-pc.jpg",
+  "logo": "images/logos/species-unknown-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2747330",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Species%3A_Unknown",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

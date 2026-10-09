@@ -1,0 +1,33 @@
+{
+  "id": "gone-fishing-2026-pc",
+  "name": "GONE Fishing",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "GONE Studios",
+  "pub": "GONE Studios",
+  "notes": "",
+  "release": "20.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gone-fishing-2026-pc.jpg",
+  "logo": "images/logos/gone-fishing-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3645890",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

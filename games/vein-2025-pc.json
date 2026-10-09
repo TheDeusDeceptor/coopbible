@@ -1,0 +1,38 @@
+{
+  "id": "vein-2025-pc",
+  "name": "VEIN",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "—",
+  "dev": "Ramjet Studios",
+  "pub": "Ramjet Studios",
+  "notes": "",
+  "release": "",
+  "ea_release": "24.10.2025",
+  "screenshot": "images/screenshots/vein-2025-pc.jpg",
+  "logo": "images/logos/vein-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1857950",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Vein_Hotel",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

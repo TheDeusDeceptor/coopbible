@@ -1,0 +1,38 @@
+{
+  "id": "odd-remedy-2024-pc",
+  "name": "Odd Remedy",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Oddscure",
+  "pub": "Oddscure",
+  "notes": "",
+  "release": "",
+  "ea_release": "06.11.2024",
+  "screenshot": "images/screenshots/odd-remedy-2024-pc.jpg",
+  "logo": "images/logos/odd-remedy-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1745680",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Odd_Remedy",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

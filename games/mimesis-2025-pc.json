@@ -1,0 +1,38 @@
+{
+  "id": "mimesis-2025-pc",
+  "name": "MIMESIS",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 5",
+  "dev": "ReLU Games",
+  "pub": "ReLU Games, KRAFTON",
+  "notes": "",
+  "release": "",
+  "ea_release": "27.10.2025",
+  "screenshot": "images/screenshots/mimesis-2025-pc.jpg",
+  "logo": "images/logos/mimesis-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2827200",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/MIMESIS",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

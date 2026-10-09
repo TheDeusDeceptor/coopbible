@@ -1,0 +1,38 @@
+{
+  "id": "swat-commander-2025-pc",
+  "name": "SWAT Commander",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "—",
+  "dev": "Red Mountain Games",
+  "pub": "Ritual Interactive",
+  "notes": "",
+  "release": "",
+  "ea_release": "31.07.2025",
+  "screenshot": "images/screenshots/swat-commander-2025-pc.jpg",
+  "logo": "images/logos/swat-commander-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1619310",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/SWAT_Commander",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

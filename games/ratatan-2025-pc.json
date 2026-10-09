@@ -1,0 +1,38 @@
+{
+  "id": "ratatan-2025-pc",
+  "name": "Ratatan",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 9, +Extra: 19",
+  "dev": "TVT Co. Ltd., Ratata Arts",
+  "pub": "Game Source Entertainment",
+  "notes": "",
+  "release": "",
+  "ea_release": "18.09.2025",
+  "screenshot": "images/screenshots/ratatan-2025-pc.jpg",
+  "logo": "images/logos/ratatan-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2949320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Ratatan",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
