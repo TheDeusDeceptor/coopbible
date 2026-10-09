@@ -1,0 +1,38 @@
+{
+  "id": "directive-8020-2026-pc",
+  "name": "Directive 8020",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Supermassive Games",
+  "pub": "Supermassive Games",
+  "notes": "",
+  "release": "12.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/directive-8020-2026-pc.jpg",
+  "logo": "images/logos/directive-8020-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2255370",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Directive_8020",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

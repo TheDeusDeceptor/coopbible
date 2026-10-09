@@ -1,0 +1,38 @@
+{
+  "id": "outbound-2026-pc",
+  "name": "Outbound",
+  "platform": "PC",
+  "size": "16 GB",
+  "hltb": "Main: 4",
+  "dev": "Square Glade Games",
+  "pub": "Square Glade Games",
+  "notes": "",
+  "release": "11.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/outbound-2026-pc.jpg",
+  "logo": "images/logos/outbound-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2681030",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Outbound",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

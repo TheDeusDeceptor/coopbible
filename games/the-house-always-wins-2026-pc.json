@@ -1,0 +1,33 @@
+{
+  "id": "the-house-always-wins-2026-pc",
+  "name": "The House Always Wins",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 12",
+  "dev": "Toxic Studio",
+  "pub": "Toxic Studio",
+  "notes": "",
+  "release": "21.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-house-always-wins-2026-pc.jpg",
+  "logo": "images/logos/the-house-always-wins-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3412160",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

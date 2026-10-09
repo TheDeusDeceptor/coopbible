@@ -1,0 +1,38 @@
+{
+  "id": "restaurats-2025-pc",
+  "name": "Restaurats",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "toR Studio",
+  "pub": "Polden Publishing",
+  "notes": "",
+  "release": "07.11.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/restaurats-2025-pc.jpg",
+  "logo": "images/logos/restaurats-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2870920",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Restaurats",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

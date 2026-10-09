@@ -1,0 +1,33 @@
+{
+  "id": "dangerous-mountain-together-2026-pc",
+  "name": "Dangerous Mountain Together",
+  "platform": "PC",
+  "size": "2.9 GB",
+  "hltb": "—",
+  "dev": "Çağatay Demir, Doğukan Şahin",
+  "pub": "SlugShot Games",
+  "notes": "",
+  "release": "03.04.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dangerous-mountain-together-2026-pc.jpg",
+  "logo": "images/logos/dangerous-mountain-together-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3955660",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

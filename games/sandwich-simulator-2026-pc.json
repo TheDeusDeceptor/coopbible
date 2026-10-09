@@ -1,0 +1,33 @@
+{
+  "id": "sandwich-simulator-2026-pc",
+  "name": "Sandwich Simulator",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "FiftyEight Studios",
+  "pub": "FiftyEight Studios",
+  "notes": "",
+  "release": "22.01.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sandwich-simulator-2026-pc.jpg",
+  "logo": "images/logos/sandwich-simulator-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3445340",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

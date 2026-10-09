@@ -1,0 +1,33 @@
+{
+  "id": "vospetka-simulator-2026-pc",
+  "name": "VOSPETKA Simulator",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "BAA Games",
+  "pub": "BAA Games",
+  "notes": "",
+  "release": "22.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/vospetka-simulator-2026-pc.jpg",
+  "logo": "images/logos/vospetka-simulator-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4162110",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

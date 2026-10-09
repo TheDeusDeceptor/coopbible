@@ -1,0 +1,33 @@
+{
+  "id": "crimson-capes-2026-pc",
+  "name": "Crimson Capes",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Poor Locke",
+  "pub": "Poor Locke",
+  "notes": "",
+  "release": "12.02.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/crimson-capes-2026-pc.jpg",
+  "logo": "images/logos/crimson-capes-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2488540",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "anarchy-road-2026-pc",
+  "name": "Anarchy Road",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Bunker Brothers LLC",
+  "pub": "Bunker Brothers LLC",
+  "notes": "",
+  "release": "12.03.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/anarchy-road-2026-pc.jpg",
+  "logo": "images/logos/anarchy-road-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3445510",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

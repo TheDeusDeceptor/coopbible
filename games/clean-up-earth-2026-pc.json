@@ -1,0 +1,38 @@
+{
+  "id": "clean-up-earth-2026-pc",
+  "name": "Clean Up Earth",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Magic Pockets",
+  "pub": "Magic Pockets",
+  "notes": "",
+  "release": "02.04.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/clean-up-earth-2026-pc.jpg",
+  "logo": "images/logos/clean-up-earth-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3402720",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Clean_Up_Earth",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

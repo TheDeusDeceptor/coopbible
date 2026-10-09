@@ -1,0 +1,38 @@
+{
+  "id": "supermarket-shriek-2020-pc",
+  "name": "Supermarket Shriek",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 4, +Extra: 7",
+  "dev": "Billy Goat Entertainment",
+  "pub": "PQube",
+  "notes": "",
+  "release": "23.10.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/supermarket-shriek-2020-pc.jpg",
+  "logo": "images/logos/supermarket-shriek-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1086460",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Supermarket_Shriek",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

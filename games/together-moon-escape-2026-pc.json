@@ -1,0 +1,33 @@
+{
+  "id": "together-moon-escape-2026-pc",
+  "name": "Together: Moon Escape",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 5",
+  "dev": "CarlosGameDev",
+  "pub": "CarlosGameDev",
+  "notes": "",
+  "release": "21.04.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/together-moon-escape-2026-pc.jpg",
+  "logo": "images/logos/together-moon-escape-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3744430",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
