@@ -4073,6 +4073,7 @@ function openEditor(g, opts){
             <div class="field">
               <label>Early Release</label>
               <input type="text" id="f-ea-release" value="${esc(draft.ea_release||'')}">
+              <div class="pills" data-field="ea-release"></div>
             </div>
             <div class="field">
               <label>Platform</label>
@@ -5129,11 +5130,13 @@ function setSrcDot(btn, state){
 }
 function renderVariantPills(results){
   modalSlot._parseResults = results;
+  const isEaTarget = modalSlot._targetList === 'early-access';
   const fieldMap = { name:'#f-name', release:'#f-release', platform:'#f-platform', size:'#f-size', dev:'#f-dev', pub:'#f-pub', screenshot:'#f-screenshot', logo:'#f-logo' };
   for(const [field, sel] of Object.entries(fieldMap)){
     const input = modalSlot.querySelector(sel);
     if(!input) continue;
-    const pillsHost = modalSlot.querySelector(`.pills[data-field="${field}"]`);
+    const destField = (field === 'release' && isEaTarget) ? 'ea-release' : field;
+    const pillsHost = modalSlot.querySelector(`.pills[data-field="${destField}"]`);
     if(!pillsHost) continue;
     const pills = [];
     for(const src of PARSE_SOURCES){
@@ -5174,7 +5177,7 @@ function renderVariantPills(results){
       const val = r.fields[field];
       if(val === null || val === undefined || val === '') continue;
       const short = String(val).replace(/\s+/g,' ').slice(0, 120);
-      pills.push(`<button type="button" class="pill src-${src}" data-field="${field}" data-value="${esc(val)}"><span class="p-src">${src}</span>${esc(short)}</button>`);
+      pills.push(`<button type="button" class="pill src-${src}" data-field="${destField}" data-value="${esc(val)}"><span class="p-src">${src}</span>${esc(short)}</button>`);
     }
     pillsHost.innerHTML = pills.join('');
   }
@@ -5237,12 +5240,12 @@ function attachPillHandlers(){
       toast('HLTB filled');
       return;
     }
-    const map = { name:'#f-name', release:'#f-release', platform:'#f-platform', size:'#f-size', dev:'#f-dev', pub:'#f-pub', screenshot:'#f-screenshot', logo:'#f-logo' };
+    const map = { name:'#f-name', release:'#f-release', 'ea-release':'#f-ea-release', platform:'#f-platform', size:'#f-size', dev:'#f-dev', pub:'#f-pub', screenshot:'#f-screenshot', logo:'#f-logo' };
     const input = modalSlot.querySelector(map[field]);
     if(!input) return;
     input.value = value;
     input.dispatchEvent(new Event('input', { bubbles: true }));
-    toast('Filled');
+    toast(field === 'ea-release' ? 'Filled into Early Release' : 'Filled');
   });
 }
 async function runParse(){
