@@ -1,0 +1,38 @@
+{
+  "id": "blind-trust-2016-pc",
+  "name": "Blind Trust",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 1",
+  "dev": "Viswanath Atlu, Laurie Banks, Rohan Bhukan, Nick Burnham, Avinash Kalapala, Yash Kapani, Katharine Marsh, Ankur Rathore, Hardit Singh, Anoop Nihar Srinivas, Ryan Guanyuhao Jiang, Robert Zhu",
+  "pub": "Good Vibration Games",
+  "notes": "",
+  "release": "27.05.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/blind-trust-2016-pc.jpg",
+  "logo": "images/logos/blind-trust-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/468560",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Blind_Trust",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

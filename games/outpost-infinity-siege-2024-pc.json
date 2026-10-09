@@ -1,0 +1,38 @@
+{
+  "id": "outpost-infinity-siege-2024-pc",
+  "name": "Outpost: Infinity Siege",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 5, +Extra: 10",
+  "dev": "Team Ranger",
+  "pub": "Lightning Games",
+  "notes": "",
+  "release": "26.03.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/outpost-infinity-siege-2024-pc.jpg",
+  "logo": "images/logos/outpost-infinity-siege-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1566690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Outpost%3A_Infinity_Siege",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

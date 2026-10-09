@@ -1,0 +1,33 @@
+{
+  "id": "dungeons-dragons-dark-alliance-2021-pc",
+  "name": "Dungeons & Dragons: Dark Alliance",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 12, +Extra: 19",
+  "dev": "Tuque Games",
+  "pub": "Wizards of the Coast",
+  "notes": "",
+  "release": "21.06.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dungeons-dragons-dark-alliance-2021-pc.jpg",
+  "logo": "images/logos/dungeons-dragons-dark-alliance-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/623280",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

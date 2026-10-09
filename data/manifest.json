@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T13:33:45Z",
+  "updated": "2026-10-09T13:56:14Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -11370,6 +11370,285 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "hunters-inc-2025-pc": {
+      "id": "hunters-inc-2025-pc",
+      "name": "Hunters Inc.",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "WYLDERZONE",
+      "pub": "WYLDERZONE",
+      "notes": "",
+      "release": "19.12.2025",
+      "ea_release": "",
+      "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2937090/e50dfadff6d1c77bba871bae603c4488eeb32557/ss_e50dfadff6d1c77bba871bae603c4488eeb32557.1920x1080.jpg?t=1787588084",
+      "logo": "images/logos/hunters-inc-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2937090",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dungeons-dragons-dark-alliance-2021-pc": {
+      "id": "dungeons-dragons-dark-alliance-2021-pc",
+      "name": "Dungeons & Dragons: Dark Alliance",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 12, +Extra: 19",
+      "dev": "Tuque Games",
+      "pub": "Wizards of the Coast",
+      "notes": "",
+      "release": "21.06.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dungeons-dragons-dark-alliance-2021-pc.jpg",
+      "logo": "images/logos/dungeons-dragons-dark-alliance-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/623280",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "good-company-2022-pc": {
+      "id": "good-company-2022-pc",
+      "name": "Good Company",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Chasing Carrots",
+      "pub": "Chasing Carrots",
+      "notes": "",
+      "release": "21.06.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/good-company-2022-pc.jpg",
+      "logo": "images/logos/good-company-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/911430",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Good_Company",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "c-a-s-t-2025-pc": {
+      "id": "c-a-s-t-2025-pc",
+      "name": "C.A.S.T.",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "BRAIN DOES (NOT) WORK",
+      "pub": "BRAIN DOES (NOT) WORK",
+      "notes": "",
+      "release": "14.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/c-a-s-t-chernozem-anomaly-strike-team-2025-pc.jpg",
+      "logo": "images/logos/c-a-s-t-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3140620",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "unpossess-exorcism-simulator-2025-pc": {
+      "id": "unpossess-exorcism-simulator-2025-pc",
+      "name": "Unpossess: Exorcism Simulator",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Chreseeba Games",
+      "pub": "Chreseeba Games",
+      "notes": "",
+      "release": "21.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/unpossess-exorcism-simulator-2025-pc.jpg",
+      "logo": "images/logos/unpossess-exorcism-simulator-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2976900",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "unpossess-2-exorcism-simulator-2026-pc": {
+      "id": "unpossess-2-exorcism-simulator-2026-pc",
+      "name": "Unpossess 2: Exorcism Simulator",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Chreseeba Games",
+      "pub": "Chreseeba Games",
+      "notes": "",
+      "release": "02.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/unpossess-2-exorcism-simulator-2026-pc.jpg",
+      "logo": "images/logos/unpossess-2-exorcism-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4373870",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "outpost-infinity-siege-2024-pc": {
+      "id": "outpost-infinity-siege-2024-pc",
+      "name": "Outpost: Infinity Siege",
+      "platform": "PC",
+      "size": "45 GB",
+      "hltb": "Main: 5, +Extra: 10",
+      "dev": "Team Ranger",
+      "pub": "Lightning Games",
+      "notes": "",
+      "release": "26.03.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/outpost-infinity-siege-2024-pc.jpg",
+      "logo": "images/logos/outpost-infinity-siege-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1566690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Outpost%3A_Infinity_Siege",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "blind-trust-2016-pc": {
+      "id": "blind-trust-2016-pc",
+      "name": "Blind Trust",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 1",
+      "dev": "Viswanath Atlu, Laurie Banks, Rohan Bhukan, Nick Burnham, Avinash Kalapala, Yash Kapani, Katharine Marsh, Ankur Rathore, Hardit Singh, Anoop Nihar Srinivas, Ryan Guanyuhao Jiang, Robert Zhu",
+      "pub": "Good Vibration Games",
+      "notes": "",
+      "release": "27.05.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/blind-trust-2016-pc.jpg",
+      "logo": "images/logos/blind-trust-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/468560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Blind_Trust",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -11681,7 +11960,15 @@
       "climber-animals-together-2024-pc",
       "kill-it-with-fire-2-2025-pc",
       "conan-unconquered-2019-pc",
-      "the-first-templar-2011-pc"
+      "the-first-templar-2011-pc",
+      "hunters-inc-2025-pc",
+      "dungeons-dragons-dark-alliance-2021-pc",
+      "good-company-2022-pc",
+      "c-a-s-t-2025-pc",
+      "unpossess-exorcism-simulator-2025-pc",
+      "unpossess-2-exorcism-simulator-2026-pc",
+      "outpost-infinity-siege-2024-pc",
+      "blind-trust-2016-pc"
     ],
     "early-access": [],
     "unreleased": [],

@@ -1,0 +1,33 @@
+{
+  "id": "unpossess-exorcism-simulator-2025-pc",
+  "name": "Unpossess: Exorcism Simulator",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Chreseeba Games",
+  "pub": "Chreseeba Games",
+  "notes": "",
+  "release": "21.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/unpossess-exorcism-simulator-2025-pc.jpg",
+  "logo": "images/logos/unpossess-exorcism-simulator-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2976900",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

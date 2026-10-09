@@ -1,0 +1,38 @@
+{
+  "id": "good-company-2022-pc",
+  "name": "Good Company",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Chasing Carrots",
+  "pub": "Chasing Carrots",
+  "notes": "",
+  "release": "21.06.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/good-company-2022-pc.jpg",
+  "logo": "images/logos/good-company-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/911430",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Good_Company",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
