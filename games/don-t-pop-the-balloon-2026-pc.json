@@ -1,0 +1,33 @@
+{
+  "id": "don-t-pop-the-balloon-2026-pc",
+  "name": "Don't Pop The Balloon",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Emirhan ÇAT, Bedirhan ÇAT",
+  "pub": "RedCat Studio",
+  "notes": "",
+  "release": "29.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/don-t-pop-the-balloon-2026-pc.jpg",
+  "logo": "images/logos/don-t-pop-the-balloon-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3589820",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

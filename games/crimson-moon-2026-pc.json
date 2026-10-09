@@ -1,0 +1,38 @@
+{
+  "id": "crimson-moon-2026-pc",
+  "name": "Crimson Moon",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 4",
+  "dev": "ProbablyMonsters",
+  "pub": "ProbablyMonsters",
+  "notes": "",
+  "release": "01.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/crimson-moon-2026-pc.jpg",
+  "logo": "images/logos/crimson-moon-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4317690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Crimson_Moon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "serious-sam-shatterverse-2026-pc",
+  "name": "Serious Sam: Shatterverse",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 12",
+  "dev": "Behaviour Interactive",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "31.08.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/serious-sam-shatterverse-2026-pc.jpg",
+  "logo": "images/logos/serious-sam-shatterverse-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2067210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Serious_Sam%3A_Shatterverse",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

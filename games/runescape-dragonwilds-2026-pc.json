@@ -1,0 +1,38 @@
+{
+  "id": "runescape-dragonwilds-2026-pc",
+  "name": "RuneScape: Dragonwilds",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 23",
+  "dev": "Jagex",
+  "pub": "Jagex",
+  "notes": "",
+  "release": "15.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/runescape-dragonwilds-2026-pc.jpg",
+  "logo": "images/logos/runescape-dragonwilds-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1374490",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Runescape%3A_Dragonwilds",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

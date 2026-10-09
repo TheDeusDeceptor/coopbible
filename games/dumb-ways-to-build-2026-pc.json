@@ -1,0 +1,33 @@
+{
+  "id": "dumb-ways-to-build-2026-pc",
+  "name": "Dumb Ways to Build",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 4",
+  "dev": "Dumb Ways to Die",
+  "pub": "Dumb Ways to Die",
+  "notes": "",
+  "release": "10.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dumb-ways-to-build-2026-pc.jpg",
+  "logo": "images/logos/dumb-ways-to-build-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4412320",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

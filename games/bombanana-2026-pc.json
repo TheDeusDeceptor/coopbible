@@ -1,0 +1,33 @@
+{
+  "id": "bombanana-2026-pc",
+  "name": "BOMBANANA!",
+  "platform": "PC",
+  "size": "0.3 GB",
+  "hltb": "Main: 2",
+  "dev": "Lefto Studio",
+  "pub": "TARK",
+  "notes": "",
+  "release": "02.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/bombanana-2026-pc.jpg",
+  "logo": "images/logos/bombanana-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4656000",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

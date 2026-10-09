@@ -1,0 +1,33 @@
+{
+  "id": "sunset-summit-2026-pc",
+  "name": "Sunset Summit",
+  "platform": "PC",
+  "size": "3.1 GB",
+  "hltb": "—",
+  "dev": "Joe Fender, Andrew Fender",
+  "pub": "Future Friends Games",
+  "notes": "",
+  "release": "09.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sunset-summit-2026-pc.jpg",
+  "logo": "images/logos/sunset-summit-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3874450",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "goblin-company-2026-pc",
+  "name": "Goblin Company",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "BitBorne Studio",
+  "pub": "BitBorne Studio",
+  "notes": "",
+  "release": "12.06.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/goblin-company-2026-pc.jpg",
+  "logo": "images/logos/goblin-company-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3864450",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

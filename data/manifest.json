@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T18:46:37Z",
+  "updated": "2026-10-09T22:32:01Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -16391,6 +16391,465 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "crimson-moon-2026-pc": {
+      "id": "crimson-moon-2026-pc",
+      "name": "Crimson Moon",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 4",
+      "dev": "ProbablyMonsters",
+      "pub": "ProbablyMonsters",
+      "notes": "",
+      "release": "01.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/crimson-moon-2026-pc.jpg",
+      "logo": "images/logos/crimson-moon-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4317690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Crimson_Moon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bombanana-2026-pc": {
+      "id": "bombanana-2026-pc",
+      "name": "BOMBANANA!",
+      "platform": "PC",
+      "size": "0.3 GB",
+      "hltb": "Main: 2",
+      "dev": "Lefto Studio",
+      "pub": "TARK",
+      "notes": "",
+      "release": "02.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bombanana-2026-pc.jpg",
+      "logo": "images/logos/bombanana-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4656000",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "goblin-company-2026-pc": {
+      "id": "goblin-company-2026-pc",
+      "name": "Goblin Company",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "BitBorne Studio",
+      "pub": "BitBorne Studio",
+      "notes": "",
+      "release": "12.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/goblin-company-2026-pc.jpg",
+      "logo": "images/logos/goblin-company-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3864450",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "don-t-pop-the-balloon-2026-pc": {
+      "id": "don-t-pop-the-balloon-2026-pc",
+      "name": "Don't Pop The Balloon",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Emirhan ÇAT, Bedirhan ÇAT",
+      "pub": "RedCat Studio",
+      "notes": "",
+      "release": "29.05.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/don-t-pop-the-balloon-2026-pc.jpg",
+      "logo": "images/logos/don-t-pop-the-balloon-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3589820",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dark-scrolls-2026-pc": {
+      "id": "dark-scrolls-2026-pc",
+      "name": "Dark Scrolls",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 3, +Extra: 6",
+      "dev": "doinksoft",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "22.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dark-scrolls-2026-pc.jpg",
+      "logo": "images/logos/dark-scrolls-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2912550",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dark_Scrolls",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tv-archive-tidy-up-together-2026-pc": {
+      "id": "tv-archive-tidy-up-together-2026-pc",
+      "name": "TV Archive: Tidy Up Together",
+      "platform": "PC",
+      "size": "2.7 GB",
+      "hltb": "Main: 21",
+      "dev": "Games Together",
+      "pub": "Gamersky Games",
+      "notes": "",
+      "release": "14.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tv-archive-tidy-up-together-2026-pc.jpg",
+      "logo": "images/logos/tv-archive-tidy-up-together-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4934370",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "serious-sam-shatterverse-2026-pc": {
+      "id": "serious-sam-shatterverse-2026-pc",
+      "name": "Serious Sam: Shatterverse",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 12",
+      "dev": "Behaviour Interactive",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "31.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/serious-sam-shatterverse-2026-pc.jpg",
+      "logo": "images/logos/serious-sam-shatterverse-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2067210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Serious_Sam%3A_Shatterverse",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "valheim-2026-pc": {
+      "id": "valheim-2026-pc",
+      "name": "Valheim",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 80, +Extra: 129",
+      "dev": "Iron Gate Studio",
+      "pub": "Coffee Stain Publishing",
+      "notes": "Emulation issues were present before release, untested after",
+      "release": "09.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/valheim-2026-pc.jpg",
+      "logo": "images/logos/valheim-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/892970",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Valheim",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sunset-summit-2026-pc": {
+      "id": "sunset-summit-2026-pc",
+      "name": "Sunset Summit",
+      "platform": "PC",
+      "size": "3.1 GB",
+      "hltb": "—",
+      "dev": "Joe Fender, Andrew Fender",
+      "pub": "Future Friends Games",
+      "notes": "",
+      "release": "09.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sunset-summit-2026-pc.jpg",
+      "logo": "images/logos/sunset-summit-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3874450",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dumb-ways-to-build-2026-pc": {
+      "id": "dumb-ways-to-build-2026-pc",
+      "name": "Dumb Ways to Build",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 4",
+      "dev": "Dumb Ways to Die",
+      "pub": "Dumb Ways to Die",
+      "notes": "",
+      "release": "10.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dumb-ways-to-build-2026-pc.jpg",
+      "logo": "images/logos/dumb-ways-to-build-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4412320",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "anime-shop-simulator-2026-pc": {
+      "id": "anime-shop-simulator-2026-pc",
+      "name": "Anime Shop Simulator ✨",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "One More Time",
+      "pub": "One More Time",
+      "notes": "",
+      "release": "11.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/anime-shop-simulator-2026-pc.jpg",
+      "logo": "images/logos/anime-shop-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3393280",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "runescape-dragonwilds-2026-pc": {
+      "id": "runescape-dragonwilds-2026-pc",
+      "name": "RuneScape: Dragonwilds",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 23",
+      "dev": "Jagex",
+      "pub": "Jagex",
+      "notes": "",
+      "release": "15.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/runescape-dragonwilds-2026-pc.jpg",
+      "logo": "images/logos/runescape-dragonwilds-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1374490",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Runescape%3A_Dragonwilds",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "alchemy-factory-2026-pc": {
+      "id": "alchemy-factory-2026-pc",
+      "name": "Alchemy Factory",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 154, +Extra: 186",
+      "dev": "D5 Copperhead",
+      "pub": "Gamirror Games",
+      "notes": "",
+      "release": "07.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/alchemy-factory-2026-pc.jpg",
+      "logo": "images/logos/alchemy-factory-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3669570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Alchemy_factory",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -16844,7 +17303,20 @@
       "eden-crafters-2026-pc",
       "din-s-champion-2026-pc",
       "marvel-ultimate-alliance-2016-pc",
-      "marvel-ultimate-alliance-2-2016-pc"
+      "marvel-ultimate-alliance-2-2016-pc",
+      "crimson-moon-2026-pc",
+      "bombanana-2026-pc",
+      "goblin-company-2026-pc",
+      "don-t-pop-the-balloon-2026-pc",
+      "dark-scrolls-2026-pc",
+      "tv-archive-tidy-up-together-2026-pc",
+      "serious-sam-shatterverse-2026-pc",
+      "valheim-2026-pc",
+      "sunset-summit-2026-pc",
+      "dumb-ways-to-build-2026-pc",
+      "anime-shop-simulator-2026-pc",
+      "runescape-dragonwilds-2026-pc",
+      "alchemy-factory-2026-pc"
     ],
     "early-access": [],
     "unreleased": [],

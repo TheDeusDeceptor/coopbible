@@ -1,0 +1,38 @@
+{
+  "id": "dark-scrolls-2026-pc",
+  "name": "Dark Scrolls",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 3, +Extra: 6",
+  "dev": "doinksoft",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "22.06.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dark-scrolls-2026-pc.jpg",
+  "logo": "images/logos/dark-scrolls-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2912550",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dark_Scrolls",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
