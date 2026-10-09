@@ -1,0 +1,33 @@
+{
+  "id": "ham-the-game-2026-pc",
+  "name": "HAM: The Game",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 5",
+  "dev": "Little Bird Studios",
+  "pub": "Cathedral Studios",
+  "notes": "",
+  "release": "03.03.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ham-the-game-2026-pc.jpg",
+  "logo": "images/logos/ham-the-game-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4019090",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "jumanji-the-video-game-2019-pc",
+  "name": "Jumanji: The Video Game",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 1, +Extra: 3",
+  "dev": "Funsolve",
+  "pub": "Outright Games",
+  "notes": "",
+  "release": "08.11.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/jumanji-the-video-game-2019-pc.jpg",
+  "logo": "images/logos/jumanji-the-video-game-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/896950",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Jumanji%3A_The_Video_Game",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

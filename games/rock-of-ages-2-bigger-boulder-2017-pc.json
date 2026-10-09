@@ -1,0 +1,38 @@
+{
+  "id": "rock-of-ages-2-bigger-boulder-2017-pc",
+  "name": "Rock of Ages 2: Bigger & Boulder",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "ACE Team",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "28.08.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rock-of-ages-2-bigger-boulder-2017-pc.jpg",
+  "logo": "images/logos/rock-of-ages-2-bigger-boulder-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/434460",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Rock_of_Ages_2%3A_Bigger_%26_Boulder",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

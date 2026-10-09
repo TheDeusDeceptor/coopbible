@@ -1,0 +1,33 @@
+{
+  "id": "flashing-lights-police-firefighting-emergency-services-ems-simulator-2023-pc",
+  "name": "Flashing Lights: Police, Firefighting, Emergency Services (EMS) Simulator",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "—",
+  "dev": "Nils Jakrins",
+  "pub": "Excalibur Games",
+  "notes": "",
+  "release": "15.05.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/flashing-lights-police-firefighting-emergency-services-ems-simulator-2023-pc.jpg",
+  "logo": "images/logos/flashing-lights-police-firefighting-emergency-services-ems-simulator-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/605740",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

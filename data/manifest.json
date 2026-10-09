@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T17:12:37Z",
+  "updated": "2026-10-09T17:29:37Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -14504,6 +14504,356 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "rock-of-ages-2-bigger-boulder-2017-pc": {
+      "id": "rock-of-ages-2-bigger-boulder-2017-pc",
+      "name": "Rock of Ages 2: Bigger & Boulder",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 4, +Extra: 6",
+      "dev": "ACE Team",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "28.08.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rock-of-ages-2-bigger-boulder-2017-pc.jpg",
+      "logo": "images/logos/rock-of-ages-2-bigger-boulder-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/434460",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Rock_of_Ages_2%3A_Bigger_%26_Boulder",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ham-the-game-2026-pc": {
+      "id": "ham-the-game-2026-pc",
+      "name": "HAM: The Game",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 5",
+      "dev": "Little Bird Studios",
+      "pub": "Cathedral Studios",
+      "notes": "",
+      "release": "03.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ham-the-game-2026-pc.jpg",
+      "logo": "images/logos/ham-the-game-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4019090",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "scott-pilgrim-ex-2026-pc": {
+      "id": "scott-pilgrim-ex-2026-pc",
+      "name": "Scott Pilgrim EX",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 4, +Extra: 6",
+      "dev": "Tribute Games",
+      "pub": "Tribute Games",
+      "notes": "",
+      "release": "02.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/scott-pilgrim-ex-2026-pc.jpg",
+      "logo": "images/logos/scott-pilgrim-ex-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2640950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Scott_Pilgrim_EX",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pilgrim-of-darkness-2026-pc": {
+      "id": "pilgrim-of-darkness-2026-pc",
+      "name": "Pilgrim of Darkness",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "VIWESA GAMES",
+      "pub": "VIWESA GAMES",
+      "notes": "",
+      "release": "06.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/pilgrim-of-darkness-2026-pc.jpg",
+      "logo": "images/logos/pilgrim-of-darkness-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3712230",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mama-s-sleeping-angels-2026-pc": {
+      "id": "mama-s-sleeping-angels-2026-pc",
+      "name": "Mama's Sleeping Angels",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 10",
+      "dev": "itamu",
+      "pub": "Oro Interactive",
+      "notes": "",
+      "release": "11.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mama-s-sleeping-angels-2026-pc.jpg",
+      "logo": "images/logos/mama-s-sleeping-angels-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2918310",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dragonkin-the-banished-2026-pc": {
+      "id": "dragonkin-the-banished-2026-pc",
+      "name": "Dragonkin: The Banished",
+      "platform": "PC",
+      "size": "42 GB",
+      "hltb": "Main: 21, +Extra: 86",
+      "dev": "Eko Software",
+      "pub": "Nacon",
+      "notes": "",
+      "release": "16.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dragonkin-the-banished-2026-pc.jpg",
+      "logo": "images/logos/dragonkin-the-banished-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1863430",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "flashing-lights-police-firefighting-emergency-services-ems-simulator-2023-pc": {
+      "id": "flashing-lights-police-firefighting-emergency-services-ems-simulator-2023-pc",
+      "name": "Flashing Lights: Police, Firefighting, Emergency Services (EMS) Simulator",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "—",
+      "dev": "Nils Jakrins",
+      "pub": "Excalibur Games",
+      "notes": "",
+      "release": "15.05.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/flashing-lights-police-firefighting-emergency-services-ems-simulator-2023-pc.jpg",
+      "logo": "images/logos/flashing-lights-police-firefighting-emergency-services-ems-simulator-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/605740",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "jumanji-the-video-game-2019-pc": {
+      "id": "jumanji-the-video-game-2019-pc",
+      "name": "Jumanji: The Video Game",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 1, +Extra: 3",
+      "dev": "Funsolve",
+      "pub": "Outright Games",
+      "notes": "",
+      "release": "08.11.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/jumanji-the-video-game-2019-pc.jpg",
+      "logo": "images/logos/jumanji-the-video-game-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/896950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Jumanji%3A_The_Video_Game",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "haste-2025-pc": {
+      "id": "haste-2025-pc",
+      "name": "Haste",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 9, +Extra: 13",
+      "dev": "Landfall",
+      "pub": "Evil Landfall?",
+      "notes": "",
+      "release": "01.04.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/haste-2025-pc.jpg",
+      "logo": "images/logos/haste-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1796470",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Haste",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "project-castaway-2026-pc": {
+      "id": "project-castaway-2026-pc",
+      "name": "Project Castaway",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Mardonpol Inc.",
+      "pub": "Mardonpol Inc.",
+      "notes": "",
+      "release": "17.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/project-castaway-2026-pc.jpg",
+      "logo": "images/logos/project-castaway-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1713350",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -14903,7 +15253,17 @@
       "ship-graveyard-simulator-2-2023-pc",
       "parkitect-2018-pc",
       "desynced-2026-pc",
-      "zeno-clash-2-2013-pc"
+      "zeno-clash-2-2013-pc",
+      "rock-of-ages-2-bigger-boulder-2017-pc",
+      "ham-the-game-2026-pc",
+      "scott-pilgrim-ex-2026-pc",
+      "pilgrim-of-darkness-2026-pc",
+      "mama-s-sleeping-angels-2026-pc",
+      "dragonkin-the-banished-2026-pc",
+      "flashing-lights-police-firefighting-emergency-services-ems-simulator-2023-pc",
+      "jumanji-the-video-game-2019-pc",
+      "haste-2025-pc",
+      "project-castaway-2026-pc"
     ],
     "early-access": [],
     "unreleased": [],

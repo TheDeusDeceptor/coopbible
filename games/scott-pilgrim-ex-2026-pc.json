@@ -1,0 +1,38 @@
+{
+  "id": "scott-pilgrim-ex-2026-pc",
+  "name": "Scott Pilgrim EX",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Tribute Games",
+  "pub": "Tribute Games",
+  "notes": "",
+  "release": "02.03.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/scott-pilgrim-ex-2026-pc.jpg",
+  "logo": "images/logos/scott-pilgrim-ex-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2640950",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Scott_Pilgrim_EX",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

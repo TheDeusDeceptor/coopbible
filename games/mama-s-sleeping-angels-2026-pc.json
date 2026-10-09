@@ -1,0 +1,33 @@
+{
+  "id": "mama-s-sleeping-angels-2026-pc",
+  "name": "Mama's Sleeping Angels",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 10",
+  "dev": "itamu",
+  "pub": "Oro Interactive",
+  "notes": "",
+  "release": "11.03.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/mama-s-sleeping-angels-2026-pc.jpg",
+  "logo": "images/logos/mama-s-sleeping-angels-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2918310",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

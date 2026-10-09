@@ -1,0 +1,33 @@
+{
+  "id": "dragonkin-the-banished-2026-pc",
+  "name": "Dragonkin: The Banished",
+  "platform": "PC",
+  "size": "42 GB",
+  "hltb": "Main: 21, +Extra: 86",
+  "dev": "Eko Software",
+  "pub": "Nacon",
+  "notes": "",
+  "release": "16.03.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dragonkin-the-banished-2026-pc.jpg",
+  "logo": "images/logos/dragonkin-the-banished-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1863430",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
