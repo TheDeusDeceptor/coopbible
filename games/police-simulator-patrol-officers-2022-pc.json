@@ -1,0 +1,38 @@
+{
+  "id": "police-simulator-patrol-officers-2022-pc",
+  "name": "Police Simulator: Patrol Officers",
+  "platform": "PC",
+  "size": "12 GB",
+  "hltb": "Main: 14, +Extra: 21",
+  "dev": "Aesir Interactive",
+  "pub": "astragon Entertainment",
+  "notes": "",
+  "release": "10.11.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/police-simulator-patrol-officers-2022-pc.jpg",
+  "logo": "images/logos/police-simulator-patrol-officers-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/997010",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Police_Simulator_Patrol_Officers",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

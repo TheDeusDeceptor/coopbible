@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-09T15:24:41Z",
+  "updated": "2026-10-09T15:50:27Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -347,6 +347,16 @@
     "last-resort-2021-pc",
     "the-anacrusis-2023-pc",
     "mobmania-2025-pc",
-    "panic-in-the-woods-2024-pc"
+    "panic-in-the-woods-2024-pc",
+    "emergency-2023-pc",
+    "voyage-2021-pc",
+    "mythforce-2023-pc",
+    "malum-2021-pc",
+    "police-simulator-patrol-officers-2022-pc",
+    "police-simulator-patrol-duty-2019-pc",
+    "longvinter-2025-pc",
+    "immortal-hunters-2025-pc",
+    "beach-invasion-1945-pacific-2023-pc",
+    "beach-invasion-1915-gallipoli-2025-pc"
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "id": "malum-2021-pc",
+  "name": "Malum",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 1",
+  "dev": "MalumGames",
+  "pub": "MalumGames",
+  "notes": "",
+  "release": "02.09.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/malum-2021-pc.jpg",
+  "logo": "images/logos/malum-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1648610",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

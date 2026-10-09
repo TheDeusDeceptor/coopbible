@@ -1,0 +1,33 @@
+{
+  "id": "beach-invasion-1915-gallipoli-2025-pc",
+  "name": "Beach Invasion 1915: Gallipoli",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "AIx2 Games",
+  "pub": "AIx2 Games",
+  "notes": "",
+  "release": "03.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/beach-invasion-1915-gallipoli-2025-pc.jpg",
+  "logo": "images/logos/beach-invasion-1915-gallipoli-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3556670",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

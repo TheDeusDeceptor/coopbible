@@ -1,0 +1,38 @@
+{
+  "id": "voyage-2021-pc",
+  "name": "Voyage",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 2",
+  "dev": "Venturous",
+  "pub": "Venturous",
+  "notes": "",
+  "release": "18.02.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/voyage-2021-pc.jpg",
+  "logo": "images/logos/voyage-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1051950",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Voyage",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

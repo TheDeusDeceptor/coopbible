@@ -1,0 +1,33 @@
+{
+  "id": "immortal-hunters-2025-pc",
+  "name": "Immortal Hunters",
+  "platform": "PC",
+  "size": "1.2 GB",
+  "hltb": "—",
+  "dev": "Admiral Games",
+  "pub": "indie.io",
+  "notes": "",
+  "release": "05.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/immortal-hunters-2025-pc.jpg",
+  "logo": "images/logos/immortal-hunters-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2336760",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

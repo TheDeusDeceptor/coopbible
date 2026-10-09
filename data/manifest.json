@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T15:24:41Z",
+  "updated": "2026-10-09T15:50:27Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -12719,6 +12719,361 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "emergency-2023-pc": {
+      "id": "emergency-2023-pc",
+      "name": "Emergency",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "Sixteen Tons Entertainment",
+      "pub": "Sixteen Tons Entertainment",
+      "notes": "",
+      "release": "15.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/emergency-2023-pc.jpg",
+      "logo": "images/logos/emergency-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/850170",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Emergency_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "voyage-2021-pc": {
+      "id": "voyage-2021-pc",
+      "name": "Voyage",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 2",
+      "dev": "Venturous",
+      "pub": "Venturous",
+      "notes": "",
+      "release": "18.02.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/voyage-2021-pc.jpg",
+      "logo": "images/logos/voyage-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1051950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Voyage",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mythforce-2023-pc": {
+      "id": "mythforce-2023-pc",
+      "name": "MythForce",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 5, +Extra: 10",
+      "dev": "Beamdog",
+      "pub": "Beamdog",
+      "notes": "",
+      "release": "12.09.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mythforce-2023-pc.jpg",
+      "logo": "images/logos/mythforce-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/363860",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/MythForce",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "malum-2021-pc": {
+      "id": "malum-2021-pc",
+      "name": "Malum",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 1",
+      "dev": "MalumGames",
+      "pub": "MalumGames",
+      "notes": "",
+      "release": "02.09.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/malum-2021-pc.jpg",
+      "logo": "images/logos/malum-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1648610",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "police-simulator-patrol-officers-2022-pc": {
+      "id": "police-simulator-patrol-officers-2022-pc",
+      "name": "Police Simulator: Patrol Officers",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 14, +Extra: 21",
+      "dev": "Aesir Interactive",
+      "pub": "astragon Entertainment",
+      "notes": "",
+      "release": "10.11.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/police-simulator-patrol-officers-2022-pc.jpg",
+      "logo": "images/logos/police-simulator-patrol-officers-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/997010",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Police_Simulator_Patrol_Officers",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "police-simulator-patrol-duty-2019-pc": {
+      "id": "police-simulator-patrol-duty-2019-pc",
+      "name": "Police Simulator: Patrol Duty",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "—",
+      "dev": "Bigmoon Entertainment",
+      "pub": "astragon Entertainment",
+      "notes": "",
+      "release": "18.06.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/police-simulator-patrol-duty-2019-pc.jpg",
+      "logo": "images/logos/police-simulator-patrol-duty-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/461870",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Police_Simulator%3A_Patrol_Duty",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "longvinter-2025-pc": {
+      "id": "longvinter-2025-pc",
+      "name": "Longvinter",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 52",
+      "dev": "Uuvana Studios",
+      "pub": "Uuvana Studios",
+      "notes": "",
+      "release": "21.02.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/longvinter-2025-pc.jpg",
+      "logo": "images/logos/longvinter-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1635450",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "immortal-hunters-2025-pc": {
+      "id": "immortal-hunters-2025-pc",
+      "name": "Immortal Hunters",
+      "platform": "PC",
+      "size": "1.2 GB",
+      "hltb": "—",
+      "dev": "Admiral Games",
+      "pub": "indie.io",
+      "notes": "",
+      "release": "05.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/immortal-hunters-2025-pc.jpg",
+      "logo": "images/logos/immortal-hunters-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2336760",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "beach-invasion-1945-pacific-2023-pc": {
+      "id": "beach-invasion-1945-pacific-2023-pc",
+      "name": "Beach Invasion 1945: Pacific",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 2",
+      "dev": "AIx2 Games",
+      "pub": "AIx2 Games",
+      "notes": "",
+      "release": "19.12.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/beach-invasion-1945-pacific-2023-pc.jpg",
+      "logo": "images/logos/beach-invasion-1945-pacific-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2390480",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "beach-invasion-1915-gallipoli-2025-pc": {
+      "id": "beach-invasion-1915-gallipoli-2025-pc",
+      "name": "Beach Invasion 1915: Gallipoli",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "AIx2 Games",
+      "pub": "AIx2 Games",
+      "notes": "",
+      "release": "03.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/beach-invasion-1915-gallipoli-2025-pc.jpg",
+      "logo": "images/logos/beach-invasion-1915-gallipoli-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3556670",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -13068,7 +13423,17 @@
       "last-resort-2021-pc",
       "the-anacrusis-2023-pc",
       "mobmania-2025-pc",
-      "panic-in-the-woods-2024-pc"
+      "panic-in-the-woods-2024-pc",
+      "emergency-2023-pc",
+      "voyage-2021-pc",
+      "mythforce-2023-pc",
+      "malum-2021-pc",
+      "police-simulator-patrol-officers-2022-pc",
+      "police-simulator-patrol-duty-2019-pc",
+      "longvinter-2025-pc",
+      "immortal-hunters-2025-pc",
+      "beach-invasion-1945-pacific-2023-pc",
+      "beach-invasion-1915-gallipoli-2025-pc"
     ],
     "early-access": [],
     "unreleased": [],

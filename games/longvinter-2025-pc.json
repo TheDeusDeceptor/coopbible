@@ -1,0 +1,33 @@
+{
+  "id": "longvinter-2025-pc",
+  "name": "Longvinter",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 52",
+  "dev": "Uuvana Studios",
+  "pub": "Uuvana Studios",
+  "notes": "",
+  "release": "21.02.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/longvinter-2025-pc.jpg",
+  "logo": "images/logos/longvinter-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1635450",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

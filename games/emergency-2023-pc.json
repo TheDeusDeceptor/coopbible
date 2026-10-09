@@ -1,0 +1,38 @@
+{
+  "id": "emergency-2023-pc",
+  "name": "Emergency",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Sixteen Tons Entertainment",
+  "pub": "Sixteen Tons Entertainment",
+  "notes": "",
+  "release": "15.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/emergency-2023-pc.jpg",
+  "logo": "images/logos/emergency-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/850170",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Emergency_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
