@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/corsfix"></script>
+<script src="https://unpkg.com/corsfix" defer></script>
 <style>
   :root{
     --bg:#0a0d14;--bg-glow:#0f1622;--card:#101624;--border:#1e2836;
@@ -53,18 +53,8 @@
 
   /* ═══ HEADER ═══ */
   header{max-width:1400px;margin:0 auto 1.75rem;display:flex;justify-content:center;position:relative;min-height:44px;}
-  .header-left{
-    position:absolute;left:0;top:50%;transform:translateY(-50%);
-    display:flex;gap:.4rem;align-items:center;flex-wrap:wrap;
-  }
-  .header-left button{
-    display:inline-flex;align-items:center;gap:.45rem;
-    font-family:var(--font-head);font-size:.6rem;font-weight:700;
-    letter-spacing:.14em;text-transform:uppercase;
-    padding:.5rem .75rem;border-radius:8px;
-    cursor:pointer;transition:all .18s ease;white-space:nowrap;
-    background:transparent;border:1px solid transparent;
-  }
+  .header-left{position:absolute;left:0;top:50%;transform:translateY(-50%);display:flex;gap:.4rem;align-items:center;flex-wrap:wrap;}
+  .header-left button{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .75rem;border-radius:8px;cursor:pointer;transition:all .18s ease;white-space:nowrap;background:transparent;border:1px solid transparent;}
   .header-left .random-btn{color:var(--gold);border-color:var(--gold-line);background:var(--gold-soft);}
   .header-left .random-btn:hover{color:#fde68a;border-color:var(--gold);background:rgba(251,191,36,.16);box-shadow:0 0 10px rgba(251,191,36,.3);}
   .header-left .guess-btn{color:var(--purple);border-color:rgba(167,139,250,.5);background:rgba(167,139,250,.1);}
@@ -115,12 +105,7 @@
   .pending-strip button.commit{color:var(--green);border-color:rgba(74,222,128,.5);background:rgba(74,222,128,.08);}
   .pending-strip button.commit:hover{color:#fff;background:rgba(74,222,128,.2)}
   .pending-strip button:disabled{opacity:.5;cursor:wait}
-  .toolbar{
-    max-width:1400px;margin:0 auto 1.25rem;
-    display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;
-    position:sticky;top:0;z-index:80;
-    padding:.6rem 0;
-  }
+  .toolbar{max-width:1400px;margin:0 auto 1.25rem;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;position:sticky;top:0;z-index:80;padding:.6rem 0;}
   .toolbar.empty{display:none}
   .dd-btn,
   .search-box input,
@@ -180,19 +165,11 @@
   body[data-cols="4"] .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
   .grid-empty{max-width:1400px;margin:1.5rem auto;padding:2rem 1rem;text-align:center;font-family:var(--font-head);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--border);border-radius:9px;line-height:1.8;}
   body[data-cols="3"] .ov-chip,
-  body[data-cols="4"] .ov-chip{
-    font-size:.68rem;
-    padding:.26rem .5rem;
-  }
+  body[data-cols="4"] .ov-chip{font-size:.68rem;padding:.26rem .5rem;}
   body[data-cols="3"] .overlay-chips,
-  body[data-cols="4"] .overlay-chips{
-    gap:.25rem;
-  }
+  body[data-cols="4"] .overlay-chips{gap:.25rem;}
   body[data-cols="3"] .dlc-counter,
-  body[data-cols="4"] .dlc-counter{
-    font-size:.66rem;
-    padding:.24rem .5rem;
-  }
+  body[data-cols="4"] .dlc-counter{font-size:.66rem;padding:.24rem .5rem;}
   .card{display:flex;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;content-visibility:auto;contain-intrinsic-size:auto 260px;}
   .card:hover{border-color:var(--accent-line)}
   .card.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
@@ -232,12 +209,7 @@
   .card-admin .icon{width:14px;height:14px;}
 
   .beaten-list{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
-  .beaten-row{
-    display:grid;grid-template-columns:65% 1fr;
-    background:var(--card);border:1px solid var(--border);border-radius:12px;
-    overflow:hidden;cursor:pointer;position:relative;transition:border-color .2s ease;
-    content-visibility:auto;contain-intrinsic-size:auto 500px;
-  }
+  .beaten-row{display:grid;grid-template-columns:65% 1fr;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;position:relative;transition:border-color .2s ease;content-visibility:auto;contain-intrinsic-size:auto 500px;}
   .beaten-row:hover{border-color:var(--accent-line)}
   .beaten-row.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
   .beaten-row.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.22)}
@@ -323,7 +295,7 @@
   #modal-slot > *{pointer-events:auto;}
   .modal-wrap{position:relative;display:flex;align-items:center;gap:1rem;justify-content:center;width:100%;max-width:100%;}
   .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;width:min(95vw, 1300px);max-width:min(95vw, 1300px);display:flex;flex-direction:column;}
-  .modal-hero{position:relative;background:#000;display:grid;place-items:center;overflow:hidden;flex-shrink:0;aspect-ratio:16/9;min-width:640px;}
+  .modal-hero{position:relative;background:#000;display:grid;place-items:center;overflow:hidden;flex-shrink:0;aspect-ratio:16/9;min-width:min(640px,100%);}
   .modal-hero img.hero-img,.modal-hero video.hero-video{display:block;width:100%;height:100%;object-fit:cover;}
   .modal-logo{position:absolute;bottom:1rem;right:1rem;width:120px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9)) drop-shadow(0 2px 30px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
   .modal-logo img{max-width:100%;max-height:100%;object-fit:contain}
@@ -629,12 +601,12 @@
   .random-reel-area{flex:1;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:0;padding:2rem 0;}
   .random-reel-viewport{position:relative;width:100%;height:100%;overflow:hidden;display:flex;align-items:center;}
   .random-reel{display:flex;align-items:center;padding:0 20px;will-change:transform;}
-   .random-card{flex-shrink:0;background:#000;border-radius:12px;overflow:hidden;position:relative;height:min(60vh, 520px);min-width:200px;border:2px solid rgba(255,255,255,.06);transition:border-color .25s ease, box-shadow .35s ease;}
+  .random-card{flex-shrink:0;background:#000;border-radius:12px;overflow:hidden;position:relative;height:min(60vh, 520px);min-width:200px;border:2px solid rgba(255,255,255,.06);transition:border-color .25s ease, box-shadow .35s ease;}
   .random-card + .random-card{margin-left:24px;}
   .random-card img{height:100%;width:auto;display:block;pointer-events:none;}
   .random-card.winner{border:2px solid var(--gold);box-shadow:0 0 0 1px rgba(251,191,36,.3), 0 0 22px var(--gold-glow), 0 0 60px rgba(251,191,36,.2);}
   .random-logo-reserve{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:1rem 2rem;z-index:9999;pointer-events:none;}
-   .random-logo-slot{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:.6rem;text-align:center;opacity:0;transform:translateY(14px) scale(.94);transition:opacity .6s cubic-bezier(.2,.7,.3,1), transform .6s cubic-bezier(.2,.7,.3,1);max-width:80vw;min-height:200px;min-width:200px;pointer-events:none;}
+  .random-logo-slot{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:.6rem;text-align:center;opacity:0;transform:translateY(14px) scale(.94);transition:opacity .6s cubic-bezier(.2,.7,.3,1), transform .6s cubic-bezier(.2,.7,.3,1);max-width:80vw;min-height:200px;min-width:200px;pointer-events:none;}
   .random-logo-slot.show{opacity:1;transform:translateY(0) scale(1);}
   .random-logo-slot.show::before{opacity:1;}
   .random-logo-slot.clickable{pointer-events:auto;cursor:pointer;}
@@ -666,8 +638,7 @@
   .scroll-jump:hover{color:var(--accent);border-color:var(--accent-line);background-image:linear-gradient(var(--accent-soft),var(--accent-soft));}
   .scroll-jump .arw{font-size:.95em;line-height:1;}
   @media (max-width:640px){
-    .scroll-jump{left:1rem;font-size:.6rem;padding:.5rem .75rem;}
-    .scroll-jump.down{top:1rem;}
+    .scroll-jump{font-size:.6rem;padding:.5rem .75rem;}
     .scroll-jump.up{bottom:1rem;}
   }
 
@@ -694,6 +665,17 @@
   .ov-close.ov-gold{--oc:#fbbf24;--oc-bright:#fde68a;--oc-line:rgba(251,191,36,.55);--oc-soft:rgba(251,191,36,.16);--oc-glow:rgba(251,191,36,.5)}
   .ov-close.ov-purple{--oc:#a78bfa;--oc-bright:#c4b5fd;--oc-line:rgba(167,139,250,.55);--oc-soft:rgba(167,139,250,.16);--oc-glow:rgba(167,139,250,.5)}
   .ov-close.ov-cyan{--oc:#22d3ee;--oc-bright:#67e8f9;--oc-line:rgba(34,211,238,.55);--oc-soft:rgba(34,211,238,.16);--oc-glow:rgba(34,211,238,.5)}
+
+  /* ═══ INTEGRITY TAB ═══ */
+  .integ-row{display:flex;flex-direction:column;gap:.35rem;padding:.6rem .75rem;background:#0a0e15;border:1px solid var(--border);border-radius:6px;margin-bottom:.35rem;}
+  .integ-head{display:flex;align-items:center;gap:.5rem;}
+  .integ-kind{font-family:var(--font-head);font-size:.5rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.18rem .45rem;border-radius:4px;white-space:nowrap;}
+  .integ-kind.dangling{color:var(--red);background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.4);}
+  .integ-kind.ghost{color:var(--amber);background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.4);}
+  .integ-kind.mismatch{color:var(--accent);background:rgba(56,189,248,.12);border:1px solid var(--accent-line);}
+  .integ-kind.double{color:var(--purple);background:rgba(167,139,250,.12);border:1px solid rgba(167,139,250,.4);}
+  .integ-name{font-size:.85rem;color:#e6ebf2;font-weight:500;}
+  .integ-detail{font-size:.78rem;color:var(--muted);font-family:ui-monospace,monospace;}
 
   @media (max-width:1100px){.tb-right{width:100%;margin-left:0;padding-top:.6rem;border-top:1px solid var(--border)}.search-box input{width:100%;max-width:280px}}
   @media (max-width:1000px){.series-game-row{grid-template-columns:minmax(180px,1.5fr) 100px 90px 130px 80px 80px minmax(140px,1.3fr) 70px;gap:.65rem;padding:.55rem 1rem;font-size:.82rem;}}
@@ -841,13 +823,15 @@
   .gtg-hud-block{display:flex;flex-direction:column;gap:.45rem}
   .gtg-hud-label{font-family:'Press Start 2P',monospace;font-size:clamp(.42rem, .85vw, .55rem);letter-spacing:.16em;color:#a78bfa;text-shadow:0 0 10px rgba(167,139,250,.5), 0 0 24px rgba(167,139,250,.35);}
   .gtg-hud-value{font-family:'Press Start 2P',monospace;font-size:clamp(1.2rem, 2.4vw, 1.7rem);letter-spacing:.06em;color:#a78bfa;text-shadow:0 0 6px #f3eaff, 0 0 14px #c4b5fd, 0 0 30px #a78bfa, 0 0 60px rgba(167,139,250,.5), 0 4px 0 #2d1b4d;}
+  .gtg-hud-sub{font-family:'Press Start 2P',monospace;font-size:clamp(.4rem, .75vw, .5rem);letter-spacing:.14em;color:#7d6eb0;margin-top:.25rem;}
+  .gtg-hud-sub b{color:#c4b5fd;}
   .gtg-hearts{display:flex;gap:clamp(.4rem, 1vw, .7rem);align-items:center;padding-top:.15rem}
   .gtg-heart{font-family:'Press Start 2P',monospace;font-size:clamp(1.05rem, 2vw, 1.4rem);line-height:1;color:#ff5c5c;text-shadow:0 0 6px #ffe5e5, 0 0 14px #ff5c5c, 0 0 30px #ef4444, 0 0 60px rgba(239,68,68,.6), 0 3px 0 #3a0a0a;transition:all .35s ease;}
   .gtg-heart.dim{color:#150808;text-shadow:0 0 4px rgba(239,68,68,.1);opacity:.7;transform:scale(.86);}
 
   .gtg-shot{position:relative;aspect-ratio:16/9;width:100%;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:clamp(.7rem, 1.6vw, 1.15rem);user-select:none;-webkit-user-select:none;}
-  .gtg-shot-frame{position:relative;border:2px solid #a78bfa;box-shadow:0 0 0 1px rgba(0,0,0,.9), 0 0 24px rgba(167,139,250,.2), inset 0 0 30px rgba(0,0,0,.5);transition:width .18s ease, height .18s ease;}
-  .gtg-shot-img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none;user-select:none;opacity:0;transition:opacity .25s ease;filter:saturate(1.05) contrast(1.03);}
+  .gtg-shot-frame{position:relative;border:2px solid #a78bfa;box-shadow:0 0 0 1px rgba(0,0,0,.9), 0 0 24px rgba(167,139,250,.2), inset 0 0 30px rgba(0,0,0,.5);transition:width .18s ease, height .18s ease;overflow:hidden;}
+  .gtg-shot-img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none;user-select:none;opacity:0;transition:opacity .25s ease;filter:saturate(1.05) contrast(1.03);transform-origin:center center;will-change:transform;}
   .gtg-shot-img.ready{opacity:1}
   .gtg-shot-shield{position:absolute;inset:0;z-index:2;cursor:default}
   .gtg-corner{position:absolute;width:22px;height:22px;border:2px solid #a78bfa;filter:drop-shadow(0 0 6px rgba(167,139,250,.45));opacity:.95;z-index:4;pointer-events:none;}
@@ -923,9 +907,9 @@
   .drift-splash-emojis span:nth-child(3){transform:rotate(8deg) translateY(.06em)}
   .drift-splash-title{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(2.4rem,8vw,5rem);letter-spacing:.18em;color:#67e8f9;text-shadow:0 0 14px rgba(34,211,238,.7),0 0 40px rgba(34,211,238,.4);margin-top:-.5rem;}
   .drift-diff-row{display:flex;gap:clamp(.6rem,1.5vw,1.2rem);justify-content:center;width:100%;max-width:760px;flex-wrap:wrap;}
-  .drift-diff-btn{flex:1;min-width:140px;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(.85rem,1.6vw,1.05rem);letter-spacing:.16em;padding:clamp(.9rem,2vw,1.2rem) clamp(.6rem,2vw,2rem);background:transparent;border:2px solid #22d3ee;color:#67e8f9;border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(34,211,238,.5);box-shadow:0 4px 0 rgba(0,0,0,.5);}
-  .drift-diff-btn:hover{background:#22d3ee;color:#04141a;text-shadow:none;box-shadow:0 0 26px rgba(34,211,238,.55),0 4px 0 rgba(0,0,0,.5);transform:translateY(-2px);}
-  .drift-diff-btn:active{transform:translateY(2px)}
+  .drift-start-btn{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(1rem,2vw,1.3rem);letter-spacing:.2em;padding:clamp(1rem,2.2vw,1.4rem) clamp(2rem,5vw,3.5rem);background:transparent;border:2px solid #22d3ee;color:#67e8f9;border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(34,211,238,.5);box-shadow:0 4px 0 rgba(0,0,0,.5);}
+  .drift-start-btn:hover{background:#22d3ee;color:#04141a;text-shadow:none;box-shadow:0 0 26px rgba(34,211,238,.55),0 4px 0 rgba(0,0,0,.5);transform:translateY(-2px);}
+  .drift-start-btn:active{transform:translateY(2px)}
   .drift-splash-scores{display:flex;justify-content:space-between;width:100%;max-width:760px;font-family:'Chakra Petch',system-ui,sans-serif;font-size:.72rem;letter-spacing:.14em;padding:0 clamp(.5rem,1vw,1rem);margin-top:-.5rem;color:#67e8f9;}
   .drift-splash-scores .col{display:flex;flex-direction:column;gap:.4rem}
   .drift-splash-scores .col.right{align-items:flex-end}
@@ -933,10 +917,12 @@
   .drift-splash-scores .val{color:#67e8f9;font-size:clamp(.95rem,2vw,1.15rem);text-shadow:0 0 10px rgba(34,211,238,.6)}
 
   .drift-game-view{padding:clamp(1rem,3vw,2rem) clamp(.75rem,2vw,1.25rem) 3rem;}
-  .drift-shell{width:100%;max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:1.2rem;}
+  .drift-shell{width:100%;max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
   .drift-hud{display:flex;justify-content:space-between;align-items:center;padding-bottom:.7rem;border-bottom:1px solid rgba(34,211,238,.3);}
   .drift-hud-label{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.7rem;letter-spacing:.18em;color:#22d3ee;text-shadow:0 0 10px rgba(34,211,238,.5);margin-bottom:.2rem;}
   .drift-hud-value{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:1.6rem;letter-spacing:.06em;color:#67e8f9;text-shadow:0 0 8px #fff,0 0 18px #22d3ee,0 0 40px rgba(34,211,238,.5);}
+  .drift-hud-sub{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:600;font-size:.62rem;letter-spacing:.16em;color:#0e7490;margin-top:.25rem;text-transform:uppercase;}
+  .drift-hud-sub b{color:#67e8f9;}
   .drift-hearts{display:flex;gap:.55rem;align-items:center;}
   .drift-heart{font-size:1.4rem;line-height:1;color:#67e8f9;text-shadow:0 0 6px #fff,0 0 14px #22d3ee,0 0 30px rgba(34,211,238,.6);transition:all .35s ease;}
   .drift-heart.dim{color:#082229;text-shadow:none;opacity:.7;transform:scale(.86);}
@@ -975,6 +961,11 @@
   .drift-logo-wrap .ph{position:relative;z-index:1;font-family:'Chakra Petch',system-ui,sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.14em;color:#0e7490;text-transform:uppercase;text-align:center;line-height:1.6;}
   .drift-reveal{position:absolute;bottom:.6rem;left:.6rem;right:.6rem;text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.12em;color:#67e8f9;background:rgba(2,10,14,.9);border:1px solid rgba(34,211,238,.5);padding:.35rem .5rem;border-radius:4px;z-index:4;opacity:0;transform:translateY(6px);transition:opacity .35s ease,transform .35s ease;pointer-events:none;text-shadow:0 0 8px rgba(34,211,238,.6);}
   .drift-reveal.show{opacity:1;transform:translateY(0);}
+
+  .drift-peek-row{text-align:center;min-height:2.4rem;display:flex;justify-content:center;align-items:center;}
+  .drift-peek-btn{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.16em;padding:.55rem 1.2rem;border:2px solid #fbbf24;color:#fbbf24;background:rgba(251,191,36,.08);border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(251,191,36,.5);text-transform:uppercase;}
+  .drift-peek-btn:hover{background:#fbbf24;color:#1a1306;text-shadow:none;box-shadow:0 0 20px rgba(251,191,36,.55);}
+  .drift-peek-btn.hidden{display:none;}
 
   .drift-reveal-line{text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:600;font-size:.95rem;letter-spacing:.14em;color:#67e8f9;text-shadow:0 0 12px rgba(34,211,238,.6);opacity:0;transition:opacity .35s ease;min-height:1.4em;}
   .drift-reveal-line.show{opacity:1;}
@@ -1134,6 +1125,7 @@
               <div class="gtg-hud-block">
                 <span class="gtg-hud-label">SCORE</span>
                 <span class="gtg-hud-value" data-gtg-score>0000</span>
+                <span class="gtg-hud-sub">STREAK <b data-gtg-streak>x1.0</b></span>
               </div>
               <div class="gtg-hearts" data-gtg-hearts></div>
             </div>
@@ -1183,9 +1175,7 @@
       <div class="drift-splash-emojis"><span>🌊</span><span>🎯</span><span>📡</span></div>
       <div class="drift-splash-title">DRIFT</div>
       <div class="drift-diff-row">
-        <button class="drift-diff-btn" type="button" data-drift-diff="easy">EASY</button>
-        <button class="drift-diff-btn" type="button" data-drift-diff="medium">MEDIUM</button>
-        <button class="drift-diff-btn" type="button" data-drift-diff="hard">HARD</button>
+        <button class="drift-start-btn" type="button" data-drift-start>START</button>
       </div>
       <div class="drift-splash-scores">
         <div class="col">
@@ -1206,6 +1196,7 @@
         <div>
           <div class="drift-hud-label">SCORE</div>
           <div class="drift-hud-value" data-drift-score>0</div>
+          <div class="drift-hud-sub">TIER <b data-drift-tier>EASY</b></div>
         </div>
         <div class="drift-hearts" data-drift-hearts></div>
       </div>
@@ -1223,6 +1214,9 @@
           <div class="drift-logo-wrap" data-drift-logo="right"></div>
           <div class="drift-reveal" data-drift-reveal="right"></div>
         </div>
+      </div>
+      <div class="drift-peek-row">
+        <button class="drift-peek-btn hidden" data-drift-peek type="button">🔍 REVEAL INFO</button>
       </div>
       <div class="drift-reveal-line" data-drift-reveal-line></div>
     </div>
@@ -1299,7 +1293,7 @@ function addToListOrdered(listId, list, id){
   return list;
 }
 
-let MANIFEST = { version: 4, games: {}, lists: {}, series: {}, series_order: [] };
+let MANIFEST = { version: 4, updated: '', games: {}, lists: {}, series: {}, series_order: [] };
 let PLATFORMS = {};
 let PLATFORMS_ORIGINAL = {};
 
@@ -1347,6 +1341,7 @@ const pendingFileWrites = new Map();
 const pendingFileDeletes = new Set();
 const pendingSeriesWrites = new Map();
 const pendingSeriesDeletes = new Set();
+let pendingSeriesOrder = null;
 const editorDrafts = new Map();
 
 const bodyEl = document.body;
@@ -1387,6 +1382,10 @@ const randomReel = document.getElementById('randomReel');
 const randomLogoSlot = document.getElementById('randomLogoSlot');
 const randomSpinBtn = document.getElementById('randomSpinBtn');
 
+function refreshScrollJumpVisibility(){
+  if(typeof updateScrollButtons === 'function') updateScrollButtons();
+}
+
 function toast(msg, kind){
   toastEl.textContent = msg;
   toastEl.className = 'toast show ' + (kind === 'bad' ? 'bad' : 'ok');
@@ -1397,7 +1396,11 @@ function esc(s){ return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','
 function slugify(name){
   if(!name) return '';
   const s = String(name).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-  return s || 'unnamed';
+  if(s) return s;
+  let h = 0;
+  const str = String(name);
+  for(let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) | 0;
+  return 'game-' + (Math.abs(h) >>> 0).toString(36);
 }
 const ROMAN_MAP = { i:1, ii:2, iii:3, iv:4, v:5, vi:6, vii:7, viii:8, ix:9, x:10, xi:11, xii:12, xiii:13, xiv:14, xv:15 };
 function normalizeName(name){
@@ -1434,6 +1437,20 @@ function nameSimilarity(a, b){
   let score = (max - dist) / max;
   if(na.includes(nb) || nb.includes(na)) score = Math.max(score, 0.85);
   return score;
+}
+function sortObjKeys(o){
+  if(Array.isArray(o)) return o.map(sortObjKeys);
+  if(o && typeof o === 'object'){
+    const out = {};
+    Object.keys(o).sort().forEach(k => out[k] = sortObjKeys(o[k]));
+    return out;
+  }
+  return o;
+}
+function jsonEqual(a, b){
+  if(a === b) return true;
+  if(a == null || b == null) return false;
+  return JSON.stringify(sortObjKeys(a)) === JSON.stringify(sortObjKeys(b));
 }
 function resolveImgUrl(url){
   if(!url) return '';
@@ -1546,7 +1563,7 @@ function formatBytes(n){
 function fmtHltbMain(str){
   if(!str || str === '—') return '—';
   const m = String(str).trim().match(/^Main:\s*([\d.]+)/i);
-  return m ? `${m[1]} hrs` : String(str).trim();
+  return m ? `${m[1]} hrs` : esc(String(str).trim());
 }
 function fmtHltb(str, html){
   if(!str || str === '—') return '—';
@@ -1561,14 +1578,14 @@ function fmtHltb(str, html){
     if(extra && extra !== main) return `${main} to ${extra} hrs`;
     return `${main} hrs`;
   }
-  return s;
+  return esc(s);
 }
 function fmtSize(str, html){
   if(!str || str === '—') return str || '—';
   const s = String(str).trim();
   if(!html) return s;
   const m = s.match(/^([\d.]+)\s*(GB|MB|TB|KB)$/i);
-  return m ? `${m[1]}<span class="unit">${m[2]}</span>` : s;
+  return m ? `${m[1]}<span class="unit">${m[2]}</span>` : esc(s);
 }
 function releaseKey(str){
   if(!str) return 0;
@@ -1681,6 +1698,7 @@ async function loadManifest(){
     const raw = await res.json();
     MANIFEST = {
       version: raw.version || 4,
+      updated: raw.updated || '',
       games: raw.games || {},
       lists: raw.lists || {},
       series: raw.series || {},
@@ -1688,7 +1706,7 @@ async function loadManifest(){
     };
   }catch(e){
     console.warn('manifest load failed:', e);
-    MANIFEST = { version: 4, games: {}, lists: {}, series: {}, series_order: [] };
+    MANIFEST = { version: 4, updated: '', games: {}, lists: {}, series: {}, series_order: [] };
   }
 }
 async function loadPlatforms(){
@@ -1753,7 +1771,8 @@ function gamesWithNoList(){
 }
 
 function seriesOrderLive(){
-  return MANIFEST.series_order.filter(s => !pendingSeriesDeletes.has(s));
+  const base = pendingSeriesOrder || MANIFEST.series_order || [];
+  return base.filter(s => !pendingSeriesDeletes.has(s));
 }
 function allSeriesUndoneInOrder(){
   const out = [];
@@ -1806,6 +1825,36 @@ function isInAnySeries(gameId){
   }
   return false;
 }
+function seriesSlugsContaining(gameId){
+  const out = [];
+  for(const slug of seriesOrderLive()){
+    const s = viewSeries(slug);
+    if(!s) continue;
+    if((s.order || []).includes(gameId)) out.push(slug);
+  }
+  return out;
+}
+function recalcGameSeriesField(gameId){
+  const g = viewGame(gameId);
+  if(!g) return;
+  const containing = seriesSlugsContaining(gameId);
+  const currentSlug = g.series || null;
+  let newSlug = null;
+  if(containing.length === 1) newSlug = containing[0];
+  else if(containing.length > 1){
+    if(containing.includes(currentSlug)) newSlug = currentSlug;
+    else newSlug = containing[0];
+  } else newSlug = null;
+  if(newSlug === currentSlug && newSlug !== null) return;
+  if(newSlug === null && currentSlug === null) return;
+  const gc = JSON.parse(JSON.stringify(g));
+  gc.series = newSlug;
+  if(!newSlug){
+    gc.series_status = null;
+    gc.series_note = null;
+  }
+  pendingGameWrites.set(gameId, gc);
+}
 
 function getToken(){ return localStorage.getItem('gh_admin_token') || ''; }
 function setToken(t){ localStorage.setItem('gh_admin_token', t); }
@@ -1834,6 +1883,7 @@ function showTokenPrompt(){
       </div>
     </div>`;
   tokenBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
   setTimeout(() => tokenSlot.querySelector('#token-input').focus(), 50);
   tokenSlot.querySelector('#token-verify').onclick = async () => {
     const t = tokenSlot.querySelector('#token-input').value.trim();
@@ -1848,9 +1898,9 @@ function showTokenPrompt(){
     if(e.key === 'Enter') tokenSlot.querySelector('#token-verify').click();
   });
 }
-function closeTokenPrompt(){ tokenBackdrop.classList.remove('open'); tokenSlot.innerHTML = ''; }
+function closeTokenPrompt(){ tokenBackdrop.classList.remove('open'); tokenSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
 function enterAdmin(){ adminMode = true; bodyEl.classList.add('admin-on'); adminToggleLabel.textContent = 'Exit Admin'; invalidateAllPanes(); renderContent(); }
-function exitAdmin(){ adminMode = false; voidMode = false; bodyEl.classList.remove('admin-on'); adminToggleLabel.textContent = 'Admin'; voidBtn.classList.remove('void-on'); invalidateAllPanes(); renderContent(); }
+function exitAdmin(){ adminMode = false; voidMode = false; bodyEl.classList.remove('admin-on'); adminToggleLabel.textContent = 'Admin'; voidBtn.classList.remove('void-on'); invalidateAllPanes(); updatePendingStrip(); renderContent(); }
 async function bootAdminFlow(){
   const tok = getToken();
   if(!tok) return;
@@ -1929,7 +1979,7 @@ async function ghUpdateRef(sha){
 }
 
 function totalPendingCount(){
-  return pendingGameWrites.size + pendingGameDeletes.size + pendingListWrites.size + pendingFileWrites.size + pendingFileDeletes.size + pendingSeriesWrites.size + pendingSeriesDeletes.size;
+  return pendingGameWrites.size + pendingGameDeletes.size + pendingListWrites.size + pendingFileWrites.size + pendingFileDeletes.size + pendingSeriesWrites.size + pendingSeriesDeletes.size + (pendingSeriesOrder ? 1 : 0);
 }
 function updatePendingStrip(){
   const n = totalPendingCount();
@@ -1958,6 +2008,7 @@ function clearAllPending(){
   pendingFileDeletes.clear();
   pendingSeriesWrites.clear();
   pendingSeriesDeletes.clear();
+  pendingSeriesOrder = null;
   updatePendingStrip();
   invalidateAllPanes();
   renderContent();
@@ -1974,7 +2025,8 @@ function regenerateManifest(){
   for(const [id, g] of pendingGameWrites) games[id] = g;
   const lists = {};
   for(const t of REAL_LISTS){
-    lists[t] = (pendingListWrites.get(t) || MANIFEST.lists[t] || []).filter(id => !pendingGameDeletes.has(id));
+    lists[t] = (pendingListWrites.get(t) || MANIFEST.lists[t] || [])
+      .filter(id => !pendingGameDeletes.has(id) && games[id] !== undefined);
   }
   const series = {};
   for(const slug of Object.keys(MANIFEST.series)){
@@ -1988,7 +2040,8 @@ function regenerateManifest(){
   for(const [slug, s] of pendingSeriesWrites){
     if(!series[slug]) series[slug] = { ...s, order: (s.order || []).filter(id => !pendingGameDeletes.has(id)) };
   }
-  const order = (MANIFEST.series_order || []).filter(s => !pendingSeriesDeletes.has(s));
+  const baseOrder = pendingSeriesOrder || MANIFEST.series_order || [];
+  const order = baseOrder.filter(s => !pendingSeriesDeletes.has(s));
   for(const slug of Object.keys(series)){
     if(!order.includes(slug)) order.push(slug);
   }
@@ -2019,6 +2072,7 @@ async function commitPending(){
       writes.push({ path: 'data/series/' + slug + '.json', content: JSON.stringify(s, null, 2) + '\n' });
     }
     for(const [path, content] of pendingFileWrites){
+      if(path === 'data/manifest.json' || path === 'data/series_order.json') continue;
       writes.push({ path, content });
     }
 
@@ -2034,6 +2088,7 @@ async function commitPending(){
       tree.push({ path: w.path, mode: '100644', type: 'blob', sha: blobSha });
     }
     for(const id of pendingGameDeletes){
+      if(!MANIFEST.games[id]) continue;
       tree.push({ path: 'games/' + id + '.json', mode: '100644', type: 'blob', sha: null });
     }
     for(const slug of pendingSeriesDeletes){
@@ -2052,7 +2107,7 @@ async function commitPending(){
     dels = pendingGameDeletes.size;
     listWrites = pendingListWrites.size;
     files = pendingFileWrites.size + pendingFileDeletes.size;
-    seriesWrites = pendingSeriesWrites.size + pendingSeriesDeletes.size;
+    seriesWrites = pendingSeriesWrites.size + pendingSeriesDeletes.size + (pendingSeriesOrder ? 1 : 0);
 
     const parts = [];
     if(adds) parts.push(`${adds} added`);
@@ -2073,6 +2128,7 @@ async function commitPending(){
     for(const [slug, s] of pendingSeriesWrites) MANIFEST.series[slug] = s;
     MANIFEST.series_order = manifest.series_order;
     MANIFEST.version = 4;
+    MANIFEST.updated = manifest.updated;
 
     pendingGameWrites.clear();
     pendingGameDeletes.clear();
@@ -2081,6 +2137,7 @@ async function commitPending(){
     pendingFileDeletes.clear();
     pendingSeriesWrites.clear();
     pendingSeriesDeletes.clear();
+    pendingSeriesOrder = null;
     PLATFORMS_ORIGINAL = JSON.parse(JSON.stringify(PLATFORMS));
 
     updatePendingStrip();
@@ -2118,7 +2175,11 @@ function openPendingModal(){
     const s = MANIFEST.series[slug];
     rows.push({ key: 'seriesdel:' + slug, tab: 'Series', action: 'Delete', name: (s && s.name) || slug });
   }
+  if(pendingSeriesOrder){
+    rows.push({ key: 'seriesorder', tab: 'Series', action: 'Reorder', name: 'Series order' });
+  }
   for(const path of pendingFileWrites.keys()){
+    if(path === 'data/manifest.json' || path === 'data/series_order.json') continue;
     rows.push({ key: 'file:' + path, tab: 'File', action: 'Edit', name: path });
   }
   for(const path of pendingFileDeletes){
@@ -2146,6 +2207,7 @@ function openPendingModal(){
       </div>
     </div>`;
   pendingBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
   pendingSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closePendingModal);
   pendingSlot.querySelectorAll('.pr-discard').forEach(btn => btn.onclick = () => {
     const key = btn.closest('.pending-row').dataset.key;
@@ -2154,6 +2216,7 @@ function openPendingModal(){
     else if(key.startsWith('list:')) pendingListWrites.delete(key.slice(5));
     else if(key.startsWith('series:')) pendingSeriesWrites.delete(key.slice(7));
     else if(key.startsWith('seriesdel:')) pendingSeriesDeletes.delete(key.slice(10));
+    else if(key === 'seriesorder') pendingSeriesOrder = null;
     else if(key.startsWith('filedel:')) pendingFileDeletes.delete(key.slice(8));
     else if(key.startsWith('file:')) pendingFileWrites.delete(key.slice(5));
     updatePendingStrip();
@@ -2172,12 +2235,13 @@ function openPendingModal(){
     commitPending();
   };
 }
-function closePendingModal(){ pendingBackdrop.classList.remove('open'); pendingSlot.innerHTML = ''; }
+function closePendingModal(){ pendingBackdrop.classList.remove('open'); pendingSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
 pendingBackdrop.addEventListener('click', e => { if(e.target === pendingBackdrop) closePendingModal(); });
 
 let lbdbState = 'idle', lbdbMessage = '', lbdbPollTimer = null, lbdbStartTime = 0;
 let toolsActiveTab = 'general';
 let orphanList = [];
+let integrityIssues = [];
 
 function renderToolsBtn(){
   toolsBtn.classList.remove('running');
@@ -2287,6 +2351,7 @@ function toolsModalHTML(){
   const generalActive = toolsActiveTab === 'general';
   const platformsActive = toolsActiveTab === 'platforms';
   const orphansActive = toolsActiveTab === 'orphans';
+  const integrityActive = toolsActiveTab === 'integrity';
   return `
     <div class="tools-modal">
       <div class="admin-head">
@@ -2297,6 +2362,7 @@ function toolsModalHTML(){
         <button class="tools-tab ${generalActive?'active':''}" data-tab="general">General</button>
         <button class="tools-tab ${platformsActive?'active':''}" data-tab="platforms">Platforms</button>
         <button class="tools-tab ${orphansActive?'active':''}" data-tab="orphans">Orphans</button>
+        <button class="tools-tab ${integrityActive?'active':''}" data-tab="integrity">Integrity</button>
       </div>
       <div class="admin-body">
         <div id="tools-general" style="${generalActive?'':'display:none'}">
@@ -2330,7 +2396,7 @@ function toolsModalHTML(){
           <div class="form-section">
             <div class="sec-title">Orphan images</div>
             <div class="plat-hint">
-              Images in <code>images/screenshots/</code>, <code>images/logos/</code>, <code>images/series/</code> whose basename doesn't match any game id or series slug. Requires pending queue to be empty.
+              Images in <code>images/screenshots/</code>, <code>images/logos/</code>, <code>images/series/</code> whose basename doesn't match any game id, screenshot/logo path, or series slug. Requires pending queue to be empty.
             </div>
             <div style="display:flex;gap:.6rem;align-items:center;margin-bottom:.9rem;flex-wrap:wrap;">
               <button type="button" class="btn primary" id="orphan-scan">Scan</button>
@@ -2348,6 +2414,19 @@ function toolsModalHTML(){
             </div>
           </div>
         </div>
+        <div id="tools-integrity" style="${integrityActive?'':'display:none'}">
+          <div class="form-section">
+            <div class="sec-title">Series integrity</div>
+            <div class="plat-hint">
+              Read-only scan for inconsistent series data. Reports <b>dangling pointers</b> (game.series points at a series that doesn't contain it), <b>ghost members</b> (game is in a series order but has no series field), <b>mismatches</b> (game.series doesn't match the series order it's in), and <b>double members</b> (game is in 2+ series orders).
+            </div>
+            <div style="display:flex;gap:.6rem;align-items:center;margin-bottom:.9rem;flex-wrap:wrap;">
+              <button type="button" class="btn primary" id="integrity-scan">Scan</button>
+              <span id="integrity-summary" style="font-family:var(--font-head);font-size:.65rem;color:var(--muted);letter-spacing:.06em;"></span>
+            </div>
+            <div id="integrity-list" style="max-height:52vh;overflow-y:auto;"></div>
+          </div>
+        </div>
       </div>
     </div>`;
 }
@@ -2358,12 +2437,15 @@ function refreshToolsBody(){
   const gen = toolsSlot.querySelector('#tools-general');
   const plat = toolsSlot.querySelector('#tools-platforms');
   const orph = toolsSlot.querySelector('#tools-orphans');
+  const integ = toolsSlot.querySelector('#tools-integrity');
   if(gen) gen.style.display = toolsActiveTab === 'general' ? '' : 'none';
   if(plat) plat.style.display = toolsActiveTab === 'platforms' ? '' : 'none';
   if(orph) orph.style.display = toolsActiveTab === 'orphans' ? '' : 'none';
+  if(integ) integ.style.display = toolsActiveTab === 'integrity' ? '' : 'none';
   if(toolsActiveTab === 'general') { renderLbdbStatusInModal(); }
   if(toolsActiveTab === 'platforms') { renderPlatformRows(); }
   if(toolsActiveTab === 'orphans') { renderOrphanList(); }
+  if(toolsActiveTab === 'integrity') { renderIntegrityList(); }
 }
 function renderOrphanList(){
   const host = toolsSlot.querySelector('#orphan-list');
@@ -2404,9 +2486,22 @@ async function runOrphanScan(){
     const tree = data.tree || [];
     const gameIds = new Set(Object.keys(MANIFEST.games));
     const seriesSlugs = new Set(Object.keys(MANIFEST.series));
+    const shotBasenames = new Set();
+    const logoBasenames = new Set();
+    for(const id of Object.keys(MANIFEST.games)){
+      const g = MANIFEST.games[id];
+      if(g.screenshot){
+        const b = String(g.screenshot).split('/').pop().replace(/\.[^.]+$/, '');
+        if(b) shotBasenames.add(b);
+      }
+      if(g.logo){
+        const b = String(g.logo).split('/').pop().replace(/\.[^.]+$/, '');
+        if(b) logoBasenames.add(b);
+      }
+    }
     const folderMap = {
-      'images/screenshots/': gameIds,
-      'images/logos/': gameIds,
+      'images/screenshots/': new Set([...gameIds, ...shotBasenames]),
+      'images/logos/': new Set([...gameIds, ...logoBasenames]),
       'images/series/': seriesSlugs
     };
     const orphans = [];
@@ -2448,12 +2543,93 @@ function stageOrphanDeletes(){
   updatePendingStrip();
   toast(n + ' file' + (n===1?'':'s') + ' staged for deletion');
 }
+
+function scanSeriesIntegrity(){
+  const issues = [];
+  const seenAcrossSeries = new Map();
+  for(const slug of seriesOrderLive()){
+    const s = viewSeries(slug);
+    if(!s) continue;
+    const order = s.order || [];
+    for(const id of order){
+      if(!seenAcrossSeries.has(id)) seenAcrossSeries.set(id, []);
+      seenAcrossSeries.get(id).push(slug);
+      const g = viewGame(id);
+      if(!g){
+        issues.push({
+          kind: 'dangling',
+          gameId: id,
+          name: id,
+          detail: 'Order contains game id not found in games data'
+        });
+        continue;
+      }
+      if(g.series === null || g.series === undefined || g.series === ''){
+        const containing = seriesSlugsContaining(id);
+        if(containing.length === 1){
+          issues.push({
+            kind: 'ghost',
+            gameId: id,
+            name: g.name || id,
+            detail: `In series "${slug}" order, but game.series is empty`
+          });
+        }
+      } else if(g.series !== slug){
+        const containing = seriesSlugsContaining(id);
+        if(containing.length === 1){
+          issues.push({
+            kind: 'mismatch',
+            gameId: id,
+            name: g.name || id,
+            detail: `game.series = "${g.series}", but only in series "${slug}" order`
+          });
+        }
+      }
+    }
+  }
+  for(const [id, slugs] of seenAcrossSeries){
+    if(slugs.length > 1){
+      const g = viewGame(id);
+      issues.push({
+        kind: 'double',
+        gameId: id,
+        name: (g && g.name) || id,
+        detail: 'In ' + slugs.length + ' series: ' + slugs.join(', ')
+      });
+    }
+  }
+  integrityIssues = issues;
+  return issues;
+}
+function renderIntegrityList(){
+  const host = toolsSlot.querySelector('#integrity-list');
+  const summary = toolsSlot.querySelector('#integrity-summary');
+  if(!host) return;
+  if(!integrityIssues.length){
+    host.innerHTML = '<div style="padding:1rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase">No issues — click Scan</div>';
+    if(summary) summary.textContent = '';
+    return;
+  }
+  host.innerHTML = integrityIssues.map(i => `
+    <div class="integ-row">
+      <div class="integ-head">
+        <span class="integ-kind ${i.kind}">${i.kind}</span>
+        <span class="integ-name">${esc(i.name)}</span>
+      </div>
+      <div class="integ-detail">${esc(i.detail)}</div>
+    </div>
+  `).join('');
+  if(summary) summary.textContent = integrityIssues.length + ' issue' + (integrityIssues.length===1?'':'s') + ' found';
+}
+
 function openToolsModal(){
   platDraft = clonePlatforms(PLATFORMS);
   toolsActiveTab = 'general';
   orphanList = [];
+  integrityIssues = [];
   toolsSlot.innerHTML = toolsModalHTML();
   toolsBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
   renderLbdbStatusInModal();
 
   toolsSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeToolsModal);
@@ -2482,6 +2658,14 @@ function openToolsModal(){
   };
   const orphanDel = toolsSlot.querySelector('#orphan-delete');
   if(orphanDel) orphanDel.onclick = stageOrphanDeletes;
+
+  const integScan = toolsSlot.querySelector('#integrity-scan');
+  if(integScan) integScan.onclick = () => {
+    const issues = scanSeriesIntegrity();
+    renderIntegrityList();
+    if(!issues.length) toast('No series issues found');
+    else toast(issues.length + ' issue' + (issues.length===1?'':'s') + ' found');
+  };
 
   const rowsHost = toolsSlot.querySelector('#plat-rows');
   if(rowsHost){
@@ -2573,6 +2757,8 @@ function closeToolsModal(){
   toolsSlot.innerHTML = '';
   platDraft = null;
   orphanList = [];
+  integrityIssues = [];
+  refreshScrollJumpVisibility();
 }
 toolsBackdrop.addEventListener('click', e => { if(e.target === toolsBackdrop) closeToolsModal(); });
 toolsBtn.addEventListener('click', () => {
@@ -2815,6 +3001,7 @@ function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
   return score;
 }
 
+let igdbPickerFinish = null;
 function showIgdbPicker(hits, onPick){
   pickerSlot.innerHTML = `
     <div class="picker-modal">
@@ -2831,17 +3018,31 @@ function showIgdbPicker(hits, onPick){
       </div>
     </div>`;
   pickerBackdrop.classList.add('open');
-  const close = () => { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; };
-  pickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = () => { close(); onPick(null); });
+  refreshScrollJumpVisibility();
+  igdbPickerFinish = onPick;
+  const finish = (val) => {
+    if(!igdbPickerFinish) return;
+    const r = igdbPickerFinish;
+    igdbPickerFinish = null;
+    pickerBackdrop.classList.remove('open');
+    pickerSlot.innerHTML = '';
+    refreshScrollJumpVisibility();
+    r(val);
+  };
+  pickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = () => finish(null));
   pickerSlot.querySelector('#picker-list').addEventListener('click', e => {
     const btn = e.target.closest('button[data-idx]');
     if(!btn) return;
-    const hit = hits[+btn.dataset.idx];
-    close(); onPick(hit);
+    finish(hits[+btn.dataset.idx]);
   });
 }
 pickerBackdrop.addEventListener('click', e => {
-  if(e.target === pickerBackdrop){ pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
+  if(e.target === pickerBackdrop){
+    if(igdbPickerFinish){ igdbPickerFinish(null); return; }
+    pickerBackdrop.classList.remove('open');
+    pickerSlot.innerHTML = '';
+    refreshScrollJumpVisibility();
+  }
 });
 function showLogoPicker(title, items, onPick, opts){
   opts = opts || {};
@@ -2871,7 +3072,8 @@ function showLogoPicker(title, items, onPick, opts){
       </div>
     </div>`;
   logopickerBackdrop.classList.add('open');
-  const close = () => { logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; };
+  refreshScrollJumpVisibility();
+  const close = () => { logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; refreshScrollJumpVisibility(); };
   logopickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = close);
   logopickerSlot.querySelector('#logopicker-grid').addEventListener('click', e => {
     const tile = e.target.closest('.logo-picker-tile');
@@ -2900,7 +3102,7 @@ function showLogoPicker(title, items, onPick, opts){
   }
 }
 logopickerBackdrop.addEventListener('click', e => {
-  if(e.target === logopickerBackdrop){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; }
+  if(e.target === logopickerBackdrop){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
 });
 
 async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
@@ -3545,6 +3747,7 @@ function openModal(g, t){
   if(modalNavIdx < 0){ modalNavList = [g]; modalNavIdx = 0; }
   renderModal(modalNavList[modalNavIdx], t);
   backdrop.classList.add('open');
+  refreshScrollJumpVisibility();
 }
 function renderModal(g, t){
   modalSlot.innerHTML = modalHTML(g, t);
@@ -3588,7 +3791,7 @@ function navigateModal(delta){
     }
   }
 }
-function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = ''; modalNavList = []; modalNavIdx = -1; }
+function closeModal(){ backdrop.classList.remove('open'); modalSlot.innerHTML = ''; modalNavList = []; modalNavIdx = -1; refreshScrollJumpVisibility(); }
 
 let mdBackdropTarget = null;
 backdrop.addEventListener('mousedown', e => { mdBackdropTarget = e.target; });
@@ -3966,6 +4169,7 @@ function openEditor(g, opts){
       </div>
     </div>`;
   backdrop.classList.add('open');
+  refreshScrollJumpVisibility();
 
   const $ = sel => modalSlot.querySelector(sel);
   const $$ = sel => modalSlot.querySelectorAll(sel);
@@ -4055,6 +4259,7 @@ function openEditor(g, opts){
   }
 
   function pickAttach(id){
+    if(modalSlot._mode === 'edit'){ toast('Attach is add-mode only — change the ID manually', 'bad'); return; }
     const g = MANIFEST.games[id] || viewGame(id);
     if(!g) return;
     modalSlot._attachId = id;
@@ -4386,7 +4591,7 @@ function openEditor(g, opts){
     if(!id){ toast('ID is required', 'bad'); return; }
     if(!/^[a-z0-9\-]+$/.test(id)){ toast('ID must be lowercase letters, digits, hyphens', 'bad'); return; }
 
-    if(mode2 === 'add' && !isAttach){
+    if(!isAttach && id !== (draft.id || '')){
       const exists = MANIFEST.games[id] || pendingGameWrites.has(id);
       if(exists){
         toast('ID already exists — pick it above or change the ID', 'bad');
@@ -4563,7 +4768,12 @@ function openEditor(g, opts){
       }
     }
 
-    pendingGameWrites.set(id, out);
+    {
+      const prev = MANIFEST.games[id];
+      if(!prev) pendingGameWrites.set(id, out);
+      else if(jsonEqual(prev, out)) pendingGameWrites.delete(id);
+      else pendingGameWrites.set(id, out);
+    }
 
     {
       const oldSeriesSlug = draft.series || null;
@@ -4716,7 +4926,6 @@ function openEditor(g, opts){
 }
 
 function openConfirmDelete(g){
-  editorDrafts.delete(g.id);
   modalSlot._editorKey = null;
   modalSlot.innerHTML = `
     <div class="confirm">
@@ -4729,8 +4938,10 @@ function openConfirmDelete(g){
       </div>
     </div>`;
   backdrop.classList.add('open');
+  refreshScrollJumpVisibility();
   modalSlot.querySelector('#confirm-delete').addEventListener('click', () => {
     const id = g.id;
+    editorDrafts.delete(id);
     pendingGameDeletes.add(id);
     pendingGameWrites.delete(id);
     for(const listId of REAL_LISTS){
@@ -4744,6 +4955,7 @@ function openConfirmDelete(g){
       if((s.order || []).includes(id)){
         const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(s));
         copy.order = (copy.order || []).filter(x => x !== id);
+        if(copy.display) delete copy.display[id];
         pendingSeriesWrites.set(slug, copy);
       }
     }
@@ -4809,6 +5021,8 @@ function closeAll(opts){
   if(modalSlot._editorKey && !opts.skipSnapshot){
     captureEditorDraft(modalSlot._editorKey);
   }
+  modalNavList = [];
+  modalNavIdx = -1;
   modalSlot._editorKey = null;
   modalSlot._editorBase = null;
   modalSlot._editorOpts = null;
@@ -4819,9 +5033,10 @@ function closeAll(opts){
   modalSlot._lockedSources = null;
   modalSlot._attachId = null;
   modalSlot._presetSeriesSlug = null;
-  pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
+  if(igdbPickerFinish){ igdbPickerFinish(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
   logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
   closeAllDropdowns();
+  refreshScrollJumpVisibility();
 }
 modalSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeAll(); });
 
@@ -5125,6 +5340,7 @@ function openSeriesHeaderModal(slug){
       </div>
     </div>`;
   seriesBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
 
   const $ = sel => seriesSlot.querySelector(sel);
   const nameEl = $('#sh-name');
@@ -5194,8 +5410,9 @@ function openSeriesHeaderModal(slug){
       if(viewSeries(slugVal)){ toast('Series slug already exists', 'bad'); return; }
       const created = { id: slugVal, name: nameVal, logo: ($('#sh-logo').value||'').trim(), order: [], display: {} };
       pendingSeriesWrites.set(slugVal, created);
-      if(!MANIFEST.series_order.includes(slugVal)){
-        MANIFEST.series_order = (MANIFEST.series_order || []).concat(slugVal);
+      const baseOrder = pendingSeriesOrder || MANIFEST.series_order || [];
+      if(!baseOrder.includes(slugVal)){
+        pendingSeriesOrder = baseOrder.concat(slugVal);
       }
       toast('Staged new series');
     } else {
@@ -5217,6 +5434,7 @@ function closeSeriesHeaderModal(){
   seriesSlot.innerHTML = '';
   seriesSlot._slug = '';
   seriesSlot._isNew = false;
+  refreshScrollJumpVisibility();
 }
 seriesBackdrop.addEventListener('click', e => { if(e.target === seriesBackdrop) closeSeriesHeaderModal(); });
 seriesSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeSeriesHeaderModal(); });
@@ -5259,6 +5477,7 @@ function openSeriesRowDisplayEditor(slug, gameId){
       </div>
     </div>`;
   seriesBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
   seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
   seriesSlot.querySelector('#sr-save').onclick = () => {
     const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(s));
@@ -5292,6 +5511,7 @@ function openSeriesRowDisplayEditor(slug, gameId){
 const RANDOM_REEL_SIZE = 50;
 const RANDOM_BLACKLIST = 5;
 let randomSpinning = false;
+let randomSpinToken = 0;
 let randomRecentWinners = [];
 let randomWinner = null;
 let randomCurrentX = 0;
@@ -5330,7 +5550,6 @@ function randomPool(){
       out.push(g);
     }
   }
-  if(!out.length) return Object.values(MANIFEST.games);
   return out;
 }
 function randomPickWinner(pool){
@@ -5517,7 +5736,7 @@ function easeOutBack(t, s){
 async function randomFinishSpin(winnerId, tintPromise){
   randomRecentWinners.push(winnerId);
   while(randomRecentWinners.length > RANDOM_BLACKLIST) randomRecentWinners.shift();
-  const g = MANIFEST.games[winnerId];
+  const g = viewGame(winnerId);
   randomWinner = g || null;
   let tint = null;
   if(tintPromise){
@@ -5545,6 +5764,7 @@ async function randomSpin(){
   if(randomSpinning) return;
   const pool = randomPool();
   if(!pool.length){ toast('No games to pick from', 'bad'); return; }
+  const myToken = ++randomSpinToken;
   randomSpinning = true;
   randomSpinBtn.disabled = true;
   randomSpinBtn.textContent = 'SPINNING…';
@@ -5562,6 +5782,7 @@ async function randomSpin(){
     : targetIdx;
   buildRandomReel(winner.id, targetIdx, pool);
   await waitForReelImages(700);
+  if(myToken !== randomSpinToken) return;
   const phase1X = willBounce ? randomXForGapAfter(targetIdx) : randomXForIndex(targetIdx);
   const phase2X = willBounce ? randomXForIndex(finalIdx) : null;
   const startX = 0;
@@ -5570,6 +5791,7 @@ async function randomSpin(){
   const phase2Duration = 620;
   const t0 = performance.now();
   function frame1(now){
+    if(myToken !== randomSpinToken) return;
     const t = Math.min((now - t0) / phase1Duration, 1);
     const eased = easeOutQuint(t);
     const x = startX + (phase1X - startX) * eased;
@@ -5582,8 +5804,10 @@ async function randomSpin(){
       randomReel.style.transform = `translateX(${Math.round(phase1X)}px)`;
       if(willBounce){
         setTimeout(() => {
+          if(myToken !== randomSpinToken) return;
           const t2Start = performance.now();
           requestAnimationFrame(function frame2(now2){
+            if(myToken !== randomSpinToken) return;
             const t2 = Math.min((now2 - t2Start) / phase2Duration, 1);
             const eased2 = easeOutBack(t2, 1.15);
             const x2 = phase1X + (phase2X - phase1X) * eased2;
@@ -5615,6 +5839,7 @@ function openRandomOverlay(){
   ]);
   randomRenderPages();
   randomOverlay.classList.add('open');
+  refreshScrollJumpVisibility();
   randomReel.innerHTML = '';
   randomLogoSlot.classList.remove('show', 'clickable');
   randomLogoSlot.innerHTML = '';
@@ -5623,9 +5848,11 @@ function openRandomOverlay(){
   randomSpinning = false;
 }
 function closeRandomOverlay(){
+  randomSpinToken++;
   randomOverlay.classList.remove('open');
   randomSpinning = false;
   randomLogoSlot.classList.remove('show', 'clickable');
+  refreshScrollJumpVisibility();
 }
 randomBtn.addEventListener('click', openRandomOverlay);
 randomCloseBtn.addEventListener('click', closeRandomOverlay);
@@ -5711,8 +5938,7 @@ toolbarEl.addEventListener('click', e => {
         btn.classList.toggle('active', filterSet.has(btn.dataset.filter));
       });
     }
-    invalidateAllPanes();
-    renderContent();
+    refreshGrid();
     return;
   }
   const so = e.target.closest('[data-sort]');
@@ -5746,9 +5972,10 @@ document.addEventListener('keydown', e => {
       closeDRIFT(); return;
     }
     if(randomOverlay.classList.contains('open')){ closeRandomOverlay(); return; }
-    closeModal(); closeAllDropdowns(); closeTokenPrompt();
+    if(modalSlot._editorKey){ closeAll(); } else { closeModal(); }
+    closeAllDropdowns(); closeTokenPrompt();
     closePendingModal(); closeToolsModal(); closeSeriesHeaderModal();
-    pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = '';
+    if(igdbPickerFinish){ igdbPickerFinish(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
     logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
     return;
   }
@@ -5762,7 +5989,8 @@ document.addEventListener('keydown', e => {
     ae.isContentEditable
   );
   if(isInputFocused) return;
-  if(backdrop.classList.contains('open')){
+  const hasGameModal = !!modalSlot.querySelector('.modal');
+  if(backdrop.classList.contains('open') && hasGameModal){
     if(e.key === 'ArrowRight'){ e.preventDefault(); navigateModal(+1); }
     if(e.key === 'ArrowLeft'){  e.preventDefault(); navigateModal(-1); }
   }
@@ -5786,9 +6014,7 @@ contentEl.addEventListener('click', e => {
       const g = viewGame(id);
       if(!g) continue;
       if(g.series === slug){
-        const gc = JSON.parse(JSON.stringify(g));
-        gc.series = null; gc.series_status = null; gc.series_note = null;
-        pendingGameWrites.set(id, gc);
+        recalcGameSeriesField(id);
       }
     }
     invalidateAllPanes();
@@ -5830,9 +6056,7 @@ contentEl.addEventListener('click', e => {
     pendingSeriesWrites.set(slug, copy);
     const g = viewGame(id);
     if(g && g.series === slug){
-      const gc = JSON.parse(JSON.stringify(g));
-      gc.series = null; gc.series_status = null; gc.series_note = null;
-      pendingGameWrites.set(id, gc);
+      recalcGameSeriesField(id);
     }
     invalidateAllPanes();
     updatePendingStrip();
@@ -5876,15 +6100,15 @@ let dragSrcId = null;
 let dragSrcSeries = null;
 let dragSrcRow = null;
 contentEl.addEventListener('dragstart', e => {
-  const block = e.target.closest('.series-block[draggable="true"]');
-  if(block){
-    dragSrcSeries = block.dataset.series;
-    e.dataTransfer.effectAllowed = 'move';
-    return;
-  }
   const sRow = e.target.closest('.series-game-row[draggable="true"]');
   if(sRow){
     dragSrcRow = { slug: sRow.dataset.series, id: sRow.dataset.id };
+    e.dataTransfer.effectAllowed = 'move';
+    return;
+  }
+  const block = e.target.closest('.series-block[draggable="true"]');
+  if(block){
+    dragSrcSeries = block.dataset.series;
     e.dataTransfer.effectAllowed = 'move';
     return;
   }
@@ -5929,14 +6153,13 @@ contentEl.addEventListener('drop', e => {
     block.classList.remove('drag-over');
     const targetSlug = block.dataset.series;
     if(targetSlug === dragSrcSeries) { dragSrcSeries = null; return; }
-    const order = MANIFEST.series_order.slice();
+    const order = (pendingSeriesOrder || MANIFEST.series_order || []).slice();
     const fromIdx = order.indexOf(dragSrcSeries);
     const toIdx = order.indexOf(targetSlug);
     if(fromIdx < 0 || toIdx < 0){ dragSrcSeries = null; return; }
     order.splice(fromIdx, 1);
     order.splice(toIdx, 0, dragSrcSeries);
-    MANIFEST.series_order = order;
-    pendingFileWrites.set('data/series_order.json', JSON.stringify(order, null, 2) + '\n');
+    pendingSeriesOrder = order;
     invalidateAllPanes();
     updatePendingStrip();
     renderContent();
@@ -6008,6 +6231,7 @@ const gtgImg = gtgOverlay.querySelector('[data-gtg-img]');
 const gtgShield = gtgOverlay.querySelector('[data-gtg-shield]');
 const gtgTilesEl = gtgOverlay.querySelector('[data-gtg-tiles]');
 const gtgScoreEl = gtgOverlay.querySelector('[data-gtg-score]');
+const gtgStreakEl = gtgOverlay.querySelector('[data-gtg-streak]');
 const gtgHeartsEl = gtgOverlay.querySelector('[data-gtg-hearts]');
 const gtgGameoverEl = gtgOverlay.querySelector('[data-gtg-gameover]');
 const gtgFinalEl = gtgOverlay.querySelector('[data-gtg-final]');
@@ -6022,9 +6246,55 @@ const GTG_DIFF = {
   medium: { logos: 5,  hearts: 3 },
   hard:   { logos: 10, hearts: 2 }
 };
+const GTG_STREAK_TIERS = [
+  { min: 10, mult: 2.0 },
+  { min: 7,  mult: 1.8 },
+  { min: 4,  mult: 1.5 },
+  { min: 2,  mult: 1.2 },
+  { min: 0,  mult: 1.0 },
+];
+function gtgStreakMult(streak){
+  for(const t of GTG_STREAK_TIERS) if(streak >= t.min) return t.mult;
+  return 1.0;
+}
+const GTG_PULLBACK_KEYFRAMES = [
+  [0, 2.0],
+  [1, 2.0],
+  [2, 1.7],
+  [3, 1.4],
+  [4, 1.2],
+  [5, 1.1],
+  [6, 1.0],
+];
+function gtgPullbackMult(tSec){
+  const kf = GTG_PULLBACK_KEYFRAMES;
+  if(tSec >= 6) return 1.0;
+  for(let i = 0; i < kf.length - 1; i++){
+    const [t1, v1] = kf[i];
+    const [t2, v2] = kf[i+1];
+    if(tSec >= t1 && tSec <= t2){
+      const frac = (t2 - t1) === 0 ? 0 : (tSec - t1) / (t2 - t1);
+      return v1 + (v2 - v1) * frac;
+    }
+  }
+  return 1.0;
+}
+function gtgZoomAt(tSec){
+  const t = Math.min(tSec / 6, 1);
+  return 0.6 + (1.0 - 0.6) * t;
+}
 const gtgState = {
-  diff: 'medium', score: 0, heartsLeft: 3, busy: false, over: false,
-  winner: null, picks: [], locked: false
+  diff: 'medium',
+  score: 0,
+  heartsLeft: 3,
+  busy: false,
+  over: false,
+  winner: null,
+  picks: [],
+  locked: false,
+  streak: 0,
+  seenIds: new Set(),
+  pullback: { rafId: null, multiplier: 1.0 }
 };
 function gtgPad4(n){ return String(Math.max(0, n|0)).padStart(4, '0'); }
 function gtgGet(k, fb){ try{ const v = localStorage.getItem(k); return v ? parseInt(v,10)||0 : (fb||0);}catch(e){ return fb||0; } }
@@ -6046,6 +6316,68 @@ function gtgShuffle(a){
   }
   return a;
 }
+function gtgPrefixMatch(nameA, nameB){
+  const wa = normalizeName(nameA).split(' ').filter(Boolean);
+  const wb = normalizeName(nameB).split(' ').filter(Boolean);
+  if(!wa.length || !wb.length) return false;
+  const fA = wa[0], fB = wb[0];
+  if(fA.length < 3 || fB.length < 3) return false;
+  return fA === fB;
+}
+function gtgHardConnection(a, b){
+  if(a.series && b.series && a.series === b.series) return 1;
+  if(a.name && b.name){
+    if(gtgPrefixMatch(a.name, b.name)) return 2;
+    if(nameSimilarity(a.name, b.name) >= 0.75) return 2;
+  }
+  return 0;
+}
+function gtgSoftConnection(a, b){
+  if(a.dev && b.dev && a.dev.trim().toLowerCase() === b.dev.trim().toLowerCase()) return 1;
+  if(a.pub && b.pub && a.pub.trim().toLowerCase() === b.pub.trim().toLowerCase()) return 2;
+  return 0;
+}
+function gtgPickSmartDecoys(winner, count, mode, pool){
+  if(count <= 0) return [];
+  const hardCap = mode === 'hard' ? 4 : (mode === 'medium' ? 2 : 0);
+  const softCap = mode === 'hard' ? 3 : 0;
+  const used = new Set([winner.id]);
+  const hard = [];
+  const soft = [];
+  for(const g of pool){
+    if(used.has(g.id)) continue;
+    if(!g.logo) continue;
+    const h = gtgHardConnection(winner, g);
+    if(h > 0){ hard.push({ g, tier: h }); continue; }
+    const s = gtgSoftConnection(winner, g);
+    if(s > 0){ soft.push({ g, tier: s }); }
+  }
+  hard.sort((a, b) => a.tier - b.tier);
+  soft.sort((a, b) => a.tier - b.tier);
+  const picks = [];
+  for(const c of hard){
+    if(picks.length >= Math.min(hardCap, count)) break;
+    if(used.has(c.g.id)) continue;
+    used.add(c.g.id);
+    picks.push(c.g);
+  }
+  for(const c of soft){
+    if(picks.length >= Math.min(hardCap + softCap, count)) break;
+    if(used.has(c.g.id)) continue;
+    used.add(c.g.id);
+    picks.push(c.g);
+  }
+  if(picks.length < count){
+    const remaining = pool.filter(g => !used.has(g.id));
+    gtgShuffle(remaining);
+    for(const g of remaining){
+      if(picks.length >= count) break;
+      used.add(g.id);
+      picks.push(g);
+    }
+  }
+  return picks;
+}
 function gtgShowView(name){
   Object.values(gtgViews).forEach(v => v.classList.remove('on'));
   gtgViews[name].classList.add('on');
@@ -6065,6 +6397,10 @@ function gtgRenderHearts(){
   }
 }
 function gtgRenderScore(){ gtgScoreEl.textContent = gtgPad4(gtgState.score); }
+function gtgRenderStreak(){
+  const mult = gtgStreakMult(gtgState.streak);
+  gtgStreakEl.textContent = 'x' + mult.toFixed(1);
+}
 function gtgSizeShotFrame(){
   const nw = gtgImg.naturalWidth, nh = gtgImg.naturalHeight;
   if(!nw || !nh) return;
@@ -6085,12 +6421,17 @@ function gtgPickShotUrl(g){
   return u + (u.includes('?') ? '&' : '?') + 'cb=' + Date.now();
 }
 function gtgBuildRound(){
-  const pool = gtgPool();
   const needed = GTG_DIFF[gtgState.diff].logos;
-  if(pool.length < needed){ toast('Not enough games with screenshots + logos', 'bad'); return false; }
-  gtgShuffle(pool);
-  const winner = pool[0];
-  const picks = pool.slice(0, needed);
+  const fullPool = gtgPool();
+  if(fullPool.length < needed){ toast('Not enough games with screenshots + logos', 'bad'); return false; }
+  const unseen = fullPool.filter(g => !gtgState.seenIds.has(g.id));
+  const winnerPool = unseen.length >= 1 ? unseen : fullPool;
+  gtgShuffle(winnerPool);
+  const winner = winnerPool[0];
+  gtgState.seenIds.add(winner.id);
+  const decoyCount = needed - 1;
+  const decoys = gtgPickSmartDecoys(winner, decoyCount, gtgState.diff, fullPool);
+  const picks = [winner, ...decoys];
   gtgShuffle(picks);
   gtgState.winner = winner;
   gtgState.picks = picks;
@@ -6105,6 +6446,7 @@ function gtgRenderTiles(){
     b.type = 'button';
     b.className = 'gtg-tile';
     b.dataset.gtgId = g.id;
+    b.title = g.name || '';
     const img = document.createElement('img');
     img.src = logoSrc(g.logo);
     img.alt = '';
@@ -6119,11 +6461,39 @@ function gtgHideShot(){
   void gtgImg.offsetWidth;
   gtgImg.style.transition = '';
 }
+function gtgStopPullback(){
+  if(gtgState.pullback.rafId){
+    cancelAnimationFrame(gtgState.pullback.rafId);
+    gtgState.pullback.rafId = null;
+  }
+}
+function gtgStartPullback(){
+  gtgStopPullback();
+  const t0 = performance.now();
+  const DURATION = 6000;
+  const loop = () => {
+    const elapsed = performance.now() - t0;
+    const tSec = Math.min(elapsed / 1000, 6);
+    const zoom = gtgZoomAt(tSec);
+    const mult = gtgPullbackMult(tSec);
+    gtgImg.style.transform = 'scale(' + (1 / zoom) + ')';
+    gtgState.pullback.multiplier = mult;
+    if(elapsed < DURATION){
+      gtgState.pullback.rafId = requestAnimationFrame(loop);
+    } else {
+      gtgState.pullback.rafId = null;
+    }
+  };
+  gtgState.pullback.rafId = requestAnimationFrame(loop);
+}
 function gtgApplyShot(url){
   gtgImg.classList.remove('ready');
+  gtgImg.style.transform = 'scale(' + (1 / 0.6) + ')';
+  gtgState.pullback.multiplier = 2.0;
   gtgImg.onload = () => {
     gtgSizeShotFrame();
     requestAnimationFrame(() => gtgImg.classList.add('ready'));
+    gtgStartPullback();
   };
   gtgImg.src = url;
 }
@@ -6167,6 +6537,7 @@ function gtgRunStatic(durationMs, onDone){
   raf = requestAnimationFrame(frame);
 }
 function gtgDoStaticThen(url, after){
+  gtgStopPullback();
   gtgHideShot();
   const preload = new Image();
   let loaded = false;
@@ -6180,12 +6551,12 @@ function gtgDoStaticThen(url, after){
     if(after) after();
   });
 }
-function gtgSpawnFloatPlus(tile){
+function gtgSpawnFloatPlus(tile, points){
   const rect = tile.getBoundingClientRect();
   const parentRect = gtgOverlay.getBoundingClientRect();
   const plus = document.createElement('span');
   plus.className = 'gtg-float-plus';
-  plus.textContent = '+1';
+  plus.textContent = '+' + points;
   plus.style.left = (rect.left - parentRect.left + gtgOverlay.scrollLeft + rect.width / 2) + 'px';
   plus.style.top  = (rect.top  - parentRect.top  + gtgOverlay.scrollTop  + rect.height / 2) + 'px';
   plus.style.position = 'absolute';
@@ -6195,13 +6566,26 @@ function gtgSpawnFloatPlus(tile){
 function gtgHandlePick(tile){
   if(gtgState.locked || gtgState.over || gtgState.busy) return;
   gtgState.locked = true;
+  gtgStopPullback();
   const pickedId = tile.dataset.gtgId;
   const isCorrect = pickedId === gtgState.winner.id;
   if(isCorrect){
-    gtgState.score++;
+    const pullbackMult = gtgState.pullback.multiplier;
+    const streakMult = gtgStreakMult(gtgState.streak);
+    const points = Math.max(1, Math.round(pullbackMult * streakMult));
+    gtgState.score += points;
+    gtgState.streak += 1;
     gtgRenderScore();
+    gtgRenderStreak();
+    if(gtgState.streak > 0 && gtgState.streak % 10 === 0){
+      const total = GTG_DIFF[gtgState.diff].hearts;
+      if(gtgState.heartsLeft < total){
+        gtgState.heartsLeft++;
+        gtgRenderHearts();
+      }
+    }
     tile.classList.add('gtg-correct');
-    gtgSpawnFloatPlus(tile);
+    gtgSpawnFloatPlus(tile, points);
     setTimeout(() => {
       if(!gtgBuildRound()) return;
       const nextUrl = gtgPickShotUrl(gtgState.winner);
@@ -6211,6 +6595,8 @@ function gtgHandlePick(tile){
     tile.classList.add('gtg-wrong');
     gtgFrameEl.classList.add('gtg-shake');
     setTimeout(() => gtgFrameEl.classList.remove('gtg-shake'), 450);
+    gtgState.streak = 0;
+    gtgRenderStreak();
     gtgState.heartsLeft--;
     gtgRenderHearts();
     const isDead = gtgState.heartsLeft <= 0;
@@ -6226,6 +6612,7 @@ function gtgHandlePick(tile){
 }
 function gtgEndGame(){
   gtgState.over = true;
+  gtgStopPullback();
   gtgFinalEl.textContent = gtgPad4(gtgState.score);
   const top = gtgGet(GTG_TOP_KEY, 0);
   if(gtgState.score > top){
@@ -6243,11 +6630,15 @@ function gtgStart(diff){
   gtgState.score = 0;
   gtgState.heartsLeft = GTG_DIFF[diff].hearts;
   gtgState.over = false;
+  gtgState.streak = 0;
+  gtgState.seenIds = new Set();
+  gtgStopPullback();
   gtgGameoverEl.style.display = 'none';
   if(!gtgBuildRound()){ return; }
   gtgShowView('game');
   gtgRenderScore();
   gtgRenderHearts();
+  gtgRenderStreak();
   const firstUrl = gtgPickShotUrl(gtgState.winner);
   gtgHideShot();
   gtgRunStatic(400, () => {
@@ -6257,6 +6648,7 @@ function gtgStart(diff){
 }
 function gtgBackToSplash(){
   gtgState.over = false;
+  gtgStopPullback();
   gtgGameoverEl.style.display = 'none';
   gtgShowView('splash');
   gtgRefreshScoreboard();
@@ -6264,13 +6656,16 @@ function gtgBackToSplash(){
 function openGTG(){
   gtgOverlay.classList.add('open');
   document.body.style.overflow = 'hidden';
+  refreshScrollJumpVisibility();
   gtgRefreshScoreboard();
   gtgShowView('splash');
 }
 function closeGTG(){
   gtgOverlay.classList.remove('open');
   document.body.style.overflow = '';
+  gtgStopPullback();
   gtgGameoverEl.style.display = 'none';
+  refreshScrollJumpVisibility();
 }
 gtgClose.addEventListener('click', closeGTG);
 gtgOverlay.querySelectorAll('[data-gtg-diff]').forEach(b => b.addEventListener('click', () => gtgStart(b.dataset.gtgDiff)));
@@ -6295,6 +6690,7 @@ const driftViews = {
   summary: driftOverlay.querySelector('[data-drift-view="summary"]')
 };
 const driftScoreEl = driftOverlay.querySelector('[data-drift-score]');
+const driftTierEl = driftOverlay.querySelector('[data-drift-tier]');
 const driftHeartsEl = driftOverlay.querySelector('[data-drift-hearts]');
 const driftPromptEl = driftOverlay.querySelector('[data-drift-prompt]');
 const driftRevealLineEl = driftOverlay.querySelector('[data-drift-reveal-line]');
@@ -6302,11 +6698,15 @@ const driftFinalEl = driftOverlay.querySelector('[data-drift-final]');
 const driftNewHighEl = driftOverlay.querySelector('[data-drift-newhigh]');
 const driftLastEl = driftOverlay.querySelector('[data-drift-last]');
 const driftTopEl = driftOverlay.querySelector('[data-drift-top]');
+const driftPeekBtn = driftOverlay.querySelector('[data-drift-peek]');
 
 const DRIFT_HP = 3;
 const DRIFT_MULT = { easy: 0.8, medium: 1.0, hard: 1.3 };
+const DRIFT_BANDS = ['easy', 'medium', 'hard'];
 const DRIFT_LAST_KEY = 'drift_last_v1';
 const DRIFT_TOP_KEY = 'drift_top_v1';
+const DRIFT_NARROW_STREAK = 5;
+const DRIFT_PEEK_EVERY = 5;
 
 const DRIFT_QUESTIONS = [
   {
@@ -6342,20 +6742,24 @@ const DRIFT_QUESTIONS = [
 ];
 
 const driftState = {
-  diff: 'medium',
+  bandIndex: 0,
   hpLeft: 3,
   score: 0,
   busy: false,
   over: false,
   current: null,
   lastWinnerId: null,
-  lastQuestionKey: null
+  lastQuestionKey: null,
+  correctStreak: 0,
+  duosPlayed: 0,
+  peekAvailable: false,
+  peekUsedThisRound: false
 };
 function driftGet(k, fb){ try{ const v = localStorage.getItem(k); return v ? parseInt(v,10)||0 : (fb||0);}catch(e){ return fb||0; } }
 function driftSet(k, v){ try{ localStorage.setItem(k, String(v)); }catch(e){} }
 
-/* Case number: first tab the game belongs to (in REAL_LISTS order)
-   gives (tabIdx+1)*1000 + rowIdx+1. So Released #1001..#1999, Mods #4001.., Beaten #9001.. */
+function driftCurrentBand(){ return DRIFT_BANDS[driftState.bandIndex] || 'easy'; }
+
 function driftCaseNumber(gameId){
   for(let i = 0; i < REAL_LISTS.length; i++){
     const t = REAL_LISTS[i];
@@ -6386,6 +6790,16 @@ function driftRenderHearts(){
 function driftRenderScore(){
   driftScoreEl.textContent = String(Math.round(driftState.score));
 }
+function driftRenderTier(){
+  driftTierEl.textContent = driftCurrentBand().toUpperCase();
+}
+function driftUpdatePeekButton(){
+  if(driftState.peekAvailable && !driftState.peekUsedThisRound && !driftState.busy && !driftState.over){
+    driftPeekBtn.classList.remove('hidden');
+  } else {
+    driftPeekBtn.classList.add('hidden');
+  }
+}
 
 function driftFormatValue(q, v){
   if(q.key === 'release') return String(Math.round(v));
@@ -6410,8 +6824,10 @@ function driftAssemblePair(q, a, b){
 }
 
 function driftBuildPair(q, diff, lastWinnerId){
+  const banned = new Set([...listFor('unreleased'), ...listFor('early-access')]);
   const pool = [];
   for(const id of Object.keys(MANIFEST.games)){
+    if(banned.has(id)) continue;
     const g = MANIFEST.games[id];
     if(!g.screenshot || !g.logo) continue;
     const v = q.getValue(g);
@@ -6493,6 +6909,8 @@ function driftRenderPair(pair){
   rightSubj.textContent = rn ? 'SUBJECT #' + rn : 'SUBJECT —';
 
   driftPromptEl.textContent = pair.q.prompt;
+  driftState.peekUsedThisRound = false;
+  driftUpdatePeekButton();
 }
 
 function driftNextRound(){
@@ -6501,10 +6919,10 @@ function driftNextRound(){
     q = DRIFT_QUESTIONS[Math.floor(Math.random() * DRIFT_QUESTIONS.length)];
     if(q.key !== driftState.lastQuestionKey || DRIFT_QUESTIONS.length === 1) break;
   }
-  let pair = driftBuildPair(q, driftState.diff, driftState.lastWinnerId);
+  let pair = driftBuildPair(q, driftCurrentBand(), driftState.lastWinnerId);
   if(!pair){
     for(const altQ of DRIFT_QUESTIONS){
-      const altPair = driftBuildPair(altQ, driftState.diff, driftState.lastWinnerId);
+      const altPair = driftBuildPair(altQ, driftCurrentBand(), driftState.lastWinnerId);
       if(altPair){
         driftState.lastQuestionKey = altQ.key;
         driftState.current = altPair;
@@ -6528,6 +6946,7 @@ function driftAnswer(side){
   const pair = driftState.current;
   if(!pair) return;
   driftState.busy = true;
+  driftUpdatePeekButton();
 
   const clickedCard = driftOverlay.querySelector(`.drift-card[data-drift-side="${side}"]`);
   const otherSide = side === 'left' ? 'right' : 'left';
@@ -6535,26 +6954,40 @@ function driftAnswer(side){
   const correct = side === pair.winnerSide;
   const revealThis = driftOverlay.querySelector(`[data-drift-reveal="${side}"]`);
   const revealOther = driftOverlay.querySelector(`[data-drift-reveal="${otherSide}"]`);
+  const band = driftCurrentBand();
 
   if(correct){
-    driftState.score += DRIFT_MULT[driftState.diff];
+    driftState.score += DRIFT_MULT[band];
     driftRenderScore();
     clickedCard.classList.add('correct');
     driftState.lastWinnerId = side === 'left' ? pair.left.id : pair.right.id;
+    driftState.correctStreak++;
+    if(driftState.correctStreak >= DRIFT_NARROW_STREAK && driftState.bandIndex < 2){
+      driftState.correctStreak = 0;
+      driftState.bandIndex++;
+      driftRenderTier();
+    }
   } else {
     driftState.hpLeft--;
     driftRenderHearts();
     clickedCard.classList.add('wrong');
     otherCard.classList.add('correct-reveal');
     driftState.lastWinnerId = pair.winnerSide === 'left' ? pair.left.id : pair.right.id;
+    driftState.correctStreak = 0;
+    if(driftState.bandIndex > 0){
+      driftState.bandIndex--;
+      driftRenderTier();
+    }
   }
 
-  if(driftState.diff === 'easy'){
-    revealThis.textContent = driftFormatValue(pair.q, pair.values[side]);
-    revealOther.textContent = driftFormatValue(pair.q, pair.values[otherSide]);
-    revealThis.classList.add('show');
-    revealOther.classList.add('show');
-  } else if(driftState.diff === 'medium'){
+  if(band === 'easy' || driftState.peekUsedThisRound){
+    if(!revealThis.textContent){
+      revealThis.textContent = driftFormatValue(pair.q, pair.values[side]);
+      revealOther.textContent = driftFormatValue(pair.q, pair.values[otherSide]);
+      revealThis.classList.add('show');
+      revealOther.classList.add('show');
+    }
+  } else if(band === 'medium'){
     const a = pair.values.left, b = pair.values.right;
     let line;
     if(pair.q.key === 'release'){
@@ -6569,7 +7002,12 @@ function driftAnswer(side){
     driftRevealLineEl.classList.add('show');
   }
 
-  const delay = driftState.diff === 'hard' ? 700 : 1100;
+  driftState.duosPlayed++;
+  if(driftState.duosPlayed % DRIFT_PEEK_EVERY === 0 && !driftState.peekAvailable){
+    driftState.peekAvailable = true;
+  }
+
+  const delay = band === 'hard' ? 700 : 1100;
   setTimeout(() => {
     if(driftState.hpLeft <= 0){
       driftEndGame();
@@ -6577,6 +7015,23 @@ function driftAnswer(side){
     }
     driftNextRound();
   }, delay);
+}
+
+function driftUsePeek(){
+  if(!driftState.peekAvailable) return;
+  if(driftState.busy || driftState.over) return;
+  if(driftState.peekUsedThisRound) return;
+  const pair = driftState.current;
+  if(!pair) return;
+  const leftR = driftOverlay.querySelector('[data-drift-reveal="left"]');
+  const rightR = driftOverlay.querySelector('[data-drift-reveal="right"]');
+  leftR.textContent = driftFormatValue(pair.q, pair.values.left);
+  rightR.textContent = driftFormatValue(pair.q, pair.values.right);
+  leftR.classList.add('show');
+  rightR.classList.add('show');
+  driftState.peekAvailable = false;
+  driftState.peekUsedThisRound = true;
+  driftUpdatePeekButton();
 }
 
 function driftEndGame(){
@@ -6595,8 +7050,8 @@ function driftEndGame(){
   driftShowView('summary');
 }
 
-function driftStart(diff){
-  driftState.diff = diff;
+function driftStart(){
+  driftState.bandIndex = 0;
   driftState.hpLeft = DRIFT_HP;
   driftState.score = 0;
   driftState.over = false;
@@ -6604,9 +7059,15 @@ function driftStart(diff){
   driftState.current = null;
   driftState.lastWinnerId = null;
   driftState.lastQuestionKey = null;
+  driftState.correctStreak = 0;
+  driftState.duosPlayed = 0;
+  driftState.peekAvailable = false;
+  driftState.peekUsedThisRound = false;
   driftShowView('game');
   driftRenderHearts();
   driftRenderScore();
+  driftRenderTier();
+  driftUpdatePeekButton();
   driftNextRound();
 }
 function driftBackToSplash(){
@@ -6617,24 +7078,35 @@ function driftBackToSplash(){
 function openDRIFT(){
   driftOverlay.classList.add('open');
   document.body.style.overflow = 'hidden';
+  refreshScrollJumpVisibility();
   driftRefreshScoreboard();
   driftShowView('splash');
 }
 function closeDRIFT(){
   driftOverlay.classList.remove('open');
   document.body.style.overflow = '';
+  refreshScrollJumpVisibility();
 }
 
 driftClose.addEventListener('click', closeDRIFT);
-driftOverlay.querySelectorAll('[data-drift-diff]').forEach(b => b.addEventListener('click', () => driftStart(b.dataset.driftDiff)));
-driftOverlay.querySelectorAll('[data-drift-play-again]').forEach(b => b.addEventListener('click', () => driftStart(driftState.diff)));
+driftOverlay.querySelectorAll('[data-drift-start]').forEach(b => b.addEventListener('click', driftStart));
+driftOverlay.querySelectorAll('[data-drift-play-again]').forEach(b => b.addEventListener('click', driftStart));
 driftOverlay.querySelectorAll('[data-drift-menu]').forEach(b => b.addEventListener('click', driftBackToSplash));
 driftOverlay.querySelectorAll('.drift-card').forEach(card => card.addEventListener('click', () => driftAnswer(card.dataset.driftSide)));
+if(driftPeekBtn) driftPeekBtn.addEventListener('click', driftUsePeek);
 
 /* ═══ SCROLL JUMP BUTTONS ═══ */
 const scrollDownBtn = document.getElementById('scrollDownBtn');
 const scrollUpBtn = document.getElementById('scrollUpBtn');
 
+function positionJumpButtons(){
+  const vw = document.documentElement.clientWidth;
+  const bodyPad = parseFloat(getComputedStyle(document.body).paddingLeft) || 28;
+  const tbMax = 1400;
+  const left = Math.max(bodyPad, (vw - tbMax) / 2);
+  scrollDownBtn.style.left = left + 'px';
+  scrollUpBtn.style.left = left + 'px';
+}
 function updateScrollButtons(){
   const overlayOpen =
     backdrop.classList.contains('open') ||
@@ -6662,9 +7134,9 @@ function updateScrollButtons(){
   scrollUpBtn.classList.toggle('show', canUp);
 }
 window.addEventListener('scroll', updateScrollButtons, { passive: true });
-window.addEventListener('resize', updateScrollButtons);
+window.addEventListener('resize', () => { updateScrollButtons(); positionJumpButtons(); });
 if(window.ResizeObserver){
-  new ResizeObserver(updateScrollButtons).observe(document.body);
+  new ResizeObserver(() => { updateScrollButtons(); positionJumpButtons(); }).observe(document.body);
 }
 scrollDownBtn.addEventListener('click', () => {
   window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
@@ -6673,6 +7145,15 @@ scrollUpBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 updateScrollButtons();
+positionJumpButtons();
+
+window.addEventListener('beforeunload', e => {
+  if(totalPendingCount() > 0){
+    e.preventDefault();
+    e.returnValue = '';
+    return '';
+  }
+});
 
 /* ═══ BUTTON WIRING ═══ */
 document.getElementById('guessBtn').addEventListener('click', openGTG);
@@ -6702,6 +7183,7 @@ document.getElementById('driftBtn').addEventListener('click', openDRIFT);
   updatePendingStrip();
   bootAdminFlow();
   updateScrollButtons();
+  positionJumpButtons();
 })();
 </script>
 </body>
