@@ -620,10 +620,9 @@
   /* ═══ SCROLL JUMP ═══ */
   .scroll-jump{
     position:fixed;left:1.5rem;z-index:90;
-    display:inline-flex;align-items:center;gap:.5rem;
-    font-family:var(--font-head);font-size:.66rem;font-weight:700;
-    letter-spacing:.14em;text-transform:uppercase;
-    padding:.55rem .9rem;border:1px solid var(--border);border-radius:8px;
+    width:44px;height:44px;border-radius:50%;
+    display:grid;place-items:center;padding:0;
+    border:1px solid var(--border);
     background-color:rgba(10,14,21,.72);
     backdrop-filter:blur(10px) saturate(140%);-webkit-backdrop-filter:blur(10px) saturate(140%);
     color:#cbd5e1;cursor:pointer;
@@ -632,14 +631,14 @@
     opacity:0;transform:translateY(8px);pointer-events:none;
   }
   .scroll-jump.show{opacity:1;transform:translateY(0);pointer-events:auto;}
-  .scroll-jump.down{top:5rem;}
+  .scroll-jump.down{top:9.5rem;}
   .scroll-jump.up{bottom:1.5rem;transform:translateY(-8px);}
   .scroll-jump.up.show{transform:translateY(0);}
   .scroll-jump:hover{color:var(--accent);border-color:var(--accent-line);background-image:linear-gradient(var(--accent-soft),var(--accent-soft));}
-  .scroll-jump .arw{font-size:.95em;line-height:1;}
+  .scroll-jump .arw{font-size:1.2rem;line-height:1;font-family:var(--font-head);font-weight:700;}
   @media (max-width:640px){
-    .scroll-jump{font-size:.6rem;padding:.5rem .75rem;}
-    .scroll-jump.down{top:5rem;}
+    .scroll-jump{width:40px;height:40px;}
+    .scroll-jump.down{top:9.5rem;}
     .scroll-jump.up{bottom:1rem;}
   }
 
@@ -1238,10 +1237,10 @@
 </div>
 
 <button class="scroll-jump down" id="scrollDownBtn" type="button" aria-label="Scroll to bottom">
-  <span class="arw">↓</span><span>Down</span>
+  <span class="arw">↓</span>
 </button>
 <button class="scroll-jump up" id="scrollUpBtn" type="button" aria-label="Scroll to top">
-  <span class="arw">↑</span><span>Up</span>
+  <span class="arw">↑</span>
 </button>
 
 <div class="toast" id="toast"></div>
