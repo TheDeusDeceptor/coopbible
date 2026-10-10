@@ -1,0 +1,38 @@
+{
+  "id": "dead-containment-2022-pc",
+  "name": "Dead Containment",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 1",
+  "dev": "Grump Dog Games",
+  "pub": "Grump Dog Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "21.10.2022",
+  "screenshot": "images/screenshots/dead-containment-2022-pc.jpg",
+  "logo": "images/logos/dead-containment-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1302230",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dead_Containment",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

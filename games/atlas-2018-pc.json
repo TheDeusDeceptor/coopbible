@@ -1,0 +1,33 @@
+{
+  "id": "atlas-2018-pc",
+  "name": "Atlas",
+  "platform": "PC",
+  "size": "120 GB",
+  "hltb": "Main: 18",
+  "dev": "Grapeshot Games, Instinct Games",
+  "pub": "Grapeshot Games, Snail Games USA",
+  "notes": "",
+  "release": "",
+  "ea_release": "22.12.2018",
+  "screenshot": "images/screenshots/atlas-2018-pc.jpg",
+  "logo": "images/logos/atlas-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/834910",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

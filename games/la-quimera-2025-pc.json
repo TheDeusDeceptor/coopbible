@@ -1,0 +1,33 @@
+{
+  "id": "la-quimera-2025-pc",
+  "name": "La Quimera",
+  "platform": "PC",
+  "size": "55 GB",
+  "hltb": "—",
+  "dev": "Reburn",
+  "pub": "Reburn",
+  "notes": "",
+  "release": "",
+  "ea_release": "07.05.2025",
+  "screenshot": "images/screenshots/la-quimera-2025-pc.jpg",
+  "logo": "images/logos/la-quimera-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2282350",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

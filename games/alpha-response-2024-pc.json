@@ -1,0 +1,38 @@
+{
+  "id": "alpha-response-2024-pc",
+  "name": "Alpha Response",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Ultimo Ratio Games",
+  "pub": "Ultimo Ratio Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "07.10.2024",
+  "screenshot": "images/screenshots/alpha-response-2024-pc.jpg",
+  "logo": "images/logos/alpha-response-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2089250",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Alpha_Response",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "no-rest-for-the-wicked-2024-pc",
+  "name": "No Rest for the Wicked",
+  "platform": "PC",
+  "size": "46 GB",
+  "hltb": "Main: 21, +Extra: 30",
+  "dev": "Moon Studios",
+  "pub": "Moon Studios",
+  "notes": "",
+  "release": "",
+  "ea_release": "18.04.2024",
+  "screenshot": "images/screenshots/no-rest-for-the-wicked-2024-pc.jpg",
+  "logo": "images/logos/no-rest-for-the-wicked-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1371980",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/No_Rest_for_the_Wicked",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": true,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

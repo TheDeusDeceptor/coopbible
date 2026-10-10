@@ -1,0 +1,33 @@
+{
+  "id": "varthos-heir-to-the-throne-2025-pc",
+  "name": "Varthos: Heir to the Throne",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "Nightshift Game Development",
+  "pub": "Nightshift Game Development, Three River Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "16.12.2025",
+  "screenshot": "images/screenshots/varthos-heir-to-the-throne-2025-pc.jpg",
+  "logo": "images/logos/varthos-heir-to-the-throne-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3065870",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

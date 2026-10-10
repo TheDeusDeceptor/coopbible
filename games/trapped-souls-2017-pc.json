@@ -1,0 +1,33 @@
+{
+  "id": "trapped-souls-2017-pc",
+  "name": "Trapped Souls",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Fullmetal Developer",
+  "pub": "Fullmetal Developer",
+  "notes": "",
+  "release": "",
+  "ea_release": "04.01.2017",
+  "screenshot": "images/screenshots/trapped-souls-2017-pc.jpg",
+  "logo": "images/logos/trapped-souls-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/568670",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

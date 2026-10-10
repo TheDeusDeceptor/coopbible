@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09T23:48:42Z",
+  "updated": "2026-10-10T00:25:53Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -17993,6 +17993,635 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "starrupture-2027-pc": {
+      "id": "starrupture-2027-pc",
+      "name": "StarRupture",
+      "platform": "PC",
+      "size": "45 GB",
+      "hltb": "Main: 29, +Extra: 34",
+      "dev": "Creepy Jar",
+      "pub": "Creepy Jar",
+      "notes": "",
+      "release": "2027",
+      "ea_release": "06.01.2026",
+      "screenshot": "images/screenshots/starrupture-2027-pc.jpg",
+      "logo": "images/logos/starrupture-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1631270",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "alpha-response-2024-pc": {
+      "id": "alpha-response-2024-pc",
+      "name": "Alpha Response",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "Ultimo Ratio Games",
+      "pub": "Ultimo Ratio Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "07.10.2024",
+      "screenshot": "images/screenshots/alpha-response-2024-pc.jpg",
+      "logo": "images/logos/alpha-response-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2089250",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Alpha_Response",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sapiens-2022-pc": {
+      "id": "sapiens-2022-pc",
+      "name": "Sapiens",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Majic Jungle",
+      "pub": "Majic Jungle",
+      "notes": "Last update was over 1 year ago",
+      "release": "",
+      "ea_release": "26.07.2022",
+      "screenshot": "images/screenshots/sapiens-2022-pc.jpg",
+      "logo": "images/logos/sapiens-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1060230",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sapiens",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "varthos-heir-to-the-throne-2025-pc": {
+      "id": "varthos-heir-to-the-throne-2025-pc",
+      "name": "Varthos: Heir to the Throne",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "—",
+      "dev": "Nightshift Game Development",
+      "pub": "Nightshift Game Development, Three River Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "16.12.2025",
+      "screenshot": "images/screenshots/varthos-heir-to-the-throne-2025-pc.jpg",
+      "logo": "images/logos/varthos-heir-to-the-throne-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3065870",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "atlas-2018-pc": {
+      "id": "atlas-2018-pc",
+      "name": "Atlas",
+      "platform": "PC",
+      "size": "120 GB",
+      "hltb": "Main: 18",
+      "dev": "Grapeshot Games, Instinct Games",
+      "pub": "Grapeshot Games, Snail Games USA",
+      "notes": "",
+      "release": "",
+      "ea_release": "22.12.2018",
+      "screenshot": "images/screenshots/atlas-2018-pc.jpg",
+      "logo": "images/logos/atlas-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/834910",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-containment-2022-pc": {
+      "id": "dead-containment-2022-pc",
+      "name": "Dead Containment",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 1",
+      "dev": "Grump Dog Games",
+      "pub": "Grump Dog Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "21.10.2022",
+      "screenshot": "images/screenshots/dead-containment-2022-pc.jpg",
+      "logo": "images/logos/dead-containment-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1302230",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dead_Containment",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dungeon-crowley-2018-pc": {
+      "id": "dungeon-crowley-2018-pc",
+      "name": "Dungeon Crowley",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "—",
+      "dev": "Animvs Game Studio",
+      "pub": "Animvs Game Studio",
+      "notes": "Last update was over 7 years ago",
+      "release": "",
+      "ea_release": "11.10.2018",
+      "screenshot": "images/screenshots/dungeon-crowley-2018-pc.jpg",
+      "logo": "images/logos/dungeon-crowley-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/937530",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dungeon_Crowley",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "la-quimera-2025-pc": {
+      "id": "la-quimera-2025-pc",
+      "name": "La Quimera",
+      "platform": "PC",
+      "size": "55 GB",
+      "hltb": "—",
+      "dev": "Reburn",
+      "pub": "Reburn",
+      "notes": "",
+      "release": "",
+      "ea_release": "07.05.2025",
+      "screenshot": "images/screenshots/la-quimera-2025-pc.jpg",
+      "logo": "images/logos/la-quimera-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2282350",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "war-islands-a-co-op-adventure-2020-pc": {
+      "id": "war-islands-a-co-op-adventure-2020-pc",
+      "name": "War Islands: A Co-op Adventure",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Biduba Version",
+      "pub": "Biduba Version",
+      "notes": "",
+      "release": "",
+      "ea_release": "29.06.2020",
+      "screenshot": "images/screenshots/war-islands-a-co-op-adventure-2020-pc.jpg",
+      "logo": "images/logos/war-islands-a-co-op-adventure-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1268100",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "solar-purge-2020-pc": {
+      "id": "solar-purge-2020-pc",
+      "name": "Solar Purge",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Hitscan Games",
+      "pub": "Hitscan Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "29.07.2020",
+      "screenshot": "images/screenshots/solar-purge-2020-pc.jpg",
+      "logo": "images/logos/solar-purge-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/931450",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Solar_Purge",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "urbex-murder-2025-pc": {
+      "id": "urbex-murder-2025-pc",
+      "name": "Urbex Murder",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Rantabl",
+      "pub": "Rantabl",
+      "notes": "",
+      "release": "",
+      "ea_release": "24.10.2025",
+      "screenshot": "images/screenshots/urbex-murder-2025-pc.jpg",
+      "logo": "images/logos/urbex-murder-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3282980",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cloak-and-coin-2025-pc": {
+      "id": "cloak-and-coin-2025-pc",
+      "name": "Cloak And Coin",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "netDOT",
+      "pub": "netDOT",
+      "notes": "",
+      "release": "",
+      "ea_release": "05.12.2025",
+      "screenshot": "images/screenshots/cloak-and-coin-2025-pc.jpg",
+      "logo": "images/logos/cloak-and-coin-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3525440",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cure-a-hospital-simulator-2025-pc": {
+      "id": "cure-a-hospital-simulator-2025-pc",
+      "name": "Cure: A Hospital Simulator",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Sentinel Games",
+      "pub": "Sentinel Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "20.11.2025",
+      "screenshot": "images/screenshots/cure-a-hospital-simulator-2025-pc.jpg",
+      "logo": "images/logos/cure-a-hospital-simulator-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2786550",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "robbing-time-2025-pc": {
+      "id": "robbing-time-2025-pc",
+      "name": "Robbing Time",
+      "platform": "PC",
+      "size": "9 GB",
+      "hltb": "—",
+      "dev": "Monday Squid",
+      "pub": "Monday Squid",
+      "notes": "",
+      "release": "",
+      "ea_release": "13.11.2025",
+      "screenshot": "images/screenshots/robbing-time-2025-pc.jpg",
+      "logo": "images/logos/robbing-time-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3626560",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "no-more-room-in-hell-2-2026-pc": {
+      "id": "no-more-room-in-hell-2-2026-pc",
+      "name": "No More Room in Hell 2",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "—",
+      "dev": "Torn Banner Studios",
+      "pub": "Torn Banner Studios",
+      "notes": "",
+      "release": "11.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/no-more-room-in-hell-2-2026-pc.jpg",
+      "logo": "images/logos/no-more-room-in-hell-2-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/292000",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/No_More_Room_in_Hell_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "no-rest-for-the-wicked-2024-pc": {
+      "id": "no-rest-for-the-wicked-2024-pc",
+      "name": "No Rest for the Wicked",
+      "platform": "PC",
+      "size": "46 GB",
+      "hltb": "Main: 21, +Extra: 30",
+      "dev": "Moon Studios",
+      "pub": "Moon Studios",
+      "notes": "",
+      "release": "",
+      "ea_release": "18.04.2024",
+      "screenshot": "images/screenshots/no-rest-for-the-wicked-2024-pc.jpg",
+      "logo": "images/logos/no-rest-for-the-wicked-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1371980",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/No_Rest_for_the_Wicked",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": true,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trapped-souls-2017-pc": {
+      "id": "trapped-souls-2017-pc",
+      "name": "Trapped Souls",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Fullmetal Developer",
+      "pub": "Fullmetal Developer",
+      "notes": "",
+      "release": "",
+      "ea_release": "04.01.2017",
+      "screenshot": "images/screenshots/trapped-souls-2017-pc.jpg",
+      "logo": "images/logos/trapped-souls-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/568670",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "echoes-of-elysium-2026-pc": {
+      "id": "echoes-of-elysium-2026-pc",
+      "name": "Echoes of Elysium",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Loric Games",
+      "pub": "Snail Games USA",
+      "notes": "",
+      "release": "",
+      "ea_release": "27.01.2026",
+      "screenshot": "images/screenshots/echoes-of-elysium-2026-pc.jpg",
+      "logo": "images/logos/echoes-of-elysium-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2644050",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -18492,7 +19121,25 @@
       "wasted-world-2020-pc",
       "atlyss-2024-pc",
       "the-forever-winter-2024-pc",
-      "sunkenland-2023-pc"
+      "sunkenland-2023-pc",
+      "starrupture-2027-pc",
+      "alpha-response-2024-pc",
+      "sapiens-2022-pc",
+      "varthos-heir-to-the-throne-2025-pc",
+      "atlas-2018-pc",
+      "dead-containment-2022-pc",
+      "dungeon-crowley-2018-pc",
+      "la-quimera-2025-pc",
+      "war-islands-a-co-op-adventure-2020-pc",
+      "solar-purge-2020-pc",
+      "urbex-murder-2025-pc",
+      "cloak-and-coin-2025-pc",
+      "cure-a-hospital-simulator-2025-pc",
+      "robbing-time-2025-pc",
+      "no-more-room-in-hell-2-2026-pc",
+      "no-rest-for-the-wicked-2024-pc",
+      "trapped-souls-2017-pc",
+      "echoes-of-elysium-2026-pc"
     ],
     "unreleased": [],
     "mods": [],

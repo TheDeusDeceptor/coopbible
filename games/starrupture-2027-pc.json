@@ -1,0 +1,33 @@
+{
+  "id": "starrupture-2027-pc",
+  "name": "StarRupture",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 29, +Extra: 34",
+  "dev": "Creepy Jar",
+  "pub": "Creepy Jar",
+  "notes": "",
+  "release": "2027",
+  "ea_release": "06.01.2026",
+  "screenshot": "images/screenshots/starrupture-2027-pc.jpg",
+  "logo": "images/logos/starrupture-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1631270",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

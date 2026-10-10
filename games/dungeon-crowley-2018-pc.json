@@ -1,0 +1,38 @@
+{
+  "id": "dungeon-crowley-2018-pc",
+  "name": "Dungeon Crowley",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "—",
+  "dev": "Animvs Game Studio",
+  "pub": "Animvs Game Studio",
+  "notes": "Last update was over 7 years ago",
+  "release": "",
+  "ea_release": "11.10.2018",
+  "screenshot": "images/screenshots/dungeon-crowley-2018-pc.jpg",
+  "logo": "images/logos/dungeon-crowley-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/937530",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dungeon_Crowley",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

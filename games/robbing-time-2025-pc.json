@@ -1,0 +1,33 @@
+{
+  "id": "robbing-time-2025-pc",
+  "name": "Robbing Time",
+  "platform": "PC",
+  "size": "9 GB",
+  "hltb": "—",
+  "dev": "Monday Squid",
+  "pub": "Monday Squid",
+  "notes": "",
+  "release": "",
+  "ea_release": "13.11.2025",
+  "screenshot": "images/screenshots/robbing-time-2025-pc.jpg",
+  "logo": "images/logos/robbing-time-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3626560",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

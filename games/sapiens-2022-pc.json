@@ -1,0 +1,38 @@
+{
+  "id": "sapiens-2022-pc",
+  "name": "Sapiens",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Majic Jungle",
+  "pub": "Majic Jungle",
+  "notes": "Last update was over 1 year ago",
+  "release": "",
+  "ea_release": "26.07.2022",
+  "screenshot": "images/screenshots/sapiens-2022-pc.jpg",
+  "logo": "images/logos/sapiens-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1060230",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sapiens",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

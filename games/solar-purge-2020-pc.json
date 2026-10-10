@@ -1,0 +1,38 @@
+{
+  "id": "solar-purge-2020-pc",
+  "name": "Solar Purge",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Hitscan Games",
+  "pub": "Hitscan Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "29.07.2020",
+  "screenshot": "images/screenshots/solar-purge-2020-pc.jpg",
+  "logo": "images/logos/solar-purge-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/931450",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Solar_Purge",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

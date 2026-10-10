@@ -1,0 +1,33 @@
+{
+  "id": "urbex-murder-2025-pc",
+  "name": "Urbex Murder",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Rantabl",
+  "pub": "Rantabl",
+  "notes": "",
+  "release": "",
+  "ea_release": "24.10.2025",
+  "screenshot": "images/screenshots/urbex-murder-2025-pc.jpg",
+  "logo": "images/logos/urbex-murder-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3282980",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

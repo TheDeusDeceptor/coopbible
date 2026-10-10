@@ -1,0 +1,33 @@
+{
+  "id": "war-islands-a-co-op-adventure-2020-pc",
+  "name": "War Islands: A Co-op Adventure",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Biduba Version",
+  "pub": "Biduba Version",
+  "notes": "",
+  "release": "",
+  "ea_release": "29.06.2020",
+  "screenshot": "images/screenshots/war-islands-a-co-op-adventure-2020-pc.jpg",
+  "logo": "images/logos/war-islands-a-co-op-adventure-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1268100",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

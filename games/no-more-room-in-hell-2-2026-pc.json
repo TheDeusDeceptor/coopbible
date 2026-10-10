@@ -1,0 +1,38 @@
+{
+  "id": "no-more-room-in-hell-2-2026-pc",
+  "name": "No More Room in Hell 2",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "—",
+  "dev": "Torn Banner Studios",
+  "pub": "Torn Banner Studios",
+  "notes": "",
+  "release": "11.08.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/no-more-room-in-hell-2-2026-pc.jpg",
+  "logo": "images/logos/no-more-room-in-hell-2-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/292000",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/No_More_Room_in_Hell_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
