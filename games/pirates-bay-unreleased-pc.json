@@ -1,0 +1,33 @@
+{
+  "id": "pirates-bay-unreleased-pc",
+  "name": "Pirates Bay",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Kraken Ink Studio",
+  "pub": "Kraken Ink Studio",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/pirates-bay-unreleased-pc.jpg",
+  "logo": "images/logos/pirates-bay-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1766080",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

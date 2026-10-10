@@ -1,0 +1,33 @@
+{
+  "id": "shovel-knight-shovel-of-hope-dx-unreleased-pc",
+  "name": "Shovel Knight: Shovel of Hope DX",
+  "platform": "PC",
+  "size": "0.2 GB",
+  "hltb": "—",
+  "dev": "Yacht Club Games",
+  "pub": "Yacht Club Games",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shovel-knight-shovel-of-hope-dx-unreleased-pc.jpg",
+  "logo": "images/logos/shovel-knight-shovel-of-hope-dx-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2661310",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

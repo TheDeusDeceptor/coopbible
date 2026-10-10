@@ -1,0 +1,33 @@
+{
+  "id": "arctic-drive-2026-pc",
+  "name": "Arctic Drive",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Pebbles Games, PlayTogether Studio",
+  "pub": "Bonus Stage Publishing",
+  "notes": "",
+  "release": "",
+  "ea_release": "25.11.2026",
+  "screenshot": "images/screenshots/arctic-drive-2026-pc.jpg",
+  "logo": "images/logos/arctic-drive-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4009490",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

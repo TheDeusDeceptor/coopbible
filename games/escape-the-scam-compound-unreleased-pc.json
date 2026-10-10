@@ -1,0 +1,33 @@
+{
+  "id": "escape-the-scam-compound-unreleased-pc",
+  "name": "Escape the Scam Compound",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "—",
+  "dev": "HUXGE Games",
+  "pub": "HUXGE Games",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-the-scam-compound-unreleased-pc.jpg",
+  "logo": "images/logos/escape-the-scam-compound-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3600170",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

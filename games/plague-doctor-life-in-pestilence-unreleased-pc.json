@@ -1,0 +1,33 @@
+{
+  "id": "plague-doctor-life-in-pestilence-unreleased-pc",
+  "name": "Plague Doctor: Life in Pestilence",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "PST Games",
+  "pub": "PST Games",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/plague-doctor-life-in-pestilence-unreleased-pc.jpg",
+  "logo": "images/logos/plague-doctor-life-in-pestilence-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4221910",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

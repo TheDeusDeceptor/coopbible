@@ -1,0 +1,38 @@
+{
+  "id": "kingmakers-unreleased-pc",
+  "name": "Kingmakers",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "—",
+  "dev": "Redemption Road",
+  "pub": "tinyBuild",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kingmakers-unreleased-pc.jpg",
+  "logo": "images/logos/kingmakers-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2109770",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Kingmakers",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

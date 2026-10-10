@@ -1,0 +1,33 @@
+{
+  "id": "blind-descent-unreleased-pc",
+  "name": "Blind Descent",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "—",
+  "dev": "Pokuch",
+  "pub": "META Publishing",
+  "notes": "",
+  "release": "",
+  "ea_release": "TBA",
+  "screenshot": "images/screenshots/blind-descent-unreleased-pc.jpg",
+  "logo": "images/logos/blind-descent-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1209970",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

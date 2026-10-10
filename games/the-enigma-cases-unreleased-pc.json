@@ -1,0 +1,33 @@
+{
+  "id": "the-enigma-cases-unreleased-pc",
+  "name": "The Enigma Cases",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Red Core Interactive",
+  "pub": "Red Axe Games, Red Core Interactive",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-enigma-cases-unreleased-pc.jpg",
+  "logo": "images/logos/the-enigma-cases-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3062170",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "united-heist-facility-zero-2026-pc",
+  "name": "United Heist: Facility Zero",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "No more Sleep",
+  "pub": "No more Sleep",
+  "notes": "",
+  "release": "17.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/united-heist-facility-zero-2026-pc.jpg",
+  "logo": "images/logos/united-heist-facility-zero-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3387160",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/United_Heist%3A_Facility_Zero",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

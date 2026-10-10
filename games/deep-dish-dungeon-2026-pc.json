@@ -1,0 +1,38 @@
+{
+  "id": "deep-dish-dungeon-2026-pc",
+  "name": "Deep Dish Dungeon",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Behold Studios",
+  "pub": "Raw Fury",
+  "notes": "",
+  "release": "13.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/deep-dish-dungeon-2026-pc.jpg",
+  "logo": "images/logos/deep-dish-dungeon-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2871520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Deep_Dish_Dungeon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

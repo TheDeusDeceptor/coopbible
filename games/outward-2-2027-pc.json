@@ -1,0 +1,38 @@
+{
+  "id": "outward-2-2027-pc",
+  "name": "Outward 2",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "—",
+  "dev": "Nine Dots Studio",
+  "pub": "Nine Dots Publishing, Gamersky Games",
+  "notes": "",
+  "release": "07.02.2027",
+  "ea_release": "",
+  "screenshot": "images/screenshots/outward-2-2027-pc.jpg",
+  "logo": "images/logos/outward-2-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2849490",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Outward_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

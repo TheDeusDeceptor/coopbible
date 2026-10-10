@@ -1,0 +1,33 @@
+{
+  "id": "trainfort-unreleased-pc",
+  "name": "Trainfort",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "UDevLemon",
+  "pub": "tinyBuild",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trainfort-unreleased-pc.jpg",
+  "logo": "images/logos/trainfort-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2593980",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

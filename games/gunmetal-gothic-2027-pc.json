@@ -1,0 +1,33 @@
+{
+  "id": "gunmetal-gothic-2027-pc",
+  "name": "Gunmetal Gothic",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "ynoham",
+  "pub": "ynoham",
+  "notes": "",
+  "release": "June 2027",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gunmetal-gothic-2027-pc.jpg",
+  "logo": "images/logos/gunmetal-gothic-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2248150",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
