@@ -1,0 +1,38 @@
+{
+  "id": "incursion-red-river-2024-pc",
+  "name": "Incursion Red River",
+  "platform": "PC",
+  "size": "65 GB",
+  "hltb": "Main: 28",
+  "dev": "Games Of Tomorrow",
+  "pub": "Games Of Tomorrow",
+  "notes": "",
+  "release": "",
+  "ea_release": "10.04.2024",
+  "screenshot": "images/screenshots/incursion-red-river-2024-pc.jpg",
+  "logo": "images/logos/incursion-red-river-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2116120",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Incursion_Red_River",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

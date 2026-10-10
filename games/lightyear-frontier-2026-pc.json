@@ -1,0 +1,38 @@
+{
+  "id": "lightyear-frontier-2026-pc",
+  "name": "Lightyear Frontier",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 12, +Extra: 14",
+  "dev": "Frame Break",
+  "pub": "Frame Break, Coffee Stain Publishing",
+  "notes": "",
+  "release": "04.11.2026",
+  "ea_release": "19.03.2024",
+  "screenshot": "images/screenshots/lightyear-frontier-2026-pc.jpg",
+  "logo": "images/logos/lightyear-frontier-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1677110",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Lightyear_Frontier",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

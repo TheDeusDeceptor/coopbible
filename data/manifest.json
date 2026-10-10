@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-10T18:13:54Z",
+  "updated": "2026-10-10T18:51:53Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -19677,6 +19677,716 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "dysplaced-2026-pc": {
+      "id": "dysplaced-2026-pc",
+      "name": "Dysplaced",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "10tons",
+      "pub": "10tons",
+      "notes": "",
+      "release": "",
+      "ea_release": "05.03.2026",
+      "screenshot": "images/screenshots/dysplaced-2026-pc.jpg",
+      "logo": "images/logos/dysplaced-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2430390",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lightyear-frontier-2026-pc": {
+      "id": "lightyear-frontier-2026-pc",
+      "name": "Lightyear Frontier",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 12, +Extra: 14",
+      "dev": "Frame Break",
+      "pub": "Frame Break, Coffee Stain Publishing",
+      "notes": "",
+      "release": "04.11.2026",
+      "ea_release": "19.03.2024",
+      "screenshot": "images/screenshots/lightyear-frontier-2026-pc.jpg",
+      "logo": "images/logos/lightyear-frontier-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1677110",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Lightyear_Frontier",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nuclear-nightmare-2024-pc": {
+      "id": "nuclear-nightmare-2024-pc",
+      "name": "Nuclear Nightmare",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "—",
+      "dev": "BG Productions",
+      "pub": "BG Productions",
+      "notes": "",
+      "release": "",
+      "ea_release": "20.10.2024",
+      "screenshot": "images/screenshots/nuclear-nightmare-2024-pc.jpg",
+      "logo": "images/logos/nuclear-nightmare-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2909110",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nuclear_Nightmare",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "vampires-bloodlord-rising-2026-pc": {
+      "id": "vampires-bloodlord-rising-2026-pc",
+      "name": "Vampires: Bloodlord Rising",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 6",
+      "dev": "Mehuman Games",
+      "pub": "Toplitz Productions",
+      "notes": "",
+      "release": "",
+      "ea_release": "30.01.2026",
+      "screenshot": "images/screenshots/vampires-bloodlord-rising-2026-pc.jpg",
+      "logo": "images/logos/vampires-bloodlord-rising-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2191500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Vampires%3A_Bloodlord_Rising",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "remote-reaper-fpv-combat-drone-simulator-2026-pc": {
+      "id": "remote-reaper-fpv-combat-drone-simulator-2026-pc",
+      "name": "Remote Reaper: FPV Combat Drone Simulator",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Vladyslav Fomenko",
+      "pub": "Vladyslav Fomenko",
+      "notes": "",
+      "release": "14.10.2026",
+      "ea_release": "04.04.2025",
+      "screenshot": "images/screenshots/remote-reaper-fpv-combat-drone-simulator-2026-pc.jpg",
+      "logo": "images/logos/remote-reaper-fpv-combat-drone-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3295810",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ars-notoria-2025-pc": {
+      "id": "ars-notoria-2025-pc",
+      "name": "Ars Notoria",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "XRON Software",
+      "pub": "Lilith Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "27.11.2025",
+      "screenshot": "images/screenshots/ars-notoria-2025-pc.jpg",
+      "logo": "images/logos/ars-notoria-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2074620",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "incursion-red-river-2024-pc": {
+      "id": "incursion-red-river-2024-pc",
+      "name": "Incursion Red River",
+      "platform": "PC",
+      "size": "65 GB",
+      "hltb": "Main: 28",
+      "dev": "Games Of Tomorrow",
+      "pub": "Games Of Tomorrow",
+      "notes": "",
+      "release": "",
+      "ea_release": "10.04.2024",
+      "screenshot": "images/screenshots/incursion-red-river-2024-pc.jpg",
+      "logo": "images/logos/incursion-red-river-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2116120",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Incursion_Red_River",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "eco-2018-pc": {
+      "id": "eco-2018-pc",
+      "name": "Eco",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 70, +Extra: 184",
+      "dev": "Strange Loop Games",
+      "pub": "Strange Loop Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "06.02.2018",
+      "screenshot": "images/screenshots/eco-2018-pc.jpg",
+      "logo": "images/logos/eco-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/382310",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Eco",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rosalie-2026-pc": {
+      "id": "rosalie-2026-pc",
+      "name": "Rosalie",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 4",
+      "dev": "Articho Games",
+      "pub": "Articho Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "21.03.2026",
+      "screenshot": "images/screenshots/rosalie-2026-pc.jpg",
+      "logo": "images/logos/rosalie-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4268470",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "far-far-west-2026-pc": {
+      "id": "far-far-west-2026-pc",
+      "name": "Far Far West",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 4, +Extra: 13",
+      "dev": "Evil Raptor",
+      "pub": "Fireshine Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "28.04.2026",
+      "screenshot": "images/screenshots/far-far-west-2026-pc.jpg",
+      "logo": "images/logos/far-far-west-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3124540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Far_Far_West",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "endalor-2026-pc": {
+      "id": "endalor-2026-pc",
+      "name": "Endalor",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "—",
+      "dev": "Diorite Games",
+      "pub": "Diorite Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "30.03.2026",
+      "screenshot": "images/screenshots/endalor-2026-pc.jpg",
+      "logo": "images/logos/endalor-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2265990",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "windrose-2026-pc": {
+      "id": "windrose-2026-pc",
+      "name": "Windrose",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 46, +Extra: 57",
+      "dev": "Kraken Express",
+      "pub": "Kraken Express",
+      "notes": "",
+      "release": "",
+      "ea_release": "14.04.2026",
+      "screenshot": "images/screenshots/windrose-2026-pc.jpg",
+      "logo": "images/logos/windrose-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3041230",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Windrose",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "subnautica-2-2026-pc": {
+      "id": "subnautica-2-2026-pc",
+      "name": "Subnautica 2",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 13, +Extra: 17",
+      "dev": "Unknown Worlds Entertainment",
+      "pub": "Unknown Worlds Entertainment",
+      "notes": "",
+      "release": "",
+      "ea_release": "14.05.2026",
+      "screenshot": "images/screenshots/subnautica-2-2026-pc.jpg",
+      "logo": "images/logos/subnautica-2-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1962700",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Subnautica_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "another-try-2-2025-pc": {
+      "id": "another-try-2-2025-pc",
+      "name": "Another Try 2",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "—",
+      "dev": "Hoki Wolf Studio",
+      "pub": "Hoki Wolf Studio",
+      "notes": "",
+      "release": "",
+      "ea_release": "17.04.2025",
+      "screenshot": "images/screenshots/another-try-2-2025-pc.jpg",
+      "logo": "images/logos/another-try-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2788040",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nested-lands-2026-pc": {
+      "id": "nested-lands-2026-pc",
+      "name": "Nested Lands",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "—",
+      "dev": "1M Bits Horde",
+      "pub": "META Publishing",
+      "notes": "",
+      "release": "",
+      "ea_release": "25.02.2026",
+      "screenshot": "images/screenshots/nested-lands-2026-pc.jpg",
+      "logo": "images/logos/nested-lands-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2553040",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "everwind-2026-pc": {
+      "id": "everwind-2026-pc",
+      "name": "Everwind",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Enjoy Studio",
+      "pub": "Bohemia Interactive",
+      "notes": "",
+      "release": "",
+      "ea_release": "17.03.2026",
+      "screenshot": "images/screenshots/everwind-2026-pc.jpg",
+      "logo": "images/logos/everwind-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2253100",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Everwind",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "moonshiner-simulator-2026-pc": {
+      "id": "moonshiner-simulator-2026-pc",
+      "name": "Moonshiner Simulator",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Goosix Games",
+      "pub": "Goosix Games",
+      "notes": "",
+      "release": "03.11.2026",
+      "ea_release": "20.05.2026",
+      "screenshot": "images/screenshots/moonshiner-simulator-2026-pc.jpg",
+      "logo": "images/logos/moonshiner-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4179280",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hatters-2026-pc": {
+      "id": "hatters-2026-pc",
+      "name": "Hatters",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Moon",
+      "pub": "Moon",
+      "notes": "",
+      "release": "",
+      "ea_release": "15.04.2026",
+      "screenshot": "images/screenshots/hatters-2026-pc.jpg",
+      "logo": "images/logos/hatters-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3612660",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Zero_Punctuation%3A_Hatfall_-_Hatters_Gonna_Hat_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "codex-mortis-2026-pc": {
+      "id": "codex-mortis-2026-pc",
+      "name": "Codex Mortis",
+      "platform": "PC",
+      "size": "0.1 GB",
+      "hltb": "—",
+      "dev": "GROLAF",
+      "pub": "CRUNCHFEST",
+      "notes": "",
+      "release": "24.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/codex-mortis-2026-pc.jpg",
+      "logo": "images/logos/codex-mortis-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4084120",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "farever-2026-pc": {
+      "id": "farever-2026-pc",
+      "name": "Farever",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "—",
+      "dev": "Shiro Games",
+      "pub": "Shiro Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "06.05.2026",
+      "screenshot": "images/screenshots/farever-2026-pc.jpg",
+      "logo": "images/logos/farever-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3672400",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -20154,7 +20864,9 @@
       "mycopunk-2026-pc",
       "swapmeat-2026-pc",
       "shamania-2026-pc",
-      "dragonhold-2026-pc"
+      "dragonhold-2026-pc",
+      "remote-reaper-fpv-combat-drone-simulator-2026-pc",
+      "codex-mortis-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -20224,7 +20936,25 @@
       "car-service-together-2026-pc",
       "dig-island-2026-pc",
       "roadside-research-2026-pc",
-      "subsistence-2016-pc"
+      "subsistence-2016-pc",
+      "dysplaced-2026-pc",
+      "lightyear-frontier-2026-pc",
+      "nuclear-nightmare-2024-pc",
+      "vampires-bloodlord-rising-2026-pc",
+      "ars-notoria-2025-pc",
+      "incursion-red-river-2024-pc",
+      "eco-2018-pc",
+      "rosalie-2026-pc",
+      "far-far-west-2026-pc",
+      "endalor-2026-pc",
+      "windrose-2026-pc",
+      "subnautica-2-2026-pc",
+      "another-try-2-2025-pc",
+      "nested-lands-2026-pc",
+      "everwind-2026-pc",
+      "moonshiner-simulator-2026-pc",
+      "hatters-2026-pc",
+      "farever-2026-pc"
     ],
     "unreleased": [],
     "mods": [],

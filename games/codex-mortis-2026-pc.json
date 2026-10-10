@@ -1,0 +1,33 @@
+{
+  "id": "codex-mortis-2026-pc",
+  "name": "Codex Mortis",
+  "platform": "PC",
+  "size": "0.1 GB",
+  "hltb": "—",
+  "dev": "GROLAF",
+  "pub": "CRUNCHFEST",
+  "notes": "",
+  "release": "24.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/codex-mortis-2026-pc.jpg",
+  "logo": "images/logos/codex-mortis-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4084120",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "hatters-2026-pc",
+  "name": "Hatters",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Moon",
+  "pub": "Moon",
+  "notes": "",
+  "release": "",
+  "ea_release": "15.04.2026",
+  "screenshot": "images/screenshots/hatters-2026-pc.jpg",
+  "logo": "images/logos/hatters-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3612660",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Zero_Punctuation%3A_Hatfall_-_Hatters_Gonna_Hat_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-10T18:13:54Z",
+  "updated": "2026-10-10T18:51:53Z",
   "ids": [
     "deep-rock-galactic-2020-pc",
     "baldur-s-gate-3-2023-pc",
@@ -475,6 +475,8 @@
     "mycopunk-2026-pc",
     "swapmeat-2026-pc",
     "shamania-2026-pc",
-    "dragonhold-2026-pc"
+    "dragonhold-2026-pc",
+    "remote-reaper-fpv-combat-drone-simulator-2026-pc",
+    "codex-mortis-2026-pc"
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "id": "remote-reaper-fpv-combat-drone-simulator-2026-pc",
+  "name": "Remote Reaper: FPV Combat Drone Simulator",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Vladyslav Fomenko",
+  "pub": "Vladyslav Fomenko",
+  "notes": "",
+  "release": "14.10.2026",
+  "ea_release": "04.04.2025",
+  "screenshot": "images/screenshots/remote-reaper-fpv-combat-drone-simulator-2026-pc.jpg",
+  "logo": "images/logos/remote-reaper-fpv-combat-drone-simulator-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3295810",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "windrose-2026-pc",
+  "name": "Windrose",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 46, +Extra: 57",
+  "dev": "Kraken Express",
+  "pub": "Kraken Express",
+  "notes": "",
+  "release": "",
+  "ea_release": "14.04.2026",
+  "screenshot": "images/screenshots/windrose-2026-pc.jpg",
+  "logo": "images/logos/windrose-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3041230",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Windrose",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

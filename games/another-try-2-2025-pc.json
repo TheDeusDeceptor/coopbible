@@ -1,0 +1,33 @@
+{
+  "id": "another-try-2-2025-pc",
+  "name": "Another Try 2",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "Hoki Wolf Studio",
+  "pub": "Hoki Wolf Studio",
+  "notes": "",
+  "release": "",
+  "ea_release": "17.04.2025",
+  "screenshot": "images/screenshots/another-try-2-2025-pc.jpg",
+  "logo": "images/logos/another-try-2-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2788040",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

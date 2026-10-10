@@ -1,0 +1,33 @@
+{
+  "id": "ars-notoria-2025-pc",
+  "name": "Ars Notoria",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "XRON Software",
+  "pub": "Lilith Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "27.11.2025",
+  "screenshot": "images/screenshots/ars-notoria-2025-pc.jpg",
+  "logo": "images/logos/ars-notoria-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2074620",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

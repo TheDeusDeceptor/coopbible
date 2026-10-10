@@ -1,0 +1,38 @@
+{
+  "id": "eco-2018-pc",
+  "name": "Eco",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 70, +Extra: 184",
+  "dev": "Strange Loop Games",
+  "pub": "Strange Loop Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "06.02.2018",
+  "screenshot": "images/screenshots/eco-2018-pc.jpg",
+  "logo": "images/logos/eco-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/382310",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Eco",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

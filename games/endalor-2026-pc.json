@@ -1,0 +1,33 @@
+{
+  "id": "endalor-2026-pc",
+  "name": "Endalor",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "—",
+  "dev": "Diorite Games",
+  "pub": "Diorite Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "30.03.2026",
+  "screenshot": "images/screenshots/endalor-2026-pc.jpg",
+  "logo": "images/logos/endalor-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2265990",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
