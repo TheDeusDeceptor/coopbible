@@ -1,0 +1,33 @@
+{
+  "id": "undermine-2-2025-pc",
+  "name": "UnderMine 2",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Thorium",
+  "pub": "Thorium",
+  "notes": "",
+  "release": "",
+  "ea_release": "22.07.2025",
+  "screenshot": "images/screenshots/undermine-2-2025-pc.jpg",
+  "logo": "images/logos/undermine-2-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1869780",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

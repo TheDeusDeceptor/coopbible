@@ -1,0 +1,33 @@
+{
+  "id": "bodyrecords-2025-pc",
+  "name": "BodyRecords",
+  "platform": "PC",
+  "size": "16 GB",
+  "hltb": "—",
+  "dev": "MIROWIN",
+  "pub": "MIROWIN",
+  "notes": "",
+  "release": "",
+  "ea_release": "17.04.2025",
+  "screenshot": "images/screenshots/bodyrecords-2025-pc.jpg",
+  "logo": "images/logos/bodyrecords-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3232040",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "obsideo-2021-pc",
+  "name": "Obsideo",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "Kyle's Garage",
+  "pub": "Kyle's Garage",
+  "notes": "",
+  "release": "",
+  "ea_release": "27.08.2021",
+  "screenshot": "images/screenshots/obsideo-2021-pc.jpg",
+  "logo": "images/logos/obsideo-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1708460",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "nightingale-2024-pc",
+  "name": "Nightingale",
+  "platform": "PC",
+  "size": "70 GB",
+  "hltb": "Main: 26, +Extra: 51",
+  "dev": "Inflexion Games",
+  "pub": "Inflexion Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "20.02.2024",
+  "screenshot": "images/screenshots/nightingale-2024-pc.jpg",
+  "logo": "images/logos/nightingale-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1928980",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Nightingale",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

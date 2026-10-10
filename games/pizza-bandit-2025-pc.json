@@ -1,0 +1,33 @@
+{
+  "id": "pizza-bandit-2025-pc",
+  "name": "Pizza Bandit",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Jofsoft",
+  "pub": "Jofsoft, Krafton",
+  "notes": "",
+  "release": "",
+  "ea_release": "25.08.2025",
+  "screenshot": "images/screenshots/pizza-bandit-2025-pc.jpg",
+  "logo": "images/logos/pizza-bandit-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2475010",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

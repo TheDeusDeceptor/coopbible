@@ -1,0 +1,38 @@
+{
+  "id": "wild-woods-2024-pc",
+  "name": "Wild Woods",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 3",
+  "dev": "Octofox Games",
+  "pub": "Daedalic Entertainment",
+  "notes": "",
+  "release": "",
+  "ea_release": "09.12.2024",
+  "screenshot": "images/screenshots/wild-woods-2024-pc.jpg",
+  "logo": "images/logos/wild-woods-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1975580",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Wild_Woods",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

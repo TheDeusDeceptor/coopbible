@@ -1,0 +1,38 @@
+{
+  "id": "interstellar-marines-2013-pc",
+  "name": "Interstellar Marines",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "Zero Point Software",
+  "pub": "Zero Point Software",
+  "notes": "Last update was over 6 years ago",
+  "release": "",
+  "ea_release": "02.07.2013",
+  "screenshot": "images/screenshots/interstellar-marines-2013-pc.jpg",
+  "logo": "images/logos/interstellar-marines-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/236370",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Interstellar_Marines",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

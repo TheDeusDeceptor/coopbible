@@ -1,0 +1,33 @@
+{
+  "id": "afterblast-2025-pc",
+  "name": "Afterblast",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "Lumino Games",
+  "pub": "Lumino Games",
+  "notes": "",
+  "release": "",
+  "ea_release": "26.11.2025",
+  "screenshot": "images/screenshots/afterblast-2025-pc.jpg",
+  "logo": "images/logos/afterblast-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1338490",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

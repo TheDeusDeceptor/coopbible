@@ -1,0 +1,33 @@
+{
+  "id": "moonminers-2025-pc",
+  "name": "MoonMiners",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "MIROWIN",
+  "pub": "PM Studio",
+  "notes": "Last update was over 1 year ago",
+  "release": "",
+  "ea_release": "17.07.2025",
+  "screenshot": "images/screenshots/moonminers-2025-pc.jpg",
+  "logo": "images/logos/moonminers-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3681820",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

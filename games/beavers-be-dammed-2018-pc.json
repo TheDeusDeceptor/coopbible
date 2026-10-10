@@ -1,0 +1,38 @@
+{
+  "id": "beavers-be-dammed-2018-pc",
+  "name": "Beavers Be Dammed",
+  "platform": "PC",
+  "size": "0.2 GB",
+  "hltb": "Main: 1",
+  "dev": "Wallflower Games",
+  "pub": "Wallflower Games",
+  "notes": "Last update was over 8 years ago",
+  "release": "",
+  "ea_release": "16.01.2018",
+  "screenshot": "images/screenshots/beavers-be-dammed-2018-pc.jpg",
+  "logo": "images/logos/beavers-be-dammed-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/764570",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Beavers_Be_Dammed",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

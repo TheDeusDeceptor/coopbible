@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-10T17:15:24Z",
+  "updated": "2026-10-10T17:49:00Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -18731,6 +18731,607 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "beavers-be-dammed-2018-pc": {
+      "id": "beavers-be-dammed-2018-pc",
+      "name": "Beavers Be Dammed",
+      "platform": "PC",
+      "size": "0.2 GB",
+      "hltb": "Main: 1",
+      "dev": "Wallflower Games",
+      "pub": "Wallflower Games",
+      "notes": "Last update was over 8 years ago",
+      "release": "",
+      "ea_release": "16.01.2018",
+      "screenshot": "images/screenshots/beavers-be-dammed-2018-pc.jpg",
+      "logo": "images/logos/beavers-be-dammed-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/764570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Beavers_Be_Dammed",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wild-woods-2024-pc": {
+      "id": "wild-woods-2024-pc",
+      "name": "Wild Woods",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 3",
+      "dev": "Octofox Games",
+      "pub": "Daedalic Entertainment",
+      "notes": "",
+      "release": "",
+      "ea_release": "09.12.2024",
+      "screenshot": "images/screenshots/wild-woods-2024-pc.jpg",
+      "logo": "images/logos/wild-woods-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1975580",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Wild_Woods",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sketchy-s-contract-2026-pc": {
+      "id": "sketchy-s-contract-2026-pc",
+      "name": "Sketchy's Contract",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 30",
+      "dev": "Dimensionless Games",
+      "pub": "Dimensionless Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "15.07.2026",
+      "screenshot": "images/screenshots/sketchy-s-contract-2026-pc.jpg",
+      "logo": "images/logos/sketchy-s-contract-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2823080",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mycopunk-2026-pc": {
+      "id": "mycopunk-2026-pc",
+      "name": "Mycopunk",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 79",
+      "dev": "Pigeons at Play",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "20.10.2026",
+      "ea_release": "10.07.2025",
+      "screenshot": "images/screenshots/mycopunk-2026-pc.jpg",
+      "logo": "images/logos/mycopunk-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3247750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Mycopunk",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "interstellar-marines-2013-pc": {
+      "id": "interstellar-marines-2013-pc",
+      "name": "Interstellar Marines",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 2, +Extra: 3",
+      "dev": "Zero Point Software",
+      "pub": "Zero Point Software",
+      "notes": "Last update was over 6 years ago",
+      "release": "",
+      "ea_release": "02.07.2013",
+      "screenshot": "images/screenshots/interstellar-marines-2013-pc.jpg",
+      "logo": "images/logos/interstellar-marines-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/236370",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Interstellar_Marines",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nightingale-2024-pc": {
+      "id": "nightingale-2024-pc",
+      "name": "Nightingale",
+      "platform": "PC",
+      "size": "70 GB",
+      "hltb": "Main: 26, +Extra: 51",
+      "dev": "Inflexion Games",
+      "pub": "Inflexion Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "20.02.2024",
+      "screenshot": "images/screenshots/nightingale-2024-pc.jpg",
+      "logo": "images/logos/nightingale-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1928980",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nightingale",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lost-rift-2025-pc": {
+      "id": "lost-rift-2025-pc",
+      "name": "Lost Rift",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "—",
+      "dev": "People Can Fly",
+      "pub": "People Can Fly",
+      "notes": "",
+      "release": "",
+      "ea_release": "25.09.2025",
+      "screenshot": "images/screenshots/lost-rift-2025-pc.jpg",
+      "logo": "images/logos/lost-rift-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3494520",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bodyrecords-2025-pc": {
+      "id": "bodyrecords-2025-pc",
+      "name": "BodyRecords",
+      "platform": "PC",
+      "size": "16 GB",
+      "hltb": "—",
+      "dev": "MIROWIN",
+      "pub": "MIROWIN",
+      "notes": "",
+      "release": "",
+      "ea_release": "17.04.2025",
+      "screenshot": "images/screenshots/bodyrecords-2025-pc.jpg",
+      "logo": "images/logos/bodyrecords-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3232040",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "undermine-2-2025-pc": {
+      "id": "undermine-2-2025-pc",
+      "name": "UnderMine 2",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Thorium",
+      "pub": "Thorium",
+      "notes": "",
+      "release": "",
+      "ea_release": "22.07.2025",
+      "screenshot": "images/screenshots/undermine-2-2025-pc.jpg",
+      "logo": "images/logos/undermine-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1869780",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pit-of-goblin-2026-pc": {
+      "id": "pit-of-goblin-2026-pc",
+      "name": "Pit of Goblin",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Friendly Foe",
+      "pub": "Friendly Foe, Bright Gambit",
+      "notes": "",
+      "release": "03.11.2026",
+      "ea_release": "17.12.2024",
+      "screenshot": "images/screenshots/pit-of-goblin-2026-pc.jpg",
+      "logo": "images/logos/pit-of-goblin-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3253530",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/PIT_OF_GOBLIN",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "moonminers-2025-pc": {
+      "id": "moonminers-2025-pc",
+      "name": "MoonMiners",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "MIROWIN",
+      "pub": "PM Studio",
+      "notes": "Last update was over 1 year ago",
+      "release": "",
+      "ea_release": "17.07.2025",
+      "screenshot": "images/screenshots/moonminers-2025-pc.jpg",
+      "logo": "images/logos/moonminers-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3681820",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "stellar-survivor-2019-pc": {
+      "id": "stellar-survivor-2019-pc",
+      "name": "Stellar Survivor",
+      "platform": "PC",
+      "size": "3.4 GB",
+      "hltb": "—",
+      "dev": "Sticks & Stones",
+      "pub": "Sticks & Stones, Breda University of Applied Sciences",
+      "notes": "",
+      "release": "",
+      "ea_release": "20.06.2019",
+      "screenshot": "images/screenshots/stellar-survivor-2019-pc.jpg",
+      "logo": "images/logos/stellar-survivor-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1032120",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Stellar_Survivor",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pizza-bandit-2025-pc": {
+      "id": "pizza-bandit-2025-pc",
+      "name": "Pizza Bandit",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Jofsoft",
+      "pub": "Jofsoft, Krafton",
+      "notes": "",
+      "release": "",
+      "ea_release": "25.08.2025",
+      "screenshot": "images/screenshots/pizza-bandit-2025-pc.jpg",
+      "logo": "images/logos/pizza-bandit-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2475010",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "obsideo-2021-pc": {
+      "id": "obsideo-2021-pc",
+      "name": "Obsideo",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "—",
+      "dev": "Kyle's Garage",
+      "pub": "Kyle's Garage",
+      "notes": "",
+      "release": "",
+      "ea_release": "27.08.2021",
+      "screenshot": "images/screenshots/obsideo-2021-pc.jpg",
+      "logo": "images/logos/obsideo-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1708460",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "orebound-2024-pc": {
+      "id": "orebound-2024-pc",
+      "name": "Orebound",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Emberforge",
+      "pub": "Emberforge",
+      "notes": "",
+      "release": "",
+      "ea_release": "24.10.2024",
+      "screenshot": "images/screenshots/orebound-2024-pc.jpg",
+      "logo": "images/logos/orebound-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2467810",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Orebound",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "swapmeat-2026-pc": {
+      "id": "swapmeat-2026-pc",
+      "name": "Swapmeat",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 3",
+      "dev": "One More Game",
+      "pub": "One More Game",
+      "notes": "",
+      "release": "17.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/swapmeat-2026-pc.jpg",
+      "logo": "images/logos/swapmeat-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2790700",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "afterblast-2025-pc": {
+      "id": "afterblast-2025-pc",
+      "name": "Afterblast",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Lumino Games",
+      "pub": "Lumino Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "26.11.2025",
+      "screenshot": "images/screenshots/afterblast-2025-pc.jpg",
+      "logo": "images/logos/afterblast-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1338490",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -19204,7 +19805,9 @@
       "scrap-mechanic-2026-pc",
       "neon-abyss-2-2026-pc",
       "no-more-room-in-hell-2-2026-pc",
-      "stick-it-to-the-stickman-2026-pc"
+      "stick-it-to-the-stickman-2026-pc",
+      "mycopunk-2026-pc",
+      "swapmeat-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -19251,7 +19854,22 @@
       "trapped-souls-2017-pc",
       "echoes-of-elysium-2026-pc",
       "zort-2024-pc",
-      "crab-champions-2023-pc"
+      "crab-champions-2023-pc",
+      "beavers-be-dammed-2018-pc",
+      "wild-woods-2024-pc",
+      "sketchy-s-contract-2026-pc",
+      "interstellar-marines-2013-pc",
+      "nightingale-2024-pc",
+      "lost-rift-2025-pc",
+      "bodyrecords-2025-pc",
+      "undermine-2-2025-pc",
+      "pit-of-goblin-2026-pc",
+      "moonminers-2025-pc",
+      "stellar-survivor-2019-pc",
+      "pizza-bandit-2025-pc",
+      "obsideo-2021-pc",
+      "orebound-2024-pc",
+      "afterblast-2025-pc"
     ],
     "unreleased": [],
     "mods": [],

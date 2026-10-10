@@ -1,0 +1,38 @@
+{
+  "id": "mycopunk-2026-pc",
+  "name": "Mycopunk",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 79",
+  "dev": "Pigeons at Play",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "20.10.2026",
+  "ea_release": "10.07.2025",
+  "screenshot": "images/screenshots/mycopunk-2026-pc.jpg",
+  "logo": "images/logos/mycopunk-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3247750",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Mycopunk",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

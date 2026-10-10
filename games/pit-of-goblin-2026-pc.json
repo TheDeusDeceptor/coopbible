@@ -1,0 +1,38 @@
+{
+  "id": "pit-of-goblin-2026-pc",
+  "name": "Pit of Goblin",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Friendly Foe",
+  "pub": "Friendly Foe, Bright Gambit",
+  "notes": "",
+  "release": "03.11.2026",
+  "ea_release": "17.12.2024",
+  "screenshot": "images/screenshots/pit-of-goblin-2026-pc.jpg",
+  "logo": "images/logos/pit-of-goblin-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3253530",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/PIT_OF_GOBLIN",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "lost-rift-2025-pc",
+  "name": "Lost Rift",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "—",
+  "dev": "People Can Fly",
+  "pub": "People Can Fly",
+  "notes": "",
+  "release": "",
+  "ea_release": "25.09.2025",
+  "screenshot": "images/screenshots/lost-rift-2025-pc.jpg",
+  "logo": "images/logos/lost-rift-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3494520",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

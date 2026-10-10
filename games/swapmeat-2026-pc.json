@@ -1,0 +1,33 @@
+{
+  "id": "swapmeat-2026-pc",
+  "name": "Swapmeat",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 3",
+  "dev": "One More Game",
+  "pub": "One More Game",
+  "notes": "",
+  "release": "17.06.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/swapmeat-2026-pc.jpg",
+  "logo": "images/logos/swapmeat-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2790700",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
