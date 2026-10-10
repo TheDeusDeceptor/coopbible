@@ -1,0 +1,33 @@
+{
+  "id": "shamania-2026-pc",
+  "name": "Shamania",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Totem Keepers Games",
+  "pub": "Totem Keepers Games",
+  "notes": "",
+  "release": "29.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shamania-2026-pc.jpg",
+  "logo": "images/logos/shamania-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2868100",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

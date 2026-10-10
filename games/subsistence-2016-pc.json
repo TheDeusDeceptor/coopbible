@@ -1,0 +1,38 @@
+{
+  "id": "subsistence-2016-pc",
+  "name": "Subsistence",
+  "platform": "PC",
+  "size": "1.5 GB",
+  "hltb": "Main: 125",
+  "dev": "ColdGames",
+  "pub": "ColdGames",
+  "notes": "",
+  "release": "",
+  "ea_release": "25.10.2016",
+  "screenshot": "images/screenshots/subsistence-2016-pc.jpg",
+  "logo": "images/logos/subsistence-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/418030",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Subsistence",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

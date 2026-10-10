@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-10T17:49:00Z",
+  "updated": "2026-10-10T18:13:54Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -19332,6 +19332,351 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "dreadzone-2025-pc": {
+      "id": "dreadzone-2025-pc",
+      "name": "Dreadzone",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "—",
+      "dev": "Eshed",
+      "pub": "Eshed",
+      "notes": "",
+      "release": "",
+      "ea_release": "17.07.2025",
+      "screenshot": "images/screenshots/dreadzone-2025-pc.jpg",
+      "logo": "images/logos/dreadzone-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3484300",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bum-revenge-2025-pc": {
+      "id": "bum-revenge-2025-pc",
+      "name": "Bum: Revenge",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "—",
+      "dev": "Patologgia Interactive",
+      "pub": "Patologgia Interactive",
+      "notes": "",
+      "release": "",
+      "ea_release": "30.07.2025",
+      "screenshot": "images/screenshots/bum-revenge-2025-pc.jpg",
+      "logo": "images/logos/bum-revenge-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3702930",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mycorelic-2026-pc": {
+      "id": "mycorelic-2026-pc",
+      "name": "MycoRelic",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Sandy Dingo Games",
+      "pub": "Sandy Dingo Games",
+      "notes": "",
+      "release": "11.11.2026",
+      "ea_release": "24.09.2025",
+      "screenshot": "images/screenshots/mycorelic-2026-pc.jpg",
+      "logo": "images/logos/mycorelic-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2624080",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "first-dwarf-2024-pc": {
+      "id": "first-dwarf-2024-pc",
+      "name": "First Dwarf",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "—",
+      "dev": "Star Drifters",
+      "pub": "Star Drifters, 4Divinity",
+      "notes": "",
+      "release": "",
+      "ea_release": "19.06.2024",
+      "screenshot": "images/screenshots/first-dwarf-2024-pc.jpg",
+      "logo": "images/logos/first-dwarf-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1714900",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "shamania-2026-pc": {
+      "id": "shamania-2026-pc",
+      "name": "Shamania",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Totem Keepers Games",
+      "pub": "Totem Keepers Games",
+      "notes": "",
+      "release": "29.05.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shamania-2026-pc.jpg",
+      "logo": "images/logos/shamania-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2868100",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dragonhold-2026-pc": {
+      "id": "dragonhold-2026-pc",
+      "name": "Dragonhold",
+      "platform": "PC",
+      "size": "73 GB",
+      "hltb": "—",
+      "dev": "Exis Games",
+      "pub": "Exis Games",
+      "notes": "",
+      "release": "07.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dragonhold-2026-pc.jpg",
+      "logo": "images/logos/dragonhold-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1510330",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "car-service-together-2026-pc": {
+      "id": "car-service-together-2026-pc",
+      "name": "Car Service Together",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "V12 Studio",
+      "pub": "V12 Studio",
+      "notes": "",
+      "release": "",
+      "ea_release": "04.02.2026",
+      "screenshot": "images/screenshots/car-service-together-2026-pc.jpg",
+      "logo": "images/logos/car-service-together-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3501070",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Car_Service_Together",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dig-island-2026-pc": {
+      "id": "dig-island-2026-pc",
+      "name": "Dig Island",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "FiftyEight Studios",
+      "pub": "FiftyEight Studios",
+      "notes": "",
+      "release": "2026",
+      "ea_release": "30.01.2026",
+      "screenshot": "images/screenshots/dig-island-2026-pc.jpg",
+      "logo": "images/logos/dig-island-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3919360",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "roadside-research-2026-pc": {
+      "id": "roadside-research-2026-pc",
+      "name": "Roadside Research",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 15",
+      "dev": "Cybernetic Walrus",
+      "pub": "Oro Interactive",
+      "notes": "",
+      "release": "",
+      "ea_release": "12.02.2026",
+      "screenshot": "images/screenshots/roadside-research-2026-pc.jpg",
+      "logo": "images/logos/roadside-research-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3643170",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Roadside_Research",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "subsistence-2016-pc": {
+      "id": "subsistence-2016-pc",
+      "name": "Subsistence",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "Main: 125",
+      "dev": "ColdGames",
+      "pub": "ColdGames",
+      "notes": "",
+      "release": "",
+      "ea_release": "25.10.2016",
+      "screenshot": "images/screenshots/subsistence-2016-pc.jpg",
+      "logo": "images/logos/subsistence-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/418030",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Subsistence",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -19807,7 +20152,9 @@
       "no-more-room-in-hell-2-2026-pc",
       "stick-it-to-the-stickman-2026-pc",
       "mycopunk-2026-pc",
-      "swapmeat-2026-pc"
+      "swapmeat-2026-pc",
+      "shamania-2026-pc",
+      "dragonhold-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -19869,7 +20216,15 @@
       "pizza-bandit-2025-pc",
       "obsideo-2021-pc",
       "orebound-2024-pc",
-      "afterblast-2025-pc"
+      "afterblast-2025-pc",
+      "dreadzone-2025-pc",
+      "bum-revenge-2025-pc",
+      "mycorelic-2026-pc",
+      "first-dwarf-2024-pc",
+      "car-service-together-2026-pc",
+      "dig-island-2026-pc",
+      "roadside-research-2026-pc",
+      "subsistence-2016-pc"
     ],
     "unreleased": [],
     "mods": [],

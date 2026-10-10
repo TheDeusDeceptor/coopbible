@@ -1,0 +1,33 @@
+{
+  "id": "dreadzone-2025-pc",
+  "name": "Dreadzone",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "—",
+  "dev": "Eshed",
+  "pub": "Eshed",
+  "notes": "",
+  "release": "",
+  "ea_release": "17.07.2025",
+  "screenshot": "images/screenshots/dreadzone-2025-pc.jpg",
+  "logo": "images/logos/dreadzone-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3484300",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

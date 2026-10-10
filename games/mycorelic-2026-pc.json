@@ -1,0 +1,33 @@
+{
+  "id": "mycorelic-2026-pc",
+  "name": "MycoRelic",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Sandy Dingo Games",
+  "pub": "Sandy Dingo Games",
+  "notes": "",
+  "release": "11.11.2026",
+  "ea_release": "24.09.2025",
+  "screenshot": "images/screenshots/mycorelic-2026-pc.jpg",
+  "logo": "images/logos/mycorelic-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2624080",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

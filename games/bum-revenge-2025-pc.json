@@ -1,0 +1,33 @@
+{
+  "id": "bum-revenge-2025-pc",
+  "name": "Bum: Revenge",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "Patologgia Interactive",
+  "pub": "Patologgia Interactive",
+  "notes": "",
+  "release": "",
+  "ea_release": "30.07.2025",
+  "screenshot": "images/screenshots/bum-revenge-2025-pc.jpg",
+  "logo": "images/logos/bum-revenge-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3702930",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

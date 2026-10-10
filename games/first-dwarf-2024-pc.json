@@ -1,0 +1,33 @@
+{
+  "id": "first-dwarf-2024-pc",
+  "name": "First Dwarf",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "—",
+  "dev": "Star Drifters",
+  "pub": "Star Drifters, 4Divinity",
+  "notes": "",
+  "release": "",
+  "ea_release": "19.06.2024",
+  "screenshot": "images/screenshots/first-dwarf-2024-pc.jpg",
+  "logo": "images/logos/first-dwarf-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1714900",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
