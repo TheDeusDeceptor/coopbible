@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-10T19:38:49Z",
+  "updated": "2026-10-10T19:56:19Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -21064,6 +21064,171 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "keep-it-contained-2026-pc": {
+      "id": "keep-it-contained-2026-pc",
+      "name": "Keep It Contained",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Triarch Interactive",
+      "pub": "Triarch Interactive",
+      "notes": "",
+      "release": "",
+      "ea_release": "07.08.2026",
+      "screenshot": "images/screenshots/keep-it-contained-2026-pc.jpg",
+      "logo": "images/logos/keep-it-contained-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4251090",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dimraeth-2026-pc": {
+      "id": "dimraeth-2026-pc",
+      "name": "Dimraeth",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Mudtek",
+      "pub": "Mudtek",
+      "notes": "",
+      "release": "",
+      "ea_release": "15.09.2026",
+      "screenshot": "images/screenshots/dimraeth-2026-pc.jpg",
+      "logo": "images/logos/dimraeth-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2402680",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "japanese-ramen-simulator-2026-pc": {
+      "id": "japanese-ramen-simulator-2026-pc",
+      "name": "Japanese Ramen Simulator",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Wild Dog",
+      "pub": "Wild Dog",
+      "notes": "",
+      "release": "",
+      "ea_release": "09.10.2026",
+      "screenshot": "images/screenshots/japanese-ramen-simulator-2026-pc.jpg",
+      "logo": "images/logos/japanese-ramen-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4968640",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "paddle-cats-2026-pc": {
+      "id": "paddle-cats-2026-pc",
+      "name": "Paddle Cats",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Polymer",
+      "pub": "Polymer",
+      "notes": "",
+      "release": "",
+      "ea_release": "2026",
+      "screenshot": "images/screenshots/paddle-cats-2026-pc.jpg",
+      "logo": "images/logos/paddle-cats-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3289160",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "second-extinction-2020-pc": {
+      "id": "second-extinction-2020-pc",
+      "name": "Second Extinction",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "Systemic Reaction",
+      "pub": "Systemic Reaction",
+      "notes": "",
+      "release": "",
+      "ea_release": "13.10.2020",
+      "screenshot": "images/screenshots/second-extinction-2020-pc.jpg",
+      "logo": "images/logos/second-extinction-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1024380",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -21650,9 +21815,15 @@
       "aloft-2025-pc",
       "human-host-2026-pc",
       "western-rye-2026-pc",
-      "voyagers-of-nera-2027-pc"
+      "voyagers-of-nera-2027-pc",
+      "keep-it-contained-2026-pc",
+      "dimraeth-2026-pc",
+      "japanese-ramen-simulator-2026-pc",
+      "second-extinction-2020-pc"
     ],
-    "unreleased": [],
+    "unreleased": [
+      "paddle-cats-2026-pc"
+    ],
     "mods": [],
     "coop-beaten": [],
     "backlog": [],

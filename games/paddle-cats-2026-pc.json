@@ -1,0 +1,33 @@
+{
+  "id": "paddle-cats-2026-pc",
+  "name": "Paddle Cats",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Polymer",
+  "pub": "Polymer",
+  "notes": "",
+  "release": "",
+  "ea_release": "2026",
+  "screenshot": "images/screenshots/paddle-cats-2026-pc.jpg",
+  "logo": "images/logos/paddle-cats-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3289160",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

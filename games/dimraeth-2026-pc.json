@@ -1,0 +1,33 @@
+{
+  "id": "dimraeth-2026-pc",
+  "name": "Dimraeth",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Mudtek",
+  "pub": "Mudtek",
+  "notes": "",
+  "release": "",
+  "ea_release": "15.09.2026",
+  "screenshot": "images/screenshots/dimraeth-2026-pc.jpg",
+  "logo": "images/logos/dimraeth-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2402680",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

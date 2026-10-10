@@ -1,0 +1,33 @@
+{
+  "id": "second-extinction-2020-pc",
+  "name": "Second Extinction",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Systemic Reaction",
+  "pub": "Systemic Reaction",
+  "notes": "",
+  "release": "",
+  "ea_release": "13.10.2020",
+  "screenshot": "images/screenshots/second-extinction-2020-pc.jpg",
+  "logo": "images/logos/second-extinction-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1024380",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

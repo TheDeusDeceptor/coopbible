@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-10T19:38:49Z",
+  "updated": "2026-10-10T19:56:19Z",
   "ids": [
     "bellwright-2024-pc",
     "ifsunsets-2024-pc",
@@ -105,6 +105,10 @@
     "aloft-2025-pc",
     "human-host-2026-pc",
     "western-rye-2026-pc",
-    "voyagers-of-nera-2027-pc"
+    "voyagers-of-nera-2027-pc",
+    "keep-it-contained-2026-pc",
+    "dimraeth-2026-pc",
+    "japanese-ramen-simulator-2026-pc",
+    "second-extinction-2020-pc"
   ]
 }
