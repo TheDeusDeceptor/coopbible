@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-10T20:29:24Z",
+  "updated": "2026-10-10T20:52:00Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -21843,6 +21843,407 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "american-cooking-simulator-multiplayer-2026-pc": {
+      "id": "american-cooking-simulator-multiplayer-2026-pc",
+      "name": "American Cooking Simulator: Multiplayer",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "—",
+      "dev": "Freedom Burger Games",
+      "pub": "Artex",
+      "notes": "",
+      "release": "12.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/american-cooking-simulator-multiplayer-2026-pc.jpg",
+      "logo": "images/logos/american-cooking-simulator-multiplayer-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3780530",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "undead-rampage-2026-pc": {
+      "id": "undead-rampage-2026-pc",
+      "name": "Undead Rampage",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "EverFlow Games",
+      "pub": "EverFlow Games",
+      "notes": "",
+      "release": "Q4 2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/undead-rampage-2026-pc.jpg",
+      "logo": "images/logos/undead-rampage-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3373280",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "luminedge-unreleased-pc": {
+      "id": "luminedge-unreleased-pc",
+      "name": "Luminedge",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Johnny Dale Lonack",
+      "pub": "Johnny Dale Lonack",
+      "notes": "",
+      "release": "Soon",
+      "ea_release": "",
+      "screenshot": "images/screenshots/luminedge-unreleased-pc.jpg",
+      "logo": "images/logos/luminedge-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3078430",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wizzerd-quest-2-2026-pc": {
+      "id": "wizzerd-quest-2-2026-pc",
+      "name": "Wizzerd Quest 2",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Kondoorsoft",
+      "pub": "Kondoorsoft, KIDA",
+      "notes": "",
+      "release": "20.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wizzerd-quest-2-2026-pc.jpg",
+      "logo": "images/logos/wizzerd-quest-2-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2907890",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mainland-2026-pc": {
+      "id": "mainland-2026-pc",
+      "name": "Mainland",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "AddRaiser",
+      "pub": "AddRaiser",
+      "notes": "",
+      "release": "2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mainland-2026-pc.jpg",
+      "logo": "images/logos/mainland-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2304360",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Mainland",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lugal-bronze-age-survival-game-2026-pc": {
+      "id": "lugal-bronze-age-survival-game-2026-pc",
+      "name": "Lugal: Bronze Age Survival Game",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Tea & Cake Games",
+      "pub": "Tea & Cake Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "18.08.2026",
+      "screenshot": "images/screenshots/lugal-bronze-age-survival-game-2026-pc.jpg",
+      "logo": "images/logos/lugal-bronze-age-survival-game-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3878380",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "over-the-radio-2026-pc": {
+      "id": "over-the-radio-2026-pc",
+      "name": "Over the Radio",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Polygoose Studio",
+      "pub": "Polygoose Studio",
+      "notes": "",
+      "release": "2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/over-the-radio-2026-pc.jpg",
+      "logo": "images/logos/over-the-radio-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3790280",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "black-powder-desolation-unreleased-pc": {
+      "id": "black-powder-desolation-unreleased-pc",
+      "name": "Black Powder Desolation",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Jonas Kastner",
+      "pub": "Jonas Kastner",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/black-powder-desolation-unreleased-pc.jpg",
+      "logo": "images/logos/black-powder-desolation-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2521490",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "intervoid-2026-pc": {
+      "id": "intervoid-2026-pc",
+      "name": "Intervoid",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Hooyarium Games",
+      "pub": "Hooyarium Games",
+      "notes": "",
+      "release": "Q4 2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/intervoid-2026-pc.jpg",
+      "logo": "images/logos/intervoid-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3985880",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "experiment-28-unreleased-pc": {
+      "id": "experiment-28-unreleased-pc",
+      "name": "Experiment 28",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Grossly Incandescent Games",
+      "pub": "Grossly Incandescent Games",
+      "notes": "",
+      "release": "Soon",
+      "ea_release": "",
+      "screenshot": "images/screenshots/experiment-28-unreleased-pc.jpg",
+      "logo": "images/logos/experiment-28-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3656570",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "soul-chained-2026-pc": {
+      "id": "soul-chained-2026-pc",
+      "name": "Soul Chained",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "—",
+      "dev": "Andrew Nicolaou",
+      "pub": "Andrew Nicolaou",
+      "notes": "",
+      "release": "07.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/soul-chained-2026-pc.jpg",
+      "logo": "images/logos/soul-chained-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3544130",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "projekt-z-beyond-order-unreleased-pc": {
+      "id": "projekt-z-beyond-order-unreleased-pc",
+      "name": "Projekt Z: Beyond Order",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "—",
+      "dev": "314 Arts",
+      "pub": "Maximum Entertainment",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/projekt-z-beyond-order-unreleased-pc.jpg",
+      "logo": "images/logos/projekt-z-beyond-order-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/763310",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -22325,7 +22726,10 @@
       "codex-mortis-2026-pc",
       "i-know-a-guy-shady-life-simulator-2026-pc",
       "deep-dish-dungeon-2026-pc",
-      "united-heist-facility-zero-2026-pc"
+      "united-heist-facility-zero-2026-pc",
+      "american-cooking-simulator-multiplayer-2026-pc",
+      "wizzerd-quest-2-2026-pc",
+      "soul-chained-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -22436,7 +22840,8 @@
       "dimraeth-2026-pc",
       "japanese-ramen-simulator-2026-pc",
       "second-extinction-2020-pc",
-      "witchspire-2026-pc"
+      "witchspire-2026-pc",
+      "lugal-bronze-age-survival-game-2026-pc"
     ],
     "unreleased": [
       "paddle-cats-2026-pc",
@@ -22454,7 +22859,15 @@
       "shovel-knight-shovel-of-hope-dx-unreleased-pc",
       "pirates-bay-unreleased-pc",
       "arctic-drive-2026-pc",
-      "escape-the-scam-compound-unreleased-pc"
+      "escape-the-scam-compound-unreleased-pc",
+      "undead-rampage-2026-pc",
+      "luminedge-unreleased-pc",
+      "mainland-2026-pc",
+      "over-the-radio-2026-pc",
+      "black-powder-desolation-unreleased-pc",
+      "intervoid-2026-pc",
+      "experiment-28-unreleased-pc",
+      "projekt-z-beyond-order-unreleased-pc"
     ],
     "mods": [],
     "coop-beaten": [],

@@ -1,0 +1,33 @@
+{
+  "id": "over-the-radio-2026-pc",
+  "name": "Over the Radio",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Polygoose Studio",
+  "pub": "Polygoose Studio",
+  "notes": "",
+  "release": "2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/over-the-radio-2026-pc.jpg",
+  "logo": "images/logos/over-the-radio-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3790280",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

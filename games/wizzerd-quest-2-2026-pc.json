@@ -1,0 +1,33 @@
+{
+  "id": "wizzerd-quest-2-2026-pc",
+  "name": "Wizzerd Quest 2",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Kondoorsoft",
+  "pub": "Kondoorsoft, KIDA",
+  "notes": "",
+  "release": "20.06.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/wizzerd-quest-2-2026-pc.jpg",
+  "logo": "images/logos/wizzerd-quest-2-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2907890",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

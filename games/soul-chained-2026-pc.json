@@ -1,0 +1,33 @@
+{
+  "id": "soul-chained-2026-pc",
+  "name": "Soul Chained",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "Andrew Nicolaou",
+  "pub": "Andrew Nicolaou",
+  "notes": "",
+  "release": "07.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/soul-chained-2026-pc.jpg",
+  "logo": "images/logos/soul-chained-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3544130",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

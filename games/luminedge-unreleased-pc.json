@@ -1,0 +1,33 @@
+{
+  "id": "luminedge-unreleased-pc",
+  "name": "Luminedge",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Johnny Dale Lonack",
+  "pub": "Johnny Dale Lonack",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/luminedge-unreleased-pc.jpg",
+  "logo": "images/logos/luminedge-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3078430",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

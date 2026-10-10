@@ -1,0 +1,33 @@
+{
+  "id": "experiment-28-unreleased-pc",
+  "name": "Experiment 28",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Grossly Incandescent Games",
+  "pub": "Grossly Incandescent Games",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/experiment-28-unreleased-pc.jpg",
+  "logo": "images/logos/experiment-28-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3656570",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

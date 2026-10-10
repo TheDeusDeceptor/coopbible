@@ -1,0 +1,33 @@
+{
+  "id": "intervoid-2026-pc",
+  "name": "Intervoid",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "Hooyarium Games",
+  "pub": "Hooyarium Games",
+  "notes": "",
+  "release": "Q4 2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/intervoid-2026-pc.jpg",
+  "logo": "images/logos/intervoid-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3985880",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

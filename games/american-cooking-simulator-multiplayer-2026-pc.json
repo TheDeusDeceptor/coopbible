@@ -1,0 +1,33 @@
+{
+  "id": "american-cooking-simulator-multiplayer-2026-pc",
+  "name": "American Cooking Simulator: Multiplayer",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "—",
+  "dev": "Freedom Burger Games",
+  "pub": "Artex",
+  "notes": "",
+  "release": "12.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/american-cooking-simulator-multiplayer-2026-pc.jpg",
+  "logo": "images/logos/american-cooking-simulator-multiplayer-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3780530",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

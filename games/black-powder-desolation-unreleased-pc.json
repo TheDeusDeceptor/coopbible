@@ -1,0 +1,33 @@
+{
+  "id": "black-powder-desolation-unreleased-pc",
+  "name": "Black Powder Desolation",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Jonas Kastner",
+  "pub": "Jonas Kastner",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/black-powder-desolation-unreleased-pc.jpg",
+  "logo": "images/logos/black-powder-desolation-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2521490",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

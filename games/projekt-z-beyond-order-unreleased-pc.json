@@ -1,0 +1,33 @@
+{
+  "id": "projekt-z-beyond-order-unreleased-pc",
+  "name": "Projekt Z: Beyond Order",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "—",
+  "dev": "314 Arts",
+  "pub": "Maximum Entertainment",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/projekt-z-beyond-order-unreleased-pc.jpg",
+  "logo": "images/logos/projekt-z-beyond-order-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/763310",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
