@@ -1,0 +1,38 @@
+{
+  "id": "sledding-game-2026-pc",
+  "name": "Sledding Game",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "The Sledding Corporation",
+  "pub": "The Sledding Corporation",
+  "notes": "",
+  "release": "",
+  "ea_release": "30.04.2026",
+  "screenshot": "images/screenshots/sledding-game-2026-pc.jpg",
+  "logo": "images/logos/sledding-game-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3438850",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sledding_Game",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

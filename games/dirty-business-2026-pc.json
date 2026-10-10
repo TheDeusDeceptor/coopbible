@@ -1,0 +1,33 @@
+{
+  "id": "dirty-business-2026-pc",
+  "name": "Dirty Business",
+  "platform": "PC",
+  "size": "9 GB",
+  "hltb": "—",
+  "dev": "Plan Dirty",
+  "pub": "Plan Dirty",
+  "notes": "",
+  "release": "",
+  "ea_release": "22.07.2026",
+  "screenshot": "images/screenshots/dirty-business-2026-pc.jpg",
+  "logo": "images/logos/dirty-business-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4324480",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

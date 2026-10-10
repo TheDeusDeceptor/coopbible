@@ -1,0 +1,33 @@
+{
+  "id": "inferno-protocol-2026-pc",
+  "name": "Inferno Protocol",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "—",
+  "dev": "Tektonic Interactive",
+  "pub": "Tektonic Interactive",
+  "notes": "",
+  "release": "",
+  "ea_release": "28.08.2026",
+  "screenshot": "images/screenshots/inferno-protocol-2026-pc.jpg",
+  "logo": "images/logos/inferno-protocol-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3908940",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

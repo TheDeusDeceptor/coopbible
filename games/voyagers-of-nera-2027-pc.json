@@ -1,0 +1,38 @@
+{
+  "id": "voyagers-of-nera-2027-pc",
+  "name": "Voyagers of Nera",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 6, +Extra: 18",
+  "dev": "Treehouse Games",
+  "pub": "Treehouse Games",
+  "notes": "",
+  "release": "2027",
+  "ea_release": "16.09.2025",
+  "screenshot": "images/screenshots/voyagers-of-nera-2027-pc.jpg",
+  "logo": "images/logos/voyagers-of-nera-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2686630",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Voyagers_of_Nera",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

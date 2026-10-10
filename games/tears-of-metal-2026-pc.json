@@ -1,0 +1,38 @@
+{
+  "id": "tears-of-metal-2026-pc",
+  "name": "Tears of Metal",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 4",
+  "dev": "Paper Cult",
+  "pub": "Paper Cult",
+  "notes": "",
+  "release": "",
+  "ea_release": "22.07.2026",
+  "screenshot": "images/screenshots/tears-of-metal-2026-pc.jpg",
+  "logo": "images/logos/tears-of-metal-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1913120",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tears_of_Metal",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

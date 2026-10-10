@@ -1,0 +1,38 @@
+{
+  "id": "i-know-a-guy-shady-life-simulator-2026-pc",
+  "name": "I Know a Guy: Shady Life Simulator",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Bunch'o'Nerds",
+  "pub": "Bunch'o'Nerds",
+  "notes": "",
+  "release": "25.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/i-know-a-guy-shady-life-simulator-2026-pc.jpg",
+  "logo": "images/logos/i-know-a-guy-shady-life-simulator-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4173620",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/I_Know_a_Guy%3A_Shady_Life_Simulator",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

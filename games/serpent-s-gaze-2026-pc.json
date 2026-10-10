@@ -1,0 +1,33 @@
+{
+  "id": "serpent-s-gaze-2026-pc",
+  "name": "Serpent's Gaze",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "Feeble Minds",
+  "pub": "Feeble Minds",
+  "notes": "",
+  "release": "",
+  "ea_release": "25.05.2026",
+  "screenshot": "images/screenshots/serpent-s-gaze-2026-pc.jpg",
+  "logo": "images/logos/serpent-s-gaze-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3069050",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

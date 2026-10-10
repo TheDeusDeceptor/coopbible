@@ -1,0 +1,38 @@
+{
+  "id": "deep-rock-galactic-rogue-core-2026-pc",
+  "name": "Deep Rock Galactic: Rogue Core",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 2, +Extra: 74",
+  "dev": "Ghost Ship Games",
+  "pub": "Ghost Ship Publishing, Coffee Stain Publishing",
+  "notes": "",
+  "release": "",
+  "ea_release": "20.05.2026",
+  "screenshot": "images/screenshots/deep-rock-galactic-rogue-core-2026-pc.jpg",
+  "logo": "images/logos/deep-rock-galactic-rogue-core-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2605790",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Deep_Rock_Galactic%3A_Rogue_Core",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

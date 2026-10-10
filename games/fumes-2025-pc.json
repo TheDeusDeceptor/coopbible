@@ -1,0 +1,38 @@
+{
+  "id": "fumes-2025-pc",
+  "name": "Fumes",
+  "platform": "PC",
+  "size": "0.4 GB",
+  "hltb": "Main: 7",
+  "dev": "FUMES team",
+  "pub": "FUMES team",
+  "notes": "",
+  "release": "",
+  "ea_release": "28.07.2025",
+  "screenshot": "images/screenshots/fumes-2025-pc.jpg",
+  "logo": "images/logos/fumes-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1920430",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Fumes",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

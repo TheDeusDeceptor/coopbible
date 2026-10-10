@@ -1,0 +1,38 @@
+{
+  "id": "aloft-2025-pc",
+  "name": "Aloft",
+  "platform": "PC",
+  "size": "12 GB",
+  "hltb": "—",
+  "dev": "Astrolabe Interactive",
+  "pub": "Funcom",
+  "notes": "",
+  "release": "",
+  "ea_release": "15.01.2025",
+  "screenshot": "images/screenshots/aloft-2025-pc.jpg",
+  "logo": "images/logos/aloft-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1660080",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Aloft",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

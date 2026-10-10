@@ -1,0 +1,38 @@
+{
+  "id": "the-lantern-of-the-laughless-saint-2026-pc",
+  "name": "The Lantern of the Laughless Saint",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "NerveLabs",
+  "pub": "NerveLabs",
+  "notes": "",
+  "release": "",
+  "ea_release": "17.08.2026",
+  "screenshot": "images/screenshots/the-lantern-of-the-laughless-saint-2026-pc.jpg",
+  "logo": "images/logos/the-lantern-of-the-laughless-saint-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3849000",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Lantern_of_the_Laughless_Saint",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
