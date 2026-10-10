@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-10T11:55:38Z",
+  "updated": "2026-10-10T17:15:24Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -18622,6 +18622,115 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "zort-2024-pc": {
+      "id": "zort-2024-pc",
+      "name": "Zort",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 2, +Extra: 4",
+      "dev": "Londer Software",
+      "pub": "Londer Software",
+      "notes": "Last update was over 1 year ago",
+      "release": "",
+      "ea_release": "07.12.2024",
+      "screenshot": "images/screenshots/zort-2024-pc.jpg",
+      "logo": "images/logos/zort-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3121110",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "crab-champions-2023-pc": {
+      "id": "crab-champions-2023-pc",
+      "name": "Crab Champions",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 3, +Extra: 22",
+      "dev": "Noisestorm",
+      "pub": "Noisestorm",
+      "notes": "",
+      "release": "",
+      "ea_release": "01.04.2023",
+      "screenshot": "images/screenshots/crab-champions-2023-pc.jpg",
+      "logo": "images/logos/crab-champions-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/774801",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Crab_Champions",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "stick-it-to-the-stickman-2026-pc": {
+      "id": "stick-it-to-the-stickman-2026-pc",
+      "name": "Stick It to the Stickman",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 5, +Extra: 10",
+      "dev": "Free Lives",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "23.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/stick-it-to-the-stickman-2026-pc.jpg",
+      "logo": "images/logos/stick-it-to-the-stickman-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2085540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Stick_It_to_the_Stickman",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -19094,7 +19203,8 @@
       "gone-fishing-2026-pc",
       "scrap-mechanic-2026-pc",
       "neon-abyss-2-2026-pc",
-      "no-more-room-in-hell-2-2026-pc"
+      "no-more-room-in-hell-2-2026-pc",
+      "stick-it-to-the-stickman-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -19139,7 +19249,9 @@
       "robbing-time-2025-pc",
       "no-rest-for-the-wicked-2024-pc",
       "trapped-souls-2017-pc",
-      "echoes-of-elysium-2026-pc"
+      "echoes-of-elysium-2026-pc",
+      "zort-2024-pc",
+      "crab-champions-2023-pc"
     ],
     "unreleased": [],
     "mods": [],

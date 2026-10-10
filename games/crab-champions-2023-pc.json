@@ -1,0 +1,38 @@
+{
+  "id": "crab-champions-2023-pc",
+  "name": "Crab Champions",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 3, +Extra: 22",
+  "dev": "Noisestorm",
+  "pub": "Noisestorm",
+  "notes": "",
+  "release": "",
+  "ea_release": "01.04.2023",
+  "screenshot": "images/screenshots/crab-champions-2023-pc.jpg",
+  "logo": "images/logos/crab-champions-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/774801",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Crab_Champions",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

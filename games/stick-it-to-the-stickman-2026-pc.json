@@ -1,0 +1,38 @@
+{
+  "id": "stick-it-to-the-stickman-2026-pc",
+  "name": "Stick It to the Stickman",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 5, +Extra: 10",
+  "dev": "Free Lives",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "23.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stick-it-to-the-stickman-2026-pc.jpg",
+  "logo": "images/logos/stick-it-to-the-stickman-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2085540",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Stick_It_to_the_Stickman",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

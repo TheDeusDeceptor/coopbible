@@ -1,0 +1,33 @@
+{
+  "id": "zort-2024-pc",
+  "name": "Zort",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 2, +Extra: 4",
+  "dev": "Londer Software",
+  "pub": "Londer Software",
+  "notes": "Last update was over 1 year ago",
+  "release": "",
+  "ea_release": "07.12.2024",
+  "screenshot": "images/screenshots/zort-2024-pc.jpg",
+  "logo": "images/logos/zort-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3121110",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
