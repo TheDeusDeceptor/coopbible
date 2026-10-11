@@ -1,0 +1,38 @@
+{
+  "id": "payday-the-heist-2011-pc",
+  "name": "Payday: The Heist",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 10, +Extra: 32",
+  "dev": "Overkill Software",
+  "pub": "Starbreeze Entertainment",
+  "notes": "",
+  "release": "20.10.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/payday-the-heist-2011-pc.jpg",
+  "logo": "images/logos/payday-the-heist-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/24240",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Wolfpack",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

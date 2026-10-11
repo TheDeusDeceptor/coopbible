@@ -1,0 +1,47 @@
+{
+  "id": "resident-evil-5-2009-pc",
+  "name": "Resident Evil 5",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 12, +Extra: 17",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "release": "15.09.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/resident-evil-5-2009-pc.jpg",
+  "logo": "images/logos/resident-evil-5-2009-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/21690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Resident_Evil_5",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Lost in Nightmares",
+      "played": true
+    },
+    {
+      "name": "Desperate Escape",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

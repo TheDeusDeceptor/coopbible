@@ -1,0 +1,38 @@
+{
+  "id": "left-4-dead-2008-pc",
+  "name": "Left 4 Dead",
+  "platform": "PC",
+  "size": "7.5 GB",
+  "hltb": "Main: 7, +Extra: 19",
+  "dev": "Valve",
+  "pub": "Valve",
+  "notes": "",
+  "release": "17.11.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/left-4-dead-2008-pc.jpg",
+  "logo": "images/logos/left-4-dead-2008-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/500",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Left_4_Dead",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

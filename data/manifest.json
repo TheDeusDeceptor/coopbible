@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T18:22:28Z",
+  "updated": "2026-10-11T19:36:19Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -25485,6 +25485,457 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "portal-2-2011-pc": {
+      "id": "portal-2-2011-pc",
+      "name": "Portal 2",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 9, +Extra: 14",
+      "dev": "Valve",
+      "pub": "Valve",
+      "notes": "",
+      "release": "18.04.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/portal-2-2011-pc.jpg",
+      "logo": "images/logos/portal-2-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/620",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Portal_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-5-2009-pc": {
+      "id": "resident-evil-5-2009-pc",
+      "name": "Resident Evil 5",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 12, +Extra: 17",
+      "dev": "Capcom",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "15.09.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/resident-evil-5-2009-pc.jpg",
+      "logo": "images/logos/resident-evil-5-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/21690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Resident_Evil_5",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Lost in Nightmares",
+          "played": true
+        },
+        {
+          "name": "Desperate Escape",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-6-2013-pc": {
+      "id": "resident-evil-6-2013-pc",
+      "name": "Resident Evil 6",
+      "platform": "PC",
+      "size": "16 GB",
+      "hltb": "Main: 21, +Extra: 27",
+      "dev": "Capcom",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "21.03.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/resident-evil-6-2013-pc.jpg",
+      "logo": "images/logos/resident-evil-6-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/221040",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Resident_Evil_6",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "minecraft-java-edition-2011-pc": {
+      "id": "minecraft-java-edition-2011-pc",
+      "name": "Minecraft: Java Edition",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 65, +Extra: 144",
+      "dev": "Mojang",
+      "pub": "Microsoft Studios",
+      "notes": "",
+      "release": "18.11.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/minecraft-java-edition-2011-pc.jpg",
+      "logo": "images/logos/minecraft-java-edition-2011-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Minecraft%3A_Java_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "zombie-army-trilogy-2015-pc": {
+      "id": "zombie-army-trilogy-2015-pc",
+      "name": "Zombie Army Trilogy",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 13, +Extra: 20",
+      "dev": "Rebellion",
+      "pub": "Rebellion",
+      "notes": "",
+      "release": "06.03.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/zombie-army-trilogy-2015-pc.jpg",
+      "logo": "images/logos/zombie-army-trilogy-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/301640",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Zombie_Army_Trilogy",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-island-2011-pc": {
+      "id": "dead-island-2011-pc",
+      "name": "Dead Island",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 18, +Extra: 28",
+      "dev": "Techland",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "06.09.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-island-2011-pc.jpg",
+      "logo": "images/logos/dead-island-2011-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dead_Island",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "borderlands-2-2012-pc": {
+      "id": "borderlands-2-2012-pc",
+      "name": "Borderlands 2",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 30, +Extra: 55",
+      "dev": "Gearbox Software",
+      "pub": "2K Games, Aspyr Media",
+      "notes": "",
+      "release": "17.09.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/borderlands-2-2012-pc.jpg",
+      "logo": "images/logos/borderlands-2-2012-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/49520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Borderlands_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Captain Scarlett and Her Pirate's Booty",
+          "played": true
+        },
+        {
+          "name": "Mr. Torgue's Campaign of Carnage",
+          "played": true
+        },
+        {
+          "name": "Natural Selection Annex",
+          "played": true
+        },
+        {
+          "name": "Sir Hammerlock's Big Game Hunt",
+          "played": true
+        },
+        {
+          "name": "Tiny Tina's Assault on Dragon Keep",
+          "played": true
+        },
+        {
+          "name": "Commander Lilith & the Fight for Sanctuary",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "left-4-dead-2008-pc": {
+      "id": "left-4-dead-2008-pc",
+      "name": "Left 4 Dead",
+      "platform": "PC",
+      "size": "7.5 GB",
+      "hltb": "Main: 7, +Extra: 19",
+      "dev": "Valve",
+      "pub": "Valve",
+      "notes": "",
+      "release": "17.11.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/left-4-dead-2008-pc.jpg",
+      "logo": "images/logos/left-4-dead-2008-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Left_4_Dead",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "left-4-dead-2-2009-pc": {
+      "id": "left-4-dead-2-2009-pc",
+      "name": "Left 4 Dead 2",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 10, +Extra: 28",
+      "dev": "Valve",
+      "pub": "Valve",
+      "notes": "",
+      "release": "16.11.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/left-4-dead-2-2009-pc.jpg",
+      "logo": "images/logos/left-4-dead-2-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/550",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Left_4_Dead_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "payday-the-heist-2011-pc": {
+      "id": "payday-the-heist-2011-pc",
+      "name": "Payday: The Heist",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 10, +Extra: 32",
+      "dev": "Overkill Software",
+      "pub": "Starbreeze Entertainment",
+      "notes": "",
+      "release": "20.10.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/payday-the-heist-2011-pc.jpg",
+      "logo": "images/logos/payday-the-heist-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/24240",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Wolfpack",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sid-meier-s-civilization-v-2010-pc": {
+      "id": "sid-meier-s-civilization-v-2010-pc",
+      "name": "Sid Meier's Civilization V",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "—",
+      "dev": "Firaxis Games",
+      "pub": "2K Games, Aspyr Media",
+      "notes": "",
+      "release": "21.09.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sid-meier-s-civilization-v-2010-pc.jpg",
+      "logo": "images/logos/sid-meier-s-civilization-v-2010-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/8930",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sid_Meier's_Civilization_V",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Gods & Kings",
+          "played": true
+        },
+        {
+          "name": "Brave New World",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -26208,7 +26659,19 @@
       "ai-limit-together-2026-pcmod",
       "new-vegas-online-2026-pcmod"
     ],
-    "coop-beaten": [],
+    "coop-beaten": [
+      "sid-meier-s-civilization-v-2010-pc",
+      "payday-the-heist-2011-pc",
+      "left-4-dead-2-2009-pc",
+      "left-4-dead-2008-pc",
+      "borderlands-2-2012-pc",
+      "dead-island-2011-pc",
+      "zombie-army-trilogy-2015-pc",
+      "minecraft-java-edition-2011-pc",
+      "resident-evil-6-2013-pc",
+      "resident-evil-5-2009-pc",
+      "portal-2-2011-pc"
+    ],
     "backlog": [],
     "gamearchive": [],
     "mainpc": [],

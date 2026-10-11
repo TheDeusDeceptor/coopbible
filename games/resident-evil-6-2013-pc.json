@@ -1,0 +1,38 @@
+{
+  "id": "resident-evil-6-2013-pc",
+  "name": "Resident Evil 6",
+  "platform": "PC",
+  "size": "16 GB",
+  "hltb": "Main: 21, +Extra: 27",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "release": "21.03.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/resident-evil-6-2013-pc.jpg",
+  "logo": "images/logos/resident-evil-6-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/221040",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Resident_Evil_6",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

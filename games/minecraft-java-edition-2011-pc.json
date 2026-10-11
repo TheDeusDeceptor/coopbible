@@ -1,0 +1,33 @@
+{
+  "id": "minecraft-java-edition-2011-pc",
+  "name": "Minecraft: Java Edition",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 65, +Extra: 144",
+  "dev": "Mojang",
+  "pub": "Microsoft Studios",
+  "notes": "",
+  "release": "18.11.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/minecraft-java-edition-2011-pc.jpg",
+  "logo": "images/logos/minecraft-java-edition-2011-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Minecraft%3A_Java_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

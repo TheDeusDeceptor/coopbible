@@ -1,0 +1,47 @@
+{
+  "id": "sid-meier-s-civilization-v-2010-pc",
+  "name": "Sid Meier's Civilization V",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "Firaxis Games",
+  "pub": "2K Games, Aspyr Media",
+  "notes": "",
+  "release": "21.09.2010",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sid-meier-s-civilization-v-2010-pc.jpg",
+  "logo": "images/logos/sid-meier-s-civilization-v-2010-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/8930",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sid_Meier's_Civilization_V",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Gods & Kings",
+      "played": true
+    },
+    {
+      "name": "Brave New World",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

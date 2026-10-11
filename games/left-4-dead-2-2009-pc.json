@@ -1,0 +1,38 @@
+{
+  "id": "left-4-dead-2-2009-pc",
+  "name": "Left 4 Dead 2",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 10, +Extra: 28",
+  "dev": "Valve",
+  "pub": "Valve",
+  "notes": "",
+  "release": "16.11.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/left-4-dead-2-2009-pc.jpg",
+  "logo": "images/logos/left-4-dead-2-2009-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/550",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Left_4_Dead_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

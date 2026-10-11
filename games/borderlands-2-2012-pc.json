@@ -1,0 +1,63 @@
+{
+  "id": "borderlands-2-2012-pc",
+  "name": "Borderlands 2",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 30, +Extra: 55",
+  "dev": "Gearbox Software",
+  "pub": "2K Games, Aspyr Media",
+  "notes": "",
+  "release": "17.09.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/borderlands-2-2012-pc.jpg",
+  "logo": "images/logos/borderlands-2-2012-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/49520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Borderlands_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Captain Scarlett and Her Pirate's Booty",
+      "played": true
+    },
+    {
+      "name": "Mr. Torgue's Campaign of Carnage",
+      "played": true
+    },
+    {
+      "name": "Natural Selection Annex",
+      "played": true
+    },
+    {
+      "name": "Sir Hammerlock's Big Game Hunt",
+      "played": true
+    },
+    {
+      "name": "Tiny Tina's Assault on Dragon Keep",
+      "played": true
+    },
+    {
+      "name": "Commander Lilith & the Fight for Sanctuary",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

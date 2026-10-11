@@ -1,0 +1,38 @@
+{
+  "id": "zombie-army-trilogy-2015-pc",
+  "name": "Zombie Army Trilogy",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 13, +Extra: 20",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "",
+  "release": "06.03.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zombie-army-trilogy-2015-pc.jpg",
+  "logo": "images/logos/zombie-army-trilogy-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/301640",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Zombie_Army_Trilogy",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
