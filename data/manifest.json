@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T13:29:37Z",
+  "updated": "2026-10-11T13:49:08Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -1918,7 +1918,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1721110/760068803/88286047e325e87137acc4b91add9f17df89c630/1754918518/microtrailer.mp4"
     },
     "strange-brigade-2018-pc": {
       "id": "strange-brigade-2018-pc",
@@ -1994,7 +1995,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/420560/325778/d0292b47bab81a8dfb295110496ceeedcbccb44c/1750528639/microtrailer.mp4"
     },
     "firefighting-simulator-ignite-2025-pc": {
       "id": "firefighting-simulator-ignite-2025-pc",
@@ -2027,7 +2029,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1669480/2064353968/00ea5ea9498ec0dfbcc81a13ce4f846b6d9e6208/1756718052/microtrailer.mp4"
     },
     "keep-digging-2025-pc": {
       "id": "keep-digging-2025-pc",
@@ -2060,7 +2063,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3585800/93967966/e4efd29e5c476bcb7be3a819abbdb1c09cb36044/1756721230/microtrailer.mp4"
     },
     "godbreakers-2025-pc": {
       "id": "godbreakers-2025-pc",
@@ -2098,7 +2102,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2687400/1150655554/626d192eacbbaeccce4db6f888f30c7a1c42973f/1757674467/microtrailer.mp4"
     },
     "silly-s-gameshow-2025-pc": {
       "id": "silly-s-gameshow-2025-pc",
@@ -2354,7 +2359,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3228590/1568387164/f4108840d6eb056d6575e3cb35cc015bcc045904/1757451614/microtrailer.mp4"
     },
     "earth-defense-force-iron-rain-2019-pc": {
       "id": "earth-defense-force-iron-rain-2019-pc",
@@ -2440,7 +2446,7 @@
       "hltb": "Main: 42, +Extra: 55",
       "dev": "Sandlot",
       "pub": "D3 Publisher",
-      "notes": "",
+      "notes": "Enhanced version (Earth Defense Force 6.2: Invaders from Another World) upcoming",
       "release": "25.07.2024",
       "ea_release": "",
       "screenshot": "images/screenshots/earth-defense-force-6-2024-pc.jpg",
@@ -2506,7 +2512,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1549970/396163/250934457c2e2dafa8ecdc31f99f631295fc57ab/1750700300/microtrailer.mp4"
     },
     "arma-2-2009-pc": {
       "id": "arma-2-2009-pc",
@@ -2658,7 +2665,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1340990/817702/fdfff26827165694cd9a322a4f6d2cc0484f4fbd/1750675061/microtrailer.mp4"
     },
     "we-were-here-2017-pc": {
       "id": "we-were-here-2017-pc",
@@ -3038,7 +3046,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2071280/830425/7ed10b23996e0b4c0456f564abd9d45f877712be/1750745937/microtrailer.mp4"
     },
     "robin-hood-sherwood-builders-2024-pc": {
       "id": "robin-hood-sherwood-builders-2024-pc",
@@ -3076,7 +3085,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1159420/405954/6c76ada05ee7428e71f3c3a65a3bc9514115638b/1750630712/microtrailer.mp4"
     },
     "smalland-survive-the-wilds-2024-pc": {
       "id": "smalland-survive-the-wilds-2024-pc",
@@ -3223,7 +3233,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1149460/351075938/a7a0c966ff56875676dcce09e3f810643d452a98/1753055228/microtrailer.mp4"
     },
     "powerwash-simulator-2022-pc": {
       "id": "powerwash-simulator-2022-pc",
