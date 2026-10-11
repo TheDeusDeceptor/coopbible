@@ -1,0 +1,27 @@
+{
+  "id": "coopandreas-2025-pc",
+  "name": "CoopAndreas",
+  "platform": "PC",
+  "size": "4.7 GB",
+  "hltb": "Main: 30, +Extra: 45",
+  "dev": "Tornamic",
+  "pub": "",
+  "notes": "",
+  "release": "21.10.2025",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/coopandreas-2025-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

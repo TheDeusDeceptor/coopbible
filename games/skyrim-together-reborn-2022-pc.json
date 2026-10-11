@@ -1,0 +1,27 @@
+{
+  "id": "skyrim-together-reborn-2022-pc",
+  "name": "Skyrim Together Reborn",
+  "platform": "PC",
+  "size": "17 GB",
+  "hltb": "Main: 35, +Extra: 112",
+  "dev": "The Tilted Team",
+  "pub": "",
+  "notes": "",
+  "release": "08.07.2022",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/skyrim-together-reborn-2022-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

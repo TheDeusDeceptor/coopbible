@@ -1,0 +1,27 @@
+{
+  "id": "wukongmp-2025-pc",
+  "name": "WukongMP",
+  "platform": "PC",
+  "size": "130 GB",
+  "hltb": "Main: 35, +Extra: 50",
+  "dev": "ReadyM",
+  "pub": "",
+  "notes": "",
+  "release": "19.12.2025",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/wukongmp-2025-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
