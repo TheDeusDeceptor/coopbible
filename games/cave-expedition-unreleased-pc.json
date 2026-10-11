@@ -1,0 +1,33 @@
+{
+  "id": "cave-expedition-unreleased-pc",
+  "name": "Cave Expedition",
+  "platform": "PC",
+  "size": "9 GB",
+  "hltb": "—",
+  "dev": "Moonmilk Games",
+  "pub": "Moonmilk Games",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cave-expedition-unreleased-pc.jpg",
+  "logo": "images/logos/cave-expedition-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4372950",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

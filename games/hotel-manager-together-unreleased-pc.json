@@ -1,0 +1,33 @@
+{
+  "id": "hotel-manager-together-unreleased-pc",
+  "name": "Hotel Manager: Together",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "Vespertine Game",
+  "pub": "Vespertine Game",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hotel-manager-together-unreleased-pc.jpg",
+  "logo": "images/logos/hotel-manager-together-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4657370",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

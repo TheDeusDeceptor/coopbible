@@ -1,0 +1,33 @@
+{
+  "id": "needle-in-a-haystack-simulator-2026-pc",
+  "name": "Needle In A Haystack Simulator",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Studio Bitdot",
+  "pub": "Polden Publishing",
+  "notes": "",
+  "release": "Q4 2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/needle-in-a-haystack-simulator-2026-pc.jpg",
+  "logo": "images/logos/needle-in-a-haystack-simulator-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/5159870",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T06:34:21Z",
+  "updated": "2026-10-11T07:57:49Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -24008,6 +24008,613 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "yandere-virus-2026-pc": {
+      "id": "yandere-virus-2026-pc",
+      "name": "Yandere Virus",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "—",
+      "dev": "Moka Sphere, SCON",
+      "pub": "Moka Sphere",
+      "notes": "",
+      "release": "20.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yandere-virus-2026-pc.jpg",
+      "logo": "images/logos/yandere-virus-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4513060",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "chicken-escape-unreleased-pc": {
+      "id": "chicken-escape-unreleased-pc",
+      "name": "Chicken Escape",
+      "platform": "PC",
+      "size": "2.9 GB",
+      "hltb": "—",
+      "dev": "AremixInteractive",
+      "pub": "AremixInteractive",
+      "notes": "",
+      "release": "",
+      "ea_release": "TBA",
+      "screenshot": "images/screenshots/chicken-escape-unreleased-pc.jpg",
+      "logo": "images/logos/chicken-escape-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4657910",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "emissary-one-2027-pc": {
+      "id": "emissary-one-2027-pc",
+      "name": "Emissary One",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Rone Vine",
+      "pub": "Rone Vine",
+      "notes": "",
+      "release": "Q1 2027",
+      "ea_release": "",
+      "screenshot": "images/screenshots/emissary-one-2027-pc.jpg",
+      "logo": "images/logos/emissary-one-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4136620",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "estencel-2023-pc": {
+      "id": "estencel-2023-pc",
+      "name": "Estencel",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 21, +Extra: 24",
+      "dev": "Rone Vine",
+      "pub": "Rone Vine",
+      "notes": "",
+      "release": "19.01.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/estencel-2023-pc.jpg",
+      "logo": "images/logos/estencel-2023-pc.png",
+      "video": "videos/estencel-2023-pc.mp4",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2025320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Estencel",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dear-passengers-2026-pc": {
+      "id": "dear-passengers-2026-pc",
+      "name": "Dear Passengers",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "FLEXUS",
+      "pub": "FLEXUS",
+      "notes": "",
+      "release": "2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dear-passengers-2026-pc.jpg",
+      "logo": "images/logos/dear-passengers-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4534960",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "disaster-crew-2026-pc": {
+      "id": "disaster-crew-2026-pc",
+      "name": "Disaster Crew",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "RedPad Games",
+      "pub": "RedPad Games",
+      "notes": "",
+      "release": "Q4 2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/disaster-crew-2026-pc.jpg",
+      "logo": "images/logos/disaster-crew-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4674820",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "car-crime-simulator-2027-pc": {
+      "id": "car-crime-simulator-2027-pc",
+      "name": "Car Crime Simulator",
+      "platform": "PC",
+      "size": "16 GB",
+      "hltb": "—",
+      "dev": "Play2Chill S.A.",
+      "pub": "Garage Monkeys",
+      "notes": "",
+      "release": "Q1 2027",
+      "ea_release": "",
+      "screenshot": "images/screenshots/car-crime-simulator-2027-pc.jpg",
+      "logo": "images/logos/car-crime-simulator-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3907830",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "carry-the-count-2026-pc": {
+      "id": "carry-the-count-2026-pc",
+      "name": "Carry The Count",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Little Bird Studios",
+      "pub": "Cathedral Studios",
+      "notes": "",
+      "release": "01.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/carry-the-count-2026-pc.jpg",
+      "logo": "images/logos/carry-the-count-2026-pc.png",
+      "video": "videos/carry-the-count-2026-pc.mp4",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4311440",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "needle-in-a-haystack-simulator-2026-pc": {
+      "id": "needle-in-a-haystack-simulator-2026-pc",
+      "name": "Needle In A Haystack Simulator",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Studio Bitdot",
+      "pub": "Polden Publishing",
+      "notes": "",
+      "release": "Q4 2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/needle-in-a-haystack-simulator-2026-pc.jpg",
+      "logo": "images/logos/needle-in-a-haystack-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/5159870",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "stranded-deep-2-unreleased-pc": {
+      "id": "stranded-deep-2-unreleased-pc",
+      "name": "Stranded Deep 2",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "North Beach Games",
+      "pub": "North Beach Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "TBA",
+      "screenshot": "images/screenshots/stranded-deep-2-unreleased-pc.jpg",
+      "logo": "images/logos/stranded-deep-2-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3976770",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hotel-manager-together-unreleased-pc": {
+      "id": "hotel-manager-together-unreleased-pc",
+      "name": "Hotel Manager: Together",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Vespertine Game",
+      "pub": "Vespertine Game",
+      "notes": "",
+      "release": "Soon",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hotel-manager-together-unreleased-pc.jpg",
+      "logo": "images/logos/hotel-manager-together-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4657370",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cave-expedition-unreleased-pc": {
+      "id": "cave-expedition-unreleased-pc",
+      "name": "Cave Expedition",
+      "platform": "PC",
+      "size": "9 GB",
+      "hltb": "—",
+      "dev": "Moonmilk Games",
+      "pub": "Moonmilk Games",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cave-expedition-unreleased-pc.jpg",
+      "logo": "images/logos/cave-expedition-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4372950",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-missing-tail-unreleased-pc": {
+      "id": "the-missing-tail-unreleased-pc",
+      "name": "The Missing Tail",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Estoty LLC",
+      "pub": "Estoty LLC",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-missing-tail-unreleased-pc.jpg",
+      "logo": "images/logos/the-missing-tail-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4096780",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trash-day-2026-pc": {
+      "id": "trash-day-2026-pc",
+      "name": "Trash Day",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Off by One Games",
+      "pub": "Off by One Games",
+      "notes": "",
+      "release": "13.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trash-day-2026-pc.jpg",
+      "logo": "images/logos/trash-day-2026-pc.png",
+      "video": "videos/trash-day-2026-pc.mp4",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3314580",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "stage-fright-unreleased-pc": {
+      "id": "stage-fright-unreleased-pc",
+      "name": "Stage Fright",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Ghost Town Games Ltd.",
+      "pub": "Hello Games",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/stage-fright-unreleased-pc.jpg",
+      "logo": "images/logos/stage-fright-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3260750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Stage_Fright",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "did-you-see-that-2026-pc": {
+      "id": "did-you-see-that-2026-pc",
+      "name": "Did You See That?",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Ashen Studios",
+      "pub": "Ashen Studios",
+      "notes": "",
+      "release": "07.12.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/did-you-see-that-2026-pc.jpg",
+      "logo": "images/logos/did-you-see-that-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4830110",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "heathen-unreleased-pc": {
+      "id": "heathen-unreleased-pc",
+      "name": "Heathen",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Christopher Yabsley",
+      "pub": "Christopher Yabsley",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/heathen-unreleased-pc.jpg",
+      "logo": "images/logos/heathen-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4702700",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "living-hell-2027-pc": {
+      "id": "living-hell-2027-pc",
+      "name": "Living Hell",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Joe Fender",
+      "pub": "Future Friends Games",
+      "notes": "",
+      "release": "2027",
+      "ea_release": "",
+      "screenshot": "images/screenshots/living-hell-2027-pc.jpg",
+      "logo": "images/logos/living-hell-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3078760",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -24499,7 +25106,11 @@
       "pass-the-fear-2026-pc",
       "chop-chop-together-2026-pc",
       "burger-shift-team-rush-2026-pc",
-      "entity-research-group-2026-pc"
+      "entity-research-group-2026-pc",
+      "yandere-virus-2026-pc",
+      "estencel-2023-pc",
+      "carry-the-count-2026-pc",
+      "trash-day-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -24682,7 +25293,21 @@
       "totally-safe-moon-project-unreleased-pc",
       "keelblade-2027-pc",
       "nailcrown-unreleased-pc",
-      "samurai-pizza-cats-blast-from-the-past-unreleased-pc"
+      "samurai-pizza-cats-blast-from-the-past-unreleased-pc",
+      "chicken-escape-unreleased-pc",
+      "emissary-one-2027-pc",
+      "dear-passengers-2026-pc",
+      "disaster-crew-2026-pc",
+      "car-crime-simulator-2027-pc",
+      "needle-in-a-haystack-simulator-2026-pc",
+      "stranded-deep-2-unreleased-pc",
+      "hotel-manager-together-unreleased-pc",
+      "cave-expedition-unreleased-pc",
+      "the-missing-tail-unreleased-pc",
+      "stage-fright-unreleased-pc",
+      "did-you-see-that-2026-pc",
+      "heathen-unreleased-pc",
+      "living-hell-2027-pc"
     ],
     "mods": [],
     "coop-beaten": [],

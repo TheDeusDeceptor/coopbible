@@ -1,0 +1,33 @@
+{
+  "id": "living-hell-2027-pc",
+  "name": "Living Hell",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "—",
+  "dev": "Joe Fender",
+  "pub": "Future Friends Games",
+  "notes": "",
+  "release": "2027",
+  "ea_release": "",
+  "screenshot": "images/screenshots/living-hell-2027-pc.jpg",
+  "logo": "images/logos/living-hell-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3078760",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

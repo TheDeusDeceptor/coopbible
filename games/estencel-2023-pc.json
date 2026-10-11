@@ -1,0 +1,39 @@
+{
+  "id": "estencel-2023-pc",
+  "name": "Estencel",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 21, +Extra: 24",
+  "dev": "Rone Vine",
+  "pub": "Rone Vine",
+  "notes": "",
+  "release": "19.01.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/estencel-2023-pc.jpg",
+  "logo": "images/logos/estencel-2023-pc.png",
+  "video": "videos/estencel-2023-pc.mp4",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2025320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Estencel",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

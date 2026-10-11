@@ -1,0 +1,33 @@
+{
+  "id": "chicken-escape-unreleased-pc",
+  "name": "Chicken Escape",
+  "platform": "PC",
+  "size": "2.9 GB",
+  "hltb": "—",
+  "dev": "AremixInteractive",
+  "pub": "AremixInteractive",
+  "notes": "",
+  "release": "",
+  "ea_release": "TBA",
+  "screenshot": "images/screenshots/chicken-escape-unreleased-pc.jpg",
+  "logo": "images/logos/chicken-escape-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4657910",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

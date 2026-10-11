@@ -1,0 +1,33 @@
+{
+  "id": "car-crime-simulator-2027-pc",
+  "name": "Car Crime Simulator",
+  "platform": "PC",
+  "size": "16 GB",
+  "hltb": "—",
+  "dev": "Play2Chill S.A.",
+  "pub": "Garage Monkeys",
+  "notes": "",
+  "release": "Q1 2027",
+  "ea_release": "",
+  "screenshot": "images/screenshots/car-crime-simulator-2027-pc.jpg",
+  "logo": "images/logos/car-crime-simulator-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3907830",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

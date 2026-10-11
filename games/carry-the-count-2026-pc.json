@@ -1,0 +1,34 @@
+{
+  "id": "carry-the-count-2026-pc",
+  "name": "Carry The Count",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "Little Bird Studios",
+  "pub": "Cathedral Studios",
+  "notes": "",
+  "release": "01.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/carry-the-count-2026-pc.jpg",
+  "logo": "images/logos/carry-the-count-2026-pc.png",
+  "video": "videos/carry-the-count-2026-pc.mp4",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4311440",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

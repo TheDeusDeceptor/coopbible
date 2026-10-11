@@ -1,0 +1,33 @@
+{
+  "id": "the-missing-tail-unreleased-pc",
+  "name": "The Missing Tail",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Estoty LLC",
+  "pub": "Estoty LLC",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-missing-tail-unreleased-pc.jpg",
+  "logo": "images/logos/the-missing-tail-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4096780",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

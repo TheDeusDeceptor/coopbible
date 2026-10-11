@@ -1,0 +1,33 @@
+{
+  "id": "heathen-unreleased-pc",
+  "name": "Heathen",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Christopher Yabsley",
+  "pub": "Christopher Yabsley",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/heathen-unreleased-pc.jpg",
+  "logo": "images/logos/heathen-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4702700",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "dear-passengers-2026-pc",
+  "name": "Dear Passengers",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "FLEXUS",
+  "pub": "FLEXUS",
+  "notes": "",
+  "release": "2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dear-passengers-2026-pc.jpg",
+  "logo": "images/logos/dear-passengers-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4534960",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

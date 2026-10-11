@@ -1,0 +1,33 @@
+{
+  "id": "emissary-one-2027-pc",
+  "name": "Emissary One",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Rone Vine",
+  "pub": "Rone Vine",
+  "notes": "",
+  "release": "Q1 2027",
+  "ea_release": "",
+  "screenshot": "images/screenshots/emissary-one-2027-pc.jpg",
+  "logo": "images/logos/emissary-one-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4136620",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
