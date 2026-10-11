@@ -1,0 +1,33 @@
+{
+  "id": "hello-sunshine-unreleased-pc",
+  "name": "Hello Sunshine",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Red Thread Games",
+  "pub": "Megabit Publishing",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hello-sunshine-unreleased-pc.jpg",
+  "logo": "images/logos/hello-sunshine-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3245140",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tideborne-haven-unreleased-pc",
+  "name": "Tideborne Haven",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "—",
+  "dev": "Prestige Reef Games Ltd",
+  "pub": "Prestige Reef Games Ltd",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tideborne-haven-unreleased-pc.jpg",
+  "logo": "images/logos/tideborne-haven-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4328840",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "quack-hunters-unreleased-pc",
+  "name": "Quack Hunters",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Vampire Squid",
+  "pub": "Polden Publishing",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/quack-hunters-unreleased-pc.jpg",
+  "logo": "images/logos/quack-hunters-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4252280",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

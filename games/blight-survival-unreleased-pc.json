@@ -1,0 +1,38 @@
+{
+  "id": "blight-survival-unreleased-pc",
+  "name": "Blight: Survival",
+  "platform": "PC",
+  "size": "19.5 GB",
+  "hltb": "—",
+  "dev": "Haenir Studio",
+  "pub": "Behaviour Interactive",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/blight-survival-unreleased-pc.jpg",
+  "logo": "images/logos/blight-survival-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1774880",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Blight%3A_Survival",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

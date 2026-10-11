@@ -1,0 +1,33 @@
+{
+  "id": "world-of-dogs-unreleased-pc",
+  "name": "World of Dogs",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Nullhusk Company",
+  "pub": "Nullhusk Company",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/world-of-dogs-unreleased-pc.jpg",
+  "logo": "images/logos/world-of-dogs-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3703360",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

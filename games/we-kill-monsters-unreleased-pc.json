@@ -1,0 +1,33 @@
+{
+  "id": "we-kill-monsters-unreleased-pc",
+  "name": "We Kill Monsters",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Glass Revolver",
+  "pub": "Annapurna Interactive",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/we-kill-monsters-unreleased-pc.jpg",
+  "logo": "images/logos/we-kill-monsters-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1792460",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

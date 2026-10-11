@@ -1,0 +1,33 @@
+{
+  "id": "sea-warden-unreleased-pc",
+  "name": "Sea Warden",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Alcedo Games",
+  "pub": "Alcedo Games",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sea-warden-unreleased-pc.jpg",
+  "logo": "images/logos/sea-warden-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4262380",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

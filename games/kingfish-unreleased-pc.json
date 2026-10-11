@@ -1,0 +1,34 @@
+{
+  "id": "kingfish-unreleased-pc",
+  "name": "KingFish",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "Firevolt",
+  "pub": "Firevolt",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kingfish-unreleased-pc.jpg",
+  "logo": "images/logos/kingfish-unreleased-pc.png",
+  "video": "videos/kingfish-unreleased-pc.mp4",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3942260",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

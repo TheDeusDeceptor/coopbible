@@ -1,0 +1,38 @@
+{
+  "id": "cordura-unreleased-pc",
+  "name": "Cordura",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "Garage51",
+  "pub": "Garage51",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cordura-unreleased-pc.jpg",
+  "logo": "images/logos/cordura-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4414560",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Cordura",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "cartel-pilots-wanted-unreleased-pc",
+  "name": "Cartel Pilots Wanted",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "—",
+  "dev": "OldYacht",
+  "pub": "Polden Publishing, Blue Ocean Games",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cartel-pilots-wanted-unreleased-pc.jpg",
+  "logo": "images/logos/cartel-pilots-wanted-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4614080",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

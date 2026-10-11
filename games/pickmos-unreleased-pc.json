@@ -1,0 +1,33 @@
+{
+  "id": "pickmos-unreleased-pc",
+  "name": "Pickmos",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "—",
+  "dev": "PocketGame",
+  "pub": "NETWORKGO",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/pickmos-unreleased-pc.jpg",
+  "logo": "images/logos/pickmos-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4358270",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "we-were-here-tomorrow-2026-pc",
+  "name": "We Were Here Tomorrow",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "—",
+  "dev": "Total Mayhem Games",
+  "pub": "Total Mayhem Games",
+  "notes": "",
+  "release": "20.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/we-were-here-tomorrow-2026-pc.jpg",
+  "logo": "images/logos/we-were-here-tomorrow-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2315050",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/We_Were_Here_Tomorrow",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
