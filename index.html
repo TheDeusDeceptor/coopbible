@@ -617,6 +617,22 @@
   .random-spin-btn:hover{filter:brightness(1.08);box-shadow:0 0 32px var(--gold-glow);}
   .random-spin-btn:disabled{opacity:.55;cursor:wait;box-shadow:none;filter:none;}
 
+  /* ═══ SMART VIDEO ═══ */
+  .smart-vid{opacity:0;transition:opacity .25s ease;pointer-events:none;z-index:1;}
+  .smart-vid.on{opacity:1;}
+  .media-btn.steamdb:hover{border-color:#67c1f5;color:#67c1f5;background:rgba(103,193,245,.08);}
+  .hero-play-btn{position:absolute;inset:0;display:grid;place-items:center;cursor:pointer;z-index:3;background:rgba(0,0,0,.15);transition:background .18s ease;}
+  .hero-play-btn:hover{background:rgba(0,0,0,.32);}
+  .hero-play-btn .play-icon{width:72px;height:72px;border-radius:50%;background:rgba(10,13,18,.85);border:2px solid rgba(255,255,255,.25);display:grid;place-items:center;color:#fff;transition:transform .18s ease,border-color .18s ease;}
+  .hero-play-btn:hover .play-icon{transform:scale(1.08);border-color:var(--accent);}
+  .hero-play-btn .play-icon svg{width:30px;height:30px;margin-left:3px;}
+
+  /* ═══ HOVER SCREENSHOT PEEK ═══ */
+  .hover-shot{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s ease;pointer-events:none;z-index:0;}
+  .card:hover .hover-shot,
+  .beaten-row:hover .hover-shot{opacity:1;}
+  .beaten-shot{position:relative;}
+
   /* ═══ SCROLL JUMP ═══ */
   .scroll-jump-group{
     position:fixed;left:1.5rem;bottom:1.5rem;z-index:90;
@@ -1211,6 +1227,8 @@ let viewCols = (() => { try { return localStorage.getItem('view_cols') || 'auto'
 let modalNavList = [], modalNavIdx = -1;
 let openDD = null;
 let voidMode = false;
+let videoMode = (() => { try { return localStorage.getItem('view_video') || 'on'; } catch(e){ return 'on'; } })();
+const VIDEO_MODE_LABELS = { on:'On', smart:'Smart', off:'Off' };
 
 const pendingGameWrites = new Map();
 const pendingGameDeletes = new Set();
@@ -3093,6 +3111,72 @@ async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
   }
 }
 
+/* ═══ SMART MODE HANDLERS ═══ */
+(function attachSmartHandlers(){
+  let pressTimer = null, pressCard = null, pressSuppress = false;
+
+  contentEl.addEventListener('mouseover', e => {
+    if(videoMode !== 'smart') return;
+    const card = e.target.closest('.card, .beaten-row');
+    if(!card) return;
+    if(e.relatedTarget && card.contains(e.relatedTarget)) return;
+    const v = card.querySelector('.smart-vid');
+    if(!v || v._smartOn) return;
+    v._smartOn = true;
+    v.play().catch(()=>{});
+    v.classList.add('on');
+  });
+  contentEl.addEventListener('mouseout', e => {
+    if(videoMode !== 'smart') return;
+    const card = e.target.closest('.card, .beaten-row');
+    if(!card) return;
+    if(e.relatedTarget && card.contains(e.relatedTarget)) return;
+    const v = card.querySelector('.smart-vid');
+    if(!v || !v._smartOn) return;
+    v._smartOn = false;
+    v.pause();
+    try{ v.currentTime = 0; }catch(_){}
+    v.classList.remove('on');
+  });
+
+  contentEl.addEventListener('touchstart', e => {
+    if(videoMode !== 'smart') return;
+    const card = e.target.closest('.card, .beaten-row');
+    if(!card) return;
+    const v = card.querySelector('.smart-vid');
+    if(!v) return;
+    pressCard = card;
+    pressTimer = setTimeout(() => {
+      pressSuppress = true;
+      v.play().catch(()=>{});
+      v.classList.add('on');
+    }, 300);
+  }, { passive: true });
+  contentEl.addEventListener('touchmove', () => {
+    if(pressTimer){ clearTimeout(pressTimer); pressTimer = null; }
+  }, { passive: true });
+  contentEl.addEventListener('touchend', () => {
+    if(pressTimer){ clearTimeout(pressTimer); pressTimer = null; }
+    if(pressCard){
+      const v = pressCard.querySelector('.smart-vid');
+      if(v && v.classList.contains('on')){
+        v.pause();
+        try{ v.currentTime = 0; }catch(_){}
+        v.classList.remove('on');
+      }
+      pressCard = null;
+    }
+  });
+  contentEl.addEventListener('click', e => {
+    if(pressSuppress){
+      pressSuppress = false;
+      e.preventDefault();
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+    }
+  }, true);
+})();
+
 let videoObserver = null;
 function attachVideoObservers(){
   if(videoObserver) { videoObserver.disconnect(); videoObserver = null; }
@@ -3124,7 +3208,7 @@ function getPane(tabId){
 }
 function invalidateAllPanes(){ TAB_PANES.forEach(p => { p.signature = null; }); }
 function paneSignature(){
-  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), searchTerm].join('|');
+  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), searchTerm, videoMode].join('|');
 }
 function renderTabs(){
   tabbarEl.innerHTML = TABS[group].map(t =>
@@ -3203,6 +3287,14 @@ function renderToolbar(){
           }).join('')}
         </div>
       </div>
+      <div class="dd" data-dd="video">
+        <button class="dd-btn ${videoMode !== 'on' ? 'non-default' : ''}" type="button">Video <span class="val">${VIDEO_MODE_LABELS[videoMode]}</span><span class="chev">▾</span></button>
+        <div class="dd-menu">
+          <button class="dd-item ${videoMode === 'on' ? 'active' : ''}" data-video-mode="on">On<span class="dd-tick">✓</span></button>
+          <button class="dd-item ${videoMode === 'smart' ? 'active' : ''}" data-video-mode="smart">Smart — hover to play<span class="dd-tick">✓</span></button>
+          <button class="dd-item ${videoMode === 'off' ? 'active' : ''}" data-video-mode="off">Off<span class="dd-tick">✓</span></button>
+        </div>
+      </div>
       ${showView ? `
       <div class="dd" data-dd="view">
         <button class="dd-btn ${viewNonDefault?'non-default':''}" type="button"><span class="icon icon-cols" style="width:1em;height:1em"></span>View</button>
@@ -3278,13 +3370,24 @@ function adminControlsHTML(id){
   </div>`;
 }
 function shotMediaHTML(g, autoplay){
-  if(g.video){
-    const poster = g.screenshot ? ` poster="${esc(screenshotSrc(g.screenshot))}"` : '';
+  const noVideo = () => {
+    if(g.screenshot) return `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" loading="lazy" decoding="async">`;
+    return `<div class="ph">1280 × 720<small>screenshot</small></div>`;
+  };
+  if(!g.video) return noVideo();
+  const vUrl = esc(resolveImgUrl(g.video));
+  const posterAttr = g.screenshot ? ` poster="${esc(screenshotSrc(g.screenshot))}"` : '';
+  if(videoMode === 'on'){
     const autoAttr = autoplay ? ' autoplay' : ' data-autoplay';
-    return `<video${autoAttr} muted loop playsinline preload="metadata"${poster}><source src="${esc(resolveImgUrl(g.video))}" type="video/mp4"></video>`;
+    const hoverShot = g.screenshot ? `<img class="hover-shot" src="${esc(screenshotSrc(g.screenshot))}" alt="" loading="lazy" decoding="async">` : '';
+    return `<video${autoAttr} muted loop playsinline preload="metadata"${posterAttr}><source src="${vUrl}" type="video/mp4"></video>${hoverShot}`;
   }
-  if(g.screenshot) return `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" loading="lazy" decoding="async">`;
-  return `<div class="ph">1280 × 720<small>screenshot</small></div>`;
+  if(videoMode === 'smart'){
+    const poster = g.screenshot ? esc(screenshotSrc(g.screenshot)) : '';
+    const img = poster ? `<img src="${poster}" alt="" loading="lazy" decoding="async">` : `<div class="ph">1280 × 720</div>`;
+    return img + `<video class="smart-vid" muted loop playsinline preload="none"${posterAttr}><source src="${vUrl}" type="video/mp4"></video>`;
+  }
+  return noVideo();
 }
 function shotImgHTML(g){ return shotMediaHTML(g, false); }
 function logoImgHTML(g, titleAttr){
@@ -3617,9 +3720,17 @@ function heroNotesHTML(g){
   return `<div class="hero-notes" title="${esc(g.notes)}">${esc(g.notes)}</div>`;
 }
 function heroMediaHTML(g){
-  if(g.video){
+  if(g.video && (videoMode === 'on' || videoMode === 'smart')){
     const poster = g.screenshot ? ` poster="${esc(screenshotSrc(g.screenshot))}"` : '';
     return `<video class="hero-video" data-hero-video autoplay muted loop playsinline${poster}><source src="${esc(resolveImgUrl(g.video))}" type="video/mp4"></video>`;
+  }
+  if(g.video && videoMode === 'off'){
+    const vUrl = esc(resolveImgUrl(g.video));
+    const playBtn = `<div class="hero-play-btn" data-hero-play><div class="play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21"/></svg></div></div>`;
+    if(g.screenshot){
+      return `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" class="hero-img" data-hero-img data-video-url="${vUrl}">${playBtn}`;
+    }
+    return `<div class="ph" style="position:absolute;inset:0;background:#000" data-video-url="${vUrl}">1280 × 720</div>${playBtn}`;
   }
   if(g.screenshot) return `<img src="${esc(screenshotSrc(g.screenshot))}" alt="" class="hero-img" data-hero-img>`;
   return `<div class="ph">1280 × 720<small>screenshot</small></div>`;
@@ -3761,6 +3872,26 @@ function renderModal(g, t){
       vidEl.addEventListener('error', () => { heroEl.style.visibility = ''; }, { once: true });
       setTimeout(() => { if(heroEl.style.visibility === 'hidden') reveal(); }, 2000);
     }
+  }
+  const playBtn = modalSlot.querySelector('[data-hero-play]');
+  if(playBtn){
+    playBtn.addEventListener('click', () => {
+      const posterEl = playBtn.previousElementSibling;
+      const url = (posterEl && posterEl.dataset && posterEl.dataset.videoUrl) || '';
+      if(!url) return;
+      const v = document.createElement('video');
+      v.className = 'hero-video';
+      v.autoplay = true; v.muted = true; v.loop = true; v.playsInline = true;
+      v.setAttribute('data-hero-video','');
+      const s = document.createElement('source');
+      s.src = url; s.type = 'video/mp4';
+      v.appendChild(s);
+      v.addEventListener('loadedmetadata', () => applyHeroSize(heroEl), { once: true });
+      playBtn.remove();
+      if(posterEl) posterEl.remove();
+      heroEl.insertBefore(v, heroEl.firstChild);
+      v.play().catch(()=>{});
+    });
   }
 }
 function navigateModal(delta){
@@ -4121,6 +4252,9 @@ function openEditor(g, opts){
             <div class="field span-2">
               <label>Video (mp4, played on cards &amp; modal)</label>
               <input type="text" id="f-video" value="${esc(draft.video||'')}" placeholder="videos/…mp4">
+              <div class="media-btn-row">
+                <button type="button" class="media-btn steamdb" id="steamdb-btn">🎬 SteamDB</button>
+              </div>
             </div>
             <div class="field span-2">
               <label>Logo</label>
@@ -4389,6 +4523,23 @@ function openEditor(g, opts){
     const nameVal = (nameInput.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     window.open('https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
+  });
+  $('#steamdb-btn').addEventListener('click', () => {
+    let appid = parseSteamInput($('#qp-steam')?.value || '');
+    if(!appid){
+      const linksList2 = $('#links-list');
+      for(const row of linksList2.querySelectorAll('.link-row')){
+        const u = (row.querySelector('.link-url')?.value || '').trim();
+        appid = parseSteamInput(u);
+        if(appid) break;
+      }
+    }
+    const nameVal = (nameInput.value || '').trim();
+    let url;
+    if(appid) url = 'https://steamdb.info/app/' + appid + '/info/#:~:text=Trailer';
+    else if(nameVal) url = 'https://steamdb.info/search/?a=app&q=' + encodeURIComponent(nameVal);
+    else { toast('Enter a name or Steam link first', 'bad'); return; }
+    window.open(url, '_blank', 'noopener');
   });
   $('#save-screenshot-local').addEventListener('click', async () => {
     const nameVal = (nameInput.value || '').trim();
@@ -5954,6 +6105,15 @@ toolbarEl.addEventListener('click', e => {
     return;
   }
   if(e.target.closest('#addGameBtn')){ openEditor(null); return; }
+  const vmBtn = e.target.closest('[data-video-mode]');
+  if(vmBtn){
+    videoMode = vmBtn.dataset.videoMode;
+    try { localStorage.setItem('view_video', videoMode); } catch(e){}
+    closeAllDropdowns();
+    invalidateAllPanes();
+    renderContent();
+    return;
+  }
   const colBtn = e.target.closest('[data-view-cols]');
   if(colBtn){ setViewCols(colBtn.dataset.viewCols); closeAllDropdowns(); return; }
   const db = e.target.closest('.dd-btn');
@@ -7190,9 +7350,20 @@ window.addEventListener('resize', updateScrollButtons);
 if(window.ResizeObserver){
   new ResizeObserver(updateScrollButtons).observe(document.body);
 }
-scrollDownBtn.addEventListener('click', () => {
-  window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
-});
+function scrollToBottomFully(){
+  let lastH = -1, stable = 0, polls = 0;
+  const step = () => {
+    polls++;
+    const h = document.documentElement.scrollHeight;
+    const max = h - window.innerHeight;
+    window.scrollTo({ top: max, behavior: polls === 1 ? 'smooth' : 'auto' });
+    if(Math.abs(h - lastH) < 4) stable++;
+    else { stable = 0; lastH = h; }
+    if(stable < 3 && polls < 15) setTimeout(step, 250);
+  };
+  step();
+}
+scrollDownBtn.addEventListener('click', scrollToBottomFully);
 scrollUpBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
