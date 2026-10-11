@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T14:46:37Z",
+  "updated": "2026-10-11T15:02:12Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -24678,6 +24678,98 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "devil-may-cry-3-crimson-2026-pc": {
+      "id": "devil-may-cry-3-crimson-2026-pc",
+      "name": "Devil May Cry 3 Crimson",
+      "platform": "PC",
+      "size": "4.5 GB",
+      "hltb": "Main: 12, +Extra: 16",
+      "dev": "C-Team",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "13.05.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/devil-may-cry-3-crimson-2026-pc.jpg",
+      "logo": "images/logos/devil-may-cry-3-crimson-2026-pc.png",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/berthrage/DMC3-Crimson"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lies-of-p-seamless-co-op-2026-pc": {
+      "id": "lies-of-p-seamless-co-op-2026-pc",
+      "name": "Lies of P Seamless Co-op",
+      "platform": "PC",
+      "size": "45 GB",
+      "hltb": "Main: 40, +Extra: 50",
+      "dev": "Ember Wave",
+      "pub": "",
+      "notes": "",
+      "release": "20.06.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/liesofp/mods/368",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "age-of-mythology-retold-co-op-2024-pc": {
+      "id": "age-of-mythology-retold-co-op-2024-pc",
+      "name": "Age of Mythology Retold Co-op",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 25, +Extra: 40",
+      "dev": "",
+      "pub": "",
+      "notes": "",
+      "release": "10.12.2024",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/age-of-mythology-retold-co-op-2024-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -25372,7 +25464,11 @@
       "heathen-unreleased-pc",
       "living-hell-2027-pc"
     ],
-    "mods": [],
+    "mods": [
+      "devil-may-cry-3-crimson-2026-pc",
+      "lies-of-p-seamless-co-op-2026-pc",
+      "age-of-mythology-retold-co-op-2024-pc"
+    ],
     "coop-beaten": [],
     "backlog": [],
     "gamearchive": [],

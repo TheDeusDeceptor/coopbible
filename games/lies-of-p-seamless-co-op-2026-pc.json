@@ -1,0 +1,33 @@
+{
+  "id": "lies-of-p-seamless-co-op-2026-pc",
+  "name": "Lies of P Seamless Co-op",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 40, +Extra: 50",
+  "dev": "Ember Wave",
+  "pub": "",
+  "notes": "",
+  "release": "20.06.2026",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/liesofp/mods/368",
+      "icon": "nexus"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

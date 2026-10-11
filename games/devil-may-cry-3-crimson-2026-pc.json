@@ -1,0 +1,32 @@
+{
+  "id": "devil-may-cry-3-crimson-2026-pc",
+  "name": "Devil May Cry 3 Crimson",
+  "platform": "PC",
+  "size": "4.5 GB",
+  "hltb": "Main: 12, +Extra: 16",
+  "dev": "C-Team",
+  "pub": "Capcom",
+  "notes": "",
+  "release": "13.05.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/devil-may-cry-3-crimson-2026-pc.jpg",
+  "logo": "images/logos/devil-may-cry-3-crimson-2026-pc.png",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/berthrage/DMC3-Crimson"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
