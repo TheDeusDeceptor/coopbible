@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T19:36:19Z",
+  "updated": "2026-10-11T19:48:17Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -25936,6 +25936,44 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "aliens-fireteam-elite-2-2026-pc": {
+      "id": "aliens-fireteam-elite-2-2026-pc",
+      "name": "Aliens: Fireteam Elite 2",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 11",
+      "dev": "Cold Iron Studios",
+      "pub": "Daybreak Game Company",
+      "notes": "",
+      "release": "25.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/aliens-fireteam-elite-2-2026-pc.jpg",
+      "logo": "images/logos/aliens-fireteam-elite-2-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3448650",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Aliens%3A_Fireteam_Elite_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -26431,7 +26469,8 @@
       "yandere-virus-2026-pc",
       "estencel-2023-pc",
       "carry-the-count-2026-pc",
-      "trash-day-2026-pc"
+      "trash-day-2026-pc",
+      "aliens-fireteam-elite-2-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
