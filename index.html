@@ -183,7 +183,7 @@
   .shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:30%;background:linear-gradient(to top,rgba(0,0,0,.7) 0%,rgba(0,0,0,.35) 45%,rgba(0,0,0,0) 100%);pointer-events:none;z-index:1;}
   .overlay{position:absolute;left:.9rem;right:.9rem;top:.75rem;bottom:.75rem;z-index:2;pointer-events:none;}
   .overlay-tl{position:absolute;left:0;top:0;display:flex;flex-direction:column;gap:.3rem;align-items:flex-start;}
-  .overlay-tr{position:absolute;right:0;top:0;display:flex;flex-direction:column;gap:.2rem;align-items:flex-end;}
+  .overlay-tr{position:absolute;right:1rem;top:0;display:flex;flex-direction:column;gap:.2rem;align-items:flex-end;}
   .status-tag{display:inline-flex;align-items:center;padding:.3rem .6rem;background:rgba(10,13,18,.92);border:1px solid rgba(255,255,255,.12);border-radius:6px;font-family:var(--font-head);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--green);white-space:nowrap;line-height:1;}
   .status-tag.localcoop{color:var(--green);}
   .status-tag.auth{color:var(--pink);border-color:rgba(244,114,182,.45);}
@@ -7595,11 +7595,5 @@ document.getElementById('driftBtn').addEventListener('click', openDRIFT);
   updateScrollButtons();
 })();
 </script>
-<style>
-.shot{outline:3px solid lime !important;}
-.overlay{outline:2px dashed yellow !important;}
-.overlay-tr{outline:2px dashed cyan !important;}
-.icon-badge{outline:2px solid red !important;}
-</style>
 </body>
 </html>
