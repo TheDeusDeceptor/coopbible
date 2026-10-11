@@ -1,0 +1,34 @@
+{
+  "id": "samurai-pizza-cats-blast-from-the-past-unreleased-pc",
+  "name": "Samurai Pizza Cats: Blast from the Past!",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "BLAST ZERO",
+  "pub": "Red Dunes Games",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/samurai-pizza-cats-blast-from-the-past-unreleased-pc.jpg",
+  "logo": "images/logos/samurai-pizza-cats-blast-from-the-past-unreleased-pc.png",
+  "video": "videos/samurai-pizza-cats-blast-from-the-past-unreleased-pc.mp4",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2413800",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
