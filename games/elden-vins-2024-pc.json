@@ -1,0 +1,33 @@
+{
+  "id": "elden-vins-2024-pc",
+  "name": "Elden Vins",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 60, +Extra: 70",
+  "dev": "mayk",
+  "pub": "",
+  "notes": "",
+  "release": "01.03.2024",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/elden-vins-2024-pc.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/eldenring/mods/4709",
+      "icon": "nexus"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

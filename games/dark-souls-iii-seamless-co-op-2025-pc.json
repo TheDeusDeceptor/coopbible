@@ -1,0 +1,27 @@
+{
+  "id": "dark-souls-iii-seamless-co-op-2025-pc",
+  "name": "Dark Souls III Seamless Co-op",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 32, +Extra: 50",
+  "dev": "Yui",
+  "pub": "",
+  "notes": "",
+  "release": "24.03.2025",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/dark-souls-iii-seamless-co-op-2025-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

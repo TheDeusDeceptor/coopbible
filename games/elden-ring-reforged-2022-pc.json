@@ -1,0 +1,33 @@
+{
+  "id": "elden-ring-reforged-2022-pc",
+  "name": "Elden Ring Reforged",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 65, +Extra: 110",
+  "dev": "Kirnifr",
+  "pub": "",
+  "notes": "",
+  "release": "03.04.2022",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/elden-ring-reforged-2022-pc.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/eldenring/mods/541",
+      "icon": "nexus"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

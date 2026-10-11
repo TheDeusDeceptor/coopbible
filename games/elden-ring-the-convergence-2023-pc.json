@@ -1,0 +1,33 @@
+{
+  "id": "elden-ring-the-convergence-2023-pc",
+  "name": "Elden Ring The Convergence",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 60, +Extra: 80",
+  "dev": "Convergence Team",
+  "pub": "",
+  "notes": "",
+  "release": "28.04.2023",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/elden-ring-the-convergence-2023-pc.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/eldenring/mods/3419",
+      "icon": "nexus"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

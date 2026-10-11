@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T15:18:23Z",
+  "updated": "2026-10-11T15:55:10Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -24878,6 +24878,213 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "dark-souls-remastered-seamless-co-op-2025-pc": {
+      "id": "dark-souls-remastered-seamless-co-op-2025-pc",
+      "name": "Dark Souls Remastered Seamless Co-op",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 26, +Extra: 41",
+      "dev": "Yui",
+      "pub": "",
+      "notes": "",
+      "release": "10.04.2025",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/dark-souls-remastered-seamless-co-op-2025-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pc": {
+      "id": "dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pc",
+      "name": "Dark Souls II Scholar of the First Sin Seamless Co-op",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 37, +Extra: 65",
+      "dev": "Yuo",
+      "pub": "",
+      "notes": "",
+      "release": "22.09.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dark-souls-iii-seamless-co-op-2025-pc": {
+      "id": "dark-souls-iii-seamless-co-op-2025-pc",
+      "name": "Dark Souls III Seamless Co-op",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 32, +Extra: 50",
+      "dev": "Yui",
+      "pub": "",
+      "notes": "",
+      "release": "24.03.2025",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/dark-souls-iii-seamless-co-op-2025-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "elden-ring-randomizer-2022-pc": {
+      "id": "elden-ring-randomizer-2022-pc",
+      "name": "Elden Ring Randomizer",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 60, +Extra: 80",
+      "dev": "thefifthmatt",
+      "pub": "",
+      "notes": "",
+      "release": "28.03.2022",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/elden-ring-randomizer-2022-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "elden-ring-reforged-2022-pc": {
+      "id": "elden-ring-reforged-2022-pc",
+      "name": "Elden Ring Reforged",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 65, +Extra: 110",
+      "dev": "Kirnifr",
+      "pub": "",
+      "notes": "",
+      "release": "03.04.2022",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/elden-ring-reforged-2022-pc.png",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/eldenring/mods/541",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "elden-vins-2024-pc": {
+      "id": "elden-vins-2024-pc",
+      "name": "Elden Vins",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 60, +Extra: 70",
+      "dev": "mayk",
+      "pub": "",
+      "notes": "",
+      "release": "01.03.2024",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/elden-vins-2024-pc.png",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/eldenring/mods/4709",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "elden-ring-the-convergence-2023-pc": {
+      "id": "elden-ring-the-convergence-2023-pc",
+      "name": "Elden Ring The Convergence",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 60, +Extra: 80",
+      "dev": "Convergence Team",
+      "pub": "",
+      "notes": "",
+      "release": "28.04.2023",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/elden-ring-the-convergence-2023-pc.png",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/eldenring/mods/3419",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -25579,7 +25786,14 @@
       "far-cry-advanced-version-2022-pc",
       "wukongmp-2025-pc",
       "skyrim-together-reborn-2022-pc",
-      "coopandreas-2025-pc"
+      "coopandreas-2025-pc",
+      "dark-souls-remastered-seamless-co-op-2025-pc",
+      "dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pc",
+      "dark-souls-iii-seamless-co-op-2025-pc",
+      "elden-ring-randomizer-2022-pc",
+      "elden-ring-reforged-2022-pc",
+      "elden-vins-2024-pc",
+      "elden-ring-the-convergence-2023-pc"
     ],
     "coop-beaten": [],
     "backlog": [],

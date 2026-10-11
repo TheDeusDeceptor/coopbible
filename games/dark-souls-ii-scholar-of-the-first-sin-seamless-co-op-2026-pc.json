@@ -1,0 +1,27 @@
+{
+  "id": "dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pc",
+  "name": "Dark Souls II Scholar of the First Sin Seamless Co-op",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 37, +Extra: 65",
+  "dev": "Yuo",
+  "pub": "",
+  "notes": "",
+  "release": "22.09.2026",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
