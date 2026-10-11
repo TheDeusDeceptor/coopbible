@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T13:13:27Z",
+  "updated": "2026-10-11T13:29:37Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -1778,7 +1778,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1057640/1386294847/aac3d35af4dcd739d0ac088f58e36dc6525c7182/1750610462/microtrailer.mp4"
     },
     "co-op-kaiju-horror-cooking-2025-pc": {
       "id": "co-op-kaiju-horror-cooking-2025-pc",
@@ -1811,7 +1812,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3139570/1140324514/0b476a52b2b33c1bde141d99816dc90d30b4a550/1753790711/microtrailer.mp4"
     },
     "gatekeeper-2025-pc": {
       "id": "gatekeeper-2025-pc",
@@ -1877,7 +1879,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3604800/910433150/4898a851d4a4635fd5c502832a0e30ceafd3ae5d/1753897056/microtrailer.mp4"
     },
     "abyssus-2025-pc": {
       "id": "abyssus-2025-pc",
