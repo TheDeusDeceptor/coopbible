@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-11T05:53:00Z",
+  "updated": "2026-10-11T06:18:29Z",
   "ids": [
     "bellwright-2024-pc",
     "ifsunsets-2024-pc",
@@ -115,6 +115,8 @@
     "delverium-2026-pc",
     "spacecraft-2026-pc",
     "guinea-pig-runaway-together-2026-pc",
-    "funnel-runners-2026-pc"
+    "funnel-runners-2026-pc",
+    "invokyr-2026-pc",
+    "stonewards-2026-pc"
   ]
 }

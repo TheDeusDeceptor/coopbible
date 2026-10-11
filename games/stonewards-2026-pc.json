@@ -1,0 +1,34 @@
+{
+  "id": "stonewards-2026-pc",
+  "name": "Stonewards",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 39",
+  "dev": "Banana Tiger Studio",
+  "pub": "Banana Tiger Studio",
+  "notes": "",
+  "release": "11.08.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stonewards-2026-pc.jpg",
+  "logo": "images/logos/stonewards-2026-pc.png",
+  "video": "videos/stonewards-2026-pc.mp4",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4502710",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

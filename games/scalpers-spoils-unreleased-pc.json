@@ -1,0 +1,33 @@
+{
+  "id": "scalpers-spoils-unreleased-pc",
+  "name": "Scalpers' Spoils",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Parodie Games",
+  "pub": "Parodie Games",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/scalpers-spoils-unreleased-pc.jpg",
+  "logo": "images/logos/scalpers-spoils-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3949440",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

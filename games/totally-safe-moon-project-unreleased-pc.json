@@ -1,0 +1,34 @@
+{
+  "id": "totally-safe-moon-project-unreleased-pc",
+  "name": "Totally Safe Moon Project",
+  "platform": "PC",
+  "size": "3.9 GB",
+  "hltb": "—",
+  "dev": "Fake Moon",
+  "pub": "rokaplay select",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/totally-safe-moon-project-unreleased-pc.jpg",
+  "logo": "images/logos/totally-safe-moon-project-unreleased-pc.png",
+  "video": "videos/totally-safe-moon-project-unreleased-pc.mp4",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4339680",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

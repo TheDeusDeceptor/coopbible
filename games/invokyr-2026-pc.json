@@ -1,0 +1,33 @@
+{
+  "id": "invokyr-2026-pc",
+  "name": "Invokyr",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Ludogram",
+  "pub": "Ludogram, Shochiku",
+  "notes": "",
+  "release": "08.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/invokyr-2026-pc.jpg",
+  "logo": "images/logos/invokyr-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3883570",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
