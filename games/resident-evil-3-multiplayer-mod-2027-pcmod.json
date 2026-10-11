@@ -1,0 +1,32 @@
+{
+  "id": "resident-evil-3-multiplayer-mod-2027-pcmod",
+  "name": "Resident Evil 3 Multiplayer Mod",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "HeySnippy",
+  "pub": "",
+  "notes": "",
+  "release": "2027",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/resident-evil-3-multiplayer-mod-2027-pc.png",
+  "links": [
+    {
+      "label": "HeySnippy",
+      "url": "https://heysnippy.com/mods/re3coop/"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

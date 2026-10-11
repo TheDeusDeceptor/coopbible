@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T16:25:23Z",
+  "updated": "2026-10-11T16:46:11Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -25260,8 +25260,40 @@
       "series_status": null,
       "series_note": null
     },
-    "resident-evil-3-multiplayer-mod-2027-pc": {
-      "id": "resident-evil-3-multiplayer-mod-2027-pc",
+    "silent-hill-united-2026-pcmod": {
+      "id": "silent-hill-united-2026-pcmod",
+      "name": "Silent Hill: United",
+      "platform": "PC",
+      "size": "0.6 GB",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "Depmify",
+      "pub": "",
+      "notes": "",
+      "release": "20.07.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/silent-hill-united-2026-pc.png",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Depmify/Silent-Hill-United-Public-"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-3-multiplayer-mod-2027-pcmod": {
+      "id": "resident-evil-3-multiplayer-mod-2027-pcmod",
       "name": "Resident Evil 3 Multiplayer Mod",
       "platform": "PC",
       "size": "25 GB",
@@ -25277,6 +25309,168 @@
         {
           "label": "HeySnippy",
           "url": "https://heysnippy.com/mods/re3coop/"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "xrrazom-2026-pcmod": {
+      "id": "xrrazom-2026-pcmod",
+      "name": "xrRazom",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 30, +Extra: 80",
+      "dev": "Harbingerr",
+      "pub": "",
+      "notes": "",
+      "release": "19.07.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/xrrazom-2026-pc.png",
+      "links": [
+        {
+          "label": "ModDB",
+          "url": "https://www.moddb.com/mods/xrrazom-stalker-anomaly-co-op"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "monster-hunter-world-seamless-co-op-2026-pcmod": {
+      "id": "monster-hunter-world-seamless-co-op-2026-pcmod",
+      "name": "Monster Hunter World Seamless Co-op",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 48, +Extra: 90",
+      "dev": "",
+      "pub": "",
+      "notes": "",
+      "release": "20.09.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/monster-hunter-world-seamless-co-op-2026-pc.png",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/monsterhunterworld/mods/8805",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-shattered-2026-pcmod": {
+      "id": "resident-evil-shattered-2026-pcmod",
+      "name": "Resident Evil: Shattered",
+      "platform": "PC",
+      "size": "0.7 GB",
+      "hltb": "Main: 7, +Extra: 10",
+      "dev": "Depmify",
+      "pub": "",
+      "notes": "",
+      "release": "14.08.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/resident-evil-shattered-2026-pc.png",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://depmify.github.io/Resident-Evil-SHATTERED"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ai-limit-together-2026-pcmod": {
+      "id": "ai-limit-together-2026-pcmod",
+      "name": "AI Limit Together",
+      "platform": "PC",
+      "size": "22 GB",
+      "hltb": "Main: 25, +Extra: 35",
+      "dev": "CordNex",
+      "pub": "",
+      "notes": "",
+      "release": "14.09.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/ai-limit-together-2026-pc.png",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/ailimit/mods/57",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "new-vegas-online-2026-pcmod": {
+      "id": "new-vegas-online-2026-pcmod",
+      "name": "New Vegas: Online",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 27, +Extra: 60",
+      "dev": "Fall-Net Studios",
+      "pub": "",
+      "notes": "",
+      "release": "22.09.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/new-vegas-online-2026-pc.png",
+      "links": [
+        {
+          "label": "NWO",
+          "url": "https://ngnm.newvegasonline.com/"
         }
       ],
       "alt_names": [],
@@ -26006,7 +26200,13 @@
       "intertwined-fates-2025-pcmod",
       "bannerlord-together-2026-pcmod",
       "resident-evil-4-multiplayer-mod-2026-pcmod",
-      "resident-evil-3-multiplayer-mod-2027-pc"
+      "resident-evil-3-multiplayer-mod-2027-pcmod",
+      "silent-hill-united-2026-pcmod",
+      "xrrazom-2026-pcmod",
+      "monster-hunter-world-seamless-co-op-2026-pcmod",
+      "resident-evil-shattered-2026-pcmod",
+      "ai-limit-together-2026-pcmod",
+      "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [],
     "backlog": [],

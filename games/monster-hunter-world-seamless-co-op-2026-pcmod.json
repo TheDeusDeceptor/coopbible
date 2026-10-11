@@ -1,0 +1,33 @@
+{
+  "id": "monster-hunter-world-seamless-co-op-2026-pcmod",
+  "name": "Monster Hunter World Seamless Co-op",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 48, +Extra: 90",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "release": "20.09.2026",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/monster-hunter-world-seamless-co-op-2026-pc.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/monsterhunterworld/mods/8805",
+      "icon": "nexus"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

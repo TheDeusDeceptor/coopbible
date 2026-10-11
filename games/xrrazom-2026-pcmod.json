@@ -1,20 +1,20 @@
 {
-  "id": "resident-evil-3-multiplayer-mod-2027-pc",
-  "name": "Resident Evil 3 Multiplayer Mod",
+  "id": "xrrazom-2026-pcmod",
+  "name": "xrRazom",
   "platform": "PC",
-  "size": "25 GB",
-  "hltb": "Main: 6, +Extra: 8",
-  "dev": "HeySnippy",
+  "size": "20 GB",
+  "hltb": "Main: 30, +Extra: 80",
+  "dev": "Harbingerr",
   "pub": "",
   "notes": "",
-  "release": "2027",
+  "release": "19.07.2026",
   "ea_release": "",
   "screenshot": "",
-  "logo": "images/logos/resident-evil-3-multiplayer-mod-2027-pc.png",
+  "logo": "images/logos/xrrazom-2026-pc.png",
   "links": [
     {
-      "label": "HeySnippy",
-      "url": "https://heysnippy.com/mods/re3coop/"
+      "label": "ModDB",
+      "url": "https://www.moddb.com/mods/xrrazom-stalker-anomaly-co-op"
     }
   ],
   "alt_names": [],

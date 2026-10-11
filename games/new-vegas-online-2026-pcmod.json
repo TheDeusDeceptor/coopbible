@@ -1,0 +1,32 @@
+{
+  "id": "new-vegas-online-2026-pcmod",
+  "name": "New Vegas: Online",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 27, +Extra: 60",
+  "dev": "Fall-Net Studios",
+  "pub": "",
+  "notes": "",
+  "release": "22.09.2026",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/new-vegas-online-2026-pc.png",
+  "links": [
+    {
+      "label": "NWO",
+      "url": "https://ngnm.newvegasonline.com/"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

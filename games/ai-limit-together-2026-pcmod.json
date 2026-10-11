@@ -1,0 +1,33 @@
+{
+  "id": "ai-limit-together-2026-pcmod",
+  "name": "AI Limit Together",
+  "platform": "PC",
+  "size": "22 GB",
+  "hltb": "Main: 25, +Extra: 35",
+  "dev": "CordNex",
+  "pub": "",
+  "notes": "",
+  "release": "14.09.2026",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/ai-limit-together-2026-pc.png",
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/ailimit/mods/57",
+      "icon": "nexus"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
