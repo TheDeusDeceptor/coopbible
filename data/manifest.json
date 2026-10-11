@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T11:56:40Z",
+  "updated": "2026-10-11T13:13:27Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -38,7 +38,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/548430/713453/bd140ea8a7f291d5980f9a83d0f107ccd2081278/1750548761/microtrailer.mp4"
     },
     "baldur-s-gate-3-2023-pc": {
       "id": "baldur-s-gate-3-2023-pc",
@@ -223,7 +224,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1411020/329012/1f72d5e0d09b299fee8369d475af2daa0665fcaa/1751234296/microtrailer.mp4"
     },
     "rugrats-adventures-in-gameland-2024-pc": {
       "id": "rugrats-adventures-in-gameland-2024-pc",
@@ -375,7 +377,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/35700/44536929/3c555f1dbb28953848d3199a9db72cf715a7e931/1789122583/microtrailer.mp4"
     },
     "trine-2-complete-story-2013-pc": {
       "id": "trine-2-complete-story-2013-pc",
@@ -451,7 +454,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/319910/41364/be331fae0c19dc7b01d0d50ec4fdfae8591a3af0/1750513070/microtrailer.mp4"
     },
     "trine-4-the-nightmare-prince-2019-pc": {
       "id": "trine-4-the-nightmare-prince-2019-pc",
@@ -489,7 +493,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/690640/246590/13adc090c74d585f7fb3ee44e8da1cd20e9eef41/1750571211/microtrailer.mp4"
     },
     "trine-5-a-clockwork-conspiracy-2023-pc": {
       "id": "trine-5-a-clockwork-conspiracy-2023-pc",
@@ -565,7 +570,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/972660/423466/535fcbb644a2abde20769c379d1fdb9c4912e42f/1750602600/microtrailer.mp4"
     },
     "keywe-2021-pc": {
       "id": "keywe-2021-pc",
@@ -831,7 +837,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2996040/856964/4755a7b2ae8b63c70f164e391f5e97728d668329/1750823655/microtrailer.mp4"
     },
     "luma-island-2024-pc": {
       "id": "luma-island-2024-pc",
@@ -1059,7 +1066,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1763250/815450/b83351cab7119dacadf5782cb2198781f216ca2e/1750733420/microtrailer.mp4"
     },
     "gal-guardians-demon-purge-2023-pc": {
       "id": "gal-guardians-demon-purge-2023-pc",
@@ -1325,7 +1333,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3558400/169291494/465a84556535430192bc03ed0eef53bf4037cb16/1760038667/microtrailer.mp4"
     },
     "farm-manager-world-2025-pc": {
       "id": "farm-manager-world-2025-pc",
@@ -1515,7 +1524,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/711380/311301/a2fb1a6026df31acaab32aec43af6ffaee194c27/1751134629/microtrailer.mp4"
     },
     "farming-simulator-25-2024-pc": {
       "id": "farming-simulator-25-2024-pc",
@@ -1619,7 +1629,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3533100/832578/153ff12cfa461cabc5ae37850f4f0bb80187f8b8/1750826397/microtrailer.mp4"
     },
     "broventure-the-wild-co-op-2025-pc": {
       "id": "broventure-the-wild-co-op-2025-pc",
@@ -1652,7 +1663,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2939640/880883/403b33db4d14abf104a7947c922a7704e4b44097/1750821973/microtrailer.mp4"
     },
     "fantasy-life-i-the-girl-who-steals-time-2025-pc": {
       "id": "fantasy-life-i-the-girl-who-steals-time-2025-pc",
@@ -19856,7 +19868,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3295810/821112/5224f17375d188c0235a898b8ff417e48d84a8d9/1750825381/microtrailer.mp4"
     },
     "ars-notoria-2025-pc": {
       "id": "ars-notoria-2025-pc",
