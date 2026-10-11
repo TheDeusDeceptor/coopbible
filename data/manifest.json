@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T13:49:08Z",
+  "updated": "2026-10-11T14:46:37Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -2856,7 +2856,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2698780/700595/fb51fc71d7e90ecf0e0f1743e7fb84da39972979/1750818880/microtrailer.mp4"
     },
     "we-were-here-forever-2022-pc": {
       "id": "we-were-here-forever-2022-pc",
@@ -2932,7 +2933,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1599600/484890/dce6b069ede6b19aa823a43e88aeeb3d13408202/1750705040/microtrailer.mp4"
     },
     "factorio-2020-pc": {
       "id": "factorio-2020-pc",
@@ -3381,7 +3383,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2119830/1208801542/eda81a0b07bae8206540bc5917bb1edd31a93b92/1788144777/microtrailer.mp4"
     },
     "escape-simulator-2-2025-pc": {
       "id": "escape-simulator-2-2025-pc",
@@ -3457,7 +3460,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/780310/309130/2be5a6f4c7c29c234e44ce439c833713fd6b9c69/1750583363/microtrailer.mp4"
     },
     "scum-2025-pc": {
       "id": "scum-2025-pc",
@@ -3680,7 +3684,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1938010/521456/6aa13e9356891e0177f7e7b413f43f9d8256973f/1750741495/microtrailer.mp4"
     },
     "astroneer-2019-pc": {
       "id": "astroneer-2019-pc",
@@ -3908,7 +3913,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/821290/326261/2656d5a76160c85e2fea88d2888a6da44b772ad7/1751149009/microtrailer.mp4"
     },
     "kitaria-fables-2021-pc": {
       "id": "kitaria-fables-2021-pc",
@@ -4065,7 +4071,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2444750/791193/c73b9ef36819164fac28ada1c7897207277bb0c2/1750919781/microtrailer.mp4"
     },
     "torchlight-ii-2012-pc": {
       "id": "torchlight-ii-2012-pc",
@@ -4179,7 +4186,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/235540/39881/c85baa5eda2dc4eb3cae02819a9432348e1bf42c/1750496648/microtrailer.mp4"
     },
     "warhammer-vermintide-2-2018-pc": {
       "id": "warhammer-vermintide-2-2018-pc",
@@ -4668,7 +4676,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/471550/1833085946/a6452c0c73bc881955586d5ba4918fabfff508f7/1788946240/microtrailer.mp4"
     },
     "heavenly-bodies-2021-pc": {
       "id": "heavenly-bodies-2021-pc",
@@ -4744,7 +4753,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/280160/74789/8171067a5262a7b23a6ae6c3f2f305170afd69a0/1751258815/microtrailer.mp4"
     },
     "aragami-2-2021-pc": {
       "id": "aragami-2-2021-pc",
@@ -5233,7 +5243,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2753970/873127126/e68c05160710ccf36a9abbabb1c21d13102461f0/1758803250/microtrailer.mp4"
     },
     "forewarned-2024-pc": {
       "id": "forewarned-2024-pc",
@@ -5423,7 +5434,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/301910/25577/022dbdac6d37362b7b2331a4ff3ba045072a3a9b/1750503602/microtrailer.mp4"
     },
     "saints-row-2022-pc": {
       "id": "saints-row-2022-pc",
@@ -5608,7 +5620,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3720460/1112539392/a85b79569a08767204d5e2efb5239ef139bfcec3/1765501220/microtrailer.mp4"
     },
     "rune-teller-2023-pc": {
       "id": "rune-teller-2023-pc",
@@ -5641,7 +5654,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1944360/487175/894bc6c97329c917d612d035be3301e5957af4fd/1751052297/microtrailer.mp4"
     },
     "native-hunter-2025-pc": {
       "id": "native-hunter-2025-pc",
@@ -5806,7 +5820,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3607770/551444586/5739f63e70b6517e920a80c009fdd0ba189a525c/1758486116/microtrailer.mp4"
     },
     "dungeon-looter-2024-pc": {
       "id": "dungeon-looter-2024-pc",
@@ -5839,7 +5854,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1228320/699414/7463bcebc05919880b2c3a06770cd8ce42d936e5/1751207013/microtrailer.mp4"
     },
     "mercenaries-2-world-in-flames-2008-pc": {
       "id": "mercenaries-2-world-in-flames-2008-pc",
@@ -6237,7 +6253,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3216790/1169518113/fdf5c32b19229acfb15089f3ffe135c9d358356d/1767717524/microtrailer.mp4"
     },
     "fireworks-mania-an-explosive-simulator-2020-pc": {
       "id": "fireworks-mania-an-explosive-simulator-2020-pc",
@@ -6308,7 +6325,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2658510/711121/4e1ef1dda5fe71139075a5795a60805758892709/1750940565/microtrailer.mp4"
     },
     "primal-planet-2025-pc": {
       "id": "primal-planet-2025-pc",
@@ -6422,7 +6440,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/253250/156324/a463106009bf25199a5cf1ca60ea3a1f73bc5a18/1751248464/microtrailer.mp4"
     },
     "victor-vran-arpg-2015-pc": {
       "id": "victor-vran-arpg-2015-pc",
@@ -6460,7 +6479,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/345180/33761/833c1d6368b870e0ef7034a31266f423678446c5/1751271964/microtrailer.mp4"
     },
     "infernal-radiation-2020-pc": {
       "id": "infernal-radiation-2020-pc",
@@ -6493,7 +6513,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/832140/276932/9a524c67bd8c0fc4e7396b43655962ff5de0a9bd/1751150199/microtrailer.mp4"
     },
     "the-outlast-trials-2024-pc": {
       "id": "the-outlast-trials-2024-pc",
@@ -6569,7 +6590,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1217060/1772527096/78bd8c4d27f1475ae8d9d0d082a0a8f322f7c097/1769768737/microtrailer.mp4"
     },
     "sanctum-2011-pc": {
       "id": "sanctum-2011-pc",
@@ -6645,7 +6667,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/210770/11501/d3b672913f5be539acc758c47d27ef5d1d8e3cf3/1750493481/microtrailer.mp4"
     },
     "battleblock-theater-2014-pc": {
       "id": "battleblock-theater-2014-pc",
@@ -6977,7 +7000,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/350910/35740/2e3623a7ddcd1632e146c17a0acff4497ed03acb/1751281734/microtrailer.mp4"
     },
     "first-class-escape-the-train-of-thought-2021-pc": {
       "id": "first-class-escape-the-train-of-thought-2021-pc",
@@ -7233,7 +7257,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/850320/320456/d6b7183ac44fbc2e230fe8b118067dd28886efca/1751153260/microtrailer.mp4"
     },
     "phantom-squad-2025-pc": {
       "id": "phantom-squad-2025-pc",
@@ -7271,7 +7296,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2841770/1383677342/a7414da704023d528dd2becb8c5e338834d7404c/1752485160/microtrailer.mp4"
     },
     "embr-2021-pc": {
       "id": "embr-2021-pc",
@@ -7484,7 +7510,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1035560/308303/22307b6df48570f7eb7253aeeae4bfccfa01c1af/1751179470/microtrailer.mp4"
     },
     "b-a-n-k-2025-pc": {
       "id": "b-a-n-k-2025-pc",
@@ -7517,7 +7544,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/3589010/1287434368/c9bf5eb3d3e36d148e5eb7d23e0c98fe91e6c49f/1755943614/microtrailer.mp4"
     },
     "griefhelm-2020-pc": {
       "id": "griefhelm-2020-pc",
@@ -7555,7 +7583,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1125330/299413/f248dced8e1bde696831effd306633084241dd76/1751191984/microtrailer.mp4"
     },
     "tipston-salvage-2024-pc": {
       "id": "tipston-salvage-2024-pc",
@@ -7659,7 +7688,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/360170/80591/c1168b116d0a1b19e9f760548aec188e6b6bc489/1750515770/microtrailer.mp4"
     },
     "warhammer-chaosbane-2019-pc": {
       "id": "warhammer-chaosbane-2019-pc",
@@ -7697,7 +7727,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/774241/271294/6f7e9421856add2048d3e8339410cbbc826a2716/1750582352/microtrailer.mp4"
     },
     "39-days-to-mars-2018-pc": {
       "id": "39-days-to-mars-2018-pc",
@@ -7735,7 +7766,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/504920/151553/15e60ea267f5e2d1e93bc17b9574c1178ec1a181/1751294435/microtrailer.mp4"
     },
     "to-be-headed-or-not-to-be-2019-pc": {
       "id": "to-be-headed-or-not-to-be-2019-pc",
@@ -11726,7 +11758,7 @@
       "release": "22.05.2018",
       "ea_release": "",
       "screenshot": "images/screenshots/space-hulk-deathwing-enhanced-edition-2018-pc.jpg",
-      "logo": "https://cdn2.steamgriddb.com/logo/8024c4bae31528f23cf071a026bdc512.png",
+      "logo": "images/logos/space-hulk-deathwing-enhanced-edition-2018-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -15498,7 +15530,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2870920/463219013/6b90709be7a70e74c998977657426c18b2b4168e/1762421276/microtrailer.mp4"
     },
     "stellarcraft-2026-pc": {
       "id": "stellarcraft-2026-pc",
@@ -16094,7 +16127,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/4450620/933645186/f7b4444211b37a45acb24b7c1803af35494d358b/1785732909/microtrailer.mp4"
     },
     "the-watchers-2020-pc": {
       "id": "the-watchers-2020-pc",
@@ -16662,7 +16696,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2067210/1133478281/a2f325a0500e9c98714512af07c03bc62c3690ac/1788183088/microtrailer.mp4"
     },
     "valheim-2026-pc": {
       "id": "valheim-2026-pc",
