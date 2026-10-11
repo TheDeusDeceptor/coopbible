@@ -1,20 +1,20 @@
 {
-  "id": "elden-ring-the-convergence-2023-pc",
-  "name": "Elden Ring The Convergence",
+  "id": "elden-vins-2024-pcmod",
+  "name": "Elden Vins",
   "platform": "PC",
   "size": "60 GB",
-  "hltb": "Main: 60, +Extra: 80",
-  "dev": "Convergence Team",
+  "hltb": "Main: 60, +Extra: 70",
+  "dev": "mayk",
   "pub": "",
   "notes": "",
-  "release": "28.04.2023",
+  "release": "01.03.2024",
   "ea_release": "",
   "screenshot": "",
-  "logo": "images/logos/elden-ring-the-convergence-2023-pc.png",
+  "logo": "images/logos/elden-vins-2024-pc.png",
   "links": [
     {
       "label": "Nexus",
-      "url": "https://www.nexusmods.com/eldenring/mods/3419",
+      "url": "https://www.nexusmods.com/eldenring/mods/4709",
       "icon": "nexus"
     }
   ],

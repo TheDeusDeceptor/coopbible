@@ -1,0 +1,27 @@
+{
+  "id": "age-of-mythology-retold-co-op-2024-pcmod",
+  "name": "Age of Mythology Retold Co-op",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 25, +Extra: 40",
+  "dev": "",
+  "pub": "",
+  "notes": "",
+  "release": "10.12.2024",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/age-of-mythology-retold-co-op-2024-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
