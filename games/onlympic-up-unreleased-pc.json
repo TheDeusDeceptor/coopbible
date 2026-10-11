@@ -1,0 +1,33 @@
+{
+  "id": "onlympic-up-unreleased-pc",
+  "name": "Onlympic Up!",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "HopeGames",
+  "pub": "HopeGames",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/onlympic-up-unreleased-pc.jpg",
+  "logo": "images/logos/onlympic-up-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3722820",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

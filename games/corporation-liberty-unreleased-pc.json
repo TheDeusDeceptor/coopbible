@@ -1,0 +1,33 @@
+{
+  "id": "corporation-liberty-unreleased-pc",
+  "name": "Corporation Liberty",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Wayanjo",
+  "pub": "Wayanjo",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/corporation-liberty-unreleased-pc.jpg",
+  "logo": "images/logos/corporation-liberty-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4158390",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ruiner-2-unreleased-pc",
+  "name": "RUINER 2",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Reikon Games",
+  "pub": "Reikon Games",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ruiner-2-unreleased-pc.jpg",
+  "logo": "images/logos/ruiner-2-unreleased-pc.png",
+  "video": "videos/ruiner-2-unreleased-pc.mp4",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2936810",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Ruiner_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
