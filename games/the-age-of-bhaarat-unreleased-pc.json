@@ -1,0 +1,38 @@
+{
+  "id": "the-age-of-bhaarat-unreleased-pc",
+  "name": "The Age of Bhaarat",
+  "platform": "PC",
+  "size": "100 GB",
+  "hltb": "—",
+  "dev": "TARA GAMING LIMITED",
+  "pub": "TARA GAMING LIMITED",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-age-of-bhaarat-unreleased-pc.jpg",
+  "logo": "images/logos/the-age-of-bhaarat-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3323210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Age_of_Bhaarat",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

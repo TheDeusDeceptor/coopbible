@@ -1,0 +1,38 @@
+{
+  "id": "father-son-holy-guns-2026-pc",
+  "name": "Father, Son & Holy Guns",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Jumbo Jumps",
+  "pub": "Jumbo Jumps",
+  "notes": "",
+  "release": "",
+  "ea_release": "27.10.2026",
+  "screenshot": "images/screenshots/father-son-holy-guns-2026-pc.jpg",
+  "logo": "images/logos/father-son-holy-guns-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2840880",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Groundhog_Day%3A_Like_Father_Like_Son",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

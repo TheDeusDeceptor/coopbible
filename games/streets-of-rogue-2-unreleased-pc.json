@@ -1,0 +1,38 @@
+{
+  "id": "streets-of-rogue-2-unreleased-pc",
+  "name": "Streets of Rogue 2",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Matt Dabrowski",
+  "pub": "tinyBuild",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/streets-of-rogue-2-unreleased-pc.jpg",
+  "logo": "images/logos/streets-of-rogue-2-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2165810",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Streets_of_Rogue_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

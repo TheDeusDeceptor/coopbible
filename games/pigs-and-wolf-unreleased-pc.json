@@ -1,0 +1,33 @@
+{
+  "id": "pigs-and-wolf-unreleased-pc",
+  "name": "Pigs and Wolf",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "WakaStudio",
+  "pub": "WakaStudio",
+  "notes": "",
+  "release": "",
+  "ea_release": "Soon",
+  "screenshot": "images/screenshots/pigs-and-wolf-unreleased-pc.jpg",
+  "logo": "images/logos/pigs-and-wolf-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4285870",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

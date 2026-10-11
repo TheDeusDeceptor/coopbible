@@ -1,0 +1,33 @@
+{
+  "id": "burger-shift-team-rush-2026-pc",
+  "name": "Burger Shift: Team Rush",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Nova Telum Studio",
+  "pub": "Nova Telum Studio",
+  "notes": "",
+  "release": "11.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/burger-shift-team-rush-2026-pc.jpg",
+  "logo": "images/logos/burger-shift-team-rush-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3804930",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

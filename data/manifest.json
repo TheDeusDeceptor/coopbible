@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-10T20:52:00Z",
+  "updated": "2026-10-11T04:47:38Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -21607,8 +21607,8 @@
       "dev": "Nine Dots Studio",
       "pub": "Nine Dots Publishing, Gamersky Games",
       "notes": "",
-      "release": "07.02.2027",
-      "ea_release": "",
+      "release": "",
+      "ea_release": "07.02.2027",
       "screenshot": "images/screenshots/outward-2-2027-pc.jpg",
       "logo": "images/logos/outward-2-2027-pc.png",
       "links": [
@@ -22244,6 +22244,739 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "thief-simulator-3-unreleased-pc": {
+      "id": "thief-simulator-3-unreleased-pc",
+      "name": "Thief Simulator 3",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "Noble Muffins",
+      "pub": "PlayWay",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/thief-simulator-3-unreleased-pc.jpg",
+      "logo": "images/logos/thief-simulator-3-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3223070",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Thief_Simulator_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "streets-of-rogue-2-unreleased-pc": {
+      "id": "streets-of-rogue-2-unreleased-pc",
+      "name": "Streets of Rogue 2",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Matt Dabrowski",
+      "pub": "tinyBuild",
+      "notes": "",
+      "release": "Soon",
+      "ea_release": "",
+      "screenshot": "images/screenshots/streets-of-rogue-2-unreleased-pc.jpg",
+      "logo": "images/logos/streets-of-rogue-2-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2165810",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Streets_of_Rogue_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "whisk-2026-pc": {
+      "id": "whisk-2026-pc",
+      "name": "Whisk",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Double Dusk Inc.",
+      "pub": "Double Dusk Inc.",
+      "notes": "",
+      "release": "2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/whisk-2026-pc.jpg",
+      "logo": "images/logos/whisk-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3602270",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wheelmates-2026-pc": {
+      "id": "wheelmates-2026-pc",
+      "name": "WheelMates",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 5, +Extra: 8",
+      "dev": "Firevolt",
+      "pub": "Firevolt",
+      "notes": "",
+      "release": "01.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wheelmates-2026-pc.jpg",
+      "logo": "images/logos/wheelmates-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3905450",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/WheelMates",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "burglin-gnomes-2026-pc": {
+      "id": "burglin-gnomes-2026-pc",
+      "name": "Burglin' Gnomes",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "—",
+      "dev": "Fobri",
+      "pub": "Fobri",
+      "notes": "",
+      "release": "10.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/burglin-gnomes-2026-pc.jpg",
+      "logo": "images/logos/burglin-gnomes-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3844970",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-age-of-bhaarat-unreleased-pc": {
+      "id": "the-age-of-bhaarat-unreleased-pc",
+      "name": "The Age of Bhaarat",
+      "platform": "PC",
+      "size": "100 GB",
+      "hltb": "—",
+      "dev": "TARA GAMING LIMITED",
+      "pub": "TARA GAMING LIMITED",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-age-of-bhaarat-unreleased-pc.jpg",
+      "logo": "images/logos/the-age-of-bhaarat-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3323210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Age_of_Bhaarat",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pigs-and-wolf-unreleased-pc": {
+      "id": "pigs-and-wolf-unreleased-pc",
+      "name": "Pigs and Wolf",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "WakaStudio",
+      "pub": "WakaStudio",
+      "notes": "",
+      "release": "",
+      "ea_release": "Soon",
+      "screenshot": "images/screenshots/pigs-and-wolf-unreleased-pc.jpg",
+      "logo": "images/logos/pigs-and-wolf-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4285870",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "totally-secure-airport-unreleased-pc": {
+      "id": "totally-secure-airport-unreleased-pc",
+      "name": "Totally Secure Airport",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Longpines Games",
+      "pub": "Polden Publishing",
+      "notes": "",
+      "release": "Soon",
+      "ea_release": "",
+      "screenshot": "images/screenshots/totally-secure-airport-unreleased-pc.jpg",
+      "logo": "images/logos/totally-secure-airport-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4348760",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "awaysis-unreleased-pc": {
+      "id": "awaysis-unreleased-pc",
+      "name": "Awaysis",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "—",
+      "dev": "17-BIT",
+      "pub": "17-BIT",
+      "notes": "",
+      "release": "Soon",
+      "ea_release": "",
+      "screenshot": "images/screenshots/awaysis-unreleased-pc.jpg",
+      "logo": "images/logos/awaysis-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3334760",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "father-son-holy-guns-2026-pc": {
+      "id": "father-son-holy-guns-2026-pc",
+      "name": "Father, Son & Holy Guns",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Jumbo Jumps",
+      "pub": "Jumbo Jumps",
+      "notes": "",
+      "release": "",
+      "ea_release": "27.10.2026",
+      "screenshot": "images/screenshots/father-son-holy-guns-2026-pc.jpg",
+      "logo": "images/logos/father-son-holy-guns-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2840880",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Groundhog_Day%3A_Like_Father_Like_Son",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pass-the-fear-2026-pc": {
+      "id": "pass-the-fear-2026-pc",
+      "name": "Pass the Fear",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 3",
+      "dev": "PlayMud Studio",
+      "pub": "Paras Games",
+      "notes": "",
+      "release": "22.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/pass-the-fear-2026-pc.jpg",
+      "logo": "images/logos/pass-the-fear-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3561220",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Pass_the_Fear",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "spacecraft-2026-pc": {
+      "id": "spacecraft-2026-pc",
+      "name": "SpaceCraft",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "—",
+      "dev": "Shiro Games",
+      "pub": "Shiro Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "11.06.2026",
+      "screenshot": "images/screenshots/spacecraft-2026-pc.jpg",
+      "logo": "images/logos/spacecraft-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3276050",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Spacecraft",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "delverium-2026-pc": {
+      "id": "delverium-2026-pc",
+      "name": "Delverium",
+      "platform": "PC",
+      "size": "0.3 GB",
+      "hltb": "—",
+      "dev": "Sagestone Games",
+      "pub": "Sagestone Games",
+      "notes": "",
+      "release": "",
+      "ea_release": "21.09.2026",
+      "screenshot": "images/screenshots/delverium-2026-pc.jpg",
+      "logo": "images/logos/delverium-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2710040",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "primal-survival-2026-pc": {
+      "id": "primal-survival-2026-pc",
+      "name": "Primal Survival",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "—",
+      "dev": "Quantum Box",
+      "pub": "Quantum Box",
+      "notes": "",
+      "release": "",
+      "ea_release": "2026",
+      "screenshot": "images/screenshots/primal-survival-2026-pc.jpg",
+      "logo": "images/logos/primal-survival-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3620610",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "fearwoods-2026-pc": {
+      "id": "fearwoods-2026-pc",
+      "name": "Fearwoods",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Fearwoods",
+      "pub": "GrabTheGames",
+      "notes": "",
+      "release": "",
+      "ea_release": "Q4 2026",
+      "screenshot": "images/screenshots/fearwoods-2026-pc.jpg",
+      "logo": "images/logos/fearwoods-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3296990",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Fearwoods",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "begraved-2027-pc": {
+      "id": "begraved-2027-pc",
+      "name": "Begraved",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Grip Jaw",
+      "pub": "Grip Jaw",
+      "notes": "",
+      "release": "2027",
+      "ea_release": "",
+      "screenshot": "images/screenshots/begraved-2027-pc.jpg",
+      "logo": "images/logos/begraved-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4113160",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "chop-chop-together-2026-pc": {
+      "id": "chop-chop-together-2026-pc",
+      "name": "Chop Chop Together",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "—",
+      "dev": "Dango Dynamics",
+      "pub": "Dango Dynamics, Phoenix Games",
+      "notes": "",
+      "release": "08.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/chop-chop-together-2026-pc.jpg",
+      "logo": "images/logos/chop-chop-together-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3065360",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "burger-shift-team-rush-2026-pc": {
+      "id": "burger-shift-team-rush-2026-pc",
+      "name": "Burger Shift: Team Rush",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Nova Telum Studio",
+      "pub": "Nova Telum Studio",
+      "notes": "",
+      "release": "11.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/burger-shift-team-rush-2026-pc.jpg",
+      "logo": "images/logos/burger-shift-team-rush-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3804930",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "entity-research-group-2026-pc": {
+      "id": "entity-research-group-2026-pc",
+      "name": "Entity Research Group",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Faceless Smile Corp.",
+      "pub": "Faceless Smile Corp.",
+      "notes": "",
+      "release": "20.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/entity-research-group-2026-pc.jpg",
+      "logo": "images/logos/entity-research-group-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4038080",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "guinea-pig-runaway-together-2026-pc": {
+      "id": "guinea-pig-runaway-together-2026-pc",
+      "name": "Guinea Pig Runaway Together",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "DVS Interactive",
+      "pub": "DVS Interactive",
+      "notes": "",
+      "release": "27.10.2026",
+      "ea_release": "03.06.2026",
+      "screenshot": "images/screenshots/guinea-pig-runaway-together-2026-pc.jpg",
+      "logo": "images/logos/guinea-pig-runaway-together-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4244190",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "diskette-dungeon-2026-pc": {
+      "id": "diskette-dungeon-2026-pc",
+      "name": "Diskette Dungeon",
+      "platform": "PC",
+      "size": "2.4 GB",
+      "hltb": "—",
+      "dev": "MM88",
+      "pub": "MM88",
+      "notes": "",
+      "release": "04.11.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/diskette-dungeon-2026-pc.jpg",
+      "logo": "images/logos/diskette-dungeon-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4280450",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -22729,7 +23462,13 @@
       "united-heist-facility-zero-2026-pc",
       "american-cooking-simulator-multiplayer-2026-pc",
       "wizzerd-quest-2-2026-pc",
-      "soul-chained-2026-pc"
+      "soul-chained-2026-pc",
+      "wheelmates-2026-pc",
+      "burglin-gnomes-2026-pc",
+      "pass-the-fear-2026-pc",
+      "chop-chop-together-2026-pc",
+      "burger-shift-team-rush-2026-pc",
+      "entity-research-group-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -22841,7 +23580,10 @@
       "japanese-ramen-simulator-2026-pc",
       "second-extinction-2020-pc",
       "witchspire-2026-pc",
-      "lugal-bronze-age-survival-game-2026-pc"
+      "lugal-bronze-age-survival-game-2026-pc",
+      "delverium-2026-pc",
+      "spacecraft-2026-pc",
+      "guinea-pig-runaway-together-2026-pc"
     ],
     "unreleased": [
       "paddle-cats-2026-pc",
@@ -22867,7 +23609,19 @@
       "black-powder-desolation-unreleased-pc",
       "intervoid-2026-pc",
       "experiment-28-unreleased-pc",
-      "projekt-z-beyond-order-unreleased-pc"
+      "projekt-z-beyond-order-unreleased-pc",
+      "thief-simulator-3-unreleased-pc",
+      "streets-of-rogue-2-unreleased-pc",
+      "whisk-2026-pc",
+      "the-age-of-bhaarat-unreleased-pc",
+      "pigs-and-wolf-unreleased-pc",
+      "totally-secure-airport-unreleased-pc",
+      "awaysis-unreleased-pc",
+      "father-son-holy-guns-2026-pc",
+      "primal-survival-2026-pc",
+      "fearwoods-2026-pc",
+      "begraved-2027-pc",
+      "diskette-dungeon-2026-pc"
     ],
     "mods": [],
     "coop-beaten": [],

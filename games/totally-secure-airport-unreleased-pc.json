@@ -1,0 +1,33 @@
+{
+  "id": "totally-secure-airport-unreleased-pc",
+  "name": "Totally Secure Airport",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Longpines Games",
+  "pub": "Polden Publishing",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/totally-secure-airport-unreleased-pc.jpg",
+  "logo": "images/logos/totally-secure-airport-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4348760",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

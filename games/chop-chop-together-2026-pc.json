@@ -1,0 +1,33 @@
+{
+  "id": "chop-chop-together-2026-pc",
+  "name": "Chop Chop Together",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "—",
+  "dev": "Dango Dynamics",
+  "pub": "Dango Dynamics, Phoenix Games",
+  "notes": "",
+  "release": "08.09.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/chop-chop-together-2026-pc.jpg",
+  "logo": "images/logos/chop-chop-together-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3065360",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

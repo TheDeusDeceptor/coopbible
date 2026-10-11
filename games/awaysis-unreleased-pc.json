@@ -1,0 +1,33 @@
+{
+  "id": "awaysis-unreleased-pc",
+  "name": "Awaysis",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "—",
+  "dev": "17-BIT",
+  "pub": "17-BIT",
+  "notes": "",
+  "release": "Soon",
+  "ea_release": "",
+  "screenshot": "images/screenshots/awaysis-unreleased-pc.jpg",
+  "logo": "images/logos/awaysis-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3334760",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

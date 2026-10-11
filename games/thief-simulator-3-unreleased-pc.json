@@ -1,0 +1,38 @@
+{
+  "id": "thief-simulator-3-unreleased-pc",
+  "name": "Thief Simulator 3",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Noble Muffins",
+  "pub": "PlayWay",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/thief-simulator-3-unreleased-pc.jpg",
+  "logo": "images/logos/thief-simulator-3-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3223070",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Thief_Simulator_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
