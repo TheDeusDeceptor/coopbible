@@ -1,0 +1,27 @@
+{
+  "id": "zetrith-s-multiplayer-2019-pcmod",
+  "name": "Zetrith's Multiplayer",
+  "platform": "PC",
+  "size": "4.5 GB",
+  "hltb": "Main: 65, +Extra: 140",
+  "dev": "Zetrith, rwmt",
+  "pub": "",
+  "notes": "",
+  "release": "22.01.2019",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/zetrith-s-multiplayer-2019-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "yakuza-0-co-op-unreleased-pcmod",
+  "name": "Yakuza 0 Co-op",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 31, +Extra: 78",
+  "dev": "Jhrino",
+  "pub": "",
+  "notes": "",
+  "release": "07.11.2025",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/yakuza-0-co-op-unreleased-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

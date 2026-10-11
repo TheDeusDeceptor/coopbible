@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T16:06:32Z",
+  "updated": "2026-10-11T16:25:23Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -25112,6 +25112,185 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "zetrith-s-multiplayer-2019-pcmod": {
+      "id": "zetrith-s-multiplayer-2019-pcmod",
+      "name": "Zetrith's Multiplayer",
+      "platform": "PC",
+      "size": "4.5 GB",
+      "hltb": "Main: 65, +Extra: 140",
+      "dev": "Zetrith, rwmt",
+      "pub": "",
+      "notes": "",
+      "release": "22.01.2019",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/zetrith-s-multiplayer-2019-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-0-co-op-unreleased-pcmod": {
+      "id": "yakuza-0-co-op-unreleased-pcmod",
+      "name": "Yakuza 0 Co-op",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 31, +Extra: 78",
+      "dev": "Jhrino",
+      "pub": "",
+      "notes": "",
+      "release": "07.11.2025",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/yakuza-0-co-op-unreleased-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "intertwined-fates-2025-pcmod": {
+      "id": "intertwined-fates-2025-pcmod",
+      "name": "Intertwined Fates",
+      "platform": "PC",
+      "size": "32.5 GB",
+      "hltb": "Main: 38, +Extra: 90",
+      "dev": "Jhrino, Janfon1",
+      "pub": "",
+      "notes": "",
+      "release": "10.04.2025",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/intertwined-fates-2025-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bannerlord-together-2026-pcmod": {
+      "id": "bannerlord-together-2026-pcmod",
+      "name": "Bannerlord Together",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 52, +Extra: 105",
+      "dev": "",
+      "pub": "",
+      "notes": "",
+      "release": "19.03.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/bannerlord-together-2026-pc.png",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/mountandblade2bannerlord/mods/10426",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-4-multiplayer-mod-2026-pcmod": {
+      "id": "resident-evil-4-multiplayer-mod-2026-pcmod",
+      "name": "Resident Evil 4 Multiplayer Mod",
+      "platform": "PC",
+      "size": "55 GB",
+      "hltb": "Main: 16, +Extra: 27",
+      "dev": "claybtv",
+      "pub": "",
+      "notes": "",
+      "release": "13.06.2026",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/resident-evil-4-multiplayer-mod-2026-pc.png",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/residentevil42023/mods/6539",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-3-multiplayer-mod-2027-pc": {
+      "id": "resident-evil-3-multiplayer-mod-2027-pc",
+      "name": "Resident Evil 3 Multiplayer Mod",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "HeySnippy",
+      "pub": "",
+      "notes": "",
+      "release": "2027",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/resident-evil-3-multiplayer-mod-2027-pc.png",
+      "links": [
+        {
+          "label": "HeySnippy",
+          "url": "https://heysnippy.com/mods/re3coop/"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -25821,7 +26000,13 @@
       "elden-ring-reforged-2022-pcmod",
       "elden-vins-2024-pcmod",
       "elden-ring-the-convergence-2023-pcmod",
-      "dynamite-2025-pcmod"
+      "dynamite-2025-pcmod",
+      "zetrith-s-multiplayer-2019-pcmod",
+      "yakuza-0-co-op-unreleased-pcmod",
+      "intertwined-fates-2025-pcmod",
+      "bannerlord-together-2026-pcmod",
+      "resident-evil-4-multiplayer-mod-2026-pcmod",
+      "resident-evil-3-multiplayer-mod-2027-pc"
     ],
     "coop-beaten": [],
     "backlog": [],

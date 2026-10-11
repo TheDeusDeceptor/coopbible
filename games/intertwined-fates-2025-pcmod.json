@@ -1,0 +1,27 @@
+{
+  "id": "intertwined-fates-2025-pcmod",
+  "name": "Intertwined Fates",
+  "platform": "PC",
+  "size": "32.5 GB",
+  "hltb": "Main: 38, +Extra: 90",
+  "dev": "Jhrino, Janfon1",
+  "pub": "",
+  "notes": "",
+  "release": "10.04.2025",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/intertwined-fates-2025-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
