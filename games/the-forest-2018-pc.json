@@ -1,0 +1,38 @@
+{
+  "id": "the-forest-2018-pc",
+  "name": "The Forest",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 16, +Extra: 28",
+  "dev": "Endnight Games",
+  "pub": "Endnight Games",
+  "notes": "",
+  "release": "30.04.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-forest-2018-pc.jpg",
+  "logo": "images/logos/the-forest-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/242760",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/M%C3%A4rchen_Forest%3A_Mylne_and_the_Forest_Gift",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

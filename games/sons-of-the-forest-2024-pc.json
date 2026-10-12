@@ -1,0 +1,38 @@
+{
+  "id": "sons-of-the-forest-2024-pc",
+  "name": "Sons Of The Forest",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 19, +Extra: 28",
+  "dev": "Endnight Games",
+  "pub": "Newnight",
+  "notes": "",
+  "release": "22.02.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sons-of-the-forest-2024-pc.jpg",
+  "logo": "images/logos/sons-of-the-forest-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1326470",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sons_of_the_Forest",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

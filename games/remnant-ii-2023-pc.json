@@ -1,0 +1,51 @@
+{
+  "id": "remnant-ii-2023-pc",
+  "name": "Remnant II",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 18, +Extra: 29",
+  "dev": "Gunfire Games",
+  "pub": "Arc Games, THQ Nordic",
+  "notes": "",
+  "release": "25.07.2023",
+  "ea_release": "",
+  "screenshot": "https://media.fullcleared.com/2023/08/remnant-ii-review-fullcleared.jpg",
+  "logo": "images/logos/remnant-ii-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1282100",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Remnant_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "The Awakened King",
+      "played": true
+    },
+    {
+      "name": "The Forgotten Kingdom",
+      "played": true
+    },
+    {
+      "name": "The Dark Horizon",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

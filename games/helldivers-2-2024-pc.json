@@ -1,0 +1,38 @@
+{
+  "id": "helldivers-2-2024-pc",
+  "name": "Helldivers 2",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "Main: 32, +Extra: 65",
+  "dev": "Arrowhead Game Studios",
+  "pub": "PlayStation Publishing LLC",
+  "notes": "",
+  "release": "08.02.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/helldivers-2-2024-pc.jpg",
+  "logo": "images/logos/helldivers-2-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/553850",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/HELLDIVERS_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

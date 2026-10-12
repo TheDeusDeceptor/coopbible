@@ -1,0 +1,42 @@
+{
+  "id": "outward-definitive-edition-2022-pc",
+  "name": "Outward Definitive Edition",
+  "platform": "PC",
+  "size": "51 GB",
+  "hltb": "Main: 33, +Extra: 52",
+  "dev": "Nine Dots Studio",
+  "pub": "Prime Matter, Deep Silver",
+  "notes": "",
+  "release": "17.05.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/outward-definitive-edition-2022-pc.jpg",
+  "logo": "https://i.ibb.co/Z1wqpmw9/image.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/794260",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "The Soroboreans",
+      "played": true
+    },
+    {
+      "name": "The Three Brothers",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

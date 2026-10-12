@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T15:45:53Z",
+  "updated": "2026-10-12T16:06:34Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -27945,6 +27945,255 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "the-forest-2018-pc": {
+      "id": "the-forest-2018-pc",
+      "name": "The Forest",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 16, +Extra: 28",
+      "dev": "Endnight Games",
+      "pub": "Endnight Games",
+      "notes": "",
+      "release": "30.04.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-forest-2018-pc.jpg",
+      "logo": "images/logos/the-forest-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/242760",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/M%C3%A4rchen_Forest%3A_Mylne_and_the_Forest_Gift",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sons-of-the-forest-2024-pc": {
+      "id": "sons-of-the-forest-2024-pc",
+      "name": "Sons Of The Forest",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 19, +Extra: 28",
+      "dev": "Endnight Games",
+      "pub": "Newnight",
+      "notes": "",
+      "release": "22.02.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sons-of-the-forest-2024-pc.jpg",
+      "logo": "images/logos/sons-of-the-forest-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1326470",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sons_of_the_Forest",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "helldivers-2-2024-pc": {
+      "id": "helldivers-2-2024-pc",
+      "name": "Helldivers 2",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 32, +Extra: 65",
+      "dev": "Arrowhead Game Studios",
+      "pub": "PlayStation Publishing LLC",
+      "notes": "",
+      "release": "08.02.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/helldivers-2-2024-pc.jpg",
+      "logo": "images/logos/helldivers-2-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/553850",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/HELLDIVERS_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "remnant-from-the-ashes-2019-pc": {
+      "id": "remnant-from-the-ashes-2019-pc",
+      "name": "Remnant: From the Ashes",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 13, +Extra: 21",
+      "dev": "Gunfire Games",
+      "pub": "Arc Games, THQ Nordic",
+      "notes": "",
+      "release": "19.08.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/remnant-from-the-ashes-2019-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/aab11087c24981eb0e03846792ff5718.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/617290",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Swamps Of Corsus",
+          "played": true
+        },
+        {
+          "name": "Subject 2923",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "remnant-ii-2023-pc": {
+      "id": "remnant-ii-2023-pc",
+      "name": "Remnant II",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 18, +Extra: 29",
+      "dev": "Gunfire Games",
+      "pub": "Arc Games, THQ Nordic",
+      "notes": "",
+      "release": "25.07.2023",
+      "ea_release": "",
+      "screenshot": "https://media.fullcleared.com/2023/08/remnant-ii-review-fullcleared.jpg",
+      "logo": "images/logos/remnant-ii-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1282100",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Remnant_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The Awakened King",
+          "played": true
+        },
+        {
+          "name": "The Forgotten Kingdom",
+          "played": true
+        },
+        {
+          "name": "The Dark Horizon",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "outward-definitive-edition-2022-pc": {
+      "id": "outward-definitive-edition-2022-pc",
+      "name": "Outward Definitive Edition",
+      "platform": "PC",
+      "size": "51 GB",
+      "hltb": "Main: 33, +Extra: 52",
+      "dev": "Nine Dots Studio",
+      "pub": "Prime Matter, Deep Silver",
+      "notes": "",
+      "release": "17.05.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/outward-definitive-edition-2022-pc.jpg",
+      "logo": "https://i.ibb.co/Z1wqpmw9/image.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/794260",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The Soroboreans",
+          "played": true
+        },
+        {
+          "name": "The Three Brothers",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -28670,6 +28919,12 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "outward-definitive-edition-2022-pc",
+      "remnant-ii-2023-pc",
+      "remnant-from-the-ashes-2019-pc",
+      "helldivers-2-2024-pc",
+      "sons-of-the-forest-2024-pc",
+      "the-forest-2018-pc",
       "stranger-of-paradise-final-fantasy-origin-2022-pc",
       "wo-long-fallen-dynasty-2023-pc",
       "nioh-2-the-complete-edition-2021-pc",
