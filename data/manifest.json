@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T21:52:04Z",
+  "updated": "2026-10-12T21:57:43Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -30241,6 +30241,39 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "hytale-2026-pc": {
+      "id": "hytale-2026-pc",
+      "name": "Hytale",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 8",
+      "dev": "Hypixel Studios",
+      "pub": "Hypixel Studios",
+      "notes": "",
+      "release": "",
+      "ea_release": "13.01.2026",
+      "screenshot": "images/screenshots/hytale-2026-pc.jpg",
+      "logo": "images/logos/hytale-2026-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hytale",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -30856,7 +30889,8 @@
       "guinea-pig-runaway-together-2026-pc",
       "funnel-runners-2026-pc",
       "invokyr-2026-pc",
-      "stonewards-2026-pc"
+      "stonewards-2026-pc",
+      "hytale-2026-pc"
     ],
     "unreleased": [
       "paddle-cats-2026-pc",
