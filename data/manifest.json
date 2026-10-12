@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T19:53:01Z",
+  "updated": "2026-10-12T19:56:05Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -30488,6 +30488,7 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "zombie-army-4-dead-war-2020-pc",
       "ale-tale-tavern-2024-pc",
       "old-market-simulator-2024-pc",
       "supermarket-together-2024-pc",
