@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T17:19:22Z",
+  "updated": "2026-10-12T18:05:40Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -28954,6 +28954,390 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "lord-of-the-rings-war-in-the-north-2011-pc": {
+      "id": "lord-of-the-rings-war-in-the-north-2011-pc",
+      "name": "Lord of the Rings: War in the North",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 12, +Extra: 16",
+      "dev": "Snowblind Studios",
+      "pub": "WB Games",
+      "notes": "",
+      "release": "01.11.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lord-of-the-rings-war-in-the-north-2011-pc.jpg",
+      "logo": "images/logos/lord-of-the-rings-war-in-the-north-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/32800",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings%3A_War_in_the_North",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "project-zomboid-2013-pc": {
+      "id": "project-zomboid-2013-pc",
+      "name": "Project Zomboid",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 64, +Extra: 167",
+      "dev": "The Indie Stone",
+      "pub": "The Indie Stone",
+      "notes": "",
+      "release": "08.11.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/project-zomboid-2013-pc.jpg",
+      "logo": "images/logos/project-zomboid-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/108600",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Project_Zomboid",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "northgard-2018-pc": {
+      "id": "northgard-2018-pc",
+      "name": "Northgard",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 15, +Extra: 36",
+      "dev": "Shiro Games",
+      "pub": "Shiro Games",
+      "notes": "",
+      "release": "07.03.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/northgard-2018-pc.jpg",
+      "logo": "images/logos/northgard-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/466560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Northgard",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "elden-ring-2022-pc": {
+      "id": "elden-ring-2022-pc",
+      "name": "Elden Ring",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 60, +Extra: 101",
+      "dev": "FromSoftware",
+      "pub": "Bandai Namco Entertainment, FromSoftware",
+      "notes": "via Seamless Co-op mod",
+      "release": "24.02.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/elden-ring-2022-pc.jpg",
+      "logo": "images/logos/elden-ring-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1245620",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Elden_Ring",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Shadow of the Erdtree",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "super-bunny-man-2023-pc": {
+      "id": "super-bunny-man-2023-pc",
+      "name": "Super Bunny Man",
+      "platform": "PC",
+      "size": "0.9 GB",
+      "hltb": "Main: 10, +Extra: 19",
+      "dev": "Catobyte",
+      "pub": "Catobyte",
+      "notes": "",
+      "release": "16.05.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/super-bunny-man-2023-pc.jpg",
+      "logo": "images/logos/super-bunny-man-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/673750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Super_Bunny_Man",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "evil-west-2022-pc": {
+      "id": "evil-west-2022-pc",
+      "name": "Evil West",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 11, +Extra: 13",
+      "dev": "Flying Wild Hog",
+      "pub": "Focus Entertainment",
+      "notes": "",
+      "release": "21.11.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/evil-west-2022-pc.jpg",
+      "logo": "images/logos/evil-west-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1065310",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Evil_West",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "7-days-to-die-2024-pc": {
+      "id": "7-days-to-die-2024-pc",
+      "name": "7 Days to Die",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 54, +Extra: 113",
+      "dev": "The Fun Pimps",
+      "pub": "The Fun Pimps",
+      "notes": "",
+      "release": "25.07.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/7-days-to-die-2024-pc.jpg",
+      "logo": "images/logos/7-days-to-die-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/251570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/7_Days_to_Die",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-past-within-2022-pc": {
+      "id": "the-past-within-2022-pc",
+      "name": "The Past Within",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 2",
+      "dev": "Rusty Lake",
+      "pub": "Rusty Lake",
+      "notes": "",
+      "release": "02.11.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-past-within-2022-pc.jpg",
+      "logo": "images/logos/the-past-within-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1515210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Past_Within",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-simulator-2021-pc": {
+      "id": "escape-simulator-2021-pc",
+      "name": "Escape Simulator",
+      "platform": "PC",
+      "size": "14 GB",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Pine Studio",
+      "pub": "Pine Studio",
+      "notes": "",
+      "release": "19.10.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-simulator-2021-pc.jpg",
+      "logo": "images/logos/escape-simulator-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1435790",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_Simulator",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Steampunk",
+          "played": true
+        },
+        {
+          "name": "Wild West",
+          "played": true
+        },
+        {
+          "name": "Portal Escape Chamber",
+          "played": true
+        },
+        {
+          "name": "Among Us",
+          "played": true
+        },
+        {
+          "name": "Magic",
+          "played": true
+        },
+        {
+          "name": "PowerWash",
+          "played": true
+        },
+        {
+          "name": "The Talos Principle",
+          "played": false
+        },
+        {
+          "name": "Mayan",
+          "played": false
+        },
+        {
+          "name": "Spy",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -29680,6 +30064,15 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "escape-simulator-2021-pc",
+      "the-past-within-2022-pc",
+      "7-days-to-die-2024-pc",
+      "evil-west-2022-pc",
+      "super-bunny-man-2023-pc",
+      "elden-ring-2022-pc",
+      "northgard-2018-pc",
+      "project-zomboid-2013-pc",
+      "lord-of-the-rings-war-in-the-north-2011-pc",
       "the-headliners-2025-pc",
       "lethal-company-2023-pc",
       "rebel-inc-escalation-2021-pc",

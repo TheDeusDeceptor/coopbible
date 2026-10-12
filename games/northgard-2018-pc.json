@@ -1,0 +1,38 @@
+{
+  "id": "northgard-2018-pc",
+  "name": "Northgard",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 15, +Extra: 36",
+  "dev": "Shiro Games",
+  "pub": "Shiro Games",
+  "notes": "",
+  "release": "07.03.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/northgard-2018-pc.jpg",
+  "logo": "images/logos/northgard-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/466560",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Northgard",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

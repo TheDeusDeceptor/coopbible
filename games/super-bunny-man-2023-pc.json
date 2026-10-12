@@ -1,0 +1,38 @@
+{
+  "id": "super-bunny-man-2023-pc",
+  "name": "Super Bunny Man",
+  "platform": "PC",
+  "size": "0.9 GB",
+  "hltb": "Main: 10, +Extra: 19",
+  "dev": "Catobyte",
+  "pub": "Catobyte",
+  "notes": "",
+  "release": "16.05.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/super-bunny-man-2023-pc.jpg",
+  "logo": "images/logos/super-bunny-man-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/673750",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Super_Bunny_Man",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

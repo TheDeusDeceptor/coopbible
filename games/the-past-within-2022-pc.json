@@ -1,0 +1,38 @@
+{
+  "id": "the-past-within-2022-pc",
+  "name": "The Past Within",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 2",
+  "dev": "Rusty Lake",
+  "pub": "Rusty Lake",
+  "notes": "",
+  "release": "02.11.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-past-within-2022-pc.jpg",
+  "logo": "images/logos/the-past-within-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1515210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Past_Within",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

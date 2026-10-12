@@ -1,0 +1,38 @@
+{
+  "id": "project-zomboid-2013-pc",
+  "name": "Project Zomboid",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 64, +Extra: 167",
+  "dev": "The Indie Stone",
+  "pub": "The Indie Stone",
+  "notes": "",
+  "release": "08.11.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/project-zomboid-2013-pc.jpg",
+  "logo": "images/logos/project-zomboid-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/108600",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Project_Zomboid",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

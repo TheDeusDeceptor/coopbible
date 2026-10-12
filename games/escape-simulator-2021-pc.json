@@ -1,0 +1,75 @@
+{
+  "id": "escape-simulator-2021-pc",
+  "name": "Escape Simulator",
+  "platform": "PC",
+  "size": "14 GB",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Pine Studio",
+  "pub": "Pine Studio",
+  "notes": "",
+  "release": "19.10.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-simulator-2021-pc.jpg",
+  "logo": "images/logos/escape-simulator-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1435790",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_Simulator",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Steampunk",
+      "played": true
+    },
+    {
+      "name": "Wild West",
+      "played": true
+    },
+    {
+      "name": "Portal Escape Chamber",
+      "played": true
+    },
+    {
+      "name": "Among Us",
+      "played": true
+    },
+    {
+      "name": "Magic",
+      "played": true
+    },
+    {
+      "name": "PowerWash",
+      "played": true
+    },
+    {
+      "name": "The Talos Principle",
+      "played": false
+    },
+    {
+      "name": "Mayan",
+      "played": false
+    },
+    {
+      "name": "Spy",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
