@@ -1,0 +1,38 @@
+{
+  "id": "warhammer-40-000-darktide-2022-pc",
+  "name": "Warhammer 40,000: Darktide",
+  "platform": "PC",
+  "size": "72 GB",
+  "hltb": "Main: 28, +Extra: 71",
+  "dev": "Fatshark",
+  "pub": "Fatshark",
+  "notes": "",
+  "release": "30.11.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/warhammer-40-000-darktide-2022-pc.jpg",
+  "logo": "images/logos/warhammer-40-000-darktide-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1361210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Darktide",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

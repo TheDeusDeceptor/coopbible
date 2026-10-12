@@ -1,0 +1,38 @@
+{
+  "id": "medieval-dynasty-2021-pc",
+  "name": "Medieval Dynasty",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 30, +Extra: 57",
+  "dev": "Render Cube",
+  "pub": "Toplitz Productions",
+  "notes": "",
+  "release": "23.09.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/medieval-dynasty-2021-pc.jpg",
+  "logo": "images/logos/medieval-dynasty-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1129580",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Medieval_Dynasty",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

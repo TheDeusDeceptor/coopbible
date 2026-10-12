@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T19:56:05Z",
+  "updated": "2026-10-12T20:16:14Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -29762,6 +29762,338 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "aliens-colonial-marines-2012-pc": {
+      "id": "aliens-colonial-marines-2012-pc",
+      "name": "Aliens: Colonial Marines",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "—",
+      "dev": "Gearbox Software",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "01.05.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/aliens-colonial-marines-collection-2012-pc.jpg",
+      "logo": "images/logos/aliens-colonial-marines-collection-2012-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/49540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Aliens%3A_Colonial_Marines",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "warhammer-40-000-darktide-2022-pc": {
+      "id": "warhammer-40-000-darktide-2022-pc",
+      "name": "Warhammer 40,000: Darktide",
+      "platform": "PC",
+      "size": "72 GB",
+      "hltb": "Main: 28, +Extra: 71",
+      "dev": "Fatshark",
+      "pub": "Fatshark",
+      "notes": "",
+      "release": "30.11.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/warhammer-40-000-darktide-2022-pc.jpg",
+      "logo": "images/logos/warhammer-40-000-darktide-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1361210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Darktide",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "outriders-2021-pc": {
+      "id": "outriders-2021-pc",
+      "name": "Outriders",
+      "platform": "PC",
+      "size": "70 GB",
+      "hltb": "Main: 16, +Extra: 36",
+      "dev": "People Can Fly",
+      "pub": "Square Enix",
+      "notes": "",
+      "release": "01.04.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/outriders-2021-pc.jpg",
+      "logo": "images/logos/outriders-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/680420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Outriders",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ranch-simulator-build-hunt-farm-2023-pc": {
+      "id": "ranch-simulator-build-hunt-farm-2023-pc",
+      "name": "Ranch Simulator: Build, Hunt, Farm",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 21, +Extra: 31",
+      "dev": "Toxic Dog",
+      "pub": "Excalibur Games",
+      "notes": "",
+      "release": "03.11.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ranch-simulator-build-hunt-farm-2023-pc.jpg",
+      "logo": "images/logos/ranch-simulator-build-hunt-farm-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1119730",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "medieval-dynasty-2021-pc": {
+      "id": "medieval-dynasty-2021-pc",
+      "name": "Medieval Dynasty",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 30, +Extra: 57",
+      "dev": "Render Cube",
+      "pub": "Toplitz Productions",
+      "notes": "",
+      "release": "23.09.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/medieval-dynasty-2021-pc.jpg",
+      "logo": "images/logos/medieval-dynasty-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1129580",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Medieval_Dynasty",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "usac-code-breach-2022-pc": {
+      "id": "usac-code-breach-2022-pc",
+      "name": "USAC: Code Breach",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "Questions Factory",
+      "pub": "Questions Factory",
+      "notes": "Previously known as Bonding Ambivalence",
+      "release": "26.10.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/usac-code-breach-2022-pc.jpg",
+      "logo": "images/logos/usac-code-breach-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1886070",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "contra-operation-galuga-2024-pc": {
+      "id": "contra-operation-galuga-2024-pc",
+      "name": "Contra: Operation Galuga",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 2, +Extra: 5",
+      "dev": "WayForward",
+      "pub": "Konami",
+      "notes": "",
+      "release": "12.03.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/contra-operation-galuga-2024-pc.jpg",
+      "logo": "images/logos/contra-operation-galuga-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2235020",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Contra%3A_Operation_Galuga",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "back-4-blood-2021-pc": {
+      "id": "back-4-blood-2021-pc",
+      "name": "Back 4 Blood",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 12, +Extra: 23",
+      "dev": "Turtle Rock Studios",
+      "pub": "Warner Bros. Games",
+      "notes": "",
+      "release": "12.10.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/back-4-blood-2021-pc.jpg",
+      "logo": "images/logos/back-4-blood-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/924970",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Back_4_Blood",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "schedule-i-2025-pc": {
+      "id": "schedule-i-2025-pc",
+      "name": "Schedule I",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 17, +Extra: 38",
+      "dev": "TVGS",
+      "pub": "TVGS",
+      "notes": "",
+      "release": "24.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/schedule-i-2025-pc.jpg",
+      "logo": "images/logos/schedule-i-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3164500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Schedule_I",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -30488,6 +30820,15 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "schedule-i-2025-pc",
+      "back-4-blood-2021-pc",
+      "contra-operation-galuga-2024-pc",
+      "usac-code-breach-2022-pc",
+      "medieval-dynasty-2021-pc",
+      "ranch-simulator-build-hunt-farm-2023-pc",
+      "outriders-2021-pc",
+      "warhammer-40-000-darktide-2022-pc",
+      "aliens-colonial-marines-2012-pc",
       "zombie-army-4-dead-war-2020-pc",
       "ale-tale-tavern-2024-pc",
       "old-market-simulator-2024-pc",

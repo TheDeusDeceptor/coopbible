@@ -1,0 +1,38 @@
+{
+  "id": "outriders-2021-pc",
+  "name": "Outriders",
+  "platform": "PC",
+  "size": "70 GB",
+  "hltb": "Main: 16, +Extra: 36",
+  "dev": "People Can Fly",
+  "pub": "Square Enix",
+  "notes": "",
+  "release": "01.04.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/outriders-2021-pc.jpg",
+  "logo": "images/logos/outriders-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/680420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Outriders",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

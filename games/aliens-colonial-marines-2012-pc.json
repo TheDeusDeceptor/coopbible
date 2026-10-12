@@ -1,0 +1,38 @@
+{
+  "id": "aliens-colonial-marines-2012-pc",
+  "name": "Aliens: Colonial Marines",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "—",
+  "dev": "Gearbox Software",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "01.05.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/aliens-colonial-marines-collection-2012-pc.jpg",
+  "logo": "images/logos/aliens-colonial-marines-collection-2012-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/49540",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Aliens%3A_Colonial_Marines",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

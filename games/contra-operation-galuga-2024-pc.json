@@ -1,0 +1,38 @@
+{
+  "id": "contra-operation-galuga-2024-pc",
+  "name": "Contra: Operation Galuga",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 2, +Extra: 5",
+  "dev": "WayForward",
+  "pub": "Konami",
+  "notes": "",
+  "release": "12.03.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/contra-operation-galuga-2024-pc.jpg",
+  "logo": "images/logos/contra-operation-galuga-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2235020",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Contra%3A_Operation_Galuga",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

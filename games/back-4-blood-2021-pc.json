@@ -1,0 +1,38 @@
+{
+  "id": "back-4-blood-2021-pc",
+  "name": "Back 4 Blood",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "Main: 12, +Extra: 23",
+  "dev": "Turtle Rock Studios",
+  "pub": "Warner Bros. Games",
+  "notes": "",
+  "release": "12.10.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/back-4-blood-2021-pc.jpg",
+  "logo": "images/logos/back-4-blood-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/924970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Back_4_Blood",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "schedule-i-2025-pc",
+  "name": "Schedule I",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 17, +Extra: 38",
+  "dev": "TVGS",
+  "pub": "TVGS",
+  "notes": "",
+  "release": "24.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/schedule-i-2025-pc.jpg",
+  "logo": "images/logos/schedule-i-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3164500",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Schedule_I",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
