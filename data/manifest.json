@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T15:40:45Z",
+  "updated": "2026-10-12T15:45:53Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -27856,7 +27856,7 @@
       "release": "03.03.2023",
       "ea_release": "",
       "screenshot": "images/screenshots/wo-long-fallen-dynasty-2023-pc.jpg",
-      "logo": "https://cdn2.steamgriddb.com/logo/1f93278d656663bf70c9dd8a75af2259.png",
+      "logo": "images/logos/wo-long-fallen-dynasty-2023-pc.png",
       "links": [
         {
           "label": "Steam",
