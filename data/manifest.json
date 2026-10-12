@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T20:37:02Z",
+  "updated": "2026-10-12T21:17:20Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -30165,6 +30165,82 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "six-days-in-fallujah-2023-pc": {
+      "id": "six-days-in-fallujah-2023-pc",
+      "name": "Six Days in Fallujah",
+      "platform": "PC",
+      "size": "22 GB",
+      "hltb": "Main: 3, +Extra: 5",
+      "dev": "Highwire Games",
+      "pub": "Victura",
+      "notes": "",
+      "release": "22.06.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/six-days-in-fallujah-2023-pc.jpg",
+      "logo": "images/logos/six-days-in-fallujah-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1548850",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Six_Days_in_Fallujah",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "goat-simulator-3-2022-pc": {
+      "id": "goat-simulator-3-2022-pc",
+      "name": "Goat Simulator 3",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 7, +Extra: 11",
+      "dev": "Coffee Stain North",
+      "pub": "Coffee Stain Publishing",
+      "notes": "",
+      "release": "17.11.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/goat-simulator-3-2022-pc.jpg",
+      "logo": "images/logos/goat-simulator-3-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/850190",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Goat_Simulator_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -30891,6 +30967,8 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "goat-simulator-3-2022-pc",
+      "six-days-in-fallujah-2023-pc",
       "the-typing-of-the-dead-overkill-2013-pc",
       "grocery-store-simulator-2024-pc",
       "schedule-i-2025-pc",

@@ -1,0 +1,38 @@
+{
+  "id": "six-days-in-fallujah-2023-pc",
+  "name": "Six Days in Fallujah",
+  "platform": "PC",
+  "size": "22 GB",
+  "hltb": "Main: 3, +Extra: 5",
+  "dev": "Highwire Games",
+  "pub": "Victura",
+  "notes": "",
+  "release": "22.06.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/six-days-in-fallujah-2023-pc.jpg",
+  "logo": "images/logos/six-days-in-fallujah-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1548850",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Six_Days_in_Fallujah",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
