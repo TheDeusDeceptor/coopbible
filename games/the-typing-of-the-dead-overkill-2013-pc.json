@@ -1,0 +1,38 @@
+{
+  "id": "the-typing-of-the-dead-overkill-2013-pc",
+  "name": "The Typing of The Dead: Overkill",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Modern Dream",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "29.10.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-typing-of-the-dead-overkill-2013-pc.jpg",
+  "logo": "images/logos/the-typing-of-the-dead-overkill-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/246580",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Typing_of_The_Dead%3A_Overkill",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

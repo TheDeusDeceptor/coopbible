@@ -1,0 +1,33 @@
+{
+  "id": "grocery-store-simulator-2024-pc",
+  "name": "Grocery Store Simulator",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 30",
+  "dev": "EXPERIMENT ONE",
+  "pub": "EXPERIMENT ONE",
+  "notes": "",
+  "release": "21.11.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/grocery-store-simulator-2024-pc.jpg",
+  "logo": "images/logos/grocery-store-simulator-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2961880",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
