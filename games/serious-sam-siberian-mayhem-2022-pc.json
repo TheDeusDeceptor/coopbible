@@ -1,0 +1,38 @@
+{
+  "id": "serious-sam-siberian-mayhem-2022-pc",
+  "name": "Serious Sam: Siberian Mayhem",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 4, +Extra: 7",
+  "dev": "Croteam, Timelock Studio",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "25.01.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/serious-sam-siberian-mayhem-2022-pc.jpg",
+  "logo": "images/logos/serious-sam-siberian-mayhem-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1792250",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Serious_Sam%3A_Siberian_Mayhem",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

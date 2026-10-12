@@ -1,0 +1,51 @@
+{
+  "id": "stranger-of-paradise-final-fantasy-origin-2022-pc",
+  "name": "Stranger of Paradise: Final Fantasy Origin",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 18, +Extra: 29",
+  "dev": "Team Ninja",
+  "pub": "Square Enix",
+  "notes": "",
+  "release": "18.03.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stranger-of-paradise-final-fantasy-origin-2022-pc.jpg",
+  "logo": "images/logos/stranger-of-paradise-final-fantasy-origin-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1358700",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Stranger_of_Paradise%3A_Final_Fantasy_Origin",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Trials of the Dragon King",
+      "played": false
+    },
+    {
+      "name": "Wanderer of the Rift",
+      "played": false
+    },
+    {
+      "name": "DIFFERENT FUTURE",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

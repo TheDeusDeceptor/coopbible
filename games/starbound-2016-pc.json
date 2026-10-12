@@ -1,0 +1,38 @@
+{
+  "id": "starbound-2016-pc",
+  "name": "Starbound",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 25, +Extra: 58",
+  "dev": "Chucklefish",
+  "pub": "Chucklefish",
+  "notes": "",
+  "release": "22.07.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/starbound-2016-pc.jpg",
+  "logo": "images/logos/starbound-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/211820",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Starbound",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,51 @@
+{
+  "id": "nioh-complete-edition-2017-pc",
+  "name": "Nioh: Complete Edition",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 42, +Extra: 73",
+  "dev": "Team NINJA",
+  "pub": "Koei Tecmo",
+  "notes": "",
+  "release": "07.11.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/nioh-complete-edition-2017-pc.jpg",
+  "logo": "images/logos/nioh-complete-edition-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/485510",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Nioh%3A_Complete_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Dragon of the North",
+      "played": true
+    },
+    {
+      "name": "Defiant Honour",
+      "played": false
+    },
+    {
+      "name": "Bloodshed's End",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

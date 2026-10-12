@@ -1,0 +1,51 @@
+{
+  "id": "wo-long-fallen-dynasty-2023-pc",
+  "name": "Wo Long: Fallen Dynasty",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 25, +Extra: 34",
+  "dev": "Team Ninja",
+  "pub": "Koei Tecmo",
+  "notes": "",
+  "release": "03.03.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/wo-long-fallen-dynasty-2023-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/1f93278d656663bf70c9dd8a75af2259.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1448440",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Wo_Long%3A_Fallen_Dynasty",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Battle of Zhongyuan",
+      "played": false
+    },
+    {
+      "name": "Conqueror of Jiangdong",
+      "played": false
+    },
+    {
+      "name": "Upheaval in Jingxiang",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

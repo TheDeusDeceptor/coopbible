@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T05:00:35Z",
+  "updated": "2026-10-12T15:40:45Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -27400,6 +27400,551 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "postal-2-2003-pc": {
+      "id": "postal-2-2003-pc",
+      "name": "Postal 2",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 7, +Extra: 13",
+      "dev": "Running With Scissors",
+      "pub": "Running With Scissors",
+      "notes": "",
+      "release": "14.04.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/postal-2-2003-pc.jpg",
+      "logo": "images/logos/postal-2-2003-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/223470",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Postal_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Apocalypse Weekend",
+          "played": true
+        },
+        {
+          "name": "Paradise Lost",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ready-or-not-2023-pc": {
+      "id": "ready-or-not-2023-pc",
+      "name": "Ready or Not",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 16, +Extra: 28",
+      "dev": "VOID Interactive",
+      "pub": "VOID Interactive",
+      "notes": "",
+      "release": "13.12.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ready-or-not-2023-pc.jpg",
+      "logo": "images/logos/ready-or-not-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1144200",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Ready_or_Not",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "starbound-2016-pc": {
+      "id": "starbound-2016-pc",
+      "name": "Starbound",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 25, +Extra: 58",
+      "dev": "Chucklefish",
+      "pub": "Chucklefish",
+      "notes": "",
+      "release": "22.07.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/starbound-2016-pc.jpg",
+      "logo": "images/logos/starbound-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/211820",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Starbound",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "call-of-juarez-the-cartel-2011-pc": {
+      "id": "call-of-juarez-the-cartel-2011-pc",
+      "name": "Call of Juarez: The Cartel",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 7, +Extra: 9",
+      "dev": "Techland",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "08.09.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/call-of-juarez-the-cartel-2011-pc.jpg",
+      "logo": "images/logos/call-of-juarez-the-cartel-2011-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Call_of_Juarez%3A_The_Cartel",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mad-games-tycoon-2-2023-pc": {
+      "id": "mad-games-tycoon-2-2023-pc",
+      "name": "Mad Games Tycoon 2",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 27, +Extra: 39",
+      "dev": "Eggcode",
+      "pub": "Eggcode",
+      "notes": "",
+      "release": "31.05.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mad-games-tycoon-2-2023-pc.jpg",
+      "logo": "images/logos/mad-games-tycoon-2-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1342330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Mad_Games_Tycoon_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dying-light-2-stay-human-2022-pc": {
+      "id": "dying-light-2-stay-human-2022-pc",
+      "name": "Dying Light 2 Stay Human",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 24, +Extra: 50",
+      "dev": "Techland",
+      "pub": "Techland",
+      "notes": "",
+      "release": "03.02.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dying-light-2-stay-human-2022-pc.jpg",
+      "logo": "images/logos/dying-light-2-stay-human-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/534380",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dying_Light_2%3A_Stay_Human",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "warcraft-iii-reforged-2020-pc": {
+      "id": "warcraft-iii-reforged-2020-pc",
+      "name": "Warcraft III: Reforged",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 31, +Extra: 42",
+      "dev": "Blizzard Entertainment",
+      "pub": "Blizzard Entertainment",
+      "notes": "",
+      "release": "29.01.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/warcraft-iii-reforged-2020-pc.jpg",
+      "logo": "images/logos/warcraft-iii-reforged-2020-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Warcraft_III%3A_Reforged",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bigfoot-2017-pc": {
+      "id": "bigfoot-2017-pc",
+      "name": "BIGFOOT",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 4, +Extra: 7",
+      "dev": "CyberLight Game Studio",
+      "pub": "CyberLight Game Studio",
+      "notes": "",
+      "release": "31.01.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bigfoot-2017-pc.jpg",
+      "logo": "images/logos/bigfoot-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/509980",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Bigfoot",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "serious-sam-siberian-mayhem-2022-pc": {
+      "id": "serious-sam-siberian-mayhem-2022-pc",
+      "name": "Serious Sam: Siberian Mayhem",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 4, +Extra: 7",
+      "dev": "Croteam, Timelock Studio",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "25.01.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/serious-sam-siberian-mayhem-2022-pc.jpg",
+      "logo": "images/logos/serious-sam-siberian-mayhem-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1792250",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Serious_Sam%3A_Siberian_Mayhem",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nioh-complete-edition-2017-pc": {
+      "id": "nioh-complete-edition-2017-pc",
+      "name": "Nioh: Complete Edition",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 42, +Extra: 73",
+      "dev": "Team NINJA",
+      "pub": "Koei Tecmo",
+      "notes": "",
+      "release": "07.11.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/nioh-complete-edition-2017-pc.jpg",
+      "logo": "images/logos/nioh-complete-edition-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/485510",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nioh%3A_Complete_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Dragon of the North",
+          "played": true
+        },
+        {
+          "name": "Defiant Honour",
+          "played": false
+        },
+        {
+          "name": "Bloodshed's End",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nioh-2-the-complete-edition-2021-pc": {
+      "id": "nioh-2-the-complete-edition-2021-pc",
+      "name": "Nioh 2: The Complete Edition",
+      "platform": "PC",
+      "size": "85 GB",
+      "hltb": "Main: 44, +Extra: 85",
+      "dev": "Team Ninja",
+      "pub": "Koei Tecmo",
+      "notes": "",
+      "release": "05.02.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/nioh-2-the-complete-edition-2021-pc.jpg",
+      "logo": "images/logos/nioh-2-the-complete-edition-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1325200",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nioh_2_%E2%80%93_The_Complete_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The Tengu's Disciple",
+          "played": true
+        },
+        {
+          "name": "Darkness in the Capital",
+          "played": true
+        },
+        {
+          "name": "The First Samurai",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wo-long-fallen-dynasty-2023-pc": {
+      "id": "wo-long-fallen-dynasty-2023-pc",
+      "name": "Wo Long: Fallen Dynasty",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 25, +Extra: 34",
+      "dev": "Team Ninja",
+      "pub": "Koei Tecmo",
+      "notes": "",
+      "release": "03.03.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wo-long-fallen-dynasty-2023-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/1f93278d656663bf70c9dd8a75af2259.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1448440",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Wo_Long%3A_Fallen_Dynasty",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Battle of Zhongyuan",
+          "played": false
+        },
+        {
+          "name": "Conqueror of Jiangdong",
+          "played": false
+        },
+        {
+          "name": "Upheaval in Jingxiang",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "stranger-of-paradise-final-fantasy-origin-2022-pc": {
+      "id": "stranger-of-paradise-final-fantasy-origin-2022-pc",
+      "name": "Stranger of Paradise: Final Fantasy Origin",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 18, +Extra: 29",
+      "dev": "Team Ninja",
+      "pub": "Square Enix",
+      "notes": "",
+      "release": "18.03.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/stranger-of-paradise-final-fantasy-origin-2022-pc.jpg",
+      "logo": "images/logos/stranger-of-paradise-final-fantasy-origin-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1358700",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Stranger_of_Paradise%3A_Final_Fantasy_Origin",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Trials of the Dragon King",
+          "played": false
+        },
+        {
+          "name": "Wanderer of the Rift",
+          "played": false
+        },
+        {
+          "name": "DIFFERENT FUTURE",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -28125,6 +28670,19 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "stranger-of-paradise-final-fantasy-origin-2022-pc",
+      "wo-long-fallen-dynasty-2023-pc",
+      "nioh-2-the-complete-edition-2021-pc",
+      "nioh-complete-edition-2017-pc",
+      "serious-sam-siberian-mayhem-2022-pc",
+      "bigfoot-2017-pc",
+      "warcraft-iii-reforged-2020-pc",
+      "dying-light-2-stay-human-2022-pc",
+      "mad-games-tycoon-2-2023-pc",
+      "call-of-juarez-the-cartel-2011-pc",
+      "starbound-2016-pc",
+      "ready-or-not-2023-pc",
+      "postal-2-2003-pc",
       "the-incredible-adventures-of-van-helsing-final-cut-2015-pc",
       "medal-of-honor-allied-assault-2002-pc",
       "age-of-empires-ii-definitive-edition-2019-pc",

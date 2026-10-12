@@ -1,0 +1,38 @@
+{
+  "id": "mad-games-tycoon-2-2023-pc",
+  "name": "Mad Games Tycoon 2",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 27, +Extra: 39",
+  "dev": "Eggcode",
+  "pub": "Eggcode",
+  "notes": "",
+  "release": "31.05.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/mad-games-tycoon-2-2023-pc.jpg",
+  "logo": "images/logos/mad-games-tycoon-2-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1342330",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Mad_Games_Tycoon_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

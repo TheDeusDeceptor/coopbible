@@ -1,0 +1,47 @@
+{
+  "id": "postal-2-2003-pc",
+  "name": "Postal 2",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 7, +Extra: 13",
+  "dev": "Running With Scissors",
+  "pub": "Running With Scissors",
+  "notes": "",
+  "release": "14.04.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/postal-2-2003-pc.jpg",
+  "logo": "images/logos/postal-2-2003-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/223470",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Postal_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Apocalypse Weekend",
+      "played": true
+    },
+    {
+      "name": "Paradise Lost",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

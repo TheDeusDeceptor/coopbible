@@ -1,0 +1,33 @@
+{
+  "id": "call-of-juarez-the-cartel-2011-pc",
+  "name": "Call of Juarez: The Cartel",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "Techland",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "08.09.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/call-of-juarez-the-cartel-2011-pc.jpg",
+  "logo": "images/logos/call-of-juarez-the-cartel-2011-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Call_of_Juarez%3A_The_Cartel",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

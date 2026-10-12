@@ -1,0 +1,38 @@
+{
+  "id": "dying-light-2-stay-human-2022-pc",
+  "name": "Dying Light 2 Stay Human",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 24, +Extra: 50",
+  "dev": "Techland",
+  "pub": "Techland",
+  "notes": "",
+  "release": "03.02.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dying-light-2-stay-human-2022-pc.jpg",
+  "logo": "images/logos/dying-light-2-stay-human-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/534380",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dying_Light_2%3A_Stay_Human",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
