@@ -1,0 +1,38 @@
+{
+  "id": "old-market-simulator-2024-pc",
+  "name": "Old Market Simulator",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 23",
+  "dev": "Alcedo Games",
+  "pub": "",
+  "notes": "",
+  "release": "03.10.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/old-market-simulator-2024-pc.jpg",
+  "logo": "images/logos/old-market-simulator-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2878420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Old_Market_Simulator",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,47 @@
+{
+  "id": "escape-academy-2022-pc",
+  "name": "Escape Academy",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Coin Crew Games",
+  "pub": "iam8bit, Skybound Games",
+  "notes": "",
+  "release": "13.07.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-academy-2022-pc.jpg",
+  "logo": "images/logos/escape-academy-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1812090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_Academy",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Escape From Anti-Escape Island",
+      "played": true
+    },
+    {
+      "name": "Escape From the Past",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

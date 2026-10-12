@@ -1,0 +1,33 @@
+{
+  "id": "anomaly-exit-2024-pc",
+  "name": "Anomaly Exit",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 2, +Extra: 3",
+  "dev": "ExamlGuy",
+  "pub": "ExamlGuy",
+  "notes": "",
+  "release": "31.03.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/anomaly-exit-2024-pc.jpg",
+  "logo": "images/logos/anomaly-exit-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2232600",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

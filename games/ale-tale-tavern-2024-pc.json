@@ -1,0 +1,38 @@
+{
+  "id": "ale-tale-tavern-2024-pc",
+  "name": "Ale & Tale Tavern",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Scienart Games",
+  "pub": "GrabTheGames, UpgradePoint",
+  "notes": "",
+  "release": "05.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ale-tale-tavern-2024-pc.jpg",
+  "logo": "images/logos/ale-tale-tavern-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2683150",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Ale_%26_Tale_Tavern",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

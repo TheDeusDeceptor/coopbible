@@ -1,0 +1,38 @@
+{
+  "id": "escape-the-backrooms-2025-pc",
+  "name": "Escape the Backrooms",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Fancy Games, Blackbird Interactive",
+  "pub": "Secret Mode",
+  "notes": "",
+  "release": "23.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/escape-the-backrooms-2025-pc.jpg",
+  "logo": "images/logos/escape-the-backrooms-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1943950",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Escape_the_Backrooms",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

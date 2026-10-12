@@ -1,0 +1,38 @@
+{
+  "id": "kebab-chefs-restaurant-simulator-2026-pc",
+  "name": "Kebab Chefs!: Restaurant Simulator",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 17, +Extra: 24",
+  "dev": "Biotech Gameworks",
+  "pub": "Flagship Interactive",
+  "notes": "",
+  "release": "11.06.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kebab-chefs-restaurant-simulator-2026-pc.jpg",
+  "logo": "images/logos/kebab-chefs-restaurant-simulator-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1001270",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Bakery",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

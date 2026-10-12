@@ -1,0 +1,33 @@
+{
+  "id": "kunkun-dream-startles-the-soul-2024-pc",
+  "name": "KunKun dream Startles the Soul",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "AIKUN",
+  "pub": "AIKUN",
+  "notes": "",
+  "release": "24.06.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kunkun-dream-startles-the-soul-2024-pc.jpg",
+  "logo": "images/logos/kunkun-dream-startles-the-soul-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2808570",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

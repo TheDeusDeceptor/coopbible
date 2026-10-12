@@ -1,0 +1,33 @@
+{
+  "id": "tobacco-shop-simulator-2025-pc",
+  "name": "Tobacco Shop Simulator",
+  "platform": "PC",
+  "size": "1.2 GB",
+  "hltb": "Main: 18",
+  "dev": "Business Tycoon",
+  "pub": "Business Tycoon",
+  "notes": "",
+  "release": "22.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tobacco-shop-simulator-2025-pc.jpg",
+  "logo": "images/logos/tobacco-shop-simulator-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3211680",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

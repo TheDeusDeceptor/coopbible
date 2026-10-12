@@ -1,0 +1,38 @@
+{
+  "id": "supermarket-together-2024-pc",
+  "name": "Supermarket Together",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 12, +Extra: 19",
+  "dev": "DeadDevsTellNoLies",
+  "pub": "DeadDevsTellNoLies",
+  "notes": "",
+  "release": "09.08.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/supermarket-together-2024-pc.jpg",
+  "logo": "images/logos/supermarket-together-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2709570",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Supermarket_Together",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

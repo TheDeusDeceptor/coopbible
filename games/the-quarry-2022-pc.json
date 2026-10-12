@@ -1,0 +1,38 @@
+{
+  "id": "the-quarry-2022-pc",
+  "name": "The Quarry",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Supermassive Games",
+  "pub": "2K Games",
+  "notes": "",
+  "release": "09.06.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-quarry-2022-pc.jpg",
+  "logo": "images/logos/the-quarry-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1577120",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Quarry",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

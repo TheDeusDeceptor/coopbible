@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T18:06:41Z",
+  "updated": "2026-10-12T19:50:45Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -5162,7 +5162,24 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Hell Cult (Missions 1-3)",
+          "played": false
+        },
+        {
+          "name": "Dead War (Missions 4-6)",
+          "played": false
+        },
+        {
+          "name": "Return to Hell (Missions 7-9)",
+          "played": false
+        },
+        {
+          "name": "Ragnarök (Part I + Part II)",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -29338,6 +29355,413 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "the-escape-together-2023-pc": {
+      "id": "the-escape-together-2023-pc",
+      "name": "The Escape: Together",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 3",
+      "dev": "Nightstuff Games",
+      "pub": "Nightstuff Games",
+      "notes": "",
+      "release": "13.01.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-escape-together-2023-pc.jpg",
+      "logo": "images/logos/the-escape-together-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2242760",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-academy-2022-pc": {
+      "id": "escape-academy-2022-pc",
+      "name": "Escape Academy",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Coin Crew Games",
+      "pub": "iam8bit, Skybound Games",
+      "notes": "",
+      "release": "13.07.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-academy-2022-pc.jpg",
+      "logo": "images/logos/escape-academy-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1812090",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_Academy",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Escape From Anti-Escape Island",
+          "played": true
+        },
+        {
+          "name": "Escape From the Past",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "escape-the-backrooms-2025-pc": {
+      "id": "escape-the-backrooms-2025-pc",
+      "name": "Escape the Backrooms",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "Fancy Games, Blackbird Interactive",
+      "pub": "Secret Mode",
+      "notes": "",
+      "release": "23.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/escape-the-backrooms-2025-pc.jpg",
+      "logo": "images/logos/escape-the-backrooms-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1943950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Escape_the_Backrooms",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-quarry-2022-pc": {
+      "id": "the-quarry-2022-pc",
+      "name": "The Quarry",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "Supermassive Games",
+      "pub": "2K Games",
+      "notes": "",
+      "release": "09.06.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-quarry-2022-pc.jpg",
+      "logo": "images/logos/the-quarry-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1577120",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Quarry",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "kunkun-dream-startles-the-soul-2024-pc": {
+      "id": "kunkun-dream-startles-the-soul-2024-pc",
+      "name": "KunKun dream Startles the Soul",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "AIKUN",
+      "pub": "AIKUN",
+      "notes": "",
+      "release": "24.06.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kunkun-dream-startles-the-soul-2024-pc.jpg",
+      "logo": "images/logos/kunkun-dream-startles-the-soul-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2808570",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "anomaly-exit-2024-pc": {
+      "id": "anomaly-exit-2024-pc",
+      "name": "Anomaly Exit",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 2, +Extra: 3",
+      "dev": "ExamlGuy",
+      "pub": "ExamlGuy",
+      "notes": "",
+      "release": "31.03.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/anomaly-exit-2024-pc.jpg",
+      "logo": "images/logos/anomaly-exit-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2232600",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "kebab-chefs-restaurant-simulator-2026-pc": {
+      "id": "kebab-chefs-restaurant-simulator-2026-pc",
+      "name": "Kebab Chefs!: Restaurant Simulator",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 17, +Extra: 24",
+      "dev": "Biotech Gameworks",
+      "pub": "Flagship Interactive",
+      "notes": "",
+      "release": "11.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kebab-chefs-restaurant-simulator-2026-pc.jpg",
+      "logo": "images/logos/kebab-chefs-restaurant-simulator-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1001270",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Bakery",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tobacco-shop-simulator-2025-pc": {
+      "id": "tobacco-shop-simulator-2025-pc",
+      "name": "Tobacco Shop Simulator",
+      "platform": "PC",
+      "size": "1.2 GB",
+      "hltb": "Main: 18",
+      "dev": "Business Tycoon",
+      "pub": "Business Tycoon",
+      "notes": "",
+      "release": "22.06.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tobacco-shop-simulator-2025-pc.jpg",
+      "logo": "images/logos/tobacco-shop-simulator-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3211680",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "supermarket-together-2024-pc": {
+      "id": "supermarket-together-2024-pc",
+      "name": "Supermarket Together",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 12, +Extra: 19",
+      "dev": "DeadDevsTellNoLies",
+      "pub": "DeadDevsTellNoLies",
+      "notes": "",
+      "release": "09.08.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/supermarket-together-2024-pc.jpg",
+      "logo": "images/logos/supermarket-together-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2709570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Supermarket_Together",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "old-market-simulator-2024-pc": {
+      "id": "old-market-simulator-2024-pc",
+      "name": "Old Market Simulator",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 23",
+      "dev": "Alcedo Games",
+      "pub": "",
+      "notes": "",
+      "release": "03.10.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/old-market-simulator-2024-pc.jpg",
+      "logo": "images/logos/old-market-simulator-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2878420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Old_Market_Simulator",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ale-tale-tavern-2024-pc": {
+      "id": "ale-tale-tavern-2024-pc",
+      "name": "Ale & Tale Tavern",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 9, +Extra: 12",
+      "dev": "Scienart Games",
+      "pub": "GrabTheGames, UpgradePoint",
+      "notes": "",
+      "release": "05.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ale-tale-tavern-2024-pc.jpg",
+      "logo": "images/logos/ale-tale-tavern-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2683150",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Ale_%26_Tale_Tavern",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -30064,6 +30488,17 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "ale-tale-tavern-2024-pc",
+      "old-market-simulator-2024-pc",
+      "supermarket-together-2024-pc",
+      "tobacco-shop-simulator-2025-pc",
+      "kebab-chefs-restaurant-simulator-2026-pc",
+      "anomaly-exit-2024-pc",
+      "kunkun-dream-startles-the-soul-2024-pc",
+      "the-quarry-2022-pc",
+      "escape-the-backrooms-2025-pc",
+      "escape-academy-2022-pc",
+      "the-escape-together-2023-pc",
       "escape-simulator-2021-pc",
       "the-past-within-2022-pc",
       "7-days-to-die-2024-pc",
