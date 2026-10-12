@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-11T19:48:17Z",
+  "updated": "2026-10-12T01:45:07Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -25974,6 +25974,228 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "san-andreas-multiplayer-2006-pc": {
+      "id": "san-andreas-multiplayer-2006-pc",
+      "name": "San Andreas Multiplayer",
+      "platform": "PC",
+      "size": "4.7 GB",
+      "hltb": "—",
+      "dev": "SA-MP Team",
+      "pub": "SA-MP Team",
+      "notes": "",
+      "release": "10.05.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/san-andreas-multiplayer-2006-pc.jpg",
+      "logo": "images/logos/san-andreas-multiplayer-2006-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "f-e-a-r-3-2011-pc": {
+      "id": "f-e-a-r-3-2011-pc",
+      "name": "F.E.A.R. 3",
+      "platform": "PC",
+      "size": "4.4 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "Day 1 Studios",
+      "pub": "Warner Bros.",
+      "notes": "",
+      "release": "21.06.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/f-e-a-r-3-2011-pc.jpg",
+      "logo": "images/logos/f-e-a-r-3-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/21100",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/F.E.A.R._3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "call-of-duty-modern-warfare-2-2009-pc": {
+      "id": "call-of-duty-modern-warfare-2-2009-pc",
+      "name": "Call of Duty: Modern Warfare 2",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 7, +Extra: 11",
+      "dev": "Infinity Ward",
+      "pub": "Activision",
+      "notes": "Finished with Co-op Campaign Mod",
+      "release": "11.11.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/call-of-duty-modern-warfare-2-2009-pc.jpg",
+      "logo": "images/logos/call-of-duty-modern-warfare-2-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/10180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Call_of_Duty%3A_Modern_Warfare_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Spec Ops",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "call-of-duty-modern-warfare-3-2011-pc": {
+      "id": "call-of-duty-modern-warfare-3-2011-pc",
+      "name": "Call of Duty: Modern Warfare 3",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 6, +Extra: 10",
+      "dev": "Infinity Ward, Sledgehammer Games",
+      "pub": "Activision",
+      "notes": "Spec Ops only",
+      "release": "08.11.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/call-of-duty-modern-warfare-3-2011-pc.jpg",
+      "logo": "images/logos/call-of-duty-modern-warfare-3-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/115300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Call_of_Duty%3A_Modern_Warfare_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "call-of-duty-world-at-war-2008-pc": {
+      "id": "call-of-duty-world-at-war-2008-pc",
+      "name": "Call of Duty: World at War",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 7, +Extra: 11",
+      "dev": "Treyarch",
+      "pub": "Activision",
+      "notes": "",
+      "release": "18.11.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/call-of-duty-world-at-war-2008-pc.jpg",
+      "logo": "images/logos/call-of-duty-world-at-war-2008-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/10090",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Call_of_Duty%3A_World_At_War",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "saints-row-the-third-2011-pc": {
+      "id": "saints-row-the-third-2011-pc",
+      "name": "Saints Row: The Third",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 16, +Extra: 28",
+      "dev": "Volition",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "14.11.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/saints-row-the-third-2011-pc.jpg",
+      "logo": "images/logos/saints-row-the-third-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/55230",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Saints_Row_The_Third",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -26699,6 +26921,12 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "saints-row-the-third-2011-pc",
+      "call-of-duty-world-at-war-2008-pc",
+      "call-of-duty-modern-warfare-3-2011-pc",
+      "call-of-duty-modern-warfare-2-2009-pc",
+      "f-e-a-r-3-2011-pc",
+      "san-andreas-multiplayer-2006-pc",
       "sid-meier-s-civilization-v-2010-pc",
       "payday-the-heist-2011-pc",
       "left-4-dead-2-2009-pc",

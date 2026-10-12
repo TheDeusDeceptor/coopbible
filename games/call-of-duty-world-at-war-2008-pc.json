@@ -1,0 +1,38 @@
+{
+  "id": "call-of-duty-world-at-war-2008-pc",
+  "name": "Call of Duty: World at War",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Treyarch",
+  "pub": "Activision",
+  "notes": "",
+  "release": "18.11.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/call-of-duty-world-at-war-2008-pc.jpg",
+  "logo": "images/logos/call-of-duty-world-at-war-2008-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/10090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Call_of_Duty%3A_World_At_War",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

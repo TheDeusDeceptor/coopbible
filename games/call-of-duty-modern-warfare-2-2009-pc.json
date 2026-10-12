@@ -1,0 +1,43 @@
+{
+  "id": "call-of-duty-modern-warfare-2-2009-pc",
+  "name": "Call of Duty: Modern Warfare 2",
+  "platform": "PC",
+  "size": "12 GB",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Infinity Ward",
+  "pub": "Activision",
+  "notes": "Finished with Co-op Campaign Mod",
+  "release": "11.11.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/call-of-duty-modern-warfare-2-2009-pc.jpg",
+  "logo": "images/logos/call-of-duty-modern-warfare-2-2009-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/10180",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Call_of_Duty%3A_Modern_Warfare_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Spec Ops",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

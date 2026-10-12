@@ -1,0 +1,38 @@
+{
+  "id": "saints-row-the-third-2011-pc",
+  "name": "Saints Row: The Third",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 16, +Extra: 28",
+  "dev": "Volition",
+  "pub": "Deep Silver",
+  "notes": "",
+  "release": "14.11.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/saints-row-the-third-2011-pc.jpg",
+  "logo": "images/logos/saints-row-the-third-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/55230",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Saints_Row_The_Third",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

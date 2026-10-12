@@ -1,0 +1,27 @@
+{
+  "id": "san-andreas-multiplayer-2006-pc",
+  "name": "San Andreas Multiplayer",
+  "platform": "PC",
+  "size": "4.7 GB",
+  "hltb": "—",
+  "dev": "SA-MP Team",
+  "pub": "SA-MP Team",
+  "notes": "",
+  "release": "10.05.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/san-andreas-multiplayer-2006-pc.jpg",
+  "logo": "images/logos/san-andreas-multiplayer-2006-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

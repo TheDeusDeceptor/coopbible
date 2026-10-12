@@ -1,0 +1,38 @@
+{
+  "id": "f-e-a-r-3-2011-pc",
+  "name": "F.E.A.R. 3",
+  "platform": "PC",
+  "size": "4.4 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Day 1 Studios",
+  "pub": "Warner Bros.",
+  "notes": "",
+  "release": "21.06.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/f-e-a-r-3-2011-pc.jpg",
+  "logo": "images/logos/f-e-a-r-3-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/21100",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/F.E.A.R._3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
