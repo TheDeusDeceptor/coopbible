@@ -1,0 +1,33 @@
+{
+  "id": "sos-ops-2023-pc",
+  "name": "SOS OPS!",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "ArtDock",
+  "pub": "Dreland Enterprises",
+  "notes": "",
+  "release": "30.11.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sos-ops-2023-pc.jpg",
+  "logo": "images/logos/sos-ops-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2475460",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

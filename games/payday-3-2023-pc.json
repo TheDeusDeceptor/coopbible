@@ -1,0 +1,59 @@
+{
+  "id": "payday-3-2023-pc",
+  "name": "PAYDAY 3",
+  "platform": "PC",
+  "size": "65 GB",
+  "hltb": "Main: 7, +Extra: 20",
+  "dev": "Starbreeze Studios",
+  "pub": "Starbreeze Entertainment",
+  "notes": "",
+  "release": "21.09.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/payday-3-2023-pc.jpg",
+  "logo": "images/logos/payday-3-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1272080",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Payday_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Chapter 1: Syntax Error",
+      "played": false
+    },
+    {
+      "name": "Chapter 2: Boys in Blue",
+      "played": false
+    },
+    {
+      "name": "Chapter 3: Houston Breakout",
+      "played": false
+    },
+    {
+      "name": "Chapter 4: Fear & Greed",
+      "played": false
+    },
+    {
+      "name": "[3] separate heists",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

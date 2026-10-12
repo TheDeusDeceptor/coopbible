@@ -1,0 +1,38 @@
+{
+  "id": "webfishing-2024-pc",
+  "name": "Webfishing",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 14, +Extra: 27",
+  "dev": "lamedeveloper",
+  "pub": "lamedeveloper",
+  "notes": "",
+  "release": "11.10.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/webfishing-2024-pc.jpg",
+  "logo": "images/logos/webfishing-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3146520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/WEBFISHING",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "wolfquest-anniversary-edition-2025-pc",
+  "name": "WolfQuest: Anniversary Edition",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 4",
+  "dev": "eduweb",
+  "pub": "eduweb",
+  "notes": "",
+  "release": "22.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/wolfquest-anniversary-edition-2025-pc.jpg",
+  "logo": "images/logos/wolfquest-anniversary-edition-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/926990",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/WolfQuest%3A_Anniversary_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

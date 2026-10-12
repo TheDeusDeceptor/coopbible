@@ -1,0 +1,33 @@
+{
+  "id": "the-devourer-hunted-souls-2023-pc",
+  "name": "The Devourer: Hunted Souls",
+  "platform": "PC",
+  "size": "14 GB",
+  "hltb": "—",
+  "dev": "ZTEK Studio",
+  "pub": "ZTEK Studio",
+  "notes": "",
+  "release": "26.10.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-devourer-hunted-souls-2023-pc.jpg",
+  "logo": "images/logos/the-devourer-hunted-souls-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2309400",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

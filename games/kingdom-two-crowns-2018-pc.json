@@ -1,0 +1,38 @@
+{
+  "id": "kingdom-two-crowns-2018-pc",
+  "name": "Kingdom Two Crowns",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 22, +Extra: 29",
+  "dev": "Fury Studios, Coatsink",
+  "pub": "Raw Fury",
+  "notes": "",
+  "release": "11.12.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kingdom-two-crowns-2018-pc.jpg",
+  "logo": "images/logos/kingdom-two-crowns-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/701160",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Kingdom%3A_Two_Crowns",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

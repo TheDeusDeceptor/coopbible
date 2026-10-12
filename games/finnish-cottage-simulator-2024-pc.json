@@ -1,0 +1,33 @@
+{
+  "id": "finnish-cottage-simulator-2024-pc",
+  "name": "Finnish Cottage Simulator",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 15",
+  "dev": "Ranela Games",
+  "pub": "Ranela Games",
+  "notes": "",
+  "release": "15.11.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/finnish-cottage-simulator-2024-pc.jpg",
+  "logo": "images/logos/finnish-cottage-simulator-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1723780",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

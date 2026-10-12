@@ -1,0 +1,43 @@
+{
+  "id": "the-lord-of-the-rings-return-to-moria-2023-pc",
+  "name": "The Lord of the Rings: Return to Moria",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 36, +Extra: 46",
+  "dev": "Free Range Games",
+  "pub": "North Beach Games",
+  "notes": "",
+  "release": "24.10.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-lord-of-the-rings-return-to-moria-2023-pc.jpg",
+  "logo": "images/logos/the-lord-of-the-rings-return-to-moria-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2933130",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings%3A_Return_to_Moria",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Durin's Folk",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

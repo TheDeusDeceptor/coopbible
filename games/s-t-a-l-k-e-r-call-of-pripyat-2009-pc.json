@@ -1,0 +1,38 @@
+{
+  "id": "s-t-a-l-k-e-r-call-of-pripyat-2009-pc",
+  "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "—",
+  "dev": "GSC Game World",
+  "pub": "GSC Game World",
+  "notes": "via xrMPE",
+  "release": "02.10.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/s-t-a-l-k-e-r-call-of-pripyat-2009-pc.jpg",
+  "logo": "images/logos/s-t-a-l-k-e-r-call-of-pripyat-2009-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/41700",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/S.T.A.L.K.E.R.%3A_Call_of_Pripyat",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

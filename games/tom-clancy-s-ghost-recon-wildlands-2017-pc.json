@@ -1,0 +1,51 @@
+{
+  "id": "tom-clancy-s-ghost-recon-wildlands-2017-pc",
+  "name": "Tom Clancy's Ghost Recon: Wildlands",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 27, +Extra: 54",
+  "dev": "Ubisoft Paris",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "06.03.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-wildlands-2017-pc.jpg",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-wildlands-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/460930",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon_Wildlands",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Fallen Ghosts",
+      "played": true
+    },
+    {
+      "name": "Narco Road",
+      "played": true
+    },
+    {
+      "name": "Last Rites",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

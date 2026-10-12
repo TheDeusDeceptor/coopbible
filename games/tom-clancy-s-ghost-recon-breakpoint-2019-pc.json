@@ -1,0 +1,51 @@
+{
+  "id": "tom-clancy-s-ghost-recon-breakpoint-2019-pc",
+  "name": "Tom Clancy's Ghost Recon: Breakpoint",
+  "platform": "PC",
+  "size": "67 GB",
+  "hltb": "Main: 23, +Extra: 55",
+  "dev": "Ubisoft Paris",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "04.10.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-breakpoint-2019-pc.jpg",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-breakpoint-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2231380",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon_Breakpoint",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Episode 2: Deep State",
+      "played": true
+    },
+    {
+      "name": "Episode 3: Red Patriots",
+      "played": true
+    },
+    {
+      "name": "Operation Motherland",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
