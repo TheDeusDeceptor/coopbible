@@ -1,0 +1,33 @@
+{
+  "id": "battlefield-1942-2002-pc",
+  "name": "Battlefield 1942",
+  "platform": "PC",
+  "size": "1.2 GB",
+  "hltb": "Main: 8, +Extra: 23",
+  "dev": "DICE",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "10.09.2002",
+  "ea_release": "",
+  "screenshot": "images/screenshots/battlefield-1942-2002-pc.jpg",
+  "logo": "images/logos/battlefield-1942-2002-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Battlefield_1942",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

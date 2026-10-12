@@ -1,0 +1,32 @@
+{
+  "id": "battlefield-1918-2004-pc",
+  "name": "Battlefield 1918",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Battlefield 1918 Mod Development Team",
+  "pub": "",
+  "notes": "",
+  "release": "26.03.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/battlefield-1918-2004-pc.jpg",
+  "logo": "images/logos/battlefield-1918-2004-pc.png",
+  "links": [
+    {
+      "label": "ModDB",
+      "url": "https://www.moddb.com/mods/battlefield-1918"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

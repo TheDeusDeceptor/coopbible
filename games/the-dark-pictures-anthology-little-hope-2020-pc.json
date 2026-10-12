@@ -1,0 +1,38 @@
+{
+  "id": "the-dark-pictures-anthology-little-hope-2020-pc",
+  "name": "The Dark Pictures Anthology: Little Hope",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Supermassive Games",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "release": "29.10.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-dark-pictures-anthology-little-hope-2020-pc.jpg",
+  "logo": "images/logos/the-dark-pictures-anthology-little-hope-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1194630",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Dark_Pictures_Anthology_-_Little_Hope",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

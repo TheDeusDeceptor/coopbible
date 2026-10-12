@@ -1,0 +1,33 @@
+{
+  "id": "battlefield-2-2005-pc",
+  "name": "Battlefield 2",
+  "platform": "PC",
+  "size": "2.3 GB",
+  "hltb": "—",
+  "dev": "DICE",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "21.06.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/battlefield-2-2005-pc.jpg",
+  "logo": "images/logos/battlefield-2-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Battlefield_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T01:45:07Z",
+  "updated": "2026-10-12T03:33:46Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -26196,6 +26196,692 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "tom-clancy-s-splinter-cell-conviction-2010-pc": {
+      "id": "tom-clancy-s-splinter-cell-conviction-2010-pc",
+      "name": "Tom Clancy's Splinter Cell Conviction",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 7, +Extra: 11",
+      "dev": "Ubisoft Montreal",
+      "pub": "Ubisoft",
+      "notes": "Co-op specific campaign",
+      "release": "27.04.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-splinter-cell-conviction-2010-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-splinter-cell-conviction-2010-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/33220",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Splinter_Cell%3A_Conviction",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sven-co-op-1999-pc": {
+      "id": "sven-co-op-1999-pc",
+      "name": "Sven Co-op",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 9, +Extra: 18",
+      "dev": "Sven Co-op Team",
+      "pub": "Sven Co-op Team",
+      "notes": "",
+      "release": "19.01.1999",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sven-co-op-1999-pc.jpg",
+      "logo": "images/logos/sven-co-op-1999-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/225840",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sven_Co-op",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "takedown-red-sabre-2013-pc": {
+      "id": "takedown-red-sabre-2013-pc",
+      "name": "Takedown: Red Sabre",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "—",
+      "dev": "Serellan",
+      "pub": "505 Games",
+      "notes": "",
+      "release": "20.09.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/takedown-red-sabre-2013-pc.jpg",
+      "logo": "images/logos/takedown-red-sabre-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/236510",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Takedown%3A_Red_Sabre",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-dark-pictures-anthology-little-hope-2020-pc": {
+      "id": "the-dark-pictures-anthology-little-hope-2020-pc",
+      "name": "The Dark Pictures Anthology: Little Hope",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Supermassive Games",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "29.10.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-dark-pictures-anthology-little-hope-2020-pc.jpg",
+      "logo": "images/logos/the-dark-pictures-anthology-little-hope-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1194630",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Dark_Pictures_Anthology_-_Little_Hope",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "far-cry-5-2018-pc": {
+      "id": "far-cry-5-2018-pc",
+      "name": "Far Cry 5",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 18, +Extra: 31",
+      "dev": "Ubisoft Montreal",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "26.03.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/far-cry-5-2018-pc.jpg",
+      "logo": "images/logos/far-cry-5-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/552520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Far_Cry_5",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "battlefield-1942-2002-pc": {
+      "id": "battlefield-1942-2002-pc",
+      "name": "Battlefield 1942",
+      "platform": "PC",
+      "size": "1.2 GB",
+      "hltb": "Main: 8, +Extra: 23",
+      "dev": "DICE",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "10.09.2002",
+      "ea_release": "",
+      "screenshot": "images/screenshots/battlefield-1942-2002-pc.jpg",
+      "logo": "images/logos/battlefield-1942-2002-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Battlefield_1942",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "battlefield-1918-2004-pc": {
+      "id": "battlefield-1918-2004-pc",
+      "name": "Battlefield 1918",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Battlefield 1918 Mod Development Team",
+      "pub": "",
+      "notes": "",
+      "release": "26.03.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/battlefield-1918-2004-pc.jpg",
+      "logo": "images/logos/battlefield-1918-2004-pc.png",
+      "links": [
+        {
+          "label": "ModDB",
+          "url": "https://www.moddb.com/mods/battlefield-1918"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "battlefield-2-2005-pc": {
+      "id": "battlefield-2-2005-pc",
+      "name": "Battlefield 2",
+      "platform": "PC",
+      "size": "2.3 GB",
+      "hltb": "—",
+      "dev": "DICE",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "21.06.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/battlefield-2-2005-pc.jpg",
+      "logo": "images/logos/battlefield-2-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Battlefield_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "synergy-2008-pc": {
+      "id": "synergy-2008-pc",
+      "name": "Synergy",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 3, +Extra: 10",
+      "dev": "Synergy Team",
+      "pub": "",
+      "notes": "",
+      "release": "03.10.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/synergy-2008-pc.jpg",
+      "logo": "images/logos/synergy-2008-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/17520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Synergy",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-rainbow-six-vegas-2006-pc": {
+      "id": "tom-clancy-s-rainbow-six-vegas-2006-pc",
+      "name": "Tom Clancy's Rainbow Six: Vegas",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Ubisoft Montreal",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "28.11.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-rainbow-six-vegas-2006-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-rainbow-six-vegas-2006-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/13540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Rainbow_Six%3A_Vegas",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-rainbow-six-vegas-2-2008-pc": {
+      "id": "tom-clancy-s-rainbow-six-vegas-2-2008-pc",
+      "name": "Tom Clancy's Rainbow Six: Vegas 2",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Ubisoft Montreal",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "15.04.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-rainbow-six-vegas-2-2008-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-rainbow-six-vegas-2-2008-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/15120",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Rainbow_Six%3A_Vegas_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "titan-quest-anniversary-edition-2016-pc": {
+      "id": "titan-quest-anniversary-edition-2016-pc",
+      "name": "Titan Quest Anniversary Edition",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 31, +Extra: 47",
+      "dev": "Iron Lore Entertainment",
+      "pub": "THQ Nordic",
+      "notes": "",
+      "release": "31.08.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/titan-quest-anniversary-edition-2016-pc.jpg",
+      "logo": "images/logos/titan-quest-anniversary-edition-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/475150",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Titan_Quest_Anniversary_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-island-riptide-2013-pc": {
+      "id": "dead-island-riptide-2013-pc",
+      "name": "Dead Island: Riptide",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 12, +Extra: 21",
+      "dev": "Techland",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "22.04.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-island-riptide-2013-pc.jpg",
+      "logo": "images/logos/dead-island-riptide-2013-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dead_Island%3A_Riptide",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dying-light-2015-pc": {
+      "id": "dying-light-2015-pc",
+      "name": "Dying Light",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 18, +Extra: 37",
+      "dev": "Techland",
+      "pub": "Techland",
+      "notes": "",
+      "release": "26.01.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dying-light-2015-pc.jpg",
+      "logo": "images/logos/dying-light-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/239140",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dying_Light",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The Following",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "borderlands-the-pre-sequel-2014-pc": {
+      "id": "borderlands-the-pre-sequel-2014-pc",
+      "name": "Borderlands: The Pre-Sequel",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 18, +Extra: 29",
+      "dev": "2K Australia, Gearbox Software",
+      "pub": "2K Games",
+      "notes": "",
+      "release": "13.10.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/borderlands-the-pre-sequel-2014-pc.jpg",
+      "logo": "images/logos/borderlands-the-pre-sequel-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/261640",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Borderlands%3A_The_Pre-Sequel",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The Holodome Onslaught",
+          "played": true
+        },
+        {
+          "name": "Claptastic Voyage",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sid-meier-s-civilization-vi-2016-pc": {
+      "id": "sid-meier-s-civilization-vi-2016-pc",
+      "name": "Sid Meier's Civilization VI",
+      "platform": "PC",
+      "size": "17 GB",
+      "hltb": "Main: 23, +Extra: 100",
+      "dev": "Firaxis Games",
+      "pub": "2K Games",
+      "notes": "",
+      "release": "21.10.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sid-meier-s-civilization-vi-2016-pc.jpg",
+      "logo": "images/logos/sid-meier-s-civilization-vi-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/289070",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sid_Meier's_Civilization_VI",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Rise and Fall",
+          "played": true
+        },
+        {
+          "name": "Gathering Storm",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "kane-lynch-2-dog-days-2010-pc": {
+      "id": "kane-lynch-2-dog-days-2010-pc",
+      "name": "Kane & Lynch 2: Dog Days",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 4, +Extra: 5",
+      "dev": "IO Interactive",
+      "pub": "Square Enix",
+      "notes": "",
+      "release": "17.08.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kane-lynch-2-dog-days-2010-pc.jpg",
+      "logo": "images/logos/kane-lynch-2-dog-days-2010-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/28000",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Kane_%26_Lynch",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc": {
+      "id": "earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc",
+      "name": "Earth Defense Force 4.1: The Shadow of New Despair",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 23, +Extra: 49",
+      "dev": "Sandlot",
+      "pub": "D3PUBLISHER",
+      "notes": "",
+      "release": "18.07.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc.jpg",
+      "logo": "images/logos/earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/410320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/EARTH_DEFENSE_FORCE_4.1_The_Shadow_of_New_Despair",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -26921,6 +27607,24 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc",
+      "kane-lynch-2-dog-days-2010-pc",
+      "sid-meier-s-civilization-vi-2016-pc",
+      "borderlands-the-pre-sequel-2014-pc",
+      "dying-light-2015-pc",
+      "dead-island-riptide-2013-pc",
+      "titan-quest-anniversary-edition-2016-pc",
+      "tom-clancy-s-rainbow-six-vegas-2-2008-pc",
+      "tom-clancy-s-rainbow-six-vegas-2006-pc",
+      "synergy-2008-pc",
+      "battlefield-2-2005-pc",
+      "battlefield-1918-2004-pc",
+      "battlefield-1942-2002-pc",
+      "far-cry-5-2018-pc",
+      "the-dark-pictures-anthology-little-hope-2020-pc",
+      "takedown-red-sabre-2013-pc",
+      "sven-co-op-1999-pc",
+      "tom-clancy-s-splinter-cell-conviction-2010-pc",
       "saints-row-the-third-2011-pc",
       "call-of-duty-world-at-war-2008-pc",
       "call-of-duty-modern-warfare-3-2011-pc",

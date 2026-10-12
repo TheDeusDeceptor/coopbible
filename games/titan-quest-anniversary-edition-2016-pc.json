@@ -1,0 +1,38 @@
+{
+  "id": "titan-quest-anniversary-edition-2016-pc",
+  "name": "Titan Quest Anniversary Edition",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 31, +Extra: 47",
+  "dev": "Iron Lore Entertainment",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "31.08.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/titan-quest-anniversary-edition-2016-pc.jpg",
+  "logo": "images/logos/titan-quest-anniversary-edition-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/475150",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Titan_Quest_Anniversary_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

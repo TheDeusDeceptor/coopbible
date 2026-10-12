@@ -1,0 +1,47 @@
+{
+  "id": "borderlands-the-pre-sequel-2014-pc",
+  "name": "Borderlands: The Pre-Sequel",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 18, +Extra: 29",
+  "dev": "2K Australia, Gearbox Software",
+  "pub": "2K Games",
+  "notes": "",
+  "release": "13.10.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/borderlands-the-pre-sequel-2014-pc.jpg",
+  "logo": "images/logos/borderlands-the-pre-sequel-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/261640",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Borderlands%3A_The_Pre-Sequel",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "The Holodome Onslaught",
+      "played": true
+    },
+    {
+      "name": "Claptastic Voyage",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

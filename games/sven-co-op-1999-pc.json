@@ -1,0 +1,38 @@
+{
+  "id": "sven-co-op-1999-pc",
+  "name": "Sven Co-op",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 9, +Extra: 18",
+  "dev": "Sven Co-op Team",
+  "pub": "Sven Co-op Team",
+  "notes": "",
+  "release": "19.01.1999",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sven-co-op-1999-pc.jpg",
+  "logo": "images/logos/sven-co-op-1999-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/225840",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sven_Co-op",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

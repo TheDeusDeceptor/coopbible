@@ -1,0 +1,38 @@
+{
+  "id": "tom-clancy-s-rainbow-six-vegas-2006-pc",
+  "name": "Tom Clancy's Rainbow Six: Vegas",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "28.11.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tom-clancy-s-rainbow-six-vegas-2006-pc.jpg",
+  "logo": "images/logos/tom-clancy-s-rainbow-six-vegas-2006-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/13540",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Rainbow_Six%3A_Vegas",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

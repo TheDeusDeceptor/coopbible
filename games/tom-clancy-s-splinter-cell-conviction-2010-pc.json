@@ -1,0 +1,38 @@
+{
+  "id": "tom-clancy-s-splinter-cell-conviction-2010-pc",
+  "name": "Tom Clancy's Splinter Cell Conviction",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "Co-op specific campaign",
+  "release": "27.04.2010",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tom-clancy-s-splinter-cell-conviction-2010-pc.jpg",
+  "logo": "images/logos/tom-clancy-s-splinter-cell-conviction-2010-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/33220",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Splinter_Cell%3A_Conviction",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

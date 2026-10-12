@@ -1,0 +1,33 @@
+{
+  "id": "dead-island-riptide-2013-pc",
+  "name": "Dead Island: Riptide",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 12, +Extra: 21",
+  "dev": "Techland",
+  "pub": "Deep Silver",
+  "notes": "",
+  "release": "22.04.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dead-island-riptide-2013-pc.jpg",
+  "logo": "images/logos/dead-island-riptide-2013-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dead_Island%3A_Riptide",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc",
+  "name": "Earth Defense Force 4.1: The Shadow of New Despair",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 23, +Extra: 49",
+  "dev": "Sandlot",
+  "pub": "D3PUBLISHER",
+  "notes": "",
+  "release": "18.07.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc.jpg",
+  "logo": "images/logos/earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/410320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/EARTH_DEFENSE_FORCE_4.1_The_Shadow_of_New_Despair",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "kane-lynch-2-dog-days-2010-pc",
+  "name": "Kane & Lynch 2: Dog Days",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "IO Interactive",
+  "pub": "Square Enix",
+  "notes": "",
+  "release": "17.08.2010",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kane-lynch-2-dog-days-2010-pc.jpg",
+  "logo": "images/logos/kane-lynch-2-dog-days-2010-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/28000",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Kane_%26_Lynch",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

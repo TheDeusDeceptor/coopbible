@@ -1,0 +1,38 @@
+{
+  "id": "takedown-red-sabre-2013-pc",
+  "name": "Takedown: Red Sabre",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "—",
+  "dev": "Serellan",
+  "pub": "505 Games",
+  "notes": "",
+  "release": "20.09.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/takedown-red-sabre-2013-pc.jpg",
+  "logo": "images/logos/takedown-red-sabre-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/236510",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Takedown%3A_Red_Sabre",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

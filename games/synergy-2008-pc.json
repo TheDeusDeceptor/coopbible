@@ -1,0 +1,38 @@
+{
+  "id": "synergy-2008-pc",
+  "name": "Synergy",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 3, +Extra: 10",
+  "dev": "Synergy Team",
+  "pub": "",
+  "notes": "",
+  "release": "03.10.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/synergy-2008-pc.jpg",
+  "logo": "images/logos/synergy-2008-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/17520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Synergy",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
