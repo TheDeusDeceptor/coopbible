@@ -1,0 +1,43 @@
+{
+  "id": "conan-exiles-2018-pc",
+  "name": "Conan Exiles",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "Main: 40, +Extra: 116",
+  "dev": "Funcom",
+  "pub": "Funcom",
+  "notes": "",
+  "release": "08.05.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/conan-exiles-2018-pc.jpg",
+  "logo": "images/logos/conan-exiles-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/440900",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Conan_Exiles",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Isle of Siptah",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

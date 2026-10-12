@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T17:04:44Z",
+  "updated": "2026-10-12T17:19:22Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -28650,6 +28650,310 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "black-mesa-2020-pc": {
+      "id": "black-mesa-2020-pc",
+      "name": "Black Mesa",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 15, +Extra: 18",
+      "dev": "Crowbar Collective",
+      "pub": "Crowbar Collective",
+      "notes": "via SourceCoop mod",
+      "release": "06.03.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/black-mesa-2020-pc.jpg",
+      "logo": "images/logos/black-mesa-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/362890",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Black_Mesa",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "unravel-two-2018-pc": {
+      "id": "unravel-two-2018-pc",
+      "name": "Unravel Two",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 5, +Extra: 7",
+      "dev": "Coldwood Interactive",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "09.06.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/unravel-two-2018-pc.jpg",
+      "logo": "images/logos/unravel-two-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1225570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Unravel_Two",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "stardew-valley-2016-pc": {
+      "id": "stardew-valley-2016-pc",
+      "name": "Stardew Valley",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 53, +Extra: 95",
+      "dev": "ConcernedApe",
+      "pub": "ConcernedApe",
+      "notes": "",
+      "release": "26.02.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/stardew-valley-2016-pc.jpg",
+      "logo": "images/logos/stardew-valley-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/413150",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Stardew_Valley",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "conan-exiles-2018-pc": {
+      "id": "conan-exiles-2018-pc",
+      "name": "Conan Exiles",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 40, +Extra: 116",
+      "dev": "Funcom",
+      "pub": "Funcom",
+      "notes": "",
+      "release": "08.05.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/conan-exiles-2018-pc.jpg",
+      "logo": "images/logos/conan-exiles-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/440900",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Conan_Exiles",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Isle of Siptah",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rebel-inc-escalation-2021-pc": {
+      "id": "rebel-inc-escalation-2021-pc",
+      "name": "Rebel Inc: Escalation",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 6, +Extra: 12",
+      "dev": "Ndemic Creations",
+      "pub": "Hooded Horse, Ndemic Creations",
+      "notes": "",
+      "release": "13.10.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rebel-inc-escalation-2021-pc.jpg",
+      "logo": "images/logos/rebel-inc-escalation-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1088790",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Rebel_Inc%3A_Escalation",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lethal-company-2023-pc": {
+      "id": "lethal-company-2023-pc",
+      "name": "Lethal Company",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 10, +Extra: 19",
+      "dev": "Zeekerss",
+      "pub": "Zeekerss",
+      "notes": "",
+      "release": "23.10.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lethal-company-2023-pc.jpg",
+      "logo": "images/logos/lethal-company-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1966720",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Lethal_Company",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "generation-zero-2019-pc": {
+      "id": "generation-zero-2019-pc",
+      "name": "Generation Zero",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 18, +Extra: 49",
+      "dev": "Systemic Reaction",
+      "pub": "Avalanche Studios",
+      "notes": "",
+      "release": "26.03.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/generation-zero-2019-pc.jpg",
+      "logo": "images/logos/generation-zero-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/704270",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-headliners-2025-pc": {
+      "id": "the-headliners-2025-pc",
+      "name": "The Headliners",
+      "platform": "PC",
+      "size": "9 GB",
+      "hltb": "Main: 3, +Extra: 11",
+      "dev": "KAFI",
+      "pub": "KAFI",
+      "notes": "",
+      "release": "30.01.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-headliners-2025-pc.jpg",
+      "logo": "images/logos/the-headliners-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3059070",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Headliners",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -29146,7 +29450,8 @@
       "estencel-2023-pc",
       "carry-the-count-2026-pc",
       "trash-day-2026-pc",
-      "aliens-fireteam-elite-2-2026-pc"
+      "aliens-fireteam-elite-2-2026-pc",
+      "generation-zero-2019-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -29375,6 +29680,13 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "the-headliners-2025-pc",
+      "lethal-company-2023-pc",
+      "rebel-inc-escalation-2021-pc",
+      "conan-exiles-2018-pc",
+      "stardew-valley-2016-pc",
+      "unravel-two-2018-pc",
+      "black-mesa-2020-pc",
       "doom-3-2004-pc",
       "shadow-warrior-2-2016-pc",
       "state-of-decay-2-juggernaut-edition-2020-pc",

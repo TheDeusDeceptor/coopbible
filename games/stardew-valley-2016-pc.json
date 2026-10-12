@@ -1,0 +1,38 @@
+{
+  "id": "stardew-valley-2016-pc",
+  "name": "Stardew Valley",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 53, +Extra: 95",
+  "dev": "ConcernedApe",
+  "pub": "ConcernedApe",
+  "notes": "",
+  "release": "26.02.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stardew-valley-2016-pc.jpg",
+  "logo": "images/logos/stardew-valley-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/413150",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Stardew_Valley",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

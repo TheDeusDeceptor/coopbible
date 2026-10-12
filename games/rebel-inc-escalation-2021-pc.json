@@ -1,0 +1,38 @@
+{
+  "id": "rebel-inc-escalation-2021-pc",
+  "name": "Rebel Inc: Escalation",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 6, +Extra: 12",
+  "dev": "Ndemic Creations",
+  "pub": "Hooded Horse, Ndemic Creations",
+  "notes": "",
+  "release": "13.10.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rebel-inc-escalation-2021-pc.jpg",
+  "logo": "images/logos/rebel-inc-escalation-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1088790",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Rebel_Inc%3A_Escalation",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

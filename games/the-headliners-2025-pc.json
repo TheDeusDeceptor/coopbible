@@ -1,0 +1,38 @@
+{
+  "id": "the-headliners-2025-pc",
+  "name": "The Headliners",
+  "platform": "PC",
+  "size": "9 GB",
+  "hltb": "Main: 3, +Extra: 11",
+  "dev": "KAFI",
+  "pub": "KAFI",
+  "notes": "",
+  "release": "30.01.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-headliners-2025-pc.jpg",
+  "logo": "images/logos/the-headliners-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3059070",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Headliners",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
