@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T18:05:40Z",
+  "updated": "2026-10-12T18:06:41Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -29076,7 +29076,7 @@
       "size": "60 GB",
       "hltb": "Main: 60, +Extra: 101",
       "dev": "FromSoftware",
-      "pub": "Bandai Namco Entertainment, FromSoftware",
+      "pub": "Bandai Namco Entertainment",
       "notes": "via Seamless Co-op mod",
       "release": "24.02.2022",
       "ea_release": "",
