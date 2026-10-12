@@ -1,0 +1,38 @@
+{
+  "id": "return-to-castle-wolfenstein-2001-pc",
+  "name": "Return to Castle Wolfenstein",
+  "platform": "PC",
+  "size": "1.1 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Gray Matter Studios",
+  "pub": "Bethesda Softworks",
+  "notes": "via RealRTCW",
+  "release": "19.11.2001",
+  "ea_release": "",
+  "screenshot": "images/screenshots/return-to-castle-wolfenstein-2001-pc.jpg",
+  "logo": "images/logos/return-to-castle-wolfenstein-2001-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/9010",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Return_to_Castle_Wolfenstein",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

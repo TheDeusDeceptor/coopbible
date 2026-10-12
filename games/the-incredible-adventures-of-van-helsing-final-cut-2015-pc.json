@@ -1,0 +1,38 @@
+{
+  "id": "the-incredible-adventures-of-van-helsing-final-cut-2015-pc",
+  "name": "The Incredible Adventures of Van Helsing: Final Cut",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "Main: 18, +Extra: 32",
+  "dev": "NeocoreGames",
+  "pub": "NeocoreGames",
+  "notes": "",
+  "release": "06.11.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-incredible-adventures-of-van-helsing-final-cut-2015-pc.jpg",
+  "logo": "images/logos/the-incredible-adventures-of-van-helsing-final-cut-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/400170",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Incredible_Adventures_of_Van_Helsing%3A_Final_Cut",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

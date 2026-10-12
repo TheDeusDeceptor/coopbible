@@ -1,0 +1,55 @@
+{
+  "id": "borderlands-3-2019-pc",
+  "name": "Borderlands 3",
+  "platform": "PC",
+  "size": "75 GB",
+  "hltb": "Main: 23, +Extra: 46",
+  "dev": "Gearbox Software",
+  "pub": "2K",
+  "notes": "",
+  "release": "13.09.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/borderlands-3-2019-pc.jpg",
+  "logo": "images/logos/borderlands-3-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/397540",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Borderlands_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Moxxi's Heist of the Handsome Jackpot",
+      "played": true
+    },
+    {
+      "name": "Guns, Love, and Tentacles",
+      "played": true
+    },
+    {
+      "name": "Bounty of Blood",
+      "played": true
+    },
+    {
+      "name": "Psycho Krieg and the Fantastic Fustercluck",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

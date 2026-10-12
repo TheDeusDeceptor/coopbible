@@ -1,0 +1,38 @@
+{
+  "id": "devil-may-cry-5-2019-pc",
+  "name": "Devil May Cry 5",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "Main: 11, +Extra: 17",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "release": "07.03.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/devil-may-cry-5-2019-pc.jpg",
+  "logo": "images/logos/devil-may-cry-5-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/601150",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Devil_May_Cry_5",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

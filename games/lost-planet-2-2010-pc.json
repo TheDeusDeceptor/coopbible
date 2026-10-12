@@ -1,0 +1,38 @@
+{
+  "id": "lost-planet-2-2010-pc",
+  "name": "Lost Planet 2",
+  "platform": "PC",
+  "size": "13 GB",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "Capcom",
+  "pub": "Capcom",
+  "notes": "",
+  "release": "15.10.2010",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lost-planet-2-2010-pc.jpg",
+  "logo": "images/logos/lost-planet-2-2010-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/45750",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Lost_planet_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

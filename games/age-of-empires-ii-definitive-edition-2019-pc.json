@@ -1,0 +1,38 @@
+{
+  "id": "age-of-empires-ii-definitive-edition-2019-pc",
+  "name": "Age of Empires II: Definitive Edition",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 44, +Extra: 134",
+  "dev": "World's Edge",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "14.11.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/age-of-empires-ii-definitive-edition-2019-pc.jpg",
+  "logo": "images/logos/age-of-empires-ii-definitive-edition-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/813780",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Age_of_Empires_II%3A_Definitive_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

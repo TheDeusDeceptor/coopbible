@@ -1,0 +1,38 @@
+{
+  "id": "the-dark-pictures-anthology-man-of-medan-2019-pc",
+  "name": "The Dark Pictures Anthology: Man of Medan",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Supermassive Games",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "release": "29.08.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-dark-pictures-anthology-man-of-medan-2019-pc.jpg",
+  "logo": "images/logos/the-dark-pictures-anthology-man-of-medan-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/939850",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Dark_Pictures_Anthology_-_Man_of_Medan",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

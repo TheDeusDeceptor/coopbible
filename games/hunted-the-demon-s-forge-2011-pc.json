@@ -1,0 +1,38 @@
+{
+  "id": "hunted-the-demon-s-forge-2011-pc",
+  "name": "Hunted: The Demon's Forge",
+  "platform": "PC",
+  "size": "12 GB",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "inXile Entertainment",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "release": "30.05.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hunted-the-demon-s-forge-2011-pc.jpg",
+  "logo": "images/logos/hunted-the-demon-s-forge-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/22450",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hunted%3A_The_Demon's_Forge",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

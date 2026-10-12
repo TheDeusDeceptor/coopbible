@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T03:33:46Z",
+  "updated": "2026-10-12T05:00:35Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -26882,6 +26882,524 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "grim-dawn-2016-pc": {
+      "id": "grim-dawn-2016-pc",
+      "name": "Grim Dawn",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Crate Entertainment",
+      "pub": "Crate Entertainment",
+      "notes": "",
+      "release": "25.02.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/grim-dawn-2016-pc.jpg",
+      "logo": "images/logos/grim-dawn-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/219990",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Grim_Dawn",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Ashes of Malmouth",
+          "played": true
+        },
+        {
+          "name": "Forgotten Gods",
+          "played": true
+        },
+        {
+          "name": "Fangs of Asterkarn",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cry-of-fear-2013-pc": {
+      "id": "cry-of-fear-2013-pc",
+      "name": "Cry of Fear",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Team Psykskallar",
+      "pub": "Team Psykskallar",
+      "notes": "Co-op specific campaign",
+      "release": "25.04.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cry-of-fear-2013-pc.jpg",
+      "logo": "images/logos/cry-of-fear-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/223710",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Cry_of_Fear",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-dark-pictures-anthology-man-of-medan-2019-pc": {
+      "id": "the-dark-pictures-anthology-man-of-medan-2019-pc",
+      "name": "The Dark Pictures Anthology: Man of Medan",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 4, +Extra: 6",
+      "dev": "Supermassive Games",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "29.08.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-dark-pictures-anthology-man-of-medan-2019-pc.jpg",
+      "logo": "images/logos/the-dark-pictures-anthology-man-of-medan-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/939850",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Dark_Pictures_Anthology_-_Man_of_Medan",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-dark-pictures-anthology-house-of-ashes-2021-pc": {
+      "id": "the-dark-pictures-anthology-house-of-ashes-2021-pc",
+      "name": "The Dark Pictures Anthology: House of Ashes",
+      "platform": "PC",
+      "size": "65 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Supermassive Games",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "21.10.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-dark-pictures-anthology-house-of-ashes-2021-pc.jpg",
+      "logo": "images/logos/the-dark-pictures-anthology-house-of-ashes-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1281590",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-dark-pictures-anthology-the-devil-in-me-2022-pc": {
+      "id": "the-dark-pictures-anthology-the-devil-in-me-2022-pc",
+      "name": "The Dark Pictures Anthology: The Devil in Me",
+      "platform": "PC",
+      "size": "65 GB",
+      "hltb": "Main: 7, +Extra: 9",
+      "dev": "Supermassive Games",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "17.11.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-dark-pictures-anthology-the-devil-in-me-2022-pc.jpg",
+      "logo": "images/logos/the-dark-pictures-anthology-the-devil-in-me-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1567020",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "borderlands-3-2019-pc": {
+      "id": "borderlands-3-2019-pc",
+      "name": "Borderlands 3",
+      "platform": "PC",
+      "size": "75 GB",
+      "hltb": "Main: 23, +Extra: 46",
+      "dev": "Gearbox Software",
+      "pub": "2K",
+      "notes": "",
+      "release": "13.09.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/borderlands-3-2019-pc.jpg",
+      "logo": "images/logos/borderlands-3-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/397540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Borderlands_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Moxxi's Heist of the Handsome Jackpot",
+          "played": true
+        },
+        {
+          "name": "Guns, Love, and Tentacles",
+          "played": true
+        },
+        {
+          "name": "Bounty of Blood",
+          "played": true
+        },
+        {
+          "name": "Psycho Krieg and the Fantastic Fustercluck",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lost-planet-2-2010-pc": {
+      "id": "lost-planet-2-2010-pc",
+      "name": "Lost Planet 2",
+      "platform": "PC",
+      "size": "13 GB",
+      "hltb": "Main: 10, +Extra: 13",
+      "dev": "Capcom",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "15.10.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lost-planet-2-2010-pc.jpg",
+      "logo": "images/logos/lost-planet-2-2010-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/45750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Lost_planet_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hunted-the-demon-s-forge-2011-pc": {
+      "id": "hunted-the-demon-s-forge-2011-pc",
+      "name": "Hunted: The Demon's Forge",
+      "platform": "PC",
+      "size": "12 GB",
+      "hltb": "Main: 12, +Extra: 15",
+      "dev": "inXile Entertainment",
+      "pub": "Bethesda Softworks",
+      "notes": "",
+      "release": "30.05.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hunted-the-demon-s-forge-2011-pc.jpg",
+      "logo": "images/logos/hunted-the-demon-s-forge-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/22450",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hunted%3A_The_Demon's_Forge",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "devil-may-cry-5-2019-pc": {
+      "id": "devil-may-cry-5-2019-pc",
+      "name": "Devil May Cry 5",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 11, +Extra: 17",
+      "dev": "Capcom",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "07.03.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/devil-may-cry-5-2019-pc.jpg",
+      "logo": "images/logos/devil-may-cry-5-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/601150",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Devil_May_Cry_5",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "return-to-castle-wolfenstein-2001-pc": {
+      "id": "return-to-castle-wolfenstein-2001-pc",
+      "name": "Return to Castle Wolfenstein",
+      "platform": "PC",
+      "size": "1.1 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Gray Matter Studios",
+      "pub": "Bethesda Softworks",
+      "notes": "via RealRTCW",
+      "release": "19.11.2001",
+      "ea_release": "",
+      "screenshot": "images/screenshots/return-to-castle-wolfenstein-2001-pc.jpg",
+      "logo": "images/logos/return-to-castle-wolfenstein-2001-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/9010",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Return_to_Castle_Wolfenstein",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "age-of-empires-ii-definitive-edition-2019-pc": {
+      "id": "age-of-empires-ii-definitive-edition-2019-pc",
+      "name": "Age of Empires II: Definitive Edition",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 44, +Extra: 134",
+      "dev": "World's Edge",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "14.11.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/age-of-empires-ii-definitive-edition-2019-pc.jpg",
+      "logo": "images/logos/age-of-empires-ii-definitive-edition-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/813780",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Age_of_Empires_II%3A_Definitive_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "medal-of-honor-allied-assault-2002-pc": {
+      "id": "medal-of-honor-allied-assault-2002-pc",
+      "name": "Medal of Honor: Allied Assault",
+      "platform": "PC",
+      "size": "1.2 GB",
+      "hltb": "Main: 9, +Extra: 12",
+      "dev": "2015",
+      "pub": "Electronic Arts",
+      "notes": "via OpenMoHAA + HaZardModding Coop",
+      "release": "22.01.2002",
+      "ea_release": "",
+      "screenshot": "images/screenshots/medal-of-honor-allied-assault-2002-pc.jpg",
+      "logo": "images/logos/medal-of-honor-allied-assault-2002-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Medal_of_Honor%3A_Allied_Assault",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Spearhead",
+          "played": false
+        },
+        {
+          "name": "Breakthrough",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-incredible-adventures-of-van-helsing-final-cut-2015-pc": {
+      "id": "the-incredible-adventures-of-van-helsing-final-cut-2015-pc",
+      "name": "The Incredible Adventures of Van Helsing: Final Cut",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 18, +Extra: 32",
+      "dev": "NeocoreGames",
+      "pub": "NeocoreGames",
+      "notes": "",
+      "release": "06.11.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-incredible-adventures-of-van-helsing-final-cut-2015-pc.jpg",
+      "logo": "images/logos/the-incredible-adventures-of-van-helsing-final-cut-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/400170",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Incredible_Adventures_of_Van_Helsing%3A_Final_Cut",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -27607,6 +28125,19 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "the-incredible-adventures-of-van-helsing-final-cut-2015-pc",
+      "medal-of-honor-allied-assault-2002-pc",
+      "age-of-empires-ii-definitive-edition-2019-pc",
+      "return-to-castle-wolfenstein-2001-pc",
+      "devil-may-cry-5-2019-pc",
+      "hunted-the-demon-s-forge-2011-pc",
+      "lost-planet-2-2010-pc",
+      "borderlands-3-2019-pc",
+      "the-dark-pictures-anthology-the-devil-in-me-2022-pc",
+      "the-dark-pictures-anthology-house-of-ashes-2021-pc",
+      "the-dark-pictures-anthology-man-of-medan-2019-pc",
+      "cry-of-fear-2013-pc",
+      "grim-dawn-2016-pc",
       "earth-defense-force-4-1-the-shadow-of-new-despair-2016-pc",
       "kane-lynch-2-dog-days-2010-pc",
       "sid-meier-s-civilization-vi-2016-pc",

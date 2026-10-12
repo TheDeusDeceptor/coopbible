@@ -1,0 +1,42 @@
+{
+  "id": "medal-of-honor-allied-assault-2002-pc",
+  "name": "Medal of Honor: Allied Assault",
+  "platform": "PC",
+  "size": "1.2 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "2015",
+  "pub": "Electronic Arts",
+  "notes": "via OpenMoHAA + HaZardModding Coop",
+  "release": "22.01.2002",
+  "ea_release": "",
+  "screenshot": "images/screenshots/medal-of-honor-allied-assault-2002-pc.jpg",
+  "logo": "images/logos/medal-of-honor-allied-assault-2002-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Medal_of_Honor%3A_Allied_Assault",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Spearhead",
+      "played": false
+    },
+    {
+      "name": "Breakthrough",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

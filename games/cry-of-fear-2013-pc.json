@@ -1,0 +1,38 @@
+{
+  "id": "cry-of-fear-2013-pc",
+  "name": "Cry of Fear",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Team Psykskallar",
+  "pub": "Team Psykskallar",
+  "notes": "Co-op specific campaign",
+  "release": "25.04.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cry-of-fear-2013-pc.jpg",
+  "logo": "images/logos/cry-of-fear-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/223710",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Cry_of_Fear",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
