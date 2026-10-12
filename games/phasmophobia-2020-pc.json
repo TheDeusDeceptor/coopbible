@@ -1,0 +1,38 @@
+{
+  "id": "phasmophobia-2020-pc",
+  "name": "Phasmophobia",
+  "platform": "PC",
+  "size": "21 GB",
+  "hltb": "Main: 21, +Extra: 42",
+  "dev": "Kinetic Games",
+  "pub": "Kinetic Games",
+  "notes": "",
+  "release": "18.09.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/phasmophobia-2020-pc.jpg",
+  "logo": "images/logos/phasmophobia-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/739630",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Phasmophobia",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

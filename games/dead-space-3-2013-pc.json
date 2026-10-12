@@ -1,0 +1,43 @@
+{
+  "id": "dead-space-3-2013-pc",
+  "name": "Dead Space 3",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 13, +Extra: 16",
+  "dev": "Visceral Games",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "05.02.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dead-space-3-2013-pc.jpg",
+  "logo": "images/logos/dead-space-3-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1238060",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dead_Space_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Awakened",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

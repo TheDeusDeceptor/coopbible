@@ -1,0 +1,38 @@
+{
+  "id": "it-takes-two-2021-pc",
+  "name": "It Takes Two",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 13, +Extra: 14",
+  "dev": "Hazelight",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "25.03.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/it-takes-two-2021-pc.jpg",
+  "logo": "images/logos/it-takes-two-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1426210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/It_Takes_Two",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

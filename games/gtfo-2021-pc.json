@@ -1,0 +1,38 @@
+{
+  "id": "gtfo-2021-pc",
+  "name": "GTFO",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 9, +Extra: 100",
+  "dev": "10 Chambers",
+  "pub": "10 Chambers",
+  "notes": "",
+  "release": "09.12.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gtfo-2021-pc.jpg",
+  "logo": "images/logos/gtfo-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/493520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/GTFO",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

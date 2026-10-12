@@ -1,0 +1,38 @@
+{
+  "id": "shadow-warrior-2-2016-pc",
+  "name": "Shadow Warrior 2",
+  "platform": "PC",
+  "size": "14 GB",
+  "hltb": "Main: 8, +Extra: 16",
+  "dev": "Flying Wild Hog",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "13.10.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shadow-warrior-2-2016-pc.jpg",
+  "logo": "images/logos/shadow-warrior-2-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/324800",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shadow_Warrior_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "devour-2021-pc",
+  "name": "Devour",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 4, +Extra: 22",
+  "dev": "Straight Back Games",
+  "pub": "Straight Back Games",
+  "notes": "",
+  "release": "28.01.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/devour-2021-pc.jpg",
+  "logo": "images/logos/devour-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1274570",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Devour",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

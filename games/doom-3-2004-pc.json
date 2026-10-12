@@ -1,0 +1,38 @@
+{
+  "id": "doom-3-2004-pc",
+  "name": "Doom 3",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 10, +Extra: 16",
+  "dev": "id Software",
+  "pub": "Bethesda Softworks",
+  "notes": "via dhewm3 and LibreCoop mod",
+  "release": "03.08.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/doom-3-2004-pc.jpg",
+  "logo": "images/logos/doom-3-2004-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/208200",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Doom_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

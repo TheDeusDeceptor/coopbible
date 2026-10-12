@@ -1,0 +1,33 @@
+{
+  "id": "state-of-decay-2-juggernaut-edition-2020-pc",
+  "name": "State of Decay 2: Juggernaut Edition",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 16, +Extra: 33",
+  "dev": "Undead Labs",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "13.03.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/state-of-decay-2-juggernaut-edition-2020-pc.jpg",
+  "logo": "images/logos/state-of-decay-2-juggernaut-edition-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/495420",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T16:22:24Z",
+  "updated": "2026-10-12T17:04:44Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -28072,7 +28072,7 @@
       "release": "19.08.2019",
       "ea_release": "",
       "screenshot": "images/screenshots/remnant-from-the-ashes-2019-pc.jpg",
-      "logo": "https://cdn2.steamgriddb.com/logo/aab11087c24981eb0e03846792ff5718.png",
+      "logo": "images/logos/remnant-from-the-ashes-2019-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -28184,6 +28184,462 @@
           "played": false
         }
       ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-space-3-2013-pc": {
+      "id": "dead-space-3-2013-pc",
+      "name": "Dead Space 3",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 13, +Extra: 16",
+      "dev": "Visceral Games",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "05.02.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-space-3-2013-pc.jpg",
+      "logo": "images/logos/dead-space-3-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1238060",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dead_Space_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Awakened",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cuphead-2017-pc": {
+      "id": "cuphead-2017-pc",
+      "name": "Cuphead",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 11, +Extra: 16",
+      "dev": "Studio MDHR",
+      "pub": "Studio MDHR",
+      "notes": "",
+      "release": "29.09.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cuphead-2017-pc.jpg",
+      "logo": "images/logos/cuphead-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/268910",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Cuphead",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The Delicious Last Course",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "gtfo-2021-pc": {
+      "id": "gtfo-2021-pc",
+      "name": "GTFO",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 9, +Extra: 100",
+      "dev": "10 Chambers",
+      "pub": "10 Chambers",
+      "notes": "",
+      "release": "09.12.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gtfo-2021-pc.jpg",
+      "logo": "images/logos/gtfo-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/493520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/GTFO",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "devour-2021-pc": {
+      "id": "devour-2021-pc",
+      "name": "Devour",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 4, +Extra: 22",
+      "dev": "Straight Back Games",
+      "pub": "Straight Back Games",
+      "notes": "",
+      "release": "28.01.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/devour-2021-pc.jpg",
+      "logo": "images/logos/devour-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1274570",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Devour",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "phasmophobia-2020-pc": {
+      "id": "phasmophobia-2020-pc",
+      "name": "Phasmophobia",
+      "platform": "PC",
+      "size": "21 GB",
+      "hltb": "Main: 21, +Extra: 42",
+      "dev": "Kinetic Games",
+      "pub": "Kinetic Games",
+      "notes": "",
+      "release": "18.09.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/phasmophobia-2020-pc.jpg",
+      "logo": "images/logos/phasmophobia-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/739630",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Phasmophobia",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "demonologist-2023-pc": {
+      "id": "demonologist-2023-pc",
+      "name": "Demonologist",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 15, +Extra: 20",
+      "dev": "Clock Wizard Games",
+      "pub": "Clock Wizard Games",
+      "notes": "",
+      "release": "25.09.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/demonologist-2023-pc.jpg",
+      "logo": "images/logos/demonologist-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1929610",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "it-takes-two-2021-pc": {
+      "id": "it-takes-two-2021-pc",
+      "name": "It Takes Two",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 13, +Extra: 14",
+      "dev": "Hazelight",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "25.03.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/it-takes-two-2021-pc.jpg",
+      "logo": "images/logos/it-takes-two-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1426210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/It_Takes_Two",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "chained-together-2024-pc": {
+      "id": "chained-together-2024-pc",
+      "name": "Chained Together",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 5, +Extra: 7",
+      "dev": "Anegar Games, Lab42",
+      "pub": "Secret Mode",
+      "notes": "",
+      "release": "19.06.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/chained-together-2024-pc.jpg",
+      "logo": "images/logos/chained-together-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2567870",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Chained_Together",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "untitled-goose-game-2019-pc": {
+      "id": "untitled-goose-game-2019-pc",
+      "name": "Untitled Goose Game",
+      "platform": "PC",
+      "size": "0.8 GB",
+      "hltb": "Main: 3, +Extra: 4",
+      "dev": "House House",
+      "pub": "Panic",
+      "notes": "",
+      "release": "20.09.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/untitled-goose-game-2019-pc.jpg",
+      "logo": "images/logos/untitled-goose-game-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/837470",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Untitled_Goose_Game",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "state-of-decay-2-juggernaut-edition-2020-pc": {
+      "id": "state-of-decay-2-juggernaut-edition-2020-pc",
+      "name": "State of Decay 2: Juggernaut Edition",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 16, +Extra: 33",
+      "dev": "Undead Labs",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "13.03.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/state-of-decay-2-juggernaut-edition-2020-pc.jpg",
+      "logo": "images/logos/state-of-decay-2-juggernaut-edition-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/495420",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "shadow-warrior-2-2016-pc": {
+      "id": "shadow-warrior-2-2016-pc",
+      "name": "Shadow Warrior 2",
+      "platform": "PC",
+      "size": "14 GB",
+      "hltb": "Main: 8, +Extra: 16",
+      "dev": "Flying Wild Hog",
+      "pub": "Devolver Digital",
+      "notes": "",
+      "release": "13.10.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shadow-warrior-2-2016-pc.jpg",
+      "logo": "images/logos/shadow-warrior-2-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/324800",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Shadow_Warrior_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "doom-3-2004-pc": {
+      "id": "doom-3-2004-pc",
+      "name": "Doom 3",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 10, +Extra: 16",
+      "dev": "id Software",
+      "pub": "Bethesda Softworks",
+      "notes": "via dhewm3 and LibreCoop mod",
+      "release": "03.08.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/doom-3-2004-pc.jpg",
+      "logo": "images/logos/doom-3-2004-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/208200",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Doom_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -28919,6 +29375,18 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "doom-3-2004-pc",
+      "shadow-warrior-2-2016-pc",
+      "state-of-decay-2-juggernaut-edition-2020-pc",
+      "untitled-goose-game-2019-pc",
+      "chained-together-2024-pc",
+      "it-takes-two-2021-pc",
+      "demonologist-2023-pc",
+      "phasmophobia-2020-pc",
+      "devour-2021-pc",
+      "gtfo-2021-pc",
+      "cuphead-2017-pc",
+      "dead-space-3-2013-pc",
       "outward-definitive-edition-2022-pc",
       "remnant-ii-2023-pc",
       "remnant-from-the-ashes-2019-pc",

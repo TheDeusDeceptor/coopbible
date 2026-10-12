@@ -1,0 +1,38 @@
+{
+  "id": "chained-together-2024-pc",
+  "name": "Chained Together",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Anegar Games, Lab42",
+  "pub": "Secret Mode",
+  "notes": "",
+  "release": "19.06.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/chained-together-2024-pc.jpg",
+  "logo": "images/logos/chained-together-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2567870",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Chained_Together",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
