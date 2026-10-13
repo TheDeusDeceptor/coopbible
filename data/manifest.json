@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-13T19:11:29Z",
+  "updated": "2026-10-13T19:33:39Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -31936,6 +31936,357 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "heroes-of-hammerwatch-2018-pc": {
+      "id": "heroes-of-hammerwatch-2018-pc",
+      "name": "Heroes of Hammerwatch",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 20, +Extra: 44",
+      "dev": "Crackshell",
+      "pub": "Team17",
+      "notes": "",
+      "release": "01.03.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/heroes-of-hammerwatch-2018-pc.jpg",
+      "logo": "images/logos/heroes-of-hammerwatch-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/677120",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Heroes_of_Hammerwatch",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "night-of-the-dead-2024-pc": {
+      "id": "night-of-the-dead-2024-pc",
+      "name": "Night of the Dead",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 23, +Extra: 26",
+      "dev": "Jackto Studios",
+      "pub": "Jackto Studios",
+      "notes": "",
+      "release": "31.05.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/night-of-the-dead-2024-pc.jpg",
+      "logo": "images/logos/night-of-the-dead-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1377380",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Night_of_the_Dead",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-ghost-recon-2001-pc": {
+      "id": "tom-clancy-s-ghost-recon-2001-pc",
+      "name": "Tom Clancy's Ghost Recon",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 10, +Extra: 12",
+      "dev": "Red Storm Entertainment",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "13.11.2001",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-2001-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-ghost-recon-2001-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/15300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Desert Siege",
+          "played": true
+        },
+        {
+          "name": "Island Thunder",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "vikings-wolves-of-midgard-2017-pc": {
+      "id": "vikings-wolves-of-midgard-2017-pc",
+      "name": "Vikings: Wolves of Midgard",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 17, +Extra: 26",
+      "dev": "Games Farm",
+      "pub": "Kalypso Media",
+      "notes": "",
+      "release": "24.03.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/vikings-wolves-of-midgard-2017-pc.jpg",
+      "logo": "images/logos/vikings-wolves-of-midgard-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/404590",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Vikings%3A_Wolves_of_Midgard",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tick-tock-a-tale-for-two-2019-pc": {
+      "id": "tick-tock-a-tale-for-two-2019-pc",
+      "name": "Tick Tock: A Tale for Two",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Other Tales Interactive",
+      "pub": "Other Tales Interactive",
+      "notes": "",
+      "release": "07.03.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tick-tock-a-tale-for-two-2019-pc.jpg",
+      "logo": "images/logos/tick-tock-a-tale-for-two-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/790740",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tick_Tock%3A_A_Tale_for_Two",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "split-fiction-2025-pc": {
+      "id": "split-fiction-2025-pc",
+      "name": "Split Fiction",
+      "platform": "PC",
+      "size": "85 GB",
+      "hltb": "Main: 14, +Extra: 15",
+      "dev": "Hazelight Studios",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "06.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/split-fiction-2025-pc.jpg",
+      "logo": "images/logos/split-fiction-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2001120",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Split_Fiction",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "asterix-obelix-xxl-3-the-crystal-menhir-2019-pc": {
+      "id": "asterix-obelix-xxl-3-the-crystal-menhir-2019-pc",
+      "name": "Asterix & Obelix XXL 3: The Crystal Menhir",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 6, +Extra: 10",
+      "dev": "OSome Studio",
+      "pub": "Microids",
+      "notes": "",
+      "release": "21.11.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/asterix-obelix-xxl-3-the-crystal-menhir-2019-pc.jpg",
+      "logo": "images/logos/asterix-obelix-xxl-3-the-crystal-menhir-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1109690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Asterix_%26_Obelix_XXL_3%3A_The_Crystal_Menhir",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-ghost-recon-advanced-warfighter-2006-pc": {
+      "id": "tom-clancy-s-ghost-recon-advanced-warfighter-2006-pc",
+      "name": "Tom Clancy's Ghost Recon Advanced Warfighter",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 9, +Extra: 10",
+      "dev": "GRIN",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "03.05.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-advanced-warfighter-2006-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-ghost-recon-advanced-warfighter-2006-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/13640",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon_Advanced_Warfighter",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-ghost-recon-advanced-warfighter-2-2007-pc": {
+      "id": "tom-clancy-s-ghost-recon-advanced-warfighter-2-2007-pc",
+      "name": "Tom Clancy's Ghost Recon: Advanced Warfighter 2",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "GRIN",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "28.06.2007",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-advanced-warfighter-2-2007-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-ghost-recon-advanced-warfighter-2-2007-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/13510",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon_Advanced_Warfighter_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -32666,6 +33017,15 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "tom-clancy-s-ghost-recon-advanced-warfighter-2-2007-pc",
+      "tom-clancy-s-ghost-recon-advanced-warfighter-2006-pc",
+      "asterix-obelix-xxl-3-the-crystal-menhir-2019-pc",
+      "split-fiction-2025-pc",
+      "tick-tock-a-tale-for-two-2019-pc",
+      "vikings-wolves-of-midgard-2017-pc",
+      "tom-clancy-s-ghost-recon-2001-pc",
+      "night-of-the-dead-2024-pc",
+      "heroes-of-hammerwatch-2018-pc",
       "cat-quest-ii-2019-pc",
       "sun-haven-2023-pc",
       "rv-there-yet-2025-pc",

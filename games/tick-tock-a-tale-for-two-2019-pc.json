@@ -1,0 +1,38 @@
+{
+  "id": "tick-tock-a-tale-for-two-2019-pc",
+  "name": "Tick Tock: A Tale for Two",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Other Tales Interactive",
+  "pub": "Other Tales Interactive",
+  "notes": "",
+  "release": "07.03.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tick-tock-a-tale-for-two-2019-pc.jpg",
+  "logo": "images/logos/tick-tock-a-tale-for-two-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/790740",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tick_Tock%3A_A_Tale_for_Two",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

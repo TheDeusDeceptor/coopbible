@@ -1,0 +1,47 @@
+{
+  "id": "tom-clancy-s-ghost-recon-2001-pc",
+  "name": "Tom Clancy's Ghost Recon",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Red Storm Entertainment",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "13.11.2001",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-2001-pc.jpg",
+  "logo": "images/logos/tom-clancy-s-ghost-recon-2001-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/15300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Desert Siege",
+      "played": true
+    },
+    {
+      "name": "Island Thunder",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

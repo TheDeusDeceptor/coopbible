@@ -1,0 +1,38 @@
+{
+  "id": "vikings-wolves-of-midgard-2017-pc",
+  "name": "Vikings: Wolves of Midgard",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 17, +Extra: 26",
+  "dev": "Games Farm",
+  "pub": "Kalypso Media",
+  "notes": "",
+  "release": "24.03.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/vikings-wolves-of-midgard-2017-pc.jpg",
+  "logo": "images/logos/vikings-wolves-of-midgard-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/404590",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Vikings%3A_Wolves_of_Midgard",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

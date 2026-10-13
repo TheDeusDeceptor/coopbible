@@ -1,0 +1,38 @@
+{
+  "id": "heroes-of-hammerwatch-2018-pc",
+  "name": "Heroes of Hammerwatch",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 20, +Extra: 44",
+  "dev": "Crackshell",
+  "pub": "Team17",
+  "notes": "",
+  "release": "01.03.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/heroes-of-hammerwatch-2018-pc.jpg",
+  "logo": "images/logos/heroes-of-hammerwatch-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/677120",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Heroes_of_Hammerwatch",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

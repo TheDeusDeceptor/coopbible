@@ -1,0 +1,38 @@
+{
+  "id": "asterix-obelix-xxl-3-the-crystal-menhir-2019-pc",
+  "name": "Asterix & Obelix XXL 3: The Crystal Menhir",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 6, +Extra: 10",
+  "dev": "OSome Studio",
+  "pub": "Microids",
+  "notes": "",
+  "release": "21.11.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/asterix-obelix-xxl-3-the-crystal-menhir-2019-pc.jpg",
+  "logo": "images/logos/asterix-obelix-xxl-3-the-crystal-menhir-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1109690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Asterix_%26_Obelix_XXL_3%3A_The_Crystal_Menhir",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "night-of-the-dead-2024-pc",
+  "name": "Night of the Dead",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "Main: 23, +Extra: 26",
+  "dev": "Jackto Studios",
+  "pub": "Jackto Studios",
+  "notes": "",
+  "release": "31.05.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/night-of-the-dead-2024-pc.jpg",
+  "logo": "images/logos/night-of-the-dead-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1377380",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Night_of_the_Dead",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
