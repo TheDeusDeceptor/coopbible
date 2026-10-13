@@ -1,0 +1,32 @@
+{
+  "id": "s4mp-2019-pc",
+  "name": "S4MP",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 23",
+  "dev": "Mithras",
+  "pub": "",
+  "notes": "",
+  "release": "29.06.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/s4mp-2019-pc.jpg",
+  "logo": "images/logos/s4mp-2019-pc.png",
+  "links": [
+    {
+      "label": "S4MP",
+      "url": "https://sims-multiplayer.com/"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

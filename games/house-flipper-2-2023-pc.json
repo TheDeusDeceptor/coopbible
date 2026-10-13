@@ -1,0 +1,51 @@
+{
+  "id": "house-flipper-2-2023-pc",
+  "name": "House Flipper 2",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 14, +Extra: 24",
+  "dev": "Frozen District",
+  "pub": "Frozen District",
+  "notes": "",
+  "release": "14.12.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/house-flipper-2-2023-pc.jpg",
+  "logo": "images/logos/house-flipper-2-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1190970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/House_Flipper_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Scooby-Doo DLC",
+      "played": false
+    },
+    {
+      "name": "Sakura DLC",
+      "played": false
+    },
+    {
+      "name": "Pets DLC",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
