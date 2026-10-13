@@ -1,0 +1,38 @@
+{
+  "id": "cat-quest-iii-2024-pc",
+  "name": "Cat Quest III",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "The Gentlebros",
+  "pub": "Kepler Interactive",
+  "notes": "",
+  "release": "08.08.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cat-quest-iii-2024-pc.jpg",
+  "logo": "images/logos/cat-quest-iii-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2305840",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Cat_Quest_III",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

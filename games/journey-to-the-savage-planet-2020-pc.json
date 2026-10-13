@@ -1,0 +1,38 @@
+{
+  "id": "journey-to-the-savage-planet-2020-pc",
+  "name": "Journey To The Savage Planet",
+  "platform": "PC",
+  "size": "5.5 GB",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Typhoon",
+  "pub": "505 Games",
+  "notes": "",
+  "release": "28.01.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/journey-to-the-savage-planet-2020-pc.jpg",
+  "logo": "images/logos/journey-to-the-savage-planet-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/973810",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Journey_to_the_Savage_Planet",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

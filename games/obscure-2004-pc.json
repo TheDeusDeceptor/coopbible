@@ -1,0 +1,38 @@
+{
+  "id": "obscure-2004-pc",
+  "name": "ObsCure",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Hydravision Entertainment",
+  "pub": "Mighty Rocket Studio",
+  "notes": "",
+  "release": "01.10.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/obscure-2004-pc.jpg",
+  "logo": "images/logos/obscure-2004-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/254460",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ObsCure_II_(ObsCure%3A_The_Aftermath)",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

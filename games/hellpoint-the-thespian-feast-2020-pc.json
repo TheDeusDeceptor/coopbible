@@ -1,0 +1,33 @@
+{
+  "id": "hellpoint-the-thespian-feast-2020-pc",
+  "name": "Hellpoint: The Thespian Feast",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 1",
+  "dev": "Cradle Games",
+  "pub": "tinyBuild",
+  "notes": "",
+  "release": "20.02.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hellpoint-the-thespian-feast-2020-pc.jpg",
+  "logo": "images/logos/hellpoint-the-thespian-feast-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1243140",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-13T19:33:39Z",
+  "updated": "2026-10-13T20:03:14Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -32287,6 +32287,386 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "earth-defense-force-insect-armageddon-2011-pc": {
+      "id": "earth-defense-force-insect-armageddon-2011-pc",
+      "name": "Earth Defense Force: Insect Armageddon",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 5, +Extra: 8",
+      "dev": "Vicious Cycle Software",
+      "pub": "D3 Publisher",
+      "notes": "",
+      "release": "14.12.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/earth-defense-force-insect-armageddon-2011-pc.jpg",
+      "logo": "images/logos/earth-defense-force-insect-armageddon-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/23530",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Earth_Defense_Force%3A_Insect_Armageddon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "journey-to-the-savage-planet-2020-pc": {
+      "id": "journey-to-the-savage-planet-2020-pc",
+      "name": "Journey To The Savage Planet",
+      "platform": "PC",
+      "size": "5.5 GB",
+      "hltb": "Main: 7, +Extra: 11",
+      "dev": "Typhoon",
+      "pub": "505 Games",
+      "notes": "",
+      "release": "28.01.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/journey-to-the-savage-planet-2020-pc.jpg",
+      "logo": "images/logos/journey-to-the-savage-planet-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/973810",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Journey_to_the_Savage_Planet",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "revenge-of-the-savage-planet-2025-pc": {
+      "id": "revenge-of-the-savage-planet-2025-pc",
+      "name": "Revenge of the Savage Planet",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 9, +Extra: 14",
+      "dev": "Raccoon Logic Studios",
+      "pub": "Raccoon Logic Studios",
+      "notes": "",
+      "release": "08.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/revenge-of-the-savage-planet-2025-pc.jpg",
+      "logo": "images/logos/revenge-of-the-savage-planet-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2787320",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Revenge_of_the_Savage_Planet",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cat-quest-iii-2024-pc": {
+      "id": "cat-quest-iii-2024-pc",
+      "name": "Cat Quest III",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "The Gentlebros",
+      "pub": "Kepler Interactive",
+      "notes": "",
+      "release": "08.08.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cat-quest-iii-2024-pc.jpg",
+      "logo": "images/logos/cat-quest-iii-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2305840",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Cat_Quest_III",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "children-of-morta-2019-pc": {
+      "id": "children-of-morta-2019-pc",
+      "name": "Children of Morta",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 14, +Extra: 19",
+      "dev": "Dead Mage",
+      "pub": "11 bit studios",
+      "notes": "",
+      "release": "03.09.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/children-of-morta-2019-pc.jpg",
+      "logo": "images/logos/children-of-morta-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/330020",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Children_of_Morta",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hellpoint-2020-pc": {
+      "id": "hellpoint-2020-pc",
+      "name": "Hellpoint",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 17, +Extra: 24",
+      "dev": "Cradle Games",
+      "pub": "tinyBuild",
+      "notes": "",
+      "release": "30.07.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hellpoint-2020-pc.jpg",
+      "logo": "images/logos/hellpoint-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/628670",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hellpoint",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Blue Sun",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hellpoint-the-thespian-feast-2020-pc": {
+      "id": "hellpoint-the-thespian-feast-2020-pc",
+      "name": "Hellpoint: The Thespian Feast",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 1",
+      "dev": "Cradle Games",
+      "pub": "tinyBuild",
+      "notes": "",
+      "release": "20.02.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hellpoint-the-thespian-feast-2020-pc.jpg",
+      "logo": "images/logos/hellpoint-the-thespian-feast-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1243140",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "grounded-2022-pc": {
+      "id": "grounded-2022-pc",
+      "name": "Grounded",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 32, +Extra: 70",
+      "dev": "Obsidian Entertainment",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "27.09.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/grounded-2022-pc.jpg",
+      "logo": "images/logos/grounded-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/962130",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Grounded",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "obscure-2004-pc": {
+      "id": "obscure-2004-pc",
+      "name": "ObsCure",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Hydravision Entertainment",
+      "pub": "Mighty Rocket Studio",
+      "notes": "",
+      "release": "01.10.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/obscure-2004-pc.jpg",
+      "logo": "images/logos/obscure-2004-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/254460",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ObsCure_II_(ObsCure%3A_The_Aftermath)",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "obscure-ii-2007-pc": {
+      "id": "obscure-ii-2007-pc",
+      "name": "ObsCure II",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 7",
+      "dev": "Hydravision Entertainment",
+      "pub": "Mighty Rocket Studio",
+      "notes": "",
+      "release": "07.09.2007",
+      "ea_release": "",
+      "screenshot": "images/screenshots/obscure-the-aftermath-2007-pc.jpg",
+      "logo": "images/logos/obscure-ii-2007-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/254480",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ObsCure_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -33017,6 +33397,16 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "obscure-ii-2007-pc",
+      "obscure-2004-pc",
+      "grounded-2022-pc",
+      "hellpoint-the-thespian-feast-2020-pc",
+      "hellpoint-2020-pc",
+      "children-of-morta-2019-pc",
+      "cat-quest-iii-2024-pc",
+      "revenge-of-the-savage-planet-2025-pc",
+      "journey-to-the-savage-planet-2020-pc",
+      "earth-defense-force-insect-armageddon-2011-pc",
       "tom-clancy-s-ghost-recon-advanced-warfighter-2-2007-pc",
       "tom-clancy-s-ghost-recon-advanced-warfighter-2006-pc",
       "asterix-obelix-xxl-3-the-crystal-menhir-2019-pc",

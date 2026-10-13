@@ -1,0 +1,38 @@
+{
+  "id": "earth-defense-force-insect-armageddon-2011-pc",
+  "name": "Earth Defense Force: Insect Armageddon",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Vicious Cycle Software",
+  "pub": "D3 Publisher",
+  "notes": "",
+  "release": "14.12.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/earth-defense-force-insect-armageddon-2011-pc.jpg",
+  "logo": "images/logos/earth-defense-force-insect-armageddon-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/23530",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Earth_Defense_Force%3A_Insect_Armageddon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

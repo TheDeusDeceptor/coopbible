@@ -1,0 +1,38 @@
+{
+  "id": "children-of-morta-2019-pc",
+  "name": "Children of Morta",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 14, +Extra: 19",
+  "dev": "Dead Mage",
+  "pub": "11 bit studios",
+  "notes": "",
+  "release": "03.09.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/children-of-morta-2019-pc.jpg",
+  "logo": "images/logos/children-of-morta-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/330020",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Children_of_Morta",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

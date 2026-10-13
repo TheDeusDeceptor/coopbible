@@ -1,0 +1,43 @@
+{
+  "id": "hellpoint-2020-pc",
+  "name": "Hellpoint",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 17, +Extra: 24",
+  "dev": "Cradle Games",
+  "pub": "tinyBuild",
+  "notes": "",
+  "release": "30.07.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hellpoint-2020-pc.jpg",
+  "logo": "images/logos/hellpoint-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/628670",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hellpoint",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Blue Sun",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

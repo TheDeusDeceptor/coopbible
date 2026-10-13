@@ -1,0 +1,38 @@
+{
+  "id": "obscure-ii-2007-pc",
+  "name": "ObsCure II",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 7",
+  "dev": "Hydravision Entertainment",
+  "pub": "Mighty Rocket Studio",
+  "notes": "",
+  "release": "07.09.2007",
+  "ea_release": "",
+  "screenshot": "images/screenshots/obscure-the-aftermath-2007-pc.jpg",
+  "logo": "images/logos/obscure-ii-2007-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/254480",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ObsCure_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

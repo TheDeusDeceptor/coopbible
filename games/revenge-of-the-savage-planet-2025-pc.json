@@ -1,0 +1,38 @@
+{
+  "id": "revenge-of-the-savage-planet-2025-pc",
+  "name": "Revenge of the Savage Planet",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 9, +Extra: 14",
+  "dev": "Raccoon Logic Studios",
+  "pub": "Raccoon Logic Studios",
+  "notes": "",
+  "release": "08.05.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/revenge-of-the-savage-planet-2025-pc.jpg",
+  "logo": "images/logos/revenge-of-the-savage-planet-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2787320",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Revenge_of_the_Savage_Planet",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

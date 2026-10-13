@@ -1,0 +1,38 @@
+{
+  "id": "grounded-2022-pc",
+  "name": "Grounded",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 32, +Extra: 70",
+  "dev": "Obsidian Entertainment",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "27.09.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/grounded-2022-pc.jpg",
+  "logo": "images/logos/grounded-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/962130",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Grounded",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
