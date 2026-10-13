@@ -1,0 +1,38 @@
+{
+  "id": "hammerwatch-ii-2023-pc",
+  "name": "Hammerwatch II",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 21, +Extra: 23",
+  "dev": "Crackshell",
+  "pub": "Maximum Entertainment",
+  "notes": "",
+  "release": "15.08.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hammerwatch-ii-2023-pc.jpg",
+  "logo": "images/logos/hammerwatch-ii-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1538970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hammerwatch_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

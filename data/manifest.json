@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-13T21:02:21Z",
+  "updated": "2026-10-13T21:11:28Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -33251,6 +33251,120 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "hammerwatch-ii-2023-pc": {
+      "id": "hammerwatch-ii-2023-pc",
+      "name": "Hammerwatch II",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 21, +Extra: 23",
+      "dev": "Crackshell",
+      "pub": "Maximum Entertainment",
+      "notes": "",
+      "release": "15.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hammerwatch-ii-2023-pc.jpg",
+      "logo": "images/logos/hammerwatch-ii-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1538970",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hammerwatch_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "operation-flashpoint-dragon-rising-2009-pc": {
+      "id": "operation-flashpoint-dragon-rising-2009-pc",
+      "name": "Operation Flashpoint: Dragon Rising",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 12, +Extra: 16",
+      "dev": "Codemasters",
+      "pub": "Codemasters, Electronic Arts",
+      "notes": "",
+      "release": "06.10.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/operation-flashpoint-dragon-rising-2009-pc.jpg",
+      "logo": "images/logos/operation-flashpoint-dragon-rising-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/12830",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Operation_Flashpoint%3A_Dragon_Rising",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "operation-flashpoint-red-river-2011-pc": {
+      "id": "operation-flashpoint-red-river-2011-pc",
+      "name": "Operation Flashpoint: Red River",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 12, +Extra: 14",
+      "dev": "Codemasters",
+      "pub": "Codemasters",
+      "notes": "",
+      "release": "21.04.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/operation-flashpoint-red-river-2011-pc.jpg",
+      "logo": "images/logos/operation-flashpoint-red-river-2011-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Operation_Flashpoint%3A_Red_River",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/44340",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -33981,6 +34095,9 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "operation-flashpoint-red-river-2011-pc",
+      "operation-flashpoint-dragon-rising-2009-pc",
+      "hammerwatch-ii-2023-pc",
       "pratfall-2026-pc",
       "gamble-with-your-friends-2026-pc",
       "how-to-fish-2026-pc",
