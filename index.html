@@ -20,8 +20,8 @@
     --gold:#fbbf24;--gold-line:rgba(251,191,36,.55);
     --gold-soft:rgba(251,191,36,.12);--gold-glow:rgba(251,191,36,.45);
     --drift:#22d3ee;--drift-bright:#67e8f9;--drift-line:rgba(34,211,238,.5);--drift-soft:rgba(34,211,238,.08);--drift-glow:rgba(34,211,238,.55);
-    /* calendar palette */
     --cal-base:#10b981;--cal-bright:#6ee7b7;--cal-text:#a7f3d0;--cal-glow:rgba(52,211,153,.4);
+    --cal-cell-size:100px;
   }
   body[data-group="single"]{
     --bg:#0d0708;--bg-glow:#1a0b0e;--card:#160d10;--border:#2a161b;
@@ -53,7 +53,6 @@
   .icon-tools{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/%3E%3C/svg%3E");}
   .icon-void{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 8v4M12 16h.01'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 8v4M12 16h.01'/%3E%3C/svg%3E");}
 
-  /* ═══ HEADER ═══ */
   header{max-width:1400px;margin:0 auto 1.75rem;display:flex;justify-content:center;position:relative;min-height:44px;}
   .header-left{position:absolute;left:0;top:50%;transform:translateY(-50%);display:flex;gap:.4rem;align-items:center;flex-wrap:wrap;}
   .header-left button{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .75rem;border-radius:8px;cursor:pointer;transition:all .18s ease;white-space:nowrap;background:transparent;border:1px solid transparent;}
@@ -609,7 +608,6 @@
   .video-row.bad .video-status{color:var(--red);}
   .video-row .video-size{font-family:var(--font-head);font-size:.65rem;color:var(--muted);text-align:right;}
 
-  /* random picker */
   .random-overlay{position:fixed;inset:0;z-index:400;display:none;flex-direction:column;background:rgba(4,5,10,.92);}
   .random-overlay.open{display:flex;}
   .random-pages{display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;padding:.85rem 1.5rem .35rem;position:relative;z-index:12;transition:opacity .25s ease;}
@@ -636,26 +634,34 @@
   .random-spin-btn:hover{filter:brightness(1.08);box-shadow:0 0 32px var(--gold-glow);}
   .random-spin-btn:disabled{opacity:.55;cursor:wait;box-shadow:none;filter:none;}
 
-  /* calendar overlay */
+  /* ═══ CALENDAR OVERLAY ═══ */
   .calendar-overlay{position:fixed;inset:0;z-index:400;display:none;flex-direction:column;background:rgba(4,5,10,.94);}
   .calendar-overlay.open{display:flex;}
   .calendar-pages{display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;padding:.85rem 1.5rem .35rem;}
   .calendar-pages .list-cb{font-size:.78rem;padding:.6rem .9rem;gap:.55rem;border-radius:8px;}
   .calendar-pages .list-cb .box{width:15px;height:15px;border-radius:4px;font-size:.82rem;}
-  .calendar-stage{flex:1;overflow-y:auto;display:flex;align-items:flex-start;justify-content:center;padding:1rem 1.5rem 3rem;}
+  .calendar-stage{
+    flex:1;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:.5rem 1.5rem 1rem;
+    min-height:0;
+  }
   .cal-outer{
+    position:relative;
     width:100%;
     max-width:1180px;
     margin:0 auto;
-    display:grid;
-    grid-template-columns:90px minmax(0, 1fr) 90px;
-    gap:1rem;
-    align-items:start;
+    padding:0 100px;
   }
   .cal-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
     width:90px;
     height:280px;
-    margin-top:110px;
     background:transparent;
     border:0;
     padding:0;
@@ -664,10 +670,12 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    transition:color .2s ease, opacity .2s ease, transform .2s ease;
+    transition:color .2s ease, opacity .2s ease;
     opacity:.55;
   }
-  .cal-arrow:hover:not(:disabled){opacity:.95;color:#fff;transform:scale(1.03);}
+  .cal-arrow#calPrev{left:0;}
+  .cal-arrow#calNext{right:0;}
+  .cal-arrow:hover:not(:disabled){opacity:.95;color:#fff;}
   .cal-arrow:disabled{opacity:.12;cursor:not-allowed;}
   .cal-arrow svg{
     width:60px;height:200px;
@@ -680,21 +688,23 @@
     transition:stroke-width .2s ease;
   }
   .cal-arrow:hover:not(:disabled) svg{stroke-width:16;}
-  .cal-body{display:flex;flex-direction:column;min-width:0;}
-  .cal-head{text-align:center;margin-bottom:.85rem;}
+
+  .cal-body{display:flex;flex-direction:column;width:100%;}
+  .cal-head{text-align:center;margin-bottom:.5rem;}
   .cal-month-name{
     font-family:var(--font-head);font-weight:700;
-    font-size:1.65rem;letter-spacing:.12em;
+    font-size:1.55rem;letter-spacing:.12em;
     color:var(--cal-bright);
     text-shadow:0 0 14px var(--cal-glow);
     display:inline-block;
   }
-  .cal-dow-row{display:grid;grid-template-columns:repeat(7,1fr);gap:.35rem;margin-bottom:.35rem;}
-  .cal-dow{font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(167,243,208,.55);text-align:center;padding:.3rem 0;}
+  .cal-dow-row{display:grid;grid-template-columns:repeat(7, var(--cal-cell-size));gap:.3rem;margin-bottom:.3rem;justify-content:center;}
+  .cal-dow{font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(167,243,208,.55);text-align:center;padding:.2rem 0;}
   .cal-dow.wknd{color:rgba(110,231,183,.9);}
-  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:.35rem;}
+  .cal-grid{display:grid;grid-template-columns:repeat(7, var(--cal-cell-size));grid-template-rows:repeat(6, var(--cal-cell-size));gap:.3rem;justify-content:center;}
   .cal-cell{
-    aspect-ratio:1;
+    width:var(--cal-cell-size);
+    height:var(--cal-cell-size);
     position:relative;
     background:rgba(6,78,59,.18);
     border:1px solid rgba(16,185,129,.18);
@@ -726,34 +736,46 @@
     box-shadow:0 0 0 1px #fff,0 0 24px var(--cal-glow);
   }
   .cal-cell-count{
-    position:absolute;top:.28rem;right:.32rem;
+    position:absolute;top:.3rem;right:.35rem;
     font-family:var(--font-head);font-weight:700;
     font-size:.7rem;letter-spacing:.02em;line-height:1;
     z-index:3;pointer-events:none;
     color:var(--cal-bright);
     text-shadow:0 0 8px var(--cal-glow),0 1px 2px rgba(0,0,0,.9);
   }
-  .cal-cell.today .cal-cell-count{color:#fff;text-shadow:0 0 10px var(--cal-glow),0 1px 2px rgba(0,0,0,.9);}
+  .cal-cell.today .cal-cell-count{color:#fff;}
   .cal-cell-day{
-    position:absolute;bottom:.28rem;left:.34rem;
+    position:absolute;bottom:.4rem;left:.4rem;
     font-family:var(--font-head);font-weight:700;
-    font-size:.72rem;line-height:1;
+    font-size:.68rem;line-height:1;
     color:var(--cal-text);
+    background:rgba(6,20,16,.78);
+    border:1px solid rgba(52,211,153,.35);
+    border-radius:5px;
+    padding:.24rem .5rem;
     z-index:3;pointer-events:none;
-    text-shadow:0 1px 2px rgba(0,0,0,.9);
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter:blur(4px);
+    text-shadow:0 1px 2px rgba(0,0,0,.6);
   }
-  .cal-cell.today .cal-cell-day{color:#fff;text-shadow:0 0 8px var(--cal-glow),0 1px 2px rgba(0,0,0,.9);}
+  .cal-cell.today .cal-cell-day{color:#fff;border-color:var(--cal-bright);box-shadow:0 0 8px var(--cal-glow);}
+  .cal-cell.wknd:not(.today) .cal-cell-day{color:var(--cal-text);border-color:rgba(52,211,153,.25);}
   .cal-cell-logo{
     position:absolute;inset:0;
-    display:grid;place-items:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:5%;
     z-index:1;pointer-events:none;
   }
   .cal-cell-logo img{
-    width:100%;height:100%;
+    max-width:100%;
+    max-height:100%;
+    width:auto;
+    height:auto;
     object-fit:contain;
     display:block;
     filter:drop-shadow(0 2px 6px rgba(0,0,0,.75));
-    padding:2px;
   }
   .cal-cell-logo .ph{
     display:grid;place-items:center;
@@ -778,7 +800,6 @@
   .cal-day-row .m-name{font-weight:600;font-size:.88rem;color:#e6ebf2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .cal-day-row .m-yr{font-family:var(--font-head);font-size:.72rem;color:var(--muted);letter-spacing:.06em;}
 
-  /* smart video */
   .smart-vid{opacity:0;transition:opacity .25s ease;pointer-events:none;z-index:1;}
   .smart-vid.on{opacity:1;}
   .hero-play-btn{position:absolute;inset:0;display:grid;place-items:center;cursor:pointer;z-index:3;background:rgba(0,0,0,.15);transition:background .18s ease;}
@@ -791,7 +812,6 @@
   .beaten-row:hover .hover-shot{opacity:1;}
   .beaten-shot{position:relative;}
 
-  /* scroll jump */
   .scroll-jump-group{position:fixed;left:1.5rem;bottom:1.5rem;z-index:90;display:flex;gap:.5rem;align-items:center;pointer-events:none;}
   .scroll-jump{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.55rem .9rem;border:1px solid var(--border);border-radius:8px;background-color:rgba(10,14,21,.72);backdrop-filter:blur(10px) saturate(140%);-webkit-backdrop-filter:blur(10px) saturate(140%);color:#cbd5e1;cursor:pointer;transition:opacity .25s ease,transform .25s ease,color .18s ease,border-color .18s ease,background-image .18s ease;box-shadow:0 4px 14px rgba(0,0,0,.4);opacity:0;transform:translateY(8px);pointer-events:none;}
   .scroll-jump.show{opacity:1;transform:translateY(0);pointer-events:auto;}
@@ -802,7 +822,6 @@
     .scroll-jump{font-size:.6rem;padding:.5rem .75rem;}
   }
 
-  /* unified close X */
   .ov-close{position:fixed;top:1rem;left:1rem;z-index:250;width:38px;height:38px;border-radius:8px;display:grid;place-items:center;cursor:pointer;background:rgba(6,7,11,.6);border:1px solid var(--oc-line);color:var(--oc);transition:all .18s ease;font-family:inherit;padding:0;}
   .ov-close svg{display:block;width:18px;height:18px;pointer-events:none;}
   .ov-close:hover{color:var(--oc-bright);background:var(--oc-soft);border-color:var(--oc);box-shadow:0 0 14px var(--oc-glow);}
@@ -811,7 +830,6 @@
   .ov-close.ov-cyan{--oc:#22d3ee;--oc-bright:#67e8f9;--oc-line:rgba(34,211,238,.55);--oc-soft:rgba(34,211,238,.16);--oc-glow:rgba(34,211,238,.5)}
   .ov-close.ov-green{--oc:#6ee7b7;--oc-bright:#fff;--oc-line:rgba(110,231,183,.55);--oc-soft:rgba(52,211,153,.16);--oc-glow:rgba(52,211,153,.5)}
 
-  /* integrity tab */
   .integ-row{display:flex;flex-direction:column;gap:.35rem;padding:.6rem .75rem;background:#0a0e15;border:1px solid var(--border);border-radius:6px;margin-bottom:.35rem;}
   .integ-head{display:flex;align-items:center;gap:.5rem;}
   .integ-kind{font-family:var(--font-head);font-size:.5rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.18rem .45rem;border-radius:4px;white-space:nowrap;}
@@ -858,12 +876,11 @@
     .link-row{grid-template-columns:1fr 1fr 32px}
     .dlc-editor-line1{grid-template-columns:1fr 32px 32px;}
     .beaten-indicator .num{font-size:2.2rem}
-    .cal-outer{grid-template-columns:1fr;padding:0;}
+    .cal-outer{padding:0;}
     .cal-arrow{display:none;}
     .cal-month-name{font-size:1.4rem;}
   }
 </style>
-<!-- GTG CSS (unchanged) -->
 <style>
   .gtg-overlay{position:fixed;inset:0;z-index:9500;display:none;background:#000;font-family:'Press Start 2P',monospace;color:#e6ebf2;overflow-y:auto;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
   .gtg-overlay.open{display:block;}
@@ -949,7 +966,6 @@
     .gtg-diff-btn{width:100%}
   }
 </style>
-<!-- DRIFT CSS (unchanged) -->
 <style>
   .drift-overlay{position:fixed;inset:0;z-index:9600;display:none;background:#000;font-family:'Chakra Petch',system-ui,sans-serif;color:#e6faff;overflow-y:auto;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
   .drift-overlay.open{display:block;}
@@ -1136,7 +1152,7 @@
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
   </button>
   <div class="calendar-pages" id="calendarPages"></div>
-  <div class="calendar-stage">
+  <div class="calendar-stage" id="calendarStage">
     <div class="cal-outer">
       <button class="cal-arrow" id="calPrev" type="button" aria-label="Previous month">
         <svg viewBox="0 0 72 220" preserveAspectRatio="xMidYMid meet">
@@ -1174,12 +1190,10 @@
   <span class="lbl">Games Beaten</span>
 </div>
 
-<!-- GTG HTML (unchanged) -->
 <div class="gtg-overlay" id="gtgOverlay">
   <button class="ov-close ov-purple" id="gtgClose" type="button" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
   </button>
-
   <div class="gtg-view gtg-splash-view on" data-gtg-view="splash">
     <div class="gtg-splash-inner">
       <div class="gtg-splash-emojis"><span>🎮</span><span>👾</span><span>🕹️</span></div>
@@ -1195,7 +1209,6 @@
       </div>
     </div>
   </div>
-
   <div class="gtg-view gtg-game-view" data-gtg-view="game">
     <div class="gtg-shell">
       <div class="gtg-frame" data-gtg-frame>
@@ -1241,15 +1254,12 @@
   </div>
 </div>
 
-<!-- DRIFT HTML (unchanged) -->
 <div class="drift-overlay" id="driftOverlay">
   <button class="ov-close ov-cyan" id="driftClose" type="button" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
   </button>
-
   <div class="drift-bg-grid"></div>
   <div class="drift-bg-glow"></div>
-
   <div class="drift-view drift-splash-view on" data-drift-view="splash">
     <div class="drift-splash-inner">
       <div class="drift-splash-emojis"><span>🌊</span><span>🎯</span><span>📡</span></div>
@@ -1263,7 +1273,6 @@
       </div>
     </div>
   </div>
-
   <div class="drift-view drift-game-view" data-drift-view="game">
     <div class="drift-shell">
       <div class="drift-hud">
@@ -1295,7 +1304,6 @@
       <div class="drift-reveal-line" data-drift-reveal-line></div>
     </div>
   </div>
-
   <div class="drift-view drift-summary-view" data-drift-view="summary">
     <div class="drift-summary-inner">
       <h2>SIGNAL LOST</h2>
@@ -1460,6 +1468,7 @@ const calendarBtn = document.getElementById('calendarBtn');
 const calendarOverlay = document.getElementById('calendarOverlay');
 const calendarClose = document.getElementById('calendarClose');
 const calendarPagesEl = document.getElementById('calendarPages');
+const calendarStage = document.getElementById('calendarStage');
 const calPrev = document.getElementById('calPrev');
 const calNext = document.getElementById('calNext');
 const calMonthName = document.getElementById('calMonthName');
@@ -2159,12 +2168,10 @@ async function commitPending(){
   const total = totalPendingCount();
   if(total === 0){ toast('Nothing to commit', 'bad'); return; }
   if(!getToken()){ showTokenPrompt(); return; }
-
   const stripCommit = pendingStrip.querySelector('.commit');
   const stripDisc = pendingStrip.querySelector('.discard');
   if(stripCommit){ stripCommit.disabled = true; stripCommit.textContent = '…Committing'; }
   if(stripDisc) stripDisc.disabled = true;
-
   try{
     const writes = [];
     for(const [id, g] of pendingGameWrites){
@@ -2182,11 +2189,9 @@ async function commitPending(){
       if(path === 'data/manifest.json' || path === 'data/series_order.json') continue;
       writes.push({ path, content });
     }
-
     const manifest = regenerateManifest();
     writes.push({ path: 'data/manifest.json', content: JSON.stringify(manifest, null, 2) + '\n' });
     writes.push({ path: 'data/series_order.json', content: JSON.stringify(manifest.series_order, null, 2) + '\n' });
-
     const headSha = await ghGetHeadSha();
     const baseTree = await ghGetCommitTree(headSha);
     const tree = [];
@@ -2205,9 +2210,7 @@ async function commitPending(){
     for(const path of pendingFileDeletes){
       tree.push({ path, mode: '100644', type: 'blob', sha: null });
     }
-
     const newTree = await ghCreateTree(baseTree, tree);
-
     let adds = 0, edits = 0, dels = 0, files = 0, listWrites = 0, seriesWrites = 0;
     for(const [id] of pendingGameWrites){
       if(MANIFEST.games[id]) edits++; else adds++;
@@ -2216,7 +2219,6 @@ async function commitPending(){
     listWrites = pendingListWrites.size;
     files = pendingFileWrites.size + pendingFileDeletes.size;
     seriesWrites = pendingSeriesWrites.size + pendingSeriesDeletes.size + (pendingSeriesOrder ? 1 : 0);
-
     const parts = [];
     if(adds) parts.push(`${adds} added`);
     if(edits) parts.push(`${edits} edited`);
@@ -2225,10 +2227,8 @@ async function commitPending(){
     if(seriesWrites) parts.push(`${seriesWrites} series`);
     if(files) parts.push(`${files} file${files===1?'':'s'}`);
     const msg = 'Batch: ' + (parts.join(', ') || 'update');
-
     const newCommit = await ghCreateCommit(msg, newTree, headSha);
     await ghUpdateRef(newCommit);
-
     for(const id of pendingGameDeletes) delete MANIFEST.games[id];
     for(const [id, g] of pendingGameWrites) MANIFEST.games[id] = g;
     for(const [tabId, ids] of pendingListWrites) MANIFEST.lists[tabId] = ids.slice();
@@ -2237,7 +2237,6 @@ async function commitPending(){
     MANIFEST.series_order = manifest.series_order;
     MANIFEST.version = 4;
     MANIFEST.updated = manifest.updated;
-
     editorDrafts.clear();
     pendingGameWrites.clear();
     pendingGameDeletes.clear();
@@ -2249,7 +2248,6 @@ async function commitPending(){
     pendingSeriesDeletes.clear();
     pendingSeriesOrder = null;
     PLATFORMS_ORIGINAL = JSON.parse(JSON.stringify(PLATFORMS));
-
     updatePendingStrip();
     invalidateAllPanes();
     renderContent();
@@ -2260,7 +2258,6 @@ async function commitPending(){
     updatePendingStrip();
   }
 }
-
 function openPendingModal(){
   const total = totalPendingCount();
   if(!total){ toast('No pending changes', 'bad'); return; }
@@ -2711,7 +2708,7 @@ function toolsModalHTML(){
           <div class="form-section">
             <div class="sec-title">Remote videos</div>
             <div class="plat-hint">
-              Scans every game with a remote video URL. HEAD-checks each URL. Download saves files as <code>&lt;game-id&gt;.mp4</code> into your Downloads folder. Drop them into <code>videos/</code> and the site will use them automatically.
+              Scans every game with a remote video URL. HEAD-checks each URL. Download saves files as <code>&lt;game-id&gt;.mp4</code> into your Downloads folder.
             </div>
             <div style="display:flex;gap:.6rem;align-items:center;margin-bottom:.9rem;flex-wrap:wrap;">
               <button type="button" class="btn primary" id="video-scan">Scan</button>
@@ -2915,13 +2912,10 @@ function openToolsModal(){
   toolsBackdrop.classList.add('open');
   refreshScrollJumpVisibility();
   renderLbdbStatusInModal();
-
   toolsSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeToolsModal);
   toolsSlot.querySelectorAll('.tools-tab').forEach(t => t.onclick = () => { toolsActiveTab = t.dataset.tab; refreshToolsBody(); });
-
   const lbdbRun = toolsSlot.querySelector('#lbdb-run');
   if(lbdbRun) lbdbRun.onclick = () => { if(lbdbState !== 'running') triggerLbdbUpdate(); };
-
   const orphanScan = toolsSlot.querySelector('#orphan-scan');
   if(orphanScan) orphanScan.onclick = runOrphanScan;
   const orphanSelAll = toolsSlot.querySelector('#orphan-selall');
@@ -2942,7 +2936,6 @@ function openToolsModal(){
   };
   const orphanDel = toolsSlot.querySelector('#orphan-delete');
   if(orphanDel) orphanDel.onclick = stageOrphanDeletes;
-
   const integScan = toolsSlot.querySelector('#integrity-scan');
   if(integScan) integScan.onclick = () => {
     const issues = scanSeriesIntegrity();
@@ -2950,7 +2943,6 @@ function openToolsModal(){
     if(!issues.length) toast('No series issues found');
     else toast(issues.length + ' issue' + (issues.length===1?'':'s') + ' found');
   };
-
   const rowsHost = toolsSlot.querySelector('#plat-rows');
   if(rowsHost){
     rowsHost.addEventListener('input', e => {
@@ -3002,7 +2994,6 @@ function openToolsModal(){
       renderPlatformRows();
     });
   }
-
   const platAdd = toolsSlot.querySelector('#plat-add');
   if(platAdd) platAdd.onclick = () => {
     let n = 1, key = 'new_platform';
@@ -3040,7 +3031,6 @@ function openToolsModal(){
     closeToolsModal();
     toast('Platforms staged — commit to push');
   };
-
   const videoScan = toolsSlot.querySelector('#video-scan');
   if(videoScan) videoScan.onclick = scanVideos;
   const videoSelAll = toolsSlot.querySelector('#video-selall');
@@ -4120,14 +4110,18 @@ function applyHeroSize(heroEl){
 function recalcHeroSizes(){ document.querySelectorAll('[data-hero]').forEach(applyHeroSize); }
 window.addEventListener('resize', () => { if(backdrop.classList.contains('open')) recalcHeroSizes(); });
 
-function openModalAboveOverlay(g, t){
+function openModalAboveOverlay(g, t, opts){
   backdrop.classList.add('modal-above-overlay');
-  openModal(g, t);
+  openModal(g, t, opts);
 }
-function openModal(g, t){
+function openModal(g, t, opts){
+  opts = opts || {};
   let list = [];
-  if(t === 'backlog-series'){ list = allSeriesInOrder(); }
-  else if(t === 'backlog'){
+  if(opts.listOverride && Array.isArray(opts.listOverride)){
+    list = opts.listOverride;
+  } else if(t === 'backlog-series'){
+    list = allSeriesInOrder();
+  } else if(t === 'backlog'){
     const allBacklog = gamesOfTab('backlog');
     const main = allBacklog.filter(g => !isInAnySeries(g.id) && passesAll(g));
     const mainSorted = applySort(main);
@@ -4137,8 +4131,11 @@ function openModal(g, t){
     for(const gg of mainSorted){ if(!seen.has(gg.id)){ merged.push(gg); seen.add(gg.id); } }
     for(const gg of seriesGames){  if(!seen.has(gg.id)){ merged.push(gg); seen.add(gg.id); } }
     list = merged;
-  } else if(voidMode){ list = gamesWithNoList(); }
-  else { list = applySort(gamesOfTab(t).filter(passesAll)); }
+  } else if(voidMode){
+    list = gamesWithNoList();
+  } else {
+    list = applySort(gamesOfTab(t).filter(passesAll));
+  }
   modalNavList = list.length ? list : [g];
   modalNavIdx = modalNavList.findIndex(x => x.id === g.id);
   if(modalNavIdx < 0){ modalNavList = [g]; modalNavIdx = 0; }
@@ -4343,7 +4340,6 @@ function openEditor(g, opts){
   opts = opts || {};
   const isNew = !g;
   const mode = isNew ? 'add' : 'edit';
-
   const draft = isNew
     ? { id:'', name:'', platform:'PC', size:'', hltb:'', dev:'', pub:'', notes:'',
         release:'', ea_release:'', screenshot:'', logo:'', video:'', links:[], alt_names: [], dlc: [],
@@ -4357,14 +4353,12 @@ function openEditor(g, opts){
   draft.screenshot = draft.screenshot || '';
   draft.logo = draft.logo || '';
   draft.video = draft.video || '';
-
   const hp = hltbToParts(draft.hltb);
   const numericHltb = hltbIsNumeric(draft.hltb);
   const currentMemberships = isNew ? new Set() : membershipsOf(draft.id);
   const currentTabId = (tab !== 'backlog-series' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
   const targetListId = opts.listId || currentTabId;
   if(isNew && REAL_LISTS_SET.has(targetListId)) currentMemberships.add(targetListId);
-
   const membershipHTML = REAL_LISTS.map(tid => {
     const tdef = ALL_TABS.find(x => x.id === tid);
     const grp = TAB_GROUP[tid];
@@ -4376,22 +4370,17 @@ function openEditor(g, opts){
       <span class="lbl">${esc(tdef.label)}</span>
     </label>`;
   }).join('');
-
   const linksHTML = draft.links.length ? draft.links.map((l, i) => `
     <div class="link-row" data-link-idx="${i}">
       <input type="text" class="link-label" value="${esc(l.label||'')}">
       <input type="text" class="link-url" value="${esc(l.url||'')}">
       <button type="button" class="remove-link" title="Remove">✕</button>
     </div>`).join('') : '';
-
   const dlcHTML = draft.dlc.length ? draft.dlc.map((d, i) => dlcEditRowHTML(d, i)).join('') : '';
-
   const derivedId = isNew
     ? deriveGameId(draft.name, draft.release, draft.ea_release, draft.platform)
     : draft.id;
-
   const statusVal = draft.series_status || '';
-
   modalSlot._pillsBound = false;
   modalSlot._lockedSources = new Set();
   modalSlot._parseResults = null;
@@ -4403,11 +4392,9 @@ function openEditor(g, opts){
   modalSlot._editorKey = isNew ? '__new__' : g.id;
   modalSlot._editorBase = isNew ? null : g;
   modalSlot._editorOpts = { listId: opts.listId, presetSeries: opts.presetSeries };
-
   const headerTag = isNew ? `<span class="tag new">NEW</span>` : `<span class="tag edit">EDIT</span>`;
   const headerTitle = isNew ? 'Add game' : esc(draft.name || 'Untitled');
   const saveBtnLabel = isNew ? 'ADD NEW GAME' : 'Save changes';
-
   modalSlot.innerHTML = `
     <div class="admin-modal">
       <div class="admin-head">
@@ -4612,10 +4599,8 @@ function openEditor(g, opts){
     </div>`;
   backdrop.classList.add('open');
   refreshScrollJumpVisibility();
-
   const $ = sel => modalSlot.querySelector(sel);
   const $$ = sel => modalSlot.querySelectorAll(sel);
-
   const idInput = $('#f-id');
   const nameInput = $('#f-name');
   const releaseInput = $('#f-release');
@@ -4624,12 +4609,10 @@ function openEditor(g, opts){
   const matchesBox = $('#matches-box');
   const saveBtn = $('#save-btn');
   let userEditedId = !isNew;
-
   const qpSteam = $('#qp-steam');
   const qpPcgw  = $('#qp-pcgw');
   const srcBtnSteam = modalSlot.querySelector('[data-src-dot="steam"]');
   const srcBtnPcgw  = modalSlot.querySelector('[data-src-dot="pcgw"]');
-
   function updateLinkedHighlight(){
     const sv = parseSteamInput(qpSteam ? qpSteam.value : '');
     const pv = parsePcgwInput(qpPcgw ? qpPcgw.value : '');
@@ -4646,13 +4629,11 @@ function openEditor(g, opts){
   }
   if(qpSteam) qpSteam.addEventListener('input', updateLinkedHighlight);
   if(qpPcgw)  qpPcgw.addEventListener('input', updateLinkedHighlight);
-
   function refreshIdDerived(){
     if(userEditedId) return;
     const d = deriveGameId(nameInput.value, releaseInput.value, eaInput.value, platformInput.value);
     idInput.value = d;
   }
-
   function refreshMatches(){
     const curId = (idInput.value || '').trim();
     const nm = (nameInput.value || '').trim();
@@ -4702,7 +4683,6 @@ function openEditor(g, opts){
       else { saveBtn.textContent = 'ADD NEW GAME'; saveBtn.className = 'btn primary'; }
     }
   }
-
   function pickAttach(id){
     if(modalSlot._mode === 'edit'){ toast('Attach is add-mode only — change the ID manually', 'bad'); return; }
     const g = MANIFEST.games[id] || viewGame(id);
@@ -4761,7 +4741,6 @@ function openEditor(g, opts){
     userEditedId = true;
     refreshMatches();
   }
-
   const listGrid = $('#list-grid');
   listGrid.addEventListener('change', e => {
     const cb = e.target.closest('input[type=checkbox]');
@@ -4771,7 +4750,6 @@ function openEditor(g, opts){
       lbl.classList.toggle('on', inp.checked);
     });
   });
-
   [nameInput, releaseInput, eaInput, platformInput].forEach(el => {
     el.addEventListener('input', () => { refreshIdDerived(); refreshMatches(); });
   });
@@ -4788,7 +4766,6 @@ function openEditor(g, opts){
     if(!row) return;
     pickAttach(row.dataset.matchId);
   });
-
   $('#f-hltb-type').addEventListener('change', e => {
     const v = e.target.value;
     $('#hltb-numeric').style.display = v === 'numeric' ? '' : 'none';
@@ -5006,7 +4983,6 @@ function openEditor(g, opts){
   $('#parse-go').addEventListener('click', runParse);
   attachPillHandlers();
   if(!isNew) $('#delete-btn').addEventListener('click', () => openConfirmDelete(g));
-
   $('#reset-editor-btn').addEventListener('click', () => {
     if(!confirm('Reset the form? Any unsaved edits in this editor will be cleared.')) return;
     editorDrafts.delete(modalSlot._editorKey);
@@ -5016,11 +4992,9 @@ function openEditor(g, opts){
     const f = modalSlot.querySelector('#f-series');
     if(f && eopts.presetSeries) f.value = eopts.presetSeries;
   });
-
   $('#save-btn').addEventListener('click', () => {
     const mode2 = modalSlot._mode;
     const isAttach = isNew && modalSlot._attachId;
-
     const name = nameInput.value.trim();
     if(!name){ toast('Name is required', 'bad'); return; }
     const id = (idInput.value || '').trim();
@@ -5053,7 +5027,6 @@ function openEditor(g, opts){
     const dlcEntries = readDlcFromEditor();
     const platform = platformInput.value.trim();
     const videoVal = ($('#f-video').value || '').trim();
-
     if(mode2 === 'add' && isAttach){
       const existingId = modalSlot._attachId;
       const base = MANIFEST.games[existingId] || viewGame(existingId);
@@ -5123,7 +5096,6 @@ function openEditor(g, opts){
       toast('Added to list' + (before !== after ? ' + saved edits' : ''));
       return;
     }
-
     const oldId = draft.id || '';
     const out = JSON.parse(JSON.stringify(draft));
     Object.assign(out, {
@@ -5152,7 +5124,6 @@ function openEditor(g, opts){
     });
     delete out.series_owner;
     if(videoVal) out.video = videoVal; else delete out.video;
-
     if(!isNew && oldId && oldId !== id){
       for(const listId of REAL_LISTS){
         const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
@@ -5187,7 +5158,6 @@ function openEditor(g, opts){
         pendingListWrites.set(listId, filtered);
       }
     }
-
     {
       const prev = MANIFEST.games[id];
       if(!prev) pendingGameWrites.set(id, out);
@@ -5216,7 +5186,6 @@ function openEditor(g, opts){
         } else { toast('Series "' + newSeriesSlug + '" not found — create it first', 'bad'); }
       }
     }
-
     const checkedListsArray = [...checkedLists];
     if(isNew){
       for(const listId of checkedListsArray){
@@ -5240,7 +5209,6 @@ function openEditor(g, opts){
         }
       }
     }
-
     const presetSlug = modalSlot._presetSeriesSlug;
     if(presetSlug && isNew){
       const s = viewSeries(presetSlug);
@@ -5251,7 +5219,6 @@ function openEditor(g, opts){
         pendingSeriesWrites.set(presetSlug, copy);
       }
     }
-
     editorDrafts.delete(modalSlot._editorKey);
     closeAll({ skipSnapshot: true });
     invalidateAllPanes();
@@ -5259,7 +5226,6 @@ function openEditor(g, opts){
     renderContent();
     toast(isNew ? 'Staged new game' : 'Staged changes');
   });
-
   let storedDraft = editorDrafts.get(modalSlot._editorKey);
   if(storedDraft && storedDraft._sourceHash){
     const cur = MANIFEST.games[modalSlot._editorKey];
@@ -6086,10 +6052,7 @@ function randomLogoHTML(g, tint){
   return `<div class="winner-name" style="font-size:2.4rem;color:#fff;font-family:var(--font-head);letter-spacing:.06em;text-shadow:0 0 30px var(--gold-glow);">${esc(g.name)}</div>`;
 }
 function randomShuffle(a){
-  for(let i = a.length - 1; i > 0; i--){
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
+  for(let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
   return a;
 }
 function buildRandomReel(winnerId, winnerIdx, pool){
@@ -6253,9 +6216,7 @@ async function randomSpin(){
   requestAnimationFrame(frame1);
 }
 function openRandomOverlay(){
-  randomPages = new Set([
-    tab === 'backlog-series' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')
-  ]);
+  randomPages = new Set([tab === 'backlog-series' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')]);
   randomRenderPages();
   randomOverlay.classList.add('open');
   refreshScrollJumpVisibility();
@@ -6291,7 +6252,6 @@ const CAL_ROWS = 6;
 const calAnchor = new Date();
 const calAnchorY = calAnchor.getFullYear();
 const calAnchorM = calAnchor.getMonth() + 1;
-let calViewY = calAnchorY;
 let calViewM = calAnchorM;
 let calendarPages = new Set(REAL_LISTS);
 
@@ -6337,22 +6297,36 @@ function calGamesOn(m, d){
   out.sort((a,b) => b.rd.y - a.rd.y);
   return out;
 }
-function calMonthsFromAnchor(){
-  return (calViewY - calAnchorY) * 12 + (calViewM - calAnchorM);
+function calSizeCells(){
+  if(!calendarStage) return;
+  const stageW = calendarStage.clientWidth;
+  const stageH = calendarStage.clientHeight;
+  if(!stageW || !stageH) return;
+  // reserve: 100px arrows on each side (200 total), 40px padding inside stage
+  const availW = Math.max(280, stageW - 240);
+  // reserve vertical: month name + dow row + padding ≈ 110px
+  const availH = Math.max(200, stageH - 110);
+  const gap = 5; // 0.3rem ≈ 5px
+  const cellW = (availW - 6 * gap) / 7;
+  const cellH = (availH - 5 * gap) / 6;
+  const size = Math.max(40, Math.floor(Math.min(cellW, cellH)));
+  document.documentElement.style.setProperty('--cal-cell-size', size + 'px');
 }
 function calRender(){
   if(!calGrid) return;
   calMonthName.textContent = CAL_MONTHS[calViewM-1];
-  const totalDays = calDaysInMonth(calViewY, calViewM);
-  const leadBlanks = calFirstWeekdayMonFirst(calViewY, calViewM);
-  const todayY = calAnchorY, todayM = calAnchorM, todayD = calAnchor.getDate();
+  const totalDays = calDaysInMonth(calAnchorY, calViewM);
+  const leadBlanks = calFirstWeekdayMonFirst(calAnchorY, calViewM);
+  const todayY = calAnchor.getFullYear();
+  const todayM = calAnchor.getMonth() + 1;
+  const todayD = calAnchor.getDate();
   const cells = [];
   for(let i = 0; i < leadBlanks; i++) cells.push(`<div class="cal-cell blank"></div>`);
 
   for(let d = 1; d <= totalDays; d++){
     const dow = (leadBlanks + d - 1) % 7;
     const isWknd = dow >= 5;
-    const isToday = (calViewY === todayY && calViewM === todayM && d === todayD);
+    const isToday = (calAnchorY === todayY && calViewM === todayM && d === todayD);
     const games = calGamesOn(calViewM, d);
     const hasGame = games.length > 0;
     const cls = ['cal-cell'];
@@ -6373,26 +6347,20 @@ function calRender(){
       ${logoHtml}${countHtml}<div class="cal-cell-day">${d}</div>
     </div>`);
   }
-  // pad to full 6-row grid so month swaps don't move the arrows
   const totalCells = CAL_ROWS * 7;
   while(cells.length < totalCells) cells.push(`<div class="cal-cell blank"></div>`);
-
   calGrid.innerHTML = cells.join('');
   calGrid.querySelectorAll('.cal-cell.has-game').forEach(cell => {
     cell.addEventListener('click', () => {
       const d = +cell.dataset.day;
       const games = calGamesOn(calViewM, d);
       if(games.length === 1){
-        openModalAboveOverlay(games[0].g, tab === 'backlog-series' ? 'backlog-series' : tab);
+        openModalAboveOverlay(games[0].g, tab === 'backlog-series' ? 'backlog-series' : tab, { listOverride: [games[0].g] });
       } else {
         calOpenDayModal(d);
       }
     });
   });
-
-  const off = calMonthsFromAnchor();
-  calPrev.disabled = off <= -12;
-  calNext.disabled = off >= 12;
 }
 function calOpenDayModal(d){
   const games = calGamesOn(calViewM, d);
@@ -6409,24 +6377,25 @@ function calOpenDayModal(d){
       <div class="m-yr">${entry.rd.y}</div>
     </div>`;
   }).join('');
+  const gamesForNav = games.map(e => e.g);
   calDayList.querySelectorAll('.cal-day-row').forEach(row => {
     row.addEventListener('click', () => {
       const gid = row.dataset.id;
       const g = viewGame(gid);
       calCloseDayModal();
-      if(g) openModalAboveOverlay(g, tab === 'backlog-series' ? 'backlog-series' : tab);
+      if(g) openModalAboveOverlay(g, tab === 'backlog-series' ? 'backlog-series' : tab, { listOverride: gamesForNav });
     });
   });
   calDayBackdrop.classList.add('open');
 }
 function calCloseDayModal(){ calDayBackdrop.classList.remove('open'); }
 function openCalendar(){
-  calViewY = calAnchorY;
   calViewM = calAnchorM;
   calRenderPages();
-  calRender();
   calendarOverlay.classList.add('open');
   refreshScrollJumpVisibility();
+  // size after layout settles
+  requestAnimationFrame(() => { calSizeCells(); calRender(); });
 }
 function closeCalendar(){
   calendarOverlay.classList.remove('open');
@@ -6436,21 +6405,21 @@ function closeCalendar(){
 calendarBtn.addEventListener('click', openCalendar);
 calendarClose.addEventListener('click', closeCalendar);
 calPrev.addEventListener('click', () => {
-  if(calPrev.disabled) return;
   calViewM--;
-  if(calViewM < 1){ calViewM = 12; calViewY--; }
+  if(calViewM < 1) calViewM = 12;
   calRender();
 });
 calNext.addEventListener('click', () => {
-  if(calNext.disabled) return;
   calViewM++;
-  if(calViewM > 12){ calViewM = 1; calViewY++; }
+  if(calViewM > 12) calViewM = 1;
   calRender();
 });
 calDayClose.addEventListener('click', calCloseDayModal);
 calDayBackdrop.addEventListener('click', e => { if(e.target === calDayBackdrop) calCloseDayModal(); });
+window.addEventListener('resize', () => {
+  if(calendarOverlay.classList.contains('open')){ calSizeCells(); }
+});
 
-/* ═══ TAB / GROUP SWITCHING ═══ */
 voidBtn.addEventListener('click', () => {
   if(!adminMode){ showTokenPrompt(); return; }
   voidMode = !voidMode;
@@ -6575,10 +6544,16 @@ document.addEventListener('keydown', e => {
   const ae = document.activeElement;
   const isInputFocused = ae && (ae.tagName === 'INPUT' || ae.tagName === 'TEXTAREA' || ae.tagName === 'SELECT' || ae.isContentEditable);
   if(isInputFocused) return;
+  // Game modal arrows first (anywhere it's open)
   const hasGameModal = !!modalSlot.querySelector('.modal');
   if(backdrop.classList.contains('open') && hasGameModal){
-    if(e.key === 'ArrowRight'){ e.preventDefault(); navigateModal(+1); }
-    if(e.key === 'ArrowLeft'){  e.preventDefault(); navigateModal(-1); }
+    if(e.key === 'ArrowRight'){ e.preventDefault(); navigateModal(+1); return; }
+    if(e.key === 'ArrowLeft'){  e.preventDefault(); navigateModal(-1); return; }
+  }
+  // Calendar month nav — only when calendar overlay open and no modal on top
+  if(calendarOverlay.classList.contains('open') && !backdrop.classList.contains('open') && !calDayBackdrop.classList.contains('open')){
+    if(e.key === 'ArrowRight'){ e.preventDefault(); calNext.click(); return; }
+    if(e.key === 'ArrowLeft'){  e.preventDefault(); calPrev.click(); return; }
   }
 });
 contentEl.addEventListener('load', e => { if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded'); }, true);
@@ -6828,7 +6803,6 @@ const gtgState = { diff:'medium', score:0, heartsLeft:3, busy:false, over:false,
 function gtgPad4(n){ return String(Math.max(0, n|0)).padStart(4, '0'); }
 function gtgGet(k, fb){ try{ const v = localStorage.getItem(k); return v ? parseInt(v,10)||0 : (fb||0);}catch(e){ return fb||0; } }
 function gtgSet(k, v){ try{ localStorage.setItem(k, String(v)); }catch(e){} }
-
 function gtgPool(){
   const pool = [];
   for(const id of Object.keys(MANIFEST.games)){
@@ -7163,7 +7137,6 @@ const driftNewHighEl = driftOverlay.querySelector('[data-drift-newhigh]');
 const driftLastEl = driftOverlay.querySelector('[data-drift-last]');
 const driftTopEl = driftOverlay.querySelector('[data-drift-top]');
 const driftPeekBtn = driftOverlay.querySelector('[data-drift-peek]');
-
 const DRIFT_HP = 3;
 const DRIFT_MULT = { easy: 0.8, medium: 1.0, hard: 1.3 };
 const DRIFT_BANDS = ['easy', 'medium', 'hard'];
@@ -7171,7 +7144,6 @@ const DRIFT_LAST_KEY = 'drift_last_v1';
 const DRIFT_TOP_KEY = 'drift_top_v1';
 const DRIFT_NARROW_STREAK = 5;
 const DRIFT_PEEK_EVERY = 5;
-
 const DRIFT_QUESTIONS = [
   { key:'hltb', prompt:'WHICH IS LONGER?', unit:'hrs', minValue:1, ratioBands:true, higherWins:true,
     getValue: g => { const m = hltbToParts(g.hltb); return (m.main && /^\d/.test(m.main)) ? parseFloat(m.main) : null; },
@@ -7183,7 +7155,6 @@ const DRIFT_QUESTIONS = [
     getValue: g => { const y = extractYear(g.release || g.ea_release); return y ? parseInt(y, 10) : null; },
     bands: { easy:[8, Infinity], medium:[3, 8], hard:[1, 2] } }
 ];
-
 const driftState = { bandIndex:0, hpLeft:3, score:0, busy:false, over:false, current:null, lastWinnerId:null, lastQuestionKey:null, correctStreak:0, duosPlayed:0, peekAvailable:false, peekUsedThisRound:false };
 function driftGet(k, fb){ try{ const v = localStorage.getItem(k); return v ? parseInt(v,10)||0 : (fb||0);}catch(e){ return fb||0; } }
 function driftSet(k, v){ try{ localStorage.setItem(k, String(v)); }catch(e){} }
