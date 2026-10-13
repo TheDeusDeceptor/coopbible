@@ -1,0 +1,59 @@
+{
+  "id": "world-war-z-2021-pc",
+  "name": "World War Z",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 10, +Extra: 19",
+  "dev": "Saber Interactive",
+  "pub": "Saber Interactive",
+  "notes": "",
+  "release": "21.09.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/world-war-z-2021-pc.jpg",
+  "logo": "images/logos/world-war-z-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/699130",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/World_War_Z",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Aftermath",
+      "played": true
+    },
+    {
+      "name": "Marseille Episode",
+      "played": true
+    },
+    {
+      "name": "Valley of the Zeke Episode",
+      "played": true
+    },
+    {
+      "name": "Las Vegas Episode",
+      "played": true
+    },
+    {
+      "name": "The Walking Dead",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

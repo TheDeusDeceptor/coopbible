@@ -1,0 +1,38 @@
+{
+  "id": "watchmen-the-end-is-nigh-part-2-2009-pc",
+  "name": "Watchmen: The End is Nigh Part 2",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Deadline Games",
+  "pub": "Warner Bros. Games",
+  "notes": "",
+  "release": "29.07.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/watchmen-the-end-is-nigh-part-2-2009-pc.jpg",
+  "logo": "images/logos/watchmen-the-end-is-nigh-part-2-2009-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/21030",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Watchmen%3A_The_End_is_Nigh_Part_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

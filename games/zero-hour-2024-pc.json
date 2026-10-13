@@ -1,0 +1,38 @@
+{
+  "id": "zero-hour-2024-pc",
+  "name": "Zero Hour",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 13",
+  "dev": "AttritoM7 Productions",
+  "pub": "AttritoM7 Productions",
+  "notes": "",
+  "release": "09.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zero-hour-2024-pc.jpg",
+  "logo": "images/logos/zero-hour-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1359090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Zero_Hour",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

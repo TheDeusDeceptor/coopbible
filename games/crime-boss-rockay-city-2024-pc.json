@@ -1,0 +1,38 @@
+{
+  "id": "crime-boss-rockay-city-2024-pc",
+  "name": "Crime Boss: Rockay City",
+  "platform": "PC",
+  "size": "90 GB",
+  "hltb": "Main: 12, +Extra: 18",
+  "dev": "Ingame Studios",
+  "pub": "505 Games",
+  "notes": "",
+  "release": "18.06.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/crime-boss-rockay-city-2024-pc.jpg",
+  "logo": "images/logos/crime-boss-rockay-city-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2933080",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Crime_Boss%3A_Rockay_City",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

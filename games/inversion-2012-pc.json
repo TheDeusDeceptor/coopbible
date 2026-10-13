@@ -1,0 +1,33 @@
+{
+  "id": "inversion-2012-pc",
+  "name": "Inversion",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Saber Interactive",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "release": "26.07.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/inversion-2012-pc.jpg",
+  "logo": "images/logos/inversion-2012-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/212410",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12T23:15:30Z",
+  "updated": "2026-10-13T13:50:43Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -30776,6 +30776,326 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "crime-boss-rockay-city-2024-pc": {
+      "id": "crime-boss-rockay-city-2024-pc",
+      "name": "Crime Boss: Rockay City",
+      "platform": "PC",
+      "size": "90 GB",
+      "hltb": "Main: 12, +Extra: 18",
+      "dev": "Ingame Studios",
+      "pub": "505 Games",
+      "notes": "",
+      "release": "18.06.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/crime-boss-rockay-city-2024-pc.jpg",
+      "logo": "images/logos/crime-boss-rockay-city-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2933080",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Crime_Boss%3A_Rockay_City",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "satisfactory-2024-pc": {
+      "id": "satisfactory-2024-pc",
+      "name": "Satisfactory",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 107, +Extra: 146",
+      "dev": "Coffee Stain Studios",
+      "pub": "Coffee Stain Publishing",
+      "notes": "",
+      "release": "10.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/satisfactory-2024-pc.jpg",
+      "logo": "images/logos/satisfactory-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/526870",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Satisfactory",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "inversion-2012-pc": {
+      "id": "inversion-2012-pc",
+      "name": "Inversion",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "Saber Interactive",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "26.07.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/inversion-2012-pc.jpg",
+      "logo": "images/logos/inversion-2012-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/212410",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "world-war-z-2021-pc": {
+      "id": "world-war-z-2021-pc",
+      "name": "World War Z",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 10, +Extra: 19",
+      "dev": "Saber Interactive",
+      "pub": "Saber Interactive",
+      "notes": "",
+      "release": "21.09.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/world-war-z-2021-pc.jpg",
+      "logo": "images/logos/world-war-z-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/699130",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/World_War_Z",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Aftermath",
+          "played": true
+        },
+        {
+          "name": "Marseille Episode",
+          "played": true
+        },
+        {
+          "name": "Valley of the Zeke Episode",
+          "played": true
+        },
+        {
+          "name": "Las Vegas Episode",
+          "played": true
+        },
+        {
+          "name": "The Walking Dead",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "redfall-2023-pc": {
+      "id": "redfall-2023-pc",
+      "name": "Redfall",
+      "platform": "PC",
+      "size": "100 GB",
+      "hltb": "Main: 12, +Extra: 20",
+      "dev": "Arkane Austin",
+      "pub": "Bethesda Softworks",
+      "notes": "",
+      "release": "01.05.2023",
+      "ea_release": "",
+      "screenshot": "https://images.squarespace-cdn.com/content/v1/59a2574903596e3462d0bd19/1687116552271-4WC26R1TYF49NLP5VZAR/Redfall+%2810%29.jpg",
+      "logo": "images/logos/redfall-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1294810",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Redfall",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": true
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "zero-hour-2024-pc": {
+      "id": "zero-hour-2024-pc",
+      "name": "Zero Hour",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 13",
+      "dev": "AttritoM7 Productions",
+      "pub": "AttritoM7 Productions",
+      "notes": "",
+      "release": "09.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/zero-hour-2024-pc.jpg",
+      "logo": "images/logos/zero-hour-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1359090",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Zero_Hour",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "watchmen-the-end-is-nigh-2009-pc": {
+      "id": "watchmen-the-end-is-nigh-2009-pc",
+      "name": "Watchmen: The End is Nigh",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Deadline Games",
+      "pub": "Warner Bros. Games",
+      "notes": "",
+      "release": "04.03.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/watchmen-the-end-is-nigh-2009-pc.jpg",
+      "logo": "images/logos/watchmen-the-end-is-nigh-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/21010",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Watchmen%3A_The_End_is_Nigh",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "watchmen-the-end-is-nigh-part-2-2009-pc": {
+      "id": "watchmen-the-end-is-nigh-part-2-2009-pc",
+      "name": "Watchmen: The End is Nigh Part 2",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Deadline Games",
+      "pub": "Warner Bros. Games",
+      "notes": "",
+      "release": "29.07.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/watchmen-the-end-is-nigh-part-2-2009-pc.jpg",
+      "logo": "images/logos/watchmen-the-end-is-nigh-part-2-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/21030",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Watchmen%3A_The_End_is_Nigh_Part_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -31275,7 +31595,8 @@
       "aliens-fireteam-elite-2-2026-pc",
       "generation-zero-2019-pc",
       "webfishing-2024-pc",
-      "sos-ops-2023-pc"
+      "sos-ops-2023-pc",
+      "crime-boss-rockay-city-2024-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -31505,6 +31826,14 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "watchmen-the-end-is-nigh-part-2-2009-pc",
+      "watchmen-the-end-is-nigh-2009-pc",
+      "zero-hour-2024-pc",
+      "redfall-2023-pc",
+      "world-war-z-2021-pc",
+      "inversion-2012-pc",
+      "satisfactory-2024-pc",
+      "nuclear-nightmare-2024-pc",
       "the-lord-of-the-rings-return-to-moria-2023-pc",
       "the-devourer-hunted-souls-2023-pc",
       "payday-3-2023-pc",

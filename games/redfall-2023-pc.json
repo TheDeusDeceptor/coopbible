@@ -1,0 +1,38 @@
+{
+  "id": "redfall-2023-pc",
+  "name": "Redfall",
+  "platform": "PC",
+  "size": "100 GB",
+  "hltb": "Main: 12, +Extra: 20",
+  "dev": "Arkane Austin",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "release": "01.05.2023",
+  "ea_release": "",
+  "screenshot": "https://images.squarespace-cdn.com/content/v1/59a2574903596e3462d0bd19/1687116552271-4WC26R1TYF49NLP5VZAR/Redfall+%2810%29.jpg",
+  "logo": "images/logos/redfall-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1294810",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Redfall",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": true
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "satisfactory-2024-pc",
+  "name": "Satisfactory",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 107, +Extra: 146",
+  "dev": "Coffee Stain Studios",
+  "pub": "Coffee Stain Publishing",
+  "notes": "",
+  "release": "10.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/satisfactory-2024-pc.jpg",
+  "logo": "images/logos/satisfactory-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/526870",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Satisfactory",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
