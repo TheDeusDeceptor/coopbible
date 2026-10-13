@@ -1,0 +1,38 @@
+{
+  "id": "mercenary-kings-reloaded-edition-2014-pc",
+  "name": "Mercenary Kings: Reloaded Edition",
+  "platform": "PC",
+  "size": "0.3 GB",
+  "hltb": "Main: 20, +Extra: 36",
+  "dev": "Tribute Games",
+  "pub": "Tribute Games",
+  "notes": "",
+  "release": "25.03.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/mercenary-kings-reloaded-edition-2014-pc.jpg",
+  "logo": "images/logos/mercenary-kings-reloaded-edition-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/218820",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Mercenary_Kings%3A_Reloaded_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

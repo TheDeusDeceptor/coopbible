@@ -1,0 +1,38 @@
+{
+  "id": "pratfall-2026-pc",
+  "name": "Pratfall",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 5",
+  "dev": "Quad Head",
+  "pub": "Quad Head",
+  "notes": "",
+  "release": "20.04.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/pratfall-2026-pc.jpg",
+  "logo": "images/logos/pratfall-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4244510",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Pratfall",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

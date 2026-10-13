@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-13T20:36:49Z",
+  "updated": "2026-10-13T21:02:21Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -32810,6 +32810,447 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "hammerwatch-anniversary-edition-2023-pc": {
+      "id": "hammerwatch-anniversary-edition-2023-pc",
+      "name": "Hammerwatch Anniversary Edition",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 33",
+      "dev": "Crackshell",
+      "pub": "Maximum Entertainment",
+      "notes": "",
+      "release": "15.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hammerwatch-anniversary-edition-2023-pc.jpg",
+      "logo": "images/logos/hammerwatch-anniversary-edition-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1905530",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "battletoads-2020-pc": {
+      "id": "battletoads-2020-pc",
+      "name": "Battletoads",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 4, +Extra: 5",
+      "dev": "Dlala Studios, Rare",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "20.08.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/battletoads-2020-pc.jpg",
+      "logo": "images/logos/battletoads-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1244950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Battletoads",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "atlas-fallen-reign-of-sand-2023-pc": {
+      "id": "atlas-fallen-reign-of-sand-2023-pc",
+      "name": "Atlas Fallen: Reign Of Sand",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 11, +Extra: 19",
+      "dev": "Deck13",
+      "pub": "Focus Entertainment",
+      "notes": "",
+      "release": "10.08.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/atlas-fallen-reign-of-sand-2023-pc.jpg",
+      "logo": "images/logos/atlas-fallen-reign-of-sand-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1230530",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Atlas_Fallen",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mercenary-kings-reloaded-edition-2014-pc": {
+      "id": "mercenary-kings-reloaded-edition-2014-pc",
+      "name": "Mercenary Kings: Reloaded Edition",
+      "platform": "PC",
+      "size": "0.3 GB",
+      "hltb": "Main: 20, +Extra: 36",
+      "dev": "Tribute Games",
+      "pub": "Tribute Games",
+      "notes": "",
+      "release": "25.03.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mercenary-kings-reloaded-edition-2014-pc.jpg",
+      "logo": "images/logos/mercenary-kings-reloaded-edition-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/218820",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Mercenary_Kings%3A_Reloaded_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "palworld-2026-pc": {
+      "id": "palworld-2026-pc",
+      "name": "Palworld",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 63, +Extra: 102",
+      "dev": "Pocketpair",
+      "pub": "Pocketpair",
+      "notes": "",
+      "release": "09.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/palworld-2026-pc.jpg",
+      "logo": "images/logos/palworld-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1623730",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Palworld",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "happy-s-humble-burger-cult-2026-pc": {
+      "id": "happy-s-humble-burger-cult-2026-pc",
+      "name": "Happy's Humble Burger Cult",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "—",
+      "dev": "Scythe Dev Team",
+      "pub": "tinyBuild",
+      "notes": "",
+      "release": "16.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/happy-s-humble-burger-cult-2026-pc.jpg",
+      "logo": "images/logos/happy-s-humble-burger-cult-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3453910",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "fears-to-fathom-scratch-creek-2026-pc": {
+      "id": "fears-to-fathom-scratch-creek-2026-pc",
+      "name": "Fears to Fathom: Scratch Creek",
+      "platform": "PC",
+      "size": "14 GB",
+      "hltb": "Main: 3",
+      "dev": "Rayll",
+      "pub": "Rayll Studios",
+      "notes": "",
+      "release": "10.06.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/fears-to-fathom-scratch-creek-2026-pc.jpg",
+      "logo": "images/logos/fears-to-fathom-scratch-creek-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4121170",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Fears_to_Fathom%3A_Scratch_Creek",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "big-walk-2026-pc": {
+      "id": "big-walk-2026-pc",
+      "name": "Big Walk",
+      "platform": "PC",
+      "size": "3.1 GB",
+      "hltb": "Main: 11, +Extra: 12",
+      "dev": "House House",
+      "pub": "Panic",
+      "notes": "",
+      "release": "04.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/big-walk-2026-pc.jpg",
+      "logo": "images/logos/big-walk-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1478500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Big_Walk",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "shift-at-midnight-2026-pc": {
+      "id": "shift-at-midnight-2026-pc",
+      "name": "Shift At Midnight",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Bun Muen",
+      "pub": "Kwalee",
+      "notes": "",
+      "release": "22.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shift-at-midnight-2026-pc.jpg",
+      "logo": "images/logos/shift-at-midnight-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3722330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Shift_At_Midnight",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "how-to-fish-2026-pc": {
+      "id": "how-to-fish-2026-pc",
+      "name": "How to Fish",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 5, +Extra: 7",
+      "dev": "Dazed Games",
+      "pub": "Dazed Games",
+      "notes": "",
+      "release": "20.08.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/how-to-fish-2026-pc.jpg",
+      "logo": "images/logos/how-to-fish-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4001890",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/How_to_Fish",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "gamble-with-your-friends-2026-pc": {
+      "id": "gamble-with-your-friends-2026-pc",
+      "name": "Gamble With Your Friends",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 4, +Extra: 8",
+      "dev": "TEAM GWYF",
+      "pub": "TENSTACK",
+      "notes": "",
+      "release": "01.05.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gamble-with-your-friends-2026-pc.jpg",
+      "logo": "images/logos/gamble-with-your-friends-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3892270",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pratfall-2026-pc": {
+      "id": "pratfall-2026-pc",
+      "name": "Pratfall",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 5",
+      "dev": "Quad Head",
+      "pub": "Quad Head",
+      "notes": "",
+      "release": "20.04.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/pratfall-2026-pc.jpg",
+      "logo": "images/logos/pratfall-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4244510",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Pratfall",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -33540,6 +33981,18 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "pratfall-2026-pc",
+      "gamble-with-your-friends-2026-pc",
+      "how-to-fish-2026-pc",
+      "shift-at-midnight-2026-pc",
+      "big-walk-2026-pc",
+      "fears-to-fathom-scratch-creek-2026-pc",
+      "happy-s-humble-burger-cult-2026-pc",
+      "palworld-2026-pc",
+      "mercenary-kings-reloaded-edition-2014-pc",
+      "atlas-fallen-reign-of-sand-2023-pc",
+      "battletoads-2020-pc",
+      "hammerwatch-anniversary-edition-2023-pc",
       "tom-clancy-s-ghost-recon-future-soldier-2012-pc",
       "resident-evil-outbreak-file-2-2004-ps2",
       "resident-evil-outbreak-2003-ps2",

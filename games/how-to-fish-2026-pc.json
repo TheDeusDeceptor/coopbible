@@ -1,0 +1,38 @@
+{
+  "id": "how-to-fish-2026-pc",
+  "name": "How to Fish",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 5, +Extra: 7",
+  "dev": "Dazed Games",
+  "pub": "Dazed Games",
+  "notes": "",
+  "release": "20.08.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/how-to-fish-2026-pc.jpg",
+  "logo": "images/logos/how-to-fish-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4001890",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/How_to_Fish",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

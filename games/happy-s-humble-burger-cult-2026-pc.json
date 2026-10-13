@@ -1,0 +1,33 @@
+{
+  "id": "happy-s-humble-burger-cult-2026-pc",
+  "name": "Happy's Humble Burger Cult",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "—",
+  "dev": "Scythe Dev Team",
+  "pub": "tinyBuild",
+  "notes": "",
+  "release": "16.07.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/happy-s-humble-burger-cult-2026-pc.jpg",
+  "logo": "images/logos/happy-s-humble-burger-cult-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3453910",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

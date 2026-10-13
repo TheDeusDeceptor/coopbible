@@ -1,0 +1,38 @@
+{
+  "id": "palworld-2026-pc",
+  "name": "Palworld",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "Main: 63, +Extra: 102",
+  "dev": "Pocketpair",
+  "pub": "Pocketpair",
+  "notes": "",
+  "release": "09.07.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/palworld-2026-pc.jpg",
+  "logo": "images/logos/palworld-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1623730",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Palworld",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

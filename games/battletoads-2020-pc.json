@@ -1,0 +1,38 @@
+{
+  "id": "battletoads-2020-pc",
+  "name": "Battletoads",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Dlala Studios, Rare",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "20.08.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/battletoads-2020-pc.jpg",
+  "logo": "images/logos/battletoads-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1244950",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Battletoads",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

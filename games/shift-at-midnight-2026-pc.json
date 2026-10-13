@@ -1,0 +1,38 @@
+{
+  "id": "shift-at-midnight-2026-pc",
+  "name": "Shift At Midnight",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Bun Muen",
+  "pub": "Kwalee",
+  "notes": "",
+  "release": "22.07.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shift-at-midnight-2026-pc.jpg",
+  "logo": "images/logos/shift-at-midnight-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3722330",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shift_At_Midnight",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

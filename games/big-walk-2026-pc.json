@@ -1,0 +1,38 @@
+{
+  "id": "big-walk-2026-pc",
+  "name": "Big Walk",
+  "platform": "PC",
+  "size": "3.1 GB",
+  "hltb": "Main: 11, +Extra: 12",
+  "dev": "House House",
+  "pub": "Panic",
+  "notes": "",
+  "release": "04.08.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/big-walk-2026-pc.jpg",
+  "logo": "images/logos/big-walk-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1478500",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Big_Walk",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
