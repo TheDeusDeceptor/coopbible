@@ -1,0 +1,38 @@
+{
+  "id": "darksiders-genesis-2019-pc",
+  "name": "Darksiders Genesis",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 14, +Extra: 20",
+  "dev": "Airship Syndicate",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "05.12.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/darksiders-genesis-2019-pc.jpg",
+  "logo": "images/logos/darksiders-genesis-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/710920",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Darksiders%3A_Genesis",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

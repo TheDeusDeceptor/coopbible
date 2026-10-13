@@ -1,0 +1,38 @@
+{
+  "id": "tiny-tina-s-wonderlands-2022-pc",
+  "name": "Tiny Tina's Wonderlands",
+  "platform": "PC",
+  "size": "75 GB",
+  "hltb": "Main: 16, +Extra: 29",
+  "dev": "Gearbox Software",
+  "pub": "2K",
+  "notes": "",
+  "release": "23.06.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tiny-tina-s-wonderlands-2022-pc.jpg",
+  "logo": "images/logos/tiny-tina-s-wonderlands-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1286680",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tiny_Tina's_Wonderlands",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

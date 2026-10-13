@@ -1,0 +1,38 @@
+{
+  "id": "core-keeper-2024-pc",
+  "name": "Core Keeper",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 37, +Extra: 51",
+  "dev": "Pugstorm",
+  "pub": "Fireshine Games",
+  "notes": "",
+  "release": "27.08.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/core-keeper-2024-pc.jpg",
+  "logo": "images/logos/core-keeper-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1621690",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Core_Keeper",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

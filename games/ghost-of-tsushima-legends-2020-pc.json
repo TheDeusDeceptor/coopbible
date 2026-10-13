@@ -1,0 +1,33 @@
+{
+  "id": "ghost-of-tsushima-legends-2020-pc",
+  "name": "Ghost of Tsushima: Legends",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Sucker Punch Productions, Nixxes Software",
+  "pub": "PlayStation Publishing LLC",
+  "notes": "",
+  "release": "16.10.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ghost-of-tsushima-legends-2020-pc.jpg",
+  "logo": "images/logos/ghost-of-tsushima-legends-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3929730",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-13T18:04:43Z",
+  "updated": "2026-10-13T18:55:51Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -31298,6 +31298,398 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "sengoku-dynasty-2024-pc": {
+      "id": "sengoku-dynasty-2024-pc",
+      "name": "Sengoku Dynasty",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 28, +Extra: 68",
+      "dev": "Superkami",
+      "pub": "Toplitz Productions",
+      "notes": "",
+      "release": "07.11.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sengoku-dynasty-2024-pc.jpg",
+      "logo": "images/logos/sengoku-dynasty-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1702010",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sengoku_Dynasty",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ghost-of-tsushima-legends-2020-pc": {
+      "id": "ghost-of-tsushima-legends-2020-pc",
+      "name": "Ghost of Tsushima: Legends",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Sucker Punch Productions, Nixxes Software",
+      "pub": "PlayStation Publishing LLC",
+      "notes": "",
+      "release": "16.10.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ghost-of-tsushima-legends-2020-pc.jpg",
+      "logo": "images/logos/ghost-of-tsushima-legends-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3929730",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "core-keeper-2024-pc": {
+      "id": "core-keeper-2024-pc",
+      "name": "Core Keeper",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 37, +Extra: 51",
+      "dev": "Pugstorm",
+      "pub": "Fireshine Games",
+      "notes": "",
+      "release": "27.08.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/core-keeper-2024-pc.jpg",
+      "logo": "images/logos/core-keeper-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1621690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Core_Keeper",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "raft-2022-pc": {
+      "id": "raft-2022-pc",
+      "name": "Raft",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 25, +Extra: 36",
+      "dev": "Redbeet Interactive",
+      "pub": "Axolot Games",
+      "notes": "",
+      "release": "20.06.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/raft-2022-pc.jpg",
+      "logo": "images/logos/raft-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/648800",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Raft",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "lords-of-the-fallen-2023-pc": {
+      "id": "lords-of-the-fallen-2023-pc",
+      "name": "Lords of the Fallen",
+      "platform": "PC",
+      "size": "45 GB",
+      "hltb": "Main: 28, +Extra: 42",
+      "dev": "CI Games",
+      "pub": "CI Games",
+      "notes": "",
+      "release": "13.10.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lords-of-the-fallen-2023-pc.jpg",
+      "logo": "images/logos/lords-of-the-fallen-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1501750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Lords_of_the_Fallen",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "v-rising-2024-pc": {
+      "id": "v-rising-2024-pc",
+      "name": "V Rising",
+      "platform": "PC",
+      "size": "19 GB",
+      "hltb": "Main: 47, +Extra: 64",
+      "dev": "Stunlock Studios",
+      "pub": "Stunlock Studios",
+      "notes": "",
+      "release": "08.05.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/v-rising-2024-pc.jpg",
+      "logo": "images/logos/v-rising-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1604030",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/V_Rising",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "abiotic-factor-2025-pc": {
+      "id": "abiotic-factor-2025-pc",
+      "name": "Abiotic Factor",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 42, +Extra: 75",
+      "dev": "Deep Field Games",
+      "pub": "Playstack",
+      "notes": "",
+      "release": "22.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/abiotic-factor-2025-pc.jpg",
+      "logo": "images/logos/abiotic-factor-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/427410",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Abiotic_Factor",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tiny-tina-s-wonderlands-2022-pc": {
+      "id": "tiny-tina-s-wonderlands-2022-pc",
+      "name": "Tiny Tina's Wonderlands",
+      "platform": "PC",
+      "size": "75 GB",
+      "hltb": "Main: 16, +Extra: 29",
+      "dev": "Gearbox Software",
+      "pub": "2K",
+      "notes": "",
+      "release": "23.06.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tiny-tina-s-wonderlands-2022-pc.jpg",
+      "logo": "images/logos/tiny-tina-s-wonderlands-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1286680",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tiny_Tina's_Wonderlands",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "darksiders-genesis-2019-pc": {
+      "id": "darksiders-genesis-2019-pc",
+      "name": "Darksiders Genesis",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 14, +Extra: 20",
+      "dev": "Airship Syndicate",
+      "pub": "THQ Nordic",
+      "notes": "",
+      "release": "05.12.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/darksiders-genesis-2019-pc.jpg",
+      "logo": "images/logos/darksiders-genesis-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/710920",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Darksiders%3A_Genesis",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "borderlands-game-of-the-year-enhanced-2019-pc": {
+      "id": "borderlands-game-of-the-year-enhanced-2019-pc",
+      "name": "Borderlands Game of the Year Enhanced",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 21, +Extra: 36",
+      "dev": "Gearbox Software, Blind Squirrel Games",
+      "pub": "2K Games",
+      "notes": "",
+      "release": "03.04.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/borderlands-game-of-the-year-enhanced-2019-pc.jpg",
+      "logo": "images/logos/borderlands-game-of-the-year-enhanced-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/729040",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Borderlands%3A_Game_of_the_Year_Enhanced",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The Zombie Island of Dr. Ned",
+          "played": true
+        },
+        {
+          "name": "Mad Moxxi's Underdome Riot",
+          "played": true
+        },
+        {
+          "name": "The Secret Armory of General Knoxx",
+          "played": true
+        },
+        {
+          "name": "Claptrap's New Robot Revolution",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -32028,6 +32420,16 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "borderlands-game-of-the-year-enhanced-2019-pc",
+      "darksiders-genesis-2019-pc",
+      "tiny-tina-s-wonderlands-2022-pc",
+      "abiotic-factor-2025-pc",
+      "v-rising-2024-pc",
+      "lords-of-the-fallen-2023-pc",
+      "raft-2022-pc",
+      "core-keeper-2024-pc",
+      "ghost-of-tsushima-legends-2020-pc",
+      "sengoku-dynasty-2024-pc",
       "r-e-p-o-2025-pc",
       "peak-2025-pc",
       "house-flipper-2-2023-pc",

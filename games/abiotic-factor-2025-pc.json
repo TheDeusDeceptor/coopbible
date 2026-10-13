@@ -1,0 +1,38 @@
+{
+  "id": "abiotic-factor-2025-pc",
+  "name": "Abiotic Factor",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 42, +Extra: 75",
+  "dev": "Deep Field Games",
+  "pub": "Playstack",
+  "notes": "",
+  "release": "22.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/abiotic-factor-2025-pc.jpg",
+  "logo": "images/logos/abiotic-factor-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/427410",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Abiotic_Factor",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

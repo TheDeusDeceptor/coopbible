@@ -1,0 +1,55 @@
+{
+  "id": "borderlands-game-of-the-year-enhanced-2019-pc",
+  "name": "Borderlands Game of the Year Enhanced",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 21, +Extra: 36",
+  "dev": "Gearbox Software, Blind Squirrel Games",
+  "pub": "2K Games",
+  "notes": "",
+  "release": "03.04.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/borderlands-game-of-the-year-enhanced-2019-pc.jpg",
+  "logo": "images/logos/borderlands-game-of-the-year-enhanced-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/729040",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Borderlands%3A_Game_of_the_Year_Enhanced",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "The Zombie Island of Dr. Ned",
+      "played": true
+    },
+    {
+      "name": "Mad Moxxi's Underdome Riot",
+      "played": true
+    },
+    {
+      "name": "The Secret Armory of General Knoxx",
+      "played": true
+    },
+    {
+      "name": "Claptrap's New Robot Revolution",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "lords-of-the-fallen-2023-pc",
+  "name": "Lords of the Fallen",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 28, +Extra: 42",
+  "dev": "CI Games",
+  "pub": "CI Games",
+  "notes": "",
+  "release": "13.10.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lords-of-the-fallen-2023-pc.jpg",
+  "logo": "images/logos/lords-of-the-fallen-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1501750",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Lords_of_the_Fallen",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

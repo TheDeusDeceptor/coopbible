@@ -1,0 +1,38 @@
+{
+  "id": "raft-2022-pc",
+  "name": "Raft",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 25, +Extra: 36",
+  "dev": "Redbeet Interactive",
+  "pub": "Axolot Games",
+  "notes": "",
+  "release": "20.06.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/raft-2022-pc.jpg",
+  "logo": "images/logos/raft-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/648800",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Raft",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

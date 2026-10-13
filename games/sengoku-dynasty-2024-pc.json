@@ -1,0 +1,38 @@
+{
+  "id": "sengoku-dynasty-2024-pc",
+  "name": "Sengoku Dynasty",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 28, +Extra: 68",
+  "dev": "Superkami",
+  "pub": "Toplitz Productions",
+  "notes": "",
+  "release": "07.11.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sengoku-dynasty-2024-pc.jpg",
+  "logo": "images/logos/sengoku-dynasty-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1702010",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sengoku_Dynasty",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
