@@ -1,0 +1,47 @@
+{
+  "id": "rv-there-yet-2025-pc",
+  "name": "RV There Yet?",
+  "platform": "PC",
+  "size": "3.1 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Nuggets Entertainment",
+  "pub": "Nuggets Entertainment",
+  "notes": "",
+  "release": "21.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rv-there-yet-2025-pc.jpg",
+  "logo": "images/logos/rv-there-yet-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3949040",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/RV_There_Yet%3F",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Mt. Yurbuttsk",
+      "played": true
+    },
+    {
+      "name": "St. Búttin Bay",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

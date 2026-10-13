@@ -1,0 +1,47 @@
+{
+  "id": "little-nightmares-iii-2025-pc",
+  "name": "Little Nightmares III",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 6",
+  "dev": "Supermassive Games",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "release": "09.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/little-nightmares-iii-2025-pc.jpg",
+  "logo": "images/logos/little-nightmares-iii-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1392860",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Little_Nightmares_III",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "The Backstage",
+      "played": true
+    },
+    {
+      "name": "The Shores",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

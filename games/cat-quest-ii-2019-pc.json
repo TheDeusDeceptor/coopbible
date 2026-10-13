@@ -1,0 +1,38 @@
+{
+  "id": "cat-quest-ii-2019-pc",
+  "name": "Cat Quest II",
+  "platform": "PC",
+  "size": "0.6 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "The Gentlebros",
+  "pub": "Kepler Interactive",
+  "notes": "",
+  "release": "24.09.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cat-quest-ii-2019-pc.jpg",
+  "logo": "images/logos/cat-quest-ii-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/914710",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Cat_Quest_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

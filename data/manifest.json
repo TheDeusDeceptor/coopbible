@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-13T18:55:51Z",
+  "updated": "2026-10-13T19:11:29Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -31690,6 +31690,252 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "brazilian-drug-dealer-3-i-opened-a-portal-to-hell-in-the-favela-trying-to-revive-mit-aia-i-need-to-close-it-2025-pc": {
+      "id": "brazilian-drug-dealer-3-i-opened-a-portal-to-hell-in-the-favela-trying-to-revive-mit-aia-i-need-to-close-it-2025-pc",
+      "name": "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT",
+      "platform": "PC",
+      "size": "0.7 GB",
+      "hltb": "Main: 3, +Extra: 4",
+      "dev": "Joeveno",
+      "pub": "Joeveno",
+      "notes": "",
+      "release": "17.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/brazilian-drug-dealer-3-i-opened-a-portal-to-hell-in-the-favela-trying-to-revive-mit-aia-i-need-to-close-it-2025-pc.jpg",
+      "logo": "images/logos/brazilian-drug-dealer-3-i-opened-a-portal-to-hell-in-the-favela-trying-to-revive-mit-aia-i-need-to-close-it-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3191050",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/BRAZILIAN_DRUG_DEALER_3%3A_I_OPENED_A_PORTAL_TO_HELL_IN_THE_FAVELA_TRYING_TO_REVIVE_MIT_AIA_I_NEED_TO_CLOSE_IT",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "little-nightmares-iii-2025-pc": {
+      "id": "little-nightmares-iii-2025-pc",
+      "name": "Little Nightmares III",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 6",
+      "dev": "Supermassive Games",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "09.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/little-nightmares-iii-2025-pc.jpg",
+      "logo": "images/logos/little-nightmares-iii-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1392860",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Little_Nightmares_III",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "The Backstage",
+          "played": true
+        },
+        {
+          "name": "The Shores",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "necesse-2025-pc": {
+      "id": "necesse-2025-pc",
+      "name": "Necesse",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 24, +Extra: 39",
+      "dev": "Fair Games ApS",
+      "pub": "Fair Games ApS",
+      "notes": "",
+      "release": "16.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/necesse-2025-pc.jpg",
+      "logo": "images/logos/necesse-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1169040",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Necesse",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rv-there-yet-2025-pc": {
+      "id": "rv-there-yet-2025-pc",
+      "name": "RV There Yet?",
+      "platform": "PC",
+      "size": "3.1 GB",
+      "hltb": "Main: 9, +Extra: 12",
+      "dev": "Nuggets Entertainment",
+      "pub": "Nuggets Entertainment",
+      "notes": "",
+      "release": "21.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rv-there-yet-2025-pc.jpg",
+      "logo": "images/logos/rv-there-yet-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3949040",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/RV_There_Yet%3F",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Mt. Yurbuttsk",
+          "played": true
+        },
+        {
+          "name": "St. Búttin Bay",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sun-haven-2023-pc": {
+      "id": "sun-haven-2023-pc",
+      "name": "Sun Haven",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 44, +Extra: 72",
+      "dev": "Pixel Sprout Studios",
+      "pub": "Pixel Sprout Studios",
+      "notes": "",
+      "release": "10.03.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sun-haven-2023-pc.jpg",
+      "logo": "images/logos/sun-haven-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1432860",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sun_Haven",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cat-quest-ii-2019-pc": {
+      "id": "cat-quest-ii-2019-pc",
+      "name": "Cat Quest II",
+      "platform": "PC",
+      "size": "0.6 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "The Gentlebros",
+      "pub": "Kepler Interactive",
+      "notes": "",
+      "release": "24.09.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cat-quest-ii-2019-pc.jpg",
+      "logo": "images/logos/cat-quest-ii-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/914710",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Cat_Quest_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -32420,6 +32666,12 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "cat-quest-ii-2019-pc",
+      "sun-haven-2023-pc",
+      "rv-there-yet-2025-pc",
+      "necesse-2025-pc",
+      "little-nightmares-iii-2025-pc",
+      "brazilian-drug-dealer-3-i-opened-a-portal-to-hell-in-the-favela-trying-to-revive-mit-aia-i-need-to-close-it-2025-pc",
       "borderlands-game-of-the-year-enhanced-2019-pc",
       "darksiders-genesis-2019-pc",
       "tiny-tina-s-wonderlands-2022-pc",

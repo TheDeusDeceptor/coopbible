@@ -1,0 +1,38 @@
+{
+  "id": "sun-haven-2023-pc",
+  "name": "Sun Haven",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 44, +Extra: 72",
+  "dev": "Pixel Sprout Studios",
+  "pub": "Pixel Sprout Studios",
+  "notes": "",
+  "release": "10.03.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sun-haven-2023-pc.jpg",
+  "logo": "images/logos/sun-haven-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1432860",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sun_Haven",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
