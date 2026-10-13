@@ -1,0 +1,27 @@
+{
+  "id": "resident-evil-outbreak-file-2-2004-ps2",
+  "name": "Resident Evil Outbreak File #2",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 27",
+  "dev": "Capcom Production Studio 1",
+  "pub": "Capcom",
+  "notes": "",
+  "release": "09.09.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/resident-evil-outbreak-file-2-2004-sony-playstation-2.jpg",
+  "logo": "images/logos/resident-evil-outbreak-file-2-2004-sony-playstation-2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

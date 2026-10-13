@@ -1,0 +1,51 @@
+{
+  "id": "far-cry-6-2021-pc",
+  "name": "Far Cry 6",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 25, +Extra: 42",
+  "dev": "Ubisoft Toronto",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "07.10.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/far-cry-6-2021-pc.jpg",
+  "logo": "images/logos/far-cry-6-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2369390",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Far_Cry_6",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Vaas: Insanity",
+      "played": true
+    },
+    {
+      "name": "Pagan: Control",
+      "played": true
+    },
+    {
+      "name": "Joseph: Collapse",
+      "played": true
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

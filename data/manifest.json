@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-13T20:03:14Z",
+  "updated": "2026-10-13T20:36:49Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -32667,6 +32667,149 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "far-cry-6-2021-pc": {
+      "id": "far-cry-6-2021-pc",
+      "name": "Far Cry 6",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 25, +Extra: 42",
+      "dev": "Ubisoft Toronto",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "07.10.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/far-cry-6-2021-pc.jpg",
+      "logo": "images/logos/far-cry-6-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2369390",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Far_Cry_6",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Vaas: Insanity",
+          "played": true
+        },
+        {
+          "name": "Pagan: Control",
+          "played": true
+        },
+        {
+          "name": "Joseph: Collapse",
+          "played": true
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-ghost-recon-future-soldier-2012-pc": {
+      "id": "tom-clancy-s-ghost-recon-future-soldier-2012-pc",
+      "name": "Tom Clancy's Ghost Recon: Future Soldier",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 11, +Extra: 13",
+      "dev": "Ubisoft Paris",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "26.06.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-ghost-recon-future-soldier-2012-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-ghost-recon-future-soldier-2012-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/212630",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon%3A_Future_Soldier",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-outbreak-file-2-2004-ps2": {
+      "id": "resident-evil-outbreak-file-2-2004-ps2",
+      "name": "Resident Evil Outbreak File #2",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 9, +Extra: 27",
+      "dev": "Capcom Production Studio 1",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "09.09.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/resident-evil-outbreak-file-2-2004-sony-playstation-2.jpg",
+      "logo": "images/logos/resident-evil-outbreak-file-2-2004-sony-playstation-2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "resident-evil-outbreak-2003-ps2": {
+      "id": "resident-evil-outbreak-2003-ps2",
+      "name": "Resident Evil Outbreak",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Capcom Production Studio 1",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "11.12.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/resident-evil-outbreak-2003-playstation-2.jpg",
+      "logo": "images/logos/resident-evil-outbreak-2003-playstation-2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -33397,6 +33540,10 @@
       "new-vegas-online-2026-pcmod"
     ],
     "coop-beaten": [
+      "tom-clancy-s-ghost-recon-future-soldier-2012-pc",
+      "resident-evil-outbreak-file-2-2004-ps2",
+      "resident-evil-outbreak-2003-ps2",
+      "far-cry-6-2021-pc",
       "obscure-ii-2007-pc",
       "obscure-2004-pc",
       "grounded-2022-pc",
