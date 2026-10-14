@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-14T00:21:00Z",
+  "updated": "2026-10-14T02:20:41Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -34236,6 +34236,7 @@
       "ai-limit-together-2026-pcmod",
       "new-vegas-online-2026-pcmod"
     ],
+    "lan-fun": [],
     "coop-beaten": [
       "operation-flashpoint-red-river-2011-pc",
       "operation-flashpoint-dragon-rising-2009-pc",
