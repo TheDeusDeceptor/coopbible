@@ -64,23 +64,25 @@
   .header-left .guess-btn:hover{color:#c4b5fd;border-color:var(--purple);background:rgba(167,139,250,.2);box-shadow:0 0 10px rgba(167,139,250,.35);}
   .header-left .drift-btn{color:var(--drift);border-color:var(--drift-line);background:var(--drift-soft);}
   .header-left .drift-btn:hover{color:var(--drift-bright);border-color:var(--drift);background:rgba(34,211,238,.16);box-shadow:0 0 10px rgba(34,211,238,.4);}
-  .header-left .tools-btn,.header-left .void-btn{color:var(--muted);border-color:var(--border);display:none;}
-  body.admin-on .header-left .tools-btn,
-  body.admin-on .header-left .void-btn{display:inline-flex;}
-  .header-left .tools-btn:hover,.header-left .void-btn:hover{color:#cbd5e1;border-color:var(--accent-line)}
-  .header-left .void-btn.void-on{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08)}
-  .header-left .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
-  .header-left .tools-btn.running .lamp{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.4s ease-in-out infinite;}
-  .header-left .tools-btn.running{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08)}
   .header-left .random-btn .dice-icon{width:16px;height:16px;display:block;flex-shrink:0;color:currentColor;}
   .header-left .random-btn .dice-icon svg{width:100%;height:100%;display:block;}
   .header-left .calendar-btn svg,
   .header-left .guess-btn svg,
   .header-left .drift-btn svg{width:16px;height:16px;display:block;flex-shrink:0;}
-  .header-left .tools-btn .icon,.header-left .void-btn .icon{width:14px;height:14px;}
+
+  .header-right{position:absolute;right:0;top:50%;transform:translateY(-50%);display:flex;gap:.5rem;align-items:center;}
+  .header-right .tools-btn{display:none;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .75rem;border-radius:8px;cursor:pointer;transition:all .18s ease;white-space:nowrap;background:transparent;border:1px solid var(--border);color:var(--muted);}
+  body.admin-on .header-right .tools-btn{display:inline-flex;}
+  .header-right .tools-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
+  .header-right .tools-btn.running{color:var(--amber);border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.08);}
+  .header-right .tools-btn.running .lamp{background:var(--amber);box-shadow:0 0 8px var(--amber);animation:pulse 1.4s ease-in-out infinite;}
+  .header-right .tools-btn.void-on{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08);}
+  .header-right .tools-btn.void-on .lamp{background:var(--red);box-shadow:0 0 8px var(--red);}
+  .header-right .tools-btn .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
+  .header-right .tools-btn .icon{width:14px;height:14px;}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 
-  .admin-toggle{position:absolute;right:0;top:50%;transform:translateY(-50%);display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.55rem .85rem;border:1px solid var(--border);border-radius:8px;background:rgba(255,255,255,.015);color:var(--muted);cursor:pointer;transition:all .18s ease;white-space:nowrap;}
+  .admin-toggle{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.55rem .85rem;border:1px solid var(--border);border-radius:8px;background:rgba(255,255,255,.015);color:var(--muted);cursor:pointer;transition:all .18s ease;white-space:nowrap;}
   .admin-toggle:hover{color:#cbd5e1;border-color:var(--accent-line)}
   .admin-toggle .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
   body.admin-on .admin-toggle{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08)}
@@ -267,15 +269,16 @@
   .series-game-row.drag-over{background:var(--accent-soft);}
   .series-game-row.pending{background:rgba(74,222,128,.04);}
   .series-game-row.pending-del{background:rgba(239,68,68,.04);}
-  .series-game-row .g-title{color:#e6ebf2;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .series-game-row .g-title{color:#e6ebf2;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:flex;align-items:center;gap:.5rem;}
+  .series-game-row .g-title .type-icon{width:14px;height:14px;flex-shrink:0;color:var(--accent);}
   .series-game-row .g-year,.series-game-row .g-platform{color:var(--muted);font-family:var(--font-head);font-size:.72rem;font-weight:600;letter-spacing:.04em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .series-game-row .g-hltb{color:#c8d1de;font-family:var(--font-body);font-size:.82rem;font-weight:500;letter-spacing:.01em;}
   .series-game-row .g-hltb .sep{color:var(--muted);font-weight:400;margin:0 .3em;font-size:.88em;}
-  .series-game-row .g-hltb .unit{color:var(--muted);font-weight:400;font-size:.85em;margin-left:.3em;}
+  .series-game-row .g-hltb .unit{color:var(--muted);font-weight:400;font-size:.85em;margin-left:.15em;}
   .series-game-row .g-status{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;text-align:center;width:fit-content;border:1px solid transparent;white-space:nowrap;}
   .series-game-row .g-status.done{color:var(--green);border-color:rgba(74,222,128,.35);background:rgba(74,222,128,.08);}
   .series-game-row .g-status.rerun{color:var(--amber);border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.08);}
-  .series-game-row .g-status.optional{color:var(--muted);border-color:rgba(125,135,152,.35);background:rgba(125,135,152,.08);}
+  .series-game-row .g-status.optional{color:var(--muted);border:0;background:transparent;padding:0;font-family:var(--font-body);font-style:italic;font-weight:400;letter-spacing:.02em;text-transform:none;font-size:.82rem;}
   .series-game-row .g-owner{font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .5rem;border-radius:4px;text-align:center;width:fit-content;border:1px solid transparent;white-space:nowrap;}
   .series-game-row .g-owner.installed{color:var(--green);border-color:rgba(74,222,128,.35);background:rgba(74,222,128,.08);}
   .series-game-row .g-owner.steam{color:var(--steam);border-color:rgba(102,192,244,.4);background:rgba(102,192,244,.08);}
@@ -302,6 +305,8 @@
   .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;width:min(95vw, 1300px);max-width:min(95vw, 1300px);display:flex;flex-direction:column;}
   .modal-hero{position:relative;background:#000;display:grid;place-items:center;overflow:hidden;flex-shrink:0;aspect-ratio:16/9;min-width:min(640px,100%);}
   .modal-hero img.hero-img,.modal-hero video.hero-video{display:block;width:100%;height:100%;object-fit:cover;}
+  .hero-hover-shot{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s ease;pointer-events:none;z-index:1;}
+  .modal-hero:hover .hero-hover-shot{opacity:1;}
   .modal-logo{position:absolute;bottom:1rem;right:1rem;width:120px;aspect-ratio:504/562;display:grid;place-items:center;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9)) drop-shadow(0 2px 30px rgba(0,0,0,.75));pointer-events:none;z-index:2;}
   .modal-logo img{max-width:100%;max-height:100%;object-fit:contain}
   .modal-logo .ph{font-size:.5rem;letter-spacing:.14em;color:#3a4356}
@@ -596,6 +601,11 @@
   .orphan-row .orph-path{font-family:ui-monospace,monospace;font-size:.75rem;color:#cbd5e1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;}
   .orphan-row .orph-size{font-family:var(--font-head);font-size:.6rem;color:var(--muted);white-space:nowrap;}
   .void-note{max-width:1400px;margin:0 auto 1rem;padding:.6rem 1rem;background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.35);border-radius:9px;font-family:var(--font-head);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red);text-align:center;}
+  .void-toggle-btn{display:inline-flex;align-items:center;gap:.55rem;font-family:var(--font-head);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.65rem 1rem;border:1px solid var(--border);border-radius:8px;background:transparent;color:var(--muted);cursor:pointer;transition:all .18s ease;}
+  .void-toggle-btn:hover{color:#cbd5e1;border-color:var(--accent-line);}
+  .void-toggle-btn .lamp{width:8px;height:8px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
+  .void-toggle-btn.on{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08);}
+  .void-toggle-btn.on .lamp{background:var(--red);box-shadow:0 0 8px var(--red);}
   .video-row{display:grid;grid-template-columns:26px 1fr 180px 70px 70px;gap:.6rem;align-items:center;padding:.5rem .7rem;background:#0a0e15;border:1px solid var(--border);border-radius:6px;margin-bottom:.35rem;cursor:pointer;transition:all .15s ease;}
   .video-row:hover{border-color:var(--accent-line);}
   .video-row.bad{opacity:.6;}
@@ -634,7 +644,6 @@
   .random-spin-btn:hover{filter:brightness(1.08);box-shadow:0 0 32px var(--gold-glow);}
   .random-spin-btn:disabled{opacity:.55;cursor:wait;box-shadow:none;filter:none;}
 
-  /* ═══ CALENDAR OVERLAY ═══ */
   .calendar-overlay{position:fixed;inset:0;z-index:400;display:none;flex-direction:column;background:rgba(4,5,10,.94);}
   .calendar-overlay.open{display:flex;}
   .calendar-pages{display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;padding:.85rem 1.5rem .35rem;}
@@ -852,8 +861,7 @@
     .form-grid{grid-template-columns:1fr}
     header{flex-wrap:wrap;gap:.5rem}
     .header-left{position:static;transform:none;justify-content:center;width:100%}
-    .header-left .tools-btn,.header-left .void-btn{display:inline-flex}
-    .admin-toggle{position:static;transform:none}
+    .header-right{position:static;transform:none;justify-content:center;width:100%;margin-top:.4rem}
     .plat-row{grid-template-columns:1fr 1fr 34px 54px;}
     .plat-row .plat-icon-preview{grid-column:1 / -1;justify-self:start;}
   }
@@ -876,8 +884,9 @@
     .link-row{grid-template-columns:1fr 1fr 32px}
     .dlc-editor-line1{grid-template-columns:1fr 32px 32px;}
     .beaten-indicator .num{font-size:2.2rem}
-    .cal-outer{padding:0;}
-    .cal-arrow{display:none;}
+    .cal-outer{padding:0 28px;}
+    .cal-arrow{width:28px;height:180px;opacity:.75;}
+    .cal-arrow svg{width:22px;height:70px;stroke-width:16;}
     .cal-month-name{font-size:1.4rem;}
   }
 </style>
@@ -1092,25 +1101,23 @@
       </svg>
       <span>Drift</span>
     </button>
-    <button class="tools-btn" id="toolsBtn" type="button">
-      <span class="lamp"></span>
-      <span class="icon icon-tools"></span>
-      <span id="toolsBtnLabel">Tools</span>
-    </button>
-    <button class="void-btn" id="voidBtn" type="button">
-      <span class="icon icon-void"></span>
-      <span id="voidBtnLabel">VOID</span>
-    </button>
   </div>
   <div class="switch" id="switch" data-active="coop" role="tablist">
     <div class="switch-knob"></div>
     <span class="switch-label" data-side="coop">CO-OP</span>
     <span class="switch-label" data-side="single">VAULT</span>
   </div>
-  <button class="admin-toggle" id="adminToggle" type="button">
-    <span class="lamp"></span>
-    <span id="adminToggleLabel">Admin</span>
-  </button>
+  <div class="header-right">
+    <button class="tools-btn" id="toolsBtn" type="button">
+      <span class="lamp"></span>
+      <span class="icon icon-tools"></span>
+      <span id="toolsBtnLabel">Tools</span>
+    </button>
+    <button class="admin-toggle" id="adminToggle" type="button">
+      <span class="lamp"></span>
+      <span id="adminToggleLabel">Admin</span>
+    </button>
+  </div>
 </header>
 
 <nav class="tabbar" id="tabbar"></nav>
@@ -1342,6 +1349,7 @@ const STEAM_ICON = 'images/icons/steam.png';
 const GAMEPASS_ICON = 'images/icons/gamepass.png';
 const PLATFORMS_FILE = 'data/platforms.json';
 const MANIFEST_FILE = 'data/manifest.json';
+const BSIDES_FILE = 'data/bsides.json';
 const PLATFORM_ICON_BASE = 'images/icons/';
 
 const TABS = {
@@ -1350,11 +1358,13 @@ const TABS = {
     { id:'early-access', label:'Early Access' },
     { id:'unreleased',   label:'Unreleased' },
     { id:'mods',         label:'Mods' },
+    { id:'lan-fun',      label:'LAN Fun' },
     { id:'coop-beaten',  label:'COOP-BEATEN' },
   ],
   single: [
     { id:'backlog',        label:'Backlog' },
     { id:'backlog-series', label:'Backlog Series' },
+    { id:'bsides',         label:'B-Sides' },
     { id:'gamearchive',    label:'Game Archive' },
     { id:'mainpc',         label:'Main PC' },
     { id:'beaten',         label:'Beaten' },
@@ -1366,7 +1376,7 @@ TABS.coop.forEach(t => TAB_GROUP[t.id] = 'coop');
 TABS.single.forEach(t => TAB_GROUP[t.id] = 'single');
 const BEATEN_TABS   = new Set(['coop-beaten','beaten']);
 const BEATEN_LISTS  = new Set(['coop-beaten','beaten']);
-const REAL_LISTS = ['released','early-access','unreleased','mods','coop-beaten','backlog','gamearchive','mainpc','beaten'];
+const REAL_LISTS = ['released','early-access','unreleased','mods','lan-fun','coop-beaten','backlog','gamearchive','mainpc','beaten'];
 const REAL_LISTS_SET = new Set(REAL_LISTS);
 
 function addToListOrdered(listId, list, id){
@@ -1380,6 +1390,8 @@ function addToListOrdered(listId, list, id){
 let MANIFEST = { version: 4, updated: '', games: {}, lists: {}, series: {}, series_order: [] };
 let PLATFORMS = {};
 let PLATFORMS_ORIGINAL = {};
+let BSIDES = { version: 1, updated: '', order: [], data: {} };
+let BSIDES_ORIGINAL = { version: 1, updated: '', order: [], data: {} };
 
 let sortKey = 'natural', sortDir = 'asc', searchTerm = '';
 let filterSet = (() => {
@@ -1451,8 +1463,6 @@ const adminToggleBtn = document.getElementById('adminToggle');
 const adminToggleLabel = document.getElementById('adminToggleLabel');
 const toolsBtn = document.getElementById('toolsBtn');
 const toolsBtnLabel = document.getElementById('toolsBtnLabel');
-const voidBtn = document.getElementById('voidBtn');
-const voidBtnLabel = document.getElementById('voidBtnLabel');
 const pendingStrip = document.getElementById('pendingStrip');
 const voidNoteHost = document.getElementById('voidNoteHost');
 const beatenIndicator = document.getElementById('beatenIndicator');
@@ -1753,15 +1763,15 @@ function parseReleaseDate(str){
 const TAG_LABELS = {
   coop:'Co-op', single:'Vault',
   released:'Released', 'early-access':'Early Access', unreleased:'Unreleased',
-  mods:'Mods', 'coop-beaten':'Co-op Beaten',
+  mods:'Mods', 'lan-fun':'LAN Fun', 'coop-beaten':'Co-op Beaten',
   backlog:'Backlog',
   gamearchive:'Game Archive', mainpc:'Main PC', beaten:'Beaten',
   installed:'Installed', localcoop:'Local Co-op',
   authrequired:'AUTH', ownedsteam:'Steam', gamepass:'GamePass',
 };
-const COOP_TAGS  = new Set(['coop','released','early-access','unreleased','mods','coop-beaten']);
+const COOP_TAGS  = new Set(['coop','released','early-access','unreleased','mods','lan-fun','coop-beaten']);
 const VAULT_TAGS = new Set(['single','backlog','gamearchive','mainpc','beaten']);
-const PAGE_TAG_ORDER = ['released','early-access','unreleased','mods','coop-beaten','backlog','gamearchive','mainpc','beaten'];
+const PAGE_TAG_ORDER = ['released','early-access','unreleased','mods','lan-fun','coop-beaten','backlog','gamearchive','mainpc','beaten'];
 
 function pageTagsOf(g){
   const mem = membershipsOf(g.id);
@@ -1838,6 +1848,29 @@ async function loadPlatforms(){
     PLATFORMS = {}; PLATFORMS_ORIGINAL = {};
   }
 }
+async function loadBsides(){
+  try{
+    const res = await fetch(BSIDES_FILE, { cache: 'no-cache' });
+    if(res.status === 404){
+      BSIDES = { version: 1, updated: '', order: [], data: {} };
+      BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
+      return;
+    }
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    const raw = await res.json();
+    BSIDES = {
+      version: raw.version || 1,
+      updated: raw.updated || '',
+      order: Array.isArray(raw.order) ? raw.order : [],
+      data: (raw.data && typeof raw.data === 'object') ? raw.data : {}
+    };
+    BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
+  }catch(e){
+    console.warn('bsides.json load failed:', e);
+    BSIDES = { version: 1, updated: '', order: [], data: {} };
+    BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
+  }
+}
 function viewGame(id){
   const base = MANIFEST.games[id];
   const draft = pendingGameWrites.get(id);
@@ -1850,6 +1883,38 @@ function viewSeries(slug){
   if(!draft) return base || null;
   if(!base) return draft;
   return { ...base, ...draft };
+}
+function viewBsides(slug){
+  return BSIDES.data[slug] || null;
+}
+function bsidesStage(){
+  if(jsonEqual(BSIDES, BSIDES_ORIGINAL)) pendingFileWrites.delete(BSIDES_FILE);
+  else pendingFileWrites.set(BSIDES_FILE, JSON.stringify(BSIDES, null, 2) + '\n');
+}
+function bsidesOrderLive(){ return BSIDES.order.filter(s => !!BSIDES.data[s]); }
+function isInAnyBsides(gameId){
+  for(const slug of BSIDES.order){
+    const block = BSIDES.data[slug];
+    if(!block) continue;
+    for(const entry of (block.entries || [])){
+      if(entry.type === 'game' && entry.id === gameId) return true;
+    }
+  }
+  return false;
+}
+function allBsidesGamesInOrder(){
+  const out = [];
+  for(const slug of BSIDES.order){
+    const block = BSIDES.data[slug];
+    if(!block) continue;
+    for(const entry of (block.entries || [])){
+      if(entry.type === 'game'){
+        const g = viewGame(entry.id);
+        if(g) out.push(g);
+      }
+    }
+  }
+  return out;
 }
 function listFor(tabId){
   if(!REAL_LISTS_SET.has(tabId)) return [];
@@ -1900,6 +1965,17 @@ function allSeriesUndoneInOrder(){
       out.push(g);
     }
   }
+  for(const slug of BSIDES.order){
+    const block = BSIDES.data[slug];
+    if(!block) continue;
+    for(const entry of (block.entries || [])){
+      if(entry.type !== 'game') continue;
+      const g = viewGame(entry.id);
+      if(!g) continue;
+      if((g.series_status || '') === 'done') continue;
+      out.push(g);
+    }
+  }
   return out;
 }
 function allSeriesInOrder(){
@@ -1931,6 +2007,7 @@ function seriesTotals(slug){
   return { main, extra, hasAny };
 }
 function isInAnySeries(gameId){
+  if(isInAnyBsides(gameId)) return true;
   for(const slug of Object.keys(MANIFEST.series)){
     if(pendingSeriesDeletes.has(slug)) continue;
     const s = viewSeries(slug);
@@ -2011,7 +2088,7 @@ function showTokenPrompt(){
 }
 function closeTokenPrompt(){ tokenBackdrop.classList.remove('open'); tokenSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
 function enterAdmin(){ adminMode = true; bodyEl.classList.add('admin-on'); adminToggleLabel.textContent = 'Exit Admin'; invalidateAllPanes(); renderContent(); }
-function exitAdmin(){ adminMode = false; voidMode = false; bodyEl.classList.remove('admin-on'); adminToggleLabel.textContent = 'Admin'; voidBtn.classList.remove('void-on'); invalidateAllPanes(); updatePendingStrip(); renderContent(); }
+function exitAdmin(){ adminMode = false; voidMode = false; bodyEl.classList.remove('admin-on'); adminToggleLabel.textContent = 'Admin'; toolsBtn.classList.remove('void-on'); invalidateAllPanes(); updatePendingStrip(); renderContent(); }
 async function bootAdminFlow(){
   const tok = getToken();
   if(!tok) return;
@@ -2126,6 +2203,7 @@ function clearAllPending(){
   pendingSeriesDeletes.clear();
   pendingSeriesOrder = null;
   editorDrafts.clear();
+  BSIDES = JSON.parse(JSON.stringify(BSIDES_ORIGINAL));
   updatePendingStrip();
   invalidateAllPanes();
   renderContent();
@@ -2248,6 +2326,7 @@ async function commitPending(){
     pendingSeriesDeletes.clear();
     pendingSeriesOrder = null;
     PLATFORMS_ORIGINAL = JSON.parse(JSON.stringify(PLATFORMS));
+    BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
     updatePendingStrip();
     invalidateAllPanes();
     renderContent();
@@ -2370,6 +2449,10 @@ function openPendingModal(){
     else if(key === 'seriesorder') pendingSeriesOrder = null;
     else if(key.startsWith('filedel:')) pendingFileDeletes.delete(key.slice(8));
     else if(key.startsWith('file:')) pendingFileWrites.delete(key.slice(5));
+    if(key.startsWith('file:')){
+      const p = key.slice(5);
+      if(p === BSIDES_FILE) BSIDES = JSON.parse(JSON.stringify(BSIDES_ORIGINAL));
+    }
     updatePendingStrip();
     invalidateAllPanes();
     renderContent();
@@ -2395,6 +2478,7 @@ let orphanList = [];
 let integrityIssues = [];
 let videoScanResults = [];
 let videoScanRunning = false;
+let videoScanToken = 0;
 
 function renderVideoList(){
   const host = toolsSlot.querySelector('#video-list');
@@ -2413,31 +2497,42 @@ function renderVideoList(){
     const ok = r.status === 200;
     const statusText = ok ? '✓ 200' : ('✗ ' + (r.status || 'err'));
     const sizeText = r.size ? formatBytes(r.size) : '—';
+    const checked = (r.checked === undefined) ? ok : r.checked;
     return `<label class="video-row ${ok ? 'ok' : 'bad'}">
-      <input type="checkbox" class="video-cb" data-idx="${i}" ${ok ? 'checked' : ''} ${!ok ? 'disabled' : ''}>
+      <input type="checkbox" class="video-cb" data-idx="${i}" ${checked ? 'checked' : ''} ${!ok ? 'disabled' : ''}>
       <span class="video-name" title="${esc(r.gameName)}">${esc(r.gameName)}</span>
       <span class="video-id" title="${esc(r.gameId)}">${esc(r.gameId)}</span>
       <span class="video-status">${statusText}</span>
       <span class="video-size">${sizeText}</span>
     </label>`;
   }).join('');
-  host.querySelectorAll('.video-cb').forEach(cb => cb.addEventListener('change', () => {
+  const refreshBtn = () => {
     const checked = [...host.querySelectorAll('.video-cb')].filter(x => x.checked && !x.disabled).length;
     if(dlBtn){ dlBtn.disabled = checked === 0; dlBtn.textContent = checked > 0 ? 'Download selected (' + checked + ')' : 'Download selected'; }
+  };
+  host.querySelectorAll('.video-cb').forEach(cb => cb.addEventListener('change', () => {
+    const idx = +cb.dataset.idx;
+    if(videoScanResults[idx]) videoScanResults[idx].checked = cb.checked;
+    refreshBtn();
   }));
-  if(dlBtn){ dlBtn.disabled = alive === 0; dlBtn.textContent = alive > 0 ? 'Download selected (' + alive + ')' : 'Download selected'; }
+  refreshBtn();
 }
 async function scanVideos(){
   if(totalPendingCount() > 0){ toast('Commit or discard pending changes first', 'bad'); return; }
   if(videoScanRunning) return;
   videoScanRunning = true;
+  const myToken = ++videoScanToken;
   const btn = toolsSlot.querySelector('#video-scan');
   if(btn){ btn.disabled = true; btn.textContent = 'Scanning…'; }
   videoScanResults = [];
   const list = [];
   for(const id of Object.keys(MANIFEST.games)){
     const g = MANIFEST.games[id];
-    if(g.video) list.push({ gameId: id, gameName: g.name || id, url: resolveImgUrl(g.video), status: 0, size: 0 });
+    if(!g.video) continue;
+    const v = String(g.video).trim();
+    if(!v) continue;
+    if(!/^https?:/i.test(v)) continue;
+    list.push({ gameId: id, gameName: g.name || id, url: v, status: 0, size: 0, checked: undefined });
   }
   if(!list.length){
     toast('No games with remote videos', 'bad');
@@ -2452,23 +2547,27 @@ async function scanVideos(){
   const queue = list.slice();
   async function worker(){
     while(queue.length){
+      if(myToken !== videoScanToken) return;
       const item = queue.shift();
       try{
         const res = await corsfix.fetch(item.url, { method: 'HEAD' });
+        if(myToken !== videoScanToken) return;
         item.status = res.status;
         const cl = res.headers.get('content-length');
         item.size = cl ? parseInt(cl, 10) || 0 : 0;
       }catch(e){ item.status = 0; }
       done++;
-      videoScanResults = list.slice();
+      if(myToken !== videoScanToken) return;
       const s = toolsSlot.querySelector('#video-summary');
       if(s) s.textContent = 'Scanning ' + done + '/' + list.length + '…';
-      renderVideoList();
     }
   }
   await Promise.all(Array.from({ length: 4 }, worker));
+  if(myToken !== videoScanToken) return;
+  videoScanResults = list.slice();
   videoScanRunning = false;
   if(btn){ btn.disabled = false; btn.textContent = 'Scan'; }
+  renderVideoList();
   const alive = list.filter(r => r.status === 200).length;
   toast('Scan done: ' + alive + '/' + list.length + ' alive', alive ? 'ok' : 'bad');
 }
@@ -2650,6 +2749,14 @@ function toolsModalHTML(){
               <div class="lbdb-status" id="lbdb-status"><span class="dot"></span><span id="lbdb-status-label">Idle</span></div>
             </div>
           </div>
+          <div class="form-section">
+            <div class="sec-title">Void mode</div>
+            <div class="plat-hint">Shows every game that isn't in any list. Click a card to edit it, then toggle Void off to go back.</div>
+            <button type="button" class="void-toggle-btn ${voidMode?'on':''}" id="void-toggle">
+              <span class="lamp"></span>
+              <span>Void mode</span>
+            </button>
+          </div>
         </div>
         <div id="tools-platforms" style="${platformsActive?'':'display:none'}">
           <div class="form-section">
@@ -2673,7 +2780,7 @@ function toolsModalHTML(){
           <div class="form-section">
             <div class="sec-title">Orphan images</div>
             <div class="plat-hint">
-              Images in <code>images/screenshots/</code>, <code>images/logos/</code>, <code>images/series/</code> whose basename doesn't match any game id, screenshot/logo path, or series slug. Requires pending queue to be empty.
+              Images in <code>images/screenshots/</code>, <code>images/logos/</code>, <code>images/series/</code> whose basename doesn't match any game id, screenshot/logo path, or series/B-Sides slug. Requires pending queue to be empty.
             </div>
             <div style="display:flex;gap:.6rem;align-items:center;margin-bottom:.9rem;flex-wrap:wrap;">
               <button type="button" class="btn primary" id="orphan-scan">Scan</button>
@@ -2708,7 +2815,7 @@ function toolsModalHTML(){
           <div class="form-section">
             <div class="sec-title">Remote videos</div>
             <div class="plat-hint">
-              Scans every game with a remote video URL. HEAD-checks each URL. Download saves files as <code>&lt;game-id&gt;.mp4</code> into your Downloads folder.
+              Scans every game with a remote video URL. Local paths (<code>videos/…</code>) are skipped. Download saves files as <code>&lt;game-id&gt;.mp4</code> into your Downloads folder.
             </div>
             <div style="display:flex;gap:.6rem;align-items:center;margin-bottom:.9rem;flex-wrap:wrap;">
               <button type="button" class="btn primary" id="video-scan">Scan</button>
@@ -2784,7 +2891,7 @@ async function runOrphanScan(){
     const data = await res.json();
     const tree = data.tree || [];
     const gameIds = new Set(Object.keys(MANIFEST.games));
-    const seriesSlugs = new Set(Object.keys(MANIFEST.series));
+    const seriesSlugs = new Set([...Object.keys(MANIFEST.series), ...BSIDES.order]);
     const shotBasenames = new Set();
     const logoBasenames = new Set();
     for(const id of Object.keys(MANIFEST.games)){
@@ -2877,6 +2984,16 @@ function scanSeriesIntegrity(){
       issues.push({ kind: 'double', gameId: id, name: (g && g.name) || id, detail: 'In ' + slugs.length + ' series: ' + slugs.join(', ') });
     }
   }
+  for(const slug of BSIDES.order){
+    const block = BSIDES.data[slug];
+    if(!block) continue;
+    for(const entry of (block.entries || [])){
+      if(entry.type !== 'game') continue;
+      if(!viewGame(entry.id)){
+        issues.push({ kind: 'dangling', gameId: entry.id, name: entry.id, detail: `B-Sides "${block.name || slug}" references missing game` });
+      }
+    }
+  }
   integrityIssues = issues;
   return issues;
 }
@@ -2916,6 +3033,15 @@ function openToolsModal(){
   toolsSlot.querySelectorAll('.tools-tab').forEach(t => t.onclick = () => { toolsActiveTab = t.dataset.tab; refreshToolsBody(); });
   const lbdbRun = toolsSlot.querySelector('#lbdb-run');
   if(lbdbRun) lbdbRun.onclick = () => { if(lbdbState !== 'running') triggerLbdbUpdate(); };
+  const voidToggle = toolsSlot.querySelector('#void-toggle');
+  if(voidToggle) voidToggle.onclick = () => {
+    voidMode = !voidMode;
+    toolsBtn.classList.toggle('void-on', voidMode);
+    invalidateAllPanes();
+    renderContent();
+    closeToolsModal();
+    toast(voidMode ? 'Void mode ON' : 'Void mode OFF');
+  };
   const orphanScan = toolsSlot.querySelector('#orphan-scan');
   if(orphanScan) orphanScan.onclick = runOrphanScan;
   const orphanSelAll = toolsSlot.querySelector('#orphan-selall');
@@ -3037,7 +3163,11 @@ function openToolsModal(){
   if(videoSelAll) videoSelAll.onclick = () => {
     const h = toolsSlot.querySelector('#video-list');
     if(!h) return;
-    h.querySelectorAll('.video-cb:not(:disabled)').forEach(cb => cb.checked = true);
+    h.querySelectorAll('.video-cb:not(:disabled)').forEach(cb => {
+      cb.checked = true;
+      const idx = +cb.dataset.idx;
+      if(videoScanResults[idx]) videoScanResults[idx].checked = true;
+    });
     const n = h.querySelectorAll('.video-cb:not(:disabled)').length;
     const dl = toolsSlot.querySelector('#video-download');
     if(dl){ dl.disabled = n === 0; dl.textContent = n > 0 ? 'Download selected (' + n + ')' : 'Download selected'; }
@@ -3046,7 +3176,11 @@ function openToolsModal(){
   if(videoDesel) videoDesel.onclick = () => {
     const h = toolsSlot.querySelector('#video-list');
     if(!h) return;
-    h.querySelectorAll('.video-cb').forEach(cb => cb.checked = false);
+    h.querySelectorAll('.video-cb').forEach(cb => {
+      cb.checked = false;
+      const idx = +cb.dataset.idx;
+      if(videoScanResults[idx]) videoScanResults[idx].checked = false;
+    });
     const dl = toolsSlot.querySelector('#video-download');
     if(dl){ dl.disabled = true; dl.textContent = 'Download selected'; }
   };
@@ -3054,6 +3188,7 @@ function openToolsModal(){
   if(videoDl) videoDl.onclick = downloadSelectedVideos;
 }
 function closeToolsModal(){
+  videoScanToken++;
   toolsBackdrop.classList.remove('open');
   toolsSlot.innerHTML = '';
   platDraft = null;
@@ -3519,7 +3654,7 @@ function getPane(tabId){
 }
 function invalidateAllPanes(){ TAB_PANES.forEach(p => { p.signature = null; }); }
 function paneSignature(){
-  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), searchTerm, videoMode].join('|');
+  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), searchTerm, videoMode, JSON.stringify(BSIDES.order)].join('|');
 }
 function renderTabs(){
   tabbarEl.innerHTML = TABS[group].map(t =>
@@ -3861,6 +3996,91 @@ function seriesAddBlockHTML(){
   if(!adminMode) return '';
   return `<div class="series-add-block"><button type="button" data-act="series-add-new">+ ADD SERIES</button></div>`;
 }
+
+/* ═══ B-SIDES ROW RENDERERS ═══ */
+const BSIDES_FILM_ICON = `<svg class="type-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="2.5" width="17" height="19" rx="1.5"/><line x1="8" y1="2.5" x2="8" y2="21.5"/><line x1="16" y1="2.5" x2="16" y2="21.5"/><rect x="5" y="5" width="1.6" height="1.6" fill="currentColor"/><rect x="5" y="9" width="1.6" height="1.6" fill="currentColor"/><rect x="5" y="13" width="1.6" height="1.6" fill="currentColor"/><rect x="5" y="17" width="1.6" height="1.6" fill="currentColor"/><rect x="17.4" y="5" width="1.6" height="1.6" fill="currentColor"/><rect x="17.4" y="9" width="1.6" height="1.6" fill="currentColor"/><rect x="17.4" y="13" width="1.6" height="1.6" fill="currentColor"/><rect x="17.4" y="17" width="1.6" height="1.6" fill="currentColor"/></svg>`;
+const BSIDES_GAME_ICON = `<svg class="type-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="11" x2="10" y2="11"/><line x1="8" y1="9" x2="8" y2="13"/><line x1="15" y1="12" x2="15.01" y2="12"/><line x1="18" y1="10" x2="18.01" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg>`;
+
+function bsidesGameRowHTML(g, disp, slug, idx){
+  const d = disp || {};
+  const displayName = d.display_name || g.name;
+  const displayYear  = d.display_release || extractYear(g.release || g.ea_release);
+  const displayPlat  = d.display_platform || g.platform || '';
+  const pend = pendingClassFor(g.id);
+  const actions = adminMode ? `
+      <div class="g-actions">
+        <button type="button" class="edit" data-act="bsides-edit-game" title="Display override"><span class="icon icon-pencil"></span></button>
+        <button type="button" class="del" data-act="bsides-del-entry" title="Remove"><span class="icon icon-trash"></span></button>
+      </div>` : `<div class="empty-cell"></div>`;
+  return `
+    <div class="series-game-row game${pend}" data-bsides-slug="${esc(slug)}" data-bsides-idx="${idx}" data-id="${esc(g.id)}" ${adminMode ? 'draggable="true"' : ''}>
+      <div class="g-title" title="${esc(displayName)}">${BSIDES_GAME_ICON}${esc(displayName)}</div>
+      <div class="g-year">${esc(displayYear)}</div>
+      <div class="g-platform">${esc(displayPlat)}</div>
+      <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
+      ${statusBadgeFromStatus(g.series_status || '')}
+      ${ownerBadgeFromFlags(g)}
+      <div class="g-note" title="${esc(g.series_note || '')}">${esc(g.series_note || '')}</div>
+      ${actions}
+    </div>`;
+}
+function bsidesMovieRowHTML(entry, slug, idx){
+  const statusCls = entry.series_status || '';
+  const statusHTML = statusCls ? `<div class="g-status ${statusCls}">${statusCls.charAt(0).toUpperCase() + statusCls.slice(1)}</div>` : `<div class="empty-cell">—</div>`;
+  const actions = adminMode ? `
+      <div class="g-actions">
+        <button type="button" class="edit" data-act="bsides-edit-movie" title="Edit movie"><span class="icon icon-pencil"></span></button>
+        <button type="button" class="del" data-act="bsides-del-entry" title="Remove"><span class="icon icon-trash"></span></button>
+      </div>` : `<div class="empty-cell"></div>`;
+  return `
+    <div class="series-game-row movie" data-bsides-slug="${esc(slug)}" data-bsides-idx="${idx}" ${adminMode ? 'draggable="true"' : ''}>
+      <div class="g-title" title="${esc(entry.name || '')}">${BSIDES_FILM_ICON}${esc(entry.name || '')}</div>
+      <div class="g-year">${esc(entry.year || '')}</div>
+      <div class="g-platform">${esc(entry.quality || '')}</div>
+      <div class="g-hltb">${esc(entry.runtime || '')}</div>
+      ${statusHTML}
+      <div class="empty-cell">—</div>
+      <div class="g-note" title="${esc(entry.note || '')}">${esc(entry.note || '')}</div>
+      ${actions}
+    </div>`;
+}
+function bsidesBlockHTML(slug){
+  const block = viewBsides(slug);
+  if(!block) return '';
+  const disp = block.display || {};
+  const adminCorner = adminMode ? `
+    <div class="series-admin-corner">
+      <button type="button" class="edit" data-act="bsides-edit-header" data-slug="${esc(slug)}" title="Edit header"><span class="icon icon-pencil"></span></button>
+      <button type="button" class="del" data-act="bsides-del" data-slug="${esc(slug)}" title="Delete B-Sides"><span class="icon icon-trash"></span></button>
+    </div>
+    <div class="series-drag-handle" title="Drag to reorder">⋮⋮</div>` : '';
+  const rowsHTML = (block.entries || []).map((entry, idx) => {
+    if(entry.type === 'game'){
+      const g = viewGame(entry.id);
+      if(!g) return `<div class="series-game-row game" data-bsides-slug="${esc(slug)}" data-bsides-idx="${idx}"><div class="g-title" style="color:var(--red)">${BSIDES_GAME_ICON}missing: ${esc(entry.id)}</div><div class="empty-cell">—</div><div class="empty-cell">—</div><div class="empty-cell">—</div><div class="empty-cell">—</div><div class="empty-cell">—</div><div class="empty-cell">—</div>${adminMode?`<div class="g-actions"><button type="button" class="del" data-act="bsides-del-entry" title="Remove"><span class="icon icon-trash"></span></button></div>`:`<div class="empty-cell"></div>`}</div>`;
+      return bsidesGameRowHTML(g, disp[entry.id], slug, idx);
+    }
+    return bsidesMovieRowHTML(entry, slug, idx);
+  }).join('');
+  const addRows = adminMode ? `
+    <button type="button" class="series-add-row" data-act="bsides-add-game" data-slug="${esc(slug)}"><span class="icon icon-plus" style="vertical-align:-2px;margin-right:.4rem"></span>add game</button>
+    <button type="button" class="series-add-row" data-act="bsides-add-movie" data-slug="${esc(slug)}"><span class="icon icon-plus" style="vertical-align:-2px;margin-right:.4rem"></span>add movie</button>
+  ` : '';
+  return `
+    <div class="series-block" data-bsides-slug="${esc(slug)}" ${adminMode ? 'draggable="true"' : ''}>
+      <div class="series-banner">
+        ${adminCorner}
+        <div class="logo-slot">${block.logo ? `<img src="${esc(resolveImgUrl(block.logo))}" alt="${esc(block.name)}" loading="lazy" decoding="async" title="${esc(block.name)}">` : `<div class="ph" title="${esc(block.name)}">${esc(block.name)}<small>B-Sides logo</small></div>`}</div>
+      </div>
+      <div class="series-games">${rowsHTML}</div>
+      ${addRows}
+    </div>`;
+}
+function bsidesAddBlockHTML(){
+  if(!adminMode) return '';
+  return `<div class="series-add-block"><button type="button" data-act="bsides-add-new">+ ADD B-SIDES</button></div>`;
+}
+
 function sectionHeader(label, jump){
   const jumpHTML = jump ? `<button class="jump-btn" data-jump="${jump.target}">${jump.label}<span class="arw">${jump.dir === 'down' ? '↓' : '↑'}</span></button>` : '';
   return `
@@ -3921,6 +4141,14 @@ function buildSeriesPane(pane){
   }
   pane.el.innerHTML = `<div class="series-blocks">${slugs.map(seriesBlockHTML).join('')}</div>${seriesAddBlockHTML()}`;
 }
+function buildBsidesPane(pane){
+  const slugs = bsidesOrderLive();
+  if(!slugs.length){
+    pane.el.innerHTML = (adminMode ? `<div class="grid-empty">No B-Sides yet. Click ADD B-SIDES below.</div>` + bsidesAddBlockHTML() : `<div class="grid-empty">No B-Sides yet.</div>`);
+    return;
+  }
+  pane.el.innerHTML = `<div class="series-blocks">${slugs.map(bsidesBlockHTML).join('')}</div>${bsidesAddBlockHTML()}`;
+}
 function markLoadedImages(root){
   root.querySelectorAll('img').forEach(img => { if(img.complete) img.classList.add('img-loaded'); });
 }
@@ -3947,11 +4175,12 @@ function renderContent(){
   });
   pane.el.classList.add('active');
   pane.el.style.display = 'block';
-  if(tab === 'backlog-series'){
+  if(tab === 'backlog-series' || tab === 'bsides'){
     hideToolbar();
     const sig = paneSignature();
     if(pane.signature === sig){ attachVideoObservers(); return; }
-    buildSeriesPane(pane);
+    if(tab === 'backlog-series') buildSeriesPane(pane);
+    else buildBsidesPane(pane);
     pane.signature = sig;
     markLoadedImages(pane.el);
     attachVideoObservers();
@@ -3971,6 +4200,7 @@ function refreshGrid(){
   renderVoidNote();
   updateBeatenIndicator();
   if(tab === 'backlog-series') buildSeriesPane(pane);
+  else if(tab === 'bsides') buildBsidesPane(pane);
   else buildStandardPane(pane, tab);
   pane.signature = paneSignature();
   markLoadedImages(pane.el);
@@ -4043,7 +4273,8 @@ function heroMediaHTML(g){
   ].join('');
   const posterAttr = g.screenshot ? ` poster="${esc(screenshotSrc(g.screenshot))}"` : '';
   if(videoMode === 'on' || videoMode === 'smart'){
-    return `<video class="hero-video" data-hero-video autoplay muted loop playsinline${posterAttr}>${sources}</video>`;
+    const hoverShot = g.screenshot ? `<img class="hero-hover-shot" src="${esc(screenshotSrc(g.screenshot))}" alt="" loading="lazy" decoding="async">` : '';
+    return `<video class="hero-video" data-hero-video autoplay muted loop playsinline${posterAttr}>${sources}</video>${hoverShot}`;
   }
   const playBtn = `<div class="hero-play-btn" data-hero-play><div class="play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21"/></svg></div></div>`;
   return `<video class="hero-video" data-hero-video muted loop playsinline preload="none"${posterAttr}>${sources}</video>${playBtn}`;
@@ -4121,6 +4352,8 @@ function openModal(g, t, opts){
     list = opts.listOverride;
   } else if(t === 'backlog-series'){
     list = allSeriesInOrder();
+  } else if(t === 'bsides'){
+    list = allBsidesGamesInOrder();
   } else if(t === 'backlog'){
     const allBacklog = gamesOfTab('backlog');
     const main = allBacklog.filter(g => !isInAnySeries(g.id) && passesAll(g));
@@ -4356,7 +4589,7 @@ function openEditor(g, opts){
   const hp = hltbToParts(draft.hltb);
   const numericHltb = hltbIsNumeric(draft.hltb);
   const currentMemberships = isNew ? new Set() : membershipsOf(draft.id);
-  const currentTabId = (tab !== 'backlog-series' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
+  const currentTabId = (tab !== 'backlog-series' && tab !== 'bsides' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
   const targetListId = opts.listId || currentTabId;
   if(isNew && REAL_LISTS_SET.has(targetListId)) currentMemberships.add(targetListId);
   const membershipHTML = REAL_LISTS.map(tid => {
@@ -5364,6 +5597,16 @@ function openConfirmDelete(g){
         pendingSeriesWrites.set(slug, copy);
       }
     }
+    for(const slug of BSIDES.order){
+      const block = BSIDES.data[slug];
+      if(!block) continue;
+      const before = (block.entries || []).length;
+      block.entries = (block.entries || []).filter(e => !(e.type === 'game' && e.id === id));
+      if(block.entries.length !== before){
+        if(block.display) delete block.display[id];
+      }
+    }
+    bsidesStage();
     closeAll();
     invalidateAllPanes();
     updatePendingStrip();
@@ -5703,6 +5946,7 @@ async function runParse(){
   else toast('Found on: ' + found.join(', '));
 }
 
+/* ═══ SERIES MODALS ═══ */
 function openSeriesHeaderModal(slug){
   const isNew = !slug;
   const s = isNew ? { id:'', name:'', logo:'', order:[], display:{} } : viewSeries(slug);
@@ -5828,6 +6072,8 @@ function closeSeriesHeaderModal(){
   seriesSlot.innerHTML = '';
   seriesSlot._slug = '';
   seriesSlot._isNew = false;
+  seriesSlot._isRowEdit = false;
+  seriesSlot._gameId = '';
   refreshScrollJumpVisibility();
 }
 seriesBackdrop.addEventListener('click', e => { if(e.target === seriesBackdrop) closeSeriesHeaderModal(); });
@@ -5890,6 +6136,267 @@ function openSeriesRowDisplayEditor(slug, gameId){
   };
 }
 
+/* ═══ B-SIDES MODALS ═══ */
+function openBsidesHeaderModal(slug){
+  const isNew = !slug;
+  const s = isNew ? { id:'', name:'', logo:'', entries:[], display:{} } : viewBsides(slug);
+  if(!s) return;
+  seriesSlot._bslug = slug || '';
+  seriesSlot._isNewBsides = isNew;
+  seriesSlot.innerHTML = `
+    <div class="series-header-modal" style="max-width:520px">
+      <button class="modal-close" data-close>✕</button>
+      <h2>${isNew ? 'New B-Sides' : 'Edit B-Sides'}</h2>
+      <div class="form-section" style="margin-top:1rem;padding-top:0;border-top:0">
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Name</label>
+          <input type="text" id="bh-name" value="${esc(s.name||'')}">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Slug</label>
+          <input type="text" id="bh-slug" class="id-input" value="${esc(s.id||'')}" ${isNew?'':'readonly style="opacity:.6"'}>
+        </div>
+        <div class="field">
+          <label>Logo</label>
+          <div class="img-input">
+            <div class="preview" id="bh-logo-preview">${s.logo ? `<img src="${esc(logoSrc(s.logo))}" alt="">` : ''}</div>
+            <div class="controls">
+              <input type="text" id="bh-logo" value="${esc(s.logo||'')}">
+              <div class="media-btn-row">
+                <button type="button" class="media-btn save" id="bh-save-logo">↓ Save locally</button>
+                <button type="button" class="media-btn sgdb" id="bh-sgdb-logo">🔍 SGDB</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="token-actions" style="margin-top:1.2rem">
+        <button type="button" class="btn" data-close>Cancel</button>
+        <button type="button" class="btn primary" id="bh-save">${isNew ? 'ADD B-SIDES' : 'Save edit'}</button>
+      </div>
+    </div>`;
+  seriesBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
+  const $ = sel => seriesSlot.querySelector(sel);
+  const nameEl = $('#bh-name');
+  const slugEl = $('#bh-slug');
+  let userEditedSlug = !isNew;
+  if(isNew){
+    nameEl.addEventListener('input', () => { if(userEditedSlug) return; slugEl.value = slugify(nameEl.value); });
+    slugEl.addEventListener('input', () => { userEditedSlug = true; });
+  }
+  $('#bh-logo').addEventListener('input', e => {
+    const v = e.target.value.trim();
+    $('#bh-logo-preview').innerHTML = v ? `<img src="${esc(logoSrc(v))}" alt="">` : '';
+    $('#bh-save-logo').classList.remove('saved');
+  });
+  $('#bh-save-logo').addEventListener('click', async () => {
+    const nameVal = (nameEl.value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    const slugVal = (slugEl.value || '').trim() || slugify(nameVal);
+    const url = ($('#bh-logo').value || '').trim();
+    const btn = $('#bh-save-logo');
+    const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Saving';
+    const compressed = await seriesLogoCompressUrl(url);
+    await saveMediaLocally('logo', slugVal, compressed, (path) => {
+      $('#bh-logo').value = path;
+      $('#bh-logo').dispatchEvent(new Event('input', { bubbles: true }));
+      btn.classList.add('saved'); btn.innerHTML = '✓ Saved';
+      toast('B-Sides logo saved → ' + path);
+    });
+    btn.disabled = false;
+    if(!btn.classList.contains('saved')) btn.innerHTML = orig;
+  });
+  $('#bh-sgdb-logo').addEventListener('click', async () => {
+    const nameVal = (nameEl.value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    const btn = $('#bh-sgdb-logo'); const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Loading';
+    try{
+      const data = await sgdbSearch(nameVal);
+      const items = (data.logos || []).map(l => ({ url: l.url, thumb: l.thumb || l.url, label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height }));
+      showLogoPicker('SGDB — ' + (data.gameName || nameVal), items, picked => {
+        $('#bh-logo').value = picked.url;
+        $('#bh-logo').dispatchEvent(new Event('input', { bubbles: true }));
+        toast('SGDB logo selected');
+      }, {
+        searchable: true, searchValue: nameVal,
+        onSearch: async (q) => {
+          const d = await sgdbSearch(q);
+          return { title: 'SGDB — ' + (d.gameName || q), items: (d.logos || []).map(l => ({ url: l.url, thumb: l.thumb || l.url, label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height })) };
+        }
+      });
+    }catch(err){ toast('SGDB: ' + err.message, 'bad'); }
+    finally{ btn.disabled = false; btn.innerHTML = orig; }
+  });
+  seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
+  $('#bh-save').onclick = () => {
+    const nameVal = (nameEl.value || '').trim();
+    if(!nameVal){ toast('Name is required', 'bad'); return; }
+    const slugVal = ((slugEl.value || '').trim() || slugify(nameVal)).replace(/[^a-z0-9\-]/gi,'-').toLowerCase();
+    if(!slugVal){ toast('Slug is required', 'bad'); return; }
+    if(isNew){
+      if(BSIDES.data[slugVal]){ toast('Slug already exists', 'bad'); return; }
+      BSIDES.data[slugVal] = { id: slugVal, name: nameVal, logo: ($('#bh-logo').value||'').trim(), entries: [], display: {} };
+      if(!BSIDES.order.includes(slugVal)) BSIDES.order.push(slugVal);
+      bsidesStage();
+      toast('Staged new B-Sides');
+    } else {
+      const copy = BSIDES.data[slug];
+      copy.name = nameVal;
+      copy.logo = ($('#bh-logo').value||'').trim();
+      bsidesStage();
+      toast('Staged B-Sides edit');
+    }
+    closeSeriesHeaderModal();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+  };
+}
+function openBsidesMovieEditor(slug, idx){
+  const block = viewBsides(slug);
+  if(!block) return;
+  const entry = (idx != null && block.entries && block.entries[idx]) ? block.entries[idx] : null;
+  const isNew = !entry;
+  const e = entry || { type:'movie', name:'', year:'', quality:'', runtime:'', series_status:null, note:'' };
+  const statusVal = e.series_status || '';
+  seriesSlot._bslug = slug;
+  seriesSlot._bIdx = idx;
+  seriesSlot.innerHTML = `
+    <div class="series-header-modal" style="max-width:520px">
+      <button class="modal-close" data-close>✕</button>
+      <h2>${isNew ? 'Add movie' : 'Edit movie'}</h2>
+      <div class="form-section" style="margin-top:1rem;padding-top:0;border-top:0">
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Name</label>
+          <input type="text" id="bm-name" value="${esc(e.name||'')}">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Year</label>
+          <input type="text" id="bm-year" value="${esc(e.year||'')}" maxlength="12">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Quality</label>
+          <input type="text" id="bm-quality" value="${esc(e.quality||'')}" placeholder="4K / 1080p / IMAX 4K / Film scan…">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Runtime</label>
+          <input type="text" id="bm-runtime" value="${esc(e.runtime||'')}" placeholder="1h 57m">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Status</label>
+          <div class="status-row" id="bm-status">
+            <button type="button" class="status-btn ${statusVal==='done'?'on':''}" data-status="done">Done</button>
+            <button type="button" class="status-btn ${statusVal==='rerun'?'on rerun':''}" data-status="rerun">Rerun</button>
+            <button type="button" class="status-btn ${statusVal==='optional'?'on optional':''}" data-status="optional">Optional</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Note</label>
+          <input type="text" id="bm-note" value="${esc(e.note||'')}">
+        </div>
+      </div>
+      <div class="token-actions" style="margin-top:1.2rem">
+        <button type="button" class="btn" data-close>Cancel</button>
+        <button type="button" class="btn primary" id="bm-save">${isNew ? 'ADD MOVIE' : 'Save edit'}</button>
+      </div>
+    </div>`;
+  seriesBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
+  seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
+  const statusRow = seriesSlot.querySelector('#bm-status');
+  statusRow.addEventListener('click', ev => {
+    const btn = ev.target.closest('.status-btn');
+    if(!btn) return;
+    const wasOn = btn.classList.contains('on');
+    statusRow.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
+    if(!wasOn){
+      btn.classList.add('on');
+      if(btn.dataset.status === 'rerun') btn.classList.add('rerun');
+      if(btn.dataset.status === 'optional') btn.classList.add('optional');
+    }
+  });
+  seriesSlot.querySelector('#bm-save').onclick = () => {
+    const nameVal = (seriesSlot.querySelector('#bm-name').value || '').trim();
+    if(!nameVal){ toast('Name is required', 'bad'); return; }
+    const sOn = statusRow.querySelector('.status-btn.on');
+    const obj = {
+      type: 'movie',
+      name: nameVal,
+      year: (seriesSlot.querySelector('#bm-year').value || '').trim(),
+      quality: (seriesSlot.querySelector('#bm-quality').value || '').trim(),
+      runtime: (seriesSlot.querySelector('#bm-runtime').value || '').trim(),
+      series_status: sOn && sOn.dataset.status ? sOn.dataset.status : null,
+      note: (seriesSlot.querySelector('#bm-note').value || '').trim()
+    };
+    const block = BSIDES.data[slug];
+    if(!block){ toast('B-Sides not found', 'bad'); return; }
+    block.entries = block.entries || [];
+    if(isNew) block.entries.push(obj);
+    else block.entries[idx] = obj;
+    bsidesStage();
+    closeSeriesHeaderModal();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast(isNew ? 'Movie added' : 'Movie saved');
+  };
+}
+
+function openBsidesGamePicker(slug){
+  const block = viewBsides(slug);
+  if(!block) return;
+  const existingIds = new Set((block.entries || []).filter(e => e.type === 'game').map(e => e.id));
+  const allGames = Object.keys(MANIFEST.games).map(viewGame).filter(Boolean).sort((a,b) => (a.name||'').localeCompare(b.name||''));
+  const renderList = (q) => {
+    const ql = (q||'').toLowerCase().trim();
+    return allGames.filter(g => !ql || String(g.name||'').toLowerCase().includes(ql));
+  };
+  seriesSlot._bslug = slug;
+  seriesSlot.innerHTML = `
+    <div class="picker-modal" style="max-width:640px">
+      <button class="modal-close" data-close>✕</button>
+      <h2>Add game to B-Sides</h2>
+      <div class="logo-picker-search">
+        <input type="text" id="bgp-search" placeholder="Search games…" autocomplete="off" spellcheck="false">
+      </div>
+      <div class="picker-list" id="bgp-list" style="max-height:55vh"></div>
+    </div>`;
+  seriesBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
+  const listEl = seriesSlot.querySelector('#bgp-list');
+  const searchEl = seriesSlot.querySelector('#bgp-search');
+  const rerender = () => {
+    const games = renderList(searchEl.value);
+    listEl.innerHTML = games.slice(0, 200).map(g => {
+      const already = existingIds.has(g.id);
+      return `<button type="button" data-gid="${esc(g.id)}" ${already ? 'style="opacity:.4;pointer-events:none;"' : ''}>
+        <span class="pk-name">${esc(g.name||g.id)} ${already ? '· already added' : ''}</span>
+        <span class="pk-meta">${esc(extractYear(g.release||g.ea_release))}${g.platform ? ' · ' + esc(g.platform) : ''}</span>
+      </button>`;
+    }).join('');
+  };
+  rerender();
+  searchEl.addEventListener('input', rerender);
+  seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
+  listEl.addEventListener('click', e => {
+    const btn = e.target.closest('button[data-gid]');
+    if(!btn) return;
+    const gid = btn.dataset.gid;
+    if(!BSIDES.data[slug].entries) BSIDES.data[slug].entries = [];
+    if(BSIDES.data[slug].entries.some(x => x.type === 'game' && x.id === gid)) return;
+    BSIDES.data[slug].entries.push({ type: 'game', id: gid });
+    bsidesStage();
+    closeSeriesHeaderModal();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Game added');
+  });
+}
+
 /* ═══ RANDOM PICKER ═══ */
 const RANDOM_REEL_SIZE = 50;
 const RANDOM_BLACKLIST = 5;
@@ -5918,7 +6425,7 @@ function randomRenderPages(){
 }
 function randomPool(){
   const effective = randomPages.size ? randomPages : new Set([
-    tab === 'backlog-series' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')
+    tab === 'backlog-series' || tab === 'bsides' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')
   ]);
   const seen = new Set();
   const out = [];
@@ -6138,7 +6645,7 @@ async function randomFinishSpin(winnerId, tintPromise, spinToken){
     void randomLogoSlot.offsetWidth;
     randomLogoSlot.classList.add('show', 'clickable');
     randomLogoSlot.onclick = () => {
-      openModalAboveOverlay(localWinner, tab === 'backlog-series' ? 'backlog-series' : tab);
+      openModalAboveOverlay(localWinner, tab === 'backlog-series' || tab === 'bsides' ? tab : tab);
     };
     randomSpinning = false;
     randomSpinBtn.disabled = false;
@@ -6216,7 +6723,7 @@ async function randomSpin(){
   requestAnimationFrame(frame1);
 }
 function openRandomOverlay(){
-  randomPages = new Set([tab === 'backlog-series' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')]);
+  randomPages = new Set([tab === 'backlog-series' || tab === 'bsides' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')]);
   randomRenderPages();
   randomOverlay.classList.add('open');
   refreshScrollJumpVisibility();
@@ -6277,15 +6784,21 @@ function calRenderPages(){
     });
   });
 }
-function calDaysInMonth(y, m){ return new Date(y, m, 0).getDate(); }
+function calDaysInMonth(y, m){
+  if(m === 2) return 29;
+  return new Date(y, m, 0).getDate();
+}
 function calFirstWeekdayMonFirst(y, m){
   const dow = new Date(y, m-1, 1).getDay();
   return (dow + 6) % 7;
 }
 function calGamesOn(m, d){
   const out = [];
-  for(const id of Object.keys(MANIFEST.games)){
-    const g = MANIFEST.games[id];
+  const ids = new Set([...Object.keys(MANIFEST.games), ...pendingGameWrites.keys()]);
+  for(const id of ids){
+    if(pendingGameDeletes.has(id)) continue;
+    const g = viewGame(id);
+    if(!g) continue;
     const rd = parseReleaseDate(g.release);
     if(!rd || rd.m !== m || rd.d !== d) continue;
     const mem = membershipsOf(id);
@@ -6302,11 +6815,10 @@ function calSizeCells(){
   const stageW = calendarStage.clientWidth;
   const stageH = calendarStage.clientHeight;
   if(!stageW || !stageH) return;
-  // reserve: 100px arrows on each side (200 total), 40px padding inside stage
-  const availW = Math.max(280, stageW - 240);
-  // reserve vertical: month name + dow row + padding ≈ 110px
+  const isMobile = window.innerWidth <= 640;
+  const availW = Math.max(240, stageW - (isMobile ? 80 : 240));
   const availH = Math.max(200, stageH - 110);
-  const gap = 5; // 0.3rem ≈ 5px
+  const gap = 5;
   const cellW = (availW - 6 * gap) / 7;
   const cellH = (availH - 5 * gap) / 6;
   const size = Math.max(40, Math.floor(Math.min(cellW, cellH)));
@@ -6355,7 +6867,7 @@ function calRender(){
       const d = +cell.dataset.day;
       const games = calGamesOn(calViewM, d);
       if(games.length === 1){
-        openModalAboveOverlay(games[0].g, tab === 'backlog-series' ? 'backlog-series' : tab, { listOverride: [games[0].g] });
+        openModalAboveOverlay(games[0].g, tab === 'backlog-series' || tab === 'bsides' ? tab : tab, { listOverride: [games[0].g] });
       } else {
         calOpenDayModal(d);
       }
@@ -6383,7 +6895,7 @@ function calOpenDayModal(d){
       const gid = row.dataset.id;
       const g = viewGame(gid);
       calCloseDayModal();
-      if(g) openModalAboveOverlay(g, tab === 'backlog-series' ? 'backlog-series' : tab, { listOverride: gamesForNav });
+      if(g) openModalAboveOverlay(g, tab === 'backlog-series' || tab === 'bsides' ? tab : tab, { listOverride: gamesForNav });
     });
   });
   calDayBackdrop.classList.add('open');
@@ -6394,7 +6906,6 @@ function openCalendar(){
   calRenderPages();
   calendarOverlay.classList.add('open');
   refreshScrollJumpVisibility();
-  // size after layout settles
   requestAnimationFrame(() => { calSizeCells(); calRender(); });
 }
 function closeCalendar(){
@@ -6420,20 +6931,13 @@ window.addEventListener('resize', () => {
   if(calendarOverlay.classList.contains('open')){ calSizeCells(); }
 });
 
-voidBtn.addEventListener('click', () => {
-  if(!adminMode){ showTokenPrompt(); return; }
-  voidMode = !voidMode;
-  voidBtn.classList.toggle('void-on', voidMode);
-  invalidateAllPanes();
-  renderContent();
-});
 switchEl.addEventListener('click', () => {
   group = group === 'coop' ? 'single' : 'coop';
   switchEl.dataset.active = group;
   bodyEl.dataset.group = group;
   tab = TABS[group][0].id;
   searchTerm = '';
-  voidMode = false; voidBtn.classList.remove('void-on');
+  voidMode = false; toolsBtn.classList.remove('void-on');
   applySortForTab(tab);
   saveLastTab();
   renderTabs(); renderContent();
@@ -6443,7 +6947,7 @@ tabbarEl.addEventListener('click', e => {
   if(!btn) return;
   tab = btn.dataset.tab;
   searchTerm = '';
-  voidMode = false; voidBtn.classList.remove('void-on');
+  voidMode = false; toolsBtn.classList.remove('void-on');
   applySortForTab(tab);
   saveLastTab();
   renderTabs(); renderContent();
@@ -6528,6 +7032,11 @@ document.addEventListener('keydown', e => {
   if(e.key !== 'Escape') return;
   if(gtgOverlay.classList.contains('open')){ e.stopImmediatePropagation(); e.preventDefault(); closeGTG(); return; }
   if(driftOverlay.classList.contains('open')){ e.stopImmediatePropagation(); e.preventDefault(); closeDRIFT(); return; }
+  if(logopickerBackdrop.classList.contains('open')){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; return; }
+  if(pickerBackdrop.classList.contains('open')){
+    if(igdbPickerClose){ igdbPickerClose(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
+    return;
+  }
   if(backdrop.classList.contains('open')){
     if(modalSlot._editorKey){ closeAll(); } else { closeModal(); }
     return;
@@ -6535,22 +7044,21 @@ document.addEventListener('keydown', e => {
   if(calDayBackdrop.classList.contains('open')){ calCloseDayModal(); return; }
   if(randomOverlay.classList.contains('open')){ closeRandomOverlay(); return; }
   if(calendarOverlay.classList.contains('open')){ closeCalendar(); return; }
-  closeAllDropdowns(); closeTokenPrompt();
-  closePendingModal(); closeToolsModal(); closeSeriesHeaderModal();
-  if(igdbPickerClose){ igdbPickerClose(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
-  logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
+  if(seriesBackdrop.classList.contains('open')){ closeSeriesHeaderModal(); return; }
+  if(toolsBackdrop.classList.contains('open')){ closeToolsModal(); return; }
+  if(pendingBackdrop.classList.contains('open')){ closePendingModal(); return; }
+  if(tokenBackdrop.classList.contains('open')){ closeTokenPrompt(); return; }
+  closeAllDropdowns();
 }, { capture: true });
 document.addEventListener('keydown', e => {
   const ae = document.activeElement;
   const isInputFocused = ae && (ae.tagName === 'INPUT' || ae.tagName === 'TEXTAREA' || ae.tagName === 'SELECT' || ae.isContentEditable);
   if(isInputFocused) return;
-  // Game modal arrows first (anywhere it's open)
   const hasGameModal = !!modalSlot.querySelector('.modal');
   if(backdrop.classList.contains('open') && hasGameModal){
     if(e.key === 'ArrowRight'){ e.preventDefault(); navigateModal(+1); return; }
     if(e.key === 'ArrowLeft'){  e.preventDefault(); navigateModal(-1); return; }
   }
-  // Calendar month nav — only when calendar overlay open and no modal on top
   if(calendarOverlay.classList.contains('open') && !backdrop.classList.contains('open') && !calDayBackdrop.classList.contains('open')){
     if(e.key === 'ArrowRight'){ e.preventDefault(); calNext.click(); return; }
     if(e.key === 'ArrowLeft'){  e.preventDefault(); calPrev.click(); return; }
@@ -6621,6 +7129,130 @@ contentEl.addEventListener('click', e => {
     toast('Removed from series');
     return;
   }
+  /* B-SIDES actions */
+  const bh = e.target.closest('[data-act="bsides-edit-header"]');
+  if(bh){ e.stopPropagation(); openBsidesHeaderModal(bh.dataset.slug); return; }
+  const bd = e.target.closest('[data-act="bsides-del"]');
+  if(bd){
+    e.stopPropagation();
+    const slug = bd.dataset.slug;
+    const block = viewBsides(slug);
+    if(!block) return;
+    if(!confirm('Delete B-Sides "' + (block.name || slug) + '"?')) return;
+    for(const entry of (block.entries || [])){
+      if(entry.type === 'game'){
+        const g = viewGame(entry.id);
+        if(g && g.series === slug){ recalcGameSeriesField(entry.id); }
+      }
+    }
+    delete BSIDES.data[slug];
+    BSIDES.order = BSIDES.order.filter(s => s !== slug);
+    bsidesStage();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Staged B-Sides delete');
+    return;
+  }
+  const ban = e.target.closest('[data-act="bsides-add-new"]');
+  if(ban){ e.stopPropagation(); openBsidesHeaderModal(null); return; }
+  const bag = e.target.closest('[data-act="bsides-add-game"]');
+  if(bag){ e.stopPropagation(); openBsidesGamePicker(bag.dataset.slug); return; }
+  const bam = e.target.closest('[data-act="bsides-add-movie"]');
+  if(bam){ e.stopPropagation(); openBsidesMovieEditor(bam.dataset.slug, null); return; }
+  const beg = e.target.closest('[data-act="bsides-edit-game"]');
+  if(beg){
+    e.stopPropagation();
+    const row = beg.closest('.series-game-row');
+    const slug = row.dataset.bsidesSlug;
+    const gid = row.dataset.id;
+    const block = viewBsides(slug);
+    if(!block) return;
+    const g = viewGame(gid);
+    if(!g) return;
+    const d = (block.display && block.display[gid]) || {};
+    seriesSlot._bslug = slug;
+    seriesSlot._bgid = gid;
+    seriesSlot.innerHTML = `
+      <div class="series-header-modal" style="max-width:520px">
+        <button class="modal-close" data-close>✕</button>
+        <h2>Display override — ${esc(g.name)}</h2>
+        <p style="font-size:.82rem;color:var(--muted);margin-bottom:1rem">Overrides only inside this B-Sides block.</p>
+        <div class="form-section" style="padding-top:0;border-top:0">
+          <div class="field" style="margin-bottom:.9rem">
+            <label>Display name</label>
+            <input type="text" id="bsr-name" value="${esc(d.display_name||'')}">
+          </div>
+          <div class="field" style="margin-bottom:.9rem">
+            <label>Display release</label>
+            <input type="text" id="bsr-release" value="${esc(d.display_release||'')}">
+          </div>
+          <div class="field">
+            <label>Display platform</label>
+            <input type="text" id="bsr-platform" value="${esc(d.display_platform||'')}">
+          </div>
+        </div>
+        <div class="token-actions" style="margin-top:1.2rem">
+          <button type="button" class="btn" data-close>Cancel</button>
+          <button type="button" class="btn primary" id="bsr-save">Save</button>
+        </div>
+      </div>`;
+    seriesBackdrop.classList.add('open');
+    refreshScrollJumpVisibility();
+    seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
+    seriesSlot.querySelector('#bsr-save').onclick = () => {
+      const block2 = BSIDES.data[slug];
+      block2.display = block2.display || {};
+      const nm = seriesSlot.querySelector('#bsr-name').value.trim();
+      const rl = seriesSlot.querySelector('#bsr-release').value.trim();
+      const pl = seriesSlot.querySelector('#bsr-platform').value.trim();
+      const obj = {};
+      if(nm) obj.display_name = nm;
+      if(rl) obj.display_release = rl;
+      if(pl) obj.display_platform = pl;
+      if(Object.keys(obj).length) block2.display[gid] = obj;
+      else delete block2.display[gid];
+      bsidesStage();
+      closeSeriesHeaderModal();
+      invalidateAllPanes();
+      updatePendingStrip();
+      renderContent();
+      toast('Display override saved');
+    };
+    return;
+  }
+  const bem = e.target.closest('[data-act="bsides-edit-movie"]');
+  if(bem){
+    e.stopPropagation();
+    const row = bem.closest('.series-game-row');
+    const slug = row.dataset.bsidesSlug;
+    const idx = +row.dataset.bsidesIdx;
+    openBsidesMovieEditor(slug, idx);
+    return;
+  }
+  const bde = e.target.closest('[data-act="bsides-del-entry"]');
+  if(bde){
+    e.stopPropagation();
+    const row = bde.closest('.series-game-row');
+    const slug = row.dataset.bsidesSlug;
+    const idx = +row.dataset.bsidesIdx;
+    const block = BSIDES.data[slug];
+    if(!block || !block.entries) return;
+    if(!confirm('Remove this entry?')) return;
+    const removed = block.entries[idx];
+    block.entries.splice(idx, 1);
+    if(removed && removed.type === 'game'){
+      const g = viewGame(removed.id);
+      if(g && g.series === slug){ recalcGameSeriesField(removed.id); }
+      if(block.display) delete block.display[removed.id];
+    }
+    bsidesStage();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Removed');
+    return;
+  }
   const adminBtnEl = e.target.closest('.card-admin button');
   if(adminBtnEl){
     e.stopPropagation();
@@ -6636,9 +7268,19 @@ contentEl.addEventListener('click', e => {
     if(target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     return;
   }
+  const bsRow = e.target.closest('.series-game-row[data-bsides-slug]');
+  if(bsRow){
+    if(adminMode) return;
+    if(bsRow.classList.contains('movie')) return;
+    const gid = bsRow.dataset.id;
+    if(!gid) return;
+    const g = viewGame(gid);
+    if(g) openModal(g, 'bsides', { listOverride: allBsidesGamesInOrder() });
+    return;
+  }
   const sRowAdmin = e.target.closest('.series-game-row[data-series]');
   if(sRowAdmin){ if(adminMode) return; }
-  const srow = e.target.closest('.series-game-row');
+  const srow = e.target.closest('.series-game-row[data-series]');
   if(srow){ const g = viewGame(srow.dataset.id); if(g) openModal(g, 'backlog-series'); return; }
   const rowD = e.target.closest('.beaten-row');
   if(rowD){ const g = viewGame(rowD.dataset.id); if(g) openModal(g, tab); return; }
@@ -6651,12 +7293,16 @@ pendingStrip.addEventListener('click', e => {
   openPendingModal();
 });
 
-let dragSrcId = null, dragSrcSeries = null, dragSrcRow = null;
+let dragSrcId = null, dragSrcSeries = null, dragSrcBsides = null, dragSrcRow = null, dragSrcBsidesRow = null;
 contentEl.addEventListener('dragstart', e => {
+  const bsRow = e.target.closest('.series-game-row[data-bsides-slug]');
+  if(bsRow && adminMode){ dragSrcBsidesRow = { slug: bsRow.dataset.bsidesSlug, idx: +bsRow.dataset.bsidesIdx }; e.dataTransfer.effectAllowed = 'move'; return; }
   const sRow = e.target.closest('.series-game-row[draggable="true"]');
   if(sRow){ dragSrcRow = { slug: sRow.dataset.series, id: sRow.dataset.id }; e.dataTransfer.effectAllowed = 'move'; return; }
+  const bBlock = e.target.closest('.series-block[data-bsides-slug][draggable="true"]');
+  if(bBlock){ dragSrcBsides = bBlock.dataset.bsidesSlug; e.dataTransfer.effectAllowed = 'move'; return; }
   const block = e.target.closest('.series-block[draggable="true"]');
-  if(block){ dragSrcSeries = block.dataset.series; e.dataTransfer.effectAllowed = 'move'; return; }
+  if(block && block.dataset.series){ dragSrcSeries = block.dataset.series; e.dataTransfer.effectAllowed = 'move'; return; }
   const draggable = e.target.closest('.card, .beaten-row');
   if(!draggable) return;
   if(!adminMode || sortKey !== 'natural'){ e.preventDefault(); return; }
@@ -6665,9 +7311,13 @@ contentEl.addEventListener('dragstart', e => {
   e.dataTransfer.effectAllowed = 'move';
 });
 contentEl.addEventListener('dragover', e => {
+  const bBlock = e.target.closest('.series-block[data-bsides-slug]');
+  if(bBlock && dragSrcBsides && bBlock.dataset.bsidesSlug !== dragSrcBsides){ e.preventDefault(); bBlock.classList.add('drag-over'); return; }
   const block = e.target.closest('.series-block');
-  if(block && dragSrcSeries && block.dataset.series !== dragSrcSeries){ e.preventDefault(); block.classList.add('drag-over'); return; }
-  const sRow = e.target.closest('.series-game-row');
+  if(block && block.dataset.series && dragSrcSeries && block.dataset.series !== dragSrcSeries){ e.preventDefault(); block.classList.add('drag-over'); return; }
+  const bsRow = e.target.closest('.series-game-row[data-bsides-slug]');
+  if(bsRow && dragSrcBsidesRow && bsRow.dataset.bsidesSlug === dragSrcBsidesRow.slug){ e.preventDefault(); bsRow.classList.add('drag-over'); return; }
+  const sRow = e.target.closest('.series-game-row[data-series]');
   if(sRow && dragSrcRow && sRow.dataset.series === dragSrcRow.slug && sRow.dataset.id !== dragSrcRow.id){ e.preventDefault(); sRow.classList.add('drag-over'); return; }
   const draggable = e.target.closest('.card, .beaten-row');
   if(!draggable || !dragSrcId) return;
@@ -6684,12 +7334,31 @@ contentEl.addEventListener('dragleave', e => {
   if(draggable) draggable.classList.remove('drop-target');
 });
 contentEl.addEventListener('drop', e => {
+  const bBlock = e.target.closest('.series-block[data-bsides-slug]');
+  if(bBlock && dragSrcBsides){
+    e.preventDefault();
+    bBlock.classList.remove('drag-over');
+    const targetSlug = bBlock.dataset.bsidesSlug;
+    if(targetSlug === dragSrcBsides){ dragSrcBsides = null; return; }
+    const fromIdx = BSIDES.order.indexOf(dragSrcBsides);
+    const toIdx = BSIDES.order.indexOf(targetSlug);
+    if(fromIdx < 0 || toIdx < 0){ dragSrcBsides = null; return; }
+    BSIDES.order.splice(fromIdx, 1);
+    BSIDES.order.splice(toIdx, 0, dragSrcBsides);
+    bsidesStage();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('B-Sides reordered');
+    dragSrcBsides = null;
+    return;
+  }
   const block = e.target.closest('.series-block');
-  if(block && dragSrcSeries){
+  if(block && dragSrcSeries && block.dataset.series){
     e.preventDefault();
     block.classList.remove('drag-over');
     const targetSlug = block.dataset.series;
-    if(targetSlug === dragSrcSeries) { dragSrcSeries = null; return; }
+    if(targetSlug === dragSrcSeries){ dragSrcSeries = null; return; }
     const order = (pendingSeriesOrder || MANIFEST.series_order || []).slice();
     const fromIdx = order.indexOf(dragSrcSeries);
     const toIdx = order.indexOf(targetSlug);
@@ -6704,7 +7373,27 @@ contentEl.addEventListener('drop', e => {
     dragSrcSeries = null;
     return;
   }
-  const sRow = e.target.closest('.series-game-row');
+  const bsRow = e.target.closest('.series-game-row[data-bsides-slug]');
+  if(bsRow && dragSrcBsidesRow){
+    e.preventDefault();
+    bsRow.classList.remove('drag-over');
+    const targetSlug = bsRow.dataset.bsidesSlug;
+    const targetIdx = +bsRow.dataset.bsidesIdx;
+    if(targetSlug !== dragSrcBsidesRow.slug){ dragSrcBsidesRow = null; return; }
+    if(targetIdx === dragSrcBsidesRow.idx){ dragSrcBsidesRow = null; return; }
+    const block = BSIDES.data[targetSlug];
+    if(!block || !block.entries){ dragSrcBsidesRow = null; return; }
+    const [moved] = block.entries.splice(dragSrcBsidesRow.idx, 1);
+    block.entries.splice(targetIdx, 0, moved);
+    bsidesStage();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Entry reordered');
+    dragSrcBsidesRow = null;
+    return;
+  }
+  const sRow = e.target.closest('.series-game-row[data-series]');
   if(sRow && dragSrcRow){
     e.preventDefault();
     sRow.classList.remove('drag-over');
@@ -6751,7 +7440,9 @@ contentEl.addEventListener('dragend', () => {
   contentEl.querySelectorAll('.dragging, .drop-target, .drag-over').forEach(c => c.classList.remove('dragging','drop-target','drag-over'));
   dragSrcId = null;
   dragSrcSeries = null;
+  dragSrcBsides = null;
   dragSrcRow = null;
+  dragSrcBsidesRow = null;
 });
 
 /* ═══ GUESS THE GAME ═══ */
@@ -7456,6 +8147,7 @@ document.getElementById('driftBtn').addEventListener('click', openDRIFT);
 
 (async function boot(){
   await loadPlatforms();
+  await loadBsides();
   await loadManifest();
   (function restoreLastTab(){
     try{
