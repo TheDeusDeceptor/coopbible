@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-13T21:11:28Z",
+  "updated": "2026-10-14T00:21:00Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -143,7 +143,12 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Woolhaven",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -1947,7 +1952,20 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "The Thrice Damned 1: Isle of the Dead",
+          "played": false
+        },
+        {
+          "name": "The Thrice Damned 2: The Sunken Kingdom",
+          "played": false
+        },
+        {
+          "name": "The Thrice Damned 3: Great Pyramid of Bes",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -2502,7 +2520,12 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Pathogen",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -4972,7 +4995,24 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Assassinate the Führer",
+          "played": false
+        },
+        {
+          "name": "Neudorf Outpost",
+          "played": false
+        },
+        {
+          "name": "Saint Pierre",
+          "played": false
+        },
+        {
+          "name": "Landwehr Canal",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": true,
         "localCoop": false,
@@ -5010,7 +5050,24 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Save Churchill Part 1: In Shadows",
+          "played": false
+        },
+        {
+          "name": "Save Churchill Part 2: Belly of the Beast",
+          "played": false
+        },
+        {
+          "name": "Save Churchill Part 3: Confrontation",
+          "played": false
+        },
+        {
+          "name": "Target Hitler: Hunt the Grey Wolf",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": true,
         "localCoop": false,
@@ -5048,7 +5105,20 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Deathstorm Part 1: Inception",
+          "played": false
+        },
+        {
+          "name": "Deathstorm Part 2: Infiltration",
+          "played": false
+        },
+        {
+          "name": "Deathstorm Part 3: Obliteration",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -5086,7 +5156,24 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Landing Force",
+          "played": false
+        },
+        {
+          "name": "Conqueror",
+          "played": false
+        },
+        {
+          "name": "Rough Landing",
+          "played": false
+        },
+        {
+          "name": "Kraken Awakes",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -5124,7 +5211,24 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Target Führer: Lights, Camera, Achtung",
+          "played": false
+        },
+        {
+          "name": "Vercors Vendetta",
+          "played": false
+        },
+        {
+          "name": "Striking Range",
+          "played": false
+        },
+        {
+          "name": "Mud and Thunder",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -7701,7 +7805,12 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Tomb Kings",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -27638,7 +27747,12 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Bloody Ties",
+          "played": true
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -29074,7 +29188,12 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Cross of Vidar",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -29789,7 +29908,12 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Stasis Interrupted",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -30045,7 +30169,20 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Tunnels of Terror",
+          "played": true
+        },
+        {
+          "name": "Children of the Worm",
+          "played": true
+        },
+        {
+          "name": "River of Blood",
+          "played": true
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,
@@ -32745,7 +32882,12 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Raven Strike",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": false,
         "localCoop": false,

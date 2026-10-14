@@ -24,7 +24,24 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Target Führer: Lights, Camera, Achtung",
+      "played": false
+    },
+    {
+      "name": "Vercors Vendetta",
+      "played": false
+    },
+    {
+      "name": "Striking Range",
+      "played": false
+    },
+    {
+      "name": "Mud and Thunder",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,

@@ -24,7 +24,12 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Cross of Vidar",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,

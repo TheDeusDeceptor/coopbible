@@ -24,7 +24,12 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Bloody Ties",
+      "played": true
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,

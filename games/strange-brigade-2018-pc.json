@@ -24,7 +24,20 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "The Thrice Damned 1: Isle of the Dead",
+      "played": false
+    },
+    {
+      "name": "The Thrice Damned 2: The Sunken Kingdom",
+      "played": false
+    },
+    {
+      "name": "The Thrice Damned 3: Great Pyramid of Bes",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,

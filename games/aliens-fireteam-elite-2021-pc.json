@@ -24,7 +24,12 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Pathogen",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,

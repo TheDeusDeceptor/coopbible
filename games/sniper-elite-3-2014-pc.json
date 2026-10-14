@@ -24,7 +24,24 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Save Churchill Part 1: In Shadows",
+      "played": false
+    },
+    {
+      "name": "Save Churchill Part 2: Belly of the Beast",
+      "played": false
+    },
+    {
+      "name": "Save Churchill Part 3: Confrontation",
+      "played": false
+    },
+    {
+      "name": "Target Hitler: Hunt the Grey Wolf",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": true,
     "localCoop": false,

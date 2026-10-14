@@ -24,7 +24,24 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Assassinate the Führer",
+      "played": false
+    },
+    {
+      "name": "Neudorf Outpost",
+      "played": false
+    },
+    {
+      "name": "Saint Pierre",
+      "played": false
+    },
+    {
+      "name": "Landwehr Canal",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": true,
     "localCoop": false,

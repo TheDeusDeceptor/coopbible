@@ -24,7 +24,20 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Deathstorm Part 1: Inception",
+      "played": false
+    },
+    {
+      "name": "Deathstorm Part 2: Infiltration",
+      "played": false
+    },
+    {
+      "name": "Deathstorm Part 3: Obliteration",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,

@@ -24,7 +24,24 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Landing Force",
+      "played": false
+    },
+    {
+      "name": "Conqueror",
+      "played": false
+    },
+    {
+      "name": "Rough Landing",
+      "played": false
+    },
+    {
+      "name": "Kraken Awakes",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,

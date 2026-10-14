@@ -24,7 +24,20 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Tunnels of Terror",
+      "played": true
+    },
+    {
+      "name": "Children of the Worm",
+      "played": true
+    },
+    {
+      "name": "River of Blood",
+      "played": true
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,

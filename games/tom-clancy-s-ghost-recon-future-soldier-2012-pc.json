@@ -24,7 +24,12 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Raven Strike",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": false,
     "localCoop": false,
