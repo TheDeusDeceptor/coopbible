@@ -1,0 +1,33 @@
+{
+  "id": "evilbane-unreleased-pc",
+  "name": "Evilbane",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Netmarble Monster",
+  "pub": "Netmarble",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/evilbane-unreleased-pc.jpg",
+  "logo": "images/logos/evilbane-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3718160",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

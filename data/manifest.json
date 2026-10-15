@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-15T16:25:39Z",
+  "updated": "2026-10-15T22:51:57Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -33754,23 +33754,23 @@
       "series_status": null,
       "series_note": null
     },
-    "the-smurfs-dreams-2024-pc": {
-      "id": "the-smurfs-dreams-2024-pc",
-      "name": "The Smurfs: Dreams",
+    "evilbane-unreleased-pc": {
+      "id": "evilbane-unreleased-pc",
+      "name": "Evilbane",
       "platform": "PC",
-      "size": "6 GB",
+      "size": "",
       "hltb": "—",
-      "dev": "Ocellus Studio",
-      "pub": "Microids",
+      "dev": "Netmarble Monster",
+      "pub": "Netmarble",
       "notes": "",
-      "release": "07.11.2024",
+      "release": "TBA",
       "ea_release": "",
-      "screenshot": "images/screenshots/the-smurfs-dreams-2024-pc.jpg",
-      "logo": "images/logos/the-smurfs-dreams-2024-pc.png",
+      "screenshot": "images/screenshots/evilbane-unreleased-pc.jpg",
+      "logo": "images/logos/evilbane-unreleased-pc.png",
       "links": [
         {
           "label": "Steam",
-          "url": "https://store.steampowered.com/app/2602020",
+          "url": "https://store.steampowered.com/app/3718160",
           "icon": "steam"
         }
       ],
@@ -33778,7 +33778,7 @@
       "dlc": [],
       "flags": {
         "installed": false,
-        "localCoop": true,
+        "localCoop": false,
         "authRequired": false,
         "ownedSteam": false,
         "gamepass": false
@@ -34290,8 +34290,7 @@
       "haven-2020-pc",
       "never-alone-kisima-ingitchuna-2014-pc",
       "cat-mail-co-2026-pc",
-      "chained-beasts-2026-pc",
-      "the-smurfs-dreams-2024-pc"
+      "chained-beasts-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -34492,7 +34491,8 @@
       "heathen-unreleased-pc",
       "living-hell-2027-pc",
       "kemuri-2027-pc",
-      "never-alone-2-unreleased-pc"
+      "never-alone-2-unreleased-pc",
+      "evilbane-unreleased-pc"
     ],
     "mods": [
       "devil-may-cry-3-crimson-2026-pcmod",
