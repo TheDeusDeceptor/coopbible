@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-15T15:58:44Z",
+  "updated": "2026-10-15T16:09:08Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -33545,6 +33545,72 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "never-alone-kisima-ingitchuna-2014-pc": {
+      "id": "never-alone-kisima-ingitchuna-2014-pc",
+      "name": "Never Alone (Kisima Ingitchuna)",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 3, +Extra: 4",
+      "dev": "Upper One Games",
+      "pub": "E-Line Media",
+      "notes": "",
+      "release": "18.11.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/never-alone-kisima-ingitchuna-2014-pc.jpg",
+      "logo": "images/logos/never-alone-kisima-ingitchuna-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/295790",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cat-mail-co-2026-pc": {
+      "id": "cat-mail-co-2026-pc",
+      "name": "Cat Mail Co.",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 12, +Extra: 11",
+      "dev": "Maracas Studio",
+      "pub": "Maracas Studio, Gamersky Games",
+      "notes": "",
+      "release": "09.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cat-mail-co-2026-pc.jpg",
+      "logo": "images/logos/cat-mail-co-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4380490",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -34046,7 +34112,9 @@
       "webfishing-2024-pc",
       "sos-ops-2023-pc",
       "crime-boss-rockay-city-2024-pc",
-      "haven-2020-pc"
+      "haven-2020-pc",
+      "never-alone-kisima-ingitchuna-2014-pc",
+      "cat-mail-co-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",

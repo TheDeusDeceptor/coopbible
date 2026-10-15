@@ -1,0 +1,33 @@
+{
+  "id": "never-alone-kisima-ingitchuna-2014-pc",
+  "name": "Never Alone (Kisima Ingitchuna)",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "Upper One Games",
+  "pub": "E-Line Media",
+  "notes": "",
+  "release": "18.11.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/never-alone-kisima-ingitchuna-2014-pc.jpg",
+  "logo": "images/logos/never-alone-kisima-ingitchuna-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/295790",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": true,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
