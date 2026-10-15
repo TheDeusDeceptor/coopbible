@@ -1,0 +1,33 @@
+{
+  "id": "chained-beasts-2026-pc",
+  "name": "Chained Beasts",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Featherweight Games",
+  "pub": "Featherweight Games",
+  "notes": "",
+  "release": "15.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/chained-beasts-2026-pc.jpg",
+  "logo": "images/logos/chained-beasts-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3569420",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

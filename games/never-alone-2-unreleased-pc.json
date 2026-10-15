@@ -1,0 +1,38 @@
+{
+  "id": "never-alone-2-unreleased-pc",
+  "name": "Never Alone 2",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "E-Line Media",
+  "pub": "E-Line Media",
+  "notes": "",
+  "release": "TBA",
+  "ea_release": "",
+  "screenshot": "images/screenshots/never-alone-2-unreleased-pc.jpg",
+  "logo": "images/logos/never-alone-2-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2154420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Never_Alone_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

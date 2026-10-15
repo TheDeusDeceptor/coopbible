@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-15T16:09:08Z",
+  "updated": "2026-10-15T16:18:12Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -33611,6 +33611,148 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "kemuri-2027-pc": {
+      "id": "kemuri-2027-pc",
+      "name": "Kemuri",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "—",
+      "dev": "Unseen",
+      "pub": "Unseen",
+      "notes": "",
+      "release": "2027",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kemuri-2027-pc.jpg",
+      "logo": "images/logos/kemuri-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2667460",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Kemuri",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "good-heavens-2026-pc": {
+      "id": "good-heavens-2026-pc",
+      "name": "Good Heavens!",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Nowhere Studios",
+      "pub": "Nowhere Studios",
+      "notes": "",
+      "release": "",
+      "ea_release": "14.10.2026",
+      "screenshot": "images/screenshots/good-heavens-2026-pc.jpg",
+      "logo": "images/logos/good-heavens-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1617120",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "chained-beasts-2026-pc": {
+      "id": "chained-beasts-2026-pc",
+      "name": "Chained Beasts",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Featherweight Games",
+      "pub": "Featherweight Games",
+      "notes": "",
+      "release": "15.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/chained-beasts-2026-pc.jpg",
+      "logo": "images/logos/chained-beasts-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3569420",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "never-alone-2-unreleased-pc": {
+      "id": "never-alone-2-unreleased-pc",
+      "name": "Never Alone 2",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "E-Line Media",
+      "pub": "E-Line Media",
+      "notes": "",
+      "release": "TBA",
+      "ea_release": "",
+      "screenshot": "images/screenshots/never-alone-2-unreleased-pc.jpg",
+      "logo": "images/logos/never-alone-2-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2154420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Never_Alone_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -34114,7 +34256,8 @@
       "crime-boss-rockay-city-2024-pc",
       "haven-2020-pc",
       "never-alone-kisima-ingitchuna-2014-pc",
-      "cat-mail-co-2026-pc"
+      "cat-mail-co-2026-pc",
+      "chained-beasts-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
@@ -34233,7 +34376,8 @@
       "funnel-runners-2026-pc",
       "invokyr-2026-pc",
       "stonewards-2026-pc",
-      "hytale-2026-pc"
+      "hytale-2026-pc",
+      "good-heavens-2026-pc"
     ],
     "unreleased": [
       "paddle-cats-2026-pc",
@@ -34312,7 +34456,9 @@
       "stage-fright-unreleased-pc",
       "did-you-see-that-2026-pc",
       "heathen-unreleased-pc",
-      "living-hell-2027-pc"
+      "living-hell-2027-pc",
+      "kemuri-2027-pc",
+      "never-alone-2-unreleased-pc"
     ],
     "mods": [
       "devil-may-cry-3-crimson-2026-pcmod",

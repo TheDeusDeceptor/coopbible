@@ -1,0 +1,38 @@
+{
+  "id": "kemuri-2027-pc",
+  "name": "Kemuri",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "—",
+  "dev": "Unseen",
+  "pub": "Unseen",
+  "notes": "",
+  "release": "2027",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kemuri-2027-pc.jpg",
+  "logo": "images/logos/kemuri-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2667460",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Kemuri",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

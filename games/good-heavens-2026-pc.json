@@ -1,0 +1,33 @@
+{
+  "id": "good-heavens-2026-pc",
+  "name": "Good Heavens!",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Nowhere Studios",
+  "pub": "Nowhere Studios",
+  "notes": "",
+  "release": "",
+  "ea_release": "14.10.2026",
+  "screenshot": "images/screenshots/good-heavens-2026-pc.jpg",
+  "logo": "images/logos/good-heavens-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1617120",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
