@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-14T02:20:41Z",
+  "updated": "2026-10-15T15:58:44Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -33507,6 +33507,44 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "haven-2020-pc": {
+      "id": "haven-2020-pc",
+      "name": "Haven",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 11, +Extra: 14",
+      "dev": "The Game Bakers",
+      "pub": "The Game Bakers",
+      "notes": "",
+      "release": "03.12.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/haven-2020-pc.jpg",
+      "logo": "images/logos/haven-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/983970",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Space_Haven",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -34007,7 +34045,8 @@
       "generation-zero-2019-pc",
       "webfishing-2024-pc",
       "sos-ops-2023-pc",
-      "crime-boss-rockay-city-2024-pc"
+      "crime-boss-rockay-city-2024-pc",
+      "haven-2020-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
