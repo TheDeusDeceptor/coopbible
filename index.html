@@ -1219,8 +1219,8 @@ const TABS = {
   ],
   single: [
     { id:'backlog',  label:'Backlog' },
-    { id:'series',   label:'Series' },
     { id:'emulog',   label:'EmuLog' },
+    { id:'series',   label:'Series' },
     { id:'bsides',   label:'B-Sides' },
     { id:'radar',    label:'Radar' },
     { id:'tvpc',     label:'TVPC' },
@@ -1766,12 +1766,16 @@ function viewBsides(slug){
   return BSIDES.data[slug] || null;
 }
 function bsidesStage(){
-  if(jsonEqual(BSIDES, BSIDES_ORIGINAL)) pendingFileWrites.delete(BSIDES_FILE);
-  else pendingFileWrites.set(BSIDES_FILE, JSON.stringify(BSIDES, null, 2) + '\n');
+  const snapshot = { ...BSIDES, updated: BSIDES_ORIGINAL.updated };
+  if(jsonEqual(snapshot, BSIDES_ORIGINAL)){ pendingFileWrites.delete(BSIDES_FILE); return; }
+  BSIDES.updated = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
+  pendingFileWrites.set(BSIDES_FILE, JSON.stringify(BSIDES, null, 2) + '\n');
 }
 function projectsStage(){
-  if(jsonEqual(PROJECTS, PROJECTS_ORIGINAL)) pendingFileWrites.delete(PROJECTS_FILE);
-  else pendingFileWrites.set(PROJECTS_FILE, JSON.stringify(PROJECTS, null, 2) + '\n');
+  const snapshot = { ...PROJECTS, updated: PROJECTS_ORIGINAL.updated };
+  if(jsonEqual(snapshot, PROJECTS_ORIGINAL)){ pendingFileWrites.delete(PROJECTS_FILE); return; }
+  PROJECTS.updated = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
+  pendingFileWrites.set(PROJECTS_FILE, JSON.stringify(PROJECTS, null, 2) + '\n');
 }
 function bsidesOrderLive(){ return BSIDES.order.filter(s => !!BSIDES.data[s]); }
 function isInAnyBsides(gameId){
@@ -1805,23 +1809,6 @@ function listFor(tabId){
 }
 function gamesOfTab(tabId){
   return listFor(tabId).map(viewGame).filter(Boolean);
-}
-function platformsPresentIn(tabId){
-  const counts = new Map();
-  for(const g of gamesOfTab(tabId)){
-    const key = String(g.platform || '').trim();
-    if(!key) continue;
-    const nk = key.toLowerCase();
-    if(!counts.has(nk)) counts.set(nk, { key, label: platformLabel(key), count: 0 });
-    counts.get(nk).count++;
-  }
-  return [...counts.values()].sort((a,b) => a.label.localeCompare(b.label));
-}
-function platformFilterSummary(){
-  if(platformFilter.size === 0) return '';
-  const arr = [...platformFilter];
-  if(arr.length === 1) return platformLabel(arr[0]);
-  return arr.length + '';
 }
 function membershipsOf(gameId){
   const out = new Set();
@@ -2102,6 +2089,7 @@ function clearAllPending(){
   editorDrafts.clear();
   BSIDES = JSON.parse(JSON.stringify(BSIDES_ORIGINAL));
   PROJECTS = JSON.parse(JSON.stringify(PROJECTS_ORIGINAL));
+  PLATFORMS = JSON.parse(JSON.stringify(PLATFORMS_ORIGINAL));
   updatePendingStrip();
   invalidateAllPanes();
   renderContent();
@@ -2339,6 +2327,18 @@ function openPendingModal(){
           }
           pendingSeriesWrites.set(slug, copy);
         }
+        if(snap.bsidesSlots){
+          for(const [slug, slot] of Object.entries(snap.bsidesSlots)){
+            const block = BSIDES.data[slug];
+            if(!block) continue;
+            block.entries = block.entries || [];
+            if(!block.entries.some(e => e.type === 'game' && e.id === gid)){
+              const at = Math.min(slot.idx, block.entries.length);
+              block.entries.splice(at, 0, JSON.parse(JSON.stringify(slot.entry)));
+            }
+          }
+          bsidesStage();
+        }
         if(snap.priorDraft){ pendingGameWrites.set(gid, snap.priorDraft); }
         pendingGameDeleteSnapshots.delete(gid);
       }
@@ -2361,6 +2361,7 @@ function openPendingModal(){
       const p = key.slice(5);
       if(p === BSIDES_FILE) BSIDES = JSON.parse(JSON.stringify(BSIDES_ORIGINAL));
       if(p === PROJECTS_FILE) PROJECTS = JSON.parse(JSON.stringify(PROJECTS_ORIGINAL));
+      if(p === PLATFORMS_FILE) PLATFORMS = JSON.parse(JSON.stringify(PLATFORMS_ORIGINAL));
     }
     updatePendingStrip();
     invalidateAllPanes();
@@ -2610,7 +2611,7 @@ function platRowHTML(key){
       <input type="text" class="key-input" value="${esc(key)}" data-field="key">
       <input type="text" value="${esc(p.label||'')}" data-field="label">
       <input type="text" value="${esc(p.icon||'')}" data-field="icon">
-      <div class="plat-icon-preview ${iconUrl ? '' : 'empty'}">${iconUrl ? `<img src="${iconUrl}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">` : ''}</div>
+      <div class="plat-icon-preview ${iconUrl ? '' : 'empty'}">${iconUrl ? `<img src="${esc(iconUrl)}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">` : ''}</div>
       <div style="display:flex;align-items:center;gap:.35rem;justify-content:flex-end;">
         <span class="plat-badge ${badgeCls}">${badgeTxt}</span>
         <button type="button" class="plat-del" title="Remove">✕</button>
@@ -2828,11 +2829,13 @@ async function runMediaRenameScan(){
     const res = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/trees/main?recursive=1`);
     if(!res.ok) throw new Error('tree HTTP ' + res.status);
     const data = await res.json();
+    if(data.truncated) toast('Tree truncated — results may be incomplete', 'bad');
     const tree = data.tree || [];
+    const treeByPath = new Map(tree.map(t => [t.path, t]));
     const results = [];
     for(const id of Object.keys(MANIFEST.games)){
       const g = MANIFEST.games[id];
-      if(g.screenshot){
+      if(g.screenshot && /^images\/screenshots\//.test(g.screenshot)){
         const folder = 'images/screenshots/';
         const rest = String(g.screenshot).replace(/^.*?images\/screenshots\//, '');
         const ext = rest.match(/(\.[^.]+)$/);
@@ -2840,12 +2843,12 @@ async function runMediaRenameScan(){
         if(oldBasename !== id && ext){
           const oldPath = folder + oldBasename + ext[1];
           const newPath = folder + id + ext[1];
-          const file = tree.find(x => x.path === oldPath);
-          const targetExists = tree.some(x => x.path === newPath);
+          const file = treeByPath.get(oldPath);
+          const targetExists = treeByPath.has(newPath);
           results.push({ gameId: id, kind: 'screenshot', oldPath, newPath, sha: file ? file.sha : '', size: file ? (file.size || 0) : 0, conflict: targetExists });
         }
       }
-      if(g.logo){
+      if(g.logo && /^images\/logos\//.test(g.logo)){
         const folder = 'images/logos/';
         const rest = String(g.logo).replace(/^.*?images\/logos\//, '');
         const ext = rest.match(/(\.[^.]+)$/);
@@ -2853,8 +2856,8 @@ async function runMediaRenameScan(){
         if(oldBasename !== id && ext){
           const oldPath = folder + oldBasename + ext[1];
           const newPath = folder + id + ext[1];
-          const file = tree.find(x => x.path === oldPath);
-          const targetExists = tree.some(x => x.path === newPath);
+          const file = treeByPath.get(oldPath);
+          const targetExists = treeByPath.has(newPath);
           results.push({ gameId: id, kind: 'logo', oldPath, newPath, sha: file ? file.sha : '', size: file ? (file.size || 0) : 0, conflict: targetExists });
         }
       }
@@ -2880,6 +2883,14 @@ function stageMediaRenames(){
     const r = mediaRenameResults[+cb.dataset.idx];
     if(!r || r.conflict || !r.sha) continue;
     pendingFileRenames.set(r.oldPath, { newPath: r.newPath, sha: r.sha });
+    const base = viewGame(r.gameId);
+    if(base){
+      const copy = JSON.parse(JSON.stringify(base));
+      let changed = false;
+      if(r.kind === 'screenshot' && copy.screenshot === r.oldPath){ copy.screenshot = r.newPath; changed = true; }
+      if(r.kind === 'logo'       && copy.logo       === r.oldPath){ copy.logo       = r.newPath; changed = true; }
+      if(changed) pendingGameWrites.set(r.gameId, copy);
+    }
     n++;
   }
   mediaRenameResults = mediaRenameResults.filter(r => !pendingFileRenames.has(r.oldPath));
@@ -2921,6 +2932,7 @@ async function runOrphanScan(){
     const res = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/trees/main?recursive=1`);
     if(!res.ok) throw new Error('tree HTTP ' + res.status);
     const data = await res.json();
+    if(data.truncated) toast('Tree truncated — results may be incomplete', 'bad');
     const tree = data.tree || [];
     const gameIds = new Set(Object.keys(MANIFEST.games));
     const seriesSlugs = new Set([...Object.keys(MANIFEST.series), ...BSIDES.order]);
@@ -2939,7 +2951,7 @@ async function runOrphanScan(){
     }
     const folderMap = {
       'images/screenshots/': new Set([...gameIds, ...shotBasenames]),
-      'images/logos/': new Set([...gameIds, ...logoBasenames]),
+      'images/logos/': new Set([...gameIds, ...logoBasenames, ...seriesSlugs]),
       'images/series/': seriesSlugs
     };
     const orphans = [];
@@ -3127,7 +3139,7 @@ function openToolsModal(){
           const v = e.target.value.trim();
           if(v){
             prev.classList.remove('empty');
-            prev.innerHTML = `<img src="${PLATFORM_ICON_BASE + v}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">`;
+            prev.innerHTML = `<img src="${esc(PLATFORM_ICON_BASE + v)}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">`;
           } else { prev.classList.add('empty'); prev.innerHTML = ''; }
         }
         const status = platRowStatus(key);
@@ -3569,21 +3581,20 @@ function showLogoPicker(title, items, onPick, opts){
   });
   if(searchable && onSearch){
     const input = logopickerSlot.querySelector('#lp-search');
-    const go = logopickerSlot.querySelector('#logopicker-search-go');
+    const goBtn = logopickerSlot.querySelector('#lp-search-go');
     const rerun = async () => {
       const q = input.value.trim();
       if(!q) return;
-      go.disabled = true; go.textContent = '…';
+      goBtn.disabled = true; goBtn.textContent = '…';
       try{
         const res = await onSearch(q);
-        if(!res || !res.items || !res.items.length){ toast('No results for that query', 'bad'); go.disabled = false; go.textContent = 'Search'; return; }
+        if(!res || !res.items || !res.items.length){ toast('No results for that query', 'bad'); goBtn.disabled = false; goBtn.textContent = 'Search'; return; }
         showLogoPicker(res.title, res.items, onPick, { searchable: true, searchValue: q, onSearch });
       } catch(e){
         toast(e.message || 'Search failed', 'bad');
-        go.disabled = false; go.textContent = 'Search';
+        goBtn.disabled = false; goBtn.textContent = 'Search';
       }
     };
-    const goBtn = logopickerSlot.querySelector('#lp-search-go');
     if(goBtn){ goBtn.onclick = rerun; }
     input.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); rerun(); } });
   }
@@ -3778,16 +3789,6 @@ function renderToolbar(){
           ${FILTER_KEYS.map(k => `<button class="dd-item ${filterSet.has(k)?'active':''}" data-filter="${k}">${FILTER_LABELS[k]}<span class="dd-tick">✓</span></button>`).join('')}
         </div>
       </div>
-      ${tab === 'emulog' ? `
-      <div class="dd" data-dd="platform">
-        <button class="dd-btn ${platformFilter.size > 0 ? 'non-default' : ''}" type="button">Platform <span class="val">${esc(platformFilterSummary() || 'All')}</span><span class="chev">▾</span></button>
-        <div class="dd-menu">
-          <button class="dd-item ${platformFilter.size === 0 ? 'active' : ''}" data-platform="__all__">Show all<span class="dd-tick">✓</span></button>
-          ${platformsPresentIn('emulog').map(p => `
-            <button class="dd-item ${platformFilter.has(p.key) ? 'active' : ''}" data-platform="${esc(p.key)}">${esc(p.label)}<span class="dir">${p.count}</span><span class="dd-tick">✓</span></button>
-          `).join('')}
-        </div>
-      </div>` : ''}
       <div class="dd" data-dd="sort">
         <button class="dd-btn ${nonDefault?'non-default':''}" type="button">Sort <span class="val">${SORT_LABELS[sortKey]}</span><span class="chev">▾</span></button>
         <div class="dd-menu">
@@ -4160,7 +4161,7 @@ function radarRowHTML(p, idx){
     <div class="series-game-row game" data-radar-idx="${idx}" ${adminMode ? 'draggable="true"' : ''}>
       <div class="g-title" title="${esc(p.name || '')}">${esc(p.name || '')}</div>
       <div class="g-year">${esc(p.platform || '')}</div>
-      <div class="g-platform">${safeUrl ? '<span style="color:var(--accent);font-family:var(--font-head);font-size:.6rem;letter-spacing:.1em;">↗ LINK</span>' : ''}</div>
+      <div class="g-platform">${clickable ? '<span style="color:var(--accent);font-family:var(--font-head);font-size:.6rem;letter-spacing:.1em;">↗ LINK</span>' : ''}</div>
       <div class="g-hltb empty-cell">—</div>
       ${radarStatusChip(p.status)}
       <div class="empty-cell">—</div>
@@ -4334,37 +4335,68 @@ function buildBsidesPane(pane){
   pane.el.innerHTML = `<div class="series-blocks">${slugs.map(bsidesBlockHTML).join('')}</div>${bsidesAddBlockHTML()}`;
 }
 function isPCPlatform(key){
-  if(!key) return true;
-  const k = String(key).trim().toLowerCase();
-  return k === 'pc' || k === '';
+  const k = String(key||'').trim().toLowerCase();
+  if(!k) return true;
+  if(k === 'pc' || k === 'windows' || k === 'win') return true;
+  if(k.startsWith('pc (')) return true;   // IGDB: "PC (Microsoft Windows)"
+  return false;
 }
-function buildTvpcPane(pane){
-  const all = gamesOfTab('tvpc').filter(passesAll);
-  const pc = [], byPlatform = new Map();
-  for(const g of all){
-    if(isPCPlatform(g.platform)){
-      pc.push(g);
-    } else {
+
+function sectionGroupsFor(listId, splitArchive){
+  const all = gamesOfTab(listId).filter(passesAll);
+  if(splitArchive){
+    const pc = [];
+    const byPlatform = new Map();
+    for(const g of all){
+      if(isPCPlatform(g.platform)){ pc.push(g); continue; }
       const key = String(g.platform || '').trim();
       const nk = key.toLowerCase();
       if(!byPlatform.has(nk)) byPlatform.set(nk, { key, label: platformLabel(key), games: [] });
       byPlatform.get(nk).games.push(g);
     }
+    const sortedPc = applySort(pc);
+    const purgatory = sortedPc.filter(g => g.archive_section === 'purgatory');
+    const archive   = sortedPc.filter(g => g.archive_section === 'archive');
+    const unassigned= sortedPc.filter(g => !g.archive_section);
+    const sections = [];
+    if(purgatory.length)  sections.push({ id:'pc-purgatory',  label:'PC · Purgatory',  games: purgatory });
+    if(archive.length)    sections.push({ id:'pc-archive',    label:'PC · Archive',    games: archive });
+    if(unassigned.length) sections.push({ id:'pc-unassigned', label:'PC · Unassigned', games: unassigned });
+    const platformGroups = [...byPlatform.values()]
+      .map(p => ({ ...p, games: applySort(p.games) }))
+      .sort((a,b) => a.label.localeCompare(b.label));
+    for(const p of platformGroups) sections.push({ id:'plat-' + slugify(p.key), label: p.label, games: p.games });
+    return sections;
   }
-  const sortedPc = applySort(pc);
-  const purgatory = sortedPc.filter(g => g.archive_section === 'purgatory');
-  const archive   = sortedPc.filter(g => g.archive_section === 'archive');
-  const unassigned= sortedPc.filter(g => !g.archive_section);
-  const platformGroups = [...byPlatform.values()]
+  // splitArchive:false — one section per distinct platform value
+  const emptyFallback = (listId === 'emulog') ? 'Unknown' : 'Unassigned';
+  const byPlatform = new Map();
+  for(const g of all){
+    const raw = String(g.platform || '').trim();
+    const key = raw || emptyFallback;
+    const nk  = key.toLowerCase();
+    if(!byPlatform.has(nk)) byPlatform.set(nk, { key, label: raw ? platformLabel(raw) : emptyFallback, games: [] });
+    byPlatform.get(nk).games.push(g);
+  }
+  return [...byPlatform.values()]
     .map(p => ({ ...p, games: applySort(p.games) }))
-    .sort((a,b) => a.label.localeCompare(b.label));
-  const sections = [];
-  if(purgatory.length) sections.push({ id:'pc-purgatory', label:'PC · Purgatory', games: purgatory });
-  if(archive.length)   sections.push({ id:'pc-archive',   label:'PC · Archive',   games: archive });
-  if(unassigned.length)sections.push({ id:'pc-unassigned',label:'PC · Unassigned',games: unassigned });
-  for(const p of platformGroups) sections.push({ id:'plat-' + slugify(p.key), label: p.label, games: p.games });
+    .sort((a,b) => a.label.localeCompare(b.label))
+    .map(p => ({ id:'plat-' + slugify(p.key), label: p.label, games: p.games }));
+}
+
+function sectionOrderedGames(tabId){
+  const sections = sectionGroupsFor(tabId, tabId === 'tvpc');
+  const out = [];
+  for(const s of sections) for(const g of s.games) out.push(g);
+  return out;
+}
+
+function buildSectionedPane(pane, listId, opts){
+  opts = opts || {};
+  const sections = sectionGroupsFor(listId, !!opts.splitArchive);
   if(!sections.length){
-    pane.el.innerHTML = `<div class="grid-empty">Nothing in TVPC yet.</div>`;
+    const totalInList = gamesOfTab(listId).length;
+    pane.el.innerHTML = `<div class="grid-empty">${totalInList ? 'No games match.' : 'Nothing here yet.'}</div>`;
     return;
   }
   const jumpMenuItems = sections.map(s => ({ id: s.id, label: s.label, count: s.games.length }));
@@ -4391,7 +4423,7 @@ function buildTvpcPane(pane){
           `).join('')}
         </div>
       </div>
-      <div class="grid">${s.games.map(g => cardHTML(g, 'tvpc')).join('')}</div>`;
+      <div class="grid">${s.games.map(g => cardHTML(g, listId)).join('')}</div>`;
   };
   pane.el.innerHTML = `<div style="max-width:1400px;margin:0 auto;">${sections.map(sectionHTML).join('')}</div>`;
   pane.el.querySelectorAll('.jump-toggle').forEach(btn => {
@@ -4416,6 +4448,10 @@ function buildTvpcPane(pane){
     };
   });
 }
+
+function buildTvpcPane(p){    buildSectionedPane(p, 'tvpc',   { splitArchive: true  }); }
+function buildDeuspcPane(p){  buildSectionedPane(p, 'deuspc', { splitArchive: false }); }
+function buildEmulogPane(p){  buildSectionedPane(p, 'emulog', { splitArchive: false }); }
 document.addEventListener('click', () => {
   document.querySelectorAll('.jump-menu.open').forEach(m => m.classList.remove('open'));
 });
@@ -4445,6 +4481,16 @@ function renderContent(){
   });
   pane.el.classList.add('active');
   pane.el.style.display = 'block';
+  if(voidMode){
+    renderToolbar();
+    const sig = paneSignature();
+    if(pane.signature === sig){ attachVideoObservers(); return; }
+    buildStandardPane(pane, tab);
+    pane.signature = sig;
+    markLoadedImages(pane.el);
+    attachVideoObservers();
+    return;
+  }
   if(tab === 'series' || tab === 'bsides' || tab === 'radar'){
     hideToolbar();
     const sig = paneSignature();
@@ -4460,8 +4506,10 @@ function renderContent(){
   renderToolbar();
   const sig = paneSignature();
   if(pane.signature === sig){ attachVideoObservers(); return; }
-  if(tab === 'tvpc') buildTvpcPane(pane);
-  else buildStandardPane(pane, tab);
+  if(tab === 'tvpc')        buildTvpcPane(pane);
+  else if(tab === 'deuspc') buildDeuspcPane(pane);
+  else if(tab === 'emulog') buildEmulogPane(pane);
+  else                      buildStandardPane(pane, tab);
   pane.signature = sig;
   markLoadedImages(pane.el);
   attachVideoObservers();
@@ -4471,11 +4519,14 @@ function refreshGrid(){
   TAB_PANES.forEach((p, id) => { p.el.style.display = id === tab ? 'block' : 'none'; });
   renderVoidNote();
   updateBeatenIndicator();
-  if(tab === 'series') buildSeriesPane(pane);
+  if(voidMode)              buildStandardPane(pane, tab);
+  else if(tab === 'series') buildSeriesPane(pane);
   else if(tab === 'bsides') buildBsidesPane(pane);
-  else if(tab === 'radar') buildRadarPane(pane);
-  else if(tab === 'tvpc') buildTvpcPane(pane);
-  else buildStandardPane(pane, tab);
+  else if(tab === 'radar')  buildRadarPane(pane);
+  else if(tab === 'tvpc')   buildTvpcPane(pane);
+  else if(tab === 'deuspc') buildDeuspcPane(pane);
+  else if(tab === 'emulog') buildEmulogPane(pane);
+  else                      buildStandardPane(pane, tab);
   pane.signature = paneSignature();
   markLoadedImages(pane.el);
   attachVideoObservers();
@@ -4638,6 +4689,8 @@ function openModal(g, t, opts){
     list = merged;
   } else if(voidMode){
     list = gamesWithNoList();
+  } else if(t === 'tvpc' || t === 'deuspc' || t === 'emulog'){
+    list = sectionOrderedGames(t);
   } else {
     list = applySort(gamesOfTab(t).filter(passesAll));
   }
@@ -4860,6 +4913,7 @@ function openEditor(g, opts){
   const currentTabId = (tab !== 'series' && tab !== 'bsides' && tab !== 'radar' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
   const targetListId = opts.listId || currentTabId;
   if(isNew && REAL_LISTS_SET.has(targetListId)) currentMemberships.add(targetListId);
+  if(currentMemberships.has('tvpc') || currentMemberships.has('deuspc')) draft.flags.installed = true;
   const membershipHTML = REAL_LISTS.map(tid => {
     const tdef = ALL_TABS.find(x => x.id === tid);
     const grp = TAB_GROUP[tid];
@@ -5248,6 +5302,7 @@ function openEditor(g, opts){
     });
     const mem = membershipsOf(id);
     $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = mem.has(cb.dataset.list); cb.closest('.list-cb').classList.toggle('on', cb.checked); });
+    if(mem.has('tvpc') || mem.has('deuspc')){ const ib = $('#flag-row [data-flag="installed"]'); if(ib) ib.classList.add('on'); }
     const arcVal2 = g.archive_section || '';
     const arcStatus2 = modalSlot.querySelector('#archive-status');
     if(arcStatus2){
@@ -5620,7 +5675,9 @@ function openEditor(g, opts){
       const sOn = statusRow.querySelector('.status-btn.on');
       merged.series_status = sOn && sOn.dataset.status ? sOn.dataset.status : null;
       merged.series_note = $('#f-series-note').value.trim() || null;
-      merged.archive_section = archRead;
+      if(!checkedLists.has('tvpc')) delete merged.archive_section;
+      else if(archRead) merged.archive_section = archRead;
+      else delete merged.archive_section;
       if(checkedLists.has('tvpc') || checkedLists.has('deuspc')) merged.flags.installed = true;
       const before = JSON.stringify(base);
       const after = JSON.stringify(merged);
@@ -5685,8 +5742,10 @@ function openEditor(g, opts){
       series:        $('#f-series').value.trim() || null,
       series_status: (statusRow.querySelector('.status-btn.on')?.dataset.status) || null,
       series_note:   $('#f-series-note').value.trim() || null,
-      archive_section: archRead,
     });
+    if(!checkedLists.has('tvpc')) delete out.archive_section;
+    else if(archRead) out.archive_section = archRead;
+    else delete out.archive_section;
     delete out.series_owner;
     if(videoVal) out.video = videoVal; else delete out.video;
     if(checkedLists.has('tvpc') || checkedLists.has('deuspc')) out.flags.installed = true;
@@ -5919,7 +5978,7 @@ function openConfirmDelete(g){
     editorDrafts.delete(id);
     const snapshot = {
       game: MANIFEST.games[id] ? JSON.parse(JSON.stringify(MANIFEST.games[id])) : null,
-      listSlots: {}, seriesSlots: {},
+      listSlots: {}, seriesSlots: {}, bsidesSlots: {},
       priorDraft: pendingGameWrites.has(id) ? JSON.parse(JSON.stringify(pendingGameWrites.get(id))) : null
     };
     for(const listId of REAL_LISTS){
@@ -5932,6 +5991,14 @@ function openConfirmDelete(g){
       if(!s) continue;
       const idx = (s.order || []).indexOf(id);
       if(idx >= 0) snapshot.seriesSlots[slug] = idx;
+    }
+    for(const slug of BSIDES.order){
+      const block = BSIDES.data[slug];
+      if(!block || !block.entries) continue;
+      for(let i = 0; i < block.entries.length; i++){
+        const entry = block.entries[i];
+        if(entry.type === 'game' && entry.id === id){ snapshot.bsidesSlots[slug] = { idx: i, entry: JSON.parse(JSON.stringify(entry)) }; break; }
+      }
     }
     pendingGameDeleteSnapshots.set(id, snapshot);
     pendingGameDeletes.add(id);
@@ -7328,32 +7395,6 @@ toolbarEl.addEventListener('click', e => {
     if(!wasOpen){ dd.classList.add('open'); openDD = dd.dataset.dd; }
     return;
   }
-  const po = e.target.closest('[data-platform]');
-  if(po){
-    const k = po.dataset.platform;
-    if(k === '__all__'){
-      platformFilter = new Set();
-    } else {
-      const s = new Set(platformFilter);
-      const existing = [...s].find(x => x.toLowerCase() === k.toLowerCase());
-      if(existing) s.delete(existing);
-      else s.add(k);
-      platformFilter = s;
-    }
-    savePlatformFilter();
-    const dd = toolbarEl.querySelector('.dd[data-dd="platform"]');
-    if(dd){
-      dd.querySelector('.val').textContent = platformFilterSummary() || 'All';
-      dd.classList.toggle('non-default', platformFilter.size > 0);
-      dd.querySelectorAll('[data-platform]').forEach(btn => {
-        const k2 = btn.dataset.platform;
-        if(k2 === '__all__') btn.classList.toggle('active', platformFilter.size === 0);
-        else btn.classList.toggle('active', [...platformFilter].some(x => x.toLowerCase() === k2.toLowerCase()));
-      });
-    }
-    refreshGrid();
-    return;
-  }
   const fo = e.target.closest('[data-filter]');
   if(fo){
     const k = fo.dataset.filter;
@@ -7843,6 +7884,30 @@ contentEl.addEventListener('drop', e => {
   draggable.classList.remove('drop-target');
   const targetId = draggable.dataset.id;
   if(targetId === dragSrcId) return;
+  if(tab === 'tvpc'){
+    const pane = getPane(tab);
+    const srcCard = [...pane.el.querySelectorAll('.card[data-id]')].find(c => c.dataset.id === dragSrcId);
+    const findHdr = c => { const grid = c && c.closest('.grid'); const h = grid && grid.previousElementSibling; return (h && h.classList.contains('section-header')) ? h : null; };
+    const srcHeader = findHdr(srcCard);
+    const dstHeader = findHdr(draggable);
+    if(srcHeader && dstHeader && srcHeader.id !== dstHeader.id){
+      const dstSec = dstHeader.id.replace(/^sec-/, '');
+      if(dstSec.startsWith('pc-')){
+        const archiveVal = dstSec === 'pc-purgatory' ? 'purgatory' : dstSec === 'pc-archive' ? 'archive' : null;
+        const g = viewGame(dragSrcId);
+        if(g){
+          const copy = JSON.parse(JSON.stringify(g));
+          if(archiveVal) copy.archive_section = archiveVal; else delete copy.archive_section;
+          pendingGameWrites.set(dragSrcId, copy);
+          updatePendingStrip();
+          invalidateAllPanes();
+          renderContent();
+        }
+        return;
+      }
+      if(dstSec.startsWith('plat-')) return;
+    }
+  }
   const list = (pendingListWrites.get(tab) || MANIFEST.lists[tab] || []).slice();
   const fromIdx = list.indexOf(dragSrcId);
   const toIdx = list.indexOf(targetId);
