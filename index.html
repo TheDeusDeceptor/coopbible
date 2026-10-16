@@ -52,7 +52,6 @@
   .icon-cols{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='18' rx='1'/%3E%3Crect x='14' y='3' width='7' height='18' rx='1'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='18' rx='1'/%3E%3Crect x='14' y='3' width='7' height='18' rx='1'/%3E%3C/svg%3E");}
   .icon-tools{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/%3E%3C/svg%3E");}
   .icon-void{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 8v4M12 16h.01'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 8v4M12 16h.01'/%3E%3C/svg%3E");}
-
   header{max-width:1400px;margin:0 auto 1.75rem;display:flex;justify-content:center;position:relative;min-height:44px;}
   .header-left{position:absolute;left:0;top:50%;transform:translateY(-50%);display:flex;gap:.4rem;align-items:center;flex-wrap:wrap;}
   .header-left button{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .75rem;border-radius:8px;cursor:pointer;transition:all .18s ease;white-space:nowrap;background:transparent;border:1px solid transparent;}
@@ -66,10 +65,7 @@
   .header-left .drift-btn:hover{color:var(--drift-bright);border-color:var(--drift);background:rgba(34,211,238,.16);box-shadow:0 0 10px rgba(34,211,238,.4);}
   .header-left .random-btn .dice-icon{width:16px;height:16px;display:block;flex-shrink:0;color:currentColor;}
   .header-left .random-btn .dice-icon svg{width:100%;height:100%;display:block;}
-  .header-left .calendar-btn svg,
-  .header-left .guess-btn svg,
-  .header-left .drift-btn svg{width:16px;height:16px;display:block;flex-shrink:0;}
-
+  .header-left .calendar-btn svg,.header-left .guess-btn svg,.header-left .drift-btn svg{width:16px;height:16px;display:block;flex-shrink:0;}
   .header-right{position:absolute;right:0;top:50%;transform:translateY(-50%);display:flex;gap:.5rem;align-items:center;}
   .header-right .tools-btn{display:none;align-items:center;gap:.45rem;font-family:var(--font-head);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.5rem .75rem;border-radius:8px;cursor:pointer;transition:all .18s ease;white-space:nowrap;background:transparent;border:1px solid var(--border);color:var(--muted);}
   body.admin-on .header-right .tools-btn{display:inline-flex;}
@@ -81,13 +77,11 @@
   .header-right .tools-btn .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
   .header-right .tools-btn .icon{width:14px;height:14px;}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-
   .admin-toggle{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.55rem .85rem;border:1px solid var(--border);border-radius:8px;background:rgba(255,255,255,.015);color:var(--muted);cursor:pointer;transition:all .18s ease;white-space:nowrap;}
   .admin-toggle:hover{color:#cbd5e1;border-color:var(--accent-line)}
   .admin-toggle .lamp{width:7px;height:7px;border-radius:50%;background:transparent;box-shadow:inset 0 0 0 1px #4a5468;transition:all .18s ease;}
   body.admin-on .admin-toggle{color:var(--red);border-color:rgba(239,68,68,.5);background:rgba(239,68,68,.08)}
   body.admin-on .admin-toggle .lamp{background:var(--red);box-shadow:0 0 8px var(--red)}
-
   .switch{position:relative;width:280px;height:58px;padding:5px;display:flex;cursor:pointer;user-select:none;border-radius:29px;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%, rgba(255,255,255,.02) 100%);box-shadow:inset 0 2px 6px rgba(0,0,0,.85),inset 0 -1px 0 rgba(255,255,255,.03),0 1px 0 rgba(255,255,255,.03);border:1px solid var(--border);transition:border-color .25s ease;}
   .switch:hover{border-color:var(--accent-line)}
   .switch-knob{position:absolute;top:5px;left:5px;width:calc(50% - 5px);height:calc(100% - 10px);border-radius:24px;background:linear-gradient(180deg,#2a3444 0%,#1b2330 55%,#141b26 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),inset 0 -1px 0 rgba(0,0,0,.5),0 4px 10px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.6);transition:transform .32s cubic-bezier(.34,1.15,.4,1);z-index:1;}
@@ -113,14 +107,7 @@
   .pending-strip button:disabled{opacity:.5;cursor:wait}
   .toolbar{max-width:1400px;margin:0 auto 1.25rem;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;position:sticky;top:0;z-index:80;padding:.6rem 0;}
   .toolbar.empty{display:none}
-  .dd-btn,
-  .search-box input,
-  .chk,
-  .btn-add{
-    backdrop-filter:blur(10px) saturate(140%);
-    -webkit-backdrop-filter:blur(10px) saturate(140%);
-    background-color:rgba(10,14,21,.72);
-  }
+  .dd-btn,.search-box input,.chk,.btn-add{backdrop-filter:blur(10px) saturate(140%);-webkit-backdrop-filter:blur(10px) saturate(140%);background-color:rgba(10,14,21,.72);}
   .tb-left{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
   .tb-right{margin-left:auto;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;}
   .dd{position:relative}
@@ -156,26 +143,33 @@
   .btn-add{display:none;backdrop-filter:blur(10px) saturate(140%);-webkit-backdrop-filter:blur(10px) saturate(140%);align-items:center;gap:.45rem;font-family:var(--font-head);font-weight:700;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;padding:.6rem .95rem;border:1px solid var(--red);border-radius:8px;background:rgba(239,68,68,.1);color:var(--red);cursor:pointer;transition:all .18s ease;}
   body.admin-on .btn-add{display:inline-flex;}
   .btn-add:hover{background:rgba(239,68,68,.18);color:#fff;border-color:#fff}
-  .section-header{max-width:1400px;margin:2rem auto 1rem;display:flex;align-items:center;gap:.85rem;scroll-margin-top:4rem;}
+  .section-header{max-width:1400px;margin:2rem auto 1rem;display:flex;align-items:center;gap:.85rem;scroll-margin-top:80px;position:relative;}
   .section-header:first-child{margin-top:0}
   .section-header .bar{width:3px;height:18px;background:var(--accent);border-radius:2px;flex-shrink:0;}
   .section-header .label{font-family:var(--font-head);font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);white-space:nowrap;}
   .section-header .line{flex:1;height:1px;background:var(--border);}
+  .section-header .count{font-family:var(--font-head);font-size:.62rem;color:var(--muted);letter-spacing:.1em;}
   .jump-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-head);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.4rem .7rem;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .18s ease;}
   .jump-btn:hover{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
   .jump-btn .arw{font-size:.85rem;line-height:1}
+  .jump-btn svg{display:block;pointer-events:none;}
+  .jump-pair{display:inline-flex;gap:.2rem;align-items:center;}
+  .jump-pair .jump-btn{width:30px;height:30px;padding:0;justify-content:center;}
+  .jump-menu{position:absolute;top:calc(100% + .35rem);right:0;z-index:50;min-width:220px;background:#0c1017;border:1px solid var(--border);border-radius:9px;padding:.35rem;box-shadow:0 12px 32px rgba(0,0,0,.55);display:none;flex-direction:column;gap:.1rem;max-height:60vh;overflow-y:auto;}
+  .jump-menu.open{display:flex;}
+  .jump-item{display:flex;align-items:center;gap:.6rem;padding:.5rem .7rem;border-radius:6px;font-family:var(--font-body);font-size:.86rem;font-weight:500;color:#cbd5e1;background:transparent;border:none;cursor:pointer;text-align:left;width:100%;transition:background .12s ease,color .12s ease;white-space:nowrap;}
+  .jump-item:hover{background:rgba(255,255,255,.04);color:#fff}
+  .jump-item.active{color:var(--accent)}
+  .jump-item .jump-count{margin-left:auto;font-family:var(--font-head);font-size:.6rem;color:var(--muted);letter-spacing:.1em;}
   .grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,36rem),1fr));gap:1.25rem;}
   body[data-cols="1"] .grid{grid-template-columns:1fr}
   body[data-cols="2"] .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   body[data-cols="3"] .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   body[data-cols="4"] .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
   .grid-empty{max-width:1400px;margin:1.5rem auto;padding:2rem 1rem;text-align:center;font-family:var(--font-head);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--border);border-radius:9px;line-height:1.8;}
-  body[data-cols="3"] .ov-chip,
-  body[data-cols="4"] .ov-chip{font-size:.68rem;padding:.26rem .5rem;}
-  body[data-cols="3"] .overlay-chips,
-  body[data-cols="4"] .overlay-chips{gap:.25rem;}
-  body[data-cols="3"] .dlc-counter,
-  body[data-cols="4"] .dlc-counter{font-size:.66rem;padding:.24rem .5rem;}
+  body[data-cols="3"] .ov-chip,body[data-cols="4"] .ov-chip{font-size:.68rem;padding:.26rem .5rem;}
+  body[data-cols="3"] .overlay-chips,body[data-cols="4"] .overlay-chips{gap:.25rem;}
+  body[data-cols="3"] .dlc-counter,body[data-cols="4"] .dlc-counter{font-size:.66rem;padding:.24rem .5rem;}
   .card{display:flex;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:border-color .2s ease;position:relative;content-visibility:auto;contain-intrinsic-size:auto 260px;}
   .card:hover{border-color:var(--accent-line)}
   .card.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.22)}
@@ -213,7 +207,6 @@
   .card-admin button.edit:hover{border-color:var(--accent);color:var(--accent);}
   .card-admin button.del:hover{border-color:var(--red);color:var(--red);}
   .card-admin .icon{width:14px;height:14px;}
-
   .beaten-list{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
   .beaten-row{display:grid;grid-template-columns:65% 1fr;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;position:relative;transition:border-color .2s ease;content-visibility:auto;contain-intrinsic-size:auto 500px;}
   .beaten-row:hover{border-color:var(--accent-line)}
@@ -236,12 +229,10 @@
   .beaten-meta .hltb{color:var(--muted);}
   .beaten-meta .unit{margin-left:.35em;}
   .beaten-meta .unit::after{content:".";}
-
   .beaten-indicator{position:fixed;right:1.5rem;bottom:1.5rem;z-index:100;display:none;flex-direction:column;align-items:flex-end;gap:.35rem;padding:1rem 1.25rem 1rem 1.5rem;background:linear-gradient(90deg,transparent 0%,rgba(6,7,11,.9) 30%);border-right:3px solid var(--accent);pointer-events:none;}
   .beaten-indicator.on{display:flex}
   .beaten-indicator .num{font-family:var(--font-head);font-weight:700;font-size:3rem;letter-spacing:-.03em;color:#fff;line-height:1;}
   .beaten-indicator .lbl{font-family:var(--font-head);font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:.55rem;color:var(--muted);line-height:1;}
-
   .series-blocks{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1.75rem;}
   .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;position:relative;}
   .series-block.drag-over{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);}
@@ -562,7 +553,7 @@
   .tools-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:820px;max-height:92vh;overflow-y:auto;position:relative;}
   .tools-modal::-webkit-scrollbar{width:10px}
   .tools-modal::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
-  .tools-tabs{display:flex;gap:.3rem;padding:0 1.4rem;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#0d1219 0%,#0b1016 100%);}
+  .tools-tabs{display:flex;gap:.3rem;padding:0 1.4rem;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#0d1219 0%,#0b1016 100%);flex-wrap:wrap;}
   .tools-tab{font-family:var(--font-head);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.7rem .9rem;border:0;background:transparent;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:all .16s ease;}
   .tools-tab:hover{color:#cbd5e1;}
   .tools-tab.active{color:var(--accent);border-bottom-color:var(--accent);}
@@ -617,7 +608,6 @@
   .video-row.ok .video-status{color:var(--green);}
   .video-row.bad .video-status{color:var(--red);}
   .video-row .video-size{font-family:var(--font-head);font-size:.65rem;color:var(--muted);text-align:right;}
-
   .random-overlay{position:fixed;inset:0;z-index:400;display:none;flex-direction:column;background:rgba(4,5,10,.92);}
   .random-overlay.open{display:flex;}
   .random-pages{display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;padding:.85rem 1.5rem .35rem;position:relative;z-index:12;transition:opacity .25s ease;}
@@ -643,155 +633,43 @@
   .random-spin-btn{font-family:var(--font-head);font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;padding:.9rem 3rem;border:1px solid var(--gold);border-radius:10px;background:var(--gold);color:#1a1306;cursor:pointer;transition:filter .18s ease, box-shadow .18s ease;box-shadow:0 0 22px var(--gold-glow);}
   .random-spin-btn:hover{filter:brightness(1.08);box-shadow:0 0 32px var(--gold-glow);}
   .random-spin-btn:disabled{opacity:.55;cursor:wait;box-shadow:none;filter:none;}
-
   .calendar-overlay{position:fixed;inset:0;z-index:400;display:none;flex-direction:column;background:rgba(4,5,10,.94);}
   .calendar-overlay.open{display:flex;}
   .calendar-pages{display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;padding:.85rem 1.5rem .35rem;}
   .calendar-pages .list-cb{font-size:.78rem;padding:.6rem .9rem;gap:.55rem;border-radius:8px;}
   .calendar-pages .list-cb .box{width:15px;height:15px;border-radius:4px;font-size:.82rem;}
-  .calendar-stage{
-    flex:1;
-    overflow:hidden;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:.5rem 1.5rem 1rem;
-    min-height:0;
-  }
-  .cal-outer{
-    position:relative;
-    width:100%;
-    max-width:1180px;
-    margin:0 auto;
-    padding:0 100px;
-  }
-  .cal-arrow{
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    width:90px;
-    height:280px;
-    background:transparent;
-    border:0;
-    padding:0;
-    cursor:pointer;
-    color:var(--cal-bright);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    transition:color .2s ease, opacity .2s ease;
-    opacity:.55;
-  }
+  .calendar-stage{flex:1;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:.5rem 1.5rem 1rem;min-height:0;}
+  .cal-outer{position:relative;width:100%;max-width:1180px;margin:0 auto;padding:0 100px;}
+  .cal-arrow{position:absolute;top:50%;transform:translateY(-50%);width:90px;height:280px;background:transparent;border:0;padding:0;cursor:pointer;color:var(--cal-bright);display:flex;align-items:center;justify-content:center;transition:color .2s ease, opacity .2s ease;opacity:.55;}
   .cal-arrow#calPrev{left:0;}
   .cal-arrow#calNext{right:0;}
   .cal-arrow:hover:not(:disabled){opacity:.95;color:#fff;}
   .cal-arrow:disabled{opacity:.12;cursor:not-allowed;}
-  .cal-arrow svg{
-    width:60px;height:200px;
-    display:block;
-    stroke:currentColor;
-    fill:none;
-    stroke-width:14;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-    transition:stroke-width .2s ease;
-  }
+  .cal-arrow svg{width:60px;height:200px;display:block;stroke:currentColor;fill:none;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;transition:stroke-width .2s ease;}
   .cal-arrow:hover:not(:disabled) svg{stroke-width:16;}
-
   .cal-body{display:flex;flex-direction:column;width:100%;}
   .cal-head{text-align:center;margin-bottom:.5rem;}
-  .cal-month-name{
-    font-family:var(--font-head);font-weight:700;
-    font-size:1.55rem;letter-spacing:.12em;
-    color:var(--cal-bright);
-    text-shadow:0 0 14px var(--cal-glow);
-    display:inline-block;
-  }
+  .cal-month-name{font-family:var(--font-head);font-weight:700;font-size:1.55rem;letter-spacing:.12em;color:var(--cal-bright);text-shadow:0 0 14px var(--cal-glow);display:inline-block;}
   .cal-dow-row{display:grid;grid-template-columns:repeat(7, var(--cal-cell-size));gap:.3rem;margin-bottom:.3rem;justify-content:center;}
   .cal-dow{font-family:var(--font-head);font-size:.55rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(167,243,208,.55);text-align:center;padding:.2rem 0;}
   .cal-dow.wknd{color:rgba(110,231,183,.9);}
   .cal-grid{display:grid;grid-template-columns:repeat(7, var(--cal-cell-size));grid-template-rows:repeat(6, var(--cal-cell-size));gap:.3rem;justify-content:center;}
-  .cal-cell{
-    width:var(--cal-cell-size);
-    height:var(--cal-cell-size);
-    position:relative;
-    background:rgba(6,78,59,.18);
-    border:1px solid rgba(16,185,129,.18);
-    border-radius:0;
-    overflow:hidden;
-    transition:all .15s ease;
-    cursor:default;
-  }
+  .cal-cell{width:var(--cal-cell-size);height:var(--cal-cell-size);position:relative;background:rgba(6,78,59,.18);border:1px solid rgba(16,185,129,.18);border-radius:0;overflow:hidden;transition:all .15s ease;cursor:default;}
   .cal-cell.blank{background:transparent;border-color:transparent;pointer-events:none;}
   .cal-cell.wknd{background:rgba(6,78,59,.5);border-color:rgba(6,95,70,.75);}
-  .cal-cell.today{
-    background:rgba(16,185,129,.16);
-    border-color:var(--cal-bright);
-    box-shadow:0 0 0 1px var(--cal-bright),0 0 18px var(--cal-glow);
-  }
+  .cal-cell.today{background:rgba(16,185,129,.16);border-color:var(--cal-bright);box-shadow:0 0 0 1px var(--cal-bright),0 0 18px var(--cal-glow);}
   .cal-cell.has-game{cursor:pointer;}
-  .cal-cell.has-game:hover{
-    border-color:var(--cal-base);
-    box-shadow:0 0 0 1px var(--cal-base),0 0 14px var(--cal-glow);
-    background:rgba(16,185,129,.14);
-  }
-  .cal-cell.wknd.has-game:hover{
-    border-color:var(--cal-bright);
-    background:rgba(6,78,59,.72);
-    box-shadow:0 0 0 1px var(--cal-bright),0 0 14px var(--cal-glow);
-  }
-  .cal-cell.today.has-game:hover{
-    border-color:#fff;
-    box-shadow:0 0 0 1px #fff,0 0 24px var(--cal-glow);
-  }
-  .cal-cell-count{
-    position:absolute;top:.3rem;right:.35rem;
-    font-family:var(--font-head);font-weight:700;
-    font-size:.7rem;letter-spacing:.02em;line-height:1;
-    z-index:3;pointer-events:none;
-    color:var(--cal-bright);
-    text-shadow:0 0 8px var(--cal-glow),0 1px 2px rgba(0,0,0,.9);
-  }
+  .cal-cell.has-game:hover{border-color:var(--cal-base);box-shadow:0 0 0 1px var(--cal-base),0 0 14px var(--cal-glow);background:rgba(16,185,129,.14);}
+  .cal-cell.wknd.has-game:hover{border-color:var(--cal-bright);background:rgba(6,78,59,.72);box-shadow:0 0 0 1px var(--cal-bright),0 0 14px var(--cal-glow);}
+  .cal-cell.today.has-game:hover{border-color:#fff;box-shadow:0 0 0 1px #fff,0 0 24px var(--cal-glow);}
+  .cal-cell-count{position:absolute;top:.3rem;right:.35rem;font-family:var(--font-head);font-weight:700;font-size:.7rem;letter-spacing:.02em;line-height:1;z-index:3;pointer-events:none;color:var(--cal-bright);text-shadow:0 0 8px var(--cal-glow),0 1px 2px rgba(0,0,0,.9);}
   .cal-cell.today .cal-cell-count{color:#fff;}
-  .cal-cell-day{
-    position:absolute;bottom:.4rem;left:.4rem;
-    font-family:var(--font-head);font-weight:700;
-    font-size:.68rem;line-height:1;
-    color:var(--cal-text);
-    background:rgba(6,20,16,.78);
-    border:1px solid rgba(52,211,153,.35);
-    border-radius:5px;
-    padding:.24rem .5rem;
-    z-index:3;pointer-events:none;
-    backdrop-filter:blur(4px);
-    -webkit-backdrop-filter:blur(4px);
-    text-shadow:0 1px 2px rgba(0,0,0,.6);
-  }
+  .cal-cell-day{position:absolute;bottom:.4rem;left:.4rem;font-family:var(--font-head);font-weight:700;font-size:.68rem;line-height:1;color:var(--cal-text);background:rgba(6,20,16,.78);border:1px solid rgba(52,211,153,.35);border-radius:5px;padding:.24rem .5rem;z-index:3;pointer-events:none;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);text-shadow:0 1px 2px rgba(0,0,0,.6);}
   .cal-cell.today .cal-cell-day{color:#fff;border-color:var(--cal-bright);box-shadow:0 0 8px var(--cal-glow);}
   .cal-cell.wknd:not(.today) .cal-cell-day{color:var(--cal-text);border-color:rgba(52,211,153,.25);}
-  .cal-cell-logo{
-    position:absolute;inset:0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:5%;
-    z-index:1;pointer-events:none;
-  }
-  .cal-cell-logo img{
-    max-width:100%;
-    max-height:100%;
-    width:auto;
-    height:auto;
-    object-fit:contain;
-    display:block;
-    filter:drop-shadow(0 2px 6px rgba(0,0,0,.75));
-  }
-  .cal-cell-logo .ph{
-    display:grid;place-items:center;
-    width:100%;height:100%;
-    font-family:var(--font-head);font-size:.55rem;font-weight:600;
-    color:#3a4356;text-align:center;padding:4px;line-height:1.15;
-  }
+  .cal-cell-logo{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:5%;z-index:1;pointer-events:none;}
+  .cal-cell-logo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.75));}
+  .cal-cell-logo .ph{display:grid;place-items:center;width:100%;height:100%;font-family:var(--font-head);font-size:.55rem;font-weight:600;color:#3a4356;text-align:center;padding:4px;line-height:1.15;}
   .cal-day-backdrop{position:fixed;inset:0;z-index:550;background:rgba(4,5,8,.85);display:none;align-items:center;justify-content:center;padding:1.5rem;}
   .cal-day-backdrop.open{display:flex;}
   .cal-day-modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:480px;padding:1.3rem;position:relative;animation:calPop .16s ease-out;}
@@ -808,7 +686,6 @@
   .cal-day-row .mini-logo .ph{font-size:.45rem;color:#3a4356;letter-spacing:.06em;}
   .cal-day-row .m-name{font-weight:600;font-size:.88rem;color:#e6ebf2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .cal-day-row .m-yr{font-family:var(--font-head);font-size:.72rem;color:var(--muted);letter-spacing:.06em;}
-
   .smart-vid{opacity:0;transition:opacity .25s ease;pointer-events:none;z-index:1;}
   .smart-vid.on{opacity:1;}
   .hero-play-btn{position:absolute;inset:0;display:grid;place-items:center;cursor:pointer;z-index:3;background:rgba(0,0,0,.15);transition:background .18s ease;}
@@ -817,10 +694,8 @@
   .hero-play-btn:hover .play-icon{transform:scale(1.08);border-color:var(--accent);}
   .hero-play-btn .play-icon svg{width:30px;height:30px;margin-left:3px;}
   .hover-shot{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .3s ease;pointer-events:none;z-index:0;}
-  .card:hover .hover-shot,
-  .beaten-row:hover .hover-shot{opacity:1;}
+  .card:hover .hover-shot,.beaten-row:hover .hover-shot{opacity:1;}
   .beaten-shot{position:relative;}
-
   .scroll-jump-group{position:fixed;left:1.5rem;bottom:1.5rem;z-index:90;display:flex;gap:.5rem;align-items:center;pointer-events:none;}
   .scroll-jump{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.55rem .9rem;border:1px solid var(--border);border-radius:8px;background-color:rgba(10,14,21,.72);backdrop-filter:blur(10px) saturate(140%);-webkit-backdrop-filter:blur(10px) saturate(140%);color:#cbd5e1;cursor:pointer;transition:opacity .25s ease,transform .25s ease,color .18s ease,border-color .18s ease,background-image .18s ease;box-shadow:0 4px 14px rgba(0,0,0,.4);opacity:0;transform:translateY(8px);pointer-events:none;}
   .scroll-jump.show{opacity:1;transform:translateY(0);pointer-events:auto;}
@@ -830,7 +705,6 @@
     .scroll-jump-group{left:1rem;bottom:1rem;}
     .scroll-jump{font-size:.6rem;padding:.5rem .75rem;}
   }
-
   .ov-close{position:fixed;top:1rem;left:1rem;z-index:250;width:38px;height:38px;border-radius:8px;display:grid;place-items:center;cursor:pointer;background:rgba(6,7,11,.6);border:1px solid var(--oc-line);color:var(--oc);transition:all .18s ease;font-family:inherit;padding:0;}
   .ov-close svg{display:block;width:18px;height:18px;pointer-events:none;}
   .ov-close:hover{color:var(--oc-bright);background:var(--oc-soft);border-color:var(--oc);box-shadow:0 0 14px var(--oc-glow);}
@@ -838,7 +712,6 @@
   .ov-close.ov-purple{--oc:#a78bfa;--oc-bright:#c4b5fd;--oc-line:rgba(167,139,250,.55);--oc-soft:rgba(167,139,250,.16);--oc-glow:rgba(167,139,250,.5)}
   .ov-close.ov-cyan{--oc:#22d3ee;--oc-bright:#67e8f9;--oc-line:rgba(34,211,238,.55);--oc-soft:rgba(34,211,238,.16);--oc-glow:rgba(34,211,238,.5)}
   .ov-close.ov-green{--oc:#6ee7b7;--oc-bright:#fff;--oc-line:rgba(110,231,183,.55);--oc-soft:rgba(52,211,153,.16);--oc-glow:rgba(52,211,153,.5)}
-
   .integ-row{display:flex;flex-direction:column;gap:.35rem;padding:.6rem .75rem;background:#0a0e15;border:1px solid var(--border);border-radius:6px;margin-bottom:.35rem;}
   .integ-head{display:flex;align-items:center;gap:.5rem;}
   .integ-kind{font-family:var(--font-head);font-size:.5rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.18rem .45rem;border-radius:4px;white-space:nowrap;}
@@ -848,7 +721,6 @@
   .integ-kind.double{color:var(--purple);background:rgba(167,139,250,.12);border:1px solid rgba(167,139,250,.4);}
   .integ-name{font-size:.85rem;color:#e6ebf2;font-weight:500;}
   .integ-detail{font-size:.78rem;color:var(--muted);font-family:ui-monospace,monospace;}
-
   @media (max-width:1100px){.tb-right{width:100%;margin-left:0;padding-top:.6rem;border-top:1px solid var(--border)}.search-box input{width:100%;max-width:280px}}
   @media (max-width:1000px){.series-game-row{grid-template-columns:minmax(180px,1.5fr) 100px 90px 130px 80px 80px minmax(140px,1.3fr) 70px;gap:.65rem;padding:.55rem 1rem;font-size:.82rem;}}
   @media (max-width:820px){
@@ -1057,7 +929,6 @@
 </style>
 </head>
 <body data-group="coop" data-cols="auto">
-
 <header>
   <div class="header-left">
     <button class="random-btn" id="randomBtn" type="button">
@@ -1119,13 +990,11 @@
     </button>
   </div>
 </header>
-
 <nav class="tabbar" id="tabbar"></nav>
 <div class="pending-strip" id="pendingStrip"></div>
 <div id="voidNoteHost"></div>
 <div class="toolbar" id="toolbar"></div>
 <main id="content"></main>
-
 <div class="backdrop" id="backdrop"><div id="modal-slot"></div></div>
 <div class="backdrop" id="token-backdrop" style="z-index:300"><div id="token-slot"></div></div>
 <div class="backdrop" id="picker-backdrop" style="z-index:320"><div id="picker-slot"></div></div>
@@ -1133,7 +1002,6 @@
 <div class="backdrop" id="pending-backdrop" style="z-index:310"><div id="pending-slot"></div></div>
 <div class="backdrop" id="tools-backdrop" style="z-index:305"><div id="tools-slot"></div></div>
 <div class="backdrop" id="series-backdrop" style="z-index:315"><div id="series-slot"></div></div>
-
 <div class="random-overlay" id="randomOverlay">
   <button class="ov-close ov-gold" id="randomCloseBtn" type="button" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
@@ -1153,7 +1021,6 @@
     <button class="random-spin-btn" id="randomSpinBtn">SPIN</button>
   </div>
 </div>
-
 <div class="calendar-overlay" id="calendarOverlay">
   <button class="ov-close ov-green" id="calendarClose" type="button" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
@@ -1162,9 +1029,7 @@
   <div class="calendar-stage" id="calendarStage">
     <div class="cal-outer">
       <button class="cal-arrow" id="calPrev" type="button" aria-label="Previous month">
-        <svg viewBox="0 0 72 220" preserveAspectRatio="xMidYMid meet">
-          <polyline points="56 20 16 110 56 200"/>
-        </svg>
+        <svg viewBox="0 0 72 220" preserveAspectRatio="xMidYMid meet"><polyline points="56 20 16 110 56 200"/></svg>
       </button>
       <div class="cal-body">
         <div class="cal-head"><div class="cal-month-name" id="calMonthName">Month</div></div>
@@ -1176,14 +1041,11 @@
         <div class="cal-grid" id="calGrid"></div>
       </div>
       <button class="cal-arrow" id="calNext" type="button" aria-label="Next month">
-        <svg viewBox="0 0 72 220" preserveAspectRatio="xMidYMid meet">
-          <polyline points="16 20 56 110 16 200"/>
-        </svg>
+        <svg viewBox="0 0 72 220" preserveAspectRatio="xMidYMid meet"><polyline points="16 20 56 110 16 200"/></svg>
       </button>
     </div>
   </div>
 </div>
-
 <div class="cal-day-backdrop" id="calDayBackdrop">
   <div class="cal-day-modal">
     <button class="close" id="calDayClose" type="button">✕</button>
@@ -1191,12 +1053,10 @@
     <div class="cal-day-list" id="calDayList"></div>
   </div>
 </div>
-
 <div class="beaten-indicator" id="beatenIndicator">
   <span class="num" id="beatenIndNum">0</span>
   <span class="lbl">Games Beaten</span>
 </div>
-
 <div class="gtg-overlay" id="gtgOverlay">
   <button class="ov-close ov-purple" id="gtgClose" type="button" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
@@ -1260,7 +1120,6 @@
     </div>
   </div>
 </div>
-
 <div class="drift-overlay" id="driftOverlay">
   <button class="ov-close ov-cyan" id="driftClose" type="button" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
@@ -1324,7 +1183,6 @@
     </div>
   </div>
 </div>
-
 <div class="scroll-jump-group">
   <button class="scroll-jump down" id="scrollDownBtn" type="button" aria-label="Scroll to bottom">
     <span class="arw">↓</span><span>Down</span>
@@ -1333,9 +1191,7 @@
     <span class="arw">↑</span><span>Up</span>
   </button>
 </div>
-
 <div class="toast" id="toast"></div>
-
 <script>
 /* ═══ CONFIG ═══ */
 const PROXY_URL = 'https://script.google.com/macros/s/AKfycbx53crSCIWCDRVuAtNpL4D2E_kBJXwRQTa5gUXY9LMAVSGwjdBWPE3gvh8Acvmao1kr/exec';
@@ -1350,8 +1206,8 @@ const GAMEPASS_ICON = 'images/icons/gamepass.png';
 const PLATFORMS_FILE = 'data/platforms.json';
 const MANIFEST_FILE = 'data/manifest.json';
 const BSIDES_FILE = 'data/bsides.json';
+const PROJECTS_FILE = 'data/projects.json';
 const PLATFORM_ICON_BASE = 'images/icons/';
-
 const TABS = {
   coop: [
     { id:'released',     label:'Released' },
@@ -1362,12 +1218,14 @@ const TABS = {
     { id:'coop-beaten',  label:'COOP-BEATEN' },
   ],
   single: [
-    { id:'backlog',        label:'Backlog' },
-    { id:'backlog-series', label:'Backlog Series' },
-    { id:'bsides',         label:'B-Sides' },
-    { id:'gamearchive',    label:'Game Archive' },
-    { id:'mainpc',         label:'Main PC' },
-    { id:'beaten',         label:'Beaten' },
+    { id:'backlog',  label:'Backlog' },
+    { id:'series',   label:'Series' },
+    { id:'emulog',   label:'EmuLog' },
+    { id:'bsides',   label:'B-Sides' },
+    { id:'radar',    label:'Radar' },
+    { id:'tvpc',     label:'TVPC' },
+    { id:'deuspc',   label:'DEUSPC' },
+    { id:'beaten',   label:'Beaten' },
   ]
 };
 const ALL_TABS = [...TABS.coop, ...TABS.single];
@@ -1376,9 +1234,8 @@ TABS.coop.forEach(t => TAB_GROUP[t.id] = 'coop');
 TABS.single.forEach(t => TAB_GROUP[t.id] = 'single');
 const BEATEN_TABS   = new Set(['coop-beaten','beaten']);
 const BEATEN_LISTS  = new Set(['coop-beaten','beaten']);
-const REAL_LISTS = ['released','early-access','unreleased','mods','lan-fun','coop-beaten','backlog','gamearchive','mainpc','beaten'];
+const REAL_LISTS = ['released','early-access','unreleased','mods','lan-fun','coop-beaten','backlog','emulog','tvpc','deuspc','beaten'];
 const REAL_LISTS_SET = new Set(REAL_LISTS);
-
 function addToListOrdered(listId, list, id){
   if(!list.includes(id)){
     if(BEATEN_LISTS.has(listId)) list.unshift(id);
@@ -1386,13 +1243,13 @@ function addToListOrdered(listId, list, id){
   }
   return list;
 }
-
 let MANIFEST = { version: 4, updated: '', games: {}, lists: {}, series: {}, series_order: [] };
 let PLATFORMS = {};
 let PLATFORMS_ORIGINAL = {};
 let BSIDES = { version: 1, updated: '', order: [], data: {} };
 let BSIDES_ORIGINAL = { version: 1, updated: '', order: [], data: {} };
-
+let PROJECTS = { version: 1, updated: '', projects: [] };
+let PROJECTS_ORIGINAL = { version: 1, updated: '', projects: [] };
 let sortKey = 'natural', sortDir = 'asc', searchTerm = '';
 let filterSet = (() => {
   try{
@@ -1414,11 +1271,9 @@ function filterSummary(){
 }
 function filterIsNonDefault(){ return !(filterSet.size === 1 && filterSet.has('all')); }
 function saveFilterGlobal(){ localStorage.setItem('view_filter', JSON.stringify([...filterSet])); }
-
 const searchFields = { name: true, dev: false, pub: false };
 const defaultDir = { natural:'asc', name:'asc', size:'desc', release:'desc', main:'asc', extra:'asc' };
 const SORT_LABELS = { natural:'Date Added', name:'Name', size:'Size', release:'Released', main:'HLTB Main', extra:'HLTB Extra' };
-
 let group = 'coop', tab = 'released';
 let adminMode = false, adminBusy = false;
 let viewCols = (() => { try { return localStorage.getItem('view_cols') || 'auto'; } catch(e){ return 'auto'; } })();
@@ -1427,18 +1282,25 @@ let openDD = null;
 let voidMode = false;
 let videoMode = (() => { try { return localStorage.getItem('view_video') || 'on'; } catch(e){ return 'on'; } })();
 const VIDEO_MODE_LABELS = { on:'On', smart:'Smart', off:'Off' };
-
+let platformFilter = (() => {
+  try{
+    const saved = JSON.parse(localStorage.getItem('view_platform_emulog') || 'null');
+    if(Array.isArray(saved)) return new Set(saved);
+  }catch(e){}
+  return new Set();
+})();
+function savePlatformFilter(){ localStorage.setItem('view_platform_emulog', JSON.stringify([...platformFilter])); }
 const pendingGameWrites = new Map();
 const pendingGameDeletes = new Set();
 const pendingGameDeleteSnapshots = new Map();
 const pendingListWrites = new Map();
 const pendingFileWrites = new Map();
 const pendingFileDeletes = new Set();
+const pendingFileRenames = new Map();
 const pendingSeriesWrites = new Map();
 const pendingSeriesDeletes = new Set();
 let pendingSeriesOrder = null;
 const editorDrafts = new Map();
-
 const bodyEl = document.body;
 const contentEl = document.getElementById('content');
 const tabbarEl = document.getElementById('tabbar');
@@ -1487,7 +1349,6 @@ const calDayBackdrop = document.getElementById('calDayBackdrop');
 const calDayClose = document.getElementById('calDayClose');
 const calDayTitle = document.getElementById('calDayTitle');
 const calDayList = document.getElementById('calDayList');
-
 function refreshScrollJumpVisibility(){
   if(typeof updateScrollButtons === 'function') updateScrollButtons();
 }
@@ -1590,8 +1451,7 @@ function logoSrc(url){
   if(u.startsWith('data:')) return u;
   if(/\/images\//.test(u)) return u;
   const b64 = b64url(u);
-  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD +
-    '/image/fetch/w_504,h_562,c_limit,f_auto/' + b64;
+  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD + '/image/fetch/w_504,h_562,c_limit,f_auto/' + b64;
 }
 async function seriesLogoCompressUrl(url){
   if(!url) return url;
@@ -1607,8 +1467,7 @@ async function seriesLogoCompressUrl(url){
   if(dims && dims.h > dims.w) box = 'w_300,h_2000,c_limit';
   else                         box = 'w_2000,h_300,c_limit';
   const b64 = b64url(url);
-  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD +
-    '/image/fetch/' + box + ',f_auto/' + b64;
+  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD + '/image/fetch/' + box + ',f_auto/' + b64;
 }
 function lookupPlatform(key){
   if(!key) return null;
@@ -1759,20 +1618,19 @@ function parseReleaseDate(str){
   if(d < 1 || d > 31 || mo < 1 || mo > 12 || y < 1900 || y > 2100) return null;
   return { d, m: mo, y };
 }
-
 const TAG_LABELS = {
   coop:'Co-op', single:'Vault',
   released:'Released', 'early-access':'Early Access', unreleased:'Unreleased',
   mods:'Mods', 'lan-fun':'LAN Fun', 'coop-beaten':'Co-op Beaten',
   backlog:'Backlog',
-  gamearchive:'Game Archive', mainpc:'Main PC', beaten:'Beaten',
+  emulog:'EmuLog',
+  tvpc:'TVPC', deuspc:'DEUSPC', beaten:'Beaten',
   installed:'Installed', localcoop:'Local Co-op',
   authrequired:'AUTH', ownedsteam:'Steam', gamepass:'GamePass',
 };
 const COOP_TAGS  = new Set(['coop','released','early-access','unreleased','mods','lan-fun','coop-beaten']);
-const VAULT_TAGS = new Set(['single','backlog','gamearchive','mainpc','beaten']);
-const PAGE_TAG_ORDER = ['released','early-access','unreleased','mods','lan-fun','coop-beaten','backlog','gamearchive','mainpc','beaten'];
-
+const VAULT_TAGS = new Set(['single','backlog','emulog','tvpc','deuspc','beaten']);
+const PAGE_TAG_ORDER = ['released','early-access','unreleased','mods','lan-fun','coop-beaten','backlog','emulog','tvpc','deuspc','beaten'];
 function pageTagsOf(g){
   const mem = membershipsOf(g.id);
   return PAGE_TAG_ORDER.filter(t => mem.has(t));
@@ -1798,7 +1656,6 @@ function chipHTML(t){
   else if(VAULT_TAGS.has(t))                 cls += ' vault';
   return `<span class="${cls}">${esc(label)}</span>`;
 }
-
 function loadSortForTab(tabId){
   try{
     const saved = JSON.parse(localStorage.getItem('view_sort_' + tabId) || 'null');
@@ -1816,7 +1673,6 @@ function applySortForTab(tabId){
 function saveLastTab(){
   localStorage.setItem('view_last_tab', JSON.stringify({ group, tab }));
 }
-
 async function loadManifest(){
   try{
     const res = await fetch(MANIFEST_FILE, { cache: 'no-cache' });
@@ -1871,6 +1727,28 @@ async function loadBsides(){
     BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
   }
 }
+async function loadProjects(){
+  try{
+    const res = await fetch(PROJECTS_FILE, { cache: 'no-cache' });
+    if(res.status === 404){
+      PROJECTS = { version: 1, updated: '', projects: [] };
+      PROJECTS_ORIGINAL = JSON.parse(JSON.stringify(PROJECTS));
+      return;
+    }
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    const raw = await res.json();
+    PROJECTS = {
+      version: raw.version || 1,
+      updated: raw.updated || '',
+      projects: Array.isArray(raw.projects) ? raw.projects : []
+    };
+    PROJECTS_ORIGINAL = JSON.parse(JSON.stringify(PROJECTS));
+  }catch(e){
+    console.warn('projects.json load failed:', e);
+    PROJECTS = { version: 1, updated: '', projects: [] };
+    PROJECTS_ORIGINAL = JSON.parse(JSON.stringify(PROJECTS));
+  }
+}
 function viewGame(id){
   const base = MANIFEST.games[id];
   const draft = pendingGameWrites.get(id);
@@ -1890,6 +1768,10 @@ function viewBsides(slug){
 function bsidesStage(){
   if(jsonEqual(BSIDES, BSIDES_ORIGINAL)) pendingFileWrites.delete(BSIDES_FILE);
   else pendingFileWrites.set(BSIDES_FILE, JSON.stringify(BSIDES, null, 2) + '\n');
+}
+function projectsStage(){
+  if(jsonEqual(PROJECTS, PROJECTS_ORIGINAL)) pendingFileWrites.delete(PROJECTS_FILE);
+  else pendingFileWrites.set(PROJECTS_FILE, JSON.stringify(PROJECTS, null, 2) + '\n');
 }
 function bsidesOrderLive(){ return BSIDES.order.filter(s => !!BSIDES.data[s]); }
 function isInAnyBsides(gameId){
@@ -1923,6 +1805,23 @@ function listFor(tabId){
 }
 function gamesOfTab(tabId){
   return listFor(tabId).map(viewGame).filter(Boolean);
+}
+function platformsPresentIn(tabId){
+  const counts = new Map();
+  for(const g of gamesOfTab(tabId)){
+    const key = String(g.platform || '').trim();
+    if(!key) continue;
+    const nk = key.toLowerCase();
+    if(!counts.has(nk)) counts.set(nk, { key, label: platformLabel(key), count: 0 });
+    counts.get(nk).count++;
+  }
+  return [...counts.values()].sort((a,b) => a.label.localeCompare(b.label));
+}
+function platformFilterSummary(){
+  if(platformFilter.size === 0) return '';
+  const arr = [...platformFilter];
+  if(arr.length === 1) return platformLabel(arr[0]);
+  return arr.length + '';
 }
 function membershipsOf(gameId){
   const out = new Set();
@@ -2043,7 +1942,6 @@ function recalcGameSeriesField(gameId){
   if(!newSlug){ gc.series_status = null; gc.series_note = null; }
   pendingGameWrites.set(gameId, gc);
 }
-
 function getToken(){ return localStorage.getItem('gh_admin_token') || ''; }
 function setToken(t){ localStorage.setItem('gh_admin_token', t); }
 function clearToken(){ localStorage.removeItem('gh_admin_token'); }
@@ -2121,7 +2019,6 @@ adminToggleBtn.addEventListener('contextmenu', e => {
 });
 tokenBackdrop.addEventListener('click', e => { if(e.target === tokenBackdrop) closeTokenPrompt(); });
 tokenSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeTokenPrompt(); });
-
 async function ghFetch(url, opts = {}){
   const tok = getToken();
   if(!tok) throw new Error('No token');
@@ -2169,9 +2066,8 @@ async function ghUpdateRef(sha){
   });
   if(!r.ok) throw new Error('ref-update HTTP ' + r.status);
 }
-
 function totalPendingCount(){
-  return pendingGameWrites.size + pendingGameDeletes.size + pendingListWrites.size + pendingFileWrites.size + pendingFileDeletes.size + pendingSeriesWrites.size + pendingSeriesDeletes.size + (pendingSeriesOrder ? 1 : 0);
+  return pendingGameWrites.size + pendingGameDeletes.size + pendingListWrites.size + pendingFileWrites.size + pendingFileDeletes.size + pendingFileRenames.size + pendingSeriesWrites.size + pendingSeriesDeletes.size + (pendingSeriesOrder ? 1 : 0);
 }
 function updatePendingStrip(){
   const n = totalPendingCount();
@@ -2199,11 +2095,13 @@ function clearAllPending(){
   pendingListWrites.clear();
   pendingFileWrites.clear();
   pendingFileDeletes.clear();
+  pendingFileRenames.clear();
   pendingSeriesWrites.clear();
   pendingSeriesDeletes.clear();
   pendingSeriesOrder = null;
   editorDrafts.clear();
   BSIDES = JSON.parse(JSON.stringify(BSIDES_ORIGINAL));
+  PROJECTS = JSON.parse(JSON.stringify(PROJECTS_ORIGINAL));
   updatePendingStrip();
   invalidateAllPanes();
   renderContent();
@@ -2288,6 +2186,10 @@ async function commitPending(){
     for(const path of pendingFileDeletes){
       tree.push({ path, mode: '100644', type: 'blob', sha: null });
     }
+    for(const [oldPath, r] of pendingFileRenames){
+      tree.push({ path: r.newPath, mode: '100644', type: 'blob', sha: r.sha });
+      tree.push({ path: oldPath,    mode: '100644', type: 'blob', sha: null });
+    }
     const newTree = await ghCreateTree(baseTree, tree);
     let adds = 0, edits = 0, dels = 0, files = 0, listWrites = 0, seriesWrites = 0;
     for(const [id] of pendingGameWrites){
@@ -2295,7 +2197,7 @@ async function commitPending(){
     }
     dels = pendingGameDeletes.size;
     listWrites = pendingListWrites.size;
-    files = pendingFileWrites.size + pendingFileDeletes.size;
+    files = pendingFileWrites.size + pendingFileDeletes.size + pendingFileRenames.size;
     seriesWrites = pendingSeriesWrites.size + pendingSeriesDeletes.size + (pendingSeriesOrder ? 1 : 0);
     const parts = [];
     if(adds) parts.push(`${adds} added`);
@@ -2322,11 +2224,13 @@ async function commitPending(){
     pendingListWrites.clear();
     pendingFileWrites.clear();
     pendingFileDeletes.clear();
+    pendingFileRenames.clear();
     pendingSeriesWrites.clear();
     pendingSeriesDeletes.clear();
     pendingSeriesOrder = null;
     PLATFORMS_ORIGINAL = JSON.parse(JSON.stringify(PLATFORMS));
     BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
+    PROJECTS_ORIGINAL = JSON.parse(JSON.stringify(PROJECTS));
     updatePendingStrip();
     invalidateAllPanes();
     renderContent();
@@ -2370,6 +2274,9 @@ function openPendingModal(){
   }
   for(const path of pendingFileDeletes){
     rows.push({ key: 'filedel:' + path, tab: 'File', action: 'Delete', name: path });
+  }
+  for(const [oldPath, r] of pendingFileRenames){
+    rows.push({ key: 'fileren:' + oldPath, tab: 'File', action: 'Rename', name: oldPath.split('/').pop() + '  →  ' + r.newPath.split('/').pop() });
   }
   pendingSlot.innerHTML = `
     <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:720px;padding:1.4rem;position:relative;">
@@ -2449,9 +2356,11 @@ function openPendingModal(){
     else if(key === 'seriesorder') pendingSeriesOrder = null;
     else if(key.startsWith('filedel:')) pendingFileDeletes.delete(key.slice(8));
     else if(key.startsWith('file:')) pendingFileWrites.delete(key.slice(5));
+    else if(key.startsWith('fileren:')) pendingFileRenames.delete(key.slice(8));
     if(key.startsWith('file:')){
       const p = key.slice(5);
       if(p === BSIDES_FILE) BSIDES = JSON.parse(JSON.stringify(BSIDES_ORIGINAL));
+      if(p === PROJECTS_FILE) PROJECTS = JSON.parse(JSON.stringify(PROJECTS_ORIGINAL));
     }
     updatePendingStrip();
     invalidateAllPanes();
@@ -2471,7 +2380,6 @@ function openPendingModal(){
 }
 function closePendingModal(){ pendingBackdrop.classList.remove('open'); pendingSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
 pendingBackdrop.addEventListener('click', e => { if(e.target === pendingBackdrop) closePendingModal(); });
-
 let lbdbState = 'idle', lbdbMessage = '', lbdbPollTimer = null, lbdbStartTime = 0, lbdbTimeoutTimer = null;
 let toolsActiveTab = 'general';
 let orphanList = [];
@@ -2479,7 +2387,7 @@ let integrityIssues = [];
 let videoScanResults = [];
 let videoScanRunning = false;
 let videoScanToken = 0;
-
+let mediaRenameResults = [];
 function renderVideoList(){
   const host = toolsSlot.querySelector('#video-list');
   const summary = toolsSlot.querySelector('#video-summary');
@@ -2606,7 +2514,6 @@ async function downloadSelectedVideos(){
   dlBtn.textContent = 'Download selected';
   toast('Downloaded ' + ok + (fail ? ' · ' + fail + ' failed' : ''), fail ? 'bad' : 'ok');
 }
-
 function renderToolsBtn(){
   toolsBtn.classList.remove('running');
   if(lbdbState === 'running'){ toolsBtn.classList.add('running'); toolsBtnLabel.textContent = 'Tools · LBDB'; }
@@ -2681,7 +2588,6 @@ async function checkLbdbStatus(){
     }
   }catch(e){}
 }
-
 let platDraft = null;
 function clonePlatforms(o){ return JSON.parse(JSON.stringify(o || {})); }
 function platRowStatus(key){
@@ -2727,6 +2633,7 @@ function toolsModalHTML(){
   const orphansActive = toolsActiveTab === 'orphans';
   const integrityActive = toolsActiveTab === 'integrity';
   const videosActive = toolsActiveTab === 'videos';
+  const mediaActive = toolsActiveTab === 'media';
   return `
     <div class="tools-modal">
       <div class="admin-head">
@@ -2739,6 +2646,7 @@ function toolsModalHTML(){
         <button class="tools-tab ${orphansActive?'active':''}" data-tab="orphans">Orphans</button>
         <button class="tools-tab ${integrityActive?'active':''}" data-tab="integrity">Integrity</button>
         <button class="tools-tab ${videosActive?'active':''}" data-tab="videos">Videos</button>
+        <button class="tools-tab ${mediaActive?'active':''}" data-tab="media">Media</button>
       </div>
       <div class="admin-body">
         <div id="tools-general" style="${generalActive?'':'display:none'}">
@@ -2833,6 +2741,28 @@ function toolsModalHTML(){
             </div>
           </div>
         </div>
+        <div id="tools-media" style="${mediaActive?'':'display:none'}">
+          <div class="form-section">
+            <div class="sec-title">Media file names</div>
+            <div class="plat-hint">
+              Finds screenshots and logos whose filename doesn't match the game id — e.g. <code>foo-unreleased-pc.jpg</code> when the id is <code>foo-2021-pc</code>. Renaming reuses the existing blob, no download. Requires pending queue to be empty.
+            </div>
+            <div style="display:flex;gap:.6rem;align-items:center;margin-bottom:.9rem;flex-wrap:wrap;">
+              <button type="button" class="btn primary" id="media-scan">Scan</button>
+              <span id="media-summary" style="font-family:var(--font-head);font-size:.65rem;color:var(--muted);letter-spacing:.06em;"></span>
+            </div>
+            <div id="media-list" style="max-height:44vh;overflow-y:auto;margin-bottom:1rem;"></div>
+            <div class="plat-actions">
+              <div class="plat-actions-left">
+                <button type="button" class="add-link-btn" id="media-selall">Select all</button>
+                <button type="button" class="add-link-btn" id="media-desel">Deselect all</button>
+              </div>
+              <div class="plat-actions-right">
+                <button type="button" class="btn primary" id="media-rename" disabled>Stage renames</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>`;
 }
@@ -2845,16 +2775,118 @@ function refreshToolsBody(){
   const orph = toolsSlot.querySelector('#tools-orphans');
   const integ = toolsSlot.querySelector('#tools-integrity');
   const vids = toolsSlot.querySelector('#tools-videos');
+  const med  = toolsSlot.querySelector('#tools-media');
   if(gen) gen.style.display = toolsActiveTab === 'general' ? '' : 'none';
   if(plat) plat.style.display = toolsActiveTab === 'platforms' ? '' : 'none';
   if(orph) orph.style.display = toolsActiveTab === 'orphans' ? '' : 'none';
   if(integ) integ.style.display = toolsActiveTab === 'integrity' ? '' : 'none';
   if(vids) vids.style.display = toolsActiveTab === 'videos' ? '' : 'none';
+  if(med) med.style.display = toolsActiveTab === 'media' ? '' : 'none';
   if(toolsActiveTab === 'general') { renderLbdbStatusInModal(); }
   if(toolsActiveTab === 'platforms') { renderPlatformRows(); }
   if(toolsActiveTab === 'orphans') { renderOrphanList(); }
   if(toolsActiveTab === 'integrity') { renderIntegrityList(); }
   if(toolsActiveTab === 'videos') { renderVideoList(); }
+  if(toolsActiveTab === 'media') { renderMediaRenameList(); }
+}
+function renderMediaRenameList(){
+  const host = toolsSlot.querySelector('#media-list');
+  const summary = toolsSlot.querySelector('#media-summary');
+  const renameBtn = toolsSlot.querySelector('#media-rename');
+  if(!host) return;
+  if(!mediaRenameResults.length){
+    host.innerHTML = '<div style="padding:1rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase">No mismatches — click Scan</div>';
+    if(summary) summary.textContent = '';
+    if(renameBtn) renameBtn.disabled = true;
+    return;
+  }
+  const conflict = mediaRenameResults.filter(r => r.conflict).length;
+  const renameable = mediaRenameResults.length - conflict;
+  if(summary) summary.textContent = mediaRenameResults.length + ' mismatch' + (mediaRenameResults.length===1?'':'es') + (conflict ? ' · ' + conflict + ' conflict' : '');
+  host.innerHTML = mediaRenameResults.map((r, i) => {
+    const kindLabel = r.kind === 'screenshot' ? 'SHOT' : 'LOGO';
+    const kindColor = r.kind === 'screenshot' ? 'var(--accent)' : 'var(--purple)';
+    return `<label class="orphan-row" ${r.conflict ? 'style="opacity:.55;border-color:rgba(239,68,68,.4)"' : ''}>
+      <input type="checkbox" class="media-cb" data-idx="${i}" ${r.conflict ? 'disabled' : ''}>
+      <span style="font-family:var(--font-head);font-size:.5rem;font-weight:700;letter-spacing:.14em;color:${kindColor};min-width:2.8rem;">${kindLabel}</span>
+      <span class="orph-path" title="${esc(r.oldPath)} → ${esc(r.newPath)}">${esc(r.oldPath.split('/').pop())}  →  ${esc(r.newPath.split('/').pop())}</span>
+      <span class="orph-size">${formatBytes(r.size)}</span>
+      ${r.conflict ? '<span style="font-family:var(--font-head);font-size:.55rem;color:var(--red);letter-spacing:.1em;">CONFLICT</span>' : ''}
+    </label>`;
+  }).join('');
+  host.querySelectorAll('.media-cb').forEach(cb => cb.addEventListener('change', () => {
+    const any = [...host.querySelectorAll('.media-cb')].some(x => x.checked && !x.disabled);
+    if(renameBtn){ renameBtn.disabled = !any; renameBtn.textContent = any ? 'Stage renames (' + host.querySelectorAll('.media-cb:checked').length + ')' : 'Stage renames'; }
+  }));
+  if(renameBtn){ renameBtn.disabled = renameable === 0; renameBtn.textContent = 'Stage renames'; }
+}
+async function runMediaRenameScan(){
+  if(totalPendingCount() > 0){ toast('Commit or discard pending changes first', 'bad'); return; }
+  const btn = toolsSlot.querySelector('#media-scan');
+  if(btn){ btn.disabled = true; btn.textContent = 'Scanning…'; }
+  try{
+    const res = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/trees/main?recursive=1`);
+    if(!res.ok) throw new Error('tree HTTP ' + res.status);
+    const data = await res.json();
+    const tree = data.tree || [];
+    const results = [];
+    for(const id of Object.keys(MANIFEST.games)){
+      const g = MANIFEST.games[id];
+      if(g.screenshot){
+        const folder = 'images/screenshots/';
+        const rest = String(g.screenshot).replace(/^.*?images\/screenshots\//, '');
+        const ext = rest.match(/(\.[^.]+)$/);
+        const oldBasename = rest.replace(/\.[^.]+$/, '');
+        if(oldBasename !== id && ext){
+          const oldPath = folder + oldBasename + ext[1];
+          const newPath = folder + id + ext[1];
+          const file = tree.find(x => x.path === oldPath);
+          const targetExists = tree.some(x => x.path === newPath);
+          results.push({ gameId: id, kind: 'screenshot', oldPath, newPath, sha: file ? file.sha : '', size: file ? (file.size || 0) : 0, conflict: targetExists });
+        }
+      }
+      if(g.logo){
+        const folder = 'images/logos/';
+        const rest = String(g.logo).replace(/^.*?images\/logos\//, '');
+        const ext = rest.match(/(\.[^.]+)$/);
+        const oldBasename = rest.replace(/\.[^.]+$/, '');
+        if(oldBasename !== id && ext){
+          const oldPath = folder + oldBasename + ext[1];
+          const newPath = folder + id + ext[1];
+          const file = tree.find(x => x.path === oldPath);
+          const targetExists = tree.some(x => x.path === newPath);
+          results.push({ gameId: id, kind: 'logo', oldPath, newPath, sha: file ? file.sha : '', size: file ? (file.size || 0) : 0, conflict: targetExists });
+        }
+      }
+    }
+    results.sort((a,b) => a.gameId.localeCompare(b.gameId) || a.kind.localeCompare(b.kind));
+    mediaRenameResults = results;
+    renderMediaRenameList();
+    if(!results.length) toast('No media mismatches found');
+    else toast(results.length + ' mismatch' + (results.length===1?'':'es') + ' found');
+  }catch(e){
+    toast('Scan failed: ' + e.message, 'bad');
+  }finally{
+    if(btn){ btn.disabled = false; btn.textContent = 'Scan'; }
+  }
+}
+function stageMediaRenames(){
+  const host = toolsSlot.querySelector('#media-list');
+  if(!host) return;
+  const cbs = [...host.querySelectorAll('.media-cb:checked')].filter(cb => !cb.disabled);
+  if(!cbs.length){ toast('Select at least one', 'bad'); return; }
+  let n = 0;
+  for(const cb of cbs){
+    const r = mediaRenameResults[+cb.dataset.idx];
+    if(!r || r.conflict || !r.sha) continue;
+    pendingFileRenames.set(r.oldPath, { newPath: r.newPath, sha: r.sha });
+    n++;
+  }
+  mediaRenameResults = mediaRenameResults.filter(r => !pendingFileRenames.has(r.oldPath));
+  renderMediaRenameList();
+  updatePendingStrip();
+  closeToolsModal();
+  toast(n + ' rename' + (n===1?'':'s') + ' staged');
 }
 function renderOrphanList(){
   const host = toolsSlot.querySelector('#orphan-list');
@@ -2949,7 +2981,6 @@ function stageOrphanDeletes(){
   updatePendingStrip();
   toast(n + ' file' + (n===1?'':'s') + ' staged for deletion');
 }
-
 function scanSeriesIntegrity(){
   const issues = [];
   const seenAcrossSeries = new Map();
@@ -3017,7 +3048,6 @@ function renderIntegrityList(){
   `).join('');
   if(summary) summary.textContent = integrityIssues.length + ' issue' + (integrityIssues.length===1?'':'s') + ' found';
 }
-
 function openToolsModal(){
   platDraft = clonePlatforms(PLATFORMS);
   toolsActiveTab = 'general';
@@ -3025,6 +3055,7 @@ function openToolsModal(){
   integrityIssues = [];
   videoScanResults = [];
   videoScanRunning = false;
+  mediaRenameResults = [];
   toolsSlot.innerHTML = toolsModalHTML();
   toolsBackdrop.classList.add('open');
   refreshScrollJumpVisibility();
@@ -3186,6 +3217,27 @@ function openToolsModal(){
   };
   const videoDl = toolsSlot.querySelector('#video-download');
   if(videoDl) videoDl.onclick = downloadSelectedVideos;
+  const mediaScan = toolsSlot.querySelector('#media-scan');
+  if(mediaScan) mediaScan.onclick = runMediaRenameScan;
+  const mediaSelAll = toolsSlot.querySelector('#media-selall');
+  if(mediaSelAll) mediaSelAll.onclick = () => {
+    const h = toolsSlot.querySelector('#media-list');
+    if(!h) return;
+    h.querySelectorAll('.media-cb:not(:disabled)').forEach(cb => cb.checked = true);
+    const n = h.querySelectorAll('.media-cb:not(:disabled)').length;
+    const rb = toolsSlot.querySelector('#media-rename');
+    if(rb){ rb.disabled = n === 0; rb.textContent = n > 0 ? 'Stage renames (' + n + ')' : 'Stage renames'; }
+  };
+  const mediaDesel = toolsSlot.querySelector('#media-desel');
+  if(mediaDesel) mediaDesel.onclick = () => {
+    const h = toolsSlot.querySelector('#media-list');
+    if(!h) return;
+    h.querySelectorAll('.media-cb').forEach(cb => cb.checked = false);
+    const rb = toolsSlot.querySelector('#media-rename');
+    if(rb){ rb.disabled = true; rb.textContent = 'Stage renames'; }
+  };
+  const mediaRename = toolsSlot.querySelector('#media-rename');
+  if(mediaRename) mediaRename.onclick = stageMediaRenames;
 }
 function closeToolsModal(){
   videoScanToken++;
@@ -3196,6 +3248,7 @@ function closeToolsModal(){
   integrityIssues = [];
   videoScanResults = [];
   videoScanRunning = false;
+  mediaRenameResults = [];
   refreshScrollJumpVisibility();
 }
 toolsBackdrop.addEventListener('click', e => { if(e.target === toolsBackdrop) closeToolsModal(); });
@@ -3205,7 +3258,6 @@ toolsBtn.addEventListener('click', () => {
   else openToolsModal();
 });
 renderToolsBtn();
-
 async function igdbSearch(name){
   const res = await fetch(PROXY_URL + '?action=igdb&q=' + encodeURIComponent(name));
   if(!res.ok) throw new Error('IGDB proxy HTTP ' + res.status);
@@ -3358,7 +3410,6 @@ function pcgwMapToFields(wikitext){
   if(size) out.size = size;
   return out;
 }
-
 let LBDB_INDEX = null, LBDB_LOADING = null;
 function normKey(s){
   return String(s || '').toLowerCase()
@@ -3438,7 +3489,6 @@ function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
   }
   return score;
 }
-
 let igdbPickerClose = null;
 function showIgdbPicker(hits, onPick){
   pickerSlot.innerHTML = `
@@ -3519,7 +3569,7 @@ function showLogoPicker(title, items, onPick, opts){
   });
   if(searchable && onSearch){
     const input = logopickerSlot.querySelector('#lp-search');
-    const go = logopickerSlot.querySelector('#lp-search-go');
+    const go = logopickerSlot.querySelector('#logopicker-search-go');
     const rerun = async () => {
       const q = input.value.trim();
       if(!q) return;
@@ -3533,14 +3583,14 @@ function showLogoPicker(title, items, onPick, opts){
         go.disabled = false; go.textContent = 'Search';
       }
     };
-    go.onclick = rerun;
+    const goBtn = logopickerSlot.querySelector('#lp-search-go');
+    if(goBtn){ goBtn.onclick = rerun; }
     input.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); rerun(); } });
   }
 }
 logopickerBackdrop.addEventListener('click', e => {
   if(e.target === logopickerBackdrop){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
 });
-
 async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
   if(!gameId){ toast('Save the game first (name required)', 'bad'); return; }
   if(!sourceUrl){ toast('Nothing to save', 'bad'); return; }
@@ -3562,7 +3612,6 @@ async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
     toast('Save failed: ' + e.message, 'bad');
   }
 }
-
 (function attachSmartHandlers(){
   let pressTimer = null, pressCard = null, pressSuppress = false;
   contentEl.addEventListener('mouseover', e => {
@@ -3625,7 +3674,6 @@ async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
     }
   }, true);
 })();
-
 let videoObserver = null;
 function attachVideoObservers(){
   if(videoObserver) { videoObserver.disconnect(); videoObserver = null; }
@@ -3640,7 +3688,6 @@ function attachVideoObservers(){
   }, { threshold: 0.15 });
   videos.forEach(v => videoObserver.observe(v));
 }
-
 const TAB_PANES = new Map();
 function getPane(tabId){
   if(!TAB_PANES.has(tabId)){
@@ -3654,7 +3701,7 @@ function getPane(tabId){
 }
 function invalidateAllPanes(){ TAB_PANES.forEach(p => { p.signature = null; }); }
 function paneSignature(){
-  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), searchTerm, videoMode, JSON.stringify(BSIDES.order)].join('|');
+  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), [...platformFilter].sort().join(','), searchTerm, videoMode, JSON.stringify(BSIDES.order), JSON.stringify(PROJECTS.projects)].join('|');
 }
 function renderTabs(){
   tabbarEl.innerHTML = TABS[group].map(t =>
@@ -3663,7 +3710,6 @@ function renderTabs(){
 }
 function applyView(){ document.body.dataset.cols = viewCols; }
 function setViewCols(v){ viewCols = v; try{ localStorage.setItem('view_cols', v); }catch(e){} applyView(); renderToolbar(); }
-
 function passesFilter(g){
   if(filterSet.has('all')) return true;
   if(filterSet.size === 0) return false;
@@ -3673,6 +3719,16 @@ function passesFilter(g){
   if(filterSet.has('authRequired') && fl.authRequired) return true;
   if(filterSet.has('ownedSteam')   && fl.ownedSteam)   return true;
   if(filterSet.has('gamepass')     && fl.gamepass)     return true;
+  return false;
+}
+function passesPlatform(g){
+  if(tab !== 'emulog') return true;
+  if(platformFilter.size === 0) return true;
+  const key = String(g.platform || '').trim();
+  if(!key) return false;
+  for(const sel of platformFilter){
+    if(sel.toLowerCase() === key.toLowerCase()) return true;
+  }
   return false;
 }
 function passesSearch(g){
@@ -3688,7 +3744,7 @@ function passesSearch(g){
   if(searchFields.pub  && pub.includes(q))  return true;
   return false;
 }
-function passesAll(g){ return passesFilter(g) && passesSearch(g); }
+function passesAll(g){ return passesFilter(g) && passesPlatform(g) && passesSearch(g); }
 function getComparator(){
   switch(sortKey){
     case 'name':    return (a,b)=> nameKey(a.name).localeCompare(nameKey(b.name));
@@ -3722,6 +3778,16 @@ function renderToolbar(){
           ${FILTER_KEYS.map(k => `<button class="dd-item ${filterSet.has(k)?'active':''}" data-filter="${k}">${FILTER_LABELS[k]}<span class="dd-tick">✓</span></button>`).join('')}
         </div>
       </div>
+      ${tab === 'emulog' ? `
+      <div class="dd" data-dd="platform">
+        <button class="dd-btn ${platformFilter.size > 0 ? 'non-default' : ''}" type="button">Platform <span class="val">${esc(platformFilterSummary() || 'All')}</span><span class="chev">▾</span></button>
+        <div class="dd-menu">
+          <button class="dd-item ${platformFilter.size === 0 ? 'active' : ''}" data-platform="__all__">Show all<span class="dd-tick">✓</span></button>
+          ${platformsPresentIn('emulog').map(p => `
+            <button class="dd-item ${platformFilter.has(p.key) ? 'active' : ''}" data-platform="${esc(p.key)}">${esc(p.label)}<span class="dir">${p.count}</span><span class="dd-tick">✓</span></button>
+          `).join('')}
+        </div>
+      </div>` : ''}
       <div class="dd" data-dd="sort">
         <button class="dd-btn ${nonDefault?'non-default':''}" type="button">Sort <span class="val">${SORT_LABELS[sortKey]}</span><span class="chev">▾</span></button>
         <div class="dd-menu">
@@ -3764,7 +3830,6 @@ function renderToolbar(){
 }
 function hideToolbar(){ toolbarEl.classList.add('empty'); toolbarEl.innerHTML=''; openDD=null; }
 function closeAllDropdowns(){ toolbarEl.querySelectorAll('.dd.open').forEach(el => el.classList.remove('open')); openDD = null; }
-
 function ovChip(value){
   if(!value || value === '—') return '';
   return `<span class="ov-chip">${esc(value)}</span>`;
@@ -3778,7 +3843,8 @@ function statusTagsHTML(g, t){
   } else if(t === 'early-access'){
     if(g.release) tags.push(`<span class="status-tag release" title="Planned release">Release: ${esc(g.release)}</span>`);
   }
-  if(fl.installed)    tags.push(`<span class="status-tag">Installed</span>`);
+  const hideInstalled = (t === 'tvpc' || t === 'deuspc');
+  if(fl.installed && !hideInstalled) tags.push(`<span class="status-tag">Installed</span>`);
   if(fl.localCoop)    tags.push(`<span class="status-tag localcoop">Local Co-op</span>`);
   if(fl.authRequired) tags.push(`<span class="status-tag auth">AUTH</span>`);
   return tags.join('');
@@ -3908,7 +3974,6 @@ function beatenRowHTML(g, rank){
       </div>
     </div>`;
 }
-
 function ownerBadgeFromFlags(g){
   const fl = g.flags || {};
   if(fl.installed) return `<div class="g-owner installed">Installed</div>`;
@@ -3996,11 +4061,8 @@ function seriesAddBlockHTML(){
   if(!adminMode) return '';
   return `<div class="series-add-block"><button type="button" data-act="series-add-new">+ ADD SERIES</button></div>`;
 }
-
-/* ═══ B-SIDES ROW RENDERERS ═══ */
 const BSIDES_FILM_ICON = `<svg class="type-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="2.5" width="17" height="19" rx="1.5"/><line x1="8" y1="2.5" x2="8" y2="21.5"/><line x1="16" y1="2.5" x2="16" y2="21.5"/><rect x="5" y="5" width="1.6" height="1.6" fill="currentColor"/><rect x="5" y="9" width="1.6" height="1.6" fill="currentColor"/><rect x="5" y="13" width="1.6" height="1.6" fill="currentColor"/><rect x="5" y="17" width="1.6" height="1.6" fill="currentColor"/><rect x="17.4" y="5" width="1.6" height="1.6" fill="currentColor"/><rect x="17.4" y="9" width="1.6" height="1.6" fill="currentColor"/><rect x="17.4" y="13" width="1.6" height="1.6" fill="currentColor"/><rect x="17.4" y="17" width="1.6" height="1.6" fill="currentColor"/></svg>`;
 const BSIDES_GAME_ICON = `<svg class="type-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="11" x2="10" y2="11"/><line x1="8" y1="9" x2="8" y2="13"/><line x1="15" y1="12" x2="15.01" y2="12"/><line x1="18" y1="10" x2="18.01" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg>`;
-
 function bsidesGameRowHTML(g, disp, slug, idx){
   const d = disp || {};
   const displayName = d.display_name || g.name;
@@ -4080,7 +4142,129 @@ function bsidesAddBlockHTML(){
   if(!adminMode) return '';
   return `<div class="series-add-block"><button type="button" data-act="bsides-add-new">+ ADD B-SIDES</button></div>`;
 }
-
+function radarStatusChip(status){
+  if(status === 'released') return '<span class="g-status done">Released</span>';
+  if(status === 'in-dev')   return '<span class="g-status rerun">In Dev</span>';
+  if(status === 'dead')     return '<span class="g-status optional" style="color:var(--muted);">Dead</span>';
+  return '<div class="empty-cell">—</div>';
+}
+function radarRowHTML(p, idx){
+  const actions = adminMode ? `
+      <div class="g-actions">
+        <button type="button" class="edit" data-act="radar-edit" data-idx="${idx}" title="Edit"><span class="icon icon-pencil"></span></button>
+        <button type="button" class="del" data-act="radar-del" data-idx="${idx}" title="Remove"><span class="icon icon-trash"></span></button>
+      </div>` : `<div class="empty-cell"></div>`;
+  const safeUrl = /^https?:\/\//i.test(p.url || '') ? p.url : '';
+  const clickable = safeUrl && (p.status === 'released' || p.status === 'in-dev');
+  return `
+    <div class="series-game-row game" data-radar-idx="${idx}" ${adminMode ? 'draggable="true"' : ''}>
+      <div class="g-title" title="${esc(p.name || '')}">${esc(p.name || '')}</div>
+      <div class="g-year">${esc(p.platform || '')}</div>
+      <div class="g-platform">${safeUrl ? '<span style="color:var(--accent);font-family:var(--font-head);font-size:.6rem;letter-spacing:.1em;">↗ LINK</span>' : ''}</div>
+      <div class="g-hltb empty-cell">—</div>
+      ${radarStatusChip(p.status)}
+      <div class="empty-cell">—</div>
+      <div class="g-note" title="${esc(p.note || '')}">${esc(p.note || '')}</div>
+      ${actions}
+    </div>`;
+}
+function radarBlockHTML(){
+  if(!PROJECTS.projects.length){
+    return adminMode
+      ? `<div class="grid-empty">No projects yet. Click ADD PROJECT below.</div>`
+      : `<div class="grid-empty">No projects yet.</div>`;
+  }
+  return `<div class="series-blocks"><div class="series-block">
+    <div class="series-banner" style="min-height:80px;">
+      <div class="logo-slot"><div class="ph" style="font-size:1.2rem;">RADAR</div></div>
+    </div>
+    <div class="series-games">${PROJECTS.projects.map((p, i) => radarRowHTML(p, i)).join('')}</div>
+  </div></div>`;
+}
+function radarAddBlockHTML(){
+  if(!adminMode) return '';
+  return `<div class="series-add-block"><button type="button" data-act="radar-add">+ ADD PROJECT</button></div>`;
+}
+function buildRadarPane(pane){
+  pane.el.innerHTML = radarBlockHTML() + radarAddBlockHTML();
+}
+function openRadarEditor(idx){
+  const isNew = idx == null;
+  const p = isNew ? { id:'', name:'', url:'', status:'in-dev', platform:'', note:'' } : PROJECTS.projects[idx];
+  const statusVal = p.status || 'in-dev';
+  seriesSlot._radarIdx = isNew ? null : idx;
+  seriesSlot.innerHTML = `
+    <div class="series-header-modal" style="max-width:520px">
+      <button class="modal-close" data-close>✕</button>
+      <h2>${isNew ? 'New project' : 'Edit project'}</h2>
+      <div class="form-section" style="margin-top:1rem;padding-top:0;border-top:0">
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Name</label>
+          <input type="text" id="rp-name" value="${esc(p.name||'')}">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>URL</label>
+          <input type="text" id="rp-url" value="${esc(p.url||'')}">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Platform</label>
+          <input type="text" id="rp-platform" value="${esc(p.platform||'')}" placeholder="Windows / Switch→PC / Android…">
+        </div>
+        <div class="field" style="margin-bottom:.9rem">
+          <label>Status</label>
+          <div class="status-row" id="rp-status">
+            <button type="button" class="status-btn ${statusVal==='in-dev'?'on rerun':''}" data-status="in-dev">In Dev</button>
+            <button type="button" class="status-btn ${statusVal==='released'?'on':''}" data-status="released">Released</button>
+            <button type="button" class="status-btn ${statusVal==='dead'?'on optional':''}" data-status="dead">Dead</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Note</label>
+          <input type="text" id="rp-note" value="${esc(p.note||'')}">
+        </div>
+      </div>
+      <div class="token-actions" style="margin-top:1.2rem">
+        <button type="button" class="btn" data-close>Cancel</button>
+        <button type="button" class="btn primary" id="rp-save">${isNew ? 'ADD' : 'Save'}</button>
+      </div>
+    </div>`;
+  seriesBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
+  seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
+  const statusRow = seriesSlot.querySelector('#rp-status');
+  statusRow.addEventListener('click', ev => {
+    const btn = ev.target.closest('.status-btn');
+    if(!btn) return;
+    const wasOn = btn.classList.contains('on');
+    statusRow.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
+    if(!wasOn){
+      btn.classList.add('on');
+      if(btn.dataset.status === 'in-dev') btn.classList.add('rerun');
+      if(btn.dataset.status === 'dead') btn.classList.add('optional');
+    }
+  });
+  seriesSlot.querySelector('#rp-save').onclick = () => {
+    const nameVal = (seriesSlot.querySelector('#rp-name').value || '').trim();
+    if(!nameVal){ toast('Name is required', 'bad'); return; }
+    const sOn = statusRow.querySelector('.status-btn.on');
+    const obj = {
+      id: p.id || slugify(nameVal),
+      name: nameVal,
+      url: (seriesSlot.querySelector('#rp-url').value || '').trim(),
+      platform: (seriesSlot.querySelector('#rp-platform').value || '').trim(),
+      status: sOn && sOn.dataset.status ? sOn.dataset.status : 'in-dev',
+      note: (seriesSlot.querySelector('#rp-note').value || '').trim()
+    };
+    if(isNew) PROJECTS.projects.push(obj);
+    else PROJECTS.projects[idx] = obj;
+    projectsStage();
+    closeSeriesHeaderModal();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast(isNew ? 'Project added' : 'Project saved');
+  };
+}
 function sectionHeader(label, jump){
   const jumpHTML = jump ? `<button class="jump-btn" data-jump="${jump.target}">${jump.label}<span class="arw">${jump.dir === 'down' ? '↓' : '↑'}</span></button>` : '';
   return `
@@ -4149,6 +4333,92 @@ function buildBsidesPane(pane){
   }
   pane.el.innerHTML = `<div class="series-blocks">${slugs.map(bsidesBlockHTML).join('')}</div>${bsidesAddBlockHTML()}`;
 }
+function isPCPlatform(key){
+  if(!key) return true;
+  const k = String(key).trim().toLowerCase();
+  return k === 'pc' || k === '';
+}
+function buildTvpcPane(pane){
+  const all = gamesOfTab('tvpc').filter(passesAll);
+  const pc = [], byPlatform = new Map();
+  for(const g of all){
+    if(isPCPlatform(g.platform)){
+      pc.push(g);
+    } else {
+      const key = String(g.platform || '').trim();
+      const nk = key.toLowerCase();
+      if(!byPlatform.has(nk)) byPlatform.set(nk, { key, label: platformLabel(key), games: [] });
+      byPlatform.get(nk).games.push(g);
+    }
+  }
+  const sortedPc = applySort(pc);
+  const purgatory = sortedPc.filter(g => g.archive_section === 'purgatory');
+  const archive   = sortedPc.filter(g => g.archive_section === 'archive');
+  const unassigned= sortedPc.filter(g => !g.archive_section);
+  const platformGroups = [...byPlatform.values()]
+    .map(p => ({ ...p, games: applySort(p.games) }))
+    .sort((a,b) => a.label.localeCompare(b.label));
+  const sections = [];
+  if(purgatory.length) sections.push({ id:'pc-purgatory', label:'PC · Purgatory', games: purgatory });
+  if(archive.length)   sections.push({ id:'pc-archive',   label:'PC · Archive',   games: archive });
+  if(unassigned.length)sections.push({ id:'pc-unassigned',label:'PC · Unassigned',games: unassigned });
+  for(const p of platformGroups) sections.push({ id:'plat-' + slugify(p.key), label: p.label, games: p.games });
+  if(!sections.length){
+    pane.el.innerHTML = `<div class="grid-empty">Nothing in TVPC yet.</div>`;
+    return;
+  }
+  const jumpMenuItems = sections.map(s => ({ id: s.id, label: s.label, count: s.games.length }));
+  const burgerSvg = `<svg viewBox="0 0 24 24" style="width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>`;
+  const sectionHTML = (s, i) => {
+    const prev = i > 0 ? sections[i-1] : null;
+    const next = i < sections.length-1 ? sections[i+1] : null;
+    return `
+      <div class="section-header" id="sec-${s.id}" data-idx="${i}">
+        <div class="bar"></div>
+        <div class="label">${esc(s.label)}</div>
+        <div class="line"></div>
+        <div class="count">${s.games.length}</div>
+        <div class="jump-pair">
+          ${prev ? `<button class="jump-btn" type="button" data-jump="sec-${prev.id}" title="${esc(prev.label)}"><span class="arw">↑</span></button>` : ''}
+          ${next ? `<button class="jump-btn" type="button" data-jump="sec-${next.id}" title="${esc(next.label)}"><span class="arw">↓</span></button>` : ''}
+          <button class="jump-btn jump-toggle" type="button" data-menu-idx="${i}" title="Jump to…">${burgerSvg}</button>
+        </div>
+        <div class="jump-menu" data-menu="${i}">
+          ${jumpMenuItems.map((t, j) => `
+            <button class="jump-item ${i===j?'active':''}" data-jump="sec-${t.id}" type="button">
+              ${esc(t.label)}<span class="jump-count">${t.count}</span>
+            </button>
+          `).join('')}
+        </div>
+      </div>
+      <div class="grid">${s.games.map(g => cardHTML(g, 'tvpc')).join('')}</div>`;
+  };
+  pane.el.innerHTML = `<div style="max-width:1400px;margin:0 auto;">${sections.map(sectionHTML).join('')}</div>`;
+  pane.el.querySelectorAll('.jump-toggle').forEach(btn => {
+    btn.onclick = (ev) => {
+      ev.stopPropagation();
+      const idx = btn.dataset.menuIdx;
+      const menu = pane.el.querySelector(`.jump-menu[data-menu="${idx}"]`);
+      const wasOpen = menu.classList.contains('open');
+      pane.el.querySelectorAll('.jump-menu.open').forEach(m => m.classList.remove('open'));
+      pane.el.querySelectorAll('.jump-toggle').forEach(b => b.classList.remove('active'));
+      if(!wasOpen){ menu.classList.add('open'); btn.classList.add('active'); }
+    };
+  });
+  pane.el.querySelectorAll('.jump-item, .jump-btn[data-jump]').forEach(b => {
+    b.onclick = (ev) => {
+      if(b.classList.contains('jump-item') || b.dataset.jump){
+        ev.stopPropagation();
+        const t = document.getElementById(b.dataset.jump);
+        if(t) t.scrollIntoView({ behavior:'smooth', block:'start' });
+        pane.el.querySelectorAll('.jump-menu.open').forEach(m => m.classList.remove('open'));
+      }
+    };
+  });
+}
+document.addEventListener('click', () => {
+  document.querySelectorAll('.jump-menu.open').forEach(m => m.classList.remove('open'));
+});
 function markLoadedImages(root){
   root.querySelectorAll('img').forEach(img => { if(img.complete) img.classList.add('img-loaded'); });
 }
@@ -4175,12 +4445,13 @@ function renderContent(){
   });
   pane.el.classList.add('active');
   pane.el.style.display = 'block';
-  if(tab === 'backlog-series' || tab === 'bsides'){
+  if(tab === 'series' || tab === 'bsides' || tab === 'radar'){
     hideToolbar();
     const sig = paneSignature();
     if(pane.signature === sig){ attachVideoObservers(); return; }
-    if(tab === 'backlog-series') buildSeriesPane(pane);
-    else buildBsidesPane(pane);
+    if(tab === 'series') buildSeriesPane(pane);
+    else if(tab === 'bsides') buildBsidesPane(pane);
+    else buildRadarPane(pane);
     pane.signature = sig;
     markLoadedImages(pane.el);
     attachVideoObservers();
@@ -4189,7 +4460,8 @@ function renderContent(){
   renderToolbar();
   const sig = paneSignature();
   if(pane.signature === sig){ attachVideoObservers(); return; }
-  buildStandardPane(pane, tab);
+  if(tab === 'tvpc') buildTvpcPane(pane);
+  else buildStandardPane(pane, tab);
   pane.signature = sig;
   markLoadedImages(pane.el);
   attachVideoObservers();
@@ -4199,14 +4471,15 @@ function refreshGrid(){
   TAB_PANES.forEach((p, id) => { p.el.style.display = id === tab ? 'block' : 'none'; });
   renderVoidNote();
   updateBeatenIndicator();
-  if(tab === 'backlog-series') buildSeriesPane(pane);
+  if(tab === 'series') buildSeriesPane(pane);
   else if(tab === 'bsides') buildBsidesPane(pane);
+  else if(tab === 'radar') buildRadarPane(pane);
+  else if(tab === 'tvpc') buildTvpcPane(pane);
   else buildStandardPane(pane, tab);
   pane.signature = paneSignature();
   markLoadedImages(pane.el);
   attachVideoObservers();
 }
-
 function renderLinks(links){
   const arr = (links || []).filter(l => {
     const u = String(l.url || '').trim();
@@ -4340,7 +4613,6 @@ function applyHeroSize(heroEl){
 }
 function recalcHeroSizes(){ document.querySelectorAll('[data-hero]').forEach(applyHeroSize); }
 window.addEventListener('resize', () => { if(backdrop.classList.contains('open')) recalcHeroSizes(); });
-
 function openModalAboveOverlay(g, t, opts){
   backdrop.classList.add('modal-above-overlay');
   openModal(g, t, opts);
@@ -4350,7 +4622,7 @@ function openModal(g, t, opts){
   let list = [];
   if(opts.listOverride && Array.isArray(opts.listOverride)){
     list = opts.listOverride;
-  } else if(t === 'backlog-series'){
+  } else if(t === 'series'){
     list = allSeriesInOrder();
   } else if(t === 'bsides'){
     list = allBsidesGamesInOrder();
@@ -4464,7 +4736,6 @@ function closeModal(){
   modalNavIdx = -1;
   refreshScrollJumpVisibility();
 }
-
 let mdBackdropTarget = null;
 backdrop.addEventListener('mousedown', e => { mdBackdropTarget = e.target; });
 backdrop.addEventListener('click', e => {
@@ -4474,7 +4745,6 @@ backdrop.addEventListener('click', e => {
   if(mdBackdropTarget && mdBackdropTarget.closest && mdBackdropTarget.closest(INSIDE)) return;
   closeAll();
 });
-
 function findMatches(currentId, name){
   const out = [];
   if(!name || name.length < 2) return out;
@@ -4501,7 +4771,6 @@ function findMatches(currentId, name){
   });
   return out.slice(0, 8);
 }
-
 function hltbToParts(str){
   if(!str || str === '—') return { main:'', extra:'' };
   const s = String(str);
@@ -4568,7 +4837,6 @@ function readDlcFromEditor(){
     return { name, played };
   }).filter(Boolean);
 }
-
 function openEditor(g, opts){
   opts = opts || {};
   const isNew = !g;
@@ -4577,7 +4845,7 @@ function openEditor(g, opts){
     ? { id:'', name:'', platform:'PC', size:'', hltb:'', dev:'', pub:'', notes:'',
         release:'', ea_release:'', screenshot:'', logo:'', video:'', links:[], alt_names: [], dlc: [],
         flags:{ installed:false, ownedSteam:false, localCoop:false, authRequired:false, gamepass:false },
-        series:null, series_status:null, series_note:null }
+        series:null, series_status:null, series_note:null, archive_section:null }
     : JSON.parse(JSON.stringify(g));
   draft.flags = Object.assign({ installed:false, ownedSteam:false, localCoop:false, authRequired:false, gamepass:false }, draft.flags || {});
   draft.links = Array.isArray(draft.links) ? draft.links.slice() : [];
@@ -4589,7 +4857,7 @@ function openEditor(g, opts){
   const hp = hltbToParts(draft.hltb);
   const numericHltb = hltbIsNumeric(draft.hltb);
   const currentMemberships = isNew ? new Set() : membershipsOf(draft.id);
-  const currentTabId = (tab !== 'backlog-series' && tab !== 'bsides' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
+  const currentTabId = (tab !== 'series' && tab !== 'bsides' && tab !== 'radar' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
   const targetListId = opts.listId || currentTabId;
   if(isNew && REAL_LISTS_SET.has(targetListId)) currentMemberships.add(targetListId);
   const membershipHTML = REAL_LISTS.map(tid => {
@@ -4614,6 +4882,7 @@ function openEditor(g, opts){
     ? deriveGameId(draft.name, draft.release, draft.ea_release, draft.platform)
     : draft.id;
   const statusVal = draft.series_status || '';
+  const archVal = draft.archive_section || '';
   modalSlot._pillsBound = false;
   modalSlot._lockedSources = new Set();
   modalSlot._parseResults = null;
@@ -4690,6 +4959,15 @@ function openEditor(g, opts){
         <div class="form-section">
           <div class="sec-title">Lists</div>
           <div class="list-grid" id="list-grid">${membershipHTML}</div>
+        </div>
+        <div class="form-section" id="archive-section" style="display:none">
+          <div class="sec-title">TVPC Archive</div>
+          <div class="plat-hint">Only relevant for TVPC games. Leave unset to show in PC · Unassigned.</div>
+          <div class="status-row" id="archive-status">
+            <button type="button" class="status-btn ${(archVal==='purgatory')?'on rerun':''}" data-archive="purgatory">Purgatory</button>
+            <button type="button" class="status-btn ${(archVal==='archive')?'on':''}" data-archive="archive">Archive</button>
+            <button type="button" class="status-btn ${(!archVal)?'on optional':''}" data-archive="">Unset</button>
+          </div>
         </div>
         <div class="form-section">
           <div class="sec-title">Info</div>
@@ -4970,19 +5248,62 @@ function openEditor(g, opts){
     });
     const mem = membershipsOf(id);
     $$('#list-grid input[type=checkbox]').forEach(cb => { cb.checked = mem.has(cb.dataset.list); cb.closest('.list-cb').classList.toggle('on', cb.checked); });
+    const arcVal2 = g.archive_section || '';
+    const arcStatus2 = modalSlot.querySelector('#archive-status');
+    if(arcStatus2){
+      arcStatus2.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
+      const btn2 = arcStatus2.querySelector(`.status-btn[data-archive="${arcVal2}"]`);
+      if(btn2){
+        btn2.classList.add('on');
+        if(arcVal2 === 'purgatory') btn2.classList.add('rerun');
+        if(!arcVal2) btn2.classList.add('optional');
+      }
+    }
+    const tvpcCb2 = modalSlot.querySelector('#list-grid input[data-list="tvpc"]');
+    const arcSect2 = modalSlot.querySelector('#archive-section');
+    if(arcSect2) arcSect2.style.display = (tvpcCb2 && tvpcCb2.checked) ? '' : 'none';
     idInput.value = id;
     userEditedId = true;
     refreshMatches();
   }
   const listGrid = $('#list-grid');
+  function updateArchiveSectionVisibility(){
+    const tvpcCb = listGrid.querySelector('input[data-list="tvpc"]');
+    const sect = $('#archive-section');
+    if(!sect) return;
+    sect.style.display = (tvpcCb && tvpcCb.checked) ? '' : 'none';
+  }
   listGrid.addEventListener('change', e => {
     const cb = e.target.closest('input[type=checkbox]');
     if(!cb) return;
+    if((cb.dataset.list === 'tvpc' || cb.dataset.list === 'deuspc') && cb.checked){
+      const installedBtn = $('#flag-row [data-flag="installed"]');
+      if(installedBtn) installedBtn.classList.add('on');
+    }
     listGrid.querySelectorAll('.list-cb').forEach(lbl => {
       const inp = lbl.querySelector('input');
       lbl.classList.toggle('on', inp.checked);
     });
+    updateArchiveSectionVisibility();
   });
+  updateArchiveSectionVisibility();
+  const archiveStatus = $('#archive-status');
+  if(archiveStatus){
+    archiveStatus.addEventListener('click', ev => {
+      const btn = ev.target.closest('.status-btn');
+      if(!btn) return;
+      const wasOn = btn.classList.contains('on');
+      archiveStatus.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
+      if(!wasOn){
+        btn.classList.add('on');
+        if(btn.dataset.archive === 'purgatory') btn.classList.add('rerun');
+        if(btn.dataset.archive === '') btn.classList.add('optional');
+      } else {
+        const unsetBtn = archiveStatus.querySelector('.status-btn[data-archive=""]');
+        if(unsetBtn) unsetBtn.classList.add('on','optional');
+      }
+    });
+  }
   [nameInput, releaseInput, eaInput, platformInput].forEach(el => {
     el.addEventListener('input', () => { refreshIdDerived(); refreshMatches(); });
   });
@@ -5260,6 +5581,14 @@ function openEditor(g, opts){
     const dlcEntries = readDlcFromEditor();
     const platform = platformInput.value.trim();
     const videoVal = ($('#f-video').value || '').trim();
+    const archRead = (() => {
+      const a = $('#archive-status');
+      if(!a) return null;
+      const on = a.querySelector('.status-btn.on');
+      if(!on) return null;
+      const v = on.dataset.archive;
+      return v ? v : null;
+    })();
     if(mode2 === 'add' && isAttach){
       const existingId = modalSlot._attachId;
       const base = MANIFEST.games[existingId] || viewGame(existingId);
@@ -5291,6 +5620,8 @@ function openEditor(g, opts){
       const sOn = statusRow.querySelector('.status-btn.on');
       merged.series_status = sOn && sOn.dataset.status ? sOn.dataset.status : null;
       merged.series_note = $('#f-series-note').value.trim() || null;
+      merged.archive_section = archRead;
+      if(checkedLists.has('tvpc') || checkedLists.has('deuspc')) merged.flags.installed = true;
       const before = JSON.stringify(base);
       const after = JSON.stringify(merged);
       if(before !== after){ pendingGameWrites.set(existingId, merged); }
@@ -5354,9 +5685,11 @@ function openEditor(g, opts){
       series:        $('#f-series').value.trim() || null,
       series_status: (statusRow.querySelector('.status-btn.on')?.dataset.status) || null,
       series_note:   $('#f-series-note').value.trim() || null,
+      archive_section: archRead,
     });
     delete out.series_owner;
     if(videoVal) out.video = videoVal; else delete out.video;
+    if(checkedLists.has('tvpc') || checkedLists.has('deuspc')) out.flags.installed = true;
     if(!isNew && oldId && oldId !== id){
       for(const listId of REAL_LISTS){
         const list = (pendingListWrites.get(listId) || MANIFEST.lists[listId] || []).slice();
@@ -5384,6 +5717,19 @@ function openEditor(g, opts){
           s.order = s.order.map(x => x === oldId ? id : x);
         }
       }
+      for(const slug of BSIDES.order){
+        const block = BSIDES.data[slug];
+        if(!block || !block.entries) continue;
+        let changed = false;
+        for(const e of block.entries){
+          if(e.type === 'game' && e.id === oldId){ e.id = id; changed = true; }
+        }
+        if(changed && block.display && block.display[oldId]){
+          block.display[id] = block.display[oldId];
+          delete block.display[oldId];
+        }
+      }
+      bsidesStage();
       pendingGameDeletes.add(oldId);
       pendingGameWrites.delete(oldId);
       for(const [listId, list] of pendingListWrites){
@@ -5514,6 +5860,16 @@ function openEditor(g, opts){
         cb.checked = set.has(cb.dataset.list);
         cb.closest('.list-cb').classList.toggle('on', cb.checked);
       });
+      updateArchiveSectionVisibility();
+    }
+    if(storedDraft.archiveSection !== undefined){
+      const a = modalSlot.querySelector('#archive-status');
+      if(a){
+        a.querySelectorAll('.status-btn').forEach(b => { b.classList.remove('on','rerun','optional'); });
+        const v = storedDraft.archiveSection || '';
+        const btn = a.querySelector(`.status-btn[data-archive="${v}"]`);
+        if(btn){ btn.classList.add('on'); if(v === 'purgatory') btn.classList.add('rerun'); if(!v) btn.classList.add('optional'); }
+      }
     }
     if(storedDraft.links){
       const linksHost = $('#links-list');
@@ -5543,7 +5899,6 @@ function openEditor(g, opts){
     updateLinkedHighlight();
   }
 }
-
 function openConfirmDelete(g){
   if(modalSlot._editorKey){ captureEditorDraft(modalSlot._editorKey); }
   modalSlot._editorKey = null;
@@ -5614,7 +5969,6 @@ function openConfirmDelete(g){
     toast('Staged delete');
   });
 }
-
 function captureEditorDraft(key){
   const fId = modalSlot.querySelector('#f-id');
   if(!fId) return;
@@ -5622,6 +5976,7 @@ function captureEditorDraft(key){
   const $$ = sel => modalSlot.querySelectorAll(sel);
   const hltbRadio = $('#f-hltb-type input:checked');
   const sOn = $('#status-row .status-btn.on');
+  const aOn = $('#archive-status .status-btn.on');
   const flags = {};
   $$('#flag-row .flag-btn').forEach(b => { flags[b.dataset.flag] = b.classList.contains('on'); });
   const memberships = [...$$('#list-grid input[type=checkbox]')].filter(cb => cb.checked).map(cb => cb.dataset.list);
@@ -5658,13 +6013,13 @@ function captureEditorDraft(key){
     qpSteam: $('#qp-steam')?.value ?? '',
     qpPcgw:  $('#qp-pcgw')?.value  ?? '',
     status: sOn ? (sOn.dataset.status || '') : '',
+    archiveSection: aOn ? (aOn.dataset.archive || '') : '',
     flags, memberships, links, dlc,
     attachId: modalSlot._attachId || null,
     presetSeriesSlug: modalSlot._presetSeriesSlug || null
   };
   editorDrafts.set(key, snapshot);
 }
-
 function closeAll(opts){
   opts = opts || {};
   if(modalSlot._editorKey && !opts.skipSnapshot){ captureEditorDraft(modalSlot._editorKey); }
@@ -5687,7 +6042,6 @@ function closeAll(opts){
   refreshScrollJumpVisibility();
 }
 modalSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeAll(); });
-
 const PARSE_SOURCES = ['igdb','steam','pcgw','lbdb','hltb','sgdb'];
 function setSrcDot(btn, state){
   if(!btn) return;
@@ -5945,8 +6299,6 @@ async function runParse(){
   if(found.length === 0) toast('No matches', 'bad');
   else toast('Found on: ' + found.join(', '));
 }
-
-/* ═══ SERIES MODALS ═══ */
 function openSeriesHeaderModal(slug){
   const isNew = !slug;
   const s = isNew ? { id:'', name:'', logo:'', order:[], display:{} } : viewSeries(slug);
@@ -6074,11 +6426,15 @@ function closeSeriesHeaderModal(){
   seriesSlot._isNew = false;
   seriesSlot._isRowEdit = false;
   seriesSlot._gameId = '';
+  seriesSlot._bslug = '';
+  seriesSlot._isNewBsides = false;
+  seriesSlot._bIdx = null;
+  seriesSlot._bgid = '';
+  seriesSlot._radarIdx = null;
   refreshScrollJumpVisibility();
 }
 seriesBackdrop.addEventListener('click', e => { if(e.target === seriesBackdrop) closeSeriesHeaderModal(); });
 seriesSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeSeriesHeaderModal(); });
-
 function openSeriesRowDisplayEditor(slug, gameId){
   const s = viewSeries(slug);
   if(!s) return;
@@ -6135,8 +6491,6 @@ function openSeriesRowDisplayEditor(slug, gameId){
     toast('Display override saved');
   };
 }
-
-/* ═══ B-SIDES MODALS ═══ */
 function openBsidesHeaderModal(slug){
   const isNew = !slug;
   const s = isNew ? { id:'', name:'', logo:'', entries:[], display:{} } : viewBsides(slug);
@@ -6344,7 +6698,6 @@ function openBsidesMovieEditor(slug, idx){
     toast(isNew ? 'Movie added' : 'Movie saved');
   };
 }
-
 function openBsidesGamePicker(slug){
   const block = viewBsides(slug);
   if(!block) return;
@@ -6396,8 +6749,6 @@ function openBsidesGamePicker(slug){
     toast('Game added');
   });
 }
-
-/* ═══ RANDOM PICKER ═══ */
 const RANDOM_REEL_SIZE = 50;
 const RANDOM_BLACKLIST = 5;
 let randomSpinning = false;
@@ -6406,7 +6757,6 @@ let randomRecentWinners = [];
 let randomWinner = null;
 let randomCurrentX = 0;
 let randomPages = new Set();
-
 function randomRenderPages(){
   const host = document.getElementById('randomPages');
   if(!host) return;
@@ -6425,7 +6775,7 @@ function randomRenderPages(){
 }
 function randomPool(){
   const effective = randomPages.size ? randomPages : new Set([
-    tab === 'backlog-series' || tab === 'bsides' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')
+    tab === 'series' || tab === 'bsides' || tab === 'radar' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')
   ]);
   const seen = new Set();
   const out = [];
@@ -6645,7 +6995,7 @@ async function randomFinishSpin(winnerId, tintPromise, spinToken){
     void randomLogoSlot.offsetWidth;
     randomLogoSlot.classList.add('show', 'clickable');
     randomLogoSlot.onclick = () => {
-      openModalAboveOverlay(localWinner, tab === 'backlog-series' || tab === 'bsides' ? tab : tab);
+      openModalAboveOverlay(localWinner, tab === 'series' || tab === 'bsides' || tab === 'radar' ? tab : tab);
     };
     randomSpinning = false;
     randomSpinBtn.disabled = false;
@@ -6723,7 +7073,7 @@ async function randomSpin(){
   requestAnimationFrame(frame1);
 }
 function openRandomOverlay(){
-  randomPages = new Set([tab === 'backlog-series' || tab === 'bsides' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')]);
+  randomPages = new Set([tab === 'series' || tab === 'bsides' || tab === 'radar' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')]);
   randomRenderPages();
   randomOverlay.classList.add('open');
   refreshScrollJumpVisibility();
@@ -6752,8 +7102,6 @@ document.getElementById('randomPages').addEventListener('change', e => {
   else randomPages.delete(cb.dataset.page);
   randomRenderPages();
 });
-
-/* ═══ CALENDAR ═══ */
 const CAL_MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const CAL_ROWS = 6;
 const calAnchor = new Date();
@@ -6761,7 +7109,6 @@ const calAnchorY = calAnchor.getFullYear();
 const calAnchorM = calAnchor.getMonth() + 1;
 let calViewM = calAnchorM;
 let calendarPages = new Set(REAL_LISTS);
-
 function calRenderPages(){
   if(!calendarPagesEl) return;
   calendarPagesEl.innerHTML = REAL_LISTS.map(tid => {
@@ -6834,7 +7181,6 @@ function calRender(){
   const todayD = calAnchor.getDate();
   const cells = [];
   for(let i = 0; i < leadBlanks; i++) cells.push(`<div class="cal-cell blank"></div>`);
-
   for(let d = 1; d <= totalDays; d++){
     const dow = (leadBlanks + d - 1) % 7;
     const isWknd = dow >= 5;
@@ -6867,7 +7213,7 @@ function calRender(){
       const d = +cell.dataset.day;
       const games = calGamesOn(calViewM, d);
       if(games.length === 1){
-        openModalAboveOverlay(games[0].g, tab === 'backlog-series' || tab === 'bsides' ? tab : tab, { listOverride: [games[0].g] });
+        openModalAboveOverlay(games[0].g, tab === 'series' || tab === 'bsides' || tab === 'radar' ? tab : tab, { listOverride: [games[0].g] });
       } else {
         calOpenDayModal(d);
       }
@@ -6895,7 +7241,7 @@ function calOpenDayModal(d){
       const gid = row.dataset.id;
       const g = viewGame(gid);
       calCloseDayModal();
-      if(g) openModalAboveOverlay(g, tab === 'backlog-series' || tab === 'bsides' ? tab : tab, { listOverride: gamesForNav });
+      if(g) openModalAboveOverlay(g, tab === 'series' || tab === 'bsides' || tab === 'radar' ? tab : tab, { listOverride: gamesForNav });
     });
   });
   calDayBackdrop.classList.add('open');
@@ -6930,7 +7276,6 @@ calDayBackdrop.addEventListener('click', e => { if(e.target === calDayBackdrop) 
 window.addEventListener('resize', () => {
   if(calendarOverlay.classList.contains('open')){ calSizeCells(); }
 });
-
 switchEl.addEventListener('click', () => {
   group = group === 'coop' ? 'single' : 'coop';
   switchEl.dataset.active = group;
@@ -6981,6 +7326,32 @@ toolbarEl.addEventListener('click', e => {
     const wasOpen = dd.classList.contains('open');
     closeAllDropdowns();
     if(!wasOpen){ dd.classList.add('open'); openDD = dd.dataset.dd; }
+    return;
+  }
+  const po = e.target.closest('[data-platform]');
+  if(po){
+    const k = po.dataset.platform;
+    if(k === '__all__'){
+      platformFilter = new Set();
+    } else {
+      const s = new Set(platformFilter);
+      const existing = [...s].find(x => x.toLowerCase() === k.toLowerCase());
+      if(existing) s.delete(existing);
+      else s.add(k);
+      platformFilter = s;
+    }
+    savePlatformFilter();
+    const dd = toolbarEl.querySelector('.dd[data-dd="platform"]');
+    if(dd){
+      dd.querySelector('.val').textContent = platformFilterSummary() || 'All';
+      dd.classList.toggle('non-default', platformFilter.size > 0);
+      dd.querySelectorAll('[data-platform]').forEach(btn => {
+        const k2 = btn.dataset.platform;
+        if(k2 === '__all__') btn.classList.toggle('active', platformFilter.size === 0);
+        else btn.classList.toggle('active', [...platformFilter].some(x => x.toLowerCase() === k2.toLowerCase()));
+      });
+    }
+    refreshGrid();
     return;
   }
   const fo = e.target.closest('[data-filter]');
@@ -7066,7 +7437,6 @@ document.addEventListener('keydown', e => {
 });
 contentEl.addEventListener('load', e => { if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded'); }, true);
 contentEl.addEventListener('error', e => { if(e.target.tagName === 'IMG') e.target.classList.add('img-loaded'); }, true);
-
 contentEl.addEventListener('click', e => {
   const sh = e.target.closest('[data-act="series-edit-header"]');
   if(sh){ e.stopPropagation(); openSeriesHeaderModal(sh.dataset.slug); return; }
@@ -7129,7 +7499,6 @@ contentEl.addEventListener('click', e => {
     toast('Removed from series');
     return;
   }
-  /* B-SIDES actions */
   const bh = e.target.closest('[data-act="bsides-edit-header"]');
   if(bh){ e.stopPropagation(); openBsidesHeaderModal(bh.dataset.slug); return; }
   const bd = e.target.closest('[data-act="bsides-del"]');
@@ -7253,6 +7622,27 @@ contentEl.addEventListener('click', e => {
     toast('Removed');
     return;
   }
+  const ra = e.target.closest('[data-act="radar-add"]');
+  if(ra){ e.stopPropagation(); openRadarEditor(null); return; }
+  const re = e.target.closest('[data-act="radar-edit"]');
+  if(re){
+    e.stopPropagation();
+    openRadarEditor(+re.dataset.idx);
+    return;
+  }
+  const rd = e.target.closest('[data-act="radar-del"]');
+  if(rd){
+    e.stopPropagation();
+    const idx = +rd.dataset.idx;
+    if(!confirm('Remove this project?')) return;
+    PROJECTS.projects.splice(idx, 1);
+    projectsStage();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Removed');
+    return;
+  }
   const adminBtnEl = e.target.closest('.card-admin button');
   if(adminBtnEl){
     e.stopPropagation();
@@ -7262,10 +7652,20 @@ contentEl.addEventListener('click', e => {
     else if(adminBtnEl.dataset.act === 'del') openConfirmDelete(g);
     return;
   }
-  const jb = e.target.closest('.jump-btn');
+  const jb = e.target.closest('.jump-btn[data-jump]');
   if(jb){
+    e.stopPropagation();
     const target = document.getElementById(jb.dataset.jump);
     if(target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
+  const rRow = e.target.closest('[data-radar-idx]');
+  if(rRow && !adminMode){
+    const idx = +rRow.dataset.radarIdx;
+    const p = PROJECTS.projects[idx];
+    if(p && p.url && (p.status === 'released' || p.status === 'in-dev')){
+      if(/^https?:\/\//i.test(p.url)) window.open(p.url, '_blank', 'noopener');
+    }
     return;
   }
   const bsRow = e.target.closest('.series-game-row[data-bsides-slug]');
@@ -7281,7 +7681,7 @@ contentEl.addEventListener('click', e => {
   const sRowAdmin = e.target.closest('.series-game-row[data-series]');
   if(sRowAdmin){ if(adminMode) return; }
   const srow = e.target.closest('.series-game-row[data-series]');
-  if(srow){ const g = viewGame(srow.dataset.id); if(g) openModal(g, 'backlog-series'); return; }
+  if(srow){ const g = viewGame(srow.dataset.id); if(g) openModal(g, 'series'); return; }
   const rowD = e.target.closest('.beaten-row');
   if(rowD){ const g = viewGame(rowD.dataset.id); if(g) openModal(g, tab); return; }
   const card = e.target.closest('.card');
@@ -7292,9 +7692,10 @@ pendingStrip.addEventListener('click', e => {
   if(!totalPendingCount()) return;
   openPendingModal();
 });
-
-let dragSrcId = null, dragSrcSeries = null, dragSrcBsides = null, dragSrcRow = null, dragSrcBsidesRow = null;
+let dragSrcId = null, dragSrcSeries = null, dragSrcBsides = null, dragSrcRow = null, dragSrcBsidesRow = null, dragSrcRadarIdx = null;
 contentEl.addEventListener('dragstart', e => {
+  const rRow = e.target.closest('[data-radar-idx][draggable="true"]');
+  if(rRow){ dragSrcRadarIdx = +rRow.dataset.radarIdx; e.dataTransfer.effectAllowed = 'move'; return; }
   const bsRow = e.target.closest('.series-game-row[data-bsides-slug]');
   if(bsRow && adminMode){ dragSrcBsidesRow = { slug: bsRow.dataset.bsidesSlug, idx: +bsRow.dataset.bsidesIdx }; e.dataTransfer.effectAllowed = 'move'; return; }
   const sRow = e.target.closest('.series-game-row[draggable="true"]');
@@ -7311,6 +7712,8 @@ contentEl.addEventListener('dragstart', e => {
   e.dataTransfer.effectAllowed = 'move';
 });
 contentEl.addEventListener('dragover', e => {
+  const rRow = e.target.closest('[data-radar-idx]');
+  if(rRow && dragSrcRadarIdx != null && +rRow.dataset.radarIdx !== dragSrcRadarIdx){ e.preventDefault(); rRow.classList.add('drag-over'); return; }
   const bBlock = e.target.closest('.series-block[data-bsides-slug]');
   if(bBlock && dragSrcBsides && bBlock.dataset.bsidesSlug !== dragSrcBsides){ e.preventDefault(); bBlock.classList.add('drag-over'); return; }
   const block = e.target.closest('.series-block');
@@ -7334,6 +7737,21 @@ contentEl.addEventListener('dragleave', e => {
   if(draggable) draggable.classList.remove('drop-target');
 });
 contentEl.addEventListener('drop', e => {
+  const rRow = e.target.closest('[data-radar-idx]');
+  if(rRow && dragSrcRadarIdx != null){
+    e.preventDefault();
+    rRow.classList.remove('drag-over');
+    const targetIdx = +rRow.dataset.radarIdx;
+    if(targetIdx === dragSrcRadarIdx){ dragSrcRadarIdx = null; return; }
+    const [moved] = PROJECTS.projects.splice(dragSrcRadarIdx, 1);
+    PROJECTS.projects.splice(targetIdx, 0, moved);
+    projectsStage();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    dragSrcRadarIdx = null;
+    return;
+  }
   const bBlock = e.target.closest('.series-block[data-bsides-slug]');
   if(bBlock && dragSrcBsides){
     e.preventDefault();
@@ -7443,9 +7861,8 @@ contentEl.addEventListener('dragend', () => {
   dragSrcBsides = null;
   dragSrcRow = null;
   dragSrcBsidesRow = null;
+  dragSrcRadarIdx = null;
 });
-
-/* ═══ GUESS THE GAME ═══ */
 const gtgOverlay = document.getElementById('gtgOverlay');
 const gtgClose = document.getElementById('gtgClose');
 const gtgViews = {
@@ -7466,7 +7883,6 @@ const gtgFinalEl = gtgOverlay.querySelector('[data-gtg-final]');
 const gtgNewHighEl = gtgOverlay.querySelector('[data-gtg-newhigh]');
 const gtgLastEl = gtgOverlay.querySelector('[data-gtg-last]');
 const gtgTopEl = gtgOverlay.querySelector('[data-gtg-top]');
-
 const GTG_LAST_KEY = 'gtg_lastScore_v1';
 const GTG_TOP_KEY  = 'gtg_topScore_v1';
 const GTG_DIFF = { easy: { logos: 3, hearts: 3 }, medium: { logos: 5, hearts: 3 }, hard: { logos: 10, hearts: 2 } };
@@ -7809,8 +8225,6 @@ if(gtgShield){
   gtgShield.addEventListener('dragstart', e => e.preventDefault());
 }
 gtgOverlay.addEventListener('dragstart', e => { if(e.target.tagName === 'IMG') e.preventDefault(); });
-
-/* ═══ DRIFT ═══ */
 const driftOverlay = document.getElementById('driftOverlay');
 const driftClose = document.getElementById('driftClose');
 const driftViews = {
@@ -8093,8 +8507,6 @@ driftOverlay.querySelectorAll('[data-drift-play-again]').forEach(b => b.addEvent
 driftOverlay.querySelectorAll('[data-drift-menu]').forEach(b => b.addEventListener('click', driftBackToSplash));
 driftOverlay.querySelectorAll('.drift-card').forEach(card => card.addEventListener('click', () => driftAnswer(card.dataset.driftSide)));
 if(driftPeekBtn) driftPeekBtn.addEventListener('click', driftUsePeek);
-
-/* ═══ SCROLL JUMP ═══ */
 const scrollDownBtn = document.getElementById('scrollDownBtn');
 const scrollUpBtn = document.getElementById('scrollUpBtn');
 function updateScrollButtons(){
@@ -8137,17 +8549,15 @@ function scrollToBottomFully(){
 scrollDownBtn.addEventListener('click', scrollToBottomFully);
 scrollUpBtn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 updateScrollButtons();
-
 window.addEventListener('beforeunload', e => {
   if(totalPendingCount() > 0){ e.preventDefault(); e.returnValue = ''; return ''; }
 });
-
 document.getElementById('guessBtn').addEventListener('click', openGTG);
 document.getElementById('driftBtn').addEventListener('click', openDRIFT);
-
 (async function boot(){
   await loadPlatforms();
   await loadBsides();
+  await loadProjects();
   await loadManifest();
   (function restoreLastTab(){
     try{
