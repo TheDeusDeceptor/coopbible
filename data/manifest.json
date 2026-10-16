@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-16T00:38:26Z",
+  "updated": "2026-10-16T02:51:45Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -550,8 +550,8 @@
       "notes": "",
       "release": "18.08.2020",
       "ea_release": "",
-      "screenshot": "images/screenshots/spiritfarer-2020-pc.jpg",
-      "logo": "images/logos/spiritfarer-2020-pc.png",
+      "screenshot": "images/screenshots/spiritfarer-farewell-edition-2020-pc.jpg",
+      "logo": "images/logos/spiritfarer-farewell-edition-2020-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -11637,7 +11637,7 @@
       "notes": "",
       "release": "14.07.2025",
       "ea_release": "",
-      "screenshot": "images/screenshots/c-a-s-t-chernozem-anomaly-strike-team-2025-pc.jpg",
+      "screenshot": "images/screenshots/c-a-s-t-2025-pc.jpg",
       "logo": "images/logos/c-a-s-t-2025-pc.png",
       "links": [
         {
@@ -24009,8 +24009,8 @@
       "notes": "",
       "release": "2027",
       "ea_release": "",
-      "screenshot": "images/screenshots/keelblade-unreleased-pc.jpg",
-      "logo": "images/logos/keelblade-unreleased-pc.png",
+      "screenshot": "images/screenshots/keelblade-2027-pc.jpg",
+      "logo": "images/logos/keelblade-2027-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -24784,7 +24784,7 @@
       "release": "01.08.2025",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/dynamite-2025-pc.png",
+      "logo": "images/logos/dynamite-2025-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -24810,8 +24810,8 @@
       "notes": "",
       "release": "13.05.2026",
       "ea_release": "",
-      "screenshot": "images/screenshots/devil-may-cry-3-crimson-2026-pc.jpg",
-      "logo": "images/logos/devil-may-cry-3-crimson-2026-pc.png",
+      "screenshot": "images/screenshots/devil-may-cry-3-crimson-2026-pcmod.jpg",
+      "logo": "images/logos/devil-may-cry-3-crimson-2026-pcmod.png",
       "links": [
         {
           "label": "GitHub",
@@ -24843,7 +24843,7 @@
       "release": "20.06.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/lies-of-p-seamless-co-op-2026-pc.png",
+      "logo": "images/logos/lies-of-p-seamless-co-op-2026-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -24876,7 +24876,7 @@
       "release": "10.12.2024",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/age-of-mythology-retold-co-op-2024-pc.png",
+      "logo": "images/logos/age-of-mythology-retold-co-op-2024-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -24903,7 +24903,7 @@
       "release": "01.10.2022",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/far-cry-advanced-version-2022-pc.png",
+      "logo": "images/logos/far-cry-advanced-version-2022-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -24930,7 +24930,7 @@
       "release": "19.12.2025",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/wukongmp-2025-pc.png",
+      "logo": "images/logos/wukongmp-2025-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -24957,7 +24957,7 @@
       "release": "08.07.2022",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/skyrim-together-reborn-2022-pc.png",
+      "logo": "images/logos/skyrim-together-reborn-2022-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -24984,7 +24984,7 @@
       "release": "21.10.2025",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/coopandreas-2025-pc.png",
+      "logo": "images/logos/coopandreas-2025-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -25011,7 +25011,7 @@
       "release": "10.04.2025",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/dark-souls-remastered-seamless-co-op-2025-pc.png",
+      "logo": "images/logos/dark-souls-remastered-seamless-co-op-2025-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -25038,7 +25038,7 @@
       "release": "22.09.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pc.png",
+      "logo": "images/logos/dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -25065,7 +25065,7 @@
       "release": "24.03.2025",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/dark-souls-iii-seamless-co-op-2025-pc.png",
+      "logo": "images/logos/dark-souls-iii-seamless-co-op-2025-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -25092,7 +25092,7 @@
       "release": "28.03.2022",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/elden-ring-randomizer-2022-pc.png",
+      "logo": "images/logos/elden-ring-randomizer-2022-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -25119,7 +25119,7 @@
       "release": "03.04.2022",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/elden-ring-reforged-2022-pc.png",
+      "logo": "images/logos/elden-ring-reforged-2022-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -25152,7 +25152,7 @@
       "release": "01.03.2024",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/elden-vins-2024-pc.png",
+      "logo": "images/logos/elden-vins-2024-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -25185,7 +25185,7 @@
       "release": "28.04.2023",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/elden-ring-the-convergence-2023-pc.png",
+      "logo": "images/logos/elden-ring-the-convergence-2023-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -25218,7 +25218,7 @@
       "release": "22.01.2019",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/zetrith-s-multiplayer-2019-pc.png",
+      "logo": "images/logos/zetrith-s-multiplayer-2019-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -25245,7 +25245,7 @@
       "release": "07.11.2025",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/yakuza-0-co-op-unreleased-pc.png",
+      "logo": "images/logos/yakuza-0-co-op-unreleased-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -25272,7 +25272,7 @@
       "release": "10.04.2025",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/intertwined-fates-2025-pc.png",
+      "logo": "images/logos/intertwined-fates-2025-pcmod.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -25299,7 +25299,7 @@
       "release": "19.03.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/bannerlord-together-2026-pc.png",
+      "logo": "images/logos/bannerlord-together-2026-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -25332,7 +25332,7 @@
       "release": "13.06.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/resident-evil-4-multiplayer-mod-2026-pc.png",
+      "logo": "images/logos/resident-evil-4-multiplayer-mod-2026-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -25365,7 +25365,7 @@
       "release": "20.07.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/silent-hill-united-2026-pc.png",
+      "logo": "images/logos/silent-hill-united-2026-pcmod.png",
       "links": [
         {
           "label": "GitHub",
@@ -25397,7 +25397,7 @@
       "release": "2027",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/resident-evil-3-multiplayer-mod-2027-pc.png",
+      "logo": "images/logos/resident-evil-3-multiplayer-mod-2027-pcmod.png",
       "links": [
         {
           "label": "HeySnippy",
@@ -25429,7 +25429,7 @@
       "release": "19.07.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/xrrazom-2026-pc.png",
+      "logo": "images/logos/xrrazom-2026-pcmod.png",
       "links": [
         {
           "label": "ModDB",
@@ -25461,7 +25461,7 @@
       "release": "20.09.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/monster-hunter-world-seamless-co-op-2026-pc.png",
+      "logo": "images/logos/monster-hunter-world-seamless-co-op-2026-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -25494,7 +25494,7 @@
       "release": "14.08.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/resident-evil-shattered-2026-pc.png",
+      "logo": "images/logos/resident-evil-shattered-2026-pcmod.png",
       "links": [
         {
           "label": "GitHub",
@@ -25526,7 +25526,7 @@
       "release": "14.09.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/ai-limit-together-2026-pc.png",
+      "logo": "images/logos/ai-limit-together-2026-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -25559,7 +25559,7 @@
       "release": "22.09.2026",
       "ea_release": "",
       "screenshot": "",
-      "logo": "images/logos/new-vegas-online-2026-pc.png",
+      "logo": "images/logos/new-vegas-online-2026-pcmod.png",
       "links": [
         {
           "label": "NWO",
@@ -25590,8 +25590,8 @@
       "notes": "",
       "release": "10.10.2021",
       "ea_release": "",
-      "screenshot": "images/screenshots/eronoctosis-put-yourself-together-unreleased-pc.jpg",
-      "logo": "images/logos/eronoctosis-put-yourself-together-unreleased-pc.png",
+      "screenshot": "images/screenshots/eronoctosis-put-yourself-together-2021-pc.jpg",
+      "logo": "images/logos/eronoctosis-put-yourself-together-2021-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -29893,8 +29893,8 @@
       "notes": "",
       "release": "01.05.2012",
       "ea_release": "",
-      "screenshot": "images/screenshots/aliens-colonial-marines-collection-2012-pc.jpg",
-      "logo": "images/logos/aliens-colonial-marines-collection-2012-pc.png",
+      "screenshot": "images/screenshots/aliens-colonial-marines-2012-pc.jpg",
+      "logo": "images/logos/aliens-colonial-marines-2012-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -32778,7 +32778,7 @@
       "notes": "",
       "release": "07.09.2007",
       "ea_release": "",
-      "screenshot": "images/screenshots/obscure-the-aftermath-2007-pc.jpg",
+      "screenshot": "images/screenshots/obscure-ii-2007-pc.jpg",
       "logo": "images/logos/obscure-ii-2007-pc.png",
       "links": [
         {
@@ -32910,8 +32910,8 @@
       "notes": "",
       "release": "09.09.2004",
       "ea_release": "",
-      "screenshot": "images/screenshots/resident-evil-outbreak-file-2-2004-sony-playstation-2.jpg",
-      "logo": "images/logos/resident-evil-outbreak-file-2-2004-sony-playstation-2.png",
+      "screenshot": "images/screenshots/resident-evil-outbreak-file-2-2004-ps2.jpg",
+      "logo": "images/logos/resident-evil-outbreak-file-2-2004-ps2.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -32937,8 +32937,8 @@
       "notes": "",
       "release": "11.12.2003",
       "ea_release": "",
-      "screenshot": "images/screenshots/resident-evil-outbreak-2003-playstation-2.jpg",
-      "logo": "images/logos/resident-evil-outbreak-2003-playstation-2.png",
+      "screenshot": "images/screenshots/resident-evil-outbreak-2003-ps2.jpg",
+      "logo": "images/logos/resident-evil-outbreak-2003-ps2.png",
       "links": [],
       "alt_names": [],
       "dlc": [],
@@ -33150,7 +33150,7 @@
       "release": "16.07.2026",
       "ea_release": "",
       "screenshot": "images/screenshots/happy-s-humble-burger-cult-2026-pc.jpg",
-      "logo": "images/logos/happy-s-humble-burger-cult-unreleased-pc.png",
+      "logo": "images/logos/happy-s-humble-burger-cult-2026-pc.png",
       "links": [
         {
           "label": "Steam",
@@ -34724,8 +34724,9 @@
       "portal-2-2011-pc"
     ],
     "backlog": [],
-    "gamearchive": [],
-    "mainpc": [],
+    "emulog": [],
+    "tvpc": [],
+    "deuspc": [],
     "beaten": []
   },
   "series": {},
