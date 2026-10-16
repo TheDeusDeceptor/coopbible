@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-16T02:51:45Z",
+  "updated": "2026-10-16T02:55:43Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -33786,6 +33786,39 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "the-smurfs-dreams-2024-pc": {
+      "id": "the-smurfs-dreams-2024-pc",
+      "name": "The Smurfs: Dreams",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "—",
+      "dev": "Ocellus Studio",
+      "pub": "Microids",
+      "notes": "",
+      "release": "07.11.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-smurfs-dreams-2024-pc.jpg",
+      "logo": "images/logos/the-smurfs-dreams-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2602020",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": true,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -34290,7 +34323,8 @@
       "haven-2020-pc",
       "never-alone-kisima-ingitchuna-2014-pc",
       "cat-mail-co-2026-pc",
-      "chained-beasts-2026-pc"
+      "chained-beasts-2026-pc",
+      "the-smurfs-dreams-2024-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
