@@ -1,0 +1,38 @@
+{
+  "id": "binary-domain-2012-pc",
+  "name": "Binary Domain",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "27.04.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/binary-domain-2012-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/84d2004bf28a2095230e8e14993d398d.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/203750",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Binary_Domain",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

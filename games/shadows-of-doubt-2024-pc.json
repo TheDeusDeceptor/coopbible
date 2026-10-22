@@ -1,0 +1,38 @@
+{
+  "id": "shadows-of-doubt-2024-pc",
+  "name": "Shadows of Doubt",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 22, +Extra: 39",
+  "dev": "ColePowered Games",
+  "pub": "Fireshine Games",
+  "notes": "",
+  "release": "26.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shadows-of-doubt-2024-pc.jpg",
+  "logo": "images/logos/shadows-of-doubt-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/986130",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shadows_of_Doubt",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

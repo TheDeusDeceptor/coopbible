@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T00:45:46Z",
+  "updated": "2026-10-22T00:57:17Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -34313,6 +34313,82 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "binary-domain-2012-pc": {
+      "id": "binary-domain-2012-pc",
+      "name": "Binary Domain",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "27.04.2012",
+      "ea_release": "",
+      "screenshot": "images/screenshots/binary-domain-2012-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/84d2004bf28a2095230e8e14993d398d.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/203750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Binary_Domain",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "shadows-of-doubt-2024-pc": {
+      "id": "shadows-of-doubt-2024-pc",
+      "name": "Shadows of Doubt",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 22, +Extra: 39",
+      "dev": "ColePowered Games",
+      "pub": "Fireshine Games",
+      "notes": "",
+      "release": "26.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shadows-of-doubt-2024-pc.jpg",
+      "logo": "images/logos/shadows-of-doubt-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/986130",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Shadows_of_Doubt",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -35252,6 +35328,8 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "shadows-of-doubt-2024-pc",
+      "binary-domain-2012-pc",
       "wuchang-fallen-feathers-2025-pc",
       "treasure-adventure-world-2018-pc",
       "treasure-adventure-game-2011-pc",
