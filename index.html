@@ -1238,7 +1238,7 @@ const REAL_LISTS = ['released','early-access','unreleased','mods','lan-fun','coo
 const REAL_LISTS_SET = new Set(REAL_LISTS);
 function addToListOrdered(listId, list, id){
   if(!list.includes(id)){
-    if(BEATEN_LISTS.has(listId)) list.unshift(id);
+    if(BEATEN_LISTS.has(listId) || listId === 'backlog') list.unshift(id);
     else list.push(id);
   }
   return list;
@@ -3987,13 +3987,13 @@ function statusBadgeFromStatus(status){
   if(status === 'optional') return `<div class="g-status optional">Optional</div>`;
   return `<div class="empty-cell">—</div>`;
 }
-function seriesRowHTML(g, disp){
+function seriesRowHTML(g, disp, slug){
   const d = disp || {};
   const displayName = d.display_name || g.name;
   const displayYear  = d.display_release || extractYear(g.release || g.ea_release);
   const displayPlat  = d.display_platform || g.platform || '';
   return `
-    <div class="series-game-row" data-id="${esc(g.id)}">
+    <div class="series-game-row" data-id="${esc(g.id)}" data-series="${esc(slug)}">
       <div class="g-title" title="${esc(displayName)}">${esc(displayName)}</div>
       <div class="g-year">${esc(displayYear)}</div>
       <div class="g-platform">${esc(displayPlat)}</div>
@@ -4040,7 +4040,7 @@ function seriesBlockHTML(slug){
     <div class="series-drag-handle" title="Drag to reorder">⋮⋮</div>` : '';
   const rowsHTML = adminMode
     ? games.map((g, i) => seriesRowAdminHTML(g, disp[g.id], i, slug)).join('')
-    : games.map(g => seriesRowHTML(g, disp[g.id])).join('');
+    : games.map(g => seriesRowHTML(g, disp[g.id], slug)).join('');
   const addRow = adminMode ? `<button type="button" class="series-add-row" data-act="series-add-row" data-slug="${esc(slug)}"><span class="icon icon-plus" style="vertical-align:-2px;margin-right:.4rem"></span>add game to series</button>` : '';
   const totalsHTML = totals.hasAny
     ? (totals.extra && totals.extra !== totals.main
@@ -4441,7 +4441,7 @@ function buildSectionedPane(pane, listId, opts){
     b.onclick = (ev) => {
       if(b.classList.contains('jump-item') || b.dataset.jump){
         ev.stopPropagation();
-        const t = document.getElementById(b.dataset.jump);
+        const t = pane.el.querySelector('[id="' + b.dataset.jump + '"]');
         if(t) t.scrollIntoView({ behavior:'smooth', block:'start' });
         pane.el.querySelectorAll('.jump-menu.open').forEach(m => m.classList.remove('open'));
       }
@@ -7062,7 +7062,8 @@ async function randomFinishSpin(winnerId, tintPromise, spinToken){
     void randomLogoSlot.offsetWidth;
     randomLogoSlot.classList.add('show', 'clickable');
     randomLogoSlot.onclick = () => {
-      openModalAboveOverlay(localWinner, tab === 'series' || tab === 'bsides' || tab === 'radar' ? tab : tab);
+      const targetTab = tab === 'series' || tab === 'bsides' || tab === 'radar' ? 'backlog' : tab;
+      openModalAboveOverlay(localWinner, targetTab);
     };
     randomSpinning = false;
     randomSpinBtn.disabled = false;
@@ -7711,7 +7712,6 @@ contentEl.addEventListener('click', e => {
   }
   const bsRow = e.target.closest('.series-game-row[data-bsides-slug]');
   if(bsRow){
-    if(adminMode) return;
     if(bsRow.classList.contains('movie')) return;
     const gid = bsRow.dataset.id;
     if(!gid) return;
@@ -7719,8 +7719,6 @@ contentEl.addEventListener('click', e => {
     if(g) openModal(g, 'bsides', { listOverride: allBsidesGamesInOrder() });
     return;
   }
-  const sRowAdmin = e.target.closest('.series-game-row[data-series]');
-  if(sRowAdmin){ if(adminMode) return; }
   const srow = e.target.closest('.series-game-row[data-series]');
   if(srow){ const g = viewGame(srow.dataset.id); if(g) openModal(g, 'series'); return; }
   const rowD = e.target.closest('.beaten-row');
