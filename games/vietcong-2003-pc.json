@@ -19,7 +19,16 @@
     }
   ],
   "alt_names": [],
-  "dlc": [],
+  "dlc": [
+    {
+      "name": "Fist Alpha",
+      "played": false
+    },
+    {
+      "name": "Red Dawn",
+      "played": false
+    }
+  ],
   "flags": {
     "installed": true,
     "localCoop": false,

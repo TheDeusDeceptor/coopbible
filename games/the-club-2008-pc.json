@@ -1,0 +1,38 @@
+{
+  "id": "the-club-2008-pc",
+  "name": "The Club",
+  "platform": "PC",
+  "size": "6 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Bizarre Creations",
+  "pub": "Sega",
+  "notes": "",
+  "release": "07.02.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-club-2008-pc.jpg",
+  "logo": "images/logos/the-club-2008-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/10460",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Club",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

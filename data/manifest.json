@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T04:08:43Z",
+  "updated": "2026-10-22T04:23:20Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -5865,7 +5865,16 @@
         }
       ],
       "alt_names": [],
-      "dlc": [],
+      "dlc": [
+        {
+          "name": "Fist Alpha",
+          "played": false
+        },
+        {
+          "name": "Red Dawn",
+          "played": false
+        }
+      ],
       "flags": {
         "installed": true,
         "localCoop": false,
@@ -36196,6 +36205,115 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "nitro-family-2004-pc": {
+      "id": "nitro-family-2004-pc",
+      "name": "Nitro Family",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 10",
+      "dev": "Delphieye Enterainment",
+      "pub": "ValuSoft",
+      "notes": "",
+      "release": "01.05.2004",
+      "ea_release": "",
+      "screenshot": "",
+      "logo": "images/logos/nitro-family-2004-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nitro_Family",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "karma-the-dark-world-2025-pc": {
+      "id": "karma-the-dark-world-2025-pc",
+      "name": "Karma: The Dark World",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 6",
+      "dev": "Pollard Studio",
+      "pub": "Wired Productions",
+      "notes": "",
+      "release": "27.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/karma-the-dark-world-2025-pc.jpg",
+      "logo": "images/logos/karma-the-dark-world-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1376200",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Karma%3A_The_Dark_World",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-club-2008-pc": {
+      "id": "the-club-2008-pc",
+      "name": "The Club",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 4, +Extra: 6",
+      "dev": "Bizarre Creations",
+      "pub": "Sega",
+      "notes": "",
+      "release": "07.02.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-club-2008-pc.jpg",
+      "logo": "images/logos/the-club-2008-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/10460",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Club",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -37136,6 +37254,9 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "the-club-2008-pc",
+      "karma-the-dark-world-2025-pc",
+      "nitro-family-2004-pc",
       "afterfall-insanity-2011-pc",
       "james-cameron-s-avatar-the-game-2009-pc",
       "fallout-london-2024-pc",

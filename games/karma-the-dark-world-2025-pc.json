@@ -1,0 +1,38 @@
+{
+  "id": "karma-the-dark-world-2025-pc",
+  "name": "Karma: The Dark World",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 6",
+  "dev": "Pollard Studio",
+  "pub": "Wired Productions",
+  "notes": "",
+  "release": "27.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/karma-the-dark-world-2025-pc.jpg",
+  "logo": "images/logos/karma-the-dark-world-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1376200",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Karma%3A_The_Dark_World",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

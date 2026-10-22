@@ -1,0 +1,33 @@
+{
+  "id": "nitro-family-2004-pc",
+  "name": "Nitro Family",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 10",
+  "dev": "Delphieye Enterainment",
+  "pub": "ValuSoft",
+  "notes": "",
+  "release": "01.05.2004",
+  "ea_release": "",
+  "screenshot": "",
+  "logo": "images/logos/nitro-family-2004-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Nitro_Family",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
