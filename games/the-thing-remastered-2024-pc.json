@@ -1,0 +1,38 @@
+{
+  "id": "the-thing-remastered-2024-pc",
+  "name": "The Thing: Remastered",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Computer Artworks, Nightdive Studios",
+  "pub": "Nightdive Studios",
+  "notes": "",
+  "release": "05.12.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-thing-remastered-2024-pc.jpg",
+  "logo": "images/logos/the-thing-remastered-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2958970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Thing%3A_Remastered",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

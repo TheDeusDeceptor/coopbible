@@ -1,0 +1,38 @@
+{
+  "id": "second-sight-2005-pc",
+  "name": "Second Sight",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "Free Radical Design",
+  "pub": "Codemasters, THQ Nordic",
+  "notes": "",
+  "release": "04.02.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/second-sight-2005-pc.jpg",
+  "logo": "images/logos/second-sight-2005-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/11550",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Second_Sight",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

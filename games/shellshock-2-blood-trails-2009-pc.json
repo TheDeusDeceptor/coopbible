@@ -1,0 +1,33 @@
+{
+  "id": "shellshock-2-blood-trails-2009-pc",
+  "name": "Shellshock 2: Blood Trails",
+  "platform": "PC",
+  "size": "6.5 GB",
+  "hltb": "Main: 4",
+  "dev": "Rebellion",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "release": "13.02.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shellshock-2-blood-trails-2009-pc.jpg",
+  "logo": "images/logos/shellshock-2-blood-trails-2009-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shellshock_2%3A_Blood_Trails",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

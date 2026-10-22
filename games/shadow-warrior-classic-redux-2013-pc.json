@@ -1,0 +1,38 @@
+{
+  "id": "shadow-warrior-classic-redux-2013-pc",
+  "name": "Shadow Warrior Classic Redux",
+  "platform": "PC",
+  "size": "0.6 GB",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "General Arcade",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "08.07.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shadow-warrior-classic-redux-2013-pc.jpg",
+  "logo": "images/logos/shadow-warrior-classic-redux-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/225160",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shadow_Warrior_Classic_Redux",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

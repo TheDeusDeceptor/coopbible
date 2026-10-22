@@ -1,0 +1,38 @@
+{
+  "id": "the-evil-within-2014-pc",
+  "name": "The Evil Within",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 15, +Extra: 20",
+  "dev": "Tango Gameworks",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "release": "14.10.2014",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-evil-within-2014-pc.jpg",
+  "logo": "images/logos/the-evil-within-2014-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/268050",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Evil_Within",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

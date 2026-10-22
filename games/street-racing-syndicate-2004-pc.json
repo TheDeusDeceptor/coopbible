@@ -1,0 +1,38 @@
+{
+  "id": "street-racing-syndicate-2004-pc",
+  "name": "Street Racing Syndicate",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 12, +Extra: 13",
+  "dev": "Eutechnyx",
+  "pub": "Namco",
+  "notes": "",
+  "release": "27.09.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/street-racing-syndicate-2004-pc.jpg",
+  "logo": "images/logos/street-racing-syndicate-2004-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/292410",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Street_Racing_Syndicate",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

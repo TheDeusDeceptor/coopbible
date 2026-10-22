@@ -1,0 +1,38 @@
+{
+  "id": "marvel-s-guardians-of-the-galaxy-2021-pc",
+  "name": "Marvel's Guardians of the Galaxy",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 18, +Extra: 20",
+  "dev": "Eidos-Montréal",
+  "pub": "Square Enix",
+  "notes": "",
+  "release": "26.10.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/marvel-s-guardians-of-the-galaxy-2021-pc.jpg",
+  "logo": "images/logos/marvel-s-guardians-of-the-galaxy-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1088850",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Marvel's_Guardians_of_the_Galaxy",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

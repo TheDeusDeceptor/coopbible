@@ -1,0 +1,33 @@
+{
+  "id": "junji-ito-maniac-an-infinite-gaol-2025-pc",
+  "name": "Junji Ito Maniac: An Infinite Gaol",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 2, +Extra: 7",
+  "dev": "SOFTSTAR Entertainment",
+  "pub": "SOFTSTAR Entertainment",
+  "notes": "",
+  "release": "11.11.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/junji-ito-maniac-an-infinite-gaol-2025-pc.jpg",
+  "logo": "images/logos/junji-ito-maniac-an-infinite-gaol-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3633250",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

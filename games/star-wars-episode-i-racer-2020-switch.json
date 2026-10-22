@@ -1,0 +1,27 @@
+{
+  "id": "star-wars-episode-i-racer-2020-switch",
+  "name": "Star Wars: Episode I - Racer",
+  "platform": "Switch",
+  "size": "0.3 GB",
+  "hltb": "—",
+  "dev": "LucasArts",
+  "pub": "Aspyr",
+  "notes": "",
+  "release": "23.06.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/star-wars-episode-i-racer-2020-switch.jpg",
+  "logo": "images/logos/star-wars-episode-i-racer-2020-switch.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

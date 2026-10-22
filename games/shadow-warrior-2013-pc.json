@@ -1,0 +1,38 @@
+{
+  "id": "shadow-warrior-2013-pc",
+  "name": "Shadow Warrior",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 12, +Extra: 15",
+  "dev": "Flying Wild Hog",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "26.09.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shadow-warrior-2013-pc.jpg",
+  "logo": "images/logos/shadow-warrior-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/233130",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shadow_Warrior_(2013)",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

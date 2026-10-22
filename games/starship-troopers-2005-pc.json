@@ -1,0 +1,33 @@
+{
+  "id": "starship-troopers-2005-pc",
+  "name": "Starship Troopers",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 10, +Extra: 11",
+  "dev": "Strangelite",
+  "pub": "Empire Interactive",
+  "notes": "",
+  "release": "27.10.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/starship-troopers-2005-pc.jpg",
+  "logo": "images/logos/starship-troopers-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Starship_Troopers",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

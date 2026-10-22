@@ -1,0 +1,33 @@
+{
+  "id": "shellshock-nam-67-2004-pc",
+  "name": "Shellshock: Nam '67",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Guerrilla Games",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "release": "03.09.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shellshock-nam-67-2004-pc.jpg",
+  "logo": "images/logos/shellshock-nam-67-2004-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shellshock%3A_Nam_'67",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

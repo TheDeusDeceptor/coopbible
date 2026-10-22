@@ -1,0 +1,38 @@
+{
+  "id": "shadow-warrior-3-2022-pc",
+  "name": "Shadow Warrior 3",
+  "platform": "PC",
+  "size": "31 GB",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Flying Wild Hog",
+  "pub": "Devolver Digital",
+  "notes": "",
+  "release": "01.03.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shadow-warrior-3-2022-pc.jpg",
+  "logo": "images/logos/shadow-warrior-3-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1036890",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shadow_Warrior_3",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
