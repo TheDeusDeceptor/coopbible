@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T04:54:57Z",
+  "updated": "2026-10-22T17:46:53Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -36636,6 +36636,584 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "secret-service-in-harm-s-way-2001-pc": {
+      "id": "secret-service-in-harm-s-way-2001-pc",
+      "name": "Secret Service: In Harm's Way",
+      "platform": "PC",
+      "size": "0.4 GB",
+      "hltb": "Main: 8",
+      "dev": "Fun Labs",
+      "pub": "Activision",
+      "notes": "",
+      "release": "23.11.2001",
+      "ea_release": "",
+      "screenshot": "images/screenshots/secret-service-in-harm-s-way-2001-pc.jpg",
+      "logo": "images/logos/secret-service-in-harm-s-way-2001-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Secret_Service%3A_In_Harm's_Way",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "secret-service-security-breach-2003-pc": {
+      "id": "secret-service-security-breach-2003-pc",
+      "name": "Secret Service: Security Breach",
+      "platform": "PC",
+      "size": "0.8 GB",
+      "hltb": "Main: 2",
+      "dev": "4D Rulers",
+      "pub": "Activision",
+      "notes": "",
+      "release": "01.01.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/secret-service-security-breach-2003-pc.jpg",
+      "logo": "images/logos/secret-service-security-breach-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Secret_Service%3A_Security_Breach",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "metal-eden-2025-pc": {
+      "id": "metal-eden-2025-pc",
+      "name": "Metal Eden",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 5",
+      "dev": "Reikon Games",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "02.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/metal-eden-2025-pc.jpg",
+      "logo": "images/logos/metal-eden-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/990380",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Metal_Eden",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "unknown-9-awakening-2024-pc": {
+      "id": "unknown-9-awakening-2024-pc",
+      "name": "Unknown 9: Awakening",
+      "platform": "PC",
+      "size": "55 GB",
+      "hltb": "Main: 11, +Extra: 15",
+      "dev": "Reflector Entertainment",
+      "pub": "Bandai Namco",
+      "notes": "",
+      "release": "17.10.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/unknown-9-awakening-2024-pc.jpg",
+      "logo": "images/logos/unknown-9-awakening-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1477940",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Unknown_9%3A_Awakening",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "clive-barker-s-jericho-2007-pc": {
+      "id": "clive-barker-s-jericho-2007-pc",
+      "name": "Clive Barker's Jericho",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 7, +Extra: 9",
+      "dev": "MercurySteam",
+      "pub": "Codemasters",
+      "notes": "",
+      "release": "23.10.2007",
+      "ea_release": "",
+      "screenshot": "images/screenshots/clive-barker-s-jericho-2007-pc.jpg",
+      "logo": "images/logos/clive-barker-s-jericho-2007-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Clive_Barker's_Jericho",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "7554-glorious-memories-revived-2011-pc": {
+      "id": "7554-glorious-memories-revived-2011-pc",
+      "name": "7554: Glorious Memories Revived",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 5",
+      "dev": "Emobi Games",
+      "pub": "Emobi Games",
+      "notes": "",
+      "release": "16.12.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/7554-glorious-memories-revived-2011-pc.jpg",
+      "logo": "images/logos/7554-glorious-memories-revived-2011-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/7554%3A_Glorious_Memories_Revived",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "cold-war-2005-pc": {
+      "id": "cold-war-2005-pc",
+      "name": "Cold War",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Mindware Studios",
+      "pub": "THQ Nordic",
+      "notes": "",
+      "release": "27.09.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/cold-war-2005-pc.jpg",
+      "logo": "images/logos/cold-war-2005-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/260650",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Cold_War",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "scorn-2022-pc": {
+      "id": "scorn-2022-pc",
+      "name": "Scorn",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Ebb Software",
+      "pub": "Kepler Interactive",
+      "notes": "",
+      "release": "14.10.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/scorn-2022-pc.jpg",
+      "logo": "images/logos/scorn-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/698670",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Scorn",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "project-snowblind-2005-pc": {
+      "id": "project-snowblind-2005-pc",
+      "name": "Project: Snowblind",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 6",
+      "dev": "Crystal Dynamics",
+      "pub": "Eidos Interactive",
+      "notes": "",
+      "release": "22.02.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/project-snowblind-2005-pc.jpg",
+      "logo": "images/logos/project-snowblind-2005-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/7010",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Project_Snowblind",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "urban-chaos-1999-pc": {
+      "id": "urban-chaos-1999-pc",
+      "name": "Urban Chaos",
+      "platform": "PC",
+      "size": "0.4 GB",
+      "hltb": "Main: 15",
+      "dev": "Mucky Foot Productions",
+      "pub": "Eidos Interactive, Square Enix",
+      "notes": "",
+      "release": "30.11.1999",
+      "ea_release": "",
+      "screenshot": "images/screenshots/urban-chaos-1999-pc.jpg",
+      "logo": "images/logos/urban-chaos-1999-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/243060",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Urban_Chaos",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "quantum-break-2016-pc": {
+      "id": "quantum-break-2016-pc",
+      "name": "Quantum Break",
+      "platform": "PC",
+      "size": "68 GB",
+      "hltb": "Main: 10, +Extra: 13",
+      "dev": "Remedy Entertainment",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "05.04.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/quantum-break-2016-pc.jpg",
+      "logo": "images/logos/quantum-break-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/474960",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Quantum_Break",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "ai-limit-2025-pc": {
+      "id": "ai-limit-2025-pc",
+      "name": "AI Limit",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 19, +Extra: 24",
+      "dev": "Sense Games",
+      "pub": "CE-Asia",
+      "notes": "",
+      "release": "27.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ai-limit-2025-pc.jpg",
+      "logo": "images/logos/ai-limit-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2407270",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/AI_Limit",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tainted-grail-the-fall-of-avalon-2025-pc": {
+      "id": "tainted-grail-the-fall-of-avalon-2025-pc",
+      "name": "Tainted Grail: The Fall of Avalon",
+      "platform": "PC",
+      "size": "31 GB",
+      "hltb": "Main: 28, +Extra: 56",
+      "dev": "Questline",
+      "pub": "Awaken Realms",
+      "notes": "",
+      "release": "23.05.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tainted-grail-the-fall-of-avalon-2025-pc.jpg",
+      "logo": "images/logos/tainted-grail-the-fall-of-avalon-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1466060",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tainted_Grail%3A_The_Fall_of_Avalon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "elex-2017-pc": {
+      "id": "elex-2017-pc",
+      "name": "Elex",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 27, +Extra: 51",
+      "dev": "Piranha Bytes",
+      "pub": "THQ Nordic",
+      "notes": "",
+      "release": "17.10.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/elex-2017-pc.jpg",
+      "logo": "images/logos/elex-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/411300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ELEX",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "elex-ii-2022-pc": {
+      "id": "elex-ii-2022-pc",
+      "name": "Elex II",
+      "platform": "PC",
+      "size": "45 GB",
+      "hltb": "Main: 35, +Extra: 57",
+      "dev": "Piranha Bytes",
+      "pub": "THQ Nordic",
+      "notes": "",
+      "release": "01.03.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/elex-ii-2022-pc.jpg",
+      "logo": "images/logos/elex-ii-2022-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ELEX_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "swat-3-close-quarters-battle-1999-pc": {
+      "id": "swat-3-close-quarters-battle-1999-pc",
+      "name": "SWAT 3: Close Quarters Battle",
+      "platform": "PC",
+      "size": "0.6 GB",
+      "hltb": "Main: 11, +Extra: 13",
+      "dev": "Sierra Northwest",
+      "pub": "Sierra Entertainment",
+      "notes": "",
+      "release": "23.11.1999",
+      "ea_release": "",
+      "screenshot": "images/screenshots/swat-3-close-quarters-battle-1999-pc.jpg",
+      "logo": "images/logos/swat-3-close-quarters-battle-1999-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/SWAT_3%3A_Close_Quarters_Battle",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -37576,6 +38154,22 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "swat-3-close-quarters-battle-1999-pc",
+      "elex-ii-2022-pc",
+      "elex-2017-pc",
+      "tainted-grail-the-fall-of-avalon-2025-pc",
+      "ai-limit-2025-pc",
+      "quantum-break-2016-pc",
+      "urban-chaos-1999-pc",
+      "project-snowblind-2005-pc",
+      "scorn-2022-pc",
+      "cold-war-2005-pc",
+      "7554-glorious-memories-revived-2011-pc",
+      "clive-barker-s-jericho-2007-pc",
+      "unknown-9-awakening-2024-pc",
+      "metal-eden-2025-pc",
+      "secret-service-security-breach-2003-pc",
+      "secret-service-in-harm-s-way-2001-pc",
       "hour-of-victory-2008-pc",
       "echoes-of-the-end-2025-pc",
       "trials-of-innocence-2025-pc",

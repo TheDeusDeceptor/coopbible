@@ -1,0 +1,38 @@
+{
+  "id": "project-snowblind-2005-pc",
+  "name": "Project: Snowblind",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 6",
+  "dev": "Crystal Dynamics",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "release": "22.02.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/project-snowblind-2005-pc.jpg",
+  "logo": "images/logos/project-snowblind-2005-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/7010",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Project_Snowblind",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

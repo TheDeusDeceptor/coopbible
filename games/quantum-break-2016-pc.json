@@ -1,0 +1,38 @@
+{
+  "id": "quantum-break-2016-pc",
+  "name": "Quantum Break",
+  "platform": "PC",
+  "size": "68 GB",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "Remedy Entertainment",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "05.04.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/quantum-break-2016-pc.jpg",
+  "logo": "images/logos/quantum-break-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/474960",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Quantum_Break",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

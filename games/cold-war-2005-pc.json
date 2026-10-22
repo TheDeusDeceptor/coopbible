@@ -1,0 +1,38 @@
+{
+  "id": "cold-war-2005-pc",
+  "name": "Cold War",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Mindware Studios",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "27.09.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/cold-war-2005-pc.jpg",
+  "logo": "images/logos/cold-war-2005-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/260650",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Cold_War",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

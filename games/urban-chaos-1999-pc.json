@@ -1,0 +1,38 @@
+{
+  "id": "urban-chaos-1999-pc",
+  "name": "Urban Chaos",
+  "platform": "PC",
+  "size": "0.4 GB",
+  "hltb": "Main: 15",
+  "dev": "Mucky Foot Productions",
+  "pub": "Eidos Interactive, Square Enix",
+  "notes": "",
+  "release": "30.11.1999",
+  "ea_release": "",
+  "screenshot": "images/screenshots/urban-chaos-1999-pc.jpg",
+  "logo": "images/logos/urban-chaos-1999-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/243060",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Urban_Chaos",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

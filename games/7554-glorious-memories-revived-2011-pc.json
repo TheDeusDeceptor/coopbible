@@ -1,0 +1,33 @@
+{
+  "id": "7554-glorious-memories-revived-2011-pc",
+  "name": "7554: Glorious Memories Revived",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 5",
+  "dev": "Emobi Games",
+  "pub": "Emobi Games",
+  "notes": "",
+  "release": "16.12.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/7554-glorious-memories-revived-2011-pc.jpg",
+  "logo": "images/logos/7554-glorious-memories-revived-2011-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/7554%3A_Glorious_Memories_Revived",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

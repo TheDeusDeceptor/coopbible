@@ -1,0 +1,33 @@
+{
+  "id": "elex-ii-2022-pc",
+  "name": "Elex II",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 35, +Extra: 57",
+  "dev": "Piranha Bytes",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "01.03.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/elex-ii-2022-pc.jpg",
+  "logo": "images/logos/elex-ii-2022-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ELEX_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "swat-3-close-quarters-battle-1999-pc",
+  "name": "SWAT 3: Close Quarters Battle",
+  "platform": "PC",
+  "size": "0.6 GB",
+  "hltb": "Main: 11, +Extra: 13",
+  "dev": "Sierra Northwest",
+  "pub": "Sierra Entertainment",
+  "notes": "",
+  "release": "23.11.1999",
+  "ea_release": "",
+  "screenshot": "images/screenshots/swat-3-close-quarters-battle-1999-pc.jpg",
+  "logo": "images/logos/swat-3-close-quarters-battle-1999-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/SWAT_3%3A_Close_Quarters_Battle",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

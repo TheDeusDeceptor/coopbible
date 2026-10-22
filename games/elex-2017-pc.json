@@ -1,0 +1,38 @@
+{
+  "id": "elex-2017-pc",
+  "name": "Elex",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "Main: 27, +Extra: 51",
+  "dev": "Piranha Bytes",
+  "pub": "THQ Nordic",
+  "notes": "",
+  "release": "17.10.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/elex-2017-pc.jpg",
+  "logo": "images/logos/elex-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/411300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ELEX",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

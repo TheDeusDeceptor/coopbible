@@ -1,0 +1,38 @@
+{
+  "id": "ai-limit-2025-pc",
+  "name": "AI Limit",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 19, +Extra: 24",
+  "dev": "Sense Games",
+  "pub": "CE-Asia",
+  "notes": "",
+  "release": "27.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ai-limit-2025-pc.jpg",
+  "logo": "images/logos/ai-limit-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2407270",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/AI_Limit",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

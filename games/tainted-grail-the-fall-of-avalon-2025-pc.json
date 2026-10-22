@@ -1,0 +1,38 @@
+{
+  "id": "tainted-grail-the-fall-of-avalon-2025-pc",
+  "name": "Tainted Grail: The Fall of Avalon",
+  "platform": "PC",
+  "size": "31 GB",
+  "hltb": "Main: 28, +Extra: 56",
+  "dev": "Questline",
+  "pub": "Awaken Realms",
+  "notes": "",
+  "release": "23.05.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tainted-grail-the-fall-of-avalon-2025-pc.jpg",
+  "logo": "images/logos/tainted-grail-the-fall-of-avalon-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1466060",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tainted_Grail%3A_The_Fall_of_Avalon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
