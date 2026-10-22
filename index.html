@@ -3543,6 +3543,88 @@ pickerBackdrop.addEventListener('click', e => {
     refreshScrollJumpVisibility();
   }
 });
+function applyHltbData(data) {
+  const fields = hltbMapToFields(data);
+  if(!fields.hltb){ toast('HLTB: no valid time data', 'bad'); return; }
+  const parts = hltbToParts(fields.hltb);
+  const numericRadio = document.querySelector('#f-hltb-type input[value="numeric"]');
+  if(numericRadio){ numericRadio.checked = true; numericRadio.dispatchEvent(new Event('change', { bubbles: true })); }
+  document.querySelector('#hltb-numeric').style.display = '';
+  document.querySelector('#hltb-text').style.display = 'none';
+  document.querySelector('#f-hltb-main').value = parts.main || '';
+  document.querySelector('#f-hltb-extra').value = parts.extra || '';
+  toast('HLTB filled: ' + fields.hltb);
+}
+
+function showHltbSearchModal(initialQuery, onPick) {
+  pickerSlot.innerHTML = `
+    <div class="picker-modal" style="max-width:640px;max-height:80vh;display:flex;flex-direction:column;">
+      <button class="modal-close" data-close>✕</button>
+      <h2>HLTB — Search</h2>
+      <div class="logo-picker-search" style="margin-bottom:1rem;">
+        <input type="text" id="hltb-modal-search" value="${esc(initialQuery)}" placeholder="Game name..." autocomplete="off" spellcheck="false">
+        <button type="button" class="btn primary" id="hltb-modal-go">Search</button>
+      </div>
+      <div class="picker-list" id="hltb-modal-results" style="flex:1;overflow-y:auto;min-height:250px;"></div>
+    </div>`;
+  pickerBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
+
+  const close = () => {
+    pickerBackdrop.classList.remove('open');
+    pickerSlot.innerHTML = '';
+    refreshScrollJumpVisibility();
+  };
+  pickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = close);
+
+  const input = pickerSlot.querySelector('#hltb-modal-search');
+  const goBtn = pickerSlot.querySelector('#hltb-modal-go');
+  const list = pickerSlot.querySelector('#hltb-modal-results');
+
+  const doSearch = async () => {
+    const q = input.value.trim();
+    if(!q) return;
+    goBtn.disabled = true; goBtn.textContent = '…';
+    list.innerHTML = '<div style="padding:1rem;text-align:center;color:var(--muted);">Searching...</div>';
+    try {
+      const data = await hltbSearch(q);
+      let hits = [];
+      if(Array.isArray(data)) hits = data;
+      else if(data && (data.story || data.game_name)) hits = [data];
+
+      if(!hits.length) {
+        list.innerHTML = '<div style="padding:1rem;text-align:center;color:var(--red);">No results found.</div>';
+      } else {
+        list.innerHTML = hits.map((h, i) => {
+          const title = h.game_name || h.name || 'Unknown';
+          const main = h.story ? Math.round(h.story) + 'h' : '—';
+          const extra = h.extras ? Math.round(h.extras) + 'h' : '—';
+          const comp = h.completionist ? Math.round(h.completionist) + 'h' : '—';
+          return `<button type="button" data-idx="${i}">
+            <span class="pk-name">${esc(title)}</span>
+            <span class="pk-meta">Main: ${main} · Extra: ${extra} · 100%: ${comp}</span>
+          </button>`;
+        }).join('');
+        list.querySelectorAll('button[data-idx]').forEach(btn => {
+          btn.onclick = () => {
+            const picked = hits[+btn.dataset.idx];
+            close();
+            onPick(picked);
+          };
+        });
+      }
+    } catch(e) {
+      list.innerHTML = `<div style="padding:1rem;text-align:center;color:var(--red);">Error: ${esc(e.message)}</div>`;
+    } finally {
+      goBtn.disabled = false; goBtn.textContent = 'Search';
+    }
+  };
+
+  goBtn.onclick = doSearch;
+  input.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); doSearch(); } });
+  doSearch();
+}
+
 function showHltbPicker(hits, onPick){
   pickerSlot.innerHTML = `
     <div class="picker-modal">
@@ -5540,63 +5622,27 @@ function openEditor(g, opts){
   $('#hltb-lookup').addEventListener('click', async () => {
     const steamAppId = parseSteamInput($('#qp-steam')?.value || '');
     const nameVal = (nameInput.value || '').trim();
-    if(!steamAppId && !nameVal){ toast('Enter a name or paste a Steam link first', 'bad'); return; }
-    const btn = $('#hltb-lookup'); const orig = btn.innerHTML;
-    btn.disabled = true; btn.innerHTML = '…';
-    try{
-      let data, usedSource;
-      if(steamAppId){ data = await hltbSearchBySteam(steamAppId); usedSource = 'appid ' + steamAppId; }
-      else { data = await hltbSearch(nameVal); usedSource = 'name'; }
-      
-      let hits = [];
-      if(Array.isArray(data)) hits = data;
-      else if(data && Array.isArray(data.results)) hits = data.results;
-      else if(data && (data.story || data.comp_main || data.game_name)) hits = [data];
-
-      if(!hits.length){ toast('HLTB: no result', 'bad'); return; }
-
-      const applyData = (d) => {
-        const fields = hltbMapToFields(d);
-        if(!fields.hltb){ toast('HLTB: no result', 'bad'); return; }
-        const parts = hltbToParts(fields.hltb);
-        const numericRadio = $('#f-hltb-type input[value="numeric"]');
-        if(numericRadio){ numericRadio.checked = true; numericRadio.dispatchEvent(new Event('change', { bubbles: true })); }
-        $('#hltb-numeric').style.display = '';
-        $('#hltb-text').style.display = 'none';
-        $('#f-hltb-main').value = parts.main || '';
-        $('#f-hltb-extra').value = parts.extra || '';
-        toast('HLTB filled (' + usedSource + '): ' + fields.hltb);
-      };
-
-      if(hits.length === 1){
-        applyData(hits[0]);
-      } else {
-        showHltbPicker(hits, picked => {
-          if(picked) applyData(picked);
-        });
-      }
-    }catch(err){
-      if(steamAppId && nameVal){
-        try{
-          const data2 = await hltbSearch(nameVal);
-          const fields2 = hltbMapToFields(data2);
-          if(fields2.hltb){
-            const parts = hltbToParts(fields2.hltb);
-            const numericRadio = $('#f-hltb-type input[value="numeric"]');
-            if(numericRadio){ numericRadio.checked = true; numericRadio.dispatchEvent(new Event('change', { bubbles: true })); }
-            $('#hltb-numeric').style.display = '';
-            $('#hltb-text').style.display = 'none';
-            $('#f-hltb-main').value = parts.main || '';
-            $('#f-hltb-extra').value = parts.extra || '';
-            toast('HLTB filled (by name): ' + fields2.hltb);
-            return;
-          }
-        }catch(_){}
-      }
-      toast('HLTB: ' + err.message, 'bad');
+    
+    if(steamAppId) {
+      const btn = $('#hltb-lookup'); const orig = btn.innerHTML;
+      btn.disabled = true; btn.innerHTML = '…';
+      try {
+        const data = await hltbSearchBySteam(steamAppId);
+        if(data && (data.story || data.extras || data.completionist)) {
+           applyHltbData(data);
+           toast('HLTB filled by Steam AppID');
+           btn.disabled = false; btn.innerHTML = orig;
+           return;
+        }
+      } catch(e) {}
+      btn.disabled = false; btn.innerHTML = orig;
     }
-    finally{ btn.disabled = false; btn.innerHTML = orig; }
+
+    showHltbSearchModal(nameVal, (picked) => {
+      applyHltbData(picked);
+    });
   });
+
   $('#flag-row').addEventListener('click', e => {
     const btn = e.target.closest('.flag-btn');
     if(!btn) return;
