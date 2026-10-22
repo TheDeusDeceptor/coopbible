@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-16T02:55:43Z",
+  "updated": "2026-10-22T00:16:27Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -33819,6 +33819,158 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "clair-obscur-expedition-33-2025-pc": {
+      "id": "clair-obscur-expedition-33-2025-pc",
+      "name": "Clair Obscur: Expedition 33",
+      "platform": "PC",
+      "size": "55 GB",
+      "hltb": "Main: 29, +Extra: 46",
+      "dev": "Sandfall Interactive",
+      "pub": "Kepler Interactive",
+      "notes": "",
+      "release": "24.04.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/clair-obscur-expedition-33-2025-pc.jpg",
+      "logo": "images/logos/clair-obscur-expedition-33-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1903340",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Clair_Obscur%3A_Expedition_33",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "deltarune-2018-pc": {
+      "id": "deltarune-2018-pc",
+      "name": "Deltarune",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 27, +Extra: 36",
+      "dev": "Toby Fox",
+      "pub": "Toby Fox",
+      "notes": "",
+      "release": "31.10.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/deltarune-2018-pc.jpg",
+      "logo": "images/logos/deltarune-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1671210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Deltarune",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "heavy-rain-2019-pc": {
+      "id": "heavy-rain-2019-pc",
+      "name": "Heavy Rain",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 10, +Extra: 12",
+      "dev": "Quantic Dream",
+      "pub": "Quantic Dream",
+      "notes": "",
+      "release": "24.06.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/heavy-rain-2019-pc.jpg",
+      "logo": "images/logos/heavy-rain-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/960910",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Heavy_Rain",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "beyond-two-souls-2019-pc": {
+      "id": "beyond-two-souls-2019-pc",
+      "name": "Beyond: Two Souls",
+      "platform": "PC",
+      "size": "49 GB",
+      "hltb": "Main: 11, +Extra: 12",
+      "dev": "Quantic Dream",
+      "pub": "Quantic Dream",
+      "notes": "",
+      "release": "22.07.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/beyond-two-souls-2019-pc.jpg",
+      "logo": "images/logos/beyond-two-souls-2019-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Beyond%3A_Two_Souls",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/960990",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -34757,7 +34909,12 @@
       "resident-evil-5-2009-pc",
       "portal-2-2011-pc"
     ],
-    "backlog": [],
+    "backlog": [
+      "clair-obscur-expedition-33-2025-pc",
+      "deltarune-2018-pc",
+      "heavy-rain-2019-pc",
+      "beyond-two-souls-2019-pc"
+    ],
     "emulog": [],
     "tvpc": [],
     "deuspc": [],

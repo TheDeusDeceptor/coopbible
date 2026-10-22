@@ -1,0 +1,38 @@
+{
+  "id": "clair-obscur-expedition-33-2025-pc",
+  "name": "Clair Obscur: Expedition 33",
+  "platform": "PC",
+  "size": "55 GB",
+  "hltb": "Main: 29, +Extra: 46",
+  "dev": "Sandfall Interactive",
+  "pub": "Kepler Interactive",
+  "notes": "",
+  "release": "24.04.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/clair-obscur-expedition-33-2025-pc.jpg",
+  "logo": "images/logos/clair-obscur-expedition-33-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1903340",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Clair_Obscur%3A_Expedition_33",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "deltarune-2018-pc",
+  "name": "Deltarune",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 27, +Extra: 36",
+  "dev": "Toby Fox",
+  "pub": "Toby Fox",
+  "notes": "",
+  "release": "31.10.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/deltarune-2018-pc.jpg",
+  "logo": "images/logos/deltarune-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1671210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Deltarune",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

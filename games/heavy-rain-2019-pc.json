@@ -1,0 +1,38 @@
+{
+  "id": "heavy-rain-2019-pc",
+  "name": "Heavy Rain",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Quantic Dream",
+  "pub": "Quantic Dream",
+  "notes": "",
+  "release": "24.06.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/heavy-rain-2019-pc.jpg",
+  "logo": "images/logos/heavy-rain-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/960910",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Heavy_Rain",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
