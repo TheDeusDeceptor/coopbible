@@ -1,0 +1,32 @@
+{
+  "id": "fallout-london-2024-pc",
+  "name": "Fallout: London",
+  "platform": "PC",
+  "size": "35 GB",
+  "hltb": "Main: 28, +Extra: 60",
+  "dev": "Team Folon",
+  "pub": "Team Folon",
+  "notes": "",
+  "release": "24.07.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fallout-london-2024-pc.jpg",
+  "logo": "images/logos/fallout-london-2024-pc.png",
+  "links": [
+    {
+      "label": "GOG",
+      "url": "https://www.gog.com/en/game/fallout_london"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

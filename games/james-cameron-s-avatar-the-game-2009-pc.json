@@ -1,0 +1,33 @@
+{
+  "id": "james-cameron-s-avatar-the-game-2009-pc",
+  "name": "James Cameron's Avatar: The Game",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 8, +Extra: 14",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "01.12.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/james-cameron-s-avatar-the-game-2009-pc.jpg",
+  "logo": "images/logos/james-cameron-s-avatar-the-game-2009-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/James_Cameron's_Avatar%3A_The_Game",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

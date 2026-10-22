@@ -1,0 +1,33 @@
+{
+  "id": "afterfall-insanity-2011-pc",
+  "name": "Afterfall: Insanity",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "Intoxicate Studios",
+  "pub": "Nicolas Entertainment Group",
+  "notes": "",
+  "release": "25.11.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/afterfall-insanity-2011-pc.jpg",
+  "logo": "images/logos/afterfall-insanity-2011-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Afterfall%3A_InSanity",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

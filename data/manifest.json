@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T03:28:45Z",
+  "updated": "2026-10-22T04:08:43Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -36098,6 +36098,104 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "fallout-london-2024-pc": {
+      "id": "fallout-london-2024-pc",
+      "name": "Fallout: London",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 28, +Extra: 60",
+      "dev": "Team Folon",
+      "pub": "Team Folon",
+      "notes": "",
+      "release": "24.07.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/fallout-london-2024-pc.jpg",
+      "logo": "images/logos/fallout-london-2024-pc.png",
+      "links": [
+        {
+          "label": "GOG",
+          "url": "https://www.gog.com/en/game/fallout_london"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "james-cameron-s-avatar-the-game-2009-pc": {
+      "id": "james-cameron-s-avatar-the-game-2009-pc",
+      "name": "James Cameron's Avatar: The Game",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 8, +Extra: 14",
+      "dev": "Ubisoft Montreal",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "01.12.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/james-cameron-s-avatar-the-game-2009-pc.jpg",
+      "logo": "images/logos/james-cameron-s-avatar-the-game-2009-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/James_Cameron's_Avatar%3A_The_Game",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "afterfall-insanity-2011-pc": {
+      "id": "afterfall-insanity-2011-pc",
+      "name": "Afterfall: Insanity",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 7, +Extra: 9",
+      "dev": "Intoxicate Studios",
+      "pub": "Nicolas Entertainment Group",
+      "notes": "",
+      "release": "25.11.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/afterfall-insanity-2011-pc.jpg",
+      "logo": "images/logos/afterfall-insanity-2011-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Afterfall%3A_InSanity",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -37038,6 +37136,9 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "afterfall-insanity-2011-pc",
+      "james-cameron-s-avatar-the-game-2009-pc",
+      "fallout-london-2024-pc",
       "black-souls-ii-2025-pc",
       "black-souls-2025-pc",
       "blue-prince-2025-pc",
