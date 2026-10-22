@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T02:53:16Z",
+  "updated": "2026-10-22T03:28:45Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -35809,6 +35809,295 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "ghostwire-tokyo-2022-pc": {
+      "id": "ghostwire-tokyo-2022-pc",
+      "name": "Ghostwire: Tokyo",
+      "platform": "PC",
+      "size": "26 GB",
+      "hltb": "Main: 11, +Extra: 23",
+      "dev": "Tango Gameworks",
+      "pub": "Bethesda Softworks",
+      "notes": "",
+      "release": "24.03.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ghostwire-tokyo-2022-pc.jpg",
+      "logo": "images/logos/ghostwire-tokyo-2022-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/GhostWire%3A_Tokyo",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1475810",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "legendary-2008-pc": {
+      "id": "legendary-2008-pc",
+      "name": "Legendary",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Spark Unlimited",
+      "pub": "Gamecock Media Group",
+      "notes": "",
+      "release": "18.11.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/legendary-2008-pc.jpg",
+      "logo": "images/logos/legendary-2008-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Legendary",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "turning-point-fall-of-liberty-2008-pc": {
+      "id": "turning-point-fall-of-liberty-2008-pc",
+      "name": "Turning Point: Fall of Liberty",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 4, +Extra: 5",
+      "dev": "Spark Unlimited",
+      "pub": "Codemasters",
+      "notes": "",
+      "release": "26.02.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/turning-point-fall-of-liberty-2008-pc.jpg",
+      "logo": "images/logos/turning-point-fall-of-liberty-2008-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Turning_Point%3A_Fall_of_Liberty",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "from-dusk-till-dawn-2001-pc": {
+      "id": "from-dusk-till-dawn-2001-pc",
+      "name": "From Dusk Till Dawn",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 4",
+      "dev": "Gamesquad",
+      "pub": "Cryo Interactive, DreamCatcher Interactive",
+      "notes": "",
+      "release": "03.10.2001",
+      "ea_release": "",
+      "screenshot": "images/screenshots/from-dusk-till-dawn-2001-pc.jpg",
+      "logo": "images/logos/from-dusk-till-dawn-2001-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/From_Dusk_Till_Dawn",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "routine-2025-pc": {
+      "id": "routine-2025-pc",
+      "name": "Routine",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Lunar Software",
+      "pub": "Raw Fury",
+      "notes": "",
+      "release": "04.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/routine-2025-pc.jpg",
+      "logo": "images/logos/routine-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/606160",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Routine",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "blue-prince-2025-pc": {
+      "id": "blue-prince-2025-pc",
+      "name": "Blue Prince",
+      "platform": "PC",
+      "size": "6 GB",
+      "hltb": "Main: 18, +Extra: 35",
+      "dev": "Dogubomb",
+      "pub": "Raw Fury",
+      "notes": "",
+      "release": "10.04.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/blue-prince-2025-pc.jpg",
+      "logo": "images/logos/blue-prince-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1569580",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Blue_Prince",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "black-souls-2025-pc": {
+      "id": "black-souls-2025-pc",
+      "name": "Black Souls",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 14, +Extra: 34",
+      "dev": "Eeny, meeny, miny, moe?",
+      "pub": "Otaku Plan, News",
+      "notes": "",
+      "release": "15.08.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/black-souls-2025-pc.jpg",
+      "logo": "images/logos/black-souls-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3755860",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Black_Souls",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "black-souls-ii-2025-pc": {
+      "id": "black-souls-ii-2025-pc",
+      "name": "Black Souls II",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 14, +Extra: 34",
+      "dev": "Eeny, meeny, miny, moe?",
+      "pub": "Otaku Plan, News",
+      "notes": "",
+      "release": "28.11.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/black-souls-ii-2025-pc.jpg",
+      "logo": "images/logos/black-souls-ii-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3855540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Black_Souls_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -36749,6 +37038,14 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "black-souls-ii-2025-pc",
+      "black-souls-2025-pc",
+      "blue-prince-2025-pc",
+      "routine-2025-pc",
+      "from-dusk-till-dawn-2001-pc",
+      "turning-point-fall-of-liberty-2008-pc",
+      "legendary-2008-pc",
+      "ghostwire-tokyo-2022-pc",
       "the-evil-within-2-2017-pc",
       "the-evil-within-2014-pc",
       "shadow-warrior-classic-redux-2013-pc",

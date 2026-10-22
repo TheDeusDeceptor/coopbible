@@ -1,0 +1,33 @@
+{
+  "id": "from-dusk-till-dawn-2001-pc",
+  "name": "From Dusk Till Dawn",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Gamesquad",
+  "pub": "Cryo Interactive, DreamCatcher Interactive",
+  "notes": "",
+  "release": "03.10.2001",
+  "ea_release": "",
+  "screenshot": "images/screenshots/from-dusk-till-dawn-2001-pc.jpg",
+  "logo": "images/logos/from-dusk-till-dawn-2001-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/From_Dusk_Till_Dawn",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

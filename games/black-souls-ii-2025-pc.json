@@ -1,0 +1,38 @@
+{
+  "id": "black-souls-ii-2025-pc",
+  "name": "Black Souls II",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 14, +Extra: 34",
+  "dev": "Eeny, meeny, miny, moe?",
+  "pub": "Otaku Plan, News",
+  "notes": "",
+  "release": "28.11.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/black-souls-ii-2025-pc.jpg",
+  "logo": "images/logos/black-souls-ii-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3855540",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Black_Souls_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

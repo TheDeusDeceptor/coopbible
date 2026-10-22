@@ -1,0 +1,38 @@
+{
+  "id": "ghostwire-tokyo-2022-pc",
+  "name": "Ghostwire: Tokyo",
+  "platform": "PC",
+  "size": "26 GB",
+  "hltb": "Main: 11, +Extra: 23",
+  "dev": "Tango Gameworks",
+  "pub": "Bethesda Softworks",
+  "notes": "",
+  "release": "24.03.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ghostwire-tokyo-2022-pc.jpg",
+  "logo": "images/logos/ghostwire-tokyo-2022-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/GhostWire%3A_Tokyo",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1475810",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

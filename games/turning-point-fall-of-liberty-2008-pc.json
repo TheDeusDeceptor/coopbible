@@ -1,0 +1,33 @@
+{
+  "id": "turning-point-fall-of-liberty-2008-pc",
+  "name": "Turning Point: Fall of Liberty",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Spark Unlimited",
+  "pub": "Codemasters",
+  "notes": "",
+  "release": "26.02.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/turning-point-fall-of-liberty-2008-pc.jpg",
+  "logo": "images/logos/turning-point-fall-of-liberty-2008-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Turning_Point%3A_Fall_of_Liberty",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

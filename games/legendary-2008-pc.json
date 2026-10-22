@@ -1,0 +1,33 @@
+{
+  "id": "legendary-2008-pc",
+  "name": "Legendary",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Spark Unlimited",
+  "pub": "Gamecock Media Group",
+  "notes": "",
+  "release": "18.11.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/legendary-2008-pc.jpg",
+  "logo": "images/logos/legendary-2008-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Legendary",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
