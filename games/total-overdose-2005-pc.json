@@ -1,0 +1,33 @@
+{
+  "id": "total-overdose-2005-pc",
+  "name": "Total Overdose",
+  "platform": "PC",
+  "size": "0.4 GB",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Deadline Games",
+  "pub": "SCi Entertainment, Eidos Interactive",
+  "notes": "",
+  "release": "16.09.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/total-overdose-2005-pc.jpg",
+  "logo": "images/logos/total-overdose-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Total_Overdose",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

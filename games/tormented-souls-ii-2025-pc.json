@@ -1,0 +1,38 @@
+{
+  "id": "tormented-souls-ii-2025-pc",
+  "name": "Tormented Souls II",
+  "platform": "PC",
+  "size": "45 GB",
+  "hltb": "Main: 13, +Extra: 15",
+  "dev": "Dual Effect",
+  "pub": "PQube",
+  "notes": "",
+  "release": "23.10.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tormented-souls-2-2025-pc.jpg",
+  "logo": "images/logos/tormented-souls-2-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2464280",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tormented_Souls_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

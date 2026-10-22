@@ -1,0 +1,33 @@
+{
+  "id": "25-to-life-2006-pc",
+  "name": "25 to life",
+  "platform": "PC",
+  "size": "1.5 GB",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Avalanche Software",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "release": "17.01.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/25-to-life-2006-pc.jpg",
+  "logo": "images/logos/25-to-life-2006-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/25_to_Life",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

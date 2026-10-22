@@ -1,0 +1,38 @@
+{
+  "id": "hades-2-2025-pc",
+  "name": "Hades 2",
+  "platform": "PC",
+  "size": "11 GB",
+  "hltb": "Main: 32, +Extra: 53",
+  "dev": "Supergiant Games",
+  "pub": "Supergiant Games",
+  "notes": "",
+  "release": "25.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hades-2-2025-pc.jpg",
+  "logo": "images/logos/hades-2-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1145350",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hades_2",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

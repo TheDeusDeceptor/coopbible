@@ -1,0 +1,33 @@
+{
+  "id": "true-crime-streets-of-la-2004-pc",
+  "name": "True Crime: Streets of LA",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "Luxoflux",
+  "pub": "Activision",
+  "notes": "",
+  "release": "14.05.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/true-crime-streets-of-la-2004-pc.jpg",
+  "logo": "images/logos/true-crime-streets-of-la-2004-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/True_Crime%3A_Streets_of_LA",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

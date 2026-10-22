@@ -1,0 +1,33 @@
+{
+  "id": "true-crime-new-york-city-2006-pc",
+  "name": "True Crime: New York City",
+  "platform": "PC",
+  "size": "2.7 GB",
+  "hltb": "Main: 7, +Extra: 19",
+  "dev": "Luxoflux",
+  "pub": "Activision",
+  "notes": "",
+  "release": "24.03.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/true-crime-new-york-city-2006-pc.jpg",
+  "logo": "images/logos/true-crime-new-york-city-2006-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/True_Crime%3A_New_York_City",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

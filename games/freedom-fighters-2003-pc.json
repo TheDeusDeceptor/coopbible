@@ -1,0 +1,38 @@
+{
+  "id": "freedom-fighters-2003-pc",
+  "name": "Freedom Fighters",
+  "platform": "PC",
+  "size": "0.6 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "IO Interactive",
+  "pub": "Electronic Arts, IO Interactive",
+  "notes": "",
+  "release": "26.09.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/freedom-fighters-2003-pc.jpg",
+  "logo": "images/logos/freedom-fighters-2003-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1347780",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Freedom_Fighters",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

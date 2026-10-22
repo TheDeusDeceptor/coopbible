@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T01:12:05Z",
+  "updated": "2026-10-22T01:42:39Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -34423,6 +34423,475 @@
       "series_status": null,
       "series_note": null,
       "video": "https://video.fastly.steamstatic.com/store_trailers/1478970/1738821149/824f07bb7c125eab28d28661e27d9fceb5a6087f/1792335062/microtrailer.mp4"
+    },
+    "hades-2020-pc": {
+      "id": "hades-2020-pc",
+      "name": "Hades",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 24, +Extra: 49",
+      "dev": "Supergiant Games",
+      "pub": "Supergiant Games",
+      "notes": "",
+      "release": "17.09.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hades-2020-pc.jpg",
+      "logo": "images/logos/hades-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1145360",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hades",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hades-2-2025-pc": {
+      "id": "hades-2-2025-pc",
+      "name": "Hades 2",
+      "platform": "PC",
+      "size": "11 GB",
+      "hltb": "Main: 32, +Extra: 53",
+      "dev": "Supergiant Games",
+      "pub": "Supergiant Games",
+      "notes": "",
+      "release": "25.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hades-2-2025-pc.jpg",
+      "logo": "images/logos/hades-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1145350",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hades_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sleep-awake-2025-pc": {
+      "id": "sleep-awake-2025-pc",
+      "name": "Sleep Awake",
+      "platform": "PC",
+      "size": "64 GB",
+      "hltb": "Main: 4, +Extra: 6",
+      "dev": "Eyes Out",
+      "pub": "Blumhouse Games",
+      "notes": "",
+      "release": "02.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sleep-awake-2025-pc.jpg",
+      "logo": "images/logos/sleep-awake-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2446540",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sleep_Awake",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tormented-souls-2021-pc": {
+      "id": "tormented-souls-2021-pc",
+      "name": "Tormented Souls",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "—",
+      "dev": "Dual Effect, Abstract Digital",
+      "pub": "PQube",
+      "notes": "",
+      "release": "27.08.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tormented-souls-2021-pc.jpg",
+      "logo": "images/logos/tormented-souls-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1367590",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tormented_Souls",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "tormented-souls-ii-2025-pc": {
+      "id": "tormented-souls-ii-2025-pc",
+      "name": "Tormented Souls II",
+      "platform": "PC",
+      "size": "45 GB",
+      "hltb": "Main: 13, +Extra: 15",
+      "dev": "Dual Effect",
+      "pub": "PQube",
+      "notes": "",
+      "release": "23.10.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tormented-souls-2-2025-pc.jpg",
+      "logo": "images/logos/tormented-souls-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2464280",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Tormented_Souls_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "gun-2005-pc": {
+      "id": "gun-2005-pc",
+      "name": "Gun",
+      "platform": "PC",
+      "size": "2.8 GB",
+      "hltb": "Main: 7, +Extra: 9",
+      "dev": "Neversoft",
+      "pub": "Activision",
+      "notes": "",
+      "release": "09.11.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gun-2005-pc.jpg",
+      "logo": "images/logos/gun-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gun",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "freedom-fighters-2003-pc": {
+      "id": "freedom-fighters-2003-pc",
+      "name": "Freedom Fighters",
+      "platform": "PC",
+      "size": "0.6 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "IO Interactive",
+      "pub": "Electronic Arts, IO Interactive",
+      "notes": "",
+      "release": "26.09.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/freedom-fighters-2003-pc.jpg",
+      "logo": "images/logos/freedom-fighters-2003-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1347780",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Freedom_Fighters",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "true-crime-streets-of-la-2004-pc": {
+      "id": "true-crime-streets-of-la-2004-pc",
+      "name": "True Crime: Streets of LA",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 9, +Extra: 12",
+      "dev": "Luxoflux",
+      "pub": "Activision",
+      "notes": "",
+      "release": "14.05.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/true-crime-streets-of-la-2004-pc.jpg",
+      "logo": "images/logos/true-crime-streets-of-la-2004-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/True_Crime%3A_Streets_of_LA",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "true-crime-new-york-city-2006-pc": {
+      "id": "true-crime-new-york-city-2006-pc",
+      "name": "True Crime: New York City",
+      "platform": "PC",
+      "size": "2.7 GB",
+      "hltb": "Main: 7, +Extra: 19",
+      "dev": "Luxoflux",
+      "pub": "Activision",
+      "notes": "",
+      "release": "24.03.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/true-crime-new-york-city-2006-pc.jpg",
+      "logo": "images/logos/true-crime-new-york-city-2006-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/True_Crime%3A_New_York_City",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sleeping-dogs-definitive-edition-2014-pc": {
+      "id": "sleeping-dogs-definitive-edition-2014-pc",
+      "name": "Sleeping Dogs: Definitive Edition",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 14, +Extra: 24",
+      "dev": "United Front Games",
+      "pub": "Square Enix",
+      "notes": "",
+      "release": "08.10.2014",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sleeping-dogs-definitive-edition-2014-pc.jpg",
+      "logo": "images/logos/sleeping-dogs-definitive-edition-2014-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/307690",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sleeping_Dogs%3A_Definitive_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "total-overdose-2005-pc": {
+      "id": "total-overdose-2005-pc",
+      "name": "Total Overdose",
+      "platform": "PC",
+      "size": "0.4 GB",
+      "hltb": "Main: 6, +Extra: 9",
+      "dev": "Deadline Games",
+      "pub": "SCi Entertainment, Eidos Interactive",
+      "notes": "",
+      "release": "16.09.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/total-overdose-2005-pc.jpg",
+      "logo": "images/logos/total-overdose-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Total_Overdose",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "25-to-life-2006-pc": {
+      "id": "25-to-life-2006-pc",
+      "name": "25 to life",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "Main: 4, +Extra: 5",
+      "dev": "Avalanche Software",
+      "pub": "Eidos Interactive",
+      "notes": "",
+      "release": "17.01.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/25-to-life-2006-pc.jpg",
+      "logo": "images/logos/25-to-life-2006-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/25_to_Life",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "scarface-the-world-is-yours-2006-pc": {
+      "id": "scarface-the-world-is-yours-2006-pc",
+      "name": "Scarface: The World Is Yours",
+      "platform": "PC",
+      "size": "2.9 GB",
+      "hltb": "Main: 15, +Extra: 23",
+      "dev": "Radical Entertainment",
+      "pub": "Sierra Entertainment",
+      "notes": "",
+      "release": "25.07.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/scarface-the-world-is-yours-2006-pc.jpg",
+      "logo": "images/logos/scarface-the-world-is-yours-2006-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3878270",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Scarface%3A_The_World_Is_Yours",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -35363,6 +35832,19 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "scarface-the-world-is-yours-2006-pc",
+      "25-to-life-2006-pc",
+      "total-overdose-2005-pc",
+      "sleeping-dogs-definitive-edition-2014-pc",
+      "true-crime-new-york-city-2006-pc",
+      "true-crime-streets-of-la-2004-pc",
+      "freedom-fighters-2003-pc",
+      "gun-2005-pc",
+      "tormented-souls-ii-2025-pc",
+      "tormented-souls-2021-pc",
+      "sleep-awake-2025-pc",
+      "hades-2-2025-pc",
+      "hades-2020-pc",
       "shadows-of-doubt-2024-pc",
       "binary-domain-2012-pc",
       "wuchang-fallen-feathers-2025-pc",

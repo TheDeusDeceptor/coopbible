@@ -1,0 +1,38 @@
+{
+  "id": "scarface-the-world-is-yours-2006-pc",
+  "name": "Scarface: The World Is Yours",
+  "platform": "PC",
+  "size": "2.9 GB",
+  "hltb": "Main: 15, +Extra: 23",
+  "dev": "Radical Entertainment",
+  "pub": "Sierra Entertainment",
+  "notes": "",
+  "release": "25.07.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/scarface-the-world-is-yours-2006-pc.jpg",
+  "logo": "images/logos/scarface-the-world-is-yours-2006-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3878270",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Scarface%3A_The_World_Is_Yours",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

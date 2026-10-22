@@ -1,0 +1,38 @@
+{
+  "id": "sleep-awake-2025-pc",
+  "name": "Sleep Awake",
+  "platform": "PC",
+  "size": "64 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Eyes Out",
+  "pub": "Blumhouse Games",
+  "notes": "",
+  "release": "02.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sleep-awake-2025-pc.jpg",
+  "logo": "images/logos/sleep-awake-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2446540",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sleep_Awake",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "tormented-souls-2021-pc",
+  "name": "Tormented Souls",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "—",
+  "dev": "Dual Effect, Abstract Digital",
+  "pub": "PQube",
+  "notes": "",
+  "release": "27.08.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tormented-souls-2021-pc.jpg",
+  "logo": "images/logos/tormented-souls-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1367590",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Tormented_Souls",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
