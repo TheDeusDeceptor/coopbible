@@ -1,0 +1,34 @@
+{
+  "id": "ai-olympius-2026-pc",
+  "name": "AI Olympius",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "—",
+  "dev": "Lion's Shade",
+  "pub": "Lion's Shade",
+  "notes": "",
+  "release": "18.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ai-olympius-2026-pc.jpg",
+  "logo": "images/logos/ai-olympius-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1478970",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null,
+  "video": "https://video.fastly.steamstatic.com/store_trailers/1478970/1738821149/824f07bb7c125eab28d28661e27d9fceb5a6087f/1792335062/microtrailer.mp4"
+}
