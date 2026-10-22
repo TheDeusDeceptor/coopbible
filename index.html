@@ -3332,7 +3332,8 @@ function steamMapToFields(data){
   return out;
 }
 async function hltbSearch(name){
-  const res = await fetch(PROXY_URL + '?action=hltb&q=' + encodeURIComponent(name));
+  const cleanName = String(name || '').replace(/[^\w\s]/gi, ' ').replace(/\s+/g, ' ').trim();
+  const res = await fetch(PROXY_URL + '?action=hltb&q=' + encodeURIComponent(cleanName));
   if(!res.ok) throw new Error('HLTB proxy HTTP ' + res.status);
   const data = await res.json();
   if(data && data.error) throw new Error(data.error);
