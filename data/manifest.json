@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T04:23:20Z",
+  "updated": "2026-10-22T04:39:00Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -36217,7 +36217,7 @@
       "notes": "",
       "release": "01.05.2004",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/nitro-family-2004-pc.jpg",
       "logo": "images/logos/nitro-family-2004-pc.png",
       "links": [
         {
@@ -36299,6 +36299,143 @@
         {
           "label": "PCGW",
           "url": "https://www.pcgamingwiki.com/wiki/The_Club",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-godfather-the-game-2006-pc": {
+      "id": "the-godfather-the-game-2006-pc",
+      "name": "The Godfather: The Game",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 14, +Extra: 22",
+      "dev": "EA Redwood Shores",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "21.03.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-godfather-the-game-2006-pc.jpg",
+      "logo": "images/logos/the-godfather-the-game-2006-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Godfather%3A_The_Game",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-godfather-ii-2009-pc": {
+      "id": "the-godfather-ii-2009-pc",
+      "name": "The Godfather II",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 12, +Extra: 14",
+      "dev": "EA Redwood Shores",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "07.04.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-godfather-ii-2009-pc.jpg",
+      "logo": "images/logos/the-godfather-ii-2009-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Godfather_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "knights-of-the-temple-infernal-crusade-2004-pc": {
+      "id": "knights-of-the-temple-infernal-crusade-2004-pc",
+      "name": "Knights of the Temple: Infernal Crusade",
+      "platform": "PC",
+      "size": "2.3 GB",
+      "hltb": "Main: 7, +Extra: 11",
+      "dev": "Starbreeze Studios",
+      "pub": "TDK Mediactive",
+      "notes": "",
+      "release": "03.03.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/knights-of-the-temple-infernal-crusade-2004-pc.jpg",
+      "logo": "images/logos/knights-of-the-temple-infernal-crusade-2004-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1194610",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Knights_of_the_Temple%3A_Infernal_Crusade",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "knights-of-the-temple-ii-2005-pc": {
+      "id": "knights-of-the-temple-ii-2005-pc",
+      "name": "Knights of the Temple II",
+      "platform": "PC",
+      "size": "2.2 GB",
+      "hltb": "Main: 9, +Extra: 10",
+      "dev": "Cauldron",
+      "pub": "",
+      "notes": "",
+      "release": "24.11.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/knights-of-the-temple-ii-2005-pc.jpg",
+      "logo": "images/logos/knights-of-the-temple-ii-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Knights_of_the_Temple_II",
           "icon": "pcgw"
         }
       ],
@@ -37254,6 +37391,10 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "knights-of-the-temple-ii-2005-pc",
+      "knights-of-the-temple-infernal-crusade-2004-pc",
+      "the-godfather-ii-2009-pc",
+      "the-godfather-the-game-2006-pc",
       "the-club-2008-pc",
       "karma-the-dark-world-2025-pc",
       "nitro-family-2004-pc",

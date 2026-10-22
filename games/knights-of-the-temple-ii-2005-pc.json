@@ -1,0 +1,33 @@
+{
+  "id": "knights-of-the-temple-ii-2005-pc",
+  "name": "Knights of the Temple II",
+  "platform": "PC",
+  "size": "2.2 GB",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "Cauldron",
+  "pub": "",
+  "notes": "",
+  "release": "24.11.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/knights-of-the-temple-ii-2005-pc.jpg",
+  "logo": "images/logos/knights-of-the-temple-ii-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Knights_of_the_Temple_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

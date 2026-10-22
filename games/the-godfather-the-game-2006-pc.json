@@ -1,0 +1,33 @@
+{
+  "id": "the-godfather-the-game-2006-pc",
+  "name": "The Godfather: The Game",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 14, +Extra: 22",
+  "dev": "EA Redwood Shores",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "21.03.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-godfather-the-game-2006-pc.jpg",
+  "logo": "images/logos/the-godfather-the-game-2006-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Godfather%3A_The_Game",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

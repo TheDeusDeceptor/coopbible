@@ -1,0 +1,38 @@
+{
+  "id": "knights-of-the-temple-infernal-crusade-2004-pc",
+  "name": "Knights of the Temple: Infernal Crusade",
+  "platform": "PC",
+  "size": "2.3 GB",
+  "hltb": "Main: 7, +Extra: 11",
+  "dev": "Starbreeze Studios",
+  "pub": "TDK Mediactive",
+  "notes": "",
+  "release": "03.03.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/knights-of-the-temple-infernal-crusade-2004-pc.jpg",
+  "logo": "images/logos/knights-of-the-temple-infernal-crusade-2004-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1194610",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Knights_of_the_Temple%3A_Infernal_Crusade",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "the-godfather-ii-2009-pc",
+  "name": "The Godfather II",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 12, +Extra: 14",
+  "dev": "EA Redwood Shores",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "07.04.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-godfather-ii-2009-pc.jpg",
+  "logo": "images/logos/the-godfather-ii-2009-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Godfather_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
