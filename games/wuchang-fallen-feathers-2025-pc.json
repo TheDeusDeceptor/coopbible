@@ -1,0 +1,38 @@
+{
+  "id": "wuchang-fallen-feathers-2025-pc",
+  "name": "Wuchang: Fallen Feathers",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 30, +Extra: 39",
+  "dev": "Leenzee",
+  "pub": "505 Games",
+  "notes": "",
+  "release": "23.07.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/wuchang-fallen-feathers-2025-pc.jpg",
+  "logo": "images/logos/wuchang-fallen-feathers-2025-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Wuchang%3A_Fallen_Feathers",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2277560",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

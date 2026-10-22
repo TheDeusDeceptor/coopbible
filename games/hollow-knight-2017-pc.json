@@ -1,0 +1,38 @@
+{
+  "id": "hollow-knight-2017-pc",
+  "name": "Hollow Knight",
+  "platform": "PC",
+  "size": "9 GB",
+  "hltb": "Main: 27, +Extra: 42",
+  "dev": "Team Cherry",
+  "pub": "Team Cherry",
+  "notes": "",
+  "release": "24.02.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hollow-knight-2017-pc.jpg",
+  "logo": "images/logos/hollow-knight-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/367520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hollow_Knight",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

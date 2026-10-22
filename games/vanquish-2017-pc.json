@@ -1,0 +1,38 @@
+{
+  "id": "vanquish-2017-pc",
+  "name": "Vanquish",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "PlatinumGames",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "25.05.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/vanquish-2017-pc.jpg",
+  "logo": "images/logos/vanquish-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/460810",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Vanquish",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

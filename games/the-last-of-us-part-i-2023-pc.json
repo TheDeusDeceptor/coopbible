@@ -1,0 +1,38 @@
+{
+  "id": "the-last-of-us-part-i-2023-pc",
+  "name": "The Last of Us Part I",
+  "platform": "PC",
+  "size": "100 GB",
+  "hltb": "Main: 14, +Extra: 18",
+  "dev": "Naughty Dog",
+  "pub": "PlayStation Publishing LLC",
+  "notes": "",
+  "release": "28.03.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-last-of-us-part-i-2023-pc.jpg",
+  "logo": "images/logos/the-last-of-us-part-i-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1888930",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Last_of_Us_Part_I",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

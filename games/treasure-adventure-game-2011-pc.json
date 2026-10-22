@@ -1,0 +1,38 @@
+{
+  "id": "treasure-adventure-game-2011-pc",
+  "name": "Treasure Adventure Game",
+  "platform": "PC",
+  "size": "0.1 GB",
+  "hltb": "Main: 12, +Extra: 16",
+  "dev": "Robit Games",
+  "pub": "Robit Games",
+  "notes": "",
+  "release": "26.11.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/treasure-adventure-game-2011-pc.jpg",
+  "logo": "images/logos/treasure-adventure-game-2011-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/863940",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Treasure_Adventure_Game",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

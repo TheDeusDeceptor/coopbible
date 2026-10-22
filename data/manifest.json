@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T00:25:47Z",
+  "updated": "2026-10-22T00:45:46Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -33971,6 +33971,348 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "the-last-of-us-part-i-2023-pc": {
+      "id": "the-last-of-us-part-i-2023-pc",
+      "name": "The Last of Us Part I",
+      "platform": "PC",
+      "size": "100 GB",
+      "hltb": "Main: 14, +Extra: 18",
+      "dev": "Naughty Dog",
+      "pub": "PlayStation Publishing LLC",
+      "notes": "",
+      "release": "28.03.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-last-of-us-part-i-2023-pc.jpg",
+      "logo": "images/logos/the-last-of-us-part-i-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1888930",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Last_of_Us_Part_I",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-last-of-us-part-ii-remastered-2025-pc": {
+      "id": "the-last-of-us-part-ii-remastered-2025-pc",
+      "name": "The Last of Us Part II Remastered",
+      "platform": "PC",
+      "size": "150 GB",
+      "hltb": "Main: 23, +Extra: 29",
+      "dev": "Naughty Dog",
+      "pub": "PlayStation Publishing LLC",
+      "notes": "",
+      "release": "03.04.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-last-of-us-part-ii-remastered-2025-pc.jpg",
+      "logo": "images/logos/the-last-of-us-part-ii-remastered-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2531310",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Last_of_Us_Part_II_Remastered",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "vanquish-2017-pc": {
+      "id": "vanquish-2017-pc",
+      "name": "Vanquish",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "PlatinumGames",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "25.05.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/vanquish-2017-pc.jpg",
+      "logo": "images/logos/vanquish-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/460810",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Vanquish",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hell-is-us-2025-pc": {
+      "id": "hell-is-us-2025-pc",
+      "name": "Hell is Us",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "Main: 22, +Extra: 29",
+      "dev": "Rogue Factor",
+      "pub": "Nacon",
+      "notes": "",
+      "release": "04.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hell-is-us-2025-pc.jpg",
+      "logo": "images/logos/hell-is-us-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1620730",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hell_is_Us",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hollow-knight-2017-pc": {
+      "id": "hollow-knight-2017-pc",
+      "name": "Hollow Knight",
+      "platform": "PC",
+      "size": "9 GB",
+      "hltb": "Main: 27, +Extra: 42",
+      "dev": "Team Cherry",
+      "pub": "Team Cherry",
+      "notes": "",
+      "release": "24.02.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hollow-knight-2017-pc.jpg",
+      "logo": "images/logos/hollow-knight-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/367520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hollow_Knight",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hollow-knight-silksong-2025-pc": {
+      "id": "hollow-knight-silksong-2025-pc",
+      "name": "Hollow Knight: Silksong",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 28, +Extra: 47",
+      "dev": "Team Cherry",
+      "pub": "Team Cherry",
+      "notes": "",
+      "release": "04.09.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hollow-knight-silksong-2025-pc.jpg",
+      "logo": "images/logos/hollow-knight-silksong-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1030300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hollow_Knight%3A_Silksong",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "treasure-adventure-game-2011-pc": {
+      "id": "treasure-adventure-game-2011-pc",
+      "name": "Treasure Adventure Game",
+      "platform": "PC",
+      "size": "0.1 GB",
+      "hltb": "Main: 12, +Extra: 16",
+      "dev": "Robit Games",
+      "pub": "Robit Games",
+      "notes": "",
+      "release": "26.11.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/treasure-adventure-game-2011-pc.jpg",
+      "logo": "images/logos/treasure-adventure-game-2011-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/863940",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Treasure_Adventure_Game",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "treasure-adventure-world-2018-pc": {
+      "id": "treasure-adventure-world-2018-pc",
+      "name": "Treasure Adventure World",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 23",
+      "dev": "Robit Games",
+      "pub": "Chucklefish Games, Robit Studios",
+      "notes": "",
+      "release": "07.02.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/treasure-adventure-world-2018-pc.jpg",
+      "logo": "images/logos/treasure-adventure-world-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/268770",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Treasure_Adventure_World",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "wuchang-fallen-feathers-2025-pc": {
+      "id": "wuchang-fallen-feathers-2025-pc",
+      "name": "Wuchang: Fallen Feathers",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 30, +Extra: 39",
+      "dev": "Leenzee",
+      "pub": "505 Games",
+      "notes": "",
+      "release": "23.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wuchang-fallen-feathers-2025-pc.jpg",
+      "logo": "images/logos/wuchang-fallen-feathers-2025-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Wuchang%3A_Fallen_Feathers",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2277560",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -34910,8 +35252,17 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
-      "heavy-rain-2019-pc",
+      "wuchang-fallen-feathers-2025-pc",
+      "treasure-adventure-world-2018-pc",
+      "treasure-adventure-game-2011-pc",
+      "hollow-knight-silksong-2025-pc",
+      "hollow-knight-2017-pc",
+      "hell-is-us-2025-pc",
+      "vanquish-2017-pc",
+      "the-last-of-us-part-ii-remastered-2025-pc",
+      "the-last-of-us-part-i-2023-pc",
       "beyond-two-souls-2019-pc",
+      "heavy-rain-2019-pc",
       "deltarune-2018-pc",
       "clair-obscur-expedition-33-2025-pc"
     ],

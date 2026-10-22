@@ -1,0 +1,38 @@
+{
+  "id": "hollow-knight-silksong-2025-pc",
+  "name": "Hollow Knight: Silksong",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 28, +Extra: 47",
+  "dev": "Team Cherry",
+  "pub": "Team Cherry",
+  "notes": "",
+  "release": "04.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hollow-knight-silksong-2025-pc.jpg",
+  "logo": "images/logos/hollow-knight-silksong-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1030300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hollow_Knight%3A_Silksong",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

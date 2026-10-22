@@ -1,0 +1,38 @@
+{
+  "id": "hell-is-us-2025-pc",
+  "name": "Hell is Us",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 22, +Extra: 29",
+  "dev": "Rogue Factor",
+  "pub": "Nacon",
+  "notes": "",
+  "release": "04.09.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hell-is-us-2025-pc.jpg",
+  "logo": "images/logos/hell-is-us-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1620730",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hell_is_Us",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

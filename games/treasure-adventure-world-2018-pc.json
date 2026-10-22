@@ -1,0 +1,38 @@
+{
+  "id": "treasure-adventure-world-2018-pc",
+  "name": "Treasure Adventure World",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 23",
+  "dev": "Robit Games",
+  "pub": "Chucklefish Games, Robit Studios",
+  "notes": "",
+  "release": "07.02.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/treasure-adventure-world-2018-pc.jpg",
+  "logo": "images/logos/treasure-adventure-world-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/268770",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Treasure_Adventure_World",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
