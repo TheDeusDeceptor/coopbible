@@ -1,0 +1,33 @@
+{
+  "id": "the-suffering-ties-that-bind-2005-pc",
+  "name": "The Suffering: Ties That Bind",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 7, +Extra: 10",
+  "dev": "Surreal Software",
+  "pub": "Midway",
+  "notes": "",
+  "release": "30.09.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-suffering-ties-that-bind-2005-pc.jpg",
+  "logo": "images/logos/the-suffering-ties-that-bind-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Suffering%3A_Ties_That_Bind",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

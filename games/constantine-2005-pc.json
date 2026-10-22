@@ -1,0 +1,33 @@
+{
+  "id": "constantine-2005-pc",
+  "name": "Constantine",
+  "platform": "PC",
+  "size": "2.5 GB",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Bits Studios",
+  "pub": "THQ",
+  "notes": "",
+  "release": "15.02.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/constantine-2005-pc.jpg",
+  "logo": "images/logos/constantine-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Constantine",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

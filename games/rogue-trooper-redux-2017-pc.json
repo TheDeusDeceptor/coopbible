@@ -1,0 +1,38 @@
+{
+  "id": "rogue-trooper-redux-2017-pc",
+  "name": "Rogue Trooper Redux",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 6",
+  "dev": "TickTock Games",
+  "pub": "Rebellion",
+  "notes": "",
+  "release": "17.10.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rogue-trooper-redux-2017-pc.jpg",
+  "logo": "images/logos/rogue-trooper-redux-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/529490",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Rogue_Trooper_Redux",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

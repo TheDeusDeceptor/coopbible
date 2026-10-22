@@ -1,0 +1,38 @@
+{
+  "id": "rogue-trooper-2006-pc",
+  "name": "Rogue Trooper",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 6, +Extra: 7",
+  "dev": "Rebellion",
+  "pub": "Rebellion",
+  "notes": "",
+  "release": "23.05.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/rogue-trooper-2006-pc.jpg",
+  "logo": "images/logos/rogue-trooper-2006-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/7020",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Rogue_Trooper",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

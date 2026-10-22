@@ -1,0 +1,33 @@
+{
+  "id": "reservoir-dogs-2006-pc",
+  "name": "Reservoir Dogs",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 4",
+  "dev": "Volatile Games",
+  "pub": "Eidos Interactive",
+  "notes": "",
+  "release": "25.08.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/reservoir-dogs-2006-pc.jpg",
+  "logo": "images/logos/reservoir-dogs-2006-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Reservoir_Dogs",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

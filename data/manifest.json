@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T01:42:39Z",
+  "updated": "2026-10-22T02:13:34Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -34892,6 +34892,389 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "constantine-2005-pc": {
+      "id": "constantine-2005-pc",
+      "name": "Constantine",
+      "platform": "PC",
+      "size": "2.5 GB",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "Bits Studios",
+      "pub": "THQ",
+      "notes": "",
+      "release": "15.02.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/constantine-2005-pc.jpg",
+      "logo": "images/logos/constantine-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Constantine",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-suffering-2004-pc": {
+      "id": "the-suffering-2004-pc",
+      "name": "The Suffering",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 8, +Extra: 9",
+      "dev": "Surreal Software",
+      "pub": "Midway",
+      "notes": "",
+      "release": "08.06.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-suffering-2004-pc.jpg",
+      "logo": "images/logos/the-suffering-2004-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Suffering",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-suffering-ties-that-bind-2005-pc": {
+      "id": "the-suffering-ties-that-bind-2005-pc",
+      "name": "The Suffering: Ties That Bind",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 7, +Extra: 10",
+      "dev": "Surreal Software",
+      "pub": "Midway",
+      "notes": "",
+      "release": "30.09.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-suffering-ties-that-bind-2005-pc.jpg",
+      "logo": "images/logos/the-suffering-ties-that-bind-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Suffering%3A_Ties_That_Bind",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "marc-ecko-s-getting-up-contents-under-pressure-unreleased-pc": {
+      "id": "marc-ecko-s-getting-up-contents-under-pressure-unreleased-pc",
+      "name": "Marc Eckō's Getting Up: Contents Under Pressure",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 12, +Extra: 13",
+      "dev": "The Collective, General Arcade",
+      "pub": "Atari, Devolver Digital",
+      "notes": "",
+      "release": "14.02.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/marc-ecko-s-getting-up-contents-under-pressure-unreleased-pc.jpg",
+      "logo": "images/logos/marc-ecko-s-getting-up-contents-under-pressure-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/260190",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Marc_Eck%C5%8D's_Getting_Up%3A_Contents_Under_Pressure",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "xiii-2003-pc": {
+      "id": "xiii-2003-pc",
+      "name": "XIII",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Ubisoft Paris",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "18.11.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/xiii-2003-pc.jpg",
+      "logo": "images/logos/xiii-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/XIII",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "xiii-2020-pc": {
+      "id": "xiii-2020-pc",
+      "name": "XIII",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "PlayMagic",
+      "pub": "Microids",
+      "notes": "",
+      "release": "10.11.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/xiii-2020-pc.jpg",
+      "logo": "images/logos/xiii-2020-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/XIII_(2020)",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1154790",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "kill-switch-2004-pc": {
+      "id": "kill-switch-2004-pc",
+      "name": "Kill.Switch",
+      "platform": "PC",
+      "size": "0.9 GB",
+      "hltb": "—",
+      "dev": "Namco",
+      "pub": "Namco",
+      "notes": "",
+      "release": "30.01.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kill-switch-2004-pc.jpg",
+      "logo": "images/logos/kill-switch-2004-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Kill_Switch",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "reservoir-dogs-2006-pc": {
+      "id": "reservoir-dogs-2006-pc",
+      "name": "Reservoir Dogs",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 4",
+      "dev": "Volatile Games",
+      "pub": "Eidos Interactive",
+      "notes": "",
+      "release": "25.08.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/reservoir-dogs-2006-pc.jpg",
+      "logo": "images/logos/reservoir-dogs-2006-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Reservoir_Dogs",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "robocop-2003-pc": {
+      "id": "robocop-2003-pc",
+      "name": "RoboCop",
+      "platform": "PC",
+      "size": "0.3 GB",
+      "hltb": "Main: 4",
+      "dev": "Titus Interactive Studio",
+      "pub": "Titus Interactive",
+      "notes": "",
+      "release": "23.07.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/robocop-2003-pc.jpg",
+      "logo": "images/logos/robocop-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/RoboCop_(2003)",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rogue-trooper-2006-pc": {
+      "id": "rogue-trooper-2006-pc",
+      "name": "Rogue Trooper",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Rebellion",
+      "pub": "Rebellion",
+      "notes": "",
+      "release": "23.05.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rogue-trooper-2006-pc.jpg",
+      "logo": "images/logos/rogue-trooper-2006-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/7020",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Rogue_Trooper",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "rogue-trooper-redux-2017-pc": {
+      "id": "rogue-trooper-redux-2017-pc",
+      "name": "Rogue Trooper Redux",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 6",
+      "dev": "TickTock Games",
+      "pub": "Rebellion",
+      "notes": "",
+      "release": "17.10.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/rogue-trooper-redux-2017-pc.jpg",
+      "logo": "images/logos/rogue-trooper-redux-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/529490",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Rogue_Trooper_Redux",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -35832,6 +36215,17 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "rogue-trooper-redux-2017-pc",
+      "rogue-trooper-2006-pc",
+      "robocop-2003-pc",
+      "reservoir-dogs-2006-pc",
+      "kill-switch-2004-pc",
+      "xiii-2020-pc",
+      "xiii-2003-pc",
+      "marc-ecko-s-getting-up-contents-under-pressure-unreleased-pc",
+      "the-suffering-ties-that-bind-2005-pc",
+      "the-suffering-2004-pc",
+      "constantine-2005-pc",
       "scarface-the-world-is-yours-2006-pc",
       "25-to-life-2006-pc",
       "total-overdose-2005-pc",

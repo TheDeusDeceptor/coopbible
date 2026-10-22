@@ -1,0 +1,38 @@
+{
+  "id": "xiii-2020-pc",
+  "name": "XIII",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "PlayMagic",
+  "pub": "Microids",
+  "notes": "",
+  "release": "10.11.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/xiii-2020-pc.jpg",
+  "logo": "images/logos/xiii-2020-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/XIII_(2020)",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1154790",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

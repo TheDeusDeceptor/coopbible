@@ -1,0 +1,33 @@
+{
+  "id": "robocop-2003-pc",
+  "name": "RoboCop",
+  "platform": "PC",
+  "size": "0.3 GB",
+  "hltb": "Main: 4",
+  "dev": "Titus Interactive Studio",
+  "pub": "Titus Interactive",
+  "notes": "",
+  "release": "23.07.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/robocop-2003-pc.jpg",
+  "logo": "images/logos/robocop-2003-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/RoboCop_(2003)",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

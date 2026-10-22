@@ -1,0 +1,38 @@
+{
+  "id": "marc-ecko-s-getting-up-contents-under-pressure-unreleased-pc",
+  "name": "Marc Eckō's Getting Up: Contents Under Pressure",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 12, +Extra: 13",
+  "dev": "The Collective, General Arcade",
+  "pub": "Atari, Devolver Digital",
+  "notes": "",
+  "release": "14.02.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/marc-ecko-s-getting-up-contents-under-pressure-unreleased-pc.jpg",
+  "logo": "images/logos/marc-ecko-s-getting-up-contents-under-pressure-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/260190",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Marc_Eck%C5%8D's_Getting_Up%3A_Contents_Under_Pressure",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

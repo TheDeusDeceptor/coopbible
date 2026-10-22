@@ -1,0 +1,33 @@
+{
+  "id": "kill-switch-2004-pc",
+  "name": "Kill.Switch",
+  "platform": "PC",
+  "size": "0.9 GB",
+  "hltb": "—",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "release": "30.01.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kill-switch-2004-pc.jpg",
+  "logo": "images/logos/kill-switch-2004-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Kill_Switch",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

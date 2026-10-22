@@ -1,0 +1,33 @@
+{
+  "id": "the-suffering-2004-pc",
+  "name": "The Suffering",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Surreal Software",
+  "pub": "Midway",
+  "notes": "",
+  "release": "08.06.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-suffering-2004-pc.jpg",
+  "logo": "images/logos/the-suffering-2004-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Suffering",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
