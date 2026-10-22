@@ -6445,7 +6445,8 @@ async function runParse(){
   })());
   if((hasName || linkedSteamPre) && !locked.has('hltb')) tasks.push((async () => {
     try{
-      const data = linkedSteamPre ? await hltbSearchBySteam(linkedSteamPre) : await hltbSearch(name);
+      let data = linkedSteamPre ? await hltbSearchBySteam(linkedSteamPre) : await hltbSearch(name);
+      if (Array.isArray(data) && data.length > 0) data = data[0];
       const fields = hltbMapToFields(data);
       if(!fields.hltb){ results.hltb = { fields:{} }; setSrcDot(dots.hltb, 'notfound'); return; }
       results.hltb = { fields };
