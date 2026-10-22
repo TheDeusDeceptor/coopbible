@@ -1,0 +1,38 @@
+{
+  "id": "sin-episodes-emergence-2006-pc",
+  "name": "SiN Episodes: Emergence",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 3, +Extra: 4",
+  "dev": "Ritual Entertainment",
+  "pub": "Atari, Nightdive Studios",
+  "notes": "",
+  "release": "10.05.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sin-episodes-emergence-2006-pc.jpg",
+  "logo": "images/logos/sin-episodes-emergence-2006-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1300",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/SiN_Episodes%3A_Emergence",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

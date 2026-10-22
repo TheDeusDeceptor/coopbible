@@ -1,0 +1,38 @@
+{
+  "id": "trials-of-innocence-2025-pc",
+  "name": "Trials of Innocence",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 19, +Extra: 20",
+  "dev": "猫龙游戏",
+  "pub": "Right Mind",
+  "notes": "",
+  "release": "25.03.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trials-of-innocence-2025-pc.jpg",
+  "logo": "images/logos/trials-of-innocence-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2983140",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Trials_of_Innocence",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

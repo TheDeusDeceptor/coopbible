@@ -1,0 +1,33 @@
+{
+  "id": "hour-of-victory-2008-pc",
+  "name": "Hour of Victory",
+  "platform": "PC",
+  "size": "6.5 GB",
+  "hltb": "Main: 4, +Extra: 8",
+  "dev": "N-Fusion Interactive",
+  "pub": "Midway Games",
+  "notes": "",
+  "release": "22.02.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/hour-of-victory-2008-pc.jpg",
+  "logo": "images/logos/hour-of-victory-2008-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Hour_of_Victory",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

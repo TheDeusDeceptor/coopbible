@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T04:39:00Z",
+  "updated": "2026-10-22T04:54:57Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -36451,6 +36451,191 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "sin-reloaded-2026-pc": {
+      "id": "sin-reloaded-2026-pc",
+      "name": "SiN Reloaded",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 7, +Extra: 11",
+      "dev": "Nightdive Studios, Ritual Entertainment",
+      "pub": "Nightdive Studios, Atari",
+      "notes": "",
+      "release": "24.09.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sin-reloaded-2026-pc.jpg",
+      "logo": "images/logos/sin-reloaded-2026-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/SiN_Reloaded",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/632950",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sin-episodes-emergence-2006-pc": {
+      "id": "sin-episodes-emergence-2006-pc",
+      "name": "SiN Episodes: Emergence",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 3, +Extra: 4",
+      "dev": "Ritual Entertainment",
+      "pub": "Atari, Nightdive Studios",
+      "notes": "",
+      "release": "10.05.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sin-episodes-emergence-2006-pc.jpg",
+      "logo": "images/logos/sin-episodes-emergence-2006-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1300",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/SiN_Episodes%3A_Emergence",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "trials-of-innocence-2025-pc": {
+      "id": "trials-of-innocence-2025-pc",
+      "name": "Trials of Innocence",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 19, +Extra: 20",
+      "dev": "猫龙游戏",
+      "pub": "Right Mind",
+      "notes": "",
+      "release": "25.03.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trials-of-innocence-2025-pc.jpg",
+      "logo": "images/logos/trials-of-innocence-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2983140",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Trials_of_Innocence",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "echoes-of-the-end-2025-pc": {
+      "id": "echoes-of-the-end-2025-pc",
+      "name": "Echoes of the End",
+      "platform": "PC",
+      "size": "48 GB",
+      "hltb": "Main: 12, +Extra: 14",
+      "dev": "Myrkur Games",
+      "pub": "Deep Silver",
+      "notes": "",
+      "release": "12.08.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/echoes-of-the-end-2025-pc.jpg",
+      "logo": "images/logos/echoes-of-the-end-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2821610",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Echoes_of_the_End",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "hour-of-victory-2008-pc": {
+      "id": "hour-of-victory-2008-pc",
+      "name": "Hour of Victory",
+      "platform": "PC",
+      "size": "6.5 GB",
+      "hltb": "Main: 4, +Extra: 8",
+      "dev": "N-Fusion Interactive",
+      "pub": "Midway Games",
+      "notes": "",
+      "release": "22.02.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/hour-of-victory-2008-pc.jpg",
+      "logo": "images/logos/hour-of-victory-2008-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Hour_of_Victory",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -37391,6 +37576,11 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "hour-of-victory-2008-pc",
+      "echoes-of-the-end-2025-pc",
+      "trials-of-innocence-2025-pc",
+      "sin-episodes-emergence-2006-pc",
+      "sin-reloaded-2026-pc",
       "knights-of-the-temple-ii-2005-pc",
       "knights-of-the-temple-infernal-crusade-2004-pc",
       "the-godfather-ii-2009-pc",
