@@ -1,0 +1,38 @@
+{
+  "id": "alien-rage-unlimited-2013-pc",
+  "name": "Alien Rage: Unlimited",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "CI Games",
+  "pub": "CI Games",
+  "notes": "",
+  "release": "24.09.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/alien-rage-unlimited-2013-pc.jpg",
+  "logo": "images/logos/alien-rage-unlimited-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/217920",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Alien_Rage_Unlimited",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

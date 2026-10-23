@@ -1,0 +1,33 @@
+{
+  "id": "dreamkiller-2009-pc",
+  "name": "Dreamkiller",
+  "platform": "PC",
+  "size": "11.1 GB",
+  "hltb": "Main: 7",
+  "dev": "Mindware Studios",
+  "pub": "Aspyr Media",
+  "notes": "",
+  "release": "12.10.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dreamkiller-2009-pc.jpg",
+  "logo": "images/logos/dreamkiller-2009-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dreamkiller",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

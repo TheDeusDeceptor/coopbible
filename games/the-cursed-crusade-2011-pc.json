@@ -1,0 +1,38 @@
+{
+  "id": "the-cursed-crusade-2011-pc",
+  "name": "The Cursed Crusade",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Kylotonn",
+  "pub": "Atlus",
+  "notes": "",
+  "release": "14.10.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-cursed-crusade-2011-pc.jpg",
+  "logo": "images/logos/the-cursed-crusade-2011-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Cursed_Crusade",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/106000/The_Cursed_Crusade/",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

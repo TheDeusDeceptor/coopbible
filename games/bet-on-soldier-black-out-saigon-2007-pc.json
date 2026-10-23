@@ -1,0 +1,33 @@
+{
+  "id": "bet-on-soldier-black-out-saigon-2007-pc",
+  "name": "Bet on Soldier: Black out Saigon",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 4, +Extra: 6",
+  "dev": "Kylotonn",
+  "pub": "Frogster",
+  "notes": "",
+  "release": "29.05.2007",
+  "ea_release": "",
+  "screenshot": "images/screenshots/bet-on-soldier-black-out-saigon-2007-pc.jpg",
+  "logo": "images/logos/bet-on-soldier-black-out-saigon-2007-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Bet_on_Soldier%3A_Black-out_Saigon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

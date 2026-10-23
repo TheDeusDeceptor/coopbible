@@ -1,0 +1,38 @@
+{
+  "id": "command-conquer-renegade-2002-pc",
+  "name": "Command & Conquer: Renegade",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "Westwood Studios",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "26.02.2002",
+  "ea_release": "",
+  "screenshot": "images/screenshots/command-conquer-renegade-2002-pc.jpg",
+  "logo": "images/logos/command-conquer-renegade-2002-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2229890",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Command_%26_Conquer%3A_Renegade",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

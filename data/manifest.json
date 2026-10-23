@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-23T03:07:09Z",
+  "updated": "2026-10-23T04:56:42Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -37416,6 +37416,442 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "bet-on-soldier-blood-of-sahara-2006-pc": {
+      "id": "bet-on-soldier-blood-of-sahara-2006-pc",
+      "name": "Bet on Soldier: Blood of Sahara",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 2",
+      "dev": "Kylotonn",
+      "pub": "Frogster",
+      "notes": "",
+      "release": "09.11.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bet-on-soldier-blood-of-sahara-2006-pc.jpg",
+      "logo": "images/logos/bet-on-soldier-blood-of-sahara-2006-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Bet_on_Soldier%3A_Blood_of_Sahara",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bet-on-soldier-black-out-saigon-2007-pc": {
+      "id": "bet-on-soldier-black-out-saigon-2007-pc",
+      "name": "Bet on Soldier: Black out Saigon",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 4, +Extra: 6",
+      "dev": "Kylotonn",
+      "pub": "Frogster",
+      "notes": "",
+      "release": "29.05.2007",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bet-on-soldier-black-out-saigon-2007-pc.jpg",
+      "logo": "images/logos/bet-on-soldier-black-out-saigon-2007-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Bet_on_Soldier%3A_Black-out_Saigon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "clive-barker-s-undying-2001-pc": {
+      "id": "clive-barker-s-undying-2001-pc",
+      "name": "Clive Barker's Undying",
+      "platform": "PC",
+      "size": "0.1 GB",
+      "hltb": "Main: 10, +Extra: 12",
+      "dev": "DreamWorks Interactive",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "22.02.2001",
+      "ea_release": "",
+      "screenshot": "images/screenshots/clive-barker-s-undying-2001-pc.jpg",
+      "logo": "images/logos/clive-barker-s-undying-2001-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Clive_Barker's_Undying",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "deadfall-adventures-2013-pc": {
+      "id": "deadfall-adventures-2013-pc",
+      "name": "Deadfall Adventures",
+      "platform": "PC",
+      "size": "6.5 GB",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "The Farm 51",
+      "pub": "Nordic Games",
+      "notes": "",
+      "release": "15.11.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/deadfall-adventures-2013-pc.jpg",
+      "logo": "images/logos/deadfall-adventures-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/231330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Deadfall_Adventures",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "command-conquer-renegade-2002-pc": {
+      "id": "command-conquer-renegade-2002-pc",
+      "name": "Command & Conquer: Renegade",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 9, +Extra: 10",
+      "dev": "Westwood Studios",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "26.02.2002",
+      "ea_release": "",
+      "screenshot": "images/screenshots/command-conquer-renegade-2002-pc.jpg",
+      "logo": "images/logos/command-conquer-renegade-2002-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2229890",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Command_%26_Conquer%3A_Renegade",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "luna-abyss-unreleased-pc": {
+      "id": "luna-abyss-unreleased-pc",
+      "name": "Luna Abyss",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Kwalee",
+      "pub": "Kwalee",
+      "notes": "",
+      "release": "",
+      "ea_release": "",
+      "screenshot": "images/screenshots/luna-abyss-unreleased-pc.jpg",
+      "logo": "images/logos/luna-abyss-unreleased-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1933000",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Luna_Abyss",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-cursed-crusade-2011-pc": {
+      "id": "the-cursed-crusade-2011-pc",
+      "name": "The Cursed Crusade",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Kylotonn",
+      "pub": "Atlus",
+      "notes": "",
+      "release": "14.10.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-cursed-crusade-2011-pc.jpg",
+      "logo": "images/logos/the-cursed-crusade-2011-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Cursed_Crusade",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/106000/The_Cursed_Crusade/",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "world-war-zero-ironstorm-2005-pc": {
+      "id": "world-war-zero-ironstorm-2005-pc",
+      "name": "World War Zero: Ironstorm",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 4",
+      "dev": "Rebellion",
+      "pub": "Reef Entertainment",
+      "notes": "",
+      "release": "14.10.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/world-war-zero-ironstorm-unreleased-pc.jpg",
+      "logo": "images/logos/world-war-zero-ironstorm-2005-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1103800",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/World_War_Zero%3A_Iron_Storm",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "alpha-prime-2006-pc": {
+      "id": "alpha-prime-2006-pc",
+      "name": "Alpha Prime",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 5, +Extra: 6",
+      "dev": "Black Element",
+      "pub": "Bohemia Interactive",
+      "notes": "",
+      "release": "21.12.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/alpha-prime-2006-pc.jpg",
+      "logo": "images/logos/alpha-prime-2006-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2590",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Alpha_Prime",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "mouse-p-i-for-hire-2026-pc": {
+      "id": "mouse-p-i-for-hire-2026-pc",
+      "name": "Mouse: P.I. For Hire",
+      "platform": "PC",
+      "size": "11 GB",
+      "hltb": "Main: 12, +Extra: 16",
+      "dev": "Fumi Games",
+      "pub": "PlaySide",
+      "notes": "",
+      "release": "16.04.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/mouse-p-i-for-hire-2026-pc.jpg",
+      "logo": "images/logos/mouse-p-i-for-hire-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2416450",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Mouse%3A_P.I._For_Hire",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "alien-rage-unlimited-2013-pc": {
+      "id": "alien-rage-unlimited-2013-pc",
+      "name": "Alien Rage: Unlimited",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "CI Games",
+      "pub": "CI Games",
+      "notes": "",
+      "release": "24.09.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/alien-rage-unlimited-2013-pc.jpg",
+      "logo": "images/logos/alien-rage-unlimited-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/217920",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Alien_Rage_Unlimited",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dreamkiller-2009-pc": {
+      "id": "dreamkiller-2009-pc",
+      "name": "Dreamkiller",
+      "platform": "PC",
+      "size": "11.1 GB",
+      "hltb": "Main: 7",
+      "dev": "Mindware Studios",
+      "pub": "Aspyr Media",
+      "notes": "",
+      "release": "12.10.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dreamkiller-2009-pc.jpg",
+      "logo": "images/logos/dreamkiller-2009-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dreamkiller",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -38356,6 +38792,18 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "dreamkiller-2009-pc",
+      "alien-rage-unlimited-2013-pc",
+      "mouse-p-i-for-hire-2026-pc",
+      "alpha-prime-2006-pc",
+      "world-war-zero-ironstorm-2005-pc",
+      "the-cursed-crusade-2011-pc",
+      "luna-abyss-unreleased-pc",
+      "command-conquer-renegade-2002-pc",
+      "deadfall-adventures-2013-pc",
+      "clive-barker-s-undying-2001-pc",
+      "bet-on-soldier-black-out-saigon-2007-pc",
+      "bet-on-soldier-blood-of-sahara-2006-pc",
       "bet-on-soldier-blood-sport-2005-pc",
       "d4-dark-dreams-don-t-die-2015-pc",
       "scarlet-nexus-2021-pc",

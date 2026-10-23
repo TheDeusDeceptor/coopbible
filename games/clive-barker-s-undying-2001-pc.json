@@ -1,0 +1,33 @@
+{
+  "id": "clive-barker-s-undying-2001-pc",
+  "name": "Clive Barker's Undying",
+  "platform": "PC",
+  "size": "0.1 GB",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "DreamWorks Interactive",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "22.02.2001",
+  "ea_release": "",
+  "screenshot": "images/screenshots/clive-barker-s-undying-2001-pc.jpg",
+  "logo": "images/logos/clive-barker-s-undying-2001-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Clive_Barker's_Undying",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

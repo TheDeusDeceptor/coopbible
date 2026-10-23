@@ -1,0 +1,38 @@
+{
+  "id": "luna-abyss-unreleased-pc",
+  "name": "Luna Abyss",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Kwalee",
+  "pub": "Kwalee",
+  "notes": "",
+  "release": "",
+  "ea_release": "",
+  "screenshot": "images/screenshots/luna-abyss-unreleased-pc.jpg",
+  "logo": "images/logos/luna-abyss-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1933000",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Luna_Abyss",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

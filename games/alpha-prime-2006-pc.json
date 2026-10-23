@@ -1,0 +1,38 @@
+{
+  "id": "alpha-prime-2006-pc",
+  "name": "Alpha Prime",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 5, +Extra: 6",
+  "dev": "Black Element",
+  "pub": "Bohemia Interactive",
+  "notes": "",
+  "release": "21.12.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/alpha-prime-2006-pc.jpg",
+  "logo": "images/logos/alpha-prime-2006-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2590",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Alpha_Prime",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

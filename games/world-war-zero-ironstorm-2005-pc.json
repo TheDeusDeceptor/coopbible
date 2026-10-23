@@ -1,0 +1,38 @@
+{
+  "id": "world-war-zero-ironstorm-2005-pc",
+  "name": "World War Zero: Ironstorm",
+  "platform": "PC",
+  "size": "15 GB",
+  "hltb": "Main: 4",
+  "dev": "Rebellion",
+  "pub": "Reef Entertainment",
+  "notes": "",
+  "release": "14.10.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/world-war-zero-ironstorm-unreleased-pc.jpg",
+  "logo": "images/logos/world-war-zero-ironstorm-2005-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1103800",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/World_War_Zero%3A_Iron_Storm",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
