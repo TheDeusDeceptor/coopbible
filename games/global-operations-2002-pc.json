@@ -1,0 +1,33 @@
+{
+  "id": "global-operations-2002-pc",
+  "name": "Global Operations",
+  "platform": "PC",
+  "size": "0.8 GB",
+  "hltb": "—",
+  "dev": "Barking Dog",
+  "pub": "Electronic Arts",
+  "notes": "",
+  "release": "25.03.2002",
+  "ea_release": "",
+  "screenshot": "images/screenshots/global-operations-2002-pc.jpg",
+  "logo": "images/logos/global-operations-2002-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Global_Operations",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

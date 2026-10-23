@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-23T04:56:42Z",
+  "updated": "2026-10-23T08:28:40Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -37852,6 +37852,77 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "global-operations-2002-pc": {
+      "id": "global-operations-2002-pc",
+      "name": "Global Operations",
+      "platform": "PC",
+      "size": "0.8 GB",
+      "hltb": "—",
+      "dev": "Barking Dog",
+      "pub": "Electronic Arts",
+      "notes": "",
+      "release": "25.03.2002",
+      "ea_release": "",
+      "screenshot": "images/screenshots/global-operations-2002-pc.jpg",
+      "logo": "images/logos/global-operations-2002-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Global_Operations",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "immortal-unchained-2018-pc": {
+      "id": "immortal-unchained-2018-pc",
+      "name": "Immortal: Unchained",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 15, +Extra: 21",
+      "dev": "Toadman Interactive",
+      "pub": "Game Odyssey Limited",
+      "notes": "",
+      "release": "07.09.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/immortal-unchained-2018-pc.jpg",
+      "logo": "images/logos/immortal-unchained-2018-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Immortal%3A_Unchained",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/369440",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -38792,6 +38863,8 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "immortal-unchained-2018-pc",
+      "global-operations-2002-pc",
       "dreamkiller-2009-pc",
       "alien-rage-unlimited-2013-pc",
       "mouse-p-i-for-hire-2026-pc",

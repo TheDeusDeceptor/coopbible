@@ -1,0 +1,38 @@
+{
+  "id": "immortal-unchained-2018-pc",
+  "name": "Immortal: Unchained",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 15, +Extra: 21",
+  "dev": "Toadman Interactive",
+  "pub": "Game Odyssey Limited",
+  "notes": "",
+  "release": "07.09.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/immortal-unchained-2018-pc.jpg",
+  "logo": "images/logos/immortal-unchained-2018-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Immortal%3A_Unchained",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/369440",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
