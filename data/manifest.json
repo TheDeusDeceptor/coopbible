@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-22T17:46:53Z",
+  "updated": "2026-10-23T03:07:09Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -37214,6 +37214,208 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "swat-4-2005-pc": {
+      "id": "swat-4-2005-pc",
+      "name": "SWAT 4",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 9, +Extra: 13",
+      "dev": "Irrational Games",
+      "pub": "Sierra Entertainment",
+      "notes": "",
+      "release": "05.04.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/swat-4-2005-pc.jpg",
+      "logo": "images/logos/swat-4-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/SWAT_4",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "condemned-criminal-origins-2006-pc": {
+      "id": "condemned-criminal-origins-2006-pc",
+      "name": "Condemned: Criminal Origins",
+      "platform": "PC",
+      "size": "8 GB",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "Monolith Productions",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "11.04.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/condemned-criminal-origins-2006-pc.jpg",
+      "logo": "images/logos/condemned-criminal-origins-2006-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Condemned%3A_Criminal_Origins",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "condemned-2-bloodshot-2008-x360": {
+      "id": "condemned-2-bloodshot-2008-x360",
+      "name": "Condemned 2: Bloodshot",
+      "platform": "X360",
+      "size": "",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "Monolith Productions",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "11.03.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/condemned-2-bloodshot-2008-x360.jpg",
+      "logo": "images/logos/condemned-2-bloodshot-2008-x360.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "scarlet-nexus-2021-pc": {
+      "id": "scarlet-nexus-2021-pc",
+      "name": "Scarlet Nexus",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 25, +Extra: 36",
+      "dev": "Bandai Namco, Tose",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "25.06.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/scarlet-nexus-2021-pc.jpg",
+      "logo": "images/logos/scarlet-nexus-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/775500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Scarlet_Nexus",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "d4-dark-dreams-don-t-die-2015-pc": {
+      "id": "d4-dark-dreams-don-t-die-2015-pc",
+      "name": "D4: Dark Dreams Don't Die",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 4, +Extra: 7",
+      "dev": "Access Games",
+      "pub": "PLAYISM",
+      "notes": "",
+      "release": "05.06.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/d4-dark-dreams-don-t-die-2015-pc.jpg",
+      "logo": "images/logos/d4-dark-dreams-don-t-die-2015-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/358090",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/D4%3A_Dark_Dreams_Don't_Die",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bet-on-soldier-blood-sport-2005-pc": {
+      "id": "bet-on-soldier-blood-sport-2005-pc",
+      "name": "Bet on Soldier: Blood Sport",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 8, +Extra: 11",
+      "dev": "Kylotonn",
+      "pub": "Microids",
+      "notes": "",
+      "release": "26.09.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bet-on-soldier-blood-sport-2005-pc.jpg",
+      "logo": "images/logos/bet-on-soldier-blood-sport-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Bet_on_Soldier%3A_Blood_Sport",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -38154,6 +38356,12 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "bet-on-soldier-blood-sport-2005-pc",
+      "d4-dark-dreams-don-t-die-2015-pc",
+      "scarlet-nexus-2021-pc",
+      "condemned-2-bloodshot-2008-x360",
+      "condemned-criminal-origins-2006-pc",
+      "swat-4-2005-pc",
       "swat-3-close-quarters-battle-1999-pc",
       "elex-ii-2022-pc",
       "elex-2017-pc",

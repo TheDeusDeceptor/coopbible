@@ -1,0 +1,38 @@
+{
+  "id": "scarlet-nexus-2021-pc",
+  "name": "Scarlet Nexus",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 25, +Extra: 36",
+  "dev": "Bandai Namco, Tose",
+  "pub": "Bandai Namco Entertainment",
+  "notes": "",
+  "release": "25.06.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/scarlet-nexus-2021-pc.jpg",
+  "logo": "images/logos/scarlet-nexus-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/775500",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Scarlet_Nexus",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

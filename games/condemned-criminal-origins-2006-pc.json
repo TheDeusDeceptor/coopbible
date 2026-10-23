@@ -1,0 +1,33 @@
+{
+  "id": "condemned-criminal-origins-2006-pc",
+  "name": "Condemned: Criminal Origins",
+  "platform": "PC",
+  "size": "8 GB",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "Monolith Productions",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "11.04.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/condemned-criminal-origins-2006-pc.jpg",
+  "logo": "images/logos/condemned-criminal-origins-2006-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Condemned%3A_Criminal_Origins",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

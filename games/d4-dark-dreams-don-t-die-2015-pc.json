@@ -1,0 +1,38 @@
+{
+  "id": "d4-dark-dreams-don-t-die-2015-pc",
+  "name": "D4: Dark Dreams Don't Die",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 4, +Extra: 7",
+  "dev": "Access Games",
+  "pub": "PLAYISM",
+  "notes": "",
+  "release": "05.06.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/d4-dark-dreams-don-t-die-2015-pc.jpg",
+  "logo": "images/logos/d4-dark-dreams-don-t-die-2015-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/358090",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/D4%3A_Dark_Dreams_Don't_Die",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

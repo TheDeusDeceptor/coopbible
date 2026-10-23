@@ -1,0 +1,27 @@
+{
+  "id": "condemned-2-bloodshot-2008-x360",
+  "name": "Condemned 2: Bloodshot",
+  "platform": "X360",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Monolith Productions",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "11.03.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/condemned-2-bloodshot-2008-x360.jpg",
+  "logo": "images/logos/condemned-2-bloodshot-2008-x360.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
