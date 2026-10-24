@@ -1,0 +1,38 @@
+{
+  "id": "enotria-the-last-song-2024-pc",
+  "name": "Enotria: The Last Song",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 13, +Extra: 21",
+  "dev": "Jyamma Games",
+  "pub": "Jyamma Games",
+  "notes": "",
+  "release": "16.09.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/enotria-the-last-song-2024-pc.jpg",
+  "logo": "images/logos/enotria-the-last-song-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2102450",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Enotria%3A_The_Last_Song",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

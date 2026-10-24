@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-23T08:28:40Z",
+  "updated": "2026-10-24T03:19:48Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -37923,6 +37923,272 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "bullet-witch-2018-pc": {
+      "id": "bullet-witch-2018-pc",
+      "name": "Bullet Witch",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 5, +Extra: 8",
+      "dev": "Cavia",
+      "pub": "XSEED",
+      "notes": "",
+      "release": "25.04.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bullet-witch-2018-pc.jpg",
+      "logo": "images/logos/bullet-witch-2018-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/696180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Bullet_Witch",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "stellar-blade-2025-pc": {
+      "id": "stellar-blade-2025-pc",
+      "name": "Stellar Blade",
+      "platform": "PC",
+      "size": "75 GB",
+      "hltb": "Main: 23, +Extra: 37",
+      "dev": "Shift Up",
+      "pub": "PlayStation Publishing",
+      "notes": "",
+      "release": "11.06.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/stellar-blade-2025-pc.jpg",
+      "logo": "images/logos/stellar-blade-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3489700",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Stellar_Blade",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "bleak-faith-forsaken-2023-pc": {
+      "id": "bleak-faith-forsaken-2023-pc",
+      "name": "Bleak Faith: Forsaken",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 22, +Extra: 28",
+      "dev": "Archangel Studios",
+      "pub": "Archangel Studios",
+      "notes": "",
+      "release": "10.03.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/bleak-faith-forsaken-2023-pc.jpg",
+      "logo": "images/logos/bleak-faith-forsaken-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1173220",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Bleak_Faith%3A_Forsaken",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "pragmata-2026-pc": {
+      "id": "pragmata-2026-pc",
+      "name": "Pragmata",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 12, +Extra: 16",
+      "dev": "Capcom",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "17.04.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/pragmata-2026-pc.jpg",
+      "logo": "images/logos/pragmata-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3357650",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Pragmata",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "enotria-the-last-song-2024-pc": {
+      "id": "enotria-the-last-song-2024-pc",
+      "name": "Enotria: The Last Song",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 13, +Extra: 21",
+      "dev": "Jyamma Games",
+      "pub": "Jyamma Games",
+      "notes": "",
+      "release": "16.09.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/enotria-the-last-song-2024-pc.jpg",
+      "logo": "images/logos/enotria-the-last-song-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2102450",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Enotria%3A_The_Last_Song",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "high-on-life-2022-pc": {
+      "id": "high-on-life-2022-pc",
+      "name": "High on Life",
+      "platform": "PC",
+      "size": "50 GB",
+      "hltb": "Main: 9, +Extra: 13",
+      "dev": "Squanch Games",
+      "pub": "Squanch Games",
+      "notes": "",
+      "release": "13.12.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/high-on-life-2022-pc.jpg",
+      "logo": "images/logos/high-on-life-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1583230",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/High_on_Life",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "high-on-life-2-2026-pc": {
+      "id": "high-on-life-2-2026-pc",
+      "name": "High on Life 2",
+      "platform": "PC",
+      "size": "115 GB",
+      "hltb": "Main: 12, +Extra: 17",
+      "dev": "Squanch Games",
+      "pub": "Squanch Games",
+      "notes": "",
+      "release": "13.02.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/high-on-life-2-2026-pc.jpg",
+      "logo": "images/logos/high-on-life-2-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2069250",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/High_on_Life_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -38863,6 +39129,13 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "high-on-life-2-2026-pc",
+      "high-on-life-2022-pc",
+      "enotria-the-last-song-2024-pc",
+      "pragmata-2026-pc",
+      "bleak-faith-forsaken-2023-pc",
+      "stellar-blade-2025-pc",
+      "bullet-witch-2018-pc",
       "immortal-unchained-2018-pc",
       "global-operations-2002-pc",
       "dreamkiller-2009-pc",

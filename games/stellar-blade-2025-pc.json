@@ -1,0 +1,38 @@
+{
+  "id": "stellar-blade-2025-pc",
+  "name": "Stellar Blade",
+  "platform": "PC",
+  "size": "75 GB",
+  "hltb": "Main: 23, +Extra: 37",
+  "dev": "Shift Up",
+  "pub": "PlayStation Publishing",
+  "notes": "",
+  "release": "11.06.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stellar-blade-2025-pc.jpg",
+  "logo": "images/logos/stellar-blade-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3489700",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Stellar_Blade",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

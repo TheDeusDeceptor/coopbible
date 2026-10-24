@@ -1,0 +1,38 @@
+{
+  "id": "high-on-life-2022-pc",
+  "name": "High on Life",
+  "platform": "PC",
+  "size": "50 GB",
+  "hltb": "Main: 9, +Extra: 13",
+  "dev": "Squanch Games",
+  "pub": "Squanch Games",
+  "notes": "",
+  "release": "13.12.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/high-on-life-2022-pc.jpg",
+  "logo": "images/logos/high-on-life-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1583230",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/High_on_Life",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

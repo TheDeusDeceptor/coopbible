@@ -1,0 +1,38 @@
+{
+  "id": "bullet-witch-2018-pc",
+  "name": "Bullet Witch",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Cavia",
+  "pub": "XSEED",
+  "notes": "",
+  "release": "25.04.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/bullet-witch-2018-pc.jpg",
+  "logo": "images/logos/bullet-witch-2018-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/696180",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Bullet_Witch",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
