@@ -1,0 +1,33 @@
+{
+  "id": "dead-man-s-hand-2004-pc",
+  "name": "Dead Man's Hand",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "—",
+  "dev": "Human Head Studios",
+  "pub": "Atari",
+  "notes": "",
+  "release": "16.03.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dead-man-s-hand-2004-pc.jpg",
+  "logo": "images/logos/dead-man-s-hand-2004-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dead_Man's_Hand",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

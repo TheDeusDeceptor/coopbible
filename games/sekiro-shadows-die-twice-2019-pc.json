@@ -1,0 +1,38 @@
+{
+  "id": "sekiro-shadows-die-twice-2019-pc",
+  "name": "Sekiro: Shadows Die Twice",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 30, +Extra: 43",
+  "dev": "FromSoftware",
+  "pub": "Activision",
+  "notes": "",
+  "release": "21.03.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/sekiro-shadows-die-twice-2019-pc.jpg",
+  "logo": "images/logos/sekiro-shadows-die-twice-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/814380",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Sekiro%3A_Shadows_Die_Twice",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

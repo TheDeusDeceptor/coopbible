@@ -1,0 +1,33 @@
+{
+  "id": "the-operative-no-one-lives-forever-2000-pc",
+  "name": "The Operative: No One Lives Forever",
+  "platform": "PC",
+  "size": "1 GB",
+  "hltb": "Main: 13, +Extra: 16",
+  "dev": "Monolith Productions",
+  "pub": "Fox Interactive",
+  "notes": "",
+  "release": "09.11.2000",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-operative-no-one-lives-forever-2000-pc.jpg",
+  "logo": "images/logos/the-operative-no-one-lives-forever-2000-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Operative%3A_No_One_Lives_Forever",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

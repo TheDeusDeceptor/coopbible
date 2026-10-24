@@ -1,0 +1,38 @@
+{
+  "id": "catherine-classic-2019-pc",
+  "name": "Catherine Classic",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 13, +Extra: 17",
+  "dev": "Atlus",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "10.01.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/catherine-classic-2019-pc.jpg",
+  "logo": "images/logos/catherine-classic-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/893180",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Catherine_Classic",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

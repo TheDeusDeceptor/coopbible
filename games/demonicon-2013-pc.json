@@ -1,0 +1,38 @@
+{
+  "id": "demonicon-2013-pc",
+  "name": "Demonicon",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 13, +Extra: 19",
+  "dev": "Noumena Studios",
+  "pub": "Kalypso Media",
+  "notes": "",
+  "release": "24.10.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/demonicon-2013-pc.jpg",
+  "logo": "images/logos/demonicon-2013-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/215630",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Demonicon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "contract-j-a-c-k-2003-pc",
+  "name": "Contract J.A.C.K.",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "Monolith Productions",
+  "pub": "Sierra Entertainment",
+  "notes": "",
+  "release": "11.11.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/contract-j-a-c-k-2003-pc.jpg",
+  "logo": "images/logos/contract-j-a-c-k-2003-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Contract_J.A.C.K",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

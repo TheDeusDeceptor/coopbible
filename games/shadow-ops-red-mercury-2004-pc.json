@@ -1,0 +1,38 @@
+{
+  "id": "shadow-ops-red-mercury-2004-pc",
+  "name": "Shadow Ops: Red Mercury",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 6, +Extra: 9",
+  "dev": "Zombie Studios",
+  "pub": "Atari",
+  "notes": "",
+  "release": "21.09.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shadow-ops-red-mercury-2004-pc.jpg",
+  "logo": "images/logos/shadow-ops-red-mercury-2004-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/286770",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Shadow_Ops%3A_Red_Mercury",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "death-stranding-2-on-the-beach-2026-pc",
+  "name": "Death Stranding 2: On the Beach",
+  "platform": "PC",
+  "size": "150 GB",
+  "hltb": "Main: 36, +Extra: 64",
+  "dev": "Kojima Productions",
+  "pub": "PlayStation Publishing",
+  "notes": "",
+  "release": "19.03.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/death-stranding-2-on-the-beach-2026-pc.jpg",
+  "logo": "images/logos/death-stranding-2-on-the-beach-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3280350",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/DEATH_STRANDING_2%3A_ON_THE_BEACH",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

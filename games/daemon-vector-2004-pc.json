@@ -1,0 +1,33 @@
+{
+  "id": "daemon-vector-2004-pc",
+  "name": "Daemon Vector",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "XPEC Entertainment",
+  "pub": "XPEC Entertainment",
+  "notes": "",
+  "release": "01.06.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/daemon-vector-2004-pc.jpg",
+  "logo": "images/logos/daemon-vector-2004-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Daemon_Vector",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

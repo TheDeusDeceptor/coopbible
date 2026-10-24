@@ -1,0 +1,27 @@
+{
+  "id": "raven-squad-operation-hidden-dagger-2009-pc",
+  "name": "Raven Squad: Operation Hidden Dagger",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "Atomic Motion",
+  "pub": "SouthPeak Games",
+  "notes": "",
+  "release": "25.08.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/raven-squad-operation-hidden-dagger-2009-pc.jpg",
+  "logo": "images/logos/raven-squad-operation-hidden-dagger-2009-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "recore-2016-pc",
+  "name": "ReCore",
+  "platform": "PC",
+  "size": "18 GB",
+  "hltb": "Main: 12, +Extra: 19",
+  "dev": "Armature Studio",
+  "pub": "Microsoft Studios",
+  "notes": "",
+  "release": "13.09.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/recore-2016-pc.jpg",
+  "logo": "images/logos/recore-2016-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/ReCore",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/537450",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

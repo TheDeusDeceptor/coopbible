@@ -1,0 +1,33 @@
+{
+  "id": "peter-jackson-s-king-kong-gamer-s-edition-2005-pc",
+  "name": "Peter Jackson's King Kong Gamer's Edition",
+  "platform": "PC",
+  "size": "5.4 GB",
+  "hltb": "—",
+  "dev": "Ubisoft Montreal",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "17.11.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/peter-jackson-s-king-kong-gamer-s-edition-2005-pc.jpg",
+  "logo": "images/logos/peter-jackson-s-king-kong-gamer-s-edition-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Peter_Jackson's_King_Kong_Gamer's_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

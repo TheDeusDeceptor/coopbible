@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-24T03:19:48Z",
+  "updated": "2026-10-24T05:07:22Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -38189,6 +38189,874 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "death-stranding-2-on-the-beach-2026-pc": {
+      "id": "death-stranding-2-on-the-beach-2026-pc",
+      "name": "Death Stranding 2: On the Beach",
+      "platform": "PC",
+      "size": "150 GB",
+      "hltb": "Main: 36, +Extra: 64",
+      "dev": "Kojima Productions",
+      "pub": "PlayStation Publishing",
+      "notes": "",
+      "release": "19.03.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/death-stranding-2-on-the-beach-2026-pc.jpg",
+      "logo": "images/logos/death-stranding-2-on-the-beach-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3280350",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/DEATH_STRANDING_2%3A_ON_THE_BEACH",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "sekiro-shadows-die-twice-2019-pc": {
+      "id": "sekiro-shadows-die-twice-2019-pc",
+      "name": "Sekiro: Shadows Die Twice",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 30, +Extra: 43",
+      "dev": "FromSoftware",
+      "pub": "Activision",
+      "notes": "",
+      "release": "21.03.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/sekiro-shadows-die-twice-2019-pc.jpg",
+      "logo": "images/logos/sekiro-shadows-die-twice-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/814380",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Sekiro%3A_Shadows_Die_Twice",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "valkyrie-elysium-2022-pc": {
+      "id": "valkyrie-elysium-2022-pc",
+      "name": "Valkyrie Elysium",
+      "platform": "PC",
+      "size": "25 GB",
+      "hltb": "Main: 12, +Extra: 20",
+      "dev": "Soleil",
+      "pub": "Square Enix",
+      "notes": "",
+      "release": "11.11.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/valkyrie-elysium-2022-pc.jpg",
+      "logo": "images/logos/valkyrie-elysium-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1963210",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Valkyrie_Elysium",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "catherine-classic-2019-pc": {
+      "id": "catherine-classic-2019-pc",
+      "name": "Catherine Classic",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 13, +Extra: 17",
+      "dev": "Atlus",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "10.01.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/catherine-classic-2019-pc.jpg",
+      "logo": "images/logos/catherine-classic-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/893180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Catherine_Classic",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "catherine-full-body-unreleased-switch": {
+      "id": "catherine-full-body-unreleased-switch",
+      "name": "Catherine: Full Body",
+      "platform": "Switch",
+      "size": "",
+      "hltb": "Main: 12, +Extra: 18",
+      "dev": "Atlus",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "",
+      "ea_release": "",
+      "screenshot": "images/screenshots/catherine-full-body-unreleased-switch.jpg",
+      "logo": "images/logos/catherine-full-body-unreleased-switch.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "el-shaddai-ascension-of-the-metatron-2021-pc": {
+      "id": "el-shaddai-ascension-of-the-metatron-2021-pc",
+      "name": "El Shaddai: Ascension of the Metatron",
+      "platform": "PC",
+      "size": "8.2 GB",
+      "hltb": "Main: 9, +Extra: 10",
+      "dev": "UTV Ignition Games",
+      "pub": "Crim",
+      "notes": "",
+      "release": "01.09.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/el-shaddai-ascension-of-the-metatron-2021-pc.jpg",
+      "logo": "images/logos/el-shaddai-ascension-of-the-metatron-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1581040",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/El_Shaddai%3A_Ascension_of_the_Metatron_HD_Remaster",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "velvet-assassin-2009-pc": {
+      "id": "velvet-assassin-2009-pc",
+      "name": "Velvet Assassin",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 10, +Extra: 12",
+      "dev": "Replay Studios",
+      "pub": "Missing Link Games",
+      "notes": "",
+      "release": "01.05.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/velvet-assassin-2009-pc.jpg",
+      "logo": "images/logos/velvet-assassin-2009-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/16720",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Velvet_Assassin",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "armed-and-dangerous-2003-pc": {
+      "id": "armed-and-dangerous-2003-pc",
+      "name": "Armed and Dangerous",
+      "platform": "PC",
+      "size": "4.5 GB",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "Planet Moon Studios",
+      "pub": "LucasArts",
+      "notes": "",
+      "release": "02.12.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/armed-and-dangerous-2003-pc.jpg",
+      "logo": "images/logos/armed-and-dangerous-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Armed_and_Dangerous",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "peter-jackson-s-king-kong-2005-pc": {
+      "id": "peter-jackson-s-king-kong-2005-pc",
+      "name": "Peter Jackson's King Kong",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "Main: 6, +Extra: 7",
+      "dev": "Ubisoft Montpellier",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "17.11.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/peter-jackson-s-king-kong-2005-pc.jpg",
+      "logo": "images/logos/peter-jackson-s-king-kong-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Peter_Jackson's_King_Kong",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "peter-jackson-s-king-kong-gamer-s-edition-2005-pc": {
+      "id": "peter-jackson-s-king-kong-gamer-s-edition-2005-pc",
+      "name": "Peter Jackson's King Kong Gamer's Edition",
+      "platform": "PC",
+      "size": "5.4 GB",
+      "hltb": "—",
+      "dev": "Ubisoft Montreal",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "17.11.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/peter-jackson-s-king-kong-gamer-s-edition-2005-pc.jpg",
+      "logo": "images/logos/peter-jackson-s-king-kong-gamer-s-edition-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Peter_Jackson's_King_Kong_Gamer's_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-chronicles-of-riddick-assault-on-dark-athena-2009-pc": {
+      "id": "the-chronicles-of-riddick-assault-on-dark-athena-2009-pc",
+      "name": "The Chronicles of Riddick: Assault on Dark Athena",
+      "platform": "PC",
+      "size": "11 GB",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "Starbreeze Studios",
+      "pub": "Atari",
+      "notes": "",
+      "release": "07.04.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-chronicles-of-riddick-assault-on-dark-athena-2009-pc.jpg",
+      "logo": "images/logos/the-chronicles-of-riddick-assault-on-dark-athena-2009-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Chronicles_of_Riddick%3A_Assault_on_Dark_Athena",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-chronicles-of-riddick-escape-from-butcher-bay-2004-pc": {
+      "id": "the-chronicles-of-riddick-escape-from-butcher-bay-2004-pc",
+      "name": "The Chronicles of Riddick: Escape from Butcher Bay",
+      "platform": "PC",
+      "size": "3.7 GB",
+      "hltb": "Main: 8, +Extra: 9",
+      "dev": "Starbreeze Studios",
+      "pub": "Vivendi Universal Games",
+      "notes": "",
+      "release": "03.12.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-chronicles-of-riddick-escape-from-butcher-bay-2004-pc.jpg",
+      "logo": "images/logos/the-chronicles-of-riddick-escape-from-butcher-bay-2004-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Chronicles_of_Riddick%3A_Escape_from_Butcher_Bay",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "daemon-vector-2004-pc": {
+      "id": "daemon-vector-2004-pc",
+      "name": "Daemon Vector",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "XPEC Entertainment",
+      "pub": "XPEC Entertainment",
+      "notes": "",
+      "release": "01.06.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/daemon-vector-2004-pc.jpg",
+      "logo": "images/logos/daemon-vector-2004-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Daemon_Vector",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "the-operative-no-one-lives-forever-2000-pc": {
+      "id": "the-operative-no-one-lives-forever-2000-pc",
+      "name": "The Operative: No One Lives Forever",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "Main: 13, +Extra: 16",
+      "dev": "Monolith Productions",
+      "pub": "Fox Interactive",
+      "notes": "",
+      "release": "09.11.2000",
+      "ea_release": "",
+      "screenshot": "images/screenshots/the-operative-no-one-lives-forever-2000-pc.jpg",
+      "logo": "images/logos/the-operative-no-one-lives-forever-2000-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Operative%3A_No_One_Lives_Forever",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way-2002-pc": {
+      "id": "no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way-2002-pc",
+      "name": "No One Lives Forever 2: A Spy in H.A.R.M.'s Way",
+      "platform": "PC",
+      "size": "1.4 GB",
+      "hltb": "Main: 12, +Extra: 14",
+      "dev": "Monolith Productions",
+      "pub": "Fox Interactive",
+      "notes": "",
+      "release": "30.09.2002",
+      "ea_release": "",
+      "screenshot": "images/screenshots/no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way-2002-pc.jpg",
+      "logo": "images/logos/no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way-2002-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/No_One_Lives_Forever_2%3A_A_Spy_in_H.A.R.M.'s_Way",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "contract-j-a-c-k-2003-pc": {
+      "id": "contract-j-a-c-k-2003-pc",
+      "name": "Contract J.A.C.K.",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 5",
+      "dev": "Monolith Productions",
+      "pub": "Sierra Entertainment",
+      "notes": "",
+      "release": "11.11.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/contract-j-a-c-k-2003-pc.jpg",
+      "logo": "images/logos/contract-j-a-c-k-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Contract_J.A.C.K",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "raven-squad-operation-hidden-dagger-2009-pc": {
+      "id": "raven-squad-operation-hidden-dagger-2009-pc",
+      "name": "Raven Squad: Operation Hidden Dagger",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 5",
+      "dev": "Atomic Motion",
+      "pub": "SouthPeak Games",
+      "notes": "",
+      "release": "25.08.2009",
+      "ea_release": "",
+      "screenshot": "images/screenshots/raven-squad-operation-hidden-dagger-2009-pc.jpg",
+      "logo": "images/logos/raven-squad-operation-hidden-dagger-2009-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "giants-citizen-kabuto-2000-pc": {
+      "id": "giants-citizen-kabuto-2000-pc",
+      "name": "Giants: Citizen Kabuto",
+      "platform": "PC",
+      "size": "1.1 GB",
+      "hltb": "Main: 10, +Extra: 13",
+      "dev": "Planet Moon Studios",
+      "pub": "Interplay",
+      "notes": "",
+      "release": "07.12.2000",
+      "ea_release": "",
+      "screenshot": "images/screenshots/giants-citizen-kabuto-2000-pc.jpg",
+      "logo": "images/logos/giants-citizen-kabuto-2000-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/557750",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Giants%3A_Citizen_Kabuto",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "recore-2016-pc": {
+      "id": "recore-2016-pc",
+      "name": "ReCore",
+      "platform": "PC",
+      "size": "18 GB",
+      "hltb": "Main: 12, +Extra: 19",
+      "dev": "Armature Studio",
+      "pub": "Microsoft Studios",
+      "notes": "",
+      "release": "13.09.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/recore-2016-pc.jpg",
+      "logo": "images/logos/recore-2016-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/ReCore",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/537450",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-man-s-hand-2004-pc": {
+      "id": "dead-man-s-hand-2004-pc",
+      "name": "Dead Man's Hand",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "—",
+      "dev": "Human Head Studios",
+      "pub": "Atari",
+      "notes": "",
+      "release": "16.03.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-man-s-hand-2004-pc.jpg",
+      "logo": "images/logos/dead-man-s-hand-2004-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dead_Man's_Hand",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "demonicon-2013-pc": {
+      "id": "demonicon-2013-pc",
+      "name": "Demonicon",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 13, +Extra: 19",
+      "dev": "Noumena Studios",
+      "pub": "Kalypso Media",
+      "notes": "",
+      "release": "24.10.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/demonicon-2013-pc.jpg",
+      "logo": "images/logos/demonicon-2013-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/215630",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Demonicon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "requiem-avenging-angel-1999-pc": {
+      "id": "requiem-avenging-angel-1999-pc",
+      "name": "Requiem: Avenging Angel",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 8, +Extra: 12",
+      "dev": "Cyclone Studios",
+      "pub": "Ziggurat",
+      "notes": "",
+      "release": "31.03.1999",
+      "ea_release": "",
+      "screenshot": "images/screenshots/requiem-avenging-angel-1999-pc.jpg",
+      "logo": "images/logos/requiem-avenging-angel-1999-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/493310",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Requiem%3A_Avenging_Angel",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "made-man-2006-pc": {
+      "id": "made-man-2006-pc",
+      "name": "Made Man",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "—",
+      "dev": "SilverBack Studios",
+      "pub": "Aspyr Media",
+      "notes": "",
+      "release": "06.11.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/made-man-2006-pc.jpg",
+      "logo": "images/logos/made-man-2006-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Made_Man",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "shadow-ops-red-mercury-2004-pc": {
+      "id": "shadow-ops-red-mercury-2004-pc",
+      "name": "Shadow Ops: Red Mercury",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 6, +Extra: 9",
+      "dev": "Zombie Studios",
+      "pub": "Atari",
+      "notes": "",
+      "release": "21.09.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shadow-ops-red-mercury-2004-pc.jpg",
+      "logo": "images/logos/shadow-ops-red-mercury-2004-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/286770",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Shadow_Ops%3A_Red_Mercury",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "nina-agent-chronicles-2003-pc": {
+      "id": "nina-agent-chronicles-2003-pc",
+      "name": "Nina: Agent Chronicles",
+      "platform": "PC",
+      "size": "0.5 GB",
+      "hltb": "Main: 2",
+      "dev": "Detalion",
+      "pub": "Lemon Interactive, ValuSoft, CI Games",
+      "notes": "",
+      "release": "08.04.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/nina-agent-chronicles-2003-pc.jpg",
+      "logo": "images/logos/nina-agent-chronicles-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Nina%3A_Agent_Chronicles",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -39129,6 +39997,31 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "nina-agent-chronicles-2003-pc",
+      "shadow-ops-red-mercury-2004-pc",
+      "made-man-2006-pc",
+      "requiem-avenging-angel-1999-pc",
+      "demonicon-2013-pc",
+      "dead-man-s-hand-2004-pc",
+      "recore-2016-pc",
+      "giants-citizen-kabuto-2000-pc",
+      "raven-squad-operation-hidden-dagger-2009-pc",
+      "contract-j-a-c-k-2003-pc",
+      "no-one-lives-forever-2-a-spy-in-h-a-r-m-s-way-2002-pc",
+      "the-operative-no-one-lives-forever-2000-pc",
+      "daemon-vector-2004-pc",
+      "the-chronicles-of-riddick-escape-from-butcher-bay-2004-pc",
+      "the-chronicles-of-riddick-assault-on-dark-athena-2009-pc",
+      "peter-jackson-s-king-kong-gamer-s-edition-2005-pc",
+      "peter-jackson-s-king-kong-2005-pc",
+      "armed-and-dangerous-2003-pc",
+      "velvet-assassin-2009-pc",
+      "el-shaddai-ascension-of-the-metatron-2021-pc",
+      "catherine-full-body-unreleased-switch",
+      "catherine-classic-2019-pc",
+      "valkyrie-elysium-2022-pc",
+      "sekiro-shadows-die-twice-2019-pc",
+      "death-stranding-2-on-the-beach-2026-pc",
       "high-on-life-2-2026-pc",
       "high-on-life-2022-pc",
       "enotria-the-last-song-2024-pc",

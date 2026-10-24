@@ -1,0 +1,27 @@
+{
+  "id": "catherine-full-body-unreleased-switch",
+  "name": "Catherine: Full Body",
+  "platform": "Switch",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 18",
+  "dev": "Atlus",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "",
+  "ea_release": "",
+  "screenshot": "images/screenshots/catherine-full-body-unreleased-switch.jpg",
+  "logo": "images/logos/catherine-full-body-unreleased-switch.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

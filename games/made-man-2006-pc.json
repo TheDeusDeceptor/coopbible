@@ -1,0 +1,33 @@
+{
+  "id": "made-man-2006-pc",
+  "name": "Made Man",
+  "platform": "PC",
+  "size": "1.5 GB",
+  "hltb": "—",
+  "dev": "SilverBack Studios",
+  "pub": "Aspyr Media",
+  "notes": "",
+  "release": "06.11.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/made-man-2006-pc.jpg",
+  "logo": "images/logos/made-man-2006-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Made_Man",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

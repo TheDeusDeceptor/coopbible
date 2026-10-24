@@ -1,0 +1,38 @@
+{
+  "id": "el-shaddai-ascension-of-the-metatron-2021-pc",
+  "name": "El Shaddai: Ascension of the Metatron",
+  "platform": "PC",
+  "size": "8.2 GB",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "UTV Ignition Games",
+  "pub": "Crim",
+  "notes": "",
+  "release": "01.09.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/el-shaddai-ascension-of-the-metatron-2021-pc.jpg",
+  "logo": "images/logos/el-shaddai-ascension-of-the-metatron-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1581040",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/El_Shaddai%3A_Ascension_of_the_Metatron_HD_Remaster",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

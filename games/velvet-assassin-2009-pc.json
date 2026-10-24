@@ -1,0 +1,38 @@
+{
+  "id": "velvet-assassin-2009-pc",
+  "name": "Velvet Assassin",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Replay Studios",
+  "pub": "Missing Link Games",
+  "notes": "",
+  "release": "01.05.2009",
+  "ea_release": "",
+  "screenshot": "images/screenshots/velvet-assassin-2009-pc.jpg",
+  "logo": "images/logos/velvet-assassin-2009-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/16720",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Velvet_Assassin",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

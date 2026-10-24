@@ -1,0 +1,38 @@
+{
+  "id": "requiem-avenging-angel-1999-pc",
+  "name": "Requiem: Avenging Angel",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 8, +Extra: 12",
+  "dev": "Cyclone Studios",
+  "pub": "Ziggurat",
+  "notes": "",
+  "release": "31.03.1999",
+  "ea_release": "",
+  "screenshot": "images/screenshots/requiem-avenging-angel-1999-pc.jpg",
+  "logo": "images/logos/requiem-avenging-angel-1999-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/493310",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Requiem%3A_Avenging_Angel",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

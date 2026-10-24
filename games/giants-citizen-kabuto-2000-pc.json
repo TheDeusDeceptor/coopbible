@@ -1,0 +1,38 @@
+{
+  "id": "giants-citizen-kabuto-2000-pc",
+  "name": "Giants: Citizen Kabuto",
+  "platform": "PC",
+  "size": "1.1 GB",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "Planet Moon Studios",
+  "pub": "Interplay",
+  "notes": "",
+  "release": "07.12.2000",
+  "ea_release": "",
+  "screenshot": "images/screenshots/giants-citizen-kabuto-2000-pc.jpg",
+  "logo": "images/logos/giants-citizen-kabuto-2000-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/557750",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Giants%3A_Citizen_Kabuto",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

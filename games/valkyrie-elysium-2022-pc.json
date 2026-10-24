@@ -1,0 +1,38 @@
+{
+  "id": "valkyrie-elysium-2022-pc",
+  "name": "Valkyrie Elysium",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 12, +Extra: 20",
+  "dev": "Soleil",
+  "pub": "Square Enix",
+  "notes": "",
+  "release": "11.11.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/valkyrie-elysium-2022-pc.jpg",
+  "logo": "images/logos/valkyrie-elysium-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1963210",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Valkyrie_Elysium",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

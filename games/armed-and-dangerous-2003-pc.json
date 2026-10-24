@@ -1,0 +1,33 @@
+{
+  "id": "armed-and-dangerous-2003-pc",
+  "name": "Armed and Dangerous",
+  "platform": "PC",
+  "size": "4.5 GB",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Planet Moon Studios",
+  "pub": "LucasArts",
+  "notes": "",
+  "release": "02.12.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/armed-and-dangerous-2003-pc.jpg",
+  "logo": "images/logos/armed-and-dangerous-2003-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Armed_and_Dangerous",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

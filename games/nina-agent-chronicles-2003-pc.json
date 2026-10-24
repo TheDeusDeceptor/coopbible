@@ -1,0 +1,33 @@
+{
+  "id": "nina-agent-chronicles-2003-pc",
+  "name": "Nina: Agent Chronicles",
+  "platform": "PC",
+  "size": "0.5 GB",
+  "hltb": "Main: 2",
+  "dev": "Detalion",
+  "pub": "Lemon Interactive, ValuSoft, CI Games",
+  "notes": "",
+  "release": "08.04.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/nina-agent-chronicles-2003-pc.jpg",
+  "logo": "images/logos/nina-agent-chronicles-2003-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Nina%3A_Agent_Chronicles",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

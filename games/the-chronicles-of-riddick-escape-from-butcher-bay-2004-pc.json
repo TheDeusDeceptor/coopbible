@@ -1,0 +1,33 @@
+{
+  "id": "the-chronicles-of-riddick-escape-from-butcher-bay-2004-pc",
+  "name": "The Chronicles of Riddick: Escape from Butcher Bay",
+  "platform": "PC",
+  "size": "3.7 GB",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Starbreeze Studios",
+  "pub": "Vivendi Universal Games",
+  "notes": "",
+  "release": "03.12.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/the-chronicles-of-riddick-escape-from-butcher-bay-2004-pc.jpg",
+  "logo": "images/logos/the-chronicles-of-riddick-escape-from-butcher-bay-2004-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Chronicles_of_Riddick%3A_Escape_from_Butcher_Bay",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
