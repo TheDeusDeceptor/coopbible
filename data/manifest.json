@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-29T12:51:16Z",
+  "updated": "2026-11-01T07:26:38Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39095,6 +39095,44 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "judge-dredd-dredd-vs-death-2003-pc": {
+      "id": "judge-dredd-dredd-vs-death-2003-pc",
+      "name": "Judge Dredd: Dredd vs. Death",
+      "platform": "PC",
+      "size": "1.3 GB",
+      "hltb": "Main: 4, +Extra: 5",
+      "dev": "Rebellion",
+      "pub": "Rebellion",
+      "notes": "",
+      "release": "17.10.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/judge-dredd-dredd-vs-death-2003-pc.jpg",
+      "logo": "images/logos/judge-dredd-dredd-vs-death-2003-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3710",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Judge_Dredd%3A_Dredd_vs._Death",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -40035,6 +40073,7 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "judge-dredd-dredd-vs-death-2003-pc",
       "neuro-2006-pc",
       "nina-agent-chronicles-2003-pc",
       "shadow-ops-red-mercury-2004-pc",
