@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-01T07:26:38Z",
+  "updated": "2026-11-02T02:09:55Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -37384,105 +37384,6 @@
       "series_status": null,
       "series_note": null
     },
-    "bet-on-soldier-blood-sport-2005-pc": {
-      "id": "bet-on-soldier-blood-sport-2005-pc",
-      "name": "Bet on Soldier: Blood Sport",
-      "platform": "PC",
-      "size": "2 GB",
-      "hltb": "Main: 8, +Extra: 11",
-      "dev": "Kylotonn",
-      "pub": "Microids",
-      "notes": "",
-      "release": "26.09.2005",
-      "ea_release": "",
-      "screenshot": "images/screenshots/bet-on-soldier-blood-sport-2005-pc.jpg",
-      "logo": "images/logos/bet-on-soldier-blood-sport-2005-pc.png",
-      "links": [
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/Bet_on_Soldier%3A_Blood_Sport",
-          "icon": "pcgw"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
-    "bet-on-soldier-blood-of-sahara-2006-pc": {
-      "id": "bet-on-soldier-blood-of-sahara-2006-pc",
-      "name": "Bet on Soldier: Blood of Sahara",
-      "platform": "PC",
-      "size": "4 GB",
-      "hltb": "Main: 2",
-      "dev": "Kylotonn",
-      "pub": "Frogster",
-      "notes": "",
-      "release": "09.11.2006",
-      "ea_release": "",
-      "screenshot": "images/screenshots/bet-on-soldier-blood-of-sahara-2006-pc.jpg",
-      "logo": "images/logos/bet-on-soldier-blood-of-sahara-2006-pc.png",
-      "links": [
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/Bet_on_Soldier%3A_Blood_of_Sahara",
-          "icon": "pcgw"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
-    "bet-on-soldier-black-out-saigon-2007-pc": {
-      "id": "bet-on-soldier-black-out-saigon-2007-pc",
-      "name": "Bet on Soldier: Black out Saigon",
-      "platform": "PC",
-      "size": "4 GB",
-      "hltb": "Main: 4, +Extra: 6",
-      "dev": "Kylotonn",
-      "pub": "Frogster",
-      "notes": "",
-      "release": "29.05.2007",
-      "ea_release": "",
-      "screenshot": "images/screenshots/bet-on-soldier-black-out-saigon-2007-pc.jpg",
-      "logo": "images/logos/bet-on-soldier-black-out-saigon-2007-pc.png",
-      "links": [
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/Bet_on_Soldier%3A_Black-out_Saigon",
-          "icon": "pcgw"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
     "clive-barker-s-undying-2001-pc": {
       "id": "clive-barker-s-undying-2001-pc",
       "name": "Clive Barker's Undying",
@@ -37653,44 +37554,6 @@
           "label": "Steam",
           "url": "https://store.steampowered.com/app/106000/The_Cursed_Crusade/",
           "icon": "steam"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
-    "world-war-zero-ironstorm-2005-pc": {
-      "id": "world-war-zero-ironstorm-2005-pc",
-      "name": "World War Zero: Ironstorm",
-      "platform": "PC",
-      "size": "15 GB",
-      "hltb": "Main: 4",
-      "dev": "Rebellion",
-      "pub": "Reef Entertainment",
-      "notes": "",
-      "release": "14.10.2005",
-      "ea_release": "",
-      "screenshot": "images/screenshots/world-war-zero-ironstorm-unreleased-pc.jpg",
-      "logo": "images/logos/world-war-zero-ironstorm-2005-pc.png",
-      "links": [
-        {
-          "label": "Steam",
-          "url": "https://store.steampowered.com/app/1103800",
-          "icon": "steam"
-        },
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/World_War_Zero%3A_Iron_Storm",
-          "icon": "pcgw"
         }
       ],
       "alt_names": [],
@@ -40113,15 +39976,11 @@
       "alien-rage-unlimited-2013-pc",
       "mouse-p-i-for-hire-2026-pc",
       "alpha-prime-2006-pc",
-      "world-war-zero-ironstorm-2005-pc",
       "the-cursed-crusade-2011-pc",
       "luna-abyss-unreleased-pc",
       "command-conquer-renegade-2002-pc",
       "deadfall-adventures-2013-pc",
       "clive-barker-s-undying-2001-pc",
-      "bet-on-soldier-black-out-saigon-2007-pc",
-      "bet-on-soldier-blood-of-sahara-2006-pc",
-      "bet-on-soldier-blood-sport-2005-pc",
       "d4-dark-dreams-don-t-die-2015-pc",
       "scarlet-nexus-2021-pc",
       "condemned-2-bloodshot-2008-x360",
