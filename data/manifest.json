@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-02T02:09:55Z",
+  "updated": "2026-11-02T02:21:30Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -38996,6 +38996,39 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "you-are-empty-absolute-edition-2026-pc": {
+      "id": "you-are-empty-absolute-edition-2026-pc",
+      "name": "You Are Empty: Absolute Edition",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "—",
+      "dev": "Digital Spray Studios",
+      "pub": "Strategy First",
+      "notes": "",
+      "release": "27.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/you-are-empty-absolute-edition-2026-pc.jpg",
+      "logo": "images/logos/you-are-empty-absolute-edition-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4760480",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -39936,6 +39969,7 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "you-are-empty-absolute-edition-2026-pc",
       "judge-dredd-dredd-vs-death-2003-pc",
       "neuro-2006-pc",
       "nina-agent-chronicles-2003-pc",
