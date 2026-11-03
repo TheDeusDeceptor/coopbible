@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-03T06:03:19Z",
+  "updated": "2026-11-03T15:08:22Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39086,6 +39086,39 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "survival-fountain-of-youth-2024-pc": {
+      "id": "survival-fountain-of-youth-2024-pc",
+      "name": "Survival: Fountain of Youth",
+      "platform": "PC",
+      "size": "32 GB",
+      "hltb": "Main: 69",
+      "dev": "Odinsoft",
+      "pub": "Twin Sails Interactive",
+      "notes": "",
+      "release": "21.05.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/survival-fountain-of-youth-2024-pc.jpg",
+      "logo": "images/logos/survival-fountain-of-youth-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1967630",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -39592,7 +39625,8 @@
       "cat-mail-co-2026-pc",
       "chained-beasts-2026-pc",
       "the-smurfs-dreams-2024-pc",
-      "ai-olympius-2026-pc"
+      "ai-olympius-2026-pc",
+      "survival-fountain-of-youth-2024-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
