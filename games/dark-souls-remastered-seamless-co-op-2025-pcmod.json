@@ -9,9 +9,15 @@
   "notes": "",
   "release": "10.04.2025",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/dark-souls-remastered-seamless-co-op-2025-pcmod.jpg",
   "logo": "images/logos/dark-souls-remastered-seamless-co-op-2025-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/darksoulsremastered/mods/899",
+      "icon": "nexus"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

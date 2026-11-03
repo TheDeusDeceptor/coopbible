@@ -9,9 +9,15 @@
   "notes": "",
   "release": "19.12.2025",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/wukongmp-2025-pcmod.jpg",
   "logo": "images/logos/wukongmp-2025-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/blackmythwukong/mods/1205",
+      "icon": "nexus"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

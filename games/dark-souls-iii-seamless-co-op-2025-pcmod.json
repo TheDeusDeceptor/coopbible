@@ -9,9 +9,15 @@
   "notes": "",
   "release": "24.03.2025",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/dark-souls-iii-seamless-co-op-2025-pcmod.jpg",
   "logo": "images/logos/dark-souls-iii-seamless-co-op-2025-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/darksouls3/mods/1895",
+      "icon": "nexus"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

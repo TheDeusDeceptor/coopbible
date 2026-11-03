@@ -9,9 +9,15 @@
   "notes": "",
   "release": "08.07.2022",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/skyrim-together-reborn-2022-pcmod.jpg",
   "logo": "images/logos/skyrim-together-reborn-2022-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/skyrimspecialedition/mods/69993",
+      "icon": "nexus"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

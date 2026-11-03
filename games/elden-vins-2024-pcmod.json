@@ -9,7 +9,7 @@
   "notes": "",
   "release": "01.03.2024",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/elden-vins-2024-pcmod.jpg",
   "logo": "images/logos/elden-vins-2024-pcmod.png",
   "links": [
     {
@@ -29,5 +29,6 @@
   },
   "series": null,
   "series_status": null,
-  "series_note": null
+  "series_note": null,
+  "video": "https://i.imgur.com/J2PoBbQ.mp4"
 }

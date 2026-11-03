@@ -9,9 +9,14 @@
   "notes": "",
   "release": "01.10.2022",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/far-cry-advanced-version-2022-pcmod.jpg",
   "logo": "images/logos/far-cry-advanced-version-2022-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Itch.io",
+      "url": "https://farcry1.itch.io/far-cry-advanced-version"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

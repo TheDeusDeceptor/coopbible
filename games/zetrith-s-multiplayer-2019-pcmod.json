@@ -9,9 +9,14 @@
   "notes": "",
   "release": "22.01.2019",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/zetrith-s-multiplayer-2019-pcmod.jpg",
   "logo": "images/logos/zetrith-s-multiplayer-2019-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/rwmt/Multiplayer"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

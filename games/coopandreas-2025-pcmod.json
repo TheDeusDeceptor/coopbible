@@ -9,9 +9,14 @@
   "notes": "",
   "release": "21.10.2025",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/coopandreas-2025-pcmod.jpg",
   "logo": "images/logos/coopandreas-2025-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Tornamic/CoopAndreas"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

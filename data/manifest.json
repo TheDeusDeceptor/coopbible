@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-02T02:21:30Z",
+  "updated": "2026-11-03T06:03:19Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -24792,9 +24792,14 @@
       "notes": "",
       "release": "01.08.2025",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/dynamite-2025-pcmod.jpg",
       "logo": "images/logos/dynamite-2025-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/unknown321/dynamite"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -24851,7 +24856,7 @@
       "notes": "",
       "release": "20.06.2026",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/lies-of-p-seamless-co-op-2026-pcmod.jpg",
       "logo": "images/logos/lies-of-p-seamless-co-op-2026-pcmod.png",
       "links": [
         {
@@ -24881,10 +24886,10 @@
       "hltb": "Main: 25, +Extra: 40",
       "dev": "",
       "pub": "",
-      "notes": "",
+      "notes": "via in-game mods browser",
       "release": "10.12.2024",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/age-of-mythology-retold-co-op-2024-pcmod.jpg",
       "logo": "images/logos/age-of-mythology-retold-co-op-2024-pcmod.png",
       "links": [],
       "alt_names": [],
@@ -24911,9 +24916,14 @@
       "notes": "",
       "release": "01.10.2022",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/far-cry-advanced-version-2022-pcmod.jpg",
       "logo": "images/logos/far-cry-advanced-version-2022-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Itch.io",
+          "url": "https://farcry1.itch.io/far-cry-advanced-version"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -24938,9 +24948,15 @@
       "notes": "",
       "release": "19.12.2025",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/wukongmp-2025-pcmod.jpg",
       "logo": "images/logos/wukongmp-2025-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/blackmythwukong/mods/1205",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -24965,9 +24981,15 @@
       "notes": "",
       "release": "08.07.2022",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/skyrim-together-reborn-2022-pcmod.jpg",
       "logo": "images/logos/skyrim-together-reborn-2022-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/69993",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -24992,9 +25014,14 @@
       "notes": "",
       "release": "21.10.2025",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/coopandreas-2025-pcmod.jpg",
       "logo": "images/logos/coopandreas-2025-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Tornamic/CoopAndreas"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -25019,9 +25046,15 @@
       "notes": "",
       "release": "10.04.2025",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/dark-souls-remastered-seamless-co-op-2025-pcmod.jpg",
       "logo": "images/logos/dark-souls-remastered-seamless-co-op-2025-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/darksoulsremastered/mods/899",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -25046,9 +25079,15 @@
       "notes": "",
       "release": "22.09.2026",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pcmod.jpg",
       "logo": "images/logos/dark-souls-ii-scholar-of-the-first-sin-seamless-co-op-2026-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/darksouls2/mods/1468",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -25073,9 +25112,15 @@
       "notes": "",
       "release": "24.03.2025",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/dark-souls-iii-seamless-co-op-2025-pcmod.jpg",
       "logo": "images/logos/dark-souls-iii-seamless-co-op-2025-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/darksouls3/mods/1895",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -25100,9 +25145,15 @@
       "notes": "",
       "release": "28.03.2022",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/elden-ring-randomizer-2022-pcmod.jpg",
       "logo": "images/logos/elden-ring-randomizer-2022-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/eldenring/mods/428",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -25127,7 +25178,7 @@
       "notes": "",
       "release": "03.04.2022",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/elden-ring-reforged-2022-pcmod.jpg",
       "logo": "images/logos/elden-ring-reforged-2022-pcmod.png",
       "links": [
         {
@@ -25160,7 +25211,7 @@
       "notes": "",
       "release": "01.03.2024",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/elden-vins-2024-pcmod.jpg",
       "logo": "images/logos/elden-vins-2024-pcmod.png",
       "links": [
         {
@@ -25180,7 +25231,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://i.imgur.com/J2PoBbQ.mp4"
     },
     "elden-ring-the-convergence-2023-pcmod": {
       "id": "elden-ring-the-convergence-2023-pcmod",
@@ -25193,7 +25245,7 @@
       "notes": "",
       "release": "28.04.2023",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/elden-ring-the-convergence-2023-pcmod.jpg",
       "logo": "images/logos/elden-ring-the-convergence-2023-pcmod.png",
       "links": [
         {
@@ -25226,9 +25278,14 @@
       "notes": "",
       "release": "22.01.2019",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/zetrith-s-multiplayer-2019-pcmod.jpg",
       "logo": "images/logos/zetrith-s-multiplayer-2019-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rwmt/Multiplayer"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {

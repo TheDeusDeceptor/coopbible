@@ -9,9 +9,14 @@
   "notes": "",
   "release": "01.08.2025",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/dynamite-2025-pcmod.jpg",
   "logo": "images/logos/dynamite-2025-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/unknown321/dynamite"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

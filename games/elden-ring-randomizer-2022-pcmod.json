@@ -9,9 +9,15 @@
   "notes": "",
   "release": "28.03.2022",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/elden-ring-randomizer-2022-pcmod.jpg",
   "logo": "images/logos/elden-ring-randomizer-2022-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/eldenring/mods/428",
+      "icon": "nexus"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {
