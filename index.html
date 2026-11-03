@@ -3949,7 +3949,8 @@ function renderToolbar(){
       </div>` : ''}
       <button type="button" class="btn-add" id="addGameBtn"><span class="icon icon-plus"></span>Add Game</button>
     </div>
-    <div style="flex:1; display:flex; justify-content:center; padding:0 1rem;">
+    ${tab === 'mods' ? `
+<div style="flex:1; display:flex; justify-content:center; padding:0 1rem;">
         <div class="mega-btn" onclick="event.preventDefault(); const img = this.querySelector('.demon-icon'); if(img.dataset.booming) return; img.dataset.booming='true'; img.src='https://megalist.neocities.org/pk_boom.gif'; setTimeout(() => { window.open('https://megalist.neocities.org/mpm', '_blank'); }, 600); setTimeout(() => { img.src='https://megalist.neocities.org/pk_idle.gif'; delete img.dataset.booming; }, 3000);">
           <span class="tooltip">MEGA LIST</span>
           <span class="reveal left">MΞGA</span>
@@ -3957,6 +3958,7 @@ function renderToolbar(){
           <span class="reveal right">LIST</span>
         </div>
       </div>
+` : ''}
       <div class="tb-right">
       <div class="search-box">
         <span class="icon icon-search s-icon"></span>
