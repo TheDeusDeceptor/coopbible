@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T19:24:54Z",
+  "updated": "2026-11-18T19:30:16Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40193,7 +40193,13 @@
         "ry-ga-gotoku-kenzan-2008-ps3",
         "yakuza-3-remastered-2021-pc"
       ],
-      "display": {}
+      "display": {
+        "yakuza-3-remastered-2021-pc": {
+          "display_name": "Yakuza 3 (Remastered)",
+          "display_release": "2009 (2021)",
+          "display_platform": "PS3 (PC)"
+        }
+      }
     }
   },
   "series_order": [

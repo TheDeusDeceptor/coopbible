@@ -8,5 +8,11 @@
     "ry-ga-gotoku-kenzan-2008-ps3",
     "yakuza-3-remastered-2021-pc"
   ],
-  "display": {}
+  "display": {
+    "yakuza-3-remastered-2021-pc": {
+      "display_name": "Yakuza 3 (Remastered)",
+      "display_release": "2009 (2021)",
+      "display_platform": "PS3 (PC)"
+    }
+  }
 }
