@@ -1467,6 +1467,7 @@ async function seriesLogoCompressUrl(url){
   if(!url) return url;
   if(/^images\//.test(url)) return url;
   if(!/^https?:/.test(url)) return url;
+  if(/res\.cloudinary\.com/i.test(url)) return url;
   const dims = await new Promise(resolve => {
     const img = new Image();
     img.onload  = () => resolve({ w: img.naturalWidth, h: img.naturalHeight });
@@ -1477,7 +1478,49 @@ async function seriesLogoCompressUrl(url){
   if(dims && dims.h > dims.w) box = 'w_300,h_2000,c_limit';
   else                         box = 'w_2000,h_300,c_limit';
   const b64 = b64url(url);
-  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD + '/image/fetch/' + box + ',f_auto/' + b64;
+  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD + '/image/fetch/' + box + ',f_png/' + b64;
+}
+async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
+  if(!slug){ toast('Slug is required', 'bad'); return; }
+  if(!sourceUrl){ toast('Nothing to save', 'bad'); return; }
+  if(/^images\//.test(sourceUrl)){ toast('Already local'); return; }
+  if(!/^https?:/.test(sourceUrl)){ toast('Only http(s) URLs can be saved', 'bad'); return; }
+  if(!getToken()){ showTokenPrompt(); return; }
+  try{
+    const compressed = await seriesLogoCompressUrl(sourceUrl);
+    const imgRes = await fetch(compressed);
+    if(!imgRes.ok) throw new Error('Cloudinary HTTP ' + imgRes.status);
+    const bytes = new Uint8Array(await imgRes.arrayBuffer());
+    let bin = '';
+    for(let i = 0; i < bytes.length; i += 0x8000){
+      bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    }
+    const b64 = btoa(bin);
+    const safeSlug = String(slug).replace(/[^a-z0-9-]/gi, '').toLowerCase();
+    const path = 'images/series/' + safeSlug + '.png';
+    const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
+    let sha = null;
+    const existRes = await ghFetch(apiUrl);
+    if(existRes.status === 200){
+      sha = (await existRes.json()).sha;
+    } else if(existRes.status !== 404){
+      throw new Error('GitHub check HTTP ' + existRes.status);
+    }
+    const body = { message: (sha ? 'Update ' : 'Add ') + path, content: b64, branch: 'main' };
+    if(sha) body.sha = sha;
+    const putRes = await ghFetch(apiUrl, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if(!putRes.ok){
+      const errTxt = await putRes.text().catch(() => '');
+      throw new Error('GitHub PUT HTTP ' + putRes.status + (errTxt ? ': ' + errTxt.slice(0, 120) : ''));
+    }
+    onDone(path);
+  }catch(e){
+    toast('Save failed: ' + e.message, 'bad');
+  }
 }
 function lookupPlatform(key){
   if(!key) return null;
@@ -6550,7 +6593,7 @@ function openSeriesHeaderModal(slug){
     const btn = $('#sh-save-logo');
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
-    await saveMediaLocally('logo', slugVal, url, (path) => {
+    await saveSeriesLogoDirect(slugVal, url, (path) => {
       $('#sh-logo').value = path;
       $('#sh-logo').dispatchEvent(new Event('input', { bubbles: true }));
       btn.classList.add('saved'); btn.innerHTML = '✓ Saved';
@@ -6741,7 +6784,8 @@ function openBsidesHeaderModal(slug){
     const btn = $('#bh-save-logo');
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
-    await saveMediaLocally('logo', slugVal, url, (path) => {
+    const compressed = await seriesLogoCompressUrl(url);
+    await saveMediaLocally('logo', slugVal, compressed, (path) => {
       $('#bh-logo').value = path;
       $('#bh-logo').dispatchEvent(new Event('input', { bubbles: true }));
       btn.classList.add('saved'); btn.innerHTML = '✓ Saved';
