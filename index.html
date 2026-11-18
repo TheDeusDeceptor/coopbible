@@ -6819,8 +6819,7 @@ function openBsidesHeaderModal(slug){
     const btn = $('#bh-save-logo');
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
-    const compressed = await seriesLogoCompressUrl(url);
-    await saveMediaLocally('logo', slugVal, compressed, (path) => {
+    await saveSeriesLogoDirect(slugVal, url, (path) => {
       $('#bh-logo').value = path;
       $('#bh-logo').dispatchEvent(new Event('input', { bubbles: true }));
       btn.classList.add('saved'); btn.innerHTML = '✓ Saved';
