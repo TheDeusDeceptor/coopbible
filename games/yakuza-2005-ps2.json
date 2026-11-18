@@ -1,0 +1,27 @@
+{
+  "id": "yakuza-2005-ps2",
+  "name": "Yakuza",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 14, +Extra: 19",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "08.12.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/yakuza-2005-ps2.jpg",
+  "logo": "images/logos/yakuza-2005-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}
