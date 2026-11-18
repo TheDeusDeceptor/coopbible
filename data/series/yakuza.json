@@ -6,13 +6,31 @@
     "yakuza-2005-ps2",
     "yakuza-2-2006-ps2",
     "ry-ga-gotoku-kenzan-2008-ps3",
-    "yakuza-3-remastered-2021-pc"
+    "yakuza-3-remastered-2021-pc",
+    "yakuza-4-remastered-2021-pc",
+    "yakuza-dead-souls-2011-ps3",
+    "yakuza-5-remastered-2021-pc",
+    "yakuza-0-2018-pc",
+    "yakuza-6-the-song-of-life-2021-pc"
   ],
   "display": {
     "yakuza-3-remastered-2021-pc": {
       "display_name": "Yakuza 3 (Remastered)",
       "display_release": "2009 (2021)",
-      "display_platform": "PS3 (PC)"
+      "display_platform": "PC"
+    },
+    "yakuza-4-remastered-2021-pc": {
+      "display_name": "Yakuza 4 (Remastered)",
+      "display_release": "2010 (2021)",
+      "display_platform": "PC"
+    },
+    "yakuza-5-remastered-2021-pc": {
+      "display_name": "Yakuza 5 (Remastered)",
+      "display_release": "2012 (2024)",
+      "display_platform": "PC"
+    },
+    "yakuza-6-the-song-of-life-2021-pc": {
+      "display_release": "2016 (2021)"
     }
   }
 }

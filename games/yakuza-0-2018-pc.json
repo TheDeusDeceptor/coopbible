@@ -1,0 +1,33 @@
+{
+  "id": "yakuza-0-2018-pc",
+  "name": "Yakuza 0",
+  "platform": "PC",
+  "size": "28 GB",
+  "hltb": "Main: 31, +Extra: 64",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "01.08.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/yakuza-0-2018-pc.jpg",
+  "logo": "images/logos/yakuza-0-2018-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Yakuza_0",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

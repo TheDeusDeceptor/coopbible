@@ -1,0 +1,27 @@
+{
+  "id": "yakuza-dead-souls-2011-ps3",
+  "name": "Yakuza: Dead Souls",
+  "platform": "PS3",
+  "size": "",
+  "hltb": "Main: 12, +Extra: 30",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "09.06.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/yakuza-dead-souls-2011-pc.jpg",
+  "logo": "images/logos/yakuza-dead-souls-2011-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

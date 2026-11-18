@@ -1,0 +1,38 @@
+{
+  "id": "yakuza-5-remastered-2021-pc",
+  "name": "Yakuza 5 Remastered",
+  "platform": "PC",
+  "size": "32.5 GB",
+  "hltb": "Main: 36, +Extra: 64",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "28.01.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/yakuza-5-remastered-2021-pc.jpg",
+  "logo": "images/logos/yakuza-5-remastered-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1105510",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Yakuza_5_Remastered",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T19:40:11Z",
+  "updated": "2026-11-18T20:11:48Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -38998,7 +38998,7 @@
       },
       "series": "yakuza",
       "series_status": null,
-      "series_note": null
+      "series_note": "North American version for goofy (and only!) dub."
     },
     "yakuza-2-2006-ps2": {
       "id": "yakuza-2-2006-ps2",
@@ -39052,7 +39052,7 @@
       },
       "series": "yakuza",
       "series_status": null,
-      "series_note": null
+      "series_note": "Japanese only originally, English patch exists."
     },
     "yakuza-3-remastered-2021-pc": {
       "id": "yakuza-3-remastered-2021-pc",
@@ -39090,7 +39090,181 @@
       },
       "series": "yakuza",
       "series_status": null,
-      "series_note": "Japanese only originally, English patch exists."
+      "series_note": null
+    },
+    "yakuza-4-remastered-2021-pc": {
+      "id": "yakuza-4-remastered-2021-pc",
+      "name": "Yakuza 4 Remastered",
+      "platform": "PC",
+      "size": "35 GB",
+      "hltb": "Main: 20, +Extra: 39",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "28.01.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-4-remastered-2021-pc.jpg",
+      "logo": "images/logos/yakuza-4-remastered-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1105500",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_4_Remastered",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-dead-souls-2011-ps3": {
+      "id": "yakuza-dead-souls-2011-ps3",
+      "name": "Yakuza: Dead Souls",
+      "platform": "PS3",
+      "size": "",
+      "hltb": "Main: 12, +Extra: 30",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "09.06.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-dead-souls-2011-pc.jpg",
+      "logo": "images/logos/yakuza-dead-souls-2011-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-5-remastered-2021-pc": {
+      "id": "yakuza-5-remastered-2021-pc",
+      "name": "Yakuza 5 Remastered",
+      "platform": "PC",
+      "size": "32.5 GB",
+      "hltb": "Main: 36, +Extra: 64",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "28.01.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-5-remastered-2021-pc.jpg",
+      "logo": "images/logos/yakuza-5-remastered-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1105510",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_5_Remastered",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-0-2018-pc": {
+      "id": "yakuza-0-2018-pc",
+      "name": "Yakuza 0",
+      "platform": "PC",
+      "size": "28 GB",
+      "hltb": "Main: 31, +Extra: 64",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "01.08.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-0-2018-pc.jpg",
+      "logo": "images/logos/yakuza-0-2018-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_0",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-6-the-song-of-life-2021-pc": {
+      "id": "yakuza-6-the-song-of-life-2021-pc",
+      "name": "Yakuza 6: The Song of Life",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 18, +Extra: 31",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "25.03.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-6-the-song-of-life-2021-pc.jpg",
+      "logo": "images/logos/yakuza-6-the-song-of-life-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1388590",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_6%3A_The_Song_of_Life",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -40032,6 +40206,11 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "yakuza-6-the-song-of-life-2021-pc",
+      "yakuza-0-2018-pc",
+      "yakuza-5-remastered-2021-pc",
+      "yakuza-dead-souls-2011-ps3",
+      "yakuza-4-remastered-2021-pc",
       "yakuza-3-remastered-2021-pc",
       "ry-ga-gotoku-kenzan-2008-ps3",
       "yakuza-2-2006-ps2",
@@ -40191,13 +40370,31 @@
         "yakuza-2005-ps2",
         "yakuza-2-2006-ps2",
         "ry-ga-gotoku-kenzan-2008-ps3",
-        "yakuza-3-remastered-2021-pc"
+        "yakuza-3-remastered-2021-pc",
+        "yakuza-4-remastered-2021-pc",
+        "yakuza-dead-souls-2011-ps3",
+        "yakuza-5-remastered-2021-pc",
+        "yakuza-0-2018-pc",
+        "yakuza-6-the-song-of-life-2021-pc"
       ],
       "display": {
         "yakuza-3-remastered-2021-pc": {
           "display_name": "Yakuza 3 (Remastered)",
           "display_release": "2009 (2021)",
-          "display_platform": "PS3 (PC)"
+          "display_platform": "PC"
+        },
+        "yakuza-4-remastered-2021-pc": {
+          "display_name": "Yakuza 4 (Remastered)",
+          "display_release": "2010 (2021)",
+          "display_platform": "PC"
+        },
+        "yakuza-5-remastered-2021-pc": {
+          "display_name": "Yakuza 5 (Remastered)",
+          "display_release": "2012 (2024)",
+          "display_platform": "PC"
+        },
+        "yakuza-6-the-song-of-life-2021-pc": {
+          "display_release": "2016 (2021)"
         }
       }
     }
