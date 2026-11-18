@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T23:22:27Z",
+  "updated": "2026-11-18T23:40:26Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40891,10 +40891,18 @@
       "logo": "images/series/fatalframe.png",
       "order": [],
       "display": {}
+    },
+    "wayofthesamurai": {
+      "id": "wayofthesamurai",
+      "name": "Way of the Samurai",
+      "logo": "images/series/wayofthesamurai.png",
+      "order": [],
+      "display": {}
     }
   },
   "series_order": [
     "yakuza",
-    "fatalframe"
+    "fatalframe",
+    "wayofthesamurai"
   ]
 }
