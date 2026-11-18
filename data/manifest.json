@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-03T15:08:22Z",
+  "updated": "2026-11-18T18:50:00Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -34713,44 +34713,6 @@
       "series_status": null,
       "series_note": null
     },
-    "freedom-fighters-2003-pc": {
-      "id": "freedom-fighters-2003-pc",
-      "name": "Freedom Fighters",
-      "platform": "PC",
-      "size": "0.6 GB",
-      "hltb": "Main: 8, +Extra: 10",
-      "dev": "IO Interactive",
-      "pub": "Electronic Arts, IO Interactive",
-      "notes": "",
-      "release": "26.09.2003",
-      "ea_release": "",
-      "screenshot": "images/screenshots/freedom-fighters-2003-pc.jpg",
-      "logo": "images/logos/freedom-fighters-2003-pc.png",
-      "links": [
-        {
-          "label": "Steam",
-          "url": "https://store.steampowered.com/app/1347780",
-          "icon": "steam"
-        },
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/Freedom_Fighters",
-          "icon": "pcgw"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": true,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
     "true-crime-streets-of-la-2004-pc": {
       "id": "true-crime-streets-of-la-2004-pc",
       "name": "True Crime: Streets of LA",
@@ -35931,39 +35893,6 @@
         {
           "label": "PCGW",
           "url": "https://www.pcgamingwiki.com/wiki/Legendary",
-          "icon": "pcgw"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
-    "turning-point-fall-of-liberty-2008-pc": {
-      "id": "turning-point-fall-of-liberty-2008-pc",
-      "name": "Turning Point: Fall of Liberty",
-      "platform": "PC",
-      "size": "7 GB",
-      "hltb": "Main: 4, +Extra: 5",
-      "dev": "Spark Unlimited",
-      "pub": "Codemasters",
-      "notes": "",
-      "release": "26.02.2008",
-      "ea_release": "",
-      "screenshot": "images/screenshots/turning-point-fall-of-liberty-2008-pc.jpg",
-      "logo": "images/logos/turning-point-fall-of-liberty-2008-pc.png",
-      "links": [
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/Turning_Point%3A_Fall_of_Liberty",
           "icon": "pcgw"
         }
       ],
@@ -38110,44 +38039,6 @@
       "series_status": null,
       "series_note": null
     },
-    "death-stranding-2-on-the-beach-2026-pc": {
-      "id": "death-stranding-2-on-the-beach-2026-pc",
-      "name": "Death Stranding 2: On the Beach",
-      "platform": "PC",
-      "size": "150 GB",
-      "hltb": "Main: 36, +Extra: 64",
-      "dev": "Kojima Productions",
-      "pub": "PlayStation Publishing",
-      "notes": "",
-      "release": "19.03.2026",
-      "ea_release": "",
-      "screenshot": "images/screenshots/death-stranding-2-on-the-beach-2026-pc.jpg",
-      "logo": "images/logos/death-stranding-2-on-the-beach-2026-pc.png",
-      "links": [
-        {
-          "label": "Steam",
-          "url": "https://store.steampowered.com/app/3280350",
-          "icon": "steam"
-        },
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/DEATH_STRANDING_2%3A_ON_THE_BEACH",
-          "icon": "pcgw"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
     "sekiro-shadows-die-twice-2019-pc": {
       "id": "sekiro-shadows-die-twice-2019-pc",
       "name": "Sekiro: Shadows Die Twice",
@@ -38276,44 +38167,6 @@
       "screenshot": "images/screenshots/catherine-full-body-unreleased-switch.jpg",
       "logo": "images/logos/catherine-full-body-unreleased-switch.png",
       "links": [],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
-    "el-shaddai-ascension-of-the-metatron-2021-pc": {
-      "id": "el-shaddai-ascension-of-the-metatron-2021-pc",
-      "name": "El Shaddai: Ascension of the Metatron",
-      "platform": "PC",
-      "size": "8.2 GB",
-      "hltb": "Main: 9, +Extra: 10",
-      "dev": "UTV Ignition Games",
-      "pub": "Crim",
-      "notes": "",
-      "release": "01.09.2021",
-      "ea_release": "",
-      "screenshot": "images/screenshots/el-shaddai-ascension-of-the-metatron-2021-pc.jpg",
-      "logo": "images/logos/el-shaddai-ascension-of-the-metatron-2021-pc.png",
-      "links": [
-        {
-          "label": "Steam",
-          "url": "https://store.steampowered.com/app/1581040",
-          "icon": "steam"
-        },
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/El_Shaddai%3A_Ascension_of_the_Metatron_HD_Remaster",
-          "icon": "pcgw"
-        }
-      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -40082,12 +39935,10 @@
       "peter-jackson-s-king-kong-2005-pc",
       "armed-and-dangerous-2003-pc",
       "velvet-assassin-2009-pc",
-      "el-shaddai-ascension-of-the-metatron-2021-pc",
       "catherine-full-body-unreleased-switch",
       "catherine-classic-2019-pc",
       "valkyrie-elysium-2022-pc",
       "sekiro-shadows-die-twice-2019-pc",
-      "death-stranding-2-on-the-beach-2026-pc",
       "high-on-life-2-2026-pc",
       "high-on-life-2022-pc",
       "enotria-the-last-song-2024-pc",
@@ -40147,7 +39998,6 @@
       "blue-prince-2025-pc",
       "routine-2025-pc",
       "from-dusk-till-dawn-2001-pc",
-      "turning-point-fall-of-liberty-2008-pc",
       "legendary-2008-pc",
       "ghostwire-tokyo-2022-pc",
       "the-evil-within-2-2017-pc",
@@ -40182,7 +40032,6 @@
       "sleeping-dogs-definitive-edition-2014-pc",
       "true-crime-new-york-city-2006-pc",
       "true-crime-streets-of-la-2004-pc",
-      "freedom-fighters-2003-pc",
       "gun-2005-pc",
       "tormented-souls-ii-2025-pc",
       "tormented-souls-2021-pc",
