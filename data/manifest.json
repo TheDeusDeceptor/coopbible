@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T22:15:49Z",
+  "updated": "2026-11-18T23:21:03Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40888,7 +40888,7 @@
     "fatalframe": {
       "id": "fatalframe",
       "name": "Fatal Frame",
-      "logo": "images/logos/fatalframe.png",
+      "logo": "images/series/fatalframe.png",
       "order": [],
       "display": {}
     }
