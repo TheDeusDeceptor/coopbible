@@ -1,0 +1,38 @@
+{
+  "id": "stranger-than-heaven-2027-pc",
+  "name": "Stranger Than Heaven",
+  "platform": "PC",
+  "size": "",
+  "hltb": "—",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "14.01.2027",
+  "ea_release": "",
+  "screenshot": "images/screenshots/stranger-than-heaven-2027-pc.jpg",
+  "logo": "images/logos/stranger-than-heaven-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4260840",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/STRANGER_THAN_HEAVEN",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T20:59:08Z",
+  "updated": "2026-11-18T21:07:54Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39672,6 +39672,44 @@
       "series": "yakuza",
       "series_status": null,
       "series_note": null
+    },
+    "stranger-than-heaven-2027-pc": {
+      "id": "stranger-than-heaven-2027-pc",
+      "name": "Stranger Than Heaven",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "14.01.2027",
+      "ea_release": "",
+      "screenshot": "images/screenshots/stranger-than-heaven-2027-pc.jpg",
+      "logo": "images/logos/stranger-than-heaven-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4260840",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/STRANGER_THAN_HEAVEN",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -40613,6 +40651,7 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "stranger-than-heaven-2027-pc",
       "like-a-dragon-pirate-yakuza-in-hawaii-2025-pc",
       "like-a-dragon-infinite-wealth-2024-pc",
       "like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc",
@@ -40804,7 +40843,8 @@
         "lost-judgment-2022-pc",
         "like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc",
         "like-a-dragon-infinite-wealth-2024-pc",
-        "like-a-dragon-pirate-yakuza-in-hawaii-2025-pc"
+        "like-a-dragon-pirate-yakuza-in-hawaii-2025-pc",
+        "stranger-than-heaven-2027-pc"
       ],
       "display": {
         "yakuza-3-remastered-2021-pc": {
