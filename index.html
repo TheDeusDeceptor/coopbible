@@ -1460,8 +1460,7 @@ function logoSrc(url){
   if(!u) return '';
   if(u.startsWith('data:')) return u;
   if(/\/images\//.test(u)) return u;
-  const b64 = b64url(u);
-  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD + '/image/fetch/w_504,h_562,c_limit,f_auto/' + b64;
+  return 'https://images.weserv.nl/?url=' + encodeURIComponent(u) + '&w=504&h=562&fit=inside&we';
 }
 async function seriesLogoCompressUrl(url){
   if(!url) return url;
@@ -1978,7 +1977,7 @@ function seriesTotals(slug){
     if(mm){ main += parseFloat(mm[1]); hasAny = true; }
     if(me){ extra += parseFloat(me[1]); }
   }
-  return { main, extra, hasAny };
+  return { main: Math.round(main * 10) / 10, extra: Math.round(extra * 10) / 10, hasAny };
 }
 function isInAnySeries(gameId){
   if(isInAnyBsides(gameId)) return true;
@@ -3644,7 +3643,7 @@ function applyHltbData(data) {
   toast('HLTB filled: ' + fields.hltb);
 }
 
-function showHltbSearchModal(initialQuery, onPick) {
+function showHltbSearchModal(initialQuery, onPick, initialHits) {
   pickerSlot.innerHTML = `
     <div class="picker-modal" style="max-width:640px;max-height:80vh;display:flex;flex-direction:column;">
       <button class="modal-close" data-close>✕</button>
@@ -3669,6 +3668,33 @@ function showHltbSearchModal(initialQuery, onPick) {
   const goBtn = pickerSlot.querySelector('#hltb-modal-go');
   const list = pickerSlot.querySelector('#hltb-modal-results');
 
+  const renderHits = (rawHits, q) => {
+    const hits = (rawHits || []).slice().sort((a, b) =>
+      nameSimilarity(b.game_name || b.name || '', q) - nameSimilarity(a.game_name || a.name || '', q)
+    );
+    if(!hits.length) {
+      list.innerHTML = '<div style="padding:1rem;text-align:center;color:var(--red);">No results found.</div>';
+      return;
+    }
+    list.innerHTML = hits.map((h, i) => {
+      const title = h.game_name || h.name || 'Unknown';
+      const main = h.story ? Math.max(1, Math.round(h.story)) + 'h' : '—';
+      const extra = h.extras ? Math.max(1, Math.round(h.extras)) + 'h' : '—';
+      const comp = h.completionist ? Math.max(1, Math.round(h.completionist)) + 'h' : '—';
+      return `<button type="button" data-idx="${i}">
+        <span class="pk-name">${esc(title)}</span>
+        <span class="pk-meta">Main: ${main} · Extra: ${extra} · 100%: ${comp}</span>
+      </button>`;
+    }).join('');
+    list.querySelectorAll('button[data-idx]').forEach(btn => {
+      btn.onclick = () => {
+        const picked = hits[+btn.dataset.idx];
+        close();
+        onPick(picked);
+      };
+    });
+  };
+
   const doSearch = async () => {
     const q = input.value.trim();
     if(!q) return;
@@ -3679,28 +3705,7 @@ function showHltbSearchModal(initialQuery, onPick) {
       let hits = [];
       if(Array.isArray(data)) hits = data;
       else if(data && (data.story || data.game_name)) hits = [data];
-
-      if(!hits.length) {
-        list.innerHTML = '<div style="padding:1rem;text-align:center;color:var(--red);">No results found.</div>';
-      } else {
-        list.innerHTML = hits.map((h, i) => {
-          const title = h.game_name || h.name || 'Unknown';
-          const main = h.story ? Math.round(h.story) + 'h' : '—';
-          const extra = h.extras ? Math.round(h.extras) + 'h' : '—';
-          const comp = h.completionist ? Math.round(h.completionist) + 'h' : '—';
-          return `<button type="button" data-idx="${i}">
-            <span class="pk-name">${esc(title)}</span>
-            <span class="pk-meta">Main: ${main} · Extra: ${extra} · 100%: ${comp}</span>
-          </button>`;
-        }).join('');
-        list.querySelectorAll('button[data-idx]').forEach(btn => {
-          btn.onclick = () => {
-            const picked = hits[+btn.dataset.idx];
-            close();
-            onPick(picked);
-          };
-        });
-      }
+      renderHits(hits, q);
     } catch(e) {
       list.innerHTML = `<div style="padding:1rem;text-align:center;color:var(--red);">Error: ${esc(e.message)}</div>`;
     } finally {
@@ -3710,7 +3715,8 @@ function showHltbSearchModal(initialQuery, onPick) {
 
   goBtn.onclick = doSearch;
   input.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); doSearch(); } });
-  doSearch();
+  if(Array.isArray(initialHits) && initialHits.length) renderHits(initialHits, initialQuery);
+  else doSearch();
 }
 
 function showHltbPicker(hits, onPick){
@@ -6381,6 +6387,10 @@ function renderVariantPills(results){
       if(!val) continue;
       pills.push(`<button type="button" class="pill src-${src}" data-field="hltb" data-value="${esc(val)}"><span class="p-src">${src}</span>${esc(String(val).slice(0, 80))}</button>`);
     }
+    if(results.hltb && Array.isArray(results.hltb.hits) && results.hltb.hits.length){
+      const n = results.hltb.hits.length;
+      pills.push(`<button type="button" class="pill src-hltb picker" data-field="hltb" data-picker="hltb"><span class="p-src">hltb</span>${n} match${n === 1 ? '' : 'es'}</button>`);
+    }
     hltbHost.innerHTML = pills.join('');
   }
 }
@@ -6395,6 +6405,11 @@ function attachPillHandlers(){
       const kind = pill.dataset.picker;
       const results = modalSlot._parseResults || {};
       const nameNow = (modalSlot.querySelector('#f-name')?.value || '').trim();
+      if(kind === 'hltb'){
+        const r = results.hltb || {};
+        showHltbSearchModal(r.query || nameNow, picked => { applyHltbData(picked); }, r.hits || null);
+        return;
+      }
       let items = [], title = '';
       if(kind === 'sgdb' && results.sgdb && results.sgdb.logos){
         items = results.sgdb.logos.map(l => ({ url: l.url, thumb: l.thumb || l.url, label: (l.style || 'logo') + ' · ' + l.width + '×' + l.height }));
@@ -6543,11 +6558,20 @@ async function runParse(){
   })());
   if((hasName || linkedSteamPre) && !locked.has('hltb')) tasks.push((async () => {
     try{
-      let data = linkedSteamPre ? await hltbSearchBySteam(linkedSteamPre) : await hltbSearch(name);
-      if (Array.isArray(data) && data.length > 0) data = data[0];
-      const fields = hltbMapToFields(data);
-      if(!fields.hltb){ results.hltb = { fields:{} }; setSrcDot(dots.hltb, 'notfound'); return; }
-      results.hltb = { fields };
+      if(linkedSteamPre){
+        const data = await hltbSearchBySteam(linkedSteamPre);
+        const fields = hltbMapToFields(data);
+        if(!fields.hltb){ results.hltb = { fields:{} }; setSrcDot(dots.hltb, 'notfound'); return; }
+        results.hltb = { fields, hits: null, query: name };
+        setSrcDot(dots.hltb, 'found');
+        return;
+      }
+      const raw = await hltbSearch(name);
+      const hits = Array.isArray(raw) ? raw.slice() : (raw && (raw.story || raw.game_name) ? [raw] : []);
+      hits.sort((a,b) => nameSimilarity(b.game_name || b.name || '', name) - nameSimilarity(a.game_name || a.name || '', name));
+      const fields = hits.length ? hltbMapToFields(hits[0]) : {};
+      if(!fields.hltb){ results.hltb = { fields:{}, hits, query: name }; setSrcDot(dots.hltb, 'notfound'); return; }
+      results.hltb = { fields, hits, query: name };
       setSrcDot(dots.hltb, 'found');
     }catch(e){ results.hltb = { error: e.message }; setSrcDot(dots.hltb, 'error'); }
   })());
@@ -7040,13 +7064,11 @@ function randomRenderPages(){
   }).join('');
 }
 function randomPool(){
-  const effective = randomPages.size ? randomPages : new Set([
-    tab === 'series' || tab === 'bsides' || tab === 'radar' ? 'backlog' : (REAL_LISTS_SET.has(tab) ? tab : 'backlog')
-  ]);
+  if(!randomPages.size) return [];
   const seen = new Set();
   const out = [];
   for(const t of REAL_LISTS){
-    if(!effective.has(t)) continue;
+    if(!randomPages.has(t)) continue;
     for(const id of listFor(t)){
       if(seen.has(id)) continue;
       seen.add(id);
@@ -7272,6 +7294,7 @@ async function randomFinishSpin(winnerId, tintPromise, spinToken){
 }
 async function randomSpin(){
   if(randomSpinning) return;
+  if(!randomPages.size){ toast('Select at least one list', 'bad'); return; }
   const pool = randomPool();
   if(!pool.length){ toast('No games to pick from', 'bad'); return; }
   const myToken = ++randomSpinToken;
