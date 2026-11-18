@@ -1487,10 +1487,45 @@ async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
   if(!/^https?:/.test(sourceUrl)){ toast('Only http(s) URLs can be saved', 'bad'); return; }
   if(!getToken()){ showTokenPrompt(); return; }
   try{
-    const compressed = await seriesLogoCompressUrl(sourceUrl);
-    const imgRes = await fetch(compressed);
-    if(!imgRes.ok) throw new Error('Cloudinary HTTP ' + imgRes.status);
-    const bytes = new Uint8Array(await imgRes.arrayBuffer());
+    let imgRes;
+    try{
+      imgRes = await fetch(sourceUrl);
+      if(!imgRes.ok) throw new Error('HTTP ' + imgRes.status);
+    }catch(_){
+      imgRes = await corsfix.fetch(sourceUrl);
+      if(!imgRes.ok) throw new Error('Image fetch HTTP ' + imgRes.status);
+    }
+    const srcBlob = await imgRes.blob();
+    const objUrl = URL.createObjectURL(srcBlob);
+    let pngBlob;
+    try{
+      const img = await new Promise((resolve, reject) => {
+        const im = new Image();
+        im.onload = () => resolve(im);
+        im.onerror = () => reject(new Error('Invalid image'));
+        im.src = objUrl;
+      });
+      const nw = img.naturalWidth || 1000;
+      const nh = img.naturalHeight || 300;
+      const maxW = nh > nw ? 300 : 2000;
+      const maxH = nh > nw ? 2000 : 300;
+      const scale = Math.min(1, maxW / nw, maxH / nh);
+      const w = Math.max(1, Math.round(nw * scale));
+      const h = Math.max(1, Math.round(nh * scale));
+      const canvas = document.createElement('canvas');
+      canvas.width = w;
+      canvas.height = h;
+      const ctx = canvas.getContext('2d');
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'high';
+      ctx.drawImage(img, 0, 0, w, h);
+      pngBlob = await new Promise((resolve, reject) => {
+        canvas.toBlob(b => b ? resolve(b) : reject(new Error('PNG encode failed')), 'image/png');
+      });
+    }finally{
+      URL.revokeObjectURL(objUrl);
+    }
+    const bytes = new Uint8Array(await pngBlob.arrayBuffer());
     let bin = '';
     for(let i = 0; i < bytes.length; i += 0x8000){
       bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
