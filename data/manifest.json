@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T23:21:03Z",
+  "updated": "2026-11-18T23:22:27Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40822,7 +40822,7 @@
     "yakuza": {
       "id": "yakuza",
       "name": "Yakuza",
-      "logo": "https://cdn2.steamgriddb.com/logo/5943a6c821a417791dffc82b4b6268a8.png",
+      "logo": "images/series/yakuza.png",
       "order": [
         "yakuza-2005-ps2",
         "yakuza-2-2006-ps2",
