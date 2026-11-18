@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T19:33:14Z",
+  "updated": "2026-11-18T19:36:10Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39090,7 +39090,7 @@
       },
       "series": "yakuza",
       "series_status": null,
-      "series_note": null
+      "series_note": "Japanese only originally, English patch exists."
     }
   },
   "lists": {
