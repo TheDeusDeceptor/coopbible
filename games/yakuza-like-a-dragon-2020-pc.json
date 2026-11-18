@@ -1,0 +1,38 @@
+{
+  "id": "yakuza-like-a-dragon-2020-pc",
+  "name": "Yakuza: Like a Dragon",
+  "platform": "PC",
+  "size": "40 GB",
+  "hltb": "Main: 46, +Extra: 68",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "10.11.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/yakuza-like-a-dragon-2020-pc.jpg",
+  "logo": "images/logos/yakuza-like-a-dragon-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1235140",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Yakuza%3A_Like_a_Dragon",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

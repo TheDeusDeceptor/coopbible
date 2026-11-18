@@ -1,0 +1,38 @@
+{
+  "id": "like-a-dragon-ishin-2023-pc",
+  "name": "Like a Dragon: Ishin!",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 24, +Extra: 45",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "21.02.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/like-a-dragon-ishin-2023-pc.jpg",
+  "logo": "images/logos/like-a-dragon-ishin-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1805480",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Like_a_Dragon%3A_Ishin!",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

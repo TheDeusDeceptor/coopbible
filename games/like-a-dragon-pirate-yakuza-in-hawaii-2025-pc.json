@@ -1,0 +1,38 @@
+{
+  "id": "like-a-dragon-pirate-yakuza-in-hawaii-2025-pc",
+  "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+  "platform": "PC",
+  "size": "56 GB",
+  "hltb": "Main: 17, +Extra: 32",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "20.02.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/like-a-dragon-pirate-yakuza-in-hawaii-2025-pc.jpg",
+  "logo": "images/logos/like-a-dragon-pirate-yakuza-in-hawaii-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3061810",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Like_a_Dragon%3A_Pirate_Yakuza_in_Hawaii",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

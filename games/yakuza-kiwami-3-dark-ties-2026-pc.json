@@ -1,0 +1,38 @@
+{
+  "id": "yakuza-kiwami-3-dark-ties-2026-pc",
+  "name": "Yakuza Kiwami 3 & Dark Ties",
+  "platform": "PC",
+  "size": "58 GB",
+  "hltb": "Main: 16, +Extra: 32",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "11.02.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/yakuza-kiwami-3-dark-ties-2026-pc.jpg",
+  "logo": "images/logos/yakuza-kiwami-3-dark-ties-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3937550",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Yakuza_Kiwami_3_%26_Dark_Ties",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

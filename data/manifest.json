@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T20:11:48Z",
+  "updated": "2026-11-18T20:59:08Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39265,6 +39265,413 @@
       "series": "yakuza",
       "series_status": null,
       "series_note": null
+    },
+    "yakuza-kiwami-2025-pc": {
+      "id": "yakuza-kiwami-2025-pc",
+      "name": "Yakuza Kiwami",
+      "platform": "PC",
+      "size": "31 GB",
+      "hltb": "Main: 18, +Extra: 33",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "11.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-kiwami-2019-pc.jpg",
+      "logo": "images/logos/yakuza-kiwami-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3717330",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_Kiwami",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-kiwami-2-2025-pc": {
+      "id": "yakuza-kiwami-2-2025-pc",
+      "name": "Yakuza Kiwami 2",
+      "platform": "PC",
+      "size": "61 GB",
+      "hltb": "Main: 18, +Extra: 36",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "11.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-kiwami-2-2025-pc.jpg",
+      "logo": "images/logos/yakuza-kiwami-2-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3717340",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_Kiwami_2",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-kiwami-3-dark-ties-2026-pc": {
+      "id": "yakuza-kiwami-3-dark-ties-2026-pc",
+      "name": "Yakuza Kiwami 3 & Dark Ties",
+      "platform": "PC",
+      "size": "58 GB",
+      "hltb": "Main: 16, +Extra: 32",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "11.02.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-kiwami-3-dark-ties-2026-pc.jpg",
+      "logo": "images/logos/yakuza-kiwami-3-dark-ties-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3937550",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_Kiwami_3_%26_Dark_Ties",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "fist-of-the-north-star-lost-paradise-2018-ps4": {
+      "id": "fist-of-the-north-star-lost-paradise-2018-ps4",
+      "name": "Fist of the North Star: Lost Paradise",
+      "platform": "PS4",
+      "size": "",
+      "hltb": "Main: 19, +Extra: 32",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "08.03.2018",
+      "ea_release": "",
+      "screenshot": "images/screenshots/fist-of-the-north-star-lost-paradise-2018-ps4.jpg",
+      "logo": "images/logos/fist-of-the-north-star-lost-paradise-2018-ps4.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": "optional",
+      "series_note": "Different franchise."
+    },
+    "yakuza-like-a-dragon-2020-pc": {
+      "id": "yakuza-like-a-dragon-2020-pc",
+      "name": "Yakuza: Like a Dragon",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 46, +Extra: 68",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "10.11.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-like-a-dragon-2020-pc.jpg",
+      "logo": "images/logos/yakuza-like-a-dragon-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1235140",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza%3A_Like_a_Dragon",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "judgment-2022-pc": {
+      "id": "judgment-2022-pc",
+      "name": "Judgment",
+      "platform": "PC",
+      "size": "40 GB",
+      "hltb": "Main: 28, +Extra: 46",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "14.09.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/judgment-2022-pc.jpg",
+      "logo": "images/logos/judgment-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2058180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Judgment",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "lost-judgment-2022-pc": {
+      "id": "lost-judgment-2022-pc",
+      "name": "Lost Judgment",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 24, +Extra: 53",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "14.09.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/lost-judgment-2022-pc.jpg",
+      "logo": "images/logos/lost-judgment-2022-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Lost_Judgment",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2058190",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "like-a-dragon-ishin-2023-pc": {
+      "id": "like-a-dragon-ishin-2023-pc",
+      "name": "Like a Dragon: Ishin!",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 24, +Extra: 45",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "21.02.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/like-a-dragon-ishin-2023-pc.jpg",
+      "logo": "images/logos/like-a-dragon-ishin-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1805480",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Like_a_Dragon%3A_Ishin!",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc": {
+      "id": "like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc",
+      "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+      "platform": "PC",
+      "size": "98 GB",
+      "hltb": "Main: 12, +Extra: 21",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "08.11.2023",
+      "ea_release": "",
+      "screenshot": "images/screenshots/like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc.jpg",
+      "logo": "images/logos/like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2375550",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Like_a_Dragon_Gaiden%3A_The_Man_Who_Erased_His_Name",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "like-a-dragon-infinite-wealth-2024-pc": {
+      "id": "like-a-dragon-infinite-wealth-2024-pc",
+      "name": "Like a Dragon: Infinite Wealth",
+      "platform": "PC",
+      "size": "82 GB",
+      "hltb": "Main: 57, +Extra: 84",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "25.01.2024",
+      "ea_release": "",
+      "screenshot": "images/screenshots/like-a-dragon-infinite-wealth-2024-pc.jpg",
+      "logo": "images/logos/like-a-dragon-infinite-wealth-2024-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2072450",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Like_a_Dragon%3A_Infinite_Wealth",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "like-a-dragon-pirate-yakuza-in-hawaii-2025-pc": {
+      "id": "like-a-dragon-pirate-yakuza-in-hawaii-2025-pc",
+      "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "platform": "PC",
+      "size": "56 GB",
+      "hltb": "Main: 17, +Extra: 32",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "20.02.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/like-a-dragon-pirate-yakuza-in-hawaii-2025-pc.jpg",
+      "logo": "images/logos/like-a-dragon-pirate-yakuza-in-hawaii-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3061810",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Like_a_Dragon%3A_Pirate_Yakuza_in_Hawaii",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -40206,6 +40613,17 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "like-a-dragon-pirate-yakuza-in-hawaii-2025-pc",
+      "like-a-dragon-infinite-wealth-2024-pc",
+      "like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc",
+      "like-a-dragon-ishin-2023-pc",
+      "lost-judgment-2022-pc",
+      "judgment-2022-pc",
+      "yakuza-like-a-dragon-2020-pc",
+      "fist-of-the-north-star-lost-paradise-2018-ps4",
+      "yakuza-kiwami-3-dark-ties-2026-pc",
+      "yakuza-kiwami-2-2025-pc",
+      "yakuza-kiwami-2025-pc",
       "yakuza-6-the-song-of-life-2021-pc",
       "yakuza-0-2018-pc",
       "yakuza-5-remastered-2021-pc",
@@ -40374,8 +40792,19 @@
         "yakuza-4-remastered-2021-pc",
         "yakuza-dead-souls-2011-ps3",
         "yakuza-5-remastered-2021-pc",
+        "like-a-dragon-ishin-2023-pc",
         "yakuza-0-2018-pc",
-        "yakuza-6-the-song-of-life-2021-pc"
+        "yakuza-6-the-song-of-life-2021-pc",
+        "yakuza-kiwami-2025-pc",
+        "yakuza-kiwami-2-2025-pc",
+        "yakuza-kiwami-3-dark-ties-2026-pc",
+        "fist-of-the-north-star-lost-paradise-2018-ps4",
+        "yakuza-like-a-dragon-2020-pc",
+        "judgment-2022-pc",
+        "lost-judgment-2022-pc",
+        "like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc",
+        "like-a-dragon-infinite-wealth-2024-pc",
+        "like-a-dragon-pirate-yakuza-in-hawaii-2025-pc"
       ],
       "display": {
         "yakuza-3-remastered-2021-pc": {
@@ -40395,6 +40824,24 @@
         },
         "yakuza-6-the-song-of-life-2021-pc": {
           "display_release": "2016 (2021)"
+        },
+        "yakuza-0-2018-pc": {
+          "display_release": "2015 (2018)"
+        },
+        "yakuza-kiwami-2025-pc": {
+          "display_release": "2016 (2019)"
+        },
+        "yakuza-kiwami-2-2025-pc": {
+          "display_release": "2017 (2019)"
+        },
+        "judgment-2022-pc": {
+          "display_release": "2018 (2022)"
+        },
+        "lost-judgment-2022-pc": {
+          "display_release": "2021 (2022)"
+        },
+        "like-a-dragon-ishin-2023-pc": {
+          "display_release": "2014 (2023)"
         }
       }
     }

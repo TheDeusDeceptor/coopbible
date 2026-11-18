@@ -1,0 +1,38 @@
+{
+  "id": "like-a-dragon-infinite-wealth-2024-pc",
+  "name": "Like a Dragon: Infinite Wealth",
+  "platform": "PC",
+  "size": "82 GB",
+  "hltb": "Main: 57, +Extra: 84",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "25.01.2024",
+  "ea_release": "",
+  "screenshot": "images/screenshots/like-a-dragon-infinite-wealth-2024-pc.jpg",
+  "logo": "images/logos/like-a-dragon-infinite-wealth-2024-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2072450",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Like_a_Dragon%3A_Infinite_Wealth",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

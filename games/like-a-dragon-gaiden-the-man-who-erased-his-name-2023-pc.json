@@ -1,0 +1,38 @@
+{
+  "id": "like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc",
+  "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+  "platform": "PC",
+  "size": "98 GB",
+  "hltb": "Main: 12, +Extra: 21",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "08.11.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc.jpg",
+  "logo": "images/logos/like-a-dragon-gaiden-the-man-who-erased-his-name-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2375550",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Like_a_Dragon_Gaiden%3A_The_Man_Who_Erased_His_Name",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

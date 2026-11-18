@@ -1,0 +1,27 @@
+{
+  "id": "fist-of-the-north-star-lost-paradise-2018-ps4",
+  "name": "Fist of the North Star: Lost Paradise",
+  "platform": "PS4",
+  "size": "",
+  "hltb": "Main: 19, +Extra: 32",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "08.03.2018",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fist-of-the-north-star-lost-paradise-2018-ps4.jpg",
+  "logo": "images/logos/fist-of-the-north-star-lost-paradise-2018-ps4.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": "optional",
+  "series_note": "Different franchise."
+}

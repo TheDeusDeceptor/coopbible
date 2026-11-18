@@ -1,0 +1,38 @@
+{
+  "id": "lost-judgment-2022-pc",
+  "name": "Lost Judgment",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 24, +Extra: 53",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "14.09.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/lost-judgment-2022-pc.jpg",
+  "logo": "images/logos/lost-judgment-2022-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Lost_Judgment",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2058190",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}
