@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T21:07:54Z",
+  "updated": "2026-11-18T22:03:53Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40884,9 +40884,17 @@
           "display_release": "2014 (2023)"
         }
       }
+    },
+    "fatalframe": {
+      "id": "fatalframe",
+      "name": "Fatal Frame",
+      "logo": "images/logos/fatalframe.png",
+      "order": [],
+      "display": {}
     }
   },
   "series_order": [
-    "yakuza"
+    "yakuza",
+    "fatalframe"
   ]
 }
