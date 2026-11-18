@@ -1,0 +1,38 @@
+{
+  "id": "yakuza-3-remastered-2021-pc",
+  "name": "Yakuza 3 Remastered",
+  "platform": "PC",
+  "size": "26 GB",
+  "hltb": "Main: 17, +Extra: 31",
+  "dev": "Ryu Ga Gotoku Studio",
+  "pub": "SEGA",
+  "notes": "",
+  "release": "28.01.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/yakuza-3-2009-ps3.jpg",
+  "logo": "images/logos/yakuza-3-remastered-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1088710",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Yakuza_3_Remastered",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "yakuza",
+  "series_status": null,
+  "series_note": null
+}

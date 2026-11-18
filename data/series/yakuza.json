@@ -3,7 +3,10 @@
   "name": "Yakuza",
   "logo": "https://cdn2.steamgriddb.com/logo/5943a6c821a417791dffc82b4b6268a8.png",
   "order": [
-    "yakuza-2005-ps2"
+    "yakuza-2005-ps2",
+    "yakuza-2-2006-ps2",
+    "ry-ga-gotoku-kenzan-2008-ps3",
+    "yakuza-3-remastered-2021-pc"
   ],
   "display": {}
 }

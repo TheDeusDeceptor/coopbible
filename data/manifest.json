@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-18T19:06:55Z",
+  "updated": "2026-11-18T19:24:54Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -38999,6 +38999,98 @@
       "series": "yakuza",
       "series_status": null,
       "series_note": null
+    },
+    "yakuza-2-2006-ps2": {
+      "id": "yakuza-2-2006-ps2",
+      "name": "Yakuza 2",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 19, +Extra: 27",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "07.12.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-2-2006-ps2.jpg",
+      "logo": "images/logos/yakuza-2-2006-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "ry-ga-gotoku-kenzan-2008-ps3": {
+      "id": "ry-ga-gotoku-kenzan-2008-ps3",
+      "name": "Ryū ga Gotoku Kenzan!",
+      "platform": "PS3",
+      "size": "",
+      "hltb": "Main: 19, +Extra: 33",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "06.03.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ry-ga-gotoku-kenzan-2008-ps3.jpg",
+      "logo": "images/logos/ry-ga-gotoku-kenzan-2008-ps3.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
+    },
+    "yakuza-3-remastered-2021-pc": {
+      "id": "yakuza-3-remastered-2021-pc",
+      "name": "Yakuza 3 Remastered",
+      "platform": "PC",
+      "size": "26 GB",
+      "hltb": "Main: 17, +Extra: 31",
+      "dev": "Ryu Ga Gotoku Studio",
+      "pub": "SEGA",
+      "notes": "",
+      "release": "28.01.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/yakuza-3-2009-ps3.jpg",
+      "logo": "images/logos/yakuza-3-remastered-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1088710",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Yakuza_3_Remastered",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "yakuza",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -39940,6 +40032,9 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "yakuza-3-remastered-2021-pc",
+      "ry-ga-gotoku-kenzan-2008-ps3",
+      "yakuza-2-2006-ps2",
       "yakuza-2005-ps2",
       "you-are-empty-absolute-edition-2026-pc",
       "judge-dredd-dredd-vs-death-2003-pc",
@@ -40093,7 +40188,10 @@
       "name": "Yakuza",
       "logo": "https://cdn2.steamgriddb.com/logo/5943a6c821a417791dffc82b4b6268a8.png",
       "order": [
-        "yakuza-2005-ps2"
+        "yakuza-2005-ps2",
+        "yakuza-2-2006-ps2",
+        "ry-ga-gotoku-kenzan-2008-ps3",
+        "yakuza-3-remastered-2021-pc"
       ],
       "display": {}
     }
