@@ -1504,11 +1504,9 @@ async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
         im.onerror = () => reject(new Error('Invalid image'));
         im.src = objUrl;
       });
-      const nw = img.naturalWidth || 1000;
-      const nh = img.naturalHeight || 300;
-      const maxW = nh > nw ? 300 : 2000;
-      const maxH = nh > nw ? 2000 : 300;
-      const scale = Math.min(1, maxW / nw, maxH / nh);
+      const nw = img.naturalWidth || 400;
+      const nh = img.naturalHeight || 400;
+      const scale = Math.min(1, 400 / Math.max(nw, nh));
       const w = Math.max(1, Math.round(nw * scale));
       const h = Math.max(1, Math.round(nh * scale));
       const canvas = document.createElement('canvas');
@@ -3419,8 +3417,36 @@ function steamMapToFields(data){
   return out;
 }
 async function hltbSearch(name){
-  const cleanName = String(name || '').replace(/[^\w\s]/gi, ' ').replace(/\s+/g, ' ').trim();
-  const res = await fetch(PROXY_URL + '?action=hltb&q=' + encodeURIComponent(cleanName));
+  const cleanName = String(name || '').replace(/[\u2018\u2019]/g, "'").replace(/[^\w\s']/gi, ' ').replace(/\s+/g, ' ').trim();
+  if(document.documentElement.dataset.hltbBridge === '1'){
+    const terms = cleanName.split(' ').filter(Boolean);
+    if(terms.length){
+      try{
+        const data = await new Promise((resolve, reject) => {
+          const id = 'h_' + Math.random().toString(36).slice(2);
+          const timer = setTimeout(() => { window.removeEventListener('message', onMsg); reject(new Error('HLTB bridge timeout')); }, 15000);
+          function onMsg(e){
+            if(e.source !== window || !e.data || e.data.type !== 'cv-hltb-res' || e.data.id !== id) return;
+            clearTimeout(timer);
+            window.removeEventListener('message', onMsg);
+            if(e.data.ok) resolve(e.data.data);
+            else reject(new Error(e.data.error || 'HLTB bridge error'));
+          }
+          window.addEventListener('message', onMsg);
+          window.postMessage({ type: 'cv-hltb-req', id, terms }, '*');
+        });
+        const toH = sec => (sec && sec > 0 && sec / 3600 <= 999) ? Math.round((sec / 3600) * 10) / 10 : null;
+        return (data && Array.isArray(data.data) ? data.data : []).map(row => ({
+          game_name: row.game_name || '',
+          story: toH(row.comp_main),
+          extras: toH(row.comp_plus),
+          completionist: toH(row.comp_100)
+        })).filter(r => r.story !== null || r.extras !== null || r.completionist !== null);
+      }catch(err){ console.warn('HLTB bridge failed, falling back to proxy:', err); }
+    }
+  }
+  const proxyQ = cleanName.replace(/'/g, ' ').replace(/\s+/g, ' ').trim();
+  const res = await fetch(PROXY_URL + '?action=hltb&q=' + encodeURIComponent(proxyQ));
   if(!res.ok) throw new Error('HLTB proxy HTTP ' + res.status);
   const data = await res.json();
   if(data && data.error) throw new Error(data.error);
@@ -6559,19 +6585,24 @@ async function runParse(){
   if((hasName || linkedSteamPre) && !locked.has('hltb')) tasks.push((async () => {
     try{
       if(linkedSteamPre){
-        const data = await hltbSearchBySteam(linkedSteamPre);
-        const fields = hltbMapToFields(data);
-        if(!fields.hltb){ results.hltb = { fields:{} }; setSrcDot(dots.hltb, 'notfound'); return; }
-        results.hltb = { fields, hits: null, query: name };
-        setSrcDot(dots.hltb, 'found');
-        return;
+        try{
+          const data = await hltbSearchBySteam(linkedSteamPre);
+          const fields = hltbMapToFields(data);
+          if(fields.hltb){
+            results.hltb = { fields, hits: null, query: name };
+            setSrcDot(dots.hltb, 'found');
+            return;
+          }
+        }catch(_){}
       }
-      const raw = await hltbSearch(name);
+      const qName = (nameInput?.value || name || '').trim();
+      if(!qName){ results.hltb = { fields:{} }; setSrcDot(dots.hltb, 'notfound'); return; }
+      const raw = await hltbSearch(qName);
       const hits = Array.isArray(raw) ? raw.slice() : (raw && (raw.story || raw.game_name) ? [raw] : []);
-      hits.sort((a,b) => nameSimilarity(b.game_name || b.name || '', name) - nameSimilarity(a.game_name || a.name || '', name));
+      hits.sort((a,b) => nameSimilarity(b.game_name || b.name || '', qName) - nameSimilarity(a.game_name || a.name || '', qName));
       const fields = hits.length ? hltbMapToFields(hits[0]) : {};
-      if(!fields.hltb){ results.hltb = { fields:{}, hits, query: name }; setSrcDot(dots.hltb, 'notfound'); return; }
-      results.hltb = { fields, hits, query: name };
+      if(!fields.hltb){ results.hltb = { fields:{}, hits, query: qName }; setSrcDot(dots.hltb, 'notfound'); return; }
+      results.hltb = { fields, hits, query: qName };
       setSrcDot(dots.hltb, 'found');
     }catch(e){ results.hltb = { error: e.message }; setSrcDot(dots.hltb, 'error'); }
   })());
