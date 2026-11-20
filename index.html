@@ -1204,7 +1204,7 @@
 <div class="toast" id="toast"></div>
 <script>
 /* ═══ CONFIG ═══ */
-const PROXY_URL = 'https://script.google.com/macros/s/AKfycbx53crSCIWCDRVuAtNpL4D2E_kBJXwRQTa5gUXY9LMAVSGwjdBWPE3gvh8Acvmao1kr/exec';
+const PROXY_URL = 'https://coopbible-proxy.maximal-myr.workers.dev';
 const GITHUB_OWNER = 'TheDeusDeceptor';
 const GITHUB_REPO  = 'coopbible';
 const PAGES_BASE   = 'https://thedeusdeceptor.github.io/coopbible/';
@@ -1491,7 +1491,7 @@ async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
       imgRes = await fetch(sourceUrl);
       if(!imgRes.ok) throw new Error('HTTP ' + imgRes.status);
     }catch(_){
-      imgRes = await corsfix.fetch(sourceUrl);
+      imgRes = await fetch(PROXY_URL + '?action=fetch&url=' + encodeURIComponent(sourceUrl));
       if(!imgRes.ok) throw new Error('Image fetch HTTP ' + imgRes.status);
     }
     const srcBlob = await imgRes.blob();
@@ -1530,9 +1530,9 @@ async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
     const b64 = btoa(bin);
     const safeSlug = String(slug).replace(/[^a-z0-9-]/gi, '').toLowerCase();
     const path = 'images/series/' + safeSlug + '.png';
-    const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
+    const sApiUrl = 'https://api.github.com/repos/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/contents/' + path;
     let sha = null;
-    const existRes = await ghFetch(apiUrl);
+    const existRes = await ghFetch(sApiUrl, { cache: 'no-store' });
     if(existRes.status === 200){
       sha = (await existRes.json()).sha;
     } else if(existRes.status !== 404){
@@ -1540,7 +1540,7 @@ async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
     }
     const body = { message: (sha ? 'Update ' : 'Add ') + path, content: b64, branch: 'main' };
     if(sha) body.sha = sha;
-    const putRes = await ghFetch(apiUrl, {
+    const putRes = await ghFetch(sApiUrl, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body)
@@ -2544,11 +2544,11 @@ async function scanVideos(){
       if(myToken !== videoScanToken) return;
       const item = queue.shift();
       try{
-        const res = await corsfix.fetch(item.url, { method: 'HEAD' });
+        const res = await fetch(PROXY_URL + '?action=videohead&url=' + encodeURIComponent(item.url));
         if(myToken !== videoScanToken) return;
-        item.status = res.status;
-        const cl = res.headers.get('content-length');
-        item.size = cl ? parseInt(cl, 10) || 0 : 0;
+        const data = await res.json();
+        item.status = data.status || 0;
+        item.size = data.size || 0;
       }catch(e){ item.status = 0; }
       done++;
       if(myToken !== videoScanToken) return;
@@ -2579,7 +2579,7 @@ async function downloadSelectedVideos(){
     if(!item) continue;
     dlBtn.textContent = 'Downloading ' + (i + 1) + '/' + cbs.length + '…';
     try{
-      const res = await corsfix.fetch(item.url);
+      const res = await fetch(PROXY_URL + '?action=fetch&url=' + encodeURIComponent(item.url));
       if(!res.ok) throw new Error('HTTP ' + res.status);
       const blob = await res.blob();
       const ext = /\.webm(\?|$)/i.test(item.url) ? 'webm' : 'mp4';
@@ -3417,36 +3417,8 @@ function steamMapToFields(data){
   return out;
 }
 async function hltbSearch(name){
-  const cleanName = String(name || '').replace(/[\u2018\u2019]/g, "'").replace(/[^\w\s']/gi, ' ').replace(/\s+/g, ' ').trim();
-  if(document.documentElement.dataset.hltbBridge === '1'){
-    const terms = cleanName.split(' ').filter(Boolean);
-    if(terms.length){
-      try{
-        const data = await new Promise((resolve, reject) => {
-          const id = 'h_' + Math.random().toString(36).slice(2);
-          const timer = setTimeout(() => { window.removeEventListener('message', onMsg); reject(new Error('HLTB bridge timeout')); }, 15000);
-          function onMsg(e){
-            if(e.source !== window || !e.data || e.data.type !== 'cv-hltb-res' || e.data.id !== id) return;
-            clearTimeout(timer);
-            window.removeEventListener('message', onMsg);
-            if(e.data.ok) resolve(e.data.data);
-            else reject(new Error(e.data.error || 'HLTB bridge error'));
-          }
-          window.addEventListener('message', onMsg);
-          window.postMessage({ type: 'cv-hltb-req', id, terms }, '*');
-        });
-        const toH = sec => (sec && sec > 0 && sec / 3600 <= 999) ? Math.round((sec / 3600) * 10) / 10 : null;
-        return (data && Array.isArray(data.data) ? data.data : []).map(row => ({
-          game_name: row.game_name || '',
-          story: toH(row.comp_main),
-          extras: toH(row.comp_plus),
-          completionist: toH(row.comp_100)
-        })).filter(r => r.story !== null || r.extras !== null || r.completionist !== null);
-      }catch(err){ console.warn('HLTB bridge failed, falling back to proxy:', err); }
-    }
-  }
-  const proxyQ = cleanName.replace(/'/g, ' ').replace(/\s+/g, ' ').trim();
-  const res = await fetch(PROXY_URL + '?action=hltb&q=' + encodeURIComponent(proxyQ));
+  const hltbClean = String(name || '').replace(/[\u2018\u2019]/g, "'").replace(/[^\w\s']/gi, ' ').replace(/\s+/g, ' ').trim();
+  const res = await fetch(PROXY_URL + '?action=hltb&q=' + encodeURIComponent(hltbClean));
   if(!res.ok) throw new Error('HLTB proxy HTTP ' + res.status);
   const data = await res.json();
   if(data && data.error) throw new Error(data.error);
@@ -3847,17 +3819,74 @@ async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
   if(!sourceUrl){ toast('Nothing to save', 'bad'); return; }
   if(/^images\//.test(sourceUrl)){ toast('Already local'); return; }
   if(!/^https?:/.test(sourceUrl)){ toast('Only http(s) URLs can be saved', 'bad'); return; }
+  if(!getToken()){ showTokenPrompt(); return; }
+  const isShot = kind === 'screenshot';
   try{
-    const url = PROXY_URL + '?action=saveimage'
-      + '&kind=' + encodeURIComponent(kind)
-      + '&gameId=' + encodeURIComponent(gameId)
-      + '&url=' + encodeURIComponent(sourceUrl);
-    const res = await fetch(url);
-    if(!res.ok) throw new Error('saveimage HTTP ' + res.status);
-    const data = await res.json();
-    if(data && data.error) throw new Error(data.error);
-    const path = data.path;
-    if(!path) throw new Error('No path returned from proxy');
+    let imgRes;
+    try{
+      imgRes = await fetch(sourceUrl);
+      if(!imgRes.ok) throw new Error('HTTP ' + imgRes.status);
+    }catch(_){
+      imgRes = await fetch(PROXY_URL + '?action=fetch&url=' + encodeURIComponent(sourceUrl));
+      if(!imgRes.ok) throw new Error('Image fetch HTTP ' + imgRes.status);
+    }
+    const srcBlob = await imgRes.blob();
+    const objUrl = URL.createObjectURL(srcBlob);
+    let outBlob;
+    try{
+      const img = await new Promise((resolve, reject) => {
+        const im = new Image();
+        im.onload = () => resolve(im);
+        im.onerror = () => reject(new Error('Invalid image'));
+        im.src = objUrl;
+      });
+      const nw = img.naturalWidth || (isShot ? 1280 : 400);
+      const nh = img.naturalHeight || (isShot ? 720 : 400);
+      const scale = isShot ? Math.min(1, 720 / nh) : Math.min(1, 400 / Math.max(nw, nh));
+      const w = Math.max(1, Math.round(nw * scale));
+      const h = Math.max(1, Math.round(nh * scale));
+      const canvas = document.createElement('canvas');
+      canvas.width = w;
+      canvas.height = h;
+      const ctx = canvas.getContext('2d');
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'high';
+      if(isShot){ ctx.fillStyle = '#000'; ctx.fillRect(0, 0, w, h); }
+      ctx.drawImage(img, 0, 0, w, h);
+      const mime = isShot ? 'image/jpeg' : 'image/png';
+      outBlob = await new Promise((resolve, reject) => {
+        canvas.toBlob(b => b ? resolve(b) : reject(new Error('Encode failed')), mime, isShot ? 0.9 : undefined);
+      });
+    }finally{
+      URL.revokeObjectURL(objUrl);
+    }
+    const bytes = new Uint8Array(await outBlob.arrayBuffer());
+    let bin = '';
+    for(let i = 0; i < bytes.length; i += 0x8000){
+      bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    }
+    const b64 = btoa(bin);
+    const safeId = String(gameId).replace(/[^a-z0-9-]/gi, '').toLowerCase();
+    const path = 'images/' + (isShot ? 'screenshots/' : 'logos/') + safeId + (isShot ? '.jpg' : '.png');
+    const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
+    let sha = null;
+    const existRes = await ghFetch(apiUrl, { cache: 'no-store' });
+    if(existRes.status === 200){
+      sha = (await existRes.json()).sha;
+    } else if(existRes.status !== 404){
+      throw new Error('GitHub check HTTP ' + existRes.status);
+    }
+    const body = { message: (sha ? 'Update ' : 'Add ') + path, content: b64, branch: 'main' };
+    if(sha) body.sha = sha;
+    const putRes = await ghFetch(apiUrl, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if(!putRes.ok){
+      const errTxt = await putRes.text().catch(() => '');
+      throw new Error('GitHub PUT HTTP ' + putRes.status + (errTxt ? ': ' + errTxt.slice(0, 120) : ''));
+    }
     onDone(path);
   }catch(e){
     toast('Save failed: ' + e.message, 'bad');
