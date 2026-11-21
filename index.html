@@ -274,6 +274,9 @@
   .series-game-row.pending-del{background:rgba(239,68,68,.05);}
   .series-game-row .g-title{color:#eef2f7;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:flex;align-items:center;gap:.5rem;}
   .series-game-row .g-title .type-icon{width:14px;height:14px;flex-shrink:0;color:var(--accent);}
+  .series-game-row .g-title-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;}
+  .fmt-btn{display:flex;align-items:center;gap:.45rem;width:100%;padding:.32rem .55rem;border:1px solid var(--border);border-radius:6px;background:rgba(255,255,255,.02);color:#cbd5e1;font-family:var(--font-body);font-size:.76rem;cursor:pointer;text-align:left;transition:all .14s ease;}
+  .fmt-btn:hover{border-color:var(--accent-line);background:var(--accent-soft);color:#fff;}
   .series-game-row .g-year,.series-game-row .g-platform{color:#d5dde8;font-family:var(--font-body);font-size:.84rem;font-weight:500;font-variant-numeric:tabular-nums;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .series-game-row .g-hltb{color:#cbd5e1;font-family:var(--font-body);font-size:.83rem;font-weight:500;font-variant-numeric:tabular-nums;white-space:nowrap;}
   .series-game-row .g-hltb .sep{color:var(--muted);font-weight:400;margin:0 .26em;font-size:.88em;}
@@ -4284,6 +4287,34 @@ function fmtSeriesText(raw){
   s = s.replace(/(?<![A-Za-z0-9])_([^_]+?)_(?![A-Za-z0-9])/g, '<span class="fmt-muted">$1</span>');
   return s;
 }
+function bindFormatButtons(host, defaultSel){
+  let activeInp = host.querySelector(defaultSel);
+  host.querySelectorAll('input[type="text"]').forEach(inp => {
+    inp.addEventListener('focus', () => { activeInp = inp; });
+  });
+  host.querySelectorAll('.fmt-btn').forEach(btn => {
+    btn.addEventListener('mousedown', e => e.preventDefault());
+    btn.addEventListener('click', () => {
+      const inp = activeInp || host.querySelector(defaultSel);
+      if(!inp) return;
+      const tok = btn.dataset.tok || '';
+      const val = inp.value;
+      const s = inp.selectionStart ?? val.length;
+      const e = inp.selectionEnd ?? val.length;
+      if(s !== e && val.slice(s - tok.length, s) === tok && val.slice(e, e + tok.length) === tok){
+        inp.value = val.slice(0, s - tok.length) + val.slice(s, e) + val.slice(e + tok.length);
+        inp.focus();
+        inp.setSelectionRange(s - tok.length, e - tok.length);
+      } else {
+        const sel = val.slice(s, e);
+        inp.value = val.slice(0, s) + tok + sel + tok + val.slice(e);
+        inp.focus();
+        if(sel) inp.setSelectionRange(s + tok.length, e + tok.length);
+        else inp.setSelectionRange(s + tok.length, s + tok.length);
+      }
+    });
+  });
+}
 function seriesRowHTML(g, disp, slug){
   const d = disp || {};
   const displayName = d.display_name || g.name;
@@ -4291,7 +4322,7 @@ function seriesRowHTML(g, disp, slug){
   const displayPlat  = d.display_platform || g.platform || '';
   return `
     <div class="series-game-row" data-id="${esc(g.id)}" data-series="${esc(slug)}">
-      <div class="g-title" title="${esc(displayName)}">${fmtSeriesText(displayName)}</div>
+      <div class="g-title" title="${esc(displayName)}"><span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
       <div class="g-year">${fmtSeriesText(displayYear)}</div>
       <div class="g-platform">${fmtSeriesText(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
@@ -4308,7 +4339,7 @@ function seriesRowAdminHTML(g, disp, idx, slug){
   const pend = pendingClassFor(g.id);
   return `
     <div class="series-game-row${pend}" data-id="${esc(g.id)}" data-series="${esc(slug)}" data-idx="${idx}" draggable="true">
-      <div class="g-title" title="${esc(displayName)}">${fmtSeriesText(displayName)}</div>
+      <div class="g-title" title="${esc(displayName)}"><span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
       <div class="g-year">${fmtSeriesText(displayYear)}</div>
       <div class="g-platform">${fmtSeriesText(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
@@ -4375,7 +4406,7 @@ function bsidesGameRowHTML(g, disp, slug, idx){
       </div>` : '';
   return `
     <div class="series-game-row game${pend}" data-bsides-slug="${esc(slug)}" data-bsides-idx="${idx}" data-id="${esc(g.id)}" ${adminMode ? 'draggable="true"' : ''}>
-      <div class="g-title" title="${esc(displayName)}">${BSIDES_GAME_ICON}${fmtSeriesText(displayName)}</div>
+      <div class="g-title" title="${esc(displayName)}">${BSIDES_GAME_ICON}<span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
       <div class="g-year">${fmtSeriesText(displayYear)}</div>
       <div class="g-platform">${fmtSeriesText(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
@@ -4395,7 +4426,7 @@ function bsidesMovieRowHTML(entry, slug, idx){
       </div>` : '';
   return `
     <div class="series-game-row movie" data-bsides-slug="${esc(slug)}" data-bsides-idx="${idx}" ${adminMode ? 'draggable="true"' : ''}>
-      <div class="g-title" title="${esc(entry.name || '')}">${BSIDES_FILM_ICON}${fmtSeriesText(entry.name || '')}</div>
+      <div class="g-title" title="${esc(entry.name || '')}">${BSIDES_FILM_ICON}<span class="g-title-txt">${fmtSeriesText(entry.name || '')}</span></div>
       <div class="g-year">${fmtSeriesText(entry.year || '')}</div>
       <div class="g-platform">${fmtSeriesText(entry.quality || '')}</div>
       <div class="g-hltb">${fmtSeriesText(entry.runtime || '')}</div>
@@ -6831,13 +6862,13 @@ function openSeriesRowDisplayEditor(slug, gameId){
           <label>Display platform</label>
           <input type="text" id="sr-platform" value="${esc(d.display_platform||'')}">
         </div>
-        <div class="plat-hint" style="margin-bottom:0;display:flex;flex-direction:column;gap:.25rem;">
-          <strong>Formatting tokens (combinable):</strong>
-          <span><code>*text*</code> → <em>italic</em></span>
-          <span><code>**text**</code> → <strong>bold</strong></span>
-          <span><code>~~text~~</code> → <span class="fmt-strike">strike</span></span>
-          <span><code>^text^</code> → <span class="fmt-small">smaller</span></span>
-          <span><code>_text_</code> → <span class="fmt-muted">muted</span></span>
+        <div class="plat-hint" style="margin-bottom:0;display:flex;flex-direction:column;gap:.3rem;">
+          <strong>Format selection (click to wrap/unwrap):</strong>
+          <button type="button" class="fmt-btn" data-tok="*"><code>*text*</code> → <em>italic</em></button>
+          <button type="button" class="fmt-btn" data-tok="**"><code>**text**</code> → <strong>bold</strong></button>
+          <button type="button" class="fmt-btn" data-tok="~~"><code>~~text~~</code> → <span class="fmt-strike">strike</span></button>
+          <button type="button" class="fmt-btn" data-tok="^"><code>^text^</code> → <span class="fmt-small">smaller</span></button>
+          <button type="button" class="fmt-btn" data-tok="_"><code>_text_</code> → <span class="fmt-muted">muted</span></button>
         </div>
       </div>
       <div class="token-actions" style="margin-top:1.2rem">
@@ -6847,6 +6878,7 @@ function openSeriesRowDisplayEditor(slug, gameId){
     </div>`;
   seriesBackdrop.classList.add('open');
   refreshScrollJumpVisibility();
+  bindFormatButtons(seriesSlot, '#sr-name');
   seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
   seriesSlot.querySelector('#sr-save').onclick = () => {
     const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(s));
@@ -7925,13 +7957,13 @@ contentEl.addEventListener('click', e => {
             <label>Display platform</label>
             <input type="text" id="bsr-platform" value="${esc(d.display_platform||'')}">
           </div>
-          <div class="plat-hint" id="bsr-fmt-hint" style="margin-bottom:0;display:flex;flex-direction:column;gap:.25rem;">
-            <strong>Formatting tokens (combinable):</strong>
-            <span><code>*text*</code> → <em>italic</em></span>
-            <span><code>**text**</code> → <strong>bold</strong></span>
-            <span><code>~~text~~</code> → <span class="fmt-strike">strike</span></span>
-            <span><code>^text^</code> → <span class="fmt-small">smaller</span></span>
-            <span><code>_text_</code> → <span class="fmt-muted">muted</span></span>
+          <div class="plat-hint" id="bsr-fmt-hint" style="margin-bottom:0;display:flex;flex-direction:column;gap:.3rem;">
+            <strong>Format selection (click to wrap/unwrap):</strong>
+            <button type="button" class="fmt-btn" data-tok="*"><code>*text*</code> → <em>italic</em></button>
+            <button type="button" class="fmt-btn" data-tok="**"><code>**text**</code> → <strong>bold</strong></button>
+            <button type="button" class="fmt-btn" data-tok="~~"><code>~~text~~</code> → <span class="fmt-strike">strike</span></button>
+            <button type="button" class="fmt-btn" data-tok="^"><code>^text^</code> → <span class="fmt-small">smaller</span></button>
+            <button type="button" class="fmt-btn" data-tok="_"><code>_text_</code> → <span class="fmt-muted">muted</span></button>
           </div>
         </div>
         <div class="token-actions" style="margin-top:1.2rem">
@@ -7941,6 +7973,7 @@ contentEl.addEventListener('click', e => {
       </div>`;
     seriesBackdrop.classList.add('open');
     refreshScrollJumpVisibility();
+    bindFormatButtons(seriesSlot, '#bsr-name');
     seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
     seriesSlot.querySelector('#bsr-save').onclick = () => {
       const block2 = BSIDES.data[slug];
