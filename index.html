@@ -249,7 +249,7 @@
   .series-block.drag-over{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);}
   .series-block.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.18)}
   .series-block.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.18)}
-  .series-banner{position:relative;background:#000;border-bottom:1px solid var(--border);padding:8px;display:flex;align-items:center;justify-content:center;min-height:92px;}
+  .series-banner{position:relative;background:#000;border-bottom:1px solid var(--border);padding:15px;display:flex;align-items:center;justify-content:center;min-height:92px;}
   .series-banner .logo-slot{display:flex;align-items:center;justify-content:center;}
   .series-banner .logo-slot img{max-height:150px;max-width:min(300px,100%);object-fit:contain;display:block;}
   .series-banner .logo-slot .ph{font-size:.62rem;letter-spacing:.16em}
@@ -268,7 +268,6 @@
   .series-game-row{display:grid;grid-template-columns:minmax(200px,1.8fr) 92px 100px 85px 66px 87px minmax(140px,1.3fr);gap:5px;align-items:center;padding:.58rem 1.25rem;border-bottom:1px solid var(--border);font-size:.86rem;cursor:pointer;transition:background .15s ease;position:relative;}
   body.admin-on .series-game-row{grid-template-columns:minmax(200px,1.8fr) 92px 100px 85px 66px 87px minmax(140px,1.3fr) 92px;}
   .series-game-row:last-child{border-bottom:none}
-  .series-game-row:nth-child(even){background:rgba(255,255,255,.022);}
   .series-game-row:hover{background:rgba(255,255,255,.045)}
   .series-game-row.drag-over{background:var(--accent-soft);}
   .series-game-row.pending{background:rgba(74,222,128,.05);}
@@ -6832,10 +6831,13 @@ function openSeriesRowDisplayEditor(slug, gameId){
           <label>Display platform</label>
           <input type="text" id="sr-platform" value="${esc(d.display_platform||'')}">
         </div>
-        <div class="plat-hint" style="margin-bottom:0">
-          <strong>Formatting tokens (can be combined):</strong><br>
-          <code>*text*</code> → <em>italic</em> · <code>**text**</code> → <strong>bold</strong> · <code>~~text~~</code> → <span class="fmt-strike">strike</span> · <code>^text^</code> → <span class="fmt-small">smaller</span> · <code>_text_</code> → <span class="fmt-muted">muted</span><br>
-          Example: <code>Yakuza 3 ^_*(Remastered)*_^</code> · <code>2009 ^_*(2021)*_^</code> · <code>~~PS3~~ PC</code>
+        <div class="plat-hint" style="margin-bottom:0;display:flex;flex-direction:column;gap:.25rem;">
+          <strong>Formatting tokens (combinable):</strong>
+          <span><code>*text*</code> → <em>italic</em></span>
+          <span><code>**text**</code> → <strong>bold</strong></span>
+          <span><code>~~text~~</code> → <span class="fmt-strike">strike</span></span>
+          <span><code>^text^</code> → <span class="fmt-small">smaller</span></span>
+          <span><code>_text_</code> → <span class="fmt-muted">muted</span></span>
         </div>
       </div>
       <div class="token-actions" style="margin-top:1.2rem">
@@ -7923,10 +7925,13 @@ contentEl.addEventListener('click', e => {
             <label>Display platform</label>
             <input type="text" id="bsr-platform" value="${esc(d.display_platform||'')}">
           </div>
-          <div class="plat-hint" id="bsr-fmt-hint" style="margin-bottom:0">
-            <strong>Formatting tokens (can be combined):</strong><br>
-            <code>*text*</code> → <em>italic</em> · <code>**text**</code> → <strong>bold</strong> · <code>~~text~~</code> → <span class="fmt-strike">strike</span> · <code>^text^</code> → <span class="fmt-small">smaller</span> · <code>_text_</code> → <span class="fmt-muted">muted</span><br>
-            Example: <code>Yakuza 3 ^_*(Remastered)*_^</code> · <code>2009 ^_*(2021)*_^</code> · <code>~~PS3~~ PC</code>
+          <div class="plat-hint" id="bsr-fmt-hint" style="margin-bottom:0;display:flex;flex-direction:column;gap:.25rem;">
+            <strong>Formatting tokens (combinable):</strong>
+            <span><code>*text*</code> → <em>italic</em></span>
+            <span><code>**text**</code> → <strong>bold</strong></span>
+            <span><code>~~text~~</code> → <span class="fmt-strike">strike</span></span>
+            <span><code>^text^</code> → <span class="fmt-small">smaller</span></span>
+            <span><code>_text_</code> → <span class="fmt-muted">muted</span></span>
           </div>
         </div>
         <div class="token-actions" style="margin-top:1.2rem">
