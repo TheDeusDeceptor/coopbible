@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-21T12:57:27Z",
+  "updated": "2026-11-21T13:45:54Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39708,7 +39708,7 @@
         "gamepass": false
       },
       "series": "yakuza",
-      "series_status": "done",
+      "series_status": null,
       "series_note": null
     }
   },
@@ -40848,13 +40848,13 @@
       ],
       "display": {
         "yakuza-3-remastered-2021-pc": {
-          "display_name": "Yakuza 3 (Remastered)",
-          "display_release": "2009 (2021)",
+          "display_name": "Yakuza 3 _(Remastered)_",
+          "display_release": "2009 _^*(2021)*^_",
           "display_platform": "PC"
         },
         "yakuza-4-remastered-2021-pc": {
-          "display_name": "Yakuza 4 (Remastered)",
-          "display_release": "2010 (2021)",
+          "display_name": "Yakuza 4 _^(Remastered)^_",
+          "display_release": "2010 _^*(2021)*^_",
           "display_platform": "PC"
         },
         "yakuza-5-remastered-2021-pc": {
