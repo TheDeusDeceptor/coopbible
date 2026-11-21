@@ -29,10 +29,10 @@
     "installed": false,
     "localCoop": false,
     "authRequired": false,
-    "ownedSteam": false,
+    "ownedSteam": true,
     "gamepass": false
   },
   "series": "yakuza",
-  "series_status": null,
+  "series_status": "done",
   "series_note": null
 }

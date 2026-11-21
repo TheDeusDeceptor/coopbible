@@ -22,6 +22,6 @@
     "gamepass": false
   },
   "series": "yakuza",
-  "series_status": "optional",
+  "series_status": null,
   "series_note": "Different franchise."
 }

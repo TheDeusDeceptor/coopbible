@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-19T17:19:04Z",
+  "updated": "2026-11-21T12:57:27Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39404,7 +39404,7 @@
         "gamepass": false
       },
       "series": "yakuza",
-      "series_status": "optional",
+      "series_status": null,
       "series_note": "Different franchise."
     },
     "yakuza-like-a-dragon-2020-pc": {
@@ -39704,11 +39704,11 @@
         "installed": false,
         "localCoop": false,
         "authRequired": false,
-        "ownedSteam": false,
+        "ownedSteam": true,
         "gamepass": false
       },
       "series": "yakuza",
-      "series_status": null,
+      "series_status": "done",
       "series_note": null
     }
   },
