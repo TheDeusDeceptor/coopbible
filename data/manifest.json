@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-21T13:45:54Z",
+  "updated": "2026-11-21T13:51:30Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40853,7 +40853,7 @@
           "display_platform": "PC"
         },
         "yakuza-4-remastered-2021-pc": {
-          "display_name": "Yakuza 4 _^(Remastered)^_",
+          "display_name": "Yakuza 4 _(Remastered)_",
           "display_release": "2010 _^*(2021)*^_",
           "display_platform": "PC"
         },
