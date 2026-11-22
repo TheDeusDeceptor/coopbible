@@ -1,0 +1,40 @@
+{
+  "id": "crysis-co-op-2026-pcmod",
+  "name": "Crysis Co-op",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "mucahityurtlu",
+  "pub": "",
+  "notes": "",
+  "release": "2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/crysis-co-op-unreleased-pc.jpg",
+  "logo": "images/logos/crysis-co-op-unreleased-pc.png",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://crysiscoop.com/"
+    },
+    {
+      "label": "ModDB",
+      "url": "https://www.moddb.com/mods/crysis-coop-project"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/mucahityurtlu7/CrysisCoop-Releases"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
