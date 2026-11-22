@@ -1,0 +1,33 @@
+{
+  "id": "danganronpa-2x2-2027-pc",
+  "name": "Danganronpa 2x2",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "—",
+  "dev": "Gemdrops",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "13.01.2027",
+  "ea_release": "",
+  "screenshot": "images/screenshots/danganronpa-2x2-2027-pc.jpg",
+  "logo": "images/logos/danganronpa-2x2-2027-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3751230",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "danganronpa",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "zero-escape-nine-hours-nine-persons-nine-doors-2017-pc",
+  "name": "Zero Escape: Nine Hours, Nine Persons, Nine Doors",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 17",
+  "dev": "Spike Chunsoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "24.03.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zero-escape-nine-hours-nine-persons-nine-doors-2017-pc.jpg",
+  "logo": "images/logos/zero-escape-nine-hours-nine-persons-nine-doors-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/477740",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "zeroescape",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "zero-escape-zero-time-dilemma-2016-pc",
+  "name": "Zero Escape: Zero Time Dilemma",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 20, +Extra: 21",
+  "dev": "Spike Chunsoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "29.06.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zero-escape-zero-time-dilemma-2016-pc.jpg",
+  "logo": "images/logos/zero-escape-zero-time-dilemma-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/311240",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Zero_Time_Dilemma",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "zeroescape",
+  "series_status": null,
+  "series_note": null
+}

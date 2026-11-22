@@ -1,0 +1,38 @@
+{
+  "id": "danganronpa-v3-killing-harmony-2017-pc",
+  "name": "Danganronpa V3: Killing Harmony",
+  "platform": "PC",
+  "size": "26 GB",
+  "hltb": "Main: 39, +Extra: 52",
+  "dev": "Spike Chunsoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "25.09.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/danganronpa-v3-killing-harmony-2017-pc.jpg",
+  "logo": "images/logos/danganronpa-v3-killing-harmony-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/567640",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Danganronpa_V3%3A_Killing_Harmony",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "danganronpa",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "danganronpa",
+  "name": "Danganronpa",
+  "logo": "images/series/danganronpa.png",
+  "order": [
+    "danganronpa-trigger-happy-havoc-2016-pc",
+    "danganronpa-2-goodbye-despair-2016-pc",
+    "danganronpa-another-episode-ultra-despair-girls-2017-pc",
+    "danganronpa-v3-killing-harmony-2017-pc",
+    "danganronpa-s-ultimate-summer-camp-2022-pc",
+    "danganronpa-2x2-2027-pc"
+  ],
+  "display": {
+    "danganronpa-trigger-happy-havoc-2016-pc": {
+      "display_release": "2010 *^_(2016)_^*"
+    },
+    "danganronpa-2-goodbye-despair-2016-pc": {
+      "display_release": "2012 *^_(2016)_^*"
+    },
+    "danganronpa-another-episode-ultra-despair-girls-2017-pc": {
+      "display_release": "2014 *^_(2017)_^*"
+    },
+    "danganronpa-s-ultimate-summer-camp-2022-pc": {
+      "display_release": "2021 *^_(2022)_^*"
+    }
+  }
+}

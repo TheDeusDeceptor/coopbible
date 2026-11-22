@@ -1,0 +1,11 @@
+{
+  "id": "zeroescape",
+  "name": "Zero Escape",
+  "logo": "images/series/zeroescape.png",
+  "order": [
+    "zero-escape-nine-hours-nine-persons-nine-doors-2017-pc",
+    "zero-escape-virtue-s-last-reward-2017-pc",
+    "zero-escape-zero-time-dilemma-2016-pc"
+  ],
+  "display": {}
+}

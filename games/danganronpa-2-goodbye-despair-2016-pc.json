@@ -1,0 +1,38 @@
+{
+  "id": "danganronpa-2-goodbye-despair-2016-pc",
+  "name": "Danganronpa 2: Goodbye Despair",
+  "platform": "PC",
+  "size": "5 GB",
+  "hltb": "Main: 34, +Extra: 42",
+  "dev": "Spike Chunsoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "18.04.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/danganronpa-2-goodbye-despair-2016-pc.jpg",
+  "logo": "images/logos/danganronpa-2-goodbye-despair-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/413420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Danganronpa_2%3A_Goodbye_Despair",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "danganronpa",
+  "series_status": null,
+  "series_note": null
+}

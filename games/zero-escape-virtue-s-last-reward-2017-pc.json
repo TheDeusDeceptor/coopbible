@@ -1,0 +1,33 @@
+{
+  "id": "zero-escape-virtue-s-last-reward-2017-pc",
+  "name": "Zero Escape: Virtue's Last Reward",
+  "platform": "PC",
+  "size": "4 GB",
+  "hltb": "Main: 28, +Extra: 35",
+  "dev": "Spike Chunsoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "24.03.2017",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zero-escape-virtue-s-last-reward-2017-pc.jpg",
+  "logo": "images/logos/zero-escape-virtue-s-last-reward-2017-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/477740",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "zeroescape",
+  "series_status": null,
+  "series_note": null
+}

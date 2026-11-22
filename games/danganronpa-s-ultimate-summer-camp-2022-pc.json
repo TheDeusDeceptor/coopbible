@@ -1,0 +1,38 @@
+{
+  "id": "danganronpa-s-ultimate-summer-camp-2022-pc",
+  "name": "Danganronpa S: Ultimate Summer Camp",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 24, +Extra: 30",
+  "dev": "Spike Chunsoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "20.07.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/danganronpa-s-ultimate-summer-camp-2022-pc.jpg",
+  "logo": "images/logos/danganronpa-s-ultimate-summer-camp-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1691970",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Danganronpa_S%3A_Ultimate_Summer_Camp",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "danganronpa",
+  "series_status": null,
+  "series_note": "Optional, \"*expanded version of two side-modes from Danganronpa V3*\"."
+}

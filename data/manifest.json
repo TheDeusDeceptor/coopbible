@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T16:13:43Z",
+  "updated": "2026-11-22T17:07:19Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -41092,6 +41092,333 @@
       "series": "traumacenter",
       "series_status": null,
       "series_note": null
+    },
+    "danganronpa-trigger-happy-havoc-2016-pc": {
+      "id": "danganronpa-trigger-happy-havoc-2016-pc",
+      "name": "Danganronpa: Trigger Happy Havoc",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 25, +Extra: 31",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "18.02.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/danganronpa-trigger-happy-havoc-2016-pc.jpg",
+      "logo": "images/logos/danganronpa-trigger-happy-havoc-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/413410",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Danganronpa%3A_Trigger_Happy_Havoc",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "danganronpa",
+      "series_status": null,
+      "series_note": null
+    },
+    "danganronpa-2-goodbye-despair-2016-pc": {
+      "id": "danganronpa-2-goodbye-despair-2016-pc",
+      "name": "Danganronpa 2: Goodbye Despair",
+      "platform": "PC",
+      "size": "5 GB",
+      "hltb": "Main: 34, +Extra: 42",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "18.04.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/danganronpa-2-goodbye-despair-2016-pc.jpg",
+      "logo": "images/logos/danganronpa-2-goodbye-despair-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/413420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Danganronpa_2%3A_Goodbye_Despair",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "danganronpa",
+      "series_status": null,
+      "series_note": null
+    },
+    "danganronpa-another-episode-ultra-despair-girls-2017-pc": {
+      "id": "danganronpa-another-episode-ultra-despair-girls-2017-pc",
+      "name": "Danganronpa Another Episode: Ultra Despair Girls",
+      "platform": "PC",
+      "size": "18 GB",
+      "hltb": "Main: 16, +Extra: 20",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "27.06.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/danganronpa-another-episode-ultra-despair-girls-2017-pc.jpg",
+      "logo": "images/logos/danganronpa-another-episode-ultra-despair-girls-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/555950",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Danganronpa_Another_Episode%3A_Ultra_Despair_Girls",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "danganronpa",
+      "series_status": null,
+      "series_note": null
+    },
+    "danganronpa-v3-killing-harmony-2017-pc": {
+      "id": "danganronpa-v3-killing-harmony-2017-pc",
+      "name": "Danganronpa V3: Killing Harmony",
+      "platform": "PC",
+      "size": "26 GB",
+      "hltb": "Main: 39, +Extra: 52",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "25.09.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/danganronpa-v3-killing-harmony-2017-pc.jpg",
+      "logo": "images/logos/danganronpa-v3-killing-harmony-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/567640",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Danganronpa_V3%3A_Killing_Harmony",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": true,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "danganronpa",
+      "series_status": null,
+      "series_note": null
+    },
+    "danganronpa-s-ultimate-summer-camp-2022-pc": {
+      "id": "danganronpa-s-ultimate-summer-camp-2022-pc",
+      "name": "Danganronpa S: Ultimate Summer Camp",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 24, +Extra: 30",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "20.07.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/danganronpa-s-ultimate-summer-camp-2022-pc.jpg",
+      "logo": "images/logos/danganronpa-s-ultimate-summer-camp-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1691970",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Danganronpa_S%3A_Ultimate_Summer_Camp",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "danganronpa",
+      "series_status": null,
+      "series_note": "Optional, \"*expanded version of two side-modes from Danganronpa V3*\"."
+    },
+    "danganronpa-2x2-2027-pc": {
+      "id": "danganronpa-2x2-2027-pc",
+      "name": "Danganronpa 2x2",
+      "platform": "PC",
+      "size": "30 GB",
+      "hltb": "—",
+      "dev": "Gemdrops",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "13.01.2027",
+      "ea_release": "",
+      "screenshot": "images/screenshots/danganronpa-2x2-2027-pc.jpg",
+      "logo": "images/logos/danganronpa-2x2-2027-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3751230",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "danganronpa",
+      "series_status": null,
+      "series_note": null
+    },
+    "zero-escape-nine-hours-nine-persons-nine-doors-2017-pc": {
+      "id": "zero-escape-nine-hours-nine-persons-nine-doors-2017-pc",
+      "name": "Zero Escape: Nine Hours, Nine Persons, Nine Doors",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 10, +Extra: 17",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "24.03.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/zero-escape-nine-hours-nine-persons-nine-doors-2017-pc.jpg",
+      "logo": "images/logos/zero-escape-nine-hours-nine-persons-nine-doors-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/477740",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "zeroescape",
+      "series_status": null,
+      "series_note": null
+    },
+    "zero-escape-virtue-s-last-reward-2017-pc": {
+      "id": "zero-escape-virtue-s-last-reward-2017-pc",
+      "name": "Zero Escape: Virtue's Last Reward",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 28, +Extra: 35",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "24.03.2017",
+      "ea_release": "",
+      "screenshot": "images/screenshots/zero-escape-virtue-s-last-reward-2017-pc.jpg",
+      "logo": "images/logos/zero-escape-virtue-s-last-reward-2017-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/477740",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "zeroescape",
+      "series_status": null,
+      "series_note": null
+    },
+    "zero-escape-zero-time-dilemma-2016-pc": {
+      "id": "zero-escape-zero-time-dilemma-2016-pc",
+      "name": "Zero Escape: Zero Time Dilemma",
+      "platform": "PC",
+      "size": "4 GB",
+      "hltb": "Main: 20, +Extra: 21",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "29.06.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/zero-escape-zero-time-dilemma-2016-pc.jpg",
+      "logo": "images/logos/zero-escape-zero-time-dilemma-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/311240",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Zero_Time_Dilemma",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "zeroescape",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -42034,6 +42361,15 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "zero-escape-zero-time-dilemma-2016-pc",
+      "zero-escape-virtue-s-last-reward-2017-pc",
+      "zero-escape-nine-hours-nine-persons-nine-doors-2017-pc",
+      "danganronpa-2x2-2027-pc",
+      "danganronpa-s-ultimate-summer-camp-2022-pc",
+      "danganronpa-v3-killing-harmony-2017-pc",
+      "danganronpa-another-episode-ultra-despair-girls-2017-pc",
+      "danganronpa-2-goodbye-despair-2016-pc",
+      "danganronpa-trigger-happy-havoc-2016-pc",
       "trauma-team-2010-wii",
       "trauma-center-under-the-knife-2-2008-nds",
       "trauma-center-new-blood-2007-wii",
@@ -42451,6 +42787,44 @@
         "trauma-team-2010-wii"
       ],
       "display": {}
+    },
+    "danganronpa": {
+      "id": "danganronpa",
+      "name": "Danganronpa",
+      "logo": "images/series/danganronpa.png",
+      "order": [
+        "danganronpa-trigger-happy-havoc-2016-pc",
+        "danganronpa-2-goodbye-despair-2016-pc",
+        "danganronpa-another-episode-ultra-despair-girls-2017-pc",
+        "danganronpa-v3-killing-harmony-2017-pc",
+        "danganronpa-s-ultimate-summer-camp-2022-pc",
+        "danganronpa-2x2-2027-pc"
+      ],
+      "display": {
+        "danganronpa-trigger-happy-havoc-2016-pc": {
+          "display_release": "2010 *^_(2016)_^*"
+        },
+        "danganronpa-2-goodbye-despair-2016-pc": {
+          "display_release": "2012 *^_(2016)_^*"
+        },
+        "danganronpa-another-episode-ultra-despair-girls-2017-pc": {
+          "display_release": "2014 *^_(2017)_^*"
+        },
+        "danganronpa-s-ultimate-summer-camp-2022-pc": {
+          "display_release": "2021 *^_(2022)_^*"
+        }
+      }
+    },
+    "zeroescape": {
+      "id": "zeroescape",
+      "name": "Zero Escape",
+      "logo": "images/series/zeroescape.png",
+      "order": [
+        "zero-escape-nine-hours-nine-persons-nine-doors-2017-pc",
+        "zero-escape-virtue-s-last-reward-2017-pc",
+        "zero-escape-zero-time-dilemma-2016-pc"
+      ],
+      "display": {}
     }
   },
   "series_order": [
@@ -42462,6 +42836,8 @@
     "shinobido",
     "socomusnavyseals",
     "deadtorights",
-    "traumacenter"
+    "traumacenter",
+    "danganronpa",
+    "zeroescape"
   ]
 }
