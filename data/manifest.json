@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T13:42:09Z",
+  "updated": "2026-11-22T13:50:25Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39946,8 +39946,8 @@
       "series_status": null,
       "series_note": "*SECOND remake of SECOND title in series, duh!*"
     },
-    "yakuza-2005-ps3": {
-      "id": "yakuza-2005-ps3",
+    "yakuza-2005-ps2": {
+      "id": "yakuza-2005-ps2",
       "name": "Yakuza",
       "platform": "PS2",
       "size": "",
@@ -40941,7 +40941,7 @@
       "yakuza-3-remastered-2021-pc",
       "ry-ga-gotoku-kenzan-2008-ps3",
       "yakuza-2-2006-ps2",
-      "yakuza-2005-ps3",
+      "yakuza-2005-ps2",
       "you-are-empty-absolute-edition-2026-pc",
       "judge-dredd-dredd-vs-death-2003-pc",
       "neuro-2006-pc",
@@ -41094,7 +41094,7 @@
       "name": "Yakuza",
       "logo": "images/series/yakuza.png",
       "order": [
-        "yakuza-2005-ps3",
+        "yakuza-2005-ps2",
         "yakuza-2-2006-ps2",
         "ry-ga-gotoku-kenzan-2008-ps3",
         "yakuza-3-remastered-2021-pc",
