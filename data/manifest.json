@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T17:48:15Z",
+  "updated": "2026-11-22T17:57:16Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -41657,6 +41657,120 @@
       "series": "onechanbara",
       "series_status": null,
       "series_note": null
+    },
+    "ai-the-somnium-files-2019-pc": {
+      "id": "ai-the-somnium-files-2019-pc",
+      "name": "AI: The Somnium Files",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 23, +Extra: 27",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "17.09.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ai-the-somnium-files-2019-pc.jpg",
+      "logo": "images/logos/ai-the-somnium-files-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/948740",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/AI_The_Somnium_Files",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "ai",
+      "series_status": null,
+      "series_note": null
+    },
+    "ai-the-somnium-files-nirvana-initiative-2022-pc": {
+      "id": "ai-the-somnium-files-nirvana-initiative-2022-pc",
+      "name": "AI: The Somnium Files nirvanA Initiative",
+      "platform": "PC",
+      "size": "20 GB",
+      "hltb": "Main: 26, +Extra: 31",
+      "dev": "Spike ChunSoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "24.06.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/ai-the-somnium-files-nirvana-initiative-2022-pc.jpg",
+      "logo": "images/logos/ai-the-somnium-files-nirvana-initiative-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1449200",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/AI%3A_The_Somnium_Files_-_nirvanA_Initiative",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "ai",
+      "series_status": null,
+      "series_note": null
+    },
+    "no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc": {
+      "id": "no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc",
+      "name": "No Sleep for Kaname Date From AI: The Somnium Files",
+      "platform": "PC",
+      "size": "15 GB",
+      "hltb": "Main: 13, +Extra: 16",
+      "dev": "Spike Chunsoft",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "25.07.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc.jpg",
+      "logo": "images/logos/no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2752180",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/No_Sleep_For_Kaname_Date",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "ai",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -42599,6 +42713,9 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc",
+      "ai-the-somnium-files-nirvana-initiative-2022-pc",
+      "ai-the-somnium-files-2019-pc",
       "onee-chanbara-origin-2020-pc",
       "onechanbara-z2-chaos-2016-pc",
       "onechanbara-z-kagura-with-no-no-no-2013-ps3",
@@ -43087,7 +43204,7 @@
     "onechanbara": {
       "id": "onechanbara",
       "name": "Onechanbara",
-      "logo": "https://cdn2.steamgriddb.com/logo/a93767623439d3b96b0ede5244cb6b52.png",
+      "logo": "images/series/onechanbara.png",
       "order": [
         "zombie-hunters-2005-ps2",
         "zombie-hunters-2-2006-ps2",
@@ -43113,6 +43230,17 @@
           "display_name": "Zombie Hunters 2 _^aka ***THE OneeChampon***^_"
         }
       }
+    },
+    "ai": {
+      "id": "ai",
+      "name": "AI",
+      "logo": "images/series/ai.png",
+      "order": [
+        "ai-the-somnium-files-2019-pc",
+        "ai-the-somnium-files-nirvana-initiative-2022-pc",
+        "no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc"
+      ],
+      "display": {}
     }
   },
   "series_order": [
@@ -43127,6 +43255,7 @@
     "traumacenter",
     "danganronpa",
     "zeroescape",
-    "onechanbara"
+    "onechanbara",
+    "ai"
   ]
 }

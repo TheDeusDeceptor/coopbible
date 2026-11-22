@@ -1,0 +1,11 @@
+{
+  "id": "ai",
+  "name": "AI",
+  "logo": "images/series/ai.png",
+  "order": [
+    "ai-the-somnium-files-2019-pc",
+    "ai-the-somnium-files-nirvana-initiative-2022-pc",
+    "no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc"
+  ],
+  "display": {}
+}

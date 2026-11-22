@@ -1,0 +1,38 @@
+{
+  "id": "ai-the-somnium-files-nirvana-initiative-2022-pc",
+  "name": "AI: The Somnium Files nirvanA Initiative",
+  "platform": "PC",
+  "size": "20 GB",
+  "hltb": "Main: 26, +Extra: 31",
+  "dev": "Spike ChunSoft",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "24.06.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/ai-the-somnium-files-nirvana-initiative-2022-pc.jpg",
+  "logo": "images/logos/ai-the-somnium-files-nirvana-initiative-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1449200",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/AI%3A_The_Somnium_Files_-_nirvanA_Initiative",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "ai",
+  "series_status": null,
+  "series_note": null
+}
