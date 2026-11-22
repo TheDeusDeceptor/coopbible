@@ -1,0 +1,27 @@
+{
+  "id": "siren-2003-ps2",
+  "name": "Siren",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 20, +Extra: 21",
+  "dev": "Project Siren",
+  "pub": "Sony",
+  "notes": "",
+  "release": "06.11.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/siren-2003-ps2.jpg",
+  "logo": "images/logos/siren-2003-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "siren",
+  "series_status": null,
+  "series_note": "*Apparently hard game, careful..!*"
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T13:51:59Z",
+  "updated": "2026-11-22T14:04:31Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39934,6 +39934,87 @@
       "series": "yakuza",
       "series_status": null,
       "series_note": "North American version for goofy (_*and only!*_) dub."
+    },
+    "siren-2003-ps2": {
+      "id": "siren-2003-ps2",
+      "name": "Siren",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 20, +Extra: 21",
+      "dev": "Project Siren",
+      "pub": "Sony",
+      "notes": "",
+      "release": "06.11.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/siren-2003-ps2.jpg",
+      "logo": "images/logos/siren-2003-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "siren",
+      "series_status": null,
+      "series_note": "*Apparently hard game, careful..!*"
+    },
+    "forbidden-siren-2-2006-ps2": {
+      "id": "forbidden-siren-2-2006-ps2",
+      "name": "Forbidden Siren 2",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 18, +Extra: 23",
+      "dev": "Project Siren",
+      "pub": "Sony Computer Entertainment",
+      "notes": "",
+      "release": "09.02.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/forbidden-siren-2-2006-ps2.jpg",
+      "logo": "images/logos/forbidden-siren-2-2006-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "siren",
+      "series_status": null,
+      "series_note": null
+    },
+    "siren-blood-curse-2008-ps3": {
+      "id": "siren-blood-curse-2008-ps3",
+      "name": "Siren: Blood Curse",
+      "platform": "PS3",
+      "size": "",
+      "hltb": "Main: 11, +Extra: 12",
+      "dev": "Project Siren",
+      "pub": "Sony Computer Entertainment",
+      "notes": "",
+      "release": "13.07.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/siren-blood-curse-2008-ps3.jpg",
+      "logo": "images/logos/siren-blood-curse-2008-ps3.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "siren",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -40876,6 +40957,9 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "siren-blood-curse-2008-ps3",
+      "forbidden-siren-2-2006-ps2",
+      "siren-2003-ps2",
       "fatal-frame-ii-crimson-butterfly-remake-2026-pc",
       "fatal-frame-maiden-of-black-water-2021-pc",
       "project-zero-2-wii-edition-2012-wii",
@@ -41144,11 +41228,23 @@
       "logo": "images/series/wayofthesamurai.png",
       "order": [],
       "display": {}
+    },
+    "siren": {
+      "id": "siren",
+      "name": "Siren",
+      "logo": "images/series/siren.png",
+      "order": [
+        "siren-2003-ps2",
+        "forbidden-siren-2-2006-ps2",
+        "siren-blood-curse-2008-ps3"
+      ],
+      "display": {}
     }
   },
   "series_order": [
     "yakuza",
     "fatalframe",
+    "siren",
     "wayofthesamurai"
   ]
 }

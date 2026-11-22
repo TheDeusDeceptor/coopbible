@@ -1,0 +1,11 @@
+{
+  "id": "siren",
+  "name": "Siren",
+  "logo": "images/series/siren.png",
+  "order": [
+    "siren-2003-ps2",
+    "forbidden-siren-2-2006-ps2",
+    "siren-blood-curse-2008-ps3"
+  ],
+  "display": {}
+}

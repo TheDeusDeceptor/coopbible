@@ -1,0 +1,27 @@
+{
+  "id": "siren-blood-curse-2008-ps3",
+  "name": "Siren: Blood Curse",
+  "platform": "PS3",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 12",
+  "dev": "Project Siren",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "13.07.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/siren-blood-curse-2008-ps3.jpg",
+  "logo": "images/logos/siren-blood-curse-2008-ps3.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "siren",
+  "series_status": null,
+  "series_note": null
+}
