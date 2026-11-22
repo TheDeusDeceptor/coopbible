@@ -265,7 +265,7 @@
   .series-drag-handle{position:absolute;left:.55rem;top:.55rem;width:26px;height:26px;display:grid;place-items:center;color:#4a5468;cursor:grab;z-index:5;font-size:1.1rem;line-height:1;letter-spacing:-.15em;}
   .series-drag-handle:hover{color:#cbd5e1;}
   .series-games{display:flex;flex-direction:column;}
-  .series-game-row{display:grid;grid-template-columns:minmax(200px,1.8fr) 92px 100px 85px 66px 87px minmax(140px,1.3fr);gap:5px;align-items:center;padding:.58rem 1.25rem;border-bottom:1px solid var(--border);font-size:.86rem;cursor:pointer;transition:background .15s ease;position:relative;}
+  .series-game-row{display:grid;grid-template-columns:minmax(200px,1.8fr) 92px 100px 85px 66px 87px minmax(140px,1.3fr);gap:5px;min-height:42px;align-items:center;padding:.45rem 1.25rem;border-bottom:1px solid var(--border);font-size:.86rem;cursor:pointer;transition:background .15s ease;position:relative;}
   body.admin-on .series-game-row{grid-template-columns:minmax(200px,1.8fr) 92px 100px 85px 66px 87px minmax(140px,1.3fr) 92px;}
   .series-game-row:last-child{border-bottom:none}
   .series-game-row:hover{background:rgba(255,255,255,.045)}
