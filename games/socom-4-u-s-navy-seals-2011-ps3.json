@@ -1,0 +1,27 @@
+{
+  "id": "socom-4-u-s-navy-seals-2011-ps3",
+  "name": "SOCOM 4: U.S. Navy SEALs",
+  "platform": "PS3",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Zipper Interactive",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "19.04.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/socom-4-u-s-navy-seals-2011-ps3.jpg",
+  "logo": "images/logos/socom-4-u-s-navy-seals-2011-ps3.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "socomusnavyseals",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "socom-u-s-navy-seals-fireteam-bravo-2-2006-psp",
+  "name": "SOCOM: U.S. Navy SEALs Fireteam Bravo 2",
+  "platform": "PSP",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 5",
+  "dev": "Zipper Interactive",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "21.11.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/socom-u-s-navy-seals-fireteam-bravo-2-2006-psp.jpg",
+  "logo": "images/logos/socom-u-s-navy-seals-fireteam-bravo-2-2006-psp.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "socomusnavyseals",
+  "series_status": null,
+  "series_note": null
+}

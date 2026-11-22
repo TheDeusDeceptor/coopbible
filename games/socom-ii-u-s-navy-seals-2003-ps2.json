@@ -1,0 +1,27 @@
+{
+  "id": "socom-ii-u-s-navy-seals-2003-ps2",
+  "name": "SOCOM II: U.S. Navy SEALs",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Zipper Interactive",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "04.11.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/socom-ii-u-s-navy-seals-2003-ps2.jpg",
+  "logo": "images/logos/socom-ii-u-s-navy-seals-2003-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "socomusnavyseals",
+  "series_status": null,
+  "series_note": null
+}

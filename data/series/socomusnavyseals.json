@@ -1,0 +1,17 @@
+{
+  "id": "socomusnavyseals",
+  "name": "SOCOM U.S. Navy SEALs",
+  "logo": "images/series/socomusnavyseals.png",
+  "order": [
+    "socom-u-s-navy-seals-2002-ps2",
+    "socom-ii-u-s-navy-seals-2003-ps2",
+    "socom-3-u-s-navy-seals-2005-ps2",
+    "socom-u-s-navy-seals-fireteam-bravo-2005-psp",
+    "socom-u-s-navy-seals-combined-assault-2006-ps2",
+    "socom-u-s-navy-seals-fireteam-bravo-2-2006-psp",
+    "socom-u-s-navy-seals-tactical-strike-2007-psp",
+    "socom-u-s-navy-seals-fireteam-bravo-3-2010-psp",
+    "socom-4-u-s-navy-seals-2011-ps3"
+  ],
+  "display": {}
+}

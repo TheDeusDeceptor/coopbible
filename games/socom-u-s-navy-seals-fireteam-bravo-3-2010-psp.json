@@ -1,0 +1,27 @@
+{
+  "id": "socom-u-s-navy-seals-fireteam-bravo-3-2010-psp",
+  "name": "SOCOM: U.S. Navy SEALs Fireteam Bravo 3",
+  "platform": "PSP",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "Slant Six Games",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "16.02.2010",
+  "ea_release": "",
+  "screenshot": "images/screenshots/socom-u-s-navy-seals-fireteam-bravo-3-2010-psp.jpg",
+  "logo": "images/logos/socom-u-s-navy-seals-fireteam-bravo-3-2010-psp.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "socomusnavyseals",
+  "series_status": null,
+  "series_note": null
+}
