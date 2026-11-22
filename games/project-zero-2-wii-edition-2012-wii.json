@@ -1,0 +1,27 @@
+{
+  "id": "project-zero-2-wii-edition-2012-wii",
+  "name": "Project Zero 2: Wii Edition",
+  "platform": "Wii",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 12",
+  "dev": "Koei Tecmo",
+  "pub": "Nintendo",
+  "notes": "",
+  "release": "28.06.2012",
+  "ea_release": "",
+  "screenshot": "images/screenshots/project-zero-2-wii-edition-2012-wii.jpg",
+  "logo": "images/logos/project-zero-2-wii-edition-2012-wii.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "fatalframe",
+  "series_status": null,
+  "series_note": "Optional, first remake of Fatal Frame II."
+}

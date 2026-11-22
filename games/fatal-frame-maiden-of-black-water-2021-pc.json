@@ -1,0 +1,38 @@
+{
+  "id": "fatal-frame-maiden-of-black-water-2021-pc",
+  "name": "Fatal Frame: Maiden of Black Water",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 15, +Extra: 19",
+  "dev": "Koei Tecmo",
+  "pub": "Koei Tecmo",
+  "notes": "",
+  "release": "27.10.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fatal-frame-maiden-of-black-water-2021-pc.jpg",
+  "logo": "images/logos/fatal-frame-maiden-of-black-water-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1732190",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Fatal_Frame%3A_Maiden_of_Black_Water",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "fatalframe",
+  "series_status": null,
+  "series_note": null
+}

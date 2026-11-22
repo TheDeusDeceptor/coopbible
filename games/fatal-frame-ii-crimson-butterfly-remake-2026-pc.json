@@ -1,0 +1,38 @@
+{
+  "id": "fatal-frame-ii-crimson-butterfly-remake-2026-pc",
+  "name": "Fatal Frame II: Crimson Butterfly Remake",
+  "platform": "PC",
+  "size": "30 GB",
+  "hltb": "Main: 13, +Extra: 17",
+  "dev": "Team Ninja",
+  "pub": "Koei Tecmo",
+  "notes": "",
+  "release": "11.03.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fatal-frame-ii-crimson-butterfly-remake-2026-pc.jpg",
+  "logo": "images/logos/fatal-frame-ii-crimson-butterfly-remake-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3920610",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Fatal_Frame_II%3A_Crimson_Butterfly_Remake",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "fatalframe",
+  "series_status": null,
+  "series_note": "*SECOND remake of SECOND title in series, duh!*"
+}

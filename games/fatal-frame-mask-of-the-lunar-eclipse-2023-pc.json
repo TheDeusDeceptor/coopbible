@@ -1,0 +1,38 @@
+{
+  "id": "fatal-frame-mask-of-the-lunar-eclipse-2023-pc",
+  "name": "Fatal Frame: Mask of the Lunar Eclipse",
+  "platform": "PC",
+  "size": "25 GB",
+  "hltb": "Main: 12, +Extra: 14",
+  "dev": "Koei Tecmo, Grasshopper Manufacture",
+  "pub": "Koei Tecmo",
+  "notes": "",
+  "release": "08.03.2023",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fatal-frame-mask-of-the-lunar-eclipse-2023-pc.jpg",
+  "logo": "images/logos/fatal-frame-mask-of-the-lunar-eclipse-2023-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2130460",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Fatal_Frame%3A_Mask_of_the_Lunar_Eclipse",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": true,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "fatalframe",
+  "series_status": null,
+  "series_note": null
+}

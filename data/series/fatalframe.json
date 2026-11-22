@@ -2,6 +2,21 @@
   "id": "fatalframe",
   "name": "Fatal Frame",
   "logo": "images/series/fatalframe.png",
-  "order": [],
-  "display": {}
+  "order": [
+    "fatal-frame-2001-ps2",
+    "fatal-frame-ii-crimson-butterfly-2003-ps2",
+    "fatal-frame-iii-the-tormented-2005-ps2",
+    "fatal-frame-mask-of-the-lunar-eclipse-2023-pc",
+    "project-zero-2-wii-edition-2012-wii",
+    "fatal-frame-maiden-of-black-water-2021-pc",
+    "fatal-frame-ii-crimson-butterfly-remake-2026-pc"
+  ],
+  "display": {
+    "fatal-frame-mask-of-the-lunar-eclipse-2023-pc": {
+      "display_release": "2008 _^*(2023)*^_"
+    },
+    "fatal-frame-maiden-of-black-water-2021-pc": {
+      "display_release": "2014 *^_(2021)_^*"
+    }
+  }
 }

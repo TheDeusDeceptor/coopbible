@@ -1,0 +1,27 @@
+{
+  "id": "fatal-frame-2001-ps2",
+  "name": "Fatal Frame",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Tecmo",
+  "pub": "Tecmo",
+  "notes": "",
+  "release": "13.12.2001",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fatal-frame-2001-ps2.jpg",
+  "logo": "images/logos/fatal-frame-2001-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "fatalframe",
+  "series_status": null,
+  "series_note": null
+}

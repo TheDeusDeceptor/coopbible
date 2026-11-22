@@ -1,0 +1,27 @@
+{
+  "id": "fatal-frame-ii-crimson-butterfly-2003-ps2",
+  "name": "Fatal Frame II: Crimson Butterfly",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Tecmo",
+  "pub": "Tecmo",
+  "notes": "",
+  "release": "27.11.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/fatal-frame-ii-crimson-butterfly-2003-ps2.jpg",
+  "logo": "images/logos/fatal-frame-ii-crimson-butterfly-2003-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "fatalframe",
+  "series_status": null,
+  "series_note": "Enhanced Xbox version exists, untested (_*very likely not worth it...*_)"
+}
