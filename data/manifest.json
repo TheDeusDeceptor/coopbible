@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-21T13:51:30Z",
+  "updated": "2026-11-22T11:37:44Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39405,7 +39405,7 @@
       },
       "series": "yakuza",
       "series_status": null,
-      "series_note": "Different franchise."
+      "series_note": "Optional, different franchise."
     },
     "yakuza-like-a-dragon-2020-pc": {
       "id": "yakuza-like-a-dragon-2020-pc",
@@ -39704,7 +39704,7 @@
         "installed": false,
         "localCoop": false,
         "authRequired": false,
-        "ownedSteam": true,
+        "ownedSteam": false,
         "gamepass": false
       },
       "series": "yakuza",
@@ -40858,30 +40858,30 @@
           "display_platform": "PC"
         },
         "yakuza-5-remastered-2021-pc": {
-          "display_name": "Yakuza 5 (Remastered)",
-          "display_release": "2012 (2024)",
+          "display_name": "Yakuza 5 _(Remastered)_",
+          "display_release": "2012 ^_*(2024)*_^",
           "display_platform": "PC"
         },
         "yakuza-6-the-song-of-life-2021-pc": {
-          "display_release": "2016 (2021)"
+          "display_release": "2016 *_^(2021)^_*"
         },
         "yakuza-0-2018-pc": {
-          "display_release": "2015 (2018)"
+          "display_release": "2015 *^_(2018)_^*"
         },
         "yakuza-kiwami-2025-pc": {
-          "display_release": "2016 (2019)"
+          "display_release": "2016 *_^(2019)^_*"
         },
         "yakuza-kiwami-2-2025-pc": {
-          "display_release": "2017 (2019)"
+          "display_release": "2017 *_^(2019)^_*"
         },
         "judgment-2022-pc": {
-          "display_release": "2018 (2022)"
+          "display_release": "2018 *_^(2022)^_*"
         },
         "lost-judgment-2022-pc": {
-          "display_release": "2021 (2022)"
+          "display_release": "2021 *_^(2022)^_*"
         },
         "like-a-dragon-ishin-2023-pc": {
-          "display_release": "2014 (2023)"
+          "display_release": "2014 *^_(2023)_^*"
         }
       }
     },
