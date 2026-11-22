@@ -1,0 +1,38 @@
+{
+  "id": "way-of-the-samurai-4-2015-pc",
+  "name": "Way of the Samurai 4",
+  "platform": "PC",
+  "size": "7 GB",
+  "hltb": "Main: 10, +Extra: 31",
+  "dev": "Acquire",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "23.07.2015",
+  "ea_release": "",
+  "screenshot": "images/screenshots/way-of-the-samurai-4-2015-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/c4512ba1c018dbd09ad51aff6441141e.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/312780",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Way_of_the_Samurai_4",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": true,
+    "gamepass": false
+  },
+  "series": "wayofthesamurai",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "samurai-western-2005-ps2",
+  "name": "Samurai Western",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 8",
+  "dev": "Spike",
+  "pub": "Atlus",
+  "notes": "",
+  "release": "07.06.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/samurai-western-2005-ps2.jpg",
+  "logo": "images/logos/samurai-western-2005-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "wayofthesamurai",
+  "series_status": null,
+  "series_note": null
+}

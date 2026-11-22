@@ -1,0 +1,38 @@
+{
+  "id": "katana-kami-a-way-of-the-samurai-story-2020-pc",
+  "name": "Katana Kami: A Way of the Samurai Story",
+  "platform": "PC",
+  "size": "3 GB",
+  "hltb": "Main: 29, +Extra: 36",
+  "dev": "Acquire",
+  "pub": "Spike Chunsoft",
+  "notes": "",
+  "release": "19.02.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/katana-kami-a-way-of-the-samurai-story-2020-pc.jpg",
+  "logo": "https://cdn2.steamgriddb.com/logo/4dbf29d90d5780cab50897fb955e4373.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1062340",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Katana_Kami%3A_A_Way_of_the_Samurai_Story",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "wayofthesamurai",
+  "series_status": null,
+  "series_note": null
+}

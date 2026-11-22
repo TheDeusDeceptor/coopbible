@@ -1,0 +1,33 @@
+{
+  "id": "kamiwaza-way-of-the-thief-2022-pc",
+  "name": "Kamiwaza: Way of the Thief",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 10, +Extra: 14",
+  "dev": "Acquire",
+  "pub": "NIS America",
+  "notes": "",
+  "release": "11.10.2022",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kamiwaza-way-of-the-thief-2022-pc.jpg",
+  "logo": "images/logos/kamiwaza-way-of-the-thief-2022-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1924810",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "wayofthesamurai",
+  "series_status": null,
+  "series_note": "Optional, not part of series, but it's spiritually reminiscent of."
+}

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T14:17:06Z",
+  "updated": "2026-11-22T14:30:41Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40069,6 +40069,180 @@
       "series": "wayofthesamurai",
       "series_status": null,
       "series_note": null
+    },
+    "samurai-western-2005-ps2": {
+      "id": "samurai-western-2005-ps2",
+      "name": "Samurai Western",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 5, +Extra: 8",
+      "dev": "Spike",
+      "pub": "Atlus",
+      "notes": "",
+      "release": "07.06.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/samurai-western-2005-ps2.jpg",
+      "logo": "images/logos/samurai-western-2005-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "wayofthesamurai",
+      "series_status": null,
+      "series_note": null
+    },
+    "way-of-the-samurai-3-2016-pc": {
+      "id": "way-of-the-samurai-3-2016-pc",
+      "name": "Way of the Samurai 3",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 6, +Extra: 20",
+      "dev": "Acquire",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "23.03.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/way-of-the-samurai-3-2016-pc.jpg",
+      "logo": "images/logos/way-of-the-samurai-3-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/427510",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Way_of_the_Samurai_3",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": "wayofthesamurai",
+      "series_status": null,
+      "series_note": null
+    },
+    "way-of-the-samurai-4-2015-pc": {
+      "id": "way-of-the-samurai-4-2015-pc",
+      "name": "Way of the Samurai 4",
+      "platform": "PC",
+      "size": "7 GB",
+      "hltb": "Main: 10, +Extra: 31",
+      "dev": "Acquire",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "23.07.2015",
+      "ea_release": "",
+      "screenshot": "images/screenshots/way-of-the-samurai-4-2015-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/c4512ba1c018dbd09ad51aff6441141e.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/312780",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Way_of_the_Samurai_4",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": true,
+        "gamepass": false
+      },
+      "series": "wayofthesamurai",
+      "series_status": null,
+      "series_note": null
+    },
+    "katana-kami-a-way-of-the-samurai-story-2020-pc": {
+      "id": "katana-kami-a-way-of-the-samurai-story-2020-pc",
+      "name": "Katana Kami: A Way of the Samurai Story",
+      "platform": "PC",
+      "size": "3 GB",
+      "hltb": "Main: 29, +Extra: 36",
+      "dev": "Acquire",
+      "pub": "Spike Chunsoft",
+      "notes": "",
+      "release": "19.02.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/katana-kami-a-way-of-the-samurai-story-2020-pc.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/4dbf29d90d5780cab50897fb955e4373.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1062340",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Katana_Kami%3A_A_Way_of_the_Samurai_Story",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "wayofthesamurai",
+      "series_status": null,
+      "series_note": null
+    },
+    "kamiwaza-way-of-the-thief-2022-pc": {
+      "id": "kamiwaza-way-of-the-thief-2022-pc",
+      "name": "Kamiwaza: Way of the Thief",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 10, +Extra: 14",
+      "dev": "Acquire",
+      "pub": "NIS America",
+      "notes": "",
+      "release": "11.10.2022",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kamiwaza-way-of-the-thief-2022-pc.jpg",
+      "logo": "images/logos/kamiwaza-way-of-the-thief-2022-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1924810",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "wayofthesamurai",
+      "series_status": null,
+      "series_note": "Optional, not part of series, but it's spiritually reminiscent of."
     }
   },
   "lists": {
@@ -41011,6 +41185,11 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "kamiwaza-way-of-the-thief-2022-pc",
+      "katana-kami-a-way-of-the-samurai-story-2020-pc",
+      "way-of-the-samurai-4-2015-pc",
+      "way-of-the-samurai-3-2016-pc",
+      "samurai-western-2005-ps2",
       "way-of-the-samurai-2-2003-ps2",
       "way-of-the-samurai-2002-ps2",
       "siren-blood-curse-2008-ps3",
@@ -41284,7 +41463,12 @@
       "logo": "images/series/wayofthesamurai.png",
       "order": [
         "way-of-the-samurai-2002-ps2",
-        "way-of-the-samurai-2-2003-ps2"
+        "way-of-the-samurai-2-2003-ps2",
+        "samurai-western-2005-ps2",
+        "kamiwaza-way-of-the-thief-2022-pc",
+        "way-of-the-samurai-3-2016-pc",
+        "way-of-the-samurai-4-2015-pc",
+        "katana-kami-a-way-of-the-samurai-story-2020-pc"
       ],
       "display": {}
     },
