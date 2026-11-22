@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T15:38:45Z",
+  "updated": "2026-11-22T16:13:43Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40837,6 +40837,261 @@
       "series": "socomusnavyseals",
       "series_status": null,
       "series_note": null
+    },
+    "dead-to-rights-2003-pc": {
+      "id": "dead-to-rights-2003-pc",
+      "name": "Dead to Rights",
+      "platform": "PC",
+      "size": "0.6 GB",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Namco",
+      "pub": "Namco",
+      "notes": "",
+      "release": "06.11.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-to-rights-2003-pc.jpg",
+      "logo": "images/logos/dead-to-rights-2003-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dead_to_Rights",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "deadtorights",
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-to-rights-ii-2005-pc": {
+      "id": "dead-to-rights-ii-2005-pc",
+      "name": "Dead to Rights II",
+      "platform": "PC",
+      "size": "1.5 GB",
+      "hltb": "Main: 6, +Extra: 10",
+      "dev": "Widescreen Games",
+      "pub": "Namco",
+      "notes": "",
+      "release": "15.08.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-to-rights-ii-2005-pc.jpg",
+      "logo": "images/logos/dead-to-rights-ii-2005-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Dead_to_Rights_II",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "deadtorights",
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-to-rights-reckoning-2005-psp": {
+      "id": "dead-to-rights-reckoning-2005-psp",
+      "name": "Dead to Rights: Reckoning",
+      "platform": "PSP",
+      "size": "",
+      "hltb": "Main: 2",
+      "dev": "Rebellion Developments",
+      "pub": "Namco",
+      "notes": "",
+      "release": "28.06.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-to-rights-reckoning-2005-psp.jpg",
+      "logo": "images/logos/dead-to-rights-reckoning-2005-psp.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "deadtorights",
+      "series_status": null,
+      "series_note": null
+    },
+    "dead-to-rights-retribution-2010-ps3": {
+      "id": "dead-to-rights-retribution-2010-ps3",
+      "name": "Dead to Rights: Retribution",
+      "platform": "PS3",
+      "size": "",
+      "hltb": "Main: 8, +Extra: 10",
+      "dev": "Volatile Games",
+      "pub": "Bandai Namco Entertainment",
+      "notes": "",
+      "release": "27.04.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/dead-to-rights-retribution-2010-ps3.jpg",
+      "logo": "images/logos/dead-to-rights-retribution-2010-ps3.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "deadtorights",
+      "series_status": null,
+      "series_note": null
+    },
+    "trauma-center-under-the-knife-2005-nds": {
+      "id": "trauma-center-under-the-knife-2005-nds",
+      "name": "Trauma Center: Under the Knife",
+      "platform": "NDS",
+      "size": "",
+      "hltb": "Main: 8, +Extra: 11",
+      "dev": "Atlus",
+      "pub": "Atlus",
+      "notes": "",
+      "release": "16.06.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trauma-center-under-the-knife-2005-nds.jpg",
+      "logo": "images/logos/trauma-center-under-the-knife-2005-nds.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "traumacenter",
+      "series_status": null,
+      "series_note": null
+    },
+    "trauma-center-second-opinion-2006-wii": {
+      "id": "trauma-center-second-opinion-2006-wii",
+      "name": "Trauma Center: Second Opinion",
+      "platform": "Wii",
+      "size": "",
+      "hltb": "Main: 9, +Extra: 10",
+      "dev": "Atlus",
+      "pub": "Atlus",
+      "notes": "",
+      "release": "19.11.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trauma-center-second-opinion-2006-wii.jpg",
+      "logo": "images/logos/trauma-center-second-opinion-2006-wii.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "traumacenter",
+      "series_status": null,
+      "series_note": null
+    },
+    "trauma-center-new-blood-2007-wii": {
+      "id": "trauma-center-new-blood-2007-wii",
+      "name": "Trauma Center: New Blood",
+      "platform": "Wii",
+      "size": "",
+      "hltb": "Main: 10, +Extra: 18",
+      "dev": "Atlus",
+      "pub": "Atlus",
+      "notes": "",
+      "release": "20.11.2007",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trauma-center-new-blood-2007-wii.jpg",
+      "logo": "images/logos/trauma-center-new-blood-2007-wii.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "traumacenter",
+      "series_status": null,
+      "series_note": null
+    },
+    "trauma-center-under-the-knife-2-2008-nds": {
+      "id": "trauma-center-under-the-knife-2-2008-nds",
+      "name": "Trauma Center: Under the Knife 2",
+      "platform": "NDS",
+      "size": "",
+      "hltb": "Main: 11, +Extra: 13",
+      "dev": "Atlus",
+      "pub": "Atlus",
+      "notes": "",
+      "release": "01.07.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trauma-center-under-the-knife-2-2008-nds.jpg",
+      "logo": "images/logos/trauma-center-under-the-knife-2-2008-nds.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "traumacenter",
+      "series_status": null,
+      "series_note": null
+    },
+    "trauma-team-2010-wii": {
+      "id": "trauma-team-2010-wii",
+      "name": "Trauma Team",
+      "platform": "Wii",
+      "size": "",
+      "hltb": "Main: 24, +Extra: 25",
+      "dev": "Atlus",
+      "pub": "Atlus",
+      "notes": "",
+      "release": "30.04.2010",
+      "ea_release": "",
+      "screenshot": "images/screenshots/trauma-team-2010-wii.jpg",
+      "logo": "images/logos/trauma-team-2010-wii.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "traumacenter",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -41779,6 +42034,15 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "trauma-team-2010-wii",
+      "trauma-center-under-the-knife-2-2008-nds",
+      "trauma-center-new-blood-2007-wii",
+      "trauma-center-second-opinion-2006-wii",
+      "trauma-center-under-the-knife-2005-nds",
+      "dead-to-rights-retribution-2010-ps3",
+      "dead-to-rights-reckoning-2005-psp",
+      "dead-to-rights-ii-2005-pc",
+      "dead-to-rights-2003-pc",
       "socom-4-u-s-navy-seals-2011-ps3",
       "socom-u-s-navy-seals-fireteam-bravo-3-2010-psp",
       "socom-u-s-navy-seals-tactical-strike-2007-psp",
@@ -42136,7 +42400,11 @@
         "shadow-assault-tenchu-2008-x360",
         "tenchu-shadow-assassins-2008-wii"
       ],
-      "display": {}
+      "display": {
+        "tenchu-shadow-assassins-2008-wii": {
+          "display_platform": "Wii ^_or_^ PSP"
+        }
+      }
     },
     "socomusnavyseals": {
       "id": "socomusnavyseals",
@@ -42154,6 +42422,35 @@
         "socom-4-u-s-navy-seals-2011-ps3"
       ],
       "display": {}
+    },
+    "deadtorights": {
+      "id": "deadtorights",
+      "name": "Dead to Rights",
+      "logo": "images/series/deadtorights.png",
+      "order": [
+        "dead-to-rights-2003-pc",
+        "dead-to-rights-ii-2005-pc",
+        "dead-to-rights-reckoning-2005-psp",
+        "dead-to-rights-retribution-2010-ps3"
+      ],
+      "display": {
+        "dead-to-rights-2003-pc": {
+          "display_release": "2002 *^_(2003)_^*"
+        }
+      }
+    },
+    "traumacenter": {
+      "id": "traumacenter",
+      "name": "Trauma Center",
+      "logo": "images/series/traumacenter.png",
+      "order": [
+        "trauma-center-under-the-knife-2005-nds",
+        "trauma-center-second-opinion-2006-wii",
+        "trauma-center-new-blood-2007-wii",
+        "trauma-center-under-the-knife-2-2008-nds",
+        "trauma-team-2010-wii"
+      ],
+      "display": {}
     }
   },
   "series_order": [
@@ -42163,6 +42460,8 @@
     "wayofthesamurai",
     "tenchu",
     "shinobido",
-    "socomusnavyseals"
+    "socomusnavyseals",
+    "deadtorights",
+    "traumacenter"
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "id": "trauma-center-second-opinion-2006-wii",
+  "name": "Trauma Center: Second Opinion",
+  "platform": "Wii",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "Atlus",
+  "pub": "Atlus",
+  "notes": "",
+  "release": "19.11.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trauma-center-second-opinion-2006-wii.jpg",
+  "logo": "images/logos/trauma-center-second-opinion-2006-wii.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "traumacenter",
+  "series_status": null,
+  "series_note": null
+}

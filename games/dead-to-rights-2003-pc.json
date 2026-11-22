@@ -1,0 +1,33 @@
+{
+  "id": "dead-to-rights-2003-pc",
+  "name": "Dead to Rights",
+  "platform": "PC",
+  "size": "0.6 GB",
+  "hltb": "Main: 8, +Extra: 10",
+  "dev": "Namco",
+  "pub": "Namco",
+  "notes": "",
+  "release": "06.11.2003",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dead-to-rights-2003-pc.jpg",
+  "logo": "images/logos/dead-to-rights-2003-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dead_to_Rights",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "deadtorights",
+  "series_status": null,
+  "series_note": null
+}

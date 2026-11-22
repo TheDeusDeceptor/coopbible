@@ -13,5 +13,9 @@
     "shadow-assault-tenchu-2008-x360",
     "tenchu-shadow-assassins-2008-wii"
   ],
-  "display": {}
+  "display": {
+    "tenchu-shadow-assassins-2008-wii": {
+      "display_platform": "Wii ^_or_^ PSP"
+    }
+  }
 }

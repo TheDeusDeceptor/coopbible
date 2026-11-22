@@ -1,0 +1,27 @@
+{
+  "id": "trauma-center-new-blood-2007-wii",
+  "name": "Trauma Center: New Blood",
+  "platform": "Wii",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 18",
+  "dev": "Atlus",
+  "pub": "Atlus",
+  "notes": "",
+  "release": "20.11.2007",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trauma-center-new-blood-2007-wii.jpg",
+  "logo": "images/logos/trauma-center-new-blood-2007-wii.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "traumacenter",
+  "series_status": null,
+  "series_note": null
+}

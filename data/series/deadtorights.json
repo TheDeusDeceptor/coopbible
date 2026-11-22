@@ -1,0 +1,16 @@
+{
+  "id": "deadtorights",
+  "name": "Dead to Rights",
+  "logo": "images/series/deadtorights.png",
+  "order": [
+    "dead-to-rights-2003-pc",
+    "dead-to-rights-ii-2005-pc",
+    "dead-to-rights-reckoning-2005-psp",
+    "dead-to-rights-retribution-2010-ps3"
+  ],
+  "display": {
+    "dead-to-rights-2003-pc": {
+      "display_release": "2002 *^_(2003)_^*"
+    }
+  }
+}

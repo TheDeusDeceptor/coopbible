@@ -1,0 +1,27 @@
+{
+  "id": "dead-to-rights-reckoning-2005-psp",
+  "name": "Dead to Rights: Reckoning",
+  "platform": "PSP",
+  "size": "",
+  "hltb": "Main: 2",
+  "dev": "Rebellion Developments",
+  "pub": "Namco",
+  "notes": "",
+  "release": "28.06.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dead-to-rights-reckoning-2005-psp.jpg",
+  "logo": "images/logos/dead-to-rights-reckoning-2005-psp.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "deadtorights",
+  "series_status": null,
+  "series_note": null
+}

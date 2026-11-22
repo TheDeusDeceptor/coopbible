@@ -1,0 +1,33 @@
+{
+  "id": "dead-to-rights-ii-2005-pc",
+  "name": "Dead to Rights II",
+  "platform": "PC",
+  "size": "1.5 GB",
+  "hltb": "Main: 6, +Extra: 10",
+  "dev": "Widescreen Games",
+  "pub": "Namco",
+  "notes": "",
+  "release": "15.08.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/dead-to-rights-ii-2005-pc.jpg",
+  "logo": "images/logos/dead-to-rights-ii-2005-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Dead_to_Rights_II",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "deadtorights",
+  "series_status": null,
+  "series_note": null
+}

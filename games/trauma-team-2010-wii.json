@@ -1,0 +1,27 @@
+{
+  "id": "trauma-team-2010-wii",
+  "name": "Trauma Team",
+  "platform": "Wii",
+  "size": "",
+  "hltb": "Main: 24, +Extra: 25",
+  "dev": "Atlus",
+  "pub": "Atlus",
+  "notes": "",
+  "release": "30.04.2010",
+  "ea_release": "",
+  "screenshot": "images/screenshots/trauma-team-2010-wii.jpg",
+  "logo": "images/logos/trauma-team-2010-wii.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "traumacenter",
+  "series_status": null,
+  "series_note": null
+}

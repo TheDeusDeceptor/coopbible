@@ -1,0 +1,13 @@
+{
+  "id": "traumacenter",
+  "name": "Trauma Center",
+  "logo": "images/series/traumacenter.png",
+  "order": [
+    "trauma-center-under-the-knife-2005-nds",
+    "trauma-center-second-opinion-2006-wii",
+    "trauma-center-new-blood-2007-wii",
+    "trauma-center-under-the-knife-2-2008-nds",
+    "trauma-team-2010-wii"
+  ],
+  "display": {}
+}
