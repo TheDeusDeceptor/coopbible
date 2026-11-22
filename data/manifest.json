@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T14:04:31Z",
+  "updated": "2026-11-22T14:17:06Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -39738,7 +39738,7 @@
       },
       "series": "fatalframe",
       "series_status": null,
-      "series_note": "Enhanced Xbox version exists, untested (_*very likely not worth it...*_)"
+      "series_note": "Enhanced Xbox version exists."
     },
     "fatal-frame-iii-the-tormented-2005-ps2": {
       "id": "fatal-frame-iii-the-tormented-2005-ps2",
@@ -40013,6 +40013,60 @@
         "gamepass": false
       },
       "series": "siren",
+      "series_status": null,
+      "series_note": null
+    },
+    "way-of-the-samurai-2002-ps2": {
+      "id": "way-of-the-samurai-2002-ps2",
+      "name": "Way of the Samurai",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 4, +Extra: 13",
+      "dev": "Acquire",
+      "pub": "BAM! Entertainment",
+      "notes": "",
+      "release": "07.02.2002",
+      "ea_release": "",
+      "screenshot": "images/screenshots/way-of-the-samurai-2002-ps2.jpg",
+      "logo": "images/logos/way-of-the-samurai-2002-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "wayofthesamurai",
+      "series_status": null,
+      "series_note": "Updated version (Samurai Kanzenban) exists, Japanese only (needs checking), PSP version needs research, may be preferable depends which version it is based on..."
+    },
+    "way-of-the-samurai-2-2003-ps2": {
+      "id": "way-of-the-samurai-2-2003-ps2",
+      "name": "Way of the Samurai 2",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 5, +Extra: 10",
+      "dev": "Acquire",
+      "pub": "Capcom",
+      "notes": "",
+      "release": "09.10.2003",
+      "ea_release": "",
+      "screenshot": "images/screenshots/way-of-the-samurai-2-2003-ps2.jpg",
+      "logo": "https://cdn2.steamgriddb.com/logo/aa03f7d585b4ae5554378b5843a73d11.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "wayofthesamurai",
       "series_status": null,
       "series_note": null
     }
@@ -40957,6 +41011,8 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "way-of-the-samurai-2-2003-ps2",
+      "way-of-the-samurai-2002-ps2",
       "siren-blood-curse-2008-ps3",
       "forbidden-siren-2-2006-ps2",
       "siren-2003-ps2",
@@ -41226,7 +41282,10 @@
       "id": "wayofthesamurai",
       "name": "Way of the Samurai",
       "logo": "images/series/wayofthesamurai.png",
-      "order": [],
+      "order": [
+        "way-of-the-samurai-2002-ps2",
+        "way-of-the-samurai-2-2003-ps2"
+      ],
       "display": {}
     },
     "siren": {

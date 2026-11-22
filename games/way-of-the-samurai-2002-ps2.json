@@ -1,0 +1,27 @@
+{
+  "id": "way-of-the-samurai-2002-ps2",
+  "name": "Way of the Samurai",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 13",
+  "dev": "Acquire",
+  "pub": "BAM! Entertainment",
+  "notes": "",
+  "release": "07.02.2002",
+  "ea_release": "",
+  "screenshot": "images/screenshots/way-of-the-samurai-2002-ps2.jpg",
+  "logo": "images/logos/way-of-the-samurai-2002-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "wayofthesamurai",
+  "series_status": null,
+  "series_note": "Updated version (Samurai Kanzenban) exists, Japanese only (needs checking), PSP version needs research, may be preferable depends which version it is based on..."
+}

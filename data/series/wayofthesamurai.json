@@ -2,6 +2,9 @@
   "id": "wayofthesamurai",
   "name": "Way of the Samurai",
   "logo": "images/series/wayofthesamurai.png",
-  "order": [],
+  "order": [
+    "way-of-the-samurai-2002-ps2",
+    "way-of-the-samurai-2-2003-ps2"
+  ],
   "display": {}
 }
