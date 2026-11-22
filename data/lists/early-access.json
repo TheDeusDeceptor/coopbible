@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-15T16:18:12Z",
+  "updated": "2026-11-22T12:06:15Z",
   "ids": [
     "bellwright-2024-pc",
     "ifsunsets-2024-pc",
@@ -55,7 +55,6 @@
     "lost-rift-2025-pc",
     "bodyrecords-2025-pc",
     "undermine-2-2025-pc",
-    "pit-of-goblin-2026-pc",
     "moonminers-2025-pc",
     "stellar-survivor-2019-pc",
     "pizza-bandit-2025-pc",
@@ -64,14 +63,12 @@
     "afterblast-2025-pc",
     "dreadzone-2025-pc",
     "bum-revenge-2025-pc",
-    "mycorelic-2026-pc",
     "first-dwarf-2024-pc",
     "car-service-together-2026-pc",
     "dig-island-2026-pc",
     "roadside-research-2026-pc",
     "subsistence-2016-pc",
     "dysplaced-2026-pc",
-    "lightyear-frontier-2026-pc",
     "nuclear-nightmare-2024-pc",
     "vampires-bloodlord-rising-2026-pc",
     "ars-notoria-2025-pc",
@@ -85,7 +82,6 @@
     "another-try-2-2025-pc",
     "nested-lands-2026-pc",
     "everwind-2026-pc",
-    "moonshiner-simulator-2026-pc",
     "hatters-2026-pc",
     "farever-2026-pc",
     "deep-rock-galactic-rogue-core-2026-pc",
@@ -114,11 +110,11 @@
     "lugal-bronze-age-survival-game-2026-pc",
     "delverium-2026-pc",
     "spacecraft-2026-pc",
-    "guinea-pig-runaway-together-2026-pc",
     "funnel-runners-2026-pc",
     "invokyr-2026-pc",
     "stonewards-2026-pc",
     "hytale-2026-pc",
-    "good-heavens-2026-pc"
+    "good-heavens-2026-pc",
+    "drive-with-friends-2026-pc"
   ]
 }
