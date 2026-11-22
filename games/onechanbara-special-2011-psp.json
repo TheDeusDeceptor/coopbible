@@ -1,0 +1,27 @@
+{
+  "id": "onechanbara-special-2011-psp",
+  "name": "Onechanbara Special",
+  "platform": "PSP",
+  "size": "",
+  "hltb": "Main: 4",
+  "dev": "Tamsoft",
+  "pub": "D3",
+  "notes": "",
+  "release": "31.03.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/onechanbara-special-2011-psp.jpg",
+  "logo": "images/logos/onechanbara-special-2011-psp.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_note": "Japanese only."
+}

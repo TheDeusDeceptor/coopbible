@@ -1,0 +1,38 @@
+{
+  "id": "onee-chanbara-origin-2020-pc",
+  "name": "Onee Chanbara ORIGIN",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 5, +Extra: 9",
+  "dev": "Tamsoft",
+  "pub": "D3",
+  "notes": "",
+  "release": "14.10.2020",
+  "ea_release": "",
+  "screenshot": "images/screenshots/onee-chanbara-origin-2020-pc.jpg",
+  "logo": "images/logos/onee-chanbara-origin-2020-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1232460",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Onee_Chanbara_Origin",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_note": null
+}

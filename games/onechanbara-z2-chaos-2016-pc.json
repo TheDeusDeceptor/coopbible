@@ -1,0 +1,38 @@
+{
+  "id": "onechanbara-z2-chaos-2016-pc",
+  "name": "Onechanbara Z2: Chaos",
+  "platform": "PC",
+  "size": "10 GB",
+  "hltb": "Main: 6, +Extra: 10",
+  "dev": "Tamsoft",
+  "pub": "D3",
+  "notes": "",
+  "release": "02.06.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/onechanbara-z2-chaos-2016-pc.jpg",
+  "logo": "images/logos/onechanbara-z2-chaos-2016-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/446390",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Onechanbara_Z2%3A_Chaos",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_note": null
+}

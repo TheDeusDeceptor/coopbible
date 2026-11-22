@@ -1,0 +1,27 @@
+{
+  "id": "onechanbara-bikini-samurai-squad-2006-x360",
+  "name": "Onechanbara: Bikini Samurai Squad",
+  "platform": "X360",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 25",
+  "dev": "Tamsoft",
+  "pub": "D3",
+  "notes": "",
+  "release": "14.12.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/onechanbara-bikini-samurai-squad-2006-x360.jpg",
+  "logo": "images/logos/onechanbara-bikini-samurai-squad-2006-x360.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_note": null
+}

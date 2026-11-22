@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T17:07:19Z",
+  "updated": "2026-11-22T17:35:30Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -5840,7 +5840,7 @@
         "ownedSteam": false,
         "gamepass": false
       },
-      "series": null,
+      "series": "onechanbara",
       "series_status": null,
       "series_note": null
     },
@@ -41419,6 +41419,244 @@
       "series": "zeroescape",
       "series_status": null,
       "series_note": null
+    },
+    "zombie-hunters-2005-ps2": {
+      "id": "zombie-hunters-2005-ps2",
+      "name": "Zombie Hunters",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 3",
+      "dev": "Tamsoft",
+      "pub": "D3 Publisher",
+      "notes": "",
+      "release": "23.06.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/zombie-hunters-2005-ps2.jpg",
+      "logo": "images/logos/zombie-hunters-2005-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "onechanbara",
+      "series_status": null,
+      "series_note": null
+    },
+    "zombie-hunters-2-2006-ps2": {
+      "id": "zombie-hunters-2-2006-ps2",
+      "name": "Zombie Hunters 2",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 5",
+      "dev": "Tamsoft",
+      "pub": "D3",
+      "notes": "",
+      "release": "29.06.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/zombie-hunters-2-2006-ps2.jpg",
+      "logo": "images/logos/zombie-hunters-2-2006-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "onechanbara",
+      "series_status": null,
+      "series_note": null
+    },
+    "onechanbara-bikini-samurai-squad-2006-x360": {
+      "id": "onechanbara-bikini-samurai-squad-2006-x360",
+      "name": "Onechanbara: Bikini Samurai Squad",
+      "platform": "X360",
+      "size": "",
+      "hltb": "Main: 6, +Extra: 25",
+      "dev": "Tamsoft",
+      "pub": "D3",
+      "notes": "",
+      "release": "14.12.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/onechanbara-bikini-samurai-squad-2006-x360.jpg",
+      "logo": "images/logos/onechanbara-bikini-samurai-squad-2006-x360.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "onechanbara",
+      "series_status": null,
+      "series_note": null
+    },
+    "onechanbara-bikini-zombie-slayers-2008-wii": {
+      "id": "onechanbara-bikini-zombie-slayers-2008-wii",
+      "name": "OneChanbara: Bikini Zombie Slayers",
+      "platform": "Wii",
+      "size": "",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "Tamsoft",
+      "pub": "D3",
+      "notes": "",
+      "release": "07.02.2008",
+      "ea_release": "",
+      "screenshot": "images/screenshots/onechanbara-bikini-zombie-slayers-2008-wii.jpg",
+      "logo": "images/logos/onechanbara-bikini-zombie-slayers-2008-wii.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "onechanbara",
+      "series_status": null,
+      "series_note": null
+    },
+    "onechanbara-special-2011-psp": {
+      "id": "onechanbara-special-2011-psp",
+      "name": "Onechanbara Special",
+      "platform": "PSP",
+      "size": "",
+      "hltb": "Main: 4",
+      "dev": "Tamsoft",
+      "pub": "D3",
+      "notes": "",
+      "release": "31.03.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/onechanbara-special-2011-psp.jpg",
+      "logo": "images/logos/onechanbara-special-2011-psp.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "onechanbara",
+      "series_status": null,
+      "series_note": "Japanese only."
+    },
+    "onechanbara-z-kagura-with-no-no-no-2013-ps3": {
+      "id": "onechanbara-z-kagura-with-no-no-no-2013-ps3",
+      "name": "OneChanbara Z: Kagura With No No No!",
+      "platform": "PS3",
+      "size": "",
+      "hltb": "Main: 5, +Extra: 8",
+      "dev": "Tamsoft",
+      "pub": "D3",
+      "notes": "",
+      "release": "07.11.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/onechanbara-z-kagura-with-no-no-no-2013-ps3.jpg",
+      "logo": "images/logos/onechanbara-z-kagura-with-no-no-no-2013-ps3.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "onechanbara",
+      "series_status": null,
+      "series_note": "Partial (**97**%) english translation exists."
+    },
+    "onechanbara-z2-chaos-2016-pc": {
+      "id": "onechanbara-z2-chaos-2016-pc",
+      "name": "Onechanbara Z2: Chaos",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 6, +Extra: 10",
+      "dev": "Tamsoft",
+      "pub": "D3",
+      "notes": "",
+      "release": "02.06.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/onechanbara-z2-chaos-2016-pc.jpg",
+      "logo": "images/logos/onechanbara-z2-chaos-2016-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/446390",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Onechanbara_Z2%3A_Chaos",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "onechanbara",
+      "series_status": null,
+      "series_note": null
+    },
+    "onee-chanbara-origin-2020-pc": {
+      "id": "onee-chanbara-origin-2020-pc",
+      "name": "Onee Chanbara ORIGIN",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 5, +Extra: 9",
+      "dev": "Tamsoft",
+      "pub": "D3",
+      "notes": "",
+      "release": "14.10.2020",
+      "ea_release": "",
+      "screenshot": "images/screenshots/onee-chanbara-origin-2020-pc.jpg",
+      "logo": "images/logos/onee-chanbara-origin-2020-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1232460",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Onee_Chanbara_Origin",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "onechanbara",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -42361,6 +42599,14 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "onee-chanbara-origin-2020-pc",
+      "onechanbara-z2-chaos-2016-pc",
+      "onechanbara-z-kagura-with-no-no-no-2013-ps3",
+      "onechanbara-special-2011-psp",
+      "onechanbara-bikini-zombie-slayers-2008-wii",
+      "onechanbara-bikini-samurai-squad-2006-x360",
+      "zombie-hunters-2-2006-ps2",
+      "zombie-hunters-2005-ps2",
       "zero-escape-zero-time-dilemma-2016-pc",
       "zero-escape-virtue-s-last-reward-2017-pc",
       "zero-escape-nine-hours-nine-persons-nine-doors-2017-pc",
@@ -42824,7 +43070,38 @@
         "zero-escape-virtue-s-last-reward-2017-pc",
         "zero-escape-zero-time-dilemma-2016-pc"
       ],
-      "display": {}
+      "display": {
+        "zero-escape-nine-hours-nine-persons-nine-doors-2017-pc": {
+          "display_release": "2009 *^_(2017)_^*"
+        },
+        "zero-escape-virtue-s-last-reward-2017-pc": {
+          "display_release": "2012 *^_(2017)_^*"
+        }
+      }
+    },
+    "onechanbara": {
+      "id": "onechanbara",
+      "name": "Onechanbara",
+      "logo": "https://cdn2.steamgriddb.com/logo/a93767623439d3b96b0ede5244cb6b52.png",
+      "order": [
+        "zombie-hunters-2005-ps2",
+        "zombie-hunters-2-2006-ps2",
+        "onechanbara-bikini-samurai-squad-2006-x360",
+        "onechanbara-bikini-zombie-slayers-2008-wii",
+        "onechanbara-special-2011-psp",
+        "onechanbara-z-kagura-with-no-no-no-2013-ps3",
+        "onechanbara-z2-chaos-2016-pc",
+        "sg-zh-school-girl-zombie-hunter-2018-pc",
+        "onee-chanbara-origin-2020-pc"
+      ],
+      "display": {
+        "onechanbara-z2-chaos-2016-pc": {
+          "display_release": "2014 *^_(2016)_^*"
+        },
+        "sg-zh-school-girl-zombie-hunter-2018-pc": {
+          "display_release": "2017 *^_(2018)_^*"
+        }
+      }
     }
   },
   "series_order": [
@@ -42838,6 +43115,7 @@
     "deadtorights",
     "traumacenter",
     "danganronpa",
-    "zeroescape"
+    "zeroescape",
+    "onechanbara"
   ]
 }

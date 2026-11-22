@@ -1,0 +1,24 @@
+{
+  "id": "onechanbara",
+  "name": "Onechanbara",
+  "logo": "https://cdn2.steamgriddb.com/logo/a93767623439d3b96b0ede5244cb6b52.png",
+  "order": [
+    "zombie-hunters-2005-ps2",
+    "zombie-hunters-2-2006-ps2",
+    "onechanbara-bikini-samurai-squad-2006-x360",
+    "onechanbara-bikini-zombie-slayers-2008-wii",
+    "onechanbara-special-2011-psp",
+    "onechanbara-z-kagura-with-no-no-no-2013-ps3",
+    "onechanbara-z2-chaos-2016-pc",
+    "sg-zh-school-girl-zombie-hunter-2018-pc",
+    "onee-chanbara-origin-2020-pc"
+  ],
+  "display": {
+    "onechanbara-z2-chaos-2016-pc": {
+      "display_release": "2014 *^_(2016)_^*"
+    },
+    "sg-zh-school-girl-zombie-hunter-2018-pc": {
+      "display_release": "2017 *^_(2018)_^*"
+    }
+  }
+}

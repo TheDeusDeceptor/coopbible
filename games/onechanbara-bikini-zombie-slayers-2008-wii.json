@@ -1,0 +1,27 @@
+{
+  "id": "onechanbara-bikini-zombie-slayers-2008-wii",
+  "name": "OneChanbara: Bikini Zombie Slayers",
+  "platform": "Wii",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Tamsoft",
+  "pub": "D3",
+  "notes": "",
+  "release": "07.02.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/onechanbara-bikini-zombie-slayers-2008-wii.jpg",
+  "logo": "images/logos/onechanbara-bikini-zombie-slayers-2008-wii.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "zombie-hunters-2-2006-ps2",
+  "name": "Zombie Hunters 2",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 5",
+  "dev": "Tamsoft",
+  "pub": "D3",
+  "notes": "",
+  "release": "29.06.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zombie-hunters-2-2006-ps2.jpg",
+  "logo": "images/logos/zombie-hunters-2-2006-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_note": null
+}

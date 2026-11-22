@@ -1,0 +1,27 @@
+{
+  "id": "zombie-hunters-2005-ps2",
+  "name": "Zombie Hunters",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 3",
+  "dev": "Tamsoft",
+  "pub": "D3 Publisher",
+  "notes": "",
+  "release": "23.06.2005",
+  "ea_release": "",
+  "screenshot": "images/screenshots/zombie-hunters-2005-ps2.jpg",
+  "logo": "images/logos/zombie-hunters-2005-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "onechanbara",
+  "series_status": null,
+  "series_note": null
+}
