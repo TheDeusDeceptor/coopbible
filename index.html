@@ -3855,16 +3855,21 @@ async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
       const nw = img.naturalWidth || (isShot ? 1280 : 400);
       const nh = img.naturalHeight || (isShot ? 720 : 400);
       const scale = isShot ? Math.min(1, 720 / nh) : Math.min(1, 400 / Math.max(nw, nh));
-      const w = Math.max(1, Math.round(nw * scale));
-      const h = Math.max(1, Math.round(nh * scale));
+      const dw = Math.max(1, Math.round(nw * scale));
+      const dh = Math.max(1, Math.round(nh * scale));
       const canvas = document.createElement('canvas');
-      canvas.width = w;
-      canvas.height = h;
+      canvas.width = isShot ? dw : 504;
+      canvas.height = isShot ? dh : 562;
       const ctx = canvas.getContext('2d');
       ctx.imageSmoothingEnabled = true;
       ctx.imageSmoothingQuality = 'high';
-      if(isShot){ ctx.fillStyle = '#000'; ctx.fillRect(0, 0, w, h); }
-      ctx.drawImage(img, 0, 0, w, h);
+      if(isShot){
+        ctx.fillStyle = '#000';
+        ctx.fillRect(0, 0, dw, dh);
+        ctx.drawImage(img, 0, 0, dw, dh);
+      } else {
+        ctx.drawImage(img, Math.round((504 - dw) / 2), Math.round((562 - dh) / 2), dw, dh);
+      }
       const mime = isShot ? 'image/jpeg' : 'image/png';
       outBlob = await new Promise((resolve, reject) => {
         canvas.toBlob(b => b ? resolve(b) : reject(new Error('Encode failed')), mime, isShot ? 0.9 : undefined);
@@ -4278,6 +4283,14 @@ function statusBadgeFromStatus(status){
   if(status === 'optional') return `<div class="g-status optional">Optional</div>`;
   return `<div class="empty-cell">—</div>`;
 }
+function stripSeriesFmt(raw){
+  return String(raw || '')
+    .replace(/\*\*([\s\S]+?)\*\*/g, '$1')
+    .replace(/~~([\s\S]+?)~~/g, '$1')
+    .replace(/\*([^*]+?)\*/g, '$1')
+    .replace(/\^([^^]+?)\^/g, '$1')
+    .replace(/(?<![A-Za-z0-9])_([^_]+?)_(?![A-Za-z0-9])/g, '$1');
+}
 function fmtSeriesText(raw){
   let s = esc(raw || '');
   s = s.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>');
@@ -4322,13 +4335,13 @@ function seriesRowHTML(g, disp, slug){
   const displayPlat  = d.display_platform || g.platform || '';
   return `
     <div class="series-game-row" data-id="${esc(g.id)}" data-series="${esc(slug)}">
-      <div class="g-title" title="${esc(displayName)}"><span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
+      <div class="g-title" title="${esc(stripSeriesFmt(displayName))}"><span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
       <div class="g-year">${fmtSeriesText(displayYear)}</div>
       <div class="g-platform">${fmtSeriesText(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
       ${statusBadgeFromStatus(g.series_status || '')}
       ${ownerBadgeFromFlags(g)}
-      <div class="g-note" title="${esc(g.series_note || '')}">${fmtSeriesText(g.series_note || '')}</div>
+      <div class="g-note" title="${esc(stripSeriesFmt(g.series_note || ''))}">${fmtSeriesText(g.series_note || '')}</div>
     </div>`;
 }
 function seriesRowAdminHTML(g, disp, idx, slug){
@@ -4339,13 +4352,13 @@ function seriesRowAdminHTML(g, disp, idx, slug){
   const pend = pendingClassFor(g.id);
   return `
     <div class="series-game-row${pend}" data-id="${esc(g.id)}" data-series="${esc(slug)}" data-idx="${idx}" draggable="true">
-      <div class="g-title" title="${esc(displayName)}"><span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
+      <div class="g-title" title="${esc(stripSeriesFmt(displayName))}"><span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
       <div class="g-year">${fmtSeriesText(displayYear)}</div>
       <div class="g-platform">${fmtSeriesText(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
       ${statusBadgeFromStatus(g.series_status || '')}
       ${ownerBadgeFromFlags(g)}
-      <div class="g-note" title="${esc(g.series_note || '')}">${fmtSeriesText(g.series_note || '')}</div>
+      <div class="g-note" title="${esc(stripSeriesFmt(g.series_note || ''))}">${fmtSeriesText(g.series_note || '')}</div>
       <div class="g-actions">
         <button type="button" class="edit" data-act="series-edit-game" title="Edit game"><span class="icon icon-pencil"></span></button>
         <button type="button" class="disp" data-act="series-edit-row" title="Display override"><span class="icon icon-cog"></span></button>
@@ -4406,13 +4419,13 @@ function bsidesGameRowHTML(g, disp, slug, idx){
       </div>` : '';
   return `
     <div class="series-game-row game${pend}" data-bsides-slug="${esc(slug)}" data-bsides-idx="${idx}" data-id="${esc(g.id)}" ${adminMode ? 'draggable="true"' : ''}>
-      <div class="g-title" title="${esc(displayName)}">${BSIDES_GAME_ICON}<span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
+      <div class="g-title" title="${esc(stripSeriesFmt(displayName))}">${BSIDES_GAME_ICON}<span class="g-title-txt">${fmtSeriesText(displayName)}</span></div>
       <div class="g-year">${fmtSeriesText(displayYear)}</div>
       <div class="g-platform">${fmtSeriesText(displayPlat)}</div>
       <div class="g-hltb">${fmtHltb(g.hltb, true)}</div>
       ${statusBadgeFromStatus(g.series_status || '')}
       ${ownerBadgeFromFlags(g)}
-      <div class="g-note" title="${esc(g.series_note || '')}">${fmtSeriesText(g.series_note || '')}</div>
+      <div class="g-note" title="${esc(stripSeriesFmt(g.series_note || ''))}">${fmtSeriesText(g.series_note || '')}</div>
       ${actions}
     </div>`;
 }
@@ -4426,13 +4439,13 @@ function bsidesMovieRowHTML(entry, slug, idx){
       </div>` : '';
   return `
     <div class="series-game-row movie" data-bsides-slug="${esc(slug)}" data-bsides-idx="${idx}" ${adminMode ? 'draggable="true"' : ''}>
-      <div class="g-title" title="${esc(entry.name || '')}">${BSIDES_FILM_ICON}<span class="g-title-txt">${fmtSeriesText(entry.name || '')}</span></div>
+      <div class="g-title" title="${esc(stripSeriesFmt(entry.name || ''))}">${BSIDES_FILM_ICON}<span class="g-title-txt">${fmtSeriesText(entry.name || '')}</span></div>
       <div class="g-year">${fmtSeriesText(entry.year || '')}</div>
       <div class="g-platform">${fmtSeriesText(entry.quality || '')}</div>
       <div class="g-hltb">${fmtSeriesText(entry.runtime || '')}</div>
       ${statusHTML}
       <div class="empty-cell">—</div>
-      <div class="g-note" title="${esc(entry.note || '')}">${fmtSeriesText(entry.note || '')}</div>
+      <div class="g-note" title="${esc(stripSeriesFmt(entry.note || ''))}">${fmtSeriesText(entry.note || '')}</div>
       ${actions}
     </div>`;
 }
