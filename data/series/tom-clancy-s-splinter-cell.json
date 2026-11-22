@@ -1,0 +1,9 @@
+{
+  "id": "tom-clancy-s-splinter-cell",
+  "name": "Tom Clancy's Splinter Cell",
+  "logo": "images/series/tom-clancy-s-splinter-cell.png",
+  "order": [
+    "tom-clancy-s-splinter-cell-2002-pc"
+  ],
+  "display": {}
+}

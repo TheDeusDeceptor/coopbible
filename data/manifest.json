@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T19:07:43Z",
+  "updated": "2026-11-22T19:26:03Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -42067,7 +42067,7 @@
       },
       "series": "gearsofwar",
       "series_status": null,
-      "series_note": "Leaked 2011 PC Build enhanced by modder."
+      "series_note": "Leaked 2011 PC build enhanced by modder."
     },
     "gears-of-war-judgment-2013-x360": {
       "id": "gears-of-war-judgment-2013-x360",
@@ -42240,6 +42240,44 @@
         "gamepass": false
       },
       "series": "gearsofwar",
+      "series_status": null,
+      "series_note": null
+    },
+    "tom-clancy-s-splinter-cell-2002-pc": {
+      "id": "tom-clancy-s-splinter-cell-2002-pc",
+      "name": "Tom Clancy's Splinter Cell",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 13, +Extra: 15",
+      "dev": "Ubisoft",
+      "pub": "Ubisoft",
+      "notes": "",
+      "release": "12.11.2002",
+      "ea_release": "",
+      "screenshot": "images/screenshots/tom-clancy-s-splinter-cell-2002-pc.jpg",
+      "logo": "images/logos/tom-clancy-s-splinter-cell-2002-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/13560",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Splinter_Cell",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "tomclancyssplintercell",
       "series_status": null,
       "series_note": null
     }
@@ -43428,7 +43466,9 @@
       "deltarune-2018-pc",
       "clair-obscur-expedition-33-2025-pc"
     ],
-    "emulog": [],
+    "emulog": [
+      "tom-clancy-s-splinter-cell-2002-pc"
+    ],
     "tvpc": [],
     "deuspc": [],
     "beaten": []
@@ -43781,6 +43821,15 @@
           "display_release": "2011 *^_(2026)_^*"
         }
       }
+    },
+    "tom-clancy-s-splinter-cell": {
+      "id": "tom-clancy-s-splinter-cell",
+      "name": "Tom Clancy's Splinter Cell",
+      "logo": "images/series/tom-clancy-s-splinter-cell.png",
+      "order": [
+        "tom-clancy-s-splinter-cell-2002-pc"
+      ],
+      "display": {}
     }
   },
   "series_order": [
@@ -43798,6 +43847,7 @@
     "onechanbara",
     "ai",
     "syphonfilter",
-    "gearsofwar"
+    "gearsofwar",
+    "tom-clancy-s-splinter-cell"
   ]
 }
