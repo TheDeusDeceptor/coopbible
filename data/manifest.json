@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T19:30:39Z",
+  "updated": "2026-11-22T19:31:49Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -43222,6 +43222,7 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "tom-clancy-s-splinter-cell-2002-pc",
       "gears-of-war-e-day-2026-pc",
       "gears-of-war-reloaded-2025-pc",
       "gears-5-2019-pc",
@@ -43466,9 +43467,7 @@
       "deltarune-2018-pc",
       "clair-obscur-expedition-33-2025-pc"
     ],
-    "emulog": [
-      "tom-clancy-s-splinter-cell-2002-pc"
-    ],
+    "emulog": [],
     "tvpc": [],
     "deuspc": [],
     "beaten": []
