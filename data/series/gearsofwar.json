@@ -1,0 +1,29 @@
+{
+  "id": "gearsofwar",
+  "name": "Gears of War",
+  "logo": "images/series/gearsofwar.png",
+  "order": [
+    "gears-of-war-ultimate-edition-2016-pc",
+    "gears-of-war-2-hollow-2026-pc",
+    "project-jacinto-2026-pc",
+    "gears-of-war-judgment-2013-x360",
+    "gears-of-war-4-2016-pc",
+    "gears-5-2019-pc",
+    "gears-of-war-reloaded-2025-pc",
+    "gears-of-war-e-day-2026-pc"
+  ],
+  "display": {
+    "gears-of-war-2-hollow-2026-pc": {
+      "display_name": "Gears of War 2 _(: Hollow)_",
+      "display_release": "2008 *^_(2026)_^*"
+    },
+    "gears-of-war-ultimate-edition-2016-pc": {
+      "display_name": "Gears of War _(: Ultimate Edition)_",
+      "display_release": "2007 *^_(2016)_^*"
+    },
+    "project-jacinto-2026-pc": {
+      "display_name": "Gears of War 3 _(Project Jacinto)_",
+      "display_release": "2011 *^_(2026)_^*"
+    }
+  }
+}

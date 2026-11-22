@@ -1,0 +1,38 @@
+{
+  "id": "days-gone-2021-pc",
+  "name": "Days Gone",
+  "platform": "PC",
+  "size": "70 GB",
+  "hltb": "Main: 37, +Extra: 51",
+  "dev": "Bend Studio",
+  "pub": "Sony Interactive Entertainment",
+  "notes": "",
+  "release": "17.05.2021",
+  "ea_release": "",
+  "screenshot": "images/screenshots/days-gone-2021-pc.jpg",
+  "logo": "images/logos/days-gone-2021-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1259420",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Days_Gone",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "syphonfilter",
+  "series_status": null,
+  "series_note": "*Yup, that's right!*"
+}

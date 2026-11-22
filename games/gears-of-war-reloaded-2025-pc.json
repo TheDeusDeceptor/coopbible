@@ -1,0 +1,38 @@
+{
+  "id": "gears-of-war-reloaded-2025-pc",
+  "name": "Gears of War: Reloaded",
+  "platform": "PC",
+  "size": "70 GB",
+  "hltb": "Main: 7, +Extra: 9",
+  "dev": "The Coalition",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "26.08.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gears-of-war-reloaded-2025-pc.jpg",
+  "logo": "images/logos/gears-of-war-reloaded-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2523720",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gears_of_War%3A_Reloaded",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "gearsofwar",
+  "series_status": null,
+  "series_note": "*\"Enhanced port\"* of remaster (^aka Ultimate Edition^) of the original. _^*Burp*^_"
+}

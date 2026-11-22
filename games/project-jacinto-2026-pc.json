@@ -1,0 +1,27 @@
+{
+  "id": "project-jacinto-2026-pc",
+  "name": "Project Jacinto",
+  "platform": "PC",
+  "size": "32 GB",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "xHeliosx",
+  "pub": "",
+  "notes": "",
+  "release": "20.097.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/project-jacinto-2026-pc.jpg",
+  "logo": "images/logos/project-jacinto-2026-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "gearsofwar",
+  "series_status": null,
+  "series_note": "Leaked 2011 PC Build enhanced by modder."
+}

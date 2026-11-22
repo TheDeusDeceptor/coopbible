@@ -1,0 +1,37 @@
+{
+  "id": "gears-of-war-2-hollow-2026-pc",
+  "name": "Gears of War 2: Hollow",
+  "platform": "PC",
+  "size": "6.5 GB",
+  "hltb": "Main: 10, +Extra: 13",
+  "dev": "xHeliosx",
+  "pub": "",
+  "notes": "",
+  "release": "16.07.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gears-of-war-2-hollow-2026-pc.jpg",
+  "logo": "images/logos/gears-of-war-2-hollow-2026-pc.png",
+  "links": [
+    {
+      "label": "ModDB",
+      "url": "https://www.moddb.com/mods/gears-of-war-2-hollow"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [
+    {
+      "name": "Road to Ruin",
+      "played": false
+    }
+  ],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "gearsofwar",
+  "series_status": null,
+  "series_note": "Leaked 2008 PC build enhanced by modder."
+}

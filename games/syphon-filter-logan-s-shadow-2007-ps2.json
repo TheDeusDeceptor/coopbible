@@ -1,0 +1,27 @@
+{
+  "id": "syphon-filter-logan-s-shadow-2007-ps2",
+  "name": "Syphon Filter: Logan's Shadow",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 10",
+  "dev": "Bend Studio",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "02.10.2007",
+  "ea_release": "",
+  "screenshot": "images/screenshots/syphon-filter-logan-s-shadow-2007-ps2.jpg",
+  "logo": "images/logos/syphon-filter-logan-s-shadow-2007-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "syphonfilter",
+  "series_status": null,
+  "series_note": null
+}

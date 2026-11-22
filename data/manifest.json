@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T17:57:16Z",
+  "updated": "2026-11-22T19:07:43Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -41771,6 +41771,477 @@
       "series": "ai",
       "series_status": null,
       "series_note": null
+    },
+    "syphon-filter-1999-psx": {
+      "id": "syphon-filter-1999-psx",
+      "name": "Syphon Filter",
+      "platform": "PSX",
+      "size": "",
+      "hltb": "Main: 10, +Extra: 11",
+      "dev": "Eidetic",
+      "pub": "989 Studios",
+      "notes": "",
+      "release": "17.02.1999",
+      "ea_release": "",
+      "screenshot": "images/screenshots/syphon-filter-1999-psx.jpg",
+      "logo": "images/logos/syphon-filter-1999-psx.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "syphonfilter",
+      "series_status": null,
+      "series_note": null
+    },
+    "syphon-filter-2-2000-psx": {
+      "id": "syphon-filter-2-2000-psx",
+      "name": "Syphon Filter 2",
+      "platform": "PSX",
+      "size": "",
+      "hltb": "Main: 10",
+      "dev": "Eidetic",
+      "pub": "989 Studios",
+      "notes": "",
+      "release": "14.03.2000",
+      "ea_release": "",
+      "screenshot": "images/screenshots/syphon-filter-2-2000-psx.jpg",
+      "logo": "images/logos/syphon-filter-2-2000-psx.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "syphonfilter",
+      "series_status": null,
+      "series_note": null
+    },
+    "syphon-filter-3-2001-psx": {
+      "id": "syphon-filter-3-2001-psx",
+      "name": "Syphon Filter 3",
+      "platform": "PSX",
+      "size": "",
+      "hltb": "Main: 6, +Extra: 8",
+      "dev": "Bend Studio",
+      "pub": "Sony Computer Entertainment",
+      "notes": "",
+      "release": "06.11.2001",
+      "ea_release": "",
+      "screenshot": "images/screenshots/syphon-filter-3-2001-psx.jpg",
+      "logo": "images/logos/syphon-filter-3-2001-psx.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "syphonfilter",
+      "series_status": null,
+      "series_note": "*Blast from the past...*"
+    },
+    "syphon-filter-the-omega-strain-2004-ps2": {
+      "id": "syphon-filter-the-omega-strain-2004-ps2",
+      "name": "Syphon Filter: The Omega Strain",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 11, +Extra: 18",
+      "dev": "Bend Studio",
+      "pub": "Sony Computer Entertainment",
+      "notes": "",
+      "release": "04.05.2004",
+      "ea_release": "",
+      "screenshot": "images/screenshots/syphon-filter-the-omega-strain-2004-ps2.jpg",
+      "logo": "images/logos/syphon-filter-the-omega-strain-2004-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "syphonfilter",
+      "series_status": null,
+      "series_note": null
+    },
+    "syphon-filter-dark-mirror-2007-ps2": {
+      "id": "syphon-filter-dark-mirror-2007-ps2",
+      "name": "Syphon Filter: Dark Mirror",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "Bend Studio",
+      "pub": "Sony Computer Entertainment",
+      "notes": "",
+      "release": "18.09.2007",
+      "ea_release": "",
+      "screenshot": "images/screenshots/syphon-filter-dark-mirror-2007-ps2.jpg",
+      "logo": "images/logos/syphon-filter-dark-mirror-2007-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "syphonfilter",
+      "series_status": null,
+      "series_note": "*Can't decide shitty controls or cencored violence smh...*"
+    },
+    "syphon-filter-logan-s-shadow-2007-ps2": {
+      "id": "syphon-filter-logan-s-shadow-2007-ps2",
+      "name": "Syphon Filter: Logan's Shadow",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 9, +Extra: 10",
+      "dev": "Bend Studio",
+      "pub": "Sony Computer Entertainment",
+      "notes": "",
+      "release": "02.10.2007",
+      "ea_release": "",
+      "screenshot": "images/screenshots/syphon-filter-logan-s-shadow-2007-ps2.jpg",
+      "logo": "images/logos/syphon-filter-logan-s-shadow-2007-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "syphonfilter",
+      "series_status": null,
+      "series_note": null
+    },
+    "days-gone-2021-pc": {
+      "id": "days-gone-2021-pc",
+      "name": "Days Gone",
+      "platform": "PC",
+      "size": "70 GB",
+      "hltb": "Main: 37, +Extra: 51",
+      "dev": "Bend Studio",
+      "pub": "Sony Interactive Entertainment",
+      "notes": "",
+      "release": "17.05.2021",
+      "ea_release": "",
+      "screenshot": "images/screenshots/days-gone-2021-pc.jpg",
+      "logo": "images/logos/days-gone-2021-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1259420",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Days_Gone",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "syphonfilter",
+      "series_status": null,
+      "series_note": "*Yup, that's right!*"
+    },
+    "gears-of-war-ultimate-edition-2016-pc": {
+      "id": "gears-of-war-ultimate-edition-2016-pc",
+      "name": "Gears of War: Ultimate Edition",
+      "platform": "PC",
+      "size": "60 GB",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "Epic Games",
+      "pub": "Microsoft Studios",
+      "notes": "",
+      "release": "01.03.2016",
+      "ea_release": "",
+      "screenshot": "https://www.heypoorplayer.com/wp-content/uploads/2015/08/gearsult4.png",
+      "logo": "images/logos/gears-of-war-ultimate-edition-2016-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gears_of_War%3A_Ultimate_Edition",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "gearsofwar",
+      "series_status": null,
+      "series_note": "Remaster of the original."
+    },
+    "gears-of-war-2-hollow-2026-pc": {
+      "id": "gears-of-war-2-hollow-2026-pc",
+      "name": "Gears of War 2: Hollow",
+      "platform": "PC",
+      "size": "6.5 GB",
+      "hltb": "Main: 10, +Extra: 13",
+      "dev": "xHeliosx",
+      "pub": "",
+      "notes": "",
+      "release": "16.07.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gears-of-war-2-hollow-2026-pc.jpg",
+      "logo": "images/logos/gears-of-war-2-hollow-2026-pc.png",
+      "links": [
+        {
+          "label": "ModDB",
+          "url": "https://www.moddb.com/mods/gears-of-war-2-hollow"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [
+        {
+          "name": "Road to Ruin",
+          "played": false
+        }
+      ],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "gearsofwar",
+      "series_status": null,
+      "series_note": "Leaked 2008 PC build enhanced by modder."
+    },
+    "project-jacinto-2026-pc": {
+      "id": "project-jacinto-2026-pc",
+      "name": "Project Jacinto",
+      "platform": "PC",
+      "size": "32 GB",
+      "hltb": "Main: 10, +Extra: 13",
+      "dev": "xHeliosx",
+      "pub": "",
+      "notes": "",
+      "release": "20.097.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/project-jacinto-2026-pc.jpg",
+      "logo": "images/logos/project-jacinto-2026-pc.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "gearsofwar",
+      "series_status": null,
+      "series_note": "Leaked 2011 PC Build enhanced by modder."
+    },
+    "gears-of-war-judgment-2013-x360": {
+      "id": "gears-of-war-judgment-2013-x360",
+      "name": "Gears of War: Judgment",
+      "platform": "X360",
+      "size": "",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "People Can Fly, Epic Games",
+      "pub": "Microsoft Game Studios",
+      "notes": "",
+      "release": "19.03.2013",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gears-of-war-judgment-2013-x360.jpg",
+      "logo": "images/logos/gears-of-war-judgment-2013-x360.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "gearsofwar",
+      "series_status": null,
+      "series_note": "*A square peg in a round hole...*"
+    },
+    "gears-of-war-4-2016-pc": {
+      "id": "gears-of-war-4-2016-pc",
+      "name": "Gears of War 4",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 9, +Extra: 12",
+      "dev": "The Coalition",
+      "pub": "Microsoft Studios",
+      "notes": "",
+      "release": "11.10.2016",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gears-of-war-4-2016-pc.jpg",
+      "logo": "images/logos/gears-of-war-4-2016-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gears_of_War_4",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "gearsofwar",
+      "series_status": null,
+      "series_note": null
+    },
+    "gears-5-2019-pc": {
+      "id": "gears-5-2019-pc",
+      "name": "Gears 5",
+      "platform": "PC",
+      "size": "80 GB",
+      "hltb": "Main: 11, +Extra: 16",
+      "dev": "The Coalition",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "10.09.2019",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gears-5-2019-pc.jpg",
+      "logo": "images/logos/gears-5-2019-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1097840",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gears_5",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "gearsofwar",
+      "series_status": null,
+      "series_note": null
+    },
+    "gears-of-war-reloaded-2025-pc": {
+      "id": "gears-of-war-reloaded-2025-pc",
+      "name": "Gears of War: Reloaded",
+      "platform": "PC",
+      "size": "70 GB",
+      "hltb": "Main: 7, +Extra: 9",
+      "dev": "The Coalition",
+      "pub": "Xbox Game Studios",
+      "notes": "",
+      "release": "26.08.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gears-of-war-reloaded-2025-pc.jpg",
+      "logo": "images/logos/gears-of-war-reloaded-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2523720",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gears_of_War%3A_Reloaded",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "gearsofwar",
+      "series_status": null,
+      "series_note": "*\"Enhanced port\"* of remaster (^aka Ultimate Edition^) of the original. _^*Burp*^_"
+    },
+    "gears-of-war-e-day-2026-pc": {
+      "id": "gears-of-war-e-day-2026-pc",
+      "name": "Gears of War: E-Day",
+      "platform": "PC",
+      "size": "115 GB",
+      "hltb": "Main: 14, +Extra: 18",
+      "dev": "The Coalition",
+      "pub": "Xbox Games Studios",
+      "notes": "",
+      "release": "06.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/gears-of-war-e-day-2026-pc.jpg",
+      "logo": "images/logos/gears-of-war-e-day-2026-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3010850",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Gears_of_War%3A_E-Day",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "gearsofwar",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -42713,6 +43184,21 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "gears-of-war-e-day-2026-pc",
+      "gears-of-war-reloaded-2025-pc",
+      "gears-5-2019-pc",
+      "gears-of-war-4-2016-pc",
+      "gears-of-war-judgment-2013-x360",
+      "project-jacinto-2026-pc",
+      "gears-of-war-2-hollow-2026-pc",
+      "gears-of-war-ultimate-edition-2016-pc",
+      "days-gone-2021-pc",
+      "syphon-filter-logan-s-shadow-2007-ps2",
+      "syphon-filter-dark-mirror-2007-ps2",
+      "syphon-filter-the-omega-strain-2004-ps2",
+      "syphon-filter-3-2001-psx",
+      "syphon-filter-2-2000-psx",
+      "syphon-filter-1999-psx",
       "no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc",
       "ai-the-somnium-files-nirvana-initiative-2022-pc",
       "ai-the-somnium-files-2019-pc",
@@ -43241,6 +43727,60 @@
         "no-sleep-for-kaname-date-from-ai-the-somnium-files-2025-pc"
       ],
       "display": {}
+    },
+    "syphonfilter": {
+      "id": "syphonfilter",
+      "name": "Syphon Filter",
+      "logo": "images/series/syphonfilter.png",
+      "order": [
+        "syphon-filter-1999-psx",
+        "syphon-filter-2-2000-psx",
+        "syphon-filter-3-2001-psx",
+        "syphon-filter-the-omega-strain-2004-ps2",
+        "syphon-filter-dark-mirror-2007-ps2",
+        "syphon-filter-logan-s-shadow-2007-ps2",
+        "days-gone-2021-pc"
+      ],
+      "display": {
+        "syphon-filter-dark-mirror-2007-ps2": {
+          "display_release": "2006 *^_(2007)_^*"
+        },
+        "syphon-filter-logan-s-shadow-2007-ps2": {
+          "display_release": "2007 *^_(2010)_^*"
+        },
+        "days-gone-2021-pc": {
+          "display_release": "2019 *^_(2021)_^*"
+        }
+      }
+    },
+    "gearsofwar": {
+      "id": "gearsofwar",
+      "name": "Gears of War",
+      "logo": "images/series/gearsofwar.png",
+      "order": [
+        "gears-of-war-ultimate-edition-2016-pc",
+        "gears-of-war-2-hollow-2026-pc",
+        "project-jacinto-2026-pc",
+        "gears-of-war-judgment-2013-x360",
+        "gears-of-war-4-2016-pc",
+        "gears-5-2019-pc",
+        "gears-of-war-reloaded-2025-pc",
+        "gears-of-war-e-day-2026-pc"
+      ],
+      "display": {
+        "gears-of-war-2-hollow-2026-pc": {
+          "display_name": "Gears of War 2 _(: Hollow)_",
+          "display_release": "2008 *^_(2026)_^*"
+        },
+        "gears-of-war-ultimate-edition-2016-pc": {
+          "display_name": "Gears of War _(: Ultimate Edition)_",
+          "display_release": "2007 *^_(2016)_^*"
+        },
+        "project-jacinto-2026-pc": {
+          "display_name": "Gears of War 3 _(Project Jacinto)_",
+          "display_release": "2011 *^_(2026)_^*"
+        }
+      }
     }
   },
   "series_order": [
@@ -43256,6 +43796,8 @@
     "danganronpa",
     "zeroescape",
     "onechanbara",
-    "ai"
+    "ai",
+    "syphonfilter",
+    "gearsofwar"
   ]
 }

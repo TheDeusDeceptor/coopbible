@@ -1,0 +1,27 @@
+{
+  "id": "syphon-filter-3-2001-psx",
+  "name": "Syphon Filter 3",
+  "platform": "PSX",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 8",
+  "dev": "Bend Studio",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "06.11.2001",
+  "ea_release": "",
+  "screenshot": "images/screenshots/syphon-filter-3-2001-psx.jpg",
+  "logo": "images/logos/syphon-filter-3-2001-psx.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "syphonfilter",
+  "series_status": null,
+  "series_note": "*Blast from the past...*"
+}

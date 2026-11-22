@@ -1,0 +1,33 @@
+{
+  "id": "gears-of-war-4-2016-pc",
+  "name": "Gears of War 4",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 9, +Extra: 12",
+  "dev": "The Coalition",
+  "pub": "Microsoft Studios",
+  "notes": "",
+  "release": "11.10.2016",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gears-of-war-4-2016-pc.jpg",
+  "logo": "images/logos/gears-of-war-4-2016-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gears_of_War_4",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "gearsofwar",
+  "series_status": null,
+  "series_note": null
+}

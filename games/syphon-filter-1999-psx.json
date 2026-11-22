@@ -1,0 +1,27 @@
+{
+  "id": "syphon-filter-1999-psx",
+  "name": "Syphon Filter",
+  "platform": "PSX",
+  "size": "",
+  "hltb": "Main: 10, +Extra: 11",
+  "dev": "Eidetic",
+  "pub": "989 Studios",
+  "notes": "",
+  "release": "17.02.1999",
+  "ea_release": "",
+  "screenshot": "images/screenshots/syphon-filter-1999-psx.jpg",
+  "logo": "images/logos/syphon-filter-1999-psx.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "syphonfilter",
+  "series_status": null,
+  "series_note": null
+}

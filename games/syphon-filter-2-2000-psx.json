@@ -1,0 +1,27 @@
+{
+  "id": "syphon-filter-2-2000-psx",
+  "name": "Syphon Filter 2",
+  "platform": "PSX",
+  "size": "",
+  "hltb": "Main: 10",
+  "dev": "Eidetic",
+  "pub": "989 Studios",
+  "notes": "",
+  "release": "14.03.2000",
+  "ea_release": "",
+  "screenshot": "images/screenshots/syphon-filter-2-2000-psx.jpg",
+  "logo": "images/logos/syphon-filter-2-2000-psx.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "syphonfilter",
+  "series_status": null,
+  "series_note": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "gears-5-2019-pc",
+  "name": "Gears 5",
+  "platform": "PC",
+  "size": "80 GB",
+  "hltb": "Main: 11, +Extra: 16",
+  "dev": "The Coalition",
+  "pub": "Xbox Game Studios",
+  "notes": "",
+  "release": "10.09.2019",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gears-5-2019-pc.jpg",
+  "logo": "images/logos/gears-5-2019-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1097840",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gears_5",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "gearsofwar",
+  "series_status": null,
+  "series_note": null
+}

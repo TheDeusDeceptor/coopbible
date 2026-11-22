@@ -1,0 +1,25 @@
+{
+  "id": "syphonfilter",
+  "name": "Syphon Filter",
+  "logo": "images/series/syphonfilter.png",
+  "order": [
+    "syphon-filter-1999-psx",
+    "syphon-filter-2-2000-psx",
+    "syphon-filter-3-2001-psx",
+    "syphon-filter-the-omega-strain-2004-ps2",
+    "syphon-filter-dark-mirror-2007-ps2",
+    "syphon-filter-logan-s-shadow-2007-ps2",
+    "days-gone-2021-pc"
+  ],
+  "display": {
+    "syphon-filter-dark-mirror-2007-ps2": {
+      "display_release": "2006 *^_(2007)_^*"
+    },
+    "syphon-filter-logan-s-shadow-2007-ps2": {
+      "display_release": "2007 *^_(2010)_^*"
+    },
+    "days-gone-2021-pc": {
+      "display_release": "2019 *^_(2021)_^*"
+    }
+  }
+}

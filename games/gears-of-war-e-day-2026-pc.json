@@ -1,0 +1,38 @@
+{
+  "id": "gears-of-war-e-day-2026-pc",
+  "name": "Gears of War: E-Day",
+  "platform": "PC",
+  "size": "115 GB",
+  "hltb": "Main: 14, +Extra: 18",
+  "dev": "The Coalition",
+  "pub": "Xbox Games Studios",
+  "notes": "",
+  "release": "06.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gears-of-war-e-day-2026-pc.jpg",
+  "logo": "images/logos/gears-of-war-e-day-2026-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3010850",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gears_of_War%3A_E-Day",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "gearsofwar",
+  "series_status": null,
+  "series_note": null
+}

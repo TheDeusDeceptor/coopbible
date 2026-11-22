@@ -1,0 +1,27 @@
+{
+  "id": "gears-of-war-judgment-2013-x360",
+  "name": "Gears of War: Judgment",
+  "platform": "X360",
+  "size": "",
+  "hltb": "Main: 7, +Extra: 8",
+  "dev": "People Can Fly, Epic Games",
+  "pub": "Microsoft Game Studios",
+  "notes": "",
+  "release": "19.03.2013",
+  "ea_release": "",
+  "screenshot": "images/screenshots/gears-of-war-judgment-2013-x360.jpg",
+  "logo": "images/logos/gears-of-war-judgment-2013-x360.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "gearsofwar",
+  "series_status": null,
+  "series_note": "*A square peg in a round hole...*"
+}

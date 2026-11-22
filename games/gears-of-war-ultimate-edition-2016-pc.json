@@ -1,0 +1,33 @@
+{
+  "id": "gears-of-war-ultimate-edition-2016-pc",
+  "name": "Gears of War: Ultimate Edition",
+  "platform": "PC",
+  "size": "60 GB",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Epic Games",
+  "pub": "Microsoft Studios",
+  "notes": "",
+  "release": "01.03.2016",
+  "ea_release": "",
+  "screenshot": "https://www.heypoorplayer.com/wp-content/uploads/2015/08/gearsult4.png",
+  "logo": "images/logos/gears-of-war-ultimate-edition-2016-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Gears_of_War%3A_Ultimate_Edition",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "gearsofwar",
+  "series_status": null,
+  "series_note": "Remaster of the original."
+}

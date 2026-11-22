@@ -1,0 +1,27 @@
+{
+  "id": "syphon-filter-the-omega-strain-2004-ps2",
+  "name": "Syphon Filter: The Omega Strain",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "Main: 11, +Extra: 18",
+  "dev": "Bend Studio",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "04.05.2004",
+  "ea_release": "",
+  "screenshot": "images/screenshots/syphon-filter-the-omega-strain-2004-ps2.jpg",
+  "logo": "images/logos/syphon-filter-the-omega-strain-2004-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "syphonfilter",
+  "series_status": null,
+  "series_note": null
+}
