@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T13:50:25Z",
+  "updated": "2026-11-22T13:51:59Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -38039,44 +38039,6 @@
       "series_status": null,
       "series_note": null
     },
-    "sekiro-shadows-die-twice-2019-pc": {
-      "id": "sekiro-shadows-die-twice-2019-pc",
-      "name": "Sekiro: Shadows Die Twice",
-      "platform": "PC",
-      "size": "25 GB",
-      "hltb": "Main: 30, +Extra: 43",
-      "dev": "FromSoftware",
-      "pub": "Activision",
-      "notes": "",
-      "release": "21.03.2019",
-      "ea_release": "",
-      "screenshot": "images/screenshots/sekiro-shadows-die-twice-2019-pc.jpg",
-      "logo": "images/logos/sekiro-shadows-die-twice-2019-pc.png",
-      "links": [
-        {
-          "label": "Steam",
-          "url": "https://store.steampowered.com/app/814380",
-          "icon": "steam"
-        },
-        {
-          "label": "PCGW",
-          "url": "https://www.pcgamingwiki.com/wiki/Sekiro%3A_Shadows_Die_Twice",
-          "icon": "pcgw"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
     "valkyrie-elysium-2022-pc": {
       "id": "valkyrie-elysium-2022-pc",
       "name": "Valkyrie Elysium",
@@ -40967,7 +40929,6 @@
       "catherine-full-body-unreleased-switch",
       "catherine-classic-2019-pc",
       "valkyrie-elysium-2022-pc",
-      "sekiro-shadows-die-twice-2019-pc",
       "high-on-life-2-2026-pc",
       "high-on-life-2022-pc",
       "enotria-the-last-song-2024-pc",
