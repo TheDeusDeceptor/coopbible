@@ -1,0 +1,27 @@
+{
+  "id": "shinobido-takumi-2006-ps2",
+  "name": "Shinobido Takumi",
+  "platform": "PS2",
+  "size": "",
+  "hltb": "—",
+  "dev": "Acquire",
+  "pub": "Spike",
+  "notes": "",
+  "release": "30.03.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shinobido-takumi-2006-ps2.jpg",
+  "logo": "images/logos/shinobido-takumi-2006-ps2.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "shinobido",
+  "series_status": null,
+  "series_note": "Optional, expantion pack with custom levels, Japanese only."
+}

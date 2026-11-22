@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T14:30:41Z",
+  "updated": "2026-11-22T14:43:14Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -40041,7 +40041,7 @@
       },
       "series": "wayofthesamurai",
       "series_status": null,
-      "series_note": "Updated version (Samurai Kanzenban) exists, Japanese only (needs checking), PSP version needs research, may be preferable depends which version it is based on..."
+      "series_note": "Updated version (**Samurai Kanzenban**) exists, Japanese only (needs checking), PSP version needs research, may be preferable depends which version it is based on..."
     },
     "way-of-the-samurai-2-2003-ps2": {
       "id": "way-of-the-samurai-2-2003-ps2",
@@ -40243,6 +40243,114 @@
       "series": "wayofthesamurai",
       "series_status": null,
       "series_note": "Optional, not part of series, but it's spiritually reminiscent of."
+    },
+    "shinobido-way-of-the-ninja-2005-ps2": {
+      "id": "shinobido-way-of-the-ninja-2005-ps2",
+      "name": "Shinobido: Way of the Ninja",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "Main: 12, +Extra: 17",
+      "dev": "Acquire",
+      "pub": "Sony Computer Entertainment",
+      "notes": "",
+      "release": "10.11.2005",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shinobido-way-of-the-ninja-2005-ps2.jpg",
+      "logo": "images/logos/shinobido-way-of-the-ninja-2005-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "shinobido",
+      "series_status": null,
+      "series_note": null
+    },
+    "shinobido-takumi-2006-ps2": {
+      "id": "shinobido-takumi-2006-ps2",
+      "name": "Shinobido Takumi",
+      "platform": "PS2",
+      "size": "",
+      "hltb": "—",
+      "dev": "Acquire",
+      "pub": "Spike",
+      "notes": "",
+      "release": "30.03.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shinobido-takumi-2006-ps2.jpg",
+      "logo": "images/logos/shinobido-takumi-2006-ps2.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "shinobido",
+      "series_status": null,
+      "series_note": "Optional, expantion pack with custom levels, Japanese only."
+    },
+    "shinobido-tales-of-the-ninja-2006-psp": {
+      "id": "shinobido-tales-of-the-ninja-2006-psp",
+      "name": "Shinobido: Tales of the Ninja",
+      "platform": "PSP",
+      "size": "",
+      "hltb": "Main: 9",
+      "dev": "Acquire",
+      "pub": "Sony Computer Entertainment",
+      "notes": "",
+      "release": "26.10.2006",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shinobido-tales-of-the-ninja-2006-psp.jpg",
+      "logo": "images/logos/shinobido-tales-of-the-ninja-2006-psp.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "shinobido",
+      "series_status": null,
+      "series_note": null
+    },
+    "shinobido-2-revenge-of-zen-2011-psvita": {
+      "id": "shinobido-2-revenge-of-zen-2011-psvita",
+      "name": "Shinobido 2: Revenge of Zen",
+      "platform": "PSVita",
+      "size": "",
+      "hltb": "Main: 9, +Extra: 11",
+      "dev": "Acquire",
+      "pub": "Namco Bandai",
+      "notes": "",
+      "release": "17.12.2011",
+      "ea_release": "",
+      "screenshot": "images/screenshots/shinobido-2-revenge-of-zen-2011-psvita.jpg",
+      "logo": "images/logos/shinobido-2-revenge-of-zen-2011-psvita.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": "shinobido",
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -41185,6 +41293,10 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "shinobido-2-revenge-of-zen-2011-psvita",
+      "shinobido-tales-of-the-ninja-2006-psp",
+      "shinobido-takumi-2006-ps2",
+      "shinobido-way-of-the-ninja-2005-ps2",
       "kamiwaza-way-of-the-thief-2022-pc",
       "katana-kami-a-way-of-the-samurai-story-2020-pc",
       "way-of-the-samurai-4-2015-pc",
@@ -41470,7 +41582,17 @@
         "way-of-the-samurai-4-2015-pc",
         "katana-kami-a-way-of-the-samurai-story-2020-pc"
       ],
-      "display": {}
+      "display": {
+        "way-of-the-samurai-3-2016-pc": {
+          "display_release": "2008 *^_(2016)_^*"
+        },
+        "way-of-the-samurai-4-2015-pc": {
+          "display_release": "2011 *^_(2015)_^*"
+        },
+        "kamiwaza-way-of-the-thief-2022-pc": {
+          "display_release": "2006 *^_(2022)_^*"
+        }
+      }
     },
     "siren": {
       "id": "siren",
@@ -41482,12 +41604,25 @@
         "siren-blood-curse-2008-ps3"
       ],
       "display": {}
+    },
+    "shinobido": {
+      "id": "shinobido",
+      "name": "Shinobido",
+      "logo": "images/series/shinobido.png",
+      "order": [
+        "shinobido-way-of-the-ninja-2005-ps2",
+        "shinobido-takumi-2006-ps2",
+        "shinobido-tales-of-the-ninja-2006-psp",
+        "shinobido-2-revenge-of-zen-2011-psvita"
+      ],
+      "display": {}
     }
   },
   "series_order": [
     "yakuza",
     "fatalframe",
     "siren",
-    "wayofthesamurai"
+    "wayofthesamurai",
+    "shinobido"
   ]
 }

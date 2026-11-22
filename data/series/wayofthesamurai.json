@@ -11,5 +11,15 @@
     "way-of-the-samurai-4-2015-pc",
     "katana-kami-a-way-of-the-samurai-story-2020-pc"
   ],
-  "display": {}
+  "display": {
+    "way-of-the-samurai-3-2016-pc": {
+      "display_release": "2008 *^_(2016)_^*"
+    },
+    "way-of-the-samurai-4-2015-pc": {
+      "display_release": "2011 *^_(2015)_^*"
+    },
+    "kamiwaza-way-of-the-thief-2022-pc": {
+      "display_release": "2006 *^_(2022)_^*"
+    }
+  }
 }

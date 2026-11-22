@@ -1,0 +1,27 @@
+{
+  "id": "shinobido-tales-of-the-ninja-2006-psp",
+  "name": "Shinobido: Tales of the Ninja",
+  "platform": "PSP",
+  "size": "",
+  "hltb": "Main: 9",
+  "dev": "Acquire",
+  "pub": "Sony Computer Entertainment",
+  "notes": "",
+  "release": "26.10.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shinobido-tales-of-the-ninja-2006-psp.jpg",
+  "logo": "images/logos/shinobido-tales-of-the-ninja-2006-psp.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "shinobido",
+  "series_status": null,
+  "series_note": null
+}

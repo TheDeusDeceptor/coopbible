@@ -1,0 +1,12 @@
+{
+  "id": "shinobido",
+  "name": "Shinobido",
+  "logo": "images/series/shinobido.png",
+  "order": [
+    "shinobido-way-of-the-ninja-2005-ps2",
+    "shinobido-takumi-2006-ps2",
+    "shinobido-tales-of-the-ninja-2006-psp",
+    "shinobido-2-revenge-of-zen-2011-psvita"
+  ],
+  "display": {}
+}

@@ -1,0 +1,27 @@
+{
+  "id": "shinobido-2-revenge-of-zen-2011-psvita",
+  "name": "Shinobido 2: Revenge of Zen",
+  "platform": "PSVita",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 11",
+  "dev": "Acquire",
+  "pub": "Namco Bandai",
+  "notes": "",
+  "release": "17.12.2011",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shinobido-2-revenge-of-zen-2011-psvita.jpg",
+  "logo": "images/logos/shinobido-2-revenge-of-zen-2011-psvita.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "shinobido",
+  "series_status": null,
+  "series_note": null
+}
