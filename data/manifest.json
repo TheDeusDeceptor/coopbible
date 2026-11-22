@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-22T19:26:03Z",
+  "updated": "2026-11-22T19:28:02Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -43821,15 +43821,6 @@
           "display_release": "2011 *^_(2026)_^*"
         }
       }
-    },
-    "tom-clancy-s-splinter-cell": {
-      "id": "tom-clancy-s-splinter-cell",
-      "name": "Tom Clancy's Splinter Cell",
-      "logo": "images/series/tom-clancy-s-splinter-cell.png",
-      "order": [
-        "tom-clancy-s-splinter-cell-2002-pc"
-      ],
-      "display": {}
     }
   },
   "series_order": [
@@ -43847,7 +43838,6 @@
     "onechanbara",
     "ai",
     "syphonfilter",
-    "gearsofwar",
-    "tom-clancy-s-splinter-cell"
+    "gearsofwar"
   ]
 }
