@@ -1,0 +1,27 @@
+{
+  "id": "shadow-assault-tenchu-2008-x360",
+  "name": "Shadow Assault: Tenchu",
+  "platform": "X360",
+  "size": "",
+  "hltb": "Main: 4, +Extra: 4",
+  "dev": "FromSoftware",
+  "pub": "FromSoftware",
+  "notes": "",
+  "release": "08.10.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/shadow-assault-tenchu-2008-x360.jpg",
+  "logo": "images/logos/shadow-assault-tenchu-2008-x360.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "tenchu",
+  "series_status": null,
+  "series_note": "Optional, different genre (Bomberman-like)."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tenchu-stealth-assassins-1998-psx",
+  "name": "Tenchu: Stealth Assassins",
+  "platform": "PSX",
+  "size": "",
+  "hltb": "Main: 6, +Extra: 10",
+  "dev": "Acquire",
+  "pub": "Activision",
+  "notes": "",
+  "release": "26.02.1998",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tenchu-stealth-assassins-1998-psx.jpg",
+  "logo": "images/logos/tenchu-stealth-assassins-1998-psx.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "tenchu",
+  "series_status": null,
+  "series_note": null
+}

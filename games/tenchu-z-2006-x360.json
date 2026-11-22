@@ -1,0 +1,27 @@
+{
+  "id": "tenchu-z-2006-x360",
+  "name": "Tenchu Z",
+  "platform": "X360",
+  "size": "",
+  "hltb": "Main: 18, +Extra: 23",
+  "dev": "K2",
+  "pub": "Microsoft Game Studios",
+  "notes": "",
+  "release": "05.10.2006",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tenchu-z-2006-x360.jpg",
+  "logo": "images/logos/tenchu-z-2006-x360.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "tenchu",
+  "series_status": null,
+  "series_note": null
+}

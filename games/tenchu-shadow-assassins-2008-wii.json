@@ -1,0 +1,27 @@
+{
+  "id": "tenchu-shadow-assassins-2008-wii",
+  "name": "Tenchu: Shadow Assassins",
+  "platform": "Wii",
+  "size": "",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Acquire",
+  "pub": "Ubisoft",
+  "notes": "",
+  "release": "23.10.2008",
+  "ea_release": "",
+  "screenshot": "images/screenshots/tenchu-shadow-assassins-2008-wii.jpg",
+  "logo": "images/logos/tenchu-shadow-assassins-2008-wii.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": "tenchu",
+  "series_status": null,
+  "series_note": "*Can't decide shitty controls or shitty graphics smh...*"
+}

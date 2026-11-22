@@ -1,0 +1,17 @@
+{
+  "id": "tenchu",
+  "name": "Tenchu",
+  "logo": "images/series/tenchu.png",
+  "order": [
+    "tenchu-stealth-assassins-1998-psx",
+    "tenchu-2-birth-of-the-stealth-assassins-2000-psx",
+    "tenchu-wrath-of-heaven-2003-ps2",
+    "tenchu-fatal-shadows-2004-ps2",
+    "tenchu-time-of-the-assassins-2005-psp",
+    "tenchu-dark-secret-2006-nds",
+    "tenchu-z-2006-x360",
+    "shadow-assault-tenchu-2008-x360",
+    "tenchu-shadow-assassins-2008-wii"
+  ],
+  "display": {}
+}
