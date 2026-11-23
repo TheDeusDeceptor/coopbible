@@ -3549,6 +3549,8 @@ async function lbdbEnsure(){
       if(!n) continue;
       const key = normKey(n);
       if(!key) continue;
+      g._k = key;
+      g._w = key.split(' ');
       if(!map.has(key)) map.set(key, []);
       map.get(key).push(g);
     }
@@ -3563,6 +3565,37 @@ async function lbdbLookup(name){
   const key = normKey(name);
   if(!key) return [];
   return idx.map.get(key) || [];
+}
+async function lbdbSearchLogos(name){
+  const idx = await lbdbEnsure();
+  const key = normKey(name);
+  if(!key) return [];
+  const words = key.split(' ').filter(Boolean);
+  const out = [];
+  const seen = new Set();
+  for(const e of (idx.map.get(key) || [])){
+    if(!e.logo || seen.has(e.logo)) continue;
+    seen.add(e.logo);
+    out.push(e);
+  }
+  const partials = [];
+  for(const e of idx.raw){
+    if(!e.logo || !e._w || seen.has(e.logo)) continue;
+    let ok = true;
+    for(let i = 0; i < words.length; i++){
+      const w = words[i];
+      if(!e._w.some(ew => ew.startsWith(w))){ ok = false; break; }
+    }
+    if(ok) partials.push(e);
+  }
+  partials.sort((a, b) => nameSimilarity(b.n || '', name) - nameSimilarity(a.n || '', name));
+  for(const e of partials){
+    if(seen.has(e.logo)) continue;
+    seen.add(e.logo);
+    out.push(e);
+    if(out.length >= 80) break;
+  }
+  return out;
 }
 function lbdbMapToFields(entry){
   const out = {};
@@ -5824,8 +5857,8 @@ function openEditor(g, opts){
     const btn = $('#lbdb-logo'); const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Loading';
     try{
-      const entries = await lbdbLookup(nameVal);
-      const items = entries.filter(e => e.logo).map(e => ({ url: 'https://images.launchbox-app.com/' + e.logo, thumb: 'https://images.launchbox-app.com/' + e.logo, label: (e.p || 'unknown') + (e.rel ? ' · ' + e.rel : '') }));
+      const entries = await lbdbSearchLogos(nameVal);
+      const items = entries.map(e => ({ url: 'https://images.launchbox-app.com/' + e.logo, thumb: 'https://images.launchbox-app.com/' + e.logo, label: (e.n || '') + (e.p ? ' · ' + e.p : '') + (e.rel ? ' · ' + e.rel : '') }));
       showLogoPicker('LBDB — ' + nameVal, items, picked => {
         $('#f-logo').value = picked.url;
         $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
@@ -5833,8 +5866,8 @@ function openEditor(g, opts){
       }, {
         searchable: true, searchValue: nameVal,
         onSearch: async (q) => {
-          const ents = await lbdbLookup(q);
-          return { title: 'LBDB — ' + q, items: ents.filter(e => e.logo).map(e => ({ url: 'https://images.launchbox-app.com/' + e.logo, thumb: 'https://images.launchbox-app.com/' + e.logo, label: (e.p || 'unknown') + (e.rel ? ' · ' + e.rel : '') })) };
+          const ents = await lbdbSearchLogos(q);
+          return { title: 'LBDB — ' + q, items: ents.map(e => ({ url: 'https://images.launchbox-app.com/' + e.logo, thumb: 'https://images.launchbox-app.com/' + e.logo, label: (e.n || '') + (e.p ? ' · ' + e.p : '') + (e.rel ? ' · ' + e.rel : '') })) };
         }
       });
     }catch(err){ toast('LBDB: ' + err.message, 'bad'); }
