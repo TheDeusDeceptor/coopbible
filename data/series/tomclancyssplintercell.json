@@ -5,5 +5,9 @@
   "order": [
     "tom-clancy-s-splinter-cell-2002-pc"
   ],
-  "display": {}
+  "display": {
+    "tom-clancy-s-splinter-cell-2002-pc": {
+      "display_name": "Splinter Cell"
+    }
+  }
 }

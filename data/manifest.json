@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-24T08:59:04Z",
+  "updated": "2026-11-24T10:52:09Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -43828,7 +43828,11 @@
       "order": [
         "tom-clancy-s-splinter-cell-2002-pc"
       ],
-      "display": {}
+      "display": {
+        "tom-clancy-s-splinter-cell-2002-pc": {
+          "display_name": "Splinter Cell"
+        }
+      }
     }
   },
   "series_order": [
