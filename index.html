@@ -523,12 +523,15 @@
   .pill.src-sgdb:hover{border-color:rgba(167,139,250,.5);}
   .pill.picker::after{content:"▾";margin-left:.25rem;font-size:.7em;opacity:.6;}
   .logo-picker{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:820px;padding:1.4rem;position:relative;}
+  .logo-picker.wide{max-width:980px;}
   .logo-picker h2{font-family:var(--font-head);font-weight:700;font-size:1rem;color:#fff;margin-bottom:.4rem;display:flex;align-items:center;gap:.55rem;}
   .logo-picker .sub{font-size:.8rem;color:var(--muted);margin-bottom:1rem;}
   .logo-picker-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.7rem;max-height:60vh;overflow-y:auto;}
+  .logo-picker-grid.wide{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));}
   .logo-picker-tile{background:#060810;border:1px solid var(--border);border-radius:8px;padding:.5rem;cursor:pointer;transition:all .15s ease;display:flex;flex-direction:column;gap:.35rem;align-items:center;}
   .logo-picker-tile:hover{border-color:var(--accent-line);background:rgba(56,189,248,.04);}
   .logo-picker-tile img{width:100%;height:90px;object-fit:contain;background:#000;border-radius:4px;display:block;}
+  .logo-picker-grid.wide .logo-picker-tile img{height:auto;aspect-ratio:16/9;object-fit:cover;}
   .logo-picker-tile .lpt-meta{font-family:var(--font-head);font-size:.55rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .logo-picker-search{display:flex;gap:.5rem;margin-bottom:.8rem}
   .logo-picker-search input{flex:1;font-family:var(--font-body);font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:7px;padding:.55rem .75rem;outline:none;transition:border-color .18s ease;}
@@ -3597,6 +3600,37 @@ async function lbdbSearchLogos(name){
   }
   return out;
 }
+async function lbdbSearchShots(name){
+  const idx = await lbdbEnsure();
+  const key = normKey(name);
+  if(!key) return [];
+  const words = key.split(' ').filter(Boolean);
+  const out = [];
+  const seen = new Set();
+  for(const e of (idx.map.get(key) || [])){
+    if(!e.screenshot || seen.has(e.screenshot)) continue;
+    seen.add(e.screenshot);
+    out.push(e);
+  }
+  const partials = [];
+  for(const e of idx.raw){
+    if(!e.screenshot || !e._w || seen.has(e.screenshot)) continue;
+    let ok = true;
+    for(let i = 0; i < words.length; i++){
+      const w = words[i];
+      if(!e._w.some(ew => ew.startsWith(w))){ ok = false; break; }
+    }
+    if(ok) partials.push(e);
+  }
+  partials.sort((a, b) => nameSimilarity(b.n || '', name) - nameSimilarity(a.n || '', name));
+  for(const e of partials){
+    if(seen.has(e.screenshot)) continue;
+    seen.add(e.screenshot);
+    out.push(e);
+    if(out.length >= 80) break;
+  }
+  return out;
+}
 function lbdbMapToFields(entry){
   const out = {};
   if(entry.n) out.name = entry.n;
@@ -3803,12 +3837,13 @@ function showLogoPicker(title, items, onPick, opts){
   opts = opts || {};
   const searchable = !!opts.searchable;
   const onSearch = opts.onSearch;
+  const isWide = !!opts.wide;
   if(!items || !items.length){
-    if(!searchable){ toast('No logos found', 'bad'); return; }
+    if(!searchable){ toast('No images found', 'bad'); return; }
     items = [];
   }
   logopickerSlot.innerHTML = `
-    <div class="logo-picker">
+    <div class="logo-picker${isWide?' wide':''}">
       <button class="modal-close" data-close>✕</button>
       <h2>${esc(title)}</h2>
       ${searchable ? `
@@ -3817,7 +3852,7 @@ function showLogoPicker(title, items, onPick, opts){
           <button type="button" class="btn primary" id="lp-search-go">Search</button>
         </div>` : ''}
       <p class="sub">${items.length} result${items.length === 1 ? '' : 's'} — click one</p>
-      <div class="logo-picker-grid" id="logopicker-grid">
+      <div class="logo-picker-grid${isWide?' wide':''}" id="logopicker-grid">
         ${items.map((it, i) => `
           <div class="logo-picker-tile" data-idx="${i}">
             <img src="${esc(it.thumb || it.url)}" alt="" loading="lazy" decoding="async">
@@ -3846,7 +3881,7 @@ function showLogoPicker(title, items, onPick, opts){
       try{
         const res = await onSearch(q);
         if(!res || !res.items || !res.items.length){ toast('No results for that query', 'bad'); goBtn.disabled = false; goBtn.textContent = 'Search'; return; }
-        showLogoPicker(res.title, res.items, onPick, { searchable: true, searchValue: q, onSearch });
+        showLogoPicker(res.title, res.items, onPick, { searchable: true, searchValue: q, onSearch, wide: isWide });
       } catch(e){
         toast(e.message || 'Search failed', 'bad');
         goBtn.disabled = false; goBtn.textContent = 'Search';
@@ -5475,6 +5510,7 @@ function openEditor(g, opts){
                   <div class="media-btn-row">
                     <button type="button" class="media-btn save" id="save-screenshot-local">↓ Save locally</button>
                     <button type="button" class="media-btn google" id="google-screenshot">🔍 Google</button>
+                    <button type="button" class="media-btn lbdb" id="lbdb-shot">🔍 LBDB</button>
                   </div>
                 </div>
               </div>
@@ -5777,6 +5813,28 @@ function openEditor(g, opts){
     const nameVal = (nameInput.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
     window.open('https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(nameVal + ' gameplay screenshot'), '_blank', 'noopener');
+  });
+  $('#lbdb-shot').addEventListener('click', async () => {
+    const nameVal = (nameInput.value || '').trim();
+    if(!nameVal){ toast('Enter a name first', 'bad'); return; }
+    const btn = $('#lbdb-shot'); const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Loading';
+    try{
+      const entries = await lbdbSearchShots(nameVal);
+      const items = entries.map(e => ({ url: 'https://images.launchbox-app.com/' + e.screenshot, thumb: 'https://images.launchbox-app.com/' + e.screenshot, label: (e.n || '') + (e.p ? ' · ' + e.p : '') + (e.rel ? ' · ' + e.rel : '') }));
+      showLogoPicker('LBDB Shots — ' + nameVal, items, picked => {
+        $('#f-screenshot').value = picked.url;
+        $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
+        toast('LBDB screenshot selected');
+      }, {
+        wide: true, searchable: true, searchValue: nameVal,
+        onSearch: async (q) => {
+          const ents = await lbdbSearchShots(q);
+          return { title: 'LBDB Shots — ' + q, items: ents.map(e => ({ url: 'https://images.launchbox-app.com/' + e.screenshot, thumb: 'https://images.launchbox-app.com/' + e.screenshot, label: (e.n || '') + (e.p ? ' · ' + e.p : '') + (e.rel ? ' · ' + e.rel : '') })) };
+        }
+      });
+    }catch(err){ toast('LBDB: ' + err.message, 'bad'); }
+    finally{ btn.disabled = false; btn.innerHTML = orig; }
   });
   $('#steamdb-btn').addEventListener('click', () => {
     let appid = parseSteamInput($('#qp-steam')?.value || '');
@@ -6488,6 +6546,23 @@ function renderVariantPills(results){
     for(const src of PARSE_SOURCES){
       const r = results[src];
       if(!r || !r.fields) continue;
+      if(field === 'screenshot'){
+        if(src === 'igdb' && r.screenshots && r.screenshots.length){
+          pills.push(`<button type="button" class="pill src-igdb picker" data-field="screenshot" data-picker="igdb-shot"><span class="p-src">igdb</span>${r.screenshots.length} shot${r.screenshots.length===1?'':'s'}</button>`);
+          continue;
+        }
+        if(src === 'steam' && r.screenshots && r.screenshots.length){
+          pills.push(`<button type="button" class="pill src-steam picker" data-field="screenshot" data-picker="steam-shot"><span class="p-src">steam</span>${r.screenshots.length} shot${r.screenshots.length===1?'':'s'}</button>`);
+          continue;
+        }
+        if(src === 'lbdb' && r.entries){
+          const withShots = r.entries.filter(e => e.screenshot);
+          if(withShots.length){
+            pills.push(`<button type="button" class="pill src-lbdb picker" data-field="screenshot" data-picker="lbdb-shot"><span class="p-src">lbdb</span>${withShots.length} shot${withShots.length===1?'':'s'}</button>`);
+            continue;
+          }
+        }
+      }
       if(field === 'logo'){
         if(src === 'sgdb' && r.logos && r.logos.length){
           pills.push(`<button type="button" class="pill src-sgdb picker" data-field="logo" data-picker="sgdb"><span class="p-src">sgdb</span>${r.logos.length} logos</button>`);
@@ -6558,6 +6633,29 @@ function attachPillHandlers(){
       if(kind === 'hltb'){
         const r = results.hltb || {};
         showHltbSearchModal(r.query || nameNow, picked => { applyHltbData(picked); }, r.hits || null);
+        return;
+      }
+      if(kind === 'igdb-shot' || kind === 'steam-shot' || kind === 'lbdb-shot'){
+        let items = [], title = '', searchable = false, onSearch = null;
+        if(kind === 'igdb-shot' && results.igdb && results.igdb.screenshots){
+          items = results.igdb.screenshots.map((s, i) => ({ url: s.url, thumb: s.thumb, label: 'IGDB #' + (i + 1) }));
+          title = 'IGDB Screenshots';
+        } else if(kind === 'steam-shot' && results.steam && results.steam.screenshots){
+          items = results.steam.screenshots.map((u, i) => ({ url: u, thumb: u, label: 'Steam #' + (i + 1) }));
+          title = 'Steam Screenshots';
+        } else if(kind === 'lbdb-shot' && results.lbdb && results.lbdb.entries){
+          items = results.lbdb.entries.filter(x => x.screenshot).map(x => ({ url: 'https://images.launchbox-app.com/' + x.screenshot, thumb: 'https://images.launchbox-app.com/' + x.screenshot, label: (x.n || '') + (x.p ? ' · ' + x.p : '') + (x.rel ? ' · ' + x.rel : '') }));
+          title = 'LBDB Screenshots';
+          searchable = true;
+          onSearch = async (q) => {
+            const ents = await lbdbSearchShots(q);
+            return { title: 'LBDB Shots — ' + q, items: ents.map(x => ({ url: 'https://images.launchbox-app.com/' + x.screenshot, thumb: 'https://images.launchbox-app.com/' + x.screenshot, label: (x.n || '') + (x.p ? ' · ' + x.p : '') + (x.rel ? ' · ' + x.rel : '') })) };
+          };
+        }
+        showLogoPicker(title, items, picked => {
+          const input = modalSlot.querySelector('#f-screenshot');
+          if(input){ input.value = picked.url; input.dispatchEvent(new Event('input', { bubbles: true })); toast('Screenshot selected'); }
+        }, { wide: true, searchable, searchValue: nameNow, onSearch });
         return;
       }
       let items = [], title = '';
@@ -6648,7 +6746,7 @@ async function runParse(){
         const picked = await new Promise(resolve => showIgdbPicker(hits, hit => resolve(hit)));
         if(picked) best = picked;
       }
-      results.igdb = { fields: igdbMapToFields(best) };
+      results.igdb = { fields: igdbMapToFields(best), screenshots: (best.screenshots || []).map(s => ({ url: igdbImg(s.url, 't_1080p'), thumb: igdbImg(s.url, 't_screenshot_med') })) };
       setSrcDot(dots.igdb, 'found');
     }catch(e){ results.igdb = { error: e.message }; setSrcDot(dots.igdb, 'error'); }
   })());
@@ -6661,7 +6759,7 @@ async function runParse(){
         if(!data.storeUrl) data.storeUrl = 'https://store.steampowered.com/app/' + appidLinked + '/';
       } else { data = await steamSearch(name); }
       const steamFields = steamMapToFields(data);
-      results.steam = { fields: steamFields, storeUrl: data.storeUrl || '' };
+      results.steam = { fields: steamFields, storeUrl: data.storeUrl || '', screenshots: Array.isArray(data.screenshots) ? data.screenshots : [] };
       setSrcDot(dots.steam, 'found');
       if(!name && steamFields.name && nameInput && !nameInput.value.trim()){
         nameInput.value = steamFields.name;
