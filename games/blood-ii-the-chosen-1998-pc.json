@@ -1,0 +1,38 @@
+{
+  "id": "blood-ii-the-chosen-1998-pc",
+  "name": "Blood II: The Chosen",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 8, +Extra: 9",
+  "dev": "Monolith Productions",
+  "pub": "Atari",
+  "notes": "",
+  "release": "25.11.1998",
+  "ea_release": "",
+  "screenshot": "images/screenshots/blood-ii-the-chosen-1998-pc.jpg",
+  "logo": "images/logos/blood-ii-the-chosen-1998-pc.png",
+  "links": [
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Blood_II%3A_The_Chosen",
+      "icon": "pcgw"
+    },
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/299050",
+      "icon": "steam"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}

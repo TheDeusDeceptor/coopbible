@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-24T10:52:09Z",
+  "updated": "2026-11-24T15:18:21Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -42280,6 +42280,82 @@
       "series": "tomclancyssplintercell",
       "series_status": null,
       "series_note": null
+    },
+    "blood-refreshed-supply-2025-pc": {
+      "id": "blood-refreshed-supply-2025-pc",
+      "name": "Blood: Refreshed Supply",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 11, +Extra: 13",
+      "dev": "Monolith Productions",
+      "pub": "Nightdive Studios",
+      "notes": "",
+      "release": "04.12.2025",
+      "ea_release": "",
+      "screenshot": "images/screenshots/blood-refreshed-supply-2025-pc.jpg",
+      "logo": "images/logos/blood-refreshed-supply-2025-pc.png",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/3884520",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Blood%3A_Refreshed_Supply",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "blood-ii-the-chosen-1998-pc": {
+      "id": "blood-ii-the-chosen-1998-pc",
+      "name": "Blood II: The Chosen",
+      "platform": "PC",
+      "size": "2 GB",
+      "hltb": "Main: 8, +Extra: 9",
+      "dev": "Monolith Productions",
+      "pub": "Atari",
+      "notes": "",
+      "release": "25.11.1998",
+      "ea_release": "",
+      "screenshot": "images/screenshots/blood-ii-the-chosen-1998-pc.jpg",
+      "logo": "images/logos/blood-ii-the-chosen-1998-pc.png",
+      "links": [
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/Blood_II%3A_The_Chosen",
+          "icon": "pcgw"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/299050",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -43222,6 +43298,8 @@
       "portal-2-2011-pc"
     ],
     "backlog": [
+      "blood-ii-the-chosen-1998-pc",
+      "blood-refreshed-supply-2025-pc",
       "tom-clancy-s-splinter-cell-2002-pc",
       "gears-of-war-e-day-2026-pc",
       "gears-of-war-reloaded-2025-pc",

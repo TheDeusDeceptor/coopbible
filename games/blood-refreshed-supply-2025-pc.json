@@ -1,0 +1,38 @@
+{
+  "id": "blood-refreshed-supply-2025-pc",
+  "name": "Blood: Refreshed Supply",
+  "platform": "PC",
+  "size": "2 GB",
+  "hltb": "Main: 11, +Extra: 13",
+  "dev": "Monolith Productions",
+  "pub": "Nightdive Studios",
+  "notes": "",
+  "release": "04.12.2025",
+  "ea_release": "",
+  "screenshot": "images/screenshots/blood-refreshed-supply-2025-pc.jpg",
+  "logo": "images/logos/blood-refreshed-supply-2025-pc.png",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3884520",
+      "icon": "steam"
+    },
+    {
+      "label": "PCGW",
+      "url": "https://www.pcgamingwiki.com/wiki/Blood%3A_Refreshed_Supply",
+      "icon": "pcgw"
+    }
+  ],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
