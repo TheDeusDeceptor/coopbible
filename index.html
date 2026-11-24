@@ -245,7 +245,8 @@
   .beaten-indicator .num{font-family:var(--font-head);font-weight:700;font-size:3rem;letter-spacing:-.03em;color:#fff;line-height:1;}
   .beaten-indicator .lbl{font-family:var(--font-head);font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:.55rem;color:var(--muted);line-height:1;}
   .series-blocks{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:1.75rem;}
-  .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;position:relative;}
+  .series-block{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;position:relative;scroll-margin-top:1.25rem;transition:border-color .2s ease,box-shadow .2s ease;}
+  .series-block.jump-flash{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 0 24px var(--accent-soft);}
   .series-block.drag-over{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);}
   .series-block.pending{border-color:var(--green);box-shadow:0 0 0 1px var(--green),0 0 14px rgba(74,222,128,.18)}
   .series-block.pending-del{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 14px rgba(239,68,68,.18)}
@@ -274,7 +275,7 @@
   .series-game-row.pending-del{background:rgba(239,68,68,.05);}
   .series-game-row .g-title{color:#eef2f7;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:flex;align-items:center;gap:.5rem;}
   .series-game-row .g-title .type-icon{width:14px;height:14px;flex-shrink:0;color:var(--accent);}
-  .series-game-row .g-title-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;}
+  .series-game-row .g-title-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;padding-right:.25em;}
   .fmt-btn{display:flex;align-items:center;gap:.45rem;width:100%;padding:.32rem .55rem;border:1px solid var(--border);border-radius:6px;background:rgba(255,255,255,.02);color:#cbd5e1;font-family:var(--font-body);font-size:.76rem;cursor:pointer;text-align:left;transition:all .14s ease;}
   .fmt-btn:hover{border-color:var(--accent-line);background:var(--accent-soft);color:#fff;}
   .series-game-row .g-year,.series-game-row .g-platform{color:#d5dde8;font-family:var(--font-body);font-size:.84rem;font-weight:500;font-variant-numeric:tabular-nums;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
@@ -723,9 +724,34 @@
   .scroll-jump.show{opacity:1;transform:translateY(0);pointer-events:auto;}
   .scroll-jump:hover{color:var(--accent);border-color:var(--accent-line);background-image:linear-gradient(var(--accent-soft),var(--accent-soft));}
   .scroll-jump .arw{font-size:.95em;line-height:1;}
+  .series-jump-btn{position:fixed;right:max(1.5rem,calc((100% - 1400px) / 4 - 19px));bottom:1.5rem;z-index:90;display:inline-flex;align-items:center;justify-content:center;width:38px;height:36px;padding:0;border:1px solid var(--border);border-radius:8px;background-color:rgba(10,14,21,.72);backdrop-filter:blur(10px) saturate(140%);-webkit-backdrop-filter:blur(10px) saturate(140%);color:#cbd5e1;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.4);opacity:0;transform:translateY(8px);pointer-events:none;transition:opacity .25s ease,transform .25s ease,color .18s ease,border-color .18s ease,background-image .18s ease;}
+  .series-jump-btn svg{width:16px;height:16px;display:block;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;}
+  .series-jump-btn.show{opacity:1;transform:translateY(0);pointer-events:auto;}
+  .series-jump-btn:hover{color:var(--accent);border-color:var(--accent-line);background-image:linear-gradient(var(--accent-soft),var(--accent-soft));}
+  .jump-backdrop{position:fixed;inset:0;z-index:250;background:rgba(4,5,8,.82);display:none;align-items:flex-end;justify-content:center;padding:0 1.75rem;}
+  .jump-backdrop.open{display:flex;}
+  .jump-drawer{width:100%;max-width:1400px;max-height:60vh;background:var(--card);border:1px solid var(--border);border-bottom:0;border-radius:12px 12px 0 0;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 -12px 48px rgba(0,0,0,.85);animation:jumpDrawerIn .18s cubic-bezier(.2,.7,.3,1);}
+  @keyframes jumpDrawerIn{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+  .jump-drawer-head{display:flex;align-items:center;gap:.75rem;padding:.85rem 1.25rem;background:rgba(0,0,0,.45);border-bottom:1px solid var(--border);flex-shrink:0;}
+  .jump-drawer-head .search-box{flex:1;max-width:300px;}
+  .jump-drawer-head .search-box input{width:100%;padding:.52rem .8rem .52rem 2.1rem;}
+  .jump-drawer-head .modal-close{position:static;margin-left:auto;}
+  .jump-drawer-head .modal-close:hover{border-color:var(--accent-line);}
+  .jump-drawer-grid{padding:1rem 1.25rem 1.25rem;overflow-y:auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(122px,1fr));gap:.6rem;align-content:start;}
+  .jump-tile{background:#000;border:1px solid var(--border);border-radius:8px;padding:.5rem;aspect-ratio:16 / 9;display:grid;place-items:center;cursor:pointer;overflow:hidden;transition:border-color .16s ease,background .16s ease,box-shadow .16s ease;}
+  .jump-tile:hover{border-color:var(--accent-line);background:var(--accent-soft);}
+  .jump-tile.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 0 14px var(--accent-soft);}
+  .jump-tile img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;transition:transform .16s ease;}
+  .jump-tile:hover img{transform:scale(1.04);}
+  .jump-tile .tph{font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#cbd5e1;text-align:center;line-height:1.25;padding:.2rem;}
+  .jump-empty{grid-column:1 / -1;padding:1.75rem 1rem;text-align:center;font-family:var(--font-head);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
   @media (max-width:640px){
     .scroll-jump-group{left:1rem;bottom:1rem;}
     .scroll-jump{font-size:.6rem;padding:.5rem .75rem;}
+    .series-jump-btn{right:1rem;bottom:1rem;width:36px;height:34px;}
+    .jump-backdrop{padding:0;}
+    .jump-drawer{max-height:70vh;}
+    .jump-drawer-grid{grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:.5rem;padding:.85rem 1rem 1rem;}
   }
   .ov-close{position:fixed;top:1rem;left:1rem;z-index:250;width:38px;height:38px;border-radius:8px;display:grid;place-items:center;cursor:pointer;background:rgba(6,7,11,.6);border:1px solid var(--oc-line);color:var(--oc);transition:all .18s ease;font-family:inherit;padding:0;}
   .ov-close svg{display:block;width:18px;height:18px;pointer-events:none;}
@@ -1215,6 +1241,21 @@
   <button class="scroll-jump up" id="scrollUpBtn" type="button" aria-label="Scroll to top">
     <span class="arw">↑</span><span>Up</span>
   </button>
+</div>
+<button class="series-jump-btn" id="seriesJumpBtn" type="button" aria-label="Jump to series">
+  <svg viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+</button>
+<div class="jump-backdrop" id="seriesJumpBackdrop">
+  <div class="jump-drawer">
+    <div class="jump-drawer-head">
+      <div class="search-box">
+        <span class="icon icon-search s-icon"></span>
+        <input type="search" id="seriesJumpSearch" placeholder="Search…" autocomplete="off" spellcheck="false">
+      </div>
+      <button class="modal-close" id="seriesJumpClose" type="button">✕</button>
+    </div>
+    <div class="jump-drawer-grid" id="seriesJumpGrid"></div>
+  </div>
 </div>
 <div class="toast" id="toast"></div>
 <script>
@@ -8065,6 +8106,7 @@ document.addEventListener('keydown', e => {
   if(calDayBackdrop.classList.contains('open')){ calCloseDayModal(); return; }
   if(randomOverlay.classList.contains('open')){ closeRandomOverlay(); return; }
   if(calendarOverlay.classList.contains('open')){ closeCalendar(); return; }
+  if(seriesJumpBackdrop.classList.contains('open')){ closeSeriesJumpDrawer(); return; }
   if(seriesBackdrop.classList.contains('open')){ closeSeriesHeaderModal(); return; }
   if(toolsBackdrop.classList.contains('open')){ closeToolsModal(); return; }
   if(pendingBackdrop.classList.contains('open')){ closePendingModal(); return; }
@@ -9233,6 +9275,79 @@ driftOverlay.querySelectorAll('.drift-card').forEach(card => card.addEventListen
 if(driftPeekBtn) driftPeekBtn.addEventListener('click', driftUsePeek);
 const scrollDownBtn = document.getElementById('scrollDownBtn');
 const scrollUpBtn = document.getElementById('scrollUpBtn');
+const seriesJumpBtn = document.getElementById('seriesJumpBtn');
+const seriesJumpBackdrop = document.getElementById('seriesJumpBackdrop');
+const seriesJumpSearch = document.getElementById('seriesJumpSearch');
+const seriesJumpGrid = document.getElementById('seriesJumpGrid');
+const seriesJumpClose = document.getElementById('seriesJumpClose');
+let seriesJumpActiveSlug = '';
+function seriesJumpItems(){
+  if(tab === 'series') return seriesOrderLive().map(slug => viewSeries(slug)).filter(Boolean);
+  if(tab === 'bsides') return bsidesOrderLive().map(slug => viewBsides(slug)).filter(Boolean);
+  return [];
+}
+function seriesJumpActiveNow(){
+  const attr = tab === 'bsides' ? 'data-bsides-slug' : 'data-series';
+  const blocks = [...getPane(tab).el.querySelectorAll(`.series-block[${attr}]`)];
+  if(!blocks.length) return '';
+  if(window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 24){
+    return blocks[blocks.length - 1].getAttribute(attr) || '';
+  }
+  let best = blocks[0];
+  for(const b of blocks){ if(b.getBoundingClientRect().top <= 120) best = b; }
+  return best ? (best.getAttribute(attr) || '') : '';
+}
+function renderSeriesJumpGrid(){
+  const q = (seriesJumpSearch.value || '').toLowerCase().trim();
+  const list = seriesJumpItems().filter(s => !q || String(s.name || s.id).toLowerCase().includes(q));
+  if(!list.length){ seriesJumpGrid.innerHTML = `<div class="jump-empty">No matches</div>`; return; }
+  seriesJumpGrid.innerHTML = list.map(s => `
+    <button class="jump-tile${s.id === seriesJumpActiveSlug ? ' active' : ''}" data-slug="${esc(s.id)}" type="button" title="${esc(s.name || s.id)}">
+      ${s.logo ? `<img src="${esc(resolveImgUrl(s.logo))}" alt="${esc(s.name || s.id)}" loading="lazy" decoding="async">` : `<span class="tph">${esc(s.name || s.id)}</span>`}
+    </button>
+  `).join('');
+}
+function openSeriesJumpDrawer(){
+  if((tab !== 'series' && tab !== 'bsides') || voidMode) return;
+  seriesJumpActiveSlug = seriesJumpActiveNow();
+  seriesJumpSearch.value = '';
+  renderSeriesJumpGrid();
+  seriesJumpBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
+  const activeTile = seriesJumpGrid.querySelector('.jump-tile.active');
+  if(activeTile) activeTile.scrollIntoView({ block: 'nearest' });
+  setTimeout(() => seriesJumpSearch.focus(), 20);
+}
+function closeSeriesJumpDrawer(){
+  seriesJumpBackdrop.classList.remove('open');
+  refreshScrollJumpVisibility();
+}
+function jumpToSeriesSlug(slug){
+  const attr = tab === 'bsides' ? 'data-bsides-slug' : 'data-series';
+  const el = getPane(tab).el.querySelector(`.series-block[${attr}="${CSS.escape(slug)}"]`);
+  closeSeriesJumpDrawer();
+  if(!el) return;
+  seriesJumpActiveSlug = slug;
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  el.classList.remove('jump-flash');
+  void el.offsetWidth;
+  el.classList.add('jump-flash');
+  setTimeout(() => el.classList.remove('jump-flash'), 900);
+}
+seriesJumpBtn.addEventListener('click', openSeriesJumpDrawer);
+seriesJumpClose.addEventListener('click', closeSeriesJumpDrawer);
+seriesJumpBackdrop.addEventListener('click', e => { if(e.target === seriesJumpBackdrop) closeSeriesJumpDrawer(); });
+seriesJumpSearch.addEventListener('input', renderSeriesJumpGrid);
+seriesJumpSearch.addEventListener('keydown', e => {
+  if(e.key === 'Enter'){
+    const first = seriesJumpGrid.querySelector('.jump-tile[data-slug]');
+    if(first){ e.preventDefault(); jumpToSeriesSlug(first.dataset.slug); }
+  }
+});
+seriesJumpGrid.addEventListener('click', e => {
+  const tile = e.target.closest('.jump-tile[data-slug]');
+  if(tile) jumpToSeriesSlug(tile.dataset.slug);
+});
 function updateScrollButtons(){
   const overlayOpen =
     backdrop.classList.contains('open') ||
@@ -9242,11 +9357,13 @@ function updateScrollButtons(){
     pendingBackdrop.classList.contains('open') ||
     toolsBackdrop.classList.contains('open') ||
     seriesBackdrop.classList.contains('open') ||
+    seriesJumpBackdrop.classList.contains('open') ||
     randomOverlay.classList.contains('open') ||
     calendarOverlay.classList.contains('open') ||
     calDayBackdrop.classList.contains('open') ||
     gtgOverlay.classList.contains('open') ||
     driftOverlay.classList.contains('open');
+  seriesJumpBtn.classList.toggle('show', !overlayOpen && (tab === 'series' || tab === 'bsides') && !voidMode && seriesJumpItems().length > 0);
   if(overlayOpen){ scrollDownBtn.classList.remove('show'); scrollUpBtn.classList.remove('show'); return; }
   const st = window.scrollY || document.documentElement.scrollTop;
   const max = document.documentElement.scrollHeight - window.innerHeight;
