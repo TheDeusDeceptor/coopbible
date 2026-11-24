@@ -1645,8 +1645,9 @@ function formatBytes(n){
 }
 function fmtHltbMain(str){
   if(!str || str === '—') return '—';
-  const m = String(str).trim().match(/^Main:\s*([\d.]+)/i);
-  return m ? `${m[1]} hrs` : esc(String(str).trim());
+  const s = String(str).trim();
+  const m = s.match(/^(?:Main|\+Extra):\s*([\d.]+)/i);
+  return m ? `${m[1]} hrs` : esc(s);
 }
 function fmtHltb(str, html){
   if(!str || str === '—') return '—';
@@ -1660,6 +1661,11 @@ function fmtHltb(str, html){
     }
     if(extra && extra !== main) return `${main} to ${extra} hrs`;
     return `${main} hrs`;
+  }
+  const m2 = s.match(/^\+Extra:\s*([\d.]+)$/i);
+  if(m2){
+    if(html) return `${m2[1]}<span class="unit">hrs</span>`;
+    return `${m2[1]} hrs`;
   }
   return esc(s);
 }
@@ -1987,8 +1993,13 @@ function seriesTotals(slug){
     const h = g.hltb || '';
     const mm = String(h).match(/Main:\s*([\d.]+)/i);
     const me = String(h).match(/\+Extra:\s*([\d.]+)/i);
-    if(mm){ main += parseFloat(mm[1]); hasAny = true; }
-    if(me){ extra += parseFloat(me[1]); }
+    if(mm || me){
+      const mVal = mm ? (parseFloat(mm[1]) || 0) : (parseFloat(me[1]) || 0);
+      const eVal = me ? (parseFloat(me[1]) || 0) : (parseFloat(mm[1]) || 0);
+      main += mVal;
+      extra += eVal;
+      hasAny = true;
+    }
   }
   return { main: Math.round(main * 10) / 10, extra: Math.round(extra * 10) / 10, hasAny };
 }
@@ -3454,7 +3465,8 @@ function hltbMapToFields(d){
   let hltb = '';
   if(story && extras && extras !== story) hltb = `Main: ${story}, +Extra: ${extras}`;
   else if(story) hltb = `Main: ${story}`;
-  else if(comp) hltb = `Main: ${comp}`;
+  else if(extras) hltb = `+Extra: ${extras}`;
+  else if(comp) hltb = `+Extra: ${comp}`;
   return hltb ? { hltb } : {};
 }
 async function sgdbSearch(name){
@@ -5239,17 +5251,18 @@ function hltbToParts(str){
   const s = String(str);
   const mm = s.match(/Main:\s*([\d.]+)/i);
   const me = s.match(/\+Extra:\s*([\d.]+)/i);
-  if(mm) return { main: mm[1] || '', extra: me ? me[1] : '' };
+  if(mm || me) return { main: mm ? mm[1] : '', extra: me ? me[1] : '' };
   return { main: s, extra: '' };
 }
 function partsToHltb(main, extra){
   main = String(main||'').trim(); extra = String(extra||'').trim();
-  if(!main) return '—';
+  if(!main && !extra) return '—';
   if(/^\d/.test(main) && extra && /^\d/.test(extra)) return `Main: ${main}, +Extra: ${extra}`;
   if(/^\d/.test(main)) return `Main: ${main}`;
-  return main;
+  if(!main && /^\d/.test(extra)) return `+Extra: ${extra}`;
+  return main || '—';
 }
-function hltbIsNumeric(str){ return !str || str === '—' || /^\d/.test(String(str).replace(/^Main:\s*/i,'')); }
+function hltbIsNumeric(str){ return !str || str === '—' || /^\d/.test(String(str).replace(/^(?:Main|\+Extra):\s*/i,'')); }
 function linkIconGuess(label){
   const l = String(label||'').toLowerCase();
   if(l.includes('steam')) return 'steam';
@@ -5320,7 +5333,7 @@ function openEditor(g, opts){
   const hp = hltbToParts(draft.hltb);
   const numericHltb = hltbIsNumeric(draft.hltb);
   const currentMemberships = isNew ? new Set() : membershipsOf(draft.id);
-  const currentTabId = (tab !== 'series' && tab !== 'bsides' && tab !== 'radar' && REAL_LISTS_SET.has(tab)) ? tab : 'backlog';
+  const currentTabId = (!opts.presetSeries && tab !== 'series' && tab !== 'bsides' && tab !== 'radar' && REAL_LISTS_SET.has(tab)) ? tab : '';
   const targetListId = opts.listId || currentTabId;
   if(isNew && REAL_LISTS_SET.has(targetListId)) currentMemberships.add(targetListId);
   if(currentMemberships.has('tvpc') || currentMemberships.has('deuspc')) draft.flags.installed = true;
@@ -5475,13 +5488,9 @@ function openEditor(g, opts){
         <div class="form-section">
           <div class="sec-title">Series</div>
           <div class="form-grid">
-            <div class="field">
+            <div class="field span-2">
               <label>Series slug</label>
               <input type="text" id="f-series" value="${esc(draft.series||'')}">
-            </div>
-            <div class="field">
-              <label>Series note</label>
-              <input type="text" id="f-series-note" value="${esc(draft.series_note||'')}">
             </div>
             <div class="field span-2">
               <label>Status</label>
@@ -5660,7 +5669,7 @@ function openEditor(g, opts){
   }
   function pickAttach(id){
     if(modalSlot._mode === 'edit'){ toast('Attach is add-mode only — change the ID manually', 'bad'); return; }
-    const g = MANIFEST.games[id] || viewGame(id);
+    const g = viewGame(id) || MANIFEST.games[id];
     if(!g) return;
     modalSlot._attachId = id;
     nameInput.value = g.name || '';
@@ -5676,7 +5685,7 @@ function openEditor(g, opts){
     $('#f-logo').value = g.logo || '';
     $('#f-video').value = g.video || '';
     $('#f-series').value = modalSlot._presetSeriesSlug || g.series || '';
-    $('#f-series-note').value = g.series_note || '';
+    modalSlot._attachSeriesNote = g.series_note || null;
     const hp2 = hltbToParts(g.hltb);
     const numeric2 = hltbIsNumeric(g.hltb);
     $('#f-hltb-type').querySelector(`input[value="${numeric2 ? 'numeric' : 'text'}"]`).checked = true;
@@ -6030,7 +6039,8 @@ function openEditor(g, opts){
     const checkedLists = new Set(
       [...listGrid.querySelectorAll('input[type=checkbox]')].filter(cb => cb.checked).map(cb => cb.dataset.list)
     );
-    if(checkedLists.size === 0){ toast('Pick at least one list', 'bad'); return; }
+    const seriesVal = $('#f-series').value.trim() || null;
+    if(checkedLists.size === 0 && !seriesVal){ toast('Pick at least one list (or a series)', 'bad'); return; }
     const releaseVal = releaseInput.value.trim();
     const eaVal      = eaInput.value.trim();
     const hltbType = $('#f-hltb-type input:checked').value;
@@ -6060,7 +6070,7 @@ function openEditor(g, opts){
     })();
     if(mode2 === 'add' && isAttach){
       const existingId = modalSlot._attachId;
-      const base = MANIFEST.games[existingId] || viewGame(existingId);
+      const base = viewGame(existingId) || MANIFEST.games[existingId];
       if(!base){ toast('Original game not found', 'bad'); return; }
       const merged = JSON.parse(JSON.stringify(base));
       merged.name = name;
@@ -6085,17 +6095,18 @@ function openEditor(g, opts){
         ownedSteam:   $('#flag-row [data-flag="ownedSteam"]').classList.contains('on'),
         gamepass:     $('#flag-row [data-flag="gamepass"]').classList.contains('on'),
       };
-      merged.series = $('#f-series').value.trim() || null;
+      merged.series = seriesVal;
       const sOn = statusRow.querySelector('.status-btn.on');
       merged.series_status = sOn && sOn.dataset.status ? sOn.dataset.status : null;
-      merged.series_note = $('#f-series-note').value.trim() || null;
+      merged.series_note = modalSlot._attachSeriesNote !== undefined ? modalSlot._attachSeriesNote : (base.series_note || null);
       if(!checkedLists.has('tvpc')) delete merged.archive_section;
       else if(archRead) merged.archive_section = archRead;
       else delete merged.archive_section;
       if(checkedLists.has('tvpc') || checkedLists.has('deuspc')) merged.flags.installed = true;
-      const before = JSON.stringify(base);
-      const after = JSON.stringify(merged);
-      if(before !== after){ pendingGameWrites.set(existingId, merged); }
+      const orig = MANIFEST.games[existingId];
+      const changed = !orig || !jsonEqual(orig, merged);
+      if(changed) pendingGameWrites.set(existingId, merged);
+      else pendingGameWrites.delete(existingId);
       {
         const oldSeriesSlug = base.series || null;
         const newSeriesSlug = merged.series || null;
@@ -6108,13 +6119,15 @@ function openEditor(g, opts){
             pendingSeriesWrites.set(oldSeriesSlug, copy);
           }
         }
-        if(newSeriesSlug && newSeriesSlug !== oldSeriesSlug){
+        if(newSeriesSlug){
           const s = viewSeries(newSeriesSlug);
           if(s){
             const copy = pendingSeriesWrites.get(newSeriesSlug) || JSON.parse(JSON.stringify(s));
             copy.order = (copy.order || []).slice();
-            if(!copy.order.includes(existingId)) copy.order.push(existingId);
-            pendingSeriesWrites.set(newSeriesSlug, copy);
+            if(!copy.order.includes(existingId)){
+              copy.order.push(existingId);
+              pendingSeriesWrites.set(newSeriesSlug, copy);
+            }
           } else { toast('Series "' + newSeriesSlug + '" not found — create it first', 'bad'); }
         }
       }
@@ -6128,7 +6141,7 @@ function openEditor(g, opts){
       invalidateAllPanes();
       updatePendingStrip();
       renderContent();
-      toast('Added to list' + (before !== after ? ' + saved edits' : ''));
+      toast('Saved' + (changed ? ' edits' : ''));
       return;
     }
     const oldId = draft.id || '';
@@ -6153,9 +6166,9 @@ function openEditor(g, opts){
         ownedSteam:   $('#flag-row [data-flag="ownedSteam"]').classList.contains('on'),
         gamepass:     $('#flag-row [data-flag="gamepass"]').classList.contains('on'),
       },
-      series:        $('#f-series').value.trim() || null,
+      series:        seriesVal,
       series_status: (statusRow.querySelector('.status-btn.on')?.dataset.status) || null,
-      series_note:   $('#f-series-note').value.trim() || null,
+      series_note:   draft.series_note || null,
     });
     if(!checkedLists.has('tvpc')) delete out.archive_section;
     else if(archRead) out.archive_section = archRead;
@@ -6295,7 +6308,7 @@ function openEditor(g, opts){
     $('#f-dev').value = storedDraft.dev ?? '';
     $('#f-pub').value = storedDraft.pub ?? '';
     $('#f-series').value = storedDraft.series ?? '';
-    $('#f-series-note').value = storedDraft.seriesNote ?? '';
+    if($('#f-series-note')) $('#f-series-note').value = storedDraft.seriesNote ?? '';
     $('#f-screenshot').value = storedDraft.screenshot ?? '';
     $('#f-logo').value = storedDraft.logo ?? '';
     $('#f-video').value = storedDraft.video ?? '';
@@ -6963,6 +6976,86 @@ function openSeriesHeaderModal(slug){
     renderContent();
   };
 }
+function openSeriesGamePicker(slug){
+  const s = viewSeries(slug);
+  if(!s) return;
+  const inThis = new Set(s.order || []);
+  const otherSeries = new Map();
+  for(const sl of seriesOrderLive()){
+    if(sl === slug) continue;
+    const os = viewSeries(sl);
+    if(!os) continue;
+    for(const id of (os.order || [])){
+      if(!otherSeries.has(id)) otherSeries.set(id, os.name || sl);
+    }
+  }
+  const allIds = new Set([...Object.keys(MANIFEST.games), ...pendingGameWrites.keys()]);
+  const allGames = [...allIds].filter(id => !pendingGameDeletes.has(id)).map(viewGame).filter(Boolean)
+    .sort((a,b) => (a.name||'').localeCompare(b.name||''));
+  const renderList = (q) => {
+    const ql = (q||'').toLowerCase().trim();
+    return allGames.filter(g => !ql || String(g.name||'').toLowerCase().includes(ql) || (g.alt_names||[]).some(a => String(a).toLowerCase().includes(ql)));
+  };
+  seriesSlot._slug = slug;
+  seriesSlot.innerHTML = `
+    <div class="picker-modal" style="max-width:640px">
+      <button class="modal-close" data-close>✕</button>
+      <h2>Add game to ${esc(s.name || slug)}</h2>
+      <div class="logo-picker-search">
+        <input type="text" id="sgp-search" placeholder="Search existing games…" autocomplete="off" spellcheck="false">
+      </div>
+      <div class="picker-list" id="sgp-list" style="max-height:55vh"></div>
+      <button type="button" class="btn primary" id="sgp-create-new" style="width:100%;justify-content:center;">+ Create new game</button>
+    </div>`;
+  seriesBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
+  const listEl = seriesSlot.querySelector('#sgp-list');
+  const searchEl = seriesSlot.querySelector('#sgp-search');
+  const rerender = () => {
+    const games = renderList(searchEl.value);
+    listEl.innerHTML = games.slice(0, 200).map(g => {
+      const here = inThis.has(g.id);
+      const other = !here && (otherSeries.get(g.id) || (g.series && g.series !== slug ? g.series : ''));
+      const tag = here ? ' · already in series' : (other ? ' · in ' + other : '');
+      return `<button type="button" data-gid="${esc(g.id)}" ${(here || other) ? 'style="opacity:.4;pointer-events:none;"' : ''}>
+        <span class="pk-name">${esc(g.name||g.id)}${esc(tag)}</span>
+        <span class="pk-meta">${esc(extractYear(g.release||g.ea_release))}${g.platform ? ' · ' + esc(g.platform) : ''}</span>
+      </button>`;
+    }).join('');
+  };
+  rerender();
+  searchEl.addEventListener('input', rerender);
+  setTimeout(() => searchEl.focus(), 40);
+  seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
+  seriesSlot.querySelector('#sgp-create-new').onclick = () => {
+    closeSeriesHeaderModal();
+    openEditor(null, { presetSeries: slug });
+    const f = modalSlot.querySelector('#f-series');
+    if(f) f.value = slug;
+  };
+  listEl.addEventListener('click', e => {
+    const btn = e.target.closest('button[data-gid]');
+    if(!btn) return;
+    const gid = btn.dataset.gid;
+    const cur = viewSeries(slug);
+    const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(cur));
+    copy.order = (copy.order || []).slice();
+    if(!copy.order.includes(gid)) copy.order.push(gid);
+    pendingSeriesWrites.set(slug, copy);
+    const g = viewGame(gid);
+    if(g && g.series !== slug){
+      const gc = JSON.parse(JSON.stringify(g));
+      gc.series = slug;
+      if(MANIFEST.games[gid] && jsonEqual(MANIFEST.games[gid], gc)) pendingGameWrites.delete(gid);
+      else pendingGameWrites.set(gid, gc);
+    }
+    closeSeriesHeaderModal();
+    invalidateAllPanes();
+    updatePendingStrip();
+    renderContent();
+    toast('Added to series');
+  });
+}
 function closeSeriesHeaderModal(){
   seriesBackdrop.classList.remove('open');
   seriesSlot.innerHTML = '';
@@ -6988,23 +7081,35 @@ function openSeriesRowDisplayEditor(slug, gameId){
   seriesSlot._slug = slug;
   seriesSlot._gameId = gameId;
   seriesSlot._isRowEdit = true;
+  const statusVal = g.series_status || '';
   seriesSlot.innerHTML = `
-    <div class="series-header-modal" style="max-width:520px">
+    <div class="series-header-modal" style="max-width:520px;max-height:92vh;overflow-y:auto">
       <button class="modal-close" data-close>✕</button>
-      <h2>Display override — ${esc(g.name)}</h2>
-      <p style="font-size:.82rem;color:var(--muted);margin-bottom:1rem">These override how the game looks inside this series. Real data on the game is unchanged.</p>
+      <h2>Display &amp; Series — ${esc(g.name)}</h2>
+      <p style="font-size:.82rem;color:var(--muted);margin-bottom:1rem">Display fields override only inside this series; Note and Status save on the game.</p>
       <div class="form-section" style="padding-top:0;border-top:0">
-        <div class="field" style="margin-bottom:.9rem">
+        <div class="field" style="margin-bottom:.8rem">
           <label>Display name</label>
           <input type="text" id="sr-name" value="${esc(d.display_name||'')}">
         </div>
-        <div class="field" style="margin-bottom:.9rem">
+        <div class="field" style="margin-bottom:.8rem">
           <label>Display release</label>
           <input type="text" id="sr-release" value="${esc(d.display_release||'')}">
         </div>
-        <div class="field" style="margin-bottom:.9rem">
+        <div class="field" style="margin-bottom:.8rem">
           <label>Display platform</label>
           <input type="text" id="sr-platform" value="${esc(d.display_platform||'')}">
+        </div>
+        <div class="field" style="margin-bottom:.8rem">
+          <label>Series note</label>
+          <input type="text" id="sr-note" value="${esc(g.series_note||'')}">
+        </div>
+        <div class="field" style="margin-bottom:.8rem">
+          <label>Status</label>
+          <div class="status-row" id="sr-status">
+            <button type="button" class="status-btn ${statusVal==='done'?'on':''}" data-status="done">Done</button>
+            <button type="button" class="status-btn ${statusVal==='rerun'?'on rerun':''}" data-status="rerun">Rerun</button>
+          </div>
         </div>
         <div class="plat-hint" style="margin-bottom:0;display:flex;flex-direction:column;gap:.3rem;">
           <strong>Format selection (click to wrap/unwrap):</strong>
@@ -7023,6 +7128,17 @@ function openSeriesRowDisplayEditor(slug, gameId){
   seriesBackdrop.classList.add('open');
   refreshScrollJumpVisibility();
   bindFormatButtons(seriesSlot, '#sr-name');
+  const srStatus = seriesSlot.querySelector('#sr-status');
+  srStatus.addEventListener('click', ev => {
+    const btn = ev.target.closest('.status-btn');
+    if(!btn) return;
+    const wasOn = btn.classList.contains('on');
+    srStatus.querySelectorAll('.status-btn').forEach(b => b.classList.remove('on','rerun'));
+    if(!wasOn){
+      btn.classList.add('on');
+      if(btn.dataset.status === 'rerun') btn.classList.add('rerun');
+    }
+  });
   seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
   seriesSlot.querySelector('#sr-save').onclick = () => {
     const copy = pendingSeriesWrites.get(slug) || JSON.parse(JSON.stringify(s));
@@ -7036,12 +7152,21 @@ function openSeriesRowDisplayEditor(slug, gameId){
     if(pl) obj.display_platform = pl;
     if(Object.keys(obj).length) copy.display[gameId] = obj;
     else delete copy.display[gameId];
-    pendingSeriesWrites.set(slug, copy);
+    if(MANIFEST.series[slug] && jsonEqual(MANIFEST.series[slug], copy)) pendingSeriesWrites.delete(slug);
+    else pendingSeriesWrites.set(slug, copy);
+
+    const gc = JSON.parse(JSON.stringify(g));
+    const sOn = srStatus.querySelector('.status-btn.on');
+    gc.series_note = seriesSlot.querySelector('#sr-note').value.trim() || null;
+    gc.series_status = sOn && sOn.dataset.status ? sOn.dataset.status : null;
+    if(MANIFEST.games[gameId] && jsonEqual(MANIFEST.games[gameId], gc)) pendingGameWrites.delete(gameId);
+    else pendingGameWrites.set(gameId, gc);
+
     closeSeriesHeaderModal();
     invalidateAllPanes();
     updatePendingStrip();
     renderContent();
-    toast('Display override saved');
+    toast('Saved');
   };
 }
 function openBsidesHeaderModal(slug){
@@ -7990,10 +8115,7 @@ contentEl.addEventListener('click', e => {
   const sar = e.target.closest('[data-act="series-add-row"]');
   if(sar){
     e.stopPropagation();
-    const slug = sar.dataset.slug;
-    openEditor(null, { presetSeries: slug });
-    const f = modalSlot.querySelector('#f-series');
-    if(f) f.value = slug;
+    openSeriesGamePicker(sar.dataset.slug);
     return;
   }
   const seg = e.target.closest('[data-act="series-edit-game"]');
@@ -8083,23 +8205,35 @@ contentEl.addEventListener('click', e => {
     const d = (block.display && block.display[gid]) || {};
     seriesSlot._bslug = slug;
     seriesSlot._bgid = gid;
+    const bStatusVal = g.series_status || '';
     seriesSlot.innerHTML = `
-      <div class="series-header-modal" style="max-width:520px">
+      <div class="series-header-modal" style="max-width:520px;max-height:92vh;overflow-y:auto">
         <button class="modal-close" data-close>✕</button>
-        <h2>Display override — ${esc(g.name)}</h2>
-        <p style="font-size:.82rem;color:var(--muted);margin-bottom:1rem">Overrides only inside this B-Sides block.</p>
+        <h2>Display &amp; Series — ${esc(g.name)}</h2>
+        <p style="font-size:.82rem;color:var(--muted);margin-bottom:1rem">Display fields override only inside this B-Sides block; Note and Status save on the game.</p>
         <div class="form-section" style="padding-top:0;border-top:0">
-          <div class="field" style="margin-bottom:.9rem">
+          <div class="field" style="margin-bottom:.8rem">
             <label>Display name</label>
             <input type="text" id="bsr-name" value="${esc(d.display_name||'')}">
           </div>
-          <div class="field" style="margin-bottom:.9rem">
+          <div class="field" style="margin-bottom:.8rem">
             <label>Display release</label>
             <input type="text" id="bsr-release" value="${esc(d.display_release||'')}">
           </div>
-          <div class="field" style="margin-bottom:.9rem">
+          <div class="field" style="margin-bottom:.8rem">
             <label>Display platform</label>
             <input type="text" id="bsr-platform" value="${esc(d.display_platform||'')}">
+          </div>
+          <div class="field" style="margin-bottom:.8rem">
+            <label>Series note</label>
+            <input type="text" id="bsr-note" value="${esc(g.series_note||'')}">
+          </div>
+          <div class="field" style="margin-bottom:.8rem">
+            <label>Status</label>
+            <div class="status-row" id="bsr-status">
+              <button type="button" class="status-btn ${bStatusVal==='done'?'on':''}" data-status="done">Done</button>
+              <button type="button" class="status-btn ${bStatusVal==='rerun'?'on rerun':''}" data-status="rerun">Rerun</button>
+            </div>
           </div>
           <div class="plat-hint" id="bsr-fmt-hint" style="margin-bottom:0;display:flex;flex-direction:column;gap:.3rem;">
             <strong>Format selection (click to wrap/unwrap):</strong>
@@ -8118,6 +8252,17 @@ contentEl.addEventListener('click', e => {
     seriesBackdrop.classList.add('open');
     refreshScrollJumpVisibility();
     bindFormatButtons(seriesSlot, '#bsr-name');
+    const bsrStatus = seriesSlot.querySelector('#bsr-status');
+    bsrStatus.addEventListener('click', ev => {
+      const btn = ev.target.closest('.status-btn');
+      if(!btn) return;
+      const wasOn = btn.classList.contains('on');
+      bsrStatus.querySelectorAll('.status-btn').forEach(b => b.classList.remove('on','rerun'));
+      if(!wasOn){
+        btn.classList.add('on');
+        if(btn.dataset.status === 'rerun') btn.classList.add('rerun');
+      }
+    });
     seriesSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeSeriesHeaderModal);
     seriesSlot.querySelector('#bsr-save').onclick = () => {
       const block2 = BSIDES.data[slug];
@@ -8132,11 +8277,19 @@ contentEl.addEventListener('click', e => {
       if(Object.keys(obj).length) block2.display[gid] = obj;
       else delete block2.display[gid];
       bsidesStage();
+
+      const gc = JSON.parse(JSON.stringify(g));
+      const sOn = bsrStatus.querySelector('.status-btn.on');
+      gc.series_note = seriesSlot.querySelector('#bsr-note').value.trim() || null;
+      gc.series_status = sOn && sOn.dataset.status ? sOn.dataset.status : null;
+      if(MANIFEST.games[gid] && jsonEqual(MANIFEST.games[gid], gc)) pendingGameWrites.delete(gid);
+      else pendingGameWrites.set(gid, gc);
+
       closeSeriesHeaderModal();
       invalidateAllPanes();
       updatePendingStrip();
       renderContent();
-      toast('Display override saved');
+      toast('Saved');
     };
     return;
   }
