@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-24T08:51:37Z",
+  "updated": "2026-11-24T08:53:57Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -38874,7 +38874,7 @@
       "name": "You Are Empty: Absolute Edition",
       "platform": "PC",
       "size": "5 GB",
-      "hltb": "—",
+      "hltb": "Main: 5",
       "dev": "Digital Spray Studios",
       "pub": "Strategy First",
       "notes": "",
