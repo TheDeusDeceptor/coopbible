@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/corsfix" defer></script>
+<script src="https://unpkg.com/corsfix@2.1.0/corsfix.js" defer></script>
 <style>
   :root{
     --bg:#0a0d14;--bg-glow:#0f1622;--card:#101624;--border:#1e2836;
@@ -40,12 +40,6 @@
   .icon-nexus{-webkit-mask-image:url(icons/nexus.svg);mask-image:url(icons/nexus.svg);}
   .icon-generic{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");}
   .icon-search{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");}
-  .icon-hltb{-webkit-mask-image:url(icons/clock.svg);mask-image:url(icons/clock.svg);}
-  .icon-size{-webkit-mask-image:url(icons/hdd.svg);mask-image:url(icons/hdd.svg);}
-  .icon-date{-webkit-mask-image:url(icons/calendar.svg);mask-image:url(icons/calendar.svg);}
-  .icon-platform{-webkit-mask-image:url(icons/monitor.svg);mask-image:url(icons/monitor.svg);}
-  .icon-dev{-webkit-mask-image:url(icons/code.svg);mask-image:url(icons/code.svg);}
-  .icon-pub{-webkit-mask-image:url(icons/briefcase.svg);mask-image:url(icons/briefcase.svg);}
   .icon-pencil{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4z'/%3E%3C/svg%3E");}
   .icon-trash{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='3 6 5 6 21 6'/%3E%3Cpath d='M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6'/%3E%3Cpath d='M10 11v6M14 11v6'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='3 6 5 6 21 6'/%3E%3Cpath d='M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6'/%3E%3Cpath d='M10 11v6M14 11v6'/%3E%3C/svg%3E");}
   .icon-cog{-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3Cpath d='M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3Cpath d='M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z'/%3E%3C/svg%3E");}
@@ -1266,7 +1260,6 @@ const GITHUB_REPO  = 'coopbible';
 const PAGES_BASE   = 'https://thedeusdeceptor.github.io/coopbible/';
 const LBDB_WORKFLOW = 'update-lbdb.yml';
 const LBDB_FILE = 'LBDB/metadata.json';
-const CLOUDINARY_CLOUD = 'nistzwxd';
 const STEAM_ICON = 'images/icons/steam.png';
 const GAMEPASS_ICON = 'images/icons/gamepass.png';
 const PLATFORMS_FILE = 'data/platforms.json';
@@ -1316,6 +1309,7 @@ let BSIDES = { version: 1, updated: '', order: [], data: {} };
 let BSIDES_ORIGINAL = { version: 1, updated: '', order: [], data: {} };
 let PROJECTS = { version: 1, updated: '', projects: [] };
 let PROJECTS_ORIGINAL = { version: 1, updated: '', projects: [] };
+let manifestLoaded = false, platformsLoaded = false, bsidesLoaded = false, projectsLoaded = false;
 let sortKey = 'natural', sortDir = 'asc', searchTerm = '';
 let filterSet = (() => {
   try{
@@ -1336,7 +1330,7 @@ function filterSummary(){
   return filterSet.size + ' filters';
 }
 function filterIsNonDefault(){ return !(filterSet.size === 1 && filterSet.has('all')); }
-function saveFilterGlobal(){ localStorage.setItem('view_filter', JSON.stringify([...filterSet])); }
+function saveFilterGlobal(){ try{ localStorage.setItem('view_filter', JSON.stringify([...filterSet])); }catch(e){} }
 const searchFields = { name: true, dev: false, pub: false };
 const defaultDir = { natural:'asc', name:'asc', size:'desc', release:'desc', main:'asc', extra:'asc' };
 const SORT_LABELS = { natural:'Date Added', name:'Name', size:'Size', release:'Released', main:'HLTB Main', extra:'HLTB Extra' };
@@ -1348,17 +1342,10 @@ let openDD = null;
 let voidMode = false;
 let videoMode = (() => { try { return localStorage.getItem('view_video') || 'on'; } catch(e){ return 'on'; } })();
 const VIDEO_MODE_LABELS = { on:'On', smart:'Smart', off:'Off' };
-let platformFilter = (() => {
-  try{
-    const saved = JSON.parse(localStorage.getItem('view_platform_emulog') || 'null');
-    if(Array.isArray(saved)) return new Set(saved);
-  }catch(e){}
-  return new Set();
-})();
-function savePlatformFilter(){ localStorage.setItem('view_platform_emulog', JSON.stringify([...platformFilter])); }
 const pendingGameWrites = new Map();
 const pendingGameDeletes = new Set();
 const pendingGameDeleteSnapshots = new Map();
+const pendingSeriesDeleteSnapshots = new Map();
 const pendingListWrites = new Map();
 const pendingFileWrites = new Map();
 const pendingFileDeletes = new Set();
@@ -1434,6 +1421,9 @@ function slugify(name){
   for(let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) | 0;
   return 'game-' + (Math.abs(h) >>> 0).toString(36);
 }
+function seriesSlugify(name){
+  return String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+}
 const ROMAN_MAP = { i:1, ii:2, iii:3, iv:4, v:5, vi:6, vii:7, viii:8, ix:9, x:10, xi:11, xii:12, xiii:13, xiv:14, xv:15 };
 function normalizeName(name){
   if(!name) return '';
@@ -1496,12 +1486,6 @@ function resolveImgUrl(url){
   if(/^https?:|^data:|^\/\//.test(s)) return s;
   return PAGES_BASE + s.replace(/^\/+/, '');
 }
-function b64url(str){
-  const bytes = new TextEncoder().encode(str);
-  let bin = '';
-  bytes.forEach(b => bin += String.fromCharCode(b));
-  return btoa(bin).replace(/=+$/,'').replace(/\+/g,'-').replace(/\//g,'_');
-}
 function screenshotSrc(url){
   if(!url) return '';
   const u = resolveImgUrl(url);
@@ -1517,23 +1501,6 @@ function logoSrc(url){
   if(u.startsWith('data:')) return u;
   if(/\/images\//.test(u)) return u;
   return 'https://images.weserv.nl/?url=' + encodeURIComponent(u) + '&w=504&h=562&fit=inside&we';
-}
-async function seriesLogoCompressUrl(url){
-  if(!url) return url;
-  if(/^images\//.test(url)) return url;
-  if(!/^https?:/.test(url)) return url;
-  if(/res\.cloudinary\.com/i.test(url)) return url;
-  const dims = await new Promise(resolve => {
-    const img = new Image();
-    img.onload  = () => resolve({ w: img.naturalWidth, h: img.naturalHeight });
-    img.onerror = () => resolve(null);
-    img.src = url;
-  });
-  let box;
-  if(dims && dims.h > dims.w) box = 'w_300,h_2000,c_limit';
-  else                         box = 'w_2000,h_300,c_limit';
-  const b64 = b64url(url);
-  return 'https://res.cloudinary.com/' + CLOUDINARY_CLOUD + '/image/fetch/' + box + ',f_png/' + b64;
 }
 async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
   if(!slug){ toast('Slug is required', 'bad'); return; }
@@ -1584,7 +1551,7 @@ async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
       bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
     }
     const b64 = btoa(bin);
-    const safeSlug = String(slug).replace(/[^a-z0-9-]/gi, '').toLowerCase();
+    const safeSlug = String(slug).replace(/[^a-z0-9-]/gi, '-').toLowerCase();
     const path = 'images/series/' + safeSlug + '.png';
     const sApiUrl = 'https://api.github.com/repos/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/contents/' + path;
     let sha = null;
@@ -1811,7 +1778,7 @@ function loadSortForTab(tabId){
   return { key: 'natural', dir: 'asc' };
 }
 function saveSortForTab(tabId, key, dir){
-  localStorage.setItem('view_sort_' + tabId, JSON.stringify({ key, dir }));
+  try{ localStorage.setItem('view_sort_' + tabId, JSON.stringify({ key, dir })); }catch(e){}
 }
 function applySortForTab(tabId){
   const s = loadSortForTab(tabId);
@@ -1833,21 +1800,25 @@ async function loadManifest(){
       series: raw.series || {},
       series_order: raw.series_order || [],
     };
+    manifestLoaded = true;
   }catch(e){
     console.warn('manifest load failed:', e);
+    manifestLoaded = false;
     MANIFEST = { version: 4, updated: '', games: {}, lists: {}, series: {}, series_order: [] };
   }
 }
 async function loadPlatforms(){
   try{
     const res = await fetch(PLATFORMS_FILE, { cache: 'no-cache' });
-    if(res.status === 404){ PLATFORMS = {}; PLATFORMS_ORIGINAL = {}; return; }
+    if(res.status === 404){ PLATFORMS = {}; PLATFORMS_ORIGINAL = {}; platformsLoaded = true; return; }
     if(!res.ok) throw new Error('HTTP ' + res.status);
     const raw = await res.json();
     PLATFORMS = (raw && typeof raw === 'object' && !Array.isArray(raw)) ? raw : {};
     PLATFORMS_ORIGINAL = JSON.parse(JSON.stringify(PLATFORMS));
+    platformsLoaded = true;
   }catch(e){
     console.warn('platforms.json load failed:', e);
+    platformsLoaded = false;
     PLATFORMS = {}; PLATFORMS_ORIGINAL = {};
   }
 }
@@ -1857,6 +1828,7 @@ async function loadBsides(){
     if(res.status === 404){
       BSIDES = { version: 1, updated: '', order: [], data: {} };
       BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
+      bsidesLoaded = true;
       return;
     }
     if(!res.ok) throw new Error('HTTP ' + res.status);
@@ -1868,8 +1840,10 @@ async function loadBsides(){
       data: (raw.data && typeof raw.data === 'object') ? raw.data : {}
     };
     BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
+    bsidesLoaded = true;
   }catch(e){
     console.warn('bsides.json load failed:', e);
+    bsidesLoaded = false;
     BSIDES = { version: 1, updated: '', order: [], data: {} };
     BSIDES_ORIGINAL = JSON.parse(JSON.stringify(BSIDES));
   }
@@ -1880,6 +1854,7 @@ async function loadProjects(){
     if(res.status === 404){
       PROJECTS = { version: 1, updated: '', projects: [] };
       PROJECTS_ORIGINAL = JSON.parse(JSON.stringify(PROJECTS));
+      projectsLoaded = true;
       return;
     }
     if(!res.ok) throw new Error('HTTP ' + res.status);
@@ -1890,8 +1865,10 @@ async function loadProjects(){
       projects: Array.isArray(raw.projects) ? raw.projects : []
     };
     PROJECTS_ORIGINAL = JSON.parse(JSON.stringify(PROJECTS));
+    projectsLoaded = true;
   }catch(e){
     console.warn('projects.json load failed:', e);
+    projectsLoaded = false;
     PROJECTS = { version: 1, updated: '', projects: [] };
     PROJECTS_ORIGINAL = JSON.parse(JSON.stringify(PROJECTS));
   }
@@ -2203,6 +2180,7 @@ async function ghUpdateRef(sha){
     method: 'PATCH', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ sha, force: false })
   });
+  if(r.status === 422) throw new Error('Branch changed on GitHub — reload and retry');
   if(!r.ok) throw new Error('ref-update HTTP ' + r.status);
 }
 function totalPendingCount(){
@@ -2231,6 +2209,7 @@ function clearAllPending(){
   pendingGameWrites.clear();
   pendingGameDeletes.clear();
   pendingGameDeleteSnapshots.clear();
+  pendingSeriesDeleteSnapshots.clear();
   pendingListWrites.clear();
   pendingFileWrites.clear();
   pendingFileDeletes.clear();
@@ -2283,12 +2262,29 @@ function regenerateManifest(){
 async function commitPending(){
   const total = totalPendingCount();
   if(total === 0){ toast('Nothing to commit', 'bad'); return; }
+  if(!manifestLoaded){ toast('Manifest failed to load — reload before committing', 'bad'); return; }
+  if(pendingFileWrites.has(BSIDES_FILE) && !bsidesLoaded){ toast('B-Sides failed to load — reload before committing', 'bad'); return; }
+  if(pendingFileWrites.has(PROJECTS_FILE) && !projectsLoaded){ toast('Projects failed to load — reload before committing', 'bad'); return; }
+  if(pendingFileWrites.has(PLATFORMS_FILE) && !platformsLoaded){ toast('Platforms failed to load — reload before committing', 'bad'); return; }
   if(!getToken()){ showTokenPrompt(); return; }
   const stripCommit = pendingStrip.querySelector('.commit');
   const stripDisc = pendingStrip.querySelector('.discard');
   if(stripCommit){ stripCommit.disabled = true; stripCommit.textContent = '…Committing'; }
   if(stripDisc) stripDisc.disabled = true;
   try{
+    const headSha = await ghGetHeadSha();
+    const remoteRes = await ghFetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${MANIFEST_FILE}?ref=${headSha}`, {
+      headers: { 'Accept': 'application/vnd.github.raw+json' },
+      cache: 'no-store'
+    });
+    if(remoteRes.status === 200){
+      const remoteManifest = await remoteRes.json();
+      if(remoteManifest && remoteManifest.updated && MANIFEST.updated && remoteManifest.updated !== MANIFEST.updated){
+        throw new Error('Database changed on GitHub since page load — reload before committing');
+      }
+    } else if(remoteRes.status !== 404){
+      throw new Error('Manifest check HTTP ' + remoteRes.status);
+    }
     const writes = [];
     for(const [id, g] of pendingGameWrites){
       writes.push({ path: 'games/' + id + '.json', content: JSON.stringify(g, null, 2) + '\n' });
@@ -2308,12 +2304,14 @@ async function commitPending(){
     const manifest = regenerateManifest();
     writes.push({ path: 'data/manifest.json', content: JSON.stringify(manifest, null, 2) + '\n' });
     writes.push({ path: 'data/series_order.json', content: JSON.stringify(manifest.series_order, null, 2) + '\n' });
-    const headSha = await ghGetHeadSha();
     const baseTree = await ghGetCommitTree(headSha);
     const tree = [];
-    for(const w of writes){
-      const blobSha = await ghCreateBlob(w.content);
-      tree.push({ path: w.path, mode: '100644', type: 'blob', sha: blobSha });
+    for(let i = 0; i < writes.length; i += 4){
+      const chunk = writes.slice(i, i + 4);
+      const shas = await Promise.all(chunk.map(w => ghCreateBlob(w.content)));
+      for(let j = 0; j < chunk.length; j++){
+        tree.push({ path: chunk[j].path, mode: '100644', type: 'blob', sha: shas[j] });
+      }
     }
     for(const id of pendingGameDeletes){
       if(!MANIFEST.games[id]) continue;
@@ -2361,6 +2359,7 @@ async function commitPending(){
     pendingGameWrites.clear();
     pendingGameDeletes.clear();
     pendingGameDeleteSnapshots.clear();
+    pendingSeriesDeleteSnapshots.clear();
     pendingListWrites.clear();
     pendingFileWrites.clear();
     pendingFileDeletes.clear();
@@ -2477,6 +2476,10 @@ function openPendingModal(){
             const at = Math.min(idx, copy.order.length);
             copy.order.splice(at, 0, gid);
           }
+          if(snap.seriesDisplay && snap.seriesDisplay[slug]){
+            copy.display = copy.display || {};
+            copy.display[gid] = JSON.parse(JSON.stringify(snap.seriesDisplay[slug]));
+          }
           pendingSeriesWrites.set(slug, copy);
         }
         if(snap.bsidesSlots){
@@ -2487,6 +2490,10 @@ function openPendingModal(){
             if(!block.entries.some(e => e.type === 'game' && e.id === gid)){
               const at = Math.min(slot.idx, block.entries.length);
               block.entries.splice(at, 0, JSON.parse(JSON.stringify(slot.entry)));
+            }
+            if(snap.bsidesDisplay && snap.bsidesDisplay[slug]){
+              block.display = block.display || {};
+              block.display[gid] = JSON.parse(JSON.stringify(snap.bsidesDisplay[slug]));
             }
           }
           bsidesStage();
@@ -2504,11 +2511,37 @@ function openPendingModal(){
         if(pendingSeriesOrder.length === 0) pendingSeriesOrder = null;
       }
     }
-    else if(key.startsWith('seriesdel:')) pendingSeriesDeletes.delete(key.slice(10));
+    else if(key.startsWith('seriesdel:')){
+      const slug = key.slice(10);
+      pendingSeriesDeletes.delete(slug);
+      const sSnap = pendingSeriesDeleteSnapshots.get(slug);
+      if(sSnap){
+        for(const [gid, prev] of Object.entries(sSnap)){
+          if(prev.hadWrite) pendingGameWrites.set(gid, JSON.parse(JSON.stringify(prev.game)));
+          else pendingGameWrites.delete(gid);
+        }
+        pendingSeriesDeleteSnapshots.delete(slug);
+      }
+    }
     else if(key === 'seriesorder') pendingSeriesOrder = null;
     else if(key.startsWith('filedel:')) pendingFileDeletes.delete(key.slice(8));
     else if(key.startsWith('file:')) pendingFileWrites.delete(key.slice(5));
-    else if(key.startsWith('fileren:')) pendingFileRenames.delete(key.slice(8));
+    else if(key.startsWith('fileren:')){
+      const oldPath = key.slice(8);
+      const r = pendingFileRenames.get(oldPath);
+      pendingFileRenames.delete(oldPath);
+      if(r && r.gameId){
+        const cur = viewGame(r.gameId);
+        if(cur){
+          const copy = JSON.parse(JSON.stringify(cur));
+          if(r.kind === 'screenshot' && copy.screenshot === r.newPath) copy.screenshot = oldPath;
+          if(r.kind === 'logo'       && copy.logo       === r.newPath) copy.logo       = oldPath;
+          const orig = MANIFEST.games[r.gameId];
+          if(orig && jsonEqual(orig, copy)) pendingGameWrites.delete(r.gameId);
+          else pendingGameWrites.set(r.gameId, copy);
+        }
+      }
+    }
     if(key.startsWith('file:')){
       const p = key.slice(5);
       if(p === BSIDES_FILE) BSIDES = JSON.parse(JSON.stringify(BSIDES_ORIGINAL));
@@ -3034,7 +3067,7 @@ function stageMediaRenames(){
   for(const cb of cbs){
     const r = mediaRenameResults[+cb.dataset.idx];
     if(!r || r.conflict || !r.sha) continue;
-    pendingFileRenames.set(r.oldPath, { newPath: r.newPath, sha: r.sha });
+    pendingFileRenames.set(r.oldPath, { newPath: r.newPath, sha: r.sha, gameId: r.gameId, kind: r.kind });
     const base = viewGame(r.gameId);
     if(base){
       const copy = JSON.parse(JSON.stringify(base));
@@ -3148,14 +3181,15 @@ function stageOrphanDeletes(){
 function scanSeriesIntegrity(){
   const issues = [];
   const seenAcrossSeries = new Map();
-  for(const slug of seriesOrderLive()){
+  const liveSeriesSlugs = new Set(seriesOrderLive());
+  for(const slug of liveSeriesSlugs){
     const s = viewSeries(slug);
     if(!s) continue;
     const order = s.order || [];
     for(const id of order){
       if(!seenAcrossSeries.has(id)) seenAcrossSeries.set(id, []);
       seenAcrossSeries.get(id).push(slug);
-      const g = viewGame(id);
+      const g = pendingGameDeletes.has(id) ? null : viewGame(id);
       if(!g){
         issues.push({ kind: 'dangling', gameId: id, name: id, detail: 'Order contains game id not found in games data' });
         continue;
@@ -3175,8 +3209,20 @@ function scanSeriesIntegrity(){
   }
   for(const [id, slugs] of seenAcrossSeries){
     if(slugs.length > 1){
-      const g = viewGame(id);
+      const g = pendingGameDeletes.has(id) ? null : viewGame(id);
       issues.push({ kind: 'double', gameId: id, name: (g && g.name) || id, detail: 'In ' + slugs.length + ' series: ' + slugs.join(', ') });
+    }
+  }
+  const allIds = new Set([...Object.keys(MANIFEST.games), ...pendingGameWrites.keys()]);
+  for(const id of allIds){
+    if(pendingGameDeletes.has(id)) continue;
+    const g = viewGame(id);
+    if(!g || !g.series) continue;
+    const s = liveSeriesSlugs.has(g.series) ? viewSeries(g.series) : null;
+    if(!s){
+      issues.push({ kind: 'dangling', gameId: id, name: g.name || id, detail: `game.series = "${g.series}", which does not exist` });
+    } else if(!(s.order || []).includes(id)){
+      issues.push({ kind: 'ghost', gameId: id, name: g.name || id, detail: `game.series = "${g.series}", but not in series order` });
     }
   }
   for(const slug of BSIDES.order){
@@ -3184,7 +3230,7 @@ function scanSeriesIntegrity(){
     if(!block) continue;
     for(const entry of (block.entries || [])){
       if(entry.type !== 'game') continue;
-      if(!viewGame(entry.id)){
+      if(pendingGameDeletes.has(entry.id) || !viewGame(entry.id)){
         issues.push({ kind: 'dangling', gameId: entry.id, name: entry.id, detail: `B-Sides "${block.name || slug}" references missing game` });
       }
     }
@@ -3544,7 +3590,9 @@ function pcgwExtractDates(wikitext){
   const re = /\{\{\s*Infobox game\/row\/date\s*\|\s*([^\|\}]+?)\s*\|\s*([^\|\}]+?)\s*(?:\||\}\})/gi;
   const out = []; let m;
   while((m = re.exec(wikitext)) !== null){
-    const d = new Date(m[2].trim());
+    const raw = m[2].trim();
+    const dm = /^(\d{4})-(\d{2})-(\d{2})$/.exec(raw);
+    const d = dm ? new Date(+dm[1], +dm[2] - 1, +dm[3]) : new Date(raw);
     if(isNaN(d.getTime())) continue;
     out.push(String(d.getDate()).padStart(2,'0') + '.' + String(d.getMonth()+1).padStart(2,'0') + '.' + d.getFullYear());
   }
@@ -3849,43 +3897,6 @@ function showHltbSearchModal(initialQuery, onPick, initialHits) {
   else doSearch();
 }
 
-function showHltbPicker(hits, onPick){
-  pickerSlot.innerHTML = `
-    <div class="picker-modal">
-      <button class="modal-close" data-close>✕</button>
-      <h2>HLTB — pick match</h2>
-      <p>Multiple matches found. Choose the correct one.</p>
-      <div class="picker-list" id="picker-list" style="max-height:50vh">
-        ${hits.map((h, i) => {
-          const title = h.game_name || h.name || 'Unknown';
-          const main = h.comp_main || h.story ? Math.round(h.comp_main || h.story) + 'h' : '—';
-          const extra = h.comp_plus || h.extras ? Math.round(h.comp_plus || h.extras) + 'h' : '—';
-          const comp = h.comp_100 || h.completionist ? Math.round(h.comp_100 || h.completionist) + 'h' : '—';
-          return `
-            <button type="button" data-idx="${i}">
-              <span class="pk-name">${esc(title)}</span>
-              <span class="pk-meta">Main: ${main} · Extra: ${extra} · 100%: ${comp}</span>
-            </button>
-          `;
-        }).join('')}
-      </div>
-    </div>`;
-  pickerBackdrop.classList.add('open');
-  refreshScrollJumpVisibility();
-  const close = (val) => {
-    pickerBackdrop.classList.remove('open');
-    pickerSlot.innerHTML = '';
-    refreshScrollJumpVisibility();
-    onPick(val);
-  };
-  pickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = () => close(null));
-  pickerSlot.querySelector('#picker-list').addEventListener('click', e => {
-    const btn = e.target.closest('button[data-idx]');
-    if(!btn) return;
-    close(hits[+btn.dataset.idx]);
-  });
-}
-
 function showLogoPicker(title, items, onPick, opts){
   opts = opts || {};
   const searchable = !!opts.searchable;
@@ -4119,7 +4130,7 @@ function getPane(tabId){
 }
 function invalidateAllPanes(){ TAB_PANES.forEach(p => { p.signature = null; }); }
 function paneSignature(){
-  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), [...platformFilter].sort().join(','), searchTerm, videoMode, JSON.stringify(BSIDES.order), JSON.stringify(PROJECTS.projects)].join('|');
+  return [adminMode ? 'A' : '-', voidMode ? 'V' : '-', totalPendingCount(), sortKey, sortDir, [...filterSet].sort().join(','), searchTerm, videoMode, JSON.stringify(BSIDES.order), JSON.stringify(PROJECTS.projects)].join('|');
 }
 function renderTabs(){
   tabbarEl.innerHTML = TABS[group].map(t =>
@@ -4139,16 +4150,6 @@ function passesFilter(g){
   if(filterSet.has('gamepass')     && fl.gamepass)     return true;
   return false;
 }
-function passesPlatform(g){
-  if(tab !== 'emulog') return true;
-  if(platformFilter.size === 0) return true;
-  const key = String(g.platform || '').trim();
-  if(!key) return false;
-  for(const sel of platformFilter){
-    if(sel.toLowerCase() === key.toLowerCase()) return true;
-  }
-  return false;
-}
 function passesSearch(g){
   if(!searchTerm) return true;
   const q = searchTerm.toLowerCase().trim();
@@ -4162,7 +4163,7 @@ function passesSearch(g){
   if(searchFields.pub  && pub.includes(q))  return true;
   return false;
 }
-function passesAll(g){ return passesFilter(g) && passesPlatform(g) && passesSearch(g); }
+function passesAll(g){ return passesFilter(g) && passesSearch(g); }
 function getComparator(){
   switch(sortKey){
     case 'name':    return (a,b)=> nameKey(a.name).localeCompare(nameKey(b.name));
@@ -4173,11 +4174,24 @@ function getComparator(){
     default:        return null;
   }
 }
+function sortValMissing(g){
+  if(sortKey === 'size')    return sizeKey(g.size) < 0;
+  if(sortKey === 'release') return releaseKey(g.release || g.ea_release) <= 0;
+  if(sortKey === 'main')    return hltbMainKey(g.hltb) < 0;
+  if(sortKey === 'extra')   return hltbExtraKey(g.hltb) < 0;
+  return false;
+}
 function applySort(arr){
   const cmp = getComparator();
   if(!cmp) return sortDir === 'desc' ? arr.slice().reverse() : arr;
   const copy = arr.slice();
-  copy.sort((a,b)=>{ const r = cmp(a,b); return sortDir === 'asc' ? r : -r; });
+  copy.sort((a,b)=>{
+    const ma = sortValMissing(a), mb = sortValMissing(b);
+    if(ma !== mb) return ma ? 1 : -1;
+    if(ma && mb) return 0;
+    const r = cmp(a,b);
+    return sortDir === 'asc' ? r : -r;
+  });
   return copy;
 }
 function sortIsNonDefault(){ return !(sortKey === 'natural' && sortDir === 'asc'); }
@@ -4416,7 +4430,7 @@ function fmtSeriesText(raw){
   let s = esc(raw || '');
   s = s.replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>');
   s = s.replace(/~~([\s\S]+?)~~/g, '<span class="fmt-strike">$1</span>');
-  s = s.replace(/\*([^*]+?)\*/g, '<em>$1</em>');
+  s = s.replace(/\*(?=\S)([^*]+?)(?<=\S)\*/g, '<em>$1</em>');
   s = s.replace(/\^([^^]+?)\^/g, '<span class="fmt-small">$1</span>');
   s = s.replace(/(?<![A-Za-z0-9])_([^_]+?)_(?![A-Za-z0-9])/g, '<span class="fmt-muted">$1</span>');
   return s;
@@ -5016,20 +5030,20 @@ function infoRow(iconClass, label, value, long){
 function modalInfoRows(g, t){
   const rows = [];
   if(t === 'early-access'){
-    if(g.ea_release && g.ea_release !== '—') rows.push(infoRow('icon-date','Early Access', esc(g.ea_release)));
-    if(!rows.length) rows.push(infoRow('icon-date','Early Access', '—'));
+    if(g.ea_release && g.ea_release !== '—') rows.push(infoRow('','Early Access', esc(g.ea_release)));
+    if(!rows.length) rows.push(infoRow('','Early Access', '—'));
   } else if(t === 'unreleased'){
-    if(g.ea_release && g.ea_release !== '—') rows.push(infoRow('icon-date','Early Access', esc(g.ea_release)));
-    if(g.release && g.release !== '—') rows.push(infoRow('icon-date','Release', esc(g.release)));
-    if(!rows.length) rows.push(infoRow('icon-date','Release', 'TBA'));
+    if(g.ea_release && g.ea_release !== '—') rows.push(infoRow('','Early Access', esc(g.ea_release)));
+    if(g.release && g.release !== '—') rows.push(infoRow('','Release', esc(g.release)));
+    if(!rows.length) rows.push(infoRow('','Release', 'TBA'));
   } else {
-    rows.push(infoRow('icon-date','Released', esc(g.release)));
+    rows.push(infoRow('','Released', esc(g.release)));
   }
-  rows.push(infoRow('icon-platform','Platform', esc(platformLabel(g.platform) || g.platform)));
-  rows.push(infoRow('icon-size','Size', fmtSize(g.size, true)));
-  rows.push(infoRow('icon-hltb','HLTB', fmtHltb(g.hltb, true)));
-  rows.push(infoRow('icon-dev','Developer', esc(g.dev), true));
-  rows.push(infoRow('icon-pub','Publisher', esc(g.pub), true));
+  rows.push(infoRow('','Platform', esc(platformLabel(g.platform) || g.platform)));
+  rows.push(infoRow('','Size', fmtSize(g.size, true)));
+  rows.push(infoRow('','HLTB', fmtHltb(g.hltb, true)));
+  rows.push(infoRow('','Developer', esc(g.dev), true));
+  rows.push(infoRow('','Publisher', esc(g.pub), true));
   return rows.join('');
 }
 function heroDlcHTML(g){
@@ -5409,6 +5423,8 @@ function openEditor(g, opts){
   modalSlot._attachId = null;
   modalSlot._isNew = isNew;
   modalSlot._presetSeriesSlug = opts.presetSeries || null;
+  const sessionId = (modalSlot._sessionId = (modalSlot._sessionId || 0) + 1);
+  const isAlive = () => modalSlot._sessionId === sessionId && backdrop.classList.contains('open');
   modalSlot._editorKey = isNew ? '__new__' : g.id;
   modalSlot._editorBase = isNew ? null : g;
   modalSlot._editorOpts = { listId: opts.listId, presetSeries: opts.presetSeries };
@@ -5912,11 +5928,13 @@ function openEditor(g, opts){
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
     await saveMediaLocally('screenshot', gid, url, (path) => {
+      if(!isAlive()){ toast('Saved → ' + path); return; }
       $('#f-screenshot').value = path;
       $('#f-screenshot').dispatchEvent(new Event('input', { bubbles: true }));
       btn.classList.add('saved'); btn.innerHTML = '✓ Saved';
       toast('Screenshot saved → ' + path);
     });
+    if(!isAlive()) return;
     btn.disabled = false;
     if(!btn.classList.contains('saved')) btn.innerHTML = orig;
   });
@@ -5929,11 +5947,13 @@ function openEditor(g, opts){
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
     await saveMediaLocally('logo', gid, url, (path) => {
+      if(!isAlive()){ toast('Saved → ' + path); return; }
       $('#f-logo').value = path;
       $('#f-logo').dispatchEvent(new Event('input', { bubbles: true }));
       btn.classList.add('saved'); btn.innerHTML = '✓ Saved';
       toast('Logo saved → ' + path);
     });
+    if(!isAlive()) return;
     btn.disabled = false;
     if(!btn.classList.contains('saved')) btn.innerHTML = orig;
   });
@@ -6082,6 +6102,7 @@ function openEditor(g, opts){
     );
     const seriesVal = $('#f-series').value.trim() || null;
     if(checkedLists.size === 0 && !seriesVal){ toast('Pick at least one list (or a series)', 'bad'); return; }
+    if(seriesVal && !viewSeries(seriesVal)){ toast('Series "' + seriesVal + '" not found — create it first', 'bad'); return; }
     const releaseVal = releaseInput.value.trim();
     const eaVal      = eaInput.value.trim();
     const hltbType = $('#f-hltb-type input:checked').value;
@@ -6446,7 +6467,7 @@ function openConfirmDelete(g){
     editorDrafts.delete(id);
     const snapshot = {
       game: MANIFEST.games[id] ? JSON.parse(JSON.stringify(MANIFEST.games[id])) : null,
-      listSlots: {}, seriesSlots: {}, bsidesSlots: {},
+      listSlots: {}, seriesSlots: {}, bsidesSlots: {}, seriesDisplay: {}, bsidesDisplay: {},
       priorDraft: pendingGameWrites.has(id) ? JSON.parse(JSON.stringify(pendingGameWrites.get(id))) : null
     };
     for(const listId of REAL_LISTS){
@@ -6454,11 +6475,12 @@ function openConfirmDelete(g){
       const idx = list.indexOf(id);
       if(idx >= 0) snapshot.listSlots[listId] = idx;
     }
-    for(const slug of Object.keys(MANIFEST.series)){
+    for(const slug of new Set([...Object.keys(MANIFEST.series), ...pendingSeriesWrites.keys()])){
       const s = viewSeries(slug);
       if(!s) continue;
       const idx = (s.order || []).indexOf(id);
       if(idx >= 0) snapshot.seriesSlots[slug] = idx;
+      if(s.display && s.display[id]) snapshot.seriesDisplay[slug] = JSON.parse(JSON.stringify(s.display[id]));
     }
     for(const slug of BSIDES.order){
       const block = BSIDES.data[slug];
@@ -6467,6 +6489,7 @@ function openConfirmDelete(g){
         const entry = block.entries[i];
         if(entry.type === 'game' && entry.id === id){ snapshot.bsidesSlots[slug] = { idx: i, entry: JSON.parse(JSON.stringify(entry)) }; break; }
       }
+      if(block.display && block.display[id]) snapshot.bsidesDisplay[slug] = JSON.parse(JSON.stringify(block.display[id]));
     }
     pendingGameDeleteSnapshots.set(id, snapshot);
     pendingGameDeletes.add(id);
@@ -6777,12 +6800,14 @@ async function runParse(){
   const prevResults = modalSlot._parseResults || {};
   PARSE_SOURCES.forEach(s => { if(!locked.has(s)) setSrcDot(dots[s], 'loading'); });
   goBtn.disabled = true;
+  const parseSession = modalSlot._sessionId;
   const results = { igdb:null, steam:null, pcgw:null, lbdb:null, hltb:null, sgdb:null };
   locked.forEach(s => { results[s] = prevResults[s] || { fields:{} }; });
   const tasks = [];
   if(hasName && !locked.has('igdb')) tasks.push((async () => {
     try{
       const hits = await igdbSearch(name);
+      if(modalSlot._sessionId !== parseSession) return;
       if(!hits || !hits.length){ results.igdb = { fields:{} }; setSrcDot(dots.igdb, 'notfound'); return; }
       let best = hits[0], bestScore = -Infinity;
       for(const h of hits){
@@ -6798,13 +6823,15 @@ async function runParse(){
       const platformMismatch = wantPlat && bestPlat && bestPlat.indexOf(wantPlat) === -1;
       if((nameMismatch || yearMismatch || platformMismatch) && hits.length > 1){
         const picked = await new Promise(resolve => showIgdbPicker(hits, hit => resolve(hit)));
-        if(picked) best = picked;
+        if(modalSlot._sessionId !== parseSession) return;
+        if(!picked){ results.igdb = { fields:{} }; setSrcDot(dots.igdb, 'notfound'); return; }
+        best = picked;
       }
       results.igdb = { fields: igdbMapToFields(best), screenshots: (best.screenshots || []).map(s => ({ url: igdbImg(s.url, 't_1080p'), thumb: igdbImg(s.url, 't_screenshot_med') })) };
       setSrcDot(dots.igdb, 'found');
-    }catch(e){ results.igdb = { error: e.message }; setSrcDot(dots.igdb, 'error'); }
+    }catch(e){ if(modalSlot._sessionId === parseSession){ results.igdb = { error: e.message }; setSrcDot(dots.igdb, 'error'); } }
   })());
-  if(!locked.has('steam')) tasks.push((async () => {
+  if((hasName || linkedSteamPre) && !locked.has('steam')) tasks.push((async () => {
     try{
       const appidLinked = parseSteamInput(modalSlot.querySelector('#qp-steam')?.value || '');
       let data;
@@ -6812,6 +6839,7 @@ async function runParse(){
         data = await steamSearch(appidLinked);
         if(!data.storeUrl) data.storeUrl = 'https://store.steampowered.com/app/' + appidLinked + '/';
       } else { data = await steamSearch(name); }
+      if(modalSlot._sessionId !== parseSession) return;
       const steamFields = steamMapToFields(data);
       results.steam = { fields: steamFields, storeUrl: data.storeUrl || '', screenshots: Array.isArray(data.screenshots) ? data.screenshots : [] };
       setSrcDot(dots.steam, 'found');
@@ -6819,15 +6847,16 @@ async function runParse(){
         nameInput.value = steamFields.name;
         nameInput.dispatchEvent(new Event('input', { bubbles: true }));
       }
-    }catch(e){ results.steam = { error: e.message }; setSrcDot(dots.steam, 'error'); }
+    }catch(e){ if(modalSlot._sessionId === parseSession){ results.steam = { error: e.message }; setSrcDot(dots.steam, 'error'); } }
   })());
-  if(!locked.has('pcgw')) tasks.push((async () => {
+  if((hasName || linkedPcgwPre) && !locked.has('pcgw')) tasks.push((async () => {
     try{
       const linked = parsePcgwInput(modalSlot.querySelector('#qp-pcgw')?.value || '');
       let pageTitle;
       if(linked){ pageTitle = linked; }
       else {
         const hits = await pcgwSearch(name);
+        if(modalSlot._sessionId !== parseSession) return;
         if(!hits || !hits.length){ results.pcgw = { fields:{} }; setSrcDot(dots.pcgw, 'notfound'); return; }
         let best = hits[0], bestScore = -Infinity;
         for(const h of hits){
@@ -6837,17 +6866,19 @@ async function runParse(){
         pageTitle = best.title;
       }
       const wt = await pcgwGetWikitext(pageTitle);
+      if(modalSlot._sessionId !== parseSession) return;
       results.pcgw = { fields: pcgwMapToFields(wt), page: pageTitle };
       setSrcDot(dots.pcgw, 'found');
       if(!name && pageTitle && nameInput && !nameInput.value.trim()){
         nameInput.value = pageTitle.replace(/_/g, ' ');
         nameInput.dispatchEvent(new Event('input', { bubbles: true }));
       }
-    }catch(e){ results.pcgw = { error: e.message }; setSrcDot(dots.pcgw, 'error'); }
+    }catch(e){ if(modalSlot._sessionId === parseSession){ results.pcgw = { error: e.message }; setSrcDot(dots.pcgw, 'error'); } }
   })());
   if(hasName && !locked.has('lbdb')) tasks.push((async () => {
     try{
       const entries = await lbdbLookup(name);
+      if(modalSlot._sessionId !== parseSession) return;
       if(!entries || !entries.length){ results.lbdb = { fields:{} }; setSrcDot(dots.lbdb, 'notfound'); return; }
       let best = entries[0], bestScore = -Infinity;
       for(const e of entries){
@@ -6856,13 +6887,14 @@ async function runParse(){
       }
       results.lbdb = { fields: lbdbMapToFields(best), entries };
       setSrcDot(dots.lbdb, 'found');
-    }catch(e){ results.lbdb = { error: e.message }; setSrcDot(dots.lbdb, 'error'); }
+    }catch(e){ if(modalSlot._sessionId === parseSession){ results.lbdb = { error: e.message }; setSrcDot(dots.lbdb, 'error'); } }
   })());
   if((hasName || linkedSteamPre) && !locked.has('hltb')) tasks.push((async () => {
     try{
       if(linkedSteamPre){
         try{
           const data = await hltbSearchBySteam(linkedSteamPre);
+          if(modalSlot._sessionId !== parseSession) return;
           const fields = hltbMapToFields(data);
           if(fields.hltb){
             results.hltb = { fields, hits: null, query: name };
@@ -6872,25 +6904,28 @@ async function runParse(){
         }catch(_){}
       }
       const qName = (nameInput?.value || name || '').trim();
-      if(!qName){ results.hltb = { fields:{} }; setSrcDot(dots.hltb, 'notfound'); return; }
+      if(!qName){ if(modalSlot._sessionId === parseSession){ results.hltb = { fields:{} }; setSrcDot(dots.hltb, 'notfound'); } return; }
       const raw = await hltbSearch(qName);
+      if(modalSlot._sessionId !== parseSession) return;
       const hits = Array.isArray(raw) ? raw.slice() : (raw && (raw.story || raw.game_name) ? [raw] : []);
       hits.sort((a,b) => nameSimilarity(b.game_name || b.name || '', qName) - nameSimilarity(a.game_name || a.name || '', qName));
       const fields = hits.length ? hltbMapToFields(hits[0]) : {};
       if(!fields.hltb){ results.hltb = { fields:{}, hits, query: qName }; setSrcDot(dots.hltb, 'notfound'); return; }
       results.hltb = { fields, hits, query: qName };
       setSrcDot(dots.hltb, 'found');
-    }catch(e){ results.hltb = { error: e.message }; setSrcDot(dots.hltb, 'error'); }
+    }catch(e){ if(modalSlot._sessionId === parseSession){ results.hltb = { error: e.message }; setSrcDot(dots.hltb, 'error'); } }
   })());
   if(hasName && !locked.has('sgdb')) tasks.push((async () => {
     try{
       const data = await sgdbSearch(name);
+      if(modalSlot._sessionId !== parseSession) return;
       if(!data.logos || !data.logos.length){ results.sgdb = { fields:{} }; setSrcDot(dots.sgdb, 'notfound'); return; }
       results.sgdb = { fields:{}, logos: data.logos, gameName: data.gameName };
       setSrcDot(dots.sgdb, 'found');
-    }catch(e){ results.sgdb = { error: e.message }; setSrcDot(dots.sgdb, 'error'); }
+    }catch(e){ if(modalSlot._sessionId === parseSession){ results.sgdb = { error: e.message }; setSrcDot(dots.sgdb, 'error'); } }
   })());
   await Promise.all(tasks);
+  if(modalSlot._sessionId !== parseSession) return;
   renderVariantPills(results);
   autoAddLinksFromParse(results);
   goBtn.disabled = false;
@@ -6902,6 +6937,8 @@ function openSeriesHeaderModal(slug){
   const isNew = !slug;
   const s = isNew ? { id:'', name:'', logo:'', order:[], display:{} } : viewSeries(slug);
   if(!s) return;
+  const serSession = (seriesSlot._sessionId = (seriesSlot._sessionId || 0) + 1);
+  const serAlive = () => seriesSlot._sessionId === serSession && seriesBackdrop.classList.contains('open');
   seriesSlot._slug = slug || '';
   seriesSlot._isNew = isNew;
   seriesSlot.innerHTML = `
@@ -6943,7 +6980,7 @@ function openSeriesHeaderModal(slug){
   const slugEl = $('#sh-slug');
   let userEditedSlug = !isNew;
   if(isNew){
-    nameEl.addEventListener('input', () => { if(userEditedSlug) return; slugEl.value = slugify(nameEl.value); });
+    nameEl.addEventListener('input', () => { if(userEditedSlug) return; slugEl.value = seriesSlugify(nameEl.value); });
     slugEl.addEventListener('input', () => { userEditedSlug = true; });
   }
   $('#sh-logo').addEventListener('input', e => {
@@ -6954,17 +6991,19 @@ function openSeriesHeaderModal(slug){
   $('#sh-save-logo').addEventListener('click', async () => {
     const nameVal = (nameEl.value || '').trim();
     if(!nameVal){ toast('Enter a series name first', 'bad'); return; }
-    const slugVal = (slugEl.value || '').trim() || slugify(nameVal);
+    const slugVal = (slugEl.value || '').trim() || seriesSlugify(nameVal);
     const url = ($('#sh-logo').value || '').trim();
     const btn = $('#sh-save-logo');
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
     await saveSeriesLogoDirect(slugVal, url, (path) => {
+      if(!serAlive()){ toast('Series logo saved → ' + path); return; }
       $('#sh-logo').value = path;
       $('#sh-logo').dispatchEvent(new Event('input', { bubbles: true }));
       btn.classList.add('saved'); btn.innerHTML = '✓ Saved';
       toast('Series logo saved → ' + path);
     });
+    if(!serAlive()) return;
     btn.disabled = false;
     if(!btn.classList.contains('saved')) btn.innerHTML = orig;
   });
@@ -6994,7 +7033,7 @@ function openSeriesHeaderModal(slug){
   $('#sh-save').onclick = () => {
     const nameVal = (nameEl.value || '').trim();
     if(!nameVal){ toast('Name is required', 'bad'); return; }
-    const slugVal = ((slugEl.value || '').trim() || slugify(nameVal)).replace(/[^a-z0-9\-]/gi,'-').toLowerCase();
+    const slugVal = ((slugEl.value || '').trim() || seriesSlugify(nameVal)).replace(/[^a-z0-9\-]/gi,'-').toLowerCase();
     if(!slugVal){ toast('Slug is required', 'bad'); return; }
     if(isNew){
       if(viewSeries(slugVal)){ toast('Series slug already exists', 'bad'); return; }
@@ -7214,6 +7253,8 @@ function openBsidesHeaderModal(slug){
   const isNew = !slug;
   const s = isNew ? { id:'', name:'', logo:'', entries:[], display:{} } : viewBsides(slug);
   if(!s) return;
+  const bSerSession = (seriesSlot._sessionId = (seriesSlot._sessionId || 0) + 1);
+  const bSerAlive = () => seriesSlot._sessionId === bSerSession && seriesBackdrop.classList.contains('open');
   seriesSlot._bslug = slug || '';
   seriesSlot._isNewBsides = isNew;
   seriesSlot.innerHTML = `
@@ -7255,7 +7296,7 @@ function openBsidesHeaderModal(slug){
   const slugEl = $('#bh-slug');
   let userEditedSlug = !isNew;
   if(isNew){
-    nameEl.addEventListener('input', () => { if(userEditedSlug) return; slugEl.value = slugify(nameEl.value); });
+    nameEl.addEventListener('input', () => { if(userEditedSlug) return; slugEl.value = seriesSlugify(nameEl.value); });
     slugEl.addEventListener('input', () => { userEditedSlug = true; });
   }
   $('#bh-logo').addEventListener('input', e => {
@@ -7266,17 +7307,19 @@ function openBsidesHeaderModal(slug){
   $('#bh-save-logo').addEventListener('click', async () => {
     const nameVal = (nameEl.value || '').trim();
     if(!nameVal){ toast('Enter a name first', 'bad'); return; }
-    const slugVal = (slugEl.value || '').trim() || slugify(nameVal);
+    const slugVal = (slugEl.value || '').trim() || seriesSlugify(nameVal);
     const url = ($('#bh-logo').value || '').trim();
     const btn = $('#bh-save-logo');
     const orig = btn.innerHTML;
     btn.disabled = true; btn.innerHTML = '…Saving';
     await saveSeriesLogoDirect(slugVal, url, (path) => {
+      if(!bSerAlive()){ toast('B-Sides logo saved → ' + path); return; }
       $('#bh-logo').value = path;
       $('#bh-logo').dispatchEvent(new Event('input', { bubbles: true }));
       btn.classList.add('saved'); btn.innerHTML = '✓ Saved';
       toast('B-Sides logo saved → ' + path);
     });
+    if(!bSerAlive()) return;
     btn.disabled = false;
     if(!btn.classList.contains('saved')) btn.innerHTML = orig;
   });
@@ -7306,7 +7349,7 @@ function openBsidesHeaderModal(slug){
   $('#bh-save').onclick = () => {
     const nameVal = (nameEl.value || '').trim();
     if(!nameVal){ toast('Name is required', 'bad'); return; }
-    const slugVal = ((slugEl.value || '').trim() || slugify(nameVal)).replace(/[^a-z0-9\-]/gi,'-').toLowerCase();
+    const slugVal = ((slugEl.value || '').trim() || seriesSlugify(nameVal)).replace(/[^a-z0-9\-]/gi,'-').toLowerCase();
     if(!slugVal){ toast('Slug is required', 'bad'); return; }
     if(isNew){
       if(BSIDES.data[slugVal]){ toast('Slug already exists', 'bad'); return; }
@@ -7419,7 +7462,8 @@ function openBsidesGamePicker(slug){
   const block = viewBsides(slug);
   if(!block) return;
   const existingIds = new Set((block.entries || []).filter(e => e.type === 'game').map(e => e.id));
-  const allGames = Object.keys(MANIFEST.games).map(viewGame).filter(Boolean).sort((a,b) => (a.name||'').localeCompare(b.name||''));
+  const allIds = new Set([...Object.keys(MANIFEST.games), ...pendingGameWrites.keys()]);
+  const allGames = [...allIds].filter(id => !pendingGameDeletes.has(id)).map(viewGame).filter(Boolean).sort((a,b) => (a.name||'').localeCompare(b.name||''));
   const renderList = (q) => {
     const ql = (q||'').toLowerCase().trim();
     return allGames.filter(g => !ql || String(g.name||'').toLowerCase().includes(ql));
@@ -7628,6 +7672,7 @@ function randomShuffle(a){
   return a;
 }
 function buildRandomReel(winnerId, winnerIdx, pool){
+  if(!pool.length) return;
   const picks = [];
   if(pool.length > RANDOM_REEL_SIZE){
     const used = new Set([winnerId]);
@@ -8139,6 +8184,15 @@ contentEl.addEventListener('click', e => {
     const s = viewSeries(slug);
     if(!s) return;
     if(!confirm('Delete series "' + (s.name || slug) + '"? This will also clear series fields on all its games.')) return;
+    const gSnap = {};
+    for(const id of (s.order || [])){
+      const g = viewGame(id);
+      if(!g) continue;
+      if(g.series === slug){
+        gSnap[id] = { hadWrite: pendingGameWrites.has(id), game: JSON.parse(JSON.stringify(g)) };
+      }
+    }
+    pendingSeriesDeleteSnapshots.set(slug, gSnap);
     pendingSeriesDeletes.add(slug);
     pendingSeriesWrites.delete(slug);
     for(const id of (s.order || [])){
@@ -9400,6 +9454,7 @@ document.getElementById('driftBtn').addEventListener('click', openDRIFT);
   await loadBsides();
   await loadProjects();
   await loadManifest();
+  if(!manifestLoaded) toast('Failed to load manifest.json — read-only mode', 'bad');
   (function restoreLastTab(){
     try{
       const saved = JSON.parse(localStorage.getItem('view_last_tab') || 'null');
