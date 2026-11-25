@@ -11,7 +11,12 @@
   "ea_release": "",
   "screenshot": "images/screenshots/ry-ga-gotoku-kenzan-2008-ps3.jpg",
   "logo": "images/logos/ry-ga-gotoku-kenzan-2008-ps3.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Patch",
+      "url": "https://github.com/CptPakundo/KenzanPatches"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {
@@ -23,5 +28,5 @@
   },
   "series": "yakuza",
   "series_status": null,
-  "series_note": "Japanese only originally, English patch exists."
+  "series_note": "Japanese only, English patch exists, technical patch link added."
 }

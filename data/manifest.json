@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-24T15:18:21Z",
+  "updated": "2026-11-25T05:59:28Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -38975,7 +38975,12 @@
       "ea_release": "",
       "screenshot": "images/screenshots/ry-ga-gotoku-kenzan-2008-ps3.jpg",
       "logo": "images/logos/ry-ga-gotoku-kenzan-2008-ps3.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Patch",
+          "url": "https://github.com/CptPakundo/KenzanPatches"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -38987,7 +38992,7 @@
       },
       "series": "yakuza",
       "series_status": null,
-      "series_note": "Japanese only originally, English patch exists."
+      "series_note": "Japanese only, English patch exists, technical patch link added."
     },
     "yakuza-3-remastered-2021-pc": {
       "id": "yakuza-3-remastered-2021-pc",
