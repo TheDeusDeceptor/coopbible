@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-25T17:49:08Z",
+  "updated": "2026-11-25T18:05:31Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -919,7 +919,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1240590/762842/a17d59652a12374d5725848263cbf768a27133c5/1750648594/microtrailer.mp4"
     },
     "toukiden-kiwami-2015-pc": {
       "id": "toukiden-kiwami-2015-pc",
@@ -1300,7 +1301,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1641960/1003187836/81404076a294d68ce95e4a3c72a2474546ab02a4/1784727136/microtrailer.mp4"
     },
     "backseat-drivers-2025-pc": {
       "id": "backseat-drivers-2025-pc",
@@ -1975,7 +1977,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/312670/168200/fd1f96fcaed71fd037cb3a3fc6c7d9bcbfb0b7eb/1751263344/microtrailer.mp4"
     },
     "firefighting-simulator-the-squad-2020-pc": {
       "id": "firefighting-simulator-the-squad-2020-pc",
@@ -6198,7 +6201,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1190400/447641/58e0914159cbb107597efc44b575522861c22ef6/1751201419/microtrailer.mp4"
     },
     "the-planet-crafter-2024-pc": {
       "id": "the-planet-crafter-2024-pc",
@@ -6874,7 +6878,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/585420/1102548012/28b4beb7d469467beabfca434655badc5773f94b/1777018277/microtrailer.mp4"
     },
     "united-heist-2023-pc": {
       "id": "united-heist-2023-pc",
@@ -9370,7 +9375,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/979690/981220677/590ea78907a4849862a590f25b4720cc47cb5271/1772414334/microtrailer.mp4"
     },
     "ashen-2018-pc": {
       "id": "ashen-2018-pc",
@@ -9408,7 +9414,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/649950/239772/53ca986a33b8182eccfd272d3dd60e28119f84b5/1751162467/microtrailer.mp4"
     },
     "gatewalkers-2023-pc": {
       "id": "gatewalkers-2023-pc",
@@ -9446,7 +9453,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1125710/527018/c376a40848415045e348e6425df6ed65782a996b/1751192041/microtrailer.mp4"
     },
     "ember-knights-2023-pc": {
       "id": "ember-knights-2023-pc",
@@ -9783,7 +9791,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/383120/302692/b8f02244457845f65da7871bd5fe6f0769fc21c2/1750521918/microtrailer.mp4"
     },
     "god-mode-2013-pc": {
       "id": "god-mode-2013-pc",
@@ -10087,7 +10096,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/357330/33861/0847745d386b68fafa04ef72e72047bd58865296/1751274210/microtrailer.mp4"
     },
     "meet-your-maker-2023-pc": {
       "id": "meet-your-maker-2023-pc",
