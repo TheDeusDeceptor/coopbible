@@ -5187,6 +5187,7 @@ function renderModal(g, t){
   const heroEl = modalSlot.querySelector('[data-hero]');
   const imgEl = modalSlot.querySelector('[data-hero-img]');
   const vidEl = modalSlot.querySelector('[data-hero-video]');
+  if(heroEl) applyHeroSizeByRatio(heroEl, 16 / 9);
   if(heroEl && imgEl){
     if(imgEl.complete && imgEl.naturalWidth){ applyHeroSize(heroEl); }
     else {
