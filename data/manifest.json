@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-25T05:59:28Z",
+  "updated": "2026-11-25T15:34:52Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -23081,7 +23081,7 @@
       "id": "guinea-pig-runaway-together-2026-pc",
       "name": "Guinea Pig Runaway Together",
       "platform": "PC",
-      "size": "",
+      "size": "4 GB",
       "hltb": "—",
       "dev": "DVS Interactive",
       "pub": "DVS Interactive",
