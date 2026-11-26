@@ -42,282 +42,569 @@
   "DOS": {
     "label": "MS-DOS",
     "icon": true,
-    "aliases": ["MS-DOS", "Microsoft MS-DOS", "Microsoft DOS", "IBM DOS", "PC DOS", "PC-DOS"]
+    "aliases": [
+      "MS-DOS",
+      "Microsoft MS-DOS",
+      "Microsoft DOS",
+      "IBM DOS",
+      "PC DOS",
+      "PC-DOS"
+    ]
   },
   "Linux": {
     "label": "Linux",
     "icon": false,
-    "aliases": ["GNU/Linux"]
+    "aliases": [
+      "GNU/Linux"
+    ]
   },
   "Mac": {
     "label": "Mac",
     "icon": false,
-    "aliases": ["Apple Mac OS", "Mac OS", "Mac OS X", "Mac OSX", "OSX"]
+    "aliases": [
+      "Apple Mac OS",
+      "Mac OS",
+      "Mac OS X",
+      "Mac OSX",
+      "OSX"
+    ]
   },
   "Android": {
     "label": "Android",
     "icon": true,
-    "aliases": ["Droid"]
+    "aliases": [
+      "Droid"
+    ]
   },
   "iOS": {
     "label": "iOS",
     "icon": true,
-    "aliases": ["Apple iOS", "iPhone", "iPad", "iPod", "iPod Touch"]
+    "aliases": [
+      "Apple iOS",
+      "iPhone",
+      "iPad",
+      "iPod",
+      "iPod Touch"
+    ]
   },
   "Web": {
     "label": "Web Browser",
     "icon": false,
-    "aliases": ["Web Browser", "Web browser", "Browser", "Browser Games", "Web Games", "Internet", "Internet Games"]
+    "aliases": [
+      "Web Browser",
+      "Web browser",
+      "Browser",
+      "Browser Games",
+      "Web Games",
+      "Internet",
+      "Internet Games"
+    ]
   },
   "PSX": {
     "label": "PlayStation",
     "icon": true,
-    "aliases": ["PlayStation", "Sony Playstation", "Playstation", "Play Station", "Sony Play Station", "PS1", "Sony PS1", "Sony PSX", "Sony PS", "PSOne", "PS"]
+    "aliases": [
+      "PlayStation",
+      "Sony Playstation",
+      "Playstation",
+      "Play Station",
+      "Sony Play Station",
+      "PS1",
+      "Sony PS1",
+      "Sony PSX",
+      "Sony PS",
+      "PSOne",
+      "PS"
+    ]
   },
   "PS2": {
     "label": "PlayStation 2",
-    "icon": true,
-    "aliases": ["PlayStation 2", "Sony Playstation 2", "Playstation 2", "Play Station 2", "Sony Play Station 2"]
+    "icon": false,
+    "aliases": [
+      "PlayStation 2",
+      "Sony Playstation 2",
+      "Playstation 2",
+      "Play Station 2",
+      "Sony Play Station 2"
+    ]
   },
   "PS3": {
     "label": "PlayStation 3",
     "icon": true,
-    "aliases": ["PlayStation 3", "Sony Playstation 3", "Playstation 3", "Play Station 3", "Sony Play Station 3"]
+    "aliases": [
+      "PlayStation 3",
+      "Sony Playstation 3",
+      "Playstation 3",
+      "Play Station 3",
+      "Sony Play Station 3"
+    ]
   },
   "PS4": {
     "label": "PlayStation 4",
     "icon": true,
-    "aliases": ["PlayStation 4", "Sony Playstation 4", "Playstation 4", "Play Station 4", "Sony Play Station 4"]
+    "aliases": [
+      "PlayStation 4",
+      "Sony Playstation 4",
+      "Playstation 4",
+      "Play Station 4",
+      "Sony Play Station 4"
+    ]
   },
   "PS5": {
     "label": "PlayStation 5",
     "icon": true,
-    "aliases": ["PlayStation 5", "Sony Playstation 5"]
+    "aliases": [
+      "PlayStation 5",
+      "Sony Playstation 5"
+    ]
   },
   "PSP": {
     "label": "PSP",
     "icon": true,
-    "aliases": ["PlayStation Portable", "Sony PSP", "Sony Playstation Portable", "Sony PSP Minis"]
+    "aliases": [
+      "PlayStation Portable",
+      "Sony PSP",
+      "Sony Playstation Portable",
+      "Sony PSP Minis"
+    ]
   },
   "PSVita": {
     "label": "PS Vita",
     "icon": true,
-    "aliases": ["PlayStation Vita", "Sony Playstation Vita", "Playstation Vita", "PS Vita", "Vita"]
+    "aliases": [
+      "PlayStation Vita",
+      "Sony Playstation Vita",
+      "Playstation Vita",
+      "PS Vita",
+      "Vita"
+    ]
   },
   "XBOX": {
     "label": "Xbox",
     "icon": true,
-    "aliases": ["Xbox", "Microsoft Xbox", "MS Xbox", "MS X-box", "Microsoft X-box", "X-box"]
+    "aliases": [
+      "Xbox",
+      "Microsoft Xbox",
+      "MS Xbox",
+      "MS X-box",
+      "Microsoft X-box",
+      "X-box"
+    ]
   },
   "X360": {
     "label": "Xbox 360",
     "icon": true,
-    "aliases": ["Xbox 360", "Microsoft Xbox 360", "MS Xbox 360", "xbox360", "360"]
+    "aliases": [
+      "Xbox 360",
+      "Microsoft Xbox 360",
+      "MS Xbox 360",
+      "xbox360",
+      "360"
+    ]
   },
   "XONE": {
     "label": "Xbox One",
     "icon": true,
-    "aliases": ["Xbox One", "Microsoft Xbox One"]
+    "aliases": [
+      "Xbox One",
+      "Microsoft Xbox One"
+    ]
   },
   "XSX": {
     "label": "Xbox Series X/S",
     "icon": true,
-    "aliases": ["Xbox Series X|S", "Microsoft Xbox Series X/S", "Series X|S"]
+    "aliases": [
+      "Xbox Series X|S",
+      "Microsoft Xbox Series X/S",
+      "Series X|S"
+    ]
   },
   "NES": {
     "label": "NES",
     "icon": true,
-    "aliases": ["Nintendo Entertainment System", "Nintendo Entertainment System (NES)", "Nintendo NES", "NES/Famicom"]
+    "aliases": [
+      "Nintendo Entertainment System",
+      "Nintendo Entertainment System (NES)",
+      "Nintendo NES",
+      "NES/Famicom"
+    ]
   },
   "Famicom": {
     "label": "Famicom",
     "icon": true,
-    "aliases": ["Family Computer", "FC"]
+    "aliases": [
+      "Family Computer",
+      "FC"
+    ]
   },
   "FDS": {
     "label": "Famicom Disk System",
     "icon": true,
-    "aliases": ["Family Computer Disk System", "Nintendo Famicom Disk System", "Famicom Disk System", "Nintendo Famicon Disk System", "Famicon Disk System"]
+    "aliases": [
+      "Family Computer Disk System",
+      "Nintendo Famicom Disk System",
+      "Famicom Disk System",
+      "Nintendo Famicon Disk System",
+      "Famicon Disk System"
+    ]
   },
   "SNES": {
     "label": "Super Nintendo",
     "icon": true,
-    "aliases": ["Super Nintendo Entertainment System", "Super Nintendo", "Super Nintendo (SNES)", "Nintendo SNES", "SNES/Super Famicom", "Super NES", "Super Comboy"]
+    "aliases": [
+      "Super Nintendo Entertainment System",
+      "Super Nintendo",
+      "Super Nintendo (SNES)",
+      "Nintendo SNES",
+      "SNES/Super Famicom",
+      "Super NES",
+      "Super Comboy"
+    ]
   },
   "SFC": {
     "label": "Super Famicom",
     "icon": true,
-    "aliases": ["Super Famicom", "Nintendo Super Famicom", "SFAM"]
+    "aliases": [
+      "Super Famicom",
+      "Nintendo Super Famicom",
+      "SFAM"
+    ]
   },
   "N64": {
     "label": "Nintendo 64",
     "icon": true,
-    "aliases": ["Nintendo 64", "Nintendo N64"]
+    "aliases": [
+      "Nintendo 64",
+      "Nintendo N64"
+    ]
   },
   "N64DD": {
     "label": "Nintendo 64DD",
     "icon": true,
-    "aliases": ["64DD", "Nintendo 64DD"]
+    "aliases": [
+      "64DD",
+      "Nintendo 64DD"
+    ]
   },
   "GameCube": {
     "label": "GameCube",
     "icon": true,
-    "aliases": ["Nintendo GameCube", "NGC", "GCN", "Game Cube", "Nintendo Game Cube"]
+    "aliases": [
+      "Nintendo GameCube",
+      "NGC",
+      "GCN",
+      "Game Cube",
+      "Nintendo Game Cube"
+    ]
   },
   "Wii": {
     "label": "Wii",
     "icon": true,
-    "aliases": ["Nintendo Wii", "Revolution"]
+    "aliases": [
+      "Nintendo Wii",
+      "Revolution"
+    ]
   },
   "WiiU": {
     "label": "Wii U",
     "icon": true,
-    "aliases": ["Wii U", "Nintendo Wii U", "Project Cafe"]
+    "aliases": [
+      "Wii U",
+      "Nintendo Wii U",
+      "Project Cafe"
+    ]
   },
   "Switch": {
     "label": "Nintendo Switch",
     "icon": true,
-    "aliases": ["Nintendo Switch", "NX"]
+    "aliases": [
+      "Nintendo Switch",
+      "NX"
+    ]
   },
   "Switch2": {
     "label": "Nintendo Switch 2",
     "icon": true,
-    "aliases": ["Nintendo Switch 2", "Switch 2"]
+    "aliases": [
+      "Nintendo Switch 2",
+      "Switch 2"
+    ]
   },
   "GB": {
     "label": "Game Boy",
     "icon": true,
-    "aliases": ["Game Boy", "Nintendo Game Boy", "GameBoy", "Nintendo GB", "Nintendo GameBoy", "NGB"]
+    "aliases": [
+      "Game Boy",
+      "Nintendo Game Boy",
+      "GameBoy",
+      "Nintendo GB",
+      "Nintendo GameBoy",
+      "NGB"
+    ]
   },
   "GBC": {
     "label": "Game Boy Color",
     "icon": true,
-    "aliases": ["Game Boy Color", "Nintendo Game Boy Color", "GameBoy Color", "Nintendo GBC", "Nintendo GameBoy Color"]
+    "aliases": [
+      "Game Boy Color",
+      "Nintendo Game Boy Color",
+      "GameBoy Color",
+      "Nintendo GBC",
+      "Nintendo GameBoy Color"
+    ]
   },
   "GBA": {
     "label": "Game Boy Advance",
     "icon": true,
-    "aliases": ["Game Boy Advance", "Nintendo Game Boy Advance", "GameBoy Advance", "Nintendo GBA", "Nintendo GameBoy Advance"]
+    "aliases": [
+      "Game Boy Advance",
+      "Nintendo Game Boy Advance",
+      "GameBoy Advance",
+      "Nintendo GBA",
+      "Nintendo GameBoy Advance"
+    ]
   },
   "NDS": {
     "label": "Nintendo DS",
     "icon": true,
-    "aliases": ["Nintendo DS", "DS", "Nintendo DSi", "NDSi", "DSi"]
+    "aliases": [
+      "Nintendo DS",
+      "DS",
+      "Nintendo DSi",
+      "NDSi",
+      "DSi"
+    ]
   },
   "3DS": {
     "label": "Nintendo 3DS",
     "icon": true,
-    "aliases": ["Nintendo 3DS", "New Nintendo 3DS", "New 3DS", "n3DS"]
+    "aliases": [
+      "Nintendo 3DS",
+      "New Nintendo 3DS",
+      "New 3DS",
+      "n3DS"
+    ]
   },
   "VirtualBoy": {
     "label": "Virtual Boy",
     "icon": true,
-    "aliases": ["Virtual Boy", "Nintendo Virtual Boy", "Nintendo VirtualBoy", "VirtualBoy", "NVB", "VB"]
+    "aliases": [
+      "Virtual Boy",
+      "Nintendo Virtual Boy",
+      "Nintendo VirtualBoy",
+      "VirtualBoy",
+      "NVB",
+      "VB"
+    ]
   },
   "MasterSystem": {
     "label": "Master System",
     "icon": true,
-    "aliases": ["Sega Master System", "Sega Master System/Mark III", "Master System", "SMS"]
+    "aliases": [
+      "Sega Master System",
+      "Sega Master System/Mark III",
+      "Master System",
+      "SMS"
+    ]
   },
   "MarkIII": {
     "label": "Sega Mark III",
     "icon": true,
-    "aliases": ["Mark III", "Sega Mark III"]
+    "aliases": [
+      "Mark III",
+      "Sega Mark III"
+    ]
   },
   "MegaDrive": {
     "label": "Mega Drive",
     "icon": true,
-    "aliases": ["Sega Mega Drive/Genesis", "Sega Mega Drive", "Sega MegaDrive", "Mega Drive", "Genesis/Mega Drive", "Genesis/MegaDrive"]
+    "aliases": [
+      "Sega Mega Drive/Genesis",
+      "Sega Mega Drive",
+      "Sega MegaDrive",
+      "Mega Drive",
+      "Genesis/Mega Drive",
+      "Genesis/MegaDrive"
+    ]
   },
   "Genesis": {
     "label": "Sega Genesis",
     "icon": true,
-    "aliases": ["Sega Genesis"]
+    "aliases": [
+      "Sega Genesis"
+    ]
   },
   "SegaCD": {
     "label": "Sega CD",
     "icon": true,
-    "aliases": ["Sega CD"]
+    "aliases": [
+      "Sega CD"
+    ]
   },
   "MegaCD": {
     "label": "Mega-CD",
     "icon": true,
-    "aliases": ["Mega CD", "Mega-CD"]
+    "aliases": [
+      "Mega CD",
+      "Mega-CD"
+    ]
   },
   "Sega32X": {
     "label": "Sega 32X",
     "icon": true,
-    "aliases": ["Sega 32X", "Sega32", "32X"]
+    "aliases": [
+      "Sega 32X",
+      "Sega32",
+      "32X"
+    ]
   },
   "Saturn": {
     "label": "Sega Saturn",
     "icon": true,
-    "aliases": ["Sega Saturn"]
+    "aliases": [
+      "Sega Saturn"
+    ]
   },
   "Dreamcast": {
     "label": "Dreamcast",
     "icon": true,
-    "aliases": ["Sega Dreamcast", "DC"]
+    "aliases": [
+      "Sega Dreamcast",
+      "DC"
+    ]
   },
   "GameGear": {
     "label": "Game Gear",
     "icon": true,
-    "aliases": ["Sega Game Gear", "Game Gear", "GameGear", "GG"]
+    "aliases": [
+      "Sega Game Gear",
+      "Game Gear",
+      "GameGear",
+      "GG"
+    ]
   },
   "SG1000": {
     "label": "SG-1000",
     "icon": true,
-    "aliases": ["SG-1000", "Sega SG-1000", "Sega Game 1000", "Sega SG1000"]
+    "aliases": [
+      "SG-1000",
+      "Sega SG-1000",
+      "Sega Game 1000",
+      "Sega SG1000"
+    ]
   },
   "PCEngine": {
     "label": "PC Engine",
     "icon": true,
-    "aliases": ["PC Engine", "NEC PC Engine", "TurboGrafx-16/PC Engine", "PC Engine/TurboGrafx-16"]
+    "aliases": [
+      "PC Engine",
+      "NEC PC Engine",
+      "TurboGrafx-16/PC Engine",
+      "PC Engine/TurboGrafx-16"
+    ]
   },
   "TG16": {
     "label": "TurboGrafx-16",
     "icon": true,
-    "aliases": ["NEC TurboGrafx-16", "TurboGrafx-16", "TurboGrafx 16", "NEC TurboGrafx", "TurboGrafx", "TurboGrafx-16 Entertainment SuperSystem", "TurboGrafx 16 Entertainment SuperSystem"]
+    "aliases": [
+      "NEC TurboGrafx-16",
+      "TurboGrafx-16",
+      "TurboGrafx 16",
+      "NEC TurboGrafx",
+      "TurboGrafx",
+      "TurboGrafx-16 Entertainment SuperSystem",
+      "TurboGrafx 16 Entertainment SuperSystem"
+    ]
   },
   "PCEngineCD": {
     "label": "PC Engine CD",
     "icon": true,
-    "aliases": ["PC Engine CD", "NEC PC Engine CD", "NEC PC Engine-CD", "PC Engine CD/TurboGrafx-CD", "Turbografx-16/PC Engine CD", "TG-16CD/PCECD"]
+    "aliases": [
+      "PC Engine CD",
+      "NEC PC Engine CD",
+      "NEC PC Engine-CD",
+      "PC Engine CD/TurboGrafx-CD",
+      "Turbografx-16/PC Engine CD",
+      "TG-16CD/PCECD"
+    ]
   },
   "TGCD": {
     "label": "TurboGrafx-CD",
     "icon": true,
-    "aliases": ["NEC TurboGrafx-CD", "TurboGrafx-CD", "TurboGrafx CD", "NEC TurboGrafx CD"]
+    "aliases": [
+      "NEC TurboGrafx-CD",
+      "TurboGrafx-CD",
+      "TurboGrafx CD",
+      "NEC TurboGrafx CD"
+    ]
   },
   "SuperGrafx": {
     "label": "SuperGrafx",
     "icon": true,
-    "aliases": ["PC Engine SuperGrafx", "NEC SuperGrafx"]
+    "aliases": [
+      "PC Engine SuperGrafx",
+      "NEC SuperGrafx"
+    ]
   },
   "PCFX": {
     "label": "PC-FX",
     "icon": true,
-    "aliases": ["PC-FX", "NEC PC-FX"]
+    "aliases": [
+      "PC-FX",
+      "NEC PC-FX"
+    ]
   },
   "NeoGeo": {
     "label": "Neo Geo",
     "icon": true,
-    "aliases": ["SNK Neo Geo AES", "SNK Neo Geo MVS", "Neo Geo AES", "Neo Geo MVS", "Neo Geo", "NeoGeo", "SNK NeoGeo", "SNK Neo-Geo AES", "SNK Neo-Geo MVS", "neogeoaes", "neogeomvs", "AES", "MVS"]
+    "aliases": [
+      "SNK Neo Geo AES",
+      "SNK Neo Geo MVS",
+      "Neo Geo AES",
+      "Neo Geo MVS",
+      "Neo Geo",
+      "NeoGeo",
+      "SNK NeoGeo",
+      "SNK Neo-Geo AES",
+      "SNK Neo-Geo MVS",
+      "neogeoaes",
+      "neogeomvs",
+      "AES",
+      "MVS"
+    ]
   },
   "NeoGeoCD": {
     "label": "Neo Geo CD",
     "icon": true,
-    "aliases": ["SNK Neo Geo CD", "Neo Geo CD", "NeoGeo CD", "Neo-Geo CD", "SNK NeoGeo CD", "SNK Neo-Geo CD", "NGCD"]
+    "aliases": [
+      "SNK Neo Geo CD",
+      "Neo Geo CD",
+      "NeoGeo CD",
+      "Neo-Geo CD",
+      "SNK NeoGeo CD",
+      "SNK Neo-Geo CD",
+      "NGCD"
+    ]
   },
   "NGP": {
     "label": "Neo Geo Pocket",
     "icon": true,
-    "aliases": ["SNK Neo Geo Pocket", "Neo Geo Pocket", "NeoGeo Pocket", "SNK Neo-Geo Pocket"]
+    "aliases": [
+      "SNK Neo Geo Pocket",
+      "Neo Geo Pocket",
+      "NeoGeo Pocket",
+      "SNK Neo-Geo Pocket"
+    ]
   },
   "NGPC": {
     "label": "Neo Geo Pocket Color",
     "icon": true,
-    "aliases": ["SNK Neo Geo Pocket Color", "Neo Geo Pocket Color", "NeoGeo Pocket Color", "SNK Neo-Geo Pocket Color"]
+    "aliases": [
+      "SNK Neo Geo Pocket Color",
+      "Neo Geo Pocket Color",
+      "NeoGeo Pocket Color",
+      "SNK Neo-Geo Pocket Color"
+    ]
   },
   "Arcade": {
     "label": "Arcade",
@@ -332,47 +619,65 @@
   "FBNeo": {
     "label": "Final Burn Neo",
     "icon": true,
-    "aliases": ["FinalBurn Neo"]
+    "aliases": [
+      "FinalBurn Neo"
+    ]
   },
   "CPS1": {
     "label": "CPS I",
     "icon": true,
-    "aliases": ["CPS-1"]
+    "aliases": [
+      "CPS-1"
+    ]
   },
   "CPS2": {
     "label": "CPS II",
     "icon": true,
-    "aliases": ["CPS-2"]
+    "aliases": [
+      "CPS-2"
+    ]
   },
   "CPS3": {
     "label": "CPS III",
     "icon": true,
-    "aliases": ["CPS-3"]
+    "aliases": [
+      "CPS-3"
+    ]
   },
   "Model2": {
     "label": "Sega Model 2",
     "icon": true,
-    "aliases": ["Sega Model 2"]
+    "aliases": [
+      "Sega Model 2"
+    ]
   },
   "Model3": {
     "label": "Sega Model 3",
     "icon": true,
-    "aliases": ["Sega Model 3"]
+    "aliases": [
+      "Sega Model 3"
+    ]
   },
   "Naomi": {
     "label": "Sega NAOMI",
     "icon": true,
-    "aliases": ["Sega Naomi"]
+    "aliases": [
+      "Sega Naomi"
+    ]
   },
   "Naomi2": {
     "label": "Sega NAOMI 2",
     "icon": true,
-    "aliases": ["Sega Naomi 2"]
+    "aliases": [
+      "Sega Naomi 2"
+    ]
   },
   "Atomiswave": {
     "label": "Atomiswave",
     "icon": true,
-    "aliases": ["Sammy Atomiswave"]
+    "aliases": [
+      "Sammy Atomiswave"
+    ]
   },
   "TeknoParrot": {
     "label": "TeknoParrot",
@@ -382,157 +687,272 @@
   "Atari2600": {
     "label": "Atari 2600",
     "icon": true,
-    "aliases": ["Atari 2600", "2600", "Atari VCS"]
+    "aliases": [
+      "Atari 2600",
+      "2600",
+      "Atari VCS"
+    ]
   },
   "Atari5200": {
     "label": "Atari 5200",
     "icon": true,
-    "aliases": ["Atari 5200", "5200", "Atari 5200 SuperSystem", "5200 SuperSystem", "Atari SuperSystem"]
+    "aliases": [
+      "Atari 5200",
+      "5200",
+      "Atari 5200 SuperSystem",
+      "5200 SuperSystem",
+      "Atari SuperSystem"
+    ]
   },
   "Atari7800": {
     "label": "Atari 7800",
     "icon": true,
-    "aliases": ["Atari 7800", "7800", "Atari 7800 ProSystem", "7800 ProSystem", "Atari ProSystem"]
+    "aliases": [
+      "Atari 7800",
+      "7800",
+      "Atari 7800 ProSystem",
+      "7800 ProSystem",
+      "Atari ProSystem"
+    ]
   },
   "Atari800": {
     "label": "Atari 800",
     "icon": true,
-    "aliases": ["Atari 800", "Atari 8-bit", "Atari8bit"]
+    "aliases": [
+      "Atari 800",
+      "Atari 8-bit",
+      "Atari8bit"
+    ]
   },
   "AtariST": {
     "label": "Atari ST",
     "icon": true,
-    "aliases": ["Atari ST", "Atari-ST", "Atari ST/STE"]
+    "aliases": [
+      "Atari ST",
+      "Atari-ST",
+      "Atari ST/STE"
+    ]
   },
   "Jaguar": {
     "label": "Atari Jaguar",
     "icon": true,
-    "aliases": ["Atari Jaguar"]
+    "aliases": [
+      "Atari Jaguar"
+    ]
   },
   "JaguarCD": {
     "label": "Atari Jaguar CD",
     "icon": true,
-    "aliases": ["Atari Jaguar CD", "Jaguar CD", "Jag CD"]
+    "aliases": [
+      "Atari Jaguar CD",
+      "Jaguar CD",
+      "Jag CD"
+    ]
   },
   "Lynx": {
     "label": "Atari Lynx",
     "icon": true,
-    "aliases": ["Atari Lynx"]
+    "aliases": [
+      "Atari Lynx"
+    ]
   },
   "3DO": {
     "label": "3DO",
     "icon": true,
-    "aliases": ["3DO Interactive Multiplayer", "Panasonic 3DO", "Panasonic 3DO Interactive Multiplayer"]
+    "aliases": [
+      "3DO Interactive Multiplayer",
+      "Panasonic 3DO",
+      "Panasonic 3DO Interactive Multiplayer"
+    ]
   },
   "CDi": {
     "label": "Philips CD-i",
     "icon": true,
-    "aliases": ["Philips CD-i", "CD-i", "Philips CDI", "Compact Disc Interactive"]
+    "aliases": [
+      "Philips CD-i",
+      "CD-i",
+      "Philips CDI",
+      "Compact Disc Interactive"
+    ]
   },
   "ColecoVision": {
     "label": "ColecoVision",
     "icon": true,
-    "aliases": ["Coleco", "Coleco Vision"]
+    "aliases": [
+      "Coleco",
+      "Coleco Vision"
+    ]
   },
   "Intellivision": {
     "label": "Intellivision",
     "icon": true,
-    "aliases": ["Mattel Intellivision"]
+    "aliases": [
+      "Mattel Intellivision"
+    ]
   },
   "Vectrex": {
     "label": "Vectrex",
     "icon": true,
-    "aliases": ["GCE Vectrex"]
+    "aliases": [
+      "GCE Vectrex"
+    ]
   },
   "WSwan": {
     "label": "WonderSwan",
     "icon": true,
-    "aliases": ["WonderSwan", "Bandai WonderSwan", "Wonder Swan", "WS"]
+    "aliases": [
+      "WonderSwan",
+      "Bandai WonderSwan",
+      "Wonder Swan",
+      "WS"
+    ]
   },
   "WSwanC": {
     "label": "WonderSwan Color",
     "icon": true,
-    "aliases": ["WonderSwan Color", "Bandai WonderSwan Color", "Wonder Swan Color", "WSC"]
+    "aliases": [
+      "WonderSwan Color",
+      "Bandai WonderSwan Color",
+      "Wonder Swan Color",
+      "WSC"
+    ]
   },
   "C64": {
     "label": "Commodore 64",
     "icon": true,
-    "aliases": ["Commodore 64", "Commodore C64/128/MAX", "CBM 64", "CBM64", "C=64", "C 64", "VIC-64", "VIC64"]
+    "aliases": [
+      "Commodore 64",
+      "Commodore C64/128/MAX",
+      "CBM 64",
+      "CBM64",
+      "C=64",
+      "C 64",
+      "VIC-64",
+      "VIC64"
+    ]
   },
   "Amiga": {
     "label": "Amiga",
     "icon": true,
-    "aliases": ["Commodore Amiga"]
+    "aliases": [
+      "Commodore Amiga"
+    ]
   },
   "Amiga500": {
     "label": "Amiga 500",
     "icon": true,
-    "aliases": ["Amiga 500"]
+    "aliases": [
+      "Amiga 500"
+    ]
   },
   "Amiga1200": {
     "label": "Amiga 1200",
     "icon": true,
-    "aliases": ["Amiga 1200"]
+    "aliases": [
+      "Amiga 1200"
+    ]
   },
   "AmigaCD32": {
     "label": "Amiga CD32",
     "icon": true,
-    "aliases": ["Amiga CD32", "Commodore Amiga CD32"]
+    "aliases": [
+      "Amiga CD32",
+      "Commodore Amiga CD32"
+    ]
   },
   "ZXSpectrum": {
     "label": "ZX Spectrum",
     "icon": true,
-    "aliases": ["ZX Spectrum", "Sinclair ZX Spectrum", "Spectrum", "ZXS"]
+    "aliases": [
+      "ZX Spectrum",
+      "Sinclair ZX Spectrum",
+      "Spectrum",
+      "ZXS"
+    ]
   },
   "AmstradCPC": {
     "label": "Amstrad CPC",
     "icon": true,
-    "aliases": ["Amstrad CPC", "ACPC", "Colour Personal Computer", "Amstrad Colour Personal Computer"]
+    "aliases": [
+      "Amstrad CPC",
+      "ACPC",
+      "Colour Personal Computer",
+      "Amstrad Colour Personal Computer"
+    ]
   },
   "MSX": {
     "label": "MSX",
     "icon": true,
-    "aliases": ["Microsoft MSX"]
+    "aliases": [
+      "Microsoft MSX"
+    ]
   },
   "MSX2": {
     "label": "MSX2",
     "icon": true,
-    "aliases": ["Microsoft MSX2", "MSX 2"]
+    "aliases": [
+      "Microsoft MSX2",
+      "MSX 2"
+    ]
   },
   "MSX2+": {
     "label": "MSX2+",
     "icon": true,
-    "aliases": ["Microsoft MSX2+", "MSX 2+"]
+    "aliases": [
+      "Microsoft MSX2+",
+      "MSX 2+"
+    ]
   },
   "Apple2": {
     "label": "Apple II",
     "icon": true,
-    "aliases": ["Apple II", "Apple]["]
+    "aliases": [
+      "Apple II",
+      "Apple]["
+    ]
   },
   "X68000": {
     "label": "Sharp X68000",
     "icon": true,
-    "aliases": ["Sharp X68000"]
+    "aliases": [
+      "Sharp X68000"
+    ]
   },
   "PC98": {
     "label": "NEC PC-9800",
     "icon": true,
-    "aliases": ["NEC PC-9801", "PC-9800 Series", "PC-98"]
+    "aliases": [
+      "NEC PC-9801",
+      "PC-9800 Series",
+      "PC-98"
+    ]
   },
   "PC88": {
     "label": "NEC PC-8800",
     "icon": true,
-    "aliases": ["NEC PC-8801", "PC-8800 Series", "PC-8000/8800"]
+    "aliases": [
+      "NEC PC-8801",
+      "PC-8800 Series",
+      "PC-8000/8800"
+    ]
   },
   "FMTowns": {
     "label": "FM Towns",
     "icon": true,
-    "aliases": ["Fujitsu FM Towns Marty", "FM Towns", "FM Towns Marty", "Fujitsu FM Towns"]
+    "aliases": [
+      "Fujitsu FM Towns Marty",
+      "FM Towns",
+      "FM Towns Marty",
+      "Fujitsu FM Towns"
+    ]
   },
   "PICO8": {
     "label": "PICO-8",
     "icon": true,
-    "aliases": ["PICO-8", "Pico-8"]
+    "aliases": [
+      "PICO-8",
+      "Pico-8"
+    ]
   },
   "ScummVM": {
     "label": "ScummVM",
