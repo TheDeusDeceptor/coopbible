@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-25T18:05:31Z",
+  "updated": "2026-11-26T12:14:12Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -268,7 +268,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/2633950/685902/f3fa04f84c03603ef59e6366c80d8f5924781bae/1750938107/microtrailer.mp4"
     },
     "abathor-atlantis-landing-2023-pc": {
       "id": "abathor-atlantis-landing-2023-pc",
@@ -421,7 +422,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/35720/12279/24a0401ea6e20cbe694d882358c1218343968e3d/1750485182/microtrailer.mp4"
     },
     "trine-3-the-artifacts-of-power-2015-pc": {
       "id": "trine-3-the-artifacts-of-power-2015-pc",
@@ -537,7 +539,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://video.fastly.steamstatic.com/store_trailers/1436700/555355/0a0cdc4489a3c51ab8692514cb6c9826e6dad2a2/1750688024/microtrailer.mp4"
     },
     "spiritfarer-farewell-edition-2020-pc": {
       "id": "spiritfarer-farewell-edition-2020-pc",
