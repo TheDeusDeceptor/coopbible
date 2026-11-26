@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-26T17:40:09Z",
+  "updated": "2026-11-26T17:42:12Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -953,7 +953,7 @@
       "alt_names": [],
       "dlc": [],
       "flags": {
-        "installed": true,
+        "installed": false,
         "localCoop": false,
         "authRequired": false,
         "ownedSteam": false,
@@ -991,7 +991,7 @@
       "alt_names": [],
       "dlc": [],
       "flags": {
-        "installed": true,
+        "installed": false,
         "localCoop": false,
         "authRequired": false,
         "ownedSteam": false,
