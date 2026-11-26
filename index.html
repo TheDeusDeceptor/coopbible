@@ -504,18 +504,20 @@
   .pill{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-body);font-size:.72rem;font-weight:500;padding:.3rem .55rem;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.02);color:#cbd5e1;cursor:pointer;transition:all .14s ease;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .pill:hover{background:rgba(255,255,255,.05);color:#fff;}
   .pill .p-src{font-family:var(--font-head);font-size:.52rem;font-weight:700;letter-spacing:.1em;padding:.12rem .35rem;border-radius:4px;text-transform:uppercase;}
-  .pill.src-igdb .p-src{background:rgba(167,139,250,.15);color:var(--purple);}
+  .pill.src-igdb .p-src,.pill .p-src.src-igdb{background:rgba(167,139,250,.15);color:var(--purple);}
   .pill.src-igdb:hover{border-color:rgba(167,139,250,.5);}
-  .pill.src-steam .p-src{background:rgba(56,189,248,.15);color:#38bdf8;}
+  .pill.src-steam .p-src,.pill .p-src.src-steam{background:rgba(56,189,248,.15);color:#38bdf8;}
   .pill.src-steam:hover{border-color:rgba(56,189,248,.5);}
-  .pill.src-pcgw .p-src{background:rgba(74,222,128,.15);color:var(--green);}
+  .pill.src-pcgw .p-src,.pill .p-src.src-pcgw{background:rgba(74,222,128,.15);color:var(--green);}
   .pill.src-pcgw:hover{border-color:rgba(74,222,128,.5);}
-  .pill.src-lbdb .p-src{background:rgba(245,158,11,.15);color:var(--amber);}
+  .pill.src-lbdb .p-src,.pill .p-src.src-lbdb{background:rgba(245,158,11,.15);color:var(--amber);}
   .pill.src-lbdb:hover{border-color:rgba(245,158,11,.5);}
-  .pill.src-hltb .p-src{background:rgba(251,113,133,.15);color:var(--hltb);}
+  .pill.src-hltb .p-src,.pill .p-src.src-hltb{background:rgba(251,113,133,.15);color:var(--hltb);}
   .pill.src-hltb:hover{border-color:rgba(251,113,133,.5);}
-  .pill.src-sgdb .p-src{background:rgba(167,139,250,.15);color:var(--purple);}
+  .pill.src-sgdb .p-src,.pill .p-src.src-sgdb{background:rgba(167,139,250,.15);color:var(--purple);}
   .pill.src-sgdb:hover{border-color:rgba(167,139,250,.5);}
+  .pill.src-plat .p-src{background:rgba(56,189,248,.12);color:var(--accent);}
+  .pill.src-plat:hover{border-color:var(--accent-line);}
   .pill.picker::after{content:"▾";margin-left:.25rem;font-size:.7em;opacity:.6;}
   .logo-picker{background:var(--card);border:1px solid var(--border);border-radius:12px;width:100%;max-width:820px;padding:1.4rem;position:relative;}
   .logo-picker.wide{max-width:980px;}
@@ -584,22 +586,39 @@
   .lbdb-status.error{color:var(--red);border-color:rgba(239,68,68,.4);}
   .plat-hint{font-size:.76rem;color:var(--muted);line-height:1.5;margin-bottom:.9rem;padding:.6rem .8rem;background:rgba(56,189,248,.04);border:1px solid rgba(56,189,248,.18);border-radius:7px;}
   .plat-hint code{font-family:ui-monospace,monospace;background:rgba(255,255,255,.05);padding:.1rem .35rem;border-radius:4px;font-size:.85em;color:#cbd5e1;}
-  .plat-row{display:grid;grid-template-columns:1fr 1fr 1fr 34px 60px;gap:.5rem;align-items:center;padding:.55rem .7rem;background:#0a0e15;border:1px solid var(--border);border-radius:7px;margin-bottom:.4rem;transition:border-color .18s ease;}
-  .plat-row.new{border-color:rgba(74,222,128,.55);box-shadow:0 0 0 1px rgba(74,222,128,.25);}
-  .plat-row.edited{border-color:rgba(245,158,11,.55);box-shadow:0 0 0 1px rgba(245,158,11,.22);}
-  .plat-row input{font-family:var(--font-body);font-size:.82rem;color:#e6ebf2;background:transparent;border:1px solid transparent;border-radius:5px;padding:.35rem .5rem;outline:none;transition:all .15s ease;width:100%;}
+  .plat-head{display:grid;grid-template-columns:30px 110px 1fr 78px 92px 86px;gap:.5rem;padding:0 .65rem .35rem;font-family:var(--font-head);font-size:.54rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .plat-item{background:#0a0e15;border:1px solid var(--border);border-radius:7px;margin-bottom:.38rem;overflow:hidden;transition:border-color .18s ease;}
+  .plat-item.new{border-color:rgba(74,222,128,.55);box-shadow:0 0 0 1px rgba(74,222,128,.22);}
+  .plat-item.edited{border-color:rgba(245,158,11,.55);box-shadow:0 0 0 1px rgba(245,158,11,.2);}
+  .plat-row{display:grid;grid-template-columns:30px 110px 1fr 78px 92px 86px;gap:.5rem;align-items:center;padding:.42rem .65rem;cursor:pointer;}
+  .plat-row:hover{background:rgba(255,255,255,.02);}
+  .plat-row input{font-family:var(--font-body);font-size:.82rem;color:#e6ebf2;background:transparent;border:1px solid transparent;border-radius:5px;padding:.32rem .48rem;outline:none;transition:all .15s ease;width:100%;min-width:0;}
   .plat-row input:hover{border-color:var(--border);background:rgba(255,255,255,.02);}
   .plat-row input:focus{border-color:var(--accent-line);background:rgba(56,189,248,.05);}
   .plat-row input.key-input{font-family:ui-monospace,monospace;font-size:.78rem;color:#cbd5e1;}
-  .plat-row .plat-icon-preview{width:28px;height:28px;border-radius:5px;background:#060810;border:1px solid var(--border);display:grid;place-items:center;overflow:hidden;flex-shrink:0;}
-  .plat-row .plat-icon-preview img{max-width:100%;max-height:100%;object-fit:contain;display:block;}
-  .plat-row .plat-icon-preview.empty::after{content:"—";color:#3a4356;font-size:.7rem;}
-  .plat-row .plat-badge{font-family:var(--font-head);font-size:.5rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.2rem .45rem;border-radius:4px;text-align:center;white-space:nowrap;}
-  .plat-row .plat-badge.new{color:var(--green);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.4);}
-  .plat-row .plat-badge.edited{color:var(--amber);background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.4);}
-  .plat-row .plat-badge.empty{color:transparent;}
-  .plat-row .plat-del{width:28px;height:28px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;font-size:.85rem;line-height:1;padding:0;}
-  .plat-row .plat-del:hover{color:var(--red);border-color:var(--red);}
+  .plat-icon-preview{width:28px;height:28px;border-radius:5px;background:#060810;border:1px solid var(--border);display:grid;place-items:center;overflow:hidden;flex-shrink:0;}
+  .plat-icon-preview img{max-width:100%;max-height:100%;object-fit:contain;display:block;}
+  .plat-icon-preview.empty::after{content:"—";color:#3a4356;font-size:.7rem;}
+  .plat-icon-chk{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;font-family:var(--font-head);font-size:.56rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.32rem .5rem;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .15s ease;}
+  .plat-icon-chk .dot{width:7px;height:7px;border-radius:50%;border:1px solid #4a5468;}
+  .plat-icon-chk.on{color:var(--green);border-color:rgba(74,222,128,.45);background:rgba(74,222,128,.08);}
+  .plat-icon-chk.on .dot{background:var(--green);border-color:var(--green);box-shadow:0 0 6px var(--green);}
+  .plat-aliases-cnt{font-family:var(--font-head);font-size:.58rem;color:var(--muted);letter-spacing:.06em;text-align:right;white-space:nowrap;}
+  .plat-badge{font-family:var(--font-head);font-size:.5rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.18rem .4rem;border-radius:4px;text-align:center;white-space:nowrap;}
+  .plat-badge.new{color:var(--green);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.4);}
+  .plat-badge.edited{color:var(--amber);background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.4);}
+  .plat-badge.empty{color:transparent;}
+  .plat-del{width:26px;height:26px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center;font-size:.8rem;line-height:1;padding:0;flex-shrink:0;}
+  .plat-del:hover{color:var(--red);border-color:var(--red);}
+  .plat-drawer{display:none;flex-direction:column;gap:.45rem;padding:.6rem .75rem .7rem;border-top:1px solid var(--border);background:#070a0f;}
+  .plat-item.open .plat-drawer{display:flex;}
+  .plat-drawer-lbl{font-family:var(--font-head);font-size:.54rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .alias-wrap{display:flex;gap:.35rem;flex-wrap:wrap;align-items:center;}
+  .alias-chip{display:inline-flex;align-items:center;gap:.32rem;font-size:.75rem;color:#cbd5e1;background:#111824;border:1px solid var(--border);border-radius:5px;padding:.18rem .42rem;}
+  .alias-chip button{border:0;background:transparent;color:var(--muted);cursor:pointer;font-size:.72rem;line-height:1;padding:0;}
+  .alias-chip button:hover{color:var(--red);}
+  .alias-add{font-family:var(--font-body);font-size:.78rem;color:#e6ebf2;background:transparent;border:1px dashed var(--border);border-radius:5px;padding:.22rem .5rem;outline:none;min-width:160px;flex:1;}
+  .alias-add:focus{border-color:var(--accent-line);}
   .plat-actions{display:flex;gap:.5rem;justify-content:space-between;align-items:center;margin-top:.9rem;flex-wrap:wrap;}
   .plat-actions-left{display:flex;gap:.5rem;}
   .plat-actions-right{display:flex;gap:.6rem;margin-left:auto;}
@@ -779,8 +798,8 @@
     header{flex-wrap:wrap;gap:.5rem}
     .header-left{position:static;transform:none;justify-content:center;width:100%}
     .header-right{position:static;transform:none;justify-content:center;width:100%;margin-top:.4rem}
-    .plat-row{grid-template-columns:1fr 1fr 34px 54px;}
-    .plat-row .plat-icon-preview{grid-column:1 / -1;justify-self:start;}
+    .plat-head,.plat-row{grid-template-columns:30px 84px 1fr auto 58px;}
+    .plat-aliases-cnt{display:none;}
   }
   @media (max-width:640px){
     body{padding:1rem}
@@ -1577,25 +1596,70 @@ async function saveSeriesLogoDirect(slug, sourceUrl, onDone){
     toast('Save failed: ' + e.message, 'bad');
   }
 }
-function lookupPlatform(key){
+function lookupPlatformEntry(key){
   if(!key) return null;
-  if(PLATFORMS[key]) return PLATFORMS[key];
+  if(PLATFORMS[key]) return { key, entry: PLATFORMS[key] };
   const k = String(key).toLowerCase();
-  if(PLATFORMS[k]) return PLATFORMS[k];
+  if(PLATFORMS[k]) return { key: k, entry: PLATFORMS[k] };
   for(const pk of Object.keys(PLATFORMS)){
-    if(pk.toLowerCase() === k) return PLATFORMS[pk];
+    if(pk.toLowerCase() === k) return { key: pk, entry: PLATFORMS[pk] };
   }
   return null;
+}
+function lookupPlatform(key){
+  const m = lookupPlatformEntry(key);
+  return m ? m.entry : null;
 }
 function platformLabel(key){
   if(!key) return '';
   const p = lookupPlatform(key);
   return (p && p.label) ? p.label : key;
 }
+function resolveIconFile(key, iconVal){
+  if(!iconVal) return '';
+  if(iconVal === true) return String(key || '').toLowerCase() + '.png';
+  const s = String(iconVal).trim();
+  if(!s) return '';
+  return /\.[a-z0-9]+$/i.test(s) ? s : (s + '.png');
+}
 function platformIcon(key){
   if(!key) return '';
-  const p = lookupPlatform(key);
-  return (p && p.icon) ? p.icon : '';
+  const m = lookupPlatformEntry(key);
+  if(!m) return '';
+  return resolveIconFile(m.key, m.entry.icon);
+}
+function resolveRawPlatform(raw){
+  const r = String(raw || '').trim().toLowerCase();
+  if(!r) return null;
+  for(const pk of Object.keys(PLATFORMS)){
+    const p = PLATFORMS[pk] || {};
+    if(pk.toLowerCase() === r) return { key: pk, label: p.label || pk };
+    if(String(p.label || '').toLowerCase() === r) return { key: pk, label: p.label || pk };
+    const al = Array.isArray(p.aliases) ? p.aliases : [];
+    for(const a of al){
+      if(String(a || '').toLowerCase() === r) return { key: pk, label: p.label || pk };
+    }
+  }
+  return null;
+}
+function matchPlatformsQuery(q){
+  const ql = String(q || '').trim().toLowerCase();
+  if(!ql) return [];
+  const out = [];
+  for(const pk of Object.keys(PLATFORMS)){
+    const p = PLATFORMS[pk] || {};
+    const lbl = p.label || pk;
+    const al = Array.isArray(p.aliases) ? p.aliases : [];
+    const hit = pk.toLowerCase().includes(ql) ||
+      lbl.toLowerCase().includes(ql) ||
+      al.some(a => String(a || '').toLowerCase().includes(ql));
+    if(hit){
+      const exact = pk.toLowerCase() === ql || lbl.toLowerCase() === ql;
+      out.push({ key: pk, label: lbl, exact });
+    }
+  }
+  out.sort((a,b) => (b.exact - a.exact) || a.key.localeCompare(b.key));
+  return out;
 }
 function isPlatformPC(key){
   if(!key) return true;
@@ -2517,8 +2581,15 @@ function openPendingModal(){
       const sSnap = pendingSeriesDeleteSnapshots.get(slug);
       if(sSnap){
         for(const [gid, prev] of Object.entries(sSnap)){
-          if(prev.hadWrite) pendingGameWrites.set(gid, JSON.parse(JSON.stringify(prev.game)));
-          else pendingGameWrites.delete(gid);
+          const cur = viewGame(gid);
+          if(!cur) continue;
+          const copy = JSON.parse(JSON.stringify(cur));
+          copy.series = prev.game.series ?? null;
+          copy.series_status = prev.game.series_status ?? null;
+          copy.series_note = prev.game.series_note ?? null;
+          const orig = MANIFEST.games[gid];
+          if(orig && jsonEqual(orig, copy)) pendingGameWrites.delete(gid);
+          else pendingGameWrites.set(gid, copy);
         }
         pendingSeriesDeleteSnapshots.delete(slug);
       }
@@ -2775,40 +2846,90 @@ async function checkLbdbStatus(){
   }catch(e){}
 }
 let platDraft = null;
-function clonePlatforms(o){ return JSON.parse(JSON.stringify(o || {})); }
+let platKeyOrigin = new Map();
+let platOpenSet = new Set();
+let platSearchTerm = '';
+function clonePlatforms(o){
+  const out = {};
+  platKeyOrigin = new Map();
+  for(const k of Object.keys(o || {})){
+    const v = o[k] || {};
+    out[k] = {
+      label: v.label || '',
+      icon: v.icon === undefined ? false : v.icon,
+      aliases: Array.isArray(v.aliases) ? v.aliases.slice() : []
+    };
+    platKeyOrigin.set(k, k);
+  }
+  return out;
+}
+function platNormIconVal(key, icon){
+  if(!icon) return false;
+  if(icon === true) return true;
+  const s = String(icon).trim();
+  if(!s) return false;
+  const low = String(key || '').toLowerCase();
+  if(s.toLowerCase() === low || s.toLowerCase() === low + '.png') return true;
+  return s;
+}
 function platRowStatus(key){
-  const orig = PLATFORMS_ORIGINAL[key];
+  const origKey = platKeyOrigin.get(key);
+  const orig = origKey ? PLATFORMS_ORIGINAL[origKey] : null;
   if(!orig) return 'new';
+  if(origKey !== key) return 'edited';
   const cur = platDraft[key];
   if(!cur) return 'edited';
-  if((orig.label || '') !== (cur.label || '') || (orig.icon || '') !== (cur.icon || '')) return 'edited';
+  if((orig.label || '') !== (cur.label || '')) return 'edited';
+  if(platNormIconVal(origKey, orig.icon) !== platNormIconVal(key, cur.icon)) return 'edited';
+  const oa = Array.isArray(orig.aliases) ? orig.aliases : [];
+  const ca = Array.isArray(cur.aliases) ? cur.aliases : [];
+  if(oa.length !== ca.length || oa.some((x,i) => x !== ca[i])) return 'edited';
   return '';
 }
 function platRowHTML(key){
-  const p = platDraft[key] || { label:'', icon:'' };
+  const p = platDraft[key] || { label:'', icon:false, aliases:[] };
   const status = platRowStatus(key);
   const badgeCls = status === 'new' ? 'new' : (status === 'edited' ? 'edited' : 'empty');
   const badgeTxt = status === 'new' ? 'NEW' : (status === 'edited' ? 'EDITED' : ' ');
-  const iconFile = (p.icon || '').trim();
+  const iconFile = resolveIconFile(key, p.icon);
   const iconUrl = iconFile ? (PLATFORM_ICON_BASE + iconFile) : '';
+  const isOpen = platOpenSet.has(key);
+  const aliases = Array.isArray(p.aliases) ? p.aliases : [];
   return `
-    <div class="plat-row ${status}" data-key="${esc(key)}">
-      <input type="text" class="key-input" value="${esc(key)}" data-field="key">
-      <input type="text" value="${esc(p.label||'')}" data-field="label">
-      <input type="text" value="${esc(p.icon||'')}" data-field="icon">
-      <div class="plat-icon-preview ${iconUrl ? '' : 'empty'}">${iconUrl ? `<img src="${esc(iconUrl)}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">` : ''}</div>
-      <div style="display:flex;align-items:center;gap:.35rem;justify-content:flex-end;">
-        <span class="plat-badge ${badgeCls}">${badgeTxt}</span>
-        <button type="button" class="plat-del" title="Remove">✕</button>
+    <div class="plat-item ${status}${isOpen ? ' open' : ''}" data-key="${esc(key)}">
+      <div class="plat-row" data-plat-acc="${esc(key)}">
+        <div class="plat-icon-preview ${iconUrl ? '' : 'empty'}" title="${iconUrl ? esc(iconUrl) : 'No icon'}">${iconUrl ? `<img src="${esc(iconUrl)}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">` : ''}</div>
+        <input type="text" class="key-input" value="${esc(key)}" data-field="key">
+        <input type="text" value="${esc(p.label||'')}" data-field="label">
+        <button type="button" class="plat-icon-chk ${p.icon ? 'on' : ''}" data-plat-icon="${esc(key)}" title="Auto-load ${esc(PLATFORM_ICON_BASE + key.toLowerCase() + '.png')}"><span class="dot"></span>Icon</button>
+        <span class="plat-aliases-cnt">${aliases.length} alias${aliases.length === 1 ? '' : 'es'} ${isOpen ? '▴' : '▾'}</span>
+        <div style="display:flex;align-items:center;gap:.3rem;justify-content:flex-end;">
+          <span class="plat-badge ${badgeCls}">${badgeTxt}</span>
+          <button type="button" class="plat-del" title="Remove">✕</button>
+        </div>
+      </div>
+      <div class="plat-drawer">
+        <span class="plat-drawer-lbl">Aliases (IGDB / LBDB names → ${esc(key)})</span>
+        <div class="alias-wrap">
+          ${aliases.map((a, i) => `<span class="alias-chip">${esc(a)}<button type="button" data-del-alias="${i}" title="Remove">✕</button></span>`).join('')}
+          <input class="alias-add" type="text" placeholder="+ add alias (Enter)" data-add-alias="${esc(key)}">
+        </div>
       </div>
     </div>`;
 }
 function renderPlatformRows(){
   const host = toolsSlot.querySelector('#plat-rows');
   if(!host) return;
-  const keys = Object.keys(platDraft).sort();
+  const q = (platSearchTerm || '').toLowerCase().trim();
+  const keys = Object.keys(platDraft).filter(k => {
+    if(!q) return true;
+    const p = platDraft[k] || {};
+    return k.toLowerCase().includes(q) ||
+      String(p.label || '').toLowerCase().includes(q) ||
+      (Array.isArray(p.aliases) && p.aliases.some(a => String(a).toLowerCase().includes(q)));
+  }).sort();
   if(!keys.length){
-    host.innerHTML = '<div style="padding:1rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase">No platforms yet — click "Add platform"</div>';
+    host.innerHTML = `<div style="padding:1rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase">${q ? 'No matches' : 'No platforms yet — click "Add platform"'}</div>`;
     return;
   }
   host.innerHTML = keys.map(platRowHTML).join('');
@@ -2856,13 +2977,15 @@ function toolsModalHTML(){
           <div class="form-section">
             <div class="sec-title">Platforms</div>
             <div class="plat-hint">
-              <strong>Key</strong> is what you type in the Platform field. <strong>Label</strong> shows on the site. <strong>Icon</strong> is a filename inside <code>images/icons/</code>.
+              <strong>Key</strong> is your codename (e.g. <code>PS2</code>, <code>X360</code>). <strong>Icon</strong> auto-loads <code>images/icons/&lt;key&gt;.png</code> (falls back to text badge if missing). Click a row to edit <strong>Aliases</strong>.
             </div>
-            <div id="plat-rows"></div>
+            <div style="display:flex;gap:.5rem;margin-bottom:.75rem;flex-wrap:wrap;align-items:center;">
+              <input type="search" id="plat-search" placeholder="Filter platforms or aliases…" autocomplete="off" spellcheck="false" style="flex:1;min-width:180px;font-family:var(--font-body);font-size:.84rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:7px;padding:.5rem .75rem;outline:none;">
+              <button type="button" class="add-link-btn" id="plat-add"><span class="icon icon-plus"></span>Add platform</button>
+            </div>
+            <div class="plat-head"><span></span><span>Key</span><span>Label</span><span style="text-align:center">Icon</span><span style="text-align:right">Aliases</span><span></span></div>
+            <div id="plat-rows" style="max-height:46vh;overflow-y:auto;"></div>
             <div class="plat-actions">
-              <div class="plat-actions-left">
-                <button type="button" class="add-link-btn" id="plat-add"><span class="icon icon-plus"></span>Add platform</button>
-              </div>
               <div class="plat-actions-right">
                 <button type="button" class="btn" id="plat-reset">Reset</button>
                 <button type="button" class="btn primary" id="plat-save">Stage changes</button>
@@ -3310,18 +3433,34 @@ function openToolsModal(){
     if(!issues.length) toast('No series issues found');
     else toast(issues.length + ' issue' + (issues.length===1?'':'s') + ' found');
   };
+  const platSearchInp = toolsSlot.querySelector('#plat-search');
+  if(platSearchInp) platSearchInp.addEventListener('input', () => {
+    platSearchTerm = platSearchInp.value || '';
+    renderPlatformRows();
+  });
   const rowsHost = toolsSlot.querySelector('#plat-rows');
   if(rowsHost){
+    const updateBadge = (item, key) => {
+      const status = platRowStatus(key);
+      item.classList.remove('new','edited');
+      if(status) item.classList.add(status);
+      const badge = item.querySelector('.plat-badge');
+      badge.classList.remove('new','edited','empty');
+      if(status === 'new'){ badge.classList.add('new'); badge.textContent = 'NEW'; }
+      else if(status === 'edited'){ badge.classList.add('edited'); badge.textContent = 'EDITED'; }
+      else { badge.classList.add('empty'); badge.textContent = ' '; }
+    };
     rowsHost.addEventListener('input', e => {
-      const row = e.target.closest('.plat-row');
-      if(!row) return;
-      const key = row.dataset.key;
+      const item = e.target.closest('.plat-item');
+      if(!item) return;
+      const key = item.dataset.key;
       const field = e.target.dataset.field;
       if(!field || !platDraft[key]) return;
       if(field === 'key'){
-        const newKey = e.target.value.trim().toLowerCase().replace(/\s+/g,'_');
+        const newKey = e.target.value.trim().replace(/\s+/g,'_');
         if(!newKey || newKey === key) return;
-        if(platDraft[newKey]){
+        const clash = Object.keys(platDraft).some(x => x !== key && x.toLowerCase() === newKey.toLowerCase());
+        if(clash){
           toast('Key "' + newKey + '" already exists', 'bad');
           e.target.value = key;
           return;
@@ -3329,74 +3468,151 @@ function openToolsModal(){
         const entry = platDraft[key];
         delete platDraft[key];
         platDraft[newKey] = entry;
-        row.dataset.key = newKey;
+        const origKey = platKeyOrigin.get(key);
+        platKeyOrigin.delete(key);
+        if(origKey !== undefined) platKeyOrigin.set(newKey, origKey);
+        if(platOpenSet.has(key)){ platOpenSet.delete(key); platOpenSet.add(newKey); }
+        item.dataset.key = newKey;
+        updateBadge(item, newKey);
       } else {
         platDraft[key][field] = e.target.value;
-        if(field === 'icon'){
-          const prev = row.querySelector('.plat-icon-preview');
-          const v = e.target.value.trim();
-          if(v){
-            prev.classList.remove('empty');
-            prev.innerHTML = `<img src="${esc(PLATFORM_ICON_BASE + v)}" alt="" onerror="this.style.display='none';this.parentElement.classList.add('empty');">`;
-          } else { prev.classList.add('empty'); prev.innerHTML = ''; }
-        }
-        const status = platRowStatus(key);
-        row.classList.remove('new','edited');
-        if(status) row.classList.add(status);
-        const badge = row.querySelector('.plat-badge');
-        badge.classList.remove('new','edited','empty');
-        if(status === 'new'){ badge.classList.add('new'); badge.textContent = 'NEW'; }
-        else if(status === 'edited'){ badge.classList.add('edited'); badge.textContent = 'EDITED'; }
-        else { badge.classList.add('empty'); badge.textContent = ' '; }
+        updateBadge(item, key);
       }
     });
     rowsHost.addEventListener('blur', e => {
-      if(e.target.dataset && e.target.dataset.field === 'key') renderPlatformRows();
+      if(e.target.dataset && e.target.dataset.field === 'key'){ renderPlatformRows(); return; }
+      if(e.target.dataset && e.target.dataset.addAlias){
+        const val = e.target.value.trim();
+        if(!val) return;
+        const p = platDraft[e.target.dataset.addAlias];
+        if(p){
+          p.aliases = Array.isArray(p.aliases) ? p.aliases : [];
+          if(!p.aliases.some(a => a.toLowerCase() === val.toLowerCase())) p.aliases.push(val);
+          renderPlatformRows();
+        }
+      }
     }, true);
+    rowsHost.addEventListener('keydown', e => {
+      if(e.key === 'Enter' && e.target.dataset && e.target.dataset.addAlias){
+        e.preventDefault();
+        const k = e.target.dataset.addAlias;
+        const val = e.target.value.trim();
+        if(!val) return;
+        const p = platDraft[k];
+        if(p){
+          p.aliases = Array.isArray(p.aliases) ? p.aliases : [];
+          if(!p.aliases.some(a => a.toLowerCase() === val.toLowerCase())) p.aliases.push(val);
+          platOpenSet.add(k);
+          renderPlatformRows();
+          const inp = rowsHost.querySelector(`.alias-add[data-add-alias="${CSS.escape(k)}"]`);
+          if(inp) inp.focus();
+        }
+      }
+    });
     rowsHost.addEventListener('click', e => {
+      const item = e.target.closest('.plat-item');
+      if(!item) return;
+      const key = item.dataset.key;
       const del = e.target.closest('.plat-del');
-      if(!del) return;
-      const row = del.closest('.plat-row');
-      delete platDraft[row.dataset.key];
-      renderPlatformRows();
+      if(del){
+        e.stopPropagation();
+        delete platDraft[key];
+        platOpenSet.delete(key);
+        platKeyOrigin.delete(key);
+        renderPlatformRows();
+        return;
+      }
+      const delA = e.target.closest('[data-del-alias]');
+      if(delA){
+        e.stopPropagation();
+        const p = platDraft[key];
+        if(p && Array.isArray(p.aliases)){
+          p.aliases.splice(+delA.dataset.delAlias, 1);
+          renderPlatformRows();
+        }
+        return;
+      }
+      const iconBtn = e.target.closest('[data-plat-icon]');
+      if(iconBtn){
+        e.stopPropagation();
+        const p = platDraft[key];
+        if(p){
+          p.icon = p.icon ? false : true;
+          renderPlatformRows();
+        }
+        return;
+      }
+      if(e.target.closest('input')) return;
+      const acc = e.target.closest('[data-plat-acc]');
+      if(acc){
+        if(platOpenSet.has(key)) platOpenSet.delete(key);
+        else platOpenSet.add(key);
+        renderPlatformRows();
+      }
     });
   }
   const platAdd = toolsSlot.querySelector('#plat-add');
   if(platAdd) platAdd.onclick = () => {
-    let n = 1, key = 'new_platform';
-    while(platDraft[key]) key = 'new_platform_' + (++n);
-    platDraft[key] = { label: '', icon: '' };
+    let n = 1, key = 'NEW';
+    while(platDraft[key]) key = 'NEW_' + (++n);
+    platDraft[key] = { label: '', icon: true, aliases: [] };
+    platOpenSet.add(key);
+    platSearchTerm = '';
+    if(platSearchInp) platSearchInp.value = '';
     renderPlatformRows();
-    const row = toolsSlot.querySelector(`.plat-row[data-key="${key}"]`);
-    if(row){ const ki = row.querySelector('.key-input'); if(ki){ ki.focus(); ki.select(); } }
+    const item = toolsSlot.querySelector(`.plat-item[data-key="${CSS.escape(key)}"]`);
+    if(item){ item.scrollIntoView({ block:'nearest' }); const ki = item.querySelector('.key-input'); if(ki){ ki.focus(); ki.select(); } }
   };
   const platReset = toolsSlot.querySelector('#plat-reset');
   if(platReset) platReset.onclick = () => {
     if(!confirm('Reset platform edits (unsaved)?')) return;
     platDraft = clonePlatforms(PLATFORMS);
+    platOpenSet.clear();
     renderPlatformRows();
   };
   const platSave = toolsSlot.querySelector('#plat-save');
   if(platSave) platSave.onclick = () => {
+    if(!platformsLoaded){ toast('Platforms failed to load — reload first', 'bad'); return; }
     const cleaned = {};
+    const renames = [];
     for(const k of Object.keys(platDraft)){
       const v = platDraft[k] || {};
       const key = String(k).trim();
       const label = String(v.label || '').trim();
-      const icon = String(v.icon || '').trim();
-      if(!key && !label && !icon) continue;
-      cleaned[key] = { label: label || key, icon };
+      if(!key && !label) continue;
+      const icon = platNormIconVal(key, v.icon);
+      const aliases = Array.isArray(v.aliases) ? v.aliases.map(s => String(s).trim()).filter(Boolean) : [];
+      cleaned[key] = { label: label || key, icon, aliases };
+      const origKey = platKeyOrigin.get(k);
+      if(origKey && origKey !== key) renames.push({ from: origKey, to: key });
     }
     const newStr = JSON.stringify(cleaned, null, 2);
     const oldStr = JSON.stringify(PLATFORMS, null, 2);
-    if(newStr === oldStr){ toast('No platform changes to stage', 'bad'); return; }
+    if(newStr === oldStr && !renames.length){ toast('No platform changes to stage', 'bad'); return; }
+    let migrated = 0;
+    if(renames.length){
+      const allIds = new Set([...Object.keys(MANIFEST.games), ...pendingGameWrites.keys()]);
+      for(const gid of allIds){
+        if(pendingGameDeletes.has(gid)) continue;
+        const g = viewGame(gid);
+        if(!g || !g.platform) continue;
+        const hit = renames.find(r => r.from.toLowerCase() === String(g.platform).trim().toLowerCase());
+        if(hit && g.platform !== hit.to){
+          const copy = JSON.parse(JSON.stringify(g));
+          copy.platform = hit.to;
+          if(MANIFEST.games[gid] && jsonEqual(MANIFEST.games[gid], copy)) pendingGameWrites.delete(gid);
+          else pendingGameWrites.set(gid, copy);
+          migrated++;
+        }
+      }
+    }
     pendingFileWrites.set(PLATFORMS_FILE, newStr + '\n');
     PLATFORMS = cleaned;
     updatePendingStrip();
     invalidateAllPanes();
     renderContent();
     closeToolsModal();
-    toast('Platforms staged — commit to push');
+    toast('Platforms staged' + (migrated ? ' · migrated ' + migrated + ' game' + (migrated===1?'':'s') : ''));
   };
   const videoScan = toolsSlot.querySelector('#video-scan');
   if(videoScan) videoScan.onclick = scanVideos;
@@ -3747,10 +3963,15 @@ function levSimilarity(a, b){ return nameSimilarity(a, b); }
 function scoreCandidate(cName, cPlatform, cRelease, fName, fPlatform, fRelease){
   let score = nameSimilarity(cName || '', fName || '');
   if(fPlatform && String(fPlatform).trim()){
-    const cp = String(cPlatform || '').toLowerCase().trim();
-    const fp = String(fPlatform).toLowerCase().trim();
-    if(cp){
-      if(cp === fp || cp.includes(fp) || fp.includes(cp)) score += 0.5;
+    const fm = resolveRawPlatform(fPlatform);
+    const fp = (fm ? fm.key : String(fPlatform)).toLowerCase().trim();
+    const parts = String(cPlatform || '').split(',').map(s => s.trim()).filter(Boolean);
+    if(parts.length){
+      const norms = parts.map(raw => {
+        const rm = resolveRawPlatform(raw);
+        return (rm ? rm.key : raw).toLowerCase().trim();
+      });
+      if(norms.some(cp => cp === fp || cp.includes(fp) || fp.includes(cp))) score += 0.5;
       else score -= 0.4;
     }
   }
@@ -4293,7 +4514,7 @@ function platformBadgeHTML(g){
   const icon = platformIcon(key);
   if(icon){
     const safe = esc(label);
-    return `<span class="icon-badge" title="${safe}"><img src="${PLATFORM_ICON_BASE + esc(icon)}" alt="${safe}" decoding="async" onerror="this.parentElement.style.display='none'"></span>`;
+    return `<span class="icon-badge" title="${safe}"><img src="${PLATFORM_ICON_BASE + esc(icon)}" alt="${safe}" decoding="async" onerror="const s=this.parentElement;s.className='status-tag platform';s.textContent=this.alt;"></span>`;
   }
   return `<span class="status-tag platform">${esc(label)}</span>`;
 }
@@ -5419,6 +5640,8 @@ function openEditor(g, opts){
   modalSlot._pillsBound = false;
   modalSlot._lockedSources = new Set();
   modalSlot._parseResults = null;
+  modalSlot._parsedPlatformPillsHTML = '';
+  modalSlot._parsedPlatformKeys = new Set();
   modalSlot._mode = mode;
   modalSlot._targetList = targetListId;
   modalSlot._attachId = null;
@@ -6620,6 +6843,33 @@ function renderVariantPills(results){
     const destField = (field === 'release' && isEaTarget) ? 'ea-release' : field;
     const pillsHost = modalSlot.querySelector(`.pills[data-field="${destField}"]`);
     if(!pillsHost) continue;
+    if(field === 'platform'){
+      const grouped = new Map();
+      const addRaw = (raw, src) => {
+        const clean = String(raw || '').trim();
+        if(!clean) return;
+        const mapped = resolveRawPlatform(clean);
+        const val = mapped ? mapped.key : clean;
+        const tip = mapped ? mapped.label : ('Unmapped: ' + clean);
+        const k = val.toLowerCase();
+        if(!grouped.has(k)) grouped.set(k, { val, tip, sources: new Set() });
+        grouped.get(k).sources.add(src);
+      };
+      if(results.igdb && results.igdb.fields && typeof results.igdb.fields.platform === 'string'){
+        results.igdb.fields.platform.split(',').forEach(p => addRaw(p, 'igdb'));
+      }
+      if(results.lbdb && results.lbdb.entries){
+        results.lbdb.entries.forEach(e => { if(e.p) addRaw(e.p, 'lbdb'); });
+      }
+      const pHtml = [...grouped.values()].map(g => {
+        const badges = [...g.sources].map(s => `<span class="p-src src-${s}">${s}</span>`).join('');
+        return `<button type="button" class="pill" data-field="platform" data-value="${esc(g.val)}" title="${esc(g.tip)}">${badges}${esc(g.val)}</button>`;
+      }).join('');
+      modalSlot._parsedPlatformPillsHTML = pHtml;
+      modalSlot._parsedPlatformKeys = new Set(grouped.keys());
+      pillsHost.innerHTML = pHtml;
+      continue;
+    }
     const pills = [];
     for(const src of PARSE_SOURCES){
       const r = results[src];
@@ -6652,24 +6902,6 @@ function renderVariantPills(results){
             pills.push(`<button type="button" class="pill src-lbdb picker" data-field="logo" data-picker="lbdb"><span class="p-src">lbdb</span>${withLogos.length} logos</button>`);
             continue;
           }
-        }
-      }
-      if(field === 'platform'){
-        if(src === 'igdb' && typeof r.fields.platform === 'string' && r.fields.platform){
-          r.fields.platform.split(',').map(s=>s.trim()).filter(Boolean).forEach(p => {
-            pills.push(`<button type="button" class="pill src-igdb" data-field="platform" data-value="${esc(p)}"><span class="p-src">igdb</span>${esc(p)}</button>`);
-          });
-          continue;
-        }
-        if(src === 'lbdb' && r.entries){
-          const seen = new Set();
-          r.entries.forEach(e => {
-            if(e.p && !seen.has(e.p)){
-              seen.add(e.p);
-              pills.push(`<button type="button" class="pill src-lbdb" data-field="platform" data-value="${esc(e.p)}"><span class="p-src">lbdb</span>${esc(e.p)}</button>`);
-            }
-          });
-          continue;
         }
       }
       if(r.fields[field] === undefined) continue;
@@ -6775,6 +7007,11 @@ function attachPillHandlers(){
     const input = modalSlot.querySelector(map[field]);
     if(!input) return;
     input.value = value;
+    if(field === 'platform'){
+      modalSlot._skipPlatSuggestOnce = true;
+      const ph = modalSlot.querySelector('.pills[data-field="platform"]');
+      if(ph) ph.innerHTML = modalSlot._parsedPlatformPillsHTML || '';
+    }
     input.dispatchEvent(new Event('input', { bubbles: true }));
     toast(field === 'ea-release' ? 'Filled into Early Release' : 'Filled');
   });
