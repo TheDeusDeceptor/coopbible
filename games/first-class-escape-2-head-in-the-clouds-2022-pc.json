@@ -21,7 +21,7 @@
   "alt_names": [],
   "dlc": [],
   "flags": {
-    "installed": true,
+    "installed": false,
     "localCoop": false,
     "authRequired": false,
     "ownedSteam": false,
