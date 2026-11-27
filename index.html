@@ -434,6 +434,7 @@
   .media-btn.sgdb:hover{border-color:var(--purple);color:var(--purple);background:rgba(167,139,250,.08);}
   .media-btn.lbdb:hover{border-color:var(--amber);color:var(--amber);background:rgba(245,158,11,.08);}
   .media-btn.hltb:hover{border-color:var(--hltb);color:var(--hltb);background:rgba(251,113,133,.08);}
+  .media-btn.steam:hover{border-color:#66c0f4;color:#66c0f4;background:rgba(102,192,244,.08);}
   .media-btn.steamdb:hover{border-color:#67c1f5;color:#67c1f5;background:rgba(103,193,245,.08);}
   .flag-row{display:flex;gap:.75rem;flex-wrap:wrap}
   .flag-btn{display:inline-flex;align-items:center;gap:.55rem;font-family:var(--font-head);font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.55rem .9rem;border:1px solid var(--border);border-radius:8px;background:transparent;color:var(--muted);cursor:pointer;transition:all .18s ease;}
@@ -530,6 +531,17 @@
   .logo-picker-tile img{width:100%;height:90px;object-fit:contain;background:#000;border-radius:4px;display:block;}
   .logo-picker-grid.wide .logo-picker-tile img{height:auto;aspect-ratio:16/9;object-fit:cover;}
   .logo-picker-tile .lpt-meta{font-family:var(--font-head);font-size:.55rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .logo-picker-grid.videos{grid-template-columns:repeat(3,minmax(0,1fr));gap:.85rem;max-height:66vh;}
+  .video-picker-media{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:4px;overflow:hidden;}
+  .logo-picker-grid.videos .video-picker-media img,.logo-picker-grid.videos .video-picker-media video{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;display:block;}
+  .logo-picker-grid.videos .video-picker-media video{background:#000;opacity:0;pointer-events:none;z-index:2;transition:opacity .18s ease;}
+  .logo-picker-tile.playing .video-picker-media img{opacity:0;}
+  .logo-picker-tile.playing .video-picker-media video{opacity:1;}
+  .logo-picker-grid.videos .lpt-meta{width:100%;font-size:.64rem;color:#cbd5e1;text-transform:none;letter-spacing:.03em;}
+  .video-mode-btn{flex-shrink:0;white-space:nowrap;}
+  .video-mode-btn.on{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft);}
+  @media (max-width:820px){.logo-picker-grid.videos{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  @media (max-width:560px){.logo-picker-grid.videos{grid-template-columns:1fr;}}
   .logo-picker-search{display:flex;gap:.5rem;margin-bottom:.8rem}
   .logo-picker-search input{flex:1;font-family:var(--font-body);font-size:.85rem;color:#e6ebf2;background:#0a0e15;border:1px solid var(--border);border-radius:7px;padding:.55rem .75rem;outline:none;transition:border-color .18s ease;}
   .logo-picker-search input:focus{border-color:var(--accent-line)}
@@ -4176,8 +4188,120 @@ function showLogoPicker(title, items, onPick, opts){
     input.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); rerun(); } });
   }
 }
+let videoPickerMode = 'auto';
+function closeLogoPicker(){
+  logopickerSlot.querySelectorAll('video').forEach(v => {
+    try{ v.pause(); v.removeAttribute('src'); v.load(); }catch(_){}
+  });
+  logopickerBackdrop.classList.remove('open');
+  logopickerSlot.innerHTML = '';
+  refreshScrollJumpVisibility();
+}
+function showVideoPicker(title, items, onPick, opts){
+  opts = opts || {};
+  const searchable = !!opts.searchable;
+  const onSearch = opts.onSearch;
+  if(!items || !items.length){
+    if(!searchable){ toast('No microtrailers found', 'bad'); return; }
+    items = [];
+  }
+  logopickerSlot.innerHTML = `
+    <div class="logo-picker wide">
+      <button class="modal-close" data-close>✕</button>
+      <h2>${esc(title)}</h2>
+      ${searchable ? `
+        <div class="logo-picker-search">
+          <input type="text" id="lp-search" value="${esc(opts.searchValue||'')}" placeholder="Game name, Steam URL, or App ID…" autocomplete="off" spellcheck="false">
+          <button type="button" class="btn primary" id="lp-search-go">Search</button>
+          <button type="button" class="btn video-mode-btn ${videoPickerMode === 'auto' ? 'on' : ''}" id="vp-mode-toggle" title="Toggle Autoplay / Hover preview">${videoPickerMode === 'auto' ? 'Autoplay' : 'Hover'}</button>
+        </div>` : `
+        <div class="logo-picker-search">
+          <button type="button" class="btn video-mode-btn ${videoPickerMode === 'auto' ? 'on' : ''}" id="vp-mode-toggle" style="margin-left:auto">${videoPickerMode === 'auto' ? 'Autoplay' : 'Hover'}</button>
+        </div>`}
+      <p class="sub">${items.length} clip${items.length === 1 ? '' : 's'} — click one to use</p>
+      <div class="logo-picker-grid wide videos" id="logopicker-grid"></div>
+    </div>`;
+  logopickerBackdrop.classList.add('open');
+  refreshScrollJumpVisibility();
+  const grid = logopickerSlot.querySelector('#logopicker-grid');
+  const modeBtn = logopickerSlot.querySelector('#vp-mode-toggle');
+  const renderVideoTiles = () => {
+    grid.querySelectorAll('video').forEach(v => { try{ v.pause(); v.removeAttribute('src'); v.load(); }catch(_){} });
+    if(!items.length){
+      grid.innerHTML = '<div style="grid-column:1/-1;padding:1.5rem;text-align:center;color:var(--muted);font-family:var(--font-head);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;">No microtrailers found</div>';
+      return;
+    }
+    const isAuto = videoPickerMode === 'auto';
+    grid.innerHTML = items.map((it, i) => `
+      <div class="logo-picker-tile" data-idx="${i}">
+        <div class="video-picker-media">
+          ${it.thumb ? `<img src="${esc(it.thumb)}" alt="" loading="lazy" decoding="async">` : ''}
+          <video muted loop playsinline preload="${isAuto ? 'auto' : 'none'}"${isAuto ? ` autoplay src="${esc(it.url)}"` : ''}></video>
+        </div>
+        <div class="lpt-meta" title="${esc(it.label || '')}">${esc(it.label || '')}</div>
+      </div>
+    `).join('');
+    grid.querySelectorAll('.logo-picker-tile').forEach(tile => {
+      const it = items[+tile.dataset.idx];
+      const vid = tile.querySelector('video');
+      vid.addEventListener('playing', () => tile.classList.add('playing'));
+      if(isAuto) vid.play().catch(() => {});
+      tile.addEventListener('mouseenter', () => {
+        if(videoPickerMode !== 'hover') return;
+        if(!vid.getAttribute('src')) vid.setAttribute('src', it.url);
+        vid.play().then(() => tile.classList.add('playing')).catch(() => {});
+      });
+      tile.addEventListener('mouseleave', () => {
+        if(videoPickerMode !== 'hover') return;
+        tile.classList.remove('playing');
+        vid.pause();
+        try{ vid.currentTime = 0; }catch(_){}
+      });
+    });
+  };
+  renderVideoTiles();
+  if(modeBtn){
+    modeBtn.onclick = () => {
+      videoPickerMode = videoPickerMode === 'auto' ? 'hover' : 'auto';
+      modeBtn.classList.toggle('on', videoPickerMode === 'auto');
+      modeBtn.textContent = videoPickerMode === 'auto' ? 'Autoplay' : 'Hover';
+      renderVideoTiles();
+    };
+  }
+  logopickerSlot.querySelectorAll('[data-close]').forEach(el => el.onclick = closeLogoPicker);
+  grid.addEventListener('click', e => {
+    const tile = e.target.closest('.logo-picker-tile');
+    if(!tile) return;
+    const picked = items[+tile.dataset.idx];
+    closeLogoPicker();
+    onPick(picked);
+  });
+  if(searchable && onSearch){
+    const input = logopickerSlot.querySelector('#lp-search');
+    const goBtn = logopickerSlot.querySelector('#lp-search-go');
+    const rerun = async () => {
+      const q = input.value.trim();
+      if(!q) return;
+      goBtn.disabled = true; goBtn.textContent = '…';
+      try{
+        const res = await onSearch(q);
+        if(!res || !res.items || !res.items.length){
+          toast('No microtrailers found for that query', 'bad');
+          goBtn.disabled = false; goBtn.textContent = 'Search';
+          return;
+        }
+        showVideoPicker(res.title, res.items, onPick, { searchable: true, searchValue: q, onSearch });
+      }catch(e){
+        toast(e.message || 'Search failed', 'bad');
+        goBtn.disabled = false; goBtn.textContent = 'Search';
+      }
+    };
+    if(goBtn) goBtn.onclick = rerun;
+    input.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); rerun(); } });
+  }
+}
 logopickerBackdrop.addEventListener('click', e => {
-  if(e.target === logopickerBackdrop){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
+  if(e.target === logopickerBackdrop) closeLogoPicker();
 });
 async function saveMediaLocally(kind, gameId, sourceUrl, onDone){
   if(!gameId){ toast('Save the game first (name required)', 'bad'); return; }
@@ -5808,7 +5932,9 @@ function openEditor(g, opts){
             <div class="field span-2">
               <label>Video (mp4, played on cards &amp; modal)</label>
               <input type="text" id="f-video" value="${esc(draft.video||'')}" placeholder="videos/…mp4">
+              <div class="pills" data-field="video"></div>
               <div class="media-btn-row">
+                <button type="button" class="media-btn steam" id="steam-video">🔍 Steam</button>
                 <button type="button" class="media-btn steamdb" id="steamdb-btn">🎬 SteamDB</button>
               </div>
             </div>
@@ -6062,6 +6188,22 @@ function openEditor(g, opts){
   [nameInput, releaseInput, eaInput, platformInput].forEach(el => {
     el.addEventListener('input', () => { refreshIdDerived(); refreshMatches(); });
   });
+  platformInput.addEventListener('input', () => {
+    if(modalSlot._skipPlatSuggestOnce){ modalSlot._skipPlatSuggestOnce = false; return; }
+    const host = modalSlot.querySelector('.pills[data-field="platform"]');
+    if(!host) return;
+    const parsedHTML = modalSlot._parsedPlatformPillsHTML || '';
+    const parsedKeys = modalSlot._parsedPlatformKeys || new Set();
+    const q = (platformInput.value || '').trim();
+    if(!q){ host.innerHTML = parsedHTML; return; }
+    const hits = matchPlatformsQuery(q)
+      .filter(m => !parsedKeys.has(m.key.toLowerCase()))
+      .slice(0, 10);
+    const suggestHTML = hits.map(m =>
+      `<button type="button" class="pill src-plat" data-field="platform" data-value="${esc(m.key)}" title="${esc(m.label)}"><span class="p-src">plat</span>${esc(m.key)}</button>`
+    ).join('');
+    host.innerHTML = parsedHTML + suggestHTML;
+  });
   idInput.addEventListener('input', () => { userEditedId = true; refreshMatches(); });
   const resetBtn = $('#reset-id');
   if(resetBtn) resetBtn.onclick = () => {
@@ -6124,6 +6266,44 @@ function openEditor(g, opts){
         }
       });
     }catch(err){ toast('LBDB: ' + err.message, 'bad'); }
+    finally{ btn.disabled = false; btn.innerHTML = orig; }
+  });
+  const openSteamVideoPickerFor = (clips, gameTitle, searchVal) => {
+    showVideoPicker('Steam Microtrailers — ' + (gameTitle || searchVal), (clips || []).map(c => ({ url: c.mp4, thumb: c.thumb, label: c.name })), picked => {
+      $('#f-video').value = picked.url;
+      toast('Microtrailer selected');
+    }, {
+      searchable: true,
+      searchValue: searchVal,
+      onSearch: async (q) => {
+        const sq = parseSteamInput(q) || q;
+        const d = await steamSearch(sq);
+        const list = Array.isArray(d.microtrailers) ? d.microtrailers : [];
+        return {
+          title: 'Steam Microtrailers — ' + (d.name || q),
+          items: list.map(c => ({ url: c.mp4, thumb: c.thumb, label: c.name }))
+        };
+      }
+    });
+  };
+  $('#steam-video').addEventListener('click', async () => {
+    const appId = parseSteamInput($('#qp-steam')?.value || '');
+    const nameVal = (nameInput.value || '').trim();
+    const query = appId || nameVal;
+    if(!query){ toast('Enter a name or Steam link first', 'bad'); return; }
+    const cached = modalSlot._parseResults && modalSlot._parseResults.steam;
+    if(cached && Array.isArray(cached.microtrailers) && cached.microtrailers.length && (appId ? cached.appId === appId : cached.query === nameVal)){
+      openSteamVideoPickerFor(cached.microtrailers, cached.name || nameVal, nameVal || appId);
+      return;
+    }
+    const btn = $('#steam-video'); const orig = btn.innerHTML;
+    btn.disabled = true; btn.innerHTML = '…Loading';
+    try{
+      const data = await steamSearch(query);
+      const list = Array.isArray(data.microtrailers) ? data.microtrailers : [];
+      if(!list.length) toast('No microtrailers found on Steam', 'bad');
+      openSteamVideoPickerFor(list, data.name || nameVal || query, nameVal || query);
+    }catch(err){ toast('Steam: ' + err.message, 'bad'); }
     finally{ btn.disabled = false; btn.innerHTML = orig; }
   });
   $('#steamdb-btn').addEventListener('click', () => {
@@ -6819,9 +6999,8 @@ function closeAll(opts){
   modalSlot._attachId = null;
   modalSlot._presetSeriesSlug = null;
   if(igdbPickerClose){ igdbPickerClose(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
-  logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = '';
+  closeLogoPicker();
   closeAllDropdowns();
-  refreshScrollJumpVisibility();
 }
 modalSlot.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeAll(); });
 const PARSE_SOURCES = ['igdb','steam','pcgw','lbdb','hltb','sgdb'];
@@ -6928,6 +7107,13 @@ function renderVariantPills(results){
     }
     hltbHost.innerHTML = pills.join('');
   }
+  const videoHost = modalSlot.querySelector('.pills[data-field="video"]');
+  if(videoHost){
+    const clips = (results.steam && Array.isArray(results.steam.microtrailers)) ? results.steam.microtrailers : [];
+    videoHost.innerHTML = clips.length
+      ? `<button type="button" class="pill src-steam picker" data-field="video" data-picker="steam-video"><span class="p-src">steam</span>${clips.length} clip${clips.length===1?'':'s'}</button>`
+      : '';
+  }
 }
 function attachPillHandlers(){
   if(modalSlot._pillsBound) return;
@@ -6943,6 +7129,27 @@ function attachPillHandlers(){
       if(kind === 'hltb'){
         const r = results.hltb || {};
         showHltbSearchModal(r.query || nameNow, picked => { applyHltbData(picked); }, r.hits || null);
+        return;
+      }
+      if(kind === 'steam-video'){
+        const clips = (results.steam && Array.isArray(results.steam.microtrailers)) ? results.steam.microtrailers : [];
+        const label = (results.steam && results.steam.name) || nameNow;
+        showVideoPicker('Steam Microtrailers — ' + label, clips.map(c => ({ url: c.mp4, thumb: c.thumb, label: c.name })), picked => {
+          const input = modalSlot.querySelector('#f-video');
+          if(input){ input.value = picked.url; toast('Microtrailer selected'); }
+        }, {
+          searchable: true,
+          searchValue: nameNow || (results.steam && results.steam.appId) || '',
+          onSearch: async (q) => {
+            const sq = parseSteamInput(q) || q;
+            const d = await steamSearch(sq);
+            const list = Array.isArray(d.microtrailers) ? d.microtrailers : [];
+            return {
+              title: 'Steam Microtrailers — ' + (d.name || q),
+              items: list.map(c => ({ url: c.mp4, thumb: c.thumb, label: c.name }))
+            };
+          }
+        });
         return;
       }
       if(kind === 'igdb-shot' || kind === 'steam-shot' || kind === 'lbdb-shot'){
@@ -7079,7 +7286,15 @@ async function runParse(){
       } else { data = await steamSearch(name); }
       if(modalSlot._sessionId !== parseSession) return;
       const steamFields = steamMapToFields(data);
-      results.steam = { fields: steamFields, storeUrl: data.storeUrl || '', screenshots: Array.isArray(data.screenshots) ? data.screenshots : [] };
+      results.steam = {
+        fields: steamFields,
+        appId: data.appId || '',
+        name: data.name || '',
+        query: appidLinked || name,
+        storeUrl: data.storeUrl || '',
+        screenshots: Array.isArray(data.screenshots) ? data.screenshots : [],
+        microtrailers: Array.isArray(data.microtrailers) ? data.microtrailers : []
+      };
       setSrcDot(dots.steam, 'found');
       if(!name && steamFields.name && nameInput && !nameInput.value.trim()){
         nameInput.value = steamFields.name;
@@ -8377,7 +8592,7 @@ document.addEventListener('keydown', e => {
   if(e.key !== 'Escape') return;
   if(gtgOverlay.classList.contains('open')){ e.stopImmediatePropagation(); e.preventDefault(); closeGTG(); return; }
   if(driftOverlay.classList.contains('open')){ e.stopImmediatePropagation(); e.preventDefault(); closeDRIFT(); return; }
-  if(logopickerBackdrop.classList.contains('open')){ logopickerBackdrop.classList.remove('open'); logopickerSlot.innerHTML = ''; return; }
+  if(logopickerBackdrop.classList.contains('open')){ closeLogoPicker(); return; }
   if(pickerBackdrop.classList.contains('open')){
     if(igdbPickerClose){ igdbPickerClose(null); } else { pickerBackdrop.classList.remove('open'); pickerSlot.innerHTML = ''; }
     return;
