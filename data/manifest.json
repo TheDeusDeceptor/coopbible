@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-27T19:30:54Z",
+  "updated": "2026-11-27T19:37:56Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -42534,6 +42534,40 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "wo-long-2-wings-of-ember-2027-pc": {
+      "id": "wo-long-2-wings-of-ember-2027-pc",
+      "name": "Wo Long 2: Wings of Ember",
+      "platform": "PC",
+      "size": "",
+      "hltb": "—",
+      "dev": "KOEI TECMO",
+      "pub": "KOEI TECMO",
+      "notes": "",
+      "release": "04.03.2027",
+      "ea_release": "",
+      "screenshot": "images/screenshots/wo-long-2-wings-of-ember-2027-pc.jpg",
+      "logo": "images/logos/wo-long-2-wings-of-ember-2027-pc.png",
+      "video": "https://video.akamai.steamstatic.com/store_trailers/4507990/696531586/4ec3878d8805e199c70307b07e43a4659c8bd4e3/1780878327/microtrailer.mp4?t=1789520556",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4507990",
+          "icon": "steam"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -43243,7 +43277,8 @@
       "living-hell-2027-pc",
       "kemuri-2027-pc",
       "never-alone-2-unreleased-pc",
-      "evilbane-unreleased-pc"
+      "evilbane-unreleased-pc",
+      "wo-long-2-wings-of-ember-2027-pc"
     ],
     "mods": [
       "devil-may-cry-3-crimson-2026-pcmod",
