@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-27T18:45:23Z",
+  "updated": "2026-11-27T18:48:10Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -42314,8 +42314,8 @@
       "notes": "",
       "release": "07.11.2025",
       "ea_release": "",
-      "screenshot": "images/screenshots/yakuza-0-co-op-unreleased-pcmod.jpg",
-      "logo": "images/logos/yakuza-0-co-op-unreleased-pcmod.png",
+      "screenshot": "images/screenshots/yakuza-0-co-op-2025-pcmod.jpg",
+      "logo": "images/logos/yakuza-0-co-op-2025-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -42347,8 +42347,8 @@
       "notes": "",
       "release": "30.10.2026",
       "ea_release": "",
-      "screenshot": "images/screenshots/resident-evil-2-remake-online-multiplayer-mod-unreleased-pc.jpg",
-      "logo": "images/logos/resident-evil-2-remake-online-multiplayer-mod-unreleased-pc.png",
+      "screenshot": "images/screenshots/resident-evil-2-remake-online-multiplayer-mod-2026-pcmod.jpg",
+      "logo": "images/logos/resident-evil-2-remake-online-multiplayer-mod-2026-pcmod.png",
       "links": [
         {
           "label": "Nexus",
@@ -42381,7 +42381,7 @@
       "release": "07.11.2026",
       "ea_release": "",
       "screenshot": "images/screenshots/silent-hill-online-2026-pcmod.jpg",
-      "logo": "images/logos/silent-hill-united-2026-pcmod.png",
+      "logo": "images/logos/silent-hill-online-2026-pcmod.png",
       "links": [
         {
           "label": "GitHub",
@@ -42417,7 +42417,7 @@
       "release": "27.10.2026",
       "ea_release": "",
       "screenshot": "images/screenshots/new-vegas-true-coop-2026-pcmod.jpg",
-      "logo": "images/logos/new-vegas-online-2026-pcmod.png",
+      "logo": "images/logos/new-vegas-true-coop-2026-pcmod.png",
       "links": [
         {
           "label": "Nexus",
