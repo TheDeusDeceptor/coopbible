@@ -9,7 +9,7 @@
   "notes": "",
   "release": "14.08.2026",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/resident-evil-shattered-2026-pcmod.jpg",
   "logo": "images/logos/resident-evil-shattered-2026-pcmod.png",
   "links": [
     {
@@ -28,5 +28,6 @@
   },
   "series": null,
   "series_status": null,
-  "series_note": null
+  "series_note": null,
+  "video": "https://depmify.github.io/Resident-Evil-SHATTERED/assets/shattered-intro-v0.0.4.webm"
 }

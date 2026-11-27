@@ -11,7 +11,13 @@
   "ea_release": "",
   "screenshot": "images/screenshots/yakuza-0-co-op-unreleased-pcmod.jpg",
   "logo": "images/logos/yakuza-0-co-op-unreleased-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/yakuza0/mods/1276",
+      "icon": "nexus"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

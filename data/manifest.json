@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-27T17:55:33Z",
+  "updated": "2026-11-27T18:45:23Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -24918,7 +24918,7 @@
         "localCoop": false,
         "authRequired": false,
         "ownedSteam": false,
-        "gamepass": false
+        "gamepass": true
       },
       "series": null,
       "series_status": null,
@@ -25331,7 +25331,13 @@
       "ea_release": "",
       "screenshot": "images/screenshots/intertwined-fates-2025-pcmod.jpg",
       "logo": "images/logos/intertwined-fates-2025-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/yakuza5remastered/mods/245",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -25411,38 +25417,6 @@
       "series_status": null,
       "series_note": null
     },
-    "silent-hill-united-2026-pcmod": {
-      "id": "silent-hill-united-2026-pcmod",
-      "name": "Silent Hill: United",
-      "platform": "PC",
-      "size": "0.6 GB",
-      "hltb": "Main: 7, +Extra: 8",
-      "dev": "Depmify",
-      "pub": "",
-      "notes": "",
-      "release": "20.07.2026",
-      "ea_release": "",
-      "screenshot": "",
-      "logo": "images/logos/silent-hill-united-2026-pcmod.png",
-      "links": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/Depmify/Silent-Hill-United-Public-"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
     "resident-evil-3-multiplayer-mod-2027-pcmod": {
       "id": "resident-evil-3-multiplayer-mod-2027-pcmod",
       "name": "Resident Evil 3 Multiplayer Mod",
@@ -25486,7 +25460,7 @@
       "notes": "",
       "release": "19.07.2026",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/xrrazom-2026-pcmod.jpg",
       "logo": "images/logos/xrrazom-2026-pcmod.png",
       "links": [
         {
@@ -25518,7 +25492,7 @@
       "notes": "",
       "release": "20.09.2026",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/monster-hunter-world-seamless-co-op-2026-pcmod.jpg",
       "logo": "images/logos/monster-hunter-world-seamless-co-op-2026-pcmod.png",
       "links": [
         {
@@ -25551,7 +25525,7 @@
       "notes": "",
       "release": "14.08.2026",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/resident-evil-shattered-2026-pcmod.jpg",
       "logo": "images/logos/resident-evil-shattered-2026-pcmod.png",
       "links": [
         {
@@ -25570,7 +25544,8 @@
       },
       "series": null,
       "series_status": null,
-      "series_note": null
+      "series_note": null,
+      "video": "https://depmify.github.io/Resident-Evil-SHATTERED/assets/shattered-intro-v0.0.4.webm"
     },
     "ai-limit-together-2026-pcmod": {
       "id": "ai-limit-together-2026-pcmod",
@@ -25583,45 +25558,13 @@
       "notes": "",
       "release": "14.09.2026",
       "ea_release": "",
-      "screenshot": "",
+      "screenshot": "images/screenshots/ai-limit-together-2026-pcmod.jpg",
       "logo": "images/logos/ai-limit-together-2026-pcmod.png",
       "links": [
         {
           "label": "Nexus",
           "url": "https://www.nexusmods.com/ailimit/mods/57",
           "icon": "nexus"
-        }
-      ],
-      "alt_names": [],
-      "dlc": [],
-      "flags": {
-        "installed": false,
-        "localCoop": false,
-        "authRequired": false,
-        "ownedSteam": false,
-        "gamepass": false
-      },
-      "series": null,
-      "series_status": null,
-      "series_note": null
-    },
-    "new-vegas-online-2026-pcmod": {
-      "id": "new-vegas-online-2026-pcmod",
-      "name": "New Vegas: Online",
-      "platform": "PC",
-      "size": "10 GB",
-      "hltb": "Main: 27, +Extra: 60",
-      "dev": "Fall-Net Studios",
-      "pub": "",
-      "notes": "",
-      "release": "22.09.2026",
-      "ea_release": "",
-      "screenshot": "",
-      "logo": "images/logos/new-vegas-online-2026-pcmod.png",
-      "links": [
-        {
-          "label": "NWO",
-          "url": "https://ngnm.newvegasonline.com/"
         }
       ],
       "alt_names": [],
@@ -42373,7 +42316,13 @@
       "ea_release": "",
       "screenshot": "images/screenshots/yakuza-0-co-op-unreleased-pcmod.jpg",
       "logo": "images/logos/yakuza-0-co-op-unreleased-pcmod.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/yakuza0/mods/1276",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -42400,7 +42349,82 @@
       "ea_release": "",
       "screenshot": "images/screenshots/resident-evil-2-remake-online-multiplayer-mod-unreleased-pc.jpg",
       "logo": "images/logos/resident-evil-2-remake-online-multiplayer-mod-unreleased-pc.png",
-      "links": [],
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/residentevil22019/mods/3118",
+          "icon": "nexus"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "silent-hill-online-2026-pcmod": {
+      "id": "silent-hill-online-2026-pcmod",
+      "name": "Silent Hill Online",
+      "platform": "PC",
+      "size": "0.6 GB",
+      "hltb": "Main: 7, +Extra: 8",
+      "dev": "KushAstronaut",
+      "pub": "",
+      "notes": "",
+      "release": "07.11.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/silent-hill-online-2026-pcmod.jpg",
+      "logo": "images/logos/silent-hill-united-2026-pcmod.png",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SlickAmogus/silenthill-online"
+        },
+        {
+          "label": "Website",
+          "url": "https://server.sh1pc.com/"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
+    },
+    "new-vegas-true-coop-2026-pcmod": {
+      "id": "new-vegas-true-coop-2026-pcmod",
+      "name": "New Vegas True Co-op",
+      "platform": "PC",
+      "size": "10 GB",
+      "hltb": "Main: 27, +Extra: 60",
+      "dev": "GargoyleZed",
+      "pub": "",
+      "notes": "",
+      "release": "27.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/new-vegas-true-coop-2026-pcmod.jpg",
+      "logo": "images/logos/new-vegas-online-2026-pcmod.png",
+      "links": [
+        {
+          "label": "Nexus",
+          "url": "https://www.nexusmods.com/newvegas/mods/100267",
+          "icon": "nexus"
+        }
+      ],
       "alt_names": [],
       "dlc": [],
       "flags": {
@@ -43147,12 +43171,12 @@
       "resident-evil-2-remake-online-multiplayer-mod-2026-pcmod",
       "resident-evil-3-multiplayer-mod-2027-pcmod",
       "resident-evil-4-multiplayer-mod-2026-pcmod",
-      "silent-hill-united-2026-pcmod",
+      "silent-hill-online-2026-pcmod",
       "xrrazom-2026-pcmod",
       "monster-hunter-world-seamless-co-op-2026-pcmod",
       "resident-evil-shattered-2026-pcmod",
       "ai-limit-together-2026-pcmod",
-      "new-vegas-online-2026-pcmod",
+      "new-vegas-true-coop-2026-pcmod",
       "crysis-co-op-2026-pcmod"
     ],
     "lan-fun": [],

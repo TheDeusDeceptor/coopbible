@@ -11,7 +11,13 @@
   "ea_release": "",
   "screenshot": "images/screenshots/resident-evil-2-remake-online-multiplayer-mod-unreleased-pc.jpg",
   "logo": "images/logos/resident-evil-2-remake-online-multiplayer-mod-unreleased-pc.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/residentevil22019/mods/3118",
+      "icon": "nexus"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

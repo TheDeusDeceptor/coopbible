@@ -11,7 +11,13 @@
   "ea_release": "",
   "screenshot": "images/screenshots/intertwined-fates-2025-pcmod.jpg",
   "logo": "images/logos/intertwined-fates-2025-pcmod.png",
-  "links": [],
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/yakuza5remastered/mods/245",
+      "icon": "nexus"
+    }
+  ],
   "alt_names": [],
   "dlc": [],
   "flags": {

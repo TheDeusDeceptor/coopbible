@@ -1,20 +1,24 @@
 {
-  "id": "silent-hill-united-2026-pcmod",
-  "name": "Silent Hill: United",
+  "id": "silent-hill-online-2026-pcmod",
+  "name": "Silent Hill Online",
   "platform": "PC",
   "size": "0.6 GB",
   "hltb": "Main: 7, +Extra: 8",
-  "dev": "Depmify",
+  "dev": "KushAstronaut",
   "pub": "",
   "notes": "",
-  "release": "20.07.2026",
+  "release": "07.11.2026",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/silent-hill-online-2026-pcmod.jpg",
   "logo": "images/logos/silent-hill-united-2026-pcmod.png",
   "links": [
     {
       "label": "GitHub",
-      "url": "https://github.com/Depmify/Silent-Hill-United-Public-"
+      "url": "https://github.com/SlickAmogus/silenthill-online"
+    },
+    {
+      "label": "Website",
+      "url": "https://server.sh1pc.com/"
     }
   ],
   "alt_names": [],

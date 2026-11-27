@@ -19,7 +19,7 @@
     "localCoop": false,
     "authRequired": false,
     "ownedSteam": false,
-    "gamepass": false
+    "gamepass": true
   },
   "series": null,
   "series_status": null,

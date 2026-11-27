@@ -1,20 +1,21 @@
 {
-  "id": "new-vegas-online-2026-pcmod",
-  "name": "New Vegas: Online",
+  "id": "new-vegas-true-coop-2026-pcmod",
+  "name": "New Vegas True Co-op",
   "platform": "PC",
   "size": "10 GB",
   "hltb": "Main: 27, +Extra: 60",
-  "dev": "Fall-Net Studios",
+  "dev": "GargoyleZed",
   "pub": "",
   "notes": "",
-  "release": "22.09.2026",
+  "release": "27.10.2026",
   "ea_release": "",
-  "screenshot": "",
+  "screenshot": "images/screenshots/new-vegas-true-coop-2026-pcmod.jpg",
   "logo": "images/logos/new-vegas-online-2026-pcmod.png",
   "links": [
     {
-      "label": "NWO",
-      "url": "https://ngnm.newvegasonline.com/"
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/newvegas/mods/100267",
+      "icon": "nexus"
     }
   ],
   "alt_names": [],
