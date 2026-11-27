@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-27T19:21:47Z",
+  "updated": "2026-11-27T19:30:54Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -42505,6 +42505,34 @@
       },
       "series": null,
       "series_status": null,
+      "series_note": null,
+      "video": "videos/nightcoop-2026-pcmod.mp4"
+    },
+    "kingdom-come-together-2026-pcmod": {
+      "id": "kingdom-come-together-2026-pcmod",
+      "name": "Kingdom Come Together",
+      "platform": "PC",
+      "size": "",
+      "hltb": "Main: 56, +Extra: 101",
+      "dev": "DeepFriedDepp",
+      "pub": "",
+      "notes": "",
+      "release": "04.10.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/kingdom-come-together-2026-pc.jpg",
+      "logo": "images/logos/kingdom-come-together-2026-pcmod.png",
+      "links": [],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
       "series_note": null
     }
   },
@@ -43248,7 +43276,8 @@
       "new-vegas-true-coop-2026-pcmod",
       "crysis-co-op-2026-pcmod",
       "nfs-mw-together-2026-pcmod",
-      "nightcoop-2026-pcmod"
+      "nightcoop-2026-pcmod",
+      "kingdom-come-together-2026-pcmod"
     ],
     "lan-fun": [],
     "coop-beaten": [

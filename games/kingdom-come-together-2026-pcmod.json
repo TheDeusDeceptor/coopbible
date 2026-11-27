@@ -1,0 +1,27 @@
+{
+  "id": "kingdom-come-together-2026-pcmod",
+  "name": "Kingdom Come Together",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 56, +Extra: 101",
+  "dev": "DeepFriedDepp",
+  "pub": "",
+  "notes": "",
+  "release": "04.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/kingdom-come-together-2026-pc.jpg",
+  "logo": "images/logos/kingdom-come-together-2026-pcmod.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
