@@ -1,0 +1,27 @@
+{
+  "id": "resident-evil-2-remake-online-multiplayer-mod-2026-pcmod",
+  "name": "Resident Evil 2 Remake Online Multiplayer Mod",
+  "platform": "PC",
+  "size": "",
+  "hltb": "Main: 9, +Extra: 16",
+  "dev": "Kenjiro",
+  "pub": "",
+  "notes": "",
+  "release": "30.10.2026",
+  "ea_release": "",
+  "screenshot": "images/screenshots/resident-evil-2-remake-online-multiplayer-mod-unreleased-pc.jpg",
+  "logo": "images/logos/resident-evil-2-remake-online-multiplayer-mod-unreleased-pc.png",
+  "links": [],
+  "alt_names": [],
+  "dlc": [],
+  "flags": {
+    "installed": false,
+    "localCoop": false,
+    "authRequired": false,
+    "ownedSteam": false,
+    "gamepass": false
+  },
+  "series": null,
+  "series_status": null,
+  "series_note": null
+}
