@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-27T19:19:39Z",
+  "updated": "2026-11-27T19:21:47Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -42449,8 +42449,8 @@
       "notes": "",
       "release": "22.11.2026",
       "ea_release": "",
-      "screenshot": "images/screenshots/nfs-mw-together-unreleased-pc.jpg",
-      "logo": "images/logos/nfs-mw-together-unreleased-pc.png",
+      "screenshot": "images/screenshots/nfs-mw-together-2026-pcmod.jpg",
+      "logo": "images/logos/nfs-mw-together-2026-pcmod.png",
       "links": [
         {
           "label": "GitHub",
@@ -42486,8 +42486,8 @@
       "notes": "",
       "release": "23.10.2026",
       "ea_release": "",
-      "screenshot": "images/screenshots/nightcoop-2026-pc.jpg",
-      "logo": "images/logos/nightcoop-2026-pc.png",
+      "screenshot": "images/screenshots/nightcoop-2026-pcmod.jpg",
+      "logo": "images/logos/nightcoop-2026-pcmod.png",
       "links": [
         {
           "label": "Website",
