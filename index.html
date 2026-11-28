@@ -860,17 +860,18 @@
   .gtg-score-strip .col.right{align-items:flex-end}
   .gtg-score-strip .lbl{color:#5b4a86;font-size:.5rem;letter-spacing:.14em}
   .gtg-score-strip .val{color:#a78bfa;font-size:clamp(.75rem, 1.6vw, 1rem);text-shadow:0 0 10px rgba(167,139,250,.5)}
-  .gtg-game-view{padding:clamp(1rem, 3vw, 2rem) clamp(.75rem, 2vw, 1.25rem) 3rem}
-  .gtg-shell{width:100%;max-width:1100px}
+  .gtg-tagline{font-family:'Chakra Petch',system-ui,sans-serif;font-size:clamp(.75rem, 1.4vw, .95rem);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#7d6eb0;margin-top:-1.4rem;}
+  .gtg-game-view{padding:clamp(.8rem, 2.2vw, 1.5rem) clamp(.75rem, 2vw, 1.25rem) 2rem}
+  .gtg-shell{width:100%;max-width:min(82vw, 1560px)}
   .gtg-frame{border:3px solid #a78bfa;border-radius:10px;padding:4px;background:#000;box-shadow:0 0 0 1px #000, 0 0 30px rgba(167,139,250,.25), 0 0 80px rgba(167,139,250,.08), inset 0 0 0 2px #1a1230;animation:gtgFramePulse 4s ease-in-out infinite;}
   @keyframes gtgFramePulse{0%,100%{box-shadow:0 0 0 1px #000, 0 0 30px rgba(167,139,250,.25), 0 0 80px rgba(167,139,250,.08), inset 0 0 0 2px #1a1230}50%{box-shadow:0 0 0 1px #000, 0 0 42px rgba(167,139,250,.40), 0 0 100px rgba(167,139,250,.14), inset 0 0 0 2px #1a1230}}
   .gtg-crt{position:relative;background:#050608;border-radius:6px;overflow:hidden;box-shadow:inset 0 0 80px rgba(0,0,0,.9);}
-  .gtg-crt-content{position:relative;z-index:1;padding:clamp(.9rem, 2vw, 1.4rem) clamp(.9rem, 2vw, 1.5rem) clamp(.9rem, 2vw, 1.4rem);}
+  .gtg-crt-content{position:relative;z-index:1;padding:clamp(.85rem, 1.8vw, 1.3rem) clamp(.9rem, 2vw, 1.5rem) clamp(.9rem, 1.8vw, 1.3rem);}
   .gtg-scanlines{position:absolute;inset:0;pointer-events:none;z-index:20;background:repeating-linear-gradient(0deg, transparent 0 2px, rgba(0,0,0,.45) 2px 3px);mix-blend-mode:multiply;opacity:.65;border-radius:6px;}
-  .gtg-vignette{position:absolute;inset:0;pointer-events:none;z-index:21;border-radius:6px;background:radial-gradient(ellipse at center, transparent 45%, rgba(0,0,0,.7) 100%);}
+  .gtg-vignette{position:absolute;inset:0;pointer-events:none;z-index:21;border-radius:6px;background:radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,.42) 100%);}
   .gtg-shake{animation:gtgShake .42s cubic-bezier(.36,.07,.19,.97)}
   @keyframes gtgShake{10%,90%{transform:translate(-2px,0)}20%,80%{transform:translate(4px,0)}30%,50%,70%{transform:translate(-6px,0)}40%,60%{transform:translate(6px,0)}}
-  .gtg-hud{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:clamp(.7rem, 1.6vw, 1.15rem);}
+  .gtg-hud{position:relative;z-index:25;display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:clamp(.65rem, 1.4vw, 1rem);}
   .gtg-hud-block{display:flex;flex-direction:column;gap:.45rem}
   .gtg-hud-label{font-family:'Press Start 2P',monospace;font-size:clamp(.42rem, .85vw, .55rem);letter-spacing:.16em;color:#a78bfa;text-shadow:0 0 10px rgba(167,139,250,.5), 0 0 24px rgba(167,139,250,.35);}
   .gtg-hud-value{font-family:'Press Start 2P',monospace;font-size:clamp(1.2rem, 2.4vw, 1.7rem);letter-spacing:.06em;color:#a78bfa;text-shadow:0 0 6px #f3eaff, 0 0 14px #c4b5fd, 0 0 30px #a78bfa, 0 0 60px rgba(167,139,250,.5), 0 4px 0 #2d1b4d;}
@@ -879,7 +880,10 @@
   .gtg-hearts{display:flex;gap:clamp(.4rem, 1vw, .7rem);align-items:center;padding-top:.15rem}
   .gtg-heart{font-family:'Press Start 2P',monospace;font-size:clamp(1.05rem, 2vw, 1.4rem);line-height:1;color:#ff5c5c;text-shadow:0 0 6px #ffe5e5, 0 0 14px #ff5c5c, 0 0 30px #ef4444, 0 0 60px rgba(239,68,68,.6), 0 3px 0 #3a0a0a;transition:all .35s ease;}
   .gtg-heart.dim{color:#150808;text-shadow:0 0 4px rgba(239,68,68,.1);opacity:.7;transform:scale(.86);}
-  .gtg-shot{position:relative;aspect-ratio:16/9;width:100%;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:clamp(.7rem, 1.6vw, 1.15rem);user-select:none;-webkit-user-select:none;}
+  .gtg-shot{position:relative;height:clamp(220px, 48vh, 520px);width:100%;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:clamp(.7rem, 1.6vw, 1.15rem);user-select:none;-webkit-user-select:none;}
+  .gtg-zoom-bar-wrap{position:absolute;left:0;right:0;bottom:0;height:4px;background:rgba(0,0,0,.7);z-index:5;pointer-events:none;}
+  .gtg-zoom-bar{height:100%;width:100%;background:#a78bfa;box-shadow:0 0 8px #a78bfa;}
+  @media (max-width:640px){.gtg-shell{max-width:100%;}}
   .gtg-shot-frame{position:relative;border:2px solid #a78bfa;box-shadow:0 0 0 1px rgba(0,0,0,.9), 0 0 24px rgba(167,139,250,.2), inset 0 0 30px rgba(0,0,0,.5);transition:width .18s ease, height .18s ease;overflow:hidden;}
   .gtg-shot-img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none;user-select:none;opacity:0;transition:opacity .25s ease;filter:saturate(1.05) contrast(1.03);transform-origin:center center;will-change:transform;}
   .gtg-shot-img.ready{opacity:1}
@@ -924,82 +928,84 @@
   }
 </style>
 <style>
-  .drift-overlay{position:fixed;inset:0;z-index:9600;display:none;background:#000;font-family:'Chakra Petch',system-ui,sans-serif;color:#e6faff;overflow-y:auto;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+  .drift-overlay{position:fixed;inset:0;z-index:9600;display:none;background:#000;font-family:'Press Start 2P',monospace;color:#e6faff;overflow-y:auto;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
   .drift-overlay.open{display:block;}
   .drift-overlay *{box-sizing:border-box;}
-  .drift-bg-grid{position:absolute;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(34,211,238,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.04) 1px,transparent 1px);background-size:40px 40px;}
-  .drift-bg-glow{position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(34,211,238,.10),transparent 60%);}
-  .drift-view{display:none;min-height:100vh;padding:2rem 1rem;flex-direction:column;align-items:center;justify-content:center;position:relative;z-index:1;}
+  .drift-view{display:none;min-height:100vh;padding:2rem 1rem;align-items:flex-start;justify-content:center;}
   .drift-view.on{display:flex;}
-  .drift-view.drift-game-view.on{justify-content:flex-start;padding-top:1.5rem;}
-  .drift-splash-inner{width:100%;max-width:1000px;margin:auto;display:flex;flex-direction:column;align-items:center;gap:clamp(1.5rem,4vw,3rem);text-align:center;animation:driftSplashIn .5s cubic-bezier(.2,.7,.3,1);}
-  @keyframes driftSplashIn{from{opacity:0;transform:translateY(20px) scale(.96)}to{opacity:1;transform:none}}
+  .drift-splash-inner{width:100%;max-width:1000px;margin:auto;display:flex;flex-direction:column;align-items:center;gap:clamp(1.5rem,4vw,3rem);text-align:center;animation:gtgSplashIn .5s cubic-bezier(.2,.7,.3,1);}
   .drift-splash-emojis{display:flex;align-items:center;justify-content:center;gap:clamp(.5rem,1.5vw,1rem);font-size:clamp(5rem,18vw,12rem);line-height:1;filter:drop-shadow(0 0 60px rgba(34,211,238,.2));}
   .drift-splash-emojis span:nth-child(1){transform:rotate(-8deg) translateY(.06em)}
   .drift-splash-emojis span:nth-child(2){transform:translateY(-.12em);font-size:1.15em}
   .drift-splash-emojis span:nth-child(3){transform:rotate(8deg) translateY(.06em)}
-  .drift-splash-title{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(2.4rem,8vw,5rem);letter-spacing:.18em;color:#67e8f9;text-shadow:0 0 14px rgba(34,211,238,.7),0 0 40px rgba(34,211,238,.4);margin-top:-.5rem;}
+  .drift-splash-title{font-family:'Press Start 2P',monospace;font-size:clamp(2rem,6vw,3.8rem);letter-spacing:.08em;color:#22d3ee;text-shadow:0 0 12px rgba(34,211,238,.55),0 0 36px rgba(34,211,238,.35),0 4px 0 #083344;margin-top:-.5rem;}
+  .drift-tagline{font-family:'Chakra Petch',system-ui,sans-serif;font-size:clamp(.75rem,1.4vw,.95rem);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#155e75;margin-top:-1.4rem;}
   .drift-diff-row{display:flex;gap:clamp(.6rem,1.5vw,1.2rem);justify-content:center;width:100%;max-width:760px;flex-wrap:wrap;}
-  .drift-start-btn{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(1rem,2vw,1.3rem);letter-spacing:.2em;padding:clamp(1rem,2.2vw,1.4rem) clamp(2rem,5vw,3.5rem);background:transparent;border:2px solid #22d3ee;color:#67e8f9;border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(34,211,238,.5);box-shadow:0 4px 0 rgba(0,0,0,.5);}
-  .drift-start-btn:hover{background:#22d3ee;color:#04141a;text-shadow:none;box-shadow:0 0 26px rgba(34,211,238,.55),0 4px 0 rgba(0,0,0,.5);transform:translateY(-2px);}
+  .drift-start-btn{font-family:'Press Start 2P',monospace;font-size:clamp(.75rem,1.5vw,1rem);letter-spacing:.1em;padding:clamp(.9rem,2vw,1.3rem) clamp(2rem,5vw,3.2rem);background:transparent;border:2px solid #22d3ee;color:#22d3ee;border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(34,211,238,.4);box-shadow:0 4px 0 rgba(0,0,0,.6);}
+  .drift-start-btn:hover{background:#22d3ee;color:#04141a;text-shadow:none;box-shadow:0 0 26px rgba(34,211,238,.55),0 4px 0 rgba(0,0,0,.6);transform:translateY(-2px);}
   .drift-start-btn:active{transform:translateY(2px)}
-  .drift-splash-scores{display:flex;justify-content:space-between;width:100%;max-width:760px;font-family:'Chakra Petch',system-ui,sans-serif;font-size:.72rem;letter-spacing:.14em;padding:0 clamp(.5rem,1vw,1rem);margin-top:-.5rem;color:#67e8f9;}
+  .drift-splash-scores{display:flex;justify-content:space-between;width:100%;max-width:760px;font-family:'Press Start 2P',monospace;font-size:.6rem;letter-spacing:.06em;padding:0 clamp(.5rem,1vw,1rem);margin-top:-.5rem;}
   .drift-splash-scores .col{display:flex;flex-direction:column;gap:.4rem}
   .drift-splash-scores .col.right{align-items:flex-end}
-  .drift-splash-scores .lbl{color:#0e7490;font-size:.6rem;letter-spacing:.16em}
-  .drift-splash-scores .val{color:#67e8f9;font-size:clamp(.95rem,2vw,1.15rem);text-shadow:0 0 10px rgba(34,211,238,.6)}
-  .drift-game-view{padding:clamp(1rem,3vw,2rem) clamp(.75rem,2vw,1.25rem) 3rem;}
-  .drift-shell{width:100%;max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:1rem;}
-  .drift-hud{display:flex;justify-content:space-between;align-items:center;padding-bottom:.7rem;border-bottom:1px solid rgba(34,211,238,.3);}
-  .drift-hud-label{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.7rem;letter-spacing:.18em;color:#22d3ee;text-shadow:0 0 10px rgba(34,211,238,.5);margin-bottom:.2rem;}
-  .drift-hud-value{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:1.6rem;letter-spacing:.06em;color:#67e8f9;text-shadow:0 0 8px #fff,0 0 18px #22d3ee,0 0 40px rgba(34,211,238,.5);}
-  .drift-hud-sub{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:600;font-size:.62rem;letter-spacing:.16em;color:#0e7490;margin-top:.25rem;text-transform:uppercase;}
+  .drift-splash-scores .lbl{color:#0e7490;font-size:.5rem;letter-spacing:.14em}
+  .drift-splash-scores .val{color:#22d3ee;font-size:clamp(.75rem,1.6vw,1rem);text-shadow:0 0 10px rgba(34,211,238,.5)}
+  .drift-game-view{padding:clamp(.8rem,2.2vw,1.5rem) clamp(.75rem,2vw,1.25rem) 2rem;}
+  .drift-shell{width:100%;max-width:min(82vw,1340px);margin:0 auto;}
+  .drift-frame{border:3px solid #22d3ee;border-radius:10px;padding:4px;background:#000;box-shadow:0 0 0 1px #000,0 0 30px rgba(34,211,238,.25),0 0 80px rgba(34,211,238,.08),inset 0 0 0 2px #083344;animation:driftFramePulse 4s ease-in-out infinite;}
+  @keyframes driftFramePulse{0%,100%{box-shadow:0 0 0 1px #000,0 0 30px rgba(34,211,238,.25),0 0 80px rgba(34,211,238,.08),inset 0 0 0 2px #083344}50%{box-shadow:0 0 0 1px #000,0 0 42px rgba(34,211,238,.4),0 0 100px rgba(34,211,238,.14),inset 0 0 0 2px #083344}}
+  .drift-crt{position:relative;background:#050608;border-radius:6px;overflow:hidden;box-shadow:inset 0 0 80px rgba(0,0,0,.9);}
+  .drift-crt-content{position:relative;z-index:1;padding:clamp(.85rem,1.8vw,1.3rem) clamp(.9rem,2vw,1.5rem) clamp(.9rem,1.8vw,1.3rem);}
+  .drift-hud{position:relative;z-index:25;display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:clamp(.65rem,1.4vw,1rem);}
+  .drift-hud-block{display:flex;flex-direction:column;gap:.45rem;}
+  .drift-hud-label{font-family:'Press Start 2P',monospace;font-size:clamp(.42rem,.85vw,.55rem);letter-spacing:.16em;color:#22d3ee;text-shadow:0 0 10px rgba(34,211,238,.5),0 0 24px rgba(34,211,238,.35);}
+  .drift-hud-value{font-family:'Press Start 2P',monospace;font-size:clamp(1.2rem,2.4vw,1.7rem);letter-spacing:.06em;color:#22d3ee;text-shadow:0 0 6px #cffafe,0 0 14px #67e8f9,0 0 30px #22d3ee,0 0 60px rgba(34,211,238,.5),0 4px 0 #083344;}
+  .drift-hud-sub{font-family:'Press Start 2P',monospace;font-size:clamp(.4rem,.75vw,.5rem);letter-spacing:.14em;color:#0e7490;margin-top:.25rem;text-transform:uppercase;}
   .drift-hud-sub b{color:#67e8f9;}
-  .drift-hearts{display:flex;gap:.55rem;align-items:center;}
-  .drift-heart{font-size:1.4rem;line-height:1;color:#67e8f9;text-shadow:0 0 6px #fff,0 0 14px #22d3ee,0 0 30px rgba(34,211,238,.6);transition:all .35s ease;}
-  .drift-heart.dim{color:#082229;text-shadow:none;opacity:.7;transform:scale(.86);}
-  .drift-prompt{text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(1.1rem,2.4vw,1.7rem);letter-spacing:.14em;color:#67e8f9;text-shadow:0 0 10px #fff,0 0 22px #22d3ee,0 0 44px rgba(34,211,238,.5);padding:.4rem 0;}
-  .drift-arena{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1rem,2vw,1.75rem);align-items:stretch;}
-  .drift-card{position:relative;border:2px solid #22d3ee;border-radius:8px;overflow:hidden;cursor:pointer;transition:transform .25s cubic-bezier(.2,.7,.3,1),border-color .2s ease,box-shadow .3s ease;background:#020a0e;aspect-ratio:4/3;display:flex;flex-direction:column;box-shadow:0 0 0 1px rgba(0,0,0,.9),inset 0 0 30px rgba(34,211,238,.05);}
-  .drift-card:hover{border-color:#67e8f9;transform:translateY(-3px);box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 30px rgba(34,211,238,.4),inset 0 0 40px rgba(34,211,238,.08);}
+  .drift-hearts{display:flex;gap:clamp(.4rem,1vw,.7rem);align-items:center;padding-top:.15rem;}
+  .drift-heart{font-family:'Press Start 2P',monospace;font-size:clamp(1.05rem,2vw,1.4rem);line-height:1;color:#ff5c5c;text-shadow:0 0 6px #ffe5e5,0 0 14px #ff5c5c,0 0 30px #ef4444,0 0 60px rgba(239,68,68,.6),0 3px 0 #3a0a0a;transition:all .35s ease;}
+  .drift-heart.dim{color:#150808;text-shadow:0 0 4px rgba(239,68,68,.1);opacity:.7;transform:scale(.86);}
+  .drift-prompt{position:relative;z-index:25;text-align:center;font-family:'Press Start 2P',monospace;font-size:clamp(.85rem,1.8vw,1.3rem);letter-spacing:.06em;color:#22d3ee;text-shadow:0 0 10px #cffafe,0 0 24px rgba(34,211,238,.5),0 3px 0 #083344;margin-bottom:clamp(.7rem,1.5vw,1rem);}
+  .drift-arena{display:grid;grid-template-columns:1fr 1fr;gap:clamp(.9rem,1.8vw,1.4rem);align-items:start;}
+  .drift-col{display:flex;flex-direction:column;gap:.45rem;}
+  .drift-card{position:relative;border:2px solid #22d3ee;border-radius:3px;overflow:hidden;cursor:pointer;transition:transform .16s ease,border-color .16s ease,box-shadow .22s ease;background:#020a0e;aspect-ratio:16/10;max-height:46vh;width:100%;display:flex;flex-direction:column;box-shadow:0 0 22px -6px rgba(34,211,238,.45),inset 0 0 30px rgba(0,0,0,.7);}
+  .drift-card:hover{border-color:#cffafe;transform:translateY(-2px);box-shadow:0 0 28px rgba(34,211,238,.5);}
   .drift-card.correct{animation:driftCorrectFlash .7s ease;}
   .drift-card.wrong{animation:driftWrongFlash .7s ease;}
   .drift-card.correct-reveal{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 30px rgba(34,211,238,.7),inset 0 0 40px rgba(34,211,238,.15);}
   @keyframes driftCorrectFlash{0%{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 20px rgba(34,211,238,.5)}30%{box-shadow:0 0 0 3px #67e8f9,0 0 60px rgba(34,211,238,.9),inset 0 0 80px rgba(34,211,238,.35)}100%{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 20px rgba(34,211,238,.5)}}
   @keyframes driftWrongFlash{0%{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 20px rgba(239,68,68,.4)}30%{box-shadow:0 0 0 3px #ef4444,0 0 60px rgba(239,68,68,.9),inset 0 0 80px rgba(239,68,68,.35)}100%{box-shadow:0 0 0 1px rgba(0,0,0,.9),0 0 20px rgba(239,68,68,.4)}}
-  .drift-subject{position:absolute;top:.5rem;left:.6rem;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.58rem;letter-spacing:.16em;color:#67e8f9;background:rgba(2,10,14,.85);border:1px solid rgba(34,211,238,.4);padding:.2rem .5rem;border-radius:4px;z-index:3;}
+  .drift-subject{position:absolute;top:.5rem;left:.55rem;font-family:'Press Start 2P',monospace;font-size:.44rem;letter-spacing:.1em;color:#cffafe;background:rgba(2,10,14,.86);border:1px solid rgba(34,211,238,.45);padding:.28rem .48rem;border-radius:2px;z-index:3;}
   .drift-shot{position:absolute;inset:0;background:#000;}
   .drift-shot img{width:100%;height:100%;object-fit:cover;display:block;}
-  .drift-shot::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.85) 0%,rgba(0,0,0,.3) 45%,transparent 70%);pointer-events:none;}
-  .drift-logo-wrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:15% 12%;z-index:2;pointer-events:none;}
-  .drift-logo-wrap::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 55% at center, rgba(0,0,0,.72) 0%, rgba(0,0,0,.35) 45%, transparent 78%);pointer-events:none;z-index:0;}
-  .drift-logo-wrap img{position:relative;z-index:1;max-width:100%;max-height:100%;object-fit:contain;display:block;filter:drop-shadow(0 6px 14px rgba(0,0,0,.9));}
-  .drift-logo-wrap .ph{position:relative;z-index:1;font-family:'Chakra Petch',system-ui,sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.14em;color:#0e7490;text-transform:uppercase;text-align:center;line-height:1.6;}
-  .drift-reveal{position:absolute;bottom:.6rem;left:.6rem;right:.6rem;text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.12em;color:#67e8f9;background:rgba(2,10,14,.9);border:1px solid rgba(34,211,238,.5);padding:.35rem .5rem;border-radius:4px;z-index:4;opacity:0;transform:translateY(6px);transition:opacity .35s ease,transform .35s ease;pointer-events:none;text-shadow:0 0 8px rgba(34,211,238,.6);}
+  .drift-shot::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 64% 58% at center,rgba(0,0,0,.72) 0%,rgba(0,0,0,.35) 55%,rgba(0,0,0,.8) 100%);pointer-events:none;}
+  .drift-logo-wrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:14% 12%;z-index:2;pointer-events:none;}
+  .drift-logo-wrap::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 55% at center,rgba(0,0,0,.72) 0%,rgba(0,0,0,.35) 45%,transparent 78%);pointer-events:none;z-index:0;}
+  .drift-logo-wrap img{position:relative;z-index:1;max-width:100%;max-height:100%;object-fit:contain;display:block;filter:drop-shadow(0 6px 14px rgba(0,0,0,.95));}
+  .drift-logo-wrap .ph{position:relative;z-index:1;font-family:'Press Start 2P',monospace;font-size:.6rem;color:#67e8f9;text-align:center;line-height:1.6;}
+  .drift-reveal{position:absolute;bottom:.55rem;left:.55rem;right:.55rem;text-align:center;font-family:'Press Start 2P',monospace;font-size:.62rem;letter-spacing:.06em;color:#cffafe;background:rgba(2,10,14,.92);border:1px solid #22d3ee;padding:.45rem .5rem;border-radius:2px;z-index:4;opacity:0;transform:translateY(5px);transition:opacity .25s ease,transform .25s ease;pointer-events:none;text-shadow:0 0 8px rgba(34,211,238,.6);}
   .drift-reveal.show{opacity:1;transform:translateY(0);}
-  .drift-peek-row{text-align:center;min-height:2.4rem;display:flex;justify-content:center;align-items:center;}
-  .drift-peek-btn{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.16em;padding:.55rem 1.2rem;border:2px solid #fbbf24;color:#fbbf24;background:rgba(251,191,36,.08);border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(251,191,36,.5);text-transform:uppercase;}
-  .drift-peek-btn:hover{background:#fbbf24;color:#1a1306;text-shadow:none;box-shadow:0 0 20px rgba(251,191,36,.55);}
-  .drift-peek-btn.hidden{display:none;}
-  .drift-reveal-line{text-align:center;font-family:'Chakra Petch',system-ui,sans-serif;font-weight:600;font-size:.95rem;letter-spacing:.14em;color:#67e8f9;text-shadow:0 0 12px rgba(34,211,238,.6);opacity:0;transition:opacity .35s ease;min-height:1.4em;}
+  .drift-peek-slot{min-height:36px;display:flex;align-items:center;justify-content:center;}
+  .drift-peek-btn{width:100%;height:34px;font-family:'Press Start 2P',monospace;font-size:.5rem;letter-spacing:.08em;border:2px solid #fbbf24;color:#fbbf24;background:rgba(251,191,36,.08);border-radius:2px;cursor:pointer;transition:opacity .16s ease,background .15s ease,color .15s ease,box-shadow .15s ease;display:flex;align-items:center;justify-content:center;gap:.45rem;}
+  .drift-peek-btn:hover{background:#fbbf24;color:#1a1306;box-shadow:0 0 16px rgba(251,191,36,.5);}
+  .drift-peek-btn.hidden{opacity:0;pointer-events:none;}
+  .drift-reveal-line{position:relative;z-index:25;text-align:center;font-family:'Press Start 2P',monospace;font-size:.55rem;letter-spacing:.08em;color:#cffafe;text-shadow:0 0 10px rgba(34,211,238,.6);opacity:0;transition:opacity .3s ease;min-height:1.3em;margin-top:.3rem;}
   .drift-reveal-line.show{opacity:1;}
-  .drift-summary-view{justify-content:center;}
-  .drift-summary-view::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(34,211,238,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.04) 1px,transparent 1px);background-size:40px 40px;}
-  .drift-summary-inner{position:relative;z-index:1;display:flex;flex-direction:column;gap:1.2rem;align-items:center;text-align:center;}
-  .drift-summary-inner h2{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(2rem,5vw,2.8rem);letter-spacing:.2em;color:#67e8f9;text-shadow:0 0 14px #fff,0 0 40px #22d3ee,0 0 80px rgba(34,211,238,.5);}
-  .drift-summary-inner .lbl{font-family:'Chakra Petch',system-ui,sans-serif;font-size:.85rem;color:#0e7490;letter-spacing:.3em;}
-  .drift-summary-inner .final{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:clamp(3rem,10vw,4.5rem);letter-spacing:.06em;color:#67e8f9;text-shadow:0 0 14px #fff,0 0 34px #22d3ee,0 0 80px rgba(34,211,238,.6);}
-  .drift-summary-inner .high{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;color:#fde68a;letter-spacing:.16em;text-shadow:0 0 16px rgba(251,191,36,.7);animation:driftBlink 1.2s steps(2,end) infinite;font-size:.95rem;}
-  @keyframes driftBlink{0%,49%{opacity:1}50%,100%{opacity:.25}}
-  .drift-summary-actions{display:flex;gap:1rem;margin-top:1rem;flex-wrap:wrap;justify-content:center;}
-  .drift-go-btn{font-family:'Chakra Petch',system-ui,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.14em;padding:1rem 1.8rem;border:2px solid #22d3ee;color:#67e8f9;background:transparent;border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(34,211,238,.5);}
-  .drift-go-btn:hover{background:#22d3ee;color:#04141a;text-shadow:none;box-shadow:0 0 24px rgba(34,211,238,.55);}
-  .drift-go-btn.ghost{border-color:#1e4048;color:#4a6b73;text-shadow:none;}
+  .drift-summary-view{justify-content:center;align-items:center;}
+  .drift-summary-inner{position:relative;z-index:25;display:flex;flex-direction:column;gap:1.4rem;align-items:center;text-align:center;padding:3rem 1.5rem;min-height:420px;justify-content:center;animation:gtgSplashIn .45s cubic-bezier(.2,.7,.3,1);}
+  .drift-summary-inner h2{font-family:'Press Start 2P',monospace;font-size:clamp(1.3rem,3.4vw,2.4rem);letter-spacing:.08em;color:#22d3ee;text-shadow:0 0 8px #cffafe,0 0 24px #22d3ee,0 4px 0 #083344;}
+  .drift-summary-inner .lbl{font-family:'Press Start 2P',monospace;font-size:.6rem;color:#0e7490;letter-spacing:.22em;}
+  .drift-summary-inner .final{font-family:'Press Start 2P',monospace;font-size:clamp(2rem,6vw,3.4rem);letter-spacing:.06em;color:#22d3ee;text-shadow:0 0 8px #cffafe,0 0 22px #22d3ee,0 4px 0 #083344;}
+  .drift-summary-inner .high{font-family:'Press Start 2P',monospace;font-size:clamp(.6rem,1.3vw,.75rem);color:#fde68a;letter-spacing:.15em;text-shadow:0 0 14px rgba(251,191,36,.7);animation:gtgNewHighBlink .9s steps(2,end) infinite;}
+  .drift-summary-actions{display:flex;gap:1rem;margin-top:.5rem;flex-wrap:wrap;justify-content:center;}
+  .drift-go-btn{font-family:'Press Start 2P',monospace;font-size:clamp(.6rem,1.2vw,.75rem);letter-spacing:.08em;padding:clamp(.7rem,1.5vw,.95rem) clamp(1.1rem,2.5vw,1.7rem);border:2px solid #22d3ee;color:#22d3ee;background:transparent;border-radius:4px;cursor:pointer;transition:all .2s ease;text-shadow:0 0 8px rgba(34,211,238,.4);}
+  .drift-go-btn:hover{background:#22d3ee;color:#04141a;text-shadow:none;box-shadow:0 0 20px rgba(34,211,238,.45);}
+  .drift-go-btn.ghost{border-color:#1e4048;color:#67919b;text-shadow:none;}
   .drift-go-btn.ghost:hover{color:#fff;background:#0e2a30;box-shadow:none;border-color:#22d3ee;}
-  @media (max-width:640px){
+  @media (max-width:700px){
+    .drift-shell{max-width:100%;}
     .drift-arena{grid-template-columns:1fr;}
-    .drift-card{aspect-ratio:16/10;}
-    .drift-splash-title{font-size:2.6rem}
+    .drift-card{aspect-ratio:16/10;max-height:none;}
+    .drift-splash-title{font-size:1.7rem}
     .drift-splash-emojis{font-size:clamp(3.5rem,18vw,6rem)}
   }
 </style>
@@ -1141,6 +1147,7 @@
     <div class="gtg-splash-inner">
       <div class="gtg-splash-emojis"><span>🎮</span><span>👾</span><span>🕹️</span></div>
       <div class="gtg-splash-title">GUESS THE GAME</div>
+      <div class="gtg-tagline">FASTER PICK — HIGHER SCORE</div>
       <div class="gtg-diff-row">
         <button class="gtg-diff-btn" type="button" data-gtg-diff="easy">EASY</button>
         <button class="gtg-diff-btn" type="button" data-gtg-diff="medium">MEDIUM</button>
@@ -1172,6 +1179,7 @@
                 <span class="gtg-corner tr"></span>
                 <span class="gtg-corner bl"></span>
                 <span class="gtg-corner br"></span>
+                <div class="gtg-zoom-bar-wrap"><div class="gtg-zoom-bar" data-gtg-zoombar></div></div>
               </div>
               <div class="gtg-shot-shield" data-gtg-shield></div>
             </div>
@@ -1200,12 +1208,11 @@
   <button class="ov-close ov-cyan" id="driftClose" type="button" aria-label="Close">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
   </button>
-  <div class="drift-bg-grid"></div>
-  <div class="drift-bg-glow"></div>
   <div class="drift-view drift-splash-view on" data-drift-view="splash">
     <div class="drift-splash-inner">
       <div class="drift-splash-emojis"><span>🌊</span><span>🎯</span><span>📡</span></div>
       <div class="drift-splash-title">DRIFT</div>
+      <div class="drift-tagline">PICK THE WINNING STAT</div>
       <div class="drift-diff-row">
         <button class="drift-start-btn" type="button" data-drift-start>START</button>
       </div>
@@ -1217,44 +1224,67 @@
   </div>
   <div class="drift-view drift-game-view" data-drift-view="game">
     <div class="drift-shell">
-      <div class="drift-hud">
-        <div>
-          <div class="drift-hud-label">SCORE</div>
-          <div class="drift-hud-value" data-drift-score>0</div>
-          <div class="drift-hud-sub">TIER <b data-drift-tier>EASY</b></div>
+      <div class="drift-frame">
+        <div class="drift-crt">
+          <div class="drift-crt-content">
+            <div class="drift-hud">
+              <div class="drift-hud-block">
+                <span class="drift-hud-label">SCORE</span>
+                <span class="drift-hud-value" data-drift-score>0</span>
+                <span class="drift-hud-sub">TIER <b data-drift-tier>EASY</b></span>
+              </div>
+              <div class="drift-hearts" data-drift-hearts></div>
+            </div>
+            <div class="drift-prompt" data-drift-prompt>WHICH IS LONGER?</div>
+            <div class="drift-arena">
+              <div class="drift-col">
+                <div class="drift-card" data-drift-side="left">
+                  <span class="drift-subject">SUBJECT #—</span>
+                  <div class="drift-shot" data-drift-shot="left"></div>
+                  <div class="drift-logo-wrap" data-drift-logo="left"></div>
+                  <div class="drift-reveal" data-drift-reveal="left"></div>
+                </div>
+                <div class="drift-peek-slot">
+                  <button class="drift-peek-btn hidden" data-drift-peek="left" type="button">🔍 PEEK</button>
+                </div>
+              </div>
+              <div class="drift-col">
+                <div class="drift-card" data-drift-side="right">
+                  <span class="drift-subject">SUBJECT #—</span>
+                  <div class="drift-shot" data-drift-shot="right"></div>
+                  <div class="drift-logo-wrap" data-drift-logo="right"></div>
+                  <div class="drift-reveal" data-drift-reveal="right"></div>
+                </div>
+                <div class="drift-peek-slot">
+                  <button class="drift-peek-btn hidden" data-drift-peek="right" type="button">🔍 PEEK</button>
+                </div>
+              </div>
+            </div>
+            <div class="drift-reveal-line" data-drift-reveal-line></div>
+          </div>
+          <div class="gtg-scanlines"></div>
+          <div class="gtg-vignette"></div>
         </div>
-        <div class="drift-hearts" data-drift-hearts></div>
       </div>
-      <div class="drift-prompt" data-drift-prompt>WHICH IS LONGER?</div>
-      <div class="drift-arena">
-        <div class="drift-card" data-drift-side="left">
-          <span class="drift-subject">SUBJECT #—</span>
-          <div class="drift-shot" data-drift-shot="left"></div>
-          <div class="drift-logo-wrap" data-drift-logo="left"></div>
-          <div class="drift-reveal" data-drift-reveal="left"></div>
-        </div>
-        <div class="drift-card" data-drift-side="right">
-          <span class="drift-subject">SUBJECT #—</span>
-          <div class="drift-shot" data-drift-shot="right"></div>
-          <div class="drift-logo-wrap" data-drift-logo="right"></div>
-          <div class="drift-reveal" data-drift-reveal="right"></div>
-        </div>
-      </div>
-      <div class="drift-peek-row">
-        <button class="drift-peek-btn hidden" data-drift-peek type="button">🔍 REVEAL INFO</button>
-      </div>
-      <div class="drift-reveal-line" data-drift-reveal-line></div>
     </div>
   </div>
   <div class="drift-view drift-summary-view" data-drift-view="summary">
-    <div class="drift-summary-inner">
-      <h2>SIGNAL LOST</h2>
-      <div class="lbl">FINAL SCORE</div>
-      <div class="final" data-drift-final>0</div>
-      <div class="high" data-drift-newhigh style="display:none">★ NEW BEST ★</div>
-      <div class="drift-summary-actions">
-        <button class="drift-go-btn" type="button" data-drift-play-again>DRIFT AGAIN</button>
-        <button class="drift-go-btn ghost" type="button" data-drift-menu>MENU</button>
+    <div class="drift-shell">
+      <div class="drift-frame">
+        <div class="drift-crt">
+          <div class="drift-summary-inner">
+            <h2>SIGNAL LOST</h2>
+            <div class="lbl">FINAL SCORE</div>
+            <div class="final" data-drift-final>0</div>
+            <div class="high" data-drift-newhigh style="display:none">★ NEW BEST ★</div>
+            <div class="drift-summary-actions">
+              <button class="drift-go-btn" type="button" data-drift-play-again>DRIFT AGAIN</button>
+              <button class="drift-go-btn ghost" type="button" data-drift-menu>MENU</button>
+            </div>
+          </div>
+          <div class="gtg-scanlines"></div>
+          <div class="gtg-vignette"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -2177,7 +2207,7 @@ function showTokenPrompt(){
   });
 }
 function closeTokenPrompt(){ tokenBackdrop.classList.remove('open'); tokenSlot.innerHTML = ''; refreshScrollJumpVisibility(); }
-function enterAdmin(){ adminMode = true; bodyEl.classList.add('admin-on'); adminToggleLabel.textContent = 'Exit Admin'; invalidateAllPanes(); renderContent(); }
+function enterAdmin(){ adminMode = true; bodyEl.classList.add('admin-on'); adminToggleLabel.textContent = 'Exit Admin'; updatePendingStrip(); invalidateAllPanes(); renderContent(); }
 function exitAdmin(){ adminMode = false; voidMode = false; bodyEl.classList.remove('admin-on'); adminToggleLabel.textContent = 'Admin'; toolsBtn.classList.remove('void-on'); invalidateAllPanes(); updatePendingStrip(); renderContent(); }
 async function bootAdminFlow(){
   const tok = getToken();
@@ -2262,7 +2292,93 @@ async function ghUpdateRef(sha){
 function totalPendingCount(){
   return pendingGameWrites.size + pendingGameDeletes.size + pendingListWrites.size + pendingFileWrites.size + pendingFileDeletes.size + pendingFileRenames.size + pendingSeriesWrites.size + pendingSeriesDeletes.size + (pendingSeriesOrder ? 1 : 0);
 }
+const PENDING_STORAGE_KEY = 'coopvault_pending_v1';
+function clearPendingStorage(){
+  try{ localStorage.removeItem(PENDING_STORAGE_KEY); }catch(e){}
+}
+function savePendingToStorage(){
+  if(!manifestLoaded) return;
+  const n = totalPendingCount();
+  if(n === 0){ clearPendingStorage(); return; }
+  try{
+    const payload = {
+      v: 1,
+      manifestUpdated: MANIFEST.updated || '',
+      gameWrites: [...pendingGameWrites.entries()],
+      gameDeletes: [...pendingGameDeletes],
+      gameDelSnaps: [...pendingGameDeleteSnapshots.entries()],
+      seriesDelSnaps: [...pendingSeriesDeleteSnapshots.entries()],
+      listWrites: [...pendingListWrites.entries()],
+      fileWrites: [...pendingFileWrites.entries()],
+      fileDeletes: [...pendingFileDeletes],
+      fileRenames: [...pendingFileRenames.entries()],
+      seriesWrites: [...pendingSeriesWrites.entries()],
+      seriesDeletes: [...pendingSeriesDeletes],
+      seriesOrder: pendingSeriesOrder
+    };
+    localStorage.setItem(PENDING_STORAGE_KEY, JSON.stringify(payload));
+  }catch(e){
+    console.warn('savePendingToStorage failed:', e);
+  }
+}
+function restorePendingFromStorage(){
+  if(!manifestLoaded) return;
+  let saved = null;
+  try{
+    const raw = localStorage.getItem(PENDING_STORAGE_KEY);
+    if(!raw) return;
+    saved = JSON.parse(raw);
+  }catch(e){
+    clearPendingStorage();
+    return;
+  }
+  if(!saved || saved.v !== 1) return;
+  if(saved.manifestUpdated && MANIFEST.updated && saved.manifestUpdated !== MANIFEST.updated){
+    if(!confirm('Found unsaved changes from an older database snapshot. Restore them anyway? (Cancel to discard)')){
+      clearPendingStorage();
+      return;
+    }
+  }
+  const loadMap = (target, entries) => {
+    target.clear();
+    if(Array.isArray(entries)) for(const [k, v] of entries) target.set(k, v);
+  };
+  const loadSet = (target, arr) => {
+    target.clear();
+    if(Array.isArray(arr)) for(const v of arr) target.add(v);
+  };
+  loadMap(pendingGameWrites, saved.gameWrites);
+  loadSet(pendingGameDeletes, saved.gameDeletes);
+  loadMap(pendingGameDeleteSnapshots, saved.gameDelSnaps);
+  loadMap(pendingSeriesDeleteSnapshots, saved.seriesDelSnaps);
+  loadMap(pendingListWrites, saved.listWrites);
+  loadMap(pendingFileWrites, saved.fileWrites);
+  loadSet(pendingFileDeletes, saved.fileDeletes);
+  loadMap(pendingFileRenames, saved.fileRenames);
+  loadMap(pendingSeriesWrites, saved.seriesWrites);
+  loadSet(pendingSeriesDeletes, saved.seriesDeletes);
+  pendingSeriesOrder = Array.isArray(saved.seriesOrder) ? saved.seriesOrder : null;
+  try{
+    if(pendingFileWrites.has(BSIDES_FILE)){
+      const b = JSON.parse(pendingFileWrites.get(BSIDES_FILE));
+      if(b && typeof b === 'object') BSIDES = b;
+    }
+    if(pendingFileWrites.has(PROJECTS_FILE)){
+      const p = JSON.parse(pendingFileWrites.get(PROJECTS_FILE));
+      if(p && typeof p === 'object') PROJECTS = p;
+    }
+    if(pendingFileWrites.has(PLATFORMS_FILE)){
+      const pl = JSON.parse(pendingFileWrites.get(PLATFORMS_FILE));
+      if(pl && typeof pl === 'object') PLATFORMS = pl;
+    }
+  }catch(e){
+    console.warn('restore fileWrites parse failed:', e);
+  }
+  const n = totalPendingCount();
+  if(n > 0) toast('Restored ' + n + ' unsaved change' + (n === 1 ? '' : 's') + ' — click Admin to review');
+}
 function updatePendingStrip(){
+  savePendingToStorage();
   const n = totalPendingCount();
   if(n === 0 || !adminMode){ pendingStrip.classList.remove('on'); pendingStrip.innerHTML = ''; return; }
   pendingStrip.classList.add('on');
@@ -4587,7 +4703,7 @@ function renderToolbar(){
     </div>
     ${tab === 'mods' ? `
 <div style="flex:1; display:flex; justify-content:center; padding:0 1rem;">
-        <div class="mega-btn" onclick="event.preventDefault(); const img = this.querySelector('.demon-icon'); if(img.dataset.booming) return; img.dataset.booming='true'; img.src='https://megalist.neocities.org/pk_boom.gif'; setTimeout(() => { window.open('https://megalist.neocities.org/mpm', '_blank'); }, 600); setTimeout(() => { img.src='https://megalist.neocities.org/pk_idle.gif'; delete img.dataset.booming; }, 3000);">
+        <div class="mega-btn" onclick="event.preventDefault(); const img = this.querySelector('.demon-icon'); if(img.dataset.booming) return; img.dataset.booming='true'; img.src='https://megalist.neocities.org/pk_boom.gif'; window.open('https://megalist.neocities.org/mpm', '_blank'); setTimeout(() => { img.src='https://megalist.neocities.org/pk_idle.gif'; delete img.dataset.booming; }, 3000);">
           <span class="tooltip">MEGA LIST</span>
           <span class="reveal left">MΞGA</span>
           <img src="https://megalist.neocities.org/pk_idle.gif" class="demon-icon">
@@ -8235,10 +8351,8 @@ async function randomSpin(){
   const willBounce = Math.random() < 0.40;
   const finalIdx = willBounce ? (Math.random() < 0.5 ? targetIdx : targetIdx + 1) : targetIdx;
   buildRandomReel(winner.id, finalIdx, pool);
-  await waitForReelImages(700);
+  await waitForReelImages(1500);
   if(myToken !== randomSpinToken) return;
-  const phase1X = willBounce ? randomXForGapAfter(targetIdx) : randomXForIndex(targetIdx);
-  const phase2X = willBounce ? randomXForIndex(finalIdx) : null;
   const startX = 0;
   const phase1Duration = 5400;
   const phase2Pause = 320;
@@ -8248,14 +8362,16 @@ async function randomSpin(){
     if(myToken !== randomSpinToken) return;
     const t = Math.min((now - t0) / phase1Duration, 1);
     const eased = easeOutQuint(t);
-    const x = startX + (phase1X - startX) * eased;
+    const p1Now = willBounce ? randomXForGapAfter(targetIdx) : randomXForIndex(targetIdx);
+    const x = startX + ((p1Now ?? 0) - startX) * eased;
     randomReel.style.transform = `translateX(${Math.round(x)}px)`;
     randomCurrentX = x;
     if(t < 1){
       requestAnimationFrame(frame1);
     } else {
-      randomCurrentX = phase1X;
-      randomReel.style.transform = `translateX(${Math.round(phase1X)}px)`;
+      const p1End = p1Now ?? 0;
+      randomCurrentX = p1End;
+      randomReel.style.transform = `translateX(${Math.round(p1End)}px)`;
       if(willBounce){
         setTimeout(() => {
           if(myToken !== randomSpinToken) return;
@@ -8264,14 +8380,16 @@ async function randomSpin(){
             if(myToken !== randomSpinToken) return;
             const t2 = Math.min((now2 - t2Start) / phase2Duration, 1);
             const eased2 = easeOutBack(t2, 1.15);
-            const x2 = phase1X + (phase2X - phase1X) * eased2;
+            const p1Gap = randomXForGapAfter(targetIdx) ?? p1End;
+            const p2Target = randomXForIndex(finalIdx) ?? p1Gap;
+            const x2 = p1Gap + (p2Target - p1Gap) * eased2;
             randomReel.style.transform = `translateX(${Math.round(x2)}px)`;
             randomCurrentX = x2;
             if(t2 < 1){
               requestAnimationFrame(frame2);
             } else {
-              randomCurrentX = phase2X;
-              randomReel.style.transform = `translateX(${Math.round(phase2X)}px)`;
+              randomCurrentX = p2Target;
+              randomReel.style.transform = `translateX(${Math.round(p2Target)}px)`;
               const card = randomReel.children[finalIdx];
               if(card) card.classList.add('winner');
               randomFinishSpin(card ? card.dataset.id : winner.id, tintPromise, myToken);
@@ -9146,6 +9264,7 @@ const gtgFrameEl = gtgOverlay.querySelector('[data-gtg-frame]');
 const gtgShotEl = gtgOverlay.querySelector('[data-gtg-shot]');
 const gtgShotFrameEl = gtgOverlay.querySelector('[data-gtg-shot-frame]');
 const gtgImg = gtgOverlay.querySelector('[data-gtg-img]');
+const gtgZoomBarEl = gtgOverlay.querySelector('[data-gtg-zoombar]');
 const gtgShield = gtgOverlay.querySelector('[data-gtg-shield]');
 const gtgTilesEl = gtgOverlay.querySelector('[data-gtg-tiles]');
 const gtgScoreEl = gtgOverlay.querySelector('[data-gtg-score]');
@@ -9333,6 +9452,7 @@ function gtgStartPullback(){
     const mult = gtgPullbackMult(tSec);
     gtgImg.style.transform = 'scale(' + (1 / zoom) + ')';
     gtgState.pullback.multiplier = mult;
+    if(gtgZoomBarEl) gtgZoomBarEl.style.width = ((1 - tSec / 6) * 100) + '%';
     if(elapsed < DURATION){ gtgState.pullback.rafId = requestAnimationFrame(loop); }
     else { gtgState.pullback.rafId = null; }
   };
@@ -9341,6 +9461,7 @@ function gtgStartPullback(){
 function gtgApplyShot(url){
   gtgImg.classList.remove('ready');
   gtgImg.style.transform = 'scale(' + (1 / 0.6) + ')';
+  if(gtgZoomBarEl) gtgZoomBarEl.style.width = '100%';
   gtgState.pullback.multiplier = 2.0;
   gtgImg.onload = () => {
     gtgSizeShotFrame();
@@ -9514,7 +9635,7 @@ const driftFinalEl = driftOverlay.querySelector('[data-drift-final]');
 const driftNewHighEl = driftOverlay.querySelector('[data-drift-newhigh]');
 const driftLastEl = driftOverlay.querySelector('[data-drift-last]');
 const driftTopEl = driftOverlay.querySelector('[data-drift-top]');
-const driftPeekBtn = driftOverlay.querySelector('[data-drift-peek]');
+const driftPeekBtns = [...driftOverlay.querySelectorAll('[data-drift-peek]')];
 const DRIFT_HP = 3;
 const DRIFT_MULT = { easy: 0.8, medium: 1.0, hard: 1.3 };
 const DRIFT_BANDS = ['easy', 'medium', 'hard'];
@@ -9563,8 +9684,8 @@ function driftRenderHearts(){
 function driftRenderScore(){ driftScoreEl.textContent = String(Math.round(driftState.score)); }
 function driftRenderTier(){ driftTierEl.textContent = driftCurrentBand().toUpperCase(); }
 function driftUpdatePeekButton(){
-  if(driftState.peekAvailable && !driftState.peekUsedThisRound && !driftState.busy && !driftState.over){ driftPeekBtn.classList.remove('hidden'); }
-  else { driftPeekBtn.classList.add('hidden'); }
+  const ready = driftState.peekAvailable && !driftState.peekUsedThisRound && !driftState.busy && !driftState.over;
+  driftPeekBtns.forEach(btn => btn.classList.toggle('hidden', !ready));
 }
 function driftFormatValue(q, v){
   if(q.key === 'release') return String(Math.round(v));
@@ -9707,8 +9828,10 @@ function driftAnswer(side){
   if(band === 'easy' || driftState.peekUsedThisRound){
     if(!revealThis.textContent){
       revealThis.textContent = driftFormatValue(pair.q, pair.values[side]);
-      revealOther.textContent = driftFormatValue(pair.q, pair.values[otherSide]);
       revealThis.classList.add('show');
+    }
+    if(!revealOther.textContent){
+      revealOther.textContent = driftFormatValue(pair.q, pair.values[otherSide]);
       revealOther.classList.add('show');
     }
   } else if(band === 'medium'){
@@ -9728,17 +9851,17 @@ function driftAnswer(side){
     driftNextRound();
   }, delay);
 }
-function driftUsePeek(){
+function driftUsePeek(side){
   if(!driftState.peekAvailable) return;
   if(driftState.busy || driftState.over) return;
   if(driftState.peekUsedThisRound) return;
   const pair = driftState.current;
-  if(!pair) return;
-  const leftR = driftOverlay.querySelector('[data-drift-reveal="left"]');
-  const rightR = driftOverlay.querySelector('[data-drift-reveal="right"]');
-  leftR.textContent = driftFormatValue(pair.q, pair.values.left);
-  rightR.textContent = driftFormatValue(pair.q, pair.values.right);
-  leftR.classList.add('show'); rightR.classList.add('show');
+  if(!pair || (side !== 'left' && side !== 'right')) return;
+  const r = driftOverlay.querySelector(`[data-drift-reveal="${side}"]`);
+  if(r){
+    r.textContent = driftFormatValue(pair.q, pair.values[side]);
+    r.classList.add('show');
+  }
   driftState.peekAvailable = false;
   driftState.peekUsedThisRound = true;
   driftUpdatePeekButton();
@@ -9779,7 +9902,7 @@ driftOverlay.querySelectorAll('[data-drift-start]').forEach(b => b.addEventListe
 driftOverlay.querySelectorAll('[data-drift-play-again]').forEach(b => b.addEventListener('click', driftStart));
 driftOverlay.querySelectorAll('[data-drift-menu]').forEach(b => b.addEventListener('click', driftBackToSplash));
 driftOverlay.querySelectorAll('.drift-card').forEach(card => card.addEventListener('click', () => driftAnswer(card.dataset.driftSide)));
-if(driftPeekBtn) driftPeekBtn.addEventListener('click', driftUsePeek);
+driftPeekBtns.forEach(btn => btn.addEventListener('click', () => driftUsePeek(btn.dataset.driftPeek)));
 const scrollDownBtn = document.getElementById('scrollDownBtn');
 const scrollUpBtn = document.getElementById('scrollUpBtn');
 const seriesJumpBtn = document.getElementById('seriesJumpBtn');
@@ -9908,6 +10031,7 @@ document.getElementById('driftBtn').addEventListener('click', openDRIFT);
   await loadProjects();
   await loadManifest();
   if(!manifestLoaded) toast('Failed to load manifest.json — read-only mode', 'bad');
+  else restorePendingFromStorage();
   (function restoreLastTab(){
     try{
       const saved = JSON.parse(localStorage.getItem('view_last_tab') || 'null');
