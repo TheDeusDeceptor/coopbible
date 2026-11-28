@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-27T19:37:56Z",
+  "updated": "2026-11-28T03:27:02Z",
   "games": {
     "deep-rock-galactic-2020-pc": {
       "id": "deep-rock-galactic-2020-pc",
@@ -42568,6 +42568,45 @@
       "series": null,
       "series_status": null,
       "series_note": null
+    },
+    "no-asteroids-2026-pc": {
+      "id": "no-asteroids-2026-pc",
+      "name": "No Asteroids",
+      "platform": "PC",
+      "size": "1 GB",
+      "hltb": "—",
+      "dev": "Unruled Games",
+      "pub": "Unruled Games",
+      "notes": "",
+      "release": "24.11.2026",
+      "ea_release": "",
+      "screenshot": "images/screenshots/no-asteroids-2026-pc.jpg",
+      "logo": "images/logos/no-asteroids-2026-pc.png",
+      "video": "https://video.akamai.steamstatic.com/store_trailers/5527800/1003924089/25f4acffe62c8bb6c85947cf4ca5e4cfa5719256/1794413482/microtrailer.mp4?t=1794419405",
+      "links": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/5527800",
+          "icon": "steam"
+        },
+        {
+          "label": "PCGW",
+          "url": "https://www.pcgamingwiki.com/wiki/No_Asteroids",
+          "icon": "pcgw"
+        }
+      ],
+      "alt_names": [],
+      "dlc": [],
+      "flags": {
+        "installed": false,
+        "localCoop": false,
+        "authRequired": false,
+        "ownedSteam": false,
+        "gamepass": false
+      },
+      "series": null,
+      "series_status": null,
+      "series_note": null
     }
   },
   "lists": {
@@ -43083,7 +43122,8 @@
       "mycorelic-2026-pc",
       "lightyear-frontier-2026-pc",
       "moonshiner-simulator-2026-pc",
-      "guinea-pig-runaway-together-2026-pc"
+      "guinea-pig-runaway-together-2026-pc",
+      "no-asteroids-2026-pc"
     ],
     "early-access": [
       "bellwright-2024-pc",
