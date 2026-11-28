@@ -899,7 +899,7 @@
   .gtg-heart{font-family:'Inter',system-ui,sans-serif;font-size:1.45rem;line-height:1;color:#ef4444;transition:all .2s ease;}
   .gtg-heart.dim{color:#ef4444;opacity:.18;transform:scale(.85);}
 
-  .gtg-shot{position:relative;height:clamp(220px,48vh,520px);width:100%;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:1rem;user-select:none;-webkit-user-select:none;}
+  .gtg-shot{position:relative;height:clamp(220px,48vh,520px);width:100%;background:transparent;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:1rem;user-select:none;-webkit-user-select:none;}
   .gtg-shot-frame{position:relative;border:1px solid rgba(255,255,255,.14);border-radius:8px;overflow:hidden;transition:width .18s ease,height .18s ease;background:#000;}
   .gtg-shot-img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none;user-select:none;opacity:0;transition:opacity .25s ease;transform-origin:center center;will-change:transform;}
   .gtg-shot-img.ready{opacity:1}
@@ -9530,7 +9530,7 @@ function gtgRunStatic(durationMs, onDone){
   const W = 80, H = 45;
   canvas.width = W; canvas.height = H;
   canvas.className = 'gtg-static-canvas';
-  gtgShotEl.appendChild(canvas);
+  gtgShotFrameEl.appendChild(canvas);
   const ctx = canvas.getContext('2d');
   const img = ctx.createImageData(W, H);
   const data = img.data;
